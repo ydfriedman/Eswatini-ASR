@@ -1,0 +1,76 @@
+slot	stem	generator_class	bare_count	i-	ema-	ti-	ku-	ne-	se-	nge-	kwe-	ye-
+DRUG	ARV	5/6	3	2	15	0	0	0	0	0	0	0
+TEST	CD4 count	5/6	0	0	0	0	0	0	0	0	0	0
+TEST	HIV test	5/6	0	0	0	0	0	0	0	0	0	0
+TEST	TB test	5/6	0	0	0	0	0	0	0	0	0	0
+REL	after lunch	bare	0	0	0	0	0	0	0	0	0	0
+COND	anaemia	bare	0	0	0	0	0	0	0	0	0	0
+DRUG	antibiotic	5/6	4	2	2	0	0	0	0	0	0	0
+APPT	appointment	5/6	0	0	0	0	0	0	0	0	0	0
+ITEM	appointment card	5/6	0	0	0	0	0	0	0	0	0	0
+COND	asthma	bare	0	0	0	0	0	0	3	0	0	0
+SYMP	back pain	bare	0	0	0	0	0	0	0	0	0	0
+TEST	blood test	5/6	0	0	0	0	0	0	0	0	0	0
+MISC	booking	5/6	0	0	0	0	0	0	0	0	0	0
+SYMP	chest pain	bare	0	0	0	0	0	0	0	0	0	0
+PLACE	clinic	5/6	0	0	0	0	0	0	0	0	0	0
+ITEM	clinic card	5/6	0	0	0	0	0	0	0	0	0	0
+RES	condom	5/6	0	0	0	0	0	0	0	0	0	0
+SYMP	cough	bare	0	0	0	0	0	0	0	0	0	0
+STAFF	counsellor	1a/2a	0	0	0	0	0	0	0	0	0	0
+COND	diabetes	bare	1	0	0	0	0	0	0	0	0	0
+SYMP	diarrhoea	bare	0	0	0	0	0	0	0	0	0	0
+SYMP	dizziness	bare	0	0	0	0	0	0	0	0	0	0
+STAFF	doctor	1a/2a	2	0	0	0	0	0	0	0	0	0
+COND	epilepsy	bare	0	0	0	0	0	0	0	0	0	0
+SYMP	fever	bare	23	0	0	0	0	0	0	0	0	0
+MISC	form	5/6	186	27	0	0	12	2	0	0	0	0
+SYMP	headache	bare	0	0	0	0	0	0	0	0	0	0
+PLACE	health centre	5/6	0	0	0	0	0	0	0	0	0	0
+RESULT	high	bare	38	0	0	0	0	0	0	0	0	0
+SYMP	high blood pressure	bare	1	0	0	0	0	0	0	0	0	0
+PLACE	hospital	5/6	5	0	0	0	0	0	0	0	0	0
+COND	hypertension	bare	0	2	0	0	0	0	0	0	0	0
+ITEM	identity card	5/6	0	0	0	0	0	0	0	0	0	0
+ITEM	lab form	5/6	0	0	0	0	0	0	0	0	0	0
+STAFF	lab technician	1a/2a	0	0	0	0	0	0	0	0	0	0
+PLACE	laboratory	5/6	1	0	0	0	0	0	0	0	0	0
+RESULT	low	bare	6	4	0	0	0	0	0	0	0	2
+COND	malaria	bare	1	0	0	0	0	0	0	0	0	0
+ITEM	medication	9/10	1	0	0	0	0	0	0	0	0	0
+ITEM	medicine	9/10	8	0	0	0	4	0	0	0	0	0
+MISC	message	5/6	0	0	0	0	0	0	0	0	0	0
+SYMP	nausea	bare	0	0	0	0	0	0	0	0	0	0
+RESULT	negative	bare	0	0	0	0	0	0	0	0	0	0
+REL	next month	bare	0	0	0	0	0	0	0	0	0	0
+REL	next week	bare	0	0	0	0	0	0	0	0	0	0
+RESULT	normal	bare	0	0	0	0	0	0	0	0	0	0
+STAFF	nurse	1a/2a	2	0	0	0	0	0	0	0	0	0
+DRUG	painkiller	5/6	0	0	0	0	0	0	0	0	0	0
+STAFF	pharmacist	1a/2a	0	0	0	0	0	0	0	0	0	0
+PLACE	pharmacy	5/6	12	0	0	0	0	0	0	0	0	0
+MISC	phone	5/6	0	0	0	0	0	0	0	0	0	0
+DRUG	pill	5/6	0	0	0	0	0	0	0	0	0	0
+RESULT	positive	bare	0	0	0	0	0	0	0	0	0	0
+TEST	pregnancy test	5/6	0	0	0	0	0	0	0	0	0	0
+ITEM	prescription	5/6	0	0	0	0	0	0	0	0	0	0
+MISC	queue	5/6	0	0	0	0	0	0	0	0	0	0
+SYMP	rash	bare	0	0	0	0	0	0	0	0	0	0
+ITEM	referral letter	5/6	0	0	0	0	0	0	0	0	0	0
+MISC	refill	5/6	0	0	0	0	0	0	0	0	0	0
+RES	result	5/6	2	0	0	0	0	0	0	0	0	0
+TEST	scan	9/10	54	0	0	0	0	0	0	0	0	0
+ITEM	sick note	5/6	0	0	0	0	0	0	0	0	0	0
+RES	side effect	5/6	0	0	0	0	0	0	0	0	0	0
+TEST	sugar test	5/6	0	0	0	0	0	0	0	0	0	0
+DRUG	tablet	5/6	0	0	0	0	1	0	0	0	0	0
+MISC	taxi	5/6	4	0	0	0	0	0	0	0	0	0
+REL	this week	bare	0	0	0	0	0	0	0	0	0	0
+REL	tomorrow morning	bare	0	0	0	0	0	0	0	0	0	0
+MISC	transport	9/10	3	0	0	0	0	0	0	0	0	0
+ITEM	treatment	9/10	5	0	0	0	0	0	0	0	0	0
+COND	tuberculosis	bare	2	1	0	0	0	0	0	0	0	0
+RESULT	undetectable	bare	0	0	0	0	0	0	0	0	0	0
+TEST	urine test	5/6	0	0	0	0	0	0	0	0	0	0
+TEST	viral load	5/6	0	0	0	0	0	0	0	0	0	0
+TEST	x-ray	5/6	1	0	0	0	0	0	0	0	0	2

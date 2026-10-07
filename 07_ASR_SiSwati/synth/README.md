@@ -6,17 +6,34 @@
   Regenerate: `python textgen.py --n 2000 --out ../data/synth_text --seed 0`; test: `python test_textgen.py`.
 
 ## What is modelled
-Noun-class prefix from the loan's class (`i-/ema-`, `i-/ti-`, `bo-`), concord/possessive/demonstrative/`new` agreement from
-that class, English verb stems under `ku-`/`u-`, and six logged switch types (insertion, dm_initial, conj_inter,
-alternational, eng_first, tag). Train/val are split by clause, so no clause in val appears in train.
+Noun-class prefix from the loan's class (`i-/ema-`), concord/possessive/demonstrative/`new` agreement from that class, English verb
+stems under `ku-`/`u-`, function prefixes on English stems (`ne-`, `nge-`, `ku-`, `kwe-`, `se-`), and nine logged sentence types:
+`mono_ssw`, `mono_eng`, `insertion`, `dm_initial`, `conj_inter`, `multi` (3+ segments), `alternational`, `eng_first`, `tag`.
+Train/val are split by clause / source sentence, so nothing in val appears in train.
+
+## Evidence used (all aggregate; raw data is gitignored under `data/raw/`)
+- **Real siSwati text** (SADiLaR Autshumato Monolingual + Bilingual EN-SS corpora, CC BY 4.0; 2.2M tokens). `scripts/mine_loans.py` ->
+  `data/synth_text/loan_evidence.tsv`, `loan_prefix_totals.json`. Findings: loans take `i-`/`ema-` (5,419 / 916 prefixed forms) and
+  almost never `ti-` (2), so the earlier 9/10 guesses were dropped; hyphenation (`i-form`, `ku-website`, `se-asthma`) is the dominant
+  convention; only 26 of 75 generator stems appear at all (the corpus is formal/government text, thin on clinical vocabulary); real
+  writers also respell many loans (`ajenda`, `akhawunti`, `inthanethi`) - **not modelled yet**.
+- **Soap-opera English-isiZulu transcripts** (SADiLaR, licence "Research only"; see below). `scripts/cs_stats.py` ->
+  `data/synth_text/soap_engzul_stats.json` (aggregates only): 40% of utterances mixed, 47% isiZulu-only, 13% English-only; 48% of mixed
+  utterances have 3+ language segments; 55% of English segments are one word, 23% two to three; most frequent English words are
+  `and so right but sure no okay if or`. `MODES` weights and the DM/conjunction lists were set from this. Caveat: that subset is
+  *balanced* by construction (equal English and Bantu), so its English share overstates natural speech.
+- `mono_ssw` / `mono_eng` utterances are real short sentences from the CC BY 4.0 corpora (formal register).
+
+## Licence note: soap-opera corpus
+SADiLaR record `20.500.12185/545` carries only `Research only.` (the bundled license.txt is the depositor's grant to SADiLaR, not user
+terms). Use is therefore limited to research; do not release weights or a product trained on it without written permission from the
+corpus owners (contact: Thomas Niesler, Stellenbosch). Audio for the English-isiZulu subset (5.45 h, 9,371 clips, 32 kHz) is downloaded
+to `data/raw/soapies_engzul/` (gitignored). Do not commit it.
 
 ## What is NOT verified (read before training on it)
-- **No native-speaker review of any siSwati.** Class assignments (`lexicon.py`, `conf: guess`), concord tables (`morph.py`),
-  clause templates and day/duration/relative phrases are the author's best attempt. Review sheets are generated:
-  `../data/synth_text/review_sample.tsv` (120 sentences) and `review_lexicon.tsv` (every class assignment).
-  Apply corrections in `lexicon.py` / `morph.py`, regenerate, retrain.
-- English share is ~50% of words overall because alternational/eng_first sentences contain whole English clauses; tune
-  `MODES` weights toward `insertion` if real data shows less English.
-- Spelling of the English stem is unchanged ("ema-pills"). A siSwati-ised spelling for TTS is not implemented.
-- The TTS step is not run here (no GPU/torch in this environment). `segments[].glue_next` marks a prefix that must be
-  voiced together with the following English stem; the old `make_corpus.py` voices segments separately and would not do this.
+- **No native-speaker review of any siSwati.** Person-noun class (`1a/2a`), the concord table, clause templates and day/duration phrases
+  are unreviewed. Review sheets: `../data/synth_text/review_sample.tsv` and `review_lexicon.tsv`. `loan_evidence.tsv` shows which stems
+  have corpus support.
+- The generator's English vocabulary is clinic-flavoured; the real soap-opera English is conversational. Switch statistics come from
+  an isiZulu drama corpus, not siSwati clinic speech.
+- The TTS step is not run here (no GPU/torch). `segments[].glue_next` marks a prefix that must be voiced with the following English stem.

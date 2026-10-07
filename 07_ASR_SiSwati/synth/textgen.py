@@ -66,6 +66,10 @@ CLAUSES = [
     "kunayo {STAFF:bare} lapha ku-{PLACE:bare} lamuhla",
     "{WHO} ukhale {SYMP} {TIME}",
     "ngitsenge {ITEM#a:sg:noun} {ITEM#a:sg:poss1} kuphela",
+    "ngifike nge-{VEH:bare} {TIME}",
+    "ngilethe {ITEM#a:sg:noun} ne-{ITEM#b:bare}",
+    "ngiphume ku-{PLACE:bare} emva kwe-{TEST:bare}",
+    "ngisebente ne-{STAFF:bare} lamuhla",
 ]
 
 PLURAL_STEM = lambda s: s + "s"
@@ -132,11 +136,22 @@ def split_clauses(items, rng, val_frac):
     return {"val": [items[i] for i in idx[:n_val]], "train": [items[i] for i in idx[n_val:]]}
 
 
-MODES = [("insertion", 0.38), ("dm_initial", 0.20), ("conj_inter", 0.14), ("alternational", 0.12), ("eng_first", 0.06), ("tag", 0.10)]
+# weights informed by the soap-opera English-isiZulu transcripts (data/synth_text/soap_engzul_stats.json): 40% of utterances mixed,
+# 48% of mixed utterances have 3+ language segments, English segments are mostly 1-3 words. Real siSwati-only and English-only
+# utterances are included so the model does not learn that every utterance is code-switched.
+MODES = [("mono_ssw", 0.15), ("mono_eng", 0.05), ("insertion", 0.25), ("dm_initial", 0.16), ("conj_inter", 0.10), ("multi", 0.10),
+         ("alternational", 0.07), ("eng_first", 0.04), ("tag", 0.08)]
 
 
-def make_sentence(mode, pool_c, pool_e, rng):
+def make_sentence(mode, pool_c, pool_e, rng, pool_r=None, pool_m=None):
+    if mode == "mono_ssw":
+        s = rng.choice(pool_r); return mode, s, [s]
+    if mode == "mono_eng":
+        e = rng.choice(pool_m or pool_e); return mode, f"[[{e}]]", [e]
     c1 = rng.choice(pool_c)
+    if mode == "multi":      # 3+ segments: ssw clause, English conjunction, ssw clause, English tag
+        c2 = rng.choice(pool_c)
+        return mode, f"{realize(c1, rng)} [[{rng.choice(L.CONJ_EN)}]] {realize(c2, rng)} [[{rng.choice(L.DM_TAG)}]]", [c1, c2]
     if mode == "insertion":
         return "insertion", realize(c1, rng), [c1]
     if mode == "dm_initial":
@@ -155,16 +170,35 @@ def make_sentence(mode, pool_c, pool_e, rng):
     raise ValueError(mode)
 
 
-def generate(n, seed=0, val_frac=0.1, max_tries=50):
+def load_real(raw_dir, lang="ssw", max_n=20000, seed=0):
+    """Short real sentences (SADiLaR Monolingual siSwati / Bilingual EN-SS corpora, CC BY 4.0) for monolingual utterances.
+    Lowercased, punctuation stripped, ASCII only, 4-9 words, no digits/acronyms/hyphens."""
+    import glob
+    f = glob.glob(os.path.join(raw_dir, "mono*", "*.ss.txt")) if lang == "ssw" else glob.glob(os.path.join(raw_dir, "bilingual*", "*BilingualCorpus*.en.txt"))
+    if not f: return None
+    out = []
+    for line in open(f[0], encoding="utf-8", errors="replace"):
+        if re.search(r"[0-9]|\b[A-Z]{2,}\b|-", line): continue
+        s = re.sub(r"\s+", " ", re.sub(r"[^A-Za-z' ]", " ", line)).strip().lower()
+        if 4 <= len(s.split()) <= 9 and re.fullmatch(r"[a-z' ]+", s): out.append(s)
+    out = sorted(set(out)); random.Random(seed).shuffle(out)
+    return out[:max_n]
+
+
+def generate(n, seed=0, val_frac=0.1, max_tries=50, real_ssw=None, real_eng=None):
     rng = random.Random(seed)
-    cl, ec = split_clauses(CLAUSES, rng, val_frac), split_clauses(L.ECLAUSES, rng, val_frac)
+    cl, ec = split_clauses(CLAUSES, rng, val_frac), split_clauses(L.ESHORT + L.ECLAUSES, rng, val_frac)
+    ec = {k: [e for e in v for _ in range(3 if e in L.ESHORT else 1)] for k, v in ec.items()}   # weight short segments 3:1, AFTER the split
+    rl = split_clauses(real_ssw, rng, val_frac) if real_ssw else None
+    if real_eng: ec_mono = split_clauses(real_eng, rng, val_frac)
+    modes = [(m, w) for m, w in MODES if rl or m != "mono_ssw"]
     out, seen = [], set()
     for split, quota in (("val", max(1, round(n * val_frac))), ("train", n - max(1, round(n * val_frac)))):
         got, tries = 0, 0
         while got < quota and tries < quota * max_tries:
             tries += 1
-            mode = rng.choices([m for m, _ in MODES], [w for _, w in MODES])[0]
-            mode, tagged, src = make_sentence(mode, cl[split], ec[split], rng)
+            mode = rng.choices([m for m, _ in modes], [w for _, w in modes])[0]
+            mode, tagged, src = make_sentence(mode, cl[split], ec[split], rng, rl[split] if rl else None, ec_mono[split] if real_eng else None)
             tagged = merge_english(tagged)
             text = plain(tagged)
             if text in seen: continue
@@ -179,7 +213,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=2000); ap.add_argument("--out", default="../data/synth_text"); ap.add_argument("--seed", type=int, default=0)
     a = ap.parse_args(); os.makedirs(a.out, exist_ok=True)
-    rows = generate(a.n, a.seed)
+    raw = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "raw", "ssw_text")
+    rows = generate(a.n, a.seed, real_ssw=load_real(raw, "ssw", seed=a.seed), real_eng=load_real(raw, "eng", seed=a.seed))
     with open(os.path.join(a.out, "cs_text.jsonl"), "w") as f:
         for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
     rng = random.Random(a.seed + 1)

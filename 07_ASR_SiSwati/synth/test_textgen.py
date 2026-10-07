@@ -29,7 +29,9 @@ def test_agreement_in_output():
         assert out.endswith(" " + want), out
 
 def test_corpus_properties():
-    rows = T.generate(1500, seed=3)
+    real = [f"ngicela ungitjele kabili sikhatsi {i}".replace(str(i), "ngelinye") + " " + w for i, w in enumerate(["lapha", "lamuhla", "kusasa", "izolo"] * 60)]
+    real = sorted(set(real)); assert len(real) >= 4
+    rows = T.generate(1500, seed=3, real_ssw=real)
     assert len(rows) == 1500 and len({r["text"] for r in rows}) == 1500
     assert {r["switch_type"] for r in rows} == {m for m, _ in T.MODES}
     src = lambda rs: {x for r in rs for x in r["source"]}
@@ -40,7 +42,13 @@ def test_corpus_properties():
     for r in rows:
         if r["switch_type"] == "dm_initial": assert r["segments"][0]["lang"] == "eng"
         if r["switch_type"] == "tag": assert r["segments"][-1]["lang"] == "eng"
-    assert T.generate(50, seed=3) == T.generate(50, seed=3)
+    assert T.generate(50, seed=3, real_ssw=real) == T.generate(50, seed=3, real_ssw=real)
+    # monolingual utterances exist and are really monolingual
+    mono = [r for r in rows if r["switch_type"] in ("mono_ssw", "mono_eng")]
+    assert mono and all(r["n_eng_words"] == 0 for r in mono if r["switch_type"] == "mono_ssw")
+    assert all(r["n_eng_words"] == r["n_words"] for r in mono if r["switch_type"] == "mono_eng")
+    # 'multi' has >= 3 language segments
+    assert all(len(r["segments"]) >= 3 for r in rows if r["switch_type"] == "multi")
 
 if __name__ == "__main__":
     for n, f in list(globals().items()):

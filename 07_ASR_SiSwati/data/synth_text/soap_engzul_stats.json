@@ -1,0 +1,121 @@
+{
+ "n_utterances": 9371,
+ "hours_by_lang_ms": {
+  "eng": 2.59,
+  "zul": 2.86
+ },
+ "word_share": {
+  "eng": 0.525,
+  "zul": 0.475
+ },
+ "utterance_types": {
+  "mono_eng": 1225,
+  "mono_zul": 4362,
+  "mixed": 3784
+ },
+ "mixed_share": 0.404,
+ "segments_per_utt_hist": {
+  "1": 5587,
+  "2": 1977,
+  "3": 1107,
+  "4": 399,
+  "5": 178,
+  "6": 123
+ },
+ "switch_direction_counts": {
+  "zul->eng": 3717,
+  "eng->zul": 3099
+ },
+ "mixed_utts_starting_lang": {
+  "eng": 1308,
+  "zul": 2476
+ },
+ "mixed_utts_ending_lang": {
+  "zul": 1858,
+  "eng": 1926
+ },
+ "median_words_per_segment": {
+  "eng": 2,
+  "zul": 2
+ },
+ "english_segments_in_mixed_utts": {
+  "n": 5025,
+  "share_1_word": 0.552,
+  "share_2_3_words": 0.233,
+  "share_4plus_words": 0.215
+ },
+ "top_english_single_or_double_word_insertions": {
+  "<long>": 1467,
+  "and": 101,
+  "so": 86,
+  "right": 75,
+  "but": 61,
+  "sure": 56,
+  "no": 53,
+  "okay": 52,
+  "if": 41,
+  "or": 35,
+  "understand": 29,
+  "why": 29,
+  "for": 28,
+  "wrong": 25,
+  "deal": 23,
+  "and then": 22,
+  "before": 19,
+  "well": 19,
+  "look": 19,
+  "serious": 19,
+  "grand": 19,
+  "office": 18,
+  "something": 18,
+  "late": 17,
+  "you know": 17,
+  "move": 17,
+  "phone": 17,
+  "please": 17,
+  "later": 16,
+  "yes": 16,
+  "footage": 16,
+  "feel": 15,
+  "busy": 14,
+  "at least": 13,
+  "ready": 13,
+  "check": 13,
+  "business": 12,
+  "i mean": 12,
+  "i!m sure": 12,
+  "what if": 11
+ },
+ "top_english_segment_initial_words": {
+  "and": 222,
+  "i": 129,
+  "so": 116,
+  "no": 109,
+  "but": 102,
+  "you": 93,
+  "right": 88,
+  "for": 76,
+  "okay": 72,
+  "sure": 63,
+  "if": 61,
+  "or": 49,
+  "i!m": 48,
+  "ja": 39,
+  "it!s": 34,
+  "why": 33,
+  "oh": 31,
+  "understand": 31,
+  "the": 30,
+  "something": 29,
+  "a": 29,
+  "what": 29,
+  "look": 29,
+  "wrong": 28,
+  "well": 28,
+  "before": 27,
+  "just": 26,
+  "footage": 25,
+  "deal": 24,
+  "please": 23
+ }
+}
