@@ -1,0 +1,580 @@
+{"id": "ssw_NCHTL_ssw_test_idx669", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Banjani abantu abake bafika engane yabo nabalala?"}
+{"id": "ssw_NCHTL_ssw_test_idx2497", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kubeka Emma V."}
+{"id": "ssw_NCHTL_ssw_test_idx577", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kulula ukuvala ngekhadi nyalo."}
+{"id": "ssw_NCHTL_ssw_test_idx2619", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kumkhandlu waVelonga weTifunza"}
+{"id": "ssw_NCHTL_ssw_test_idx1577", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "We thina vete ukucasulwa kwenzela."}
+{"id": "ssw_NCHTL_ssw_test_idx1644", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "itheksthi iqanjwe ngelikopelo"}
+{"id": "ssw_NCHTL_ssw_test_idx211", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tinga-pa-neta-la-fai-e-khaya"}
+{"id": "ssw_NCHTL_ssw_test_idx1334", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nashiya ekhaya kuyanyukela."}
+{"id": "ssw_NCHTL_ssw_test_idx1450", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yesekela isihloko."}
+{"id": "ssw_NCHTL_ssw_test_idx1943", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Le nqunyiwe, le kumele ifakwe."}
+{"id": "ssw_NCHTL_ssw_test_idx943", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kulomhlaba wonke sizowuhlanya umbilo."}
+{"id": "ssw_NCHTL_ssw_test_idx2496", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kahle nalethule ke kahle."}
+{"id": "ssw_NCHTL_ssw_test_idx1713", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imbilo ayiyabangcono kuneyabatali bethu."}
+{"id": "ssw_NCHTL_ssw_test_idx1747", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Bese wethula umkhicito."}
+{"id": "ssw_NCHTL_ssw_test_idx1507", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emma hewu lapanzako am nuns."}
+{"id": "ssw_NCHTL_ssw_test_idx466", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinetimo thole thathukahlukeni."}
+{"id": "ssw_NCHTL_ssw_test_idx2089", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isikweletu sakhe sasihle."}
+{"id": "ssw_NCHTL_ssw_test_idx1112", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "sibona nemidlalo yomoya kubo"}
+{"id": "ssw_NCHTL_ssw_test_idx1271", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Geza itiye uma uthola mfana"}
+{"id": "ssw_NCHTL_ssw_test_idx446", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kusependa kwetimitimba yethu."}
+{"id": "ssw_NCHTL_ssw_test_idx1882", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sikhubaliswe njengasoSayensi weMvelo."}
+{"id": "ssw_NCHTL_ssw_test_idx2735", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Thakile tehlukene temisho."}
+{"id": "ssw_NCHTL_ssw_test_idx340", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Bothusano labesilisa bathi badlala ngathi."}
+{"id": "ssw_NCHTL_ssw_test_idx1472", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emakhothi lasenjethiselwa ukuhlola."}
+{"id": "ssw_NCHTL_ssw_test_idx148", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ligama lesiteshi samaphoyisa."}
+{"id": "ssw_NCHTL_ssw_test_idx2438", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kunalokho, kwakunemithetho eyayivimbela abantu ukuba bahambe."}
+{"id": "ssw_NCHTL_ssw_test_idx1646", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yezani ukuhlukaniso sekucithwa kwemishado."}
+{"id": "ssw_NCHTL_ssw_test_idx1456", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kumele sihambisane noMal."}
+{"id": "ssw_NCHTL_ssw_test_idx2133", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ichazwe kahle kakhulu."}
+{"id": "ssw_NCHTL_ssw_test_idx2747", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Utshonze uzitshela ukuthi ungubani."}
+{"id": "ssw_NCHTL_ssw_test_idx791", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sipani umcimbi kaKhisimusi."}
+{"id": "ssw_NCHTL_ssw_test_idx1594", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sasezulu yini"}
+{"id": "ssw_NCHTL_ssw_test_idx937", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Engangangena kupanza ikhulu."}
+{"id": "ssw_NCHTL_ssw_test_idx1046", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Basita nangetimfundo tasemakolishi."}
+{"id": "ssw_NCHTL_ssw_test_idx823", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Wathuli paVivinyo eMaphimbo."}
+{"id": "ssw_NCHTL_ssw_test_idx1706", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Phandwana lapanqikile lapaneminyaka."}
+{"id": "ssw_NCHTL_ssw_test_idx567", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imibuzo yesikhathi lesengcile."}
+{"id": "ssw_NCHTL_ssw_test_idx1891", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngithathwa kahle kakhulu."}
+{"id": "ssw_NCHTL_ssw_test_idx1129", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Inzawo lehlandekile ayinawo amagciwane."}
+{"id": "ssw_NCHTL_ssw_test_idx1442", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isicelo sekubhalisa emafektri."}
+{"id": "ssw_NCHTL_ssw_test_idx1413", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Esayibe ngumbalo."}
+{"id": "ssw_NCHTL_ssw_test_idx927", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Baphathise amabhizinisi amancane."}
+{"id": "ssw_NCHTL_ssw_test_idx2255", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Usitha bit four letini ngalinye lephasi."}
+{"id": "ssw_NCHTL_ssw_test_idx182", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umfundi utawushada ekufundeni."}
+{"id": "ssw_NCHTL_ssw_test_idx2114", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Thindela ndubu othe la athi lenzapo ukho."}
+{"id": "ssw_NCHTL_ssw_test_idx2303", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kunakekelwa kwethempeli, kwalapha kulele."}
+{"id": "ssw_NCHTL_ssw_test_idx805", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Akani mathumpa emzebeni."}
+{"id": "ssw_NCHTL_ssw_test_idx536", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Futhi ibuthela kubantu nzawone."}
+{"id": "ssw_NCHTL_ssw_test_idx1185", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "eMakhosi ngiyole wagcwala emasikweni"}
+{"id": "ssw_NCHTL_ssw_test_idx1638", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sicelo sekuJinja, tibo."}
+{"id": "ssw_NCHTL_ssw_test_idx584", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sendela uhlelo laselikudla lakho njalo."}
+{"id": "ssw_NCHTL_ssw_test_idx1071", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifunda ngethini leTendeka emtimbeni."}
+{"id": "ssw_NCHTL_ssw_test_idx83", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "La, tshayela elwa."}
+{"id": "ssw_NCHTL_ssw_test_idx213", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Likusebentisa lulimi liphansi."}
+{"id": "ssw_NCHTL_ssw_test_idx2793", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "yebo noma cha."}
+{"id": "ssw_NCHTL_ssw_test_idx1016", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Pichichela nangamandla."}
+{"id": "ssw_NCHTL_ssw_test_idx2731", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuthi tibithe emane langaka nani?"}
+{"id": "ssw_NCHTL_ssw_test_idx135", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Njenge ngqo ushe"}
+{"id": "ssw_NCHTL_ssw_test_idx2652", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Zikhukhukathi zitalele maqondana nalomane."}
+{"id": "ssw_NCHTL_ssw_test_idx296", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Hle angalalalele ngalokhujulile."}
+{"id": "ssw_NCHTL_ssw_test_idx422", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwatendela nemisebe yethanga."}
+{"id": "ssw_NCHTL_ssw_test_idx568", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuzingeka akulona igama elanele."}
+{"id": "ssw_NCHTL_ssw_test_idx956", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nikuti benda njani napakula?"}
+{"id": "ssw_NCHTL_ssw_test_idx2388", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sathola intsha yelinenient."}
+{"id": "ssw_NCHTL_ssw_test_idx2491", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nawu babuka ngendlela labahlethi."}
+{"id": "ssw_NCHTL_ssw_test_idx1058", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Asitanakwethe imidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx2579", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kulithiko letemanti nelemashats."}
+{"id": "ssw_NCHTL_ssw_test_idx1336", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tenfu two ukuthi sisitha living emisebenti."}
+{"id": "ssw_NCHTL_ssw_test_idx2027", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yemthetho noma ingaphansi."}
+{"id": "ssw_NCHTL_ssw_test_idx2283", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngikhona la mbalwa la sele."}
+{"id": "ssw_NCHTL_ssw_test_idx1135", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sikuwathini kulolonga umtimba?"}
+{"id": "ssw_NCHTL_ssw_test_idx1106", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "umlilo uphuma etinsabeni leTinzi"}
+{"id": "ssw_NCHTL_ssw_test_idx1691", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uma ukahle silungiselwe nabanye"}
+{"id": "ssw_NCHTL_ssw_test_idx1614", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lofuna ukufaka isicelo"}
+{"id": "ssw_NCHTL_ssw_test_idx1374", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lesisha sekubusa ngemithethosisekelo."}
+{"id": "ssw_NCHTL_ssw_test_idx1111", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "umthetho we ebhola"}
+{"id": "ssw_NCHTL_ssw_test_idx708", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letinye sikhuluma ngemidlalo."}
+{"id": "ssw_NCHTL_ssw_test_idx2411", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokhu kufundisa ngekubaluleka kwengqondo."}
+{"id": "ssw_NCHTL_ssw_test_idx917", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nimanani athu awafani."}
+{"id": "ssw_NCHTL_ssw_test_idx418", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Leminye ithandwa ngulasabekhulile."}
+{"id": "ssw_NCHTL_ssw_test_idx2111", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sakela netikoolo."}
+{"id": "ssw_NCHTL_ssw_test_idx1531", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Akulinganani nelizinga lwelulimi."}
+{"id": "ssw_NCHTL_ssw_test_idx178", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "yekwelekelela umuntu ngendlu"}
+{"id": "ssw_NCHTL_ssw_test_idx1238", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Asibonisa nangu izinsuku zethu."}
+{"id": "ssw_NCHTL_ssw_test_idx1996", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kungalovi esikoleni."}
+{"id": "ssw_NCHTL_ssw_test_idx226", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ichazwe kahle kakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx192", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Takamuti tasenengizimu Africa."}
+{"id": "ssw_NCHTL_ssw_test_idx1814", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Funda izinsuku nokushuka kwabo."}
+{"id": "ssw_NCHTL_ssw_test_idx1467", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuhlangana kwabantu nithisha."}
+{"id": "ssw_NCHTL_ssw_test_idx2313", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Faka isicelo e-ovusi."}
+{"id": "ssw_NCHTL_ssw_test_idx865", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ten two thirty six thirty eight."}
+{"id": "ssw_NCHTL_ssw_test_idx2043", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Indlela yabo, ye-kuhlabelela."}
+{"id": "ssw_NCHTL_ssw_test_idx1061", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lamanyezi adlula la ngaw"}
+{"id": "ssw_NCHTL_ssw_test_idx1968", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kungathatha ivikela isithupa."}
+{"id": "ssw_NCHTL_ssw_test_idx1308", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kukhona lonke chendisela imidlalo yasesiteji."}
+{"id": "ssw_NCHTL_ssw_test_idx763", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imvula ishuphange kubazana."}
+{"id": "ssw_NCHTL_ssw_test_idx2671", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lelolimi bufakazi bekuhlela."}
+{"id": "ssw_NCHTL_ssw_test_idx325", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sicelo semyalelo wokusisela"}
+{"id": "ssw_NCHTL_ssw_test_idx1927", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nabantu besitshathu le kusesheni iswana."}
+{"id": "ssw_NCHTL_ssw_test_idx1274", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isifundisa nangethempeli."}
+{"id": "ssw_NCHTL_ssw_test_idx375", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kumele usebenzise umxhwele udlala ibhola."}
+{"id": "ssw_NCHTL_ssw_test_idx2501", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwethilwimi letimbili nobe."}
+{"id": "ssw_NCHTL_ssw_test_idx1907", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Timbatya sititsenga ngilikhathi."}
+{"id": "ssw_NCHTL_ssw_test_idx931", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Endaweni yakithi igcwele amabhizinisi."}
+{"id": "ssw_NCHTL_ssw_test_idx2758", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokubukwakho."}
+{"id": "ssw_NCHTL_ssw_test_idx1940", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kukhona la afundisa abantwana."}
+{"id": "ssw_NCHTL_ssw_test_idx2664", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nobby Uma."}
+{"id": "ssw_NCHTL_ssw_test_idx41", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sebentisa kahle ithimba lokuhamba."}
+{"id": "ssw_NCHTL_ssw_test_idx2215", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngubabuletha, ayinako ukuthukuthelelana."}
+{"id": "ssw_NCHTL_ssw_test_idx1690", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokungenwe kuyona ngembi."}
+{"id": "ssw_NCHTL_ssw_test_idx1481", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuthi ufuna ukuthini?"}
+{"id": "ssw_NCHTL_ssw_test_idx1934", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ubonakele ukuthi ukuzwe."}
+{"id": "ssw_NCHTL_ssw_test_idx2235", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kungaba namthelela bani?"}
+{"id": "ssw_NCHTL_ssw_test_idx1871", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sathukume baba."}
+{"id": "ssw_NCHTL_ssw_test_idx1347", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letinye sibonisa ngefashini."}
+{"id": "ssw_NCHTL_ssw_test_idx1941", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nayo yonge imitshe yethu."}
+{"id": "ssw_NCHTL_ssw_test_idx1408", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinihlobo yiculu likuthiwa yi-house."}
+{"id": "ssw_NCHTL_ssw_test_idx306", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ubona ngisho wenzu"}
+{"id": "ssw_NCHTL_ssw_test_idx2309", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uqaphele ukuthi imikhakha yona iyahlangana."}
+{"id": "ssw_NCHTL_ssw_test_idx2417", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "isatisa ngendlela bukhosi lobe bungayo"}
+{"id": "ssw_NCHTL_ssw_test_idx925", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Thithukuthukela livela kids."}
+{"id": "ssw_NCHTL_ssw_test_idx1281", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinalaminye etemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1655", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kuthi sebakuphi nyalo?"}
+{"id": "ssw_NCHTL_ssw_test_idx1483", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lamanye alungele abantu bami."}
+{"id": "ssw_NCHTL_ssw_test_idx1479", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lo losekela isihloko"}
+{"id": "ssw_NCHTL_ssw_test_idx456", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uthuthukisa tinzawo tase makhaya."}
+{"id": "ssw_NCHTL_ssw_test_idx2314", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukufa kaSikhilo kuKomiti."}
+{"id": "ssw_NCHTL_ssw_test_idx2537", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Le shugu enengane idinga ap."}
+{"id": "ssw_NCHTL_ssw_test_idx288", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "E mafomu esicelo kumele umnikazi wesikole asebenzise i-computer."}
+{"id": "ssw_NCHTL_ssw_test_idx1027", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Futhizithokoti sangayo."}
+{"id": "ssw_NCHTL_ssw_test_idx2574", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Le mikhakha kanye nemikhakha."}
+{"id": "ssw_NCHTL_ssw_test_idx776", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yenda sathi tinwele tinyayende."}
+{"id": "ssw_NCHTL_ssw_test_idx2678", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imisebenzi iyaphela, o Mawehlile."}
+{"id": "ssw_NCHTL_ssw_test_idx2787", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukufaka isicelo sekwesula."}
+{"id": "ssw_NCHTL_ssw_test_idx2039", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kuze bakhe baba emaqhozi."}
+{"id": "ssw_NCHTL_ssw_test_idx332", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kusitatimende sakho seliholo."}
+{"id": "ssw_NCHTL_ssw_test_idx2483", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tikha tenkulumo netaka."}
+{"id": "ssw_NCHTL_ssw_test_idx1950", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "umangabe likhomiti"}
+{"id": "ssw_NCHTL_ssw_test_idx1680", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uma ufuna umninigwane."}
+{"id": "ssw_NCHTL_ssw_test_idx949", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nikuti umtimba utivikelani etifini?"}
+{"id": "ssw_NCHTL_ssw_test_idx2770", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Mbelikhipha omkhovu ejen."}
+{"id": "ssw_NCHTL_ssw_test_idx269", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Noma uphikise lombono."}
+{"id": "ssw_NCHTL_ssw_test_idx1154", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "sifunda ngetinkolelo lethihlukile"}
+{"id": "ssw_NCHTL_ssw_test_idx731", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tinqwabelele sifundisa ngemithetho."}
+{"id": "ssw_NCHTL_ssw_test_idx2709", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifunda indlela yokudansa de izinto."}
+{"id": "ssw_NCHTL_ssw_test_idx2049", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ayasita makwetekwe laphaya."}
+{"id": "ssw_NCHTL_ssw_test_idx560", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Silala endlini yakagogo."}
+{"id": "ssw_NCHTL_ssw_test_idx794", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Etikholweni sekunezici zamabhizinisi."}
+{"id": "ssw_NCHTL_ssw_test_idx1530", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emva kwaleso naleso."}
+{"id": "ssw_NCHTL_ssw_test_idx1008", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lusuku lokubeka ingozi."}
+{"id": "ssw_NCHTL_ssw_test_idx2492", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngisho kwamakagula M."}
+{"id": "ssw_NCHTL_ssw_test_idx2226", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukufika kweLapamhlope eLive?"}
+{"id": "ssw_NCHTL_ssw_test_idx1722", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Seuvele usependela ekuthuthukuthukeni."}
+{"id": "ssw_NCHTL_ssw_test_idx229", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letawusi Tabahlolwa eKhetseini."}
+{"id": "ssw_NCHTL_ssw_test_idx1793", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kubika ukhwabaniswa kweMali."}
+{"id": "ssw_NCHTL_ssw_test_idx732", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Temidlala, tilolonga umtimba wethu."}
+{"id": "ssw_NCHTL_ssw_test_idx57", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Bhala inzathana ngalokho"}
+{"id": "ssw_NCHTL_ssw_test_idx848", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emasukwini apho, imitshe thwa."}
+{"id": "ssw_NCHTL_ssw_test_idx1388", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Pashiye timbawu te caphuna."}
+{"id": "ssw_NCHTL_ssw_test_idx893", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imishini iyabashaya timbatha."}
+{"id": "ssw_NCHTL_ssw_test_idx2547", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngane nokuhambisana emkhathini."}
+{"id": "ssw_NCHTL_ssw_test_idx2380", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sekulaula, sekuphathisa kumele?"}
+{"id": "ssw_NCHTL_ssw_test_idx2419", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngingcoliswa kweMoya."}
+{"id": "ssw_NCHTL_ssw_test_idx831", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imvula ina eHloko."}
+{"id": "ssw_NCHTL_ssw_test_idx1584", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lona lofakwe isicelo."}
+{"id": "ssw_NCHTL_ssw_test_idx1592", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emajaheni akho sibaya."}
+{"id": "ssw_NCHTL_ssw_test_idx1648", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lenzela isikhashana lekhukhwakhu."}
+{"id": "ssw_NCHTL_ssw_test_idx2535", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Abantu labathansa ukudla bathansa buthongo."}
+{"id": "ssw_NCHTL_ssw_test_idx2543", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isitshela ngesimo selitulu."}
+{"id": "ssw_NCHTL_ssw_test_idx1243", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuthuthukisa tinzalo yasemakhaya."}
+{"id": "ssw_NCHTL_ssw_test_idx1389", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kuphelele kakhulu, noma kunjalo."}
+{"id": "ssw_NCHTL_ssw_test_idx1998", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letinye sitho ukudla kutho."}
+{"id": "ssw_NCHTL_ssw_test_idx2598", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kude kuqondiswe lemali."}
+{"id": "ssw_NCHTL_ssw_test_idx231", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "longaphansi kwaleli qembu lalifakela"}
+{"id": "ssw_NCHTL_ssw_test_idx1001", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tingathi singasiphi isikhali."}
+{"id": "ssw_NCHTL_ssw_test_idx2172", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isitifiketi se-SEKUPASEM kwaCene?"}
+{"id": "ssw_NCHTL_ssw_test_idx115", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Guli iqiniso yena ukuthi."}
+{"id": "ssw_NCHTL_ssw_test_idx1720", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isisiya singathandi ubugebengu."}
+{"id": "ssw_NCHTL_ssw_test_idx2099", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Njengo nje kulandelwa imikhomo."}
+{"id": "ssw_NCHTL_ssw_test_idx680", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kunebandla lababhishobhi."}
+{"id": "ssw_NCHTL_ssw_test_idx672", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lamanje afundise ukuhamba umsebenti."}
+{"id": "ssw_NCHTL_ssw_test_idx1070", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ukudla ekuseni kubalulekile"}
+{"id": "ssw_NCHTL_ssw_test_idx889", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lamadlawa aneluthaka."}
+{"id": "ssw_NCHTL_ssw_test_idx1150", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sikwati ukubeka kuza kuthu."}
+{"id": "ssw_NCHTL_ssw_test_idx188", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Siqiniseko sekuthi emafomu."}
+{"id": "ssw_NCHTL_ssw_test_idx1081", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kukhona lamancane nalamakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx55", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Funda le ngondlo engendazi."}
+{"id": "ssw_NCHTL_ssw_test_idx117", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nokuqeqesha izikwele."}
+{"id": "ssw_NCHTL_ssw_test_idx2203", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuthi lo ongakusende speng lapaphambili?"}
+{"id": "ssw_NCHTL_ssw_test_idx2433", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isilunyiselwano nemigwaqo."}
+{"id": "ssw_NCHTL_ssw_test_idx2641", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngani ngithi ukusa uma."}
+{"id": "ssw_NCHTL_ssw_test_idx605", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umnothwe, sive, utshembele kuwena."}
+{"id": "ssw_NCHTL_ssw_test_idx1268", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Busika sikhathi sekupanda."}
+{"id": "ssw_NCHTL_ssw_test_idx2217", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwethe ithi ma lini silulu sem not fo."}
+{"id": "ssw_NCHTL_ssw_test_idx589", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Make uthengele inkukhu emakethe."}
+{"id": "ssw_NCHTL_ssw_test_idx2739", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemidlalo nemasiko lamanyenti."}
+{"id": "ssw_NCHTL_ssw_test_idx948", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Akhona alathengisisa impahla."}
+{"id": "ssw_NCHTL_ssw_test_idx1098", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Banfana bathekelwa ingane kwani, napala."}
+{"id": "ssw_NCHTL_ssw_test_idx628", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Asisitha sikwati kusitha labahluphekile."}
+{"id": "ssw_NCHTL_ssw_test_idx1289", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Disisitha ukuthi sibone imidlalo."}
+{"id": "ssw_NCHTL_ssw_test_idx656", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lamanje afundisa lokutshi."}
+{"id": "ssw_NCHTL_ssw_test_idx2751", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kule tinye tinye akuzwakali."}
+{"id": "ssw_NCHTL_ssw_test_idx167", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sicelo se ukubhalisa njengemkhokhi."}
+{"id": "ssw_NCHTL_ssw_test_idx353", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "siluka emacasi"}
+{"id": "ssw_NCHTL_ssw_test_idx451", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isifundisa ngesimo sethu."}
+{"id": "ssw_NCHTL_ssw_test_idx1029", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukudla okunemfuyo kufutha kunambitheka."}
+{"id": "ssw_NCHTL_ssw_test_idx2176", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sicela usakho kumele."}
+{"id": "ssw_NCHTL_ssw_test_idx689", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sikitsa umtshimba."}
+{"id": "ssw_NCHTL_ssw_test_idx779", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Mabonakude uhlale ukhombisa ukumbathisa okuhle."}
+{"id": "ssw_NCHTL_ssw_test_idx2059", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinetifutha ke lezi."}
+{"id": "ssw_NCHTL_ssw_test_idx2169", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sithathe the same shirt, le sifinye tea."}
+{"id": "ssw_NCHTL_ssw_test_idx2523", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Namalungelo e luthhu kanye."}
+{"id": "ssw_NCHTL_ssw_test_idx632", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "La manye asidichabulisangawo."}
+{"id": "ssw_NCHTL_ssw_test_idx1589", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Australian Air Force"}
+{"id": "ssw_NCHTL_ssw_test_idx2218", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Teku sephenda, te sisependi, te tempilo."}
+{"id": "ssw_NCHTL_ssw_test_idx478", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "umdlalo webhola."}
+{"id": "ssw_NCHTL_ssw_test_idx2281", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ufake isicelu sakho, bese ushiya umuthi wakho."}
+{"id": "ssw_NCHTL_ssw_test_idx2336", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngabe sikhalosako?"}
+{"id": "ssw_NCHTL_ssw_test_idx152", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngasinye saletihlo le thilanzela."}
+{"id": "ssw_NCHTL_ssw_test_idx1869", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sikwati lo ukuoma."}
+{"id": "ssw_NCHTL_ssw_test_idx476", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Inyoka iyalumana ulimale."}
+{"id": "ssw_NCHTL_ssw_test_idx810", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "NgoMandela wangena eLukhethwe."}
+{"id": "ssw_NCHTL_ssw_test_idx2590", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "H W Z kunemabhizinisi amakhulu."}
+{"id": "ssw_NCHTL_ssw_test_idx2748", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kubaluleka ne umsebenzi wamaphaphu."}
+{"id": "ssw_NCHTL_ssw_test_idx1629", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isicelo sekubhaliswa kwesiqalo."}
+{"id": "ssw_NCHTL_ssw_test_idx1052", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imicimbi yefashini yamaviki wonke."}
+{"id": "ssw_NCHTL_ssw_test_idx2673", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lithi inqusa laseNingizimu Africa."}
+{"id": "ssw_NCHTL_ssw_test_idx508", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinenkinga yokuthi singanika bani."}
+{"id": "ssw_NCHTL_ssw_test_idx541", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uzibonisa ukuthi live linjani."}
+{"id": "ssw_NCHTL_ssw_test_idx1119", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kuthi likusasa lethu likhathala kanjani?"}
+{"id": "ssw_NCHTL_ssw_test_idx1197", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kuba nemicimbi yokukhulekela labahluphekile"}
+{"id": "ssw_NCHTL_ssw_test_idx1633", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Siba nemicimbi ebholeni letinyama."}
+{"id": "ssw_NCHTL_ssw_test_idx2113", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Siphelose iphasipoti yomfana."}
+{"id": "ssw_NCHTL_ssw_test_idx2103", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukhungwe umsindo we bantu."}
+{"id": "ssw_NCHTL_ssw_test_idx1961", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifundani ngesiSimo, selitulu, salamanye, emva."}
+{"id": "ssw_NCHTL_ssw_test_idx936", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sine timasatha popare."}
+{"id": "ssw_NCHTL_ssw_test_idx592", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ilandisa ngisho nangetimbi."}
+{"id": "ssw_NCHTL_ssw_test_idx813", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tenda bantu bangaka."}
+{"id": "ssw_NCHTL_ssw_test_idx1216", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifunda ngemiculo yesiSwade"}
+{"id": "ssw_NCHTL_ssw_test_idx2763", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Siphenye lesicelo futhi."}
+{"id": "ssw_NCHTL_ssw_test_idx634", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Le minye sithi thokhethi sangayo."}
+{"id": "ssw_NCHTL_ssw_test_idx1957", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sakelwa nemikwakwa."}
+{"id": "ssw_NCHTL_ssw_test_idx1042", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ukube nemicimbi yokukhetha abadlali abaphambili."}
+{"id": "ssw_NCHTL_ssw_test_idx585", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kukhitsa kulisiko lethu."}
+{"id": "ssw_NCHTL_ssw_test_idx1234", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umlando usifundisa ngembelaphi yethu."}
+{"id": "ssw_NCHTL_ssw_test_idx2555", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Inqubo indlela lenikelwe itiko"}
+{"id": "ssw_NCHTL_ssw_test_idx2431", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemithwalo yemasiko."}
+{"id": "ssw_NCHTL_ssw_test_idx1409", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Wethulwe ngobunono nangendlela."}
+{"id": "ssw_NCHTL_ssw_test_idx475", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isitshela nangokukhukhula komhlaba."}
+{"id": "ssw_NCHTL_ssw_test_idx600", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Futhi akhulisa umnothwa."}
+{"id": "ssw_NCHTL_ssw_test_idx1279", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tenuthuthu kutiyafunwa edikolweni."}
+{"id": "ssw_NCHTL_ssw_test_idx2334", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tekulawula, ukuthenga ngaphandle."}
+{"id": "ssw_NCHTL_ssw_test_idx483", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "E Machichi athwele umkwashwo."}
+{"id": "ssw_NCHTL_ssw_test_idx994", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isifundo sokuthi singaphi sikwephu."}
+{"id": "ssw_NCHTL_ssw_test_idx1187", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kunalethandwa abantu abadala"}
+{"id": "ssw_NCHTL_ssw_test_idx2257", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Inhlanganiso iphasipeni, ibhayisikili, itekisi, izimoto, izimoto, izimoto, izimoto."}
+{"id": "ssw_NCHTL_ssw_test_idx2357", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "isitelo se-sekuthengisa ngaphandle kwe-N."}
+{"id": "ssw_NCHTL_ssw_test_idx1904", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yethekulima gaane nemisebende."}
+{"id": "ssw_NCHTL_ssw_test_idx1213", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifunda, Gubard."}
+{"id": "ssw_NCHTL_ssw_test_idx715", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uma omuhle, abantu bekhelwa emakhaya."}
+{"id": "ssw_NCHTL_ssw_test_idx2075", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Maphayana wengandolo yethekulingana."}
+{"id": "ssw_NCHTL_ssw_test_idx429", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Singahle lokhu kungasigulisa."}
+{"id": "ssw_NCHTL_ssw_test_idx2577", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letha ngaphandle."}
+{"id": "ssw_NCHTL_ssw_test_idx150", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kufaka isicelo seselekelelo"}
+{"id": "ssw_NCHTL_ssw_test_idx2000", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Titsingo thithimali gaye."}
+{"id": "ssw_NCHTL_ssw_test_idx2721", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tindlebe kodwa isikhathi lesilinganayo."}
+{"id": "ssw_NCHTL_ssw_test_idx1549", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokulingene lwathi lolulingene."}
+{"id": "ssw_NCHTL_ssw_test_idx1021", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Gungani, futhi aboshwe sikhati."}
+{"id": "ssw_NCHTL_ssw_test_idx1318", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umnothwe wethu uwile."}
+{"id": "ssw_NCHTL_ssw_test_idx910", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sithanzakudla lokune ithi gazi."}
+{"id": "ssw_NCHTL_ssw_test_idx1401", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "e ukuhlola, e maxophelo, e ukuhlola."}
+{"id": "ssw_NCHTL_ssw_test_idx2236", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lophumelele ngalokhu lingene ang."}
+{"id": "ssw_NCHTL_ssw_test_idx1682", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uphendule ngato imibuto."}
+{"id": "ssw_NCHTL_ssw_test_idx946", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Silalela kakhulu umbaqanga."}
+{"id": "ssw_NCHTL_ssw_test_idx2754", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kanye ne bunini be mhlaba."}
+{"id": "ssw_NCHTL_ssw_test_idx539", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Indlela yokudlala umkhulo."}
+{"id": "ssw_NCHTL_ssw_test_idx607", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tisisa sathi ngensimu selive lethu."}
+{"id": "ssw_NCHTL_ssw_test_idx1746", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ligama lalofake isikele."}
+{"id": "ssw_NCHTL_ssw_test_idx237", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ibenvulo inako kuhambelana."}
+{"id": "ssw_NCHTL_ssw_test_idx1671", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nithinzawo letinjalo kumawati."}
+{"id": "ssw_NCHTL_ssw_test_idx764", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Make uthenge le baba lihembele lisha."}
+{"id": "ssw_NCHTL_ssw_test_idx1131", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imidlalo le citha isithukutheke."}
+{"id": "ssw_NCHTL_ssw_test_idx1782", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Guthi umbane we ndwi ini nalina."}
+{"id": "ssw_NCHTL_ssw_test_idx2261", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yamasasa Sen"}
+{"id": "ssw_NCHTL_ssw_test_idx220", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Seluhlelo lokuthuthukusa uKabusha."}
+{"id": "ssw_NCHTL_ssw_test_idx1963", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Akubhalisa, ukubuyiselwa i-imeyili."}
+{"id": "ssw_NCHTL_ssw_test_idx1885", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lese ngiyi ngaphansi kwesigacha."}
+{"id": "ssw_NCHTL_ssw_test_idx2143", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lwemali lothulvunyelwe kubani kanti?"}
+{"id": "ssw_NCHTL_ssw_test_idx2683", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwehla kweBuphuya beMali."}
+{"id": "ssw_NCHTL_ssw_test_idx2170", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwemakhono ekuthintana emhlabathini."}
+{"id": "ssw_NCHTL_ssw_test_idx0", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letindlela letilanzelako tekufaka."}
+{"id": "ssw_NCHTL_ssw_test_idx365", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sidle ukudla lokhu tasisitasi siphumule kahle."}
+{"id": "ssw_NCHTL_ssw_test_idx1006", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Banelaphako ukuthi kuthungathi imbatha."}
+{"id": "ssw_NCHTL_ssw_test_idx1054", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Asisita sikwati kusita labahluphekile."}
+{"id": "ssw_NCHTL_ssw_test_idx2511", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Wethizingo le le teluhlakha eTurkey."}
+{"id": "ssw_NCHTL_ssw_test_idx1810", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sijabulela yeke ukungena kwelihlobo."}
+{"id": "ssw_NCHTL_ssw_test_idx1607", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imisho legcwele kufanele."}
+{"id": "ssw_NCHTL_ssw_test_idx134", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Leli fanele likhona le kwenda."}
+{"id": "ssw_NCHTL_ssw_test_idx615", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Inkosi ihloze uGwalagwala enhlokweni."}
+{"id": "ssw_NCHTL_ssw_test_idx1189", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Cima selitulu si ibinamul."}
+{"id": "ssw_NCHTL_ssw_test_idx2018", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kubane njabulo lapho sinemidlalo."}
+{"id": "ssw_NCHTL_ssw_test_idx2319", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Wotsi otsi ini?"}
+{"id": "ssw_NCHTL_ssw_test_idx1514", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sage Press Release"}
+{"id": "ssw_NCHTL_ssw_test_idx301", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Gwenzela ye imali lesisiwe."}
+{"id": "ssw_NCHTL_ssw_test_idx86", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngabe nguliphi lilunga"}
+{"id": "ssw_NCHTL_ssw_test_idx1781", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "I-Tilwim da Seningism e-Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx1665", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Inombolo yakho yamathisa."}
+{"id": "ssw_NCHTL_ssw_test_idx275", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Central African Republic"}
+{"id": "ssw_NCHTL_ssw_test_idx78", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yiyinyekule etile tingenda."}
+{"id": "ssw_NCHTL_ssw_test_idx523", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Besifazane baya eskhathini."}
+{"id": "ssw_NCHTL_ssw_test_idx2559", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ekhupha kancani ti Mzuzo."}
+{"id": "ssw_NCHTL_ssw_test_idx2575", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imphala"}
+{"id": "ssw_NCHTL_ssw_test_idx14", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ehlola nemibalo emabanga."}
+{"id": "ssw_NCHTL_ssw_test_idx45", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "phela lapho ubona"}
+{"id": "ssw_NCHTL_ssw_test_idx2152", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sekuvulwe ama-business la maning."}
+{"id": "ssw_NCHTL_ssw_test_idx2513", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Davy Long."}
+{"id": "ssw_NCHTL_ssw_test_idx1462", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngemgwaqo noma ngomoya."}
+{"id": "ssw_NCHTL_ssw_test_idx1250", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "uMbaqanga uthandwa abantu abantu abazali"}
+{"id": "ssw_NCHTL_ssw_test_idx437", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Le minye yikuvulwa kwemithola mpilo."}
+{"id": "ssw_NCHTL_ssw_test_idx2361", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "nesilula magama ne- elicwebezelayo lesitolo"}
+{"id": "ssw_NCHTL_ssw_test_idx518", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sipani maphathi."}
+{"id": "ssw_NCHTL_ssw_test_idx2450", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "emgqeni"}
+{"id": "ssw_NCHTL_ssw_test_idx2409", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukudla okuhlanjululiwe kulusizo kakhulu emthambekeni."}
+{"id": "ssw_NCHTL_ssw_test_idx2426", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sicela ubhobonge."}
+{"id": "ssw_NCHTL_ssw_test_idx233", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwalunga katalelwa eveni ngekwemtshevu"}
+{"id": "ssw_NCHTL_ssw_test_idx1249", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "sigxuzelana ngematubane etikolweni"}
+{"id": "ssw_NCHTL_ssw_test_idx683", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukufika kwalapha mhlombe eNingzi Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx717", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tholakalana se sibhedlela."}
+{"id": "ssw_NCHTL_ssw_test_idx816", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tikathulo letimnyama ungasiqokela nakokonke."}
+{"id": "ssw_NCHTL_ssw_test_idx363", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emma Movie ahlanganisa sikhathi."}
+{"id": "ssw_NCHTL_ssw_test_idx1744", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kanzi futhi kuPumbeni."}
+{"id": "ssw_NCHTL_ssw_test_idx528", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Utawuthitila uyafakamisa tinsimbi."}
+{"id": "ssw_NCHTL_ssw_test_idx1022", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Timbashela sithi sithenge emabani."}
+{"id": "ssw_NCHTL_ssw_test_idx1792", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "National Science Foundation."}
+{"id": "ssw_NCHTL_ssw_test_idx1032", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemalogo e ma-blueways, amathikithi nama-Latin."}
+{"id": "ssw_NCHTL_ssw_test_idx2471", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwethindlu, nemithetho, nemarekhodi."}
+{"id": "ssw_NCHTL_ssw_test_idx1246", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "E amabhizinisi abalulekile."}
+{"id": "ssw_NCHTL_ssw_test_idx610", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "A thuthukisa emadolobhancane."}
+{"id": "ssw_NCHTL_ssw_test_idx2569", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukhona umlingisi lomxhoka."}
+{"id": "ssw_NCHTL_ssw_test_idx631", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ganzile thine sizavuka kalula."}
+{"id": "ssw_NCHTL_ssw_test_idx1307", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isitshela ngekufika kwalapha eMhlombe."}
+{"id": "ssw_NCHTL_ssw_test_idx1310", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emazweni amabhizinisi laphaya, anjalo ayaxashana."}
+{"id": "ssw_NCHTL_ssw_test_idx1672", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nalethinye tinzima kuhle ke."}
+{"id": "ssw_NCHTL_ssw_test_idx2705", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "emathayeleni"}
+{"id": "ssw_NCHTL_ssw_test_idx350", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemisipha le diki squat ukuhamba."}
+{"id": "ssw_NCHTL_ssw_test_idx410", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "SineTilwimile, tinye, nina tinqwatshi."}
+{"id": "ssw_NCHTL_ssw_test_idx1415", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lapha kuzinyeka khona."}
+{"id": "ssw_NCHTL_ssw_test_idx2469", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Usithina bo somabizinisini bathuthuke."}
+{"id": "ssw_NCHTL_ssw_test_idx1962", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Usisita sikwati, ukuya emabizinisini."}
+{"id": "ssw_NCHTL_ssw_test_idx2001", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lesisekelo lesekela."}
+{"id": "ssw_NCHTL_ssw_test_idx904", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngabe se unabo bangani?"}
+{"id": "ssw_NCHTL_ssw_test_idx1759", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Bahlolwa baphendulanga ngemishwana."}
+{"id": "ssw_NCHTL_ssw_test_idx1392", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokuncane kakhulu kwesihloko."}
+{"id": "ssw_NCHTL_ssw_test_idx2503", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukudlala kungcolile kuba ngathi fo."}
+{"id": "ssw_NCHTL_ssw_test_idx2600", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "lihovisi le linqusa laseningizimu"}
+{"id": "ssw_NCHTL_ssw_test_idx827", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Make usenza ukuthenga timbathisa."}
+{"id": "ssw_NCHTL_ssw_test_idx1338", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemidlalo welibhola lethu."}
+{"id": "ssw_NCHTL_ssw_test_idx2769", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nengxoxo yabo."}
+{"id": "ssw_NCHTL_ssw_test_idx1468", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngalokhu sebaleni lokulandelako."}
+{"id": "ssw_NCHTL_ssw_test_idx1819", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Iyasitha ukuthi singaxabani, kukhanga."}
+{"id": "ssw_NCHTL_ssw_test_idx1714", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nalamuhle"}
+{"id": "ssw_NCHTL_ssw_test_idx2284", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Bahlabelele abantu labathume."}
+{"id": "ssw_NCHTL_ssw_test_idx202", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kukhethwe emagama kaLula"}
+{"id": "ssw_NCHTL_ssw_test_idx1930", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kukhona imikhakha yamasiko."}
+{"id": "ssw_NCHTL_ssw_test_idx1761", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Luhlolo lwemehlo kuSikhukhum"}
+{"id": "ssw_NCHTL_ssw_test_idx2406", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nemi thulo siyayibona kubomabhona kutse."}
+{"id": "ssw_NCHTL_ssw_test_idx273", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kungahle ukube nemaphutha"}
+{"id": "ssw_NCHTL_ssw_test_idx1978", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemikhumbi e kuvula amathempeli."}
+{"id": "ssw_NCHTL_ssw_test_idx870", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemuculo yebandwana besethungulisa."}
+{"id": "ssw_NCHTL_ssw_test_idx2044", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Bu mathimabe kuthumana ne bafundisi."}
+{"id": "ssw_NCHTL_ssw_test_idx2498", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Funa le nkhonjolo lilandele lakho."}
+{"id": "ssw_NCHTL_ssw_test_idx525", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tisisitha ukuthi impumulo iphelula."}
+{"id": "ssw_NCHTL_ssw_test_idx1244", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "imbangela yokukhukhula komhlaba."}
+{"id": "ssw_NCHTL_ssw_test_idx2392", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kulawula bulalo baba akho."}
+{"id": "ssw_NCHTL_ssw_test_idx830", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ema-business ethu angathuthuka."}
+{"id": "ssw_NCHTL_ssw_test_idx872", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Le khamera lena ayisebenzanga."}
+{"id": "ssw_NCHTL_ssw_test_idx1024", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lomunye usichapulisa ngabo."}
+{"id": "ssw_NCHTL_ssw_test_idx1712", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sisemhlabathini wokulima we-mbuza."}
+{"id": "ssw_NCHTL_ssw_test_idx1055", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Geza Tandla uma ucethile"}
+{"id": "ssw_NCHTL_ssw_test_idx1597", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letinye sibhalela kutho"}
+{"id": "ssw_NCHTL_ssw_test_idx334", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Gule sinye isikhathi abenethisi."}
+{"id": "ssw_NCHTL_ssw_test_idx2174", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Asikwazi ukufuthumeta emandeni."}
+{"id": "ssw_NCHTL_ssw_test_idx1103", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uthuthukisa i-levela eketshi."}
+{"id": "ssw_NCHTL_ssw_test_idx2016", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lesibusako amange sitalelwe."}
+{"id": "ssw_NCHTL_ssw_test_idx349", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yena imidlalo yasesiteshini."}
+{"id": "ssw_NCHTL_ssw_test_idx112", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokushulile kweKusencetiswa kweLulimi."}
+{"id": "ssw_NCHTL_ssw_test_idx1900", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ekungena enhliziyweni Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx1155", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Inzawo yakithi ipekile."}
+{"id": "ssw_NCHTL_ssw_test_idx344", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umfula usikhangiso esihle semvelo."}
+{"id": "ssw_NCHTL_ssw_test_idx852", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Leminye ibonisa ukuthi imishado."}
+{"id": "ssw_NCHTL_ssw_test_idx1751", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngenisa isitifiketi semtwana."}
+{"id": "ssw_NCHTL_ssw_test_idx1852", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwake kwaba nenembi ye mhlapa."}
+{"id": "ssw_NCHTL_ssw_test_idx2565", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Namalungelo eluntu lasisekelo."}
+{"id": "ssw_NCHTL_ssw_test_idx933", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "TEMIDLO, tilolonga umtimba wethu."}
+{"id": "ssw_NCHTL_ssw_test_idx2657", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kufanele afake isicelo."}
+{"id": "ssw_NCHTL_ssw_test_idx2249", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Seventy sathi phuma singalungile?"}
+{"id": "ssw_NCHTL_ssw_test_idx1178", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tinfonbe tikha umhlanga"}
+{"id": "ssw_NCHTL_ssw_test_idx826", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Banethi uhlelo letifundisa ngesikole."}
+{"id": "ssw_NCHTL_ssw_test_idx2238", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ku- umkhombandlela wokufa kaSicelo."}
+{"id": "ssw_NCHTL_ssw_test_idx411", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tenda banfana bangakaki."}
+{"id": "ssw_NCHTL_ssw_test_idx271", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sicelo sekubhalisa imizi."}
+{"id": "ssw_NCHTL_ssw_test_idx1160", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ukudla lokhu kungamasiko amathathu."}
+{"id": "ssw_NCHTL_ssw_test_idx571", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tisipha umoya lohlandekile."}
+{"id": "ssw_NCHTL_ssw_test_idx2013", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "I-Pacheshela li-office yakho."}
+{"id": "ssw_NCHTL_ssw_test_idx2464", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Le kungasebenza kahle kanye."}
+{"id": "ssw_NCHTL_ssw_test_idx517", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokhu bonisani ukubaleka esikoleni."}
+{"id": "ssw_NCHTL_ssw_test_idx524", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinetingqwathise isikole lethu lwathi."}
+{"id": "ssw_NCHTL_ssw_test_idx2593", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwelika Lelo lelulwimi bufakazi."}
+{"id": "ssw_NCHTL_ssw_test_idx2325", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Telulthaka kukhona"}
+{"id": "ssw_NCHTL_ssw_test_idx574", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifunda nangetichalo."}
+{"id": "ssw_NCHTL_ssw_test_idx1035", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "sajabulela nemidlalo yenzebe yomhlaba"}
+{"id": "ssw_NCHTL_ssw_test_idx1383", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Futhi uyasivisisa, singakaka."}
+{"id": "ssw_NCHTL_ssw_test_idx324", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nithinzuza, sikugulela esibhedlela."}
+{"id": "ssw_NCHTL_ssw_test_idx1328", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinedito Losetimpal."}
+{"id": "ssw_NCHTL_ssw_test_idx753", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letinye kungaba tingoma etenzabuka."}
+{"id": "ssw_NCHTL_ssw_test_idx2696", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Semfundo le phakeme iningi izilimi."}
+{"id": "ssw_NCHTL_ssw_test_idx1287", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Simo selitulu sipholile."}
+{"id": "ssw_NCHTL_ssw_test_idx983", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Zani ukudla lukune mnotholo ukuze uphile."}
+{"id": "ssw_NCHTL_ssw_test_idx901", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Titolo isithenga kutho ukudla."}
+{"id": "ssw_NCHTL_ssw_test_idx941", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Good thandani panga pako."}
+{"id": "ssw_NCHTL_ssw_test_idx2051", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwethulwe ngeliqophelo leLisetulu."}
+{"id": "ssw_NCHTL_ssw_test_idx2515", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinelisi pala ngaduk"}
+{"id": "ssw_NCHTL_ssw_test_idx305", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sebentisa lwati lwemisuka."}
+{"id": "ssw_NCHTL_ssw_test_idx1813", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emafilimini acitha Sidunge."}
+{"id": "ssw_NCHTL_ssw_test_idx448", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngabe e amatekisi ali ibhizinisi?"}
+{"id": "ssw_NCHTL_ssw_test_idx1170", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Make uthonza kuthenga impahla."}
+{"id": "ssw_NCHTL_ssw_test_idx981", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ama-tomatoes akhulisa isitolo."}
+{"id": "ssw_NCHTL_ssw_test_idx312", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kweminyaka eyishumi nesihlanu."}
+{"id": "ssw_NCHTL_ssw_test_idx2340", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sizabalala yonke inzawo."}
+{"id": "ssw_NCHTL_ssw_test_idx1261", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "imicimbi yokuvulwa kwenkundla yemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1842", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "KuLeo naleyo noveli."}
+{"id": "ssw_NCHTL_ssw_test_idx177", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Faka isicelo selusito"}
+{"id": "ssw_NCHTL_ssw_test_idx1873", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letaumelela lilahlekile nobe."}
+{"id": "ssw_NCHTL_ssw_test_idx510", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifunda nangekubaleka kwetichalo."}
+{"id": "ssw_NCHTL_ssw_test_idx2085", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kukhona lokushaya emahand."}
+{"id": "ssw_NCHTL_ssw_test_idx2347", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kunefashion lelungile ebusuku."}
+{"id": "ssw_NCHTL_ssw_test_idx1843", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sijabule ngicho nabo uKhisimusi."}
+{"id": "ssw_NCHTL_ssw_test_idx2131", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinemidlalayo, liqhukashukeni."}
+{"id": "ssw_NCHTL_ssw_test_idx2250", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kha imithambo ngani iphakamiso?"}
+{"id": "ssw_NCHTL_ssw_test_idx850", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Leminye imidlalo asijabulisa ngayo."}
+{"id": "ssw_NCHTL_ssw_test_idx2558", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "E-Nkhubeni yeFunda nokufundisa."}
+{"id": "ssw_NCHTL_ssw_test_idx281", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Visisa takini netime."}
+{"id": "ssw_NCHTL_ssw_test_idx2225", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Khulwana"}
+{"id": "ssw_NCHTL_ssw_test_idx73", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Yakho usebenzise emafomu."}
+{"id": "ssw_NCHTL_ssw_test_idx1544", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Pakhetha kanjani abadla aliphesizwe."}
+{"id": "ssw_NCHTL_ssw_test_idx2246", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Asifundise ukuthi imila ekwendeni tinvo?"}
+{"id": "ssw_NCHTL_ssw_test_idx1952", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uma ukahle emananini ayehla."}
+{"id": "ssw_NCHTL_ssw_test_idx1641", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Akuvuseleli nobe kuphelisa."}
+{"id": "ssw_NCHTL_ssw_test_idx1931", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "umangabe lowo"}
+{"id": "ssw_NCHTL_ssw_test_idx2324", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Luphiko lolukhulu lweTemple, futhi i-Lupho Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu Luhlu."}
+{"id": "ssw_NCHTL_ssw_test_idx2032", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sile Vande kuTe Sibengu Lapaphili le."}
+{"id": "ssw_NCHTL_ssw_test_idx1977", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Selekelelani bonke abantu labatsala."}
+{"id": "ssw_NCHTL_ssw_test_idx1662", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lokusilele lokuhamba umongo."}
+{"id": "ssw_NCHTL_ssw_test_idx1860", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuxhumana ngomlomo kumele kube khona phakathi kwabanye abantu."}
+{"id": "ssw_NCHTL_ssw_test_idx1335", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umsinga lobanzako uletha emakhanda."}
+{"id": "ssw_NCHTL_ssw_test_idx855", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tisisitha sikwathi ukhuluma nalabanyeni."}
+{"id": "ssw_NCHTL_ssw_test_idx883", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lamanye imiculo yokudansa."}
+{"id": "ssw_NCHTL_ssw_test_idx2190", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ifundiseni ukuhamba imisebe."}
+{"id": "ssw_NCHTL_ssw_test_idx2146", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Unemicu, ulethani abantwana?"}
+{"id": "ssw_NCHTL_ssw_test_idx29", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngithi ithangi sathi tamathisela ingwenya."}
+{"id": "ssw_NCHTL_ssw_test_idx1553", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kwakhishwa umusho lotawuVeta."}
+{"id": "ssw_NCHTL_ssw_test_idx345", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sithele ukuqeqesha ngemidlalo."}
+{"id": "ssw_NCHTL_ssw_test_idx1074", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sinato, izicathulo letihlukile de fashion."}
+{"id": "ssw_NCHTL_ssw_test_idx1215", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sisiza ukupheka."}
+{"id": "ssw_NCHTL_ssw_test_idx722", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Zani uzokudla lokunemoto ukuze uphile."}
+{"id": "ssw_NCHTL_ssw_test_idx1240", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Letiyenye tsibonisa i-ifashini."}
+{"id": "ssw_NCHTL_ssw_test_idx900", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kufanele ube nemathulusi amahle ebhizinisini."}
+{"id": "ssw_NCHTL_ssw_test_idx130", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukhangwe ngumsinvo wabantu."}
+{"id": "ssw_NCHTL_ssw_test_idx2670", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifundisane ulimi lethuhluke Delivery."}
+{"id": "ssw_NCHTL_ssw_test_idx793", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Mahlala ekhukhwini wami usebenzisa luthi oluluncane."}
+{"id": "ssw_NCHTL_ssw_test_idx2692", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uma uthi lolonga umtimba uyavikeleka idifeni."}
+{"id": "ssw_NCHTL_ssw_test_idx16", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Abuyele akhaze umehlo ugogo."}
+{"id": "ssw_NCHTL_ssw_test_idx1750", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lamunye afundisa ukutshyitha."}
+{"id": "ssw_NCHTL_ssw_test_idx151", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ekugcineni kwalezo zigaba."}
+{"id": "ssw_NCHTL_ssw_test_idx2237", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Isikelo asikubalisi ukubeletha."}
+{"id": "ssw_NCHTL_ssw_test_idx1697", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kothwa kubalekile ukuthi."}
+{"id": "ssw_NCHTL_ssw_test_idx2445", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umuntu omunye no."}
+{"id": "ssw_NCHTL_ssw_test_idx1044", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Emandini lahlobile ayafuneka."}
+{"id": "ssw_NCHTL_ssw_test_idx1280", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kufanelesathi ukuthi ihamba njani?"}
+{"id": "ssw_NCHTL_ssw_test_idx828", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuphila kwetivele sihlukanakene."}
+{"id": "ssw_NCHTL_ssw_test_idx675", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umlilo uphuma etinsabeni letinze."}
+{"id": "ssw_NCHTL_ssw_test_idx1357", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Phindula inza mpalo nobe."}
+{"id": "ssw_NCHTL_ssw_test_idx2139", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Khwelela nobe simulela."}
+{"id": "ssw_NCHTL_ssw_test_idx745", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "I-universe yaSepitoli."}
+{"id": "ssw_NCHTL_ssw_test_idx673", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uthuthukisa livela kithi."}
+{"id": "ssw_NCHTL_ssw_test_idx37", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ye amaphoyisa enhliziyo Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx209", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kubaluke kakhulu ukuthi"}
+{"id": "ssw_NCHTL_ssw_test_idx1495", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ayineli sikunekuseka lukuncane."}
+{"id": "ssw_NCHTL_ssw_test_idx545", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuthi abantu bebaphilanga yiphi indlela?"}
+{"id": "ssw_NCHTL_ssw_test_idx338", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nanobe kulandelwe imigomo"}
+{"id": "ssw_NCHTL_ssw_test_idx970", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "I-infashion iqeda imali."}
+{"id": "ssw_NCHTL_ssw_test_idx2642", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "imfashini ishintshe indlela yokugcoba"}
+{"id": "ssw_NCHTL_ssw_test_idx2674", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Nethinhloso netetshamelelwe ngema ngamalengiso."}
+{"id": "ssw_NCHTL_ssw_test_idx1461", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Tikusependa, akuka sependi kuvimbeleni."}
+{"id": "ssw_NCHTL_ssw_test_idx1741", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sitatimende senkunja iwufuna."}
+{"id": "ssw_NCHTL_ssw_test_idx2690", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sikusebenzisa ulimi lwamaMala."}
+{"id": "ssw_NCHTL_ssw_test_idx2363", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Lotaud for Melanie Zikwele salomdlalo yi."}
+{"id": "ssw_NCHTL_ssw_test_idx2102", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Temidlalotenda abantu bangakhani."}
+{"id": "ssw_NCHTL_ssw_test_idx2375", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Akukuthi ukubeka ukudla kutho?"}
+{"id": "ssw_NCHTL_ssw_test_idx637", "set": "ssw_real_nchlt", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sithola emandla elangeni."}
+{"id": "cs01", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kusasa ngithe wayekuthremit e Kuseni"}
+{"id": "cs02", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "dokotela uthi ngithathe imithi kathathu kabili ngelanga"}
+{"id": "cs03", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngikhohliwe ukuyithatha imabheyi, Army, Ezone."}
+{"id": "cs04", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "e-Aponent le ndoda imele izandla zakho ingu-Yetts weight, ilesibili."}
+{"id": "cs05", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "I'm so good and I've noticed."}
+{"id": "cs06", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "i-Ira Lord yami iphansi kakhulu inyalo"}
+{"id": "cs07", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "diesel la and the pay it for change lentsha"}
+{"id": "cs08", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "umfana wami we- efeza kusukela izolo ebusuku"}
+{"id": "cs09", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngila umshongo enhlokweni ye-Herdage Hill ngalo lunge"}
+{"id": "cs10", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kufanele ugcine i-appointment card yakho"}
+{"id": "cs11", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "I-Iglade Pressure iyakho iphezulu kakhulu."}
+{"id": "cs12", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sisiza ulethe le ndatshana ukuthi ikhadi lakho linothi kuTrinity."}
+{"id": "cs13", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngithe thina eMatterbeast kumapower machine"}
+{"id": "cs14", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "emekheshu athi an alunile yin"}
+{"id": "cs15", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "yikho sebengikushilo ukuthi thina singangena alese"}
+{"id": "cs16", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "le mali ye transport iyabiza kakhulu"}
+{"id": "cs17", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngicela lawo check ehhe esuke level elana"}
+{"id": "cs18", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Makhelwane wami ngithi ngithi is my hit bro."}
+{"id": "cs19", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sitaku phonina ngabe emadresses seemafikile."}
+{"id": "cs20", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "We satha ithevent ye an isikazi, sonti."}
+{"id": "cs21", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kuwalwe be yinde kakhulu namuhla ekuseni"}
+{"id": "cs22", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngibusise kakhulu kulelisantfu"}
+{"id": "cs23", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "osethi i-Scun ithunyelwa ngoLwesihlanu"}
+{"id": "cs24", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngisasala o extra inaka kahle ngoba and"}
+{"id": "cs25", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umthwana uthatha i-ration yakhe yosibili."}
+{"id": "cs26", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "be- C_D_F_X ngime phelesi lamasha"}
+{"id": "cs27", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "endoctor with eZingephumulo eMalanga namazazwe"}
+{"id": "cs28", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngiyeza oRafaela Lopez Hodgeon wami"}
+{"id": "cs29", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Thoni yami ifile ngako angiyitholi, imisa kanjani?"}
+{"id": "cs30", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Zitha zihlangana emba kweLumvu"}
+{"id": "cs31", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "we want to put up point ye let's point."}
+{"id": "cs32", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ithi hayi belathe ngakhoni fike nathi."}
+{"id": "cs33", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngiyakutshela ungibhalele isignature"}
+{"id": "cs34", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Imakethe yamasheya aseMelika ayihambisani ne-European Union."}
+{"id": "cs35", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "etestini ye-Tebetulosis ibebe ne-item"}
+{"id": "cs36", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kufanele udle kahle ngaphambi kokuthatha in medicine"}
+{"id": "cs37", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Umtwana otholele i-e-Formicaf"}
+{"id": "cs38", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngibeneqhaza emabikini namabikini."}
+{"id": "cs39", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "enasekisithini ngibone emva kwemaliki lamani"}
+{"id": "cs40", "set": "cs_tts", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sitha bo thinta ngemi site"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx865", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kentful Fugu, this is the end of Lieutenant."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1187", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Konaleya nto abantu labazala."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2261", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "yamahlasela"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2246", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Asifundise ukuthumela eQuentin Tencent."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx345", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ngendlela ekwesatshiswa ngemidlalo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx466", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "simete nompholete shuka shukeni"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1462", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ngemgwaqo noma ngomoya."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx338", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "nanobe kulandelwa inko"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx893", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "inshinye ukuwasha ithimba"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx229", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "leli tawumsita bahlolwe ekukhetheni"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1957", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sekiyelo yemi kwaqo."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1279", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ten two two two two ya fun vo et de corwin"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1751", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Venessa Certificate Sempu Aniv"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2170", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "kwemakhoma ekuxhumaneni emhlabathini"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1998", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "yeki nje sifo la kudla kuntu"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx363", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Amamule, aqalise isikhathiso."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2670", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifozami tilimele ifukile leli."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx827", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "umake umsanzaku ukuthenga amathoyizi"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1793", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Ukuya kuKwabaniswa ku-Emerald."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1891", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ne kuphazwa kahle kakhulu"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1029", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ukudla lokhu kunembafutha akukho mbhalo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx273", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ungahle ukube ne ngaphutha"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx634", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "leninyezi idikfoga isangayi"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2215", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kuba luleka, ayinakho ukuthululana."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2303", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kumakekelwa kweta mpilo, u-Arabhu akhulelwe."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2250", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ka imicabango methe kakamisi"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2735", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Thek' le-tephukeni teniso."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1978", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "sinemicimbi yokuvula ithimba lezokuxhumana"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2671", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "leli liyiqiniso ubufakazi bekuhlela"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2103", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "uKhangwe uMsenzu Wabantu"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2340", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sesa balala yiyo ke imzawu."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2309", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Uzabukela uzamukela."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1479", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "lona sekela shloko"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx605", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Mngcwebi wesizalo uTembele Gowe"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx830", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Kamagezimesi ethu angathuthuka"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2674", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Menchozo nitedemilo athi ngimalengiso"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2575", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "impala"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1977", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "selekelelwe bonke abantu labazali"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2503", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "ukudla lokhu ngcolile kubangathi"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1216", "set": "ssw_tts_control", "model": "facebook/seamless-m4t-v2-large", "tag": "seamless_zul", "tgt_lang": "zul", "hyp": "Sifundani ngithi ulale, yazi ukuthi."}

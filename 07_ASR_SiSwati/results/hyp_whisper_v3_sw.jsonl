@@ -1,0 +1,580 @@
+{"id": "ssw_NCHTL_ssw_test_idx669", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Banfana batikeloa inga nikuwane na balala."}
+{"id": "ssw_NCHTL_ssw_test_idx2497", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kubega emaji."}
+{"id": "ssw_NCHTL_ssw_test_idx577", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuluulakutsena ngeli kati nyalu."}
+{"id": "ssw_NCHTL_ssw_test_idx2619", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kumkandu wa vilonga wetifunza."}
+{"id": "ssw_NCHTL_ssw_test_idx1577", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Wetinfu te kupuise ilwa kwenzela."}
+{"id": "ssw_NCHTL_ssw_test_idx1644", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Iteksti ikanjwe ngeli kopelo."}
+{"id": "ssw_NCHTL_ssw_test_idx211", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tingaba nita laba ikhae."}
+{"id": "ssw_NCHTL_ssw_test_idx1334", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nasia ekae guya nyugele."}
+{"id": "ssw_NCHTL_ssw_test_idx1450", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yesegela sishogu."}
+{"id": "ssw_NCHTL_ssw_test_idx1943", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lengu nyiwe, legume, leifague."}
+{"id": "ssw_NCHTL_ssw_test_idx943", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gulo mshabalosi taushanyela mbila."}
+{"id": "ssw_NCHTL_ssw_test_idx2496", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kasi na letu lege kasi."}
+{"id": "ssw_NCHTL_ssw_test_idx1713", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mbilo seabangono kuneye batali bidu."}
+{"id": "ssw_NCHTL_ssw_test_idx1747", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Bese wetuula umkikuito."}
+{"id": "ssw_NCHTL_ssw_test_idx1507", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ema heu labanzago amnaanza."}
+{"id": "ssw_NCHTL_ssw_test_idx466", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine demno tole deluga luge ni."}
+{"id": "ssw_NCHTL_ssw_test_idx2089", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sike lo sakes, ashwele."}
+{"id": "ssw_NCHTL_ssw_test_idx1112", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sibona ni milta aloye mwya kubo."}
+{"id": "ssw_NCHTL_ssw_test_idx1271", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Keza tija uma utolda mfana."}
+{"id": "ssw_NCHTL_ssw_test_idx446", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kusebenda kweptimitimba yetu."}
+{"id": "ssw_NCHTL_ssw_test_idx1882", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Segupalizwa jenga sosa enzi wewe vero."}
+{"id": "ssw_NCHTL_ssw_test_idx2735", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Takele tesuge enete misho."}
+{"id": "ssw_NCHTL_ssw_test_idx340", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Butusa nula basigati bala lingatu."}
+{"id": "ssw_NCHTL_ssw_test_idx1472", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ema kodi la senjeti selwa gusloola."}
+{"id": "ssw_NCHTL_ssw_test_idx148", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Likama lesite shesema poiza."}
+{"id": "ssw_NCHTL_ssw_test_idx2438", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kunale chanjwa bandula batala."}
+{"id": "ssw_NCHTL_ssw_test_idx1646", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yese chluga nisu siku kutitwa kwe mshadu."}
+{"id": "ssw_NCHTL_ssw_test_idx1456", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gumele si hambisani ni maali."}
+{"id": "ssw_NCHTL_ssw_test_idx2133", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Iklazu iga ashega kuu unu."}
+{"id": "ssw_NCHTL_ssw_test_idx2747", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutonze kusichela nisongoni."}
+{"id": "ssw_NCHTL_ssw_test_idx791", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siba ni mkimbi wa kisimu msi."}
+{"id": "ssw_NCHTL_ssw_test_idx1594", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sasezulu ini."}
+{"id": "ssw_NCHTL_ssw_test_idx937", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Enga nga lagubanza kakulu."}
+{"id": "ssw_NCHTL_ssw_test_idx1046", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Basita nange timfunjwa tasema koli."}
+{"id": "ssw_NCHTL_ssw_test_idx823", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Wakuli bavivinya imapimbo."}
+{"id": "ssw_NCHTL_ssw_test_idx1706", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Bandvana labanguigili labanemi nyaka."}
+{"id": "ssw_NCHTL_ssw_test_idx567", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "imibuso yesi katile sengu hili."}
+{"id": "ssw_NCHTL_ssw_test_idx1891", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nikutazwa gase kakulu."}
+{"id": "ssw_NCHTL_ssw_test_idx1129", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Inza ulesande gile ainao ematriwan."}
+{"id": "ssw_NCHTL_ssw_test_idx1442", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikailo siku palisa emafetri."}
+{"id": "ssw_NCHTL_ssw_test_idx1413", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Esei ibe umbalo."}
+{"id": "ssw_NCHTL_ssw_test_idx927", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Bapati bima vizinisi la mangane."}
+{"id": "ssw_NCHTL_ssw_test_idx2255", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Usitabit foleti nifonge li nani li li pasi."}
+{"id": "ssw_NCHTL_ssw_test_idx182", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umfunzi utaugu atigufunza."}
+{"id": "ssw_NCHTL_ssw_test_idx2114", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tindela ngrubu, teloa tilo nzabugu."}
+{"id": "ssw_NCHTL_ssw_test_idx2303", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuna kekelo wa wetembilu, kwa laba kulelo."}
+{"id": "ssw_NCHTL_ssw_test_idx805", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Haka ni matfuba mze bendi."}
+{"id": "ssw_NCHTL_ssw_test_idx536", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Futsi ibutela bantunza onye."}
+{"id": "ssw_NCHTL_ssw_test_idx1185", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ema kosingi ule wa kile ema sigwen."}
+{"id": "ssw_NCHTL_ssw_test_idx1638", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikelo seguchincha tibu."}
+{"id": "ssw_NCHTL_ssw_test_idx584", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sende luchelo la sele kulisha lakon cha alo."}
+{"id": "ssw_NCHTL_ssw_test_idx1071", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza ngetinwa letendega mtimbengi."}
+{"id": "ssw_NCHTL_ssw_test_idx83", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lata lelwa."}
+{"id": "ssw_NCHTL_ssw_test_idx213", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Legu sebenti sa lulu eme li pasi."}
+{"id": "ssw_NCHTL_ssw_test_idx2793", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yebu nomata."}
+{"id": "ssw_NCHTL_ssw_test_idx1016", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isichela nanga mandela."}
+{"id": "ssw_NCHTL_ssw_test_idx2731", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutsitibita ema nani langa ganani."}
+{"id": "ssw_NCHTL_ssw_test_idx135", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Jenyan Goose"}
+{"id": "ssw_NCHTL_ssw_test_idx2652", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siku kukachi sitalele matanza la mane."}
+{"id": "ssw_NCHTL_ssw_test_idx296", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tse anga lalele nga loku juli ile."}
+{"id": "ssw_NCHTL_ssw_test_idx422", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Batendela ni misibendi ya taandla."}
+{"id": "ssw_NCHTL_ssw_test_idx568", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutsengeka sila alingalukwa neli."}
+{"id": "ssw_NCHTL_ssw_test_idx956", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Neku tibenda njani na bakuula."}
+{"id": "ssw_NCHTL_ssw_test_idx2388", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Saatfola inzandwa. Yelinuinti."}
+{"id": "ssw_NCHTL_ssw_test_idx2491", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nau babuga ngeze la la basiti."}
+{"id": "ssw_NCHTL_ssw_test_idx1058", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Asita nguwete mila alo."}
+{"id": "ssw_NCHTL_ssw_test_idx2579", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuli digu li temandi ni temalazi."}
+{"id": "ssw_NCHTL_ssw_test_idx1336", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tenfu chugo tisita livenge miswebendi."}
+{"id": "ssw_NCHTL_ssw_test_idx2027", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yemtse tuanobenga pansi."}
+{"id": "ssw_NCHTL_ssw_test_idx2283", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nkukona lamba lalasele."}
+{"id": "ssw_NCHTL_ssw_test_idx1135", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikuati negulo longa umtimbia."}
+{"id": "ssw_NCHTL_ssw_test_idx1106", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umlele upuma etinza benle tenze."}
+{"id": "ssw_NCHTL_ssw_test_idx1691", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Uma uga asli silu ngisilwa nintawu."}
+{"id": "ssw_NCHTL_ssw_test_idx1614", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lofu na kufaga sikelo."}
+{"id": "ssw_NCHTL_ssw_test_idx1374", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lesisha segubusa nge mtetfo sisegele."}
+{"id": "ssw_NCHTL_ssw_test_idx1111", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umcheto wepola."}
+{"id": "ssw_NCHTL_ssw_test_idx708", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leti nye dikulu mangi mila alo."}
+{"id": "ssw_NCHTL_ssw_test_idx2411", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ese fundzi isa, ingubalulega kwenfe."}
+{"id": "ssw_NCHTL_ssw_test_idx917", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ni manani ato awafani."}
+{"id": "ssw_NCHTL_ssw_test_idx418", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lemini itandwa ngula sabi kulili."}
+{"id": "ssw_NCHTL_ssw_test_idx2111", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sakelo nitikolo."}
+{"id": "ssw_NCHTL_ssw_test_idx1531", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Agulingani nilizinga lulului."}
+{"id": "ssw_NCHTL_ssw_test_idx178", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yeguelelela, umundvu ngenjwa."}
+{"id": "ssw_NCHTL_ssw_test_idx1238", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Asibonisa nange masigo edu."}
+{"id": "ssw_NCHTL_ssw_test_idx1996", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kunga loo vyesi koluhini."}
+{"id": "ssw_NCHTL_ssw_test_idx226", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ika zwega aliga kulu."}
+{"id": "ssw_NCHTL_ssw_test_idx192", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Takamuti tasenengi zemu Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx1814", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza ni masigo, negushuka gwawo."}
+{"id": "ssw_NCHTL_ssw_test_idx1467", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kusloba na ugebandvu nitichalu."}
+{"id": "ssw_NCHTL_ssw_test_idx2313", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Fahasitelo eo vizi."}
+{"id": "ssw_NCHTL_ssw_test_idx865", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "10.6.8."}
+{"id": "ssw_NCHTL_ssw_test_idx2043", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Inde la yabu, yegu sabilela."}
+{"id": "ssw_NCHTL_ssw_test_idx1061", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lamanya siticha vuli sangao."}
+{"id": "ssw_NCHTL_ssw_test_idx1968", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kungatata imavigila sitfuupa."}
+{"id": "ssw_NCHTL_ssw_test_idx1308", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gukona luze chendizelo imizalio ya sese teji."}
+{"id": "ssw_NCHTL_ssw_test_idx763", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mvula isu pange gubaanza."}
+{"id": "ssw_NCHTL_ssw_test_idx2671", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lelelui mbufagazi. Begu sheila."}
+{"id": "ssw_NCHTL_ssw_test_idx325", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikte lo semiali alo egusise eno."}
+{"id": "ssw_NCHTL_ssw_test_idx1927", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nebantu besi tsaatulegu sechendi swana."}
+{"id": "ssw_NCHTL_ssw_test_idx1274", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isifunzisa nangetempilo."}
+{"id": "ssw_NCHTL_ssw_test_idx375", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kumele usebendize umtonru na urlala lipogola."}
+{"id": "ssw_NCHTL_ssw_test_idx2501", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa itiluimi letimbi ilinobi."}
+{"id": "ssw_NCHTL_ssw_test_idx1907", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Timbasa sititze nga ngilikadi."}
+{"id": "ssw_NCHTL_ssw_test_idx931", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Enza weagizi ikwele emabizi miisi."}
+{"id": "ssw_NCHTL_ssw_test_idx2758", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Logo buwa hago."}
+{"id": "ssw_NCHTL_ssw_test_idx1940", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kukona lafunzisa banwana."}
+{"id": "ssw_NCHTL_ssw_test_idx2664", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "9 pi umba"}
+{"id": "ssw_NCHTL_ssw_test_idx41", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Seventisa gachetimo kwenda."}
+{"id": "ssw_NCHTL_ssw_test_idx2215", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guba luleza aina wototelana."}
+{"id": "ssw_NCHTL_ssw_test_idx1690", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Logon kene kuyonge mb."}
+{"id": "ssw_NCHTL_ssw_test_idx1481", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guti ufuna guti inye."}
+{"id": "ssw_NCHTL_ssw_test_idx1934", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Uona gute uguvele."}
+{"id": "ssw_NCHTL_ssw_test_idx2235", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kungaba namchelela mwuni."}
+{"id": "ssw_NCHTL_ssw_test_idx1871", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Saati gumele babi."}
+{"id": "ssw_NCHTL_ssw_test_idx1347", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leti nye tibonisa ngefashinu."}
+{"id": "ssw_NCHTL_ssw_test_idx1941", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Na yoyonge imitse etu."}
+{"id": "ssw_NCHTL_ssw_test_idx1408", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sini shlabo imkulu ligutsiwa ihaus."}
+{"id": "ssw_NCHTL_ssw_test_idx306", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ubonangisho wezo."}
+{"id": "ssw_NCHTL_ssw_test_idx2309", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ukapelegu imika ulu."}
+{"id": "ssw_NCHTL_ssw_test_idx2417", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isatisa ngelela bukosi lobe bungayo."}
+{"id": "ssw_NCHTL_ssw_test_idx925", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Titutufu kisalive la gizi."}
+{"id": "ssw_NCHTL_ssw_test_idx1281", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sina la maje etemilalwa."}
+{"id": "ssw_NCHTL_ssw_test_idx1655", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guti sebagu pinyalo."}
+{"id": "ssw_NCHTL_ssw_test_idx1483", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lamanyi alungi lebandwanu."}
+{"id": "ssw_NCHTL_ssw_test_idx1479", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lo, lo segela si shogo."}
+{"id": "ssw_NCHTL_ssw_test_idx456", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Uchutugisa dinza oda semakaya."}
+{"id": "ssw_NCHTL_ssw_test_idx2314", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kufarasi telu kukomiti."}
+{"id": "ssw_NCHTL_ssw_test_idx2537", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lechuge nega nyenetin zaaba"}
+{"id": "ssw_NCHTL_ssw_test_idx288", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Emafumu esikte logumele."}
+{"id": "ssw_NCHTL_ssw_test_idx1027", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Fotsi si titogotisa ngayo."}
+{"id": "ssw_NCHTL_ssw_test_idx2574", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lemikulu kanyanemikamu."}
+{"id": "ssw_NCHTL_ssw_test_idx776", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yenda saa titi nvoleti nye endi."}
+{"id": "ssw_NCHTL_ssw_test_idx2678", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Misebendi iapela o maweshili."}
+{"id": "ssw_NCHTL_ssw_test_idx2787", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kufagasike lo sewe sula."}
+{"id": "ssw_NCHTL_ssw_test_idx2039", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gutibagi baba emakuzi."}
+{"id": "ssw_NCHTL_ssw_test_idx332", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kusitatimende sako seli hono."}
+{"id": "ssw_NCHTL_ssw_test_idx2483", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tikate nkulumu netaka"}
+{"id": "ssw_NCHTL_ssw_test_idx1950", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mwangabe likomiti."}
+{"id": "ssw_NCHTL_ssw_test_idx1680", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Uma ufuna umnini wana."}
+{"id": "ssw_NCHTL_ssw_test_idx949", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Neku uzi umtimba utivigela njani eti feeni."}
+{"id": "ssw_NCHTL_ssw_test_idx2770", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Melike paomko vweche."}
+{"id": "ssw_NCHTL_ssw_test_idx269", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Noma upigize lombono."}
+{"id": "ssw_NCHTL_ssw_test_idx1154", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza ngeti nkolelo leti shugila."}
+{"id": "ssw_NCHTL_ssw_test_idx731", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tingu wazileti funzisangu mzaito."}
+{"id": "ssw_NCHTL_ssw_test_idx2709", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza tinlela tegutanza tesindwa."}
+{"id": "ssw_NCHTL_ssw_test_idx2049", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ayasita magwitewele apa."}
+{"id": "ssw_NCHTL_ssw_test_idx560", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Silala enjini aga koko."}
+{"id": "ssw_NCHTL_ssw_test_idx794", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Etikolwe ni segune tifunvo, tema pizini."}
+{"id": "ssw_NCHTL_ssw_test_idx1530", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mfagua leso na leso."}
+{"id": "ssw_NCHTL_ssw_test_idx1008", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Luso ulekupea ga ingo usi."}
+{"id": "ssw_NCHTL_ssw_test_idx2492", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngegu shogwa makakula eme."}
+{"id": "ssw_NCHTL_ssw_test_idx2226", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mufiga kwa laba mshope gulive."}
+{"id": "ssw_NCHTL_ssw_test_idx1722", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Seu vele usebendele egu tutufugise."}
+{"id": "ssw_NCHTL_ssw_test_idx229", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leta usita bacholo wa egu ketene."}
+{"id": "ssw_NCHTL_ssw_test_idx1793", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gubiga gukwa waniswa gwe mali."}
+{"id": "ssw_NCHTL_ssw_test_idx732", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Temi ldalo tilolonga mtimba wejufu."}
+{"id": "ssw_NCHTL_ssw_test_idx57", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Pala inzachana nga logo."}
+{"id": "ssw_NCHTL_ssw_test_idx848", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ema sigo abu ni mitaetwa."}
+{"id": "ssw_NCHTL_ssw_test_idx1388", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Pashie timba uteku kapuna."}
+{"id": "ssw_NCHTL_ssw_test_idx893", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "imishi ni yugu wa shatimbaza"}
+{"id": "ssw_NCHTL_ssw_test_idx2547", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ganyene guhambi sana mkatsini."}
+{"id": "ssw_NCHTL_ssw_test_idx2380", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Segu laula, segu pata gumele."}
+{"id": "ssw_NCHTL_ssw_test_idx2419", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngekungoli isu agwe moja."}
+{"id": "ssw_NCHTL_ssw_test_idx831", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Imvula ina esho obu."}
+{"id": "ssw_NCHTL_ssw_test_idx1584", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lona lofage sikeno."}
+{"id": "ssw_NCHTL_ssw_test_idx1592", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ema jaha aka sibaya."}
+{"id": "ssw_NCHTL_ssw_test_idx1648", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lenzela yisikashana lekukuwa agu."}
+{"id": "ssw_NCHTL_ssw_test_idx2535", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Bancho labazanza gujla, labazanza butonga."}
+{"id": "ssw_NCHTL_ssw_test_idx2543", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isichelange si mose lidulu."}
+{"id": "ssw_NCHTL_ssw_test_idx1243", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kututugi saa tinzao da semakaa."}
+{"id": "ssw_NCHTL_ssw_test_idx1389", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kupa lulege kakulungobe."}
+{"id": "ssw_NCHTL_ssw_test_idx1998", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leti nye sitifola guja kutu."}
+{"id": "ssw_NCHTL_ssw_test_idx2598", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gute kukonzi suwele male."}
+{"id": "ssw_NCHTL_ssw_test_idx231", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lunga pansi kwa lelitembu lalifagele."}
+{"id": "ssw_NCHTL_ssw_test_idx1001", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tingu wachitisenda sibe bukali"}
+{"id": "ssw_NCHTL_ssw_test_idx2172", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Certificate seguba semu kwa teni."}
+{"id": "ssw_NCHTL_ssw_test_idx115", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gulitineso yeneguchi"}
+{"id": "ssw_NCHTL_ssw_test_idx1720", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isisi ya singa chanji bukibi."}
+{"id": "ssw_NCHTL_ssw_test_idx2099", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Jengo begulanze lwa imiko."}
+{"id": "ssw_NCHTL_ssw_test_idx680", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kune bandula wapala ema paiskopo."}
+{"id": "ssw_NCHTL_ssw_test_idx672", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lamanyi afunzi sagwenda umsebendi."}
+{"id": "ssw_NCHTL_ssw_test_idx1070", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gulda egusenu kupalule gile."}
+{"id": "ssw_NCHTL_ssw_test_idx889", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "La mandi lawa aneluzaga."}
+{"id": "ssw_NCHTL_ssw_test_idx1150", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siku atikubega kutakutu."}
+{"id": "ssw_NCHTL_ssw_test_idx188", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikti nisego sekutsi emafomu."}
+{"id": "ssw_NCHTL_ssw_test_idx1081", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guko nalama ngane nalama kulu."}
+{"id": "ssw_NCHTL_ssw_test_idx55", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Funza lengwanjolengenda hazi."}
+{"id": "ssw_NCHTL_ssw_test_idx117", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Neku kai kai shachi gelele."}
+{"id": "ssw_NCHTL_ssw_test_idx2203", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutilolonga kusende sive mulaba pili ili."}
+{"id": "ssw_NCHTL_ssw_test_idx2433", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Selu nyo selu ni mikuwa ako."}
+{"id": "ssw_NCHTL_ssw_test_idx2641", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mgani nini tugu saoma?"}
+{"id": "ssw_NCHTL_ssw_test_idx605", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Uminotowe sive utembele uwe."}
+{"id": "ssw_NCHTL_ssw_test_idx1268", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Busiga sikazi segubanda."}
+{"id": "ssw_NCHTL_ssw_test_idx2217", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa ite timali nisi lulu semno otfo."}
+{"id": "ssw_NCHTL_ssw_test_idx589", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mage utsenge inguku emageti."}
+{"id": "ssw_NCHTL_ssw_test_idx2739", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine mijalo ni masigo la manyende."}
+{"id": "ssw_NCHTL_ssw_test_idx948", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Akwana lazengi satimbaza?"}
+{"id": "ssw_NCHTL_ssw_test_idx1098", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Banfana batake lo inga negwani na balala."}
+{"id": "ssw_NCHTL_ssw_test_idx628", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Asisita siguati kusita labasupigili."}
+{"id": "ssw_NCHTL_ssw_test_idx1289", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tisi sita kutsisibone imilalwa."}
+{"id": "ssw_NCHTL_ssw_test_idx656", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lamanya afundzi salogutsi ite."}
+{"id": "ssw_NCHTL_ssw_test_idx2751", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuleti njeti nwe nye akufagar."}
+{"id": "ssw_NCHTL_ssw_test_idx167", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siketelo sekupali sanjenye mkoki."}
+{"id": "ssw_NCHTL_ssw_test_idx353", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siluga emakasi."}
+{"id": "ssw_NCHTL_ssw_test_idx451", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isifundizan esimo setulu."}
+{"id": "ssw_NCHTL_ssw_test_idx1029", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa hilo unemuwa futa unambilu."}
+{"id": "ssw_NCHTL_ssw_test_idx2176", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sitelo sa kogumele."}
+{"id": "ssw_NCHTL_ssw_test_idx689", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikiza umtsi imba."}
+{"id": "ssw_NCHTL_ssw_test_idx779", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mabwana kutu uchale ukonbisa gwe mbata lo gule."}
+{"id": "ssw_NCHTL_ssw_test_idx2059", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine titofuta kiezi."}
+{"id": "ssw_NCHTL_ssw_test_idx2169", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siti fuhetu same chart wa lesi finye tiwa."}
+{"id": "ssw_NCHTL_ssw_test_idx2523", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nema lungelo elu nchuganya."}
+{"id": "ssw_NCHTL_ssw_test_idx632", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lamanya si dichabulisa ngao."}
+{"id": "ssw_NCHTL_ssw_test_idx1589", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Australian Air Force"}
+{"id": "ssw_NCHTL_ssw_test_idx2218", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Te buze benda. Te sise benda. Te tembilo."}
+{"id": "ssw_NCHTL_ssw_test_idx478", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "umshalo ili pola."}
+{"id": "ssw_NCHTL_ssw_test_idx2281", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ufage sitelo saako."}
+{"id": "ssw_NCHTL_ssw_test_idx2336", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngabe sikalo sako."}
+{"id": "ssw_NCHTL_ssw_test_idx152", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngasinye saleti shokoleti lanzelao."}
+{"id": "ssw_NCHTL_ssw_test_idx1869", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siguati logo uma."}
+{"id": "ssw_NCHTL_ssw_test_idx476", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Inyoga ya lumana ulimali."}
+{"id": "ssw_NCHTL_ssw_test_idx810", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngo mande la wange nela luketfu."}
+{"id": "ssw_NCHTL_ssw_test_idx2590", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "H.O.Z. kune mapizinesi kakuni."}
+{"id": "ssw_NCHTL_ssw_test_idx2748", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kubalulega nemsebendo emapapu."}
+{"id": "ssw_NCHTL_ssw_test_idx1629", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikelo segupalizwa kwekukala."}
+{"id": "ssw_NCHTL_ssw_test_idx1052", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Imiiklimbi ya fashini ya mavigi onge."}
+{"id": "ssw_NCHTL_ssw_test_idx2673", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leting nusa la seningzi mwafrika."}
+{"id": "ssw_NCHTL_ssw_test_idx508", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine tingua zite tinga negu wani."}
+{"id": "ssw_NCHTL_ssw_test_idx541", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Usibonisa kutilive linjani."}
+{"id": "ssw_NCHTL_ssw_test_idx1119", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutsili kusasaletu li kataganjan."}
+{"id": "ssw_NCHTL_ssw_test_idx1197", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuba nemitu imbiegu kolege la labasu pegele."}
+{"id": "ssw_NCHTL_ssw_test_idx1633", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siba ni mikimbi epuleni litinya."}
+{"id": "ssw_NCHTL_ssw_test_idx2113", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sipkelo sepa sipoji ya mdwana."}
+{"id": "ssw_NCHTL_ssw_test_idx2103", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ukangwe ngumsindvu webandvu."}
+{"id": "ssw_NCHTL_ssw_test_idx1961", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza nyesi mwese litulu salamanya emave."}
+{"id": "ssw_NCHTL_ssw_test_idx936", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinetimba sata bubabe."}
+{"id": "ssw_NCHTL_ssw_test_idx592", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ilanzisangisho nangeti imbi."}
+{"id": "ssw_NCHTL_ssw_test_idx813", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tenda wanu, banga kani."}
+{"id": "ssw_NCHTL_ssw_test_idx1216", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza ngemi kulo yesi swate."}
+{"id": "ssw_NCHTL_ssw_test_idx2763", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sipenye lesite lofuti."}
+{"id": "ssw_NCHTL_ssw_test_idx634", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leminya si ditoke disangayo."}
+{"id": "ssw_NCHTL_ssw_test_idx1957", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sakelo ni mikwaku."}
+{"id": "ssw_NCHTL_ssw_test_idx1042", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gubenemi krimbie guketa balali labapambili."}
+{"id": "ssw_NCHTL_ssw_test_idx585", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuki ita guli sigollo etu."}
+{"id": "ssw_NCHTL_ssw_test_idx1234", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umlandu usifunzi sangi mfela pietu."}
+{"id": "ssw_NCHTL_ssw_test_idx2555", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ingubo njele lenike tuweli tigo."}
+{"id": "ssw_NCHTL_ssw_test_idx2431", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine mitulo yema siku."}
+{"id": "ssw_NCHTL_ssw_test_idx1409", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Wetu fulwe nye bunonu na ngelela."}
+{"id": "ssw_NCHTL_ssw_test_idx475", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isijela nange kukulega kwa mklaba."}
+{"id": "ssw_NCHTL_ssw_test_idx600", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "futi akulisa umnotu."}
+{"id": "ssw_NCHTL_ssw_test_idx1279", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tenfu tfugutia funza etikolwe."}
+{"id": "ssw_NCHTL_ssw_test_idx2334", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tegula ula kutsena ngapa andle."}
+{"id": "ssw_NCHTL_ssw_test_idx483", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ema chiji atwele umkuasho."}
+{"id": "ssw_NCHTL_ssw_test_idx994", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ise fondi za gudze sema abiti kebewa."}
+{"id": "ssw_NCHTL_ssw_test_idx1187", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuna lechanifa banfula bachala."}
+{"id": "ssw_NCHTL_ssw_test_idx2257", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nchana noe basa bende bima tegi isi."}
+{"id": "ssw_NCHTL_ssw_test_idx2357", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sitalo le seku chenye sana pande."}
+{"id": "ssw_NCHTL_ssw_test_idx1904", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yetegulima ganyi ni misebele."}
+{"id": "ssw_NCHTL_ssw_test_idx1213", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza gubada."}
+{"id": "ssw_NCHTL_ssw_test_idx715", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Oma omuse, banvu, bekelewa, emakaya."}
+{"id": "ssw_NCHTL_ssw_test_idx2075", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mapalaniwe ngandolo yetegulingana."}
+{"id": "ssw_NCHTL_ssw_test_idx429", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sina alhi logunga siku liisa."}
+{"id": "ssw_NCHTL_ssw_test_idx2577", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Letanga pande."}
+{"id": "ssw_NCHTL_ssw_test_idx150", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gufaga sitelo seselegelelo."}
+{"id": "ssw_NCHTL_ssw_test_idx2000", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tizingu tetimaliganya."}
+{"id": "ssw_NCHTL_ssw_test_idx2721", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Dinilego desikati lesilinge."}
+{"id": "ssw_NCHTL_ssw_test_idx1549", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Logulingene luati lululingene."}
+{"id": "ssw_NCHTL_ssw_test_idx1021", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gunga ni futi abo shwasi tatu."}
+{"id": "ssw_NCHTL_ssw_test_idx1318", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umnotu wetu uwili."}
+{"id": "ssw_NCHTL_ssw_test_idx910", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sitsanza guja loguneti kaze."}
+{"id": "ssw_NCHTL_ssw_test_idx1401", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Egu shola ema kwa upelo, egu shola."}
+{"id": "ssw_NCHTL_ssw_test_idx2236", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lopu melele nga lobuli nge neanga."}
+{"id": "ssw_NCHTL_ssw_test_idx1682", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Upendvule ngado imibuudo."}
+{"id": "ssw_NCHTL_ssw_test_idx946", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Silalela ga kulu umpaka."}
+{"id": "ssw_NCHTL_ssw_test_idx2754", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ganyene bunini bimshaba."}
+{"id": "ssw_NCHTL_ssw_test_idx539", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Njele ujlala mkulu."}
+{"id": "ssw_NCHTL_ssw_test_idx607", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tisisita sati nyesi muse live letu."}
+{"id": "ssw_NCHTL_ssw_test_idx1746", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Likama lalofa gesi krele."}
+{"id": "ssw_NCHTL_ssw_test_idx237", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mbenvulo inaagogu hambeleana."}
+{"id": "ssw_NCHTL_ssw_test_idx1671", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Netinzao letinjaa lukumawati"}
+{"id": "ssw_NCHTL_ssw_test_idx764", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mwage uthengi leba welehenwele liisha."}
+{"id": "ssw_NCHTL_ssw_test_idx1131", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Emila luletriza sitfugu tseti."}
+{"id": "ssw_NCHTL_ssw_test_idx1782", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guti umbane wendiwa hini na lina."}
+{"id": "ssw_NCHTL_ssw_test_idx2261", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yama shasena."}
+{"id": "ssw_NCHTL_ssw_test_idx220", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Selu lelo lwe kutufu kisa kabusha."}
+{"id": "ssw_NCHTL_ssw_test_idx1963", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Segupalisa kubu yiselwa imali."}
+{"id": "ssw_NCHTL_ssw_test_idx1885", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Esendiwe ngapanzi kwe sikachana."}
+{"id": "ssw_NCHTL_ssw_test_idx2143", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lue maali luto funye lue kubani gati."}
+{"id": "ssw_NCHTL_ssw_test_idx2683", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa esha wabupuwea bimaali."}
+{"id": "ssw_NCHTL_ssw_test_idx2170", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa makuonu egu tutu ilana M7."}
+{"id": "ssw_NCHTL_ssw_test_idx0", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leti nzela leti lanzelago, tegufaga."}
+{"id": "ssw_NCHTL_ssw_test_idx365", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sile gula lukutasi sidasi pefu mule gache."}
+{"id": "ssw_NCHTL_ssw_test_idx1006", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Banfula bagwa tikutifunga timbasa."}
+{"id": "ssw_NCHTL_ssw_test_idx1054", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Asisita siguati kusita la vashu pegili."}
+{"id": "ssw_NCHTL_ssw_test_idx2511", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa didzingo le delu laka etegishi."}
+{"id": "ssw_NCHTL_ssw_test_idx1810", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siti abulele, neye gungena kuli shogo."}
+{"id": "ssw_NCHTL_ssw_test_idx1607", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Himeishole kwele kufanele."}
+{"id": "ssw_NCHTL_ssw_test_idx134", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lelifanele lelikono legwenda."}
+{"id": "ssw_NCHTL_ssw_test_idx615", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Inghozi ishume uguwala kwa la inshuku."}
+{"id": "ssw_NCHTL_ssw_test_idx1189", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Simo selitu luci ibinamul."}
+{"id": "ssw_NCHTL_ssw_test_idx2018", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuba ninjabulu lapo sinimizalo."}
+{"id": "ssw_NCHTL_ssw_test_idx2319", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutuotsi nini?"}
+{"id": "ssw_NCHTL_ssw_test_idx1514", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Side press release."}
+{"id": "ssw_NCHTL_ssw_test_idx301", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwanza ilayema lilesisi uwe."}
+{"id": "ssw_NCHTL_ssw_test_idx86", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngabe nguli pi liluu nga."}
+{"id": "ssw_NCHTL_ssw_test_idx1781", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Diluimi taseningi zimu Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx1665", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Hino mbolo yaako ya matis."}
+{"id": "ssw_NCHTL_ssw_test_idx275", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Central African Republic"}
+{"id": "ssw_NCHTL_ssw_test_idx78", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yee, nyaku leti, letting and dancing."}
+{"id": "ssw_NCHTL_ssw_test_idx523", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Besifa zani baya eskatiini."}
+{"id": "ssw_NCHTL_ssw_test_idx2559", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ego pata kano noti nzuzu."}
+{"id": "ssw_NCHTL_ssw_test_idx2575", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Impala."}
+{"id": "ssw_NCHTL_ssw_test_idx14", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Egu sola nimi palo emabanga."}
+{"id": "ssw_NCHTL_ssw_test_idx45", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Pela lapu uboona."}
+{"id": "ssw_NCHTL_ssw_test_idx2152", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sehruvulu ema pizini sila maneni."}
+{"id": "ssw_NCHTL_ssw_test_idx2513", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tave longe."}
+{"id": "ssw_NCHTL_ssw_test_idx1462", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nge mkwako nobe nge moja."}
+{"id": "ssw_NCHTL_ssw_test_idx1250", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umpatangu utsandwa banjula batzala."}
+{"id": "ssw_NCHTL_ssw_test_idx437", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leminye yeguvulu agwe mitola mbilo."}
+{"id": "ssw_NCHTL_ssw_test_idx2361", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nesilu la magama, mwili topelu lelisetu ulu."}
+{"id": "ssw_NCHTL_ssw_test_idx518", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siba ni mapati."}
+{"id": "ssw_NCHTL_ssw_test_idx2450", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nkini."}
+{"id": "ssw_NCHTL_ssw_test_idx2409", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guja logusanyi liwe gulu setoga kulu mtembeen."}
+{"id": "ssw_NCHTL_ssw_test_idx2426", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tikta logo mwomu wange."}
+{"id": "ssw_NCHTL_ssw_test_idx233", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gwalo nga katalelo wa evini ngewe mtsaetfu."}
+{"id": "ssw_NCHTL_ssw_test_idx1249", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Siku zelana nge matubane etikolwene."}
+{"id": "ssw_NCHTL_ssw_test_idx683", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kufiga kwa labamshope eningzim Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx717", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Titfola galana zeti berjele."}
+{"id": "ssw_NCHTL_ssw_test_idx816", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tikatfulo leti mnyama unatitko gela ngako goonge."}
+{"id": "ssw_NCHTL_ssw_test_idx363", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ema mwuvia hambisa sikati."}
+{"id": "ssw_NCHTL_ssw_test_idx1744", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kanzifutsi kubu mbene."}
+{"id": "ssw_NCHTL_ssw_test_idx528", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Utautiti la umaaparamisa tinsimbi."}
+{"id": "ssw_NCHTL_ssw_test_idx1022", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Timbala sijitze nga mbabane."}
+{"id": "ssw_NCHTL_ssw_test_idx1792", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "National Science Foundation"}
+{"id": "ssw_NCHTL_ssw_test_idx1032", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinema logo emapulugu eniketi na leti."}
+{"id": "ssw_NCHTL_ssw_test_idx2471", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa tinjwa de Milano na Marekoti."}
+{"id": "ssw_NCHTL_ssw_test_idx1246", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Hema piznisi abalulegele."}
+{"id": "ssw_NCHTL_ssw_test_idx610", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Atutugisa ema tolo pala mangani."}
+{"id": "ssw_NCHTL_ssw_test_idx2569", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ukona umlingisi lomto ka."}
+{"id": "ssw_NCHTL_ssw_test_idx631", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ganzile tinye titsabuka galula."}
+{"id": "ssw_NCHTL_ssw_test_idx1307", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isichelange kufika kwa laba mchope."}
+{"id": "ssw_NCHTL_ssw_test_idx1310", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Hema biznisi lako unanya loa ya trashan."}
+{"id": "ssw_NCHTL_ssw_test_idx1672", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Na leti nye tindzima kushleleke."}
+{"id": "ssw_NCHTL_ssw_test_idx2705", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "ya materiela."}
+{"id": "ssw_NCHTL_ssw_test_idx350", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinemisi paletika skwote kuhamba."}
+{"id": "ssw_NCHTL_ssw_test_idx410", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine ti lumi le ti nyendi, ne ti nguazi."}
+{"id": "ssw_NCHTL_ssw_test_idx1415", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lapo gudzingega kuna."}
+{"id": "ssw_NCHTL_ssw_test_idx2469", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Osetana bo Soma pizine isibatutugia"}
+{"id": "ssw_NCHTL_ssw_test_idx1962", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Usisita siguati gwenda ema piznisi."}
+{"id": "ssw_NCHTL_ssw_test_idx2001", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lesisegele o lesagele."}
+{"id": "ssw_NCHTL_ssw_test_idx904", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngabese unabubangani."}
+{"id": "ssw_NCHTL_ssw_test_idx1759", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Pasolo wa papindvula ngemejo."}
+{"id": "ssw_NCHTL_ssw_test_idx1392", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Logo ngane ga kulu kwe si shogo."}
+{"id": "ssw_NCHTL_ssw_test_idx2503", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guza lugu ngoli ile kuba natifo."}
+{"id": "ssw_NCHTL_ssw_test_idx2600", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lihovisi lilinu salasa dinizi."}
+{"id": "ssw_NCHTL_ssw_test_idx827", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mage utanza kutenga timbasha."}
+{"id": "ssw_NCHTL_ssw_test_idx1338", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinemilaluhu ilipola letal."}
+{"id": "ssw_NCHTL_ssw_test_idx2769", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nengulu mojabo."}
+{"id": "ssw_NCHTL_ssw_test_idx1468", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngalogu seba leo ni logu logu lanzela haku."}
+{"id": "ssw_NCHTL_ssw_test_idx1819", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ia siitagutsi singa kabani kukama."}
+{"id": "ssw_NCHTL_ssw_test_idx1714", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Na lamusa."}
+{"id": "ssw_NCHTL_ssw_test_idx2284", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Pasabele li banjula batumele."}
+{"id": "ssw_NCHTL_ssw_test_idx202", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guketwe emakama la lula."}
+{"id": "ssw_NCHTL_ssw_test_idx1930", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kukona imikulu ya masiigo."}
+{"id": "ssw_NCHTL_ssw_test_idx1761", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lusolo limeso kusiku"}
+{"id": "ssw_NCHTL_ssw_test_idx2406", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ni mitulus ya ibona kubo mabona kutse."}
+{"id": "ssw_NCHTL_ssw_test_idx273", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gungashe gube ne mapuza."}
+{"id": "ssw_NCHTL_ssw_test_idx1978", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinemikwe mbiye guvu latipejele."}
+{"id": "ssw_NCHTL_ssw_test_idx870", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinemu kulu ye banvana basetingu liiza."}
+{"id": "ssw_NCHTL_ssw_test_idx2044", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Bumatima kumana ni bafunziisi."}
+{"id": "ssw_NCHTL_ssw_test_idx2498", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Funza lengonzo lila nzilago."}
+{"id": "ssw_NCHTL_ssw_test_idx525", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tisitaguzi imbilo ibe lula."}
+{"id": "ssw_NCHTL_ssw_test_idx1244", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Imbangela yoku kukuleka kumshaba."}
+{"id": "ssw_NCHTL_ssw_test_idx2392", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kulaula bulu mabako."}
+{"id": "ssw_NCHTL_ssw_test_idx830", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Emma pizimi isi edfu angatutufuga."}
+{"id": "ssw_NCHTL_ssw_test_idx872", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lekamera lena ayisibenda."}
+{"id": "ssw_NCHTL_ssw_test_idx1024", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lo mwine sijichabuliza nao."}
+{"id": "ssw_NCHTL_ssw_test_idx1712", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Simchaba wikulima wimbusa."}
+{"id": "ssw_NCHTL_ssw_test_idx1055", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Keza tanta umautwe zili."}
+{"id": "ssw_NCHTL_ssw_test_idx1597", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leti nye sipa lela kuto."}
+{"id": "ssw_NCHTL_ssw_test_idx334", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gulesi nye sikati abeneti isi."}
+{"id": "ssw_NCHTL_ssw_test_idx2174", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Asetarufu tumeta emandi."}
+{"id": "ssw_NCHTL_ssw_test_idx1103", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ututugisa liwe la gezi."}
+{"id": "ssw_NCHTL_ssw_test_idx2016", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lesibusago amange sitalelewe."}
+{"id": "ssw_NCHTL_ssw_test_idx349", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ie mila lo ya sisi tesi."}
+{"id": "ssw_NCHTL_ssw_test_idx112", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Logu chulile kweku sajadiesu wa kwele lulue ime."}
+{"id": "ssw_NCHTL_ssw_test_idx1900", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Egungeena eningizimo Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx1155", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Inzawa ya gizi ibegili."}
+{"id": "ssw_NCHTL_ssw_test_idx344", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umfula usikangi sole sihe semwele."}
+{"id": "ssw_NCHTL_ssw_test_idx852", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leminya ibuwa nisange misha atu."}
+{"id": "ssw_NCHTL_ssw_test_idx1751", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Genisa sitifigeti simkwani."}
+{"id": "ssw_NCHTL_ssw_test_idx1852", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gwage gwaaba nambi yamsahaba."}
+{"id": "ssw_NCHTL_ssw_test_idx2565", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nema lungelo elu ntu la sisegelo."}
+{"id": "ssw_NCHTL_ssw_test_idx933", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Temizalo tilolonga umtimba wechukwa."}
+{"id": "ssw_NCHTL_ssw_test_idx2657", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kufanele afage si trelo."}
+{"id": "ssw_NCHTL_ssw_test_idx2249", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "70 sati pumuti na lukumili."}
+{"id": "ssw_NCHTL_ssw_test_idx1178", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Dinfo mbitika umshangu."}
+{"id": "ssw_NCHTL_ssw_test_idx826", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Banet inselelele tifunzi sange sikolo."}
+{"id": "ssw_NCHTL_ssw_test_idx2238", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa mkomba nzela uwe gufagasi pelu."}
+{"id": "ssw_NCHTL_ssw_test_idx411", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tenda banfana banga kage."}
+{"id": "ssw_NCHTL_ssw_test_idx271", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikthelo segupaliza imiitsi."}
+{"id": "ssw_NCHTL_ssw_test_idx1160", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutla logunge masigo la machadu."}
+{"id": "ssw_NCHTL_ssw_test_idx571", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tisipa umu ya roshlandi gili."}
+{"id": "ssw_NCHTL_ssw_test_idx2013", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Vagashela liuvi silaku."}
+{"id": "ssw_NCHTL_ssw_test_idx2464", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tilekunga sependi kashle kanyi."}
+{"id": "ssw_NCHTL_ssw_test_idx517", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Isibonisa ni kubaliliga kwe sikolo."}
+{"id": "ssw_NCHTL_ssw_test_idx524", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine tingua tite sikolo le tine loati."}
+{"id": "ssw_NCHTL_ssw_test_idx2593", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwenye kalelo luluimi bufagasu."}
+{"id": "ssw_NCHTL_ssw_test_idx2325", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Telur saa kagukona."}
+{"id": "ssw_NCHTL_ssw_test_idx574", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza nangetichalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1035", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sacha bulela ni mila lo yenzebe mslaba."}
+{"id": "ssw_NCHTL_ssw_test_idx1383", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Fuzi uya divisisatinguga."}
+{"id": "ssw_NCHTL_ssw_test_idx324", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nidinzuza tegukulela esipele"}
+{"id": "ssw_NCHTL_ssw_test_idx1328", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine titolo setimbali."}
+{"id": "ssw_NCHTL_ssw_test_idx753", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leti nye kwa nga batin kwa maten sabubu kwa."}
+{"id": "ssw_NCHTL_ssw_test_idx2696", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sema fundo lepage ya meening zinu."}
+{"id": "ssw_NCHTL_ssw_test_idx1287", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Simozele tulusi polili."}
+{"id": "ssw_NCHTL_ssw_test_idx983", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Zaningu za lugune mno atuwa kute upiile."}
+{"id": "ssw_NCHTL_ssw_test_idx901", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Titole satsanga kutuku uza."}
+{"id": "ssw_NCHTL_ssw_test_idx941", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Goodi kaza ni banga ni bako."}
+{"id": "ssw_NCHTL_ssw_test_idx2051", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwe tfuwe ngeli kopelo lelisetulu."}
+{"id": "ssw_NCHTL_ssw_test_idx2515", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinalisi pala ngadu."}
+{"id": "ssw_NCHTL_ssw_test_idx305", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sebenti saluati lue misuga."}
+{"id": "ssw_NCHTL_ssw_test_idx1813", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Emma filimi atrizasi tuu."}
+{"id": "ssw_NCHTL_ssw_test_idx448", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngabe emategisi alipiziniisi."}
+{"id": "ssw_NCHTL_ssw_test_idx1170", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mange uchanza kutse nga timbala."}
+{"id": "ssw_NCHTL_ssw_test_idx981", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ematamatisi akulisa sitolo."}
+{"id": "ssw_NCHTL_ssw_test_idx312", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gweminye agaleli shu minesi lano."}
+{"id": "ssw_NCHTL_ssw_test_idx2340", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sisa balala yonge inzao."}
+{"id": "ssw_NCHTL_ssw_test_idx1261", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Imi trimbiegu vulu akwenjumza emisalu."}
+{"id": "ssw_NCHTL_ssw_test_idx1842", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuleyo na leo novele."}
+{"id": "ssw_NCHTL_ssw_test_idx177", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Faga, siktelo, selusitu."}
+{"id": "ssw_NCHTL_ssw_test_idx1873", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lete umelela lela shigili nobe."}
+{"id": "ssw_NCHTL_ssw_test_idx510", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza nange gubalulega kwe tichalo."}
+{"id": "ssw_NCHTL_ssw_test_idx2085", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kukona lugushaya emandi."}
+{"id": "ssw_NCHTL_ssw_test_idx2347", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kune fasheni le lungye le busugu."}
+{"id": "ssw_NCHTL_ssw_test_idx1843", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sicha bulela ngisho na bukisi musu."}
+{"id": "ssw_NCHTL_ssw_test_idx2131", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sinemizali wa li shukashukeni."}
+{"id": "ssw_NCHTL_ssw_test_idx2250", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kaa imitabangu netipagamiso."}
+{"id": "ssw_NCHTL_ssw_test_idx850", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lemini imijla lositi chabuli sangayu."}
+{"id": "ssw_NCHTL_ssw_test_idx2558", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mkubeni ya gufunza na gufunziza."}
+{"id": "ssw_NCHTL_ssw_test_idx281", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Visi sata akinetimi"}
+{"id": "ssw_NCHTL_ssw_test_idx2225", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kolo ane"}
+{"id": "ssw_NCHTL_ssw_test_idx73", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yako usebenti se emafu."}
+{"id": "ssw_NCHTL_ssw_test_idx1544", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Paketa ganjani awazlali besizwe."}
+{"id": "ssw_NCHTL_ssw_test_idx2246", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Asifunzi sa utimela ewendeni tinvo."}
+{"id": "ssw_NCHTL_ssw_test_idx1952", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umaugashi ema nani ayesha."}
+{"id": "ssw_NCHTL_ssw_test_idx1641", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Segu vusele la nobe kupelisa."}
+{"id": "ssw_NCHTL_ssw_test_idx1931", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umangabelo."}
+{"id": "ssw_NCHTL_ssw_test_idx2324", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Pupi golo lukulu letembi ilo."}
+{"id": "ssw_NCHTL_ssw_test_idx2032", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sile tivanze gute sibe ngula bapilile."}
+{"id": "ssw_NCHTL_ssw_test_idx1977", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Selegalelo sebandula batala."}
+{"id": "ssw_NCHTL_ssw_test_idx1662", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Logu silele, loguenda umongo."}
+{"id": "ssw_NCHTL_ssw_test_idx1860", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutumana ngemlomu kumele."}
+{"id": "ssw_NCHTL_ssw_test_idx1335", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umusinga lubanzago uleza emakadu."}
+{"id": "ssw_NCHTL_ssw_test_idx855", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tisi sita sikuwa tingukulu manalabani."}
+{"id": "ssw_NCHTL_ssw_test_idx883", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leminyen imikulu e gudanza."}
+{"id": "ssw_NCHTL_ssw_test_idx2190", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ifunzi sana nguenda imise 20."}
+{"id": "ssw_NCHTL_ssw_test_idx2146", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Unemi kulu letanwa bandwana."}
+{"id": "ssw_NCHTL_ssw_test_idx29", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngecide ngecidita matisela inguwa anguwa."}
+{"id": "ssw_NCHTL_ssw_test_idx1553", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Wakiwa umushuluta uveta."}
+{"id": "ssw_NCHTL_ssw_test_idx345", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tindile la tegutka keshange mila alo."}
+{"id": "ssw_NCHTL_ssw_test_idx1074", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sina totikatfulo le tishlu ile tefashini."}
+{"id": "ssw_NCHTL_ssw_test_idx1215", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa hivyo, kutoka kwa kwa."}
+{"id": "ssw_NCHTL_ssw_test_idx722", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Zanigulza logune mnotu wa gude upile."}
+{"id": "ssw_NCHTL_ssw_test_idx1240", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leti nye tisibonisa ifashin."}
+{"id": "ssw_NCHTL_ssw_test_idx900", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gufanele uwe ne machulusi lagasi e piziniisi."}
+{"id": "ssw_NCHTL_ssw_test_idx130", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ukangu wengu msinvu webaandvu."}
+{"id": "ssw_NCHTL_ssw_test_idx2670", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza na dilemele tisugile delewe."}
+{"id": "ssw_NCHTL_ssw_test_idx793", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mata leku kweni wami usebendi saluti lolungane."}
+{"id": "ssw_NCHTL_ssw_test_idx2692", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Uma utilolonga umitimba uya vigelega itifeni."}
+{"id": "ssw_NCHTL_ssw_test_idx16", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Abue akaze umeshu ugo."}
+{"id": "ssw_NCHTL_ssw_test_idx1750", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lamanya afundzi salurutsi ite."}
+{"id": "ssw_NCHTL_ssw_test_idx151", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Egutine ni iguale so sikaba."}
+{"id": "ssw_NCHTL_ssw_test_idx2237", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikelo segu palisa kubelewa."}
+{"id": "ssw_NCHTL_ssw_test_idx1697", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutuwa kubalegi iliguti."}
+{"id": "ssw_NCHTL_ssw_test_idx2445", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umunjumu nyenu, obe."}
+{"id": "ssw_NCHTL_ssw_test_idx1044", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "E mandi la sobide haya funegu."}
+{"id": "ssw_NCHTL_ssw_test_idx1280", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kufanile saati kutii hambanjani."}
+{"id": "ssw_NCHTL_ssw_test_idx828", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kupila weti veleti sugara sugele."}
+{"id": "ssw_NCHTL_ssw_test_idx675", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umlilo upuma etinsabenle teensi."}
+{"id": "ssw_NCHTL_ssw_test_idx1357", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Pindvula inzabamba alonobi."}
+{"id": "ssw_NCHTL_ssw_test_idx2139", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwelelela nobe simulele."}
+{"id": "ssw_NCHTL_ssw_test_idx745", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Iyunewezi ya sepitooli."}
+{"id": "ssw_NCHTL_ssw_test_idx673", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "ututugisa live la gizi."}
+{"id": "ssw_NCHTL_ssw_test_idx37", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ye mapoisa enengi zimu Afrika."}
+{"id": "ssw_NCHTL_ssw_test_idx209", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Guba lulege ga kulu guti."}
+{"id": "ssw_NCHTL_ssw_test_idx1495", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ayene li siku negusege la lukunga."}
+{"id": "ssw_NCHTL_ssw_test_idx545", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutsi bantu bewa filanga ii piinlele."}
+{"id": "ssw_NCHTL_ssw_test_idx338", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Na nobe egula nzelwe imi komu."}
+{"id": "ssw_NCHTL_ssw_test_idx970", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mfashini iketa imali."}
+{"id": "ssw_NCHTL_ssw_test_idx2642", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mfashini ishinge inlela ya kutoka."}
+{"id": "ssw_NCHTL_ssw_test_idx2674", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ndi nchoso nede tameli lwadi ngema lenyesu."}
+{"id": "ssw_NCHTL_ssw_test_idx1461", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tegu sebenda, aguga sebendi, eguvimbilili."}
+{"id": "ssw_NCHTL_ssw_test_idx1741", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sitatimende, senguntla yukufundza."}
+{"id": "ssw_NCHTL_ssw_test_idx2690", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Teku 7D saliluwe miluwe mala."}
+{"id": "ssw_NCHTL_ssw_test_idx2363", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lota utfumela nesite losa lomusewe hindi."}
+{"id": "ssw_NCHTL_ssw_test_idx2102", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Temizalo tenda bandu banga kani."}
+{"id": "ssw_NCHTL_ssw_test_idx2375", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sikuati gubega ula kuto."}
+{"id": "ssw_NCHTL_ssw_test_idx637", "set": "ssw_real_nchlt", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Situola emalda elangene."}
+{"id": "cs01", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kusasa ngita uwea kutremit ekusen."}
+{"id": "cs02", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Dokudela utsitindi taitileme ditajun kabilingi lilangu."}
+{"id": "cs03", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Njiko shiwe kutata imabrihez, ami ezon."}
+{"id": "cs04", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ea aponlenti ya mililanzi lako ingu yeti swet, gilesi bili."}
+{"id": "cs05", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Anesu, wei soye kuzenga njia ibrotist."}
+{"id": "cs06", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ilra, lujamu ipansika kolunyalo."}
+{"id": "cs07", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Desa la ndi peet pishro chenlencha."}
+{"id": "cs08", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Umfona wami wa hefeza kusukele isolo ebusoku."}
+{"id": "cs09", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gilomu shfongo, enso kwa ngini hea dati hilanga longi."}
+{"id": "cs10", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kofale neotani e appointment padiyaku."}
+{"id": "cs11", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Idlaad presuwe yako ipezulu lamufa."}
+{"id": "cs12", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sisi zahulekelezen chitikat ya konota kutrinit."}
+{"id": "cs13", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ngezenze mada baadzi kupa maishin."}
+{"id": "cs14", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Eme kizutsu ani alunilien."}
+{"id": "cs15", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Hizabente kwa ustitona ngingu na alise."}
+{"id": "cs16", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lemaliye transporti ya biza kakuru."}
+{"id": "cs17", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Jitilao cheke, esu kelewa ila."}
+{"id": "cs18", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mwake, wamekwantade isumi hiti pwote."}
+{"id": "cs19", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sita kukuponi na ngabi, imangresos sema fikile."}
+{"id": "cs20", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Weesadza itaventi ya njisi kazi, soni."}
+{"id": "cs21", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa wede indeka kuhulu la mushla eku seen."}
+{"id": "cs22", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nyebusi kakulu kulalisa nfo."}
+{"id": "cs23", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kusiti istan itawenji wange lisichan."}
+{"id": "cs24", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gisala o explaina kashengu uba anivu."}
+{"id": "cs25", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ongpona kupingaiga suni yaa kiyosi bivi."}
+{"id": "cs26", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Bini siti elfez, gemekwe li siklamasa."}
+{"id": "cs27", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ndoto fuitse zingepumulu emalanga na mazadu."}
+{"id": "cs28", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gye ekse, orafele lupestu chunyamu."}
+{"id": "cs29", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tonya ni filena kwa anyi ito langa. Imezaaji."}
+{"id": "cs30", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sitangu fangana mba kwe lumfu."}
+{"id": "cs31", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Wifuna kupota, ea boi ntwe e let's want."}
+{"id": "cs32", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Itasribe late ndako nifik late."}
+{"id": "cs33", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gia chayla, ungibalele isikinote."}
+{"id": "cs34", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Imekadongi setuwa la galoma, lanakwa kutenit."}
+{"id": "cs35", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Eta stienu yetu ya betulosis ibe, nega iti."}
+{"id": "cs36", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kufanele uleka, singa pami kukutaita in medicine."}
+{"id": "cs37", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Unfua na otro lisi ikfamgaf."}
+{"id": "cs38", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ndebe neko kwenye mwaviki na mabiri."}
+{"id": "cs39", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nsiki siti nkibunye mba kwe mnaliki la mani."}
+{"id": "cs40", "set": "cs_tts", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sita putzinsa ngemesaid."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx865", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kenshutfugu kisi sitende tenfu lete nende."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1187", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwa naleta nifobantu labadzala."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2261", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yamashasila."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2246", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Asifunzi sakutimela ekuende nzintzo."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx345", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tengelela te kweze chenzo ngemi zahamu."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx466", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Simetemno polete fuka shukeni."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1462", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Gimkwa kumabenge mai."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx338", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nanuwe kulanziri inikou."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx893", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nshinye kuasha dini path."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx229", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Leta msita bacholo wa iku chitin."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1957", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sekielo, yemi kwaako."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1279", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Tentu tfuko diya funwa itikonwe."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1751", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Veneza certificate isimbuwa nyingi."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2170", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kwema kona, eku tundilana, emilabini."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1998", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Yekinje sikifo wala kutakuntu."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx363", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ama mwuvu, hamdisa sikaji."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2670", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifoza mitilimi letifukiletilitha."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx827", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mwake usanzakupu zingatamu kasha."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1793", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kupeta kukwabaniswa kwenye nmali."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1891", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Nekopazo aseka kubu."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1029", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kutla luku nemba fota akuna mpii."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx273", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Unga ashe kube nema punta."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx634", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lenmi inisititifu kuti sangai."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2215", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kubaluleka aina kwa kutuzelana."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2303", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kumakekelo kwe tamu piilo, walabwa kuelwe."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2250", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kaini ktabango ni tip kakamisi."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2735", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Taki leta fukene deni iso."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1978", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sine mikumbie kufula tibazela."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2671", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Lelulumiwe bufakazi, bekushaela."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2103", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Ukangwe ngumsenvo weba antu."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2340", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sasa balalayo ke imzao."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2309", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Utaabikele uta, imikawolu."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1479", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Loonweza ikele, shogo."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx605", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Mufuwe seja utambile kuowe."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx830", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kima bizi nisi ekfu angatfu tfuka."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2674", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Menchoso, nititeme liloa tingima lengi iso."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2575", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Impala."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1977", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Selekele lose bantu labanzala."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2503", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Kuzaluku nkulele kubanga atifu."}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1216", "set": "ssw_tts_control", "model": "openai/whisper-large-v3", "tag": "whisper_v3_sw", "tgt_lang": "sw", "prompt": null, "hyp": "Sifunza ngewitulo yesi swaichi."}

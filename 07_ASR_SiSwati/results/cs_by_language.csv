@@ -1,0 +1,17 @@
+tag,lang,n_words,word_error_rate
+mms_zul,english,67,1.0
+mms_zul,siswati,177,0.819
+seamless_eng,english,67,0.925
+seamless_eng,siswati,177,0.994
+seamless_zul,english,67,0.91
+seamless_zul,siswati,177,0.734
+simba_m,english,67,1.0
+simba_m,siswati,177,0.859
+simba_s,english,67,0.97
+simba_s,siswati,177,0.814
+simba_w,english,67,0.94
+simba_w,siswati,177,0.864
+whisper_v3_auto,english,67,0.94
+whisper_v3_auto,siswati,177,0.938
+whisper_v3_sw,english,67,0.94
+whisper_v3_sw,siswati,177,0.955

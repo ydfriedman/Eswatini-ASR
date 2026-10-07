@@ -1,0 +1,415 @@
+{
+ "ssw_real_nchlt|c_err": {
+  "Simba-S": {
+   "value": 0.0295,
+   "lo": 0.0258,
+   "hi": 0.0336,
+   "n": 500
+  },
+  "Simba-M (CTC)": {
+   "value": 0.0389,
+   "lo": 0.0351,
+   "hi": 0.0428,
+   "n": 500
+  },
+  "Simba-W (auto lang)": {
+   "value": 0.0496,
+   "lo": 0.0446,
+   "hi": 0.0549,
+   "n": 500
+  },
+  "MMS-1b (Zulu adapter)": {
+   "value": 0.0815,
+   "lo": 0.076,
+   "hi": 0.0873,
+   "n": 500
+  },
+  "SeamlessM4T-v2 (Zulu)": {
+   "value": 0.2345,
+   "lo": 0.2162,
+   "hi": 0.2567,
+   "n": 500
+  },
+  "Whisper-v3 (Swahili)": {
+   "value": 0.2967,
+   "lo": 0.2855,
+   "hi": 0.3071,
+   "n": 500
+  },
+  "Whisper-v3 (auto lang)": {
+   "value": 0.3857,
+   "lo": 0.3654,
+   "hi": 0.4078,
+   "n": 500
+  }
+ },
+ "ssw_real_nchlt|w_err": {
+  "Simba-S": {
+   "value": 0.1912,
+   "lo": 0.169,
+   "hi": 0.2138,
+   "n": 500
+  },
+  "Simba-M (CTC)": {
+   "value": 0.2887,
+   "lo": 0.2621,
+   "hi": 0.3154,
+   "n": 500
+  },
+  "Simba-W (auto lang)": {
+   "value": 0.3289,
+   "lo": 0.3004,
+   "hi": 0.3585,
+   "n": 500
+  },
+  "MMS-1b (Zulu adapter)": {
+   "value": 0.5156,
+   "lo": 0.4853,
+   "hi": 0.5467,
+   "n": 500
+  },
+  "SeamlessM4T-v2 (Zulu)": {
+   "value": 0.8795,
+   "lo": 0.8381,
+   "hi": 0.9229,
+   "n": 500
+  },
+  "Whisper-v3 (Swahili)": {
+   "value": 1.311,
+   "lo": 1.2705,
+   "hi": 1.351,
+   "n": 500
+  },
+  "Whisper-v3 (auto lang)": {
+   "value": 1.6125,
+   "lo": 1.5366,
+   "hi": 1.6916,
+   "n": 500
+  }
+ },
+ "eng_real_afrispeech_sswaccent|wl_err": {
+  "Whisper-v3 + prompt": {
+   "value": 0.1877,
+   "lo": 0.1594,
+   "hi": 0.2081,
+   "n": 96
+  },
+  "Whisper-v3": {
+   "value": 0.195,
+   "lo": 0.152,
+   "hi": 0.2194,
+   "n": 96
+  },
+  "Simba-W (auto lang)": {
+   "value": 0.2971,
+   "lo": 0.2089,
+   "hi": 0.3566,
+   "n": 96
+  },
+  "SeamlessM4T-v2": {
+   "value": 0.3533,
+   "lo": 0.1978,
+   "hi": 0.4619,
+   "n": 96
+  },
+  "Simba-S": {
+   "value": 0.4144,
+   "lo": 0.2619,
+   "hi": 0.7005,
+   "n": 96
+  }
+ },
+ "eng_real_afrispeech_zuluaccent|wl_err": {
+  "Whisper-v3": {
+   "value": 0.1484,
+   "lo": 0.1295,
+   "hi": 0.1704,
+   "n": 2835
+  },
+  "Whisper-v3 + prompt": {
+   "value": 0.1487,
+   "lo": 0.13,
+   "hi": 0.1716,
+   "n": 2835
+  },
+  "SeamlessM4T-v2": {
+   "value": 0.3823,
+   "lo": 0.3383,
+   "hi": 0.4354,
+   "n": 2835
+  },
+  "Simba-S": {
+   "value": 0.5011,
+   "lo": 0.4608,
+   "hi": 0.5428,
+   "n": 2835
+  },
+  "Simba-W (auto lang)": {
+   "value": 0.5278,
+   "lo": 0.4644,
+   "hi": 0.6039,
+   "n": 2835
+  }
+ },
+ "all": {
+  "eng_real_afrispeech_sswaccent|seamless_eng": {
+   "n": 96,
+   "WER": 0.3771,
+   "WER_lenient": 0.3533,
+   "CER": 0.2268,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_sswaccent|whisper_v3_prompt": {
+   "n": 96,
+   "WER": 0.209,
+   "WER_lenient": 0.1877,
+   "CER": 0.0877,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_sswaccent|simba_w_en": {
+   "n": 96,
+   "WER": 0.2781,
+   "WER_lenient": 0.2353,
+   "CER": 0.1276,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_sswaccent|simba_s": {
+   "n": 96,
+   "WER": 0.4389,
+   "WER_lenient": 0.4144,
+   "CER": 0.2662,
+   "empty": 0.0833
+  },
+  "eng_real_afrispeech_sswaccent|simba_w": {
+   "n": 96,
+   "WER": 0.3392,
+   "WER_lenient": 0.2971,
+   "CER": 0.1678,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_sswaccent|whisper_v3": {
+   "n": 96,
+   "WER": 0.2469,
+   "WER_lenient": 0.195,
+   "CER": 0.0994,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_zuluaccent|seamless_eng": {
+   "n": 2835,
+   "WER": 0.4104,
+   "WER_lenient": 0.3823,
+   "CER": 0.274,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_zuluaccent|whisper_v3_prompt": {
+   "n": 2835,
+   "WER": 0.1903,
+   "WER_lenient": 0.1487,
+   "CER": 0.107,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_zuluaccent|simba_w_en": {
+   "n": 300,
+   "WER": 0.2615,
+   "WER_lenient": 0.1963,
+   "CER": 0.1636,
+   "empty": 0.0
+  },
+  "eng_real_afrispeech_zuluaccent|simba_s": {
+   "n": 2835,
+   "WER": 0.5263,
+   "WER_lenient": 0.5011,
+   "CER": 0.4056,
+   "empty": 0.1411
+  },
+  "eng_real_afrispeech_zuluaccent|simba_w": {
+   "n": 2835,
+   "WER": 0.5779,
+   "WER_lenient": 0.5278,
+   "CER": 0.3944,
+   "empty": 0.0042
+  },
+  "eng_real_afrispeech_zuluaccent|whisper_v3": {
+   "n": 2835,
+   "WER": 0.2288,
+   "WER_lenient": 0.1484,
+   "CER": 0.1384,
+   "empty": 0.0004
+  },
+  "cs_tts|seamless_eng": {
+   "n": 40,
+   "WER": 1.4139,
+   "WER_lenient": 1.4139,
+   "CER": 0.8075,
+   "empty": 0.0
+  },
+  "cs_tts|seamless_zul": {
+   "n": 40,
+   "WER": 0.8566,
+   "WER_lenient": 0.8566,
+   "CER": 0.4232,
+   "empty": 0.0
+  },
+  "cs_tts|whisper_v3_sw": {
+   "n": 40,
+   "WER": 1.0082,
+   "WER_lenient": 1.0082,
+   "CER": 0.4339,
+   "empty": 0.0
+  },
+  "cs_tts|mms_zul": {
+   "n": 40,
+   "WER": 0.8852,
+   "WER_lenient": 0.8852,
+   "CER": 0.3542,
+   "empty": 0.0
+  },
+  "cs_tts|simba_m": {
+   "n": 40,
+   "WER": 0.9139,
+   "WER_lenient": 0.9139,
+   "CER": 0.3492,
+   "empty": 0.0
+  },
+  "cs_tts|whisper_v3_auto": {
+   "n": 40,
+   "WER": 1.1352,
+   "WER_lenient": 1.1352,
+   "CER": 0.4997,
+   "empty": 0.0
+  },
+  "cs_tts|simba_s": {
+   "n": 40,
+   "WER": 0.9426,
+   "WER_lenient": 0.9426,
+   "CER": 0.3931,
+   "empty": 0.0
+  },
+  "cs_tts|simba_w": {
+   "n": 40,
+   "WER": 1.2008,
+   "WER_lenient": 1.2008,
+   "CER": 0.4734,
+   "empty": 0.0
+  },
+  "ssw_tts_control|seamless_zul": {
+   "n": 40,
+   "WER": 1.2417,
+   "WER_lenient": 1.2417,
+   "CER": 0.3778,
+   "empty": 0.0
+  },
+  "ssw_tts_control|whisper_v3_sw": {
+   "n": 40,
+   "WER": 1.3417,
+   "WER_lenient": 1.3417,
+   "CER": 0.3787,
+   "empty": 0.0
+  },
+  "ssw_tts_control|mms_zul": {
+   "n": 40,
+   "WER": 0.9167,
+   "WER_lenient": 0.9167,
+   "CER": 0.224,
+   "empty": 0.0
+  },
+  "ssw_tts_control|simba_m": {
+   "n": 40,
+   "WER": 0.8333,
+   "WER_lenient": 0.8333,
+   "CER": 0.2196,
+   "empty": 0.0
+  },
+  "ssw_tts_control|whisper_v3_auto": {
+   "n": 40,
+   "WER": 1.5333,
+   "WER_lenient": 1.5333,
+   "CER": 0.4516,
+   "empty": 0.0
+  },
+  "ssw_tts_control|simba_s": {
+   "n": 40,
+   "WER": 1.15,
+   "WER_lenient": 1.15,
+   "CER": 0.2756,
+   "empty": 0.0
+  },
+  "ssw_tts_control|simba_w": {
+   "n": 40,
+   "WER": 1.6417,
+   "WER_lenient": 1.6417,
+   "CER": 0.4498,
+   "empty": 0.0
+  },
+  "eng_tts_control|seamless_eng": {
+   "n": 40,
+   "WER": 0.8301,
+   "WER_lenient": 0.8301,
+   "CER": 0.4538,
+   "empty": 0.0
+  },
+  "eng_tts_control|simba_s": {
+   "n": 40,
+   "WER": 0.832,
+   "WER_lenient": 0.832,
+   "CER": 0.5151,
+   "empty": 0.0
+  },
+  "eng_tts_control|simba_w": {
+   "n": 40,
+   "WER": 1.0058,
+   "WER_lenient": 1.0058,
+   "CER": 0.5093,
+   "empty": 0.0
+  },
+  "ssw_real_nchlt|seamless_zul": {
+   "n": 500,
+   "WER": 0.8795,
+   "WER_lenient": 0.8795,
+   "CER": 0.2345,
+   "empty": 0.0
+  },
+  "ssw_real_nchlt|whisper_v3_sw": {
+   "n": 500,
+   "WER": 1.311,
+   "WER_lenient": 1.311,
+   "CER": 0.2967,
+   "empty": 0.0
+  },
+  "ssw_real_nchlt|mms_zul": {
+   "n": 500,
+   "WER": 0.5156,
+   "WER_lenient": 0.5156,
+   "CER": 0.0815,
+   "empty": 0.0
+  },
+  "ssw_real_nchlt|simba_m": {
+   "n": 500,
+   "WER": 0.2887,
+   "WER_lenient": 0.2887,
+   "CER": 0.0389,
+   "empty": 0.0
+  },
+  "ssw_real_nchlt|whisper_v3_auto": {
+   "n": 500,
+   "WER": 1.6125,
+   "WER_lenient": 1.6125,
+   "CER": 0.3857,
+   "empty": 0.002
+  },
+  "ssw_real_nchlt|simba_s": {
+   "n": 500,
+   "WER": 0.1912,
+   "WER_lenient": 0.1912,
+   "CER": 0.0295,
+   "empty": 0.0
+  },
+  "ssw_real_nchlt|simba_w": {
+   "n": 500,
+   "WER": 0.3289,
+   "WER_lenient": 0.3289,
+   "CER": 0.0496,
+   "empty": 0.0
+  }
+ }
+}

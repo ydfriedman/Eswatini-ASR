@@ -1,0 +1,9 @@
+tag,n_words,mean_similarity,recoverable,chance_recoverable,above_chance
+seamless_zul,67,0.561,0.388,0.015,0.373
+mms_zul,67,0.543,0.373,0.03,0.343
+simba_m,67,0.544,0.373,0.03,0.343
+simba_s,67,0.555,0.373,0.0,0.373
+whisper_v3_auto,67,0.538,0.343,0.0,0.343
+whisper_v3_sw,67,0.533,0.328,0.0,0.328
+simba_w,67,0.51,0.313,0.015,0.298
+seamless_eng,67,0.477,0.224,0.015,0.209

@@ -1,0 +1,580 @@
+{"id": "ssw_NCHTL_ssw_test_idx669", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bantwana badekelwa inganekwane nabalala"}
+{"id": "ssw_NCHTL_ssw_test_idx2497", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kubeka emavi"}
+{"id": "ssw_NCHTL_ssw_test_idx577", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kulula kutsenga ngelikhadi nyalo"}
+{"id": "ssw_NCHTL_ssw_test_idx2619", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kumkhandlu wavelonkhe wetifundza"}
+{"id": "ssw_NCHTL_ssw_test_idx1577", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwetindfo tekubuyiselwa kwenzela"}
+{"id": "ssw_NCHTL_ssw_test_idx1644", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "itheksti icanjwe ngelicophelo"}
+{"id": "ssw_NCHTL_ssw_test_idx211", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tingampane talapha ekhaya"}
+{"id": "ssw_NCHTL_ssw_test_idx1334", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nasiya ekhaya kuyanyukela"}
+{"id": "ssw_NCHTL_ssw_test_idx1450", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yesekela sihloko"}
+{"id": "ssw_NCHTL_ssw_test_idx1943", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lenqunyiwe lekumele ifakwe"}
+{"id": "ssw_NCHTL_ssw_test_idx943", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kulomhlaba losita wuhlanyela umbila"}
+{"id": "ssw_NCHTL_ssw_test_idx2496", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kahle naletfuleke kahle"}
+{"id": "ssw_NCHTL_ssw_test_idx1713", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imphilo seyabangcono kuneyabatalibetfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1747", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bese wetfula umkhicito"}
+{"id": "ssw_NCHTL_ssw_test_idx1507", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emahewu labandzako amnandzi"}
+{"id": "ssw_NCHTL_ssw_test_idx466", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinetemnotfo letahlukahlukene"}
+{"id": "ssw_NCHTL_ssw_test_idx2089", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sakhe sashwele"}
+{"id": "ssw_NCHTL_ssw_test_idx1112", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sibona nemidlalo yemoya kubo"}
+{"id": "ssw_NCHTL_ssw_test_idx1271", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngeza titjha uma utodla mfana"}
+{"id": "ssw_NCHTL_ssw_test_idx446", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kusebenta kwetimitimba yetfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1882", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sekubhaliswa njengasosayensi wemvelo"}
+{"id": "ssw_NCHTL_ssw_test_idx2735", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "takhi letehlukene temisho"}
+{"id": "ssw_NCHTL_ssw_test_idx340", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "botfusano labasikati badlalingcatfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1472", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emakhodi lasentjetiselwa kuhlola"}
+{"id": "ssw_NCHTL_ssw_test_idx148", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ligama lesiteshi semaphoyizo"}
+{"id": "ssw_NCHTL_ssw_test_idx2438", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kunaletsandvwa bantfu labadzala"}
+{"id": "ssw_NCHTL_ssw_test_idx1646", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yesehlukaniso sekucitfwa kwemshado"}
+{"id": "ssw_NCHTL_ssw_test_idx1456", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kumele sihambisane nemadli"}
+{"id": "ssw_NCHTL_ssw_test_idx2133", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ichazwe kahle kakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx2747", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ucondze kusitjelani sonkhondlo"}
+{"id": "ssw_NCHTL_ssw_test_idx791", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "siba nemcimbi wakhe simusi"}
+{"id": "ssw_NCHTL_ssw_test_idx1594", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sasezulwini"}
+{"id": "ssw_NCHTL_ssw_test_idx937", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "enkangala kubandza kakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx1046", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "basita nangetimfundvo tasemakolishi"}
+{"id": "ssw_NCHTL_ssw_test_idx823", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "baquli bavivinya emaphimbo"}
+{"id": "ssw_NCHTL_ssw_test_idx1706", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bantfwana labancikile labaneminyaka"}
+{"id": "ssw_NCHTL_ssw_test_idx567", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imibuso yesikhatsi lesengcili"}
+{"id": "ssw_NCHTL_ssw_test_idx1891", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nekuchwazwa kahle kakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx1129", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "indzawo lehlandekile ayinawo emagciwane"}
+{"id": "ssw_NCHTL_ssw_test_idx1442", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sekubhalisa emafetri"}
+{"id": "ssw_NCHTL_ssw_test_idx1413", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "eseyi ibe ngumbhalo"}
+{"id": "ssw_NCHTL_ssw_test_idx927", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "baphatsi bemabhizinisi lamancane"}
+{"id": "ssw_NCHTL_ssw_test_idx2255", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kusitabitfo letinifo ngelinani leliphasi"}
+{"id": "ssw_NCHTL_ssw_test_idx182", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umfundzi utawukwati kufundza"}
+{"id": "ssw_NCHTL_ssw_test_idx2114", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tindlela ngqubo telwati lwenzabuko"}
+{"id": "ssw_NCHTL_ssw_test_idx2303", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kunakekelwa kwetempilo kwalabakhulelwe"}
+{"id": "ssw_NCHTL_ssw_test_idx805", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "akha nematfuba emsebenti"}
+{"id": "ssw_NCHTL_ssw_test_idx536", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "futsi ibutsela abantfu ndzawonye"}
+{"id": "ssw_NCHTL_ssw_test_idx1185", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emakhosingiwolewagcile emasikweni"}
+{"id": "ssw_NCHTL_ssw_test_idx1638", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sekutsintja tibongo"}
+{"id": "ssw_NCHTL_ssw_test_idx584", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sente luhlelo laselekudlalako njalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1071", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza ngetintfo letenteka emtimbeni"}
+{"id": "ssw_NCHTL_ssw_test_idx83", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "latalelwa"}
+{"id": "ssw_NCHTL_ssw_test_idx213", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lekusebentisa lulwemi liphasi"}
+{"id": "ssw_NCHTL_ssw_test_idx2793", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yebonamacha"}
+{"id": "ssw_NCHTL_ssw_test_idx1016", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isitjela nangamandela"}
+{"id": "ssw_NCHTL_ssw_test_idx2731", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi tibita emanani langakanani"}
+{"id": "ssw_NCHTL_ssw_test_idx135", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "njengenkosi"}
+{"id": "ssw_NCHTL_ssw_test_idx2652", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sikho kukatsi sitalele macandza lamaneto"}
+{"id": "ssw_NCHTL_ssw_test_idx296", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "hle angalaleli ngalokujulile"}
+{"id": "ssw_NCHTL_ssw_test_idx422", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "batentela nemisebenti yetandla"}
+{"id": "ssw_NCHTL_ssw_test_idx568", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudzingeka silale ngalokwanele"}
+{"id": "ssw_NCHTL_ssw_test_idx956", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nekutsi benta njani nabagula"}
+{"id": "ssw_NCHTL_ssw_test_idx2388", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "satfola inzandvo yelinyenti"}
+{"id": "ssw_NCHTL_ssw_test_idx2491", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nawubabuka ngendlela labahleti"}
+{"id": "ssw_NCHTL_ssw_test_idx1058", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "asita nakwetemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx2579", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kulitiko letemanti netemahlatsi"}
+{"id": "ssw_NCHTL_ssw_test_idx1336", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tentfutfuko tisita live ngemisebenti"}
+{"id": "ssw_NCHTL_ssw_test_idx2027", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yemtsetfo noba ngaphansi"}
+{"id": "ssw_NCHTL_ssw_test_idx2283", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nkukhona lambalwa lasele"}
+{"id": "ssw_NCHTL_ssw_test_idx1135", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sikwati nekulolonga umtimba"}
+{"id": "ssw_NCHTL_ssw_test_idx1106", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umlilo uphuma etintsabeni letinzi"}
+{"id": "ssw_NCHTL_ssw_test_idx1691", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uma ukahle silungiselwa nenzawo"}
+{"id": "ssw_NCHTL_ssw_test_idx1614", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lofuna kufaka sicelo"}
+{"id": "ssw_NCHTL_ssw_test_idx1374", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lesisha sekubusa ngemtsetfo sisekele"}
+{"id": "ssw_NCHTL_ssw_test_idx1111", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umthetho webhola"}
+{"id": "ssw_NCHTL_ssw_test_idx708", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letinye tikhuluma ngemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx2411", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "esifundzisa ngekubaluleka kwemveli"}
+{"id": "ssw_NCHTL_ssw_test_idx917", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nemanani ato awafane"}
+{"id": "ssw_NCHTL_ssw_test_idx418", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leminye itsandvwa ngulasabakhulile"}
+{"id": "ssw_NCHTL_ssw_test_idx2111", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sakhelwa netikolo"}
+{"id": "ssw_NCHTL_ssw_test_idx1531", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "akulingani nelizinga lwelulwimi"}
+{"id": "ssw_NCHTL_ssw_test_idx178", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yekwelekelela umuntfu ngendlu"}
+{"id": "ssw_NCHTL_ssw_test_idx1238", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "asibonisa nangemasiko etfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1996", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kungalovi esikolweni"}
+{"id": "ssw_NCHTL_ssw_test_idx226", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ichazwe kahle kakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx192", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "takhamuti tasenengezemo afrika"}
+{"id": "ssw_NCHTL_ssw_test_idx1814", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza nemasiko ngekuhluka kwawo"}
+{"id": "ssw_NCHTL_ssw_test_idx1467", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuhlobana kwebantfu netitjalo"}
+{"id": "ssw_NCHTL_ssw_test_idx2313", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "faka sicelo ehovisi"}
+{"id": "ssw_NCHTL_ssw_test_idx865", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tentfotfuko tisisita ngetintfo letinyenti"}
+{"id": "ssw_NCHTL_ssw_test_idx2043", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "indlela yabo yekuhlabelela"}
+{"id": "ssw_NCHTL_ssw_test_idx1061", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lamanye sitijabulisa ngawo"}
+{"id": "ssw_NCHTL_ssw_test_idx1968", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kungathatsa emavikilasitfupha"}
+{"id": "ssw_NCHTL_ssw_test_idx1308", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kukhona losetjhentiselwa imidlalo yasesitetjhi"}
+{"id": "ssw_NCHTL_ssw_test_idx763", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imvula ihlupha ngekubanza"}
+{"id": "ssw_NCHTL_ssw_test_idx2671", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lelolwimi bufakazi bekuhlela"}
+{"id": "ssw_NCHTL_ssw_test_idx325", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo semyalelo ekusiselwa"}
+{"id": "ssw_NCHTL_ssw_test_idx1927", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nebantu besitsatfu lekusetsentiswana"}
+{"id": "ssw_NCHTL_ssw_test_idx1274", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isifundzisa nangetemphilo"}
+{"id": "ssw_NCHTL_ssw_test_idx375", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kumele usebentise umcondo nawudlala libhola"}
+{"id": "ssw_NCHTL_ssw_test_idx2501", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwetilwimi le timbhili nobe"}
+{"id": "ssw_NCHTL_ssw_test_idx1907", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "timphahla sititsenga ngelikhadi"}
+{"id": "ssw_NCHTL_ssw_test_idx931", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "indzawo yakizi igcwele emabhizimisi"}
+{"id": "ssw_NCHTL_ssw_test_idx2758", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lokubukwako"}
+{"id": "ssw_NCHTL_ssw_test_idx1940", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kukhona lafundzisa bantfana"}
+{"id": "ssw_NCHTL_ssw_test_idx2664", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "no be p o ma"}
+{"id": "ssw_NCHTL_ssw_test_idx41", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sebentisa kahle timo kwenta"}
+{"id": "ssw_NCHTL_ssw_test_idx2215", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nkubaluleka ayinako ngochodzelana"}
+{"id": "ssw_NCHTL_ssw_test_idx1690", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lokungenwe kuyo ngembi"}
+{"id": "ssw_NCHTL_ssw_test_idx1481", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi u funa kutsini"}
+{"id": "ssw_NCHTL_ssw_test_idx1934", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "wona kude kuvele"}
+{"id": "ssw_NCHTL_ssw_test_idx2235", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kungaba namtselela muni"}
+{"id": "ssw_NCHTL_ssw_test_idx1871", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "satsi kumele babe"}
+{"id": "ssw_NCHTL_ssw_test_idx1347", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letinye tibonisa ngefashini"}
+{"id": "ssw_NCHTL_ssw_test_idx1941", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nayo yonkhe imitsetho"}
+{"id": "ssw_NCHTL_ssw_test_idx1408", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinihlobo yemculu lekutsiwa yihousi"}
+{"id": "ssw_NCHTL_ssw_test_idx306", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ubonangisho wendlu"}
+{"id": "ssw_NCHTL_ssw_test_idx2309", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ucaphele kutsi imikhawulu"}
+{"id": "ssw_NCHTL_ssw_test_idx2417", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isatisa ngendlela bukhosi lobebungayo"}
+{"id": "ssw_NCHTL_ssw_test_idx925", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "titfutfukisa livelakitsi"}
+{"id": "ssw_NCHTL_ssw_test_idx1281", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinalamanye etemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1655", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi sebakuphi nyalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1483", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lamanye alungele bantfwana"}
+{"id": "ssw_NCHTL_ssw_test_idx1479", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lolosekela sihloko"}
+{"id": "ssw_NCHTL_ssw_test_idx456", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "utfutfukisa tindzawo tasemakhaya"}
+{"id": "ssw_NCHTL_ssw_test_idx2314", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufaka sicelo kukomiti"}
+{"id": "ssw_NCHTL_ssw_test_idx2537", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lehlukene kanye netindzaba"}
+{"id": "ssw_NCHTL_ssw_test_idx288", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emafumu esicelo kumele"}
+{"id": "ssw_NCHTL_ssw_test_idx1027", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "futsi sitithokotisa ngayo"}
+{"id": "ssw_NCHTL_ssw_test_idx2574", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lemikhulu kanye nemihlamo"}
+{"id": "ssw_NCHTL_ssw_test_idx776", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ienta sa titindfo letinyenti"}
+{"id": "ssw_NCHTL_ssw_test_idx2678", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imisebenti iyaphela umawehlile"}
+{"id": "ssw_NCHTL_ssw_test_idx2787", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufaka sicelo sekwesula"}
+{"id": "ssw_NCHTL_ssw_test_idx2039", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi bake baba emakhosi"}
+{"id": "ssw_NCHTL_ssw_test_idx332", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kusitatimende sakho seliholo"}
+{"id": "ssw_NCHTL_ssw_test_idx2483", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tika tenkulumo netaka"}
+{"id": "ssw_NCHTL_ssw_test_idx1950", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umangabe likomiti"}
+{"id": "ssw_NCHTL_ssw_test_idx1680", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uma ufuna umniningwana"}
+{"id": "ssw_NCHTL_ssw_test_idx949", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nekutsi umtimba utivikela njani etifeni"}
+{"id": "ssw_NCHTL_ssw_test_idx2770", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "belikhipha umkhovu etjen"}
+{"id": "ssw_NCHTL_ssw_test_idx269", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "noma uphikise lombono"}
+{"id": "ssw_NCHTL_ssw_test_idx1154", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza ngetinkholelo letihlukile"}
+{"id": "ssw_NCHTL_ssw_test_idx731", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tincwadziletifundzisa ngemtsetfo"}
+{"id": "ssw_NCHTL_ssw_test_idx2709", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza tindlela tekudandza tesintfu"}
+{"id": "ssw_NCHTL_ssw_test_idx2049", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ayasita makwetekwe lapha"}
+{"id": "ssw_NCHTL_ssw_test_idx560", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "silala endlini yakagogo"}
+{"id": "ssw_NCHTL_ssw_test_idx794", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "etikolweni sekunetifundfo temabhizinisi"}
+{"id": "ssw_NCHTL_ssw_test_idx1530", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emva kwaleso naleso"}
+{"id": "ssw_NCHTL_ssw_test_idx1008", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lusuku lwekubeka inkosi"}
+{"id": "ssw_NCHTL_ssw_test_idx2492", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngekusho kwa magagula em"}
+{"id": "ssw_NCHTL_ssw_test_idx2226", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufika kwalabamhlophe kulive"}
+{"id": "ssw_NCHTL_ssw_test_idx1722", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sewuvele usebentela ekutfutfukiseni"}
+{"id": "ssw_NCHTL_ssw_test_idx229", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "litawusita bahlolwa ekukhetseni"}
+{"id": "ssw_NCHTL_ssw_test_idx1793", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kubika kukhwabaniswa kwemali"}
+{"id": "ssw_NCHTL_ssw_test_idx732", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "temidlalo tilolonga umtimba wetfu"}
+{"id": "ssw_NCHTL_ssw_test_idx57", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bhala indzatsana ngaloko"}
+{"id": "ssw_NCHTL_ssw_test_idx848", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emasiko abo nemithetfo"}
+{"id": "ssw_NCHTL_ssw_test_idx1388", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bashiye timphawu tekucaphuna"}
+{"id": "ssw_NCHTL_ssw_test_idx893", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imishini yokuwasha timphadla"}
+{"id": "ssw_NCHTL_ssw_test_idx2547", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kanye nekuhambisana emkhatsini"}
+{"id": "ssw_NCHTL_ssw_test_idx2380", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sekulawula sekuphatsa kumele"}
+{"id": "ssw_NCHTL_ssw_test_idx2419", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngekungcoliswa kwemoya"}
+{"id": "ssw_NCHTL_ssw_test_idx831", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imvula ina ehlobo"}
+{"id": "ssw_NCHTL_ssw_test_idx1584", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lona lofake sicelo"}
+{"id": "ssw_NCHTL_ssw_test_idx1592", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emajaha akha sibaya"}
+{"id": "ssw_NCHTL_ssw_test_idx1648", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lendzela yesikhashana lekhokhwako"}
+{"id": "ssw_NCHTL_ssw_test_idx2535", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bantfu labatsandza kudla batsandza buthongo"}
+{"id": "ssw_NCHTL_ssw_test_idx2543", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isitjela ngesimo selitulo"}
+{"id": "ssw_NCHTL_ssw_test_idx1243", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuthuthukisa tindzawo tasemakhaya"}
+{"id": "ssw_NCHTL_ssw_test_idx1389", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kubaluleke kakhulu ngobe"}
+{"id": "ssw_NCHTL_ssw_test_idx1998", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letinye sitfola kudla kuto"}
+{"id": "ssw_NCHTL_ssw_test_idx2598", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kute kucondziswe lemali"}
+{"id": "ssw_NCHTL_ssw_test_idx231", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "longaphansi kwalelicembu lalifakela"}
+{"id": "ssw_NCHTL_ssw_test_idx1001", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tincadzi tisenta sibe bukhali"}
+{"id": "ssw_NCHTL_ssw_test_idx2172", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sitifikedi sekuba semgwaceni"}
+{"id": "ssw_NCHTL_ssw_test_idx115", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuliciniso yene kutsi"}
+{"id": "ssw_NCHTL_ssw_test_idx1720", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isisi singatsanzi bugebeng"}
+{"id": "ssw_NCHTL_ssw_test_idx2099", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "njengobe kulandzelwa imigomo"}
+{"id": "ssw_NCHTL_ssw_test_idx680", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kunebantfu lababhala emabhayisikobho"}
+{"id": "ssw_NCHTL_ssw_test_idx672", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lamanye afundzisa kwenta umsebenti"}
+{"id": "ssw_NCHTL_ssw_test_idx1070", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudla ekuseni kubalulekile"}
+{"id": "ssw_NCHTL_ssw_test_idx889", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lamanti lawa aneludzaka"}
+{"id": "ssw_NCHTL_ssw_test_idx1150", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sikwati kubeka kudza kuto"}
+{"id": "ssw_NCHTL_ssw_test_idx188", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "siciniseko sekutsi emafomu"}
+{"id": "ssw_NCHTL_ssw_test_idx1081", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kukhona lamancane nalamakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx55", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "fundza lenkondlo lengendazi"}
+{"id": "ssw_NCHTL_ssw_test_idx117", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nekucecesha jikelele"}
+{"id": "ssw_NCHTL_ssw_test_idx2203", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutilolongakusente sibenglabaphilile"}
+{"id": "ssw_NCHTL_ssw_test_idx2433", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "silungiselwa nemigwaco"}
+{"id": "ssw_NCHTL_ssw_test_idx2641", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nganeni ngithukusa uma"}
+{"id": "ssw_NCHTL_ssw_test_idx605", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umnotfo wesive uthembele kuwe"}
+{"id": "ssw_NCHTL_ssw_test_idx1268", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "busika sikhatsi sekubanda"}
+{"id": "ssw_NCHTL_ssw_test_idx2217", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwetetimali nesilulu semnotfo"}
+{"id": "ssw_NCHTL_ssw_test_idx589", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "make utsenge inkhukhu emakethe"}
+{"id": "ssw_NCHTL_ssw_test_idx2739", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemidlalo nemasiko lamanyenti"}
+{"id": "ssw_NCHTL_ssw_test_idx948", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "akhona latshengisa timphahla"}
+{"id": "ssw_NCHTL_ssw_test_idx1098", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bantfwanabadekelwa inganekwane nabalala"}
+{"id": "ssw_NCHTL_ssw_test_idx628", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "asisita sikwati kusita labahluphekile"}
+{"id": "ssw_NCHTL_ssw_test_idx1289", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tisisitha kutsi sibone imidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx656", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lamanye afundzisa lokutsite"}
+{"id": "ssw_NCHTL_ssw_test_idx2751", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuletinye tingcenye akuvakala"}
+{"id": "ssw_NCHTL_ssw_test_idx167", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sekubhalisa njengemkhokhi"}
+{"id": "ssw_NCHTL_ssw_test_idx353", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "siluka emagcasi"}
+{"id": "ssw_NCHTL_ssw_test_idx451", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isifundisa ngesimo setulu"}
+{"id": "ssw_NCHTL_ssw_test_idx1029", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudlalokunemukafutsa akunamphilo"}
+{"id": "ssw_NCHTL_ssw_test_idx2176", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sakho kumele"}
+{"id": "ssw_NCHTL_ssw_test_idx689", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sikitsa umtsimba"}
+{"id": "ssw_NCHTL_ssw_test_idx779", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "mabonakudze uhlale ukhombisa kwembatha lokuhle"}
+{"id": "ssw_NCHTL_ssw_test_idx2059", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sineti tofuta gezi"}
+{"id": "ssw_NCHTL_ssw_test_idx2169", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sitifiketi semshwadvo lesifinyetiwe"}
+{"id": "ssw_NCHTL_ssw_test_idx2523", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nemalungelo eluntfu kanye"}
+{"id": "ssw_NCHTL_ssw_test_idx632", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lamanye si dijabolisa ngawo"}
+{"id": "ssw_NCHTL_ssw_test_idx1589", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "australian air forts"}
+{"id": "ssw_NCHTL_ssw_test_idx2218", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tekusebenta tesisebenti tetemphilo"}
+{"id": "ssw_NCHTL_ssw_test_idx478", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umdlalo welibhola"}
+{"id": "ssw_NCHTL_ssw_test_idx2281", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ofake sicelo sakho"}
+{"id": "ssw_NCHTL_ssw_test_idx2336", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngabe sikhalo sakho"}
+{"id": "ssw_NCHTL_ssw_test_idx152", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngasinyekosaletihloko letilandzelako"}
+{"id": "ssw_NCHTL_ssw_test_idx1869", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sikwati loku uma"}
+{"id": "ssw_NCHTL_ssw_test_idx476", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "inyoka iyalumana ulimale"}
+{"id": "ssw_NCHTL_ssw_test_idx810", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngomandela wangenela lukhetfu"}
+{"id": "ssw_NCHTL_ssw_test_idx2590", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ejozi kunemabhizinisi kakhulu"}
+{"id": "ssw_NCHTL_ssw_test_idx2748", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kubaluleka nemsebenti wemaphaphu"}
+{"id": "ssw_NCHTL_ssw_test_idx1629", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sekubhaliswa kwekucala"}
+{"id": "ssw_NCHTL_ssw_test_idx1052", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imicimbi yefashini yemaviki onke"}
+{"id": "ssw_NCHTL_ssw_test_idx2673", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letincusa lasenengzimu afrika"}
+{"id": "ssw_NCHTL_ssw_test_idx508", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinetincwadzi tetinganekwane"}
+{"id": "ssw_NCHTL_ssw_test_idx541", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "usibonisa kutsi live linjani"}
+{"id": "ssw_NCHTL_ssw_test_idx1119", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi likusasaletfu ligaqa kanjani"}
+{"id": "ssw_NCHTL_ssw_test_idx1197", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuba nemicimbi yekukolekela labahluphekile"}
+{"id": "ssw_NCHTL_ssw_test_idx1633", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "siba nemicimbi ebholeni letinyawo"}
+{"id": "ssw_NCHTL_ssw_test_idx2113", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sephasiphoti yemntfwana"}
+{"id": "ssw_NCHTL_ssw_test_idx2103", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ukhangwe ngomsinfo webantfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1961", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza ngesimo selitulu salamanye emavi"}
+{"id": "ssw_NCHTL_ssw_test_idx936", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sine timbahlatabo babe"}
+{"id": "ssw_NCHTL_ssw_test_idx592", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ilandzisa ngisho nangetimpi"}
+{"id": "ssw_NCHTL_ssw_test_idx813", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tenta abantfu bangaganye"}
+{"id": "ssw_NCHTL_ssw_test_idx1216", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza ngemiculo yesiswati"}
+{"id": "ssw_NCHTL_ssw_test_idx2763", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "siphenye lesicelo futsi"}
+{"id": "ssw_NCHTL_ssw_test_idx634", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leminye sititfoketisa ngayo"}
+{"id": "ssw_NCHTL_ssw_test_idx1957", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sakhelwa nemigwaqo"}
+{"id": "ssw_NCHTL_ssw_test_idx1042", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kube nemicimbi yekukhetsa badlali labaphambile"}
+{"id": "ssw_NCHTL_ssw_test_idx585", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kugidza kulisiko lwetfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1234", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umlandvo usifunzisa ngemvelaphi yetho"}
+{"id": "ssw_NCHTL_ssw_test_idx2555", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "inchubo ndlela leniketwe litiko"}
+{"id": "ssw_NCHTL_ssw_test_idx2431", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemiculo yemasiko"}
+{"id": "ssw_NCHTL_ssw_test_idx1409", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "wetfulwe ngebunono nangendlela"}
+{"id": "ssw_NCHTL_ssw_test_idx475", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isitjela nangekukhukhuleka kwemhlaba"}
+{"id": "ssw_NCHTL_ssw_test_idx600", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "futsi akhulisa umnotfo"}
+{"id": "ssw_NCHTL_ssw_test_idx1279", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tentfutfuko tiyafundvwa etikolweni"}
+{"id": "ssw_NCHTL_ssw_test_idx2334", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tekulawula kutsenga ngaphandle"}
+{"id": "ssw_NCHTL_ssw_test_idx483", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ematshitsi athwele umqwasho"}
+{"id": "ssw_NCHTL_ssw_test_idx994", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isifundzisa kutsi singabidigebenga"}
+{"id": "ssw_NCHTL_ssw_test_idx1187", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kunaletsantfva bantfu labadjala"}
+{"id": "ssw_NCHTL_ssw_test_idx2257", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "inhlangano yebasebenti bematekisi"}
+{"id": "ssw_NCHTL_ssw_test_idx2357", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo lsekutsengisa ngaphandle"}
+{"id": "ssw_NCHTL_ssw_test_idx1904", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yetekulima kanye nemisebenti"}
+{"id": "ssw_NCHTL_ssw_test_idx1213", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza kubata"}
+{"id": "ssw_NCHTL_ssw_test_idx715", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uma umuhle bantfu bekhelwa emakhaya"}
+{"id": "ssw_NCHTL_ssw_test_idx2075", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "mabhalane wenkantolo yetekulingana"}
+{"id": "ssw_NCHTL_ssw_test_idx429", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "singahli lokungasigulisa"}
+{"id": "ssw_NCHTL_ssw_test_idx2577", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letangaphandle"}
+{"id": "ssw_NCHTL_ssw_test_idx150", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufaka sicelo seselekelelo"}
+{"id": "ssw_NCHTL_ssw_test_idx2000", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "titsingo tetimali kanye"}
+{"id": "ssw_NCHTL_ssw_test_idx2721", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tindleko tesikhatsi lesilingene"}
+{"id": "ssw_NCHTL_ssw_test_idx1549", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lokulingene lwati lolulingene"}
+{"id": "ssw_NCHTL_ssw_test_idx1021", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kungani futsi aboshwa sikhatsi"}
+{"id": "ssw_NCHTL_ssw_test_idx1318", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umnotfwo wetfu uwile"}
+{"id": "ssw_NCHTL_ssw_test_idx910", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sitsandza kudla lokuneti catse"}
+{"id": "ssw_NCHTL_ssw_test_idx1401", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ekuhlola emacophelo ekuhlola"}
+{"id": "ssw_NCHTL_ssw_test_idx2236", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lophumelelengalokulingene anga"}
+{"id": "ssw_NCHTL_ssw_test_idx1682", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uphendvule ngado imibudo"}
+{"id": "ssw_NCHTL_ssw_test_idx946", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "silalela kakhulu umbhaqanga"}
+{"id": "ssw_NCHTL_ssw_test_idx2754", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kanye nebunini bemhlaba"}
+{"id": "ssw_NCHTL_ssw_test_idx539", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "indlela yokudlala umqulo"}
+{"id": "ssw_NCHTL_ssw_test_idx607", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tisisita sati ngesimo selive letfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1746", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ligama lalofaka sicelo"}
+{"id": "ssw_NCHTL_ssw_test_idx237", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "impendvulo inako kuhambelana"}
+{"id": "ssw_NCHTL_ssw_test_idx1671", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "netindzawo letinjalo kumawadi"}
+{"id": "ssw_NCHTL_ssw_test_idx764", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "make utsengele babelihembelelisha"}
+{"id": "ssw_NCHTL_ssw_test_idx1131", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imidlalo lecitsa sitfubotsete"}
+{"id": "ssw_NCHTL_ssw_test_idx1782", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi umbane wentiwayini nalina"}
+{"id": "ssw_NCHTL_ssw_test_idx2261", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yamahlasena"}
+{"id": "ssw_NCHTL_ssw_test_idx220", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "seluhlelo lwekutfutfukisa kabusha"}
+{"id": "ssw_NCHTL_ssw_test_idx1963", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sekubhalisa kubuyiselwa imali"}
+{"id": "ssw_NCHTL_ssw_test_idx1885", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lesendiwe ngaphansi kwesigatshana"}
+{"id": "ssw_NCHTL_ssw_test_idx2143", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lwemali loluvunyelwe kubanikati"}
+{"id": "ssw_NCHTL_ssw_test_idx2683", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwehla kwebuphuya bemali"}
+{"id": "ssw_NCHTL_ssw_test_idx2170", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwemakhono ekuchudzelana emhlabeni"}
+{"id": "ssw_NCHTL_ssw_test_idx0", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letindlela letilandzelako tekufaka"}
+{"id": "ssw_NCHTL_ssw_test_idx365", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sidle kudla lokutasisita siphefumule kahle"}
+{"id": "ssw_NCHTL_ssw_test_idx1006", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bantfu labakwati kutfungatimphahla"}
+{"id": "ssw_NCHTL_ssw_test_idx1054", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "asisita sikwati kusita labahluphekile"}
+{"id": "ssw_NCHTL_ssw_test_idx2511", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwetidzingo lteluhlaka ethekishi"}
+{"id": "ssw_NCHTL_ssw_test_idx1810", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sijabulela neyekungena kwelihlobo"}
+{"id": "ssw_NCHTL_ssw_test_idx1607", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imisho legcwele kufanele"}
+{"id": "ssw_NCHTL_ssw_test_idx134", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lelifanele lelikhono lekwenta"}
+{"id": "ssw_NCHTL_ssw_test_idx615", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "inkhosi ihlume ugwalagwala enhloko"}
+{"id": "ssw_NCHTL_ssw_test_idx1189", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "simo selitulu sibi namuhla"}
+{"id": "ssw_NCHTL_ssw_test_idx2018", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuba nenjabulo lapho sinemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx2319", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi utsini"}
+{"id": "ssw_NCHTL_ssw_test_idx1514", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "cite press release"}
+{"id": "ssw_NCHTL_ssw_test_idx301", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwenzela yemali lesisiwe"}
+{"id": "ssw_NCHTL_ssw_test_idx86", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngabe nguliphi lilunga"}
+{"id": "ssw_NCHTL_ssw_test_idx1781", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tilwimi taseningizimu afrika"}
+{"id": "ssw_NCHTL_ssw_test_idx1665", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "inombolo yakho yamatisi"}
+{"id": "ssw_NCHTL_ssw_test_idx275", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "central african republic"}
+{"id": "ssw_NCHTL_ssw_test_idx78", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yinye kuleti letingendansi"}
+{"id": "ssw_NCHTL_ssw_test_idx523", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "besifazane baya esikhatsini"}
+{"id": "ssw_NCHTL_ssw_test_idx2559", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ekuphatsa kancono tinzuzo"}
+{"id": "ssw_NCHTL_ssw_test_idx2575", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imphala"}
+{"id": "ssw_NCHTL_ssw_test_idx14", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ekuhlola nemibhalo emabanga"}
+{"id": "ssw_NCHTL_ssw_test_idx45", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "phela lapho ubona"}
+{"id": "ssw_NCHTL_ssw_test_idx2152", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sekuvulwe emabhizinisi lamanengi"}
+{"id": "ssw_NCHTL_ssw_test_idx2513", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tavelonkhe"}
+{"id": "ssw_NCHTL_ssw_test_idx1462", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngemgwaco nobe ngemoya"}
+{"id": "ssw_NCHTL_ssw_test_idx1250", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umbhacanga utsandvwa bantfu labadjala"}
+{"id": "ssw_NCHTL_ssw_test_idx437", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leminye yekuvulwa kwemitfolamphilo"}
+{"id": "ssw_NCHTL_ssw_test_idx2361", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nesilula magama ngelicophelo lesetulo"}
+{"id": "ssw_NCHTL_ssw_test_idx518", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "siba nemaphathi"}
+{"id": "ssw_NCHTL_ssw_test_idx2450", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "engcini"}
+{"id": "ssw_NCHTL_ssw_test_idx2409", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudla lokuhlanyeliwe kuluseto kakhuemtembeni"}
+{"id": "ssw_NCHTL_ssw_test_idx2426", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "licelo kubo konke"}
+{"id": "ssw_NCHTL_ssw_test_idx233", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwalongakatalelwa eveni ngekwemtsetfo"}
+{"id": "ssw_NCHTL_ssw_test_idx1249", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicuselana ngematubane etikolweni"}
+{"id": "ssw_NCHTL_ssw_test_idx683", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufika kwalabamhlophe eningzimu afrika"}
+{"id": "ssw_NCHTL_ssw_test_idx717", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "titfolakala na setibhedlela"}
+{"id": "ssw_NCHTL_ssw_test_idx816", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ticatfulo letimnyama ungatigqokela ngakokonke"}
+{"id": "ssw_NCHTL_ssw_test_idx363", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emamuvi ahambisa sikhatsi"}
+{"id": "ssw_NCHTL_ssw_test_idx1744", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kandzi futsi kubumbhene"}
+{"id": "ssw_NCHTL_ssw_test_idx528", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "utawutitila uma aphakamisa tinsimbi"}
+{"id": "ssw_NCHTL_ssw_test_idx1022", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "timphahla sititsenga emvabane"}
+{"id": "ssw_NCHTL_ssw_test_idx1792", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "national science foundation"}
+{"id": "ssw_NCHTL_ssw_test_idx1032", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemaloko emabhulukwe tikedi naletinye"}
+{"id": "ssw_NCHTL_ssw_test_idx2471", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwetindlu temilandfo lemarekhodi"}
+{"id": "ssw_NCHTL_ssw_test_idx1246", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emabhizinisi abalulekile"}
+{"id": "ssw_NCHTL_ssw_test_idx610", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "atfutfukisa emadolobha lamancane"}
+{"id": "ssw_NCHTL_ssw_test_idx2569", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ukhona umlingisi lomcoka"}
+{"id": "ssw_NCHTL_ssw_test_idx631", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kandzile tinye tidzabuka kalula"}
+{"id": "ssw_NCHTL_ssw_test_idx1307", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isitjhela ngekufika kwalabamhlobe"}
+{"id": "ssw_NCHTL_ssw_test_idx1310", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emabhizinisi lakhona nyalo ayacashana"}
+{"id": "ssw_NCHTL_ssw_test_idx1672", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "naletinye tindzima kuhleleke"}
+{"id": "ssw_NCHTL_ssw_test_idx2705", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emathayela"}
+{"id": "ssw_NCHTL_ssw_test_idx350", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemisipha leditlaskoti kuhamba"}
+{"id": "ssw_NCHTL_ssw_test_idx410", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinetilwimi letinyenti netincwatsi"}
+{"id": "ssw_NCHTL_ssw_test_idx1415", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lapho kudzingeka khona"}
+{"id": "ssw_NCHTL_ssw_test_idx2469", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "usita nabosamabhizinisi bathutfuke"}
+{"id": "ssw_NCHTL_ssw_test_idx1962", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "usisita sikwati kwenta emabhizinisi"}
+{"id": "ssw_NCHTL_ssw_test_idx2001", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lesisekelo lesekela"}
+{"id": "ssw_NCHTL_ssw_test_idx904", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngabe se unabo bangane"}
+{"id": "ssw_NCHTL_ssw_test_idx1759", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bahlolwa baphendvula ngemisho"}
+{"id": "ssw_NCHTL_ssw_test_idx1392", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lokuncane kakhulu kwesihloko"}
+{"id": "ssw_NCHTL_ssw_test_idx2503", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudla lokungcolile kubangatifo"}
+{"id": "ssw_NCHTL_ssw_test_idx2600", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lihovisi lelincusa laseningizimu"}
+{"id": "ssw_NCHTL_ssw_test_idx827", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "make utsandza kutsenga timphahla"}
+{"id": "ssw_NCHTL_ssw_test_idx1338", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemidlalo welibhola letandla"}
+{"id": "ssw_NCHTL_ssw_test_idx2769", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nenkhulumo yabo"}
+{"id": "ssw_NCHTL_ssw_test_idx1468", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngalokusebaleni loku lokulandzelako"}
+{"id": "ssw_NCHTL_ssw_test_idx1819", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "iyasita kutsi singacabani kuganga"}
+{"id": "ssw_NCHTL_ssw_test_idx1714", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nalamuhla"}
+{"id": "ssw_NCHTL_ssw_test_idx2284", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bahlabeleli bantfu labadvumile"}
+{"id": "ssw_NCHTL_ssw_test_idx202", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kukhetfwe emagama lalula"}
+{"id": "ssw_NCHTL_ssw_test_idx1930", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kukhona imiqulo yemasiko"}
+{"id": "ssw_NCHTL_ssw_test_idx1761", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "luhlolo lwemehlo kusikhungu"}
+{"id": "ssw_NCHTL_ssw_test_idx2406", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nemicilo siyayibona kubomabonakudze"}
+{"id": "ssw_NCHTL_ssw_test_idx273", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kungahle kube nemaphutsa"}
+{"id": "ssw_NCHTL_ssw_test_idx1978", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemiqimbi yekuvula tibhedlela"}
+{"id": "ssw_NCHTL_ssw_test_idx870", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemiculo yebantfana basetingulisa"}
+{"id": "ssw_NCHTL_ssw_test_idx2044", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bumatima bekuqhumana nebafundzisi"}
+{"id": "ssw_NCHTL_ssw_test_idx2498", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "fundza lenkhondlo lelandzelako"}
+{"id": "ssw_NCHTL_ssw_test_idx525", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tisisita kutsi imphilo ibelula"}
+{"id": "ssw_NCHTL_ssw_test_idx1244", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imbangela yokukhukhuleka komhlaba"}
+{"id": "ssw_NCHTL_ssw_test_idx2392", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kulawula bulunga bakho"}
+{"id": "ssw_NCHTL_ssw_test_idx830", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emabhizimisi etfu angatfutfuka"}
+{"id": "ssw_NCHTL_ssw_test_idx872", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lekhamera lena ayisebentanga"}
+{"id": "ssw_NCHTL_ssw_test_idx1024", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lomunye siditjabulisa ngawo"}
+{"id": "ssw_NCHTL_ssw_test_idx1712", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "semhlaba wekulima wembuso"}
+{"id": "ssw_NCHTL_ssw_test_idx1055", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngeza tandla uma ucedzile"}
+{"id": "ssw_NCHTL_ssw_test_idx1597", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letinye sibhalela kudo"}
+{"id": "ssw_NCHTL_ssw_test_idx334", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kulesinye sikhatsi abenedisi"}
+{"id": "ssw_NCHTL_ssw_test_idx2174", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "asita kufutfumeta emanti"}
+{"id": "ssw_NCHTL_ssw_test_idx1103", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "utfutfukisa live lakitsi"}
+{"id": "ssw_NCHTL_ssw_test_idx2016", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lesibusako amange sitalelwe"}
+{"id": "ssw_NCHTL_ssw_test_idx349", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "iyemidlalo yasesitesi"}
+{"id": "ssw_NCHTL_ssw_test_idx112", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lokujulile kwekusetshetiswa kwelulwemi"}
+{"id": "ssw_NCHTL_ssw_test_idx1900", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ekungena eningizimo afrika"}
+{"id": "ssw_NCHTL_ssw_test_idx1155", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "indzawo yakitsi ibekile"}
+{"id": "ssw_NCHTL_ssw_test_idx344", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umfula usikhangiso lesihle semvelo"}
+{"id": "ssw_NCHTL_ssw_test_idx852", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leminye ibonisa ngemishatfu"}
+{"id": "ssw_NCHTL_ssw_test_idx1751", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngenisa sitifiketi semcwanini"}
+{"id": "ssw_NCHTL_ssw_test_idx1852", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwakhe kwaba nembi yemhlaba"}
+{"id": "ssw_NCHTL_ssw_test_idx2565", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nemalungelo eluntfu lasisekelo"}
+{"id": "ssw_NCHTL_ssw_test_idx933", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kemidlalo tilolonga umtimba wetfu"}
+{"id": "ssw_NCHTL_ssw_test_idx2657", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufanele afake sicelo"}
+{"id": "ssw_NCHTL_ssw_test_idx2249", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sebenti satiphumuti ngalokulungile"}
+{"id": "ssw_NCHTL_ssw_test_idx1178", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tintfombi tikha umhlanga"}
+{"id": "ssw_NCHTL_ssw_test_idx826", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "banetinhlelo letifundzisa ngesikolo"}
+{"id": "ssw_NCHTL_ssw_test_idx2238", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "komkhombandlela wekufakasicelo"}
+{"id": "ssw_NCHTL_ssw_test_idx411", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tenta banfana bangagange"}
+{"id": "ssw_NCHTL_ssw_test_idx271", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sekubhalisa imitzi"}
+{"id": "ssw_NCHTL_ssw_test_idx1160", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudla lokungemasiko lamathathu"}
+{"id": "ssw_NCHTL_ssw_test_idx571", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tisipha umoya lohlandekile"}
+{"id": "ssw_NCHTL_ssw_test_idx2013", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "vakashela lihovisi lakho"}
+{"id": "ssw_NCHTL_ssw_test_idx2464", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lekungasebenti kahle kanye"}
+{"id": "ssw_NCHTL_ssw_test_idx517", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "isibonisa nekubalileka kwesikolwa"}
+{"id": "ssw_NCHTL_ssw_test_idx524", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinetincwadzi tesikolo letinelwati"}
+{"id": "ssw_NCHTL_ssw_test_idx2593", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kweligalelo lelulwimi bufakazi"}
+{"id": "ssw_NCHTL_ssw_test_idx2325", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leluhlaka kukhona"}
+{"id": "ssw_NCHTL_ssw_test_idx574", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza nangetityalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1035", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sajabulela nemidlalo yenzebe yemhlaba"}
+{"id": "ssw_NCHTL_ssw_test_idx1383", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "futsi uyativisisa tincukaca"}
+{"id": "ssw_NCHTL_ssw_test_idx324", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "netindzuza tekugulela esibhedlela"}
+{"id": "ssw_NCHTL_ssw_test_idx1328", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinetitolo setimphahla"}
+{"id": "ssw_NCHTL_ssw_test_idx753", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letinye kungabatingo matendzabuko"}
+{"id": "ssw_NCHTL_ssw_test_idx2696", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "semfundo lephakeme eningzimu"}
+{"id": "ssw_NCHTL_ssw_test_idx1287", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "simo selitulu sipholele"}
+{"id": "ssw_NCHTL_ssw_test_idx983", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "dlanikudla lokunemnotfo kude uphile"}
+{"id": "ssw_NCHTL_ssw_test_idx901", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "titolo sitsenga kudokudla"}
+{"id": "ssw_NCHTL_ssw_test_idx941", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutichaza nebangani bakho"}
+{"id": "ssw_NCHTL_ssw_test_idx2051", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwetfulwe ngeliqophelo lelisetulu"}
+{"id": "ssw_NCHTL_ssw_test_idx2515", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sena le se pala ngato"}
+{"id": "ssw_NCHTL_ssw_test_idx305", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sebentisa lwati lwemisuka"}
+{"id": "ssw_NCHTL_ssw_test_idx1813", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emafilimi acitsa sidunge"}
+{"id": "ssw_NCHTL_ssw_test_idx448", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngabe ematekisi alibhizinisi"}
+{"id": "ssw_NCHTL_ssw_test_idx1170", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "make utsandza kutsenga timphahla"}
+{"id": "ssw_NCHTL_ssw_test_idx981", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ematamatisi akhunisa sitolo"}
+{"id": "ssw_NCHTL_ssw_test_idx312", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kweminyaka lelishumi nesihlanu"}
+{"id": "ssw_NCHTL_ssw_test_idx2340", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sisabalala yonkhe inzawo"}
+{"id": "ssw_NCHTL_ssw_test_idx1261", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imicimbi yekuvulwa kwenkundla yemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1842", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuleyo naleyo noveli"}
+{"id": "ssw_NCHTL_ssw_test_idx177", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "faka sicelo selusito"}
+{"id": "ssw_NCHTL_ssw_test_idx1873", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letawumelela lelahlekile nobe"}
+{"id": "ssw_NCHTL_ssw_test_idx510", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza nange kubaluleka kwetityalo"}
+{"id": "ssw_NCHTL_ssw_test_idx2085", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kukhona lokushaya emanti"}
+{"id": "ssw_NCHTL_ssw_test_idx2347", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kunefashini lelungelebusuku"}
+{"id": "ssw_NCHTL_ssw_test_idx1843", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sijabulela ngisho nabokhisimusi"}
+{"id": "ssw_NCHTL_ssw_test_idx2131", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemidlalo lehlukahlukeni"}
+{"id": "ssw_NCHTL_ssw_test_idx2250", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kha imicabango netiphakamiso"}
+{"id": "ssw_NCHTL_ssw_test_idx850", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leminye imidlalo setijabulisa ngayo"}
+{"id": "ssw_NCHTL_ssw_test_idx2558", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "enchubeni yekufundza nokufundzisa"}
+{"id": "ssw_NCHTL_ssw_test_idx281", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "visisa takhi netimisi"}
+{"id": "ssw_NCHTL_ssw_test_idx2225", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kgolwane"}
+{"id": "ssw_NCHTL_ssw_test_idx73", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yakho usebentise emafomu"}
+{"id": "ssw_NCHTL_ssw_test_idx1544", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bakhetha kanjani abadlali besizwe"}
+{"id": "ssw_NCHTL_ssw_test_idx2246", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "asifundzisa kutimela ekwenteni tindvo"}
+{"id": "ssw_NCHTL_ssw_test_idx1952", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uma ukahle emanani ayehla"}
+{"id": "ssw_NCHTL_ssw_test_idx1641", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sekuvuselela nobe kuphelisa"}
+{"id": "ssw_NCHTL_ssw_test_idx1931", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umangabe loo"}
+{"id": "ssw_NCHTL_ssw_test_idx2324", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "luphiko lolukhulu lwetempilo"}
+{"id": "ssw_NCHTL_ssw_test_idx2032", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sidle tivandze kute sibengulabaphilile"}
+{"id": "ssw_NCHTL_ssw_test_idx1977", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "selekelelo sebantfu labadzala"}
+{"id": "ssw_NCHTL_ssw_test_idx1662", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lokusilele lokwenta umongo"}
+{"id": "ssw_NCHTL_ssw_test_idx1860", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uqhumana ngemlomo kumele"}
+{"id": "ssw_NCHTL_ssw_test_idx1335", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umsinga lobandzako uletsa emakhada"}
+{"id": "ssw_NCHTL_ssw_test_idx855", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tisisita sikwati kukhulumana labanye"}
+{"id": "ssw_NCHTL_ssw_test_idx883", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leminye imiculo yekudanza"}
+{"id": "ssw_NCHTL_ssw_test_idx2190", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ifundzisa ngekwenta imisebenti"}
+{"id": "ssw_NCHTL_ssw_test_idx2146", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kunemiculo letsandvw abantwana"}
+{"id": "ssw_NCHTL_ssw_test_idx29", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngetsitengesatitamatisela incwancwa"}
+{"id": "ssw_NCHTL_ssw_test_idx1553", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwakhiwa umusho lotawuveta"}
+{"id": "ssw_NCHTL_ssw_test_idx345", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tindlela tekucecesha ngemidlalo"}
+{"id": "ssw_NCHTL_ssw_test_idx1074", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinato ticatfuleletihlukile tefashini"}
+{"id": "ssw_NCHTL_ssw_test_idx1215", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tisisitha kupheka"}
+{"id": "ssw_NCHTL_ssw_test_idx722", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "dlanikudla lokunemnotfo kude uphile"}
+{"id": "ssw_NCHTL_ssw_test_idx1240", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "letinye tisibonisa ifashini"}
+{"id": "ssw_NCHTL_ssw_test_idx900", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufanele ubenemathulusi lakahle ebhizinisi"}
+{"id": "ssw_NCHTL_ssw_test_idx130", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ukhangwe ngomsindvo webandvu"}
+{"id": "ssw_NCHTL_ssw_test_idx2670", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza netilimi letihlukile telive"}
+{"id": "ssw_NCHTL_ssw_test_idx793", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "mahlalekhukhwini wami usebentisa lutsi loluncane"}
+{"id": "ssw_NCHTL_ssw_test_idx2692", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uma utilolonga umtimba uyavikeleka itifeni"}
+{"id": "ssw_NCHTL_ssw_test_idx16", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "abuye achaze umehluko"}
+{"id": "ssw_NCHTL_ssw_test_idx1750", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lamanye afundzisa lokutsite"}
+{"id": "ssw_NCHTL_ssw_test_idx151", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ekugcineni kwaleso sigaba"}
+{"id": "ssw_NCHTL_ssw_test_idx2237", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sicelo sekubhalisa kubelekwa"}
+{"id": "ssw_NCHTL_ssw_test_idx1697", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kodwa kuballekile kutsi"}
+{"id": "ssw_NCHTL_ssw_test_idx2445", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngumuntlu munye nobe"}
+{"id": "ssw_NCHTL_ssw_test_idx1044", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emanti lahlobili ayafuneka"}
+{"id": "ssw_NCHTL_ssw_test_idx1280", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufanele sati kutsi ihamba njani"}
+{"id": "ssw_NCHTL_ssw_test_idx828", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuphila kwetive letihlukahlukene"}
+{"id": "ssw_NCHTL_ssw_test_idx675", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umlilo uphuma etintsabeni letinze"}
+{"id": "ssw_NCHTL_ssw_test_idx1357", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "phendvula inzabambhalo nobe"}
+{"id": "ssw_NCHTL_ssw_test_idx2139", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "khwehlelela nobe tsimulela"}
+{"id": "ssw_NCHTL_ssw_test_idx745", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "iyunivesi yasepitoli"}
+{"id": "ssw_NCHTL_ssw_test_idx673", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "utfutfukisa livelakitsi"}
+{"id": "ssw_NCHTL_ssw_test_idx37", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yemaphoyisa eningizimu afrika"}
+{"id": "ssw_NCHTL_ssw_test_idx209", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kubaluleke kakhulu kutsi"}
+{"id": "ssw_NCHTL_ssw_test_idx1495", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ayenelisi kunekusekela lokuncana"}
+{"id": "ssw_NCHTL_ssw_test_idx545", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kutsi bantfu bebaphilangayiphi indlela"}
+{"id": "ssw_NCHTL_ssw_test_idx338", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nanobe kulandzelwe imigomo"}
+{"id": "ssw_NCHTL_ssw_test_idx970", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imfashini icedza imali"}
+{"id": "ssw_NCHTL_ssw_test_idx2642", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "imfashini ishintshe indlela yekucoka"}
+{"id": "ssw_NCHTL_ssw_test_idx2674", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "netinhloso netetsamelilwati ngemalengiso"}
+{"id": "ssw_NCHTL_ssw_test_idx1461", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ekusebenda akukasebendi ekuvimbeleni"}
+{"id": "ssw_NCHTL_ssw_test_idx1741", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sitatimende senkundla yokufundza"}
+{"id": "ssw_NCHTL_ssw_test_idx2690", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tekusebentisa lelwemi lwemalai"}
+{"id": "ssw_NCHTL_ssw_test_idx2363", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lota wutfvumela nesicelo salomsebenti"}
+{"id": "ssw_NCHTL_ssw_test_idx2102", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "temidlalo tenta bantfu bangagangi"}
+{"id": "ssw_NCHTL_ssw_test_idx2375", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sikwati kubeka kudla kuto"}
+{"id": "ssw_NCHTL_ssw_test_idx637", "set": "ssw_real_nchlt", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sithola emandla elangeni"}
+{"id": "cs01", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kusasa ngitauweya kuprenit ekuseni"}
+{"id": "cs02", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ndokutela utsitintitsatsi lemedicatun cabili ngelilanga"}
+{"id": "cs03", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ndikhohliwekutatza imabiles ami ezona"}
+{"id": "cs04", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "e aponlenti yayamilelanzelako inku yex wat ndelesibile"}
+{"id": "cs05", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nes weso egudzengendiaiblotisti"}
+{"id": "cs06", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "idra lodiam iphansi kakhulw enyalo"}
+{"id": "cs07", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ndezerla ndp ebislotenlelsha"}
+{"id": "cs08", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umfana wami woyefeza kusukela ihlolo ebusoku"}
+{"id": "cs09", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngila muhlungu enhlagwa ngeni heatat hilangalonkhe"}
+{"id": "cs10", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kofanene ogcini eapond bentpad yako"}
+{"id": "cs11", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "edl\u1eb9rd pres\u00edon \u00ecy\u00e1ko ip\u00e9zolulamufa"}
+{"id": "cs12", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sisisa ulegeledze ntjithikad yakho nota kutlwini"}
+{"id": "cs13", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nze tseni se matabayati kupama isini"}
+{"id": "cs14", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "emeqesot ani alunlile yeni"}
+{"id": "cs15", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yesi se bente kors di tolangi igu nalase"}
+{"id": "cs16", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lemali yeitransport yabeza gakholu"}
+{"id": "cs17", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "njitilako cheke esekedeva ilan"}
+{"id": "cs18", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "maki wami kwandade esmi hit brodi"}
+{"id": "cs19", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sitaku phoni nangabe emal resource semafikile"}
+{"id": "cs20", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "wisata iteventi yeli njesikati sonki"}
+{"id": "cs21", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kuwalweleyinde kakhulu lamhla ekuseni"}
+{"id": "cs22", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nyebusi khakhulu kulaliswa ntfo"}
+{"id": "cs23", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ociti estern itawentiwa ngelisihlano"}
+{"id": "cs24", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngisa lao xpl inakahlengoba andina"}
+{"id": "cs25", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "umupwana kubyinga irasini yake yesibivi"}
+{"id": "cs26", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "beni citfix ngemakhelisilamahla"}
+{"id": "cs27", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "endotofwits ezingephumulo emalanga lamazadzo"}
+{"id": "cs28", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngiexa orefela lwepestotionium"}
+{"id": "cs29", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tfoni yami ifile nako anye yitfolanga iimesaji"}
+{"id": "cs30", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sitaruhlangana emva kwelomva"}
+{"id": "cs31", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "bifuna kutota eabointwe ilet ond"}
+{"id": "cs32", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ikasi libe lathe ngako nefik lathe"}
+{"id": "cs33", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngiyatela ongibalele isiknod"}
+{"id": "cs34", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "eme gadon satwala galo maha lanatfa kutenit"}
+{"id": "cs35", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "etestin ye tebetulosis ibe negytem"}
+{"id": "cs36", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kufanele udle kahlengaphambi kwekuthatsa imedisim"}
+{"id": "cs37", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "uncona othwalisi ikfom gafi"}
+{"id": "cs38", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ndeben\u1eb9 qohwi enwa viki namabii"}
+{"id": "cs39", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "enasekisete ngibunye emva kwemaliki lamane"}
+{"id": "cs40", "set": "cs_tts", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sitapotsentsa ngemesaiti"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx865", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kentrod fog tisisitendedentfu letinanti"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1187", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kona letsanifobantfu labatsala"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2261", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "yamahlasela"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2246", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "asifundzisa kutemela ekwentenidzentsho"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx345", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kendlela tekhwesetheswa ngemidlalo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx466", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "simete mnopfoletehlukahlugeni"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1462", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ngemkwako nabenge mae"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx338", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nani ube kulandziri inikoo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx893", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "inshinye kuwashatimphahlo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx229", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "litawumsita bahlolwa ekukhetseni"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1957", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sekhelwa nygemiqwaxo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1279", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "tentwitfuko diyafunvwa edekorin"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1751", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lenesa sitifiketi sempwanimfu"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2170", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kwemakhona ekucindelana emhlabini"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1998", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "liyayekinjesikfola kudla kontu"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx363", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "amamuze ambisa sikhadi"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2670", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifundza miti limi letifukile telisa"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx827", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "make usandzakusingata mkahla"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1793", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kubeda kukwabaniswa kwemale"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1891", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "nekuchazwa kahlekhakhuu"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1029", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudla lokunembafotsa akuna mphiri"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx273", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ungahle kube nemaphumtha"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx634", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "leninye sititfogotisangayo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2215", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kubaluleka ayinakwa kuchudzelana"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2303", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kumakekelwa kwetampilo wala bwakhulelwe"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2250", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kha imicabango nethebkakamisi"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2735", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "turkey letefukeni teniso"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1978", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sinemicimbi yekuvula tibadlela"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2671", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "lenulumieneibufakasi bekuhlela"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2103", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "ukhangwe ngumsenvo webanhfu"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2340", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sisaba lala yoke iimzawo"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2309", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "utsaxese ot imicoword"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1479", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "loresegela sihloko"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx605", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "mmovu weseva ot\u1eb9mbele gowe"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx830", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "timabizimisi etfu angatfutfuka"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2674", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "mentshoso nidedzemili lwadi ngemalengiso"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2575", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "empala"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1977", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "selegelelo sebantfu labandzala"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx2503", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "kudla lokunqolile kubangatef"}
+{"id": "tts_ssw_NCHTL_ssw_test_idx1216", "set": "ssw_tts_control", "model": "UBC-NLP/Simba-M", "tag": "simba_m", "tgt_lang": "multilingual_african", "hyp": "sifondza ngemitulo iyeseswati"}
