@@ -28,6 +28,19 @@ def test_agreement_in_output():
         want = M.agree(L.NOUNS["ITEM"][stem]["cls"], "sg", "poss1")
         assert out.endswith(" " + want), out
 
+def test_native_forms():
+    import random
+    old = T.P_NATIVE
+    try:
+        T.P_NATIVE = 1.0
+        assert T.realize("{PLACE:loc}", random.Random(0)) in {"esibhedlela"} | {f"ku-[[{p}]]" for p in L.NOUNS["PLACE"] if p != "hospital"}
+        hits = {T.realize("{PLACE:loc}", random.Random(s)) for s in range(200)}
+        assert "esibhedlela" in hits and "ku-[[hospital]]" not in hits
+        assert T.realize("{DRUG#a:pl:noun}", random.Random(1)).startswith("ema-")          # no nativised form -> still prefixed English
+        T.P_NATIVE = 0.0
+        assert all("esibhedlela" not in T.realize("{PLACE:loc}", random.Random(s)) for s in range(200))
+    finally: T.P_NATIVE = old
+
 def test_corpus_properties():
     real = [f"ngicela ungitjele kabili sikhatsi {i}".replace(str(i), "ngelinye") + " " + w for i, w in enumerate(["lapha", "lamuhla", "kusasa", "izolo"] * 60)]
     real = sorted(set(real)); assert len(real) >= 4
@@ -49,6 +62,16 @@ def test_corpus_properties():
     assert all(r["n_eng_words"] == r["n_words"] for r in mono if r["switch_type"] == "mono_eng")
     # 'multi' has >= 3 language segments
     assert all(len(r["segments"]) >= 3 for r in rows if r["switch_type"] == "multi")
+
+def test_realswitch_rules():
+    import realswitch as R
+    assert R.noun_class("emakhondomu") == "ema" and R.noun_class("abahlali") == "bo" and R.noun_class("inombolo") == "i"
+    assert R.noun_class("imishuco") is None and R.noun_class("umuntfu") is None and R.noun_class("tinkantolo") is None   # ambiguous classes skipped
+    et = "the budget was passed in the house".split()
+    assert R.surface(et, "budget", False, 0.2) == "budget"           # right place
+    assert R.surface(et, "budget", False, 0.95) is None              # same word, implausible position -> rejected
+    assert R.surface(et, "budget", True, 0.2) is None                # plural needed, singular present -> rejected
+
 
 if __name__ == "__main__":
     for n, f in list(globals().items()):

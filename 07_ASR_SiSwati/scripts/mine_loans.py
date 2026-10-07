@@ -32,3 +32,12 @@ with open(f"{OUT}/loan_evidence.tsv", "w") as f:
 seen = sum(1 for r in rows if sum(r[3:]) > 0)
 print(f"{len(files)} files, {sum(tok.values()):,} tokens; {seen}/{len(rows)} generator stems attested in any form")
 print("prefix totals:", dict(prefix_totals.most_common(10)))
+
+# evidence for the nativised-form table (lexicon.NATIVISED): how often written siSwati uses the nativised form vs the English word
+with open(f"{OUT}/native_evidence.tsv", "w") as f:
+    f.write("english\tform_type\tnativised_form\tcount_nativised\tcount_english_any_form\n")
+    for eng, forms in L.NATIVISED.items():
+        eng_n = sum(c for t, c in tok.items() if re.fullmatch(r"(?:[a-z]+-)?" + re.escape(eng.lower()) + r"(?:s|ed|ing)?", t))
+        for ftype, form in forms.items():
+            f.write(f"{eng}\t{ftype}\t{form}\t{tok.get(form, 0)}\t{eng_n}\n")
+print(open(f"{OUT}/native_evidence.tsv").read())

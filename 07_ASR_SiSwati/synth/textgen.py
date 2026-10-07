@@ -24,7 +24,7 @@ import argparse, json, os, random, re
 import lexicon as L, morph as M
 
 CLAUSES = [
-    "{TIME} ngitawuya ku-{PLACE:bare}",
+    "{TIME} ngitawuya {PLACE:loc}",
     "{STAFF:bare} utsite ngitsatse {ITEM#a:sg:dem} {ITEM#a:bare} kabili ngelilanga",
     "ngikhohliwe kutsatsa {DRUG#a:pl:noun} {DRUG#a:pl:poss1} {TIME}",
     "{STAFF:bare} ucele kutsi ngente {TEST#a:sg:noun}",
@@ -33,10 +33,10 @@ CLAUSES = [
     "{WHO} une {SYMP} kusukela {TIME}",
     "ngiva buhlungu ngine {SYMP} {DUR}",
     "kufanele ugcine {ITEM#a:sg:noun} {ITEM#a:sg:poss2}",
-    "sicela ulete {ITEM#a:sg:noun} {ITEM#a:sg:poss2} nawuta ku-{PLACE:bare}",
-    "ngitsenge {DRUG#a:pl:noun} ku-{PLACE:bare}",
+    "sicela ulete {ITEM#a:sg:noun} {ITEM#a:sg:poss2} nawuta {PLACE:loc}",
+    "ngitsenge {DRUG#a:pl:noun} {PLACE:loc}",
     "{RES#a:pl:noun} {RES#a:pl:poss1} {RES#a:pl:sc}lungile yini",
-    "ngisebenta ku-{PLACE:bare} ngingu-{STAFF:bare}",
+    "ngisebenta {PLACE:loc} {TIME}",
     "le mali ye-{MISC:bare} iyabiza kakhulu",
     "{WHO} une {COND}",
     "ngitsatsa {ITEM#a:sg:noun} {ITEM#a:sg:poss1} ngesikhatsi sonkhe",
@@ -47,7 +47,7 @@ CLAUSES = [
     "ngiyacela ungibhalele {ITEM#a:sg:noun}",
     "kufanele udle kahle ngaphambi kwekutsatsa {DRUG#a:pl:noun}",
     "{STAFF:bare} utsite ngibuye {REL:bare}",
-    "angitfolanga {ITEM#a:sg:noun} {ITEM#a:sg:poss1} ku-{PLACE:bare}",
+    "angitfolanga {ITEM#a:sg:noun} {ITEM#a:sg:poss1} {PLACE:loc}",
     "ngicela {V:subj} {TEST#a:sg:noun} {TEST#a:sg:poss1}",
     "ngiphatsa kabi ngobe nginesifo se-{COND:bare}",
     "ngitsatsa {DRUG#a:pl:noun} {TIME} nakusihlwa",
@@ -59,20 +59,21 @@ CLAUSES = [
     "{STAFF:bare} ubhale {ITEM#a:sg:noun} {ITEM#a:sg:new}",
     "{MISC#a:sg:noun} {MISC#a:sg:sc}bekade {MISC#a:sg:sc}nde {TIME}",
     "umntfwana wami udzinga {ITEM#a:sg:noun} {ITEM#a:sg:new}",
-    "ngelula ku-{PLACE:bare} {TIME}",
+    "ngelula {PLACE:loc} {TIME}",
     "ngitfole {RES#a:pl:noun} {RES#a:pl:poss1} {TIME}",
     "sitawuhlangana {DAY} emva kwe-{MISC:bare}",
     "ngiyakhumbula kutsatsa {DRUG#a:pl:noun} {DRUG#a:pl:poss1}",
-    "kunayo {STAFF:bare} lapha ku-{PLACE:bare} lamuhla",
+    "kunayo {STAFF:bare} lapha {PLACE:loc} lamuhla",
     "{WHO} ukhale {SYMP} {TIME}",
     "ngitsenge {ITEM#a:sg:noun} {ITEM#a:sg:poss1} kuphela",
     "ngifike nge-{VEH:bare} {TIME}",
     "ngilethe {ITEM#a:sg:noun} ne-{ITEM#b:bare}",
-    "ngiphume ku-{PLACE:bare} emva kwe-{TEST:bare}",
+    "ngiphume {PLACE:loc} emva kwe-{TEST:bare}",
     "ngisebente ne-{STAFF:bare} lamuhla",
 ]
 
 PLURAL_STEM = lambda s: s + "s"
+P_NATIVE = 0.5     # probability a stem with an attested nativised form (lexicon.NATIVISED) is written in that form
 SLOT_RE = re.compile(r"\{(\w+)(?:#(\w+))?(?::(\w+))?(?::(\w+))?\}")
 
 
@@ -90,15 +91,26 @@ def realize(clause, rng):
             else: raise KeyError(f"unknown slot {name}")
         return chosen[key]
 
+    def native(name, ident, stem, field):
+        """Nativised form for this slot mention (decided once per mention so repeats agree), or None."""
+        nat = L.NATIVISED.get(stem)
+        if not nat or field not in nat: return None
+        key = (name, ident, "nat")
+        if key not in chosen: chosen[key] = rng.random() < P_NATIVE
+        return nat[field] if chosen[key] else None
+
     def fill(m):
         name, ident, f1, f2 = m.group(1), m.group(2), m.group(3), m.group(4)
         stem, cls = pick(name, ident)
         if name in L.SSW: return stem
         if name in L.BARE: return f"[[{stem}]]"
-        if name == "V": return f"[[{stem}]]" if f1 == "bare" else M.verb(stem, f1)
-        if f1 == "bare": return f"[[{stem}]]"
+        if name == "V":
+            if f1 == "bare": return f"[[{stem}]]"
+            return native(name, ident, stem, f1) or M.verb(stem, f1)
+        if f1 == "bare": return native(name, ident, stem, "sg") or f"[[{stem}]]"
+        if f1 == "loc": return native(name, ident, stem, "loc") or f"ku-[[{stem}]]"
         num, attr = f1, f2
-        if attr == "noun": return M.nominal(PLURAL_STEM(stem) if num == "pl" else stem, cls, num)
+        if attr == "noun": return native(name, ident, stem, num) or M.nominal(PLURAL_STEM(stem) if num == "pl" else stem, cls, num)
         return M.agree(cls, num, attr)
 
     return SLOT_RE.sub(fill, clause)
@@ -185,7 +197,9 @@ def load_real(raw_dir, lang="ssw", max_n=20000, seed=0):
     return out[:max_n]
 
 
-def generate(n, seed=0, val_frac=0.1, max_tries=50, real_ssw=None, real_eng=None):
+def generate(n, seed=0, val_frac=0.1, max_tries=50, real_ssw=None, real_eng=None, p_native=None):
+    global P_NATIVE
+    if p_native is not None: P_NATIVE = p_native
     rng = random.Random(seed)
     cl, ec = split_clauses(CLAUSES, rng, val_frac), split_clauses(L.ESHORT + L.ECLAUSES, rng, val_frac)
     ec = {k: [e for e in v for _ in range(3 if e in L.ESHORT else 1)] for k, v in ec.items()}   # weight short segments 3:1, AFTER the split

@@ -4,6 +4,7 @@ TEST	CD4 count	5/6	0	0	0	0	0	0	0	0	0	0
 TEST	HIV test	5/6	0	0	0	0	0	0	0	0	0	0
 TEST	TB test	5/6	0	0	0	0	0	0	0	0	0	0
 REL	after lunch	bare	0	0	0	0	0	0	0	0	0	0
+VEH	ambulance	bare	0	0	0	0	0	0	0	0	0	0
 COND	anaemia	bare	0	0	0	0	0	0	0	0	0	0
 DRUG	antibiotic	5/6	4	2	2	0	0	0	0	0	0	0
 APPT	appointment	5/6	0	0	0	0	0	0	0	0	0	0
@@ -12,6 +13,7 @@ COND	asthma	bare	0	0	0	0	0	0	3	0	0	0
 SYMP	back pain	bare	0	0	0	0	0	0	0	0	0	0
 TEST	blood test	5/6	0	0	0	0	0	0	0	0	0	0
 MISC	booking	5/6	0	0	0	0	0	0	0	0	0	0
+VEH	bus	bare	5	3	0	0	0	0	0	0	0	0
 SYMP	chest pain	bare	0	0	0	0	0	0	0	0	0	0
 PLACE	clinic	5/6	0	0	0	0	0	0	0	0	0	0
 ITEM	clinic card	5/6	0	0	0	0	0	0	0	0	0	0
@@ -37,8 +39,8 @@ STAFF	lab technician	1a/2a	0	0	0	0	0	0	0	0	0	0
 PLACE	laboratory	5/6	1	0	0	0	0	0	0	0	0	0
 RESULT	low	bare	6	4	0	0	0	0	0	0	0	2
 COND	malaria	bare	1	0	0	0	0	0	0	0	0	0
-ITEM	medication	9/10	1	0	0	0	0	0	0	0	0	0
-ITEM	medicine	9/10	8	0	0	0	4	0	0	0	0	0
+ITEM	medication	5/6	1	0	0	0	0	0	0	0	0	0
+ITEM	medicine	5/6	8	0	0	0	4	0	0	0	0	0
 MISC	message	5/6	0	0	0	0	0	0	0	0	0	0
 SYMP	nausea	bare	0	0	0	0	0	0	0	0	0	0
 RESULT	negative	bare	0	0	0	0	0	0	0	0	0	0
@@ -59,7 +61,7 @@ SYMP	rash	bare	0	0	0	0	0	0	0	0	0	0
 ITEM	referral letter	5/6	0	0	0	0	0	0	0	0	0	0
 MISC	refill	5/6	0	0	0	0	0	0	0	0	0	0
 RES	result	5/6	2	0	0	0	0	0	0	0	0	0
-TEST	scan	9/10	54	0	0	0	0	0	0	0	0	0
+TEST	scan	5/6	54	0	0	0	0	0	0	0	0	0
 ITEM	sick note	5/6	0	0	0	0	0	0	0	0	0	0
 RES	side effect	5/6	0	0	0	0	0	0	0	0	0	0
 TEST	sugar test	5/6	0	0	0	0	0	0	0	0	0	0
@@ -67,8 +69,8 @@ DRUG	tablet	5/6	0	0	0	0	1	0	0	0	0	0
 MISC	taxi	5/6	4	0	0	0	0	0	0	0	0	0
 REL	this week	bare	0	0	0	0	0	0	0	0	0	0
 REL	tomorrow morning	bare	0	0	0	0	0	0	0	0	0	0
-MISC	transport	9/10	3	0	0	0	0	0	0	0	0	0
-ITEM	treatment	9/10	5	0	0	0	0	0	0	0	0	0
+MISC	transport	5/6	3	0	0	0	0	0	0	0	0	0
+ITEM	treatment	5/6	5	0	0	0	0	0	0	0	0	0
 COND	tuberculosis	bare	2	1	0	0	0	0	0	0	0	0
 RESULT	undetectable	bare	0	0	0	0	0	0	0	0	0	0
 TEST	urine test	5/6	0	0	0	0	0	0	0	0	0	0

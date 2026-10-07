@@ -24,6 +24,19 @@ Train/val are split by clause / source sentence, so nothing in val appears in tr
   *balanced* by construction (equal English and Bantu), so its English share overstates natural speech.
 - `mono_ssw` / `mono_eng` utterances are real short sentences from the CC BY 4.0 corpora (formal register).
 
+## Respelling and real-sentence swaps
+- **Nativised forms** (`lexicon.NATIVISED`, probability `P_NATIVE`=0.5): for doctor/hospital/condom/cancel the real text overwhelmingly prefers the
+  siSwati-spelled loan (`dokotela` 281 vs `doctors` 2; `esibhedlela`/`sibhedlela`/`tibhedlela` 545 vs `hospital` 12). Evidence in
+  `data/synth_text/native_evidence.tsv`. Written text is formal; spoken clinic speech likely uses more English, hence 0.5, not 1.0.
+  `scripts/mine_respell.py` -> `data/synth_text/respell_pairs.tsv` mines 138 further nativised pairs (English word <-> aligned siSwati form) from the
+  aligned corpus, but they are mostly government terms and place names and include errors: **candidates for review, not used by the generator**.
+- **Real-sentence swaps** (`realswitch.py` -> `data/synth_text/real_swaps.jsonl`, 984 sentences, 109 distinct nouns): a real siSwati sentence, one noun
+  replaced by English when (a) the Autshumato dictionary (CC BY 2.5 ZA) maps that siSwati noun to exactly one English word and (b) that word is
+  in the aligned English sentence at a similar relative position. Concords are untouched (the writer's own); the English noun takes the replaced
+  noun's prefix (`i-`, `ema-`, `bo-`). Ambiguous classes (`um-`, `imi-`, `si-`, `tin-`) are skipped. Limits: formal government register, mostly
+  singular `i-` nouns (973 of 984), dictionary sense errors still slip through (e.g. check `real_swaps.jsonl` `swapped` column), and real speakers
+  do not necessarily switch on nouns like "policy" or "waste". Use as extra siSwati-side realism, not as a model of switching behaviour.
+
 ## Licence note: soap-opera corpus
 SADiLaR record `20.500.12185/545` carries only `Research only.` (the bundled license.txt is the depositor's grant to SADiLaR, not user
 terms). Use is therefore limited to research; do not release weights or a product trained on it without written permission from the

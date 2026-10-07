@@ -1,121 +1,121 @@
 id	switch_type	tagged	correct_text	notes
-cst000550	mono_ssw	sibhalwe ngelulwimi lolwamukelekile lolukhomba inhlonipho		
-cst002331	dm_initial	[[so]] ngicela ungiphe i-[[identity card]] lelisha		
-cst000258	mono_ssw	ubuketa ngci mabuta nesibabato		
-cst001044	tag	[[doctor]] utsite ngibuye [[this week hey]]		
-cst000482	eng_first	[[thank you]] ngiyakhumbula kutsatsa ema-[[tablets]] ami		
-cst002029	mono_ssw	sicelo sekwamukelwa ekhaya lalabadzela labaluphele		
-cst001841	insertion	kunayo [[nurse]] lapha ku-[[clinic]] lamuhla		
-cst001934	insertion	i-[[HIV test]] litawentiwa ngeMsombuluko		
-cst002668	conj_inter	ngicela ungiphe i-[[sick note]] lelisha [[because nurse]] utsite ngibuye [[after lunch]]		
-cst001554	mono_ssw	lomunye uyawutsatsa sewucatseka ngawo lengati iyavaleka		
-cst000859	eng_first	[[I know]] ngitsatsa ema-[[antibiotics]] ebusuku nakusihlwa		
-cst000384	conj_inter	ngicela u-[[confirm]] kahle ngobe angiva [[but]] sitawuhlangana ngelisontfo emva kwe-[[phone]]		
-cst001998	dm_initial	[[no]] ngitsenge i-[[sick note]] lami kuphela		
-cst000116	mono_eng	[[the cats chase the mice]]		
-cst001596	insertion	kunayo [[pharmacist]] lapha ku-[[pharmacy]] lamuhla		
-cst001772	mono_ssw	kutibandzakanya kwemmango eluhlelweni lwentsandvo yelinyenti		
-cst002488	mono_eng	[[f the financial and fiscal commission]]		
+cst000550	insertion	i-[[appointment]] lami lifika ngelisontfo		
+cst002331	tag	umnakwetfu utsatsa ema-[[tablets]] njalo emini [[you know]]		
+cst000258	multi	[[doctor]] utsite ngitsatse leli [[appointment card]] kabili ngelilanga [[or]] nesi utsite ngitsatse leli [[treatment]] kabili ngelilanga [[okay]]		
+cst001044	mono_ssw	bona abuye atisebentise titfo tenkhulumo		
+cst000482	alternational	ngisebenta ku-[[clinic]] ebusuku [[or I took my pills this morning]]		
+cst002029	conj_inter	kunayo [[lab technician]] lapha ku-[[hospital]] lamuhla [[or]] babe wami une [[headache]] kusukela lamuhla		
+cst001841	conj_inter	ngitfole ema-[[side effects]] ami emini [[but]] i-[[scan]] lami libe [[normal]] nyalo		
+cst001934	mono_ssw	kulalelela kuvisisa sebentisa inkhulumomphendvulwano lecoshiwe		
+cst002668	multi	ngiphume ku-[[hospital]] emva kwe-[[viral load but]] ngifike nge-[[ambulance]] ebusuku [[sure]]		
+cst001554	mono_ssw	kususa bantfu endzaweni ngalokungafanele kukunye nobe ngetulu kwalokungakavumeleki		
+cst000859	mono_ssw	letehlukene hle angasebentisi nakancane		
+cst000384	tag	ngitsatsa i-[[identity card]] lami ngesikhatsi sonkhe [[hey]]		
+cst001998	conj_inter	ngicela u-[[submit]] kahle ngobe angiva [[and]] dokotela utsite ngibuye [[next week]]		
+cst000116	multi	angitfolanga i-[[medicine]] lami ku-[[pharmacy and then]] i-[[blood test]] ibonisa kutsi une [[tuberculosis sure]]		
+cst001596	insertion	ngikhohliwe kutsatsa ema-[[painkillers]] ami emini		
+cst001772	multi	ngiyafuna kukhansela i-[[appointment]] ye-[[after lunch and then]] sitawuhlangana ngelesitsatfu emva kwe-[[refill sure]]		
+cst002488	insertion	sitawuhlangana ngeMsombuluko emva kwe-[[phone]]		
 cst000008	multi	[[pharmacist]] utsite ngitsatse leli [[prescription]] kabili ngelilanga [[and then]] lamuhla ngitawuya ku-[[health centre right]]		
-cst002850	insertion	[[counsellor]] utsite ngibuye [[after lunch]]		
-cst001824	insertion	umntfwana wami une [[diabetes]]		
-cst001090	alternational	sitawuhlangana ngeMgcibelo emva kwe-[[queue and then thank you]]		
-cst002955	mono_ssw	kukhomba kutfutfuka nekuvisisa sakhiwo nekusetjentiswa		
-cst000937	dm_initial	[[why]] sicela ulete i-[[prescription]] lakho nawuta ku-[[laboratory]]		
-cst002421	mono_ssw	ukucele kutsi umbhalele iflaya yekumkhangisa emmangweni		
-cst000418	dm_initial	[[if]] ngicela u-[[cancel]] kahle ngobe angiva		
-cst001300	mono_ssw	bakhetsa ifleshikhadi lenacalandze kulabanye bobunjwa		
-cst000125	insertion	ebusuku ngitawuya ku-[[clinic]]		
+cst002850	mono_ssw	siyakubona kungaba khona kwebulungiswa esikhatsini lesengcile		
+cst001824	dm_initial	[[but]] ngisebenta ku-[[health centre]] kusasa		
+cst001090	mono_ssw	lelitiko letemanti lisungula luhlakamsebenti lekuniketwa kwelusitoncanti letekutfutswa kwemangcoliso mahhala		
+cst002955	mono_ssw	ulunywa yini lapha ekhaya		
+cst000937	conj_inter	ngilethe i-[[referral letter]] ne-[[prescription or]] ngiva buhlungu ngine [[diarrhoea]] inyanga		
+cst002421	eng_first	[[no problem]] sidzinga i-[[prescription]] lelisha izolo		
+cst000418	multi	umntfwana wami une [[malaria or]] ngitsatsa i-[[medicine]] lami ngesikhatsi sonkhe [[okay]]		
+cst001300	insertion	sidzinga i-[[medication]] lelisha ekuseni		
+cst000125	alternational	izolo ngitawuya ku-[[laboratory so I lost my clinic card]]		
 cst000091	mono_ssw	kuphatfwa kwembuso nemibutfo yetekuphepha tichibiyelo etigabeni temtsetfosisekelo lomdzala		
-cst000104	dm_initial	[[and]] angitfolanga i-[[clinic card]] lami ku-[[hospital]]		
-cst002660	multi	babe wami ukhale [[rash]] emini [[but]] ngiyacela ungibhalele i-[[referral letter hey]]		
-cst002217	alternational	ngisebente ne-[[pharmacist]] lamuhla [[because not now]]		
-cst000037	dm_initial	[[no]] izolo ngitawuya ku-[[health centre]]		
-cst001561	conj_inter	sitawuhlangana ngelesitsatfu emva kwe-[[queue or]] le mali ye-[[queue]] iyabiza kakhulu		
-cst002811	multi	sitawuhlangana ngelesihlanu emva kwe-[[form and then]] ngiyakhumbula kutsatsa ema-[[painkillers]] ami [[hey]]		
-cst000887	insertion	kufanele ugcine i-[[sick note]] lakho		
-cst001728	dm_initial	[[but]] umntfwana wami udzinga i-[[medication]] lelisha		
-cst002973	tag	kufanele ugcine i-[[treatment]] lakho [[you know]]		
-cst000118	insertion	kusasa ngitawuya ku-[[clinic]]		
-cst002161	dm_initial	[[please]] ngitfole ema-[[side effects]] ami emini		
-cst000908	eng_first	[[it is okay]] indvodzana yami une [[diabetes]]		
-cst001793	dm_initial	[[well]] le mali ye-[[queue]] iyabiza kakhulu		
-cst002030	multi	ngitsatsa ema-[[painkillers]] ebusuku nakusihlwa [[or]] ngicela ungiphe i-[[lab form]] lelisha [[okay]]		
-cst002264	multi	indvodzana yami utsatsa ema-[[pills]] njalo ekuseni [[and then]] kunayo [[nurse]] lapha ku-[[clinic]] lamuhla [[hey]]		
-cst000954	multi	ngiyakhumbula kutsatsa ema-[[antibiotics]] ami [[because]] ngicela u-[[check]] kahle ngobe angiva [[okay]]		
-cst001415	multi	[[lab technician]] ucele kutsi ngente i-[[urine test so]] i-[[appointment]] lami lifika ngelesibili [[hey]]		
-cst000945	multi	ema-[[condoms]] ami alungile yini [[and]] umnakwetfu ukhale [[fever]] ebusuku [[sure]]		
-cst002772	dm_initial	[[well]] ngicela u-[[confirm]] kahle ngobe angiva		
-cst000896	mono_eng	[[read and follow the label directions every time]]		
-cst001882	dm_initial	[[so]] ngicela u-[[refill]] leli [[treatment]]		
-cst001186	conj_inter	ngilethe i-[[sick note]] ne-[[prescription so]] le mali ye-[[message]] iyabiza kakhulu		
-cst000088	insertion	ngelula ku-[[health centre]] lamuhla		
-cst001704	insertion	ngiva buhlungu ngine [[high blood pressure]] emaviki lamatsatfu		
-cst002279	insertion	ngitsenge i-[[sick note]] lami kuphela		
-cst002630	insertion	ngifike nge-[[ambulance]] izolo		
-cst000409	mono_eng	[[stamp and signature commissioner]]		
-cst000761	tag	sitawuhlangana ngelesine emva kwe-[[transport right]]		
-cst002577	mono_ssw	khombisa kucikelela lokutfutfuke ngemalengiso		
-cst002964	mono_ssw	tintfo letiphatsekako sib tibali		
-cst001214	insertion	ngicela u-[[check]] kahle ngobe angiva		
-cst000495	mono_ssw	imilayeto leshiywe emishinini wekushiya umlayeto		
-cst001362	mono_ssw	seminyaka lemitsatfu sahamba lesigebengu sakhe		
-cst002913	eng_first	[[it is fine]] sicela ulete i-[[prescription]] lakho nawuta ku-[[pharmacy]]		
-cst002051	insertion	ngikhohliwe kutsatsa ema-[[ARVs]] ami ekuseni		
-cst002079	eng_first	[[of course]] ngitsatsa i-[[prescription]] lami ngesikhatsi sonkhe		
-cst002745	insertion	sidzinga i-[[lab form]] lelisha kusasa		
-cst000777	insertion	ngilethe i-[[treatment]] ne-[[treatment]]		
-cst001242	insertion	ngitfole ema-[[condoms]] ami lamuhla		
-cst001163	conj_inter	umkami ukhale [[chest pain]] izolo [[and then]] ngitfole ema-[[results]] ami kusasa		
-cst002406	tag	ngicela u-[[collect]] i-[[CD4 count]] lami [[you know]]		
-cst002045	tag	ngitfole ema-[[results]] ami izolo [[okay]]		
-cst002069	mono_ssw	ngusiphi sakhiwo lesifisha kakhulu		
-cst001611	multi	kunayo [[doctor]] lapha ku-[[health centre]] lamuhla [[or]] i-[[appointment]] lami lifika ngeMgcibelo [[okay]]		
-cst002412	mono_ssw	kuchumana emkhatsini wencwadzi lehambisana nencwadzisicelo kanye nemlandvomphilo		
-cst000141	multi	i-[[blood test]] ibonisa kutsi une [[anaemia so]] ngelula ku-[[hospital]] ekuseni [[right]]		
-cst001967	conj_inter	umntfwana wami udzinga i-[[referral letter]] lelisha [[but]] make wami ukhale [[chest pain]] ebusuku		
-cst000994	insertion	ngiyacela ungibhalele i-[[prescription]]		
-cst001655	mono_ssw	kubona ngemehlo engcondvo tindlela		
-cst001697	alternational	ngicela u-[[collect]] leli [[treatment so thank you]]		
-cst002722	eng_first	[[I know]] ngifuna kubona [[lab technician]] ngelesine		
-cst000708	conj_inter	kufanele ugcine i-[[prescription]] lakho [[because]] ngicela ungiphe i-[[prescription]] lelisha		
-cst001503	insertion	ngitsenge ema-[[antibiotics]] ku-[[health centre]]		
-cst002247	insertion	ngitsatsa ema-[[painkillers]] ekuseni nakusihlwa		
-cst002879	conj_inter	[[lab technician]] ucele kutsi ngente i-[[x-ray and then]] ngiyafuna ku-[[cancel]] i-[[appointment]] ye-[[after lunch]]		
-cst002762	mono_ssw	kufute usebentise lusebe lwemgwaco iphevumenti nakukhonakala		
-cst001534	tag	babe wami utsatsa ema-[[antibiotics]] njalo lamuhla [[okay]]		
-cst000354	dm_initial	[[why]] umkami une [[high blood pressure]] kusukela ebusuku		
-cst001797	mono_eng	[[concrete and abstract nouns]]		
-cst002718	tag	indvodzana yami utsatsa ema-[[antibiotics]] njalo ebusuku [[hey]]		
-cst002082	mono_ssw	loku kukhombisa ngalokusebaleni kutsi ligama lesintfu libaluleke kundlula sibongo		
-cst000442	insertion	ngicela u-[[phone]] leli [[identity card]]		
-cst000670	dm_initial	[[if]] ngilethe i-[[clinic card]] ne-[[medication]]		
-cst002133	mono_ssw	ufundza lakutfole nakahlatiya incwadzi		
-cst001610	insertion	ngicela u-[[phone]] leli [[sick note]]		
-cst001517	mono_ssw	chief directorate consular services kulitiko letindzaba tangaphandle epitoli		
-cst002005	multi	ngiva buhlungu ngine [[chest pain]] emalanga lamatsatfu [[and]] kufanele ugcine i-[[treatment]] lakho [[you know]]		
-cst000121	tag	[[doctor]] utsite ngitsatse leli [[prescription]] kabili ngelilanga [[hey]]		
-cst001922	insertion	ngikhohliwe kutsatsa ema-[[ARVs]] ami izolo		
-cst000178	alternational	ngelula ku-[[laboratory]] ebusuku [[so I lost my clinic card]]		
-cst001263	insertion	kufanele ugcine i-[[clinic card]] lakho		
-cst002881	conj_inter	ngitsenge i-[[lab form]] lami kuphela [[because]] ngiphume ku-[[pharmacy]] emva kwe-[[HIV test]]		
-cst002518	mono_ssw	kuvama kutsi ibhekise kumuntfu lotsite nome kulabasecenjini		
-cst002429	mono_ssw	kuhlela indzaba usebentisa luhlaka mcondvo		
-cst002368	insertion	ngitsatsa i-[[appointment card]] lami ngesikhatsi sonkhe		
-cst001612	insertion	ngisebenta ku-[[clinic]] ngingu-[[counsellor]]		
-cst002650	dm_initial	[[so]] umntfwana wami une [[hypertension]]		
-cst000697	tag	le mali ye-[[message]] iyabiza kakhulu [[sure]]		
-cst000690	mono_ssw	nebucwepheshe bekwenta tinhlaka twekucala		
-cst002057	conj_inter	i-[[x-ray]] litawentiwa ngeMsombuluko [[but]] ngitsatsa i-[[identity card]] lami ngesikhatsi sonkhe		
-cst000929	dm_initial	[[but]] ngisebente ne-[[lab technician]] lamuhla		
-cst000050	tag	izolo ngitawuya ku-[[hospital okay]]		
-cst000817	conj_inter	[[doctor]] utsite ngibuye [[next week so doctor]] utsite ngibuye [[next week]]		
-cst002210	multi	sitawuhlangana ngelesihlanu emva kwe-[[booking because]] sidzinga i-[[prescription]] lelisha ebusuku [[right]]		
-cst002245	mono_ssw	vuka lazulu kwabani kugandvwa yindvodza ' kusho lasiwela		
-cst000950	conj_inter	ngisebenta ku-[[hospital]] ngingu-[[doctor and then]] ngilethe i-[[medicine]] ne-[[medication]]		
-cst001656	mono_ssw	sikhatsi santsambama usisebentise lapha ncongwane kusivetela lendzaba yekubulawa kwagugu		
-cst002104	tag	kunayo [[doctor]] lapha ku-[[clinic]] lamuhla [[you know]]		
-cst001408	dm_initial	[[right]] kunayo [[nurse]] lapha ku-[[health centre]] lamuhla		
-cst002366	tag	ngiphatsa kabi ngobe nginesifo se-[[diabetes sure]]		
-cst001447	multi	ngikhohliwe kutsatsa ema-[[ARVs]] ami lamuhla [[and then]] i-[[queue]] libekade linde kusasa [[you know]]		
-cst001880	mono_ssw	sita lenyoni itfole sidleke sayo		
+cst000104	conj_inter	emini ngitawuya ku-[[laboratory and lab technician]] utsite ngitsatse leli [[prescription]] kabili ngelilanga		
+cst002660	dm_initial	[[if]] ngisebente ne-[[lab technician]] lamuhla		
+cst002217	multi	ngicela ungiphe i-[[medicine]] lelisha [[so]] ngitsenge i-[[clinic card]] lami kuphela [[sure]]		
+cst000037	alternational	ngelula ku-[[laboratory]] ekuseni [[I will call you tomorrow]]		
+cst001561	mono_ssw	nguyiphi ibhaluni lenelucu loludzekati		
+cst002811	dm_initial	[[please]] ngiyafuna ku-[[phone]] i-[[appointment]] ye-[[tomorrow morning]]		
+cst000887	insertion	dokotela ucele kutsi ngente i-[[sugar test]]		
+cst001728	insertion	indvodzana yami une [[epilepsy]]		
+cst002973	alternational	ngilethe i-[[clinic card]] ne-[[medicine and it is okay]]		
+cst000118	dm_initial	[[actually]] angitfolanga i-[[lab form]] lami esibhedlela		
+cst002161	mono_eng	[[application for a medical treatment work permit]]		
+cst000908	multi	ngiyakhumbula kutsatsa ema-[[antibiotics]] ami [[because]] ngicela u-[[check]] kahle ngobe angiva [[okay]]		
+cst001793	mono_ssw	bantfu lababoshiwe labavalelwe kanye nalabatfweswe emacala		
+cst002030	eng_first	[[I need to see the doctor]] i-[[sugar test]] litawentiwa ngeMsombuluko		
+cst002264	multi	ngicela ungiphe i-[[identity card]] lelisha [[or]] ngisebenta ku-[[pharmacy]] kusasa [[sure]]		
+cst000954	tag	sicela ulete i-[[appointment card]] lakho nawuta ku-[[health centre right]]		
+cst001415	insertion	i-[[appointment]] lami lifika ngeMgcibelo		
+cst000945	insertion	ngitsenge ema-[[pills]] ku-[[health centre]]		
+cst002772	insertion	ngicela u-[[confirm]] leli [[sick note]]		
+cst000896	mono_ssw	cela umntfwana wakho kutsi akusite kuhlela imphahla leyowashwa		
+cst001882	conj_inter	i-[[appointment]] lami lifika ngeMsombuluko [[because]] kufanele ugcine i-[[identity card]] lakho		
+cst001186	alternational	sicela ulete i-[[referral letter]] lakho nawuta ku-[[health centre or I am sorry]]		
+cst000088	mono_eng	[[write down three things that describe the jabberwock]]		
+cst001704	insertion	ngiphume ku-[[pharmacy]] emva kwe-[[TB test]]		
+cst002279	alternational	ngifuna kubona [[lab technician]] ngeMgcibelo [[or the nurse is not here]]		
+cst002630	conj_inter	sicela ulete i-[[prescription]] lakho nawuta esibhedlela [[and]] ngiphatsa kabi ngobe nginesifo se-[[asthma]]		
+cst000409	insertion	ngitsatsa ema-[[painkillers]] ebusuku nakusihlwa		
+cst000761	alternational	ngitsenge i-[[lab form]] lami kuphela [[and I know]]		
+cst002577	mono_ssw	ulalela itheksthi lengemaciniso abuye aphendvule ngemlomo imibuto yekuvisisa		
+cst002964	conj_inter	umnakwetfu une [[anaemia because]] ngifuna kubona [[counsellor]] ngelisontfo		
+cst001214	dm_initial	[[sure]] umntfwana wami udzinga i-[[referral letter]] lelisha		
+cst000495	multi	i-[[CD4 count]] litawentiwa ngelesibili [[or]] sitawuhlangana ngelesibili emva kwe-[[booking you know]]		
+cst001362	mono_ssw	khokha umusho loneluvelomgama lolukhomba kutfukutsela kulesicephu lesingenhla uwubhale phasi		
+cst002913	tag	ngisebenta ku-[[clinic]] lamuhla [[right]]		
+cst002051	dm_initial	[[please]] ngitfole ema-[[side effects]] ami ebusuku		
+cst002079	insertion	ngifuna kubona [[counsellor]] ngelisontfo		
+cst002745	insertion	ngitsatsa ema-[[ARVs]] ebusuku nakusihlwa		
+cst000777	tag	ngiphume ku-[[laboratory]] emva kwe-[[sugar test sure]]		
+cst001242	tag	le mali ye-[[queue]] iyabiza kakhulu [[sure]]		
+cst001163	insertion	sitawuhlangana ngelesihlanu emva kwe-[[refill]]		
+cst002406	conj_inter	ngitsenge ema-[[painkillers]] ku-[[laboratory or]] indvodzana yami utsatsa ema-[[painkillers]] njalo lamuhla		
+cst002045	insertion	ngiva buhlungu ngine [[dizziness]] emalanga lamabili		
+cst002069	insertion	[[doctor]] ubhale i-[[referral letter]] lelisha		
+cst001611	eng_first	[[they said I must come back]] kufanele ugcine i-[[prescription]] lakho		
+cst002412	eng_first	[[it is okay]] sitawuhlangana ngelesine emva kwe-[[phone]]		
+cst000141	dm_initial	[[look]] angitfolanga i-[[prescription]] lami ku-[[hospital]]		
+cst001967	conj_inter	ngicela ungiphe i-[[medication]] lelisha [[and then counsellor]] utsite ngibuye [[tomorrow morning]]		
+cst000994	insertion	ngicela u-[[submit]] leli [[prescription]]		
+cst001655	conj_inter	ngiyafuna ku-[[confirm]] i-[[appointment]] ye-[[next week and then]] ngitsatsa i-[[lab form]] lami ngesikhatsi sonkhe		
+cst001697	mono_ssw	onkhe lalatala bantfu mine ngiwekudliwa yintfonga		
+cst002722	dm_initial	[[and]] ngicela u-[[cancel]] leli [[identity card]]		
+cst000708	dm_initial	[[sorry]] ngifuna kubona [[lab technician]] ngelesihlanu		
+cst001503	insertion	i-[[CD4 count]] litawentiwa ngelesibili		
+cst002247	conj_inter	i-[[scan]] lami libe [[negative]] nyalo [[and]] babe wami une [[tuberculosis]]		
+cst002879	alternational	ngiyakhumbula kutsatsa ema-[[pills]] ami [[because I understand]]		
+cst002762	insertion	sidzinga i-[[sick note]] lelisha kusasa		
+cst001534	multi	ngifuna kubona [[doctor]] ngeMgcibelo [[or nurse]] utsite ngibuye [[next week you know]]		
+cst000354	multi	babe wami une [[malaria or counsellor]] ubhale i-[[sick note]] lelisha [[you know]]		
+cst001797	multi	ngiyakhumbula kutsatsa ema-[[painkillers]] ami [[or]] ngisebente ne-[[counsellor]] lamuhla [[you know]]		
+cst002718	tag	ngicela u-[[confirm]] leli [[clinic card hey]]		
+cst002082	mono_eng	[[adapt activities for disabled learners]]		
+cst000442	insertion	[[pharmacist]] ucele kutsi ngente i-[[urine test]]		
+cst000670	mono_eng	[[prof himla soodyall reappointment k]]		
+cst002133	multi	ngifuna kubona dokotela ngeMsombuluko [[so]] ngitfole ema-[[side effects]] ami ekuseni [[sure]]		
+cst001610	conj_inter	ngicela u-[[collect]] leli [[sick note so]] kufanele udle kahle ngaphambi kwekutsatsa ema-[[painkillers]]		
+cst001517	tag	ngisebente ne-dokotela lamuhla [[sure]]		
+cst002005	dm_initial	[[listen]] ngicela u-[[check]] leli [[appointment card]]		
+cst000121	mono_eng	[[this should not include miscarriages stillbirths and adopted children]]		
+cst001922	mono_ssw	kutakusita ngekukhetsa esikhatsini lesitako nekukhetsa kwakho		
+cst000178	dm_initial	[[okay pharmacist]] utsite ngitsatse leli [[clinic card]] kabili ngelilanga		
+cst001263	alternational	ngitsenge i-[[clinic card]] lami kuphela [[because of course]]		
+cst002881	tag	ngiyafuna ku-[[explain]] i-[[appointment]] ye-[[after lunch okay]]		
+cst002518	mono_ssw	ngabuka letindlu kanye nebantfu labebanyakata batentela tintfo tabo		
+cst002429	dm_initial	[[no]] ngitsenge i-[[medication]] lami kuphela		
+cst002368	conj_inter	ngiphatsa kabi ngobe nginesifo se-[[malaria and then]] ngiva buhlungu ngine [[rash]] emalanga lamabili		
+cst001612	conj_inter	ngitsenge i-[[lab form]] lami kuphela [[so]] i-[[appointment]] lami lifika ngeMgcibelo		
+cst002650	mono_ssw	lifomu lesicelo sekukhuselwa njengembaleki liyatfolakala kulitiko letasekhaya		
+cst000697	tag	i-[[pregnancy test]] lami libe [[low]] nyalo [[hey]]		
+cst000690	insertion	ngiva buhlungu ngine [[high blood pressure]] emaviki lamane		
+cst002057	multi	umnakwetfu ukhale [[headache]] ebusuku [[or]] sitawuhlangana ngelisontfo emva kwe-[[message you know]]		
+cst000929	alternational	babe wami ukhale [[high blood pressure]] izolo [[it is okay]]		
+cst000050	mono_ssw	tingaki timabuli letiluhlata sasibhakabhaka lanato nosisi		
+cst000817	alternational	ngitsenge ema-[[pills]] ku-[[health centre because just wait]]		
+cst002210	dm_initial	[[no]] ngiyacela ungibhalele i-[[sick note]]		
+cst002245	alternational	ngifike nge-[[taxi]] ebusuku [[or it is fine]]		
+cst000950	dm_initial	[[listen]] ngicela u-[[collect]] leli [[medicine]]		
+cst001656	dm_initial	[[but]] ngifuna kubona [[counsellor]] ngelesitsatfu		
+cst002104	dm_initial	[[sorry]] i-[[form]] libekade linde emini		
+cst001408	mono_ssw	emandla emmeli macondzana nemvume yekuhlala yesikhashana nobe lomphelo		
+cst002366	mono_ssw	kuhlela indzaba usebentisa luhlaka mcondvo		
+cst001447	insertion	ngikhohliwe kutsatsa ema-[[antibiotics]] ami ebusuku		
+cst001880	dm_initial	[[no]] i-[[transport]] libekade linde kusasa		

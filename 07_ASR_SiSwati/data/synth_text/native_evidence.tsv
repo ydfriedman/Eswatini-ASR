@@ -1,0 +1,10 @@
+english	form_type	nativised_form	count_nativised	count_english_any_form
+doctor	sg	dokotela	269	2
+doctor	pl	bodokotela	125	2
+nurse	sg	nesi	9	2
+condom	sg	ikhondomu	12	0
+condom	pl	emakhondomu	7	0
+hospital	sg	sibhedlela	42	6
+hospital	pl	tibhedlela	73	6
+hospital	loc	esibhedlela	214	6
+cancel	inf	kukhansela	39	1

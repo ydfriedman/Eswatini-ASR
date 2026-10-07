@@ -51,3 +51,15 @@ ECLAUSES = [
     "I will call you tomorrow", "it is not working", "I have a bad headache", "I need to see the doctor",
     "I lost my clinic card", "the nurse is not here",
 ]
+
+# Established nativised forms (siSwati-spelled loans) that written siSwati prefers over the English word. Counts are occurrences in the
+# SADiLaR siSwati text (2.2M tokens; formal register) - see ../data/synth_text/native_evidence.tsv. Spoken clinic speech probably uses
+# English more than written text does, so the generator uses these with probability P_NATIVE (textgen.py), not always.
+# sg/pl: noun forms; loc: locative ('at the X'); inf: infinitive. Missing key -> fall back to the English stem.
+NATIVISED = {
+    "doctor":   {"sg": "dokotela", "pl": "bodokotela"},                       # dokotela 281, bodokotela 152 vs 'doctors' 2
+    "nurse":    {"sg": "nesi"},                                              # nesi 9 vs nurse 2 (weak evidence)
+    "condom":   {"sg": "ikhondomu", "pl": "emakhondomu"},                     # 21 / 18 vs English 0
+    "hospital": {"sg": "sibhedlela", "pl": "tibhedlela", "loc": "esibhedlela"},   # 79 / 161 / 305 vs 'hospital' 12
+    "cancel":   {"inf": "kukhansela"},                                        # kukhansela 40, khansela 33 vs cancel 1
+}
