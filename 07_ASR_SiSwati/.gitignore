@@ -6,3 +6,4 @@ report/node_modules/
 
 # research-only soap-opera training manifest (contains transcripts)
 data/manifest_soapies_engzul.jsonl
+ft/runs/
