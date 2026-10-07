@@ -1,0 +1,62 @@
+{
+ "kept": 8953,
+ "dropped": {
+  "too_short": 414,
+  "digit_in_transcript": 4
+ },
+ "official_split": {
+  "train": {
+   "utts": 7964,
+   "hours": 4.76,
+   "speakers": 87,
+   "mixed_share": 0.349,
+   "english_word_share": 0.551
+  },
+  "dev": {
+   "utts": 224,
+   "hours": 0.13,
+   "speakers": 38,
+   "mixed_share": 0.996,
+   "english_word_share": 0.547
+  },
+  "test": {
+   "utts": 765,
+   "hours": 0.51,
+   "speakers": 17,
+   "mixed_share": 0.999,
+   "english_word_share": 0.442
+  },
+  "speaker_overlap_with_train": {
+   "dev": 38,
+   "test": 0
+  }
+ },
+ "speaker_disjoint_dev_split": {
+  "train": {
+   "utts": 7547,
+   "hours": 4.54,
+   "speakers": 79,
+   "mixed_share": 0.366,
+   "english_word_share": 0.551
+  },
+  "dev": {
+   "utts": 641,
+   "hours": 0.35,
+   "speakers": 8,
+   "mixed_share": 0.379,
+   "english_word_share": 0.549
+  },
+  "test": {
+   "utts": 765,
+   "hours": 0.51,
+   "speakers": 17,
+   "mixed_share": 0.999,
+   "english_word_share": 0.442
+  },
+  "speaker_overlap_with_train": {
+   "dev": 0,
+   "test": 0
+  }
+ },
+ "license": "research-only"
+}

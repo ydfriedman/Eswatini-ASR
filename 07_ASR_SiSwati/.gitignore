@@ -3,3 +3,6 @@ data/audio/
 data/raw/
 data/synth/
 report/node_modules/
+
+# research-only soap-opera training manifest (contains transcripts)
+data/manifest_soapies_engzul.jsonl

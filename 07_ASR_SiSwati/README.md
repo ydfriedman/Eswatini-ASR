@@ -101,3 +101,9 @@ Outputs are in `results/`:
 Environment: `.venv_asr` (Python 3.9, torch 2.8, transformers 4.57.6).
 
 Data licences: NCHLT (CC-BY 3.0), AfriSpeech-200 (CC-BY-NC-SA 4.0), SimbaBench / Simba models (CC-BY 4.0).
+
+## Round 3: code-switching fine-tune data (in progress)
+- `synth/` : morphotactic siSwati-English text generator (see `synth/README.md`).
+- `scripts/prep_soapies.py` : SADiLaR soap-opera English-isiZulu subset -> 16 kHz wavs + `data/manifest_soapies_engzul.jsonl` (**research-only
+  licence; audio and manifest are gitignored**). Aggregates in `data/soapies_engzul_summary.json`: 8,953 clips, ~5.4 h, official test = 17
+  speakers disjoint from train; `split_v2` gives a speaker-disjoint dev set whose mixed/English shares match the training data.
