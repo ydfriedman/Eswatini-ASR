@@ -26,7 +26,7 @@ Train/val are split by clause / source sentence, so nothing in val appears in tr
 
 ## Respelling and real-sentence swaps
 - **Nativised forms** (`lexicon.NATIVISED`, probability `P_NATIVE`=0.5): for doctor/hospital/condom/cancel the real text overwhelmingly prefers the
-  siSwati-spelled loan (`dokotela` 281 vs `doctors` 2; `esibhedlela`/`sibhedlela`/`tibhedlela` 545 vs `hospital` 12). Evidence in
+  siSwati-spelled loan (`dokotela` 269 vs English 2; `sibhedlela`/`tibhedlela`/`esibhedlela` 329 vs `hospital` 6). Evidence in
   `data/synth_text/native_evidence.tsv`. Written text is formal; spoken clinic speech likely uses more English, hence 0.5, not 1.0.
   `scripts/mine_respell.py` -> `data/synth_text/respell_pairs.tsv` mines 138 further nativised pairs (English word <-> aligned siSwati form) from the
   aligned corpus, but they are mostly government terms and place names and include errors: **candidates for review, not used by the generator**.

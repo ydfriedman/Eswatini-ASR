@@ -57,9 +57,9 @@ ECLAUSES = [
 # English more than written text does, so the generator uses these with probability P_NATIVE (textgen.py), not always.
 # sg/pl: noun forms; loc: locative ('at the X'); inf: infinitive. Missing key -> fall back to the English stem.
 NATIVISED = {
-    "doctor":   {"sg": "dokotela", "pl": "bodokotela"},                       # dokotela 281, bodokotela 152 vs 'doctors' 2
+    "doctor":   {"sg": "dokotela", "pl": "bodokotela"},                       # dokotela 269, bodokotela 125 vs English 2
     "nurse":    {"sg": "nesi"},                                              # nesi 9 vs nurse 2 (weak evidence)
-    "condom":   {"sg": "ikhondomu", "pl": "emakhondomu"},                     # 21 / 18 vs English 0
-    "hospital": {"sg": "sibhedlela", "pl": "tibhedlela", "loc": "esibhedlela"},   # 79 / 161 / 305 vs 'hospital' 12
-    "cancel":   {"inf": "kukhansela"},                                        # kukhansela 40, khansela 33 vs cancel 1
+    "condom":   {"sg": "ikhondomu", "pl": "emakhondomu"},                     # 12 / 7 vs English 0
+    "hospital": {"sg": "sibhedlela", "pl": "tibhedlela", "loc": "esibhedlela"},   # 42 / 73 / 214 vs English 6
+    "cancel":   {"inf": "kukhansela"},                                        # kukhansela 39 vs cancel 1
 }
