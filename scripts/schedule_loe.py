@@ -20,7 +20,7 @@ Usage: python3 scripts/schedule_loe.py LOE_TABLE.xlsx MILESTONE_MONTHS.xlsx OUTP
 import argparse, datetime, math
 from collections import defaultdict
 import openpyxl
-from openpyxl.styles import Alignment
+from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter as L
 from openpyxl.worksheet.table import Table, TableStyleInfo
 from ortools.sat.python import cp_model
@@ -122,10 +122,17 @@ def main(a):
 
     months = sorted({t for *_, t, _ in sched}); people = sorted({r[0] for r in sched})
     pm = wb.create_sheet("Person x Month")
-    pm.append(["Person"] + months + ["Total"])
+    pm.append(["Person"] + months + ["Total", "Peak month"])
     for c in range(2, len(months) + 2): pm.cell(1, c).number_format = "mmm-yy"
-    for i, p in enumerate(people, 2):
-        pm.append([p] + [f"=SUMIFS(Schedule!$E:$E,Schedule!$A:$A,$A{i},Schedule!$D:$D,{L(j)}$1)" for j in range(2, len(months) + 2)] + [f"=SUM(B{i}:{L(len(months)+1)}{i})"])
+    for p in people:  # static values (no formulas) so previews and viewers show numbers
+        row = [round(tot.get((p, t), 0), 2) for t in months]
+        pm.append([p] + row + [round(sum(row), 2), max(row)])
+    last = L(len(months) + 1)
+    from openpyxl.formatting.rule import CellIsRule, ColorScaleRule
+    rng = f"B2:{last}{pm.max_row}"
+    pm.conditional_formatting.add(rng, CellIsRule(operator="greaterThan", formula=[str(a.cap)], fill=PatternFill("solid", start_color="F4B6B6", end_color="F4B6B6"), font=Font(bold=True, color="9C0006")))
+    pm.conditional_formatting.add(rng, ColorScaleRule(start_type="num", start_value=0, start_color="FFFFFF", end_type="num", end_value=a.cap, end_color="9DC3E6"))
+    pm.cell(pm.max_row + 2, 1, f"Red = over the {a.cap}-day monthly cap. Blue shading scales from 0 to the cap.")
     pm.column_dimensions["A"].width = 28; pm.freeze_panes = "B2"
 
     ck = wb.create_sheet("Check")
