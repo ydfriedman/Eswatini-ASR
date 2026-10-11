@@ -41,7 +41,7 @@ def excel_rows(wpdir, overrides):
         cover = " ".join(str(c.value) for row in wb["Cover Page"].iter_rows() for c in row if c.value and "Month 1 =" in str(c.value))
         if m: anchor, basis = (2000 + int(m[2]), MONTHS_FROM_LABEL[m[1]]), "Gantt column headers carry calendar months"
         elif "Month 1 = October 2026" in notes + cover: anchor, basis = O26, "Sheet note: Month 1 = October 2026"
-        else: anchor, basis = S26, "ASSUMED: no calendar anchor in file; Sep-26 assumed (same template family / Sept 21 2026 start)"
+        else: anchor, basis = O26, "Month 1 = Oct-26 per user (file itself has no calendar anchor)"
         for r in range(hdr + 1, ws.max_row + 1):
             fill = ws.cell(r, idc).fill.fgColor.rgb
             a, t = ws.cell(r, idc).value, str(ws.cell(r, ttl).value or "")
@@ -56,12 +56,12 @@ def excel_rows(wpdir, overrides):
             if (country, code) in overrides:
                 months, note = overrides[(country, code)](anchor)
                 flags.append((country, code, "Gantt vs. Planned End / Workplan tab", note))
-            if anchor == S26 and basis.startswith("ASSUMED"):
+            if basis.startswith("Month 1 = Oct-26 per user"):
                 note = (note + " | " if note else "") + basis
             rows.append(dict(country=country, code=code, title=title.strip(), months=months,
                              typ="Mobilization (not in budget)" if re.match(r"^M[A-Z]{3}0$", code) else "Milestone",
                              source=f"{base} > tab {tab_no} 'Implementation Timeline' (Gantt)",
-                             conf="High" if not note else "Medium", note=note))
+                             conf="High" if not note.replace("Month 1 = Oct-26 per user (file itself has no calendar anchor)","").strip(" |") else "Medium", note=note))
     return rows, flags
 
 def nam08(anchor):
