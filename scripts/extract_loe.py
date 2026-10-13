@@ -32,7 +32,13 @@ EXCLUDE_NAME_PREFIXES = ("TBD",)                   # placeholder staff, dropped 
 SUBTOTAL_PREFIX = "SUBTOTAL"                       # subtotal row, never a person
 # Rows with a blank name cell whose position label contains one of these
 # strings are attributed to that person instead of being dropped.
-UNNAMED_ROW_OVERRIDES = {"Ogana, Nelson": "Ogana, Nelson"}
+UNNAMED_ROW_OVERRIDES = {
+    "Ogana, Nelson": "Ogana, Nelson",
+    # CORE budgets leave the name cell blank on these role rows; in every country budget the
+    # roles are held by these two people.
+    "Objective 1 Lead": "Odhiambo, Jacob",
+    "Objective 3 Lead": "Kasera, George",
+}
 
 
 def num(v):
