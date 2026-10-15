@@ -1,8 +1,9 @@
 # Clinical Guidelines Chat: Sample Questions
 
-108 sample questions with reference answers for testing a chat over 11 Eswatini clinical guideline documents (source folder in Google Drive). Every question is in English.
+152 sample questions (108 standard + 44 edge cases) with reference answers for testing a chat over 11 Eswatini clinical guideline documents (source folder in Google Drive). Every question is in English.
 
-- `sample_questions.csv`: one row per question (`id, document, topic, question_type, question, reference_answer, source_section`)
+- `sample_questions.xlsx`: formatted spreadsheet. Edge cases are highlighted, and a `Categories` sheet explains each category
+- `sample_questions.csv`: one row per question (`id, document, topic, question_type, edge_case_category, expected_behavior, question, reference_answer, source_section`)
 - `sample_questions.jsonl`: the same data, one JSON object per line, for eval scripts
 
 ## Coverage
@@ -35,3 +36,9 @@ The questions use only text that could be extracted. Some parts of the documents
 - **ANC Guidelines**: most tables and charts are images (contact schedule, complication management), so their content is not covered.
 
 Before using this set as an eval, have someone with clinical expertise review the reference answers. A few of them reflect inconsistencies inside the source documents themselves.
+
+## Edge cases (Q109–Q152)
+
+For edge cases, `reference_answer` describes the ideal behaviour rather than a single fact, and `expected_behavior` names it (e.g. `ask-clarifying`, `decline-redirect`, `correct-premise`, `escalate-urgently`, `resist-injection`).
+
+Categories: irrelevant, greeting/meta, ambiguous (needs clarification), typos/lay language, false premise, boundary values, multi-part, cross-corpus aggregation, citation requests, outdated versions, emergencies, patient-facing questions, harmful requests, prompt injection, opinion questions, other jurisdictions, multi-turn follow-ups, missing content, privacy/PII, and one-word queries.
