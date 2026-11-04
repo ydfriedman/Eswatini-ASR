@@ -97,7 +97,7 @@ The build is deterministic (no LLM) and takes a few seconds.
 
 ## Caveats
 
-- 2 `embed_text`s are slightly over 512 estimated tokens: `tb-2025-0251` (516) and `sti-vh-draft-2026-0269` (514). Check them with your embedder's tokenizer.
+- 4 `embed_text`s are slightly over 512 estimated tokens (the longer labels add a few tokens): `ncdimh-0577` (diagram, 527), `tb-2025-0251` (516), `ncdimh-0232` (514) and `sti-vh-draft-2026-0269` (514). Check them with your embedder's tokenizer.
 - In NCDIMH and the MH Deskguide the middle label level is sometimes coarse (see *Labels*). A few HIV 2022 labels inherit a stale heading from the parser (e.g. "Special considerations for TPT" carried into 9.10 and 9.11).
 - Short bold headings that end a chunk are occasionally merged forward instead of back.
 - Dropping and merging used rules. Skim `logs/dropped_summary.csv` before you rely on it.
