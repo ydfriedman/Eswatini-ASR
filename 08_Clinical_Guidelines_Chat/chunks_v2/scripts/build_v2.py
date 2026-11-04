@@ -22,9 +22,10 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from fix_headings import rebuild, FRONT, clean_part  # noqa: E402
+from fix_headings import rebuild, FRONT, clean_part, tidy_case  # noqa: E402
 from fix_tables import fix_text, VERIFIED_HV  # noqa: E402
 from sti_headings import sti_paths  # noqa: E402
+from toc_headings import toc_paths  # noqa: E402
 
 STI = 'sti-vh-draft-2026'
 BACK = re.compile(r'^(references?|bibliography|document change history)$', re.I)
@@ -97,6 +98,10 @@ def classify_drop(c, path):
         return 'contents page'
     if toc_table(c['text']):
         return 'contents page'
+    lines = [l for l in c['text'].split('\n') if l.strip()]
+    paged = [l for l in lines if re.search(r'[A-Za-z]{3}.*\s\d{1,3}\s*$', l) and '|' not in l]
+    if c['page_start'] <= 15 and len(paged) >= 5 and len(paged) >= 0.6 * len(lines):
+        return 'contents page'           # plain-text contents page: 'Diagnosis of Hypertension 82'
     if len(re.findall(r'(?m)^\s*\W*(figure|table)\s*\d+.*\s\d{1,3}\s*$', c['text'], re.I)) >= 3:
         return 'contents page'
     if c['chunk_id'].endswith('-0001') and re.search(r'ministry of health', c['text'], re.I) and len(c['text']) < 500:
@@ -133,7 +138,17 @@ def sid(doc, path):
     return doc + ':' + hashlib.sha1(path.encode()).hexdigest()[:10]
 
 
-def main(src, sti_md, out):
+def first_caption(text):
+    """'Table 7: ...' / 'Figure 2 ...' heading of a chunk, used as the label leaf."""
+    for line in text.split('\n')[:4]:
+        h = clean_part(line)
+        if re.match(r'^(table|figure|fig\.|box|algorithm)\s*\d', h, re.I) and len(h) < 140:
+            return tidy_case(h)
+    return None
+
+
+def main(src, sti_md, out, toc_md=None):
+    toc_md = toc_md or {}
     os.makedirs(os.path.join(out, 'logs'), exist_ok=True)
     chunks = [json.loads(l) for l in open(src)]
     counts = collections.Counter((c['doc_id'], norm(re.sub(r'[#*_|\-]', ' ', plain(c['text']))).lower()) for c in chunks)
@@ -150,6 +165,12 @@ def main(src, sti_md, out):
         if doc == STI:
             docx = sti_paths(cs, sti_md_text)
             paths = [' > '.join(d) if d else p for d, p in zip(docx, paths)]
+        if doc in toc_md:                  # unnumbered documents: labels anchored on the printed TOC
+            with open(toc_md[doc]) as fh:
+                tp = toc_paths(cs, fh.read())
+            leaf = [first_caption(c['text']) for c in cs]
+            paths = [' > '.join(d + ([l] if l and l.lower() not in ' '.join(d).lower() else [])) if d else p
+                     for d, l, p in zip(tp, leaf, paths)]
         for c, p in zip(cs, paths):
             new_path[c['chunk_id']] = p
             if p != c['heading_path']:
@@ -297,4 +318,11 @@ def main(src, sti_md, out):
 
 
 if __name__ == '__main__':
-    main(*sys.argv[1:4])
+    # optional: --toc doc_id=path/to/markdown (repeatable)
+    args, toc = sys.argv[1:], {}
+    while '--toc' in args:
+        i = args.index('--toc')
+        k, v = args[i + 1].split('=', 1)
+        toc[k] = v
+        del args[i:i + 2]
+    main(*args[:3], toc_md=toc)
