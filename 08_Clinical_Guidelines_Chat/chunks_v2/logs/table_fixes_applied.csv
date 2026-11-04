@@ -1,0 +1,223 @@
+chunk_id,rule,row_label,filled_with
+prep-2025-0007,L,3.7 Switching between PrEP Products,5
+prep-2025-0093,H,Able/willing to attend PrEP visits,"For all products, clients should be committed to attend sche"
+prep-2025-0093,H,Age,≥ 16 years\*
+prep-2025-0093,H,Pregnancy,All available PrEP products are safe to use in pregnant or b
+prep-2025-0093,V,Breastfeeding,All available PrEP produc / All available PrEP produc / All available PrEP produc / All available PrEP produc
+prep-2025-0120,L,Oral PrEP,Assigned **male** at birth: A double dos
+prep-2025-0120,L,CAB-LA,Prior injection was initiation injection
+prep-2025-0135,L,Oral PrEP,to CAB-LA
+prep-2025-0135,L,Oral PrEP,to LEN
+prep-2025-0135,L,PrEP ring,to CAB-LA
+prep-2025-0135,L,PrEP ring,to LEN
+prep-2025-0135,L,CAB-LA,to PrEP ring
+prep-2025-0135,L,CAB-LA,to LEN
+prep-2025-0169,L,*Postponed injection*,≤ 28 weeks since last injection
+prep-2025-0169,L,*Postponed injection*,> 28 weeks since last injection
+mental-health-deskguide-0168,L,Followed by OR,Lorazepam IV
+mental-health-deskguide-0266,L,2. Timing:,Intervention unlikely
+mental-health-deskguide-0266,L,2. Timing:,Intervention highly unlikely
+mental-health-deskguide-0266,L,6. Active preparation for attempt:,Minimal to moderate
+mental-health-deskguide-0266,L,6. Active preparation for attempt:,Extensive
+mental-health-deskguide-0266,L,7. Suicide note:,"Note written or torn up, or thought abou"
+mental-health-deskguide-0266,L,7. Suicide note:,Presence of note
+mental-health-deskguide-0266,L,9. Alleged purpose or intent:,Components of 0 and 2
+mental-health-deskguide-0266,L,9. Alleged purpose or intent:,"To escape, solve problems"
+mental-health-deskguide-0266,L,10. Expectations<br/>of<br/>fatality:,"Thought that death was possible, not pro"
+mental-health-deskguide-0266,L,10. Expectations<br/>of<br/>fatality:,Thought that death was probable or certa
+mental-health-deskguide-0267,L,12. Seriousness<br/>of Attempt:,Uncertain about seriousness to end life
+mental-health-deskguide-0267,L,12. Seriousness<br/>of Attempt:,Seriously attempted to end life
+mental-health-deskguide-0267,L,15. Degree of<br/>premeditation:,Contemplated for 3 hours or less before 
+mental-health-deskguide-0267,L,15. Degree of<br/>premeditation:,Contemplated for more than 3 hours befor
+mental-health-deskguide-0269,L,Sent home:,With relative/friend
+mental-health-deskguide-0269,L,Referred to:,GP
+mental-health-deskguide-0269,L,Referred to:,Psychiatrist
+mental-health-deskguide-0269,L,Referred to:,Clinical Psychologist
+mental-health-deskguide-0278,L,Behaviour,Aggressive / calm / cooperative / uncoop
+mental-health-deskguide-0278,L,Behaviour,Abnormal movements; tremors / mannerisms
+hiv-amendment-2024-0052,L,Screening and diagnosis,Urine LF-LAM for TB diagnosis in symptom
+hiv-amendment-2024-0052,L,Screening and diagnosis,Cryptococcal antigen CrAg screening
+hiv-amendment-2024-0052,L,Screening and diagnosis,Histoplasma antigen test
+hiv-amendment-2024-0052,L,Prophylaxis and pre-emptive treatment,TB preventive treatment (TPT)
+hiv-amendment-2024-0052,L,Prophylaxis and pre-emptive treatment,Fluconazole pre­ emptive treatment for C
+hiv-amendment-2024-0052,L,Prophylaxis and pre-emptive treatment,Itraconazole prophylaxis for histoplasma
+hiv-amendment-2024-0052,L,ART initiation,Defer ART initiation if signs and sympto
+hiv-amendment-2024-0089,L,3 -29.9 kg,ABC + 3TC + NVP (or EFV)
+hiv-amendment-2024-0089,L,3 -29.9 kg,ABC + 3TC + DTG
+hiv-amendment-2024-0089,L,3 -29.9 kg,AZT + 3TC + DTG
+hiv-amendment-2024-0089,L,3 -29.9 kg,AZT + 3TC + LPV/r OR ABC + 3TC + LPV/r
+hiv-amendment-2024-0089,L,≥ 30 kg,ABC + 3TC + NVP (or EFV)
+hiv-amendment-2024-0089,L,≥ 30 kg,TDF +3TC + EFV
+ncdimh-0014,L,Non-Modifiable,Gender
+ncdimh-0014,L,Non-Modifiable,Family History
+ncdimh-0014,L,Modifiable,Tobacco Use (Smoking)
+ncdimh-0014,L,Modifiable,Alcohol Use
+ncdimh-0014,L,Modifiable,Unhealthy Diet
+ncdimh-0014,L,Modifiable,Lack of Physical Activity
+ncdimh-0111,L,Long-acting,Glargine
+ncdimh-0111,L,Long-acting,Basaglar
+ncdimh-0311,L,Newborn Full term,**Systolic mmhg**
+ncdimh-0378,L,6. Severe Uncontrolled HTN,"7. Plates < 100k, INR 1.7, PTT >40, glyc"
+ncdimh-0380,L,TIA (Dual Therapy × 3 weeks,Antiplatelet
+ncdimh-0380,L,Ischaemic Stroke (Monotherapy),Antiplatelet
+ncdimh-0380,L,Ischaemic Stroke (Monotherapy),Anticoagulant (if AF + high CV risk)
+ncdimh-0414,L,History,Chronic and relapsing history.
+ncdimh-0431,L,First Line Topical Therapy,Coal Tar (10%)
+ncdimh-0431,L,First Line Topical Therapy,Dithranol
+ncdimh-0431,L,First Line Topical Therapy,Calcineurin Inhibitors
+ncdimh-0463,L,Triple Therapy (Complete eradication),Amoxicillin 1000 mg PO
+ncdimh-0463,L,Triple Therapy (Complete eradication),Metronidazole 400 mg PO
+ncdimh-0463,L,Alternative Triple Therapy,Clarithromycin 500 mg PO
+ncdimh-0463,L,Alternative Triple Therapy,Tinidazole 500 mg PO
+ncdimh-0463,L,Concomitant Therapy,Amoxicillin 1000 mg PO
+ncdimh-0463,L,Concomitant Therapy,Metronidazole 400 mg PO
+ncdimh-0463,L,Concomitant Therapy,Clarithromycin 500 mg PO
+ncdimh-0514,L,Hypoxaemia,Thoracic injury
+ncdimh-0514,L,Hypotension,Cardiac failure
+ncdimh-0514,L,Hyperthermia,Stress response
+ncdimh-0514,L,Hyperglycemia,IV dextrose infusion
+ncdimh-0535,L,Phenytoin,Maintain
+ncdimh-0541,L,Control Blood Pressure,Avoid Hypotension (IVF and vasopressors)
+ncdimh-0549,L,Medium Risk,Dangerous mechanism of injury
+ncdimh-0558,L,Tachycardia,Anticholinergic agents
+ncdimh-0558,L,Tachycardia,Theophylline
+ncdimh-0558,L,Bradycardia,"β-Adrenergic blocking agents, Calcium<br"
+ncdimh-0566,L,Agricultural Pesticides,"Carbamates (Propoxur, Aldicarb, Carbaryl"
+ncdimh-0566,L,Agricultural Pesticides,"Organochlorines (Endosulfan, Gamma benze"
+ncdimh-0566,L,Agricultural Pesticides,Rodenticides (Bromadiolone)
+ncdimh-0566,L,Industrial Chemicals,Methyl alcohol
+ncdimh-0567,L,Drugs,Iron
+ncdimh-0567,L,Drugs,Benzodiazepines
+ncdimh-0572,L,2. Renal Parenchymal Injury (Intrinsic),Drugs
+ncdimh-0572,L,2. Renal Parenchymal Injury (Intrinsic),Endogenous toxins
+ncdimh-0572,L,2. Renal Parenchymal Injury (Intrinsic),Exogenous toxins
+ncdimh-0572,L,2. Renal Parenchymal Injury (Intrinsic),Autoimmune
+ncdimh-0572,L,2. Renal Parenchymal Injury (Intrinsic),Neoplastic
+ncdimh-0578,L,AKI,Oliguria
+ncdimh-0578,L,AKD,Decrease in GFR by > 35% or increase in 
+ncdimh-0578,L,NKD,Stable SCr without AKI/AKD/CKD
+ncdimh-0663,L,Minimal Change Disease,\*\*Adults\*\*<br/>\*\*D\*\*: prednisolo
+ncdimh-0663,L,Minimal Change Disease,\*\*D\*\*: prednisolone (PO) 1mg/kg \[ma
+ncdimh-0665,L,Lupus nephritis Adult,Class III and class IV<br/>Initial 6 mon
+ncdimh-0826,L,Nociceptive,"Visceral (Iritable Bowel, Cystitis"
+ncdimh-0826,L,Nociceptive,Inflammatory<br/>(musculo-skeletal)
+ncdimh-0826,L,Neurogenic,"Functional<br/>(FM, thalamic<br/>syndrom"
+ncdimh-0938,L,i. Essential Clinical Diagnosis,Physical Exam
+ncdimh-0938,L,ii. Clinical History Questions,Breathing Issues
+ncdimh-0938,L,ii. Clinical History Questions,Atopy History
+ncdimh-0938,L,ii. Clinical History Questions,Treatment Response
+ncdimh-0938,L,ii. Clinical History Questions,Exacerbation History
+ncdimh-0938,L,iii. Clinical Diagnosis (Children),Reversibility
+ncdimh-0938,L,iii. Clinical Diagnosis (Children),Exclusion
+ncdimh-0965,L,06 to 11 years,Preferred controller
+ncdimh-0965,L,06 to 11 years,Alternative controller
+ncdimh-0980,L,Waking at night with cough/wheeze,**COPD**
+ncdimh-0993,L,Urological Causes,Malignant
+ncdimh-0993,L,Urological Causes,Congenital
+ncdimh-0993,L,Urological Causes,Infective
+ncdimh-0993,L,Urological Causes,Inflammatory
+ncdimh-0993,L,Urological Causes,Benign
+ncdimh-0993,L,Non-Urological Causes,Hematological
+ncdimh-1007,L,First-Line Therapy,Mild-Moderate IPSS
+ncdimh-1007,L,First-Line Therapy,Mild-Moderate IPSS
+ncdimh-1007,L,Second-Line Therapy,Preferred in normotensive patients
+ncdimh-1007,L,Second-Line Therapy,Particularly useful in patients with hyp
+hiv-2022-0083,V,No,Conduct creatinine test a / Screening every 6 months
+hiv-2022-0319,L,PLHIV,FDC of (INH/Vit B6/CTX)
+hiv-2022-0319,L,PLHIV,**3HP**\*<br/>Weekly Rifapentine plus is
+hiv-2022-0320,L,Household contacts,Four months of daily rifampicin **(4R)**
+hiv-2022-0320,L,Household contacts,6 months daily **(6H)**<br/>(Isoniazid m
+hiv-2022-0333,L,1 HP,More than 1 week
+hiv-2022-0347,L,Screening and diagnosis,Urine LF-LAM for TB diagnosis in symptom
+hiv-2022-0347,L,Screening and diagnosis,Cryptococcal antigen CrAg screening
+hiv-2022-0347,L,Screening and diagnosis,Histoplasma antigen test
+hiv-2022-0347,L,Prophylaxis and pre-emptive treatment,TB preventive treatment (TPT)
+hiv-2022-0347,L,Prophylaxis and pre-emptive treatment,Fluconazole pre-emptive treatment for Cr
+hiv-2022-0348,L,ART initiation,Defer ART initiation if signs and sympto
+hiv-2022-0355,L,How to treat,Cryptococcal Meningitis
+hiv-2022-0472,L,After appointment,3-7 days
+hiv-2022-0472,L,After appointment,7-28 days
+hiv-2022-0472,L,After appointment,more than 28 days
+hiv-2022-0566,L,Prevent,TB - TB preventive treatment
+hiv-2022-0566,L,Prevent,Pneumococcal vaccine
+hiv-2022-0572,L,ABC hypersensitivity reaction (rare),≥ 30 kg
+hiv-2022-0572,L,Anaemia while taking AZT (Hb<10 g/dL),≥ 30 kg
+hiv-2022-0572,L,LPV/r (gastrointestinal side effects),≥ 3 years OR ≥ 10 kg
+hiv-2022-0572,L,LPV/r (gastrointestinal side effects),≥ 40 kg
+hiv-2022-0573,L,Unable to tolerate DTG,≥ 3 years OR ≥ 10 kg
+hiv-2022-0618,L,3-29.9 Kg,AZT + 3TC + DTG
+hiv-2022-0618,L,3-29.9 Kg,ABC + 3TC + EFV
+hiv-2022-0618,L,3-29.9 Kg,AZT + 3TC + EFV
+hiv-2022-0618,L,3-29.9 Kg,ABC + 3TC + LPV/r
+hiv-2022-0618,L,3-29.9 Kg,AZT + 3TC + LPV/r
+hiv-2022-0618,L,≥30 kg,ABC + 3TC + DTG
+hiv-2022-0618,L,≥30 kg,AZT + 3TC + DTG
+hiv-2022-0618,L,≥30 kg,TDF + 3TC + EFV
+hiv-2022-0618,L,≥30 kg,AZT + 3TC + EFV
+hiv-2022-0618,L,≥30 kg,ABC + 3TC + EFV
+hiv-2022-0624,L,Children (0-10 years),DRV/r + 2 NRTIs
+hiv-2022-0624,L,Children (0-10 years),DRV/r + DTG ± 1-2 NRTIs
+hiv-2022-0624,L,Adolescents(10-19 years),DRV/r + 2 NRTIs ± NNRTI
+hiv-2022-0624,L,Adolescents(10-19 years),Optimize regimen using genotype profile
+hiv-2022-0720,L,■ Oral/oesophageal candidiasis,■ Biliary tract disorders
+hiv-2022-0743,L,Ritonavir (RTV),Phenytoin and carbamazepine
+hiv-2022-0743,L,Ritonavir (RTV),Antidepressants
+hiv-2022-0743,L,Lopinavir/ritonavir (LPV/r),Antidepressants
+hiv-2022-0744,L,Atazanavir (ATV),Phenytoin and carbamazepine
+hiv-2022-0745,L,Progestin-only Injectables,NST
+hiv-2022-0748,L,Zidovudine<br/>(AZT),Lipodystrophy
+hiv-2022-0748,L,Zidovudine<br/>(AZT),Myalgia
+hiv-2022-0748,L,Zidovudine<br/>(AZT),Leucopoenia
+hiv-2022-0748,L,Zidovudine<br/>(AZT),Red cell megaloblastia
+hiv-2022-0748,L,Zidovudine<br/>(AZT),Nail discolouration
+hiv-2022-0748,L,Zidovudine<br/>(AZT),Bone marrow\* suppression
+hiv-2022-0748,L,Zidovudine<br/>(AZT),Hepatitis\*
+hiv-2022-0749,L,Zidovudine (AZT),Myopathy
+hiv-2022-0749,L,Lamivudine (3TC),Paraesthesia/ peripheral neuropathy
+hiv-2022-0749,L,Abacavir (ABC),Lactic acidosis
+hiv-2022-0750,L,Emtricitabine (FTC),Minor symptoms
+hiv-2022-0750,L,Efavirenz (EFV),Gynaecomastia
+hiv-2022-0777,L,Initiating ARVs while on ATT,**Alternative 1:** ABC(AZT)+3TC+LPV/r<br
+hiv-2022-0777,L,Initiating ARVs while on ATT,**Alternative 2:**<br/>ABC(AZT)+3TC+NVP 
+tb-2025-0266,L,< 1 Month,2-7 weeks
+tb-2025-0266,L,< 1 Month,> 7 weeks
+tb-2025-0266,L,> 1 Month,2-7 weeks
+tb-2025-0333,L,Levofloxacin (Lfx),250 mg tab (25 mg/mL)
+tb-2025-0333,L,Levofloxacin (Lfx),500 mg tab
+tb-2025-0333,L,Levofloxacin (Lfx),750 mg tab
+tb-2025-0333,L,Moxifloxacin (Mfx),400 mg tab (40 mg/mL) Standard dose
+tb-2025-0333,L,Moxifloxacin (Mfx),400 mg tab high doses
+tb-2025-0334,L,Bedaquiline (Bdq),100 mg tab (Alternative dosing strategy 
+tb-2025-0334,L,**Linezolid**<br/>(Lzd),**150 mg dt (15 mg/mL)**
+tb-2025-0334,L,**Linezolid**<br/>(Lzd),**600 mg tab (60 mg/mL)**
+tb-2025-0335,L,**Clofazimine**<br/>(Cfz),**100 mg cap or tabf**
+tb-2025-0336,L,**Ethambutol**<br/>(E or EMB),**400 mg tab (40 mg/mL)**
+tb-2025-0336,L,**Delamanid**<br/>(Dlm),**50 mg tabh<br/>(5 mg/mL)**
+tb-2025-0336,L,**Pyrazinamide**<br/>(Z or PZA),400 mg tab (40 mg/mL)
+tb-2025-0336,L,**Pyrazinamide**<br/>(Z or PZA),500 mg tab (50 mg/mL)
+tb-2025-0597,L,Indeterminate,≤8.0
+tb-2025-0658,L,Firstline anti-depressant,Fluoxetine
+tb-2025-0658,L,Firstline anti-depressant,Sertraline
+tb-2025-0658,L,Second-line anti-depressant,Lorazepam
+tb-2025-0658,L,Firstline anti-psychotropics,Sulpride
+tb-2025-0658,L,Firstline anti-psychotropics,Aripiprazole
+tb-2025-0658,L,Secondline anti-psychotrophics,Olanzapine
+tb-2025-0685,L,Adult,Clofazimine
+tb-2025-0685,L,Adult,Dapsone
+tb-2025-0685,L,Children (10–14 years),Clofazimine
+tb-2025-0685,L,Children (10–14 years),Dapsone
+tb-2025-0685,L,Children <10 years old or <40kg,Clofazimine
+tb-2025-0685,L,Children <10 years old or <40kg,Dapsone
+fp-2021-0201,L,Spotting,POIs
+fp-2021-0201,L,Spotting,COCs
+fp-2021-0201,L,Spotting,CICs
+fp-2021-0201,L,Spotting,Implants
+fp-2021-0202,L,Heavy or<br/>prolonged<br/>bleeding,POIs
+fp-2021-0202,L,Heavy or<br/>prolonged<br/>bleeding,CICs
+fp-2021-0202,L,Heavy or<br/>prolonged<br/>bleeding,Implants
+fp-2021-0202,L,Amenorrhea,POIs
+fp-2021-0202,L,Amenorrhea,CICs<br/><br/>Implants
+fp-2021-0202,L,Amenorrhea,COCs
+fp-2021-0203,L,Headache or<br/>dizziness,POIs
+fp-2021-0203,L,Headache or<br/>dizziness,COCs<br/><br/>CICs<br/><br/>IUCD
+fp-2021-0204,L,"Nausea,<br/>dizziness,<br/>vomiting",CICs<br/><br/>IUCD

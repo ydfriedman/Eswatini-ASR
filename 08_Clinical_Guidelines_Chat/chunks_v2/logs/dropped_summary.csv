@@ -1,0 +1,248 @@
+chunk_id,doc_id,reason,heading_path,text_start
+prep-2025-0001,prep-2025,cover,Kingdom of Eswatini Ministry of Health,**KINGDOM OF ESWATINI** **MINISTRY OF HEALTH**
+prep-2025-0003,prep-2025,front/back matter,Foreword,# FOREWORD The third Swaziland HIV Incidence Measurement Survey (SHIMS3) demonstrated remarkable progress made by Eswati
+prep-2025-0004,prep-2025,front/back matter,Foreword,"In light of the rapidly evolving HIV prevention landscape, this document has been developed to provide health care worke"
+prep-2025-0005,prep-2025,front/back matter,Acknowledgments,"# # ACKNOWLEDGMENTS With this document, the Ministry of Health (MoH) issues the 3<sup>d</sup> edition of the national cl"
+prep-2025-0006,prep-2025,front/back matter,Acknowledgments,**United States Government** ****United States Government**** Dr. Njabuliso Lukhele Dr. Sikhathela Mazibuko Phumzile Mnd
+prep-2025-0007,prep-2025,front/back matter,Table of Contents,# TABLE OF CONTENTS | FOREWORD | 2 | | --- | --- | | ACKNOWLEDGMENTS | 3 | | TABLE OF CONTENTS | 5 | | ABBREVIATIONS AND
+prep-2025-0008,prep-2025,front/back matter,Table of Contents,4 **MANAGEMENT OF CLIENTS IN SPECIFIC SITUATIONS** 57 - 4.1 Management of Clients with Elevated Creatinine Levels 57 - 4
+prep-2025-0009,prep-2025,acronym list (moved to glossary.jsonl),Abbreviations and Acronyms,# ABBREVIATIONS AND ACRONYMS 3TC Lamivudine AFAB Assigned female at birth AHI Acute HIV infection AMAB Assigned male at 
+prep-2025-0162,prep-2025,near-empty,6 Annexes > Annex 1: Job Aid to Rule Out Acute HIV Infection,flow_chart
+mental-health-deskguide-0001,mental-health-deskguide,cover,WHO Mental Health Deskguide (2022),Ministry of Health Eswatini
+mental-health-deskguide-0002,mental-health-deskguide,cover,Mental Health Desk Guide > August 2022,### **AUGUST 2022** **Volume 2**
+mental-health-deskguide-0003,mental-health-deskguide,front/back matter,Table of Contents,# TABLE OF CONTENTS MENTAL HEALTH DESKGUIDE MENTAL HEALTH DESKGUIDE
+mental-health-deskguide-0004,mental-health-deskguide,front/back matter,List of Tables,# LIST OF TABLES | Table | Title | Page | | --- | --- | --- | | TABLE 1: | SUMMARY OF CLASSIFICATION AND MANAGEMENT OF D
+mental-health-deskguide-0005,mental-health-deskguide,front/back matter,List of Tables,| Table | Title | Page | | --- | --- | --- | | TABLE 21: | SUMMARY OF FIRST LINE ANTIDEPRESSANTS AS PER ESTWATINI TREATM
+mental-health-deskguide-0006,mental-health-deskguide,front/back matter,List of Tables,TABLE 22: SUMMARY OF SECOND LINE ANTIDEPRESSANTS AS PER ESTWATINI TREATMENT GUIDELINE AND ESSENTIAL MEDICINES LIST 58 TA
+mental-health-deskguide-0007,mental-health-deskguide,front/back matter,List of Tables,TABLE 34: SUMMARY OF SECOND LINE DEPOT ANTIPSYCHOTICS FOR MANAGEMENT OF SCHIZOPHRENIA AND OTHER PSYCHOSIS AS PER ESTWATI
+mental-health-deskguide-0008,mental-health-deskguide,acronym list (moved to glossary.jsonl),Acronyms,## **ACRONYMS** | **AA** | Alcohol Anonymous | | --- | --- | | **ABC** | Airway Breathing Circulation | | **ADHD** | Att
+mental-health-deskguide-0011,mental-health-deskguide,front/back matter,Acknowledgement,# **ACKNOWLEDGEMENT** The Ministry of Health (MoH) expresses its sincere gratitude to the World Health Organization (WHO
+mental-health-deskguide-0012,mental-health-deskguide,front/back matter,Acknowledgement,| Dr Cisuaka Mukeba | Medical Officer; National Psychiatric Referral Hospital | | --- | --- | | Dr Kibwe Wa-Kibwe Gaetan
+mental-health-deskguide-0013,mental-health-deskguide,front/back matter,Acknowledgement,x
+mental-health-deskguide-0014,mental-health-deskguide,front/back matter,Acknowledgement,| *S/N Muzi Dlamini* | Psychiatric Nurse; Lubombo Referral Hospital | | --- | --- | | *S/N Sithembiso Simelane* | Psychi
+mental-health-deskguide-0015,mental-health-deskguide,front/back matter,Acknowledgement,[signature] Dr. Velephi Okello **Deputy Director-Clinical Ministry of Health**
+mental-health-deskguide-0016,mental-health-deskguide,front/back matter,Foreword,# FOREWORD The COVID-19 pandemic has brought great disruptions and immense challenges all across the globe. Uncertainty 
+mental-health-deskguide-0017,mental-health-deskguide,front/back matter,Foreword,"However, there is shortage of specialized mental health personnel, infrastructure and equipment. This presents a challen"
+mental-health-deskguide-0029,mental-health-deskguide,near-empty,2 Conduct physical examination and Mental Status Evaluation (MSE),MENTAL HEALTH DESKGUIDE 7
+mental-health-deskguide-0051,mental-health-deskguide,near-empty,Trauma and Stressor Related Disorders > Table 5: Summary of Classification and Management of Trauma and Stressor Related Disorders,MENTAL HEALTH DESKGUIDE 17
+mental-health-deskguide-0071,mental-health-deskguide,near-empty,Grief and Bereavement > Types of complicated grief,MENTAL HEALTH DESKGUIDE 25
+mental-health-deskguide-0084,mental-health-deskguide,near-empty,Bipolar and Related Disorders > Table 11: Summary of Diagnosis and Classification for Bipolar I and Ii,MENTAL HEALTH DESKGUIDE 31
+mental-health-deskguide-0094,mental-health-deskguide,near-empty,Schizophrenia and Other Psychosis > Table 13: Summary of Classification and Management of Schizophrenia & Other Psychosis,MENTAL HEALTH DESKGUIDE 35
+mental-health-deskguide-0106,mental-health-deskguide,near-empty,Neurocognitive Disorders (dementia) > Table 15: Summary of Classification and Management of Neurocognitive Disorders,**SPECIFIERS**
+mental-health-deskguide-0110,mental-health-deskguide,near-empty,Neurocognitive Disorders (dementia) > Table 15: Summary of Classification and Management of Neurocognitive Disorders,MENTAL HEALTH DESKGUIDE 39
+mental-health-deskguide-0113,mental-health-deskguide,near-empty,Substance-Related and Addictive Disorders > Table 17: Summary of Classification and Management of Substance-Related and Addictive Disorders,MENTAL HEALTH DESKGUIDE 41
+mental-health-deskguide-0117,mental-health-deskguide,near-empty,Substance-Related and Addictive Disorders > Table 17: Summary of Classification and Management of Substance-Related and Addictive Disorders,MENTAL HEALTH DESKGUIDE 43
+mental-health-deskguide-0120,mental-health-deskguide,duplicate of mental-health-deskguide-0118,Substance-Related and Addictive Disorders > Table 17: Summary of Classification and Management of Substance-Related and Addictive Disorders,| | | | | --- | --- | --- | | If a client/ patient presents with the problematic pattern of alcohol or substance use lea
+mental-health-deskguide-0123,mental-health-deskguide,near-empty,Cannabis Use Disorders,MENTAL HEALTH DESKGUIDE 45
+mental-health-deskguide-0125,mental-health-deskguide,near-empty,Cannabis Use Disorders,MENTAL HEALTH DESKGUIDE
+mental-health-deskguide-0127,mental-health-deskguide,duplicate of mental-health-deskguide-0126,Cannabis Use Disorders,| | | | | --- | --- | --- | | If a client/ patient presents with the problematic pattern of cannabis use leading to clin
+mental-health-deskguide-0138,mental-health-deskguide,near-empty,"Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders",MENTAL HEALTH DESKGUIDE 51
+mental-health-deskguide-0142,mental-health-deskguide,near-empty,"Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders",MENTAL HEALTH DESKGUIDE
+mental-health-deskguide-0145,mental-health-deskguide,near-empty,"Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders",MENTAL HEALTH DESKGUIDE
+mental-health-deskguide-0264,mental-health-deskguide,front/back matter,References,"# REFERENCES 1. mhGAP training manuals for the mhGAP Intervention Guide for mental, neurological and substance use disor"
+mental-health-deskguide-0265,mental-health-deskguide,front/back matter,References,18. Western Health and Social Care Trust; Management and Treatment Guidelines For Acute Alcohol Withdrawal Policy 19. Th
+mental-health-deskguide-0270,mental-health-deskguide,front/back matter,References,**NAME:** **Signature:** **DATE:** ## APPENDIX II ## DEPRESSION SCREENING FORM PHQ 9 #### Patient Health Questionnaire (
+hiv-amendment-2024-0001,hiv-amendment-2024,front/back matter,Preface,## **AMMENDMENT TO THE 2022 ESWATINI INTEGRATED HIV MANAGEMENT GUIDELINES** # **PREFACE** *Eswatini has made significant
+hiv-amendment-2024-0002,hiv-amendment-2024,front/back matter,Preface,*The *Eswatini Ministry of Health* commissioned the 2022 Integrated **HIV** Management Guidelines in May 2022. In light 
+hiv-amendment-2024-0003,hiv-amendment-2024,front/back matter,Acknowledgments,## **ACKNOWLEDGMENTS** The Amendment to the 2022 Eswatini Integrated HIV Management Guidelines has been made possible by
+hiv-amendment-2024-0004,hiv-amendment-2024,front/back matter,Acknowledgments,"Appreciation goes to the following: | Ms Lenhle Dube, Ms Takhona Mkhabela Mr Musa Ginindza | HIV Testing Services | Mr W"
+hiv-amendment-2024-0005,hiv-amendment-2024,front/back matter,Acknowledgments,"For their technical support, appreciation also goes to Country Directors and contributors from WHO Country Office, PEPFA"
+hiv-amendment-2024-0006,hiv-amendment-2024,front/back matter,Acknowledgments,The following professionals and country teams are appreciated for their inputs and review: | ***AHF Eswatini*** | Dr Suk
+hiv-amendment-2024-0007,hiv-amendment-2024,acronym list (moved to glossary.jsonl),Acronyms,# **ACRONYMS** | Acronym | Definition | Acronym | Definition | | --- | --- | --- | --- | | **3TC** | Lamivudine | **EID*
+hiv-amendment-2024-0008,hiv-amendment-2024,acronym list (moved to glossary.jsonl),Acronyms,| Acronym | Definition | Acronym | Definition | | --- | --- | --- | --- | | **DRV/r** | Darunavir/Ritonavir | **LEEP** |
+hiv-amendment-2024-0009,hiv-amendment-2024,acronym list (moved to glossary.jsonl),Acronyms,## **ACRONYMS** | LTBI | Latent Tuberculosis Infection | PLHIV | People Living With HIV | | --- | --- | --- | --- | | MD
+hiv-amendment-2024-0010,hiv-amendment-2024,front/back matter,Table of Contents,## **TABLE OF CONTENTS** | **CHAPTER 3: HIV TESTING SERVICES** | **1** | | --- | --- | | Introduction | 2 | | Purpose | 
+hiv-amendment-2024-0011,hiv-amendment-2024,front/back matter,Table of Contents,| **CHAPTER 3: HIV TESTING SERVICES** | **1** | | --- | --- | | 9.5 Clinical Monitoring of CHildren and Adolescents on A
+hiv-amendment-2024-0012,hiv-amendment-2024,acronym list (moved to glossary.jsonl),Acronyms,## **CHAPTER 3:** ## **HIV TESTING SERVICES** ## CHAPTER 3: HIV TESTING SERVICES ### **INTRODUCTION** Even though Eswati
+anc-0001,anc,front/back matter,Foreword,"## Foreword The Global Strategy for Women's, Children's and Adolescent Health 2016 – 2030 prioritizes provision of quali"
+anc-0002,anc,front/back matter,Foreword,"- Through ANC activity (prevention, screening, diagnosis, management), this guideline will contribute to reducing MMR an"
+anc-0003,anc,front/back matter,Acknowledgement,## **Acknowledgement** The Ministry of Health acknowledges the contribution made by different individuals and organizati
+anc-0004,anc,front/back matter,Table of contents,## **Table of contents** | Foreword | I | | --- | --- | | Acknowledgement | ii | | Acronyms | v | | 1.0 Background | 1 |
+anc-0005,anc,contents page,Eswatini ANC Guidelines,## ANC GUIDELINES | 4.1 Infection control and prevention | 24 | | --- | --- | | 4.2 Hand washing | 24 | | 4.3 House keep
+anc-0006,anc,acronym list (moved to glossary.jsonl),Acronyms,"## Acronyms | ABC | Airways Clear, Breathing, Circulation | | --- | --- | | ANC | Antenatal Care | | APH | Antepartum ha"
+anc-0039,anc,duplicate of anc-0037,2.2 Essential package of ANC interventions,| **Radiological tests** | **Preventive measures** | **Essential Good clinical Practices** | **Treat / Manage** | **Othe
+anc-0041,anc,duplicate of anc-0037,2.2 Essential package of ANC interventions,| **Radiological tests** | **Preventive measures** | **Essential Good clinical Practices** | **Treat / Manage** | **Othe
+anc-0112,anc,front/back matter,9.4 Research > References,"## **References** 1. WHO, 2016, WHO recommendations on Antenatal Care for a positive pregnancy experience, 2. MOH, 2014,"
+ncdimh-0001,ncdimh,cover,Kingdom of Eswatini Ministry of Health,**KINGDOM OF ESWATINI** **MINISTRY OF HEALTH**
+ncdimh-0008,ncdimh,front/back matter,Preface,"# Preface Non-Communicable Diseases (NCDs), injuries, and mental health conditions are emerging as major public health c"
+ncdimh-0009,ncdimh,front/back matter,Preface,"It is our hope that these guidelines will serve as a valuable resource to health professionals, policymakers, and partne"
+ncdimh-0010,ncdimh,front/back matter,Acknowledgements,# Acknowledgements The Ministry of Health of Eswatini extends its sincere gratitude to all individuals and organisations
+ncdimh-0011,ncdimh,front/back matter,Acknowledgements,"Together, we have laid the foundation for a comprehensive and integrated approach to the prevention and management of no"
+ncdimh-0012,ncdimh,acronym list (moved to glossary.jsonl),Abbreviations,# Abbreviations **TSH** Thyroid Stimulating Hormone **fT4** Free Thyroxine/ Unbound T4 **fT3** Free Triiodothyronine/ Un
+ncdimh-0013,ncdimh,acronym list (moved to glossary.jsonl),Abbreviations,"## **CHAPTER 1** ## **PREVENTION, HEALTH EDUCATION AND ROUTINE HEALTH EXAMINATIONS** In Eswatini, like many countries gl"
+ncdimh-0015,ncdimh,acronym list (moved to glossary.jsonl),Abbreviations,"## PREVENTION, HEALTH EDUCATION AND ROUTINE HEALTH EXAMINATIONS Health checks, counselling, immunization, and evidence-b"
+ncdimh-0106,ncdimh,near-empty,Insulin Therapy in Type 2 Diabetes > Insulin Regimens > Insulin Dosage Regimen,**OR**
+ncdimh-0163,ncdimh,near-empty,Insulin Therapy in Type 2 Diabetes > For Good Health Follow Tips > Diabetes in Pregnancy,**
+ncdimh-0164,ncdimh,duplicate of ncdimh-0162,Insulin Therapy in Type 2 Diabetes > For Good Health Follow Tips > Diabetes in Pregnancy,| | Diabetes in Pregnancy | Gestational Diabetes Mellitus (GDM) | | --- | --- | --- | | Definition | Pregnancy in a woma
+ncdimh-0260,ncdimh,near-empty,Medical Therapy > Antihypertensive Drug Classes: A Comprehensive Comparison,**
+ncdimh-0261,ncdimh,duplicate of ncdimh-0259,Medical Therapy > Antihypertensive Drug Classes: A Comprehensive Comparison,| Antihypertensive | Usual dosage | Remarks | | --- | --- | --- | | Beta-blockers | | | | Atenolol | 25-100mg daily | At
+ncdimh-0262,ncdimh,near-empty,Medical Therapy > Antihypertensive Drug Classes: A Comprehensive Comparison,**
+ncdimh-0645,ncdimh,near-empty,CKD and Contrast Media > Classification of Acute Glomerulonephritis > Comparison Table of Nephritic and Nephrotic Syndrome,**
+ncdimh-0646,ncdimh,duplicate of ncdimh-0644,CKD and Contrast Media > Classification of Acute Glomerulonephritis > Comparison Table of Nephritic and Nephrotic Syndrome,| Nephrotic Syndrome | | Nephritic Syndrome | | --- | --- | --- | | • Low serum albumin (<30g/L • Proteinuria (>3.5g/day
+ncdimh-0692,ncdimh,near-empty,Definitive diagnosis of ASD is made by a specialist > Severity of ASD > Patient Assessment,**
+ncdimh-1019,ncdimh,front/back matter,References,"# References 1. Campbell-Walsh-Wein Urology, 12 Edition, 2020. 2. Feldman, HA., et al. Impotence and its medical and psy"
+ncdimh-1020,ncdimh,front/back matter,References,"12. Acute Severe Hypertension Aldo J. Peixoto, M.D. N Engl J Med 2019;381:1843-52. DOI: 10.1056/NEJMcp1901117 Copyright "
+ncdimh-1021,ncdimh,front/back matter,References,"19. Stergiou GS, Palatini P, Parati G, O'Brien E, Januszewicz A, Lurbe E, et al., European Society of Hypertension Counc"
+ncdimh-1022,ncdimh,front/back matter,References,"27. Santomauro DF, Mantilla Herrera AM, Shadid J, Zheng P, Ashbaugh C, Pigott DM, et al. Global prevalence and burden of"
+ncdimh-1023,ncdimh,front/back matter,References,"37. Pillay S, Madeleine D & de Vries PJ (2020) Autism in the Western Cape province of South Africa: Rates, sociodemograp"
+ncdimh-1024,ncdimh,front/back matter,References,"45. Dawn O, etc. (2021) 2021 Guideline for the Prevention of Stroke in Patients with Stroke and Transient Ischemic Attac"
+ncdimh-1025,ncdimh,front/back matter,References,"58. Cutaneous and Systemic Psoriasis: Classifications and classification for distinction. Yan B et al. Front. Med., 13 o"
+ncdimh-1026,ncdimh,front/back matter,References,"69. Chen Xiong, Sara Hanafy. Comorbidity in adults with traumatic brain injury and all-cause mortality: a systematic rev"
+ncdimh-1027,ncdimh,front/back matter,References,74. 2022 AHA/ASA Guideline for the Management of Patients with Spontaneous ICH 75. 2023 ESO Guidelines for Stroke Manage
+ncdimh-1028,ncdimh,front/back matter,References,"88. Leowattana, W., Leowattana, P. and Leowattana, T., 2023. Systemic treatment for metastatic colorectal cancer. World "
+ncdimh-1029,ncdimh,front/back matter,References,"97. Robert S. Fisher, etc. (2017) Operational classification of seizure types by the International League Against Epilep"
+ncdimh-1030,ncdimh,front/back matter,References,"103. Epilepsy: A Manual for Physicians, WHO (2004) 104. International Bureau for Epilepsy Annual Report, (2020) 105. The"
+ncdimh-1031,ncdimh,front/back matter,References,"114. Jahan S, Al-saigul AM, Abdelgadir MH. Breast Cancer Breast Cancer. J R Soc Med. 2016;70(8):515–7. 115. Samon Warnak"
+ncdimh-1032,ncdimh,front/back matter,References,"127. American Academy of Ophthalmology. Glaucoma, Section 10.2015-2016 128. American Academy of Ophthalmology. Lens and "
+hiv-2022-0001,hiv-2022,front/back matter,Preface,## **Eswatini** ## **Integrated HIV Management Guidelines** # Preface Eswatini has made significant strides towards achi
+hiv-2022-0002,hiv-2022,front/back matter,Preface,The emergence of the COVID-19 pandemic has also emphasised the need for integrated services and ensuring patient-centred
+hiv-2022-0003,hiv-2022,front/back matter,Preface,These guidelines provide the standards and recommendations for the Government of the Kingdom of Eswatini's vision of end
+hiv-2022-0004,hiv-2022,front/back matter,Acknowledgements,# Acknowledgements The 2022 Eswatini Integrated HIV Management Guidelines have been made possible by the commitment of t
+hiv-2022-0005,hiv-2022,front/back matter,Acknowledgements,"For their technical support, appreciation also goes to country directors and contributors from the WHO country office, P"
+hiv-2022-0008,hiv-2022,acronym list (moved to glossary.jsonl),Acronyms,# Acronyms | Acronym | Definition | Acronym | Definition | | --- | --- | --- | --- | | 3TC | Lamivudine | INSTI | Integr
+hiv-2022-0009,hiv-2022,acronym list (moved to glossary.jsonl),Acronyms,| Acronym | Definition | Acronym | Definition | | --- | --- | --- | --- | | eMTCT | Elimination of mother-to-child trans
+hiv-2022-0010,hiv-2022,front/back matter,Table of Contents,# **Table of Contents** 10.9 Palliative Care and Management for PLHIV 239 10.9.1 Specific Consideration for Pain Managem
+hiv-2022-0011,hiv-2022,front/back matter,Table of Contents,11.32 Differential diagnosis of a child presenting with cough and respiratory distress 292 11.33 Eswatini Immunization S
+hiv-2022-0012,hiv-2022,front/back matter,List of tables,# List of tables Table 6.1 Prevention of TB among PLHIV 100 Table 6.2 TB screening tests 101 Table 6.3 Recommended TPT O
+hiv-2022-0013,hiv-2022,front/back matter,List of tables,Table 7.6 Clinical Review Schedule for the First Year of ART 138 Table 7.7 Laboratory Monitoring 140 Table 7.8 Viral Loa
+hiv-2022-0793,hiv-2022,near-empty,11 Annexes > 11.21 HIV Testing Screening Tool > HIV screening tool for adults and adolescents,**
+tb-2025-0001,tb-2025,cover,Kingdom of Eswatini Ministry of Health,**KINGDOM OF ESWATINI** **MINISTRY OF HEALTH**
+tb-2025-0003,tb-2025,front/back matter,Foreword,# FOREWORD Eswatini has made significant strides in decreasing tuberculosis (TB) incidence and mortality. TB incidence d
+tb-2025-0004,tb-2025,front/back matter,Foreword,These guidelines provide the standards and recommendations for the Government of the Kingdom of Eswatini's vision of an 
+tb-2025-0005,tb-2025,front/back matter,Acknowledgement,"## **ACKNOWLEDGEMENT** The National Integrated TB Management Guidelines, 2025 have been made possible by the commitment "
+tb-2025-0006,tb-2025,front/back matter,Acknowledgement,Special appreciation is given to MOH-COAG and WHO for the support to conduct serials of workshops during the development
+tb-2025-0007,tb-2025,front/back matter,Acknowledgement,The following professionals and country teams are appreciated for their input and review: | Name | Affiliation | | --- |
+tb-2025-0008,tb-2025,front/back matter,Acknowledgement,| Name | Affiliation | | --- | --- | | Dr Cleophas d’Auvergne | USAID-HQ | | Sabine Verkuijl | WHO-HQ | | Saskia den Boo
+tb-2025-0009,tb-2025,front/back matter,Acknowledgement,| Name | Affiliation | | --- | --- | | Dr. Tafadzwa Mazuruse | Good Shepherd Hospital | | Sidwell Msibi | Mbabane Govern
+tb-2025-0010,tb-2025,acronym list (moved to glossary.jsonl),Abbreviations,"# ABBREVIATIONS **ACSM** Advocacy, Communication and Social Mobilization **AHD** Advanced HIV Disease **AIDS** Acquired "
+tb-2025-0011,tb-2025,acronym list (moved to glossary.jsonl),Abbreviations,**IRIS** Immune Reconstitution Inflammatory Syndrome **KNCV** Royal Dutch Tuberculosis Foundation **LF-LAM** Lateral Flo
+tb-2025-0735,tb-2025,front/back matter,17.2 Monitoring of TB Case Detection and Treatment Activities > References,"# **REFERENCES** - Eswatini National Tuberculosis Control Programme Manual, 3rd edition, 2019 - Eswatini National integr"
+tb-2025-0736,tb-2025,front/back matter,17.2 Monitoring of TB Case Detection and Treatment Activities > References,"- Tuberculosis, Practical guide for clinicians, nurses, laboratory technicians and medical auxiliaries, Médecins Sans Fr"
+tb-2025-0737,tb-2025,front/back matter,17.2 Monitoring of TB Case Detection and Treatment Activities > References,"- WHO Policy brief on tuberculosis-associated disability, 2023 - Pai M, Behr M. 2016. Latent Mycobacterium tuberculosis "
+tb-2025-0738,tb-2025,front/back matter,17.2 Monitoring of TB Case Detection and Treatment Activities > References,- Eswatini National Mental Health Desk Guide 2nd Edition - Eswatini national non-communicable Diseases guidelines 20 - *
+unaids-linkages-sop-0002,unaids-linkages-sop,front/back matter,Foreword,## SOP ## **ENHANCED LINKAGES** ## **CASE MANAGEMENT** ### **SEPTEMBER 2021** # FOREWORD To achieve epidemic control of 
+unaids-linkages-sop-0003,unaids-linkages-sop,front/back matter,Foreword,"In recent years, evidence have shown that linkage case management is associated with an increase in ART initiation. To a"
+unaids-linkages-sop-0004,unaids-linkages-sop,front/back matter,Document Change History,# DOCUMENT CHANGE HISTORY | Document No. | Effective Date | Significant Changes | Previous Document No. | | --- | --- | 
+unaids-linkages-sop-0005,unaids-linkages-sop,front/back matter,Table of Contents,# TABLE OF CONTENTS 12.28 Strategy 1: Community outreach HIV testing (not ART initiation) 51 12.29 Strategy 2: Community
+unaids-linkages-sop-0006,unaids-linkages-sop,front/back matter,Acknowledgements,The following individuals are acknowledged for tirelessly and meticulously developing this SOP: | 1. | Muhle Dlamini | S
+unaids-linkages-sop-0007,unaids-linkages-sop,acronym list (moved to glossary.jsonl),Abbreviations And Acronyms,## **Abbreviations And Acronyms** | **AGYW** | Adolescent Girls and young Women | | --- | --- | | **AIDS** | Acquired Im
+unaids-linkages-sop-0008,unaids-linkages-sop,acronym list (moved to glossary.jsonl),Abbreviations And Acronyms,| **AGYW** | Adolescent Girls and young Women | | --- | --- | | UNAIDS | Joint United Nations Programme on HIV/AIDS | | 
+unaids-linkages-sop-0024,unaids-linkages-sop,near-empty,5 Linkage to Treatment and Care > 5.4 Summary of Linkage case management services > Enhanced Linkages Case Management,**ENHANCED LINKAGES CASE MANAGEMENT**
+unaids-linkages-sop-0048,unaids-linkages-sop,near-empty,12.3 Day Zero responsibilities > Clients initiating ART.,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0050,unaids-linkages-sop,near-empty,12.3 Day Zero responsibilities > Clients initiating ART.,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0054,unaids-linkages-sop,near-empty,12.3 Day Zero responsibilities > Clients initiating ART.,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0064,unaids-linkages-sop,near-empty,12.7 DAY 14: FIRST CLINIC VISIT (1st ARV REFILL) > Client initiated on ART.,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0072,unaids-linkages-sop,near-empty,12.12 DAY 30-45: SECOND CLINIC VISIT (2nd ARV REFILL),ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0079,unaids-linkages-sop,near-empty,12.16 DAYS 60-90: THIRD CLINIC VISIT (3rd ARV REFILL),ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0095,unaids-linkages-sop,near-empty,12.23 Responsibility Of Referring Facility,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0104,unaids-linkages-sop,near-empty,12.27 Day Zero; Referral of HIV Positive Client > Responsibilities at community Linkages,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0122,unaids-linkages-sop,near-empty,3 Men,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0147,unaids-linkages-sop,near-empty,14 Annex > Objective,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0157,unaids-linkages-sop,near-empty,14 Annex > Objective,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0163,unaids-linkages-sop,near-empty,14 Annex > Objective,ENHANCED LINKAGES CASE MANAGEMENT
+unaids-linkages-sop-0175,unaids-linkages-sop,near-empty,14 Annex > 14.5 Annexure 5 Linkages for Client Testing Negative in the Community > Enhanced Linkages Case Management,**ENHANCED LINKAGES CASE MANAGEMENT**
+unaids-linkages-sop-0178,unaids-linkages-sop,near-empty,15 References > NOTES,# **NOTES** --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- # **NOTES** --- --- --- --- --- 
+fp-2021-0002,fp-2021,front/back matter,Foreword,## **FOREWORD** Family planning (FP) is a human right and a core element of the Essential Health Services in Eswatini. I
+fp-2021-0003,fp-2021,front/back matter,Foreword,Director of Health Services Ministry of Health
+fp-2021-0004,fp-2021,front/back matter,Acknowledgements,## **ACKNOWLEDGEMENTS** The Ministry of Health wishes to acknowledge the technical and financial support from UNFPA in e
+fp-2021-0005,fp-2021,acronym list (moved to glossary.jsonl),Acronyms and Abbreviations,## **ACRONYMS AND ABBREVIATIONS** | **AIDs** | Acquired Immunodeficiency Syndrome | | --- | --- | | **ART** | Anti-Retro
+fp-2021-0006,fp-2021,acronym list (moved to glossary.jsonl),Acronyms and Abbreviations,| **AIDs** | Acquired Immunodeficiency Syndrome | | --- | --- | | **PID** | Pelvic inflammatory disease | | **PNC** | Po
+fp-2021-0007,fp-2021,front/back matter,Table of Contents,## **TABLE OF CONTENTS** | **1. INTRODUCTION AND BACKGROUND TO THE REVIEW\..** 1 | | --- | | 1.1 INTRODUCTION AND BACKGR
+fp-2021-0008,fp-2021,front/back matter,Table of Contents,| 2.4 | CLIENTS WITH DISABILITIES | 11 | | --- | --- | --- | | **3.** | **COMMUNITY INVOLVEMENT** | **12** | | **4.** | 
+fp-2021-0009,fp-2021,front/back matter,Table of Contents,| 2.4 | CLIENTS WITH DISABILITIES | 11 | | --- | --- | --- | | 14.1 | APPENDIX 1: SUMMARY OF RECOMMENDATION -<br/>MEDICA
+fp-2021-0010,fp-2021,front/back matter,Table of Contents,14.4 APPENDIX 4: PREGNANCY CHECKLIST 103 14.5 APPENDIX 5: ICUD INSERTION PROCEDURE 104 14.6 APPENDIX 6: EFFECT OF SPECIF
+fp-2021-0011,fp-2021,front/back matter,List of Figures,## **List of Figures** Figure 1: Structured counselling process 14
+fp-2021-0186,fp-2021,near-empty,13 References,## **13. REFERENCES** 1. International Planned Parenthood Federation (IPPF). 2016. *Sustainable Development Goals and Fa
+fp-2021-0213,fp-2021,near-empty,14 Appendices > 14.6 Appendix 6: Effect of Specific Arvs on the Effectiveness of Hormonal Contraceptive Methods,WEBSTER PRINT 📞 2404 0048
+sti-vh-draft-2026-0001,sti-vh-draft-2026,cover,Eswatini National Sexually transmitted Infections (STIs) and Hepatitis (VH) Guidelines,# KINGDOM OF ESWATINI MINISTRY OF HEALTH # # Eswatini National Sexually transmitted Infections (STIs) and Hepatitis (VH)
+sti-vh-draft-2026-0002,sti-vh-draft-2026,front/back matter,Foreword,"# **Foreword** i Globally, 357 million new cases of these four (chlamydia, gonorrhea, syphilis and trichomoniasis) curab"
+sti-vh-draft-2026-0003,sti-vh-draft-2026,front/back matter,Foreword,"This strategy aims to improve treatment accuracy, minimize inappropriate antibiotic use, and mitigate AMR progression. W"
+sti-vh-draft-2026-0012,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Acknowledgements** The revision of the guidelines has been made possible by the tremendous support and technical gu
+sti-vh-draft-2026-0013,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Writing team** | MoH - SRHU<br/>Mngcineni Ndlangamandla<br/>Nomkhosi Bhembe<br/>Zandile Masangane<br/>Wiseman Mngom
+sti-vh-draft-2026-0014,sti-vh-draft-2026,front/back matter,Acknowledgements,# **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** | MoH - SNAP<br/>Takh
+sti-vh-draft-2026-0015,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Editorial and Validation team** | MoH - SNAP<br/>Mpumelelo J Mavimbela<br/>Khanyisile Nyembe<br/>Nomphilo Gwebu<br/
+sti-vh-draft-2026-0016,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** | Contents | vi | | 
+sti-vh-draft-2026-0017,sti-vh-draft-2026,front/back matter,Acknowledgements,| Contents | vi | | --- | --- | | 4.0 Laboratory Diagnosis of STIs and VH | 14 | | 4.1 Recommended diagnostic tests by i
+sti-vh-draft-2026-0018,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** | 4.2 Specimen colle
+sti-vh-draft-2026-0019,sti-vh-draft-2026,front/back matter,Acknowledgements,| 4.2 Specimen collection and transport *vii* | 16 | | --- | --- | | Clinical features | 28 | | Syndromic treatment of v
+sti-vh-draft-2026-0020,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** | Treatment Options 
+sti-vh-draft-2026-0021,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** | Description | .ix 
+sti-vh-draft-2026-0022,sti-vh-draft-2026,front/back matter,Acknowledgements,| Description | .ix | 49 | | --- | --- | --- | | Management | | 71 | | Cases for referral | X | 71 | | 7.5 Management of
+sti-vh-draft-2026-0023,sti-vh-draft-2026,front/back matter,Acknowledgements,| Description | .ix | 49 | | --- | --- | --- | | Management of STI’s in men who have sex with men | | 93 |
+sti-vh-draft-2026-0024,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** | Management of sexu
+sti-vh-draft-2026-0025,sti-vh-draft-2026,front/back matter,Acknowledgements,| Management of sexually transmitted pharyngitis | 93 | | --- | --- | | 13.1 Behavior change messages | 108 | | Behavior
+sti-vh-draft-2026-0026,sti-vh-draft-2026,front/back matter,Acknowledgements,## **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** | Staff training and
+sti-vh-draft-2026-0027,sti-vh-draft-2026,front/back matter,Acknowledgements,"| Staff training and skills | *xii* | 113 | | --- | --- | --- | | Annex 4: Summary table of common STI syndromes, their "
+sti-vh-draft-2026-0028,sti-vh-draft-2026,front/back matter,Acknowledgements,## List of Tables | Table 1: Abbreviations and acronyms used in these guidelines | xix | | --- | --- | | Table 2: Recomm
+sti-vh-draft-2026-0029,sti-vh-draft-2026,contents page,7.0 Management of Other STI's And Related Clinical Conditions > Hepatitis B and C viral infection > Prevention > Prevention of hepatitis B mother-to-child transmission (PMTCT),## List of Figures | Figure 1 syndromic treatment chart for male urethral syndrom | 23 | | --- | --- | | Figure 2 Point 
+sti-vh-draft-2026-0030,sti-vh-draft-2026,contents page,7.0 Management of Other STI's And Related Clinical Conditions > Hepatitis B and C viral infection > Treatment of chronic hepatitis B > Treatment regimen,## **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** cirrhosis or prior l
+sti-vh-draft-2026-0031,sti-vh-draft-2026,front/back matter,Acknowledgements,# Abbreviations XV *Table 1: Abbreviations and acronyms used in these guidelines*
+sti-vh-draft-2026-0032,sti-vh-draft-2026,acronym list (moved to glossary.jsonl),Abbreviations,| Abbreviation | Meaning | Abbreviation | Meaning | | --- | --- | --- | --- | | AIDS | Acquired immunodeficiency syndrom
+sti-vh-draft-2026-0358,sti-vh-draft-2026,front/back matter,References,"## References 1. Ministry of Health, Eswatini. The national condom strategy 2018-2022. Mbabane: Ministry of Health; 2017"
+sti-vh-draft-2026-0359,sti-vh-draft-2026,front/back matter,References,"# **Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines** **11.** Mason PR, et "
+sti-vh-draft-2026-0360,sti-vh-draft-2026,front/back matter,References,"**20.** **20.** Ministry of Health, Eswatini. Health programmes' performance: 2025 national annual report dissemination."
+sti-vh-draft-2026-0361,sti-vh-draft-2026,front/back matter,References,# Eswatini National Sexually Transmitted Infections (STIs) and Viral Hepatitis (VH) Guidelines 137 World Health Organiza
+prep-2025-0156,prep-2025,caption merged into prep-2025-0157,5 Documentation and Data Management > 5.3 PrEP Indicators > Table 21. Key monitoring indicators > Table 22. Key evaluation indicators,**Table 22. Key evaluation indicators**
+mental-health-deskguide-0041,mental-health-deskguide,caption merged into mental-health-deskguide-0042,Generalized Anxiety Disorder (GAD) and Panic Disorder > Table 3: Summary of Classification and Management of Anxiety Disorders,TABLE 4: STEPWISE MANAGEMENT OF GAD AND PANIC DISORDER
+mental-health-deskguide-0096,mental-health-deskguide,caption merged into mental-health-deskguide-0097,Schizophrenia and Other Psychosis > Table 13: Summary of Classification and Management of Schizophrenia & Other Psychosis,TABLE 14: STEPWISE MANAGEMENT OF SCHIZOPHRENIA AND OTHER PSYCHOTIC DISORDERS
+mental-health-deskguide-0108,mental-health-deskguide,caption merged into mental-health-deskguide-0109,Neurocognitive Disorders (dementia) > Table 15: Summary of Classification and Management of Neurocognitive Disorders,TABLE 16: STEPWISE MANAGEMENT OF DEMENTIA (NEUROCOGNITIVE DISORDERS)
+mental-health-deskguide-0201,mental-health-deskguide,caption merged into mental-health-deskguide-0202,Treatment Duration for Management of Bipolar Disorders > Pharmacological Management of ADHD > Table 40: Summary of Second Line Psychostimulants As Per Eswatini Treatment Guidelines and Essential Medicines List,**TABLE 40: SUMMARY OF SECOND LINE PSYCHOSTIMULANTS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST**
+hiv-amendment-2024-0020,hiv-amendment-2024,caption merged into hiv-amendment-2024-0021,Chapter 3: HIV Testing Services > 3.2 HIV Screening Tools > Figure 3.1 The HIV eligibility screening process flow.,***Figure 3.1 The HIV eligibility screening process flow.***
+ncdimh-0037,ncdimh,caption merged into ncdimh-0038,Special Considerations > Nicotine Use,**Nicotine dependence level (table in the figure):**
+ncdimh-0165,ncdimh,caption merged into ncdimh-0166,Insulin Therapy in Type 2 Diabetes > For Good Health Follow Tips > Diabetes in Pregnancy,**Flowchart: Diabetes in Pregnancy classification flowchart**
+ncdimh-0184,ncdimh,caption merged into ncdimh-0185,Diabetes and TB > Drugs Associated with increased risk of Osteoporosis and Risk of Fractures,***May also cause osteomalacia***
+ncdimh-0576,ncdimh,caption merged into ncdimh-0577,Nephrology > Classification of Acute Kidney Injury > Diagnosis of Acute Kidney Injury > Algorithm for Diagnosis and Management of Acute Kidney Injury,"**Flowchart: Clinical management flowchart for fluid, electrolyte, and hypertension issues**"
+ncdimh-0654,ncdimh,caption merged into ncdimh-0655,CKD and Contrast Media > Pharmacological Management of Glomerulonephritis,**Flowchart: Clinical management flowchart for nephrotic syndrome**
+ncdimh-0656,ncdimh,caption merged into ncdimh-0657,CKD and Contrast Media > Pharmacological Management of Glomerulonephritis,**Flowchart: Treatment algorithm for NS in a newly nephrotic child**
+ncdimh-0820,ncdimh,caption merged into ncdimh-0821,“refer to Ophthalmologist” > Chronic Glaucoma,**Failure to respond give:**
+ncdimh-0839,ncdimh,caption merged into ncdimh-0840,Palliative Care in the Trajectory of the Patient’s Illness,**Flowchart: Referral and Regional Hospital care pathways**
+ncdimh-0966,ncdimh,caption merged into ncdimh-0967,Activate Psychosocial Support > Management of Asthma > Pharmacological Treatment,**Reliever: As needed SABA or ICS-formoterol reliever for MART**
+ncdimh-0989,ncdimh,caption merged into ncdimh-0990,Activate Psychosocial Support > Bronchiectasis > Diagnosis and Management of Bronchiectasis,**Flowchart: Clinical guidelines for the management of bronchiectasis**
+hiv-2022-0057,hiv-2022,caption merged into hiv-2022-0058,2 HIV Prevention > Voluntary medical male circumcision > Eligibility criteria for PrEP,**Flowchart: Flowchart for PrEP initiation- HIV Exposure and acute HIV infection (AHI) assessment**
+hiv-2022-0059,hiv-2022,caption merged into hiv-2022-0060,2 HIV Prevention > Voluntary medical male circumcision > Eligibility criteria for PrEP,*Figure 2.2 Flowchart for PrEP (oral PrEP or the ring) initiation- HIV Exposure and acute HIV infection (AHI) assessment
+hiv-2022-0104,hiv-2022,caption merged into hiv-2022-0105,3 HIV Testing Services > 3.2 HIV testing service delivery approaches > 3.2.1 Targeted testing,*Figure 3.2 Targeted Testing*
+hiv-2022-0115,hiv-2022,caption merged into hiv-2022-0116,3 HIV Testing Services > 3.2 HIV testing service delivery approaches > HIV Self-Testing Approaches > Table 3.2 HIV self-testing approaches,*Figure 3.4 HIV self-testing flow chart*
+hiv-2022-0155,hiv-2022,caption merged into hiv-2022-0156,3 HIV Testing Services > 3.9 HIV Testing Algorithm > Confirmatory testing of positive test results and managing discordant results,**Flowchart: Eswatini Serial HIV testing algorithm for Adults and Children above 18 Months**
+hiv-2022-0157,hiv-2022,caption merged into hiv-2022-0158,3 HIV Testing Services > 3.9 HIV Testing Algorithm > Confirmatory testing of positive test results and managing discordant results,*Figure 3.10 Eswatini Serial HIV testing algorithm for Adults and Children above 18 Months*
+hiv-2022-0160,hiv-2022,caption merged into hiv-2022-0161,3 HIV Testing Services > 3.10 Post-Test Counselling > General Post-Test Counselling Principles,*Figure 3.11 Summary of Post-Test Counselling*
+hiv-2022-0177,hiv-2022,caption merged into hiv-2022-0178,3 HIV Testing Services > 3.11 Testing for Recent Infection > Table 3.11 Responsibilities to ensure quality assurance,Table 3.11 Responsibilities to ensure quality assurance (continued from previous page)
+hiv-2022-0198,hiv-2022,caption merged into hiv-2022-0199,4 Referral and Linkages > 4.10 Summary of enhanced Linkages Case Management,*Figure 4.3 Enhanced LCM outline*
+hiv-2022-0224,hiv-2022,caption merged into hiv-2022-0225,5 Basic Care Package for HIV-Positive Individuals > 5.5 Co-trimoxazole desensitization in adults and adolescents > Table 5.5 Co-trimoxazole Prophylaxis Desensitization for Adults and Adolescents,***The Co-trimoxazole oral suspension is (200 mg SMZ + 40 mg TMZ) / 5 ml***
+hiv-2022-0560,hiv-2022,caption merged into hiv-2022-0561,9 ART for Children and Adolescents > 9.4 Advanced HIV Disease (AHD) in children and adolescents > Table 9.2 Definitions of Advanced Immunodeficiency and High-Risk Groups,*Figure 9.2 Elements of STOP strategy*
+hiv-2022-0564,hiv-2022,caption merged into hiv-2022-0565,9 ART for Children and Adolescents > 9.4 Advanced HIV Disease (AHD) in children and adolescents > Table 9.2 Definitions of Advanced Immunodeficiency and High-Risk Groups,*Table 9.3 Stop AIDS strategy (continued from the previous page)*
+hiv-2022-0576,hiv-2022,caption merged into hiv-2022-0577,9 ART for Children and Adolescents > 9.6 Treatment Optimization > Table 9.7 Strategies to Optimize ART,**Flowchart: Treatment optimisation flowchart**
+hiv-2022-0625,hiv-2022,caption merged into hiv-2022-0626,9 ART for Children and Adolescents > 9.12 Managing Treatment Failure in Children and Adolescents > Potential Options for Third-Line Regimens > Table 9.16 Potential Third-Line Regimens for Children and Adolescents,**DRV/r should not be given to children below 3years of age**
+hiv-2022-0649,hiv-2022,caption merged into hiv-2022-0650,9 ART for Children and Adolescents > 9.16 Differentiated Service Delivery for children and adolescents > Differentiated care models,**Flowchart: Pediatric and adolescent Retention Framework diagram**
+hiv-2022-0653,hiv-2022,caption merged into hiv-2022-0654,9 ART for Children and Adolescents > 9.17 Elements of a Well-Functioning Paediatric HIV Program,*Table 9.18 Elements of a Well-Functioning Paediatric HIV Program (continued from the previous page)*
+hiv-2022-0704,hiv-2022,caption merged into hiv-2022-0705,10 Management of Non-Communicable > Kaposi sarcoma staging criteria > Table 10.12 Staging Criteria for Classic Kaposi Sarcoma,**Flowchart: Treatment flowchart for Kaposi Sarcoma**
+hiv-2022-0706,hiv-2022,caption merged into hiv-2022-0707,10 Management of Non-Communicable > Kaposi sarcoma staging criteria > Table 10.12 Staging Criteria for Classic Kaposi Sarcoma,*Figure 10.3 Treatment Guidelines for Kaposi Sarcoma*
+hiv-2022-0753,hiv-2022,caption merged into hiv-2022-0754,11 Annexes > 11.7 Most Common Adverse Drug Reactions to ARV Drugs > (RTV)(as a pharmacokinetic booster),**\* (RTV)(as a pharmacokinetic booster)**
+tb-2025-0345,tb-2025,caption merged into tb-2025-0346,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment",# CHAPTER 8
+fp-2021-0031,fp-2021,caption merged into fp-2021-0032,4 Selected Procedures for Providing FP Methods > 4.1 Counselling > Figure 1: Structured counselling process,***Figure 1: Structured counselling process***
+sti-vh-draft-2026-0089,sti-vh-draft-2026,caption merged into sti-vh-draft-2026-0090,5.0 Management of STIs Associated Syndromes > 5.2 Male Urethral Syndrome (MUS) > Treatment Options for Urethral Discharge Syndrome,**Figure 2: Point of care management of male urethral syndrome**
+sti-vh-draft-2026-0268,sti-vh-draft-2026,caption merged into sti-vh-draft-2026-0269,7.0 Management of Other STI's And Related Clinical Conditions > Hepatitis C (HCV) > Treatment of chronic hepatitis C > Management of treatment interruption,"*Figure 17: Algorithm for screening, diagnosis, assessment, treatment and follow-up of people with chronic HCV infection"
+sti-vh-draft-2026-0307,sti-vh-draft-2026,caption merged into sti-vh-draft-2026-0308,6.0 Mixed STI Syndromes > Definition,*Table 13: Behaviour change messages by risk group*
+anc-0025,anc,fragment merged into anc-0024,2.1 New Schedule of ANC contacts,"<hr/> <sup>11</sup> WHO, 2016"
+ncdimh-0738,ncdimh,fragment merged into ncdimh-0737,Breast Cancer > The following table summarizes the recommended diagnostics for breast cancer,- ✓ KFT - ✓ LFT - FBC and different count|
+ncdimh-0928,ncdimh,fragment merged into ncdimh-0927,Suicide > Warning Signs of Suicidal Behaviour,| Warning signs to look out for | | | --- | --- | | | |
+ncdimh-0977,ncdimh,fragment merged into ncdimh-0976,Activate Psychosocial Support > Etiology/Risks Factors,**Note:** Signs may be completely absent in early stages of COPD
+hiv-2022-0126,hiv-2022,fragment merged into hiv-2022-0125,3 HIV Testing Services > 3.3 Intimate partner violence screening tool > IPV screening tool,"**NOTE: If client appears agitated, sweaty, restless, crying or irritable during the discussion, stop all questions and "
+hiv-2022-0535,hiv-2022,fragment merged into hiv-2022-0534,8 Prevention of Mother to Child Transmission of HIV > 8.11 Enhanced Infant Prophylaxis (eIP) > Table 8.15 Special Considerations for Enhanced Infant Prophylaxis in Exposed Infants,*Note: Give AZT only up until 6 weeks post-partum regardless of the start date. Give NVP until at least 14 weeks of age 
+hiv-2022-0786,hiv-2022,fragment merged into hiv-2022-0785,11 Annexes > 11.18 Tanner staging > Source: BMJ 2020;368:l6597,**Source: *BMJ* 2020;368:l6597**
+hiv-2022-0831,hiv-2022,fragment merged into hiv-2022-0830,"11 Annexes > 11.31 Nutritional Assessments > BMI-for-Age Table, BOYS 15–18 years",**Adapted from WHO 2007**
+hiv-2022-0833,hiv-2022,fragment merged into hiv-2022-0832,"11 Annexes > 11.31 Nutritional Assessments > BMI-for-Age Table, Girls 15-18 years",**Adapted from WHO 2007**
+hiv-2022-0835,hiv-2022,fragment merged into hiv-2022-0834,11 Annexes > 11.32 Differential diagnosis of a child presenting with cough and respiratory distress,*Adapted from World Health Organization. Management of the child with a serious infection or severe malnutrition. Guidel
+tb-2025-0033,tb-2025,fragment merged into tb-2025-0032,"1.5 Epidemiology of Tuberculosis > 1.5.1 Global trend in TB incidence > Figure 1: Global TB Incidence Trends, 2024","*(Source: WHO Global TB Report, 2024)*"
+tb-2025-0043,tb-2025,fragment merged into tb-2025-0042,"1.5 Epidemiology of Tuberculosis > Estimated TB incidence rate and number of deaths caused by TB — panels: Estimated TB incidence rate, Estimated number of deaths caused by TB; 2010–2023","*(Source: WHO Global TB Report, 2024)*"
+tb-2025-0145,tb-2025,fragment merged into tb-2025-0144,3.7 TB screening Algorithms with CXR and CAD/AI use > 3.7.1 Education message for proper sputum sample collection > Breath in and Out 3 Times,(Source: <u>https://www.vdh.virginia.gov/content/uploads/sites/112/2019/04/Lab.pdf</u>)
+tb-2025-0154,tb-2025,fragment merged into tb-2025-0153,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.2 A brief about TB laboratory diagnostic tests > 4.2.2 Microscopy > Table 10: Guide for grading results of smear microscopy,*Source: Laboratory services in tuberculosis control. WHO/HTM/TB/98.258*
+tb-2025-0230,tb-2025,fragment merged into tb-2025-0229,6.3 Essential first-line anti-TB drugs > Table 12: Essential anti-TB drugs and recommended daily dosages by weight,*Source: Treatment of tuberculosis guidelines. 5th Edition. WHO/HTM/TB/2017*
+tb-2025-0252,tb-2025,fragment merged into tb-2025-0251,6.6 Treatment of Extra-Pulmonary Tuberculosis (EPTB) > The mechanism of hepatoprotection is three-fold.,"**Note:** Without rifampicin in a treatment regimen, treatment cannot be short course i.e. patients should be treated fo"
+tb-2025-0263,tb-2025,fragment merged into tb-2025-0262,6.8 Monitoring Tuberculosis Treatment > 6.8.5 Bacteriological Monitoring > Table 17: Recommended Schedule for follow-up sputum examinations for PTB patients,*Source: Treatment of tuberculosis guidelines. WHO (2018)*
+tb-2025-0365,tb-2025,fragment merged into tb-2025-0364,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available)","*(Source: WHO Operational Handbook on Tuberculosis, Module 5: Management of Tuberculosis in Children and Adolescents, 20"
+tb-2025-0409,tb-2025,fragment merged into tb-2025-0408,9.4 Monitoring of TB Patients for Adverse Effects of Anti-TB Drugs > Pharmacovigilance and Adverse Event Management > Table 39: Guide to management of side effects of first line,*Source: Treatment of tuberculosis guidelines. 5thEdition. WHO/HTM/TB/2017*
+tb-2025-0464,tb-2025,fragment merged into tb-2025-0463,9.6 Management of specific conditions > 9.6.13 Specific toxicities due to Bedaquiline > Other toxicities,| | | | --- | --- | | Hypothyroidism | Levothyroxine |
+tb-2025-0465,tb-2025,fragment merged into tb-2025-0463,9.6 Management of specific conditions > 9.6.13 Specific toxicities due to Bedaquiline > Other toxicities,Source: Adapted from Guidelines for Programmatic Management of Drug-resistant Tuberculosis. Emergency update 2008. WHO/H
+tb-2025-0558,tb-2025,fragment merged into tb-2025-0557,"11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 56: TPT dosing by body size","**Note:** For 3HP regimen, when Rifapentine 150 mg formulation or individual molecule of Isoniazid and Rifapentine are n"
+tb-2025-0598,tb-2025,fragment merged into tb-2025-0597,11.18 Performing TB Infection Tests > Which TBI treatment regimen option to give? > Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus),**Note:** The NTP may introduce an Interferon-Gamma Release Assay (IGRA) in the future. The IGRA test measures the respo
+unaids-linkages-sop-0153,unaids-linkages-sop,fragment merged into unaids-linkages-sop-0152,14 Annex > Objective,* Refer client to clinician.|
