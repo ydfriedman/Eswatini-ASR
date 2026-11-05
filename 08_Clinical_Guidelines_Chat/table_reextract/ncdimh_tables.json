@@ -1,0 +1,1076 @@
+{
+ "doc_id": "ncdimh",
+ "doc_title": "Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",
+ "method": "Transcribed by Claude from PDF page images, checked against the PDF text layer and the original chunks.",
+ "pdf_parts": [
+  {
+   "file": "NCD_1.pdf",
+   "pages": "1-89"
+  }
+ ],
+ "tables": [
+  {
+   "table_id": "ncdimh-tbl-diabetes-definition-classification",
+   "page": 31,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetes > Definition, classification and treatment targets",
+   "caption": "Diabetes mellitus: definition, classification and treatment targets",
+   "replaces_chunks": [
+    "ncdimh-0073"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Section"
+     },
+     {
+      "t": "Content"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Definition"
+     },
+     {
+      "t": "Diabetes mellitus is a chronic metabolic condition in which the pancreas no longer produces enough insulin (impaired insulin secretion) or cells stop responding to the insulin that is produced (insulin resistance), resulting in increased blood glucose."
+     }
+    ],
+    [
+     {
+      "t": "Classification: common types"
+     },
+     {
+      "t": "1. Type 1 diabetes: due to autoimmune b-cell destruction, usually leading to absolute insulin deficiency, including latent autoimmune diabetes of adulthood. 2. Type 2 diabetes: due to a progressive loss of b-cell insulin secretion, frequently on the background of insulin resistance."
+     }
+    ],
+    [
+     {
+      "t": "Classification: specific types"
+     },
+     {
+      "t": "Monogenic diabetes syndromes (neonatal diabetes; maturity-onset diabetes of the young). Diseases of the exocrine pancreas (such as cystic fibrosis and pancreatitis). Drug- or chemical-induced diabetes: glucocorticoid use, treatment of HIV/AIDS, or after organ transplantation. Gestational diabetes mellitus (GDM): diabetes diagnosed in the second or third trimester of pregnancy that was not clearly overt diabetes before gestation."
+     }
+    ],
+    [
+     {
+      "t": "Treatment target: HbA1c"
+     },
+     {
+      "t": "HbA1c <7% for most adults. HbA1c <6.5% for type 1 diabetes without hypoglycaemia. HbA1c <8% for people with frequent hypoglycaemia, limited life expectancy, or cardiovascular complications."
+     }
+    ],
+    [
+     {
+      "t": "Treatment target: glucose"
+     },
+     {
+      "t": "All clients on treatment should aim for a glycaemia (random or fasting) ranging 5-10 mmol/L."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The PDF lays this out as a box with full-width 'Definition', 'Classification' and 'Treatment Target' rows; restructured as one row per section."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-diabetes-baseline-follow-up-checklist",
+   "page": 32,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetes > Diabetes baseline and follow-up checklist",
+   "caption": "Diabetes baseline and follow-up checklist: what to do at the initial visit, 3-6 monthly and annually",
+   "replaces_chunks": [
+    "ncdimh-0076",
+    "ncdimh-0077",
+    "ncdimh-0078"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Component"
+     },
+     {
+      "t": "Initial visit"
+     },
+     {
+      "t": "3-6 monthly"
+     },
+     {
+      "t": "Annually"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Patient history"
+    },
+    [
+     {
+      "t": "Glycaemic symptom review (polyuria, polydipsia, weight change, fatigue, blurred vision)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Hypoglycaemic symptom review (shakiness, sweating, dizziness, confusion, hunger, irritability, loss of consciousness)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Family and personal medical history (diabetes, CVD, hypertension, dyslipidaemia, autoimmune disease, obesity)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Medication history (current and previous antidiabetic, antihypertensive, lipid-lowering drugs; side-effects; adherence; allergies)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Risk factor assessment (smoking, alcohol, diet, physical inactivity, mental health, family history)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Reproductive history (family planning, preconception counselling)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Psychosocial assessment (occupation, school/work performance, family/community support, depression, anxiety)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    {
+     "section": "Physical examination"
+    },
+    [
+     {
+      "t": "Vital signs (blood pressure, pulse, temperature, respiratory rate)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Anthropometric measurements (weight, height, BMI, MUAC, waist circumference)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓ (height at baseline only)"
+     }
+    ],
+    [
+     {
+      "t": "Pubertal and developmental assessment (Tanner staging in adolescents)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Injection site assessment"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular and systemic examination (heart, lungs, abdomen, thyroid, peripheral pulses, oedema)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "As indicated"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Foot examination (ulcers, sensation, pulses, deformities)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    {
+     "section": "Laboratory tests"
+    },
+    [
+     {
+      "t": "Blood glucose (fasting, random, or postprandial as appropriate)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "HbA1c (3-6 monthly depending on glycaemic control)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Kidney function (creatinine, eGFR, potassium)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Lipid profile (total cholesterol, HDL, LDL, triglycerides)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Thyroid function tests (TSH ± free T4)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "HIV testing (as per national guidelines)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Urine analysis (glucose, ketones, protein, albumin-creatinine ratio)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Additional tests if indicated (liver function, electrolytes, autoimmune markers)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    {
+     "section": "Imaging and special tests"
+    },
+    [
+     {
+      "t": "Ophthalmic evaluation (visual acuity, fundoscopy, fundus photography)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓*"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular and renal imaging (ECG, echocardiogram, renal ultrasound)"
+     },
+     {
+      "t": "As indicated"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "As indicated"
+     }
+    ],
+    [
+     {
+      "t": "Neuropathy screening (monofilament, vibration, reflexes)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    {
+     "section": "Health promotion and other tasks"
+    },
+    [
+     {
+      "t": "Diabetes education (self-management, glucometer use, treatment adherence)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Lifestyle counselling (nutrition, exercise, smoking/alcohol cessation)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Goal setting and individualized care planning"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Medication review and dose adjustment"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Vaccination review (KEPI, influenza, pneumococcal, COVID-19, as indicated)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Family planning and preconception counselling"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Psychosocial support (mental health, school/work performance, family engagement)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "✓"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular risk assessment (ASCVD, WHO, or Framingham risk score)"
+     },
+     {
+      "t": "✓"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "✓"
+     }
+    ]
+   ],
+   "footnotes": [
+    "✓ = do at this visit; — = not routinely."
+   ],
+   "source_flags": [
+    "Table continues onto p.33.",
+    "'✓*' for annual ophthalmic evaluation has no printed footnote."
+   ],
+   "pages": [
+    32,
+    33
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-t2dm-pharmacological-treatment",
+   "page": 34,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Type 2 Diabetes in Outpatient > Type 2 diabetes pharmacological treatment",
+   "caption": "Type 2 diabetes pharmacological treatment (flowchart, by HbA1c)",
+   "replaces_chunks": [
+    "ncdimh-0079",
+    "ncdimh-0080",
+    "ncdimh-0081"
+   ],
+   "content": "Newly diagnosed type 2 DM patient: check HbA1c. Health promotion for all (disease, medication adherence, nutrition, behaviour), individual and group.\n\nBy HbA1c at diagnosis:\n- HbA1c <7%: lifestyle modification; recheck HbA1c in 6 months.\n- HbA1c 7-8% (printed '<7%-8%'): start metformin [note 1]: 1. 500 mg OD; 2. recheck HbA1c in 3 months; 3. increase dose every 3 months until at goal or maximum tolerated dose.\n- HbA1c 8-9.9% (printed '<8%-9.9%'): consider dual therapy: 1. start metformin 500 mg OD and titrate every 2 weeks to a maximum of 2 g if tolerated; 2. add a second drug (sulfonylurea, DPP-4 inhibitor, pioglitazone, GLP-1 agonists or SGLT-2 inhibitors).\n- HbA1c >10%: consider insulin: consider starting the patient on insulin therapy alone or in combination with metformin (consult physician). Start at low-dose insulin and increase until target reached.\n\nFollow-up after lifestyle modification or metformin:\n- HbA1c <7%: 1. continue current medication; 2. recheck HbA1c in 6 months; 3. fasting blood glucose every 3 months.\n- HbA1c >7%: 1. add a second OGLA, e.g. sulfonylurea, DPP-4 inhibitor, pioglitazone, GLP-1 agonists or SGLT-2 inhibitors; 2. recheck HbA1c in 3 months; 3. increase the dose of the second agent until glycaemic target reached, or maximum dose. If HbA1c remains >8%, review with physician and consider referral to the diabetes clinic for insulin management.\n\nT2DM diagnosis criteria: 1. FPG > 7.0 mmol/L; 2. random glucose > 11.1 mmol/L; 3. need two positive tests, one must be FBG.\nFor older patients, it is reasonable to set the HbA1c goal at < 8%.\n\n[note 1] Caution: metformin use in patients with reduced kidney function: 1. do not start new patients on metformin if CrCl < 45 ml/min; 2. continue metformin if already on it and CrCl is 30-45 ml/min, but repeat CrCl in 6 months; 3. stop metformin if CrCl < 30 ml/min.",
+   "footnotes": [],
+   "source_flags": [
+    "HbA1c bands are printed '<7%', '<7%-8%', '<8%-9.9%', '>10%'; read as <7, 7-8, 8-9.9, >10 (10.0 itself is not covered).",
+    "The diagnosis criteria here (FPG > 7.0, two positive tests) differ slightly from the diagnosis box on p.22 (FPG ≥ 7.0, HbA1c ≥ 6.5%)."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-oral-glucose-lowering-agents",
+   "page": 35,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Type 2 Diabetes in Outpatient > Oral agents used in the management of type 2 diabetes",
+   "caption": "Oral agents used in the management of type 2 diabetes: doses, frequency, side effects and contraindications",
+   "replaces_chunks": [
+    "ncdimh-0082",
+    "ncdimh-0083",
+    "ncdimh-0084",
+    "ncdimh-0085",
+    "ncdimh-0086",
+    "ncdimh-0087"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Name of drug"
+     },
+     {
+      "t": "Minimum dose"
+     },
+     {
+      "t": "Max daily dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Major side effects"
+     },
+     {
+      "t": "Contraindications / use with caution"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "A. Sulphonylureas. Mechanism of action: stimulate the pancreas to release insulin (regardless of time and glucose levels)"
+    },
+    [
+     {
+      "t": "Glibenclamide"
+     },
+     {
+      "t": "2.5 mg"
+     },
+     {
+      "t": "15 mg"
+     },
+     {
+      "t": "OD or BD"
+     },
+     {
+      "t": "Hypoglycemia, weight gain, skin rashes"
+     },
+     {
+      "t": "Caution in liver and renal disease"
+     }
+    ],
+    [
+     {
+      "t": "Gliclazide MR"
+     },
+     {
+      "t": "30 mg"
+     },
+     {
+      "t": "120 mg"
+     },
+     {
+      "t": "OD"
+     },
+     {
+      "t": "Hypoglycemia, weight gain, skin rashes"
+     },
+     {
+      "t": "Pregnancy; caution in liver disease"
+     }
+    ],
+    [
+     {
+      "t": "Glimepiride"
+     },
+     {
+      "t": "1 mg"
+     },
+     {
+      "t": "4 mg"
+     },
+     {
+      "t": "OD"
+     },
+     {
+      "t": "Hypoglycemia, weight gain, skin rashes"
+     },
+     {
+      "t": "Pregnancy; caution in liver and renal disease"
+     }
+    ],
+    [
+     {
+      "t": "Glipizide"
+     },
+     {
+      "t": "5 mg"
+     },
+     {
+      "t": "40 mg"
+     },
+     {
+      "t": "OD or BD"
+     },
+     {
+      "t": "Hypoglycemia, weight gain, skin rashes"
+     },
+     {
+      "t": "Pregnancy; caution in liver and renal disease"
+     }
+    ],
+    {
+     "section": "B. Biguanide. Mechanism of action: (i) reduce glucose production in liver; (ii) cause (mild) reduction in peripheral insulin resistance"
+    },
+    [
+     {
+      "t": "Metformin"
+     },
+     {
+      "t": "500 mg"
+     },
+     {
+      "t": "2000 mg"
+     },
+     {
+      "t": "OD or BD"
+     },
+     {
+      "t": "Abdominal pain, nausea, loose bowel motions, lactic acidosis; vitamin B12 deficiency with prolonged use"
+     },
+     {
+      "t": "Renal failure, GFR <30 ml/min; heart failure stage 3 or 4; liver failure"
+     }
+    ],
+    {
+     "section": "C. Thiazolidinediones. Mechanism of action: (i) improved insulin sensitivity in muscle, adipose tissue and liver; (ii) reduce glucose output from liver; (iii) change fat distribution by decreasing visceral fat and increasing peripheral fat"
+    },
+    [
+     {
+      "t": "Pioglitazone"
+     },
+     {
+      "t": "15 mg"
+     },
+     {
+      "t": "45 mg"
+     },
+     {
+      "t": "OD"
+     },
+     {
+      "t": "Liver impairment, fluid retention, weight gain, dilutional anemia, osteoporosis"
+     },
+     {
+      "t": "Heart failure and liver failure; pregnancy; bone fractures"
+     }
+    ],
+    {
+     "section": "D. Meglitinides. Mechanism of action: stimulate pancreas to release more insulin (possibly related to blood glucose level)"
+    },
+    [
+     {
+      "t": "Repaglinide"
+     },
+     {
+      "t": "1.0 mg"
+     },
+     {
+      "t": "16 mg"
+     },
+     {
+      "t": "BD, TDS or QID (before meals)"
+     },
+     {
+      "t": "Liver impairment, fluid retention, weight gain, dilutional anemia"
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "E. Alpha glucosidase inhibitors. Mechanism of action: slow digestion of complex sugars (sucrose and starch), delaying absorption and the post-meal rise in blood glucose"
+    },
+    [
+     {
+      "t": "Acarbose"
+     },
+     {
+      "t": "25 mg"
+     },
+     {
+      "t": "300 mg"
+     },
+     {
+      "t": "TID (during meal)"
+     },
+     {
+      "t": "Dyspepsia, loose bowel motions, flatulence"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    {
+     "section": "F. DPP-4 inhibitors (gliptins). Mechanism of action: improve pancreatic islet glucose sensing, increasing glucose-mediated insulin secretion and suppressing glucagon secretion"
+    },
+    [
+     {
+      "t": "Vildagliptin"
+     },
+     {
+      "t": "50 mg"
+     },
+     {
+      "t": "100 mg"
+     },
+     {
+      "t": "OD or BD"
+     },
+     {
+      "t": "Urticaria, angioedema, and immune mediated dermatologic effects. Acute pancreatitis. Risk of hypoglycemia",
+      "rs": 4
+     },
+     {
+      "t": "Pancreatitis; allergy, pregnancy, lactation; caution with heart failure (saxagliptin)",
+      "rs": 4
+     }
+    ],
+    [
+     {
+      "t": "Sitagliptin"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "100 mg"
+     },
+     {
+      "t": "OD"
+     }
+    ],
+    [
+     {
+      "t": "Saxagliptin"
+     },
+     {
+      "t": "5 mg"
+     },
+     {
+      "t": "10 mg"
+     },
+     {
+      "t": "OD"
+     }
+    ],
+    [
+     {
+      "t": "Linagliptin"
+     },
+     {
+      "t": "5 mg"
+     },
+     {
+      "t": "5 mg"
+     },
+     {
+      "t": "OD"
+     }
+    ],
+    {
+     "section": "G. SGLT-2 inhibitors. Mechanism of action: suppress renal glucose reabsorption by blocking the sodium-glucose co-transporter 2 (SGLT-2), increasing urinary glucose excretion"
+    },
+    [
+     {
+      "t": "Canagliflozin"
+     },
+     {
+      "t": "100 mg"
+     },
+     {
+      "t": "300 mg"
+     },
+     {
+      "t": "OD"
+     },
+     {
+      "t": "Polyurea, UTI, DKA, genital candidiasis, hypotension",
+      "rs": 3
+     },
+     {
+      "t": "Renal failure (action dependent on normal GFR), or sensitivity to active ingredients or its excipients",
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "Dapagliflozin"
+     },
+     {
+      "t": "5 mg"
+     },
+     {
+      "t": "10 mg"
+     },
+     {
+      "t": "OD"
+     }
+    ],
+    [
+     {
+      "t": "Empagliflozin"
+     },
+     {
+      "t": "10 mg"
+     },
+     {
+      "t": "25 mg"
+     },
+     {
+      "t": "OD"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.36 (sections F and G).",
+    "Side effects and contraindications for DPP-4 inhibitors and for SGLT-2 inhibitors are single cells spanning all drugs in the class.",
+    "Sitagliptin has no minimum dose printed."
+   ],
+   "pages": [
+    35,
+    36
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-t2dm-pharmacotherapy-progression",
+   "page": 36,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Type 2 Diabetes in Outpatient > Pharmacotherapy progression in type 2 diabetes",
+   "caption": "Pharmacotherapy progression in type 2 diabetes (monotherapy to triple therapy and insulin)",
+   "replaces_chunks": [],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Stage"
+     },
+     {
+      "t": "Regimen"
+     },
+     {
+      "t": "Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Monotherapy"
+     },
+     {
+      "t": "Metformin is the drug of first choice at diagnosis."
+     },
+     {
+      "t": "Continue until contraindicated or not tolerated. If metformin is contraindicated or not tolerated, use gliclazide. For patients with established cardiovascular disease intolerant to metformin, consider SGLT2 inhibitor or GLP-1RA (under specialist care)."
+     }
+    ],
+    [
+     {
+      "t": "Initial dual therapy"
+     },
+     {
+      "t": "Metformin + gliclazide"
+     },
+     {
+      "t": "Consider if the patient has symptomatic hyperglycaemia and HbA1c >9% at diagnosis. Review gliclazide continuation once metformin dose and lifestyle interventions are optimized."
+     }
+    ],
+    [
+     {
+      "t": "Dual therapy"
+     },
+     {
+      "t": "Add a second agent if target not achieved with monotherapy"
+     },
+     {
+      "t": "Options to add: gliclazide, DPP-4 inhibitor, pioglitazone, or SGLT2 inhibitor. Consider comorbidities, ability to access medicines, and properties of each drug. Fixed-dose combinations (e.g., DPP-4 inhibitor + metformin) may offer compliance and cost advantages."
+     }
+    ],
+    [
+     {
+      "t": "Triple therapy"
+     },
+     {
+      "t": "Add a third oral agent or an injectable agent"
+     },
+     {
+      "t": "Consider if HbA1c is above individualized target (typically <7% for most) with two oral agents. Injectable options: GLP-1RA or basal insulin. Do NOT combine: GLP-1RA with DPP-4 inhibitor; GLP-1RA with SGLT2 inhibitor; pioglitazone with insulin."
+     }
+    ],
+    [
+     {
+      "t": "Triple therapy (insulin)"
+     },
+     {
+      "t": "Add a third oral agent or an injectable agent."
+     },
+     {
+      "t": "For patients on three oral agents who are still not at target. Other oral agents can be stopped upon initiation of premix insulin."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The last row is printed 'Triple Therapy' a second time; its guidance is about starting premix insulin.",
+    "The old chunks for this page repeated the DPP-4/SGLT-2 rows instead of this table; this table was missing from the chunk set."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-insulin-indications-t2dm",
+   "page": 37,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Insulin Therapy in Type 2 Diabetes > Indications and timing for insulin",
+   "caption": "Insulin therapy in type 2 diabetes: indications, when to initiate, and good practice",
+   "replaces_chunks": [
+    "ncdimh-0089",
+    "ncdimh-0090"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Indications for insulin"
+     },
+     {
+      "t": "When should insulin be initiated?"
+     },
+     {
+      "t": "Good practice"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Poor glycaemic control: HbA1c still [above target] despite previous attempts to improve with lifestyle modification and maximum oral therapy. Patient is symptomatic (weight loss, polyuria, polydipsia, recurrent infections). Steroid-induced diabetes. Patient unable to tolerate or has contraindication to OGLAs. Gestational diabetes or diabetes in pregnancy not controlled on OGLAs. Painful neuropathy. Foot ulceration and infection."
+     },
+     {
+      "t": "As soon as there is evidence of sub-optimal glycaemic control. After reviewing the patient's ability to change their lifestyle and medication concordance. Following a full discussion with the patient that includes identifying barriers to insulin initiation, e.g. occupational issues, fear of weight gain, fear of hypoglycaemia and fear of injections."
+     },
+     {
+      "t": "Insulin initiation should be part of a structured educational programme for the patient, and competent health care staff should have sufficient time for initiation and follow-up until glycaemic control is optimized. The decision to start insulin should be made in partnership with the person, and the choice of regimen should cater for individual needs. The person initiating insulin should be trained and competent to do so in line with the national guidelines, and should consult with the physician/diabetologist. Ensure educational materials and support literature are available for the patient starting insulin. Patients requiring insulin prior to pregnancy should be referred to the gynaecologist."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The PDF prints 'HbA1c still despite previous attempts'; a word is missing ('[above target]' added)."
+   ],
+   "context_before": "Diabetes is a progressive condition, and many patients with type 2 diabetes eventually require and benefit from insulin therapy."
+  }
+ ]
+}
