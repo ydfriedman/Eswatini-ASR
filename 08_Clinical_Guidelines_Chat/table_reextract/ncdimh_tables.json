@@ -1071,6 +1071,1000 @@
     "The PDF prints 'HbA1c still despite previous attempts'; a word is missing ('[above target]' added)."
    ],
    "context_before": "Diabetes is a progressive condition, and many patients with type 2 diabetes eventually require and benefit from insulin therapy."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-insulin-initiation-t2dm",
+   "page": 38,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Insulin Therapy in Type 2 Diabetes > Stepwise approach to insulin initiation in type 2 DM",
+   "caption": "Stepwise approach to insulin initiation in type 2 DM (flowchart)",
+   "replaces_chunks": [
+    "ncdimh-0091",
+    "ncdimh-0092",
+    "ncdimh-0093"
+   ],
+   "content": "Steps run from 1 injection (more flexible, lower patient complexity) to 3+ injections (less flexible, high complexity).\n\nStep 1 - Basal insulin (usually with metformin), 1 injection:\n  Start: 10 units per day, or 0.1 to 0.2 units per kg per day.\n  Adjust: 10% to 15%, or 2 to 4 units, once or twice weekly to reach fasting BG target.\n  For hypoglycaemia: determine and address cause; decrease dose by 4 units or 10% to 20%.\n\nIf not controlled after fasting BG target is reached (or if dose > 0.5 units per kg per day), treat postprandial glucose excursions with mealtime insulin (consider an initial glucagon-like peptide 1 receptor agonist trial). Two options (2 injections, moderate complexity):\n\nOption A - Add 1 rapid-acting insulin injection before the largest meal:\n  Start: 4 units, 0.1 units per kg, or 10% of basal dose; if A1C <8%, consider decreasing basal insulin by the same amount.\n  Adjust: increase dose by 1 to 2 units or 10% to 15% once or twice weekly until SMBG target is reached.\n  For hypoglycaemia: determine and address cause; decrease dose by 2 to 4 units or 10% to 20%.\n  If not controlled: consider basal-bolus (Step 3).\n\nOption B - Change to premixed insulin twice daily:\n  Start: divide current basal dose into 2/3 a.m. and 1/3 p.m., or into 1/2 a.m. and 1/2 p.m.\n  Adjust: increase dose by 1 to 2 units or 10% to 15% once or twice weekly until SMBG target is reached.\n  For hypoglycaemia: determine and address cause; decrease dose by 2 to 4 units or 10% to 20%.\n  If not controlled: consider basal-bolus (Step 3).\n\nStep 3 - Add 2 or more rapid-acting insulin injections before the largest meals (basal-bolus, 3+ injections, high complexity):\n  Start: 4 units, 0.1 units per kg, or 10% of basal dose per meal; if A1C < 8%, consider decreasing basal dose by the same amount.\n  Adjust: increase dose by 1 to 2 units or 10% to 15% once or twice weekly until SMBG target is reached.\n  For hypoglycaemia: determine and address cause; decrease dose by 2 to 4 units or 10% to 20%.\n\nNB: for clients already on a single injectable agent, e.g. basal insulin, consider escalation to any of: 1. combination basal insulin and GLP-1RA therapy; 2. premix (twice daily) insulin; 3. basal-plus insulin therapy (adding one or more prandial doses of insulin to basal insulin). For all three options, metformin should be retained; consider stopping the other oral agents to reduce the cost and complexity of the regimen.",
+   "footnotes": [],
+   "source_flags": [
+    "The PDF prints 'ubits' (units) and 'dese' (dose); corrected."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-premixed-insulin-adjustment",
+   "page": 39,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Insulin Therapy in Type 2 Diabetes > Adjusting dose of premixed insulin in type 2 DM",
+   "caption": "Adjusting the dose of premixed insulin in type 2 DM by time-of-day glucose readings",
+   "replaces_chunks": [
+    "ncdimh-0094",
+    "ncdimh-0095",
+    "ncdimh-0097"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Row"
+     },
+     {
+      "t": "Fasting glucose before breakfast (in the absence of nocturnal hypos)"
+     },
+     {
+      "t": "Lunch pre-meal value"
+     },
+     {
+      "t": "Evening pre-meal value"
+     },
+     {
+      "t": "Before-bed value"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Which insulin dose this reading reflects"
+     },
+     {
+      "t": "[Breakfast] insulin: this dose will affect pre-lunch and pre-evening meal glucose levels"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "[Evening] insulin: this will affect bedtime and morning fasting glucose levels"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Target"
+     },
+     {
+      "t": "4 to 7 mmol/L"
+     },
+     {
+      "t": "4 to 7 mmol/L"
+     },
+     {
+      "t": "4 to 7 mmol/L"
+     },
+     {
+      "t": "6 to 8 mmol/L"
+     }
+    ],
+    [
+     {
+      "t": "If blood glucose is high"
+     },
+     {
+      "t": "Increase previous evening's insulin by 2 units or 10%, whichever is greater"
+     },
+     {
+      "t": "Increase breakfast insulin by 2 units or 10%, whichever is greater"
+     },
+     {
+      "t": "Increase previous evening's insulin by 2 units or 10%, whichever is greater"
+     },
+     {
+      "t": "Increase evening meal insulin, but not if blood tests at breakfast are 4-5 mmol/L"
+     }
+    ],
+    [
+     {
+      "t": "If blood glucose is low"
+     },
+     {
+      "t": "Decrease previous evening's insulin by 2 units or [text ends]"
+     },
+     {
+      "t": "Decrease breakfast insulin by 2"
+     },
+     {
+      "t": "Decrease breakfast insulin by 2"
+     },
+     {
+      "t": "Decrease evening meal insulin"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The 'INSULIN' cells are printed under the fasting and evening columns without saying which dose; '[Breakfast]' and '[Evening]' are inferred from their text. Clinician to confirm.",
+    "The low-fasting cell ends at 'by 2 units or' in the PDF.",
+    "The high-evening cell says increase the previous evening's insulin, while the low-evening cell says decrease breakfast insulin. Possible inconsistency in the source."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-t1dm-signs-symptoms",
+   "page": 39,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Type 1 Diabetes > Signs and symptoms of type 1 diabetes",
+   "caption": "Type 1 diabetes: signs and symptoms by severity (early, severe without loss of consciousness, severe with coma)",
+   "replaces_chunks": [
+    "ncdimh-0096",
+    "ncdimh-0098"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Classification"
+     },
+     {
+      "t": "Sign / symptom"
+     },
+     {
+      "t": "Associated condition / severity"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Early symptoms"
+     },
+     {
+      "t": "Polyuria; polydipsia; polyphagia; weight loss and/or poor weight gain; enuresis/nocturia; fatigue; blurred vision; perineal candidiasis (esp. prepubertal girls); inability and decreasing performance at school"
+     },
+     {
+      "t": "Hyperglycaemia (high blood sugar); dehydration due to fluid loss; cellular energy deficit; catabolism (breakdown of fat/muscle); polyuria (excessive night-time urination); lack of energy utilization; osmotic changes in the eye lens; localized fungal infection due to glucose in urine; general malaise/fatigue/frequent bathroom breaks"
+     }
+    ],
+    [
+     {
+      "t": "Severe symptoms (without loss of consciousness)"
+     },
+     {
+      "t": "Polyuria with severe dehydration; polydipsia; fast deep breathing (hyperventilation); presence of fruity (sweet) breath"
+     },
+     {
+      "t": "Uncontrolled hyperglycaemia and significant fluid loss; severe dehydration; compensatory mechanism for metabolic acidosis (Kussmaul breathing); diabetic ketoacidosis (DKA): presence of acetone/ketones"
+     }
+    ],
+    [
+     {
+      "t": "Severe symptoms (with coma)"
+     },
+     {
+      "t": "Severe hyperglycaemia which may progress to neurological compromise, seizures, and coma"
+     },
+     {
+      "t": "Diabetic ketoacidosis (DKA) or hyperosmolar hyperglycaemic state (HHS)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The old chunks repeated the premixed-insulin table here; the early and severe-without-coma rows were missing."
+   ],
+   "pages": [
+    39,
+    40
+   ],
+   "context_before": "All children and adolescents with type 1 diabetes require insulin. Poorly controlled type 1 diabetes increases the risk of stunted growth and diabetes complications, including diabetic ketoacidosis."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-t1dm-diagnosis",
+   "page": 40,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Type 1 Diabetes > Diagnosis of T1DM",
+   "caption": "Diagnosis of type 1 diabetes (T1DM)",
+   "replaces_chunks": [
+    "ncdimh-0099",
+    "ncdimh-0100"
+   ],
+   "content": "Three stages, shown as three boxes:\n1. Symptoms (loss of weight, polyuria, polydipsia, ...): increased risk of diabetes. Suspect diabetes.\n2. Symptoms + glucose criteria: in case of abnormal plasma glucose values, experts suggest getting an HbA1c as a useful baseline. Diabetes is confirmed by: fasting plasma glucose ≥7.0 mmol/L (≥126 mg/dl); random plasma glucose ≥11.1 mmol/L (≥200 mg/dl); HbA1c ≥ 6.5%. Immune-mediated diabetes: presence of autoimmune markers.\n3. Immune-mediated diabetes (in tertiary care): presence of autoimmune markers: islet cell autoantibodies and autoantibodies to GAD (GAD65), insulin, the tyrosine phosphatases IA-2 and IA-2β, and ZnT8.",
+   "footnotes": [],
+   "source_flags": [
+    "Boxes are side by side without arrows; read left to right as stages."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-insulin-regimens-t1dm",
+   "page": 41,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin regimens > Insulin dosage regimens",
+   "caption": "Insulin dosage regimens for type 1 diabetes: share of total daily dose by meal (basal-bolus, split-mixed, three and two injections)",
+   "replaces_chunks": [
+    "ncdimh-0103",
+    "ncdimh-0104",
+    "ncdimh-0105",
+    "ncdimh-0107",
+    "ncdimh-0108",
+    "ncdimh-0109"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Time"
+     },
+     {
+      "t": "Insulin"
+     },
+     {
+      "t": "Share of dose"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Option 1: basal-bolus regimen (preferred regimen)"
+    },
+    [
+     {
+      "t": "Breakfast"
+     },
+     {
+      "t": "Short acting insulin"
+     },
+     {
+      "t": "20% of total daily dose (if able to count carbohydrates: give 1 unit per 15 g)"
+     }
+    ],
+    [
+     {
+      "t": "Lunch"
+     },
+     {
+      "t": "Short acting insulin"
+     },
+     {
+      "t": "20% of total daily dose"
+     }
+    ],
+    [
+     {
+      "t": "Supper"
+     },
+     {
+      "t": "Short acting insulin"
+     },
+     {
+      "t": "20% of total daily dose"
+     }
+    ],
+    [
+     {
+      "t": "At night (± 21h00)"
+     },
+     {
+      "t": "Intermediate acting (ideally this ought to be a basal insulin acting over 24 hours)"
+     },
+     {
+      "t": "40% of total daily dose"
+     }
+    ],
+    {
+     "section": "Option 2 (OR)"
+    },
+    [
+     {
+      "t": "Breakfast"
+     },
+     {
+      "t": "Short acting insulin (30% of morning dose) + intermediate acting (70% of morning dose)"
+     },
+     {
+      "t": "2/3 of total daily dose"
+     }
+    ],
+    [
+     {
+      "t": "Lunch"
+     },
+     {
+      "t": "Short acting insulin (1/3 of evening dose)"
+     },
+     {
+      "t": "1/3 of total daily dose"
+     }
+    ],
+    [
+     {
+      "t": "At night (± 21h00)"
+     },
+     {
+      "t": "Intermediate acting (2/3 of evening dose)"
+     },
+     {
+      "t": "1/3 of total daily dose"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Option 2 rows: 'Lunch: short acting insulin (1/3 of evening dose)' is printed as is; with 2/3 of the total in the morning the remaining 1/3 is the evening dose. Clinician to confirm the intended timing.",
+    "Basal-bolus 40% at night here vs '30-40%' in the text above."
+   ],
+   "context_before": "Basal-bolus regimen (preferred regimen): short acting insulin 15-30 minutes before a meal, or rapid acting insulin with main meals (e.g. breakfast, lunch and main evening meal); intermediate acting insulin before bed. Normally 30-40% of the total daily dose is given at bedtime as intermediate acting insulin; the remaining insulin is given before breakfast, lunch and the evening meal as short acting insulin. Short acting insulin is indicated in the child (especially <5 years of age) with erratic eating habits despite adequate education.",
+   "table_note": "OR three injections daily: a mixture of short and intermediate acting (premixed 70:30) insulin before breakfast; short acting insulin alone before an afternoon snack or main evening meal; intermediate acting insulin before bed (or variations). This requires that the caregiver is aware of three different insulin preparations and can differentiate between them. OR two injections daily: a mixture (premixed combination) of short and intermediate acting insulins before breakfast and the main evening meal. The total daily dose is divided so that 2/3 is given in the morning and 1/3 in the evening; each dose is split between intermediate-acting and short-acting insulin in a 70:30 ratio (pre-mixed). This regimen is less flexible, but easier to give administration instructions for."
+  },
+  {
+   "table_id": "ncdimh-tbl-insulin-dose-adjustment-t1dm",
+   "page": 42,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin regimens > Insulin dose adjustment by timing of unsatisfactory glucose",
+   "caption": "Which insulin dose to adjust, by timing of the unsatisfactory blood glucose level (premixed and basal-bolus regimens)",
+   "replaces_chunks": [
+    "ncdimh-0110"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Regimen / rule",
+      "rs": 2
+     },
+     {
+      "t": "Timing of the unsatisfactory blood glucose level",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "Before breakfast"
+     },
+     {
+      "t": "Before lunch"
+     },
+     {
+      "t": "Before supper"
+     },
+     {
+      "t": "At ± 21h00"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Two injections daily (premixed)"
+    },
+    [
+     {
+      "t": "Insulin dose to be increased if glucose too high; insulin dosage to be reduced if glucose too low"
+     },
+     {
+      "t": "Supper (in case of premixed insulin) or 21h00 dose: intermediate acting insulin"
+     },
+     {
+      "t": "Breakfast dose: short acting insulin"
+     },
+     {
+      "t": "Breakfast dose: intermediate acting insulin"
+     },
+     {
+      "t": "Supper dose: short acting insulin"
+     }
+    ],
+    {
+     "section": "Basal-bolus regimen"
+    },
+    [
+     {
+      "t": "Insulin dose to be increased if glucose too high; insulin dose decrease if glucose too low"
+     },
+     {
+      "t": "21h00 dose: intermediate acting insulin"
+     },
+     {
+      "t": "Breakfast dose: rapid (or short acting) insulin"
+     },
+     {
+      "t": "Lunch dose: rapid (or short acting) insulin"
+     },
+     {
+      "t": "Supper dose: rapid (or short acting) insulin"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The first block has no regimen label in the PDF; it follows the two-injections (premixed) text and is labelled accordingly.",
+    "A stray '**Timing of the unsatisfactory blood glucose level' is printed inside the before-breakfast cell; omitted."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-insulin-types-action",
+   "page": 42,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin type and action",
+   "caption": "Insulin types: preparations, onset, peak, duration and when to give",
+   "replaces_chunks": [
+    "ncdimh-0111"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Insulin type"
+     },
+     {
+      "t": "Preparations"
+     },
+     {
+      "t": "Onset of action"
+     },
+     {
+      "t": "Peak of action"
+     },
+     {
+      "t": "Duration of action"
+     },
+     {
+      "t": "When to give"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Rapid-acting"
+     },
+     {
+      "t": "Aspart, Glulisine, Lispro"
+     },
+     {
+      "t": "15-30 minutes"
+     },
+     {
+      "t": "1-2 hours"
+     },
+     {
+      "t": "3-5 hours"
+     },
+     {
+      "t": "Immediately prior to meal"
+     }
+    ],
+    [
+     {
+      "t": "Short-acting (regular)"
+     },
+     {
+      "t": "Actrapid, Humulin R, Insuman Rapid"
+     },
+     {
+      "t": "30-60 minutes"
+     },
+     {
+      "t": "2-4 hours"
+     },
+     {
+      "t": "5-8 hours"
+     },
+     {
+      "t": "30 minutes prior to meal"
+     }
+    ],
+    [
+     {
+      "t": "Intermediate acting"
+     },
+     {
+      "t": "Humulin NPH, Protaphane, Insulatard"
+     },
+     {
+      "t": "2-4 hours"
+     },
+     {
+      "t": "4-10 hours"
+     },
+     {
+      "t": "12-24 hours"
+     },
+     {
+      "t": "30 minutes prior to meal"
+     }
+    ],
+    [
+     {
+      "t": "Long-acting",
+      "rs": 3
+     },
+     {
+      "t": "Detemir"
+     },
+     {
+      "t": "1-2 hours"
+     },
+     {
+      "t": "6-12 hours"
+     },
+     {
+      "t": "20-24 hours"
+     },
+     {
+      "t": "Once or twice daily"
+     }
+    ],
+    [
+     {
+      "t": "Glargine"
+     },
+     {
+      "t": "2-4 hours"
+     },
+     {
+      "t": "Relatively peakless"
+     },
+     {
+      "t": "24 hours or less"
+     },
+     {
+      "t": "Once or twice daily"
+     }
+    ],
+    [
+     {
+      "t": "Basaglar"
+     },
+     {
+      "t": "1-2 hours"
+     },
+     {
+      "t": "4-12 hours"
+     },
+     {
+      "t": "24 hours"
+     },
+     {
+      "t": "Once or twice daily"
+     }
+    ],
+    [
+     {
+      "t": "Mixed"
+     },
+     {
+      "t": "Rapid/long-acting mix or short/long-acting mix: 30/70 (Actraphane) or 25/75"
+     },
+     {
+      "t": "30 minutes"
+     },
+     {
+      "t": "4-12 hours"
+     },
+     {
+      "t": "8-24 hours"
+     },
+     {
+      "t": "30 minutes prior to meal"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.43 (long-acting and mixed rows)."
+   ],
+   "pages": [
+    42,
+    43
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-management-overview",
+   "page": 44,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Diabetes Emergencies > Diagnosis, monitoring, resolution and subcutaneous insulin protocol",
+   "caption": "Management of diabetic emergencies (DKA and HHS): diagnosis, evaluation, monitoring, resolution, transition to SC insulin, alternative SC insulin protocol and formulas",
+   "replaces_chunks": [
+    "ncdimh-0114",
+    "ncdimh-0115",
+    "ncdimh-0116",
+    "ncdimh-0117"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Topic"
+     },
+     {
+      "t": "Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Introduction"
+     },
+     {
+      "t": "Diabetic ketoacidosis (DKA) and hyperosmolar hyperglycemic state (HHS) are two of the most serious acute complications of diabetes. DKA is characterized by ketoacidosis and hyperglycemia, while HHS usually has more severe hyperglycemia without ketoacidosis."
+     }
+    ],
+    [
+     {
+      "t": "Diagnosis (DKA & HHS)"
+     },
+     {
+      "t": "Based on clinical evaluation and immediate bedside investigations. Features include polyuria, polydipsia, nausea, abdominal pain, fruity odor, confusion, Kussmaul breathing, dehydration."
+     }
+    ],
+    [
+     {
+      "t": "Diabetic ketoacidosis criteria"
+     },
+     {
+      "t": "Hyperglycemia: BG >13.9 mmol/L. Euglycemia <250 mg/dl (pregnancy, SGLT2 use). Ketonuria or ketonemia (>3 mmol/L): highly positive. Acidosis: pH <7.3, low HCO3- (printed ':<10 ≤ 15 mEq/L'). Anion gap: >12 (see formula)."
+     }
+    ],
+    [
+     {
+      "t": "Hyperosmolar hyperglycemic state criteria"
+     },
+     {
+      "t": "Severe hyperglycemia: BG (printed '>600>1000 mg/dl 33.3 mmol/L'). Hyperosmolality: effective serum osmolality >320 mOsm/kg (see formula). Neurologic signs: focal signs, obtundation, seizure, coma."
+     }
+    ],
+    [
+     {
+      "t": "Evaluation"
+     },
+     {
+      "t": "Vital signs, volume status (decreased skin turgor, dry axillae and oral mucosa, low JVP, tachycardia and hypotension), mental status. Immediately: serum blood glucose, urine ketones. Additional testing: FBC, electrolytes, FT, ABG. Evaluate for precipitating causes: septic screen (urinalysis, blood cultures), cardiac enzymes, ECG, CXR. Pregnancy test if indicated."
+     }
+    ],
+    [
+     {
+      "t": "Monitoring"
+     },
+     {
+      "t": "BG hourly. Urinary ketones and serum pH for DKA, and serum osmolality for HHS, 4-hourly. Electrolytes, primarily Na+ and K+, 4-hourly. Mental status: expect improvement with treatment if DKA or HHS are the causes; consider further evaluation if not improving. Input/output, hydration status; vital signs hourly."
+     }
+    ],
+    [
+     {
+      "t": "Criteria for resolution: DKA"
+     },
+     {
+      "t": "BG < 15 mmol/L + 2 or more of: HCO3- ≥ 15 mEq/L; pH > 7.3; anion gap ≤ 12 mEq/L. Negative urine ketones if the above are not available (confirm with repeat in 1-2 hrs)."
+     }
+    ],
+    [
+     {
+      "t": "Criteria for resolution: HHS"
+     },
+     {
+      "t": "BG < [value missing in source]; improved mental status; effective osmolality ≤ 315 mOsm/kg."
+     }
+    ],
+    [
+     {
+      "t": "Transition to long-acting insulin"
+     },
+     {
+      "t": "Continue continuous IV for 1-2 hrs after long-acting insulin is started. 0.4-0.6 u/kg for insulin-naive patients. NPH/regular: based on inpatient DM protocol. Hold regular insulin if patient is not eating. May resume home regimen if previously on insulin."
+     }
+    ],
+    [
+     {
+      "t": "Alternative subcutaneous insulin protocol"
+     },
+     {
+      "t": "This regimen is not well validated and is modified from other protocols; continuous IV is preferred as standard of care when available. If continuous infusion is not available, for mild/moderate DKA: initial IV bolus 0.1 IU/kg given intravenously; maintenance 0.1 IU/kg subcutaneous every 1-2 hours (start immediately following the bolus). When BG <250 mg/dL, reduce dose by 50%. Continue until resolution of DKA or HHS."
+     }
+    ],
+    [
+     {
+      "t": "Useful formulas"
+     },
+     {
+      "t": "Calculated anion gap (>12 is elevated) = [Na+] − [Cl- + HCO3-]. Effective serum osmolality = 2x[Na+K] + urea + glucose (usually <330 mosmol/kg in DKA and > 350 mosmol/kg in HHS). Corrected serum sodium = [Na+] + 1.6 x [glucose (mg/dL) − 100]/100. Free water deficit = 0.6 x weight (kg) x [(Na+/140) − 1]."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Two-column box in the PDF continuing onto p.45; restructured as one row per topic.",
+    "Several thresholds are garbled in the source: DKA 'low HCO3- :<10 ≤ 15 mEq/L', HHS 'BG:>600>1000 mg/dl 33.3mmol/L', and the HHS resolution 'BG <' has no value. Kept as printed.",
+    "This box uses mg/dL thresholds (e.g. 'BG <250 mg/dL'), while the algorithm tables on pp.35-36 use mmol/L.",
+    "The PDF prints the osmolality formula as '2x[Na+K] +urea glucose'; written as '+ urea + glucose'."
+   ],
+   "pages": [
+    44,
+    45
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-criteria",
+   "page": 45,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 01 Diabetic ketoacidosis (DKA) criteria",
+   "caption": "01 Diabetic ketoacidosis (DKA): diagnostic criteria (all 3 required) and severity",
+   "replaces_chunks": [
+    "ncdimh-0118"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Criterion"
+     },
+     {
+      "t": "Threshold"
+     },
+     {
+      "t": "Notes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Blood glucose"
+     },
+     {
+      "t": ">11 mmol/L (or known DM)"
+     },
+     {
+      "t": "Can occur at lower levels in pregnancy"
+     }
+    ],
+    [
+     {
+      "t": "Venous pH / HCO3-"
+     },
+     {
+      "t": "pH <7.3 OR HCO3- <15 mmol/L"
+     },
+     {
+      "t": "VBG preferred over ABG"
+     }
+    ],
+    [
+     {
+      "t": "Ketonaemia"
+     },
+     {
+      "t": "≥3 mmol/L (serum)"
+     },
+     {
+      "t": "Ketonuria ≥2+ if no POC ketone meter"
+     }
+    ],
+    [
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Mild: pH 7.25-7.30. Moderate: pH 7.00-7.24. Severe: pH <7.00"
+     },
+     {
+      "t": "Severe cases need ICU-level care"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "DKA glucose threshold is >11 mmol/L here but BG >13.9 mmol/L in the management box on p.34."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-hhs-criteria",
+   "page": 45,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 02 Hyperosmolar hyperglycaemic state (HHS) criteria",
+   "caption": "02 Hyperosmolar hyperglycaemic state (HHS): diagnostic criteria (all 3 required) and osmolality target",
+   "replaces_chunks": [
+    "ncdimh-0119",
+    "ncdimh-0120"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Criterion"
+     },
+     {
+      "t": "Threshold"
+     },
+     {
+      "t": "Notes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Blood glucose"
+     },
+     {
+      "t": ">30 mmol/L"
+     },
+     {
+      "t": "Often 50-80 mmol/L at presentation"
+     }
+    ],
+    [
+     {
+      "t": "Serum osmolality"
+     },
+     {
+      "t": "≥320 mOsm/kg"
+     },
+     {
+      "t": "Formula: 2(Na+ + K+) + glucose"
+     }
+    ],
+    [
+     {
+      "t": "Acidosis / ketones"
+     },
+     {
+      "t": "Absent / mild: pH >7.3, HCO3- >15"
+     },
+     {
+      "t": "Mixed DKA/HHS can occur"
+     }
+    ],
+    [
+     {
+      "t": "Osmolality target"
+     },
+     {
+      "t": "Reduce by 3-8 mOsm/kg/hr"
+     },
+     {
+      "t": "Do not fall below 310 in first 24 hrs"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "WARNING: Do NOT delay treatment to await full investigation results. Start fluids and check K+ immediately. Insulin is CONTRAINDICATED if K+ <3.5 mmol/L."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-immediate-assessment",
+   "page": 46,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 02 Immediate assessment (0-30 minutes)",
+   "caption": "02 Immediate assessment of DKA/HHS (0-30 minutes): history, examination and urgent investigations",
+   "replaces_chunks": [
+    "ncdimh-0121"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "History & examination"
+     },
+     {
+      "t": "Urgent investigations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Airway, breathing, circulation, GCS. Precipitant: infection, omitted insulin, new DM, MI. Weight (actual or estimate) for fluid calculation. Catheterise if unconscious or anuric. Temperature, HR, BP, SpO2, RR. Kussmaul breathing, acetone breath (DKA). Neurological exam: focal deficits (HHS: thrombosis)."
+     },
+     {
+      "t": "Capillary BGL + urine/blood ketones. Venous blood gas (VBG): pH, HCO3, lactate. U&E: Na+, K+, Cl-, urea, creatinine. FBC + differential, blood cultures if febrile. Urine MCS, CXR, ECG. HIV rapid test if status unknown. Calculated serum osmolality. Phosphate & magnesium if available."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-iv-fluids",
+   "page": 46,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 03 IV fluid resuscitation",
+   "caption": "03 IV fluid resuscitation in DKA and HHS: regimen and rate by time",
+   "replaces_chunks": [
+    "ncdimh-0122",
+    "ncdimh-0123",
+    "ncdimh-0124"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Time"
+     },
+     {
+      "t": "DKA regimen"
+     },
+     {
+      "t": "HHS regimen"
+     },
+     {
+      "t": "Rate guide"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "0-60 min"
+     },
+     {
+      "t": "0.9% NaCl: 1 L over 30-60 min. If SBP <90: 500 ml bolus, repeat once"
+     },
+     {
+      "t": "0.9% NaCl: 1 L over 60 min. Slower if elderly/cardiac risk"
+     },
+     {
+      "t": "~15-20 ml/kg"
+     }
+    ],
+    [
+     {
+      "t": "1-4 hr"
+     },
+     {
+      "t": "0.9% NaCl: 500 ml/hr x2 hrs, then 250 ml/hr"
+     },
+     {
+      "t": "0.9% NaCl: 500 ml/hr (adjust to deficit)"
+     },
+     {
+      "t": "250-500 ml/hr"
+     }
+    ],
+    [
+     {
+      "t": "4-12 hr"
+     },
+     {
+      "t": "0.9% NaCl 125-250 ml/hr; switch to 0.45% NaCl if corrected Na+ rising"
+     },
+     {
+      "t": "0.45% NaCl 250 ml/hr once osmolality falling; correct deficit over 48 hrs"
+     },
+     {
+      "t": "125-250 ml/hr"
+     }
+    ],
+    [
+     {
+      "t": "BGL <14 (DKA) / <15 (HHS)"
+     },
+     {
+      "t": "Switch to 0.9% NaCl + 5% dextrose OR 0.45% NaCl + 5% dextrose. Continue insulin: use dextrose to maintain target glucose range."
+     },
+     {
+      "t": "150 ml/hr"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The table note says correct the HHS deficit over 48-72 hours; the 4-12 hr row says over 48 hrs."
+   ],
+   "context_before": "Use 0.9% NaCl (normal saline) as first-line. Switch to 0.45% NaCl in HHS once glucose <20 mmol/L and osmolality falling. Add 5% dextrose when glucose <14 mmol/L (DKA) or <15 mmol/L (HHS) to allow continued insulin without hypoglycaemia.",
+   "table_note": "WARNING: HHS: total deficit can be 8-15 litres. Correct over 48-72 hours. Rapid correction risks cerebral oedema and cardiac failure. Reassess every 2 hours. Target osmolality reduction 3-8 mOsm/kg/hr."
   }
  ]
 }
