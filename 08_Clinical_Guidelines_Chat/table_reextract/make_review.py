@@ -63,7 +63,7 @@ for t in T:
     n = len(t['embed_text'])
     for i, e in enumerate(t['embed_text']):
         records.append(dict(chunk_id=f'{t["table_id"]}-p{i + 1}' if n > 1 else t['table_id'], table_id=t['table_id'],
-                            table_part=f'{i + 1}/{n}', doc_title=doc_title, type='table', heading_path=t['heading_path'],
+                            table_part=f'{i + 1}/{n}', doc_title=doc_title, type={'diagram': 'diagram', 'box': 'text'}.get(t.get('kind'), 'table'), heading_path=t['heading_path'],
                             page_start=t['page'], page_end=t['page'], text=t['text'], html=t['html'], embed_text=e,
                             replaces_chunks=t['replaces_chunks'], source_flags=t['source_flags'],
                             extraction='claude-vision', number_check=chk))

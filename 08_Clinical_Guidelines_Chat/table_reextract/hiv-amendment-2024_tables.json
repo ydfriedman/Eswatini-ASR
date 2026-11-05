@@ -1070,7 +1070,8 @@
    "replaces_chunks": [
     "hiv-amendment-2024-0066",
     "hiv-amendment-2024-0067",
-    "hiv-amendment-2024-0068"
+    "hiv-amendment-2024-0068",
+    "hiv-amendment-2024-0069"
    ],
    "content": "First: test the infant immediately. If reactive, initiate ART as soon as possible. If non-reactive, follow the algorithm below. Consider presumptive ART in all HIV-exposed infants (HEI) who appear ill/FTT while awaiting test results.\n\nStarting point: breastfeeding woman with viraemia.\n\nPath A - VL 50-1000 c/mL AND on DTG for less than 18 months (printed: 'TLD1 and TLD2 DTG <18/12'):\nIntensive adherence interventions:\n  1. DOT\n  2. Mentor mother/EC involvement\n  3. Follow-up VL after 1 month (F/U VL 1/12)\n  4. If VL remains >1000, or VL remains 50-1000, consult the DR committee\n\nPath B - on DTG for more than 18 months, or duration unknown (printed: 'TLD1 and TLD2 on DTG > 18/12 or unknown'):\nStep 1. Genotype if VL > 1000*. Send genotypes the same day (unless known default or very poor adherence in the first trimester). Complete and submit a genotype motivation to snapthirdline@mohcoag.org.\nStep 2. Then:\n  - 1st DVL: intensive adherence interventions as in Path A.\n  - 2nd DVL: discuss AFASS; if breastfeeding is ongoing, proceed to Empiric therapy, chosen by prior PI use:\n  - No prior PI: TLD 1 tab OD PLUS EITHER DRV/r (400/50) 2 tabs OD* OR ATV/r (300/50) 1 tab OD (*if available)\n  - Prior PI: TLD 1 tab OD PLUS DRV/r (600/100) BD\n  Provide the same intensive adherence interventions as in Path A.\n\nCaring for the breastfeeding child:\n  - If child is <6 weeks (<6/52): continue EIP (AZT/NVP; printed 'AT/NVP').\n  - If child is >6 weeks (>6/52): continue or restart NVP until the mother is undetectable.\n  - If AFASS criteria are met and the mother prefers to wean after clear discussion of risks and benefits, advise weaning.\n  - Follow a weaned infant monthly for weight check.\n  - If the mother acutely seroconverted, test the infant. If negative, consider PEP in the baby until the mother is undetectable.",
    "footnotes": [],
@@ -2019,6 +2020,40 @@
    "source_flags": [
     "Image in the PDF; transcribed from the page image."
    ]
+  }
+ ],
+ "chapters": [
+  {
+   "page": 7,
+   "label": "Chapter 3: HIV Testing Services"
+  },
+  {
+   "page": 14,
+   "label": "Chapter 4: Referral & Linkages"
+  },
+  {
+   "page": 18,
+   "label": "Chapter 5: Basic Care Package for HIV-Positive Individuals"
+  },
+  {
+   "page": 22,
+   "label": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease"
+  },
+  {
+   "page": 27,
+   "label": "Chapter 7: Adult Antiretroviral Therapy"
+  },
+  {
+   "page": 31,
+   "label": "Chapter 8: Prevention of Mother-to-Child Transmission of HIV"
+  },
+  {
+   "page": 34,
+   "label": "Chapter 9: ART for Children & Adolescents"
+  },
+  {
+   "page": 42,
+   "label": "Chapter 10: HIV/NCDs & Mental Health"
   }
  ]
 }
