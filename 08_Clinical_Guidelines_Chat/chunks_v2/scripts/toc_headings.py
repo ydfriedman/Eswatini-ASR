@@ -54,6 +54,25 @@ def parse_toc(lines):
     return chapters, entries, body
 
 
+GENERIC = set("""definition definitions classification diagnosis diagnostic criteria investigation investigations pharmacological
+non nonpharmacological treatment treatments management managing referral refer monitoring follow up followup patient patients
+assessment clinical presentation features feature complications prevention special populations population pregnancy key messages
+targets target risk factors signs symptoms introduction notes note general principles adults adult children child drug drugs
+choice therapy medical definitive approach staging summary supportive care epidemiology causes aetiology etiology overview screening
+history examination laboratory tests test recommendations recommended indications contraindications dose doses dosing maintenance
+initial acute chronic emergency emergencies health education counselling counseling side effects adverse when what how goals goal
+other others further common types type specific related based including immediate actions action plan steps step options option
+first second line lines level levels important points summary table figure algorithm flowchart flow chart protocol protocols
+inpatient outpatient hospital facility home community primary secondary tertiary severity severe mild moderate""".split())
+STOP = {"of", "and", "the", "for", "in", "on", "to", "with", "a", "an", "by", "at", "or", "as", "from", "into"}
+
+
+def is_generic(t):
+    """'Pharmacological Treatment', 'Diagnostic Criteria', 'Management in Special Populations' carry no topic."""
+    words = [w for w in re.findall(r"[a-z]+", t.lower()) if w not in STOP]
+    return bool(words) and all(w in GENERIC or len(w) <= 2 for w in words)
+
+
 def _similar(a, b):
     a, b = _norm(a), _norm(b)
     if not a or not b:
@@ -68,7 +87,7 @@ def heading_index(md_text):
     lines = md_text.split('\n')
     chapters, entries, body = parse_toc(lines)
     chap_title = {n: t for n, t in chapters.items()}
-    cur_chap = cur_entry = cur_sub = None
+    cur_chap = cur_entry = cur_sub = cur_topic = None
     pending_chap = None
     marks, buf, pos = [], [], 0
 
@@ -89,24 +108,27 @@ def heading_index(md_text):
                 m = m2 if m2 and _similar(m2.group(2), chap_title.get(m2.group(1), '')) else None
             ahead = lambda n: cur_chap is None or int(n) >= int(cur_chap)   # chapters only move forward
             if m and m.group(1) in chap_title and ahead(m.group(1)):
-                cur_chap, cur_entry, cur_sub, changed = m.group(1), None, None, True
+                cur_chap, cur_entry, cur_sub, cur_topic, changed = m.group(1), None, None, None, True
                 pending_chap = None if m.group(2).strip() else cur_chap
             elif pending_chap and t:
                 pending_chap = None          # 'CHAPTER 2' followed by its title line: already labelled
             else:
                 hit = next((n for n, ct in chap_title.items() if _similar(t, ct)), None) if is_head else None
                 if hit and hit != cur_chap and ahead(hit):
-                    cur_chap, cur_entry, cur_sub, changed = hit, None, None, True
+                    cur_chap, cur_entry, cur_sub, cur_topic, changed = hit, None, None, None, True
                 else:
                     pool = [e for c, e in entries if c == cur_chap] if cur_chap else []
                     e = next((e for e in pool if _similar(t, e)), None)
-                    if e:
-                        cur_entry, cur_sub, changed = e, None, True
-                    elif (is_head and cur_chap and 3 <= len(t) <= 80 and not t.endswith('.')
-                          and not CAPTION.match(t) and not re.match(r'^(note|caution|key|source)\b', t, re.I)):
-                        cur_sub, changed = t, True
+                    heading_ok = (is_head and cur_chap and 3 <= len(t) <= 80 and not t.endswith('.')
+                                  and not CAPTION.match(t) and not re.match(r'^(note|caution|key|source)\b', t, re.I))
+                    if e and not is_generic(e):
+                        cur_entry, cur_topic, cur_sub, changed = e, None, None, True   # entry from the printed TOC
+                    elif heading_ok and not is_generic(t) and len(t) <= 70 and ':' not in t:
+                        cur_topic, cur_sub, changed = t, None, True    # topic heading under it (e.g. 'Hypothyroidism')
+                    elif e or heading_ok:
+                        cur_sub, changed = (e or t), True              # generic heading: 'Pharmacological Treatment'
             if changed and cur_chap:
-                stack = [label_chap(cur_chap)] + [x for x in (cur_entry, cur_sub) if x]
+                stack = [label_chap(cur_chap)] + [x for x in (cur_entry, cur_topic, cur_sub) if x]
                 marks.append((pos, stack))
             if is_head:
                 continue
