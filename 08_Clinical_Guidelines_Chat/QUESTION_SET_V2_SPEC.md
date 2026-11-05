@@ -1,5 +1,7 @@
 # Question set v2: brief for a new session
 
+> **Status (Nov 2026):** a targeted pass is done in `sample_questions.*`: patient-facing questions removed, boundary cases cut to 2, 12 questions rewritten and `safety_critical` / `source_chunks` / `reviewer_note` columns added (see README). Still open: `key_facts` for every question, more dosing questions per guideline, and the held-out test set.
+
 Rebuild the 152-question benchmark (`sample_questions.*`) for a **clinician-only** chat. Work from `chunks_v2/chunks.jsonl`, and use `text` as the source for reference answers.
 
 ## Changes from v1
