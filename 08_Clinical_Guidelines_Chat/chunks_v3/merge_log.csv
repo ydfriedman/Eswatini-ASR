@@ -228,19 +228,77 @@ ncdimh-0224,replaced,ncdimh-fig-thyroid-storm-management
 ncdimh-0225,replaced,ncdimh-tbl-thyroid-storm-treatment
 ncdimh-0230,replaced,ncdimh-fig-hyperthyroidism-pregnancy
 ncdimh-0231,replaced,ncdimh-fig-hyperthyroidism-pregnancy
+ncdimh-0013,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations => Chapter 1: Prevention, Health Education and Routine Health Examinations > Introduction"
+ncdimh-0016,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > NCD Risk Factors > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening => Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening"
+ncdimh-0021,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Tobacco Cessation => Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patients)"
 ncdimh-0022,cleaned,
+ncdimh-0022,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Unhealth Diet => Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patients)"
+ncdimh-0023,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Immediate/Urgent Referral => Chapter 1: Prevention, Health Education and Routine Health Examinations > Referral Criteria and Follow-Up > Referral to Specialist Care"
+ncdimh-0025,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Documentation => Chapter 1: Prevention, Health Education and Routine Health Examinations > Referral Criteria and Follow-Up > Documentation"
+ncdimh-0026,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Patient Education Priorities => Chapter 1: Prevention, Health Education and Routine Health Examinations > Referral Criteria and Follow-Up > Patient Education Priorities"
+ncdimh-0027,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Introduction => Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Key Definitions"
+ncdimh-0030,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for Physical Inactivity > Simple Screening Questions => Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Screening for Physical Inactivity > Simple Screening Questions"
+ncdimh-0031,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Health Consequences of Physical Inactivity > Increased Risk of => Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Health Consequences of Physical Inactivity"
+ncdimh-0033,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Brief Counseling Intervention (5 A'S Framework) > Practical Recommendations for Eswatini Context Low-Cost, Accessible Activities => Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Practical Recommendations: Low-Cost, Accessible Activities"
+ncdimh-0034,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Brief Counseling Intervention (5 A'S Framework) > Special Considerations => Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Special Considerations"
+ncdimh-0040,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Cancer Risk > Other Major Health Consequences => Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Other Major Health Consequences"
+ncdimh-0041,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for Alcohol Use > Who to Screen => Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Screening for Alcohol Use > Who to Screen"
+ncdimh-0046,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Brief Intervention: The 5 A's > Pregnant Women and Women of Childbearing Age => Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Special Populations > Pregnant Women and Women of Childbearing Age"
+ncdimh-0047,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Brief Intervention: The 5 A's > Patients Living with HIV => Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Special Populations > Patients Living with HIV"
+ncdimh-0048,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Brief Intervention: The 5 A's > Patients Living with HIV > Patients on TB Treatment => Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Special Populations > Patients on TB Treatment"
+ncdimh-0049,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Brief Intervention: The 5 A's > Older Adults (≥65 years) => Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Special Populations > Older Adults (≥65 years)"
+ncdimh-0050,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Practical Strategies for Patients > Managing Cravings and Triggers => Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Practical Strategies for Patients > Managing Cravings and Triggers"
+ncdimh-0052,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Unhealth Diet => Chapter 1: Prevention, Health Education and Routine Health Examinations > Unhealthy Diet"
+ncdimh-0056,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Unhealth Diet > ⚠️ Foods to Limit ⚠️ > Routine Health Examinations: What to look for When Accessing for NCDS => Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations: What to Look for When Assessing for NCDs"
+ncdimh-0057,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Hypertension => Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Hypertension"
+ncdimh-0065,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Lipids Disorder => Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Lipids Disorders"
 ncdimh-0075,cleaned,
+ncdimh-0075,label,Chapter 2: Endocrinology > Diagnosis of Diabetes is Confirmed when => Chapter 2: Endocrinology > Diagnosis of Diabetes is Confirmed When
 ncdimh-0088,cleaned,
+ncdimh-0101,label,Chapter 2: Endocrinology > Insulin Therapy in Type 2 Diabetes > Insulin requirements (to use STG pediatric guidelines table) => Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin Requirements
+ncdimh-0102,label,Chapter 2: Endocrinology > Insulin Therapy in Type 2 Diabetes > Initiating therapy in a child who is not in DKA => Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Initiating Therapy in a Child Not in DKA
+ncdimh-0112,label,Chapter 2: Endocrinology > Insulin Regimens > How to inject insulin with a Syringe => Chapter 2: Endocrinology > Insulin Injection Technique > How to Inject Insulin with a Syringe
+ncdimh-0113,label,Chapter 2: Endocrinology > Insulin Regimens > Recommended sites for insulin injection => Chapter 2: Endocrinology > Insulin Injection Technique > Recommended Sites for Insulin Injection
+ncdimh-0140,label,Chapter 2: Endocrinology > Diabetic Emergencies > Hypoglycemia => Chapter 2: Endocrinology > Hypoglycaemia
+ncdimh-0143,label,Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols => Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocol
+ncdimh-0150,label,"Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Capillary Blood Glucose (CBG) — Insulin Correction Dose Scale > Correction /sliding scale – selection of low, medium or high insulin dose => Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocol > Correction/Sliding Scale: Selection of Low, Medium or High Insulin Dose"
+ncdimh-0159,label,Chapter 2: Endocrinology > Diet Education > VEGETABLES / SALAD Half your plate! => Chapter 2: Endocrinology > Diabetes > Diet Education > Vegetables / Salad: Half Your Plate
+ncdimh-0160,label,Chapter 2: Endocrinology > Diet Education > FATS (Use ANY oils sparingly!) => Chapter 2: Endocrinology > Diabetes > Diet Education > Fats: Use Oils Sparingly
+ncdimh-0161,label,"Chapter 2: Endocrinology > Diabetes > At every visit => Chapter 2: Endocrinology > Diabetes > Follow-up (At Every Visit, 3-6 Monthly, Annually)"
+ncdimh-0180,label,Chapter 2: Endocrinology > Diabetes in Special Populations > Definition(s) and Classification of Osteoporosis => Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Definition(s) and Classification of Osteoporosis
 ncdimh-0186,cleaned,
+ncdimh-0196,label,Chapter 2: Endocrinology > Hyperthyroidism => Chapter 2: Endocrinology > Thyroid Disorders > Hypothyroidism
+ncdimh-0198,label,Chapter 2: Endocrinology > Hyperthyroidism > Diagnostic Criteria => Chapter 2: Endocrinology > Thyroid Disorders > Hypothyroidism > Diagnosis
 ncdimh-0199,cleaned,
+ncdimh-0202,label,Chapter 2: Endocrinology > Management of Hypothyroidism > In Pregnancy => Chapter 2: Endocrinology > Management of Hypothyroidism > Complications & Emergencies (Myxoedema Coma)
 ncdimh-0203,cleaned,
+ncdimh-0203,label,Chapter 2: Endocrinology > Congenital Hypothyroidism => Chapter 2: Endocrinology > Congenital Hypothyroidism > Description
 ncdimh-0206,cleaned,
+ncdimh-0206,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > General and Supportive Measures > Pharmacological Treatment => Chapter 2: Endocrinology > Congenital Hypothyroidism > Pharmacological Treatment
+ncdimh-0207,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > General and Supportive Measures > Referral => Chapter 2: Endocrinology > Congenital Hypothyroidism > Referral
 ncdimh-0208,cleaned,
+ncdimh-0208,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > Hypothyroidism In Older Children And Adolescents Description > Clinical => Chapter 2: Endocrinology > Hypothyroidism in Older Children and Adolescents > Clinical Features
+ncdimh-0210,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > Hypothyroidism In Older Children And Adolescents Description > Referral => Chapter 2: Endocrinology > Hypothyroidism in Older Children and Adolescents > Referral
+ncdimh-0212,label,Chapter 2: Endocrinology > Hyperthyroidism > Clinical Manifestations > Diagnosis => Chapter 2: Endocrinology > Hyperthyroidism > Diagnosis
 ncdimh-0215,cleaned,
+ncdimh-0215,label,Chapter 2: Endocrinology > Non-Pharmacological Management of Hypothyroidism > Patient Education => Chapter 2: Endocrinology > Non-Pharmacological Management of Hyperthyroidism > Patient Education
 ncdimh-0217,cleaned,
+ncdimh-0217,label,Chapter 2: Endocrinology > Management of Hypothyroidism > Radioactive Iodine => Chapter 2: Endocrinology > Management of Hyperthyroidism > Radioactive Iodine
 ncdimh-0219,cleaned,
+ncdimh-0226,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Introduction => Chapter 2: Endocrinology > Hyperthyroidism in Pregnancy > Introduction
+ncdimh-0227,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > 1. Transient Gestational Hyperthyroidism => Chapter 2: Endocrinology > Hyperthyroidism in Pregnancy > Causes: Transient Gestational Hyperthyroidism
+ncdimh-0228,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > 2. Graves' Disease => Chapter 2: Endocrinology > Hyperthyroidism in Pregnancy > Causes: Graves' Disease
 ncdimh-0229,cleaned,
+ncdimh-0229,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Diagnosis of Hyperthyroidism => Chapter 2: Endocrinology > Hyperthyroidism in Pregnancy > Diagnosis
 ncdimh-0232,cleaned,
+ncdimh-0232,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Management of Hyperthyroidism in Pregnancy => Chapter 2: Endocrinology > Hyperthyroidism in Pregnancy > Treatment and Monitoring
+ncdimh-0233,label,"Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Management of Hyperthyroidism in Pregnancy > Diagnostic Criteria => Chapter 2: Endocrinology > Hyperthyroidism, Graves Disease > Diagnostic Criteria"
+ncdimh-0234,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Symptoms and signs of Cushing's Syndrome => Chapter 2: Endocrinology > Cushing's Syndrome > Symptoms and Signs
+ncdimh-0235,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Common presenting symptoms include => Chapter 2: Endocrinology > Cushing's Syndrome > Common Presenting Symptoms
+ncdimh-0236,label,"Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Imaging diagnosis => Chapter 2: Endocrinology > Hyperthyroidism, Graves Disease > Imaging diagnosis"
+ncdimh-0237,label,"Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Treatment of Cushing's syndrome => Chapter 2: Endocrinology > Hyperthyroidism, Graves Disease > Treatment of Cushing’s syndrome"
+ncdimh-0238,label,"Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Treatment of Cushing's syndrome > Definitive Therapy => Chapter 2: Endocrinology > Hyperthyroidism, Graves Disease > Definitive Therapy"
+ncdimh-0239,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Treatment of Cushing's syndrome > Medical Therapy => Chapter 2: Endocrinology > Cushing's Syndrome > Treatment: Medical Therapy
 ncdimh-0252,emptied,
 ncdimh-0295,emptied,
 ncdimh-0319,cleaned,
@@ -293,6 +351,7 @@ ncdimh-0971,emptied,
 ncdimh-0983,cleaned,
 ncdimh-0997,cleaned,
 ncdimh-1010,emptied,
+ncdimh-0219,trailing heading dropped (next is a table/flowchart),#### **Diagnosis**
 ncdimh-0042,merged into,ncdimh-0041
 ncdimh-0236,merged into,ncdimh-0235
 ncdimh-0237,merged into,ncdimh-0235

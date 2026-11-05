@@ -2,7 +2,7 @@
 
 `chunks_v2` plus the re-extracted tables, boxes and flowcharts (see `../table_reextract/`). **Use this set for indexing.** It has the same fields as v2, plus a few new ones for re-extracted items.
 
-**Status:** HIV Amendment 2024 (complete) and NCDIMH pp.1-89 (Ch.1-2) are re-extracted. Everything else is passed through from v2, apart from small cleanups in NCDIMH text chunks. This file is regenerated each time another part is finished.
+**Status:** HIV Amendment 2024 (complete) and NCDIMH pp.1-89 (Ch.1-2) are re-extracted. Everything else is passed through from v2, apart from small cleanups in NCDIMH text chunks. NCDIMH text chunks on pp.1-89 have also been fixed (below). This file is regenerated each time another part is finished.
 
 | | |
 |---|---|
@@ -32,6 +32,15 @@ Retrieve the top k by `embed_text`, then **de-duplicate by `table_id`** (keep th
 - **Fixed chapter labels** using the PDF's page-to-chapter map. For example, Chapter 10 text was labelled "Chapter 5". Unnumbered text chunks now carry the numbered section they sit in.
 - **Merged very small text chunks** into a neighbour from the same chapter when the result stays under about 400 tokens.
 - Context paragraphs copied into a table are left in place in the neighbouring text chunk, because they are not part of the table's embedding text.
+
+## NCDIMH text chunks, pp.1-89
+
+- **Section labels** taken from the PDF's own headings (font and colour), then checked by hand: 58 labels changed, 48 of them hand-corrected. For example, the thyroid chunks now say Hypothyroidism vs Hyperthyroidism vs Thyroid Storm correctly. The labels are stored in `text_labels` in `ncdimh_tables.json`.
+- **Small fragments** (under 60 tokens) merged into the next text chunk of the same chapter; none are left.
+- **Trailing headings** moved to the start of the chunk they introduce, or dropped when the next item is a table or flowchart that carries its own caption.
+- **Embedding noise** ("image:", "icon:" lines, escaped asterisks, bold markers) is stripped from `embed_text`. `text` is unchanged.
+
+Problems in the guideline itself are listed in `../SOURCE_ISSUES.md`.
 
 Logs: `merge_log.csv` (every change) and `removed_chunks.jsonl` (every removed chunk, with its reason).
 

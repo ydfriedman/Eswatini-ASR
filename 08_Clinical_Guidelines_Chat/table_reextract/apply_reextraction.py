@@ -29,6 +29,23 @@ NUMBERED = re.compile(r'^\d+(\.\d+)+\s')
 BAD_PART = re.compile(r'^(Flowchart:|Figure\s+\d|Diagram:|Refer to\b)', re.I)
 
 
+TINY_TOKENS = 60
+
+
+def in_fix_range(spec, c):
+    r = spec.get('text_fix_pages')
+    return bool(r) and c['doc_id'] == spec['doc_id'] and r[0] <= c['page_start'] <= r[1]
+
+
+def denoise(text):
+    """Embedding text only: drop image/icon/photo placeholder lines and escaped markdown asterisks."""
+    lines = [l for l in text.split('\n') if not re.match(r'^\W*(image|icon|photo):', l.strip(), re.I)]
+    text = '\n'.join(lines).replace('\\*', '').replace('\\_', '_')
+    text = re.sub(r'\*{2,}', '', text)
+    text = re.sub(r'(?i)\bicon:\s*\w+(\s\w+)?', '', text)
+    return re.sub(r'[ \t]{2,}', ' ', text).strip()
+
+
 def strip_divider(text):
     """Remove a chapter title page ('**CHAPTER 10:**', '**HIV**', '**NON-COMMUNICABLE**', ...)."""
     lines, out, i = text.split('\n'), [], 0
@@ -136,8 +153,33 @@ def main(src, out, pairs):
                     if new_path != c['heading_path']:
                         log.append((c['chunk_id'], 'label', f"{c['heading_path']} => {new_path}"))
                         c = dict(c, heading_path=new_path, _changed=True)
+            fixed = spec.get('text_labels', {}).get(c['chunk_id'])
+            if fixed and fixed != c['heading_path']:     # hand-reviewed label from the PDF's headings
+                log.append((c['chunk_id'], 'label', f"{c['heading_path']} => {fixed}"))
+                c = dict(c, heading_path=fixed, _changed=True)
+            if in_fix_range(spec, c):
+                c = dict(c, _changed=True, _noise=True)  # rebuild embed text without markdown noise
             out_chunks.append(c)
         chunks = out_chunks
+        # 3b. a heading stranded at the end of a text chunk moves to the start of the next chunk
+        for i, c in enumerate(chunks):
+            if c['doc_id'] != doc or c['type'] != 'text' or c.get('table_id') or not in_fix_range(spec, c):
+                continue
+            lines = c['text'].rstrip().split('\n')
+            tail = []
+            while lines and (re.match(r'^\s*#{1,6}\s', lines[-1]) or not lines[-1].strip()):
+                tail.insert(0, lines.pop())
+            tail = [t for t in tail if t.strip()]
+            if tail and lines:
+                c['text'] = '\n'.join(lines).rstrip()
+                c['_changed'] = True
+                nxt = chunks[i + 1] if i + 1 < len(chunks) else None
+                if nxt and nxt['doc_id'] == doc and nxt['type'] == 'text' and not nxt.get('table_id'):
+                    nxt['text'] = '\n'.join(tail) + '\n\n' + nxt['text']
+                    nxt['_changed'] = True
+                    log.append((c['chunk_id'], 'heading moved to', nxt['chunk_id']))
+                else:
+                    log.append((c['chunk_id'], 'trailing heading dropped (next is a table/flowchart)', ' '.join(tail)))
         # 4. merge small text chunks of this document
         merged = []
         for c in chunks:
@@ -156,6 +198,29 @@ def main(src, out, pairs):
                 continue
             merged.append(dict(c))
         chunks = merged
+        # 4b. tiny fragments that could not join the chunk before (a table or flowchart) join the next text chunk
+        out2, carry = [], None
+        for c in chunks:
+            if carry is not None:
+                if (c['doc_id'] == doc and c['type'] == 'text' and not c.get('table_id')
+                        and c['heading_path'].split(' > ')[0] == carry['heading_path'].split(' > ')[0]
+                        and (len(carry['text']) + len(c['text'])) // 4 <= MERGED_MAX_TOKENS):
+                    c = dict(c, text=carry['text'].rstrip() + '\n\n' + c['text'], page_start=min(c['page_start'], carry['page_start']),
+                             absorbed_chunk_ids=c.get('absorbed_chunk_ids', []) + [carry['chunk_id']], _changed=True)
+                    removed.append(dict(carry, drop_reason=f'merged into {c["chunk_id"]}'))
+                    log.append((carry['chunk_id'], 'merged into', c['chunk_id']))
+                else:
+                    out2.append(carry)
+                carry = None
+            tiny = (c['doc_id'] == doc and c['type'] == 'text' and not c.get('table_id') and in_fix_range(spec, c)
+                    and len(c['text']) // 4 < TINY_TOKENS)
+            if tiny:
+                carry = c
+                continue
+            out2.append(c)
+        if carry is not None:
+            out2.append(carry)
+        chunks = out2
 
     # 5. ids, neighbours, sizes, embed text
     groups = []          # consecutive records of one table_id form a group
@@ -175,8 +240,12 @@ def main(src, out, pairs):
             c['next_chunk_id'] = after['chunk_id'] if after else None
             c['n_chars'] = len(c['text'])
             c['approx_tokens'] = len(c['text']) // 4
+            noise = c.pop('_noise', False)
             if c.pop('_changed', False):
-                c['embed_text'] = f"{c['doc_title']} | {c['heading_path']} {page_label(c)}\n\n{plain(c['text'])}"
+                body = plain(c['text'])
+                if noise:
+                    body = denoise(body)
+                c['embed_text'] = f"{c['doc_title']} | {c['heading_path']} {page_label(c)}\n\n{body}"
     os.makedirs(out, exist_ok=True)
     with open(os.path.join(out, 'chunks.jsonl'), 'w') as fh:
         for c in chunks:
