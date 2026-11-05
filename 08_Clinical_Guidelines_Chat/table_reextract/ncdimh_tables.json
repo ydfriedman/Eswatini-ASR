@@ -5004,6 +5004,630 @@
     "Calcitonin is listed under the HRT heading in the PDF (it has no class heading of its own)."
    ],
    "context_before": "Non-pharmacological management: postmenopausal women and men aged ≥50 years with osteoporosis or at risk of fragility fracture are recommended: a healthy, nutrient-rich balanced diet; adequate calcium intake (minimum 700 mg daily), preferably from diet or otherwise by supplementation; vitamin D supplements of at least 800 IU/day if vitamin D insufficiency or risk factors for it are identified; regular weight-bearing and muscle-strengthening exercise tailored to the individual; advice on smoking and alcohol cessation; a falls assessment for all patients with osteoporosis and fragility fractures, with exercise programmes to improve balance for those at risk."
+  },
+  {
+   "table_id": "ncdimh-tbl-hypothyroidism-symptoms",
+   "page": 72,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hypothyroidism > Diagnostic criteria",
+   "caption": "Hypothyroidism symptoms by system affected (diagnostic criteria)",
+   "replaces_chunks": [
+    "ncdimh-0197"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "System affected"
+     },
+     {
+      "t": "Common symptoms"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "General & metabolic"
+     },
+     {
+      "t": "Fatigue; weight gain; trouble tolerating cold; slowed heart rate; increased cholesterol levels"
+     }
+    ],
+    [
+     {
+      "t": "Skin, hair & nails"
+     },
+     {
+      "t": "Dry, rough skin; dry or thinning hair; hair loss"
+     }
+    ],
+    [
+     {
+      "t": "Musculoskeletal"
+     },
+     {
+      "t": "Joint pain; muscle pain or weakness"
+     }
+    ],
+    [
+     {
+      "t": "Reproductive (female)"
+     },
+     {
+      "t": "Heavy or irregular menstrual periods; fertility problems"
+     }
+    ],
+    [
+     {
+      "t": "Neurological & psychological"
+     },
+     {
+      "t": "Depression; memory loss"
+     }
+    ],
+    [
+     {
+      "t": "Gastrointestinal & voice"
+     },
+     {
+      "t": "Constipation; hoarse voice"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "In chunks_v2 this table was labelled under Hyperthyroidism; it is the hypothyroidism symptom table."
+   ],
+   "context_before": "The symptoms of hypothyroidism depend on the deficiency of thyroid hormone, but can include the following. Investigations: thyroid hormone profile. Diagnosis: may be primary or secondary hypothyroidism."
+  },
+  {
+   "table_id": "ncdimh-tbl-congenital-hypothyroidism-features",
+   "page": 75,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Congenital Hypothyroidism > Clinical features",
+   "caption": "Congenital hypothyroidism: clinical features by category",
+   "replaces_chunks": [
+    "ncdimh-0204"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Features"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "General"
+     },
+     {
+      "t": "Lethargy, somnolence, delayed physical and mental development, subnormal temperature"
+     }
+    ],
+    [
+     {
+      "t": "Skin/hair"
+     },
+     {
+      "t": "Dry skin, coarse and scanty hair"
+     }
+    ],
+    [
+     {
+      "t": "Facial/head"
+     },
+     {
+      "t": "Wide open fontanelles, enlarged tongue (macroglossia), periorbital oedema, coarse cry, hoarse voice, goitre"
+     }
+    ],
+    [
+     {
+      "t": "Growth/development"
+     },
+     {
+      "t": "Delayed dentition, short and thick neck, broad hands, hypotonia"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular"
+     },
+     {
+      "t": "Bradycardia"
+     }
+    ],
+    [
+     {
+      "t": "Abdomen"
+     },
+     {
+      "t": "Abdominal distension, umbilical hernia, constipation"
+     }
+    ],
+    [
+     {
+      "t": "Extremities"
+     },
+     {
+      "t": "Oedema of extremities and genitals"
+     }
+    ],
+    [
+     {
+      "t": "Haematologic"
+     },
+     {
+      "t": "Anaemia"
+     }
+    ],
+    [
+     {
+      "t": "Respiratory"
+     },
+     {
+      "t": "Apnoeic episodes"
+     }
+    ],
+    [
+     {
+      "t": "Feeding"
+     },
+     {
+      "t": "Feeding difficulties"
+     }
+    ],
+    [
+     {
+      "t": "Other"
+     },
+     {
+      "t": "Prolonged unconjugated hyperbilirubinaemia"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-levothyroxine-dose-children",
+   "page": 76,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hypothyroidism in Older Children and Adolescents > Pharmacological treatment",
+   "caption": "Levothyroxine dose by age for hypothyroidism in children and adolescents (oral, once daily on an empty stomach)",
+   "replaces_chunks": [
+    "ncdimh-0209"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age group"
+     },
+     {
+      "t": "Levothyroxine dose"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1-6 months"
+     },
+     {
+      "t": "8-10 mcg/kg"
+     }
+    ],
+    [
+     {
+      "t": "6-12 months"
+     },
+     {
+      "t": "6-8 mcg/kg"
+     }
+    ],
+    [
+     {
+      "t": "1-5 years"
+     },
+     {
+      "t": "5-6 mcg/kg"
+     }
+    ],
+    [
+     {
+      "t": "6-12 years"
+     },
+     {
+      "t": "4-5 mcg/kg"
+     }
+    ],
+    [
+     {
+      "t": ">12 years"
+     },
+     {
+      "t": "2-3 mcg/kg"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Hypothyroidism in older children and adolescents: low growth velocity or short stature with short limbs and a normal or elevated BMI; subtle features include cold intolerance, dry skin, brittle hair, pallor and myxoedema. Investigations: elevated TSH and low thyroxine. Levothyroxine, oral, once daily on an empty stomach. Refer all cases for investigation and initiation of therapy. (Neonates with congenital hypothyroidism: levothyroxine 10-15 mcg/kg once daily, started ideally within the first three weeks of life.)"
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-primary-hyperthyroidism-diagnosis",
+   "page": 78,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hyperthyroidism > Diagnostic algorithm for primary hyperthyroidism",
+   "caption": "Diagnostic algorithm for primary hyperthyroidism (by radioactive iodine uptake)",
+   "replaces_chunks": [
+    "ncdimh-0213",
+    "ncdimh-0214"
+   ],
+   "content": "Primary hyperthyroidism: ↓ TSH, ↑ free T4, ↑ total T3. Next: radioactive iodine uptake (RAIU).\n- Diffuse uptake: homogeneous: Graves' disease; heterogeneous: toxic multinodular goitre.\n- Focal uptake: functioning adenoma.\n- No uptake: measure serum thyroglobulin: low (↓): thyrotoxicosis factitia; high (↑): thyroiditis, iodine load, or struma ovarii.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-antithyroid-drugs",
+   "page": 79,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hyperthyroidism > Management of hyperthyroidism > Antithyroid drug therapy",
+   "caption": "Antithyroid drug therapy for hyperthyroidism and thyroid storm: medicines, dosing and comments",
+   "replaces_chunks": [
+    "ncdimh-0216"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dosing"
+     },
+     {
+      "t": "Comment"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Propylthiouracil* (D)"
+     },
+     {
+      "t": "500-1000 mg load, then 250 mg 4-hourly"
+     },
+     {
+      "t": "Blocks new hormone synthesis; blocks T4-to-T3 conversion. Breastfeeding clients: propylthiouracil (up to a maximum dose of 450 mg/day)."
+     }
+    ],
+    [
+     {
+      "t": "Carbimazole (C)"
+     },
+     {
+      "t": "40-60 mg/day"
+     },
+     {
+      "t": "Blocks new hormone synthesis. Breastfeeding clients: carbimazole (up to maximum 15 mg/day)."
+     }
+    ],
+    [
+     {
+      "t": "Propranolol (A)"
+     },
+     {
+      "t": "60-80 mg every 4 hours"
+     },
+     {
+      "t": "Consider invasive monitoring in congestive heart failure patients. Blocks T4-to-T3 conversion in high doses. Alternative medicine: esmolol infusion."
+     }
+    ],
+    [
+     {
+      "t": "Iodine (saturated solution of potassium iodide) (B)"
+     },
+     {
+      "t": "5 drops (0.25 mL or 250 mg) (PO) 6-hourly"
+     },
+     {
+      "t": "Do not start until 1 hour after antithyroid medicines. Blocks new hormone synthesis; blocks thyroid hormone release."
+     }
+    ],
+    [
+     {
+      "t": "Hydrocortisone (A)"
+     },
+     {
+      "t": "300 mg intravenous load, then 100 mg 8-hourly"
+     },
+     {
+      "t": "May block T4-to-T3 conversion. Prophylaxis against relative adrenal insufficiency. Alternative medicine: dexamethasone."
+     }
+    ]
+   ],
+   "footnotes": [
+    "Letters A-D after each medicine are the evidence/medicine codes as printed. *No footnote for the asterisk on propylthiouracil is printed."
+   ],
+   "source_flags": [
+    "Propranolol is 'every 4 hours' here but 'q6h' / '6-h' in the thyroid storm table and flowchart (pp.82-83). Clinician to confirm."
+   ],
+   "table_note": "Note: in thyroid storm, propylthiouracil is preferred to carbimazole."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-tsh-ft4-interpretation",
+   "page": 80,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hyperthyroidism > Treatment targets of hyperthyroidism > TSH and FT4/FT3 diagnostic flowchart",
+   "caption": "Interpreting TSH and FT4/FT3 results (thyroid function test flowchart)",
+   "replaces_chunks": [
+    "ncdimh-0218"
+   ],
+   "content": "Start with TSH.\n\nTSH low:\n- FT4 and/or FT3 high (printed 'Nor FT4 and/or FT3 high'): primary hyperthyroidism. Perform test for TRAb/TSI; consider ordering thyroid scintigraphy. Repeat TFT in four weeks to determine course or impact of treatment. Specialist referral*.\n- FT4 and FT3 normal*: subclinical/mild hyperthyroidism. Repeat TSH, FT4 and FT3 in 1-3 months; may require further investigation.\n- FT4 and/or FT3 low: discordant: non-thyroidal illness; central hypothyroidism. Repeat TSH, FT4 and FT3 and follow to assess trend; if persistently abnormal, refer for further investigation.\n\nTSH normal: thyroid dysfunction excluded.\n\nTSH high:\n- FT4 low: primary hypothyroidism. Repeat TSH and FT4; check anti-TPO; treat with levothyroxine.\n- FT4 normal: subclinical/mild hypothyroidism. Repeat in 1-3 months; check anti-TPO antibody; monitor TFT annually if stable; consider treatment with levothyroxine*.\n- FT4 high: discordant: TSHoma; thyroid hormone resistance; assay interference. Repeat TSH and FT4 to assess trend; refer for further investigation.",
+   "footnotes": [],
+   "source_flags": [
+    "Asterisks in the flowchart have no footnote printed.",
+    "This flowchart covers hypo- and hyperthyroidism but sits under 'Treatment targets of hyperthyroidism' in the source."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-burch-wartofsky-score",
+   "page": 81,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hyperthyroidism > Emergencies in hyperthyroidism > Thyroid storm diagnosis: Burch-Wartofsky Point Scale (BWPS)",
+   "caption": "Burch-Wartofsky Point Scale (BWPS) for diagnosis of thyroid storm: criteria, points and interpretation",
+   "replaces_chunks": [
+    "ncdimh-0220",
+    "ncdimh-0221"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Feature"
+     },
+     {
+      "t": "Criteria (points)"
+     },
+     {
+      "t": "Score range"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Thermoregulatory dysfunction"
+     },
+     {
+      "t": "Temperature (°C)"
+     },
+     {
+      "t": "37.2-37.7: 5; 37.8-38.3: 10; 38.4-38.8: 15; 38.9-39.4: 20; 39.5-39.9: 25; ≥40.0: 30"
+     },
+     {
+      "t": "5-30"
+     }
+    ],
+    [
+     {
+      "t": "Central nervous system effects"
+     },
+     {
+      "t": "Manifestations"
+     },
+     {
+      "t": "Mild (agitation): 10; moderate (delirium, psychosis, extreme lethargy): 20; severe (seizure, coma): 30"
+     },
+     {
+      "t": "0-30"
+     }
+    ],
+    [
+     {
+      "t": "Gastrointestinal-hepatic dysfunction"
+     },
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "Moderate (diarrhoea, nausea/vomiting, abdominal pain): 10; severe (jaundice): 20"
+     },
+     {
+      "t": "0-20"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular dysfunction"
+     },
+     {
+      "t": "Tachycardia (bpm)"
+     },
+     {
+      "t": "90-109: 5; 110-119: 10; 120-129: 15; 130-139: 20; ≥140: 25"
+     },
+     {
+      "t": "5-25"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular dysfunction"
+     },
+     {
+      "t": "Atrial fibrillation"
+     },
+     {
+      "t": "Present: 10"
+     },
+     {
+      "t": "0-10"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular dysfunction"
+     },
+     {
+      "t": "Congestive heart failure"
+     },
+     {
+      "t": "Mild (pedal oedema): 5; moderate (bibasilar rales): 10; severe (pulmonary oedema): 15"
+     },
+     {
+      "t": "0-15"
+     }
+    ],
+    [
+     {
+      "t": "Precipitating event"
+     },
+     {
+      "t": "Trigger (e.g., infection, surgery, trauma, withdrawal of antithyroid drugs)"
+     },
+     {
+      "t": "Present: 10"
+     },
+     {
+      "t": "0-10"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The temperature criteria are printed as one run-on line ('37.2–37.7 → 5 37.8–38.3 → 10 3 8.4–38.8 → 15 ...'); split into bands."
+   ],
+   "context_before": "Thyroid storm/thyrotoxic crisis is a rare but potentially life-threatening syndrome of exaggerated hyperthyroidism: hyperthermia, severe tachycardia with or without cardiac failure, severe agitation, possible jaundice, and mental disorientation, culminating in stupor and coma.",
+   "table_note": "Interpretation of total score: ≥45: thyroid storm highly likely; 25-44: impending storm; <25: thyroid storm unlikely."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-thyroid-storm-management",
+   "page": 82,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hyperthyroidism > Management of thyroid storm > Recognition and management (flowchart)",
+   "caption": "Thyroid storm: recognition and management (flowchart)",
+   "replaces_chunks": [
+    "ncdimh-0222",
+    "ncdimh-0223",
+    "ncdimh-0224"
+   ],
+   "content": "1. Suspect thyroid storm (BWPS ≥45).\n2. Identify precipitant(s).\n3. Initial stabilization (ABC). Propylthiouracil (PTU) or methimazole.\n4. Block thyroid hormone synthesis (≥ 1 h after ATD): Lugol's iodine 8 drops PO q6-8h, or NaI IV 0.25-0.5 g q6h.\n5. Block peripheral effects: propranolol 60-80 mg OG 6-hourly, or 1 mg IV q10min (max 3); hydrocortisone 100 mg IV q8h.\n6. Continuous monitoring & support: ECG, vitals, fluid balance, electrolytes. Adjust therapy as needed.\n\nIn addition to general supportive measures, therapy should be directed at the thyroid gland and the hypermetabolism and tachycardia. Patients should be monitored in an intensive or high care setting. The underlying precipitant should be actively treated and managed. Prevention is key: correct thyroid function before elective surgery.",
+   "footnotes": [],
+   "source_flags": [
+    "Step 4 is titled 'Block thyroid hormone synthesis' but describes iodine, which the table on p.83 places under 'Block hormone release'.",
+    "'Identity precipitants' and 'Continuos' printed; corrected."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-thyroid-storm-treatment",
+   "page": 82,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hyperthyroidism > Management of thyroid storm > Treatment steps and doses",
+   "caption": "Thyroid storm treatment steps: therapeutic targets, drugs and doses",
+   "replaces_chunks": [
+    "ncdimh-0225"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Step"
+     },
+     {
+      "t": "Therapeutic target"
+     },
+     {
+      "t": "Drug / intervention"
+     },
+     {
+      "t": "Dose / notes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Block thyroid hormone synthesis"
+     },
+     {
+      "t": "Antithyroid drugs (ATDs)"
+     },
+     {
+      "t": "Propylthiouracil (PTU): 500-1000 mg loading, then 250 mg q4h; preferred early as it inhibits T4-to-T3 conversion. Methimazole: 60-80 mg/day if PTU unavailable."
+     },
+     {
+      "t": "Start immediately on diagnosis"
+     }
+    ],
+    [
+     {
+      "t": "Block hormone release (give ≥1 hr after ATD)"
+     },
+     {
+      "t": "Iodine therapy"
+     },
+     {
+      "t": "Lugol's iodine: 8 drops q6-8h. Sodium iodide IV: 0.25-0.5 g q6h. Administer ≥1 hr after ATD to avoid iodine-fuelled synthesis."
+     },
+     {
+      "t": "Reduces preformed hormone release"
+     }
+    ],
+    [
+     {
+      "t": "Block peripheral effects"
+     },
+     {
+      "t": "Beta-blockade; corticosteroid therapy"
+     },
+     {
+      "t": "Propranolol: 60-80 mg PO q6h or 1 mg IV q10min (max 3 doses); esmolol IV infusion is an alternative in heart failure. Hydrocortisone: 100 mg IV q8h (reduces T4-to-T3 conversion and prevents adrenal crisis)."
+     },
+     {
+      "t": "Controls adrenergic effects; protects against adrenal failure"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.83."
+   ],
+   "pages": [
+    82,
+    83
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-hyperthyroidism-pregnancy",
+   "page": 85,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Thyroid Disorders > Hyperthyroidism in Pregnancy > Management of hyperthyroidism in pregnancy",
+   "caption": "Management of hyperthyroidism in pregnancy (flowchart)",
+   "replaces_chunks": [
+    "ncdimh-0230",
+    "ncdimh-0231"
+   ],
+   "content": "Two entry points:\n- Known hyperthyroidism on ATD and wishing to conceive/pregnant: switch to a 'dose titration' regimen if on 'block and replace'. Use PTU pre-conception and in the 1st trimester; use CBZ (carbimazole) thereafter.\n- New diagnosis of hyperthyroidism during pregnancy: commence anti-thyroid medication: PTU in the first trimester, CBZ thereafter.\n\nBoth: refer to endocrine physician. Then two parallel tracks:\n\nTrack 1 - check TFTs every 4 weeks (and LFTs every 4 weeks if on PTU):\n- Free T4 above normal reference range: increase dose of ATD.\n- Free T4 at or just above upper end of normal reference range: continue on current dose of ATD.\n- Free T4 below upper end of normal reference range: decrease dose of ATD.\nRepeat the 4-weekly checks throughout pregnancy. TFTs to be checked 6-8 weeks post-partum (printed 'at first ante-natal check').\n\nTrack 2 - check TRAb at 22 weeks and 36 weeks. If TRAb > 2-3 times the upper limit of normal: obstetric ultrasound for monitoring for fetal thyrotoxicosis.\n\nReference: Girling JC. Thyroid disease in pregnancy. The Obstetrician and Gynaecologist 2008; 10:237-243.",
+   "footnotes": [],
+   "source_flags": [
+    "'Check FTT's' printed (read as TFTs); 'refence' printed; 'post-partum at first ante-natal check' printed as is."
+   ]
   }
  ]
 }
