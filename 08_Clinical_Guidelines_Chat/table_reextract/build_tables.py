@@ -215,6 +215,7 @@ def numbers(s):
 
 
 def check(t, text_all, pdf_text, old_text):
+    text_all = '\n'.join(l for l in text_all.split('\n') if not l.startswith('### '))   # caption is ours
     new = numbers(text_all)
     res = {}
     if pdf_text is not None:
@@ -233,10 +234,21 @@ def main(spec_path, pdf_dir, chunks_path, out_dir):
     os.makedirs(out_dir, exist_ok=True)
     results = []
     for t in spec['tables']:
-        n = ncols_of(t['header'])
-        html_s, text_s = render_html(t, n), render_text(t, n)
-        embed_s = embed_parts(render_embed(t, n, spec['doc_title']))
-        pages = {t['page'], t.get('footnotes_page', t['page'])}
+        if t.get('kind') == 'diagram':
+            html_s = f'<pre class="diagram" data-table-id="{t["table_id"]}">{H.escape(t["content"])}</pre>'
+            text_s = f'### {t["caption"]}\n\n{t["content"]}'
+            embed_s = embed_parts([f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})', '', t['caption'] + '.']
+                                  + [p for p in t['content'].split('\n\n')])
+        elif t.get('kind') == 'box':
+            html_s = (f'<div class="box" data-table-id="{t["table_id"]}"><b>{H.escape(t["caption"])}</b>'
+                      + ''.join(f'<p>{H.escape(l)}</p>' for l in t['content'].split('\n')) + '</div>')
+            text_s = f'> **{t["caption"]}**\n>\n' + '\n'.join('> ' + l for l in t['content'].split('\n'))
+            embed_s = [f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})\n\n{t["caption"]}.\n{t["content"]}']
+        else:
+            n = ncols_of(t['header'])
+            html_s, text_s = render_html(t, n), render_text(t, n)
+            embed_s = embed_parts(render_embed(t, n, spec['doc_title']))
+        pages = set(t.get('pages', [t['page']])) | {t.get('footnotes_page', t['page'])}
         pdf_text = None if t.get('image_only') else '\n'.join(
             open(os.path.join(pdf_dir, f'p{p}.txt')).read() for p in sorted(pages))
         if t.get('image_only') and t.get('footnotes_page'):
@@ -246,7 +258,7 @@ def main(spec_path, pdf_dir, chunks_path, out_dir):
         results.append(dict(table_id=t['table_id'], page=t['page'], html=html_s, text=text_s, embed_text=embed_s,
                             checks=chk, source_flags=t.get('source_flags', []), replaces_chunks=t['replaces_chunks'],
                             old_text=old_text, caption=t['caption'], heading_path=t['heading_path'],
-                            image_only=t.get('image_only', False)))
+                            image_only=t.get('image_only', False), kind=t.get('kind', 'table')))
         print(t['table_id'], json.dumps(chk))
     json.dump(results, open(os.path.join(out_dir, 'tables_out.json'), 'w'), ensure_ascii=False, indent=1)
 

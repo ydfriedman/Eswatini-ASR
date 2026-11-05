@@ -1,0 +1,1763 @@
+{
+ "doc_id": "hiv-amendment-2024",
+ "doc_title": "Amendment to the Eswatini Integrated HIV Management Guidelines (2024)",
+ "method": "Transcribed by Claude from PDF page images (110-220 dpi), checked against the PDF text layer where one exists and against the original LlamaParse chunks.",
+ "tables": [
+  {
+   "table_id": "hiv-amendment-2024-tbl-3-summary-of-changes",
+   "page": 8,
+   "pages": [
+    8,
+    9
+   ],
+   "printed_page": 2,
+   "image_only": false,
+   "heading_path": "Chapter 3: HIV Testing Services > Summary of Changes",
+   "caption": "Chapter 3 HIV testing services: summary of changes, 2022 vs 2024 guidance",
+   "caption_note": "Printed heading 'SUMMARY OF CHANGES'; table continues onto p.9.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0014",
+    "hiv-amendment-2024-0015"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Training of HTS counsellors to be conducted by PSI and TASC"
+     },
+     {
+      "t": "Any accredited institution recognized by SNAP and EHLS may train HTS Counsellors. Entry requirements for HTS training is completion of Form V."
+     }
+    ],
+    [
+     {
+      "t": "The HIV testing screening tool will be used to determine eligibility for HTS."
+     },
+     {
+      "t": "HIVST replaces the risk based HTS screening tool in all individuals 12 years and above (excluding clients eligible for routine testing). Routine testing following the National HIV Testing Algorithm should be offered to malnourished and sick children, HIV-exposed children, clients with confirmed or presumptive TB disease, STI clients, index contacts and inpatient, pregnant and lactating women and KPs."
+     }
+    ],
+    [
+     {
+      "t": "Use the HIV screening tool for children and adolescents (6-15yrs) to determine eligibility for HTS."
+     },
+     {
+      "t": "All children 2-11 years utilize the paediatric HIV screening tool in all entry points unless they qualify for routine testing."
+     }
+    ],
+    [
+     {
+      "t": "HIV Self-test kits/Oraquick can be distributed at the health facility level and performed privately in the client's home or facilitated by a healthcare worker in a private setting at a health facility."
+     },
+     {
+      "t": "The age of consent for HIVST has been reduced from 16 years to 12 years."
+     }
+    ],
+    [
+     {
+      "t": "Frequency of rescreening for HIV undefined"
+     },
+     {
+      "t": "For children 2-11 years rescreen at every encounter using the risk assessment tool. For all individuals 12 years and above rescreen at every facility encounter using HIVST. For ANC and PMTCT, retesting guidelines remain unchanged (refer to Eswatini Integrated HIV Management Guidelines 2022, Chapter 3). For all clients eligible for routine testing, retesting guidelines remain unchanged (refer to the 2022 Guidelines, Chapter 3). PrEP retesting guidelines remain unchanged (refer to the 2022 Guidelines, Chapter 3)."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "box",
+   "table_id": "hiv-amendment-2024-box-3.2.2-hivst-eligible",
+   "page": 11,
+   "printed_page": 5,
+   "image_only": false,
+   "heading_path": "Chapter 3: HIV Testing Services > 3.2 HIV Screening Tools > 3.2.2 HIVST as a Screening Tool",
+   "caption": "Patients eligible for HIVST screening",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0023"
+   ],
+   "content": "Patients eligible for HIVST screening are:\n- All individuals 12 years and above\n- PrEP initiations and follow-ups (only Oral and Ring)",
+   "footnotes": [],
+   "source_flags": [
+    "Highlighted box in the PDF, not a table; stored as a box."
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "hiv-amendment-2024-box-3.2.2.1-hivst-prep",
+   "page": 11,
+   "printed_page": 5,
+   "image_only": false,
+   "heading_path": "Chapter 3: HIV Testing Services > 3.2 HIV Screening Tools > 3.2.2.1 Use of HIV-ST Among All Individuals 12 Years & Above > Use of HIV-ST among PrEP clients",
+   "caption": "Use of HIV-ST among PrEP clients",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0025"
+   ],
+   "content": "There are two key approaches where HIVST can be considered as part of PrEP delivery:\n1. Demand generation and linkage to PrEP: HIVST can be an important tool to generate demand for PrEP by reaching individuals who may not otherwise test or access health facilities.\n2. PrEP (re-)initiation and follow-up visits: HIVST can be used for clients (re-)initiating or continuing oral PrEP or the PrEP ring. For CAB-LA users, a National HIV Testing Algorithm needs to be used.",
+   "footnotes": [],
+   "source_flags": [
+    "Highlighted box in the PDF, not a table; stored as a box."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-3-prep-initiation-hivst",
+   "page": 12,
+   "printed_page": 6,
+   "image_only": false,
+   "heading_path": "Chapter 3: HIV Testing Services > 3.2.2.1 Use of HIV-ST Among All Individuals 12 Years & Above > PrEP (re-)initiation",
+   "caption": "HIV testing and dispensing at PrEP (re-)initiation: oral PrEP or ring vs CAB-LA",
+   "caption_note": "Printed heading 'PrEP (re-) Initiation'.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0026"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Oral PrEP (daily, ED, or alternating) or PrEP Ring"
+     },
+     {
+      "t": "CAB-LA"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "HIV test"
+     },
+     {
+      "t": "An HIVST can be used to rule out HIV infection except for PBFW for whom a National HIV Testing Algorithm is recommended."
+     },
+     {
+      "t": "National HIV Testing Algorithm needs to be used to rule out HIV infection."
+     }
+    ],
+    [
+     {
+      "t": "Assess PEP eligibility"
+     },
+     {
+      "t": "For any UNPROTECTED sexual exposure in the last 72 hours, clients should be assessed for PEP eligibility, prior to PrEP initiation.",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Volume dispensed"
+     },
+     {
+      "t": "1 month prescription (1 bottle) of TDF/3TC or 1 DPV ring."
+     },
+     {
+      "t": "Initiation injection 1 is given."
+     }
+    ],
+    [
+     {
+      "t": "Next appointment"
+     },
+     {
+      "t": "Schedule next visit date after 1 month."
+     },
+     {
+      "t": "Schedule next visit date for initiation injection 2 after 1 month days (+/- 7 days)."
+     }
+    ],
+    [
+     {
+      "t": "HIVST distribution"
+     },
+     {
+      "t": "Can be provided as an exit test or for ED PrEP users before a new cycle of exposure."
+     },
+     {
+      "t": "N/A"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'after 1 month days (+/- 7 days)' is printed as is."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-3-prep-followup-hivst",
+   "page": 12,
+   "pages": [
+    12,
+    13
+   ],
+   "printed_page": 6,
+   "image_only": false,
+   "heading_path": "Chapter 3: HIV Testing Services > 3.2.2.1 Use of HIV-ST Among All Individuals 12 Years & Above > PrEP follow-up visits",
+   "caption": "HIV testing, dispensing and appointments at PrEP follow-up visits: oral PrEP or ring vs CAB-LA",
+   "caption_note": "Printed heading 'PrEP F/U Visits'; table continues onto p.13.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0027",
+    "hiv-amendment-2024-0028"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Oral PrEP or PrEP Ring"
+     },
+     {
+      "t": "CAB-LA"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "HIV testing frequency"
+     },
+     {
+      "t": "At one month, then every three months."
+     },
+     {
+      "t": "At one month, then every two months."
+     }
+    ],
+    [
+     {
+      "t": "HIV testing type"
+     },
+     {
+      "t": "HIVST for all clients except PBFW who will receive a National HIV Testing Algorithm during their ANC/PNC visit."
+     },
+     {
+      "t": "National HIV Testing Algorithm"
+     }
+    ],
+    [
+     {
+      "t": "Volume dispensed"
+     },
+     {
+      "t": "At the first follow-up visit (M1), oral PrEP/PrEP ring can be dispensed for a maximum of three months. For the second refill (M4), the PrEP method can be dispensed for a maximum of six months if the client meets ALL of the following criteria: (a) attending the FU appointment on time (within 7 days of scheduled visit date); (b) does not report any side-effects; (c) wants to continue with the same PrEP method; (d) is not pregnant or breastfeeding or has any comorbidities [as printed]; (e) is willing to take an HIVST after three months, and if HIV negative continues with the remaining three months of PrEP, or if positive discontinues the PrEP method and reports to the facility for confirmation of the test result and linkage to ART. For clients not meeting the above criteria, a maximum refill of three months can be done at any time."
+     },
+     {
+      "t": "After initiation injection 1 and 2, re-injections will be given every 2 months (+/- 7 days)."
+     }
+    ],
+    [
+     {
+      "t": "HIVST distribution"
+     },
+     {
+      "t": "Clients eligible and receiving 6MMD should be provided with an HIVST to test after using 3 months of their PrEP product. For ED PrEP clients, consider providing 2 HIVST for any in between exposure."
+     },
+     {
+      "t": "N/A"
+     }
+    ],
+    [
+     {
+      "t": "Next appointment"
+     },
+     {
+      "t": "3 or 6 months depending if client qualifies for 6MMD and available stock. For PBFW clients, PrEP visits should be aligned with ANC and PNC visits."
+     },
+     {
+      "t": "After initiation injection 2, follow up appointments and re-injection will be every 2 months."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The 6-month refill criteria are a bulleted list in one cell; lettered (a)-(e) here.",
+    "Criterion (d) is printed 'Client is not pregnant or breastfeeding or has any comorbidities'; the intended meaning is presumably 'not pregnant or breastfeeding and has no comorbidities'. Clinician to confirm."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-4-summary-of-changes",
+   "page": 15,
+   "printed_page": 9,
+   "image_only": false,
+   "heading_path": "Chapter 4: Referral & Linkages > Summary of Changes",
+   "caption": "Chapter 4 referral and linkages: summary of changes, 2022 vs 2024 guidance",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0030"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Referral and linkages to prevention or care and treatment services should be provided to both negative and positive clients, respectively."
+     },
+     {
+      "t": "The old guidance is unchanged. However, providers should shift to implementing a status neutral approach: all individuals provided with HTS should be directly linked to services appropriate to their health needs (prevention or ART services) regardless of HIV status."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-4.2-re-engagement",
+   "page": 16,
+   "printed_page": 10,
+   "image_only": false,
+   "heading_path": "Chapter 4: Referral & Linkages > 4.2 Re-Engagement",
+   "caption": "Re-engagement in care: transfer letters, 2022 vs 2024 guidance",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0036"
+   ],
+   "row_header_cols": 1,
+   "context_before": "Clients disengage and re-engage into care for various reasons throughout the continuity of care. Additionally, clients may move between health facilities.",
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "It is recommended that the client present transfer letters from the transferring facility."
+     },
+     {
+      "t": "Should a client fail to present a transfer letter, healthcare workers should continue the re-engagement and contact the transferring facility to complete the transfer process."
+     }
+    ]
+   ],
+   "table_note": "It is important to identify the reason why the client interrupted treatment and develop an action plan based on the reasons for treatment interruption.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-5-summary-of-changes",
+   "page": 19,
+   "printed_page": 13,
+   "image_only": false,
+   "heading_path": "Chapter 5: Basic Care Package for HIV-Positive Individuals > Summary of Changes",
+   "caption": "Chapter 5 basic care package: summary of changes in viral load testing, MMD and HIVDR, 2022 vs 2024 guidance",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0040"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "(no 2022 guidance)"
+     },
+     {
+      "t": "Pretreatment VL for all newly diagnosed clients initiating ART. Clients returning to care should not receive PTVL."
+     }
+    ],
+    [
+     {
+      "t": "The first routine VL test is to be done by 6 months post-ART initiation."
+     },
+     {
+      "t": "The first routine VL test is to be done 3 months post-ART initiation. Ensure that all clients have a VL test done BY 6 months of starting ART."
+     }
+    ],
+    [
+     {
+      "t": "The 2nd routine VL test should be done 6 months after an initial suppressed VL test result."
+     },
+     {
+      "t": "The 2nd routine VL test should be done 6 months after an initial suppressed VL test result and then annually thereafter. For children, pregnant and breastfeeding women, it should be done every 6 months."
+     }
+    ],
+    [
+     {
+      "t": "3MMD can be started after a suppressed VL done 6 months following ART initiation."
+     },
+     {
+      "t": "Up to 3MMD of ARVs can be started after an initial suppressed VL test result done at 3 months. Up to 6MMD can be given following 2 consecutive suppressed VL test results."
+     }
+    ],
+    [
+     {
+      "t": "(no 2022 guidance)"
+     },
+     {
+      "t": "Remnant blood samples of all infants who test HIV positive may be stored and used for surveillance purposes (plasma or DBS) for HIVDR survey activities."
+     }
+    ],
+    [
+     {
+      "t": "(no 2022 guidance)"
+     },
+     {
+      "t": "Routine HIVDR testing for all PrEP breakthrough infections."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Empty 2022 cells (new guidance) are written as '(no 2022 guidance)'."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-6-summary-of-changes",
+   "page": 23,
+   "printed_page": 17,
+   "image_only": false,
+   "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > Summary of Changes",
+   "caption": "Chapter 6 TB/HIV and advanced HIV disease: summary of changes (TPT, TB LAM, CD4, CrAg), 2022 vs 2024 guidance",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0048"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "INH/CTX/VitB6 is an option for TPT for PLHIV."
+     },
+     {
+      "t": "INH/CTX/VitB6 is phased out as a TPT option."
+     }
+    ],
+    [
+     {
+      "t": "TB LAM diagnosed patients are classified as clinically diagnosed patients."
+     },
+     {
+      "t": "TB LAM diagnosed patients are classified as bacteriologically confirmed TB patients."
+     }
+    ],
+    [
+     {
+      "t": "3HP (900mg/900mg) recommended for children and adolescents > 12 years and 25kgs."
+     },
+     {
+      "t": "3HP (900mg/900mg) recommended for children and adolescents > 14 years and 30kgs."
+     }
+    ],
+    [
+     {
+      "t": "Levofloxacin + Ethambutol recommended for TPT for high-risk contact of a MDR, INH mono and PDR patients."
+     },
+     {
+      "t": "Levofloxacin recommended for TPT for high-risk contact of a MDR, INH mono and PDR patients."
+     }
+    ],
+    [
+     {
+      "t": "PIMA is the platform of choice for baseline CD4 count test."
+     },
+     {
+      "t": "VISITECT CD4 for Advanced HIV disease is the platform of choice for baseline CD4 test where available."
+     }
+    ],
+    [
+     {
+      "t": "CrAg screening recommended for PLHIV with CD4 ≤ 100 cell/ml."
+     },
+     {
+      "t": "CrAg screening recommended for PLHIV with CD4 ≤ 200 cell/ml."
+     }
+    ],
+    [
+     {
+      "t": "TB LAM test recommended for inpatients with CD4 ≤ 200 cell/ml, outpatients with CD4 ≤ 100 cell/ml."
+     },
+     {
+      "t": "TB LAM test recommended for inpatients and outpatients with CD4 ≤ 200 cell/ml."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-6.1.2-tpt-options",
+   "page": 24,
+   "printed_page": 18,
+   "image_only": false,
+   "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1 Tuberculosis > 6.1.2 TB Prevention",
+   "caption": "Recommended TPT options by population group (preferred and alternative regimens)",
+   "context_before": "Recommended TPT options are as follows:",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0050"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population group"
+     },
+     {
+      "t": "Preferred regimen"
+     },
+     {
+      "t": "Alternative regimen"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "All TPT naïve PLHIV including children and adolescents above 14 years and 30kg; PLHIV on completion of DSTB or DRTB treatment despite previous TPT; PLHIV who are household contacts to bacteriologically confirmed TB, despite previous TPT"
+     },
+     {
+      "t": "3 months of Rifapentine/Isoniazid (3HP) 900mg/900mg; 1 month of INH/Rifapentine (1HP), once available"
+     },
+     {
+      "t": "6 months of INH monotherapy (6H)"
+     }
+    ],
+    [
+     {
+      "t": "CLHIV (<14 years or <30kgs)"
+     },
+     {
+      "t": "6H"
+     },
+     {
+      "t": "(none: cell greyed out)"
+     }
+    ],
+    [
+     {
+      "t": "HIV-negative (household contact, other at-risk groups)"
+     },
+     {
+      "t": "3 months of Rifapentine/Isoniazid (3HP) 900mg/900mg; 3 months of Rifampicin/Isoniazid (3RH); 4 months of Rifampicin (4R)"
+     },
+     {
+      "t": "6 months of INH (6H)"
+     }
+    ],
+    [
+     {
+      "t": "DR-TB contacts"
+     },
+     {
+      "t": "MDR-TB/RR-TB/Rif mono-resistance: Levofloxacin. INH mono and PDR: Levofloxacin. Pre-XDR and XDR: for DRTB expert review.",
+      "cs": 2
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The DR-TB contacts regimen spans the preferred and alternative columns."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-6.2-ahd-package",
+   "page": 25,
+   "pages": [
+    25,
+    26
+   ],
+   "printed_page": 19,
+   "image_only": false,
+   "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.2 Advanced HIV Disease > Advanced HIV package",
+   "caption": "Advanced HIV disease (AHD) package: interventions, CD4 criteria and eligibility for adults/adolescents and children under 10",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0052"
+   ],
+   "row_header_cols": 2,
+   "header": [
+    [
+     {
+      "t": "Area of package"
+     },
+     {
+      "t": "Intervention"
+     },
+     {
+      "t": "CD4 count"
+     },
+     {
+      "t": "Adults & adolescents"
+     },
+     {
+      "t": "Children < 10 years"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Screening and diagnosis",
+      "rs": 4
+     },
+     {
+      "t": "Sputum for Xpert/Xpert ultra MTB/RIF as first test for TB diagnosis in symptomatic patients"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Urine LF-LAM for TB diagnosis in symptomatic patients or those with low CD4 count"
+     },
+     {
+      "t": "Symptomatic patients: all patients regardless of CD4 count with TB signs and symptoms. Seriously ill patients*: all patients regardless of CD4 count or TB signs and symptoms. Inpatients and outpatients: CD4 ≤ 200 cells/ml regardless of TB signs and symptoms."
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Cryptococcal antigen CrAg screening"
+     },
+     {
+      "t": "CD4 ≤ 200 cells/ml"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "No"
+     }
+    ],
+    [
+     {
+      "t": "Histoplasma antigen test"
+     },
+     {
+      "t": "All PLHIV"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Prophylaxis and pre-emptive treatment",
+      "rs": 3
+     },
+     {
+      "t": "Cotrimoxazole prophylaxis (CPT)"
+     },
+     {
+      "t": "CD4 ≤350 cells/ml or WHO stage 3 or 4"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "TB preventive treatment (TPT)"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Fluconazole pre-emptive treatment for CrAg positive patients without evidence of meningitis"
+     },
+     {
+      "t": "CD4 ≤200 cells/ml"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "No"
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Itraconazole prophylaxis for histoplasma antigen positive patients"
+     },
+     {
+      "t": "Any CD4 count until 12 months or stable on ART and virally suppressed"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "ART initiation",
+      "rs": 2
+     },
+     {
+      "t": "Rapid ART initiation"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Defer ART initiation if signs and symptoms of TB, CCM or CNS histoplasmosis"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Adapted adherence support"
+     },
+     {
+      "t": "Tailored counselling to support adherence to AHD package, including home visits where feasible"
+     },
+     {
+      "t": "CD4 ≤200 cells/ml"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.26 with the header repeated.",
+    "The PDF prints 'MBT/RIF'; written as MTB/RIF.",
+    "The itraconazole row has an empty 'Area of package' cell in the PDF (its own cell, not merged); it probably belongs to 'Prophylaxis and pre-emptive treatment'.",
+    "'Seriously ill patients*' has an asterisk but no footnote is printed."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-7-summary-of-changes",
+   "page": 28,
+   "printed_page": 22,
+   "image_only": false,
+   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > Summary of Changes",
+   "caption": "Chapter 7 adult ART: summary of changes in viral load thresholds and testing, 2022 vs 2024 guidance",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0053"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "(no 2022 guidance)"
+     },
+     {
+      "t": "All clients on 3rd line ART should have routine VL testing done every 6 months."
+     }
+    ],
+    [
+     {
+      "t": "Suppressed VL: VL <1000 copies/mL. Low level viraemia: VL 50 – 999 copies/mL."
+     },
+     {
+      "t": "Suppressed VL: VL <200 copies/mL. Low-level viraemia: VL 200 – 999 copies/mL."
+     }
+    ],
+    [
+     {
+      "t": "SUAC for all clients with a VL >1000 copies/mL."
+     },
+     {
+      "t": "Adherence Counselling for all clients with a VL > 200 copies/mL."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Empty 2022 cell (new guidance) written as '(no 2022 guidance)'.",
+    "Figure 7.1 on the same page gives low-level viraemia as VL 50 - 999 copies/mL, while this table gives 200 - 999 copies/mL for 2024. Inconsistency in the source: clinician to confirm."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-8-summary-of-changes",
+   "page": 32,
+   "printed_page": 26,
+   "image_only": false,
+   "heading_path": "Chapter 8: Prevention of Mother-to-Child Transmission of HIV > Summary of Changes",
+   "caption": "Chapter 8 PMTCT: summary of changes (viraemia in pregnant/breastfeeding women, infant PEP, DR committee), 2022 vs 2024 guidance",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0062"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Genotypes were recommended for pregnant or breastfeeding women failing a DTG or PI based ART regimen."
+     },
+     {
+      "t": "Updated guidance provides more details for same day clinical care decisions and consideration of empiric therapy for women deemed highest risk while awaiting genotype results. Emphasis is placed on intensive adherence interventions for all women with a DVL >50."
+     }
+    ],
+    [
+     {
+      "t": "No specific recommendations for breastfeeding infants of mothers found to have seroconverted."
+     },
+     {
+      "t": "3 drug PEP after appropriate testing is recommended for breastfeeding infants of mothers found to have seroconverted."
+     }
+    ],
+    [
+     {
+      "t": "Repeat VL 1 month after SUAC"
+     },
+     {
+      "t": "Specific recommendation to consult the DR committee for all women who remain with VL > 50 despite 1 month of intensive adherence support."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-8.1-viraemia-pregnant",
+   "page": 32,
+   "printed_page": 26,
+   "image_only": true,
+   "heading_path": "Chapter 8: Prevention of Mother-to-Child Transmission of HIV > Same Day Management of Viraemia in Pregnant Women",
+   "caption": "Figure 8.1 Same day management of viraemia in pregnant women (flowchart)",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0063",
+    "hiv-amendment-2024-0064",
+    "hiv-amendment-2024-0065"
+   ],
+   "content": "Starting point: pregnant woman with VL > 50 c/mL.\n\nPath A - VL 50-1000 c/mL AND on DTG for less than 18 months (DTG <18/12):\nIntensive adherence interventions:\n  1. DOT\n  2. Mentor mother/EC involvement\n  3. Follow-up VL after 1 month (F/U VL 1/12)\n  4. If VL remains >1000, or VL remains 50-1000, consult the DR committee\n\nPath B - on DTG for more than 18 months, or duration unknown (DTG >18/12 or unknown):\nStep 1. Genotype if VL > 1000*. Send genotypes the same day (unless known default or very poor adherence in the first trimester). Complete and submit a genotype motivation to snapthirdline@mohcoag.org.\nStep 2. Then by timing of the detectable viral load (DVL):\n  - 1st DVL in the 1st or 2nd trimester: intensive adherence interventions as in Path A.\n  - 1st DVL in the 3rd trimester, OR 2nd DVL in any trimester: Empiric therapy, chosen by prior PI use:\n  - No prior PI: TLD 1 tab OD PLUS EITHER DRV/r (400/50) 2 tabs OD* OR ATV/r (300/50) 1 tab OD (*if available)\n  - Prior PI: TLD 1 tab OD PLUS DRV/r (600/100) BD\n  Provide the same intensive adherence interventions as in Path A.\n\nWhen the baby is born:\n  - 2 drug EIP x 6 weeks (X6/52) and then NVP only, minimum 14 weeks (14/52), and mother is documented undetectable.\n  - Consider 3 drug ART for babies born to women with seroconversion at delivery; perform 2 tests prior to initiation.\n  - VL at delivery for all women.\n  - Birth test all infants.\n  - Please consult for PLW with viraemia on concurrent ATT.",
+   "footnotes": [],
+   "source_flags": [
+    "Flowchart is an image in the PDF; transcribed from the page image (no text layer to check against).",
+    "Path A is ONE condition box (VL 50-1000 and DTG <18/12), not two paths.",
+    "The '*' on 'DRV/r 2 tabs od*' and '*if available' are printed as is; it is not clear whether 'if available' qualifies DRV/r or ATV/r."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-8.2-viraemia-breastfeeding",
+   "page": 33,
+   "printed_page": 27,
+   "image_only": true,
+   "heading_path": "Chapter 8: Prevention of Mother-to-Child Transmission of HIV > Same Day Management of Viraemia in Breastfeeding Women",
+   "caption": "Figure 8.2 Same day management of viraemia in breastfeeding women (flowchart)",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0066",
+    "hiv-amendment-2024-0067",
+    "hiv-amendment-2024-0068"
+   ],
+   "content": "First: test the infant immediately. If reactive, initiate ART as soon as possible. If non-reactive, follow the algorithm below. Consider presumptive ART in all HIV-exposed infants (HEI) who appear ill/FTT while awaiting test results.\n\nStarting point: breastfeeding woman with viraemia.\n\nPath A - VL 50-1000 c/mL AND on DTG for less than 18 months (printed: 'TLD1 and TLD2 DTG <18/12'):\nIntensive adherence interventions:\n  1. DOT\n  2. Mentor mother/EC involvement\n  3. Follow-up VL after 1 month (F/U VL 1/12)\n  4. If VL remains >1000, or VL remains 50-1000, consult the DR committee\n\nPath B - on DTG for more than 18 months, or duration unknown (printed: 'TLD1 and TLD2 on DTG > 18/12 or unknown'):\nStep 1. Genotype if VL > 1000*. Send genotypes the same day (unless known default or very poor adherence in the first trimester). Complete and submit a genotype motivation to snapthirdline@mohcoag.org.\nStep 2. Then:\n  - 1st DVL: intensive adherence interventions as in Path A.\n  - 2nd DVL: discuss AFASS; if breastfeeding is ongoing, proceed to Empiric therapy, chosen by prior PI use:\n  - No prior PI: TLD 1 tab OD PLUS EITHER DRV/r (400/50) 2 tabs OD* OR ATV/r (300/50) 1 tab OD (*if available)\n  - Prior PI: TLD 1 tab OD PLUS DRV/r (600/100) BD\n  Provide the same intensive adherence interventions as in Path A.\n\nCaring for the breastfeeding child:\n  - If child is <6 weeks (<6/52): continue EIP (AZT/NVP; printed 'AT/NVP').\n  - If child is >6 weeks (>6/52): continue or restart NVP until the mother is undetectable.\n  - If AFASS criteria are met and the mother prefers to wean after clear discussion of risks and benefits, advise weaning.\n  - Follow a weaned infant monthly for weight check.\n  - If the mother acutely seroconverted, test the infant. If negative, consider PEP in the baby until the mother is undetectable.",
+   "footnotes": [],
+   "source_flags": [
+    "Flowchart is an image in the PDF; transcribed from the page image.",
+    "Path A is ONE condition box (VL 50-1000 and DTG <18/12), not two paths.",
+    "The PDF prints 'TLD1 and TLD2 DTG <18/12' and 'TLD1 and TLD2 on DTG > 18/12 or unknown'. The meaning of 'TLD1 and TLD2' is unclear (possibly a typo); clinician to confirm.",
+    "The PDF prints 'Continue EIP (AT/NVP)'; AT is presumably AZT."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-9-summary-of-changes",
+   "page": 35,
+   "printed_page": 29,
+   "image_only": false,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > Summary of Changes",
+   "caption": "Chapter 9 ART for children and adolescents: summary of changes by section, 2022 vs 2024 guidance",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0070"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "2022 Guidance"
+     },
+     {
+      "t": "2024 Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "9.3: Omitted"
+     },
+     {
+      "t": "Any ill-appearing HIV exposed infant should start ART presumptively while awaiting results."
+     }
+    ],
+    [
+     {
+      "t": "9.6: No mention of pALD (+ Annex)"
+     },
+     {
+      "t": "pALD included in the new paediatric dosing chart."
+     }
+    ],
+    [
+     {
+      "t": "9.8: Missing TPT dosing for CALHIV"
+     },
+     {
+      "t": "Dosing chart included for TPT in CALHIV."
+     }
+    ],
+    [
+     {
+      "t": "9.9: Spelling correction in table"
+     },
+     {
+      "t": "Spelling corrected for NRTI."
+     }
+    ],
+    [
+     {
+      "t": "9.10: Clinical Monitoring of Children and Adolescents on ART: MMD guidance change"
+     },
+     {
+      "t": "All children stable on ART >1-2 years may receive up to 3MMD, and all children stable on ART >2 years may receive up to 6 MMD."
+     }
+    ],
+    [
+     {
+      "t": "9.11: 3 months VL was a substitute test"
+     },
+     {
+      "t": "Baseline and 3-month VL test are additional tests. This will align with the CWF visits and support service integration."
+     }
+    ],
+    [
+     {
+      "t": "9.12: Second Line ART revised to remove: \"Refer to National HIVDR Clinical Expert Committee if on DTG for < 2 years\""
+     },
+     {
+      "t": "Align with adult guidance and highlight all PI and DTG treatment failures will require genotype guided switches. \"HIV resistance testing should be done for all clients failing on a DTG based ART regimen. Only switch to 2nd line if resistance test shows DTG resistance and the 2nd line regimen should be a boosted PI + 2 NRTIs determined by the genotype results.\" (From Table 7.11 Recommended Sequence of Second Line NRTI Options)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Section numbers in the 2022 column (9.3-9.12) refer to the 2022 guideline; the Amendment's own sections are numbered 9.1-9.7."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-9.2-pald-dosing",
+   "page": 37,
+   "printed_page": 31,
+   "image_only": false,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.2 Treatment Optimization (annex 11.17) > Paediatric ARV dosing chart including pALD",
+   "caption": "Paediatric ARV dosing chart including pALD (tablets per dose, by weight in kg)",
+   "caption_note": "No printed title; the sentence above the table reads 'Please see the updated paediatric dosing chart below which includes pALD.'",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0074",
+    "hiv-amendment-2024-0075"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Paediatric ARV Formulation",
+      "rs": 2
+     },
+     {
+      "t": "Weight in KG",
+      "cs": 8
+     }
+    ],
+    [
+     {
+      "t": "3 - 5.9"
+     },
+     {
+      "t": "6 - 9.9"
+     },
+     {
+      "t": "10 - 13.9"
+     },
+     {
+      "t": "14 - 19.9"
+     },
+     {
+      "t": "20 - 24.9"
+     },
+     {
+      "t": "25 - 29.9"
+     },
+     {
+      "t": "30 - 39.9"
+     },
+     {
+      "t": ">40"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "pABC/3TC/DTG 60/30/5mg pALD Tablet (dispersible)"
+     },
+     {
+      "t": "Use separate products"
+     },
+     {
+      "t": "3 OD"
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": "5 OD"
+     },
+     {
+      "t": "6 OD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "ABC/3TC 120mg/60mg Tablet (dispersible)"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1.5 OD"
+     },
+     {
+      "t": "2 OD"
+     },
+     {
+      "t": "2.5 OD"
+     },
+     {
+      "t": "3 OD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "ABC/3TC 600mg/300mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 5
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "AZT/3TC 60mg/30mg Tablet (dispersible)"
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "1.5 BD"
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "2.5 BD"
+     },
+     {
+      "t": "3 BD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "AZT/3TC 300mg/150mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 5
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "1 BD"
+     }
+    ],
+    [
+     {
+      "t": "DTG 10mg Tablet (scored/dispersible)"
+     },
+     {
+      "t": "0.5 OD"
+     },
+     {
+      "t": "1.5 OD"
+     },
+     {
+      "t": "2 OD"
+     },
+     {
+      "t": "2.5 OD"
+     },
+     {
+      "t": "Change to Adults DTG 50mg tab OD",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "DTG 50mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 4
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "TDF+3TC+DTG 300mg/300mg/50mg TLD Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 6
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "LPV/r 100mg/25mg Tablet"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 3
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "3 BD"
+     },
+     {
+      "t": "3 BD"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "LPV/r 200mg/50mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 4
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "2 AM + 1 PM"
+     },
+     {
+      "t": "2 AM + 1 PM"
+     },
+     {
+      "t": "2 BD"
+     }
+    ],
+    [
+     {
+      "t": "ATV/r 300mg/100mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 7
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "TDF+3TC+EFV 300mg/300mg/400mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 7
+     },
+     {
+      "t": "1 OD"
+     }
+    ]
+   ],
+   "context_before": "CLHIV who must still use separate ABC+3TC plus pDTG products (not pALD): children 3-5.9 kg; children on rifampicin-based TB treatment; children on second- or third-line treatment not previously on DTG.",
+   "footnotes": [],
+   "source_flags": [
+    "The LPV/r 200mg/50mg 25-29.9 and 30-39.9 kg cells are printed as two lines, '2 AM' over '1 PM'; transcribed as '2 AM + 1 PM'."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-9.3-tpt",
+   "page": 38,
+   "printed_page": 32,
+   "image_only": true,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.3 Tuberculosis Preventive Therapy (TPT) for Treatment of Latent TB Infection (LTBI) > TPT regimens and dosing",
+   "caption": "TPT regimens and dosing by ART regimen, age and weight",
+   "caption_note": "No printed title; table sits directly under heading 9.3.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0076",
+    "hiv-amendment-2024-0077"
+   ],
+   "row_header_cols": 2,
+   "header": [
+    [
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Drug Regimen"
+     },
+     {
+      "t": "Dosing"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "All clients on DTG or EFV based ART",
+      "rs": 3
+     },
+     {
+      "t": "Preferred ≥14 yr & 30kg: 3HP + Vit B6 (Once-weekly Isoniazid + Rifampicin x 3mo)"
+     },
+     {
+      "t": "Vit B6 once weekly + 3 adult tabs once weekly of 3HP (300mg INH/300mg Rifapentine)"
+     }
+    ],
+    [
+     {
+      "t": "Alternative: 6H"
+     },
+     {
+      "t": "See INH dosing chart"
+     }
+    ],
+    [
+     {
+      "t": "Preferred <14 yr or <30kg: 6H + Vit B6 (Once daily Isoniazid + B6 x 6 mo). *TPT in those <12 months only if there is a new known pulmonary TB contact"
+     },
+     {
+      "t": "*Vit B6 OD + 6H (100mg INH) dosing by weight: <5kg 0.5 OD; 5-9.9kg 1 OD; 10-13.9kg 1.5 OD; 14-19.9kg 2 OD; 20-24.9kg 2.5 OD; ≥25kg 1 adult tab (300mg)"
+     }
+    ],
+    [
+     {
+      "t": "All clients on PI-Based ART"
+     },
+     {
+      "t": "Preferred: 6H"
+     },
+     {
+      "t": "See INH dosing chart"
+     }
+    ]
+   ],
+   "footnotes": [
+    "*See below for Pyridoxine (Vit B6) Dosing."
+   ],
+   "source_flags": [
+    "The PDF prints the 3HP drug column as 'Isoniazid + Rifampicin x 3mo', but the dosing column (and the 3HP regimen) uses rifapentine. Possible error in the source: clinician to confirm.",
+    "This table is an image in the PDF (no text layer); numbers were checked against the original chunk only."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-9.3-pyridoxine",
+   "page": 38,
+   "printed_page": 32,
+   "image_only": false,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.3 Tuberculosis Preventive Therapy (TPT) for Treatment of Latent TB Infection (LTBI) > Pyridoxine (Vit B6) dosing",
+   "caption": "Pyridoxine (Vitamin B6) dosing for clients on INH",
+   "caption_note": "No printed title; referenced above as '*See below for Pyridoxine (Vit B6) Dosing'.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0078"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Pyridoxine (Vitamin B6)"
+     },
+     {
+      "t": "Special Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "All Clients on INH"
+     },
+     {
+      "t": "1-2 mg/kg daily. Typically given as 12.5mg or 25mg daily dose. May increase to 50mg-100mg daily if peripheral neuropathy persists at lower doses."
+     },
+     {
+      "t": "To be given with INH. May increase dose if peripheral neuropathy persists at lower doses (2mg/kg)."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-9.4-tb-while-on-art",
+   "page": 38,
+   "printed_page": 32,
+   "image_only": true,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.4 ART for Children & Adolescents with TB/HIV Coinfection (annex 11.16) > Children initiating TB treatment while on ART",
+   "caption": "ART changes for children initiating TB treatment while on ART",
+   "caption_note": "Title row printed inside the table: 'Children Initiating TB treatment while on ART'.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0079",
+    "hiv-amendment-2024-0080",
+    "hiv-amendment-2024-0081"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Current ART"
+     },
+     {
+      "t": "Changes"
+     },
+     {
+      "t": "Notes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Children initiating TB treatment while on ART"
+    },
+    [
+     {
+      "t": "DTG [note 2]-based"
+     },
+     {
+      "t": "Increase DTG [note 2] to twice daily dosing. Continue current backbone."
+     },
+     {
+      "t": "*Maintain all dose adjustments for 2 weeks after completion of ATT. *The preferred regimen for children with DTG resistance is an optimized NRTI backbone with LPV/r [note 3]. If this is not available a holding regimen of AZT/3TC/ABC OR NNRTI based therapy may be necessary. Please consult with an expert in Paediatric HIV/TB.",
+      "rs": 4
+     }
+    ],
+    [
+     {
+      "t": "LPV/r [note 3]"
+     },
+     {
+      "t": "Preferred: If DTG-naïve, transition to a DTG [note 2]-based regimen (with appropriate dose adjustment). Continue current backbone. Alternative: If DTG is not possible, LPV/r [note 3] dose adjustment is needed: Ritonavir (RTV) dose needs to be \"super-boosted\" to achieve the same dose as LPV in mg, in a ratio equal to or approaching 1:1. In older children and adolescents swallowing tablets the LPV/r dose can be doubled."
+     }
+    ],
+    [
+     {
+      "t": "DRV/r"
+     },
+     {
+      "t": "Change of regimen is needed: replace DRV/r with DTG [note 2] if DTG-naive or with LPV/r [note 3] if DTG-experienced (with appropriate dose adjustment). Continue current backbone."
+     }
+    ],
+    [
+     {
+      "t": "ATV/r"
+     },
+     {
+      "t": "Change of regimen is needed: replace ATV/r with DTG if DTG-naive or with LPV/r [note 3] if DTG-experienced (with appropriate dose adjustment). Continue current backbone."
+     }
+    ],
+    {
+     "section": "Neonates (first 28 days of life) initiating TB treatment while on ART"
+    },
+    [
+     {
+      "t": "NVP [note 1]-based"
+     },
+     {
+      "t": "Change of regimen is needed: substitute NVP as soon as possible with DTG [note 2] or LPV/r [note 3] (with appropriate dose adjustment)."
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [
+    "[note 1] Do not use lead in dosing and use the maximum recommended dose by neonatal dosing chart if administering with rifampicin. Transition to DTG when 3 kgs and 4 weeks of age.",
+    "[note 2] DTG should be dosed twice daily in children on TB treatment. This dose adjustment must continue for 2 weeks after completing ATT.",
+    "[note 3] If used, LPV/r dose adjustment is needed: ritonavir (RTV) dose needs to be \"super-boosted\" to achieve the same dose as LPV in mg, in a ratio equal to or approaching 1:1. In older children and adolescents swallowing tablets the LPV/r dose can be doubled. This dose adjustment must continue for 2 weeks after completing ATT."
+   ],
+   "footnotes_page": 39,
+   "source_flags": [
+    "This table is an image in the PDF (no text layer); numbers were checked against the original chunks only. The footnotes (p.39) do have a text layer.",
+    "The Notes cell spans the four 'while on ART' rows (DTG-based to ATV/r); it is not tied to one row."
+   ]
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-9.4-initiating-art-on-tb",
+   "page": 39,
+   "printed_page": 33,
+   "image_only": false,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.4 ART for Children & Adolescents with TB/HIV Coinfection (annex 11.16) > Preferred and alternative ART when initiating ART in children on TB treatment",
+   "caption": "Preferred and alternative ART in children when initiating ART in children on TB treatment",
+   "caption_note": "Printed as the table's title row.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0082",
+    "hiv-amendment-2024-0083"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age"
+     },
+     {
+      "t": "Preferred first-line regimen, including initiation while on TB treatment"
+     },
+     {
+      "t": "Alternative first-line regimen"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Neonates"
+     },
+     {
+      "t": "AZT + 3TC + NVP [note 1]"
+     },
+     {
+      "t": "-"
+     }
+    ],
+    [
+     {
+      "t": "Children"
+     },
+     {
+      "t": "ABC + 3TC + DTG [note 2]"
+     },
+     {
+      "t": "ABC + 3TC + LPV/r [note 3]"
+     }
+    ],
+    [
+     {
+      "t": "Adolescents & adults"
+     },
+     {
+      "t": "TDF + 3TC + DTG"
+     },
+     {
+      "t": "ABC + 3TC + DTG [note 2]; TDF + 3TC + LPV/r [note 3]; ABC + 3TC + LPV/r [note 3]"
+     }
+    ]
+   ],
+   "footnotes": [
+    "[note 1] Do not use lead in dosing; use the maximum recommended dose by neonatal dosing chart if administering with rifampicin. Transition to DTG when 3 kgs and 4 weeks of age.",
+    "[note 2] DTG should be dosed twice daily in children on TB treatment. This dose adjustment must continue for 2 weeks after completing ATT.",
+    "[note 3] If used, LPV/r dose adjustment is needed: Ritonavir (RTV) dose needs to be \"super-boosted\" to achieve the same dose as LPV in mg, in a ratio equal to or approaching 1:1. In older children and adolescents swallowing tablets the LPV/r dose can be doubled. This dose adjustment must continue for 2 weeks after completing ATT."
+   ],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-amendment-2024-tbl-9.7-second-line-paeds",
+   "page": 41,
+   "printed_page": 35,
+   "image_only": false,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.7 Second Line ART for Children & Adolescents",
+   "caption": "Second-line ART for children and adolescents by weight and current first-line regimen",
+   "caption_note": "No printed title; table sits directly under heading 9.7.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0089",
+    "hiv-amendment-2024-0090",
+    "hiv-amendment-2024-0091"
+   ],
+   "row_header_cols": 2,
+   "header": [
+    [
+     {
+      "t": "Weight"
+     },
+     {
+      "t": "Current 1st line Regimen"
+     },
+     {
+      "t": "Preferred 2nd Line Regimen"
+     },
+     {
+      "t": "Alternative 2nd Line Regimen"
+     },
+     {
+      "t": "Special Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "3 - 29.9 kg",
+      "rs": 5
+     },
+     {
+      "t": "AZT + 3TC + NVP (or EFV)"
+     },
+     {
+      "t": "ABC + 3TC + DTG"
+     },
+     {
+      "t": "-"
+     },
+     {
+      "t": "*Concept: When changing to 2nd line, in most cases, it is important to change 2 drugs to maintain a robust regimen. Evidence-based exceptions include TLE to TLD and PI based regimens where the NRTI backbone can be recycled. *LPV/r can be changed to ATV/r once client is ≥40kg regardless of VL. **DRV/r can only be used for second line in cases of confirmed INSTI resistance on genotype. Consult HIVDR clinical expert committee.",
+      "rs": 9
+     }
+    ],
+    [
+     {
+      "t": "ABC + 3TC + NVP (or EFV)"
+     },
+     {
+      "t": "AZT + 3TC + DTG"
+     },
+     {
+      "t": "-"
+     }
+    ],
+    [
+     {
+      "t": "ABC + 3TC + DTG"
+     },
+     {
+      "t": "Refer to National HIVDR Clinical Expert Committee. Only switch to 2nd line if genotype test (resistance test) shows DTG-resistance or PI-resistance. The 2nd line regimen should be determined by the genotype results.",
+      "cs": 2,
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "AZT + 3TC + DTG"
+     }
+    ],
+    [
+     {
+      "t": "AZT + 3TC + LPV/r OR ABC + 3TC + LPV/r"
+     }
+    ],
+    [
+     {
+      "t": "≥ 30 kg",
+      "rs": 4
+     },
+     {
+      "t": "AZT + 3TC + NVP (or EFV)"
+     },
+     {
+      "t": "TDF + 3TC + DTG"
+     },
+     {
+      "t": "ABC + 3TC + DTG; TDF + 3TC + boosted PI** (ATV/r* or LPV/r or DRV/r**)"
+     }
+    ],
+    [
+     {
+      "t": "ABC + 3TC + NVP (or EFV)"
+     },
+     {
+      "t": "TDF + 3TC + DTG"
+     },
+     {
+      "t": "AZT + 3TC + DTG; TDF + 3TC + boosted PI** (ATV/r* or LPV/r or DRV/r**)"
+     }
+    ],
+    [
+     {
+      "t": "TDF + 3TC + EFV"
+     },
+     {
+      "t": "TDF + 3TC + DTG"
+     },
+     {
+      "t": "AZT + 3TC + DTG; TDF + 3TC + boosted PI (ATV/r* or LPV [text cut off in the source]"
+     }
+    ],
+    [
+     {
+      "t": "TDF + 3TC + DTG; ABC + 3TC + DTG; AZT + 3TC + DTG"
+     },
+     {
+      "t": "Refer to National HIVDR Clinical Expert Committee. Only switch to 2nd line if resistance test shows DTG resistance and the 2nd line regimen should be a boosted PI + 2 NRTIs determined by the genotype results.",
+      "cs": 2
+     }
+    ]
+   ],
+   "table_note": "Children and adolescents with at least 2 consecutive detectable VL results while on DTG- or PI-based regimens should be referred to the National HIVDR Clinical Expert Committee (snapthirdline@mohcoag.com) for evaluation of drug resistance and need for genotyping. HIV genotyping (resistance testing) should be done for all clients failing on a DTG- or PI-based ART regimen. Only switch to 2nd line if the resistance test shows DTG resistance and the 2nd line regimen should be a boosted PI + 2 NRTIs determined by the genotype results.",
+   "footnotes": [
+    "Refer to Annex 11.19 for the paediatrics dosing chart."
+   ],
+   "source_flags": [
+    "In the ≥30 kg / TDF+3TC+EFV row the PDF itself cuts off the alternative regimen at '(ATV/r* or LPV'."
+   ]
+  }
+ ]
+}

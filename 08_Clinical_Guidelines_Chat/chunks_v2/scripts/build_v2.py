@@ -31,7 +31,7 @@ STI = 'sti-vh-draft-2026'
 BACK = re.compile(r'^(references?|bibliography|document change history)$', re.I)
 TEAM = re.compile(r'(writing|editorial|validation|core|technical working)\s+team|contributors|signature', re.I)
 FOOTER = re.compile(r'^[A-Z][A-Z &]{6,}\s+\d{1,3}$|^\d{1,3}\s+[A-Z][A-Z &]{6,}$')
-GLUED = re.compile(r'\b(DTG|TDF|3TC|ABC|AZT|NVP|EFV|TLD|LPV/r|ATV/r|DRV/r)([1-9])\b')
+GLUED = re.compile(r'\b(DTG|TDF|3TC|ABC|AZT|NVP|EFV|LPV/r|ATV/r|DRV/r)([1-9])\b')  # not TLD: "TLD1/TLD2" is source text
 GLOSSARY_LEAF = re.compile(r'^(acronyms?|abbreviations?|acronyms and abbreviations|abbreviations and acronyms)$', re.I)
 
 
