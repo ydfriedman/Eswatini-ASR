@@ -2065,6 +2065,462 @@
    ],
    "context_before": "Use 0.9% NaCl (normal saline) as first-line. Switch to 0.45% NaCl in HHS once glucose <20 mmol/L and osmolality falling. Add 5% dextrose when glucose <14 mmol/L (DKA) or <15 mmol/L (HHS) to allow continued insulin without hypoglycaemia.",
    "table_note": "WARNING: HHS: total deficit can be 8-15 litres. Correct over 48-72 hours. Rapid correction risks cerebral oedema and cardiac failure. Reassess every 2 hours. Target osmolality reduction 3-8 mOsm/kg/hr."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-bicarbonate",
+   "page": 47,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 06 Bicarbonate (DKA only, restricted use)",
+   "caption": "06 Bicarbonate in DKA (restricted use): indication and regimen",
+   "replaces_chunks": [
+    "ncdimh-0129"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Indication"
+     },
+     {
+      "t": "Regimen"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "pH <6.9 OR life-threatening hyperkalaemia (K+ >6.5 with ECG changes)"
+     },
+     {
+      "t": "100 mmol (100 ml of 8.4%) NaHCO3 IV over 30 minutes. Add 20 mmol KCl to each infusion. Repeat VBG after 60 min; maximum 2 doses. Not recommended in HHS."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    47,
+    48
+   ],
+   "context_before": "WARNING: Do NOT routinely give bicarbonate in DKA: associated with paradoxical CNS acidosis, hypokalaemia, and worsened cerebral oedema."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-insulin-protocol",
+   "page": 47,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 05 Insulin protocol",
+   "caption": "05 Insulin protocol: DKA insulin infusion vs HHS insulin protocol",
+   "replaces_chunks": [
+    "ncdimh-0127",
+    "ncdimh-0128"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "DKA: insulin infusion"
+     },
+     {
+      "t": "HHS: insulin protocol"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1. Bolus (only if K+ ≥3.5): 0.1 unit/kg soluble (regular) insulin IV stat.\n2. Continuous infusion: 0.1 unit/kg/hr soluble insulin IV. Dilute 50 units in 50 ml 0.9% NaCl (1 unit/ml) via syringe pump. If no pump: 50 units in 500 ml NS (0.1 unit/ml).\n3. When glucose <14 mmol/L: reduce to 0.05 unit/kg/hr + add 5% dextrose to fluids. Target BGL 10-14 mmol/L until ketones clear / pH >7.3."
+     },
+     {
+      "t": "Step 1: fluids only for the first 1-2 hours, NO insulin. Glucose will fall with fluids alone; early insulin causes rapid osmolality drop and cerebral oedema.\nStep 2: start insulin only when glucose is NOT falling >5 mmol/L/hr with fluids alone AND adequate fluid resuscitation is underway. Start at 0.05 unit/kg/hr (lower than DKA).\nStep 3: target glucose reduction 3-4 mmol/L/hr. Target BGL 10-15 mmol/L. NEVER drop >5 mmol/L/hr."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "WARNING: Avoid SC insulin during IV fluid resuscitation: poor absorption due to vasoconstriction and dehydration. Do not stop insulin to treat hypoglycaemia: reduce rate and add dextrose."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-potassium-replacement",
+   "page": 47,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 04 Potassium replacement protocol",
+   "caption": "04 Potassium replacement protocol in DKA/HHS: action, KCl per litre and rate by serum K+",
+   "replaces_chunks": [
+    "ncdimh-0125",
+    "ncdimh-0126"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Serum K+ (mmol/L)"
+     },
+     {
+      "t": "Action"
+     },
+     {
+      "t": "KCl per litre fluid"
+     },
+     {
+      "t": "Rate"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "<3.5"
+     },
+     {
+      "t": "HOLD INSULIN: replace K+ urgently first. Recheck K+ in 1 hour before restarting insulin."
+     },
+     {
+      "t": "40 mmol KCl (central line only for >20 mmol/hr)"
+     },
+     {
+      "t": "Replace until K+ ≥3.5"
+     }
+    ],
+    [
+     {
+      "t": "3.5-5.5"
+     },
+     {
+      "t": "Normal: proceed with insulin. Monitor every 2 hours."
+     },
+     {
+      "t": "20-40 mmol KCl per litre"
+     },
+     {
+      "t": "10-20 mmol/hr"
+     }
+    ],
+    [
+     {
+      "t": ">5.5"
+     },
+     {
+      "t": "Hold K+ supplementation. Recheck in 2 hours."
+     },
+     {
+      "t": "No KCl: monitor for hyperkalaemia"
+     },
+     {
+      "t": "10-20 mmol/hr"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The >5.5 row gives 'No KCl' but a rate of '10-20 mmol/hr', as printed."
+   ],
+   "table_note": "Potassium safety rules: NEVER give undiluted KCl IV (fatal if bolused). Rates >20 mmol/hr require cardiac monitoring and central venous access. Initial K+ may appear high/normal despite total body depletion: watch closely as insulin drives K+ intracellularly. Hypokalaemia is the leading cause of preventable death in DKA."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-monitoring",
+   "page": 48,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 07 Monitoring schedule",
+   "caption": "07 Monitoring schedule for DKA/HHS, and corrected sodium in hyperglycaemia",
+   "replaces_chunks": [
+    "ncdimh-0130",
+    "ncdimh-0131"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Parameter"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Every 1 hour"
+     },
+     {
+      "t": "Capillary blood glucose, fluid balance (in/out), HR, BP, SpO2, RR"
+     }
+    ],
+    [
+     {
+      "t": "Every 2 hours"
+     },
+     {
+      "t": "Serum K+, Na+, urea; venous blood gas; blood or urine ketones"
+     }
+    ],
+    [
+     {
+      "t": "Every 4 hours"
+     },
+     {
+      "t": "Full U&E + creatinine; reassess fluid plan; neurological status"
+     }
+    ],
+    [
+     {
+      "t": "Continuous"
+     },
+     {
+      "t": "ECG if K+ abnormal or arrhythmia present"
+     }
+    ],
+    [
+     {
+      "t": "Every 1-2 hr (HHS)"
+     },
+     {
+      "t": "GCS: declining = cerebral oedema: STOP fluids and escalate"
+     }
+    ],
+    [
+     {
+      "t": "Urinary output"
+     },
+     {
+      "t": "Target >0.5 ml/kg/hr. Catheterise if anuric or GCS <13"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The PDF prints the schedule as two side-by-side frequency/parameter pairs; listed as one column here.",
+    "'Every 2 hour' printed; written 'Every 2 hours'."
+   ],
+   "table_note": "Corrected sodium in hyperglycaemia: measured Na+ is falsely low in hyperglycaemia. Add 1.6 mmol/L to measured Na+ for every 5.5 mmol/L glucose above 5.5 mmol/L. If corrected Na+ is rising despite resuscitation, switch to 0.45% NaCl. Persistent hypernatraemia in HHS suggests under-resuscitation."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-resolution-transition",
+   "page": 48,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for management of DKA and HHS > 08 Resolution criteria and transition to SC insulin",
+   "caption": "08 Resolution criteria for DKA and HHS, and 3-step transition to subcutaneous insulin",
+   "replaces_chunks": [
+    "ncdimh-0132",
+    "ncdimh-0133"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Item"
+     },
+     {
+      "t": "Criteria / action"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Resolution criteria (ALL required)"
+    },
+    [
+     {
+      "t": "DKA resolution"
+     },
+     {
+      "t": "Blood glucose <14 mmol/L; venous pH >7.3; HCO3- >15 mmol/L; ketonaemia <0.6 mmol/L (or ketonuria <1+); patient able to eat and drink."
+     }
+    ],
+    [
+     {
+      "t": "HHS resolution"
+     },
+     {
+      "t": "Serum osmolality <310 mOsm/kg; blood glucose <15 mmol/L; clinically well, normal GCS; patient eating and drinking; no further vomiting."
+     }
+    ],
+    {
+     "section": "Transition to subcutaneous insulin: 3-step protocol"
+    },
+    [
+     {
+      "t": "Step 1"
+     },
+     {
+      "t": "Give SC insulin dose at mealtime. Ensure patient has eaten before injecting."
+     }
+    ],
+    [
+     {
+      "t": "Step 2"
+     },
+     {
+      "t": "Continue IV insulin infusion for at least 30-60 minutes AFTER SC injection to avoid gap."
+     }
+    ],
+    [
+     {
+      "t": "Step 3"
+     },
+     {
+      "t": "Known DM: resume pre-admission regimen. New DM: start basal-bolus 0.5 unit/kg/day (50% basal, 50% bolus divided over 3 meals)."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Resolution criteria here (BG <14 mmol/L, pH >7.3, HCO3- >15, all required) differ from the management box on p.34 (BG <15 mmol/L + 2 or more criteria). Clinician to confirm which applies."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-complications",
+   "page": 49,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Complications to anticipate and manage",
+   "caption": "DKA/HHS complications to anticipate: recognition and management, and when to escalate",
+   "replaces_chunks": [
+    "ncdimh-0134",
+    "ncdimh-0135",
+    "ncdimh-0136"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Complication"
+     },
+     {
+      "t": "Recognition"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Cerebral oedema"
+     },
+     {
+      "t": "Declining GCS, headache, bradycardia after initial improvement"
+     },
+     {
+      "t": "Reduce fluids; mannitol 0.5-1 g/kg IV; urgent transfer to higher level"
+     }
+    ],
+    [
+     {
+      "t": "Hypokalaemia"
+     },
+     {
+      "t": "Commonest preventable death. ECG: U waves, ST depression, QT prolongation"
+     },
+     {
+      "t": "Check K+ every 2 hrs, replace aggressively per protocol (section 04)"
+     }
+    ],
+    [
+     {
+      "t": "Hypoglycaemia"
+     },
+     {
+      "t": "Glucose falling too rapidly or <4 mmol/L"
+     },
+     {
+      "t": "Add dextrose to fluids; NEVER stop insulin: reduce rate instead"
+     }
+    ],
+    [
+     {
+      "t": "Hyperchloraemic acidosis"
+     },
+     {
+      "t": "Non-anion gap acidosis despite DKA treatment, large NS volumes given"
+     },
+     {
+      "t": "Switch to balanced crystalloid (Ringer's lactate) if available; reduce NS"
+     }
+    ],
+    [
+     {
+      "t": "Thromboembolism (HHS)"
+     },
+     {
+      "t": "High risk in HHS: may be clinically silent"
+     },
+     {
+      "t": "LMWH prophylaxis: enoxaparin 40 mg SC daily (no contraindication). TED stockings"
+     }
+    ],
+    [
+     {
+      "t": "Pulmonary oedema"
+     },
+     {
+      "t": "Crackles on auscultation, SpO2 falling, worsening dyspnoea"
+     },
+     {
+      "t": "Reduce fluid rate; furosemide if fluid overloaded; CXR; oxygen"
+     }
+    ],
+    [
+     {
+      "t": "Acute kidney injury"
+     },
+     {
+      "t": "Urine output <0.5 ml/kg/hr persisting after resuscitation"
+     },
+     {
+      "t": "Ensure adequate fluids; avoid nephrotoxins; urgent nephrology review if severe"
+     }
+    ],
+    [
+     {
+      "t": "Infection / sepsis"
+     },
+     {
+      "t": "Fever, leukocytosis, clinical signs of source"
+     },
+     {
+      "t": "Empirical antibiotics: co-amoxiclav or ceftriaxone; cultures before antibiotics; check HIV"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "WARNING: ESCALATE TO HIGHER LEVEL OF CARE if GCS <13, pH <7.0, K+ <2.5 or >7.0, SBP <80 not responding to fluids, declining despite 4 hours of treatment, suspected cerebral oedema, pregnancy with DKA, or need for ICU monitoring. Contact Mbabane Government Hospital or Raleigh Fitkin Memorial Hospital referral pathway."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-hhs-discharge",
+   "page": 49,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Discharge criteria and patient education",
+   "caption": "Discharge criteria after DKA/HHS and discharge education checklist",
+   "replaces_chunks": [
+    "ncdimh-0137"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Discharge criteria (all must be met)"
+     },
+     {
+      "t": "Discharge education checklist"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Medically stable ≥24 hours on SC insulin. Eating and drinking normally. Precipitating cause identified and treated. Blood glucose consistently 4-10 mmol/L pre-meal. Diabetes education completed. Follow-up appointment arranged."
+     },
+     {
+      "t": "Sick day rules: never stop insulin during illness. When to seek emergency care (glucose, ketones, vomiting). Insulin injection technique and site rotation. Blood glucose monitoring targets and timing. Dietary counselling by dietitian. Prescription: insulin + glucometer + test strips. Outpatient follow-up: 1 week, then 4-6 weekly."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The old chunk for this table repeated the complications table; the discharge criteria were missing."
+   ]
   }
  ]
 }
