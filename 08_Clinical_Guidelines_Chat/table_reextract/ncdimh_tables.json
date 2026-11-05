@@ -10,6 +10,839 @@
  ],
  "tables": [
   {
+   "table_id": "ncdimh-tbl-ncd-risk-factors",
+   "page": 11,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > NCD Risk Factors",
+   "caption": "NCD risk factors: non-modifiable and modifiable, with clinical relevance",
+   "replaces_chunks": [
+    "ncdimh-0014"
+   ],
+   "row_header_cols": 2,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Risk factor"
+     },
+     {
+      "t": "Clinical relevance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Non-modifiable",
+      "rs": 3
+     },
+     {
+      "t": "Age"
+     },
+     {
+      "t": "Risk increases significantly after age 40, especially for DM and HTN."
+     }
+    ],
+    [
+     {
+      "t": "Gender"
+     },
+     {
+      "t": "Specific risks (e.g., gender-specific cancers, cardiovascular disease patterns)."
+     }
+    ],
+    [
+     {
+      "t": "Family history"
+     },
+     {
+      "t": "Genetic predisposition to HTN, DM, or premature coronary artery disease (CAD)."
+     }
+    ],
+    [
+     {
+      "t": "Modifiable",
+      "rs": 5
+     },
+     {
+      "t": "Overweight/obesity"
+     },
+     {
+      "t": "High BMI is a primary driver for HTN and DM."
+     }
+    ],
+    [
+     {
+      "t": "Tobacco use (smoking)"
+     },
+     {
+      "t": "A leading preventable cause of cardiovascular and chronic respiratory diseases and lung cancer."
+     }
+    ],
+    [
+     {
+      "t": "Alcohol use"
+     },
+     {
+      "t": "Increases risk of liver disease, some cancers, and hypertension."
+     }
+    ],
+    [
+     {
+      "t": "Unhealthy diet"
+     },
+     {
+      "t": "High intake of salt, sugar, and saturated fats contributes to hypertension and dyslipidaemia and some cancers."
+     }
+    ],
+    [
+     {
+      "t": "Lack of physical activity"
+     },
+     {
+      "t": "A sedentary lifestyle is a key independent risk factor for all major NCDs."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-risk-factor-screening-protocol",
+   "page": 12,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Screening protocol: initial assessment for all patients",
+   "caption": "Screening protocol for modifiable NCD risk factors: screening method and frequency (initial assessment, all patients)",
+   "replaces_chunks": [
+    "ncdimh-0017"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Risk factor"
+     },
+     {
+      "t": "Screening method"
+     },
+     {
+      "t": "Frequency"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Tobacco use"
+     },
+     {
+      "t": "Ask all patients about current and past tobacco use"
+     },
+     {
+      "t": "Every visit"
+     }
+    ],
+    [
+     {
+      "t": "Alcohol use"
+     },
+     {
+      "t": "AUDIT-C questionnaire (3 questions)"
+     },
+     {
+      "t": "Annually"
+     }
+    ],
+    [
+     {
+      "t": "Physical activity"
+     },
+     {
+      "t": "Ask: 'How many days per week do you engage in moderate physical activity for at least 30 minutes?'"
+     },
+     {
+      "t": "Annually"
+     }
+    ],
+    [
+     {
+      "t": "Diet assessment"
+     },
+     {
+      "t": "Ask about fruit/vegetable intake and consumption of processed foods"
+     },
+     {
+      "t": "Annually"
+     }
+    ],
+    [
+     {
+      "t": "Weight/BMI"
+     },
+     {
+      "t": "Measure height and weight; calculate BMI"
+     },
+     {
+      "t": "Every visit"
+     }
+    ],
+    [
+     {
+      "t": "Blood pressure"
+     },
+     {
+      "t": "Measure BP using standardized technique"
+     },
+     {
+      "t": "Every visit"
+     }
+    ],
+    [
+     {
+      "t": "Blood glucose"
+     },
+     {
+      "t": "Random or fasting blood glucose; HbA1c if available"
+     },
+     {
+      "t": "Age ≥18 years: every visit; high risk: annually"
+     }
+    ],
+    [
+     {
+      "t": "Cholesterol"
+     },
+     {
+      "t": "Total cholesterol; LDL/HDL if available"
+     },
+     {
+      "t": "Screening guidelines for lipid disorders differ among experts. Cholesterol screening is recommended in adult men aged ≥35 years, in women aged ≥40 years or menopausal, and all adults with any risk factors."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.13 (cholesterol row).",
+    "Blood glucose frequency 'Age ≥18 years: every visit; high risk: annually' is printed as is (the more frequent schedule is for the lower-risk group)."
+   ],
+   "pages": [
+    12,
+    13
+   ],
+   "context_before": "Target population for screening: all adults aged 18 years and above attending health facilities; priority screening for adults ≥40 years or those with risk factors; pregnant women (at first antenatal visit); people living with HIV (at each clinic visit)."
+  },
+  {
+   "table_id": "ncdimh-tbl-bmi-classification",
+   "page": 13,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Risk factor assessment algorithms > BMI classification",
+   "caption": "BMI classification and recommended action",
+   "replaces_chunks": [
+    "ncdimh-0020"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "BMI (kg/m2)"
+     },
+     {
+      "t": "Classification"
+     },
+     {
+      "t": "Action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "<18.5"
+     },
+     {
+      "t": "Underweight"
+     },
+     {
+      "t": "Nutritional assessment; screen for underlying conditions"
+     }
+    ],
+    [
+     {
+      "t": "18.5-24.9"
+     },
+     {
+      "t": "Normal weight"
+     },
+     {
+      "t": "Encourage maintenance; promote healthy lifestyle"
+     }
+    ],
+    [
+     {
+      "t": "25.0-29.9"
+     },
+     {
+      "t": "Overweight"
+     },
+     {
+      "t": "Lifestyle counselling; 5-10% weight loss goal"
+     }
+    ],
+    [
+     {
+      "t": "30.0-34.9"
+     },
+     {
+      "t": "Obesity class I"
+     },
+     {
+      "t": "Intensive lifestyle intervention; screen for comorbidities"
+     }
+    ],
+    [
+     {
+      "t": "35.0-39.9"
+     },
+     {
+      "t": "Obesity class II"
+     },
+     {
+      "t": "As above; consider referral for specialist care"
+     }
+    ],
+    [
+     {
+      "t": "≥40"
+     },
+     {
+      "t": "Obesity class III (severe)"
+     },
+     {
+      "t": "Refer to specialist; multidisciplinary approach"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-bp-screening-algorithm",
+   "page": 13,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Risk factor assessment algorithms > Blood pressure screening",
+   "caption": "Blood pressure screening algorithm: BP categories and actions",
+   "replaces_chunks": [
+    "ncdimh-0018"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "BP reading (mmHg)"
+     },
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "<120/80"
+     },
+     {
+      "t": "Normal"
+     },
+     {
+      "t": "Recheck in 1 year or at next clinic visit, whichever comes first; promote healthy lifestyle"
+     }
+    ],
+    [
+     {
+      "t": "120-129/<80"
+     },
+     {
+      "t": "Elevated"
+     },
+     {
+      "t": "Lifestyle modification; recheck in 3-6 months"
+     }
+    ],
+    [
+     {
+      "t": "130-139/80-89"
+     },
+     {
+      "t": "Stage 1 hypertension"
+     },
+     {
+      "t": "Confirm with 2 more readings; initiate lifestyle + medication if CVD risk ≥10%"
+     }
+    ],
+    [
+     {
+      "t": "≥140/90"
+     },
+     {
+      "t": "Stage 2 hypertension"
+     },
+     {
+      "t": "Confirm within 1 month; initiate lifestyle + medication"
+     }
+    ],
+    [
+     {
+      "t": "≥180/120"
+     },
+     {
+      "t": "Hypertensive crisis"
+     },
+     {
+      "t": "URGENT: assess for end-organ damage; immediate treatment"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "These categories follow the ACC/AHA scheme (stage 1 from 130/80); the hypertension section on p.25 defines hypertension as ≥140/90 (ESC/ESH)."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-glucose-screening-algorithm",
+   "page": 13,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Risk factor assessment algorithms > Blood glucose screening",
+   "caption": "Blood glucose screening algorithm: normal, pre-diabetes and diabetes thresholds",
+   "replaces_chunks": [
+    "ncdimh-0019"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Test type"
+     },
+     {
+      "t": "Normal"
+     },
+     {
+      "t": "Pre-diabetes"
+     },
+     {
+      "t": "Diabetes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Fasting glucose (mmol/L)"
+     },
+     {
+      "t": "<6.1"
+     },
+     {
+      "t": "6.1-6.9"
+     },
+     {
+      "t": "≥7.0"
+     }
+    ],
+    [
+     {
+      "t": "Random glucose (mmol/L)"
+     },
+     {
+      "t": "<7.8"
+     },
+     {
+      "t": "7.8-11.0"
+     },
+     {
+      "t": "≥11.1"
+     }
+    ],
+    [
+     {
+      "t": "HbA1c (%)"
+     },
+     {
+      "t": "<5.7"
+     },
+     {
+      "t": "5.7-6.4"
+     },
+     {
+      "t": "≥6.5"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-ncd-follow-up-schedule",
+   "page": 15,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Referral Criteria and Follow-Up > Follow-up schedule",
+   "caption": "Follow-up schedule for NCD risk conditions (initial and stable follow-up)",
+   "replaces_chunks": [
+    "ncdimh-0024"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Condition"
+     },
+     {
+      "t": "Initial follow-up"
+     },
+     {
+      "t": "Stable follow-up"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Newly diagnosed hypertension"
+     },
+     {
+      "t": "2-4 weeks after starting medication"
+     },
+     {
+      "t": "Every 3-6 months when controlled"
+     }
+    ],
+    [
+     {
+      "t": "Newly diagnosed diabetes"
+     },
+     {
+      "t": "Monthly until stable"
+     },
+     {
+      "t": "Every 3 months (HbA1c check)"
+     }
+    ],
+    [
+     {
+      "t": "Pre-diabetes"
+     },
+     {
+      "t": "3 months (lifestyle counselling)"
+     },
+     {
+      "t": "Every 6-12 months"
+     }
+    ],
+    [
+     {
+      "t": "Overweight/obesity"
+     },
+     {
+      "t": "Monthly for first 3 months"
+     },
+     {
+      "t": "Every 3-6 months"
+     }
+    ],
+    [
+     {
+      "t": "Tobacco cessation"
+     },
+     {
+      "t": "1-2 weeks after quit date"
+     },
+     {
+      "t": "Monthly for 6 months, then as needed"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Non-urgent referral: uncontrolled BP on 3 medications at optimal doses; diabetes uncontrolled (HbA1c >9%) despite dual therapy; secondary hypertension suspected (young age, resistant hypertension); complications of diabetes (retinopathy, nephropathy, neuropathy); BMI ≥40, or BMI ≥35 with significant comorbidities; severe alcohol dependence (AUDIT score >20)."
+  },
+  {
+   "table_id": "ncdimh-tbl-who-physical-activity",
+   "page": 16,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > WHO physical activity recommendations",
+   "caption": "WHO physical activity recommendations by age group (children, adults, older adults, pregnant and postpartum women)",
+   "replaces_chunks": [
+    "ncdimh-0028",
+    "ncdimh-0029"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age group"
+     },
+     {
+      "t": "Recommendations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Children & adolescents (5-17 years)"
+     },
+     {
+      "t": "At least 60 minutes of moderate-to-vigorous intensity PA daily. Include vigorous-intensity aerobic activities at least 3 days/week. Include muscle- and bone-strengthening activities at least 3 days/week."
+     }
+    ],
+    [
+     {
+      "t": "Adults (18-64 years)"
+     },
+     {
+      "t": "At least 150-300 minutes of moderate-intensity PA per week, OR at least 75-150 minutes of vigorous-intensity PA per week, OR an equivalent combination of moderate and vigorous activity. Muscle-strengthening activities involving major muscle groups on 2 or more days per week."
+     }
+    ],
+    [
+     {
+      "t": "Older adults (≥65 years)"
+     },
+     {
+      "t": "Same as adults (150-300 min moderate or 75-150 min vigorous). Muscle-strengthening activities 2 or more days per week. Multicomponent PA emphasizing functional balance and strength training 3 or more days/week to prevent falls."
+     }
+    ],
+    [
+     {
+      "t": "Pregnant & postpartum women"
+     },
+     {
+      "t": "At least 150 minutes of moderate-intensity PA per week. Incorporate a variety of aerobic and muscle-strengthening activities. Add gentle stretching; may be beneficial to add pelvic floor muscle training."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Physical inactivity: not meeting the WHO recommendation of at least 150 minutes of moderate-intensity physical activity per week. Sedentary behaviour: any waking behaviour with low energy expenditure (≤1.5 METs) while sitting, reclining, or lying down.",
+   "table_note": "Note: some activity is better than none. Inactive individuals should start with small amounts and gradually increase frequency, intensity, and duration."
+  },
+  {
+   "table_id": "ncdimh-tbl-physical-activity-5as",
+   "page": 17,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Physical Inactivity > Brief counselling intervention (5 A's framework)",
+   "caption": "Brief counselling intervention for physical inactivity: the 5 A's (ask, advise, assess, assist, arrange)",
+   "replaces_chunks": [
+    "ncdimh-0032"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Step"
+     },
+     {
+      "t": "Action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "ASK"
+     },
+     {
+      "t": "Ask about current physical activity levels using screening questions."
+     }
+    ],
+    [
+     {
+      "t": "ADVISE"
+     },
+     {
+      "t": "Provide clear, personalized advice on benefits of physical activity for their specific health condition."
+     }
+    ],
+    [
+     {
+      "t": "ASSESS"
+     },
+     {
+      "t": "Assess willingness and readiness to change. Identify barriers (time, safety, cost, cultural factors)."
+     }
+    ],
+    [
+     {
+      "t": "ASSIST"
+     },
+     {
+      "t": "Help develop a realistic action plan. Start small and build gradually. Provide written guidance."
+     }
+    ],
+    [
+     {
+      "t": "ARRANGE"
+     },
+     {
+      "t": "Arrange follow-up to monitor progress and provide ongoing support."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Screening: if <150 minutes of moderate activity per week, the patient is physically inactive."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-smoking-cessation",
+   "page": 19,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Nicotine Use > Smoking cessation approach",
+   "caption": "Smoking cessation approach in clinical practice (flowchart, with nicotine dependence table)",
+   "replaces_chunks": [
+    "ncdimh-0035",
+    "ncdimh-0036",
+    "ncdimh-0038"
+   ],
+   "content": "All smokers should be identified and their readiness to quit evaluated. If resistance to quitting exists, information and suitable follow-up should be provided. If the person is ready to make a quit attempt, evaluation of nicotine dependence, co-morbid and psychosocial factors should guide the choice of effective interventions.\n\n1. Ask: do you smoke? do you know the risks? have you thought of quitting?\n2. Alert: do you know the benefits of quitting? do you know that we can help you?\n3. Assess: are you ready to quit?\n4. Assist/arrange:\n   - No or maybe: give a motivational pamphlet and encourage follow-up; return to Ask at the next visit.\n   - Yes: arrange for cessation intervention.\n5. Specific nicotine dependence review: Fagerstrom/CO levels; current smoking and history of quit attempts; social stressors/household smokers.\n   Dependence level (already attempted to quit / cigarettes per day / time to first cigarette after waking):\n   - Very high: yes / >30 / >5 min (printed)\n   - High: yes / 20-30 / 5-30 min\n   - Medium: yes / 10-20 / 30-60 min\n   - Low: no / <10 / >60 min\n6. By dependence:\n   - Motivated, low dependence: could manage with counselling/support alone or NRT; support group, text/internet/smartphone-based support.\n   - Motivated, high dependence: probably will need added pharmacological support; assess medical/psychiatric history; evaluate capacity to purchase medicine; review availability of medication. Medication options: nicotine replacement therapy (patch/gum/spray), varenicline, bupropion.\n7. Set quit date: arrange appropriate support and medication if needed.\n8. Follow-up: assess withdrawal symptoms and drug side-effects; evaluate mood and psychosocial stressors; identify potential for relapse.\n\nCO = carbon monoxide; NRT = nicotine replacement therapy.",
+   "footnotes": [],
+   "source_flags": [
+    "The 'very high' dependence row prints '>5 min' to first cigarette; it presumably means <5 min (shorter time = higher dependence). Clinician to confirm.",
+    "'cassation', 'quite date', 'theraphy' printed; corrected."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-alcohol-5as",
+   "page": 21,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Brief intervention: the 5 A's",
+   "caption": "Brief intervention for alcohol use: the 5 A's (ask, advise, assess, assist, arrange)",
+   "replaces_chunks": [
+    "ncdimh-0045"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Step"
+     },
+     {
+      "t": "Action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "ASK"
+     },
+     {
+      "t": "Ask about alcohol use using AUDIT-C: 'How often do you drink alcohol?' 'How much do you typically drink?'"
+     }
+    ],
+    [
+     {
+      "t": "ADVISE"
+     },
+     {
+      "t": "Provide clear, personalized advice: 'The safest choice is to not drink alcohol at all. There is no safe level of drinking.' Link to their health concerns: 'Alcohol is making your blood pressure worse' or 'Drinking increases your cancer risk.'"
+     }
+    ],
+    [
+     {
+      "t": "ASSESS"
+     },
+     {
+      "t": "Assess readiness to change: 'How do you feel about quitting or cutting down?' 'What makes it difficult for you to stop?'"
+     }
+    ],
+    [
+     {
+      "t": "ASSIST"
+     },
+     {
+      "t": "Help develop a quit/reduction plan: set a quit date or reduction goal; identify triggers and develop coping strategies; provide written educational materials; consider referral to counselling or support groups."
+     }
+    ],
+    [
+     {
+      "t": "ARRANGE"
+     },
+     {
+      "t": "Schedule follow-up in 2-4 weeks to monitor progress, provide support, and address challenges."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-audit-c",
+   "page": 21,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Screening tools > AUDIT-C",
+   "caption": "AUDIT-C alcohol screening questionnaire: questions, scoring and interpretation",
+   "replaces_chunks": [
+    "ncdimh-0043",
+    "ncdimh-0044"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Question"
+     },
+     {
+      "t": "Answer scoring"
+     },
+     {
+      "t": "Points"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1. How often do you have a drink containing alcohol?"
+     },
+     {
+      "t": "Never (0); monthly or less (1); 2-4 times/month (2); 2-3 times/week (3); 4+ times/week (4)"
+     },
+     {
+      "t": "0-4"
+     }
+    ],
+    [
+     {
+      "t": "2. How many drinks containing alcohol do you have on a typical day when drinking?"
+     },
+     {
+      "t": "1 or 2 (0); 3 or 4 (1); 5 or 6 (2); 7-9 (3); 10+ (4)"
+     },
+     {
+      "t": "0-4"
+     }
+    ],
+    [
+     {
+      "t": "3. How often do you have 5 or more drinks on one occasion?"
+     },
+     {
+      "t": "Never (0); less than monthly (1); monthly (2); weekly (3); daily/almost daily (4)"
+     },
+     {
+      "t": "0-4"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "AUDIT-C interpretation: men: score ≥4 = unhealthy alcohol use: provide brief intervention. Women: score ≥3 = unhealthy alcohol use: provide brief intervention. Score ≥8: possible alcohol use disorder: consider full AUDIT and referral."
+  },
+  {
    "table_id": "ncdimh-tbl-diabetes-definition-classification",
    "page": 31,
    "image_only": false,
