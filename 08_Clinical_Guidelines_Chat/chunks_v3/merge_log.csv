@@ -84,3 +84,252 @@ hiv-amendment-2024-0102,cleaned,
 hiv-amendment-2024-0102,label,"Chapter 5: Basic Care Package for HIV-Positive Individuals => Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support for Children, Adolescents, and Adults"
 hiv-amendment-2024-0103,label,Chapter 10: Hiv/ncds & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment => Chapter 10: HIV/NCDs & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment
 hiv-amendment-2024-0104,label,Chapter 5: Basic Care Package for HIV-Positive Individuals > Check If Client Has => Chapter 10: HIV/NCDs & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment > Check If Client Has
+ncdimh-0014,replaced,ncdimh-tbl-ncd-risk-factors
+ncdimh-0017,replaced,ncdimh-tbl-risk-factor-screening-protocol
+ncdimh-0018,replaced,ncdimh-tbl-bp-screening-algorithm
+ncdimh-0019,replaced,ncdimh-tbl-glucose-screening-algorithm
+ncdimh-0020,replaced,ncdimh-tbl-bmi-classification
+ncdimh-0024,replaced,ncdimh-tbl-ncd-follow-up-schedule
+ncdimh-0028,replaced,ncdimh-tbl-who-physical-activity
+ncdimh-0029,replaced,ncdimh-tbl-who-physical-activity
+ncdimh-0032,replaced,ncdimh-tbl-physical-activity-5as
+ncdimh-0035,replaced,ncdimh-fig-smoking-cessation
+ncdimh-0036,replaced,ncdimh-fig-smoking-cessation
+ncdimh-0038,replaced,ncdimh-fig-smoking-cessation
+ncdimh-0043,replaced,ncdimh-tbl-audit-c
+ncdimh-0044,replaced,ncdimh-tbl-audit-c
+ncdimh-0045,replaced,ncdimh-tbl-alcohol-5as
+ncdimh-0051,replaced,ncdimh-box-alcohol-key-messages
+ncdimh-0053,replaced,ncdimh-tbl-healthy-eating-guidelines
+ncdimh-0054,replaced,ncdimh-tbl-healthy-eating-guidelines
+ncdimh-0055,replaced,ncdimh-tbl-healthy-eating-guidelines
+ncdimh-0058,replaced,ncdimh-fig-hypertension-screening
+ncdimh-0059,replaced,ncdimh-fig-hypertension-screening
+ncdimh-0060,replaced,ncdimh-fig-hypertension-screening
+ncdimh-0061,replaced,ncdimh-tbl-anthropometric-bmi-waist
+ncdimh-0062,replaced,ncdimh-tbl-anthropometric-bmi-waist
+ncdimh-0063,replaced,ncdimh-fig-diabetes-screening
+ncdimh-0064,replaced,ncdimh-fig-diabetes-screening
+ncdimh-0066,replaced,ncdimh-fig-lipid-management
+ncdimh-0067,replaced,ncdimh-fig-lipid-management
+ncdimh-0068,replaced,ncdimh-fig-ckd-clinical-protocol
+ncdimh-0069,replaced,ncdimh-fig-ckd-clinical-protocol
+ncdimh-0070,replaced,ncdimh-tbl-ckd-staging-heatmap
+ncdimh-0071,replaced,ncdimh-fig-ckd-screening
+ncdimh-0072,replaced,ncdimh-tbl-ckd-staging-heatmap
+ncdimh-0073,replaced,ncdimh-tbl-diabetes-definition-classification
+ncdimh-0076,replaced,ncdimh-tbl-diabetes-baseline-follow-up-checklist
+ncdimh-0077,replaced,ncdimh-tbl-diabetes-baseline-follow-up-checklist
+ncdimh-0078,replaced,ncdimh-tbl-diabetes-baseline-follow-up-checklist
+ncdimh-0079,replaced,ncdimh-fig-t2dm-pharmacological-treatment
+ncdimh-0080,replaced,ncdimh-fig-t2dm-pharmacological-treatment
+ncdimh-0081,replaced,ncdimh-fig-t2dm-pharmacological-treatment
+ncdimh-0082,replaced,ncdimh-tbl-oral-glucose-lowering-agents
+ncdimh-0083,replaced,ncdimh-tbl-oral-glucose-lowering-agents
+ncdimh-0084,replaced,ncdimh-tbl-oral-glucose-lowering-agents
+ncdimh-0085,replaced,ncdimh-tbl-oral-glucose-lowering-agents
+ncdimh-0086,replaced,ncdimh-tbl-oral-glucose-lowering-agents
+ncdimh-0087,replaced,ncdimh-tbl-oral-glucose-lowering-agents
+ncdimh-0089,replaced,ncdimh-tbl-insulin-indications-t2dm
+ncdimh-0090,replaced,ncdimh-tbl-insulin-indications-t2dm
+ncdimh-0091,replaced,ncdimh-fig-insulin-initiation-t2dm
+ncdimh-0092,replaced,ncdimh-fig-insulin-initiation-t2dm
+ncdimh-0093,replaced,ncdimh-fig-insulin-initiation-t2dm
+ncdimh-0094,replaced,ncdimh-tbl-premixed-insulin-adjustment
+ncdimh-0095,replaced,ncdimh-tbl-premixed-insulin-adjustment
+ncdimh-0096,replaced,ncdimh-tbl-t1dm-signs-symptoms
+ncdimh-0097,replaced,ncdimh-tbl-premixed-insulin-adjustment
+ncdimh-0098,replaced,ncdimh-tbl-t1dm-signs-symptoms
+ncdimh-0099,replaced,ncdimh-fig-t1dm-diagnosis
+ncdimh-0100,replaced,ncdimh-fig-t1dm-diagnosis
+ncdimh-0103,replaced,ncdimh-tbl-insulin-regimens-t1dm
+ncdimh-0104,replaced,ncdimh-tbl-insulin-regimens-t1dm
+ncdimh-0105,replaced,ncdimh-tbl-insulin-regimens-t1dm
+ncdimh-0107,replaced,ncdimh-tbl-insulin-regimens-t1dm
+ncdimh-0108,replaced,ncdimh-tbl-insulin-regimens-t1dm
+ncdimh-0109,replaced,ncdimh-tbl-insulin-regimens-t1dm
+ncdimh-0110,replaced,ncdimh-tbl-insulin-dose-adjustment-t1dm
+ncdimh-0111,replaced,ncdimh-tbl-insulin-types-action
+ncdimh-0114,replaced,ncdimh-tbl-dka-hhs-management-overview
+ncdimh-0115,replaced,ncdimh-tbl-dka-hhs-management-overview
+ncdimh-0116,replaced,ncdimh-tbl-dka-hhs-management-overview
+ncdimh-0117,replaced,ncdimh-tbl-dka-hhs-management-overview
+ncdimh-0118,replaced,ncdimh-tbl-dka-criteria
+ncdimh-0119,replaced,ncdimh-tbl-hhs-criteria
+ncdimh-0120,replaced,ncdimh-tbl-hhs-criteria
+ncdimh-0121,replaced,ncdimh-tbl-dka-hhs-immediate-assessment
+ncdimh-0122,replaced,ncdimh-tbl-dka-hhs-iv-fluids
+ncdimh-0123,replaced,ncdimh-tbl-dka-hhs-iv-fluids
+ncdimh-0124,replaced,ncdimh-tbl-dka-hhs-iv-fluids
+ncdimh-0125,replaced,ncdimh-tbl-dka-potassium-replacement
+ncdimh-0126,replaced,ncdimh-tbl-dka-potassium-replacement
+ncdimh-0127,replaced,ncdimh-tbl-dka-hhs-insulin-protocol
+ncdimh-0128,replaced,ncdimh-tbl-dka-hhs-insulin-protocol
+ncdimh-0129,replaced,ncdimh-tbl-dka-bicarbonate
+ncdimh-0130,replaced,ncdimh-tbl-dka-hhs-monitoring
+ncdimh-0131,replaced,ncdimh-tbl-dka-hhs-monitoring
+ncdimh-0132,replaced,ncdimh-tbl-dka-hhs-resolution-transition
+ncdimh-0133,replaced,ncdimh-tbl-dka-hhs-resolution-transition
+ncdimh-0134,replaced,ncdimh-tbl-dka-hhs-complications
+ncdimh-0135,replaced,ncdimh-tbl-dka-hhs-complications
+ncdimh-0136,replaced,ncdimh-tbl-dka-hhs-complications
+ncdimh-0137,replaced,ncdimh-tbl-dka-hhs-discharge
+ncdimh-0138,replaced,ncdimh-fig-dka-algorithm
+ncdimh-0139,replaced,ncdimh-fig-dka-algorithm
+ncdimh-0141,replaced,ncdimh-tbl-hypoglycaemia-symptoms
+ncdimh-0142,replaced,ncdimh-tbl-hypoglycaemia-management
+ncdimh-0144,replaced,ncdimh-tbl-tdi-starting-dose
+ncdimh-0145,replaced,ncdimh-tbl-cbg-correction-scale
+ncdimh-0146,replaced,ncdimh-tbl-cbg-correction-scale
+ncdimh-0148,replaced,ncdimh-tbl-cbg-correction-scale
+ncdimh-0149,replaced,ncdimh-tbl-cbg-correction-scale
+ncdimh-0151,replaced,ncdimh-tbl-sc-insulin-order-protocol
+ncdimh-0152,replaced,ncdimh-tbl-sc-insulin-order-protocol
+ncdimh-0153,replaced,ncdimh-tbl-sc-insulin-order-protocol
+ncdimh-0154,replaced,ncdimh-tbl-diabetes-microvascular-complications
+ncdimh-0155,replaced,ncdimh-tbl-diabetes-microvascular-complications
+ncdimh-0156,replaced,ncdimh-tbl-diabetes-microvascular-complications
+ncdimh-0162,replaced,ncdimh-tbl-diabetes-in-pregnancy-vs-gdm
+ncdimh-0166,replaced,ncdimh-fig-diabetes-in-pregnancy-classification
+ncdimh-0167,replaced,ncdimh-tbl-gdm-screening-management
+ncdimh-0168,replaced,ncdimh-tbl-gdm-screening-management
+ncdimh-0169,replaced,ncdimh-tbl-gdm-screening-management
+ncdimh-0170,replaced,ncdimh-tbl-gdm-screening-management
+ncdimh-0171,replaced,ncdimh-tbl-gdm-pharmacotherapy
+ncdimh-0172,replaced,ncdimh-tbl-gdm-pharmacotherapy
+ncdimh-0175,replaced,ncdimh-tbl-antidiabetic-arv-interactions
+ncdimh-0176,replaced,ncdimh-tbl-antidiabetic-arv-interactions
+ncdimh-0177,replaced,ncdimh-tbl-antidiabetic-arv-interactions
+ncdimh-0179,replaced,ncdimh-tbl-dka-special-populations
+ncdimh-0181,replaced,ncdimh-tbl-osteoporosis-risk-factors
+ncdimh-0182,replaced,ncdimh-tbl-osteoporosis-risk-factors
+ncdimh-0183,replaced,ncdimh-tbl-osteoporosis-drugs
+ncdimh-0185,replaced,ncdimh-tbl-osteoporosis-classification
+ncdimh-0187,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
+ncdimh-0188,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
+ncdimh-0189,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
+ncdimh-0190,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
+ncdimh-0191,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
+ncdimh-0192,replaced,ncdimh-fig-osteoporosis-assessment
+ncdimh-0193,replaced,ncdimh-fig-osteoporosis-assessment
+ncdimh-0195,replaced,ncdimh-tbl-osteoporosis-pharmacological
+ncdimh-0197,replaced,ncdimh-tbl-hypothyroidism-symptoms
+ncdimh-0204,replaced,ncdimh-tbl-congenital-hypothyroidism-features
+ncdimh-0209,replaced,ncdimh-tbl-levothyroxine-dose-children
+ncdimh-0213,replaced,ncdimh-fig-primary-hyperthyroidism-diagnosis
+ncdimh-0214,replaced,ncdimh-fig-primary-hyperthyroidism-diagnosis
+ncdimh-0216,replaced,ncdimh-tbl-antithyroid-drugs
+ncdimh-0218,replaced,ncdimh-fig-tsh-ft4-interpretation
+ncdimh-0220,replaced,ncdimh-tbl-burch-wartofsky-score
+ncdimh-0221,replaced,ncdimh-tbl-burch-wartofsky-score
+ncdimh-0222,replaced,ncdimh-fig-thyroid-storm-management
+ncdimh-0223,replaced,ncdimh-fig-thyroid-storm-management
+ncdimh-0224,replaced,ncdimh-fig-thyroid-storm-management
+ncdimh-0225,replaced,ncdimh-tbl-thyroid-storm-treatment
+ncdimh-0230,replaced,ncdimh-fig-hyperthyroidism-pregnancy
+ncdimh-0231,replaced,ncdimh-fig-hyperthyroidism-pregnancy
+ncdimh-0022,cleaned,
+ncdimh-0075,cleaned,
+ncdimh-0088,cleaned,
+ncdimh-0186,cleaned,
+ncdimh-0199,cleaned,
+ncdimh-0203,cleaned,
+ncdimh-0206,cleaned,
+ncdimh-0208,cleaned,
+ncdimh-0215,cleaned,
+ncdimh-0217,cleaned,
+ncdimh-0219,cleaned,
+ncdimh-0229,cleaned,
+ncdimh-0232,cleaned,
+ncdimh-0252,emptied,
+ncdimh-0295,emptied,
+ncdimh-0319,cleaned,
+ncdimh-0321,emptied,
+ncdimh-0323,emptied,
+ncdimh-0343,emptied,
+ncdimh-0373,cleaned,
+ncdimh-0388,cleaned,
+ncdimh-0395,cleaned,
+ncdimh-0399,emptied,
+ncdimh-0403,emptied,
+ncdimh-0405,cleaned,
+ncdimh-0407,cleaned,
+ncdimh-0420,emptied,
+ncdimh-0436,cleaned,
+ncdimh-0450,cleaned,
+ncdimh-0459,cleaned,
+ncdimh-0462,cleaned,
+ncdimh-0467,cleaned,
+ncdimh-0472,cleaned,
+ncdimh-0493,emptied,
+ncdimh-0503,emptied,
+ncdimh-0517,emptied,
+ncdimh-0519,cleaned,
+ncdimh-0521,cleaned,
+ncdimh-0574,emptied,
+ncdimh-0581,cleaned,
+ncdimh-0610,emptied,
+ncdimh-0613,cleaned,
+ncdimh-0641,cleaned,
+ncdimh-0659,cleaned,
+ncdimh-0673,cleaned,
+ncdimh-0712,cleaned,
+ncdimh-0719,emptied,
+ncdimh-0746,cleaned,
+ncdimh-0757,cleaned,
+ncdimh-0775,cleaned,
+ncdimh-0795,emptied,
+ncdimh-0803,cleaned,
+ncdimh-0830,cleaned,
+ncdimh-0837,emptied,
+ncdimh-0849,emptied,
+ncdimh-0851,cleaned,
+ncdimh-0858,cleaned,
+ncdimh-0859,cleaned,
+ncdimh-0875,cleaned,
+ncdimh-0921,cleaned,
+ncdimh-0969,cleaned,
+ncdimh-0971,emptied,
+ncdimh-0983,cleaned,
+ncdimh-0997,cleaned,
+ncdimh-1010,emptied,
+ncdimh-0042,merged into,ncdimh-0041
+ncdimh-0236,merged into,ncdimh-0235
+ncdimh-0237,merged into,ncdimh-0235
+ncdimh-0238,merged into,ncdimh-0235
+ncdimh-0244,merged into,ncdimh-0243
+ncdimh-0247,merged into,ncdimh-0246
+ncdimh-0256,merged into,ncdimh-0255
+ncdimh-0273,merged into,ncdimh-0272
+ncdimh-0300,merged into,ncdimh-0299
+ncdimh-0307,merged into,ncdimh-0306
+ncdimh-0423,merged into,ncdimh-0422
+ncdimh-0429,merged into,ncdimh-0428
+ncdimh-0439,merged into,ncdimh-0438
+ncdimh-0456,merged into,ncdimh-0455
+ncdimh-0465,merged into,ncdimh-0464
+ncdimh-0466,merged into,ncdimh-0464
+ncdimh-0468,merged into,ncdimh-0467
+ncdimh-0501,merged into,ncdimh-0500
+ncdimh-0509,merged into,ncdimh-0508
+ncdimh-0548,merged into,ncdimh-0547
+ncdimh-0619,merged into,ncdimh-0618
+ncdimh-0632,merged into,ncdimh-0631
+ncdimh-0641,merged into,ncdimh-0640
+ncdimh-0684,merged into,ncdimh-0683
+ncdimh-0715,merged into,ncdimh-0714
+ncdimh-0716,merged into,ncdimh-0714
+ncdimh-0751,merged into,ncdimh-0750
+ncdimh-0779,merged into,ncdimh-0778
+ncdimh-0809,merged into,ncdimh-0808
+ncdimh-0830,merged into,ncdimh-0829
+ncdimh-0842,merged into,ncdimh-0841
+ncdimh-0854,merged into,ncdimh-0853
+ncdimh-0859,merged into,ncdimh-0858
+ncdimh-0882,merged into,ncdimh-0881
+ncdimh-0932,merged into,ncdimh-0931
+ncdimh-0975,merged into,ncdimh-0974
+ncdimh-0986,merged into,ncdimh-0985
+ncdimh-0995,merged into,ncdimh-0994
+ncdimh-1018,merged into,ncdimh-1017
+ncdimh-1033,merged into,ncdimh-1017

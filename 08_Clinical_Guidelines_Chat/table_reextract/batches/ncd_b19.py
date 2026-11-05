@@ -8,7 +8,7 @@ ITEMS = [
     [C("Older adults (≥65 years)"), C("Same as adults (150-300 min moderate or 75-150 min vigorous). Muscle-strengthening activities 2 or more days per week. Multicomponent PA emphasizing functional balance and strength training 3 or more days/week to prevent falls.")],
     [C("Pregnant & postpartum women"), C("At least 150 minutes of moderate-intensity PA per week. Incorporate a variety of aerobic and muscle-strengthening activities. Add gentle stretching; may be beneficial to add pelvic floor muscle training.")]],
    context_before="Physical inactivity: not meeting the WHO recommendation of at least 150 minutes of moderate-intensity physical activity per week. Sedentary behaviour: any waking behaviour with low energy expenditure (≤1.5 METs) while sitting, reclining, or lying down.",
-   table_note="Note: some activity is better than none. Inactive individuals should start with small amounts and gradually increase frequency, intensity, and duration."),
+   table_note="Note: some activity is better than none. Inactive individuals should start with small amounts and gradually increase frequency, intensity, and duration. Screening for physical inactivity: who to screen: all patients attending primary care facilities, particularly those with risk factors (obesity, hypertension, diabetes, cardiovascular disease, depression); routine screening at annual check-ups or chronic disease reviews."),
  T("tbl-physical-activity-5as", 17, CH1 + " > Physical Inactivity > Brief counselling intervention (5 A's framework)",
    "Brief counselling intervention for physical inactivity: the 5 A's (ask, advise, assess, assist, arrange)", ["0032"],
    [[C("Step"), C("Action")]],

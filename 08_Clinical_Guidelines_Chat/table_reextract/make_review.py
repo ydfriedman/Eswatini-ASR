@@ -69,7 +69,7 @@ for t in T:
                             extraction='claude-vision', number_check=chk))
 
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Amendment Re-extraction Review</title><style>
+<title>Re-extraction Review</title><style>
 :root{{--bg:#fff;--fg:#1b2b2b;--muted:#5c6b73;--line:#cfdcd9;--card:#f6faf9;--th:#e3efec;--ok:#0e7c7b;--bad:#c0392b;--sec:#fde7dc}}
 @media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#111a1a;--fg:#e6efed;--muted:#9fb0b4;--line:#2c3b3b;--card:#172322;--th:#203232;--sec:#3a2a22}}}}
 body{{background:var(--bg);color:var(--fg);font:15px/1.45 Calibri,Arial,sans-serif;margin:0 auto;padding:16px;max-width:1500px}}
@@ -82,7 +82,7 @@ img{{width:100%;border:1px solid var(--line)}} .tbl{{overflow-x:auto}}
 table{{border-collapse:collapse;font-size:13px;margin:4px 0}} td,th{{border:1px solid var(--line);padding:4px 6px;vertical-align:top}}
 th{{background:var(--th)}} th.section{{background:var(--sec);text-align:left}} td.note{{font-style:italic}} caption{{text-align:left;font-weight:bold;padding:4px 0}}
 pre{{white-space:pre-wrap;font-size:12px}} pre.diagram{{font-size:13px;font-family:Calibri,Arial,sans-serif}} .box{{border:2px solid #f2b134;padding:8px;border-radius:6px}} summary{{cursor:pointer;color:var(--muted);margin-top:8px}}
-</style></head><body><h1>HIV Amendment 2024: re-extracted tables, boxes and flowcharts</h1>
+</style></head><body><h1>{H.escape(doc_title)}: re-extracted tables, boxes and flowcharts</h1>
 <p>Every table, highlighted box and flowchart in the Amendment, read from the PDF page image by Claude: merged cells, section rows and footnotes kept for tables; branches, combined conditions and line breaks kept for flowcharts, with their captions and printed notes folded in. Compare each with the page on the left. "Points to check in the source" lists problems in the guideline itself.
 The "what the model receives" version fills merged cells in, shows a long note that spans every row once, and attaches footnotes. The embedding text is split into parts under 512 tokens that all return the whole table.</p>
 {"".join(cards)}</body></html>'''

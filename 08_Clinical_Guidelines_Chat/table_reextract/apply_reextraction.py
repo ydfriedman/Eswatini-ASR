@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'
 from build_v2 import norm, page_label, plain, sid  # noqa: E402
 from fix_headings import tidy_case  # noqa: E402
 
-SMALL_TOKENS, MERGED_MAX_TOKENS = 80, 450
+SMALL_TOKENS, MERGED_MAX_TOKENS = 80, 400
 DROP_LINE = re.compile(r'^\s*[*_\\]*\s*(Flowchart:|Diagram:|image:\s*decorative|Figure\s+\d+(\.\d+)*\b)', re.I)
 NUMBERED = re.compile(r'^\d+(\.\d+)+\s')
 BAD_PART = re.compile(r'^(Flowchart:|Figure\s+\d|Diagram:|Refer to\b)', re.I)
@@ -61,9 +61,11 @@ def main(src, out, pairs):
         for i, c in enumerate(chunks):
             if c['chunk_id'] in replaced:
                 first_pos.setdefault(c['chunk_id'], i)
-        anchor = {}
-        for r in recs:
-            pos = min(first_pos[c] for c in r['replaces_chunks'] if c in first_pos)
+        anchor, last = {}, 0
+        for r in recs:      # records are in page order; an item that replaces nothing (it was missing) goes after the previous one
+            found = [first_pos[c] for c in r['replaces_chunks'] if c in first_pos]
+            pos = min(found) if found else last
+            last = pos
             anchor.setdefault(pos, []).append(r)
         new = []
         for i, c in enumerate(chunks):
@@ -76,13 +78,16 @@ def main(src, out, pairs):
             else:
                 new.append(c)
         chunks = new
-        doc_text = key(' '.join(r['text'] for r in recs))
+        # text already inside new records; an item's context_before is NOT counted, because it is not in the
+        # item's embedding text, so the neighbouring text chunk must keep it to stay searchable
+        ctx = {t['table_id']: t.get('context_before', '') for t in spec['tables']}
+        doc_text = key(' '.join(r['text'].replace(ctx.get(r['table_id'], '') or '\x00', ' ') for r in recs))
         chapters = sorted(spec.get('chapters', []), key=lambda x: x['page'])
         # 2-3. clean text chunks and fix labels
         prev_section = {}
         out_chunks = []
         for c in chunks:
-            if c['doc_id'] != doc or c.get('table_id'):
+            if c['doc_id'] != doc or c.get('table_id') or c['type'] != 'text':   # only plain text chunks are cleaned/relabelled
                 if c['doc_id'] == doc and c.get('table_id'):
                     parts = c['heading_path'].split(' > ')
                     num = [i for i, p in enumerate(parts) if NUMBERED.match(p)]
@@ -99,7 +104,7 @@ def main(src, out, pairs):
                 kept.append(ln)
             text = re.sub(r'\n{3,}', '\n\n', '\n'.join(kept)).strip()
             body = key(' '.join(l for l in text.split('\n') if not l.lstrip().startswith('#')))
-            if len(body) < 40:
+            if len(body) < 40 and text != c['text']:    # only drop chunks that the cleaning itself emptied
                 removed.append(dict(c, drop_reason='emptied: content now in re-extracted items'))
                 log.append((c['chunk_id'], 'emptied', ''))
                 continue

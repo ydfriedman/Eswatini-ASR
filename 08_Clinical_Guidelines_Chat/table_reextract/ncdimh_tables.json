@@ -627,7 +627,7 @@
    "footnotes": [],
    "source_flags": [],
    "context_before": "Physical inactivity: not meeting the WHO recommendation of at least 150 minutes of moderate-intensity physical activity per week. Sedentary behaviour: any waking behaviour with low energy expenditure (≤1.5 METs) while sitting, reclining, or lying down.",
-   "table_note": "Note: some activity is better than none. Inactive individuals should start with small amounts and gradually increase frequency, intensity, and duration."
+   "table_note": "Note: some activity is better than none. Inactive individuals should start with small amounts and gradually increase frequency, intensity, and duration. Screening for physical inactivity: who to screen: all patients attending primary care facilities, particularly those with risk factors (obesity, hypertension, diabetes, cardiovascular disease, depression); routine screening at annual check-ups or chronic disease reviews."
   },
   {
    "table_id": "ncdimh-tbl-physical-activity-5as",
@@ -841,6 +841,532 @@
    "footnotes": [],
    "source_flags": [],
    "table_note": "AUDIT-C interpretation: men: score ≥4 = unhealthy alcohol use: provide brief intervention. Women: score ≥3 = unhealthy alcohol use: provide brief intervention. Score ≥8: possible alcohol use disorder: consider full AUDIT and referral."
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-alcohol-key-messages",
+   "page": 23,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Key messages for patients",
+   "caption": "Key messages for patients about alcohol",
+   "replaces_chunks": [
+    "ncdimh-0051"
+   ],
+   "content": "- NO amount of alcohol is safe for your health.\n- The safest choice is NOT to drink alcohol at all.\n- Alcohol increases your risk of cancer, heart disease, liver disease, and many other conditions.\n- Quitting alcohol improves your health at any age.\n- You don't have to quit alone: ask for help from healthcare providers, family, and support groups.\n- If you are pregnant or planning pregnancy, do NOT drink any alcohol.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-healthy-eating-guidelines",
+   "page": 24,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Unhealthy Diet > Healthy eating guidelines",
+   "caption": "Healthy eating guidelines: food groups, foods to limit, counselling tips and health benefits",
+   "replaces_chunks": [
+    "ncdimh-0053",
+    "ncdimh-0054",
+    "ncdimh-0055"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Food group"
+     },
+     {
+      "t": "Advice"
+     },
+     {
+      "t": "Details / examples"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Eat a variety of foods daily for good health"
+    },
+    [
+     {
+      "t": "Vegetables & fruits"
+     },
+     {
+      "t": "Eat PLENTY daily"
+     },
+     {
+      "t": "At least 5 portions (400 g) per day. Examples: spinach, cabbage, tomatoes, carrots, pumpkin, oranges, bananas, mangoes"
+     }
+    ],
+    [
+     {
+      "t": "Starchy foods"
+     },
+     {
+      "t": "Part of MOST meals"
+     },
+     {
+      "t": "Choose WHOLE GRAINS. Examples: whole grain pap/maize meal, brown bread, rice, potatoes, sweet potatoes"
+     }
+    ],
+    [
+     {
+      "t": "Protein foods"
+     },
+     {
+      "t": "Eat DAILY"
+     },
+     {
+      "t": "Choose lean options. Examples: beans, lentils, peanuts, fish, chicken, lean meat, eggs"
+     }
+    ],
+    [
+     {
+      "t": "Milk & dairy"
+     },
+     {
+      "t": "Have EVERY DAY"
+     },
+     {
+      "t": "Good for bones & teeth. Examples: milk, maas, yoghurt, cheese"
+     }
+    ],
+    [
+     {
+      "t": "Clean water"
+     },
+     {
+      "t": "Drink LOTS daily"
+     },
+     {
+      "t": "6-8 glasses per day; best choice for hydration"
+     }
+    ],
+    [
+     {
+      "t": "Fats & oils"
+     },
+     {
+      "t": "Use SPARINGLY"
+     },
+     {
+      "t": "Choose vegetable oils; avoid hard fats & excessive frying"
+     }
+    ],
+    {
+     "section": "Foods to limit"
+    },
+    [
+     {
+      "t": "Salt"
+     },
+     {
+      "t": "Less than 1 teaspoon (5 g) per day"
+     },
+     {
+      "t": "Reduces blood pressure & heart disease"
+     }
+    ],
+    [
+     {
+      "t": "Sugar"
+     },
+     {
+      "t": "Less than 6 teaspoons (25 g) per day"
+     },
+     {
+      "t": "Reduces blood pressure & heart disease"
+     }
+    ],
+    [
+     {
+      "t": "Processed foods"
+     },
+     {
+      "t": "Limit chips, soda, sweets, fast food"
+     },
+     {
+      "t": "High in salt, sugar & unhealthy fats"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Infographic in the PDF; restructured as a table.",
+    "The 'Clean water' panel is sub-headed 'Starchy foods' in the PDF (copy error); omitted."
+   ],
+   "table_note": "Counselling tips: fill half the plate with vegetables; eat locally available seasonal foods; choose whole grains over refined; eat beans/legumes regularly; remove visible fat from meat. Health benefits: prevents heart disease & stroke; reduces diabetes risk; helps maintain a healthy weight; prevents some cancers; improves overall wellbeing."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-hypertension-screening",
+   "page": 26,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Hypertension > Algorithm for hypertension screening",
+   "caption": "Algorithm for hypertension screening in adults (18 years and above)",
+   "replaces_chunks": [
+    "ncdimh-0058",
+    "ncdimh-0059",
+    "ncdimh-0060"
+   ],
+   "content": "Adults (18 years and above), by office blood pressure:\n- Optimal <120/80: repeat at least every 5 years.\n- Normal 120-129/80-84: repeat at least every 3 years.\n- High normal BP 130-139/85-89: consider masked hypertension; repeat annually. Consider out-of-office measurements (ABPM or HBPM).\n- Hypertension >140/90: repeated visits for office BP measurement, and consider out-of-office measurements (ABPM or HBPM).\n\nAdopted from ESC/ESH guidelines, 2023.\nN.B.: the Ministry of Health recommends measuring blood pressure yearly for adults ≥18 years of age.",
+   "footnotes": [],
+   "source_flags": [
+    "These ESC/ESH categories differ from the blood pressure screening table on p.13 (ACC/AHA style: stage 1 from 130/80).",
+    "'>140/90' printed; hypertension is ≥140/90 elsewhere in the guideline."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-anthropometric-bmi-waist",
+   "page": 27,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Obesity > Anthropometric measurements",
+   "caption": "Anthropometric measurements in adults (≥18 years): BMI, obesity class and disease risk by waist circumference",
+   "replaces_chunks": [
+    "ncdimh-0061",
+    "ncdimh-0062"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category",
+      "rs": 2
+     },
+     {
+      "t": "BMI (kg/m2)",
+      "rs": 2
+     },
+     {
+      "t": "Obesity class",
+      "rs": 2
+     },
+     {
+      "t": "Disease risk* (relative to normal weight and waist circumference)",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Men ≤ 102 cm and women ≤ 88 cm"
+     },
+     {
+      "t": "Men ≥ 102 cm and women ≥ 88 cm"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Underweight"
+     },
+     {
+      "t": "<18.5"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "-"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Normal*"
+     },
+     {
+      "t": "18.5-24.9"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "-"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Overweight"
+     },
+     {
+      "t": "25-29.9"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Increased"
+     },
+     {
+      "t": "High"
+     }
+    ],
+    [
+     {
+      "t": "Obesity",
+      "rs": 3
+     },
+     {
+      "t": "30-34.9"
+     },
+     {
+      "t": "Class 1"
+     },
+     {
+      "t": "High"
+     },
+     {
+      "t": "Very high"
+     }
+    ],
+    [
+     {
+      "t": "35-39.9"
+     },
+     {
+      "t": "Class 2"
+     },
+     {
+      "t": "Very high"
+     },
+     {
+      "t": "Very high"
+     }
+    ],
+    [
+     {
+      "t": "≥ 40"
+     },
+     {
+      "t": "Class 3"
+     },
+     {
+      "t": "Extremely high"
+     },
+     {
+      "t": "Extremely high"
+     }
+    ]
+   ],
+   "footnotes": [
+    "*Disease risk for hypertension, type 2 diabetes, and cardiovascular diseases.",
+    "*Increased waist circumference can also be a marker for increased risk even in persons of normal weight."
+   ],
+   "source_flags": [
+    "The left disease-risk sub-column has no heading in the PDF; 'Men ≤ 102 cm and women ≤ 88 cm' is inferred from the right one."
+   ],
+   "context_before": "Overweight and obesity are abnormal or excessive fat accumulation that presents a risk to health. In adults, a BMI over 25 is overweight and over 30 is obese. BMI = body mass (kg) divided by the square of body height (m)."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-diabetes-screening",
+   "page": 28,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Diabetes Mellitus > Algorithm for diabetes mellitus screening",
+   "caption": "Algorithm for diabetes mellitus screening in adults",
+   "replaces_chunks": [
+    "ncdimh-0063",
+    "ncdimh-0064"
+   ],
+   "content": "All clients >18 years attending a health facility should be screened for diabetes using the known risk factors below.\n- No risk factors: re-evaluate.\n- Risk factors present: test (HbA1c, fasting plasma glucose, oral glucose tolerance test, or random glucose):\n  - HbA1c <5.7% / FPG <100 mg/dl: encourage healthy lifestyle maintenance; retest at least annually.\n  - HbA1c 5.6-6.4% / FPG 100-125 mg/dl / OGTT 140-199 mg/dl: encourage lifestyle modification and retest every 6-12 months.\n  - HbA1c ≥ 6.5% / FPG ≥ 126 mg/dl: retest with a different test, and refer for treatment if still positive.\n\n*Known risk factors for diabetes: physical inactivity; family history of diabetes; high-risk race or ethnicity (African, Indian); hypertension (≥ 140/90); HDL-C <35 or triglyceride > 250 mg/dL; history of gestational diabetes or gave birth to a baby ≥4.5 kg; history of heart disease; conditions associated with insulin resistance; polycystic ovary syndrome; malnutrition.\n\nAdapted from the American Diabetes Association Standards of Medical Care in Diabetes. N.B.: the Ministry of Health recommends measuring glycaemia yearly in adults ≥ 18 years of age.",
+   "footnotes": [],
+   "source_flags": [
+    "The pre-diabetes HbA1c band is printed '5.6-6.4%' while the normal band is '<5.7%' (overlap at 5.6); the screening table on p.13 uses 5.7-6.4%.",
+    "Thresholds here are in mg/dl, unlike the mmol/L tables elsewhere."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-ckd-clinical-protocol",
+   "page": 29,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Chronic Kidney Disease > CKD clinical protocol (kidney health check)",
+   "caption": "Chronic kidney disease clinical protocol: kidney health check, confirmation and staging",
+   "replaces_chunks": [
+    "ncdimh-0068",
+    "ncdimh-0069"
+   ],
+   "content": "Offer a kidney health check to people with: diabetes; hypertension; established CVD; family history of kidney failure; obesity (BMI ≥30); current or past smoker/vaper; history of AKI aged ≥60 years; high index of suspicion in clients, especially paediatrics, with oedema and recurrent puffiness.\n\nTests: uACR, eGFR, and trace protein on urine dipstick.\n- uACR ≥3 mg/mmol (yes): repeat uACR within 3 months. If uACR normal, complete a third test (preferably first morning void). CKD if a minimum of two uACRs ≥3 mg/mmol over 3 months.\n- eGFR <60 mL/min/1.73m2 (yes): repeat eGFR within 7 days; if ≥20% reduction in eGFR, possible AKI: discuss with nephrologist. Repeat eGFR within 3 months. CKD if a minimum of two eGFRs <60 mL/min/1.73m2 over 3 months.\n- No to both: repeat kidney health check (annually if aged ≥18, people with diabetes or hypertension).\nIf either (and/or) criterion is met: stage CKD with the staging table, using eGFR and uACR results.",
+   "footnotes": [],
+   "source_flags": [
+    "The 'two eGFRs <60 over 3 months' window is implied by the 3-month repeat; the PDF box reads 'If minimum of two eGFRs <60mL/min.1.73m2'."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-lipid-management",
+   "page": 29,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Lipids Disorders > Lipid management clinical decision pathway",
+   "caption": "Lipid management: clinical decision pathway (CV risk, comorbidities, lipid targets)",
+   "replaces_chunks": [
+    "ncdimh-0066",
+    "ncdimh-0067"
+   ],
+   "content": "Obtain fasting lipids at baseline and annually. Then three parallel assessments, then treat to the target:\n1. Calculate and categorize CV risk using the Framingham risk score (mdcalc.com - Framingham Risk Score). Risk categories: low risk < 10%; moderate risk 10%-19%; high risk > 20%.\n2. Assess comorbidities: diabetes; CAD; previous CV event; atherosclerosis; aneurysm. *Any = high risk.\n3. Determine lipid targets:\n   - LDL-C: optimal <100 mg/dL; near or above optimal 100-129 mg/dL; borderline high 130-159 mg/dL; high 160-189 mg/dL; very high ≥190 mg/dL.\n   - Total cholesterol: desirable <200 mg/dL; borderline high 200-239 mg/dL; high ≥240 mg/dL.\n   - Triglycerides: normal <150 mg/dL; borderline high ≥150-199 mg/dL; high 200-499 mg/dL; very high ≥500 mg/dL.\nThen: treat to the target.",
+   "footnotes": [],
+   "source_flags": [
+    "CV risk categories leave a gap between 19% and 20%, as printed."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-ckd-screening",
+   "page": 30,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Chronic Kidney Disease > Algorithm for CKD screening",
+   "caption": "Algorithm for chronic kidney disease (CKD) screening",
+   "replaces_chunks": [
+    "ncdimh-0071"
+   ],
+   "content": "Target population:\n- No markers of risk: do not screen.\n- Risk factors (high blood pressure, diabetes, cardiovascular diseases, family history, HIV): screen.\n\nScreen: test (urine dipstick, blood glucose, blood pressure, family history) and measure kidney function (serum creatinine; estimate the eGFR).\nDetermine if test results indicate CKD (eGFR <60 ml/min/1.73m2 or presence of albuminuria):\n- No: rescreen based on the risks.\n- Yes: lifestyle modification (smoking cessation; balanced diet; regular exercise; limit salt intake to <2 g/day); medical treatment (diabetes, BP and lipid control: SGLT2, ACEI/ARB, statins, metformin...); considerations (drug dosing; use of contrast media; CKD complications: anaemia, hyperkalaemia, bone disease, CVD...).\nThen: retesting; follow-up visits; referral to nephrology when appropriate.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-ckd-staging-heatmap",
+   "page": 30,
+   "image_only": false,
+   "heading_path": "Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Chronic Kidney Disease > CKD staging by eGFR and albuminuria",
+   "caption": "CKD staging by GFR and albuminuria (KDIGO-style colour grid: risk category for each GFR stage x albuminuria stage)",
+   "replaces_chunks": [
+    "ncdimh-0070",
+    "ncdimh-0072"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Kidney function stage"
+     },
+     {
+      "t": "GFR (mL/min/1.73m2)"
+     },
+     {
+      "t": "A1 normal: uACR <3.0 mg/mmol"
+     },
+     {
+      "t": "A2 microalbuminuria: uACR 3.0-30 mg/mmol"
+     },
+     {
+      "t": "A3 macroalbuminuria: uACR >30 mg/mmol"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "≥90"
+     },
+     {
+      "t": "Green: not CKD unless haematuria, structural or pathological abnormalities present",
+      "rs": 2
+     },
+     {
+      "t": "Yellow: moderately increased risk"
+     },
+     {
+      "t": "Red: very high risk"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "60-89"
+     },
+     {
+      "t": "Yellow: moderately increased risk"
+     },
+     {
+      "t": "Red: very high risk"
+     }
+    ],
+    [
+     {
+      "t": "3a"
+     },
+     {
+      "t": "45-59"
+     },
+     {
+      "t": "Yellow: moderately increased risk"
+     },
+     {
+      "t": "Orange: high risk"
+     },
+     {
+      "t": "Red: very high risk"
+     }
+    ],
+    [
+     {
+      "t": "3b"
+     },
+     {
+      "t": "30-44"
+     },
+     {
+      "t": "Orange: high risk"
+     },
+     {
+      "t": "Orange: high risk"
+     },
+     {
+      "t": "Red: very high risk"
+     }
+    ],
+    [
+     {
+      "t": "4"
+     },
+     {
+      "t": "15-29"
+     },
+     {
+      "t": "Red: very high risk"
+     },
+     {
+      "t": "Red: very high risk"
+     },
+     {
+      "t": "Red: very high risk"
+     }
+    ],
+    [
+     {
+      "t": "5"
+     },
+     {
+      "t": "<15 or on dialysis"
+     },
+     {
+      "t": "Red: very high risk"
+     },
+     {
+      "t": "Red: very high risk"
+     },
+     {
+      "t": "Red: very high risk"
+     }
+    ]
+   ],
+   "footnotes": [
+    "**Undertake investigations to determine the underlying diagnosis. **Fully specify the CKD diagnosis, e.g. CKD stage 2 with microalbuminuria (A2) in the presence of type 2 diabetes. **Refer to the colour-coded clinical action plans for CKD management."
+   ],
+   "source_flags": [
+    "Risk is shown only by cell colour in the PDF, with no legend; colours are written out with the usual KDIGO meaning (green low, yellow moderately increased, orange high, red very high). Clinician to confirm.",
+    "A2 range is printed 'uACR 3.0-3.0 mg/mmol' and A3 is headed 'Microalbuminuria (A3)'; written as 3.0-30 and macroalbuminuria.",
+    "G1-G2 with A3 are red here; KDIGO uses orange for these cells."
+   ]
   },
   {
    "table_id": "ncdimh-tbl-diabetes-definition-classification",
