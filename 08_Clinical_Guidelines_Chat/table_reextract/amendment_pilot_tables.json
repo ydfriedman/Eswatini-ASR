@@ -1,0 +1,145 @@
+{
+  "doc_id": "hiv-amendment-2024",
+  "doc_title": "Amendment to the Eswatini Integrated HIV Management Guidelines (2024)",
+  "method": "Transcribed by Claude from PDF page images (110-220 dpi), checked against the PDF text layer where one exists and against the original LlamaParse chunks.",
+  "tables": [
+    {
+      "table_id": "hiv-amendment-2024-tbl-9.2-pald-dosing",
+      "page": 37, "printed_page": 31, "image_only": false,
+      "heading_path": "Chapter 9: ART for Children & Adolescents > 9.2 Treatment Optimization (annex 11.17) > Paediatric ARV dosing chart including pALD",
+      "caption": "Paediatric ARV dosing chart including pALD (tablets per dose, by weight in kg)",
+      "caption_note": "No printed title; the sentence above the table reads 'Please see the updated paediatric dosing chart below which includes pALD.'",
+      "replaces_chunks": ["hiv-amendment-2024-0074", "hiv-amendment-2024-0075"],
+      "row_header_cols": 1,
+      "header": [
+        [{"t": "Paediatric ARV Formulation", "rs": 2}, {"t": "Weight in KG", "cs": 8}],
+        [{"t": "3 - 5.9"}, {"t": "6 - 9.9"}, {"t": "10 - 13.9"}, {"t": "14 - 19.9"}, {"t": "20 - 24.9"}, {"t": "25 - 29.9"}, {"t": "30 - 39.9"}, {"t": ">40"}]
+      ],
+      "body": [
+        [{"t": "pABC/3TC/DTG 60/30/5mg pALD Tablet (dispersible)"}, {"t": "Use separate products"}, {"t": "3 OD"}, {"t": "4 OD"}, {"t": "5 OD"}, {"t": "6 OD"}, {"t": ""}, {"t": ""}, {"t": ""}],
+        [{"t": "ABC/3TC 120mg/60mg Tablet (dispersible)"}, {"t": "1 OD"}, {"t": "1.5 OD"}, {"t": "2 OD"}, {"t": "2.5 OD"}, {"t": "3 OD"}, {"t": ""}, {"t": ""}, {"t": ""}],
+        [{"t": "ABC/3TC 600mg/300mg Tablet (Adult)"}, {"t": "Not recommended", "cs": 5}, {"t": "1 OD"}, {"t": "1 OD"}, {"t": "1 OD"}],
+        [{"t": "AZT/3TC 60mg/30mg Tablet (dispersible)"}, {"t": "1 BD"}, {"t": "1.5 BD"}, {"t": "2 BD"}, {"t": "2.5 BD"}, {"t": "3 BD"}, {"t": ""}, {"t": ""}, {"t": ""}],
+        [{"t": "AZT/3TC 300mg/150mg Tablet (Adult)"}, {"t": "Not recommended", "cs": 5}, {"t": "1 BD"}, {"t": "1 BD"}, {"t": "1 BD"}],
+        [{"t": "DTG 10mg Tablet (scored/dispersible)"}, {"t": "0.5 OD"}, {"t": "1.5 OD"}, {"t": "2 OD"}, {"t": "2.5 OD"}, {"t": "Change to Adults DTG 50mg tab OD", "cs": 4}],
+        [{"t": "DTG 50mg Tablet (Adult)"}, {"t": "Not recommended", "cs": 4}, {"t": "1 OD"}, {"t": "1 OD"}, {"t": "1 OD"}, {"t": "1 OD"}],
+        [{"t": "TDF+3TC+DTG 300mg/300mg/50mg TLD Tablet (Adult)"}, {"t": "Not recommended", "cs": 6}, {"t": "1 OD"}, {"t": "1 OD"}],
+        [{"t": "LPV/r 100mg/25mg Tablet"}, {"t": "Not recommended", "cs": 3}, {"t": "2 BD"}, {"t": "2 BD"}, {"t": "3 BD"}, {"t": "3 BD"}, {"t": ""}],
+        [{"t": "LPV/r 200mg/50mg Tablet (Adult)"}, {"t": "Not recommended", "cs": 4}, {"t": "1 BD"}, {"t": "2 AM + 1 PM"}, {"t": "2 AM + 1 PM"}, {"t": "2 BD"}],
+        [{"t": "ATV/r 300mg/100mg Tablet (Adult)"}, {"t": "Not recommended", "cs": 7}, {"t": "1 OD"}],
+        [{"t": "TDF+3TC+EFV 300mg/300mg/400mg Tablet (Adult)"}, {"t": "Not recommended", "cs": 7}, {"t": "1 OD"}]
+      ],
+      "context_before": "CLHIV who must still use separate ABC+3TC plus pDTG products (not pALD): children 3-5.9 kg; children on rifampicin-based TB treatment; children on second- or third-line treatment not previously on DTG.",
+      "footnotes": [],
+      "source_flags": ["The LPV/r 200mg/50mg 25-29.9 and 30-39.9 kg cells are printed as two lines, '2 AM' over '1 PM'; transcribed as '2 AM + 1 PM'."]
+    },
+    {
+      "table_id": "hiv-amendment-2024-tbl-9.3-tpt",
+      "page": 38, "printed_page": 32, "image_only": true,
+      "heading_path": "Chapter 9: ART for Children & Adolescents > 9.3 Tuberculosis Preventive Therapy (TPT) for Treatment of Latent TB Infection (LTBI) > TPT regimens and dosing",
+      "caption": "TPT regimens and dosing by ART regimen, age and weight",
+      "caption_note": "No printed title; table sits directly under heading 9.3.",
+      "replaces_chunks": ["hiv-amendment-2024-0076", "hiv-amendment-2024-0077"],
+      "row_header_cols": 2,
+      "header": [[{"t": "Population"}, {"t": "Drug Regimen"}, {"t": "Dosing"}]],
+      "body": [
+        [{"t": "All clients on DTG or EFV based ART", "rs": 3}, {"t": "Preferred ≥14 yr & 30kg: 3HP + Vit B6 (Once-weekly Isoniazid + Rifampicin x 3mo)"}, {"t": "Vit B6 once weekly + 3 adult tabs once weekly of 3HP (300mg INH/300mg Rifapentine)"}],
+        [{"t": "Alternative: 6H"}, {"t": "See INH dosing chart"}],
+        [{"t": "Preferred <14 yr or <30kg: 6H + Vit B6 (Once daily Isoniazid + B6 x 6 mo). *TPT in those <12 months only if there is a new known pulmonary TB contact"}, {"t": "*Vit B6 OD + 6H (100mg INH) dosing by weight: <5kg 0.5 OD; 5-9.9kg 1 OD; 10-13.9kg 1.5 OD; 14-19.9kg 2 OD; 20-24.9kg 2.5 OD; ≥25kg 1 adult tab (300mg)"}],
+        [{"t": "All clients on PI-Based ART"}, {"t": "Preferred: 6H"}, {"t": "See INH dosing chart"}]
+      ],
+      "footnotes": ["*See below for Pyridoxine (Vit B6) Dosing."],
+      "source_flags": ["The PDF prints the 3HP drug column as 'Isoniazid + Rifampicin x 3mo', but the dosing column (and the 3HP regimen) uses rifapentine. Possible error in the source: clinician to confirm.",
+                       "This table is an image in the PDF (no text layer); numbers were checked against the original chunk only."]
+    },
+    {
+      "table_id": "hiv-amendment-2024-tbl-9.3-pyridoxine",
+      "page": 38, "printed_page": 32, "image_only": false,
+      "heading_path": "Chapter 9: ART for Children & Adolescents > 9.3 Tuberculosis Preventive Therapy (TPT) for Treatment of Latent TB Infection (LTBI) > Pyridoxine (Vit B6) dosing",
+      "caption": "Pyridoxine (Vitamin B6) dosing for clients on INH",
+      "caption_note": "No printed title; referenced above as '*See below for Pyridoxine (Vit B6) Dosing'.",
+      "replaces_chunks": ["hiv-amendment-2024-0078"],
+      "row_header_cols": 1,
+      "header": [[{"t": "Population"}, {"t": "Pyridoxine (Vitamin B6)"}, {"t": "Special Considerations"}]],
+      "body": [
+        [{"t": "All Clients on INH"}, {"t": "1-2 mg/kg daily. Typically given as 12.5mg or 25mg daily dose. May increase to 50mg-100mg daily if peripheral neuropathy persists at lower doses."}, {"t": "To be given with INH. May increase dose if peripheral neuropathy persists at lower doses (2mg/kg)."}]
+      ],
+      "footnotes": [],
+      "source_flags": []
+    },
+    {
+      "table_id": "hiv-amendment-2024-tbl-9.4-tb-while-on-art",
+      "page": 38, "printed_page": 32, "image_only": true,
+      "heading_path": "Chapter 9: ART for Children & Adolescents > 9.4 ART for Children & Adolescents with TB/HIV Coinfection (annex 11.16) > Children initiating TB treatment while on ART",
+      "caption": "ART changes for children initiating TB treatment while on ART",
+      "caption_note": "Title row printed inside the table: 'Children Initiating TB treatment while on ART'.",
+      "replaces_chunks": ["hiv-amendment-2024-0079", "hiv-amendment-2024-0080", "hiv-amendment-2024-0081"],
+      "row_header_cols": 1,
+      "header": [[{"t": "Current ART"}, {"t": "Changes"}, {"t": "Notes"}]],
+      "body": [
+        {"section": "Children initiating TB treatment while on ART"},
+        [{"t": "DTG [note 2]-based"}, {"t": "Increase DTG [note 2] to twice daily dosing. Continue current backbone."},
+         {"t": "*Maintain all dose adjustments for 2 weeks after completion of ATT. *The preferred regimen for children with DTG resistance is an optimized NRTI backbone with LPV/r [note 3]. If this is not available a holding regimen of AZT/3TC/ABC OR NNRTI based therapy may be necessary. Please consult with an expert in Paediatric HIV/TB.", "rs": 4}],
+        [{"t": "LPV/r [note 3]"}, {"t": "Preferred: If DTG-naïve, transition to a DTG [note 2]-based regimen (with appropriate dose adjustment). Continue current backbone. Alternative: If DTG is not possible, LPV/r [note 3] dose adjustment is needed: Ritonavir (RTV) dose needs to be \"super-boosted\" to achieve the same dose as LPV in mg, in a ratio equal to or approaching 1:1. In older children and adolescents swallowing tablets the LPV/r dose can be doubled."}],
+        [{"t": "DRV/r"}, {"t": "Change of regimen is needed: replace DRV/r with DTG [note 2] if DTG-naive or with LPV/r [note 3] if DTG-experienced (with appropriate dose adjustment). Continue current backbone."}],
+        [{"t": "ATV/r"}, {"t": "Change of regimen is needed: replace ATV/r with DTG if DTG-naive or with LPV/r [note 3] if DTG-experienced (with appropriate dose adjustment). Continue current backbone."}],
+        {"section": "Neonates (first 28 days of life) initiating TB treatment while on ART"},
+        [{"t": "NVP [note 1]-based"}, {"t": "Change of regimen is needed: substitute NVP as soon as possible with DTG [note 2] or LPV/r [note 3] (with appropriate dose adjustment)."}, {"t": ""}]
+      ],
+      "footnotes": [
+        "[note 1] Do not use lead in dosing and use the maximum recommended dose by neonatal dosing chart if administering with rifampicin. Transition to DTG when 3 kgs and 4 weeks of age.",
+        "[note 2] DTG should be dosed twice daily in children on TB treatment. This dose adjustment must continue for 2 weeks after completing ATT.",
+        "[note 3] If used, LPV/r dose adjustment is needed: ritonavir (RTV) dose needs to be \"super-boosted\" to achieve the same dose as LPV in mg, in a ratio equal to or approaching 1:1. In older children and adolescents swallowing tablets the LPV/r dose can be doubled. This dose adjustment must continue for 2 weeks after completing ATT."
+      ],
+      "footnotes_page": 39,
+      "source_flags": ["This table is an image in the PDF (no text layer); numbers were checked against the original chunks only. The footnotes (p.39) do have a text layer.",
+                       "The Notes cell spans the four 'while on ART' rows (DTG-based to ATV/r); it is not tied to one row."]
+    },
+    {
+      "table_id": "hiv-amendment-2024-tbl-9.4-initiating-art-on-tb",
+      "page": 39, "printed_page": 33, "image_only": false,
+      "heading_path": "Chapter 9: ART for Children & Adolescents > 9.4 ART for Children & Adolescents with TB/HIV Coinfection (annex 11.16) > Preferred and alternative ART when initiating ART in children on TB treatment",
+      "caption": "Preferred and alternative ART in children when initiating ART in children on TB treatment",
+      "caption_note": "Printed as the table's title row.",
+      "replaces_chunks": ["hiv-amendment-2024-0082", "hiv-amendment-2024-0083"],
+      "row_header_cols": 1,
+      "header": [[{"t": "Age"}, {"t": "Preferred first-line regimen, including initiation while on TB treatment"}, {"t": "Alternative first-line regimen"}]],
+      "body": [
+        [{"t": "Neonates"}, {"t": "AZT + 3TC + NVP [note 1]"}, {"t": "-"}],
+        [{"t": "Children"}, {"t": "ABC + 3TC + DTG [note 2]"}, {"t": "ABC + 3TC + LPV/r [note 3]"}],
+        [{"t": "Adolescents & adults"}, {"t": "TDF + 3TC + DTG"}, {"t": "ABC + 3TC + DTG [note 2]; TDF + 3TC + LPV/r [note 3]; ABC + 3TC + LPV/r [note 3]"}]
+      ],
+      "footnotes": [
+        "[note 1] Do not use lead in dosing; use the maximum recommended dose by neonatal dosing chart if administering with rifampicin. Transition to DTG when 3 kgs and 4 weeks of age.",
+        "[note 2] DTG should be dosed twice daily in children on TB treatment. This dose adjustment must continue for 2 weeks after completing ATT.",
+        "[note 3] If used, LPV/r dose adjustment is needed: Ritonavir (RTV) dose needs to be \"super-boosted\" to achieve the same dose as LPV in mg, in a ratio equal to or approaching 1:1. In older children and adolescents swallowing tablets the LPV/r dose can be doubled. This dose adjustment must continue for 2 weeks after completing ATT."
+      ],
+      "source_flags": []
+    },
+    {
+      "table_id": "hiv-amendment-2024-tbl-9.7-second-line-paeds",
+      "page": 41, "printed_page": 35, "image_only": false,
+      "heading_path": "Chapter 9: ART for Children & Adolescents > 9.7 Second Line ART for Children & Adolescents",
+      "caption": "Second-line ART for children and adolescents by weight and current first-line regimen",
+      "caption_note": "No printed title; table sits directly under heading 9.7.",
+      "replaces_chunks": ["hiv-amendment-2024-0089", "hiv-amendment-2024-0090", "hiv-amendment-2024-0091"],
+      "row_header_cols": 2,
+      "header": [[{"t": "Weight"}, {"t": "Current 1st line Regimen"}, {"t": "Preferred 2nd Line Regimen"}, {"t": "Alternative 2nd Line Regimen"}, {"t": "Special Considerations"}]],
+      "body": [
+        [{"t": "3 - 29.9 kg", "rs": 5}, {"t": "AZT + 3TC + NVP (or EFV)"}, {"t": "ABC + 3TC + DTG"}, {"t": "-"},
+         {"t": "*Concept: When changing to 2nd line, in most cases, it is important to change 2 drugs to maintain a robust regimen. Evidence-based exceptions include TLE to TLD and PI based regimens where the NRTI backbone can be recycled. *LPV/r can be changed to ATV/r once client is ≥40kg regardless of VL. **DRV/r can only be used for second line in cases of confirmed INSTI resistance on genotype. Consult HIVDR clinical expert committee.", "rs": 9}],
+        [{"t": "ABC + 3TC + NVP (or EFV)"}, {"t": "AZT + 3TC + DTG"}, {"t": "-"}],
+        [{"t": "ABC + 3TC + DTG"}, {"t": "Refer to National HIVDR Clinical Expert Committee. Only switch to 2nd line if genotype test (resistance test) shows DTG-resistance or PI-resistance. The 2nd line regimen should be determined by the genotype results.", "cs": 2, "rs": 3}],
+        [{"t": "AZT + 3TC + DTG"}],
+        [{"t": "AZT + 3TC + LPV/r OR ABC + 3TC + LPV/r"}],
+        [{"t": "≥ 30 kg", "rs": 4}, {"t": "AZT + 3TC + NVP (or EFV)"}, {"t": "TDF + 3TC + DTG"}, {"t": "ABC + 3TC + DTG; TDF + 3TC + boosted PI** (ATV/r* or LPV/r or DRV/r**)"}],
+        [{"t": "ABC + 3TC + NVP (or EFV)"}, {"t": "TDF + 3TC + DTG"}, {"t": "AZT + 3TC + DTG; TDF + 3TC + boosted PI** (ATV/r* or LPV/r or DRV/r**)"}],
+        [{"t": "TDF + 3TC + EFV"}, {"t": "TDF + 3TC + DTG"}, {"t": "AZT + 3TC + DTG; TDF + 3TC + boosted PI (ATV/r* or LPV [text cut off in the source]"}],
+        [{"t": "TDF + 3TC + DTG; ABC + 3TC + DTG; AZT + 3TC + DTG"}, {"t": "Refer to National HIVDR Clinical Expert Committee. Only switch to 2nd line if resistance test shows DTG resistance and the 2nd line regimen should be a boosted PI + 2 NRTIs determined by the genotype results.", "cs": 2}]
+      ],
+      "table_note": "Children and adolescents with at least 2 consecutive detectable VL results while on DTG- or PI-based regimens should be referred to the National HIVDR Clinical Expert Committee (snapthirdline@mohcoag.com) for evaluation of drug resistance and need for genotyping. HIV genotyping (resistance testing) should be done for all clients failing on a DTG- or PI-based ART regimen. Only switch to 2nd line if the resistance test shows DTG resistance and the 2nd line regimen should be a boosted PI + 2 NRTIs determined by the genotype results.",
+      "footnotes": ["Refer to Annex 11.19 for the paediatrics dosing chart."],
+      "source_flags": ["In the ≥30 kg / TDF+3TC+EFV row the PDF itself cuts off the alternative regimen at '(ATV/r* or LPV'."]
+    }
+  ]
+}
