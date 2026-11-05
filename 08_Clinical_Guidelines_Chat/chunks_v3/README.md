@@ -2,13 +2,13 @@
 
 `chunks_v2` plus the re-extracted tables, boxes and flowcharts (see `../table_reextract/`). **Use this set for indexing.** It has the same fields as v2, plus a few new ones for re-extracted items.
 
-**Status:** HIV Amendment 2024 (complete) and NCDIMH pp.1-89 (Ch.1-2) are re-extracted. Everything else is passed through from v2, apart from small cleanups in NCDIMH text chunks. NCDIMH text chunks on pp.1-89 have also been fixed (below). This file is regenerated each time another part is finished.
+**Status:** HIV Amendment 2024 (complete) and NCDIMH pp.1-171 (Ch.1-5, up to GI bleeding) are re-extracted. Everything else is passed through from v2, apart from small cleanups in NCDIMH text chunks. NCDIMH text chunks on pp.1-171 have also been fixed (below). This file is regenerated each time another part is finished.
 
 | | |
 |---|---|
-| Chunks | 3,689 |
+| Chunks | 3,659 |
 | HIV Amendment 2024 | 70 chunks: 36 re-extracted items (44 records) + 26 text chunks |
-| NCDIMH | 885 chunks: 74 re-extracted items (103 records) for pp.1-89; the rest still from v2 |
+| NCDIMH | 855 chunks: 156 re-extracted items (212 records) for pp.1-171; the rest still from v2 |
 
 ## New fields (re-extracted items only)
 
@@ -33,10 +33,11 @@ Retrieve the top k by `embed_text`, then **de-duplicate by `table_id`** (keep th
 - **Merged very small text chunks** into a neighbour from the same chapter when the result stays under about 400 tokens.
 - Context paragraphs copied into a table are left in place in the neighbouring text chunk, because they are not part of the table's embedding text.
 
-## NCDIMH text chunks, pp.1-89
+## NCDIMH text chunks, pp.1-171
 
-- **Section labels** taken from the PDF's own headings (font and colour), then checked by hand: 58 labels changed, 48 of them hand-corrected. For example, the thyroid chunks now say Hypothyroidism vs Hyperthyroidism vs Thyroid Storm correctly. The labels are stored in `text_labels` in `ncdimh_tables.json`.
-- **Small fragments** (under 60 tokens) merged into the next text chunk of the same chapter; none are left.
+- **Section labels** taken from the PDF's own headings (font and colour), then checked by hand: pp.1-89: 58 labels changed, 48 of them hand-corrected; pp.90-171: all 103 text-chunk labels written by hand (the heading fonts there are too inconsistent). For example, the thyroid chunks now say Hypothyroidism vs Hyperthyroidism vs Thyroid Storm correctly. The labels are stored in `text_labels` in `ncdimh_tables.json`.
+- **Small fragments** (under 60 tokens) merged into the next text chunk of the same chapter, or into a chosen chunk (`text_merge` in the spec) when a table or flowchart follows; none are left.
+- **Duplicate lines**: a line in a text chunk is removed only when it also appears in a re-extracted item printed within 2 pages. (Matching against the whole guideline had stripped repeated section headings and, in one case, the UGIB IV PPI doses on p.170; both are restored.)
 - **Trailing headings** moved to the start of the chunk they introduce, or dropped when the next item is a table or flowchart that carries its own caption.
 - **Embedding noise** ("image:", "icon:" lines, escaped asterisks, bold markers) is stripped from `embed_text`. `text` is unchanged.
 

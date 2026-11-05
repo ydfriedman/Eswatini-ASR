@@ -192,7 +192,15 @@ def render_embed(t, ncols, doc_title):
 
 def embed_parts(lines, budget_tokens=480):
     """Split row sentences into parts under the budget; every part repeats the header and caption."""
-    head, body = lines[:3], lines[3:]
+    head, body = lines[:3], []
+    limit = budget_tokens * 4 * 2 // 3          # a single line longer than this is split at sentence/list breaks
+    for ln in (x for l in lines[3:] for x in l.split('\n')):
+        while len(ln) > limit:
+            cut = max(ln.rfind(sep, 0, limit) for sep in ('<br/>', '; ', '. ', ', '))
+            if cut <= 0:
+                break
+            body.append(ln[:cut + 1].rstrip()); ln = ln[cut + 1:].lstrip('/> ')
+        body.append(ln)
     parts, cur = [], []
     size = lambda xs: len('\n'.join(head + xs)) // 4
     for ln in body:

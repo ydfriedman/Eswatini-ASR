@@ -228,6 +228,141 @@ ncdimh-0224,replaced,ncdimh-fig-thyroid-storm-management
 ncdimh-0225,replaced,ncdimh-tbl-thyroid-storm-treatment
 ncdimh-0230,replaced,ncdimh-fig-hyperthyroidism-pregnancy
 ncdimh-0231,replaced,ncdimh-fig-hyperthyroidism-pregnancy
+ncdimh-0240,replaced,ncdimh-tbl-bp-setting-definitions
+ncdimh-0242,replaced,ncdimh-tbl-office-bp-classification
+ncdimh-0245,replaced,ncdimh-box-bp-measurement-checklist
+ncdimh-0248,replaced,ncdimh-tbl-htn-patient-assessment
+ncdimh-0249,replaced,ncdimh-tbl-htn-patient-assessment
+ncdimh-0250,replaced,ncdimh-tbl-htn-investigations-by-level
+ncdimh-0251,replaced,ncdimh-tbl-htn-lifestyle
+ncdimh-0253,replaced,ncdimh-fig-htn-pharmacological-steps
+ncdimh-0254,replaced,ncdimh-fig-htn-pharmacological-steps
+ncdimh-0257,replaced,ncdimh-tbl-antihypertensive-classes
+ncdimh-0258,replaced,ncdimh-tbl-antihypertensive-classes
+ncdimh-0259,replaced,ncdimh-tbl-other-antihypertensives-dosing
+ncdimh-0263,replaced,ncdimh-tbl-other-antihypertensives-dosing
+ncdimh-0264,replaced,ncdimh-tbl-other-antihypertensives-dosing
+ncdimh-0265,replaced,ncdimh-tbl-htn-treatment-targets
+ncdimh-0267,replaced,ncdimh-tbl-secondary-hypertension
+ncdimh-0268,replaced,ncdimh-tbl-secondary-hypertension
+ncdimh-0274,replaced,ncdimh-tbl-htn-emergency-assessment
+ncdimh-0275,replaced,ncdimh-tbl-htn-emergency-assessment
+ncdimh-0277,replaced,ncdimh-tbl-htn-emergency-iv-treatment
+ncdimh-0278,replaced,ncdimh-tbl-htn-emergency-iv-drugs
+ncdimh-0279,replaced,ncdimh-tbl-htn-emergency-iv-drugs
+ncdimh-0282,replaced,ncdimh-tbl-cvd-risk-indications
+ncdimh-0284,replaced,ncdimh-tbl-cvd-risk-score-points
+ncdimh-0285,replaced,ncdimh-tbl-cvd-risk-score-points
+ncdimh-0286,replaced,ncdimh-tbl-cvd-risk-score-points
+ncdimh-0287,replaced,ncdimh-tbl-cvd-risk-score-sbp
+ncdimh-0288,replaced,ncdimh-tbl-cvd-risk-score-points
+ncdimh-0290,replaced,ncdimh-tbl-cvd-risk-score-points
+ncdimh-0291,replaced,ncdimh-tbl-cvd-risk-interpretation
+ncdimh-0292,replaced,ncdimh-tbl-cvd-risk-actions
+ncdimh-0296,replaced,ncdimh-fig-aspirin-primary-prevention
+ncdimh-0308,replaced,ncdimh-tbl-paeds-secondary-htn-causes
+ncdimh-0311,replaced,ncdimh-tbl-paeds-bp-95th-by-age
+ncdimh-0312,replaced,ncdimh-tbl-paeds-bp-95th-by-height
+ncdimh-0313,replaced,ncdimh-tbl-htn-criteria-office-abpm-hbpm
+ncdimh-0314,replaced,ncdimh-tbl-htn-drug-exacerbators
+ncdimh-0315,replaced,ncdimh-tbl-htn-drug-exacerbators
+ncdimh-0318,replaced,ncdimh-tbl-ross-hf-children
+ncdimh-0320,replaced,ncdimh-fig-hf-diagnosis-management
+ncdimh-0322,replaced,ncdimh-fig-hf-preserved-ef
+ncdimh-0324,replaced,ncdimh-fig-hf-other-causes
+ncdimh-0325,replaced,ncdimh-fig-hf-other-causes
+ncdimh-0326,replaced,ncdimh-tbl-decompensated-hf
+ncdimh-0327,replaced,ncdimh-tbl-decompensated-hf
+ncdimh-0328,replaced,ncdimh-tbl-hf-diuretics-dosing
+ncdimh-0329,replaced,ncdimh-tbl-hf-acei-arb-dosing
+ncdimh-0330,replaced,ncdimh-tbl-hf-acei-arb-dosing
+ncdimh-0331,replaced,ncdimh-tbl-hf-beta-blocker-mra-dosing
+ncdimh-0332,replaced,ncdimh-tbl-hf-beta-blocker-mra-dosing
+ncdimh-0333,replaced,ncdimh-tbl-hf-beta-blocker-mra-dosing
+ncdimh-0334,replaced,ncdimh-tbl-af-strategies
+ncdimh-0337,replaced,ncdimh-tbl-hf-inotropes-vasodilators
+ncdimh-0341,replaced,ncdimh-tbl-ihd-management
+ncdimh-0342,replaced,ncdimh-tbl-ihd-management
+ncdimh-0344,replaced,ncdimh-fig-chest-pain-approach
+ncdimh-0346,replaced,ncdimh-fig-acs-visual-illustration
+ncdimh-0347,replaced,ncdimh-tbl-nste-acs-risk-strategy
+ncdimh-0348,replaced,ncdimh-tbl-nste-acs-risk-strategy
+ncdimh-0349,replaced,ncdimh-tbl-acs-algorithm-steps-1-3
+ncdimh-0350,replaced,ncdimh-tbl-acs-algorithm-steps-1-3
+ncdimh-0351,replaced,ncdimh-tbl-acs-algorithm-steps-1-3
+ncdimh-0352,replaced,ncdimh-tbl-acs-algorithm-step-4-classify
+ncdimh-0353,replaced,ncdimh-tbl-acs-algorithm-step-4-classify
+ncdimh-0354,replaced,ncdimh-tbl-acs-algorithm-step-5-inhospital
+ncdimh-0355,replaced,ncdimh-tbl-acs-algorithm-step-6-discharge
+ncdimh-0357,replaced,ncdimh-tbl-fibrinolysis-contraindications
+ncdimh-0359,replaced,ncdimh-tbl-stroke-steps-1-2
+ncdimh-0360,replaced,ncdimh-tbl-stroke-steps-1-2
+ncdimh-0361,replaced,ncdimh-tbl-stroke-steps-1-2
+ncdimh-0362,replaced,ncdimh-tbl-stroke-steps-1-2
+ncdimh-0363,replaced,ncdimh-tbl-stroke-steps-1-2
+ncdimh-0364,replaced,ncdimh-tbl-stroke-steps-1-2
+ncdimh-0365,replaced,ncdimh-tbl-stroke-step-3-ed
+ncdimh-0366,replaced,ncdimh-tbl-stroke-ischemic-vs-hemorrhagic
+ncdimh-0367,replaced,ncdimh-tbl-stroke-ischemic-vs-hemorrhagic
+ncdimh-0368,replaced,ncdimh-tbl-stroke-step-4-unit
+ncdimh-0369,replaced,ncdimh-tbl-stroke-step-4-unit
+ncdimh-0370,replaced,ncdimh-tbl-stroke-step-5-secondary-prevention
+ncdimh-0371,replaced,ncdimh-tbl-stroke-step-5-secondary-prevention
+ncdimh-0372,replaced,ncdimh-tbl-stroke-step-6-rehab
+ncdimh-0373,replaced,ncdimh-fig-stroke-facility-flowchart
+ncdimh-0374,replaced,ncdimh-fig-stroke-facility-flowchart
+ncdimh-0375,replaced,ncdimh-fig-stroke-facility-flowchart
+ncdimh-0376,replaced,ncdimh-tbl-rtpa-eligibility
+ncdimh-0377,replaced,ncdimh-tbl-stroke-acute-contraindications-secondary
+ncdimh-0378,replaced,ncdimh-tbl-stroke-acute-contraindications-secondary
+ncdimh-0379,replaced,ncdimh-tbl-stroke-acute-contraindications-secondary
+ncdimh-0380,replaced,ncdimh-tbl-stroke-pharmacological
+ncdimh-0381,replaced,ncdimh-tbl-stroke-pharmacological
+ncdimh-0389,replaced,ncdimh-fig-arf-jones-criteria
+ncdimh-0390,replaced,ncdimh-fig-arf-jones-criteria
+ncdimh-0394,replaced,ncdimh-tbl-rhd-cxr-ecg-findings
+ncdimh-0396,replaced,ncdimh-fig-rhd-children-algorithm
+ncdimh-0400,replaced,ncdimh-fig-rhd-secondary-care
+ncdimh-0401,replaced,ncdimh-fig-rhd-secondary-care
+ncdimh-0404,replaced,ncdimh-fig-chd-pulse-oximetry-screening
+ncdimh-0405,replaced,ncdimh-fig-chd-suspected-approach
+ncdimh-0406,replaced,ncdimh-fig-chd-suspected-approach
+ncdimh-0408,replaced,ncdimh-fig-chd-acyanotic-cyanotic
+ncdimh-0409,replaced,ncdimh-fig-chd-acyanotic-cyanotic
+ncdimh-0411,replaced,ncdimh-tbl-ad-stages
+ncdimh-0412,replaced,ncdimh-tbl-ad-age-groups
+ncdimh-0414,replaced,ncdimh-tbl-ad-patient-assessment
+ncdimh-0415,replaced,ncdimh-tbl-ad-patient-assessment
+ncdimh-0416,replaced,ncdimh-tbl-ad-patient-assessment
+ncdimh-0417,replaced,ncdimh-tbl-ad-patient-assessment
+ncdimh-0421,replaced,ncdimh-fig-ad-management-summary
+ncdimh-0424,replaced,ncdimh-tbl-psoriasis-types
+ncdimh-0425,replaced,ncdimh-tbl-psoriasis-clinical-manifestations
+ncdimh-0426,replaced,ncdimh-tbl-psoriasis-clinical-manifestations
+ncdimh-0430,replaced,ncdimh-tbl-psoriasis-severity
+ncdimh-0431,replaced,ncdimh-tbl-psoriasis-topical-phototherapy
+ncdimh-0432,replaced,ncdimh-tbl-psoriasis-topical-phototherapy
+ncdimh-0433,replaced,ncdimh-tbl-psoriasis-topical-phototherapy
+ncdimh-0434,replaced,ncdimh-tbl-psoriasis-systemic
+ncdimh-0435,replaced,ncdimh-tbl-psoriasis-systemic
+ncdimh-0436,replaced,ncdimh-fig-psoriasis-algorithm
+ncdimh-0437,replaced,ncdimh-fig-psoriasis-algorithm
+ncdimh-0442,replaced,ncdimh-box-cirrhosis-symptoms-findings
+ncdimh-0443,replaced,ncdimh-box-cirrhosis-symptoms-findings
+ncdimh-0444,replaced,ncdimh-tbl-cld-investigations
+ncdimh-0445,replaced,ncdimh-tbl-child-pugh
+ncdimh-0446,replaced,ncdimh-tbl-child-pugh
+ncdimh-0447,replaced,ncdimh-tbl-cld-diagnosis-classification
+ncdimh-0449,replaced,ncdimh-tbl-cld-complications
+ncdimh-0450,replaced,ncdimh-fig-hepatic-encephalopathy-west-haven
+ncdimh-0451,replaced,ncdimh-fig-hepatic-encephalopathy-west-haven
+ncdimh-0452,replaced,ncdimh-fig-hepatic-encephalopathy-west-haven
+ncdimh-0453,replaced,ncdimh-tbl-cld-drugs
+ncdimh-0457,replaced,ncdimh-tbl-gerd-treatment
+ncdimh-0462,replaced,ncdimh-tbl-h-pylori-eradication
+ncdimh-0463,replaced,ncdimh-tbl-h-pylori-eradication
+ncdimh-0470,replaced,ncdimh-tbl-ugib-differential
+ncdimh-0474,replaced,ncdimh-tbl-lgib-differential
 ncdimh-0013,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations => Chapter 1: Prevention, Health Education and Routine Health Examinations > Introduction"
 ncdimh-0016,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > NCD Risk Factors > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening => Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening"
 ncdimh-0021,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Tobacco Cessation => Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patients)"
@@ -252,7 +387,6 @@ ncdimh-0052,label,"Chapter 1: Prevention, Health Education and Routine Health Ex
 ncdimh-0056,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Unhealth Diet > ⚠️ Foods to Limit ⚠️ > Routine Health Examinations: What to look for When Accessing for NCDS => Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations: What to Look for When Assessing for NCDs"
 ncdimh-0057,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Hypertension => Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Hypertension"
 ncdimh-0065,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Lipids Disorder => Chapter 1: Prevention, Health Education and Routine Health Examinations > Routine Health Examinations > Lipids Disorders"
-ncdimh-0075,cleaned,
 ncdimh-0075,label,Chapter 2: Endocrinology > Diagnosis of Diabetes is Confirmed when => Chapter 2: Endocrinology > Diagnosis of Diabetes is Confirmed When
 ncdimh-0088,cleaned,
 ncdimh-0101,label,Chapter 2: Endocrinology > Insulin Therapy in Type 2 Diabetes > Insulin requirements (to use STG pediatric guidelines table) => Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin Requirements
@@ -269,18 +403,14 @@ ncdimh-0180,label,Chapter 2: Endocrinology > Diabetes in Special Populations > D
 ncdimh-0186,cleaned,
 ncdimh-0196,label,Chapter 2: Endocrinology > Hyperthyroidism => Chapter 2: Endocrinology > Thyroid Disorders > Hypothyroidism
 ncdimh-0198,label,Chapter 2: Endocrinology > Hyperthyroidism > Diagnostic Criteria => Chapter 2: Endocrinology > Thyroid Disorders > Hypothyroidism > Diagnosis
-ncdimh-0199,cleaned,
 ncdimh-0202,label,Chapter 2: Endocrinology > Management of Hypothyroidism > In Pregnancy => Chapter 2: Endocrinology > Management of Hypothyroidism > Complications & Emergencies (Myxoedema Coma)
 ncdimh-0203,cleaned,
 ncdimh-0203,label,Chapter 2: Endocrinology > Congenital Hypothyroidism => Chapter 2: Endocrinology > Congenital Hypothyroidism > Description
-ncdimh-0206,cleaned,
 ncdimh-0206,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > General and Supportive Measures > Pharmacological Treatment => Chapter 2: Endocrinology > Congenital Hypothyroidism > Pharmacological Treatment
 ncdimh-0207,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > General and Supportive Measures > Referral => Chapter 2: Endocrinology > Congenital Hypothyroidism > Referral
-ncdimh-0208,cleaned,
 ncdimh-0208,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > Hypothyroidism In Older Children And Adolescents Description > Clinical => Chapter 2: Endocrinology > Hypothyroidism in Older Children and Adolescents > Clinical Features
 ncdimh-0210,label,Chapter 2: Endocrinology > Congenital Hypothyroidism > Hypothyroidism In Older Children And Adolescents Description > Referral => Chapter 2: Endocrinology > Hypothyroidism in Older Children and Adolescents > Referral
 ncdimh-0212,label,Chapter 2: Endocrinology > Hyperthyroidism > Clinical Manifestations > Diagnosis => Chapter 2: Endocrinology > Hyperthyroidism > Diagnosis
-ncdimh-0215,cleaned,
 ncdimh-0215,label,Chapter 2: Endocrinology > Non-Pharmacological Management of Hypothyroidism > Patient Education => Chapter 2: Endocrinology > Non-Pharmacological Management of Hyperthyroidism > Patient Education
 ncdimh-0217,cleaned,
 ncdimh-0217,label,Chapter 2: Endocrinology > Management of Hypothyroidism > Radioactive Iodine => Chapter 2: Endocrinology > Management of Hyperthyroidism > Radioactive Iodine
@@ -299,26 +429,88 @@ ncdimh-0236,label,"Chapter 2: Endocrinology > Management of Hyperthyroidism in S
 ncdimh-0237,label,"Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Treatment of Cushing's syndrome => Chapter 2: Endocrinology > Hyperthyroidism, Graves Disease > Treatment of Cushing’s syndrome"
 ncdimh-0238,label,"Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Treatment of Cushing's syndrome > Definitive Therapy => Chapter 2: Endocrinology > Hyperthyroidism, Graves Disease > Definitive Therapy"
 ncdimh-0239,label,Chapter 2: Endocrinology > Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Treatment of Cushing's syndrome > Medical Therapy => Chapter 2: Endocrinology > Cushing's Syndrome > Treatment: Medical Therapy
+ncdimh-0241,cleaned,
+ncdimh-0241,label,Chapter 3: Cardiology > Hypertension > Definition of Hypertension => Chapter 3: Cardiology > Hypertension > Definition of Hypertension > Other Definitions: Target Organ Damage
+ncdimh-0243,cleaned,
+ncdimh-0243,label,Chapter 3: Cardiology > Hypertension > Classification of Hypertension => Chapter 3: Cardiology > Hypertension > Classification of Hypertension > Stages; Screening and Diagnosis of Hypertension
+ncdimh-0244,cleaned,
+ncdimh-0246,label,Chapter 3: Cardiology > Diagnosis of Hypertension > Diagnostic Criteria => Chapter 3: Cardiology > Hypertension > Diagnosis of Hypertension > Diagnostic Criteria
 ncdimh-0252,emptied,
+ncdimh-0255,label,"Chapter 3: Cardiology > Non-Pharmacological Management of Hypertension => Chapter 3: Cardiology > Hypertension > Pharmacological Management of Hypertension > First, Second and Third Line"
+ncdimh-0266,label,Chapter 3: Cardiology > Other Antihypertensives > Secondary Hypertension => Chapter 3: Cardiology > Hypertension > Secondary Hypertension
+ncdimh-0269,emptied,
+ncdimh-0270,label,Chapter 3: Cardiology > Resistant Hypertension => Chapter 3: Cardiology > Hypertension > Resistant Hypertension
+ncdimh-0271,label,Chapter 3: Cardiology > Hypertensive Emergencies > Definition => Chapter 3: Cardiology > Hypertension > Hypertensive Emergencies > Definition
+ncdimh-0272,label,Chapter 3: Cardiology > Hypertensive Emergencies > Hypertensive Urgency Treatment Options => Chapter 3: Cardiology > Hypertension > Hypertensive Emergencies > Hypertensive Urgency Treatment Options
+ncdimh-0276,label,Chapter 3: Cardiology > Hypertensive Emergencies > Management Principles => Chapter 3: Cardiology > Hypertension > Hypertensive Emergencies > Management Principles
+ncdimh-0280,label,Chapter 3: Cardiology > Hypertensive Emergencies > In-Hospital Management of Hypertension => Chapter 3: Cardiology > Hypertension > In-Hospital Management of Hypertension
+ncdimh-0281,label,Chapter 3: Cardiology > Hypertensive Emergencies > Causes of acute elevation of blood pressure in hospitalized patients => Chapter 3: Cardiology > Hypertension > In-Hospital Management of Hypertension > Causes of acute elevation of blood pressure in hospitalized patients
+ncdimh-0283,label,Chapter 3: Cardiology > Hypertensive Emergencies > Lipid-Lowering drugs => Chapter 3: Cardiology > Hypertension > Adjunct Therapies in the Management of Hypertension > Lipid-Lowering Drugs
+ncdimh-0289,label,Chapter 3: Cardiology > Hypertensive Emergencies > BMI => Chapter 3: Cardiology > Hypertension > Cardiovascular Risk Assessment > BMI and when to reassess CVD risk
+ncdimh-0293,cleaned,
+ncdimh-0293,label,Chapter 3: Cardiology > Hypertensive Emergencies > BMI => Chapter 3: Cardiology > Hypertension > Cardiovascular Risk Assessment > Using CV risk; Antiplatelet Therapy (aspirin)
+ncdimh-0294,label,Chapter 3: Cardiology > Hypertension => Chapter 3: Cardiology > Hypertension > Hypertension and Other Comorbidities
 ncdimh-0295,emptied,
+ncdimh-0297,label,Chapter 3: Cardiology > Hypertension > Classification of Hypertension in Pregnancy => Chapter 3: Cardiology > Hypertension > (a) Hypertension in Pregnancy > Classification of Hypertension in Pregnancy
+ncdimh-0298,label,Chapter 3: Cardiology > Hypertension > Mild Hypertension => Chapter 3: Cardiology > Hypertension > (a) Hypertension in Pregnancy > Treatment of Hypertension in Pregnancy > Mild Hypertension
+ncdimh-0299,label,Chapter 3: Cardiology > Hypertension > Severe Hypertension => Chapter 3: Cardiology > Hypertension > (a) Hypertension in Pregnancy > Treatment of Hypertension in Pregnancy > Severe Hypertension; Post-partum and Breastfeeding
+ncdimh-0303,label,Chapter 3: Cardiology > Recommendations for Treatment of Hypertension in Elderly => Chapter 3: Cardiology > Hypertension > (b) Hypertension in Elderly > Recommendations for Treatment of Hypertension in Elderly
+ncdimh-0304,label,Chapter 3: Cardiology > Recommendations for Treatment of Hypertension in Elderly > Signs and Symptoms => Chapter 3: Cardiology > Hypertension > (c) Hypertension in Paediatric Population > Signs and Symptoms; Diagnosis
+ncdimh-0305,label,Chapter 3: Cardiology > Recommendations for Treatment of Hypertension in Elderly > Diagnosis Clinical => Chapter 3: Cardiology > Hypertension > (c) Hypertension in Paediatric Population > Definition; Hypertensive Emergency and Urgency in Children
+ncdimh-0306,label,Chapter 3: Cardiology > How to measure BP in Paediatric Client => Chapter 3: Cardiology > Hypertension > (c) Hypertension in Paediatric Population > How to measure BP in Paediatric Client; Categories of Hypertension
+ncdimh-0309,label,Chapter 3: Cardiology > How to measure BP in Paediatric Client > Categories of Hypertension > Management of Special Populations => Chapter 3: Cardiology > Hypertension > (c) Hypertension in Paediatric Population > Management
+ncdimh-0310,label,Chapter 3: Cardiology > Recommendations for Treatment of Hypertension in Elderly => Chapter 3: Cardiology > Hypertension > (c) Hypertension in Paediatric Population > Recommendations
+ncdimh-0316,label,Chapter 3: Cardiology > Heart Failure => Chapter 3: Cardiology > Heart Failure > Definition
+ncdimh-0317,cleaned,
+ncdimh-0317,label,Chapter 3: Cardiology > Heart Failure > NYHA classification of Heart Failure in adults => Chapter 3: Cardiology > Heart Failure > Classification of Heart Failure > NYHA Classification in Adults; by Ejection Fraction
 ncdimh-0319,cleaned,
+ncdimh-0319,label,Chapter 3: Cardiology > Heart Failure > The Modified Ross Classification of Heart Failure in Children => Chapter 3: Cardiology > Heart Failure > Classification of Heart Failure > By Ejection Fraction
 ncdimh-0321,emptied,
 ncdimh-0323,emptied,
+ncdimh-0335,label,Chapter 3: Cardiology > Drugs Used in Management of Heart Failure > Digoxin in Atrial Fibrillation => Chapter 3: Cardiology > Heart Failure > Drugs Used in Management of Heart Failure > Digoxin in Atrial Fibrillation
+ncdimh-0336,label,Chapter 3: Cardiology > Drugs Used in Management of Heart Failure > Digoxin in Atrial Fibrillation > Maintenance => Chapter 3: Cardiology > Heart Failure > Drugs Used in Management of Heart Failure > Digoxin in Atrial Fibrillation (maintenance); Digoxin in Heart Failure
+ncdimh-0339,label,Chapter 3: Cardiology > Ischemic Heart Disease > Clinical History of Angina => Chapter 3: Cardiology > Ischemic Heart Disease > Diagnosis > Clinical History of Angina
+ncdimh-0340,label,Chapter 3: Cardiology > Ischemic Heart Disease > Clinical History of Angina > Investigations => Chapter 3: Cardiology > Ischemic Heart Disease > Diagnosis > Investigations
 ncdimh-0343,emptied,
-ncdimh-0373,cleaned,
+ncdimh-0345,label,Chapter 3: Cardiology > Ischemic Heart Disease > Recommendations on event prevention => Chapter 3: Cardiology > Ischemic Heart Disease > Recommendations on Event Prevention
+ncdimh-0356,label,Chapter 3: Cardiology > Acute Coronary Syndromes > Interpret ECG → Classify Acs Type => Chapter 3: Cardiology > Acute Coronary Syndromes > Please Note (ACS key points)
+ncdimh-0382,label,"Chapter 3: Cardiology > Emergency Management of Stroke > TIA and Ischemic stroke Rehabilitation and follow-up => Chapter 3: Cardiology > Stroke Management > Adjunct Management of Stroke > Rehabilitation, Follow-up and Complications"
+ncdimh-0383,label,Chapter 3: Cardiology > Emergency Management of Stroke > a. Lifestyle Modification => Chapter 3: Cardiology > Stroke Management > Adjunct Management of Stroke > Lifestyle Modification and Management of Comorbidities
+ncdimh-0384,label,Chapter 3: Cardiology > Emergency Management of Stroke > b. Management of Comorbidities > Management of Special Populations => Chapter 3: Cardiology > Stroke Management > Management in Special Populations
 ncdimh-0388,cleaned,
+ncdimh-0391,label,Chapter 3: Cardiology > Rheumatic Heart Disease => Chapter 3: Cardiology > Rheumatic Heart Disease > Definition and Valve Involvement
 ncdimh-0395,cleaned,
+ncdimh-0395,label,Chapter 3: Cardiology > Rheumatic Heart Disease > Diagnostic findings according to diagnostic modality => Chapter 3: Cardiology > Rheumatic Heart Disease > Diagnostic Findings > Echocardiogram; Definition
+ncdimh-0397,label,"Chapter 3: Cardiology > Rheumatic Heart Disease > Diagnostic findings according to diagnostic modality > Algorithm with the Initial Evaluation and Management of RHD in Children => Chapter 3: Cardiology > Rheumatic Heart Disease > Management of RHD > Heart Failure, Anticoagulation and Referral"
+ncdimh-0398,label,Chapter 3: Cardiology > Rheumatic Heart Disease > Diagnostic findings according to diagnostic modality > Algorithm with the Initial Evaluation and Management of RHD in Children => Chapter 3: Cardiology > Rheumatic Heart Disease > Management of RHD > Referral Back and Continuation of Care
 ncdimh-0399,emptied,
 ncdimh-0403,emptied,
-ncdimh-0405,cleaned,
 ncdimh-0407,cleaned,
+ncdimh-0407,label,Chapter 3: Cardiology > Congenital Heart Disease > Approach to suspected congenital heart disease => Chapter 3: Cardiology > Congenital Heart Disease > Approach to Suspected Congenital Heart Disease > History and Examination
+ncdimh-0410,label,Chapter 4: Dermatology > Atopic Dermatitis AD (Eczema) > Classification of AD => Chapter 4: Dermatology > Atopic Dermatitis (Eczema) > Definition and Classification of AD
+ncdimh-0413,label,Chapter 4: Dermatology > Classification and Characteristics of AD > Symptoms in the different Age Groups > Risk Factors => Chapter 4: Dermatology > Atopic Dermatitis (Eczema) > Risk Factors; Diagnosis of AD
+ncdimh-0418,label,Chapter 4: Dermatology > Classification and Characteristics of AD > Symptoms in the different Age Groups > Non-Pharmacological Management of AD => Chapter 4: Dermatology > Atopic Dermatitis (Eczema) > Non-Pharmacological Management of AD
+ncdimh-0419,label,Chapter 4: Dermatology > Classification and Characteristics of AD > Symptoms in the different Age Groups > Pharmacological Management => Chapter 4: Dermatology > Atopic Dermatitis (Eczema) > Pharmacological Management of AD
 ncdimh-0420,emptied,
-ncdimh-0436,cleaned,
-ncdimh-0450,cleaned,
-ncdimh-0459,cleaned,
-ncdimh-0462,cleaned,
-ncdimh-0467,cleaned,
-ncdimh-0472,cleaned,
+ncdimh-0422,label,"Chapter 4: Dermatology > Classification and Characteristics of AD > Symptoms in the different Age Groups > Summary of Patient Management => Chapter 4: Dermatology > Atopic Dermatitis (Eczema) > Pharmacological Management of AD (antimicrobials, antihistamines); AD in Special Populations"
+ncdimh-0427,label,Chapter 4: Dermatology > Psoriasis > Clinical Manifestations of Psoriasis > Patient Assessment => Chapter 4: Dermatology > Psoriasis > Patient Assessment and Referral
+ncdimh-0438,label,Chapter 4: Dermatology > Systemic Agents in the Treatment of Psoriasis > Psoriasis in pregnancy => Chapter 4: Dermatology > Psoriasis > Management in Special Populations
+ncdimh-0440,label,Chapter 5: Gastroenterology and Hepatology > Chronic Liver Disease => Chapter 5: Gastroenterology and Hepatology > Chronic Liver Disease > Definition and Common Causes
+ncdimh-0441,label,Chapter 5: Gastroenterology and Hepatology > Chronic Liver Disease > CLD Symptoms > Signs => Chapter 5: Gastroenterology and Hepatology > Chronic Liver Disease > Clinical Presentation > Signs; Cirrhosis; Hepatic Encephalopathy
+ncdimh-0448,label,Chapter 5: Gastroenterology and Hepatology > Diagnosis and Management of Chronic Liver Disease > General Management Principles => Chapter 5: Gastroenterology and Hepatology > Chronic Liver Disease > Diagnosis and Management of Chronic Liver Disease > General Management Principles
+ncdimh-0454,label,Chapter 5: Gastroenterology and Hepatology > Diagnosis and Management of Chronic Liver Disease > Referral to higher-level care if => Chapter 5: Gastroenterology and Hepatology > Chronic Liver Disease > Referral and Follow-up
+ncdimh-0455,label,Chapter 5: Gastroenterology and Hepatology > Gastroesophageal Reflux Disease (GERD) => Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Gastroesophageal Reflux Disease (GERD)
+ncdimh-0458,label,Chapter 5: Gastroenterology and Hepatology > Gastroesophageal Reflux Disease (GERD) > Investigations => Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Gastroesophageal Reflux Disease (GERD) > Referral
+ncdimh-0459,label,Chapter 5: Gastroenterology and Hepatology > Gastroduodenal Ulcers (PUD) > Clinical Presentation => Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Gastroduodenal Ulcers (PUD)
+ncdimh-0460,label,Chapter 5: Gastroenterology and Hepatology > Gastroduodenal Ulcers (PUD) > Helicobacter Pylori Related Peptic Ulcer Disease => Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Helicobacter Pylori Related Peptic Ulcer Disease
+ncdimh-0461,label,Chapter 5: Gastroenterology and Hepatology > Gastroduodenal Ulcers (PUD) > Helicobacter Pylori Related Peptic Ulcer Disease > Clinical Presentation => Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Helicobacter Pylori Related Peptic Ulcer Disease > Clinical Presentation and Investigations
+ncdimh-0464,label,Chapter 5: Gastroenterology and Hepatology > Gastroduodenal Ulcers (PUD) > Gastritis > Clinical Presentation => Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Gastritis > Clinical Presentation and Treatment
+ncdimh-0467,label,Chapter 5: Gastroenterology and Hepatology > Gastroduodenal Ulcers (PUD) > Gastritis > Pharmacological Treatment => Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Gastritis > Pharmacological Treatment and Referral
+ncdimh-0469,label,Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding => Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Definition and Classification; Upper GI Bleeding
+ncdimh-0471,label,Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Differential diagnosis of UGIB > Initial Management => Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Upper GI Bleeding > Initial Management
+ncdimh-0472,label,Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Differential diagnosis of UGIB > Laboratory Investigations => Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Upper GI Bleeding > Laboratory Investigations and Pharmacological Treatment
+ncdimh-0473,cleaned,
+ncdimh-0473,label,Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Differential Diagnosis of LGIB => Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Lower GI Bleeding
 ncdimh-0493,emptied,
 ncdimh-0503,emptied,
 ncdimh-0517,emptied,
@@ -330,7 +522,6 @@ ncdimh-0610,emptied,
 ncdimh-0613,cleaned,
 ncdimh-0641,cleaned,
 ncdimh-0659,cleaned,
-ncdimh-0673,cleaned,
 ncdimh-0712,cleaned,
 ncdimh-0719,emptied,
 ncdimh-0746,cleaned,
@@ -342,16 +533,15 @@ ncdimh-0830,cleaned,
 ncdimh-0837,emptied,
 ncdimh-0849,emptied,
 ncdimh-0851,cleaned,
-ncdimh-0858,cleaned,
 ncdimh-0859,cleaned,
 ncdimh-0875,cleaned,
-ncdimh-0921,cleaned,
 ncdimh-0969,cleaned,
 ncdimh-0971,emptied,
 ncdimh-0983,cleaned,
 ncdimh-0997,cleaned,
 ncdimh-1010,emptied,
 ncdimh-0219,trailing heading dropped (next is a table/flowchart),#### **Diagnosis**
+ncdimh-0395,trailing heading dropped (next is a table/flowchart),## **Algorithm with the Initial Evaluation and Management of RHD in Children**
 ncdimh-0042,merged into,ncdimh-0041
 ncdimh-0236,merged into,ncdimh-0235
 ncdimh-0237,merged into,ncdimh-0235
@@ -392,3 +582,6 @@ ncdimh-0986,merged into,ncdimh-0985
 ncdimh-0995,merged into,ncdimh-0994
 ncdimh-1018,merged into,ncdimh-1017
 ncdimh-1033,merged into,ncdimh-1017
+ncdimh-0319,merged into,ncdimh-0317
+ncdimh-0388,merged into,ncdimh-0387
+ncdimh-0395,merged into,ncdimh-0391

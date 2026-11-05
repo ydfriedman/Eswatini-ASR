@@ -1,0 +1,35 @@
+exec(open('batches/ncd_common.py').read())
+GI = CH5 + " > Peptic Ulcer Disease"
+D_ = C("—")
+def rx(drug, f, d): return [C(drug), C(f), C(d), D_]
+ITEMS = [
+ T("tbl-gerd-treatment", 166, GI + " > Gastroesophageal Reflux Disease (GERD) > Treatment",
+   "GERD treatment: PPI drug, dose and duration for non-erosive and erosive oesophagitis; lifestyle; referral red flags", ["0457"],
+   [[C("Condition"), C("Drug & Dose"), C("Duration"), C("Notes")]],
+   [[C("Non-erosive, symptomatic", rs=2), C("Omeprazole 20 mg PO once daily (A)"), C("8 weeks"), D_],
+    [C("Esomeprazole 20–40 mg PO once daily (S)"), C("8 weeks"), D_],
+    [C("Erosive esophagitis"), C("Pantoprazole 40 mg PO once daily (C)"), C("8-10 weeks"), C("For refractory cases, continue up to 6 months")],
+    [C("Lifestyle modifications"), D_, C("Continuous"), C("Avoid smoking, alcohol, NSAIDs, and other known triggers")]],
+   table_note="Referral: refer to the next-level centre with adequate expertise and facilities for refractory cases or cases with alarm symptoms (red flags): bleeding, anaemia, early satiety, progressive dysphagia or odynophagia, unexplained weight loss, recurrent vomiting, family history of gastrointestinal (GI) cancers, age ≥ 40 years.",
+   pages=[166, 167],
+   source_flags=["(A), (S), (C) after drug names are not explained here; they appear to be the medicine level codes used in the PUD section."]),
+ T("tbl-h-pylori-eradication", 168, GI + " > Helicobacter Pylori Related Peptic Ulcer Disease > Pharmacological Treatment",
+   "H. pylori eradication regimens: triple, alternative triple, concomitant and bismuth-based therapy: drug, dose, frequency and duration", ["0462", "0463"],
+   [[C("Therapy Type & Indication"), C("Drug & Dose"), C("Frequency"), C("Duration"), C("Notes")]],
+   [[C("Triple Therapy (complete eradication)", rs=3)] + rx("Omeprazole 20 mg PO", "12 hourly", "10–14 days"),
+    rx("Amoxicillin 1000 mg PO", "12 hourly", "10–14 days"),
+    rx("Metronidazole 400 mg PO", "12 hourly", "10–14 days"),
+    [C("Alternative Triple Therapy", rs=3)] + rx("Lansoprazole 30 mg PO", "12 hourly", "10–14 days"),
+    rx("Clarithromycin 500 mg PO", "12 hourly", "10–14 days"),
+    rx("Tinidazole 500 mg PO", "12 hourly", "14 days"),
+    [C("Concomitant Therapy", rs=4)] + rx("Omeprazole 20 mg PO", "12 hourly", "7 days"),
+    rx("Amoxicillin 1000 mg PO", "12 hourly", "7 days"),
+    rx("Metronidazole 400 mg PO", "12 hourly", "7 days"),
+    rx("Clarithromycin 500 mg PO", "12 hourly", "7 days"),
+    [C("Bismuth-Based Therapy (treatment failure)", rs=4)] + rx("Pantoprazole 40 mg PO OR Esomeprazole 40 mg PO", "12 hourly", "10–14 days"),
+    rx("Bismuth subsalicylate 525 mg PO", "6 hourly", "10–14 days"),
+    rx("Metronidazole 250 mg PO (6 hourly) OR 500 mg PO (8 hourly)", "—", "10–14 days"),
+    rx("Tetracycline 500 mg PO", "6 hourly", "10–14 days")],
+   context_before="Triple therapy is indicated for complete eradication of the organism. Diagnosis: positive stool antigen test (stop PPI 2 weeks before testing), positive urease breath test, positive urease test on endoscopic biopsy, or identification by histopathology.",
+   footnotes=["Note: H. pylori diagnostic tests should be repeated 5 weeks after the last dose of eradication therapy, and the PPI should be stopped 2 weeks before the H. pylori stool antigen test to confirm eradication."]),
+]

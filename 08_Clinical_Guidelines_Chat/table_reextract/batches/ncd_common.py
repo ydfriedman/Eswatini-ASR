@@ -16,3 +16,6 @@ def B(tid, page, hp, cap, repl, content, flags=(), **kw):
     d = {"kind": "box", "table_id": "ncdimh-" + tid, "page": page, "image_only": False, "heading_path": hp, "caption": cap,
          "replaces_chunks": ["ncdimh-" + r for r in repl], "content": content, "footnotes": [], "source_flags": list(flags)}
     d.update(kw); return d
+CH3 = "Chapter 3: Cardiology"
+CH4 = "Chapter 4: Dermatology"
+CH5 = "Chapter 5: Gastroenterology and Hepatology"

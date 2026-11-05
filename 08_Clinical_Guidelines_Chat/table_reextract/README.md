@@ -7,7 +7,7 @@ Chunk validation showed that most tables had lost their structure in the LlamaPa
 | Guideline | Status | Items | Review page |
 |---|---|---|---|
 | HIV Amendment 2024 | Complete | 36 (18 tables, 2 boxes, 16 flowcharts), replacing 64 old chunks | `hiv-amendment-2024_review.html` |
-| NCDIMH | Part 1 of 5 done (pp.1-89: Ch.1 prevention and screening, Ch.2 endocrinology) | 74 (59 tables, 1 box, 14 flowcharts), replacing 144 old chunks | `ncdimh_part1_review.html` |
+| NCDIMH | Parts 1-2 of 5 done (pp.1-171: Ch.1 prevention and screening, Ch.2 endocrinology, Ch.3 cardiology, Ch.4 dermatology, Ch.5 gastroenterology to GI bleeding) | Part 1: 74 (59 tables, 1 box, 14 flowcharts), replacing 144 old chunks. Part 2: 82 (63 tables, 2 boxes, 17 flowcharts), replacing 135 old chunks | `ncdimh_part1_review.html`, `ncdimh_part2_review.html` |
 
 NCDIMH items are written as small Python batches (`batches/ncd_b*.py`, with shared helpers in `batches/ncd_common.py`), then added to `ncdimh_tables.json` with `add_items.py`.
 

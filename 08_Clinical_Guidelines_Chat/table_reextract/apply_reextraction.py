@@ -98,7 +98,15 @@ def main(src, out, pairs):
         # text already inside new records; an item's context_before is NOT counted, because it is not in the
         # item's embedding text, so the neighbouring text chunk must keep it to stay searchable
         ctx = {t['table_id']: t.get('context_before', '') for t in spec['tables']}
-        doc_text = key(' '.join(r['text'].replace(ctx.get(r['table_id'], '') or '\x00', ' ') for r in recs))
+        # a line counts as duplicated only if it is inside an item printed within 2 pages of the text chunk
+        # (matching against the whole document stripped list items that merely recur far away)
+        item_pages = {t['table_id']: set(t.get('pages') or [t['page']]) for t in spec['tables']}
+        rec_keys = {}
+        for r in recs:
+            rec_keys.setdefault(r['table_id'], key(r['text'].replace(ctx.get(r['table_id'], '') or '\x00', ' ')))
+        def near_text(c):
+            lo, hi = c['page_start'] - 2, c.get('page_end', c['page_start']) + 2
+            return ' '.join(v for tid, v in rec_keys.items() if any(lo <= p <= hi for p in item_pages.get(tid, ())))
         chapters = sorted(spec.get('chapters', []), key=lambda x: x['page'])
         # 2-3. clean text chunks and fix labels
         prev_section = {}
@@ -114,6 +122,7 @@ def main(src, out, pairs):
                 continue
             orig_text = c['text']
             lines, kept = strip_divider(c['text']).split('\n'), []
+            doc_text = near_text(c)
             for ln in lines:
                 k = key(ln)
                 if DROP_LINE.match(ln) or (len(k) >= 25 and k in doc_text):
@@ -221,6 +230,22 @@ def main(src, out, pairs):
         if carry is not None:
             out2.append(carry)
         chunks = out2
+        # 4c. hand-chosen merges for fragments that sit between tables/flowcharts: spec 'text_merge' {src: dst}
+        # (src text is appended to dst; dst keeps its label and position)
+        tm = spec.get('text_merge', {})
+        if tm:
+            by_id = {c['chunk_id']: c for c in chunks}
+            for s_id, d_id in tm.items():
+                s_c, d_c = by_id.get(s_id), by_id.get(d_id)
+                if not s_c or not d_c:
+                    continue
+                d_c['text'] = d_c['text'].rstrip() + '\n\n' + s_c['text']
+                d_c['page_end'] = max(d_c['page_end'], s_c['page_end'])
+                d_c['absorbed_chunk_ids'] = d_c.get('absorbed_chunk_ids', []) + [s_id] + s_c.get('absorbed_chunk_ids', [])
+                d_c['_changed'] = True
+                removed.append(dict(s_c, drop_reason=f'merged into {d_id}'))
+                log.append((s_id, 'merged into', d_id))
+            chunks = [c for c in chunks if c['chunk_id'] not in tm or c['chunk_id'] not in by_id or by_id.get(tm[c['chunk_id']]) is None]
 
     # 5. ids, neighbours, sizes, embed text
     groups = []          # consecutive records of one table_id form a group
