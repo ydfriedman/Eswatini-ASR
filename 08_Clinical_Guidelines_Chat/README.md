@@ -58,4 +58,4 @@ New columns:
 
 - `safety_critical` (yes/no): a wrong answer could directly harm a patient (wrong drug or dose, missed contraindication, missed or delayed emergency care, fabricated treatment). 98 of 152 are flagged (72 of the 108 standard/out-of-scope questions, 26 of the 44 edge cases). This was a broad first pass; clinicians should confirm it.
 - `source_chunks`: the `chunks_v2` chunk ids each new reference answer was written from. Every number in these answers was checked by script against those chunks, apart from values the question asks the model to calculate (e.g. 8,400 mL).
-- `reviewer_note`: the points a clinician must check. Q017 (magnesium sulphate dose as printed), Q131 (the N-acetylcysteine schedule has no stated route) and Q057 (its source chunk is mislabelled in chunks_v2).
+- `reviewer_note`: the points a clinician must check. Q017 (magnesium sulphate dose as printed) and Q131 (the N-acetylcysteine schedule has no stated route).

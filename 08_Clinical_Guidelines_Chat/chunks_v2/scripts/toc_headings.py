@@ -10,7 +10,7 @@ import difflib
 import re
 
 from fix_headings import CAPTION, clean_part, tidy_case
-from sti_headings import _norm, path_for
+from sti_headings import _norm
 
 TOC_START = re.compile(r'^#+\s*\**\s*table of contents?\b', re.I)
 TOC_END = re.compile(r'^#+\s*\**\s*(preface|foreword|list of|acronyms?|abbreviations?|acknowledge?ments?)\b', re.I)
@@ -122,6 +122,59 @@ def _chap(p):
     return int(m.group(1)) if m else None
 
 
+def _locate_text(text):
+    """Chunk text used for locating: no heading lines, no table header rows (they repeat across tables)."""
+    lines, out = text.split('\n'), []
+    for i, line in enumerate(lines):
+        st = line.strip()
+        if re.match(r'^#{1,6}\s', st):
+            continue
+        if re.match(r'^\|[\s:|-]+\|$', st):                       # separator row
+            continue
+        if st.startswith('|') and i + 1 < len(lines) and re.match(r'^\|[\s:|-]+\|$', lines[i + 1].strip()):
+            continue                                                  # header row
+        out.append(line)
+    return _norm('\n'.join(out))
+
+
+def _occurrences(full, snippet):
+    out, i = [], full.find(snippet)
+    while i >= 0:
+        out.append(i)
+        i = full.find(snippet, i + 1)
+    return out
+
+
+def _stack_at(pos, marks):
+    stack = None
+    for off, st in marks:
+        if off > pos:
+            break
+        stack = st
+    if stack and not any(re.search(r'list of|contents|toc-heading', t, re.I) for t in stack):
+        return [tidy_case(re.sub(r'\{[^}]*\}', '', t).strip()) for t in stack]
+    return None
+
+
+def _locate(text, full, after):
+    """Position of a chunk in the document. Prefer a snippet that occurs exactly once; otherwise the first
+    occurrence at or after the previous chunk's position; otherwise the first occurrence."""
+    n = _locate_text(text)
+    if len(n) < 30:
+        return None
+    snippets = [n[k:k + 60] for k in sorted({0, len(n) // 4, len(n) // 2, (3 * len(n)) // 4}) if len(n[k:k + 60]) >= 30]
+    occ = [o for o in (_occurrences(full, sn) for sn in snippets) if o]
+    if not occ:
+        return None
+    unique = [o[0] for o in occ if len(o) == 1]
+    if unique:
+        later = [u for u in unique if after is None or u >= after]
+        return min(later) if later else min(unique)
+    every = sorted(set(x for o in occ for x in o))
+    later = [x for x in every if after is None or x >= after]
+    return later[0] if later else every[0]
+
+
 def toc_paths(chunks, md_text):
     """Path per chunk (list of parts) or None; unmatched chunks inherit the previous match.
 
@@ -130,7 +183,18 @@ def toc_paths(chunks, md_text):
     numbers and treat matches outside it as unmatched.
     """
     full, marks = heading_index(md_text)
-    raw = [path_for(c['text'], full, marks, min_len=30) for c in chunks]
+    raw, pos = [], None
+    for c in chunks:
+        p = None
+        if c.get('type') == 'diagram' and c.get('caption'):
+            # diagram text is derived from the flowchart and is not in the source: use its caption heading
+            cap = clean_part(c['caption'])
+            p = next((off for off, st in marks if (pos is None or off >= pos) and _similar(st[-1], cap)), None)
+        if p is None:
+            p = _locate(c['text'], full, pos)
+        if p is not None:
+            pos = p
+        raw.append(_stack_at(p, marks) if p is not None else None)
     idx = [i for i, p in enumerate(raw) if _chap(p) is not None]
     seq = [_chap(raw[i]) for i in idx]
     # longest non-decreasing subsequence (O(n^2) is fine for ~1000 chunks)

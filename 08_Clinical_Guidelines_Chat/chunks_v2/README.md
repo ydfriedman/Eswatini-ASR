@@ -1,6 +1,6 @@
 # Chunks v2: cleaned chunk set
 
-This is a cleaned version of the `chunks.jsonl` used in the k=8 run. It contains 4,061 input chunks: **3,805 are kept, 256 are dropped**, and 17 acronym lists move to a glossary. It has the same fields as v1, plus a few new ones. `embed_text` is rebuilt, so **re-embed everything**.
+This is a cleaned version of the `chunks.jsonl` used in the k=8 run. It contains 4,061 input chunks: **3,810 are kept, 251 are dropped**, and 17 acronym lists move to a glossary. It has the same fields as v1, plus a few new ones. `embed_text` is rebuilt, so **re-embed everything**.
 
 There is one thing v2 cannot fix: **the STI guideline must be added to the index.** Its 330 kept chunks are in this file. After indexing, check the vector count for `doc_id = sti-vh-draft-2026`.
 
@@ -14,7 +14,7 @@ There is one thing v2 cannot fix: **the STI guideline must be added to the index
 | **Acronym lists** | 17 chunks moved to `glossary.jsonl`. They are not embedded, but are useful for query expansion ("CAB-LA" ↔ "cabotegravir"). |
 | **Contents and cover pages** | 8 leftover contents / list-of-figures pages (incl. the NCDIMH plain-text TOC) and 6 cover pages dropped. |
 | **Near-empty chunks** | 39 dropped: running footers ("MENTAL HEALTH DESKGUIDE 17"), "x", "flow_chart", page numbers. |
-| **Duplicates** | 13 dropped. A chunk counts as a duplicate only if its text **and** its section label are both identical. The same table repeated in two different sections is kept. |
+| **Duplicates** | 8 dropped. A chunk counts as a duplicate only if its text **and** its section label are both identical. The same table repeated in two different sections is kept. |
 | **Orphan captions** | 40 "Table 10. …" / heading-only chunks merged into the table or text that follows. |
 | **Orphan fragments** | 24 tiny trailing pieces ("Source: …", "Note: …", one-line spill-overs) merged into the chunk before them. |
 | **Footnote glue** | "DTG2" becomes "DTG [note 2]". |
@@ -39,7 +39,7 @@ The lasting fix belongs in your PDF→markdown converter. If it can read `colspa
   - Before: `CHAPTER 5: BASIC CARE PACKAGE… > CHAPTER 7: ADULT ANTIRETROVIRAL THERAPY > 7.1 ROUTINE VL MONITORING`
   - After: `Chapter 7: Adult Antiretroviral Therapy > 7.1 Routine VL Monitoring`
 - **STI draft.** Labels come from the real Heading 1–4 styles in the Word file (`sources/sti-vh-draft-2026_docx_headings.md`, made with pandoc). Previously 223 of 361 chunks had only the document title.
-- **NCDIMH and the MH Deskguide (no section numbers).** The parser's `#` levels in these are unreliable (callouts and tables show up as H1/H2), so labels are anchored on each document's **printed table of contents** (`scripts/toc_headings.py`, using the source markdown in `sources/`). Structure: `Chapter > TOC entry > nearest short heading`, plus a table/figure caption as leaf. Chapters can only move forward through the document, so text repeated in another chapter cannot drag a chunk there.
+- **NCDIMH and the MH Deskguide (no section numbers).** The parser's `#` levels in these are unreliable (callouts and tables show up as H1/H2), so labels are anchored on each document's **printed table of contents** (`scripts/toc_headings.py`, using the source markdown in `sources/`). Structure: `Chapter > TOC entry > nearest short heading`, plus a table/figure caption as leaf. Chapters can only move forward through the document, so text repeated in another chapter cannot drag a chunk there. To place each chunk, repeated table header rows are ignored, text found only once in the document is preferred, and otherwise the first match after the previous chunk is used. Flowcharts are placed by their caption, and the caption is added as the last label level.
   - Before: `Insulin Therapy in Type 2 Diabetes > Capillary Blood Glucose (CBG)…`
   - After: `Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Capillary Blood Glucose (CBG)…`
   - The TOC is sparse in places (e.g. one entry for all of Dermatology), so the middle level is sometimes too coarse or stale; the chapter is reliable.
@@ -73,8 +73,8 @@ Expand the top 3–5 hits, then de-duplicate by `chunk_id` and keep document ord
 
 | File | Contents |
 |---|---|
-| `chunks.jsonl` / `chunks.csv` | The 3,805 kept chunks. **Embed `embed_text`** (for diagrams, optionally `narrative_embed_text`). Give the model `text`. |
-| `dropped_chunks.jsonl` | The 256 removed or merged chunks, each with `drop_reason`. |
+| `chunks.jsonl` / `chunks.csv` | The 3,810 kept chunks. **Embed `embed_text`** (for diagrams, optionally `narrative_embed_text`). Give the model `text`. |
+| `dropped_chunks.jsonl` | The 251 removed or merged chunks, each with `drop_reason`. |
 | `glossary.jsonl` | The 17 acronym lists. |
 | `logs/heading_changes.csv` | Every label change. |
 | `logs/table_fixes_applied.csv` | Every cell filled. |
@@ -97,7 +97,7 @@ The build is deterministic (no LLM) and takes a few seconds.
 
 ## Caveats
 
-- 4 `embed_text`s are slightly over 512 estimated tokens (the longer labels add a few tokens): `ncdimh-0577` (diagram, 527), `tb-2025-0251` (516), `ncdimh-0232` (514) and `sti-vh-draft-2026-0269` (514). Check them with your embedder's tokenizer.
+- 4 `embed_text`s are slightly over 512 estimated tokens (the longer labels add a few tokens): `ncdimh-0577` (diagram, 547; its `narrative_embed_text` is the shorter alternative), `tb-2025-0251` (516), `ncdimh-0232` (514) and `sti-vh-draft-2026-0269` (514). Check them with your embedder's tokenizer.
 - In NCDIMH and the MH Deskguide the middle label level is sometimes coarse (see *Labels*). A few HIV 2022 labels inherit a stale heading from the parser (e.g. "Special considerations for TPT" carried into 9.10 and 9.11).
 - Short bold headings that end a chunk are occasionally merged forward instead of back.
 - Dropping and merging used rules. Skim `logs/dropped_summary.csv` before you rely on it.

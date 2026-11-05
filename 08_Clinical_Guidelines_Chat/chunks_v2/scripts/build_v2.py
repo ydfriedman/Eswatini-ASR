@@ -168,7 +168,8 @@ def main(src, sti_md, out, toc_md=None):
         if doc in toc_md:                  # unnumbered documents: labels anchored on the printed TOC
             with open(toc_md[doc]) as fh:
                 tp = toc_paths(cs, fh.read())
-            leaf = [first_caption(c['text']) for c in cs]
+            leaf = [tidy_case(clean_part(c['caption'])) if c['type'] == 'diagram' and c.get('caption')
+                    else first_caption(c['text']) for c in cs]
             paths = [' > '.join(d + ([l] if l and l.lower() not in ' '.join(d).lower() else [])) if d else p
                      for d, l, p in zip(tp, leaf, paths)]
         for c, p in zip(cs, paths):
