@@ -3575,6 +3575,1435 @@
    "source_flags": [
     "Glucose targets are printed as three label/value pairs across one row; combined into one cell."
    ]
+  },
+  {
+   "table_id": "ncdimh-tbl-antidiabetic-arv-interactions",
+   "page": 62,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetes in Special Populations > Diabetes in HIV > Drug interactions between antidiabetic agents and ARVs",
+   "caption": "Drug interactions between antidiabetic agents and antiretrovirals (ARVs) (source: University of Liverpool hiv-druginteractions.org)",
+   "replaces_chunks": [
+    "ncdimh-0175",
+    "ncdimh-0176",
+    "ncdimh-0177"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Antidiabetic agent"
+     },
+     {
+      "t": "TDF/TAF"
+     },
+     {
+      "t": "AZT"
+     },
+     {
+      "t": "3TC"
+     },
+     {
+      "t": "FTC"
+     },
+     {
+      "t": "EFV"
+     },
+     {
+      "t": "NVP"
+     },
+     {
+      "t": "DTG"
+     },
+     {
+      "t": "LPV/r"
+     },
+     {
+      "t": "ATV/r"
+     },
+     {
+      "t": "DRV/r"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Metformin"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↑ CAUTION: metformin levels increased (limit metformin to 1,000 mg/day; monitor renal function)"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     }
+    ],
+    [
+     {
+      "t": "Glibenclamide"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     }
+    ],
+    [
+     {
+      "t": "Glipizide"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     }
+    ],
+    [
+     {
+      "t": "Gliquidone"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     }
+    ],
+    [
+     {
+      "t": "Gliclazide"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     }
+    ],
+    [
+     {
+      "t": "Glimepiride"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "No interaction"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     },
+     {
+      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Key: no interaction. Potential interaction with increased (↑) or decreased (↓) levels of the sulfonylurea, which may require dose adjustment: monitor blood glucose and adjust the sulfonylurea dosage as needed. CAUTION when co-administering metformin with DTG: metformin levels are increased and dose reduction of metformin should be considered. The US prescribing information recommends limiting the total daily dose of metformin to 1,000 mg when co-administered with DTG. Renal monitoring is recommended, as PLHIV with renal impairment are at increased risk of lactic acidosis due to increased metformin levels in the presence of DTG.",
+    "*Essential medicines list included atenolol, metoprolol, carvedilol as alternatives (as printed under the table). Refer to National HIV Management Guidelines."
+   ],
+   "source_flags": [
+    "Interaction category is shown only by cell colour in the PDF (green = none, purple = potential sulfonylurea interaction, red = caution); written out in each cell.",
+    "'Glibencamide' printed; written Glibenclamide.",
+    "The footnote about atenolol/metoprolol/carvedilol does not relate to antidiabetic drugs; possibly misplaced in the source."
+   ],
+   "context_before": "Diabetes in HIV: a dose adjustment of metformin should be considered when co-administering DTG with metformin to maintain glycaemic control. Monitor renal function and blood glucose when metformin and DTG are co-administered; patients with moderate renal impairment may be at increased risk of lactic acidosis due to increased metformin concentrations."
+  },
+  {
+   "table_id": "ncdimh-tbl-dka-special-populations",
+   "page": 63,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetes in Special Populations > Diabetic emergencies in special populations",
+   "caption": "Diabetic emergencies (DKA/HHS) in special populations: HIV/TB co-infection, resource-limited settings, pregnancy, elderly",
+   "replaces_chunks": [
+    "ncdimh-0179"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "HIV/TB co-infection"
+     },
+     {
+      "t": "Screen for HIV if status unknown (rapid test on admission). Immune reconstitution can unmask T1DM. ARVs (especially older PI-based) can cause insulin resistance. Opportunistic infections (PCP, cryptococcal, TB) are common DKA precipitants. Maintain ARTs during crisis; liaise with HIV team."
+     }
+    ],
+    [
+     {
+      "t": "Resource-limited settings"
+     },
+     {
+      "t": "No blood ketones: use urine ketones (≥2+ = significant). No VBG: treat on clinical picture + glucose + ketones. No syringe pump: 50 units in 500 ml NS (0.1 unit/ml) + drip control. No 0.45% NaCl: use 0.9% NaCl throughout with closer monitoring. Validate POC glucose meters for high glucose ranges >30 mmol/L."
+     }
+    ],
+    [
+     {
+      "t": "Pregnancy"
+     },
+     {
+      "t": "DKA can occur at lower glucose (euglycaemic DKA in pregnancy). Involve obstetric team immediately. Fetal monitoring from 24 weeks onwards. Higher insulin requirements: do not underdose. Avoid bicarbonate unless pH <7.0."
+     }
+    ],
+    [
+     {
+      "t": "Elderly patients (HHS)"
+     },
+     {
+      "t": "Reduced physiological reserve: higher risk of fluid overload. More gradual fluid replacement over 48-72 hours. Increased thromboembolic risk: early LMWH prophylaxis. Exclude silent MI, stroke, UTI, pneumonia as precipitant. Assess cognition, falls risk, social support before discharge."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The table is headed 'Diabetes in Special Populations' but its content is about managing DKA/HHS in these groups.",
+    "Bicarbonate threshold here is pH <7.0; the bicarbonate table on p.48 uses pH <6.9."
+   ],
+   "context_before": "Diabetes and TB: anti-TB drugs can influence the metabolism of anti-diabetic medications. Rifampicin induces cytochrome P450 and increases the metabolism of most oral hypoglycaemic agents, which may worsen hyperglycaemia. Isoniazid inhibits cytochrome P450 and prolongs the effect of oral anti-diabetic drugs. Bedaquiline is also an enzyme inducer and reduces the effect of antidiabetic drugs."
+  },
+  {
+   "table_id": "ncdimh-tbl-osteoporosis-risk-factors",
+   "page": 64,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Risk factors for osteoporosis and fragility fractures",
+   "caption": "Risk factors for osteoporosis and fragility fractures (lifestyle, genetic, diseases, miscellaneous)",
+   "replaces_chunks": [
+    "ncdimh-0181",
+    "ncdimh-0182"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Risk factors"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Lifestyle factors"
+     },
+     {
+      "t": "Alcohol (two or more drinks per day)**; smoking**; low calcium intake; inadequate physical activity; immobilisation; vitamin D insufficiency; malnutrition; low body mass (BMI < 20)**; falling; high salt/protein intake; high caffeine intake; excessive exercise; excess vitamin A; vitamin C, K, B6 and B12 deficiencies; trace element deficiencies"
+     }
+    ],
+    [
+     {
+      "t": "Genetic and ethnic factors"
+     },
+     {
+      "t": "Elderly females**; white, Asian and mixed race; family history of hip fracture**; osteogenesis imperfecta; Marfan syndrome; Ehlers-Danlos syndrome; haemochromatosis; porphyria; homocystinuria; idiopathic hypercalciuria; Gaucher's disease; Riley-Day syndrome; Menkes disease"
+     }
+    ],
+    {
+     "section": "Diseases"
+    },
+    [
+     {
+      "t": "Hypogonadism"
+     },
+     {
+      "t": "Premature menopause; anorexia nervosa/bulimia; athlete's amenorrhoea; delayed puberty; Turner's syndrome; Klinefelter's syndrome; Kallmann's syndrome"
+     }
+    ],
+    [
+     {
+      "t": "Gastrointestinal disorders"
+     },
+     {
+      "t": "Gastric bypass; coeliac disease; gastrectomy; inflammatory bowel disease; chronic liver disease; pancreatic disease"
+     }
+    ],
+    [
+     {
+      "t": "Endocrinopathies"
+     },
+     {
+      "t": "Cushing's syndrome; diabetes mellitus; hyperthyroidism; acromegaly; Addison's disease; prolactinoma"
+     }
+    ],
+    [
+     {
+      "t": "Haematological disorders"
+     },
+     {
+      "t": "Multiple myeloma; systemic mastocytosis; thalassaemia; leukaemia and lymphomas; sickle cell disease; haemophilia"
+     }
+    ],
+    [
+     {
+      "t": "Rheumatology and immunology"
+     },
+     {
+      "t": "Rheumatoid arthritis**; psoriasis; systemic lupus erythematosus; ankylosing spondylitis"
+     }
+    ],
+    [
+     {
+      "t": "Miscellaneous"
+     },
+     {
+      "t": "Alcoholism; malignancy; fracture after age 40 years**; parenteral nutrition; amyloidosis; sarcoidosis; post-transplant bone disease; organ failure (lung, liver, kidney, heart); pregnancy-associated osteoporosis; bone-toxic drugs (see drugs table)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'**' marks some factors in the PDF; no key for '**' is printed on these pages (presumably factors used in fracture-risk tools).",
+    "'Ostegenesis imperfecta' printed; corrected."
+   ],
+   "pages": [
+    64,
+    65
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-osteoporosis-drugs",
+   "page": 65,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Drugs associated with increased risk of osteoporosis and fractures",
+   "caption": "Drugs associated with increased risk of osteoporosis and of falling (fracture risk)",
+   "replaces_chunks": [
+    "ncdimh-0183"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Risk"
+     },
+     {
+      "t": "Drugs"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Increase risk of osteoporosis"
+     },
+     {
+      "t": "Glucocorticoids; excessive thyroid replacement therapy; anticonvulsants*; thiazolidinediones (pioglitazone, rosiglitazone); aromatase inhibitors; gonadotrophin-releasing hormone analogues; chemotherapy; immunosuppressives (cyclosporine, methotrexate); heparin/warfarin; chronic lithium therapy; prolonged parenteral nutrition; aluminium"
+     }
+    ],
+    [
+     {
+      "t": "Increased risk of falling"
+     },
+     {
+      "t": "Sedatives and hypnotics; antidepressants; antihypertensive drugs; hypoglycaemic agents"
+     }
+    ]
+   ],
+   "footnotes": [
+    "*May also cause osteomalacia."
+   ],
+   "source_flags": [
+    "The '*' (may also cause osteomalacia) is not attached to a drug in the PDF; it is presumably anticonvulsants."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-osteoporosis-assessment-checklist",
+   "page": 66,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment",
+   "caption": "Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits",
+   "replaces_chunks": [
+    "ncdimh-0187",
+    "ncdimh-0188",
+    "ncdimh-0189",
+    "ncdimh-0190",
+    "ncdimh-0191"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Item"
+     },
+     {
+      "t": "Initial"
+     },
+     {
+      "t": "3-6 monthly visit"
+     },
+     {
+      "t": "Annually"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "History"
+    },
+    [
+     {
+      "t": "Symptoms of underlying disease as cause of osteoporosis (endocrinopathies, malignancies, systemic diseases, bone-toxic drugs); CRF and falls risk assessment"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Relevant family history"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Other risk factors"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Relevant medical history"
+    },
+    [
+     {
+      "t": "Co-morbid conditions"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Symptoms of complications"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular, neurological"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Drugs"
+    },
+    [
+     {
+      "t": "Current"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Side-effects and adherence"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Allergies"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Lifestyle"
+    },
+    [
+     {
+      "t": "Weight history"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Physical activity"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Diet"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Smoking"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Alcohol"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Psychosocial"
+    },
+    [
+     {
+      "t": "Occupation"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Family and community support"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Depression"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Home monitoring chart (if relevant)"
+    },
+    [
+     {
+      "t": "History of falls"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Physical examination"
+    },
+    [
+     {
+      "t": "Weight"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Height"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "BMI (kg/m2)"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Waist circumference (cm)"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Blood pressure"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Cardiovascular examination"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Neurological examination (assess for neuropathy)"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Eye examination"
+    },
+    [
+     {
+      "t": "Visual acuity"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Nystagmus"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Retinal examination (fundoscopy to rule out papilloedema)"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Ear examination"
+    },
+    [
+     {
+      "t": "Hearing"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Vertigo assessment*"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    {
+     "section": "Investigations: blood"
+    },
+    [
+     {
+      "t": "Serum calcium, albumin, phosphate, PTH and ALP"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "25OHD (all elderly, institutionalised, non-sun exposed, malnourished)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Serum thyroid stimulating hormone (TSH)"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Full blood count and ESR"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Serum protein electrophoresis"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Serum FSH and estradiol in premenopausal women or when menopausal state is unknown"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Serum total testosterone in men"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Serum creatinine, urea and calculation of eGFR"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "Investigations: urine dipstix"
+    },
+    [
+     {
+      "t": "Protein"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Urine calcium and creatinine (preferably a 24-hour collection)"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Glucose & ketones"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x"
+     }
+    ],
+    [
+     {
+      "t": "Optional assessment: serum or urine bone turnover markers; liver transaminases (if alcohol abuse/liver disease suspected); serum T4 and T3 (if thyroid disease suspected/TSH abnormal); bone biopsy with quantitative histomorphometry (if osteomalacia suspected); bone marrow aspiration, isotope bone scan, cancer markers"
+     },
+     {
+      "t": "x (where clinically indicated)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x (if positive findings at first-contact screening)"
+     }
+    ],
+    {
+     "section": "Investigations: ECG and imaging"
+    },
+    [
+     {
+      "t": "ECG"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Vertebral fracture assessment: standard X-rays or DXA-VFA"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x (every two years)"
+     }
+    ],
+    [
+     {
+      "t": "Bone mass measurement: spine and hip (distal radius if spine and hip data invalid)"
+     },
+     {
+      "t": "x"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "x (every two years)"
+     }
+    ]
+   ],
+   "footnotes": [
+    "x = do at this visit; blank = not routinely (some items, e.g. 25OHD, nystagmus, eGFR and ECG, have no marks in the PDF).",
+    "*Vertigo assessment: clinician may use any of: (1) the Dix-Hallpike manoeuvre: the patient sits at the edge of the bed and the examiner turns the patient's head 30-45 degrees to the side being tested; the patient keeps eyes open on a stable point and then quickly lies supine with the neck hyperextended; horizontal nystagmus denotes a positive test (warn the patient it can induce vertigo). (2) Orthostatic blood pressure testing: a drop in systolic BP of more than 20 mmHg from lying to standing is significant for a postural drop (dehydration or autonomic dysfunction, which can cause vertigo). (3) Head impulse test: the patient looks at the examiner's nose and the examiner quickly turns the head 10-20 degrees; it is abnormal if the eyes move rapidly and repetitively, failing to re-fixate on the examiner's nose (disrupted vestibulo-ocular reflex)."
+   ],
+   "source_flags": [
+    "Table spans pp.66-69 with headers repeated.",
+    "Several items (symptoms of underlying disease, 25OHD, nystagmus, eGFR, ECG) have no marks in any column in the PDF."
+   ],
+   "pages": [
+    66,
+    67,
+    68,
+    69
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-osteoporosis-classification",
+   "page": 66,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Classification of osteoporosis (BMD T-score)",
+   "caption": "Classification of osteoporosis by bone mineral density (BMD) T-score",
+   "replaces_chunks": [
+    "ncdimh-0185"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Definition"
+     },
+     {
+      "t": "Criteria"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Normal"
+     },
+     {
+      "t": "BMD or BMC value (measured with DXA at either the spine, total hip or femur neck) within 1 SD of the young adult reference mean (T-score* at or above -1.0)"
+     }
+    ],
+    [
+     {
+      "t": "Low bone mass"
+     },
+     {
+      "t": "BMD or BMC value more than 1 SD but less than 2.5 SD below the young adult mean (osteopenia; T-score between -1.0 and -2.5)"
+     }
+    ],
+    [
+     {
+      "t": "Osteoporosis"
+     },
+     {
+      "t": "BMD or BMC value 2.5 SD or more below the young adult mean"
+     }
+    ],
+    [
+     {
+      "t": "Severe osteoporosis"
+     },
+     {
+      "t": "BMD or BMC value more than 2.5 SD below the young adult mean, plus one or more fragility fractures"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The PDF note refers to sections 6.2.1 and 6.3, which do not exist in this guideline."
+   ],
+   "table_note": "These criteria were updated in 2008 and differ from those proposed by the WHO in 1994 by specifying a single reference site (the femoral neck) to measure BMD, providing a young normal reference range for women and men (the NHANES III reference data for femoral neck measurements in women aged 20-29 years), and by accommodating diagnostic criteria for men. *When standard deviation (SD) units are used in relation to the young healthy adult population, this is referred to as the T-score.",
+   "pages": [
+    66
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-osteoporosis-assessment",
+   "page": 70,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Algorithm for the assessment of patients with osteoporosis",
+   "caption": "Algorithm for the management of osteoporosis in post-menopausal women and men aged 50 years and older",
+   "replaces_chunks": [
+    "ncdimh-0192",
+    "ncdimh-0193"
+   ],
+   "content": "Clinical risk factors (CRFs): advanced age; prior fracture; family history; excessive leanness (printed 'excessive learners'); diet/alcohol/smoking; fall propensity; secondary osteoporoses.\n\nStart: women and men with CRFs. Prior osteoporotic fracture?\n- Yes: consider specific treatment/prophylaxis.\n- No: measure BMD. By T-score:\n  - T-score ≤ -2.5: consider specific treatment/prophylaxis.\n  - T-score between -1.0 and -2.5 (printed '< -10 to > -2.5'; consider FRAX):\n      - > 75 years: consider specific treatment/prophylaxis.\n      - 65-75 years + ≥ 2 CRFs: yes: consider specific treatment/prophylaxis; no: individualised assessment of CRFs + BMD.\n      - > 60 years: individualised assessment of CRFs + BMD.\n    Individualised assessment outcome: yes: consider specific treatment/prophylaxis; uncertain (?): bone turnover markers (BTMs) or reassess in 24 months; no: lifestyle changes only.\n  - T-score ≥ -1.0: lifestyle changes only.",
+   "footnotes": [],
+   "source_flags": [
+    "Superscripts a, b, c on 'prior osteoporotic fracture', 'Yes' and 'Measure BMD' have no footnotes printed.",
+    "The middle T-score band is printed '< -10 to > -2.5'; read as -1.0 to -2.5.",
+    "The '> 60 years' branch is drawn into the individualised assessment box; the age bands overlap (>60, 65-75, >75)."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-osteoporosis-pharmacological",
+   "page": 71,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Pharmacological management of osteoporosis",
+   "caption": "Pharmacological management of osteoporosis: drug classes, typical dosage and common side effects",
+   "replaces_chunks": [
+    "ncdimh-0195"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug class and name"
+     },
+     {
+      "t": "Typical dosage"
+     },
+     {
+      "t": "Common side effects"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Bisphosphonates"
+    },
+    [
+     {
+      "t": "Alendronate (Fosamax)"
+     },
+     {
+      "t": "70 mg once weekly or 10 mg daily"
+     },
+     {
+      "t": "Oesophageal irritation, musculoskeletal pain, nausea, abdominal pain"
+     }
+    ],
+    [
+     {
+      "t": "Risedronate (Actonel)"
+     },
+     {
+      "t": "35 mg once weekly or 150 mg once monthly"
+     },
+     {
+      "t": "Abdominal pain, musculoskeletal pain, nausea"
+     }
+    ],
+    [
+     {
+      "t": "Ibandronate (Boniva)"
+     },
+     {
+      "t": "150 mg once monthly"
+     },
+     {
+      "t": "Gastrointestinal irritation, musculoskeletal pain"
+     }
+    ],
+    [
+     {
+      "t": "Zoledronic acid (Reclast)"
+     },
+     {
+      "t": "5 mg once annually as an intravenous infusion"
+     },
+     {
+      "t": "Flu-like symptoms, renal impairment, hypocalcaemia"
+     }
+    ],
+    {
+     "section": "Selective estrogen receptor modulators (SERMs)"
+    },
+    [
+     {
+      "t": "Raloxifene (Evista)"
+     },
+     {
+      "t": "60 mg daily"
+     },
+     {
+      "t": "Hot flashes, leg cramps, increased risk of blood clots"
+     }
+    ],
+    {
+     "section": "Hormone replacement therapy (HRT)"
+    },
+    [
+     {
+      "t": "Conjugated estrogens (Premarin)"
+     },
+     {
+      "t": "Dosage varies"
+     },
+     {
+      "t": "Increased risk of breast cancer, blood clots, stroke, and other side effects"
+     }
+    ],
+    [
+     {
+      "t": "Calcitonin (Miacalcin)"
+     },
+     {
+      "t": "Typically 200 IU daily as nasal spray"
+     },
+     {
+      "t": "Nasal irritation, epistaxis (nosebleeds), flushing"
+     }
+    ],
+    {
+     "section": "Parathyroid hormone analogs"
+    },
+    [
+     {
+      "t": "Teriparatide (Forteo)"
+     },
+     {
+      "t": "20 mcg once daily (subcutaneous)"
+     },
+     {
+      "t": "Dizziness, leg cramps, injection site reactions"
+     }
+    ],
+    [
+     {
+      "t": "Abaloparatide (Tymlos)"
+     },
+     {
+      "t": "80 mcg once daily (subcutaneous)"
+     },
+     {
+      "t": "Hypercalcaemia, dizziness, nausea, headache"
+     }
+    ],
+    {
+     "section": "Monoclonal antibodies"
+    },
+    [
+     {
+      "t": "Denosumab (Prolia)"
+     },
+     {
+      "t": "60 mg once every six months (subcutaneous)"
+     },
+     {
+      "t": "Infections, back pain, dermatitis, hypocalcaemia"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Calcitonin is listed under the HRT heading in the PDF (it has no class heading of its own)."
+   ],
+   "context_before": "Non-pharmacological management: postmenopausal women and men aged ≥50 years with osteoporosis or at risk of fragility fracture are recommended: a healthy, nutrient-rich balanced diet; adequate calcium intake (minimum 700 mg daily), preferably from diet or otherwise by supplementation; vitamin D supplements of at least 800 IU/day if vitamin D insufficiency or risk factors for it are identified; regular weight-bearing and muscle-strengthening exercise tailored to the individual; advice on smoking and alcohol cessation; a falls assessment for all patients with osteoporosis and fragility fractures, with exercise programmes to improve balance for those at risk."
   }
  ]
 }
