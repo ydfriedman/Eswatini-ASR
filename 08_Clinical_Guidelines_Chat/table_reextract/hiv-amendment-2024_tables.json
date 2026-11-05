@@ -76,6 +76,23 @@
    "source_flags": []
   },
   {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-3.1-hiv-eligibility-screening",
+   "page": 10,
+   "printed_page": 4,
+   "image_only": true,
+   "heading_path": "Chapter 3: HIV Testing Services > 3.2 HIV Screening Tools > HIV eligibility screening process flow",
+   "caption": "Figure 3.1 The HIV eligibility screening process flow",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0019"
+   ],
+   "content": "Applies to all clients presenting in the facility or community, EXCEPT clients eligible for routine testing (malnourished and sick children, HIV-exposed children, clients with confirmed or presumptive TB disease, STI clients, index contacts, pregnant and lactating mothers, inpatients and key populations).\n\n1. Patient arrives. Ask: ever tested for HIV?\n  - NO: Refer to HTS counsellor for: risk assessment for children 2-11 years; HIVST screening for children 12 years and above, adolescents and adults. Then the patient may proceed to the consultation room.\n  - YES: ask: what is your status?\n      - Negative: Refer to HTS counsellor for: risk assessment for children 2-11 years; HIVST screening for children 12 years and above, adolescents and adults. Then the patient may proceed to the consultation room.\n      - Positive: on ART?\n          - NO: refer for ART initiation & LCM, then the patient may proceed to the consultation room.\n          - YES: the patient may proceed to the consultation room.\n2. Patient exits.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image."
+   ]
+  },
+  {
    "kind": "box",
    "table_id": "hiv-amendment-2024-box-3.2.2-hivst-eligible",
    "page": 11,
@@ -107,91 +124,6 @@
    "footnotes": [],
    "source_flags": [
     "Highlighted box in the PDF, not a table; stored as a box."
-   ]
-  },
-  {
-   "table_id": "hiv-amendment-2024-tbl-3-prep-initiation-hivst",
-   "page": 12,
-   "printed_page": 6,
-   "image_only": false,
-   "heading_path": "Chapter 3: HIV Testing Services > 3.2.2.1 Use of HIV-ST Among All Individuals 12 Years & Above > PrEP (re-)initiation",
-   "caption": "HIV testing and dispensing at PrEP (re-)initiation: oral PrEP or ring vs CAB-LA",
-   "caption_note": "Printed heading 'PrEP (re-) Initiation'.",
-   "replaces_chunks": [
-    "hiv-amendment-2024-0026"
-   ],
-   "row_header_cols": 1,
-   "header": [
-    [
-     {
-      "t": ""
-     },
-     {
-      "t": "Oral PrEP (daily, ED, or alternating) or PrEP Ring"
-     },
-     {
-      "t": "CAB-LA"
-     }
-    ]
-   ],
-   "body": [
-    [
-     {
-      "t": "HIV test"
-     },
-     {
-      "t": "An HIVST can be used to rule out HIV infection except for PBFW for whom a National HIV Testing Algorithm is recommended."
-     },
-     {
-      "t": "National HIV Testing Algorithm needs to be used to rule out HIV infection."
-     }
-    ],
-    [
-     {
-      "t": "Assess PEP eligibility"
-     },
-     {
-      "t": "For any UNPROTECTED sexual exposure in the last 72 hours, clients should be assessed for PEP eligibility, prior to PrEP initiation.",
-      "cs": 2
-     }
-    ],
-    [
-     {
-      "t": "Volume dispensed"
-     },
-     {
-      "t": "1 month prescription (1 bottle) of TDF/3TC or 1 DPV ring."
-     },
-     {
-      "t": "Initiation injection 1 is given."
-     }
-    ],
-    [
-     {
-      "t": "Next appointment"
-     },
-     {
-      "t": "Schedule next visit date after 1 month."
-     },
-     {
-      "t": "Schedule next visit date for initiation injection 2 after 1 month days (+/- 7 days)."
-     }
-    ],
-    [
-     {
-      "t": "HIVST distribution"
-     },
-     {
-      "t": "Can be provided as an exit test or for ED PrEP users before a new cycle of exposure."
-     },
-     {
-      "t": "N/A"
-     }
-    ]
-   ],
-   "footnotes": [],
-   "source_flags": [
-    "'after 1 month days (+/- 7 days)' is printed as is."
    ]
   },
   {
@@ -288,6 +220,91 @@
    ]
   },
   {
+   "table_id": "hiv-amendment-2024-tbl-3-prep-initiation-hivst",
+   "page": 12,
+   "printed_page": 6,
+   "image_only": false,
+   "heading_path": "Chapter 3: HIV Testing Services > 3.2.2.1 Use of HIV-ST Among All Individuals 12 Years & Above > PrEP (re-)initiation",
+   "caption": "HIV testing and dispensing at PrEP (re-)initiation: oral PrEP or ring vs CAB-LA",
+   "caption_note": "Printed heading 'PrEP (re-) Initiation'.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0026"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Oral PrEP (daily, ED, or alternating) or PrEP Ring"
+     },
+     {
+      "t": "CAB-LA"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "HIV test"
+     },
+     {
+      "t": "An HIVST can be used to rule out HIV infection except for PBFW for whom a National HIV Testing Algorithm is recommended."
+     },
+     {
+      "t": "National HIV Testing Algorithm needs to be used to rule out HIV infection."
+     }
+    ],
+    [
+     {
+      "t": "Assess PEP eligibility"
+     },
+     {
+      "t": "For any UNPROTECTED sexual exposure in the last 72 hours, clients should be assessed for PEP eligibility, prior to PrEP initiation.",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Volume dispensed"
+     },
+     {
+      "t": "1 month prescription (1 bottle) of TDF/3TC or 1 DPV ring."
+     },
+     {
+      "t": "Initiation injection 1 is given."
+     }
+    ],
+    [
+     {
+      "t": "Next appointment"
+     },
+     {
+      "t": "Schedule next visit date after 1 month."
+     },
+     {
+      "t": "Schedule next visit date for initiation injection 2 after 1 month days (+/- 7 days)."
+     }
+    ],
+    [
+     {
+      "t": "HIVST distribution"
+     },
+     {
+      "t": "Can be provided as an exit test or for ED PrEP users before a new cycle of exposure."
+     },
+     {
+      "t": "N/A"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'after 1 month days (+/- 7 days)' is printed as is."
+   ]
+  },
+  {
    "table_id": "hiv-amendment-2024-tbl-4-summary-of-changes",
    "page": 15,
    "printed_page": 9,
@@ -320,6 +337,25 @@
    ],
    "footnotes": [],
    "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-status-neutral",
+   "page": 16,
+   "printed_page": 10,
+   "image_only": true,
+   "heading_path": "Chapter 4: Referral & Linkages > 4.1 Status Neutral Approach > Status-neutral HIV prevention and care",
+   "caption": "Status-Neutral HIV Prevention and Care (diagram)",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0034",
+    "hiv-amendment-2024-0035"
+   ],
+   "content": "Everyone starts with an HIV test; services are linked to the result, regardless of HIV status.\n\n- HIV test negative: Prevention pathway (prevents getting HIV). People whose HIV tests are negative are offered powerful prevention tools like PrEP, condoms, harm reduction (e.g., SSPs), and supportive services to stay HIV negative. Supported by HIV and STD testing and high-impact HIV prevention.\n- HIV test positive: Treatment pathway (prevents transmitting HIV). People whose HIV tests are positive enter primary care and are offered effective treatment and supportive services to achieve and maintain viral suppression. Supported by HIV primary care and effective treatment.\n- People newly diagnosed with HIV move from the prevention pathway to the treatment pathway.\n- Across both pathways: quality care; culturally inclusive and responsive quality care; prevent and treat syndemic infections.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "The PDF captions this diagram 'Figure 3.2 The HIV eligibility screening process flow', which is the title of Figure 3.1 (p.10). The caption is wrong in the source; the diagram is the status-neutral prevention and care model."
+   ]
   },
   {
    "table_id": "hiv-amendment-2024-tbl-4.2-re-engagement",
@@ -431,6 +467,42 @@
    "footnotes": [],
    "source_flags": [
     "Empty 2022 cells (new guidance) are written as '(no 2022 guidance)'."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-5.1-client-escalation-plan",
+   "page": 21,
+   "printed_page": 15,
+   "image_only": true,
+   "heading_path": "Chapter 5: Basic Care Package for HIV-Positive Individuals > 5.3 HIV Care Escalation Plan > National client escalation plan",
+   "caption": "Figure 5.1 National Client Escalation Plan for HIV care (steps from HTS counsellor to clinical psychologist)",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0044"
+   ],
+   "content": "Clients are escalated step by step to the next level of care. Feedback is received from every level of care for quality documentation purposes.\n\nStep 1 - HTS counsellor: identification of all positives pending linkage; provides motivational counselling and refers to the expert client (EC) as client role model to provide context.\n\nStep 2 - Expert client (EC):\n  - Newly diagnosed: motivates clients to start early using practical life experiences as examples.\n  - Clients already on ART: EC identifies clients struggling with adherence and barriers at refill, pill count, missed appointment/defaulter, IIT and HVL level. Provides counselling based on stage and escalates the client.\n\nStep 3 - Nurses and doctors: confirm the barrier identified by the EC or counsellor; explore other barriers missed; provide further motivational counselling; identify the category of barrier and escalate based on criterion:\n  - Social barriers: escalate to social worker.\n  - Cognitive, behavioural & emotional: escalate to psychologist.\n  - Community follow-up and care: escalate to APS Associate & CEC.\n\nStep 4 - Clinical social workers: conduct one-on-one sessions with clients; if need be, conduct home visits, home assessments etc.; assess clients' needs, situations, strengths and support networks to determine their goals; help clients adjust to changes and challenges in their lives; provide motivational counselling; escalate the client to the psychologist or any other HCW for further care.\n\nStep 5 - Clinical psychologist: participate in MDT-SUAC sessions and one-on-one sessions to identify cognitive, emotional & behavioural barriers; understand clients' needs, assess attitude, behaviour and abilities; diagnose psychological, emotional or behavioural disorders; work with nurses, social workers and EC to help the client resolve issues identified.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-5.2-escalation-eligible-clients",
+   "page": 21,
+   "printed_page": 15,
+   "image_only": true,
+   "heading_path": "Chapter 5: Basic Care Package for HIV-Positive Individuals > 5.3 HIV Care Escalation Plan > Indications for the HIV care escalation plan",
+   "caption": "Figure 5.2 Clients eligible for the HIV care escalation plan",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0045",
+    "hiv-amendment-2024-0046",
+    "hiv-amendment-2024-0047"
+   ],
+   "content": "HCWs are encouraged to escalate (refer) any clients they experience difficulties in managing, including those below. Management of such patients requires a multidisciplinary team (MDT) approach. Referrals can also be made for specialised services, e.g. psychiatrists, physicians, paediatricians.\n\nClients eligible for the HIV care escalation plan:\n- Newly diagnosed\n- Delayed ART initiation\n- Clients with AHD, NCDs and other complicated conditions\n- Clients with high viral load\n- Caregiver (refusing child initiation, poor adherence in child)\n- Returning to care (re-engaging)\n- Clients with very poor social circumstances",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image."
    ]
   },
   {
@@ -806,6 +878,26 @@
    ]
   },
   {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-7.1-vl-thresholds",
+   "page": 28,
+   "printed_page": 22,
+   "image_only": true,
+   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > Summary of Changes > Updated viral load thresholds",
+   "caption": "Figure 7.1 Updated viral load thresholds",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0054",
+    "hiv-amendment-2024-0055"
+   ],
+   "content": "Following ART initiation, a VL decline of at least 0.5 log10 copies/mL (3-fold) is considered significant. The goal for people on ART is an undetectable VL (VL <50 copies/mL). To keep community transmission to a minimum, the threshold for viral suppression has been decreased to VL <200 copies/mL.\n\nViral load categories:\n- Undetectable viral load: VL <50 copies/mL\n- Viral suppression: VL <200 copies/mL\n- Low-level viraemia: VL 50-999 copies/mL\n- High viral load: VL >1000 copies/mL\n\nUndetectable and suppressed: U = U (undetectable = untransmittable). Low-level viraemia and high viral load: high predictor of HIV drug resistance (HIVDR).\nPTVL as part of baseline laboratory tests should not be done for clients re-engaging into care.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "Low-level viraemia is 'VL 50-999' in this figure, '200-999' in the Chapter 7 summary table and footnote (a) of Figure 7.3, and '51-999' in the LLV section text. Inconsistent in the source; clinician to confirm.",
+    "The PDF text says 'a minimum VL decline of at least by at least 0.5 log10'; duplicated words removed."
+   ]
+  },
+  {
    "table_id": "hiv-amendment-2024-tbl-7-summary-of-changes",
    "page": 28,
    "printed_page": 22,
@@ -859,6 +951,65 @@
    ]
   },
   {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-7.2-vl-monitoring-schedule",
+   "page": 29,
+   "printed_page": 23,
+   "image_only": true,
+   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.1 Routine VL Monitoring > Updated viral load monitoring schedule",
+   "caption": "Figure 7.2 Updated viral load monitoring schedule",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0056",
+    "hiv-amendment-2024-0057",
+    "hiv-amendment-2024-0058"
+   ],
+   "content": "All clients initiating or reinitiating ART should receive their first routine VL three months after (re)initiating ART and at 9 months thereafter. After two consecutive undetectable VL results, routine VL testing is done as below.\n\nSchedule: pre-treatment VL, then VL at 3 months post ART initiation, then VL at 9 months post ART, then routine VL testing.\n\nRoutine VL testing frequency:\n- Children and adolescents (0-19 years): every 6 months\n- Pregnant and breastfeeding women: every 6 months\n- 3rd line clients: every 6 months\n- Adults >19 years: annually",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-7.3-vl-testing-algorithm",
+   "page": 29,
+   "printed_page": 23,
+   "image_only": true,
+   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.1 Routine VL Monitoring > Viral load testing algorithm",
+   "caption": "Figure 7.3 The viral load testing algorithm (ART-naive vs treatment-experienced)",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0059",
+    "hiv-amendment-2024-0060"
+   ],
+   "content": "The management of HVL remains the same.\n\nStart: client presents for HTS. Verify if they are a true new positive.\n\nPath A - ART naive: baseline laboratory tests INCLUDING PTVL; ART initiation.\n  At 3 months post ART initiation:\n  - VL <200 copies/ml: eligible for up to 3MMD. At 9 months post ART initiation, VL <200 copies/ml: eligible for MMD & DSD enrolment; routine VL monitoring thereafter.\n  - VL >200 copies/ml: SUAC. Then: VL >200 copies/ml*: see management of LLV*; VL <200 copies/ml*: eligible for MMD.\n\nPath B - treatment experienced: baseline laboratory tests EXCLUDING PTVL; re-initiate on previous regimen.\n  At 3 months:\n  - VL <200 copies/ml: continue current ART regimen; eligible for up to 3MMD. At 9 months, VL <200 copies/ml: eligible for up to 6MMD & DSD enrolment; routine VL monitoring thereafter.\n  - VL >200 copies/ml: SUAC. Then: VL <200 copies/ml: eligible for up to 6MMD & DSD enrolment, routine VL monitoring thereafter; VL >200 copies/ml*: see management of LLV*.\n\nNotes printed under the figure:\n(a) If VL 200-999 copies/ml, follow management of LLV.\n(b) If VL > 1000 copies/ml, start SUAC.\n(c) Repeat VL after 3 months and consult the clinical advisor of HIVDR for persistent low-level viraemia.\nAll clients with a detectable viral load should be closely monitored with adherence support until they are undetectable.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "The figure marks some boxes with '*' while the notes below are lettered (a)-(c); which note each '*' refers to is not shown."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-8.1-viraemia-pregnant",
+   "page": 32,
+   "printed_page": 26,
+   "image_only": true,
+   "heading_path": "Chapter 8: Prevention of Mother-to-Child Transmission of HIV > Same Day Management of Viraemia in Pregnant Women",
+   "caption": "Figure 8.1 Same day management of viraemia in pregnant women (flowchart)",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0063",
+    "hiv-amendment-2024-0064",
+    "hiv-amendment-2024-0065"
+   ],
+   "content": "Starting point: pregnant woman with VL > 50 c/mL.\n\nPath A - VL 50-1000 c/mL AND on DTG for less than 18 months (DTG <18/12):\nIntensive adherence interventions:\n  1. DOT\n  2. Mentor mother/EC involvement\n  3. Follow-up VL after 1 month (F/U VL 1/12)\n  4. If VL remains >1000, or VL remains 50-1000, consult the DR committee\n\nPath B - on DTG for more than 18 months, or duration unknown (DTG >18/12 or unknown):\nStep 1. Genotype if VL > 1000*. Send genotypes the same day (unless known default or very poor adherence in the first trimester). Complete and submit a genotype motivation to snapthirdline@mohcoag.org.\nStep 2. Then by timing of the detectable viral load (DVL):\n  - 1st DVL in the 1st or 2nd trimester: intensive adherence interventions as in Path A.\n  - 1st DVL in the 3rd trimester, OR 2nd DVL in any trimester: Empiric therapy, chosen by prior PI use:\n  - No prior PI: TLD 1 tab OD PLUS EITHER DRV/r (400/50) 2 tabs OD* OR ATV/r (300/50) 1 tab OD (*if available)\n  - Prior PI: TLD 1 tab OD PLUS DRV/r (600/100) BD\n  Provide the same intensive adherence interventions as in Path A.\n\nWhen the baby is born:\n  - 2 drug EIP x 6 weeks (X6/52) and then NVP only, minimum 14 weeks (14/52), and mother is documented undetectable.\n  - Consider 3 drug ART for babies born to women with seroconversion at delivery; perform 2 tests prior to initiation.\n  - VL at delivery for all women.\n  - Birth test all infants.\n  - Please consult for PLW with viraemia on concurrent ATT.",
+   "footnotes": [],
+   "source_flags": [
+    "Flowchart is an image in the PDF; transcribed from the page image (no text layer to check against).",
+    "Path A is ONE condition box (VL 50-1000 and DTG <18/12), not two paths.",
+    "The '*' on 'DRV/r 2 tabs od*' and '*if available' are printed as is; it is not clear whether 'if available' qualifies DRV/r or ATV/r."
+   ]
+  },
+  {
    "table_id": "hiv-amendment-2024-tbl-8-summary-of-changes",
    "page": 32,
    "printed_page": 26,
@@ -907,27 +1058,6 @@
    ],
    "footnotes": [],
    "source_flags": []
-  },
-  {
-   "kind": "diagram",
-   "table_id": "hiv-amendment-2024-fig-8.1-viraemia-pregnant",
-   "page": 32,
-   "printed_page": 26,
-   "image_only": true,
-   "heading_path": "Chapter 8: Prevention of Mother-to-Child Transmission of HIV > Same Day Management of Viraemia in Pregnant Women",
-   "caption": "Figure 8.1 Same day management of viraemia in pregnant women (flowchart)",
-   "replaces_chunks": [
-    "hiv-amendment-2024-0063",
-    "hiv-amendment-2024-0064",
-    "hiv-amendment-2024-0065"
-   ],
-   "content": "Starting point: pregnant woman with VL > 50 c/mL.\n\nPath A - VL 50-1000 c/mL AND on DTG for less than 18 months (DTG <18/12):\nIntensive adherence interventions:\n  1. DOT\n  2. Mentor mother/EC involvement\n  3. Follow-up VL after 1 month (F/U VL 1/12)\n  4. If VL remains >1000, or VL remains 50-1000, consult the DR committee\n\nPath B - on DTG for more than 18 months, or duration unknown (DTG >18/12 or unknown):\nStep 1. Genotype if VL > 1000*. Send genotypes the same day (unless known default or very poor adherence in the first trimester). Complete and submit a genotype motivation to snapthirdline@mohcoag.org.\nStep 2. Then by timing of the detectable viral load (DVL):\n  - 1st DVL in the 1st or 2nd trimester: intensive adherence interventions as in Path A.\n  - 1st DVL in the 3rd trimester, OR 2nd DVL in any trimester: Empiric therapy, chosen by prior PI use:\n  - No prior PI: TLD 1 tab OD PLUS EITHER DRV/r (400/50) 2 tabs OD* OR ATV/r (300/50) 1 tab OD (*if available)\n  - Prior PI: TLD 1 tab OD PLUS DRV/r (600/100) BD\n  Provide the same intensive adherence interventions as in Path A.\n\nWhen the baby is born:\n  - 2 drug EIP x 6 weeks (X6/52) and then NVP only, minimum 14 weeks (14/52), and mother is documented undetectable.\n  - Consider 3 drug ART for babies born to women with seroconversion at delivery; perform 2 tests prior to initiation.\n  - VL at delivery for all women.\n  - Birth test all infants.\n  - Please consult for PLW with viraemia on concurrent ATT.",
-   "footnotes": [],
-   "source_flags": [
-    "Flowchart is an image in the PDF; transcribed from the page image (no text layer to check against).",
-    "Path A is ONE condition box (VL 50-1000 and DTG <18/12), not two paths.",
-    "The '*' on 'DRV/r 2 tabs od*' and '*if available' are printed as is; it is not clear whether 'if available' qualifies DRV/r or ATV/r."
-   ]
   },
   {
    "kind": "diagram",
@@ -1344,6 +1474,47 @@
    ]
   },
   {
+   "table_id": "hiv-amendment-2024-tbl-9.3-pyridoxine",
+   "page": 38,
+   "printed_page": 32,
+   "image_only": false,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.3 Tuberculosis Preventive Therapy (TPT) for Treatment of Latent TB Infection (LTBI) > Pyridoxine (Vit B6) dosing",
+   "caption": "Pyridoxine (Vitamin B6) dosing for clients on INH",
+   "caption_note": "No printed title; referenced above as '*See below for Pyridoxine (Vit B6) Dosing'.",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0078"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Pyridoxine (Vitamin B6)"
+     },
+     {
+      "t": "Special Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "All Clients on INH"
+     },
+     {
+      "t": "1-2 mg/kg daily. Typically given as 12.5mg or 25mg daily dose. May increase to 50mg-100mg daily if peripheral neuropathy persists at lower doses."
+     },
+     {
+      "t": "To be given with INH. May increase dose if peripheral neuropathy persists at lower doses (2mg/kg)."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
    "table_id": "hiv-amendment-2024-tbl-9.3-tpt",
    "page": 38,
    "printed_page": 32,
@@ -1417,47 +1588,6 @@
     "The PDF prints the 3HP drug column as 'Isoniazid + Rifampicin x 3mo', but the dosing column (and the 3HP regimen) uses rifapentine. Possible error in the source: clinician to confirm.",
     "This table is an image in the PDF (no text layer); numbers were checked against the original chunk only."
    ]
-  },
-  {
-   "table_id": "hiv-amendment-2024-tbl-9.3-pyridoxine",
-   "page": 38,
-   "printed_page": 32,
-   "image_only": false,
-   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.3 Tuberculosis Preventive Therapy (TPT) for Treatment of Latent TB Infection (LTBI) > Pyridoxine (Vit B6) dosing",
-   "caption": "Pyridoxine (Vitamin B6) dosing for clients on INH",
-   "caption_note": "No printed title; referenced above as '*See below for Pyridoxine (Vit B6) Dosing'.",
-   "replaces_chunks": [
-    "hiv-amendment-2024-0078"
-   ],
-   "row_header_cols": 1,
-   "header": [
-    [
-     {
-      "t": "Population"
-     },
-     {
-      "t": "Pyridoxine (Vitamin B6)"
-     },
-     {
-      "t": "Special Considerations"
-     }
-    ]
-   ],
-   "body": [
-    [
-     {
-      "t": "All Clients on INH"
-     },
-     {
-      "t": "1-2 mg/kg daily. Typically given as 12.5mg or 25mg daily dose. May increase to 50mg-100mg daily if peripheral neuropathy persists at lower doses."
-     },
-     {
-      "t": "To be given with INH. May increase dose if peripheral neuropathy persists at lower doses (2mg/kg)."
-     }
-    ]
-   ],
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "table_id": "hiv-amendment-2024-tbl-9.4-tb-while-on-art",
@@ -1621,6 +1751,45 @@
    "source_flags": []
   },
   {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-9.4-paeds-art-follow-up",
+   "page": 40,
+   "printed_page": 34,
+   "image_only": true,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.5 Clinical Monitoring of Children & Adolescents on ART > ART follow-up schedule and MMD eligibility",
+   "caption": "Figure 9.4 Key ART follow-up schedule for children and adolescents starting ART and MMD eligibility",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0084",
+    "hiv-amendment-2024-0085",
+    "hiv-amendment-2024-0086"
+   ],
+   "content": "Ensure weight-band dose adjustments when refilling paediatric clients' ART.\n\n- ART initiation: follow up 2 weeks and 1 month after initiation. First VL at 3 months. Monthly refills.\n- >1 year old (on ART): if undetectable viral load x2 and clinically stable [note 1], may space to 3-month refills.\n- >2 years old (on ART): if undetectable viral load x1 and clinically stable [note 1], may space to 3-month refills. When undetectable viral load x2 and clinically stable [note 1], may space to 6-month refills.\n\n[note 1] Although children younger than 5 years are defined as having Advanced HIV Disease at presentation, those who have been receiving ART >1 year and who are clinically stable (reliable caregiver, undetectable viral load, no OIs, normal growth curve, normal development, appropriately immunized for age, stable vital signs) should not be considered to have advanced disease and should be eligible/have the option for multi-month dispensing. Multi-month (MMD) refills should include prophylaxis (CTX, TPT). Family-centred care should be implemented, and ART care appointments for the mother and their babies should be linked to the mother-baby pair visit schedules. Caregiver literacy is emphasised to ensure adherence and retention in care.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "'>1 year old' and '>2 years old' are printed as the stage headings; read in context as time on ART (the Chapter 9 summary says 'children stable on ART >1-2 years ... >2 years')."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-9.6-vl-schedule-0-19",
+   "page": 40,
+   "printed_page": 34,
+   "image_only": true,
+   "heading_path": "Chapter 9: ART for Children & Adolescents > 9.6 Laboratory Monitoring of Children & Adolescents on ART > VL testing schedule for clients 0-19 years old",
+   "caption": "VL and CD4 testing schedule for clients 0-19 years old",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0087",
+    "hiv-amendment-2024-0088"
+   ],
+   "content": "Baseline and 3-month VL tests are additional tests; this aligns with the CWF visits and supports service integration. VL testing should routinely be done at 0, 3, 9 and 15 months and thereafter every 6 months.\n\nTests at each time point:\n- ART initiation: CD4 and VL\n- 3 months: VL\n- 6 months: CD4\n- 9 months: VL\n- 12 months: CD4\n- 15 months: VL\n- Every 6 months thereafter: VL",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "The old chunk listed these tests shifted against the time points; corrected from the image."
+   ]
+  },
+  {
    "table_id": "hiv-amendment-2024-tbl-9.7-second-line-paeds",
    "page": 41,
    "printed_page": 35,
@@ -1757,6 +1926,99 @@
    ],
    "source_flags": [
     "In the ≥30 kg / TDF+3TC+EFV row the PDF itself cuts off the alternative regimen at '(ATV/r* or LPV'."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-10.1-pss-screening",
+   "page": 43,
+   "printed_page": 37,
+   "image_only": true,
+   "heading_path": "Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support > Screening for common psychological disorders & social issues",
+   "caption": "Figure 10.1 Psycho-social (PSS) Risk Assessment Screening Tool score chart",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0092",
+    "hiv-amendment-2024-0093",
+    "hiv-amendment-2024-0094"
+   ],
+   "content": "Every client seen by an HCW must be screened for common psychological disorders and social issues (depression, suicide, anxiety, substance use, social issues) using the Psychosocial Risk Assessment Screening Tool, then provided Psychological First Aid (PFA) and referred to a psychologist or social worker.\n\nAction by area (as printed in the chart):\n- Depression: if the client responded yes or sometimes, provide PFA then refer to psychologist.\n- Suicide: same.\n- Anxiety: same.\n- Substance use: same.\n- Social issues: same (chart says refer to psychologist).\n\nScoring rules printed below the chart:\n- 'Yes' or 'sometimes' for questions 1-10: provide PFA and refer to psychologist.\n- 'Yes' or 'sometimes' for questions 11-15: provide PFA and refer to clinical social worker.\n- 'No': continue with SUAC.\n\nAny client who answers YES to suicidal ideation should be further assessed and admitted if they are at risk of self-harm.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "The chart sends social issues to the psychologist, while the rule below sends questions 11-15 to the clinical social worker. Possible inconsistency in the source; clinician to confirm."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-10.2-phq9",
+   "page": 44,
+   "printed_page": 38,
+   "image_only": true,
+   "heading_path": "Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support > Depression screening (PHQ-9)",
+   "caption": "Figure 10.2 Depression screening using PHQ-9 score chart",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0095",
+    "hiv-amendment-2024-0096"
+   ],
+   "content": "PHQ-9 score: severity and action\n- 0-4: no or minimal depression. Action: none.\n- 5-9: mild depression. Action: monitor and repeat PHQ-9 after 2 weeks to 3 months depending on symptom severity.\n- 10-14: moderate depression. Action: counselling + pharmacotherapy.\n- 15-19: moderately severe depression. Action: psychotherapy + pharmacotherapy.\n- 20-27: severe depression. Action: start pharmacotherapy and refer immediately to the National Psychiatric Hospital.\n\nIf a client scores 10 and above, they must be given psychotherapy as indicated in Section 5.9.2 of the 2022 Integrated HIV Management Guidelines and Annex 11.24.",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "The old chunk was cut off at the severe-depression action."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-10.3-suicide-risk",
+   "page": 44,
+   "printed_page": 38,
+   "image_only": true,
+   "heading_path": "Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support > Suicide screening",
+   "caption": "Figure 10.3 Suicide screening using Suicide Risk Assessment Tool score chart",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0097",
+    "hiv-amendment-2024-0098"
+   ],
+   "content": "Suicide Risk Assessment Tool score: risk and management\n- 0-10: low. Provide psychotherapy and refer for psychiatric services.\n- 11-20: medium. Provide psychotherapy and refer for psychiatric services.\n- 20-30: high. Refer to psychiatric centre / involuntary admission.\n\nProvide psychotherapy or refer. Rule out mental disorders such as major depressive disorder and manage as indicated (Mental Health Desk Guide, 2022).",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image.",
+    "Score bands overlap at 20 ('11-20' and '20-30') as printed; clinician to confirm which band a score of 20 falls in."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-10.4-bai-anxiety",
+   "page": 45,
+   "printed_page": 39,
+   "image_only": true,
+   "heading_path": "Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support > Anxiety screening (BAI)",
+   "caption": "Figure 10.4 Anxiety screening using Beck Anxiety Inventory (BAI)",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0099",
+    "hiv-amendment-2024-0100"
+   ],
+   "content": "BAI score: level and management\n- 0-21: low anxiety. Provide Psychological First Aid; refer to doctor-led services every 6 months for review.\n- 22-35: moderate anxiety. Psychotherapy; refer to psychiatric services.\n- 36+: potentially concerning level of anxiety. Psychotherapy; refer to psychiatric services.\n\nRefer to the clinical psychologist for psychotherapy if there is no improvement with counselling (Mental Health Desk Guide, 2022).",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-amendment-2024-fig-10.5-assist-substance-use",
+   "page": 45,
+   "printed_page": 39,
+   "image_only": true,
+   "heading_path": "Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support > Substance use screening (ASSIST)",
+   "caption": "Figure 10.5 Substance use screening using ASSIST screening tool",
+   "replaces_chunks": [
+    "hiv-amendment-2024-0101"
+   ],
+   "content": "ASSIST score: risk and management\n- 0-3: low. Brief education: inform patients about the risks of illicit drug use and signs of substance use disorder.\n- 4-26: moderate. Brief intervention: motivational interviewing to raise patients' awareness of their substance use; refer to psychiatric services.\n- 27+: severe. Brief intervention: psychotherapy and refer to psychiatric services.\n\nCarefully assess for drug use patterns and related physical, psychological and social issues contributing to substance use behaviour (Mental Health Desk Guide, 2022).",
+   "footnotes": [],
+   "source_flags": [
+    "Image in the PDF; transcribed from the page image."
    ]
   }
  ]
