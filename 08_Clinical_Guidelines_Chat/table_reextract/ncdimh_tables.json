@@ -2521,6 +2521,513 @@
    "source_flags": [
     "The old chunk for this table repeated the complications table; the discharge criteria were missing."
    ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-dka-algorithm",
+   "page": 50,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Diabetic Emergencies > Algorithm for DKA",
+   "caption": "Algorithm for DKA (flowchart: assessment, resuscitation, IV therapy, insulin, monitoring, cerebral oedema)",
+   "replaces_chunks": [
+    "ncdimh-0138",
+    "ncdimh-0139"
+   ],
+   "content": "Immediate assessment:\n- Clinical history: polyuria, polydipsia, nocturia, enuresis, weight loss, nausea, vomiting, abdominal pain, weakness, fatigue, confusion, level of consciousness.\n- Clinical signs: dehydration; deep sighing respiration (Kussmaul); smell of ketones; lethargy/drowsiness.\n- Biochemical features & investigations: ketones in urine; blood glucose; acidaemia (vpH < 7.3, HCO3 <15 mmol/L); urea, electrolytes; other investigations as indicated.\nDiagnosis confirmed: diabetic ketoacidosis. Contact senior staff.\n\nThen by clinical state:\nA. Shock (reduced peripheral pulses), reduced conscious level/coma: resuscitation: airway ± NG tube; breathing (100% oxygen); circulation: 0.9% saline 10-20 ml/kg over 1-2 h, repeat until circulation is restored (see CE management). Then IV therapy (as B).\nB. Dehydration >5%, not in shock, acidotic (hyperventilation), vomiting: IV therapy: saline 0.9% 10 ml/kg over 1 h, may repeat; calculate fluid requirements; correct fluid deficit over 24-48 hours; ECG for abnormal T-waves; add KCl 40 mmol per litre of fluid.\nC. Minimal dehydration, tolerating oral fluid: therapy: start with SC insulin; continue oral hydration. If no improvement: IV therapy (as B).\n\nAfter IV therapy: continuous insulin infusion at 0.05-0.1 unit/kg/hour, starting 1 hour after fluids initiated.\n\nCritical observations: hourly blood glucose; hourly fluid input & output; neurological status at least hourly; electrolytes 2-hourly after starting IV fluid therapy; monitor ECG for T-wave changes.\n\nThen:\n- Acidosis not improving: re-evaluate IV fluid calculations, insulin delivery system & dose, need for additional resuscitation; consider sepsis.\n- Blood glucose ≤17 mmol/L (300 mg/dL) or blood glucose falls >5 mmol/L/hour (90 mg/dL): IV therapy: change to 0.45% or 0.9% saline; add glucose to fluids (5%-12.5%) to prevent hypoglycaemia; adjust sodium infusion to promote an increase in measured serum sodium. When improved (clinically well, ketoacidosis resolved, tolerating oral fluids): transition to SC insulin: start SC insulin, then stop IV insulin after an appropriate interval.\n- Neurological deterioration: warning signs: severe or progressive headache, slowing heart rate, irritability, confusion, decreased consciousness, incontinence, specific neurological signs. Exclude hypoglycaemia; is it cerebral oedema? CE (cerebral oedema) management: give mannitol 0.5-1 g/kg or 3% hypertonic saline; adjust IV fluids to maintain normal BP but avoid over-hydration; call senior staff; move to ICU; consider cranial imaging only after the patient is stabilized.",
+   "footnotes": [],
+   "source_flags": [
+    "Fluid volumes here (10 ml/kg over 1 h; 10-20 ml/kg boluses) are weight-based, unlike the adult DKA fluid table on p.36 (1 L over 30-60 min). The algorithm does not say whether it is for children; clinician to confirm.",
+    "Insulin infusion here is 0.05-0.1 unit/kg/hour starting 1 hour after fluids; the adult protocol on p.37 gives a 0.1 unit/kg bolus then 0.1 unit/kg/hr.",
+    "Printed 'Kettones', 'Deep signing respiration', 'Consider sepsi'; corrected."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-hypoglycaemia-management",
+   "page": 51,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Hypoglycemia > Management of hypoglycaemia by level",
+   "caption": "Management of hypoglycaemia by level (mild, moderate, severe): glucose thresholds and actions",
+   "replaces_chunks": [
+    "ncdimh-0142"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Level"
+     },
+     {
+      "t": "Blood glucose"
+     },
+     {
+      "t": "Description"
+     },
+     {
+      "t": "Action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Level 1 (mild): hypoglycaemia alert"
+     },
+     {
+      "t": "≤ 3.9 mmol/L but ≥ 3.0 mmol/L"
+     },
+     {
+      "t": "Requires treatment with fast-acting carbohydrate. Patient alert and able to eat."
+     },
+     {
+      "t": "Treat with oral glucose. Give a sugary snack and recheck blood glucose in 15 min. If blood glucose remains ≤ 3.9 mmol/L, repeat the previous step. Give a carbohydrate meal when blood glucose is ≥ 5.0 mmol/L."
+     }
+    ],
+    [
+     {
+      "t": "Level 2 (moderate): clinically significant hypoglycaemia"
+     },
+     {
+      "t": "< 3.0 mmol/L"
+     },
+     {
+      "t": "Indicates serious, clinically significant hypoglycaemia. Patient may be alert or may have reduced consciousness."
+     },
+     {
+      "t": "Treat with IV glucose. Give 10 ml 50% glucose IV and recheck blood glucose in 2 min. If blood glucose remains <5 mmol/L, repeat the previous step. Give an infusion of 10% glucose IV if more than 2 doses of IV glucose are required. Give a carbohydrate meal when blood glucose is ≥ 5.0 mmol/L and the patient is alert and able to eat. Observe for 4 hrs, checking blood glucose every 1 hr."
+     }
+    ],
+    [
+     {
+      "t": "Level 3 (severe)"
+     },
+     {
+      "t": "No specific value"
+     },
+     {
+      "t": "Associated with severe cognitive impairment requiring external help for recovery. Patient has reduced consciousness."
+     },
+     {
+      "t": "Treat as for level 2 hypoglycaemia. Likely to need hospital admission."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The level 2 actions continue onto p.52."
+   ],
+   "pages": [
+    51,
+    52
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-hypoglycaemia-symptoms",
+   "page": 51,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Management of Hypoglycemia > Clinical presentation",
+   "caption": "Hypoglycaemia clinical presentation: adrenergic (early) vs neuroglycopenic (late) symptoms",
+   "replaces_chunks": [
+    "ncdimh-0141"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Adrenergic (early) symptoms"
+     },
+     {
+      "t": "Neuroglycopenic (late) symptoms"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Severe hunger; cold, clammy skin; profuse sweating; palpitations; tremors; weakness; headache"
+     },
+     {
+      "t": "Irritability; confusion; disorientation; seizures; coma; sudden collapse (common in type 1 DM or in hypoglycaemia unawareness)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Hypoglycaemia is a medical emergency, characterized by blood glucose <4 mmol/L. Some patients may have symptoms at higher levels; individualize care."
+  },
+  {
+   "table_id": "ncdimh-tbl-tdi-starting-dose",
+   "page": 52,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Total daily insulin (TDI) starting dose by patient type",
+   "caption": "Total daily insulin (TDI) starting dose by patient type (non-critical hospitalized adults)",
+   "replaces_chunks": [
+    "ncdimh-0144"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Patient type"
+     },
+     {
+      "t": "Clinical characteristics"
+     },
+     {
+      "t": "Insulin sensitivity"
+     },
+     {
+      "t": "Recommended TDI starting dose"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Insulin-naive, normal weight"
+     },
+     {
+      "t": "Newly diagnosed; BMI 18-30; eating reliably; normal renal function"
+     },
+     {
+      "t": "Normal sensitivity"
+     },
+     {
+      "t": "0.3-0.4 units/kg/day"
+     }
+    ],
+    [
+     {
+      "t": "Insulin-sensitive / high risk for hypoglycaemia"
+     },
+     {
+      "t": "Elderly (>65); renal/hepatic impairment; frail; underweight; NPO"
+     },
+     {
+      "t": "High sensitivity"
+     },
+     {
+      "t": "0.15-0.2 units/kg/day (basal-only: 0.1-0.2). Reduce PM NPH by 20-30% if nocturnal hypoglycaemia risk"
+     }
+    ],
+    [
+     {
+      "t": "Obese / overweight type 2 diabetes"
+     },
+     {
+      "t": "BMI >30; known insulin resistance"
+     },
+     {
+      "t": "Insulin-resistant"
+     },
+     {
+      "t": "0.5-0.6 units/kg/day"
+     }
+    ],
+    [
+     {
+      "t": "Marked insulin resistance"
+     },
+     {
+      "t": "Chronic steroids; severe infection/sepsis; systemic inflammation; high-dose steroids; pregnancy; T2DM poor control"
+     },
+     {
+      "t": "Very insulin-resistant"
+     },
+     {
+      "t": "0.7-1.0 units/kg/day"
+     }
+    ],
+    [
+     {
+      "t": "Previously on insulin (well-controlled)"
+     },
+     {
+      "t": "On basal-bolus or premix; admission not related to hyperglycaemia"
+     },
+     {
+      "t": "Use previous insulin need"
+     },
+     {
+      "t": "70-100% of home TDI depending on oral intake"
+     }
+    ],
+    [
+     {
+      "t": "Previously on insulin (poor control)"
+     },
+     {
+      "t": "High HbA1c (>9%); persistent hyperglycaemia"
+     },
+     {
+      "t": "Often insulin-resistant"
+     },
+     {
+      "t": "0.5-0.6 units/kg/day (or increase previous TDI by 10-20% per glucose profile)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.53."
+   ],
+   "pages": [
+    52,
+    53
+   ],
+   "context_before": "Inpatient hyperglycaemia is a random blood glucose ≥ 7.8 mmol/L in a non-critical hospitalized patient. Admission HbA1c is recommended for all patients with diabetes or hyperglycaemia (>7.8 mmol/L) if not done in the last 3 months. A basal-bolus + correction approach is recommended; sole reliance on sliding scale insulin (SSI) is strongly discouraged (ADA & SEMDSA)."
+  },
+  {
+   "table_id": "ncdimh-tbl-cbg-correction-scale",
+   "page": 53,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Capillary blood glucose (CBG) insulin correction dose scale",
+   "caption": "Capillary blood glucose (CBG) insulin correction dose scale: units to add by CBG reading and insulin sensitivity",
+   "replaces_chunks": [
+    "ncdimh-0145",
+    "ncdimh-0146",
+    "ncdimh-0148",
+    "ncdimh-0149"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "CBG reading"
+     },
+     {
+      "t": "Pre-meal dose: sensitive (BMI <25 or TDI <50 units/d)"
+     },
+     {
+      "t": "Pre-meal dose: average (BMI 25-30 or TDI 50-90 units/d)"
+     },
+     {
+      "t": "Pre-meal dose: resistant (BMI >30 or TDI >90 units/d)"
+     },
+     {
+      "t": "Bedtime dose (eating patients only)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "< 3.9 mmol/L"
+     },
+     {
+      "t": "Follow hypoglycaemia protocol",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "3.9 - 8.3 mmol/L"
+     },
+     {
+      "t": "Give scheduled insulin only: no correction dose required",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "8.4 - 11.1 mmol/L"
+     },
+     {
+      "t": "1 unit"
+     },
+     {
+      "t": "2 units"
+     },
+     {
+      "t": "3 units"
+     },
+     {
+      "t": "0 units"
+     }
+    ],
+    [
+     {
+      "t": "11.2 - 13.9 mmol/L"
+     },
+     {
+      "t": "2 units"
+     },
+     {
+      "t": "4 units"
+     },
+     {
+      "t": "6 units"
+     },
+     {
+      "t": "1 unit"
+     }
+    ],
+    [
+     {
+      "t": "14.0 - 16.7 mmol/L"
+     },
+     {
+      "t": "3 units"
+     },
+     {
+      "t": "6 units"
+     },
+     {
+      "t": "9 units"
+     },
+     {
+      "t": "2 units"
+     }
+    ],
+    [
+     {
+      "t": "16.8 - 19.4 mmol/L"
+     },
+     {
+      "t": "4 units"
+     },
+     {
+      "t": "8 units"
+     },
+     {
+      "t": "12 units"
+     },
+     {
+      "t": "3 units"
+     }
+    ],
+    [
+     {
+      "t": "19.5 - 22.2 mmol/L"
+     },
+     {
+      "t": "5 units + CALL"
+     },
+     {
+      "t": "10 units + CALL"
+     },
+     {
+      "t": "15 units + CALL"
+     },
+     {
+      "t": "3 units + CALL"
+     }
+    ],
+    [
+     {
+      "t": "> 22.2 mmol/L"
+     },
+     {
+      "t": "6 units + CALL"
+     },
+     {
+      "t": "12 units + CALL"
+     },
+     {
+      "t": "18 units + CALL"
+     },
+     {
+      "t": "3 units + CALL"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Key notes: correction doses are based on fasting or pre-meal BG readings only. The correction dose is ADDED to the scheduled (basal-bolus) insulin dose. Bedtime correction doses apply to eating patients only; omit for NPO patients; bedtime correction doses should be REDUCED by 50%. '+ CALL' = notify the prescriber immediately for clinical review. NPO patients: consider IV fluids and TPN; consult endocrinologist; administer SC insulin only as directed; reduce bolus insulin and use the level 1 correction scale; reassess TDI daily. If hypoglycaemia occurs or is recurrent, step DOWN one sensitivity level (resistant to average to sensitive). Reassess TDI and correction scale level daily based on glucose trends and clinical status. Adapted from Umpierrez et al. & Magaji et al. TDI = total daily insulin; NPO = nil per os; SC = subcutaneous; TPN = total parenteral nutrition."
+   ],
+   "source_flags": [
+    "The PDF prints two overlapping 'Key notes' boxes; merged into one.",
+    "'Bedtime correction doses should be REDUCED by 50%' appears alongside a bedtime column that already lists reduced doses; clinician to confirm whether a further 50% reduction applies."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-sc-insulin-order-protocol",
+   "page": 54,
+   "image_only": false,
+   "heading_path": "Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Insulin subcutaneous: basal, bolus and correction (sliding scale) order protocol",
+   "caption": "Subcutaneous insulin order protocol (basal, bolus and correction) for adult non-ICU patients who are NPO, on TPN, eating or tube-fed",
+   "replaces_chunks": [
+    "ncdimh-0151",
+    "ncdimh-0152",
+    "ncdimh-0153"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Section"
+     },
+     {
+      "t": "Instruction"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Scope"
+     },
+     {
+      "t": "For adult patients who are NPO*, on TPN**, eating meals, or on bolus or continuous tube feedings. Not used for ICU patients, DKA, or hyperosmolar state. Initiate the protocol for adult patients with known diabetes mellitus and anyone with two or more random (e.g., 6 hours apart) blood glucose readings > 10 mmol/l (order HbA1c if none obtained)."
+     }
+    ],
+    [
+     {
+      "t": "Goal of therapy"
+     },
+     {
+      "t": "To minimize the need for correction insulin doses (sliding scale) and to provide insulin as regularly scheduled basal and bolus insulin for more efficient control of blood glucose. To maintain capillary blood glucose (CBG) at 7.8-10.0 mmol/L."
+     }
+    ],
+    [
+     {
+      "t": "Monitoring"
+     },
+     {
+      "t": "Measure CBG: eating patients: before meals and at bedtime; bolus tube-feeding patients: before each feeding; NPO or continuous tube-feeding patients: every 4 hours (rapid insulin) or every 6 hours (regular insulin). In case of high morning blood sugar, measure CBG at 3:00 a.m. to distinguish between Somogyi effect and dawn phenomenon."
+     }
+    ],
+    [
+     {
+      "t": "Medications"
+     },
+     {
+      "t": "Discontinue all previous antihyperglycemic agents (injection/oral): yes/no; if yes, continue to calculate the insulin dose. Calculate the initial total daily insulin (TDI) per day: 0.25 units per kg: chronic kidney disease not on dialysis; 0.3 units per kg: underweight (BMI < 18.5), older age (≥65 years), haemodialysis; 0.4 units per kg: normal weight (BMI 18.5-24.9); 0.5 units per kg: overweight (BMI 25.0-29.9); ≥ 0.6 units per kg: obese (BMI ≥30), glucocorticoids, insulin resistance."
+     }
+    ],
+    [
+     {
+      "t": "Basal insulin (longer acting)"
+     },
+     {
+      "t": "Order 50% of the TDI. Should be given even if NPO*. Reduce dose by 25% if NPO*/poor intake/glycaemia well controlled. ___ units subcutaneous at ___ (Q24 or Q12 hours)."
+     }
+    ],
+    [
+     {
+      "t": "Bolus insulin (shorter acting)"
+     },
+     {
+      "t": "Order 50% of the TDI. HOLD if NPO*, TPN**, low oral intake. Divided equally before each meal/bolus feed. If continuous feed: every 4 hours (rapid insulin), every 6 hours (regular insulin). Insulin REGULAR: ___ units SC 30 minutes BEFORE each meal/bolus feed, or every 6 hours if continuous feed."
+     }
+    ],
+    [
+     {
+      "t": "Correction / sliding scale (shorter acting)"
+     },
+     {
+      "t": "SHOULD be ordered and given even if NPO*. Eating patients: before meals and at bedtime (prefer rapid acting insulin); insulin REGULAR SC 30 minutes before meals. Bolus feed patients: before each feeding. TPN**, NPO* or continuous tube feeding: every 4 hours (rapid acting insulin), every 6 hours (regular insulin)."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Order-form layout with blanks and tick boxes; restructured as one row per section.",
+    "TDI per kg here (0.25-≥0.6) differs from the TDI starting-dose table on pp.42-43 (0.15-1.0 by patient type)."
+   ],
+   "pages": [
+    54,
+    55
+   ],
+   "context_before": "Sliding scale insulin is designed to be given occasionally in addition to the scheduled bolus dose to correct unexpected hyperglycaemia; it should not be given routinely OR BY ITSELF. Add up all insulin over 24 hours from all components of the pre-admission regimen and choose the dose scale according to 24-hour insulin use; consider starting at low dose for patients at high risk of hypoglycaemia (renal dysfunction, hypoglycaemia unawareness, insulin-naive, elderly). If correction insulin is given frequently, reassess the basal and nutritional doses. During initiation, the next day's basal dose can be increased by carefully adding 50% of the previous day's correction doses (excluding the nutritional component)."
   }
  ]
 }
