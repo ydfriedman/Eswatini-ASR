@@ -1,0 +1,145 @@
+0013 11 loc |OLD Chapter 1: Prevention, Health Education and Routine Health Examination 
+      NEW Examinations |  ## **CHAPTER 1**  ## **PREVENTION, HEALTH EDUCATION AND ROUT
+0015 11 loc |OLD NCD Risk Factors 
+      NEW NCD Risk Factors |  ## PREVENTION, HEALTH EDUCATION AND ROUTINE HEALTH EXAMINATI
+0016 12 loc |OLD NCD Risk Factors > Screening for and Identifying Modifiable Risk Facto 
+      NEW NCD Risk Factors > Target Population for Screening |  ### **Target Population for Screening**  * All adults aged 1
+0021 14 loc |OLD Management of Identified Risk Factors > Tobacco Cessation 
+      NEW Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patien |  ### **Tobacco Cessation**  - Brief advice: Use the 5 A's (As
+0022 14 loc |OLD Unhealth Diet 
+      NEW Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patien |  ### **Healthy Diet**  - Increase fruits and vegetables to at
+0023 14 loc |OLD Physical Inactivity > Immediate/Urgent Referral 
+      NEW Management of Identified Risk Factors > Referral to Specialist Care |  ## **Referral Criteria and Follow-Up**  ## Referral to Speci
+0025 15 loc |OLD Physical Inactivity > Documentation 
+      NEW Management of Identified Risk Factors > Referral to Specialist Care |  ## **Documentation**  * Record all risk factors identified, 
+0026 15 loc |OLD Physical Inactivity > Patient Education Priorities 
+      NEW Management of Identified Risk Factors > Referral to Specialist Care |  ## **Patient Education Priorities**  * Explain the link betw
+0027 16 loc |OLD Physical Inactivity > Introduction 
+      NEW Physical Inactivity > Key Definitions |  # Key Definitions  **Physical Activity (PA):** Any bodily mo
+0030 17 loc |OLD Screening for Physical Inactivity > Simple Screening Questions 
+      NEW Screening for Physical Inactivity |  # Simple Screening Questions  Use these quick questions duri
+0031 17 loc |OLD Health Consequences of Physical Inactivity > Increased Risk of 
+      NEW Health Consequences of Physical Inactivity |  ### **Increased Risk of**  - All-cause mortality (20-30% inc
+0033 17 loc |OLD Brief Counseling Intervention (5 A'S Framework) > Practical Recommenda 
+      NEW Practical Recommendations for Eswatini Context Low-Cost, Accessible Activities |  ## <u>Practical Recommendations for Eswatini Context Low-Cos
+0034 18 loc |OLD Brief Counseling Intervention (5 A'S Framework) > Special Consideratio 
+      NEW Practical Recommendations for Eswatini Context Low-Cost, Accessible Activities |  # **Special Considerations**  - Chronic diseases: Physical a
+0039 20 loc |OLD Alcohol Use > Health Harms of Alcohol Use 
+      NEW Alcohol Use |  ## **Health Harms of Alcohol Use**  Alcohol is causally link
+0040 20 loc |OLD Cancer Risk > Other Major Health Consequences 
+      NEW Cancer Risk > Other Major Health Consequences |  ## **Other Major Health Consequences**  - **Cardiovascular d
+0041 20 loc |OLD Screening for Alcohol Use > Who to Screen 
+      NEW Screening for Alcohol Use |  ### **Who to Screen**  - ALL adult patients (≥18 years) atte
+0046 21 NOLOC |OLD Brief Intervention: The 5 A's > Pregnant Women and Women of Childbeari 
+      NEW Brief Intervention: The 5 A’s |  ## Alcohol Use  ## Special Populations  ### **Pregnant Women
+0047 22 loc |OLD Brief Intervention: The 5 A's > Patients Living with HIV 
+      NEW Brief Intervention: The 5 A’s > ABSOLUTE RECOMMENDATION: Complete abstinence during pregna |  ## Patients Living with HIV  - Alcohol reduces ART adherence
+0048 22 loc |OLD Brief Intervention: The 5 A's > Patients Living with HIV > Patients on 
+      NEW Brief Intervention: The 5 A’s > ABSOLUTE RECOMMENDATION: Complete abstinence during pregna |  ## Patients on TB Treatment  - Alcohol interferes with TB me
+0049 22 loc |OLD Brief Intervention: The 5 A's > Older Adults (≥65 years) 
+      NEW Brief Intervention: The 5 A’s > ABSOLUTE RECOMMENDATION: Complete abstinence during pregna |  ## Older Adults (≥65 years)  - Increased sensitivity to alco
+0050 23 loc |OLD Practical Strategies for Patients > Managing Cravings and Triggers 
+      NEW Practical Strategies for Patients |  ## **Managing Cravings and Triggers**  - Recognize triggers:
+0052 23 loc |OLD Unhealth Diet 
+      NEW Unhealthy Diet |  ## Unhealthy Diet  Unhealthy dietary patterns contribute sig
+0056 25 loc |OLD Unhealth Diet > ⚠️ Foods to Limit ⚠️ > Routine Health Examinations: Wh 
+      NEW Unhealthy Diet |  ## **Routine Health Examinations: What to look for When Acce
+0057 25 loc |OLD Hypertension 
+      NEW Hypertension |  ### **HYPERTENSION**  Hypertension is defined as systemic bl
+0065 28 loc |OLD Lipids Disorder 
+      NEW Lipids Disorders |  ### **LIPIDS DISORDERS**  Screening guidelines for lipids di
+0074 31 loc |OLD Testing and Diagnosis of Diabetes > Criteria for Testing 
+      NEW Testing and Diagnosis of Diabetes |  ### Criteria for Testing  - Age 18 years and above to be scr
+0075 32 loc |OLD Diagnosis of Diabetes is Confirmed when 
+      NEW Diagnosis of Diabetes is Confirmed When |  ## **Diagnosis of Diabetes is Confirmed When**  The diagnosi
+0088 37 loc |OLD Insulin Therapy in Type 2 Diabetes 
+      NEW Insulin Therapy in Type 2 Diabetes |  Diabetes is a progressive condition, and many patients with 
+0101 40 loc |OLD Insulin Therapy in Type 2 Diabetes > Insulin requirements (to use STG  
+      NEW Insulin Therapy for Type 1 Diabetes |  ### **Insulin requirements (to use STG pediatric guidelines 
+0102 40 loc |OLD Insulin Therapy in Type 2 Diabetes > Initiating therapy in a child who 
+      NEW Insulin Therapy for Type 1 Diabetes |  ### **Initiating therapy in a child who is not in DKA**  Bre
+0112 43 loc |OLD Insulin Regimens > How to inject insulin with a Syringe 
+      NEW How to inject insulin with a Syringe |  ## **How to inject insulin with a Syringe**  Wash your hands
+0113 43 loc |OLD Insulin Regimens > Recommended sites for insulin injection 
+      NEW How to inject insulin with a Syringe |  ### **Recommended sites for insulin injection**  **Injection
+0140 51 loc |OLD Diabetic Emergencies > Hypoglycemia 
+      NEW Hypogylcemia |  ## **Hypoglycemia**  Hypoglycemia is a medical emergency and
+0143 52 loc |OLD Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols 
+      NEW Glycemic Control in Non-Critical Hospitalized Adult Patients Protocol |  ## **Glycemic Control in Non-Critical Hospitalized Adult Pat
+0150 54 loc |OLD Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols 
+      NEW Glycemic Control in Non-Critical Hospitalized Adult Patients Protocol > 3 units + CALL |  ## **Correction /sliding scale – selection of low, medium or
+0157 56 loc |OLD Management of Comorbidities and Complications 
+      NEW Management of Comorbidities and Complications |  ## Management of Comorbidities and Complications  - Hyperten
+0158 56 loc |OLD Diet Education 
+      NEW Diet Education |  ## Diet Education  - ½ of the plate: non-starch Vegetables -
+0159 57 loc |OLD Diet Education > VEGETABLES / SALAD Half your plate! 
+      NEW Diet Education |  ### **VEGETABLES / SALAD Half your plate!**  Raw or cooked v
+0160 57 loc |OLD Diet Education > FATS (Use ANY oils sparingly!) 
+      NEW Diet Education |  #### **FATS (Use ANY oils sparingly!)**  Olives, olive oil, 
+0161 57 loc |OLD Diabetes > At every visit 
+      NEW Diet Education |  ## Follow-up  #### **At every visit**  Weight, Vital Signs, 
+0173 62 loc |OLD Diabetes in Special Populations > The Elderly and Frail 
+      NEW Diabetes in Special Populations > The Elderly and Frail |  ### **The Elderly and Frail**  * Screening for diabetes comp
+0174 62 loc |OLD Diabetes in Special Populations > Diabetes in HIV 
+      NEW Diabetes in Special Populations > Diabetes in HIV |  ### **Diabetes in HIV**  * A dose adjustment of Metformin sh
+0178 63 loc |OLD Diabetes in Special Populations > Diabetes and TB 
+      NEW Diabetes in Special Populations > Diabetes and TB |  # **Diabetes and TB**  - Anti-TB drugs can influence the met
+0180 63 loc |OLD Diabetes in Special Populations > Definition(s) and Classification of  
+      NEW Management of Osteoporosis and Fragility Fractures > Definition(s) and Classification of O |  ### Definition(s) and Classification of Osteoporosis  The co
+0186 66 loc |OLD Diagnosis of Osteoporosis 
+      NEW Diagnosis of Osteoporosis |  ### **Diagnosis of Osteoporosis**  The diagnosis of osteopor
+0194 70 loc |OLD Diagnosis of Osteoporosis > Algorithm for the Assessment of Patients w 
+      NEW Diagnosis of Osteoporosis > Algorithm for the Assessment of Patients with Osteoporosis |  ## Algorithm for the Assessment of Patients with Osteoporosi
+0196 72 loc |OLD Hyperthyroidism 
+      NEW Thyroid Disorders > Hypothyroidism |  ## **Hypothyroidism**  Definition(s) and Classification of H
+0198 72 loc |OLD Hyperthyroidism > Diagnostic Criteria 
+      NEW Thyroid Disorders > Diagnostic Criteria |  Investigations: Thyroid hormone profile Diagnosis: Maybe be 
+0199 73 loc |OLD Management of Hypothyroidism > Pharmacological Treatment 
+      NEW Management of Hypothyroidism > Pharmacological Treatment |  Initial dose: Clinical Hypothyroidism **D:** levothyroxine 1
+0200 73 loc |OLD Management of Hypothyroidism > Monitoring 
+      NEW Management of Hypothyroidism > Monitoring |  ## **Monitoring**  - TSH monitoring 6-8weeks after any levot
+0201 73 loc |OLD Management of Hypothyroidism > In Pregnancy 
+      NEW Management of Hypothyroidism > In Pregnancy |  ## **In Pregnancy**  When the elevation of the TSH level is 
+0202 74 loc |OLD Management of Hypothyroidism > In Pregnancy 
+      NEW Management of Hypothyroidism > In Pregnancy |  ## **Complications & Emergencies associated with Hypothyroid
+0203 74 loc |OLD Congenital Hypothyroidism 
+      NEW Congenital Hypothryroidism > Description |  **Description** - Congenital deficiency of thyroid hormone d
+0205 75 loc |OLD Congenital Hypothyroidism > Investigations 
+      NEW Congenital Hypothryroidism > Investigations |  ### **Investigations**  When suspected, perform a TSH test. 
+0206 75 loc |OLD Congenital Hypothyroidism > General and Supportive Measures > Pharmaco 
+      NEW Congenital Hypothryroidism > Pharmacological Treatment |  For neonates, start as soon as possible, ideally within the 
+0207 76 loc |OLD Congenital Hypothyroidism > General and Supportive Measures > Referral 
+      NEW Congenital Hypothryroidism > Referral |  # Referral  All patients for confirmation of diagnosis, but 
+0208 76 loc |OLD Congenital Hypothyroidism > Hypothyroidism In Older Children And Adole 
+      NEW Hypothyroidism In Older Children And Adolescents Description > Clinical |  ## Diagnostic Criteria  ### Clinical  **Clinical** Low growt
+0210 76 loc |OLD Congenital Hypothyroidism > Hypothyroidism In Older Children And Adole 
+      NEW Hypothyroidism In Older Children And Adolescents Description > Referral |  ## Referral  - All cases for investigation and initiation of
+0211 77 loc |OLD Hyperthyroidism > Clinical Manifestations 
+      NEW Hyperthyroidism > Clinical Manifestations |  ## Clinical Manifestations  - **Common symptoms:** nervousne
+0212 77 loc |OLD Hyperthyroidism > Clinical Manifestations > Diagnosis 
+      NEW Hyperthyroidism > Diagnosis |  ## <u>Diagnosis</u>  The diagnosis of hyperthyroidism involv
+0215 78 loc |OLD Non-Pharmacological Management of Hypothyroidism > Patient Education 
+      NEW Non-Pharmacological Management of Hyperthyroidism > Patient Education |  #### **Patient Education**  * Lifestyle modifications includ
+0217 79 loc |OLD Management of Hypothyroidism > Radioactive Iodine 
+      NEW Non-Pharmacological Management of Hyperthyroidism > Radioactive Iodine |  ### **Radioactive Iodine**  Potassium iodide (**B**) should 
+0219 80 loc |OLD Emergencies in Hyperthyroidism > Thyroid Storm/Thyrotoxic Crisis > Cli 
+      NEW Emergencies in Hyperthyroidism > Clinical Presentation |  #### **Clinical Presentation**  This rare, but potentially l
+0226 83 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Introd |  ## Introduction  A disease characterized by increased functi
+0227 84 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Causes |  ## 1. **Transient Gestational Hyperthyroidism**  - The most 
+0228 84 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Causes |  ## 2. **Graves' Disease**  - It is the thyroid pathology wit
+0229 84 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Diagno |  - TSH is considered the gold standard for the diagnosis of t
+0232 85 NOLOC |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Management of Hyperthyroidism in Special Populations Hyperthyroidism in Pregnancy > Monito |  (a) **Propylthiouracil:** this is the medication of choice d
+0233 87 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Hyperthyroidism, Graves Disease > Diagnostic Criteria |  - Tachycardia - Nervousness or anxiety - Thyromegaly  **Inve
+0234 88 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Hyperthyroidism, Graves Disease > Symptoms and signs of Cushing’s Syndrome |  ## Symptoms and signs of Cushing's Syndrome  - The symptoms 
+0235 88 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Hyperthyroidism, Graves Disease > Common presenting symptoms include |  ## Common presenting symptoms include  - Central obesity - F
+0239 89 loc |OLD Management of Hyperthyroidism in Special Populations Hyperthyroidism i 
+      NEW Hyperthyroidism, Graves Disease > Medical Therapy |  # Medical Therapy  S: metyrapone (PO) 30mg/kg, maximum dose 
+total 72
