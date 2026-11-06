@@ -33,8 +33,10 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 - FP 2021 part 1 (FP_1.pdf = pages 1-67, no offset; many pages carry an overprinted abbreviation list in the text layer): `batches/fp_b01.py` (generated, then method names, flags). Text labels derived automatically (last numbered section heading within the chapter). Counselling flowchart p25 checked and kept.
 - apply_reextraction.py: the small-chunk merge (step 4) no longer folds a chunk that opens a numbered section into the previous chunk (it was putting e.g. '6.6 Implants' under a CIC label); 11 chunks across PrEP/TB/Linkages/FP are now kept separate.
 
+- FP 2021 part 2 (FP_2.pdf = pages 68-118, offset 67): `batches/fp_b02.py` (generated with gen_tables_fp2.py; MEC wheel pp.105-106 replaced by a description; two-list tables collapsed; ECP flags). Text labels for the whole document derived automatically. **FP is complete.** Pipeline: fp_b01, fp_b02.
+
 ## Next after that
-The other guidelines, once the user provides the PDFs. Suggested order: HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
+The other guidelines, once the user provides the PDFs. Remaining: HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 
 ## Starting a new guideline
 1. Put the PDF in its own scratch dir; `pdftotext -layout` and `pdftoppm -jpeg -r 110` per page (pN.txt, pgN.jpg). Check whether old chunk `page_start` matches PDF pages (offset).

@@ -347,13 +347,17 @@ Pages are PDF pages. "Item" is the `table_id` in the chunk set.
 | 259 | Table 73: Treatment Regimens for MOTT Species (MOTT / NTM, Regimen (Adult Dose)) (`tb-2025-tbl-p259-0676`) | M. kansasii regimen gives ethambutol as '300mg'; the usual dose is 15 mg/kg daily (about 800-1200 mg). 'Pyridoxide' should be pyridoxine. |
 | 262 | 14.2.9 Classification of leprosy disabilities (Hands and Feet) (`tb-2025-tbl-p262-0689`) | Eye disability grade 1 is defined with vision '6/6 or better'; the WHO leprosy disability grading uses 6/60 (counting fingers at 6 metres). 'Count figures' should be 'count fingers'. |
 
-## Family Planning Guidelines 2021 (pages 1-67 so far)
+## Family Planning Guidelines 2021 (pages 1-118, complete)
 
 | Page | Item | Issue |
 |---|---|---|
 | 38 | When a pill or more is missed (Number of Missed Pills, Action to be taken) (`fp-2021-tbl-p38-0058`) | Missed progestin-only pills: the instructions ('take 2 pills as soon as she can and another 2 the next day'; for 3 missed pills 'do not attempt to replace') are combined-pill style. For POPs, WHO advises taking one pill as soon as possible whenever a pill is more than 3 hours late (27 hours for desogestrel), continuing daily, and using a backup method for the next 2 days. |
 | 40 | Who can use POPs: MEC (MEC Category 1, MEC Category 2, MEC Category 3, MEC Category 4) (`fp-2021-tbl-p40-0060`) | POP eligibility categories differ from the WHO MEC: elevated BP ≥160/100, history of DVT, stroke and ischaemic heart disease at initiation are WHO category 2 for POPs (here 3); acute DVT/PE, ischaemic heart disease or stroke while continuing, and SLE with antiphospholipid antibodies are WHO category 3 (here 4). |
 | 51 | Combined Oral Contraceptives (COCs): Who can use COCs (MEC Category 1, MEC Category 2, MEC Category 3, MEC Category 4) (`fp-2021-tbl-p51-0086`) | COCs category 4 includes 'hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)'; in the WHO MEC adequately controlled hypertension and BP 140-159/90-99 are category 3, and only BP ≥160/≥100 or vascular disease is category 4. |
+| 76 | Emergency Contraception: Who can use ECPs (MEC Category 1, MEC Category 2) (`fp-2021-tbl-p76-0147`) | Clients on rifampicin, enzyme-inducing anticonvulsants or efavirenz are listed as suitable without a note that these reduce levonorgestrel ECP efficacy (WHO: double the LNG dose to 3 mg, or prefer a copper IUD). |
+| 76 | Emergency Contraception: Who can use ECPs (MEC Category 1, MEC Category 2) (`fp-2021-tbl-p76-0147`) | Phenytoin, phenobarbital and carbamazepine are listed as 'anti-psychotic treatment'; they are anticonvulsants. |
+| 76 | Emergency Contraception: Who can use ECPs (MEC Category 1, MEC Category 2) (`fp-2021-tbl-p76-0147`) | Reduced effectiveness is tied to weight >70 kg; WHO uses BMI ≥30 kg/m² for reduced LNG/UPA efficacy. |
+| 106 | MEC wheel for contraceptive use (WHO): circular chart giving MEC categories for each method by condition (postpartum and breastfeeding, PID, STIs, HIV and ARVs, medications, headache, smoking, obesity, hypertension, cardiovascular disease, VTE, liver disease, cancers, etc.) (`fp-2021-fig-mec-wheel`) | The MEC wheel is an image; the earlier chunk was an empty grid with no categories. Its values are not available as text. |
 
 ## Text sections (NCDIMH pages 1-356)
 

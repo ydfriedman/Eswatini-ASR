@@ -1780,6 +1780,33 @@ fp-2021-0100,replaced,fp-2021-tbl-p57-0100
 fp-2021-0101,replaced,fp-2021-tbl-p57-0100
 fp-2021-0102,replaced,fp-2021-tbl-p57-0100
 fp-2021-0115,replaced,fp-2021-tbl-p63-0115
+fp-2021-0130,replaced,fp-2021-tbl-p69-0130
+fp-2021-0146,replaced,fp-2021-tbl-p75-0146
+fp-2021-0147,replaced,fp-2021-tbl-p76-0147
+fp-2021-0154,replaced,fp-2021-tbl-p79-0154
+fp-2021-0161,replaced,fp-2021-tbl-p82-0161
+fp-2021-0167,replaced,fp-2021-tbl-p85-0167
+fp-2021-0173,replaced,fp-2021-tbl-p87-0173
+fp-2021-0185,replaced,fp-2021-tbl-p94-0185
+fp-2021-0188,replaced,fp-2021-tbl-p96-0188
+fp-2021-0189,replaced,fp-2021-tbl-p96-0188
+fp-2021-0190,replaced,fp-2021-tbl-p96-0188
+fp-2021-0191,replaced,fp-2021-tbl-p96-0188
+fp-2021-0192,replaced,fp-2021-tbl-p96-0188
+fp-2021-0193,replaced,fp-2021-tbl-p96-0188
+fp-2021-0195,replaced,fp-2021-tbl-p103-0195
+fp-2021-0196,replaced,fp-2021-tbl-p103-0195
+fp-2021-0198,replaced,fp-2021-fig-mec-wheel
+fp-2021-0199,replaced,fp-2021-fig-mec-wheel
+fp-2021-0201,replaced,fp-2021-tbl-p107-0201
+fp-2021-0202,replaced,fp-2021-tbl-p107-0201
+fp-2021-0203,replaced,fp-2021-tbl-p107-0201
+fp-2021-0204,replaced,fp-2021-tbl-p107-0201
+fp-2021-0205,replaced,fp-2021-tbl-p107-0201
+fp-2021-0206,replaced,fp-2021-tbl-p114-0206
+fp-2021-0210,replaced,fp-2021-tbl-p116-0210
+fp-2021-0211,replaced,fp-2021-tbl-p116-0210
+fp-2021-0212,replaced,fp-2021-tbl-p116-0210
 fp-2021-0029,cleaned,
 fp-2021-0032,cleaned,
 fp-2021-0047,label,5 Natural Family Planning Method > Effectiveness => 5 Natural Family Planning Method > 5.4 LACTATIONAL AMENORRHEA METHOD > Effectiveness
@@ -1833,7 +1860,26 @@ fp-2021-0123,label,6 Hormonal Contraceptives > Amenorrhea (not related to childb
 fp-2021-0124,label,6 Hormonal Contraceptives > After miscarriage or abortion => 6 Hormonal Contraceptives > 6.6 IMPLANTS > After miscarriage or abortion
 fp-2021-0125,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs => 6 Hormonal Contraceptives > 6.6 IMPLANTS > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs
 fp-2021-0126,label,6 Hormonal Contraceptives > After taking postinor ECPs => 6 Hormonal Contraceptives > 6.6 IMPLANTS > After taking postinor ECPs
+fp-2021-0151,label,9 Surgical Sterilization => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION
+fp-2021-0152,label,9 Surgical Sterilization > Mode of action => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > Mode of action
+fp-2021-0153,label,9 Surgical Sterilization > Effectiveness => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > Effectiveness
+fp-2021-0155,label,9 Surgical Sterilization > Who can have BTL => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > Who can have BTL
+fp-2021-0156,label,9 Surgical Sterilization > When to perform BTL > Having menstrual cycles or switching from another method => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > When to perform BTL > Having menstrual cycles or switching from another method
+fp-2021-0157,label,9 Surgical Sterilization > When to perform BTL => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > When to perform BTL
+fp-2021-0158,label,9 Surgical Sterilization > When to perform BTL > After using emergency contraceptive pills => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > When to perform BTL > After using emergency contraceptive pills
+fp-2021-0159,label,9 Surgical Sterilization > Side effects => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > Side effects
+fp-2021-0160,label,9 Surgical Sterilization > Side effects => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > Side effects
+fp-2021-0162,label,9 Surgical Sterilization > Who can have vasectomy => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > Who can have vasectomy
+fp-2021-0163,label,9 Surgical Sterilization > When to start => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > When to start
+fp-2021-0164,label,9 Surgical Sterilization > Side effects => 9 Surgical Sterilization > 9.1 OVERVIEW OF SURGICAL STERILIZATION > Side effects
 fp-2021-0174,emptied,
+fp-2021-0176,label,11 Integration of FP Services > Integration of family planning with other services => 11 Integration of FP Services > 11.1 Why integrate FP services? > Integration of family planning with other services
+fp-2021-0177,label,11 Integration of FP Services > Integration of family planning with other services > HTS / STIs and TB services => 11 Integration of FP Services > 11.1 Why integrate FP services? > Integration of family planning with other services > HTS / STIs and TB services
+fp-2021-0178,label,11 Integration of FP Services > Integration of family planning with other services > Integration of family planning in maternity => 11 Integration of FP Services > 11.1 Why integrate FP services? > Integration of family planning with other services > Integration of family planning in maternity
+fp-2021-0179,label,11 Integration of FP Services > Family planning for post abortion => 11 Integration of FP Services > 11.1 Why integrate FP services? > Family planning for post abortion
+fp-2021-0180,label,11 Integration of FP Services > Integration in the gynaecology departments and any other relevant service entry points => 11 Integration of FP Services > 11.1 Why integrate FP services? > Integration in the gynaecology departments and any other relevant service entry points
+fp-2021-0197,label,14 Appendices > WHO > Medical Eligibility Criteria Wheel for Contraceptive Use => 14 Appendices > 14.1 Appendix 1: Summary of Recommendation - Medical Eligibility Criteria > WHO > Medical Eligibility Criteria Wheel for Contraceptive Use
+fp-2021-0200,label,14 Appendices > WHO > Risk of Vte by Clinical Category => 14 Appendices > 14.2 APPENDIX 2: WHO MEDICAL ELIGIBILITY CRITERIA WHEEL FOR CONTRACEPTIVE USE > WHO > Risk of Vte by Clinical Category
 fp-2021-0208,emptied,
 fp-2021-0001,heading moved to,fp-2021-0012
 fp-2021-0036,merged into,fp-2021-0035
