@@ -786,7 +786,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Missed first refill visit: 'Follow guidance on the management of missed appointment as stipulated in the appointment register (add steps)' – an unfinished drafting placeholder; the steps are not given."
+   ],
    "pages": [
     42
    ]
@@ -1059,7 +1061,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Day 60-90 visit: 'Graduate client from linkages case management if not at high risk for defaulting and 100% adherent', but the SOP schedules LCM contacts to Day 180 ('this is the last visit') and the LCM register follows clients for 3-6 months; graduation criteria are inconsistent."
+   ],
    "pages": [
     51
    ]
@@ -1205,7 +1209,10 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Day 180: 'If the V/L is undetectable they will be enrolled into more intense DSD model. If the second one is still undetectable, they will then be transitioned into less intensive model' – an undetectable viral load leading to a MORE intensive model looks reversed.",
+    "For clients still not on ART at Day 180: 'Inform client that there is no need to test again, should they decide that they want to be initiated on ART' – conflicts with retesting for verification before ART initiation required elsewhere in the SOP (sections 9.3-9.5, 12.24, Annexure 1)."
+   ],
    "pages": [
     55
    ]
@@ -1436,7 +1443,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Community initiation: 'give client two weeks supply' – consistent with the Day-14 first refill, but no instruction is given if the client does not link within the 7-day window while holding ART."
+   ],
    "pages": [
     64,
     65
@@ -1919,7 +1928,10 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "'Proportion of LCM clients retained and virally suppressed at 6 months' uses as denominator only clients who had a VL taken, so it does not measure retention.",
+    "'Proportion of clients with a LCM outcome by type': the denominator is also labelled 'Numerator' in the source."
+   ],
    "pages": [
     88,
     89
