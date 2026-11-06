@@ -1656,17 +1656,44 @@ tb-2025-0389,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment >
 tb-2025-0390,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.14 TB Preventive Treatment in Children"
 tb-2025-0402,emptied,
 tb-2025-0418,cleaned,
+tb-2025-0434,label,"9.6 Management of specific conditions > 9.6.5 Management of Peripheral Neuropathy > Rarely, medication may be discontinued, but only if an alternative drug is available or the regimen is not compromised. => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms"
+tb-2025-0435,label,9.6 Management of specific conditions > 9.6.5 Management of Peripheral Neuropathy => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms > Acute Psychosis
+tb-2025-0446,label,9.6 Management of specific conditions > 9.6.10 Management of electrolyte abnormalities > 9.6.10.1 Hypokalemia – Hypomagnesemia > Table 43: Blood Potassium levels and recommended monitoring protocol => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.10.1 Hypokalaemia/Hypomagnesaemia > Potassium Monitoring (Table 43)
 tb-2025-0469,emptied,
 tb-2025-0472,emptied,
+tb-2025-0474,label,9.9 Algorithms for management of adverse events with Second-line Anti-TB Drugs > Figure 29: Management of Peripheral Neuropathy => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Adverse Event Algorithms > Figure 29 Notes (Peripheral Neuropathy)
 tb-2025-0475,emptied,
 tb-2025-0477,emptied,
 tb-2025-0480,emptied,
+tb-2025-0482,label,9.9 Algorithms for management of adverse events with Second-line Anti-TB Drugs > Figure 32: Management of Anaemia/ Thrombocytopenia => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Adverse Event Algorithms > Figure 32 Notes (Anaemia/Thrombocytopenia)
+tb-2025-0483,label,9.9 Algorithms for management of adverse events with Second-line Anti-TB Drugs > TB and HIV Collaborative Activities and Advanced HIV Disease => Chapter 10: TB and HIV Collaborative Activities > Introduction
 tb-2025-0487,cleaned,
+tb-2025-0494,label,10.1 TB/HIV interaction and the comprehensive package of care > 10.1.6 What ART regimen to start on? > Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients => Chapter 10: TB and HIV Collaborative Activities > 10.1.6 Recommended Adult ART Regimens for TB/HIV Co-infected Patients
+tb-2025-0498,label,10.1 TB/HIV interaction and the comprehensive package of care > 10.1.6 What ART regimen to start on? > Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients => Chapter 10: TB and HIV Collaborative Activities > 10.1.6 ART Regimens (Notes); 10.1.7 Drug-Drug Interactions
+tb-2025-0503,label,10.2 Care and support for people with TB/HIV treatment => Chapter 10: TB and HIV Collaborative Activities > 10.3.3 TB Preventive Treatment and Infection Prevention and Control
+tb-2025-0518,label,10.6 Management of TB in children living with HIV > Footnotes => Chapter 10: TB and HIV Collaborative Activities > 10.6 TB in Children Living with HIV > Footnotes to Dosing Table
 tb-2025-0519,cleaned,
+tb-2025-0523,label,10.7 Management of TB in patients with advanced HIV disease > Table 50: TB/HIV Simplified Treatment Table => Chapter 10: TB and HIV Collaborative Activities > 10.7.2 Advanced HIV Assessment; 10.8 Advanced HIV Package of Care
+tb-2025-0530,label,10.8.4 Histoplasmosis > Table 52: Components of the package of care for people with advanced HIV disease => Chapter 10: TB and HIV Collaborative Activities > 10.8 Advanced HIV Package of Care (Table Notes)
+tb-2025-0531,label,10.8.4 Histoplasmosis => Chapter 11: Tuberculosis Preventive Treatment > 11.1 Introduction
 tb-2025-0536,cleaned,
 tb-2025-0538,emptied,
+tb-2025-0540,label,11.6 Ruling out active tuberculosis disease (TB/DR-TB) > Figure 34: Algorithm for ruling out active TB/DR-TB disease in children 0-10 years old including CLHIV => Chapter 11: Tuberculosis Preventive Treatment > 11.6 Ruling out Active TB > Figure 34 Notes (Children)
+tb-2025-0541,label,11.6 Ruling out active tuberculosis disease (TB/DR-TB) > For HIV-negative>10 years old adolescents and adult’s household contacts and other risk groups => Chapter 11: Tuberculosis Preventive Treatment > 11.6 Ruling out Active TB > HIV-negative Contacts >10 Years and Other Risk Groups
 tb-2025-0542,emptied,
+tb-2025-0544,label,11.6 Ruling out active tuberculosis disease (TB/DR-TB) > Neither CXR nor TBI test is mandatory to make a decision to start TPT => Chapter 11: Tuberculosis Preventive Treatment > 11.6 Ruling out Active TB > Figure 35 Notes; TB Exclusion in PLHIV
+tb-2025-0545,label,"11.6 Ruling out active tuberculosis disease (TB/DR-TB) > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption => Chapter 11: Tuberculosis Preventive Treatment > 11.7 Preparation before TPT Initiation > Ineligibility for TPT"
 tb-2025-0548,cleaned,
+tb-2025-0548,label,11.8 TPT Regimens and Dosing => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing
+tb-2025-0553,label,11.8 TPT Regimens and Dosing => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Regimen Abbreviations
+tb-2025-0556,label,"11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 55: TPT regimen and drug dosing => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Notes to Table 55"
+tb-2025-0561,label,"11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT for Contacts of DR-TB (Levofloxacin) > Notes"
+tb-2025-0563,label,"11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens > 3HP Exclusions; Which TPT Regimen to Give"
+tb-2025-0565,label,11.8 TPT Regimens and Dosing > Which TBI treatment regimen option to give? > Ineligibility for TPT => Chapter 11: Tuberculosis Preventive Treatment > 11.8 Which TPT Regimen to Give > Ineligibility for TPT
+tb-2025-0566,label,11.8 TPT Regimens and Dosing > Which TBI treatment regimen option to give? > Repeat Course of TPT => Chapter 11: Tuberculosis Preventive Treatment > 11.8 Which TPT Regimen to Give > Repeat Course of TPT
+tb-2025-0572,label,11.11 Monitoring and management of Adverse events > Table 59: Documented adverse events with drug used for TPT > Table 60: Management strategies for adverse events of TPT => Chapter 11: Tuberculosis Preventive Treatment > 11.11 Monitoring and Management of Adverse Events (Table 60)
+tb-2025-0577,label,11.11 Monitoring and management of Adverse events > Which TBI treatment regimen option to give? > How to manage TPT regimen if switched for severe AE => Chapter 11: Tuberculosis Preventive Treatment > 11.11 Adverse Events > How to Manage TPT Regimen if Switched for Severe AE
+tb-2025-0581,label,11.13 TPT completion and management of TBI treatment interruption > Table 61: Minimum requirement of TPT completion (doses) and extended duration => Chapter 11: Tuberculosis Preventive Treatment > 11.13 TPT Completion and Management of Treatment Interruption
 tb-2025-0594,emptied,
 tb-2025-0603,cleaned,
 tb-2025-0610,cleaned,
@@ -1685,10 +1712,7 @@ tb-2025-0320,merged into,tb-2025-0319
 tb-2025-0350,merged into,tb-2025-0349
 tb-2025-0451,merged into,tb-2025-0450
 tb-2025-0486,merged into,tb-2025-0485
-tb-2025-0496,merged into,tb-2025-0494
 tb-2025-0511,merged into,tb-2025-0510
-tb-2025-0519,merged into,tb-2025-0518
-tb-2025-0564,merged into,tb-2025-0563
 tb-2025-0606,merged into,tb-2025-0605
 tb-2025-0642,merged into,tb-2025-0641
 tb-2025-0645,merged into,tb-2025-0644
@@ -1696,3 +1720,4 @@ tb-2025-0646,merged into,tb-2025-0644
 tb-2025-0656,merged into,tb-2025-0655
 tb-2025-0657,merged into,tb-2025-0655
 tb-2025-0725,merged into,tb-2025-0724
+tb-2025-0561,merged into,tb-2025-0563

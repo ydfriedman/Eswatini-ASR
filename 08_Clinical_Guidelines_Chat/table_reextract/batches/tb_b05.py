@@ -88,3 +88,13 @@ ITEMS = [
    "Figure 37 reproduces the WHO weight-for-age chart for girls, birth to 5 years (z-score lines), with an example: a 2-year-old girl weighing 14 kg is plotted, illustrating how to read the z-score from the chart (the annotation on the chart reads '2 years old girl with 14kg weight = -2 Z score'). Use the WHO growth standards for the reference values.",
    ["The chart annotation says a 2-year-old girl weighing 14 kg is at -2 Z score; on the WHO girls' weight-for-age standard 14 kg at 24 months is above +1 SD (the -2 SD line is about 9 kg). The example appears wrong.", "The earlier chunk listed z-score weights by age that are not printed in the PDF (and are not the WHO values, e.g. a median birth weight of 2.4 kg); they have been removed."]),
 ]
+# Clinical read (source problems in the guideline itself)
+FLAGS = {
+ "tbl-p214-0554": ["1HP row lists 'Rifapentine 30 mg tab' (2 tablets); the 1HP rifapentine dose is 600 mg daily, i.e. 2 × 300 mg tablets.", "The last weight column is printed '< 50 kg' after 45-49.9 kg (presumably ≥50 kg); the first two columns are '3-5.9 kg (> 3 months)' and '3-5.9 kg (≥ 3 months)', so the under-3-months band is missing."],
+ "tbl-p215-0557": ["≥65 kg: isoniazid 300 mg × 1.25 tablets (375 mg) and rifampicin 300 mg × 2.5 capsules (750 mg) exceed the usual maximum daily doses (isoniazid 300 mg, rifampicin 600 mg for TPT); clinician to confirm."],
+ "tbl-p196-0499": ["The 'DTG and all TB treatments' row says the preference is to keep clients on TDF+3TC+EFV during TB treatment, which conflicts with Table 46 (increase DTG to 50 mg twice daily during rifampicin-based treatment, the current WHO approach).", "Rifampicin and the oral contraceptive pill: 'receive a pill containing a higher dose of oestrogen (50 μg)' – current guidance (WHO MEC) is to use another method (e.g. DMPA, IUD) rather than a higher-dose pill."],
+ "tbl-p162-0410": ["'When to stop anti-TB drugs' lists only pyrazinamide for hepatitis; isoniazid and rifampicin are also hepatotoxic and Table 39 lists all three."],
+}
+for it in ITEMS:
+    for k, v in FLAGS.items():
+        if it['table_id'].endswith(k): it['source_flags'] = it.get('source_flags', []) + v

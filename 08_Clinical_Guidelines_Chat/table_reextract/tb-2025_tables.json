@@ -6814,7 +6814,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "'When to stop anti-TB drugs' lists only pyrazinamide for hepatitis; isoniazid and rifampicin are also hepatotoxic and Table 39 lists all three."
+   ],
    "pages": [
     162
    ],
@@ -7548,7 +7550,10 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "The 'DTG and all TB treatments' row says the preference is to keep clients on TDF+3TC+EFV during TB treatment, which conflicts with Table 46 (increase DTG to 50 mg twice daily during rifampicin-based treatment, the current WHO approach).",
+    "Rifampicin and the oral contraceptive pill: 'receive a pill containing a higher dose of oestrogen (50 μg)' – current guidance (WHO MEC) is to use another method (e.g. DMPA, IUD) rather than a higher-dose pill."
+   ],
    "pages": [
     196
    ],
@@ -9047,7 +9052,10 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "1HP row lists 'Rifapentine 30 mg tab' (2 tablets); the 1HP rifapentine dose is 600 mg daily, i.e. 2 × 300 mg tablets.",
+    "The last weight column is printed '< 50 kg' after 45-49.9 kg (presumably ≥50 kg); the first two columns are '3-5.9 kg (> 3 months)' and '3-5.9 kg (≥ 3 months)', so the under-3-months band is missing."
+   ],
    "pages": [
     214
    ],
@@ -9484,7 +9492,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "≥65 kg: isoniazid 300 mg × 1.25 tablets (375 mg) and rifampicin 300 mg × 2.5 capsules (750 mg) exceed the usual maximum daily doses (isoniazid 300 mg, rifampicin 600 mg for TPT); clinician to confirm."
+   ],
    "pages": [
     215
    ],
@@ -10485,12 +10495,39 @@
   "tb-2025-0387": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 Treatment of Drug-resistant TB in Children",
   "tb-2025-0388": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 DR-TB in Children (Monitoring); 8.13 Management of a Newborn from a Mother with TB",
   "tb-2025-0389": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.13 Management of a Newborn from a Mother with TB",
-  "tb-2025-0390": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.14 TB Preventive Treatment in Children"
+  "tb-2025-0390": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.14 TB Preventive Treatment in Children",
+  "tb-2025-0434": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms",
+  "tb-2025-0435": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms > Acute Psychosis",
+  "tb-2025-0446": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.10.1 Hypokalaemia/Hypomagnesaemia > Potassium Monitoring (Table 43)",
+  "tb-2025-0474": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Adverse Event Algorithms > Figure 29 Notes (Peripheral Neuropathy)",
+  "tb-2025-0482": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Adverse Event Algorithms > Figure 32 Notes (Anaemia/Thrombocytopenia)",
+  "tb-2025-0483": "Chapter 10: TB and HIV Collaborative Activities > Introduction",
+  "tb-2025-0494": "Chapter 10: TB and HIV Collaborative Activities > 10.1.6 Recommended Adult ART Regimens for TB/HIV Co-infected Patients",
+  "tb-2025-0498": "Chapter 10: TB and HIV Collaborative Activities > 10.1.6 ART Regimens (Notes); 10.1.7 Drug-Drug Interactions",
+  "tb-2025-0503": "Chapter 10: TB and HIV Collaborative Activities > 10.3.3 TB Preventive Treatment and Infection Prevention and Control",
+  "tb-2025-0518": "Chapter 10: TB and HIV Collaborative Activities > 10.6 TB in Children Living with HIV > Footnotes to Dosing Table",
+  "tb-2025-0523": "Chapter 10: TB and HIV Collaborative Activities > 10.7.2 Advanced HIV Assessment; 10.8 Advanced HIV Package of Care",
+  "tb-2025-0530": "Chapter 10: TB and HIV Collaborative Activities > 10.8 Advanced HIV Package of Care (Table Notes)",
+  "tb-2025-0531": "Chapter 11: Tuberculosis Preventive Treatment > 11.1 Introduction",
+  "tb-2025-0540": "Chapter 11: Tuberculosis Preventive Treatment > 11.6 Ruling out Active TB > Figure 34 Notes (Children)",
+  "tb-2025-0541": "Chapter 11: Tuberculosis Preventive Treatment > 11.6 Ruling out Active TB > HIV-negative Contacts >10 Years and Other Risk Groups",
+  "tb-2025-0544": "Chapter 11: Tuberculosis Preventive Treatment > 11.6 Ruling out Active TB > Figure 35 Notes; TB Exclusion in PLHIV",
+  "tb-2025-0545": "Chapter 11: Tuberculosis Preventive Treatment > 11.7 Preparation before TPT Initiation > Ineligibility for TPT",
+  "tb-2025-0548": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing",
+  "tb-2025-0553": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Regimen Abbreviations",
+  "tb-2025-0556": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Notes to Table 55",
+  "tb-2025-0561": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT for Contacts of DR-TB (Levofloxacin) > Notes",
+  "tb-2025-0563": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens > 3HP Exclusions; Which TPT Regimen to Give",
+  "tb-2025-0565": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 Which TPT Regimen to Give > Ineligibility for TPT",
+  "tb-2025-0566": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 Which TPT Regimen to Give > Repeat Course of TPT",
+  "tb-2025-0572": "Chapter 11: Tuberculosis Preventive Treatment > 11.11 Monitoring and Management of Adverse Events (Table 60)",
+  "tb-2025-0577": "Chapter 11: Tuberculosis Preventive Treatment > 11.11 Adverse Events > How to Manage TPT Regimen if Switched for Severe AE",
+  "tb-2025-0581": "Chapter 11: Tuberculosis Preventive Treatment > 11.13 TPT Completion and Management of Treatment Interruption"
  },
  "text_merge": {},
  "text_drop": [],
  "text_fix_pages": [
   1,
-  157
+  231
  ]
 }
