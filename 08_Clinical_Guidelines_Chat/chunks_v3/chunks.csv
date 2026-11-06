@@ -44502,7 +44502,7 @@ Diagram: TB screening algorithm for HIV-negative individuals (section: 3.7 TB sc
 - Collect two sputum samples Perform microbiological assessment of active TB -> -; +
 - - -> Further clinical evaluation Provide TPT if eligible
 - + -> Initiate TB treatment"
-tb-2025-0127,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,3.7 TB screening Algorithms with CXR and CAD/AI use,59,59,tb-2025:3508c3c6b5,tb-2025:3508c3c6b5,tb-2025-0126,tb-2025-0129,131,"\*Key Vulnerable Population groups include: TB contacts, PLHIV, miners / ex-miners\*, COPD, diabetes mellitus, immunosuppressive conditions (including cancer), undernourished, inmates, smokers, alcohol/substance misuse
+tb-2025-0127,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,3.7 TB screening Algorithms with CXR and CAD/AI use,59,59,tb-2025:3508c3c6b5,tb-2025:3508c3c6b5,tb-2025-0126,tb-2025-fig-screen-plhiv-cxr,131,"\*Key Vulnerable Population groups include: TB contacts, PLHIV, miners / ex-miners\*, COPD, diabetes mellitus, immunosuppressive conditions (including cancer), undernourished, inmates, smokers, alcohol/substance misuse
 
 \*If CAD reports silicosis positive refer for further assessment and treatment for silicosis and provision of TPT if eligible
 
@@ -44513,103 +44513,47 @@ Key Vulnerable Population groups include: TB contacts, PLHIV, miners / ex-miners
 If CAD reports silicosis positive refer for further assessment and treatment for silicosis and provision of TPT if eligible
 
 Abnormal (not TB): e.g. cardiomegaly, possible cancer, silicosis, etc, (If smoking history is present and possibly cancer is identified in the CXR, highly suspicious of cancer)."
-tb-2025-0129,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),diagram,,,3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 11: TB Screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI,60,60,tb-2025:937dfe7e23,tb-2025:3508c3c6b5,tb-2025-0127,tb-2025-0130,331,"Diagram: TB Screening algorithm for PLHIV (section: Figure 11: TB Screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI)
-- PLHIV adolescents >15 y.o and adults (both old and new) attending health facilities -> Symptom screen (multi-entry): current cough OR fever OR weight loss OR night sweats
-- Symptom screen (multi-entry): current cough OR fever OR weight loss OR night sweats -> +; -
-- - -> Check if CXR screening is done in the past 12 months
-- Check if CXR screening is done in the past 12 months -> No; Yes
-- No -> X-ray screen with CAD
-- Yes -> Further clinical evaluation* Provide TPT If eligible
-- X-ray screen with CAD -> +; -; Non-TB Abnormalities*
-- + -> Collect two sputum samples and 1 Urine sample Perform microbiological assessment of active TB (Xpert and LF-LAM test)
-- + -> Collect two sputum samples and 1 Urine sample Perform microbiological assessment of active TB (Xpert and LF-LAM test)
-- - -> Further clinical evaluation* Provide TPT If eligible
-- Non-TB Abnormalities* -> Further clinical evaluation* Provide TPT If eligible
-- Collect two sputum samples and 1 Urine sample Perform microbiological assessment of active TB (Xpert and LF-LAM test) -> -; +
-- - -> Further clinical evaluation* Provide TPT If eligible
-- + -> Initiate TB treatment","National Integrated Tuberculosis Management Guidelines (2025) | 3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 11: TB Screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI (page 60)
+tb-2025-fig-screen-plhiv-cxr,tb-2025,National Integrated TB Management Guidelines (2025),diagram,tb-2025-fig-screen-plhiv-cxr,1/1,Chapter 3: Tuberculosis Case Finding > 3.7 TB Screening Algorithms with CXR and CAD/AI Use > Figure 11: PLHIV 15+ at Facilities with X-ray and CAD/AI,60,60,tb-2025:071f34acaf,tb-2025:a17098e223,tb-2025-0127,tb-2025-fig-screen-plhiv-cxr-crp,358,"### Figure 11. TB screening algorithm for PLHIV aged 15+ at facilities with X-ray and CAD/AI: symptom screen, CXR in past 12 months, CAD result, sputum Xpert + urine LF-LAM, TPT
 
-Diagram: TB Screening algorithm for PLHIV (section: Figure 11: TB Screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI)
-- PLHIV adolescents >15 y.o and adults (both old and new) attending health facilities -> Symptom screen (multi-entry): current cough OR fever OR weight loss OR night sweats
-- Symptom screen (multi-entry): current cough OR fever OR weight loss OR night sweats -> +; -
-- - -> Check if CXR screening is done in the past 12 months
-- Check if CXR screening is done in the past 12 months -> No; Yes
-- No -> X-ray screen with CAD
-- Yes -> Further clinical evaluation* Provide TPT If eligible
-- X-ray screen with CAD -> +; -; Non-TB Abnormalities*
-- + -> Collect two sputum samples and 1 Urine sample Perform microbiological assessment of active TB (Xpert and LF-LAM test)
-- + -> Collect two sputum samples and 1 Urine sample Perform microbiological assessment of active TB (Xpert and LF-LAM test)
-- - -> Further clinical evaluation* Provide TPT If eligible
-- Non-TB Abnormalities* -> Further clinical evaluation* Provide TPT If eligible
-- Collect two sputum samples and 1 Urine sample Perform microbiological assessment of active TB (Xpert and LF-LAM test) -> -; +
-- - -> Further clinical evaluation* Provide TPT If eligible
-- + -> Initiate TB treatment"
-tb-2025-0130,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 11: TB Screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI,60,60,tb-2025:937dfe7e23,tb-2025:3508c3c6b5,tb-2025-0129,tb-2025-0132,122,"\***Abnormalities e.g. cardiomegaly, possibly cancer, silicosis, etc**
+Population: PLHIV adolescents >15 years and adults (old and new) attending health facilities.
+1. Symptom screen (multi-entry): current cough OR fever OR weight loss OR night sweats.
+   - Positive: collect two sputum samples and 1 urine sample**; perform microbiological assessment for active TB (Xpert and LF-LAM).
+   - Negative: check if CXR screening was done in the past 12 months.
+     - Yes: further clinical evaluation***; provide TPT if eligible.
+     - No: X-ray screen with CAD → positive: collect sputum ×2 + urine for Xpert and LF-LAM; negative: further clinical evaluation***, TPT if eligible; non-TB abnormalities*: further clinical evaluation***, TPT if eligible.
+2. Microbiological result: positive → initiate TB treatment; negative → further clinical evaluation***, provide TPT if eligible.
+* Abnormalities e.g. cardiomegaly, possible cancer, silicosis. ** A urine sample is collected from every client with advanced HIV disease (AHD) for LF-LAM regardless of symptoms or CAD result. *** Further clinical evaluation includes clinical assessment of resolution of TB symptoms, re-reading of the CXR by a trained clinician, and further management/specialist referral as required; if on re-reading the CXR is suggestive of TB, evaluate for TB.","National Integrated TB Management Guidelines (2025) | Chapter 3: Tuberculosis Case Finding > 3.7 TB Screening Algorithms with CXR and CAD/AI Use > Figure 11: PLHIV 15+ at Facilities with X-ray and CAD/AI (page 60)
 
-\*\***Urine sample is to be collected for any AHD client regardless of TB symptoms and /or CAD screening results for LF-LAM test.**
+Figure 11. TB screening algorithm for PLHIV aged 15+ at facilities with X-ray and CAD/AI: symptom screen, CXR in past 12 months, CAD result, sputum Xpert + urine LF-LAM, TPT.
+Population: PLHIV adolescents >15 years and adults (old and new) attending health facilities.
+1. Symptom screen (multi-entry): current cough OR fever OR weight loss OR night sweats.
+   - Positive: collect two sputum samples and 1 urine sample**; perform microbiological assessment for active TB (Xpert and LF-LAM).
+   - Negative: check if CXR screening was done in the past 12 months.
+     - Yes: further clinical evaluation***; provide TPT if eligible.
+     - No: X-ray screen with CAD → positive: collect sputum ×2 + urine for Xpert and LF-LAM; negative: further clinical evaluation***, TPT if eligible; non-TB abnormalities*: further clinical evaluation***, TPT if eligible.
+2. Microbiological result: positive → initiate TB treatment; negative → further clinical evaluation***, provide TPT if eligible.
+* Abnormalities e.g. cardiomegaly, possible cancer, silicosis. ** A urine sample is collected from every client with advanced HIV disease (AHD) for LF-LAM regardless of symptoms or CAD result. *** Further clinical evaluation includes clinical assessment of resolution of TB symptoms, re-reading of the CXR by a trained clinician, and further management/specialist referral as required; if on re-reading the CXR is suggestive of TB, evaluate for TB."
+tb-2025-fig-screen-plhiv-cxr-crp,tb-2025,National Integrated TB Management Guidelines (2025),diagram,tb-2025-fig-screen-plhiv-cxr-crp,1/1,"Chapter 3: Tuberculosis Case Finding > 3.7 TB Screening Algorithms with CXR and CAD/AI Use > Figure 12: PLHIV 15+ at Facilities with X-ray, CAD/AI and CRP",61,61,tb-2025:2b901c6009,tb-2025:a17098e223,tb-2025-fig-screen-plhiv-cxr,tb-2025-0135,349,"### Figure 12. TB screening algorithm for PLHIV aged 15+ at ART clinics with X-ray, CAD/AI and CRP: symptom screen, CRP for those not on ART, CXR with CAD for those on ART, Xpert, TB-LAM for AHD, TPT
 
-\*\*\***Further clinical evaluation includes clinical assessment on resolution of TB symptoms re-reading of CXR by trained clinical and further management/specialist referral as required. Upon re-read. If CXR suggestive of TB is identified among Non-TB abnormalities, evaluate for TB.**","National Integrated Tuberculosis Management Guidelines (2025) | 3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 11: TB Screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI (page 60)
+Population: PLHIV (>15 years) attending ART clinics.
+1. Symptom screen: current cough OR fever OR weight loss OR night sweats (WSS)*.
+   - Yes: collect two sputum samples; perform Xpert for active TB diagnosis*.
+   - No: is the individual on ART?
+     - Not on ART: C-reactive protein screen → positive: collect two sputum samples for Xpert*; negative: evaluate for TPT eligibility and offer TPT if eligible.
+     - On ART: was CXR screening done in the past 12 months? Yes: (no next step drawn). No: X-ray screen with CAD → positive**: (no next step drawn); non-TB abnormal#: further clinical evaluation, TPT if eligible; negative: further clinical evaluation, TPT if eligible.
+2. Xpert result: positive → initiate TB treatment; negative → further clinical evaluation, TPT if eligible.
+* Perform TB-LAM for all with AHD (CD4 <200, WHO stage 3 or 4 regardless of symptoms; seriously ill regardless of CD4; all presumptive TB regardless of CD4). ** If CAD reports silicosis, refer for assessment and treatment of silicosis and provide TPT if eligible. # Abnormal (not TB): e.g. cardiomegaly, possible cancer, silicosis (if smoking history and possible cancer on CXR, highly suspicious of cancer).","National Integrated TB Management Guidelines (2025) | Chapter 3: Tuberculosis Case Finding > 3.7 TB Screening Algorithms with CXR and CAD/AI Use > Figure 12: PLHIV 15+ at Facilities with X-ray, CAD/AI and CRP (page 61)
 
-Abnormalities e.g. cardiomegaly, possibly cancer, silicosis, etc
-
-Urine sample is to be collected for any AHD client regardless of TB symptoms and /or CAD screening results for LF-LAM test.
-
-Further clinical evaluation includes clinical assessment on resolution of TB symptoms re-reading of CXR by trained clinical and further management/specialist referral as required. Upon re-read. If CXR suggestive of TB is identified among Non-TB abnormalities, evaluate for TB."
-tb-2025-0132,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),diagram,,,3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 12: TB screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI and CRP,61,61,tb-2025:28c72a836e,tb-2025:3508c3c6b5,tb-2025-0130,tb-2025-0133,341,"Diagram: TB screening algorithm for PLHIV (section: Figure 12: TB screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI and CRP)
-- PLHIV (>15 years old) attending ART Clinics -> Symptom screen: current cough OR fever OR weight loss OR night sweats (WSS)*
-- Symptom screen: current cough OR fever OR weight loss OR night sweats (WSS)* -> Yes; No
-- Yes -> Collect two sputum sample Perform Xpert test for active TB Diagnosis*
-- No -> Check if individual is on ART
-- Check if individual is on ART -> No; Yes
-- No -> C-reactive protein screen
-- Yes -> Check if CXR screening done in the past 12 months
-- C-reactive protein screen -> +; -
-- + -> Collect two sputum sample Perform Xpert test for active TB Diagnosis*
-- - -> Evaluate for TPT eligibility and offer TPT if eligible
-- Check if CXR screening done in the past 12 months -> Yes; No
-- Yes -> X-ray screen with CAD
-- No -> X-ray screen with CAD
-- X-ray screen with CAD -> +; Non-TB abnormal #; -
-- + -> Further clinical evaluation Provide TPT if eligible
-- Non-TB abnormal # -> Further clinical evaluation Provide TPT if eligible
-- - -> Further clinical evaluation Provide TPT if eligible
-- Collect two sputum sample Perform Xpert test for active TB Diagnosis* -> +; -
-- + -> Initiate TB treatment
-- - -> Further clinical evaluation Provide TPT if eligible","National Integrated Tuberculosis Management Guidelines (2025) | 3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 12: TB screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI and CRP (page 61)
-
-Diagram: TB screening algorithm for PLHIV (section: Figure 12: TB screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI and CRP)
-- PLHIV (>15 years old) attending ART Clinics -> Symptom screen: current cough OR fever OR weight loss OR night sweats (WSS)*
-- Symptom screen: current cough OR fever OR weight loss OR night sweats (WSS)* -> Yes; No
-- Yes -> Collect two sputum sample Perform Xpert test for active TB Diagnosis*
-- No -> Check if individual is on ART
-- Check if individual is on ART -> No; Yes
-- No -> C-reactive protein screen
-- Yes -> Check if CXR screening done in the past 12 months
-- C-reactive protein screen -> +; -
-- + -> Collect two sputum sample Perform Xpert test for active TB Diagnosis*
-- - -> Evaluate for TPT eligibility and offer TPT if eligible
-- Check if CXR screening done in the past 12 months -> Yes; No
-- Yes -> X-ray screen with CAD
-- No -> X-ray screen with CAD
-- X-ray screen with CAD -> +; Non-TB abnormal #; -
-- + -> Further clinical evaluation Provide TPT if eligible
-- Non-TB abnormal # -> Further clinical evaluation Provide TPT if eligible
-- - -> Further clinical evaluation Provide TPT if eligible
-- Collect two sputum sample Perform Xpert test for active TB Diagnosis* -> +; -
-- + -> Initiate TB treatment
-- - -> Further clinical evaluation Provide TPT if eligible"
-tb-2025-0133,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 12: TB screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI and CRP,61,61,tb-2025:28c72a836e,tb-2025:3508c3c6b5,tb-2025-0132,tb-2025-0135,115,"\***Perform TB-LAM for all AHD (CD4<200, WHO stage 3 or 4 regardless of S/S, seriously ill regardless of CD4, all presumptive TB regardless of CD4**
-
-\*\***If CAD reports silicosis positive refer for further assessment and treatment for silicosis and provision of TPT if eligible**
-
-**#Abnormal (not TB): e.g. cardiomegaly, possible cancer, silicosis, etc, (If smoking history is present and possibly cancer identified in the CXR, highly suspicious of cancer).**","National Integrated Tuberculosis Management Guidelines (2025) | 3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 12: TB screening algorithm for PLHIV 15 years old and above attending health facilities with access to Xray and CAD/AI and CRP (page 61)
-
-Perform TB-LAM for all AHD (CD4<200, WHO stage 3 or 4 regardless of S/S, seriously ill regardless of CD4, all presumptive TB regardless of CD4
-
-If CAD reports silicosis positive refer for further assessment and treatment for silicosis and provision of TPT if eligible
-
-#Abnormal (not TB): e.g. cardiomegaly, possible cancer, silicosis, etc, (If smoking history is present and possibly cancer identified in the CXR, highly suspicious of cancer)."
-tb-2025-0135,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),diagram,,,3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 13: TB screening algorithm for miners/ex-miners and their families using CXR and CAD/AI in the occupational health centre,62,62,tb-2025:db5585e63d,tb-2025:3508c3c6b5,tb-2025-0133,tb-2025-0136,552,"Diagram: TB screening algorithm for miners/ex-miners (section: Figure 13: TB screening algorithm for miners/ex-miners and their families using CXR and CAD/AI in the occupational health centre)
+Figure 12. TB screening algorithm for PLHIV aged 15+ at ART clinics with X-ray, CAD/AI and CRP: symptom screen, CRP for those not on ART, CXR with CAD for those on ART, Xpert, TB-LAM for AHD, TPT.
+Population: PLHIV (>15 years) attending ART clinics.
+1. Symptom screen: current cough OR fever OR weight loss OR night sweats (WSS)*.
+   - Yes: collect two sputum samples; perform Xpert for active TB diagnosis*.
+   - No: is the individual on ART?
+     - Not on ART: C-reactive protein screen → positive: collect two sputum samples for Xpert*; negative: evaluate for TPT eligibility and offer TPT if eligible.
+     - On ART: was CXR screening done in the past 12 months? Yes: (no next step drawn). No: X-ray screen with CAD → positive**: (no next step drawn); non-TB abnormal#: further clinical evaluation, TPT if eligible; negative: further clinical evaluation, TPT if eligible.
+2. Xpert result: positive → initiate TB treatment; negative → further clinical evaluation, TPT if eligible.
+* Perform TB-LAM for all with AHD (CD4 <200, WHO stage 3 or 4 regardless of symptoms; seriously ill regardless of CD4; all presumptive TB regardless of CD4). ** If CAD reports silicosis, refer for assessment and treatment of silicosis and provide TPT if eligible. # Abnormal (not TB): e.g. cardiomegaly, possible cancer, silicosis (if smoking history and possible cancer on CXR, highly suspicious of cancer)."
+tb-2025-0135,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),diagram,,,3.7 TB screening Algorithms with CXR and CAD/AI use > Figure 13: TB screening algorithm for miners/ex-miners and their families using CXR and CAD/AI in the occupational health centre,62,62,tb-2025:db5585e63d,tb-2025:3508c3c6b5,tb-2025-fig-screen-plhiv-cxr-crp,tb-2025-0136,552,"Diagram: TB screening algorithm for miners/ex-miners (section: Figure 13: TB screening algorithm for miners/ex-miners and their families using CXR and CAD/AI in the occupational health centre)
 Items: Note: CAD reading for Silicosis is only preliminary reading and confirmation is by human expert reader; *Active and (inactive) 'Post-TB' both eligible for compensation if active TB had occurred as a miner or within one year of leaving the mines, OR with silicosis
 - Miners and ex-miners undergoing TTB and occupational lung disease screening at Occupational Health Centre with BME accredited practitioner -> Symptom screen: current cough OR fever OR weight loss OR night sweats; Check if CXR screening is done in the past 12 months
 - Check if CXR screening is done in the past 12 months -> (Yes) Yes; (No) No
@@ -45267,7 +45211,7 @@ For individuals who are smear-positive at 5 months of treatment.
 - The result of Xpert ultra, XDR-assay, sequencing, culture and phenotypic DST will assist in regimen choice for DR-TB treatment
 
 Note: Xpert MTB/RIF and MTB/XDR should not be used as follow-up test for monitoring response to TB treatment"
-tb-2025-0172,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > 4.3.4 Use of LF-LAM for TB diagnosis in PLHIV,76,76,tb-2025:eccf64bfc9,tb-2025:260e584cc2,tb-2025-0171,tb-2025-0174,385,"## 4.3.4 Use of LF-LAM for TB diagnosis in PLHIV
+tb-2025-0172,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > 4.3.4 Use of LF-LAM for TB diagnosis in PLHIV,76,76,tb-2025:eccf64bfc9,tb-2025:260e584cc2,tb-2025-0171,tb-2025-fig-plhiv-evaluation,385,"## 4.3.4 Use of LF-LAM for TB diagnosis in PLHIV
 
 TB-LAM may be used to assist in the diagnosis of TB in people living with HIV (*adults and children; in-patients and out-patients in the following scenarios*:):
 - PLHIV (both children and adults) with advanced HIV disease including those with CD4 count <200 cells/mm³ regardless of whether there are signs and symptoms of TB or not or WHO clinical stage 3 or 4
@@ -45298,38 +45242,23 @@ Note: The test does not tell you whether you are dealing with PTB or EPTB, hence
 Sputum and other specimens should be collected immediately for Xpert testing for bacteriological confirmation and to rule out DR TB.
 
 Chest x-rays should be a minimum requirement for seriously ill patients with danger signs. See algorithm below"
-tb-2025-0174,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),diagram,,,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > Figure 18: Algorithm to evaluate for TB among PLHIV,77,77,tb-2025:ef91d3dad8,tb-2025:260e584cc2,tb-2025-0172,tb-2025-0175,360,"Diagram: Algorithm to evaluate for TB among PLHIV (section: Figure 18: Algorithm to evaluate for TB among PLHIV)
-- • Assess for TB signs and symptoms (S/S)†; • Assess if seriously ill*; • Assess for advanced HIV disease (AHD); • Perform CD4 testing (if eligible); • Perform CXR/CRP screening if eligible (if available) † -> Positive for TB S/S and/or CXR/CRP positive for possible TB regardless of CD4 count /AHD status; AHD regardless of TB S/S or seriously ill; No TB S/S, CXR/CRP Negative for possible TB CD4 >200 or unknown
-- Positive for TB S/S and/or CXR/CRP positive for possible TB regardless of CD4 count /AHD status -> Perform Xpert MTB/Rif (Ultra) and Urine LAM tests (if not yet performed)
-- AHD regardless of TB S/S or seriously ill -> Perform Urine LAM
-- Perform Urine LAM -> LAM positive; LAM negative
-- LAM positive -> Perform Xpert MTB/Rif (Ultra) and Urine LAM tests (if not yet performed)
-- Perform Xpert MTB/Rif (Ultra) and Urine LAM tests (if not yet performed) -> Both Xpert and LAM negative; Xpert AND/OR LAM positive
-- Both Xpert and LAM negative -> • Clinical management; • Provide TPT if eligible
-- Xpert AND/OR LAM positive -> • Start TB treatment; • Perform work-up to exclude DR-TB (collect specimen for phenotypic and genotypic DST of anti-TB drugs
-- LAM negative -> Apply AHD package of care
-- No TB S/S, CXR/CRP Negative for possible TB CD4 >200 or unknown -> • Clinical management; • Provide TPT if eligible","National Integrated Tuberculosis Management Guidelines (2025) | Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > Figure 18: Algorithm to evaluate for TB among PLHIV (page 77)
+tb-2025-fig-plhiv-evaluation,tb-2025,National Integrated TB Management Guidelines (2025),diagram,tb-2025-fig-plhiv-evaluation,1/1,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 Use of LF-LAM for TB Diagnosis in PLHIV > Figure 18: Algorithm to Evaluate for TB Among PLHIV,77,77,tb-2025:9589aa9504,tb-2025:f04d398e48,tb-2025-0172,tb-2025-0176,354,"### Figure 18. Algorithm to evaluate for TB among PLHIV: TB symptoms/CXR/CRP, seriously ill, advanced HIV disease (AHD), urine LF-LAM and Xpert, start TB treatment, AHD package, TPT
 
-Diagram: Algorithm to evaluate for TB among PLHIV (section: Figure 18: Algorithm to evaluate for TB among PLHIV)
-- • Assess for TB signs and symptoms (S/S)†; • Assess if seriously ill*; • Assess for advanced HIV disease (AHD); • Perform CD4 testing (if eligible); • Perform CXR/CRP screening if eligible (if available) † -> Positive for TB S/S and/or CXR/CRP positive for possible TB regardless of CD4 count /AHD status; AHD regardless of TB S/S or seriously ill; No TB S/S, CXR/CRP Negative for possible TB CD4 >200 or unknown
-- Positive for TB S/S and/or CXR/CRP positive for possible TB regardless of CD4 count /AHD status -> Perform Xpert MTB/Rif (Ultra) and Urine LAM tests (if not yet performed)
-- AHD regardless of TB S/S or seriously ill -> Perform Urine LAM
-- Perform Urine LAM -> LAM positive; LAM negative
-- LAM positive -> Perform Xpert MTB/Rif (Ultra) and Urine LAM tests (if not yet performed)
-- Perform Xpert MTB/Rif (Ultra) and Urine LAM tests (if not yet performed) -> Both Xpert and LAM negative; Xpert AND/OR LAM positive
-- Both Xpert and LAM negative -> • Clinical management; • Provide TPT if eligible
-- Xpert AND/OR LAM positive -> • Start TB treatment; • Perform work-up to exclude DR-TB (collect specimen for phenotypic and genotypic DST of anti-TB drugs
-- LAM negative -> Apply AHD package of care
-- No TB S/S, CXR/CRP Negative for possible TB CD4 >200 or unknown -> • Clinical management; • Provide TPT if eligible"
-tb-2025-0175,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 LF-LAM in PLHIV > Notes to Figure 18,77,77,tb-2025:a0160144fb,tb-2025:3582f5a487,tb-2025-0174,tb-2025-0176,112,"*† Refer to National TB Management Guidelines amd SOP for TB screening*
-\**Seriously ill is defined as presence of at least one of the following signs: respiratory rate >30/min, Heart rate >120/min, T° > 39°C, or unable to walk unaided*
-\*\**AHD is defined as CD4<200 cells or being at WHO clinical stage 3 or 4. For children <5 years and have not been on treatment for at least 12 months*
-*@CRP value of >5m/L is defined as possible/presumptive TB*","National Integrated Tuberculosis Management Guidelines (2025) | Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 LF-LAM in PLHIV > Notes to Figure 18 (page 77)
+Assess: TB signs and symptoms†; whether seriously ill*; advanced HIV disease (AHD)**; perform CD4 testing (if eligible); perform CXR/CRP screening if eligible and available†.
+- Positive for TB symptoms and/or CXR/CRP positive for possible TB (regardless of CD4 / AHD status) → perform Xpert MTB/RIF Ultra and urine LAM (if not yet done).
+- AHD (regardless of TB symptoms) or seriously ill → perform urine LAM: LAM positive → perform Xpert and urine LAM (if not yet done); LAM negative → apply the AHD package of care.
+- No TB symptoms, CXR/CRP negative, CD4 >200 or unknown → clinical management; provide TPT if eligible.
+Results of Xpert and LAM: both negative → clinical management, provide TPT if eligible; Xpert AND/OR LAM positive → start TB treatment and perform work-up to exclude DR-TB (collect a specimen for phenotypic and genotypic DST).
+† Refer to the national TB guidelines and SOP for TB screening. * Seriously ill: at least one of respiratory rate >30/min, heart rate >120/min, temperature >39°C, or unable to walk unaided. ** AHD: CD4 <200 cells or WHO clinical stage 3 or 4; for children <5 years and have not been on treatment for at least 12 months (as printed). @ CRP >5 mg/L is defined as possible/presumptive TB.","National Integrated TB Management Guidelines (2025) | Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 Use of LF-LAM for TB Diagnosis in PLHIV > Figure 18: Algorithm to Evaluate for TB Among PLHIV (page 77)
 
-*† Refer to National TB Management Guidelines amd SOP for TB screening*
-*Seriously ill is defined as presence of at least one of the following signs: respiratory rate >30/min, Heart rate >120/min, T° > 39°C, or unable to walk unaided*
-*AHD is defined as CD45m/L is defined as possible/presumptive TB*"
-tb-2025-0176,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,"Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.4 Sputum sample collection, sample transportation and storage",77,78,tb-2025:84e6c4eab2,tb-2025:80222cc61e,tb-2025-0175,tb-2025-0177,419,"### **4.4 Sputum sample collection, sample transportation and storage**
+Figure 18. Algorithm to evaluate for TB among PLHIV: TB symptoms/CXR/CRP, seriously ill, advanced HIV disease (AHD), urine LF-LAM and Xpert, start TB treatment, AHD package, TPT.
+Assess: TB signs and symptoms†; whether seriously ill*; advanced HIV disease (AHD)**; perform CD4 testing (if eligible); perform CXR/CRP screening if eligible and available†.
+- Positive for TB symptoms and/or CXR/CRP positive for possible TB (regardless of CD4 / AHD status) → perform Xpert MTB/RIF Ultra and urine LAM (if not yet done).
+- AHD (regardless of TB symptoms) or seriously ill → perform urine LAM: LAM positive → perform Xpert and urine LAM (if not yet done); LAM negative → apply the AHD package of care.
+- No TB symptoms, CXR/CRP negative, CD4 >200 or unknown → clinical management; provide TPT if eligible.
+Results of Xpert and LAM: both negative → clinical management, provide TPT if eligible; Xpert AND/OR LAM positive → start TB treatment and perform work-up to exclude DR-TB (collect a specimen for phenotypic and genotypic DST).
+† Refer to the national TB guidelines and SOP for TB screening. * Seriously ill: at least one of respiratory rate >30/min, heart rate >120/min, temperature >39°C, or unable to walk unaided. ** AHD: CD4 <200 cells or WHO clinical stage 3 or 4; for children <5 years and have not been on treatment for at least 12 months (as printed). @ CRP >5 mg/L is defined as possible/presumptive TB."
+tb-2025-0176,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,"Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.4 Sputum sample collection, sample transportation and storage",77,78,tb-2025:84e6c4eab2,tb-2025:80222cc61e,tb-2025-fig-plhiv-evaluation,tb-2025-0177,419,"### **4.4 Sputum sample collection, sample transportation and storage**
 
 The quality of the TB samples submitted for bacteriological examination of TB is critical in determining the correct outcome of the test. The Xpert MTB Assay is particularly sensitive and requires a good quality sample free of particulate matter to avoid error readings by the equipment. Educate clients on how to produce sputum to collect a good-quality sample. Two sputum samples of 3-5 ml (1-2 teaspoonful) are required for the diagnosis of TB. Ideally, one spot and one early morning specimen are required. However, if clients live far away from the health facility, two spot specimens may be collected. One specimen will be tested with Xpert MTB/Rif ultra for TB diagnosis and the second specimen will be used for diagnosis is drug-resistant TB with Xpert MTB XDR, culture, pDST and sequencing.
 

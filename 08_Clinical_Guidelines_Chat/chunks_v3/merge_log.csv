@@ -1454,10 +1454,18 @@ tb-2025-0115,replaced,tb-2025-tbl-p55-0113
 tb-2025-0119,replaced,tb-2025-tbl-p57-0119
 tb-2025-0120,replaced,tb-2025-tbl-p57-0120
 tb-2025-0124,replaced,tb-2025-tbl-p57-0120
+tb-2025-0128,replaced,tb-2025-fig-screen-plhiv-cxr
+tb-2025-0129,replaced,tb-2025-fig-screen-plhiv-cxr
+tb-2025-0130,replaced,tb-2025-fig-screen-plhiv-cxr
+tb-2025-0131,replaced,tb-2025-fig-screen-plhiv-cxr-crp
+tb-2025-0132,replaced,tb-2025-fig-screen-plhiv-cxr-crp
+tb-2025-0133,replaced,tb-2025-fig-screen-plhiv-cxr-crp
 tb-2025-0144,replaced,tb-2025-tbl-p65-0144
 tb-2025-0153,replaced,tb-2025-tbl-p69-0153
 tb-2025-0166,replaced,tb-2025-tbl-p73-0166
 tb-2025-0167,replaced,tb-2025-tbl-p73-0166
+tb-2025-0174,replaced,tb-2025-fig-plhiv-evaluation
+tb-2025-0175,replaced,tb-2025-fig-plhiv-evaluation
 tb-2025-0179,replaced,tb-2025-tbl-p79-0179
 tb-2025-0181,replaced,tb-2025-tbl-p80-0181
 tb-2025-0183,replaced,tb-2025-tbl-p80-0181
@@ -1488,8 +1496,6 @@ tb-2025-0121,label,"3.5 Linking people with presumptive TB for diagnosis and tre
 tb-2025-0123,cleaned,
 tb-2025-0123,label,3.6 Recording of TB case-finding activities => Chapter 3: Tuberculosis Case Finding > 3.6 Recording of TB Case-finding Activities
 tb-2025-0125,emptied,
-tb-2025-0128,emptied,
-tb-2025-0131,emptied,
 tb-2025-0134,emptied,
 tb-2025-0137,emptied,
 tb-2025-0140,emptied,
@@ -1497,7 +1503,6 @@ tb-2025-0163,cleaned,
 tb-2025-0165,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > Note: If no culture conversion at month 4 or culture reversion, perform C&DST and tNGS. => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological Diagnosis > Diagnostic Algorithm Notes (Figure 15)"
 tb-2025-0168,cleaned,
 tb-2025-0173,emptied,
-tb-2025-0175,label,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > Figure 18: Algorithm to evaluate for TB among PLHIV => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 LF-LAM in PLHIV > Notes to Figure 18
 tb-2025-0177,cleaned,
 tb-2025-0182,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > Table 11: A brief details of type of EP-TB, clinical features and diagnostic procedure => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes"
 tb-2025-0198,emptied,
