@@ -590,8 +590,7 @@
    "content": "1. HIV-negative?\n   - If NO: refer for HIV care and treatment.\n   - If YES: refer to HIV prevention, then ask: exposed to HIV in the past 72 hours?\n       - If YES: refer to PEP.\n       - If NO: screen for PrEP, then screen for AHI symptomatically.\n2. AHI symptoms?\n   - If NO: start PrEP (standard of care).\n   - If YES: high-risk sex in the past 14 days?\n       - If NO: start PrEP (standard of care).\n       - If YES: defer PrEP, retest for HIV in 28 days AND rescreen for PrEP if still HIV-negative.\nKey: PEP = post exposure prophylaxis; PrEP = pre-exposure prophylaxis; AHI = acute HIV infection.",
    "footnotes": [],
    "source_flags": [
-    "The flowchart key defines PrEP as 'Post exposure prophylaxis' (should be pre-exposure prophylaxis).",
-    "Deferral here is 'retest in 28 days'; Table 2.2 says defer PrEP for 4 weeks - consistent."
+    "The flowchart key defines PrEP as 'Post exposure prophylaxis' (should be pre-exposure prophylaxis)."
    ]
   },
   {

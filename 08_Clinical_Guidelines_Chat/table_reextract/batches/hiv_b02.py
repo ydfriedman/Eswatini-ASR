@@ -39,8 +39,7 @@ ITEMS = [
    "       - If NO: start PrEP (standard of care).\n"
    "       - If YES: defer PrEP, retest for HIV in 28 days AND rescreen for PrEP if still HIV-negative.\n"
    "Key: PEP = post exposure prophylaxis; PrEP = pre-exposure prophylaxis; AHI = acute HIV infection.",
-   flags=["The flowchart key defines PrEP as 'Post exposure prophylaxis' (should be pre-exposure prophylaxis).",
-          "Deferral here is 'retest in 28 days'; Table 2.2 says defer PrEP for 4 weeks - consistent."]),
+   flags=["The flowchart key defines PrEP as 'Post exposure prophylaxis' (should be pre-exposure prophylaxis)."],),
  T("tbl-2.2-prep-contraindications", 37, C2 + " > 2.5 Pre-exposure Prophylaxis > Table 2.2 Contraindications to oral pre-exposure prophylaxis",
    "Table 2.2 Contradictions to oral pre-exposure prophylaxis", ["0060"],
    [r("PrEP method", "Contraindications")],
