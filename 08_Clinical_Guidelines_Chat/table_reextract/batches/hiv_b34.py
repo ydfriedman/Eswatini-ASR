@@ -46,7 +46,7 @@ ITEMS = [
     r("Risperidone", "1–2 mg 2 times daily", "16 mg/day (Increase dose by 2 mg at a time)"),
     r("Olanzapine", "5 mg 2 times daily", "25 mg/day (Increase dose by 5 mg at a time)"),
     [C("Olanzapine and Risperidone can cause impressive weight gain and also risk for diabetes.", cs=3)]],
-   source_flags=["Table 10.9 maximum doses (risperidone 16 mg/day, olanzapine 25 mg/day) are above usual maxima (risperidone 16 mg is the absolute upper limit, usually ≤6-8 mg; olanzapine 20 mg/day); check against the Eswatini Mental Health guidelines."]),
+   source_flags=["Table 10.9 maximum doses are high: risperidone 16 mg/day (the absolute upper limit; usual maintenance is at most 6-8 mg/day) and olanzapine 25 mg/day (usual maximum 20 mg/day); check against the Eswatini Mental Health guidelines."]),
  B("box-mood-stabilizers", 252, DP + " > Mood Stabilizers", "Mood Stabilizers", ["0694"],
    "Mood stabilizers\n- Sodium valproate 50mg–600mg twice daily (mostly preferred in PLHIV):\n- Maximum therapeutic dose 2500mg/day in divided dose.\n- Increase dose by 200–500mg.\n"
    "- Check valproate levels yearly or every 6 months if the client is on the maximum dose.\n- Lamotrigine 25mg for the first 14 days then increase by 25-50mg, maximum 500mg/day in divided doses.\n"
