@@ -1,0 +1,1567 @@
+{
+ "doc_id": "anc",
+ "doc_title": "Eswatini ANC Guidelines",
+ "method": "Transcribed by Claude from PDF page images (110 dpi). Most table pages in this PDF have no text layer, so cells were read from the images and compared with the original LlamaParse chunks.",
+ "pdf_parts": [
+  {
+   "file": "ANC_GUIDLINES_1_1.pdf",
+   "pages": "1-48"
+  }
+ ],
+ "tables": [
+  {
+   "table_id": "anc-tbl-mnch-indicators",
+   "page": 7,
+   "image_only": false,
+   "heading_path": "1.0 Background > 1.2 Situation Analysis",
+   "caption": "Table 1. Key MNCH indicators in Eswatini 2007-2018: ANC coverage, content of ANC, skilled birth attendance, institutional deliveries, caesarean section, postnatal care, stillbirths, maternal and neonatal mortality",
+   "replaces_chunks": [
+    "anc-0010",
+    "anc-0011",
+    "anc-0012"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Key indicator"
+     },
+     {
+      "t": "2007 ³"
+     },
+     {
+      "t": "2010 ⁴"
+     },
+     {
+      "t": "2012 ⁵"
+     },
+     {
+      "t": "2014 ⁶"
+     },
+     {
+      "t": "2017 ⁷"
+     },
+     {
+      "t": "2018"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Antenatal care coverage (%)"
+     },
+     {
+      "t": "97.1"
+     },
+     {
+      "t": "96.8"
+     },
+     {
+      "t": "97"
+     },
+     {
+      "t": "98.5"
+     },
+     {
+      "t": "95"
+     },
+     {
+      "t": "96"
+     }
+    ],
+    [
+     {
+      "t": "Content of antenatal care (%)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "80.6"
+     },
+     {
+      "t": "80.6"
+     },
+     {
+      "t": "90"
+     },
+     {
+      "t": "90"
+     },
+     {
+      "t": "90"
+     }
+    ],
+    [
+     {
+      "t": "Skilled attendant at delivery (%)"
+     },
+     {
+      "t": "74.3"
+     },
+     {
+      "t": "82"
+     },
+     {
+      "t": "82"
+     },
+     {
+      "t": "88.3"
+     },
+     {
+      "t": "88.3"
+     },
+     {
+      "t": "88.3"
+     }
+    ],
+    [
+     {
+      "t": "Institutional deliveries (%)"
+     },
+     {
+      "t": "74.1"
+     },
+     {
+      "t": "80.4"
+     },
+     {
+      "t": "80.4"
+     },
+     {
+      "t": "87.7"
+     },
+     {
+      "t": "87.7"
+     },
+     {
+      "t": "87.7"
+     }
+    ],
+    [
+     {
+      "t": "Caesarean section (%)"
+     },
+     {
+      "t": "7.9"
+     },
+     {
+      "t": "12.3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "11.6"
+     },
+     {
+      "t": "12"
+     },
+     {
+      "t": "14"
+     }
+    ],
+    [
+     {
+      "t": "7–14 days post-partum (%)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "45"
+     },
+     {
+      "t": "59"
+     },
+     {
+      "t": "71"
+     },
+     {
+      "t": "75"
+     }
+    ],
+    {
+     "section": "Newborn deaths"
+    },
+    [
+     {
+      "t": "Macerated stillbirths"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "239"
+     }
+    ],
+    [
+     {
+      "t": "Fresh stillbirths"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "168"
+     }
+    ],
+    [
+     {
+      "t": "ENND"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "226"
+     }
+    ],
+    {
+     "section": "Impact"
+    },
+    [
+     {
+      "t": "Maternal mortality ratio"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "593"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "117"
+     }
+    ],
+    [
+     {
+      "t": "Neonatal mortality rate"
+     },
+     {
+      "t": "22"
+     },
+     {
+      "t": "23"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "20"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "20"
+     }
+    ]
+   ],
+   "footnotes": [
+    "³ Swaziland Demographic and Health Survey, 2017 (as printed for the 2007 column). ⁴ MICS, 2010. ⁵ Swaziland Demographic and Housing Survey, 2012. ⁶ MICS 2014. ⁷ SRH Report, 2017."
+   ],
+   "source_flags": [
+    "The 2007 column cites the 'Swaziland Demographic and Health survey, 2017'.",
+    "Units are not given (percentages, counts, per 100,000 / per 1,000)."
+   ],
+   "pages": [
+    7,
+    8
+   ]
+  },
+  {
+   "table_id": "anc-tbl-anc-contact-schedule",
+   "page": 13,
+   "image_only": false,
+   "heading_path": "2.0 ANC Contact Schedule > 2.1 New Schedule of ANC Contacts",
+   "caption": "Eight ANC contacts schedule: 1st contact 8-12 weeks, then 20, 26, 30, 34, 36, 38 and 40 weeks",
+   "replaces_chunks": [
+    "anc-0024"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Contact"
+     },
+     {
+      "t": "Recommended schedule"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1st contact"
+     },
+     {
+      "t": "As soon as the woman suspects she is pregnant; during the first trimester (preferably 8–12 weeks)"
+     }
+    ],
+    [
+     {
+      "t": "2nd scheduled contact"
+     },
+     {
+      "t": "20 weeks"
+     }
+    ],
+    [
+     {
+      "t": "3rd scheduled contact"
+     },
+     {
+      "t": "26 weeks"
+     }
+    ],
+    [
+     {
+      "t": "4th scheduled contact"
+     },
+     {
+      "t": "30 weeks"
+     }
+    ],
+    [
+     {
+      "t": "5th scheduled contact"
+     },
+     {
+      "t": "34 weeks"
+     }
+    ],
+    [
+     {
+      "t": "6th scheduled contact"
+     },
+     {
+      "t": "36 weeks"
+     }
+    ],
+    [
+     {
+      "t": "7th scheduled contact"
+     },
+     {
+      "t": "38 weeks"
+     }
+    ],
+    [
+     {
+      "t": "8th scheduled contact"
+     },
+     {
+      "t": "40 weeks"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "A new model with eight scheduled contacts is adopted (WHO 2016), replacing focused ANC (4 visits), to reduce perinatal mortality and improve women's experience of care."
+  },
+  {
+   "table_id": "anc-tbl-anc-essential-package",
+   "page": 14,
+   "image_only": false,
+   "heading_path": "2.0 ANC Contact Schedule > 2.2 Essential Package of ANC Interventions",
+   "caption": "Essential package of ANC interventions at each of the 8 contacts: maternal and foetal assessment, counselling topics, point-of-care tests, lab investigations, ultrasound, preventive measures (IFA, calcium, deworming, PrEP), clinical practices, management, and cadres",
+   "replaces_chunks": [
+    "anc-0026",
+    "anc-0027",
+    "anc-0028",
+    "anc-0029",
+    "anc-0030",
+    "anc-0031",
+    "anc-0032",
+    "anc-0033",
+    "anc-0034",
+    "anc-0035",
+    "anc-0036",
+    "anc-0037",
+    "anc-0038",
+    "anc-0040",
+    "anc-0042",
+    "anc-0043"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Contact"
+     },
+     {
+      "t": "Maternal assessment"
+     },
+     {
+      "t": "Foetal assessment"
+     },
+     {
+      "t": "Counselling topics (information, education and counselling)"
+     },
+     {
+      "t": "Point-of-care tests"
+     },
+     {
+      "t": "Lab investigations"
+     },
+     {
+      "t": "Radiological tests"
+     },
+     {
+      "t": "Preventive measures"
+     },
+     {
+      "t": "Essential good clinical practices"
+     },
+     {
+      "t": "Treat / manage"
+     },
+     {
+      "t": "Others"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Contact 1 at 8–12 weeks"
+     },
+     {
+      "t": "Comprehensive history taking; clinical estimation of gestational age; examination head to toe; TB screening; screening for IPV"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test and partner testing, adherence to medicines prescribed; danger signs, emergency preparedness, early stimulation of the baby, VMMC counselling, condom usage; avoid: caffeine intake, alcohol/tobacco/substance abuse"
+     },
+     {
+      "t": "HIV, syphilis, Hep B, urine dipstick, malaria, Hb"
+     },
+     {
+      "t": "Blood group and Rhesus; full blood count; check for ASB (Gram stain or culture); viral load, CD4 count; Hep B"
+     },
+     {
+      "t": "Ultrasound"
+     },
+     {
+      "t": "Iron and folic acid, calcium, TT/Td; combination prevention (PrEP, condom, VMMC for men); prophylaxis as needed"
+     },
+     {
+      "t": "Weight, height, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; STIs; complications of early pregnancy; ART; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Contact 2 at 20 weeks"
+     },
+     {
+      "t": "Assess general wellbeing, clinical estimation of gestational age, physical examination, SFH/abdominal palpation, TB screening, screening for IPV"
+     },
+     {
+      "t": "FHR auscultation in beats per minute; enquire about quickening"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test; avoid: caffeine intake, alcohol/tobacco/substance abuse; IPV, danger signs, emergency preparedness, early stimulation of the baby; condom usage re-enforcement, VMMC counselling"
+     },
+     {
+      "t": "Urine dipstick, HIV and syphilis re-test for those who were negative or not tested at the 1st contact, malaria test"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "Ultrasound if not yet done"
+     },
+     {
+      "t": "Anthelminthic (mebendazole); IFA, calcium, combination prevention (PrEP, condom, VMMC for men)"
+     },
+     {
+      "t": "Weight, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; complications of early pregnancy; refills as indicated; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Contact 3 at 26 weeks"
+     },
+     {
+      "t": "Ask how mother is doing, clinical estimation of gestational age, physical examination, SFH/abdominal palpation, TB screening, IPV, ask about foetal movements, rule out PROM"
+     },
+     {
+      "t": "FHR auscultation, ask about foetal movements"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test; avoid: caffeine intake, alcohol/tobacco/substance abuse; IPV, danger signs, emergency preparedness, IYCF, early stimulation of the baby"
+     },
+     {
+      "t": "Urine dipstick, malaria test"
+     },
+     {
+      "t": "Check Hb; check ASB"
+     },
+     {
+      "t": "Ultrasound if indicated"
+     },
+     {
+      "t": "IFA, calcium, combination prevention (PrEP, condom, VMMC for men)"
+     },
+     {
+      "t": "Weight, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; complications of pregnancy; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Contact 4 at 30 weeks"
+     },
+     {
+      "t": "Ask how mother is doing, clinical estimation of gestational age, physical examination, SFH/abdominal palpation, TB screening, IPV, ask about foetal movements, rule out PROM"
+     },
+     {
+      "t": "FHR auscultation, ask about foetal movements"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test; avoid: caffeine intake, alcohol/tobacco/substance abuse; IPV, danger signs, emergency preparedness, IYCF, breastfeeding, breast care, FP/HTSP, birth planning, EIMC, early stimulation of the baby"
+     },
+     {
+      "t": "Urine dipstick, HIV and syphilis re-test for those who were negative, malaria test"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "Ultrasound if indicated"
+     },
+     {
+      "t": "IFA, calcium, combination prevention (PrEP, condom, VMMC for men)"
+     },
+     {
+      "t": "Weight, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; manage complications of pregnancy; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Contact 5 at 34 weeks"
+     },
+     {
+      "t": "Ask how mother is doing, clinical estimation of gestational age, physical examination, SFH/abdominal palpation, TB screening, IPV, ask about foetal movements, rule out PROM"
+     },
+     {
+      "t": "FHR auscultation, ask about foetal movements"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test; avoid: caffeine intake, alcohol/tobacco/substance abuse; IPV, danger signs, emergency preparedness, IYCF, breastfeeding, FP/HTSP, breast care, birth planning, EIMC, early stimulation of the baby, signs of true labour, coping during labour, baby layette"
+     },
+     {
+      "t": "Urine dipstick, malaria test"
+     },
+     {
+      "t": "Check ASB"
+     },
+     {
+      "t": "Ultrasound if indicated"
+     },
+     {
+      "t": "IFA, calcium, combination prevention (PrEP, condom, VMMC for men)"
+     },
+     {
+      "t": "Weight, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; manage complications of pregnancy; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Contact 6 at 36 weeks"
+     },
+     {
+      "t": "Ask how mother is doing, clinical estimation of gestational age, physical examination, SFH/abdominal palpation, TB screening, IPV, ask about foetal movements, rule out PROM"
+     },
+     {
+      "t": "FHR auscultation, ask about foetal movements"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test; avoid: caffeine intake, alcohol/tobacco/substance abuse; IPV, danger signs, emergency preparedness, IYCF, breastfeeding, FP/HTSP, EIMC, early stimulation of the baby, signs of true labour, coping during labour, baby layette"
+     },
+     {
+      "t": "Urine dipstick, malaria test"
+     },
+     {
+      "t": "Check Hb"
+     },
+     {
+      "t": "Ultrasound if indicated"
+     },
+     {
+      "t": "IFA, calcium, combination prevention (PrEP, condom, VMMC for men)"
+     },
+     {
+      "t": "Weight, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; manage complications; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Contact 7 at 38 weeks"
+     },
+     {
+      "t": "Ask how mother is doing, clinical estimation of gestational age, physical examination, SFH/abdominal palpation, TB screening, IPV, ask about foetal movements, rule out PROM"
+     },
+     {
+      "t": "FHR auscultation, ask about foetal movements"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test; avoid: caffeine intake, alcohol/tobacco/substance abuse; IPV, danger signs, emergency preparedness, IYCF, breastfeeding, FP/HTSP, EIMC, early stimulation of the baby, signs of true labour, coping during labour, baby layette"
+     },
+     {
+      "t": "Urine dipstick, HIV and syphilis re-test for those who were negative, malaria test"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "Ultrasound if indicated"
+     },
+     {
+      "t": "IFA, calcium, combination prevention (PrEP, condom, VMMC for men)"
+     },
+     {
+      "t": "Weight, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; manage complications; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Contact 8 at 40 weeks"
+     },
+     {
+      "t": "Ask how mother is doing, clinical estimation of gestational age, physical examination, SFH/abdominal palpation, TB screening, IPV, ask about foetal movements, rule out PROM, ask about symptoms of labour"
+     },
+     {
+      "t": "FHR auscultation, ask about foetal movements"
+     },
+     {
+      "t": "Nutrition; diet; physical activity, rest, HIV test; avoid: caffeine intake, alcohol/tobacco/substance abuse; IPV, danger signs, emergency preparedness, IYCF, breastfeeding, FP/HTSP, EIMC, early stimulation of the baby; counsel on admission if no signs of labour at 41 weeks"
+     },
+     {
+      "t": "Urine dipstick, malaria test"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "Ultrasound if indicated"
+     },
+     {
+      "t": "IFA, calcium, combination prevention (PrEP, condom, VMMC for men)"
+     },
+     {
+      "t": "Weight, BP, MUAC, male involvement, STI screening"
+     },
+     {
+      "t": "Common physiological disorders; manage complications; refer as per client's needs"
+     },
+     {
+      "t": "Complete ANC card and give to woman; fill ANC register/CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Cadres to provide the services"
+     },
+     {
+      "t": "Midwives, obstetricians, doctors"
+     },
+     {
+      "t": "Midwives, obstetricians, doctors"
+     },
+     {
+      "t": "Midwife, general nurse, nursing assistants, dieticians, nutritionist, health promotion, community health workers, doctors, obstetrician, sonographers"
+     },
+     {
+      "t": "Midwives, general nurses, doctors"
+     },
+     {
+      "t": "Lab technician"
+     },
+     {
+      "t": "Radiology, sonographers, obstetricians, midwives"
+     },
+     {
+      "t": "Nursing assistants; general nurse, midwives"
+     },
+     {
+      "t": "Midwives (BP), obstetricians (BP), doctors (BP); community health workers (weight, MUAC, height)"
+     },
+     {
+      "t": "Midwives, doctors, obstetricians"
+     },
+     {
+      "t": "Midwives, obstetricians, doctors"
+     }
+    ]
+   ],
+   "footnotes": [
+    "NB: 1. All cadres will be expected to provide IEC; depending on the roster, all midwives will be expected to provide individual counselling. 2. Health promotion will be done for community engagement. 3. Complete the ANC card, enter information into the register and give the card to the pregnant woman. 4. ANC services are offered at clinic, PHU and health centre. 5. Referral for complications to the next level.",
+    "IPV – intimate partner violence; HTSP – healthy timing and spacing of pregnancy; IYCF – infant and young child feeding; EIMC – early infant male circumcision; ASB – asymptomatic bacteriuria; IFA – iron and folic acid; SFH – symphysis-fundal height; FHR – foetal heart rate."
+   ],
+   "source_flags": [
+    "The PDF prints each contact as a rotated landscape table with no text layer; cells were transcribed from the page images.",
+    "Several cells are printed twice (contact 3, 4 and 5 preventive measures, clinical practices, management and 'Others'), and on contact 5 text from the maternal-assessment and counselling cells overflows into the preventive-measures and clinical-practices cells. Cleaned up here; the order of the overflow text was inferred.",
+    "The 'Cadres' row on p.22 has six columns in the first block and five in the second; mapped to the 11 columns in printed order, so the mapping should be checked.",
+    "Calcium and IFA are listed at every contact but doses are not given in this table."
+   ],
+   "pages": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "table_id": "anc-tbl-preventive-measures",
+   "page": 26,
+   "image_only": false,
+   "heading_path": "3.0 Providing ANC Services > 3.6 Preventive Measures",
+   "caption": "Preventive measures in ANC by risk condition: iron/folate for anaemia (60 mg iron + 400 mcg folic acid daily), calcium 1500 mg for pre-eclampsia, mebendazole 500 mg, malaria, HIV testing and ART, hepatitis B testing",
+   "replaces_chunks": [
+    "anc-0053",
+    "anc-0054"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Risk condition"
+     },
+     {
+      "t": "Assess, check, record"
+     },
+     {
+      "t": "Treat and advise"
+     },
+     {
+      "t": "Scheduled contact"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Iron deficiency anaemia"
+     },
+     {
+      "t": "Check the woman's supply of the prescribed dose of iron/folate and whether she is taking them regularly as advised. Ask about diet."
+     },
+     {
+      "t": "Start iron/folate supplements at the first contact. Give 3 months' supply of daily iron/folate (1 tablet = 60 mg iron + 400 mcg folic acid), to be taken daily by all pregnant women to prevent anaemia. Refill the supply of iron/folate at subsequent contacts.<br/>Counsel on adherence to prevent anaemia.<br/>Counsel on correct and consistent use, management of side effects, and appropriate iron-rich food intake including food preparation."
+     },
+     {
+      "t": "All scheduled contacts"
+     }
+    ],
+    [
+     {
+      "t": "Pre-eclampsia"
+     },
+     {
+      "t": "All women are at risk of pre-eclampsia. Check the woman's supply of calcium tablets at each contact."
+     },
+     {
+      "t": "Dispense 1500 mg of elemental calcium. Give 1500 mg to every pregnant woman at risk of developing pre-eclampsia (multiple pregnancy, obesity, family history of pre-eclampsia, diabetes) from 20 weeks until delivery."
+     },
+     {
+      "t": "All scheduled contacts"
+     }
+    ],
+    [
+     {
+      "t": "Intestinal worms"
+     },
+     {
+      "t": "Check when the woman last received a dose of mebendazole (if within the previous 6 months, wait until 6 months have passed)."
+     },
+     {
+      "t": "Give mebendazole (500 mg) once during the second or third trimester of pregnancy to every woman."
+     },
+     {
+      "t": "Contact 2 at 20 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Malaria"
+     },
+     {
+      "t": "Check when the last dose of an antimalarial was given."
+     },
+     {
+      "t": "Counsel on use of bed nets.<br/>Perform RDT if she has malaria symptoms and treat if positive."
+     },
+     {
+      "t": "All contacts"
+     }
+    ],
+    [
+     {
+      "t": "HIV"
+     },
+     {
+      "t": "Check knowledge of HIV status and partner's status."
+     },
+     {
+      "t": "Counsel and offer HIV testing to HIV-negative women and those of unknown HIV status. If negative, retest as per schedule; encourage partner HIV testing. If positive and not on treatment, start ART (see National HIV integrated guidelines, PMTCT section).<br/>Provide adherence and psychosocial support; if on ART provide support; encourage and emphasise the use of condoms and encourage VMMC."
+     },
+     {
+      "t": "All scheduled contacts"
+     }
+    ],
+    [
+     {
+      "t": "Hepatitis B"
+     },
+     {
+      "t": "Check knowledge about hepatitis; history of blood transfusion, jaundice, contact/exposure to hepatitis B."
+     },
+     {
+      "t": "Test for hepatitis B; if positive, counsel and refer to the next level of care. If negative, counsel and repeat when the next HIV/syphilis screening is done."
+     },
+     {
+      "t": "1st contact"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Calcium: the assessment column says all women are at risk and 'dispense 1500 mg', but the treatment text limits calcium to women 'at risk of developing pre-eclampsia' (multiple pregnancy, obesity, family history, diabetes) from 20 weeks; the contact schedule lists calcium at every contact from contact 1.",
+    "'Elementary calcium' printed (elemental calcium); the calcium dose is not split (WHO: 1.5–2.0 g daily in divided doses)."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "anc-fig-td-vaccination",
+   "page": 27,
+   "image_only": false,
+   "heading_path": "3.0 Providing ANC Services > 3.6 Preventive Measures > Tetanus-Diphtheria (Td) Vaccination",
+   "caption": "Td (tetanus-diphtheria) vaccination in pregnancy by prior TTCV doses: unknown/none, 3 or 4 childhood doses, later boosters – doses needed and intervals",
+   "replaces_chunks": [
+    "anc-0055",
+    "anc-0056"
+   ],
+   "content": "If a pregnant woman received:\n- No TTCV doses or unknown vaccination status → she will need: (a) 1 Td dose as early as possible; (b) 1 Td dose at least 4 weeks later; (c) 1 Td dose at least 6 months later; (d) 1 Td dose at least 1 year later; (e) 1 more Td dose at least 1 year later (to obtain long-term protection).\n- Only 3 TTCV doses in childhood → (a) 1 Td dose at the first ANC visit; (b) another Td dose 4 weeks later (to be protected for that pregnancy); (c) 1 more Td dose at least 1 year later (long-term protection).\n- 4 TTCV doses in childhood → (a) 1 Td dose at that visit (to be protected for that pregnancy); (b) 1 more Td dose at least 1 year later (long-term protection).\n- 3 TTCV doses in childhood and 1 Td or 1 DT dose later → (a) 1 Td dose at that visit (to be protected for that pregnancy); (b) 1 more Td dose at least 1 year later (long-term protection).\n- 4 TTCV doses in childhood and 1 Td dose later → 1 Td dose at that contact (no further doses required).\n- 4 TTCV doses and 2 Td boosters → no vaccination; the woman is fully protected.\n(TTCV = tetanus toxoid-containing vaccine.)",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "anc-tbl-early-pregnancy-bleeding",
+   "page": 36,
+   "image_only": false,
+   "heading_path": "6.0 Managing Complications of Pregnancy > 6.1 Vaginal Bleeding in Early Pregnancy > 6.1.2 Clinical Assessment",
+   "caption": "Vaginal bleeding in early pregnancy: threatened, inevitable, incomplete, complete and missed abortion, molar pregnancy, pregnancy of uncertain viability, pregnancy of unknown location – clinical assessment, ultrasound findings, management",
+   "replaces_chunks": [
+    "anc-0080",
+    "anc-0081"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Type"
+     },
+     {
+      "t": "Clinical assessment"
+     },
+     {
+      "t": "USS findings"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Threatened abortion"
+     },
+     {
+      "t": "- Light bleeding<br/>- Abdominal pain<br/>- Closed cervix<br/>- Uterus corresponds to dates"
+     },
+     {
+      "t": "- Intrauterine gestation sac<br/>- Fetal pole<br/>- Fetal heart activity"
+     },
+     {
+      "t": "- Take vital signs: pulse, blood pressure; do pregnancy test and haemoglobin.<br/>- Refer urgently to health centre or hospital.<br/>- Ultrasound scan to be done at health centre or hospital."
+     }
+    ],
+    [
+     {
+      "t": "Inevitable abortion"
+     },
+     {
+      "t": "- Heavy bleeding<br/>- Abdominal pain<br/>- Opened cervix<br/>- Uterus corresponds to dates"
+     },
+     {
+      "t": "Intrauterine gestation sac ± fetal pole ± fetal activity"
+     },
+     {
+      "t": "- Take vital signs: pulse, blood pressure; do pregnancy test and haemoglobin.<br/>- Insert 2 large IV lines, run normal saline or Ringer's lactate, and relieve pain.<br/>- Refer urgently to health centre or hospital.<br/>- Ultrasound scan to be done at health centre or hospital."
+     }
+    ],
+    [
+     {
+      "t": "Incomplete abortion"
+     },
+     {
+      "t": "- Heavy bleeding with history of expulsion of products of conception<br/>- Abdominal pain<br/>- Uterus smaller than dates<br/>- Opened cervix"
+     },
+     {
+      "t": "- Heterogeneous tissues ± gestation sac<br/>- Any endometrial thickness >15 mm"
+     },
+     {
+      "t": "- Take vital signs: pulse, blood pressure; do pregnancy test and haemoglobin.<br/>- Insert 2 large IV lines, run normal saline or Ringer's lactate, and relieve pain.<br/>- Refer urgently to health centre or hospital.<br/>- Ultrasound scan to be done at health centre or hospital.<br/>- MVA should be done to evacuate the uterus by a trained health professional."
+     }
+    ],
+    [
+     {
+      "t": "Complete abortion"
+     },
+     {
+      "t": "- Bleeding and abdominal pain cease<br/>- Cervix closed"
+     },
+     {
+      "t": "- Empty uterus<br/>- Endometrial thickness <15 mm"
+     },
+     {
+      "t": "Ultrasound scan to be done at health centre or hospital."
+     }
+    ],
+    [
+     {
+      "t": "Missed abortion / early fetal demise"
+     },
+     {
+      "t": "- Bleeding<br/>- Abdominal pain, loss of pregnancy symptoms<br/>- Closed cervix"
+     },
+     {
+      "t": "- Fetal pole >7 mm with no fetal heart activity<br/>- Mean gestation sac diameter >25 mm with no fetal pole or yolk sac"
+     },
+     {
+      "t": "Ultrasound scan to be done at health centre or hospital."
+     }
+    ],
+    [
+     {
+      "t": "Molar pregnancy"
+     },
+     {
+      "t": "- Heavy bleeding with history of expulsion of products of conception<br/>- Abdominal pain<br/>- Nausea and vomiting<br/>- Opened cervix<br/>- Uterus larger than dates<br/>- Uterus softer than normal"
+     },
+     {
+      "t": "- 'Snowstorm' appearance of mixed echogenicity<br/>- ± Large theca lutein cysts"
+     },
+     {
+      "t": "Ultrasound scan to be done at health centre or hospital. The uterus should be evacuated by a trained health professional and the client followed up stringently as per guidelines."
+     }
+    ],
+    [
+     {
+      "t": "Pregnancy of uncertain viability"
+     },
+     {
+      "t": "- ± bleeding ± pain<br/>- Closed cervix"
+     },
+     {
+      "t": "- Intrauterine gestation sac <25 mm with no fetal pole or yolk sac<br/>- Fetal pole with CRL <7 mm with no fetal heart activity"
+     },
+     {
+      "t": "Rescan in 1 week"
+     }
+    ],
+    [
+     {
+      "t": "Pregnancy of unknown location (PUL)"
+     },
+     {
+      "t": "- ± bleeding ± pain<br/>- Closed cervix"
+     },
+     {
+      "t": "- Positive pregnancy test<br/>- Empty uterus<br/>- No sign of extrauterine pregnancy"
+     },
+     {
+      "t": "Serial serum hCG assay (48 h apart). Rescan in 2 weeks."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The abortion definition reads 'before 20 weeks' gestation or with a fetus born weighing 500 g' (presumably 'less than 500 g').",
+    "Missed abortion and molar pregnancy rows give only 'ultrasound at health centre or hospital' – no instruction to refer or on vital signs/IV access, unlike the other rows."
+   ],
+   "table_note": "NOTE: Tachycardia should be taken seriously even in a stable-looking patient.",
+   "context_before": "Abortion is defined as expulsion or extraction of a pregnancy before 20 weeks' gestation or a fetus weighing 500 g."
+  },
+  {
+   "table_id": "anc-tbl-ectopic-pregnancy",
+   "page": 37,
+   "image_only": false,
+   "heading_path": "6.0 Managing Complications of Pregnancy > 6.2 Ectopic Pregnancy > 6.2.2 Signs, Symptoms and Management",
+   "caption": "Ectopic pregnancy: symptoms (amenorrhoea, unilateral lower abdominal pain, spotting, shoulder tip pain, collapse), signs, and emergency management (IV lines, urgent referral)",
+   "replaces_chunks": [
+    "anc-0083"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "Signs"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- Often asymptomatic (unsure of dates)<br/>- Amenorrhoea (usually 6–8 weeks)<br/>- Lower abdominal pain (classically unilateral)<br/>- Vaginal bleeding (usually spotting and brown in colour)<br/>- Diarrhoea and vomiting should not be ignored<br/>- Dizziness and light-headedness<br/>- Shoulder tip pain (diaphragmatic irritation – haemoperitoneum)<br/>- Collapse (if ruptured)"
+     },
+     {
+      "t": "- Often no specific signs<br/>- Uterus usually normal size<br/>- Cervical motion tenderness and adnexal tenderness occasionally<br/>- Adnexal mass very rare<br/>- Confusion and restlessness<br/>(Suspect ectopic pregnancy in any woman of reproductive age with a history of amenorrhoea and unilateral lower abdominal pain, tachycardia, dizziness, fainting.)"
+     },
+     {
+      "t": "- Vital signs: pulse, blood pressure; do pregnancy test and haemoglobin. NOTE: tachycardia should be taken seriously even in a stable-looking patient.<br/>- Insert 2 large-bore IV lines<br/>- Run normal saline or Ringer's lactate<br/>- Refer urgently to hospital<br/>- Ultrasound scan must be done. This is an emergency and must be managed immediately!"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Ectopic pregnancy is implantation of the pregnancy outside the uterine cavity."
+  },
+  {
+   "table_id": "anc-tbl-aph-diagnosis",
+   "page": 38,
+   "image_only": false,
+   "heading_path": "6.0 Managing Complications of Pregnancy > 6.3 Antepartum Haemorrhage > 6.3.3 Diagnosis of Antepartum Haemorrhage",
+   "caption": "Antepartum haemorrhage: abruptio placentae vs placenta praevia vs ruptured uterus – signs and symptoms; general emergency management (ABC, IV lines, no digital vaginal examination, refer)",
+   "replaces_chunks": [
+    "anc-0086",
+    "anc-0087"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Probable diagnosis"
+     },
+     {
+      "t": "Signs and symptoms"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Abruptio placentae"
+     },
+     {
+      "t": "- Vaginal bleeding<br/>- Intermittent or constant abdominal pain<br/>- Shock<br/>- Tender, tense uterus<br/>- Decreased or absent fetal movement<br/>- Fetal distress or absent fetal heart sounds"
+     },
+     {
+      "t": "General management:<br/>Shout for help! (Inyandzaleyo!)<br/>- Follow A, B, C: airway clear, breathing, circulation.<br/>- Assess the haemodynamic status of the patient.<br/>- Vital signs: pulse, blood pressure; do urgent ward Hb.<br/>- NOTE: tachycardia should be taken seriously even in a stable-looking patient; also confusion and restlessness.<br/>- Resuscitate as appropriate: insert 2 large IV lines; correct hypovolaemia using normal saline or Ringer's lactate; strict fluid balance chart, insert Foley's catheter, monitor input and output; if available give oxygen 4–6 L per minute by face mask; blood grouping and cross-match, FBC.<br/>Refer the patient to hospital as soon as possible.<br/>NOTE: DO NOT PERFORM DIGITAL VAGINAL EXAMINATION UNTIL PLACENTA PRAEVIA IS RULED OUT.",
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "Placenta praevia"
+     },
+     {
+      "t": "- Vaginal bleeding (painless, bright red), may be precipitated by intercourse<br/>- Shock<br/>- Relaxed uterus<br/>- Fetal presentation not in the pelvis; malpresentation; lower uterine pole feels empty<br/>- Normal fetal condition"
+     }
+    ],
+    [
+     {
+      "t": "Ruptured uterus"
+     },
+     {
+      "t": "- Vaginal or intra-abdominal bleeding<br/>- Severe abdominal pain (may decrease after rupture)<br/>- Shock<br/>- Abdominal distension or free fluid<br/>- Abnormal uterine contour<br/>- Tender abdomen<br/>- Easily palpable fetal parts<br/>- Absent fetal movement and fetal heart sounds<br/>- Rapid maternal pulse"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Ruptured uterus sign printed 'Abdominal uterine contour' (abnormal uterine contour).",
+    "The general management is printed against abruptio placentae only; it is read here as applying to all three diagnoses."
+   ],
+   "context_before": "APH is bleeding from or into the genital tract from 28 weeks of pregnancy until before delivery of the baby. Any bleeding in a pregnant woman should be taken seriously. Spotting; minor haemorrhage <50 ml that has settled; major haemorrhage 50–1000 ml with no signs of shock; massive haemorrhage >1000 ml and/or signs of clinical shock."
+  },
+  {
+   "table_id": "anc-tbl-eclampsia",
+   "page": 39,
+   "image_only": false,
+   "heading_path": "6.0 Managing Complications of Pregnancy > 6.5 Eclampsia > 6.5.2 Risk Factors and Symptoms",
+   "caption": "Eclampsia: risk factors, symptoms and emergency management of convulsions (left lateral, airway, oxygen, magnesium sulphate, urgent referral)",
+   "replaces_chunks": [
+    "anc-0091",
+    "anc-0092"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Risk factors"
+     },
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- 1st pregnancy<br/>- Age >40 years<br/>- Overweight (BMI >35 at 1st ANC visit)<br/>- Family history of PIH / pre-eclampsia<br/>- Multiple pregnancy<br/>- Last pregnancy >10 years ago<br/>- Chronic kidney disease<br/>- Diabetes mellitus<br/>- Autoimmune diseases<br/>- Race – black<br/>- Chronic hypertension"
+     },
+     {
+      "t": "- May be asymptomatic<br/>- Headache not relieved by simple analgesia<br/>- Altered mental state<br/>- Blindness<br/>- Shortness of breath<br/>- Blurred vision or flashing<br/>- Epigastric / right upper quadrant abdominal pain<br/>- Rapid swelling of face, hands and feet<br/>- Non-specific complaints of being unwell<br/>- Convulsions"
+     },
+     {
+      "t": "- Urgently refer the patient to the nearest hospital.<br/>- Give a pre-referral loading dose of magnesium sulphate 4 g IM.<br/>- For a patient with convulsions: do not leave the patient alone; shout for assistance, state 'Eclampsia'; turn the patient to the left lateral position; ensure the airway is clear and the patient is breathing; protect the patient from falling/injury; do not place anything in the mouth; oxygen by mask at 4–6 L per minute; when the convulsion ends, start IV; take vital signs.<br/>- At the hospital, stabilise the patient and deliver by the safest, fastest route; manage eclampsia as per guidelines."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Same magnesium sulphate '4 g IM' pre-referral dose as for severe pre-eclampsia (see above)."
+   ],
+   "pages": [
+    39,
+    40
+   ],
+   "context_before": "Eclampsia: seizures that cannot be attributed to other causes in a woman with pre-eclampsia."
+  },
+  {
+   "table_id": "anc-tbl-pre-eclampsia",
+   "page": 39,
+   "image_only": false,
+   "heading_path": "6.0 Managing Complications of Pregnancy > 6.4 Pre-eclampsia > 6.4.2 Signs and Symptoms",
+   "caption": "Pre-eclampsia: mild (BP ≥140/90 twice 4 hours apart) vs severe (BP ≥160/110, proteinuria, headache, blurred vision, epigastric pain, oliguria, thrombocytopenia) – referral and pre-referral magnesium sulphate",
+   "replaces_chunks": [
+    "anc-0089"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Signs and symptoms"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Mild pre-eclampsia"
+     },
+     {
+      "t": "- BP ≥140/90 on ≥2 occasions measured at least 4 hours apart, without evidence of end-organ damage, in women with previously normal BP before 20 weeks' gestation<br/>OR<br/>- An increase in systolic BP by 30 mmHg or diastolic BP by 15 mmHg"
+     },
+     {
+      "t": "Refer the client to the regional referral hospital (if at the clinic, PHU). At the hospital, manage as per guidelines."
+     }
+    ],
+    [
+     {
+      "t": "Severe pre-eclampsia: any 1 of the following in the presence of pre-eclampsia"
+     },
+     {
+      "t": "- SBP ≥160 mmHg or DBP ≥110 mmHg<br/>- Proteinuria >5 g in a 24-hour urine collection or 3+ on dipstick<br/>- Pulmonary oedema / cyanosis<br/>- Urine output <30 ml/hr (oliguria)<br/>- Persistent headaches<br/>- Blurred vision<br/>- Epigastric pain ± impaired liver function<br/>- Oligohydramnios<br/>- Decreased fetal growth<br/>- Placental abruption<br/>- Thrombocytopenia"
+     },
+     {
+      "t": "Refer the client to the regional referral hospital (if at the clinic, PHU). Give a pre-referral loading dose of magnesium sulphate 4 g IM if at the clinic or PHU. At the hospital, manage as per guidelines."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Pre-referral magnesium sulphate is given as '4 g IM'. The WHO IM regimen is 4 g IV plus 10 g IM (5 g in each buttock), or 10 g IM where IV is not possible; 4 g IM alone is below standard loading doses. Clinician to confirm.",
+    "'Mild' pre-eclampsia still uses the older '30/15 mmHg rise' criterion, which is no longer used to define hypertension in pregnancy."
+   ],
+   "context_before": "Pre-eclampsia is new-onset hypertension after 20 weeks' gestation with significant proteinuria, with or without oedema; it can present as late as 4–6 weeks postpartum."
+  },
+  {
+   "table_id": "anc-tbl-prom",
+   "page": 40,
+   "image_only": false,
+   "heading_path": "6.0 Managing Complications of Pregnancy > 6.6 Premature Rupture of Membranes",
+   "caption": "Premature rupture of membranes (PROM) and preterm PROM (PPROM): assessment, clinic management (no digital vaginal exam, refer), hospital management by gestation (steroids betamethasone/dexamethasone, antibiotics erythromycin/amoxicillin, induction)",
+   "replaces_chunks": [
+    "anc-0093",
+    "anc-0094"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Diagnosis"
+     },
+     {
+      "t": "Assessment"
+     },
+     {
+      "t": "General management (clinic, PHU)"
+     },
+     {
+      "t": "Management at health centre / hospital"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Premature rupture of membranes (PROM)"
+     },
+     {
+      "t": "- Verify the patient's estimated due date; this will be needed for management decisions.<br/>- Vital signs: pulse, blood pressure and temperature 4-hourly.<br/>- Do urine dipstick.<br/>- Check fetal heart rate."
+     },
+     {
+      "t": "- DO NOT perform digital vaginal examination.<br/>- Refer to health centre or hospital."
+     },
+     {
+      "t": "- If term, this may indicate onset of labour.<br/>- Assess for other signs of labour.<br/>- Perform a sterile speculum examination to assess whether the cervix is open.<br/>- Give antibiotics if prolonged rupture of membranes.<br/>- Allow to deliver if in labour."
+     }
+    ],
+    [
+     {
+      "t": "Preterm PROM (PPROM)"
+     },
+     {
+      "t": "- Assess as indicated in PROM.<br/>- Ultrasound at least twice a day.<br/>- Consider weekly maternal FBC."
+     },
+     {
+      "t": "- DO NOT perform digital vaginal examination.<br/>- Refer to health centre or hospital."
+     },
+     {
+      "t": "If rupture is:<br/>- Before 28 weeks: observe vital signs; initiate the process of evacuation by stimulation after counselling the mother and significant others about the risks.<br/>- Before 34 weeks (28–33 weeks): administer steroids – intramuscular betamethasone 12 mg every 12 hours for 24 hours, OR intramuscular dexamethasone.<br/>- Regularly inspect the sanitary pad for the amount, colour and odour of the amniotic fluid.<br/>- Strict bed rest.<br/>- Oral erythromycin and amoxicillin (500 mg PO 6-hourly) should be given for 10 days following the diagnosis of PPROM."
+     }
+    ],
+    [
+     {
+      "t": "PPROM >34 and <37 weeks, and PROM >37 weeks"
+     },
+     {
+      "t": "Assess as indicated in PROM."
+     },
+     {
+      "t": "Refer to hospital (transfer is preferable while the baby is in utero)."
+     },
+     {
+      "t": "- Give antibiotic prophylaxis within 8 hours.<br/>- Give steroids before 37 weeks.<br/>- If no evidence of fetal distress, leave the patient for up to 24 hours.<br/>- If the patient does not go into labour within 24 hours, induce.<br/>- Monitor labour normally."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Betamethasone '12 mg every 12 hours for 24 hours' – the usual regimen is 12 mg IM every 24 hours for 2 doses; the dexamethasone dose is not given.",
+    "'Ultrasound at least twice a day' for PPROM is implausible (probably vital signs or fetal heart rate twice a day).",
+    "PPROM before 28 weeks: 'initiate process of evacuation by stimulation' – clinician to confirm intent.",
+    "The >34-week row says 'give steroids before 37 weeks', which conflicts with steroids being limited to 28–33 weeks above.",
+    "Erythromycin dose is not given; '500 mg PO 6-hourly' appears to apply to amoxicillin only."
+   ],
+   "pages": [
+    40,
+    41
+   ],
+   "context_before": "PROM is drainage of amniotic fluid through the cervical canal before the onset of uterine contractions; it may be preterm (before 37 weeks) or at term (after 37 weeks)."
+  },
+  {
+   "table_id": "anc-tbl-anaemia-management",
+   "page": 42,
+   "image_only": false,
+   "heading_path": "7.0 Managing Common Conditions in Pregnancy > 7.1 Anaemia during Pregnancy > 7.1.3 Classification and Management",
+   "caption": "Anaemia in pregnancy by haemoglobin: no anaemia (>11 g/dl), moderate (7-11 g/dl: double-dose iron 3 months), severe (<7 g/dl: urgent referral) – clinic vs hospital management",
+   "replaces_chunks": [
+    "anc-0098"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Haemoglobin level"
+     },
+     {
+      "t": "Diagnosis"
+     },
+     {
+      "t": "Clinic / PHU"
+     },
+     {
+      "t": "Health centre and hospital"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ">11 g/dl (no pallor)"
+     },
+     {
+      "t": "No clinical anaemia"
+     },
+     {
+      "t": "Give the usual daily dose of iron and folic acid and counsel on compliance. Provide counselling on nutrition."
+     },
+     {
+      "t": "Give the usual daily dose of iron and folic acid and counsel on compliance. Provide counselling on nutrition."
+     }
+    ],
+    [
+     {
+      "t": "7–11 g/dl OR palmar and conjunctival pallor"
+     },
+     {
+      "t": "Moderate anaemia"
+     },
+     {
+      "t": "Give a double dose of daily iron for 3 months and counsel on compliance and nutrition (such as chuchuza, imbuya, spinach etc.); re-assess at the next ANC contact or sooner if danger signs occur. If haemoglobin [<]8 g/dl or symptoms occur (shortness of breath, dizziness), urgently refer to health centre or hospital."
+     },
+     {
+      "t": "Give a double dose of daily iron for 3 months and counsel on compliance and nutrition; re-assess at the next ANC contact or sooner. If symptoms occur, do further clinical and laboratory assessment and treat accordingly."
+     }
+    ],
+    [
+     {
+      "t": "<7 g/dl and/or severe palmar and conjunctival pallor, OR any pallor with respirations [>]30/minute or breathlessness at rest"
+     },
+     {
+      "t": "Severe anaemia"
+     },
+     {
+      "t": "Refer urgently to health centre or hospital."
+     },
+     {
+      "t": "Conduct further clinical and laboratory assessment and treat accordingly. Counsel to give birth at a facility with transfusion capacity."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'If haemoglobin 8 g/dl' and 'respirations 30/minute' are printed without a comparison sign; read as <8 g/dl and >30/minute.",
+    "The table uses >11 g/dl for no anaemia, while the definition above uses <10.5 g/dl in the 2nd trimester; Hb 10.5–11 in the 2nd trimester falls in 'moderate anaemia' here.",
+    "'Double dose of daily iron' is not given in mg."
+   ],
+   "context_before": "Anaemia: Hb <11 g/dl in the 1st trimester, <10.5 g/dl in the 2nd trimester, <11 g/dl in the 3rd trimester. Symptoms are often non-specific (tiredness, weakness, headaches, palpitations, dizziness, dyspnoea)."
+  },
+  {
+   "table_id": "anc-tbl-uti-pregnancy",
+   "page": 43,
+   "image_only": false,
+   "heading_path": "7.0 Managing Common Conditions in Pregnancy > 7.2 Urinary Tract Infections (UTI) in Pregnancy > 7.2.2 Symptoms, Diagnosis and Management",
+   "caption": "UTI in pregnancy: asymptomatic bacteriuria, acute cystitis, pyelonephritis – signs, MSSU culture diagnosis, treatment (amoxicillin 500 mg TDS or nitrofurantoin 100 mg TDS 7 days; refer pyelonephritis)",
+   "replaces_chunks": [
+    "anc-0100"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "",
+      "rs": 2
+     },
+     {
+      "t": "Asymptomatic bacteriuria",
+      "rs": 2
+     },
+     {
+      "t": "Symptomatic UTI",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Acute cystitis"
+     },
+     {
+      "t": "Pyelonephritis"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Signs and symptoms"
+     },
+     {
+      "t": "None specifically"
+     },
+     {
+      "t": "- Dysuria<br/>- Urgency<br/>- Frequency<br/>- Strangury<br/>- Nocturia<br/>- Haematuria<br/>- Suprapubic discomfort in afebrile women<br/>- No evidence of systemic illness<br/>- Pyuria"
+     },
+     {
+      "t": "- Flank or renal angle pain<br/>- Pyrexia<br/>- Rigors<br/>- Chills<br/>- Nausea<br/>- Vomiting<br/>- Urea and electrolytes: elevated creatinine<br/>- Urinalysis: proteinuria, pyuria or leukocyte casts"
+     }
+    ],
+    [
+     {
+      "t": "Diagnosis"
+     },
+     {
+      "t": "Quantitative MSSU culture (more than 100,000 colony-forming units (CFU)/mL) and no other symptoms; Gram stain"
+     },
+     {
+      "t": "Quantitative MSSU culture: >100,000 bacteria/mL with less than 20 white cells and 2 or more organisms"
+     },
+     {
+      "t": "Quantitative MSSU culture: >100,000 bacteria/mL of a single uropathogen"
+     }
+    ],
+    [
+     {
+      "t": "Management"
+     },
+     {
+      "t": "- Amoxicillin 500 mg PO TDS × 7 days, or<br/>- Nitrofurantoin 100 mg PO TDS × 7 days"
+     },
+     {
+      "t": "- Amoxicillin 500 mg PO TDS × 7 days, or<br/>- Nitrofurantoin 100 mg PO TDS × 7 days"
+     },
+     {
+      "t": "Refer to hospital"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Acute cystitis diagnosis reads '>100,000 bacteria/mL with less than 20 white cells and 2 or more organisms' – mixed growth with few white cells usually indicates contamination, not cystitis. Clinician to confirm.",
+    "'Gram stain-' is printed without a result or criterion."
+   ]
+  }
+ ],
+ "text_labels": {
+  "anc-0013": "1.0 Background > 1.2 Situation Analysis",
+  "anc-0068": "4.0 Standard Precautions for Infection Prevention and Control",
+  "anc-0069": "4.0 Standard Precautions for Infection Prevention and Control > 4.2 PPE for Health Workers",
+  "anc-0070": "4.0 Standard Precautions for Infection Prevention and Control > 4.4 Decontamination",
+  "anc-0071": "4.0 Standard Precautions for Infection Prevention and Control > 4.6 Housekeeping",
+  "anc-0072": "4.0 Standard Precautions for Infection Prevention and Control > 4.8 Pre- and Post-exposure Prophylaxis",
+  "anc-0079": "6.0 Managing Complications of Pregnancy > 6.1 Vaginal Bleeding in Early Pregnancy > 6.1.1 Abortion Definition",
+  "anc-0082": "6.0 Managing Complications of Pregnancy > 6.2 Ectopic Pregnancy > 6.2.1 Definition",
+  "anc-0096": "6.0 Managing Complications of Pregnancy > 6.7 Hyperglycaemia > 6.7.2 Management; 6.8 Multiple Pregnancy",
+  "anc-0097": "7.0 Managing Common Conditions in Pregnancy > 7.1 Anaemia during Pregnancy > Definition and Symptoms",
+  "anc-0103": "7.4 Hepatitis B; 8.0 Community Involvement > 8.1 Community Awareness and Engagement for ANC",
+  "anc-0105": "8.1.1 Key Messages > 8.1.1.2 The Eight Contacts; 8.1.1.3 Alcohol and Drug Abuse",
+  "anc-0107": "8.1.1 Key Messages > 8.1.1.5 Adherence to Medication; 8.2 Community Engagement Platforms"
+ },
+ "text_fix_pages": [
+  1,
+  48
+ ],
+ "text_merge": {},
+ "text_drop": []
+}

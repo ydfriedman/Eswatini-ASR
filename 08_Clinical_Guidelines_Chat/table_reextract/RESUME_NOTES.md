@@ -17,8 +17,10 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - PrEP 2025 (86 pages, no page offset: old chunks use PDF page numbers): 43 items (`batches/prep_b01-b12.py`), hand labels for text chunks, `text_drop`/`text_merge` for duplicates and fragments. Annex 4 (pp.69-81) was rebuilt from the old chunks after a word-coverage check against the PDF text layer. Figure 9 (LEN bridging) previously had week-by-week concentration values that are not in the PDF; it is now described in words.
 
+- ANC (48 pages, no offset): 13 items (`batches/anc_b01-b03.py`). Table pages 14-22 and 35-46 have no text layer; cells read from images and compared with the old chunks. The abbreviation table chunk (anc-0007) was left as is.
+
 ## Next after that
-The other guidelines, once the user provides the PDFs. Suggested order: ANC (small), then TB 2025 and HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
+The other guidelines, once the user provides the PDFs. Suggested order: TB 2025 and HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 
 ## Starting a new guideline
 1. Put the PDF in its own scratch dir; `pdftotext -layout` and `pdftoppm -jpeg -r 110` per page (pN.txt, pgN.jpg). Check whether old chunk `page_start` matches PDF pages (offset).
