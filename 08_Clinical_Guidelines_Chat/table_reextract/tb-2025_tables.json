@@ -2032,31 +2032,27 @@
    "header": [
     [
      {
-      "t": "Essential TB drugs"
+      "t": "Essential TB drugs",
+      "rs": 2
      },
      {
-      "t": "Recommended Daily Dose<br/>(Dose range in mg/kg)"
-     },
-     {
-      "t": ""
+      "t": "Recommended daily dose (dose range in mg/kg)",
+      "cs": 2
      }
-    ]
-   ],
-   "body": [
+    ],
     [
-     {
-      "t": ""
-     },
      {
       "t": "Adults"
      },
      {
       "t": "Children"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
-      "t": "Isoniazid (H) (max 300mg)"
+      "t": "Isoniazid (H) (max 300 mg)"
      },
      {
       "t": "4 – 6 mg/kg"
@@ -2067,7 +2063,7 @@
     ],
     [
      {
-      "t": "Rifampicin (R) (max 600mg)"
+      "t": "Rifampicin (R) (max 600 mg)"
      },
      {
       "t": "8 – 12 mg/kg"
@@ -2078,7 +2074,7 @@
     ],
     [
      {
-      "t": "Pyrazinamide (Z) (max 2g)"
+      "t": "Pyrazinamide (Z) (max 2 g)"
      },
      {
       "t": "20 – 30 mg/kg"
@@ -2089,7 +2085,7 @@
     ],
     [
      {
-      "t": "Ethambutol (E) (max 1.6g)"
+      "t": "Ethambutol (E) (max 1.6 g)"
      },
      {
       "t": "15 – 20 mg/kg"
@@ -2099,12 +2095,13 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Source: Treatment of tuberculosis guidelines, 5th edition, WHO/HTM/TB/2017."
+   ],
    "source_flags": [],
    "pages": [
     96
-   ],
-   "context_before": "Table 12: Essential anti-TB drugs and recommended daily dosages by weight Source: Treatment of tuberculosis guidelines. 5th Edition. WHO/HTM/TB/2017"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p98-0233",
@@ -2119,40 +2116,34 @@
    "header": [
     [
      {
-      "t": "TB Registration"
+      "t": "TB registration",
+      "rs": 2
      },
      {
-      "t": "TB Patients"
+      "t": "TB patients",
+      "rs": 2
      },
      {
-      "t": "Treatment Regimens"
+      "t": "Treatment regimens",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Intensive phase (daily)"
      },
      {
-      "t": ""
+      "t": "Continuation phase (daily)"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": ""
+      "t": "New episode"
      },
      {
-      "t": ""
-     },
-     {
-      "t": "Intensive Phase<br/>(daily)"
-     },
-     {
-      "t": "Continuation<br/>Phase (daily)"
-     }
-    ],
-    [
-     {
-      "t": "New Episode"
-     },
-     {
-      "t": "All new cases of TB, regardless of site (except severe EP-TB), type or severity of disease."
+      "t": "All new cases of TB, regardless of site (except severe EP-TB*), type or severity of disease."
      },
      {
       "t": "2RHZE"
@@ -2163,16 +2154,32 @@
     ],
     [
      {
-      "t": "Re-registered"
+      "t": "Re-registered",
+      "rs": 2
      },
      {
-      "t": "Previously treated cases with the outcome of cure, completed or LTFU (in the previous treatment episode).<br/>Previously treated case with the outcome of ‘failure’ (in the previous treatment episode)<br/>All patients should receive pyridoxine with isoniazid to prevent peripheral neuropathy."
+      "t": "Previously treated cases with the outcome of cure, completed or LTFU (in the previous treatment episode)."
      },
      {
-      "t": "2RHZE<br/>Repeat GeneXpert and first-line DST then refer for DR-TB treatment."
+      "t": "2RHZE"
      },
      {
       "t": "4RH"
+     }
+    ],
+    [
+     {
+      "t": "Previously treated case with the outcome of 'failure' (in the previous treatment episode)"
+     },
+     {
+      "t": "Repeat GeneXpert and first-line DST, then refer for DR-TB treatment.",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "All patients should receive pyridoxine with isoniazid to prevent peripheral neuropathy.",
+      "cs": 4
      }
     ]
    ],
@@ -2180,8 +2187,7 @@
    "source_flags": [],
    "pages": [
     98
-   ],
-   "context_before": "Table 13: Summary of DS-TB treatment regimens for adult TB cases"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p99-0236",
@@ -2196,32 +2202,40 @@
    "header": [
     [
      {
-      "t": "Phase of treatment"
+      "t": "Phase of treatment",
+      "rs": 2
      },
      {
-      "t": "Drugs"
+      "t": "Drugs",
+      "rs": 2
      },
      {
-      "t": "Weight in Kg<br/>25-34.9"
+      "t": "Weight in kg",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "25-34.9"
      },
      {
-      "t": "Weight in Kg<br/>35-54.9"
+      "t": "35-54.9"
      },
      {
-      "t": "Weight in Kg<br/>55-70"
+      "t": "55-70"
      },
      {
-      "t": "Weight in Kg<br/>>70"
+      "t": ">70"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "The intensive phase of 2 months"
+      "t": "Intensive phase of 2 months"
      },
      {
-      "t": "(RHZE) 150mg/75mg/400mg/275mg)"
+      "t": "(RHZE) 150 mg/75 mg/400 mg/275 mg"
      },
      {
       "t": "2 tabs"
@@ -2241,7 +2255,7 @@
       "t": "Continuation phase of 4 months"
      },
      {
-      "t": "(RH) (150mg/75mg)"
+      "t": "(RH) 150 mg/75 mg"
      },
      {
       "t": "2 tabs"
@@ -2258,51 +2272,25 @@
     ],
     [
      {
-      "t": "For severe extrapulmonary TB cases (TB meningitis and Bone & Joint TB: total treatment duration is from 9-12 months with 2 months of RHZE and 7-10 months of RH depending on the response to treatment. For TB meningitis, refer to section 6.7 for further details."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "For severe extrapulmonary TB (TB meningitis and bone & joint TB): total treatment duration is 9-12 months, with 2 months of RHZE and 7-10 months of RH depending on the response to treatment. For TB meningitis, refer to section 6.7 for further details.",
+      "cs": 6
      }
     ],
     [
      {
-      "t": "Vitamin B6 for peripheral neuropathy prophylaxis: 25-50 mg (25 mg tablets)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Vitamin B6 for peripheral neuropathy prophylaxis: 25-50 mg (25 mg tablets)",
+      "cs": 6
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Adult weight bands start at 25 kg; no dosing is given for adults under 25 kg (the paediatric tables cover <25 kg).",
+    "The note refers TB meningitis to 'section 6.7' (adjuvant steroids); TBM treatment is section 6.6.3."
+   ],
    "pages": [
     99
-   ],
-   "context_before": "Table 14: Recommended treatment regimen and dosages for adult cases of new and re-registered cases"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p101-0242",
@@ -2376,44 +2364,46 @@
    "body": [
     [
      {
-      "t": "TB Meningitis"
+      "t": "TB meningitis"
      },
      {
       "t": "60 mg (1–2 mg/kg) daily for weeks 1–4, then decrease over several weeks"
      },
      {
-      "t": "Intravenous dexamethasone for 4 weeks (0.4 mg/kg per day in week 1, 0.3 mg/kg per day in week 2, 0.2 mg/kg per day in week 3, and 0.1 mg/kg per day in week 4), followed by a taper of oral dexamethasone (4 mg/day, 3 mg/day, 2 mg/day and 1 mg/day, each for 1 week)."
+      "t": "Intravenous dexamethasone for 4 weeks (0.4 mg/kg per day in week 1, 0.3 mg/kg per day in week 2, 0.2 mg/kg per day in week 3 and 0.1 mg/kg per day in week 4), followed by a taper of oral dexamethasone (4 mg/day, 3 mg/day, 2 mg/day and 1 mg/day, each for 1 week)."
      }
     ],
     [
      {
-      "t": "TB Pericarditis"
+      "t": "TB pericarditis"
      },
      {
-      "t": "60 mg (1–2 mg/kg) daily for weeks 1–4 30 mg (0.5–1 mg/kg) daily for weeks 5–8, then decrease over several weeks"
+      "t": "60 mg (1–2 mg/kg) daily for weeks 1–4; 30 mg (0.5–1 mg/kg) daily for weeks 5–8; then decrease over several weeks"
      },
      {
-      "t": ""
+      "t": "—"
      }
     ],
     [
      {
-      "t": "TB Pleural Effusion"
+      "t": "TB pleural effusion"
      },
      {
       "t": "30 mg (0.5–1 mg/kg) daily for 1–2 weeks"
      },
      {
-      "t": ""
+      "t": "—"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Source: TB/HIV. A Clinical Manual, WHO/HTM/TB/2006.420."
+   ],
    "source_flags": [],
    "pages": [
     106
    ],
-   "context_before": "Table 16: Steroid indication and recommended doses in TB management"
+   "context_before": "Adjuvant steroids are recommended for TB meningitis (decreased consciousness, neurological defects or spinal block) and TB pericarditis (with effusion or constriction); from expert opinion also for large symptomatic pleural effusion, hypoadrenalism, TB laryngitis with airway obstruction, severe hypersensitivity reactions to TB drugs, renal tract TB and massive lymph node enlargement with pressure effects. Rifampicin reduces the bioavailability of prednisolone."
   },
   {
    "table_id": "tb-2025-tbl-p108-0262",
@@ -3309,7 +3299,7 @@
       "t": "Drug"
      },
      {
-      "t": "Recommended dose and frequency for patients with CrCl < 30 ml/min or receiving hemodialysis"
+      "t": "Recommended dose and frequency for patients with CrCl < 30 ml/min or receiving haemodialysis"
      }
     ]
    ],
@@ -3351,23 +3341,23 @@
       "t": "Cycloserine"
      },
      {
-      "t": "250 mg once daily, or 500 mg/dose three times per week."
+      "t": "250 mg once daily, or 500 mg/dose three times per week"
      }
     ],
     [
      {
-      "t": "Amoxicillin/ Clavulanate"
+      "t": "Amoxicillin/clavulanate"
      },
      {
-      "t": "For CrCl 10 – 30 ml/min dose 1000 mg as amoxicillin component BID;<br/>For CrCl < 10 ml/min dose 1000 mg as amoxicillin component OD"
+      "t": "CrCl 10 – 30 ml/min: 1000 mg as amoxicillin component BID; CrCl < 10 ml/min: 1000 mg as amoxicillin component OD"
      }
     ],
     [
      {
-      "t": "Imipenem / Cilastin"
+      "t": "Imipenem/cilastatin"
      },
      {
-      "t": "For CrCl 20 – 40 ml/min dose 500 mg every 8 hours; For CrCl < 20 ml/min dose 500 mg every 12 hours"
+      "t": "CrCl 20 – 40 ml/min: 500 mg every 8 hours; CrCl < 20 ml/min: 500 mg every 12 hours"
      }
     ],
     [
@@ -3375,16 +3365,18 @@
       "t": "Meropenem"
      },
      {
-      "t": "For CrCl 20 – 40 ml/min dose 750 mg every 12 hours; For CrCl <20 ml/min dose 500 mg every 12 hours"
+      "t": "CrCl 20 – 40 ml/min: 750 mg every 12 hours; CrCl < 20 ml/min: 500 mg every 12 hours"
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Isoniazid, rifampicin and the newer drugs (bedaquiline, pretomanid, linezolid, delamanid, clofazimine) are not listed; the table does not say that they need no adjustment."
+   ],
    "pages": [
     125
    ],
-   "context_before": "Table 26: Recommended Dosing of TB Drugs for Patients with Renal Failure"
+   "context_before": "Renal disease is not an absolute contraindication to BPaLM; use clinical judgement and monitor renal function. If a regimen other than BPaLM is used, adjust doses for the degree of renal failure (CrCl < 30 ml/min)."
   },
   {
    "table_id": "tb-2025-tbl-p126-0313",
@@ -3759,10 +3751,10 @@
    "header": [
     [
      {
-      "t": "Drugs"
+      "t": "Drug"
      },
      {
-      "t": "Suggested"
+      "t": "Suggested dose"
      },
      {
       "t": "Remarks"
@@ -3772,10 +3764,10 @@
    "body": [
     [
      {
-      "t": "Bdq (100 mg tablets)<br/>400 mg"
+      "t": "Bdq (100 mg tablets)"
      },
      {
-      "t": "400mg daily for 2 weeks<br/><br/>Then 200mg three times per week"
+      "t": "400 mg daily for 2 weeks, then 200 mg three times per week"
      },
      {
       "t": "Minimum of 48 hours between doses after the first 2 weeks"
@@ -3783,10 +3775,10 @@
     ],
     [
      {
-      "t": "Pa (200mg tablets)"
+      "t": "Pa (200 mg tablets)"
      },
      {
-      "t": "200mg daily"
+      "t": "200 mg daily"
      },
      {
       "t": "7 days per week"
@@ -3794,13 +3786,13 @@
     ],
     [
      {
-      "t": "Lzd (600mg)"
+      "t": "Lzd (600 mg)"
      },
      {
-      "t": "600mg daily for the duration of treatment"
+      "t": "600 mg daily for the duration of treatment"
      },
      {
-      "t": "7 days per week<br/><br/>Alternative dosing regimens for patients with severe adverse effects: 600 mg thrice weekly (M, W, F), or 300 mg daily provided that 9 consecutive weeks of treatment is completed."
+      "t": "7 days per week. Alternative dosing for patients with severe adverse effects: 600 mg three times weekly (M, W, F), or 300 mg daily provided that 9 consecutive weeks of treatment is completed."
      }
     ],
     [
@@ -3816,11 +3808,13 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Linezolid alternative: '300 mg daily provided that 9 consecutive weeks of treatment is completed' is ambiguous; in the WHO BPaLM guidance linezolid 600 mg daily may be reduced to 300 mg daily after the first 9 weeks (or for toxicity); a three-times-weekly 600 mg schedule is not part of the WHO recommendation.",
+    "The total bedaquiline course (weeks 3-24/26 at 200 mg three times weekly) and the BPaLM duration (6 months) are not stated in the table."
+   ],
    "pages": [
     133
-   ],
-   "context_before": "Table 30: Drug dosing for BPaLM and BPaL regimen"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p134-0333",
@@ -3837,14 +3831,60 @@
     "tb-2025-0338",
     "tb-2025-0339"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 2,
    "header": [
     [
      {
-      "t": "Group A Medicines"
+      "t": "Medicine"
      },
      {
-      "t": "Formulation (tablets, diluted in 10 mL of water, as applicable)"
+      "t": "Formulation (tablets diluted in 10 mL of water, as applicable)"
+     },
+     {
+      "t": "Weight band 1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "7"
+     },
+     {
+      "t": "8"
+     },
+     {
+      "t": "9"
+     },
+     {
+      "t": "10"
+     },
+     {
+      "t": "11"
+     },
+     {
+      "t": "Comments"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Group A medicines (weight bands)"
+     },
+     {
+      "t": ""
      },
      {
       "t": "3-4 kg"
@@ -3880,17 +3920,13 @@
       "t": "≥70 kg"
      },
      {
-      "t": "Comments"
-     },
-     {
       "t": ""
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
-      "t": "Levofloxacin (Lfx)"
+      "t": "Levofloxacin (Lfx)",
+      "rs": 4
      },
      {
       "t": "100 mg dt (10 mg/mL)"
@@ -3914,42 +3950,24 @@
       "t": "–"
      },
      {
-      "t": "–"
+      "t": "–",
+      "cs": 5
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "rs": 4
      }
     ],
     [
-     {
-      "t": "Levofloxacin (Lfx)"
-     },
      {
       "t": "250 mg tab (25 mg/mL)"
      },
      {
-      "t": "2 mLb"
+      "t": "2 mL ᵇ"
      },
      {
-      "t": "5 mL (0.5 tab)b"
-     },
-     {
-      "t": ""
+      "t": "5 mL (0.5 tab) ᵇ",
+      "cs": 2
      },
      {
       "t": "1"
@@ -3961,83 +3979,41 @@
       "t": "2"
      },
      {
-      "t": "3"
+      "t": "3",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": "4"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "4",
+      "cs": 3
      }
     ],
     [
-     {
-      "t": "Levofloxacin (Lfx)"
-     },
      {
       "t": "500 mg tab"
      },
      {
-      "t": "–"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "–",
+      "cs": 5
      },
      {
       "t": "1"
      },
      {
-      "t": "1.5"
+      "t": "1.5",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": "2"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "2",
+      "cs": 3
      }
     ],
     [
-     {
-      "t": "Levofloxacin (Lfx)"
-     },
      {
       "t": "750 mg tab"
      },
      {
-      "t": "–"
+      "t": "–",
+      "cs": 4
      },
      {
       "t": ""
@@ -4046,39 +4022,18 @@
       "t": ""
      },
      {
-      "t": ""
+      "t": "1",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "1"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "1.5"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "1.5",
+      "cs": 3
      }
     ],
     [
      {
-      "t": "Moxifloxacin (Mfx)"
+      "t": "Moxifloxacin (Mfx)",
+      "rs": 3
      },
      {
       "t": "100 mg dt (10 mg/mL)"
@@ -4102,45 +4057,33 @@
       "t": "4"
      },
      {
-      "t": "4"
+      "t": "4",
+      "cs": 2
      },
      {
-      "t": ""
+      "t": "–",
+      "cs": 3
      },
      {
-      "t": "–"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "rs": 3
      }
     ],
     [
      {
-      "t": "Moxifloxacin (Mfx)"
+      "t": "400 mg tab (40 mg/mL), standard dose"
      },
      {
-      "t": "400 mg tab (40 mg/mL) Standard dose"
+      "t": "1 mL ᵇ"
      },
      {
-      "t": "1 mLb"
+      "t": "2 mL ᵇ"
      },
      {
-      "t": "2 mLb"
+      "t": "3 mL ᵇ"
      },
      {
-      "t": "3 mLb"
-     },
-     {
-      "t": "5 mL (0.5 tab)b"
+      "t": "5 mL (0.5 tab) ᵇ"
      },
      {
       "t": "7.5 mL"
@@ -4149,39 +4092,17 @@
       "t": "1"
      },
      {
-      "t": "1"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "1",
+      "cs": 5
      }
     ],
     [
      {
-      "t": "Moxifloxacin (Mfx)"
+      "t": "400 mg tab, high doses"
      },
      {
-      "t": "400 mg tab high doses"
-     },
-     {
-      "t": "–"
-     },
-     {
-      "t": ""
+      "t": "–",
+      "cs": 2
      },
      {
       "t": "–"
@@ -4190,10 +4111,8 @@
       "t": "–"
      },
      {
-      "t": "–"
-     },
-     {
-      "t": ""
+      "t": "–",
+      "cs": 2
      },
      {
       "t": "1 or 1.5"
@@ -4205,60 +4124,39 @@
       "t": "1.5 or 2"
      },
      {
-      "t": "2"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "2",
+      "cs": 2
      }
     ],
     [
      {
-      "t": "Bedaquiline (Bdq)"
+      "t": "Bedaquiline (Bdq)",
+      "rs": 3
      },
      {
       "t": "20 mg dt"
      },
      {
-      "t": "0 to <3 months: 1.5 od (2 weeks); then 0.5 od M/W/F (22 weeks)<br/>≥ 3 months: 3 od for 2 weeks. then 1 od M/W/F for 22 weeks"
+      "t": "0 to <3 months: 1.5 od for 2 weeks, then 0.5 od M/W/F (22 weeks); ≥3 months: 3 od for 2 weeks, then 1 od M/W/F for 22 weeks",
+      "cs": 2
      },
      {
-      "t": ""
+      "t": "0 to <3 months: 1.5 od for 2 weeks, then 0.5 od M/W/F; 3 to <6 months: 3 od for 2 weeks, then 1 od M/W/F; ≥6 months: 4 od for 2 weeks, then 2 od M/W/F"
      },
      {
-      "t": "0 to <3 months: 1.5 od for 2 weeks; then 0.5 od M/W/F 3 to <6 months: 3 od for 2 weeks; then 1 od M/W/F ≥6 months: 4 od for 2 weeks; then 2 od M/W/F"
+      "t": "3 to <6 months: 3 od for 2 weeks, then 1 od M/W/F; ≥6 months: 6 od for 2 weeks, then 3 od M/W/F"
      },
      {
-      "t": "3 to <6 months: 3 od for 2 weeks; then 1 od M/W/F ≥ 6 months: 6 od for 2 weeks; then 3 od M/W/F"
+      "t": "10 od for 2 weeks, then 5 od M/W/F",
+      "cs": 2
      },
      {
-      "t": "10 od for 2 weeks. then 5 od M/W/F"
+      "t": "20 od for 2 weeks, then 10 od M/W/F",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": "20 od for 2 weeks; then 10 od M/W/F"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "–"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "–",
+      "cs": 3
      },
      {
       "t": ""
@@ -4266,46 +4164,25 @@
     ],
     [
      {
-      "t": "Bedaquiline (Bdq)"
+      "t": "100 mg tab (10 mg/mL) ᵈ"
      },
      {
-      "t": "100 mg tab (10 mg/mL)d"
+      "t": "0 to <3 months: 3 mL od for 2 weeks, then 1 mL od M/W/F ᵇ; ≥3 months: 6 mL od for 2 weeks, then 2 mL od M/W/F ᵇ",
+      "cs": 2
      },
      {
-      "t": "0 to <3 months: 3 mL od for 2 weeks. then 1 mL od M/W/Fb<br/>≥ 3 months: 6 mL od for 2 weeks. then 2 mL od M/W/Fb"
+      "t": "0 to <3 months: 3 mL od for 2 weeks, then 1 mL od M/W/F ᵇ; 3 to <6 months: 6 mL od for 2 weeks, then 2 mL od M/W/F ᵇ; ≥6 months: 8 mL od for 2 weeks, then 4 mL od M/W/F ᵇ"
      },
      {
-      "t": ""
+      "t": "3 to <6 months: 6 mL od for 2 weeks, then 2 mL od M/W/F ᵇ; ≥6 months: 12 mL od for 2 weeks, then 6 mL od M/W/F ᵇ"
      },
      {
-      "t": "0 to <3 months: 3 mL od for 2 weeks; then 1 mL od M/W/Fb 3 to <6 months: 6 mL od for 2 weeks; then 2 mL od M/W/Fb ≥ 6 months: 8 mL od for 2 weeks; then 4 mL od M/W/Fb"
+      "t": "2 od for 2 weeks, then 1 od M/W/F",
+      "cs": 2
      },
      {
-      "t": "3 to <6 months: 6 mL od for 2 weeks; then 2 mL od M/W/Fb ≥ 6 months: 12 mL od for 2 weeks; then 6 mL od M/W/Fb"
-     },
-     {
-      "t": "2 od for 2 weeks. then 1 od M/W/F"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "4 od for 2 weeks then 2 od M/W/F"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "4 od for 2 weeks, then 2 od M/W/F",
+      "cs": 5
      },
      {
       "t": ""
@@ -4313,57 +4190,27 @@
     ],
     [
      {
-      "t": "Bedaquiline (Bdq)"
+      "t": "100 mg tab (alternative dosing strategy for BPaLM/BPaL and BDLLfxCfz regimens)"
      },
      {
-      "t": "100 mg tab (Alternative dosing strategy for BPaLM/BPaL and BDLLfxCfz regimens)"
+      "t": "",
+      "cs": 6
      },
      {
-      "t": ""
+      "t": "2 od for 8 weeks followed by 1 od",
+      "cs": 5
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "2 od for 8 weeks followed by 1 od"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Dosing scheme is for BPaLM/BPaL regimen (>14 years) and for BDLLfxCfz in adults"
-     },
-     {
-      "t": ""
+      "t": "Dosing scheme for the BPaLM/BPaL regimen (>14 years) and for BDLLfxCfz in adults"
      }
     ],
     [
      {
-      "t": "Linezolid<br/>(Lzd)"
+      "t": "Linezolid (Lzd)",
+      "rs": 4
      },
      {
-      "t": "20 mg /mL susp"
+      "t": "20 mg/mL suspension"
      },
      {
       "t": "2 mL"
@@ -4390,25 +4237,15 @@
       "t": "20 mL"
      },
      {
-      "t": "–"
+      "t": "–",
+      "cs": 3
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "rs": 3
      }
     ],
     [
-     {
-      "t": "Linezolid<br/>(Lzd)"
-     },
      {
       "t": "150 mg dt (15 mg/mL)"
      },
@@ -4419,13 +4256,11 @@
       "t": "5 mL (0.5 dt)"
      },
      {
-      "t": "1"
+      "t": "1",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": "2e"
+      "t": "2 ᵉ"
      },
      {
       "t": "2"
@@ -4434,28 +4269,11 @@
       "t": "3"
      },
      {
-      "t": ""
-     },
-     {
-      "t": "–"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "–",
+      "cs": 4
      }
     ],
     [
-     {
-      "t": "Linezolid<br/>(Lzd)"
-     },
      {
       "t": "600 mg tab (60 mg/mL)"
      },
@@ -4463,25 +4281,21 @@
       "t": "–"
      },
      {
-      "t": "1.25 mLb"
+      "t": "1.25 mL ᵇ"
      },
      {
-      "t": "2.5 mLb"
+      "t": "2.5 mL ᵇ",
+      "cs": 2
      },
      {
-      "t": ""
+      "t": "5 mL (0.5 tab) ᵇ ᵉ",
+      "cs": 2
      },
      {
-      "t": "5 mL (0.5 tab)b, e"
+      "t": "5 mL (0.5 tab) ᵇ"
      },
      {
-      "t": ""
-     },
-     {
-      "t": "5 mL (0.5 tab)b"
-     },
-     {
-      "t": "7.5 mL (0.75 tab)b"
+      "t": "7.5 mL (0.75 tab) ᵇ"
      },
      {
       "t": "1"
@@ -4491,67 +4305,33 @@
      },
      {
       "t": "1"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "LZD"
+      "t": "600 mg tab (alternative dosing strategy for modified 9-month regimens)"
      },
      {
-      "t": "600 mg tab (alternative dosing strategy for modified 9 months regimens)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "cs": 5
      },
      {
       "t": "0.5"
      },
      {
-      "t": "1 od for 16 weeks followed by 0.5 od or 1 M/W/F until the end of treatment"
+      "t": "1 od for 16 weeks followed by 0.5 od or 1 M/W/F until the end of treatment",
+      "cs": 5
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "This applies to modified 9-month regimens (BLMZ, BLLCZ, BLLlfxCZ)"
-     },
-     {
-      "t": ""
+      "t": "This applies to modified 9-month regimens (BLMZ, BLLCZ, BLLfxCZ)"
      }
     ],
     [
      {
-      "t": "Group B Medicines"
+      "t": "Group B medicines (weight bands)"
      },
      {
-      "t": "Formulation"
+      "t": ""
      },
      {
       "t": "3-5 kg"
@@ -4587,15 +4367,13 @@
       "t": "≥70 kg"
      },
      {
-      "t": "Comments"
-     },
-     {
       "t": ""
      }
     ],
     [
      {
-      "t": "Clofazimine<br/>(Cfz)"
+      "t": "Clofazimine (Cfz)",
+      "rs": 2
      },
      {
       "t": "50 mg cap or tab"
@@ -4604,148 +4382,130 @@
       "t": "1 M/F"
      },
      {
-      "t": "1 M/W/F"
+      "t": "1 M/W/F",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": "1"
-     },
-     {
-      "t": ""
+      "t": "1",
+      "cs": 2
      },
      {
       "t": "2"
      },
      {
-      "t": "2"
+      "t": "2",
+      "cs": 5
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "For children <24 kg, the use of the 50 mg tab is preferred."
-     },
-     {
-      "t": ""
+      "t": "For children <24 kg, the use of the 50 mg tab is preferred.",
+      "rs": 2
      }
     ],
     [
      {
-      "t": "Clofazimine<br/>(Cfz)"
-     },
-     {
-      "t": "100 mg cap or tabf"
+      "t": "100 mg cap or tab ᶠ"
      },
      {
       "t": "–"
      },
      {
-      "t": "1 M/F"
+      "t": "1 M/F",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": "1 M/W/F"
-     },
-     {
-      "t": ""
+      "t": "1 M/W/F",
+      "cs": 2
      },
      {
       "t": "1"
      },
      {
+      "t": "1",
+      "cs": 5
+     }
+    ],
+    [
+     {
+      "t": "Cycloserine or terizidone (Cs/Trd)",
+      "rs": 2
+     },
+     {
+      "t": "125 mg mini cap (Cs) (12.5 mg/mL)"
+     },
+     {
+      "t": "2 mL ᵇ ᵍ"
+     },
+     {
+      "t": "4 mL ᵇ"
+     },
+     {
       "t": "1"
      },
      {
-      "t": ""
+      "t": "2"
      },
      {
-      "t": ""
+      "t": "3"
      },
      {
-      "t": ""
+      "t": "4"
      },
      {
-      "t": ""
+      "t": "4",
+      "cs": 2
      },
      {
-      "t": ""
+      "t": "–",
+      "cs": 3
      },
      {
-      "t": ""
+      "t": "Pyridoxine is usually given to limit Cs toxicity",
+      "rs": 2
      }
     ],
     [
      {
-      "t": "Cycloserine or terizidone<br/>(Cs/Tz)"
+      "t": "250 mg cap (25 mg/mL)"
      },
      {
-      "t": "125 mg mini cap (Cs) (12.5 mg/mL)<br/>250 mg cap (25 mg/mL)"
+      "t": "1 mL ᵇ ᵍ"
      },
      {
-      "t": "2 mLb, g<br/>1 mLb, g"
+      "t": "2 mL ᵇ"
      },
      {
-      "t": "4 mLb<br/>2 mLb"
+      "t": "5 mL ᵇ"
      },
      {
-      "t": "1<br/>5 mLb"
+      "t": "1"
      },
      {
-      "t": "2<br/>1"
+      "t": "2"
      },
      {
-      "t": "3<br/>2"
+      "t": "2"
      },
      {
-      "t": "4<br/>2"
+      "t": "2",
+      "cs": 2
      },
      {
-      "t": "4<br/>2"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "–<br/>3"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Pyridoxine is usually given to limit Cs toxicity"
-     },
-     {
-      "t": ""
+      "t": "3",
+      "cs": 3
      }
     ],
     [
      {
-      "t": "Group C medicines"
+      "t": "Group C medicines (weight bands)"
      },
      {
-      "t": "Formulation"
+      "t": ""
      },
      {
-      "t": "3-4 kga"
+      "t": "3-4 kg ᵃ"
      },
      {
-      "t": "5-6 kga"
+      "t": "5-6 kg ᵃ"
      },
      {
       "t": "7-9 kg"
@@ -4775,15 +4535,13 @@
       "t": "≥70 kg"
      },
      {
-      "t": "Comments"
-     },
-     {
       "t": ""
      }
     ],
     [
      {
-      "t": "Ethambutol<br/>(E or EMB)"
+      "t": "Ethambutol (E)",
+      "rs": 2
      },
      {
       "t": "100 mg dt (10 mg/mL)"
@@ -4807,42 +4565,26 @@
       "t": "–"
      },
      {
-      "t": "–"
+      "t": "–",
+      "cs": 5
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "rs": 2
      }
     ],
     [
      {
-      "t": "Ethambutol<br/>(E or EMB)"
-     },
-     {
       "t": "400 mg tab (40 mg/mL)"
      },
      {
-      "t": "1.5 mLb"
+      "t": "1.5 mL ᵇ"
      },
      {
-      "t": "3 mLb"
+      "t": "3 mL ᵇ"
      },
      {
-      "t": "4 mLb"
+      "t": "4 mL ᵇ"
      },
      {
       "t": "6 mL"
@@ -4854,30 +4596,21 @@
       "t": "1.5"
      },
      {
-      "t": "2"
+      "t": "2",
+      "cs": 2
      },
      {
-      "t": ""
-     },
-     {
-      "t": "3"
-     },
-     {
-      "t": ""
+      "t": "3",
+      "cs": 2
      },
      {
       "t": "4"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Delamanid<br/>(Dlm)"
+      "t": "Delamanid (Dlm)",
+      "rs": 2
      },
      {
       "t": "25 mg dt"
@@ -4886,92 +4619,60 @@
       "t": "1 od"
      },
      {
-      "t": "<3 months: 1 od<br/>≥3 months: 1 bd"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "1 bd"
-     },
-     {
-      "t": "2 morning,<br/>1 evening"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "2 bd"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "–"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Delamanid<br/>(Dlm)"
-     },
-     {
-      "t": "50 mg tabh<br/>(5 mg/mL)"
-     },
-     {
-      "t": "5 mL (0.5 tab) odb"
-     },
-     {
-      "t": "<3 months: 5 mL (0.5 tab) odb<br/>≥3 months: 5 mL (0.5 tab) bdb"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "5 mL (0.5 tab) bdb"
-     },
-     {
-      "t": "10 mL (1 tab) morning<br/>5 mL (0.5 tab) evening"
-     },
-     {
-      "t": ""
+      "t": "<3 months: 1 od; ≥3 months: 1 bd",
+      "cs": 2
      },
      {
       "t": "1 bd"
      },
      {
-      "t": ""
+      "t": "2 morning, 1 evening",
+      "cs": 2
      },
      {
-      "t": "2 bd"
+      "t": "2 bd",
+      "cs": 2
      },
      {
-      "t": ""
+      "t": "–",
+      "cs": 3
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "rs": 2
      }
     ],
     [
      {
-      "t": "Pyrazinamide<br/>(Z or PZA)"
+      "t": "50 mg tab ʰ (5 mg/mL)"
+     },
+     {
+      "t": "5 mL (0.5 tab) od ᵇ"
+     },
+     {
+      "t": "<3 months: 5 mL (0.5 tab) od ᵇ; ≥3 months: 5 mL (0.5 tab) bd ᵇ",
+      "cs": 2
+     },
+     {
+      "t": "5 mL (0.5 tab) bd ᵇ"
+     },
+     {
+      "t": "10 mL (1 tab) morning, 5 mL (0.5 tab) evening",
+      "cs": 2
+     },
+     {
+      "t": "1 bd",
+      "cs": 2
+     },
+     {
+      "t": "2 bd",
+      "cs": 3
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide (Z)",
+      "rs": 3
      },
      {
       "t": "150 mg dt (15 mg/mL)"
@@ -4995,42 +4696,26 @@
       "t": "–"
      },
      {
-      "t": "–"
+      "t": "–",
+      "cs": 5
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "rs": 3
      }
     ],
     [
      {
-      "t": "Pyrazinamide<br/>(Z or PZA)"
-     },
-     {
       "t": "400 mg tab (40 mg/mL)"
      },
      {
-      "t": "2.5 mLb"
+      "t": "2.5 mL ᵇ"
      },
      {
-      "t": "5 mL (0.5 tab)b"
+      "t": "5 mL (0.5 tab) ᵇ"
      },
      {
-      "t": "7.5 mL (0.75 tab)b"
+      "t": "7.5 mL (0.75 tab) ᵇ"
      },
      {
       "t": "1"
@@ -5045,39 +4730,23 @@
       "t": "3"
      },
      {
-      "t": "4"
-     },
-     {
-      "t": ""
+      "t": "4",
+      "cs": 3
      },
      {
       "t": "5"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Pyrazinamide<br/>(Z or PZA)"
-     },
-     {
       "t": "500 mg tab (50 mg/mL)"
      },
      {
-      "t": "2 mLb"
+      "t": "2 mL ᵇ"
      },
      {
-      "t": "5 mL (5 mL)b"
-     },
-     {
-      "t": ""
+      "t": "5 mL ᵇ",
+      "cs": 2
      },
      {
       "t": "1"
@@ -5092,69 +4761,30 @@
       "t": "2.5"
      },
      {
-      "t": "3"
-     },
-     {
-      "t": ""
+      "t": "3",
+      "cs": 3
      },
      {
       "t": "4"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Imipenem–cilastatin (Ipm/Cin)"
+      "t": "Imipenem-cilastatin (Ipm/Cln)"
      },
      {
       "t": "500 mg + 500 mg powder for injection, vial (10 mL)"
      },
      {
-      "t": ""
+      "t": "",
+      "cs": 6
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "2 vials (1 g + 1 g) bd"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "2 vials (1 g + 1 g) bd",
+      "cs": 5
      },
      {
       "t": "Only to be used with clavulanic acid"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -5183,110 +4813,26 @@
       "t": "11 mL tid"
      },
      {
-      "t": "1 vials (1 g + 1 g) bd"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "1 vial (1 g + 1 g) bd [as printed]",
+      "cs": 5
      },
      {
       "t": "Only to be used with clavulanic acid"
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Group C Medicines"
-     },
-     {
-      "t": "Formulation"
-     },
-     {
-      "t": "3-4 kga"
-     },
-     {
-      "t": "5-6 kga"
-     },
-     {
-      "t": "7-9 kg"
-     },
-     {
-      "t": "10-15 kg"
-     },
-     {
-      "t": "16-23 kg"
-     },
-     {
-      "t": "24-29 kg"
-     },
-     {
-      "t": "30-35 kg"
-     },
-     {
-      "t": "36-45 kg"
-     },
-     {
-      "t": "46-55 kg"
-     },
-     {
-      "t": "56-69 kg"
-     },
-     {
-      "t": "≥70 kg"
-     },
-     {
-      "t": "Comments"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Amikacin<br/>(Am)"
+      "t": "Amikacin (Am)"
      },
      {
       "t": "500 mg/2 mL solution for injection, ampoule"
      },
      {
-      "t": "_ i"
+      "t": "– ⁱ",
+      "cs": 8
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "3–4 mL"
+      "t": "3-4 mL"
      },
      {
       "t": "4 mL"
@@ -5300,46 +4846,18 @@
     ],
     [
      {
-      "t": "Streptomycin<br/>(Sm)"
+      "t": "Streptomycin (Sm)"
      },
      {
       "t": "1 g powder for injection, vial"
      },
      {
-      "t": "_ i"
+      "t": "– ⁱ",
+      "cs": 8
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Calculate according to the dilution used"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Calculate according to the dilution used",
+      "cs": 3
      },
      {
       "t": "Recommended only in adults aged >18 years"
@@ -5347,49 +4865,73 @@
     ],
     [
      {
-      "t": "Ethionamide or Prothionamide<br/>(Eto/Pto)"
+      "t": "Ethionamide or prothionamide (Eto/Pto)",
+      "rs": 2
      },
      {
-      "t": "125 mg dt (Eto)<br/>(12.5 mg/mL)<br/>250 mg tab<br/>(25 mg/mL)"
+      "t": "125 mg dt (12.5 mg/mL)"
      },
      {
-      "t": "3 mLb<br/>–"
+      "t": "3 mL ᵇ"
      },
      {
-      "t": "7 mLb<br/>3 mLb"
+      "t": "7 mL ᵇ"
      },
      {
-      "t": "1<br/>5 mL<br/>(0.5 tab)b"
+      "t": "1"
      },
      {
-      "t": "2<br/>1"
+      "t": "2"
      },
      {
-      "t": "3<br/>2"
-     },
-     {
-      "t": "4"
-     },
-     {
-      "t": "4<br/>2"
-     },
-     {
-      "t": "–<br/>3"
-     },
-     {
-      "t": ""
+      "t": "3"
      },
      {
       "t": "4"
      },
      {
-      "t": ""
+      "t": "4",
+      "cs": 2
      },
      {
-      "t": "Although once daily dose advised, two divided doses can be also given to improve tolerance"
+      "t": "–",
+      "cs": 3
      },
      {
-      "t": ""
+      "t": "Although a once-daily dose is advised, two divided doses can also be given to improve tolerance",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "250 mg tab (25 mg/mL)"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "3 mL ᵇ"
+     },
+     {
+      "t": "5 mL (0.5 tab) ᵇ"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2",
+      "cs": 2
+     },
+     {
+      "t": "2",
+      "cs": 2
+     },
+     {
+      "t": "3",
+      "cs": 2
+     },
+     {
+      "t": "4"
      }
     ],
     [
@@ -5397,54 +4939,43 @@
       "t": "P-aminosalicylic acid (PAS)"
      },
      {
-      "t": "PAS sodium salt<br/>(equivalent to 4 g PAS acid) sachet"
+      "t": "PAS sodium salt (equivalent to 4 g PAS acid) sachet"
      },
      {
-      "t": "0.3 g<br/>bd"
+      "t": "0.3 g bd"
      },
      {
-      "t": "0.75 g<br/>bd"
+      "t": "0.75 g bd"
      },
      {
-      "t": "1 g<br/>bd"
+      "t": "1 g bd"
      },
      {
-      "t": "2 g<br/>bd"
+      "t": "2 g bd"
      },
      {
-      "t": "3 g<br/>bd"
+      "t": "3 g bd"
      },
      {
-      "t": "3.5 g<br/>bd"
+      "t": "3.5 g bd"
      },
      {
-      "t": "4 g<br/>bd"
+      "t": "4 g bd",
+      "cs": 4
      },
      {
-      "t": ""
+      "t": "4-6 g bd"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "4–6 g<br/>bd"
-     },
-     {
-      "t": "Usually given in divided doses. Fully dose may be given once daily if tolerated"
-     },
-     {
-      "t": ""
+      "t": "Usually given in divided doses; the full dose may be given once daily if tolerated"
      }
     ],
     [
      {
-      "t": "Other Medicines"
+      "t": "Other medicines (weight bands)"
      },
      {
-      "t": "Formulation"
+      "t": ""
      },
      {
       "t": "3-5 kg"
@@ -5480,115 +5011,110 @@
       "t": "≥70 kg"
      },
      {
-      "t": "Comments"
-     },
-     {
       "t": ""
      }
     ],
     [
      {
-      "t": "Group C Medicines"
+      "t": "Isoniazid ʲ (H), high dose",
+      "rs": 3
      },
      {
-      "t": "Formulation"
+      "t": "50 mg/5 mL solution"
      },
      {
-      "t": "3-4 kga"
+      "t": "5 mL"
      },
      {
-      "t": "5-6 kga"
+      "t": "9 mL"
      },
      {
-      "t": "7-9 kg"
+      "t": "15 mL"
      },
      {
-      "t": "10-15 kg"
+      "t": "20 mL"
      },
      {
-      "t": "16-23 kg"
+      "t": "–"
      },
      {
-      "t": "24-29 kg"
+      "t": "–"
      },
      {
-      "t": "30-35 kg"
+      "t": "–",
+      "cs": 5
      },
      {
-      "t": "36-45 kg"
-     },
-     {
-      "t": "46-55 kg"
-     },
-     {
-      "t": "56-69 kg"
-     },
-     {
-      "t": "≥70 kg"
-     },
-     {
-      "t": "Comments"
-     },
-     {
-      "t": ""
+      "t": "Pyridoxine is always given with high-dose isoniazid in children (1-2 mg/kg) and in people at risk of side effects (e.g. HIV or malnutrition). In infants, pyridoxine may be given as part of a multivitamin syrup.",
+      "rs": 3
      }
     ],
     [
      {
-      "t": "Isoniazidj<br/>(INH or H)<br/>(high dose)"
+      "t": "100 mg dt or tab (10 mg/mL)"
      },
      {
-      "t": "50 mg/5 mL soln<br/>100 mg dt or tab<br/>(10 mg/mL)<br/>300 mg tab"
+      "t": "5 mL (0.5 dt)"
      },
      {
-      "t": "5 mL<br/>5 mL<br/>(0.5 dt)<br/>–"
+      "t": "1"
      },
      {
-      "t": "9 mL<br/>1"
+      "t": "1.5"
      },
      {
-      "t": "15 mL<br/>1.5"
+      "t": "2"
      },
      {
-      "t": "20 mL<br/>2"
+      "t": "3"
      },
      {
-      "t": "–<br/>3<br/>1"
+      "t": "4"
      },
      {
-      "t": "–<br/>4<br/>1.5"
-     },
-     {
-      "t": "–<br/>4<br/>1.5"
+      "t": "4"
      },
      {
       "t": "4.5"
      },
      {
-      "t": "–<br/>2"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Pyridoxine is always given with high-dose isoniazid in children (1–2 mg/kg) and in people at risk of side-effects (e.g. those with HIV or malnutrition). In infants, pyridoxine may be given as part of a multi-vitamin syrup."
-     },
-     {
-      "t": ""
+      "t": "–",
+      "cs": 3
      }
     ],
     [
      {
-      "t": "Clavulanic acidj (as amoxicillin/ clavulanate)<br/>(Amx/clav)"
+      "t": "300 mg tab"
      },
      {
-      "t": "62.5 mg clavulanic acid as amoxicillin/ clavulanate (250/62.5 mg), powder for oral solution, 5 mL<br/>125 mg clavulanic acid as amoxicillin/ clavulanate (500/125 mg) tab"
+      "t": "–",
+      "cs": 4
      },
      {
-      "t": "1.5 mL tid<br/>–"
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "1.5",
+      "cs": 2
+     },
+     {
+      "t": "2",
+      "cs": 3
+     }
+    ],
+    [
+     {
+      "t": "Clavulanic acid ʲ (as amoxicillin/clavulanate) (Amx/clav)",
+      "rs": 2
+     },
+     {
+      "t": "62.5 mg clavulanic acid as amoxicillin/clavulanate (250/62.5 mg), powder for oral solution, 5 mL"
+     },
+     {
+      "t": "1.5 mL tid"
      },
      {
       "t": "2 mL tid"
@@ -5603,86 +5129,70 @@
       "t": "8 mL tid"
      },
      {
-      "t": "10 mL tid<br/>1 tid"
+      "t": "10 mL tid"
      },
      {
-      "t": "10 mL bd or tid<br/>1 bd or tid"
+      "t": "10 mL bd or tid",
+      "cs": 2
      },
      {
-      "t": ""
+      "t": "–",
+      "cs": 3
      },
      {
-      "t": "–"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Only available in combination with amoxicillin. To be given with each dose of imipenem/ cilastatin (bd) or meropenem (tid)."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Only available in combination with amoxicillin. To be given with each dose of imipenem/cilastatin (bd) or meropenem (tid).",
+      "rs": 2
      }
     ],
     [
      {
-      "t": "Pretomanid<br/>(Pa)"
+      "t": "125 mg clavulanic acid as amoxicillin/clavulanate (500/125 mg) tab"
+     },
+     {
+      "t": "–",
+      "cs": 5
+     },
+     {
+      "t": "1 tid"
+     },
+     {
+      "t": "1 bd or tid",
+      "cs": 5
+     }
+    ],
+    [
+     {
+      "t": "Pretomanid (Pa)"
      },
      {
       "t": "200 mg tab"
      },
      {
-      "t": "–"
+      "t": "–",
+      "cs": 6
      },
      {
-      "t": ""
+      "t": "1",
+      "cs": 5
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "1"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Currently only used as part of the BPaLM/BPaL regimens."
-     },
-     {
-      "t": ""
+      "t": "Currently only used as part of the BPaLM/BPaL regimens"
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "Letter footnotes (a-j, e.g. ᵇ = dose given as mL of a 10 mL suspension of the dispersed tablet) are printed under the table on p.137 and kept in the following text chunks."
+   ],
+   "source_flags": [
+    "Group A weight bands overlap ('46-56 kg' and '56-69 kg'); Groups B/C use 46-55 kg.",
+    "Meropenem adult dose printed '1 vials (1 g + 1 g) bd'; the WHO table gives meropenem 1 g three times daily (or 2 g twice daily) with clavulanate.",
+    "Imipenem-cilastatin has no paediatric doses in the table (cells blank)."
+   ],
    "pages": [
     134,
     135,
     136
-   ],
-   "context_before": "Table 31: Weight-based dosing of medicines used in multidrug-resistant TB regimens, adults and children<sup>a</sup>"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p142-0356",
@@ -6076,32 +5586,27 @@
    "header": [
     [
      {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+      "t": "Child-friendly dispersible TB medicine for a baby <4 kg – number of tablets",
+      "cs": 6
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
-      "t": "WT Bands (Kg)"
+      "t": "WT band (kg)",
+      "rs": 2
      },
      {
-      "t": "Intensive Phase<br/>RHZ (75/50/150) Mg"
+      "t": "Intensive phase",
+      "cs": 3
+     },
+     {
+      "t": "Continuation phase",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "RHZ (75/50/150 mg)"
      },
      {
       "t": "E (100 mg)"
@@ -6110,12 +5615,14 @@
       "t": "How to prepare the medicine"
      },
      {
-      "t": "Continuation Phase<br/>RH (75/50 mg)"
+      "t": "RH (75/50 mg)"
      },
      {
       "t": "How to prepare the medicine"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "2 kg"
@@ -6127,13 +5634,13 @@
       "t": "¼"
      },
      {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/4) of this solution measured with a syringe."
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of ethambutol and give 5 ml (1/4) of this solution measured with a syringe."
      },
      {
       "t": "¼"
      },
      {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 5 ml (1/4) of this solution measured with a syringe."
+      "t": "Dissolve one (1) tablet of RHZ [as printed] in 20 ml of safe drinking water. Once fully dissolved, give 5 ml (1/4) of this solution measured with a syringe."
      }
     ],
     [
@@ -6147,13 +5654,13 @@
       "t": "½"
      },
      {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/2) of this solution measured with a syringe."
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of ethambutol and give 5 ml (1/2) [as printed] of this solution measured with a syringe."
      },
      {
       "t": "¼"
      },
      {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 10 ml (1/2) of this solution measured with a syringe."
+      "t": "Dissolve one (1) tablet of RHZ [as printed] in 20 ml of safe drinking water. Once fully dissolved, give 10 ml (1/2) of this solution measured with a syringe."
      }
     ],
     [
@@ -6167,13 +5674,13 @@
       "t": "¾"
      },
      {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 15ml (3/4) of this solution measured with a syringe"
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of ethambutol and give 15 ml (3/4) of this solution measured with a syringe."
      },
      {
       "t": "¾"
      },
      {
-      "t": "Dissolve one (1) tablet of RH in 20 ml of safe drinking water. Once fully dissolved, give 15ml (3/4) of this solution measured with a syringe."
+      "t": "Dissolve one (1) tablet of RH in 20 ml of safe drinking water. Once fully dissolved, give 15 ml (3/4) of this solution measured with a syringe."
      }
     ],
     [
@@ -6181,58 +5688,34 @@
       "t": "Vit B6"
      },
      {
-      "t": "Give 1-2 mg/kg/day of vitamin B6 (25 mg tablets)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Give 1-2 mg/kg/day of vitamin B6 (25 mg tablets)",
+      "cs": 5
      }
     ],
     [
      {
-      "t": "Ethambutol is not dissolvable: crush before adding to the liquid After giving the child their dose for that day, discard the rest of the solution. Prepare a fresh solution every day. If volumes are too high the tablet may also be dissolved in 10 ml maintaining the same fraction of medication delivered"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Ethambutol is not dissolvable: crush before adding to the liquid. After giving the child their dose for that day, discard the rest of the solution. Prepare a fresh solution every day. If volumes are too high the tablet may also be dissolved in 10 ml, maintaining the same fraction of medication delivered.",
+      "cs": 6
      }
     ]
    ],
    "footnotes": [],
    "source_flags": [
     "Babies <4 kg: for 2.9 kg the intensive-phase dose is ½ tablet but the instruction says 'give 5 ml (1/2)' (half of the 20 ml solution is 10 ml); the continuation-phase cell says ¼ but the instruction gives 10 ml (1/2).",
-    "Weight bands are printed as '2 kg', '2.9 kg', '3-3.9 kg', leaving gaps (e.g. 2.1-2.8 kg)."
+    "Weight bands are printed as '2 kg', '2.9 kg', '3-3.9 kg', leaving gaps (e.g. 2.1-2.8 kg).",
+    "Continuation phase for 2 kg and 2.9 kg tells the carer to dissolve an RHZ tablet; the continuation phase uses RH (as in the 3-3.9 kg row).",
+    "Vitamin B6 is 1-2 mg/kg/day in Tables 36-37 but section 8.7 says 2.5 mg/kg (5-10 mg/kg in some situations)."
    ],
    "pages": [
     150
-   ],
-   "context_before": "Table 36. Recommended treatment regimen and anti-TB drug dosages for paediatrics"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p151-0378",
    "page": 151,
    "image_only": false,
    "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > Table 37:Child-friendly dispersible medicine for Children 4 - 24.",
-   "caption": "Table 37:Child-friendly dispersible medicine for Children 4 - 24. (Number of Tablets)",
+   "caption": "Table 37: Child-friendly dispersible TB medicines for children 4-24.9 kg: RHZ, E and RH tablets by weight band (4-7.9, 8-11.9, 12-15.9, 16-24.9 kg), preparation, vitamin B6",
    "replaces_chunks": [
     "tb-2025-0378"
    ],
@@ -6240,46 +5723,43 @@
    "header": [
     [
      {
-      "t": "Number of Tablets"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Number of tablets",
+      "cs": 6
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
-      "t": "WT<br/>Bands<br/>(Kg)"
+      "t": "WT band (kg)",
+      "rs": 2
      },
      {
-      "t": "Intensive Phase<br/>RHZ<br/>(75/50/150) Mg"
+      "t": "Intensive phase",
+      "cs": 3
      },
      {
-      "t": "E<br/>(100 mg)"
+      "t": "Continuation phase",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "RHZ (75/50/150 mg)"
+     },
+     {
+      "t": "E (100 mg)"
      },
      {
       "t": "How to prepare the medicine"
      },
      {
-      "t": "Continuation Phase<br/>RH<br/>(75/50 mg)"
+      "t": "RH (75/50 mg)"
      },
      {
-      "t": "How to prepare the<br/>medicine"
+      "t": "How to prepare the medicine"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "4-7.9"
@@ -6291,13 +5771,15 @@
       "t": "1"
      },
      {
-      "t": "Dissolve the tablet(s) of RHZ in<br/>10-20 ml of safe drinking water.<br/>Once fully dissolved, mix in<br/>completely crushed tablet(s) of<br/>Ethambutol and give ALL of this<br/>solution to the child.<br/>Rinse the cup and give any<br/>residual liquid."
+      "t": "Dissolve the tablet(s) of RHZ in 10-20 ml of safe drinking water. Once fully dissolved, mix in completely crushed tablet(s) of ethambutol and give ALL of this solution to the child. Rinse the cup and give any residual liquid.",
+      "rs": 4
      },
      {
       "t": "1"
      },
      {
-      "t": "Dissolve the tablet(s) of<br/>RH in 10-20 ml of safe<br/>drinking water.<br/>Once fully dissolved<br/>give ALL of this solution<br/>to the child.<br/>Rinse the cup and give<br/>any residual liquid."
+      "t": "Dissolve the tablet(s) of RH in 10-20 ml of safe drinking water. Once fully dissolved, give ALL of this solution to the child. Rinse the cup and give any residual liquid.",
+      "rs": 4
      }
     ],
     [
@@ -6311,13 +5793,7 @@
       "t": "2"
      },
      {
-      "t": ""
-     },
-     {
       "t": "2"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -6331,13 +5807,7 @@
       "t": "3"
      },
      {
-      "t": ""
-     },
-     {
       "t": "3"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -6351,13 +5821,7 @@
       "t": "4"
      },
      {
-      "t": ""
-     },
-     {
       "t": "4"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -6365,59 +5829,23 @@
       "t": ">25 kg"
      },
      {
-      "t": "Same as in the above dosing table for adults"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Same as in the dosing table for adults (Table 14)",
+      "cs": 5
      }
     ],
     [
      {
-      "t": "VIT B6"
+      "t": "Vit B6"
      },
      {
-      "t": "Give 1-2 mg/kg/day vitamin B6 (25 mg tablets)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Give 1-2 mg/kg/day vitamin B6 (25 mg tablets)",
+      "cs": 5
      }
     ],
     [
      {
-      "t": "Ethambutol is not dissolvable: crush before adding it to the liquid"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Ethambutol is not dissolvable: crush before adding it to the liquid.",
+      "cs": 6
      }
     ]
    ],
@@ -6425,8 +5853,7 @@
    "source_flags": [],
    "pages": [
     151
-   ],
-   "context_before": "Table 37:Child-friendly dispersible medicine for Children 4 - 24."
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p152-0380",
@@ -6447,7 +5874,7 @@
       "t": "Dosage (mg/kg)"
      },
      {
-      "t": ""
+      "t": "Note"
      }
     ]
    ],
@@ -6460,7 +5887,8 @@
       "t": "15-20"
      },
      {
-      "t": "Higher end of dosing for younger<br/>children and lower end for older<br/>children."
+      "t": "Higher end of dosing for younger children and lower end for older children.",
+      "rs": 4
      }
     ],
     [
@@ -6469,9 +5897,6 @@
      },
      {
       "t": "22.5-30"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -6480,9 +5905,6 @@
      },
      {
       "t": "35-45"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -6491,18 +5913,19 @@
      },
      {
       "t": "17.5-22.5"
-     },
-     {
-      "t": ""
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "The boxed 'Recommended TBM regimen for children: 2HRZE+Lfx/10RH' contradicts the sentence just above it (not yet recommended by WHO) and the WHO-recommended 6RHZEto shown in the table.",
+    "The text says the 2HRZE/10HR doses are 'the same as in the dosing table 28'; the paediatric dosing tables are Tables 36-37."
+   ],
    "pages": [
     152
    ],
-   "context_before": "Table 38: Recommended dosing for 6RHZ+Ethionamide regimen for TB meningitis in children and adolescents"
+   "context_before": "Short 6-month TBM regimen (6RHZ+Ethionamide), recommended by WHO (2022) for children and adolescents 0-19 years as an alternative to 2HRZE/10HR; all drugs given daily for 6 months. Not recommended for children and adolescents living with HIV (use the 12-month regimen).",
+   "table_note": "The alternative regimen for TB meningitis in children is 2HRZE+Lfx/10RH with an increased dose of rifampicin (25-30 mg/kg) as per the BMC trial; this regimen is not yet recommended by WHO. Boxed recommendation printed below the table: 'Recommended TBM regimen for children: 2HRZE+Lfx / 10RH (increase the dose of rifampicin to 25 - 30 mg/kg).'"
   },
   {
    "kind": "diagram",
@@ -6847,30 +6270,19 @@
    "header": [
     [
      {
-      "t": "Drug"
+      "t": "Drug",
+      "rs": 2
      },
      {
-      "t": "Likelihood of causing<br/>a reaction"
+      "t": "Likelihood of causing a reaction",
+      "rs": 2
      },
      {
-      "t": "Challenge doses"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Challenge doses",
+      "cs": 3
      }
-    ]
-   ],
-   "body": [
+    ],
     [
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
      {
       "t": "Day 1"
      },
@@ -6880,7 +6292,9 @@
      {
       "t": "Day 3"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "Isoniazid"
@@ -6903,7 +6317,7 @@
       "t": "Rifampicin"
      },
      {
-      "t": ""
+      "t": "↓"
      },
      {
       "t": "75 mg"
@@ -6920,13 +6334,13 @@
       "t": "Pyrazinamide"
      },
      {
-      "t": ""
+      "t": "↓"
      },
      {
       "t": "250 mg"
      },
      {
-      "t": "1 gr"
+      "t": "1 g"
      },
      {
       "t": "Full dose"
@@ -6937,7 +6351,7 @@
       "t": "Ethambutol"
      },
      {
-      "t": ""
+      "t": "↓"
      },
      {
       "t": "100 mg"
@@ -6972,7 +6386,7 @@
    "pages": [
     163
    ],
-   "context_before": "Table 41: Guide to performing anti-TB drug challenge and re-introduction"
+   "context_before": "Drugs are reintroduced one at a time starting with the drug least likely to cause the reaction. If the drug responsible is pyrazinamide, ethambutol or streptomycin, resume TB treatment without the offending drug and, if possible, replace it; the regimen may need to be extended."
   },
   {
    "table_id": "tb-2025-tbl-p168-0423",
@@ -7062,10 +6476,10 @@
    "header": [
     [
      {
-      "t": "Potassium level mEq/L"
+      "t": "Potassium level (mEq/L)"
      },
      {
-      "t": "Quantity of KCL 1mEq I. V=1mmol I.V 8mEq=600mg tablet"
+      "t": "Quantity of KCl (1 mEq IV = 1 mmol IV; 8 mEq = 600 mg tablet)"
      },
      {
       "t": "When to do the next control (sooner if the patient has vomiting or diarrhoea)"
@@ -7100,7 +6514,7 @@
       "t": "3.4 – 3.6"
      },
      {
-      "t": "20 - 40 mEq (1500-3000mg)"
+      "t": "20 - 40 mEq (1500-3000 mg)"
      },
      {
       "t": "Monthly"
@@ -7111,7 +6525,7 @@
       "t": "3.0 – 3.3"
      },
      {
-      "t": "60 mEq (4500mg)"
+      "t": "60 mEq (4500 mg)"
      },
      {
       "t": "Two weeks"
@@ -7122,7 +6536,7 @@
       "t": "2.7 – 2.9"
      },
      {
-      "t": "80 mEq (6000mg)"
+      "t": "80 mEq (6000 mg)"
      },
      {
       "t": "One week"
@@ -7136,7 +6550,7 @@
       "t": "60 mmol IV and 6000 mg orally every 6 hours for 24 hours"
      },
      {
-      "t": ""
+      "t": "—"
      }
     ],
     [
@@ -7147,16 +6561,20 @@
       "t": "60 mmol IV and 7500 mg orally"
      },
      {
-      "t": "Every 6 hours with aggressive IV replacement.<br/>Consider holding injectable until >2.4"
+      "t": "Every 6 hours with aggressive IV replacement. Consider holding the injectable until >2.4"
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "Source: Guidelines for Programmatic Management of Drug-resistant Tuberculosis, Emergency update 2008, WHO/HTM/TB/2008.402."
+   ],
+   "source_flags": [
+    "K+ 2.4-2.6: '60 mmol IV and 6000 mg orally every 6 hours for 24 hours' would be 320 mEq oral plus IV per day if read literally; the 'every 6 hours' appears to belong to the monitoring column (as in the next row). The 'when to do the next control' cell is blank for this row."
+   ],
    "pages": [
     178
    ],
-   "context_before": "Table 43: Blood Potassium levels and recommended monitoring protocol"
+   "table_note": "Every Slow-K 600 mg tablet contains 8 mEq of K; every magnesium tablet contains 150 mg magnesium oxide. Potassium IV supplementation should NOT exceed 20 mmol/hr of KCl (usual 40 mmol in 1 L NaCl 0.9%, maximum 60 mmol/L). Magnesium IV: maximum 5 g MgSO4 in 1 L NaCl 0.9% or dextrose 5%, not faster than 150 mg/min; if not an emergency 2 g in 100 ml over 1-2 hours or 4 g in 250 ml over 2-4 hours. Amiloride or spironolactone are useful in resistant cases."
   },
   {
    "table_id": "tb-2025-tbl-p184-0463",
@@ -7418,7 +6836,7 @@
    "header": [
     [
      {
-      "t": "Client Category"
+      "t": "Client category"
      },
      {
       "t": "Recommended ART regimen"
@@ -7434,65 +6852,53 @@
       "t": "Clients already on TB treatment presenting for ART initiation"
      },
      {
-      "t": "TDF (300mg)/3TC (300mg) once daily +<br/>DTG (50mg twice daily)"
+      "t": "TDF (300 mg)/3TC (300 mg) once daily + DTG (50 mg twice daily)"
      },
      {
-      "t": "• Start ART as soon as possible with increased DTG dosing of 50mg twice daily<br/>• Return to standard DTG dosing 50mg once daily two weeks after the completion of TB treatment"
+      "t": "- Start ART as soon as possible with increased DTG dosing of 50 mg twice daily<br/>- Return to standard DTG dosing 50 mg once daily two weeks after the completion of TB treatment"
      }
     ],
     [
      {
-      "t": "Clients developing TB while on a DTG based ART regimen"
+      "t": "Clients developing TB while on a DTG-based ART regimen"
      },
      {
-      "t": "Increased DTG dose to 50mg twice daily"
+      "t": "Increase DTG dose to 50 mg twice daily"
      },
      {
-      "t": "For Clients must return to DTG 50mg once daily 2 weeks after completing TB treatment."
+      "t": "Clients must return to DTG 50 mg once daily 2 weeks after completing TB treatment."
      }
     ],
     [
      {
-      "t": "Developing DS-TB while on an EFV-based ART regimen."
+      "t": "Developing DS-TB while on an EFV-based ART regimen"
      },
      {
-      "t": "TDF/3TC+EFV 400mg (once daily)"
+      "t": "TDF/3TC+EFV 400 mg (once daily)"
      },
      {
-      "t": "• Check VL at the end of treatment. If VL is undetectable, the client can be transitioned to a once-daily FDC of TDF+3TC+DTG two weeks after completion of TB treatment<br/>• If VL is detectable immediately switch to the second line and continue adherence support refer to the ART section"
+      "t": "- Check VL at the end of treatment. If VL is undetectable, the client can be transitioned to a once-daily FDC of TDF+3TC+DTG two weeks after completion of TB treatment<br/>- If VL is detectable, immediately switch to second line and continue adherence support (refer to the ART section)"
      }
     ],
     [
      {
-      "t": "Developing DS-TB while on Protease inhibitor (PI) based ART regimen"
+      "t": "Developing DS-TB while on a protease inhibitor (PI)-based ART regimen"
      },
      {
-      "t": "Consult an experienced HIV clinician or snapthirdline\\@mohcoag.org before choosing these options:<br/>TB patient on LPV/r<br/>• Super boost LPV/r to 400mg/400mg by adding 300mg Ritonavir and continue until 2 weeks after completion of TB treatment<br/>* Double-dose of LPV/r to 800 mg/200 mg twice daily. Double dosing is only for clients >10yrs of age and continues until 2 weeks after completion of TB treatment."
-     },
-     {
-      "t": ""
+      "t": "Consult an experienced HIV clinician or snapthirdline@mohcoag.org before choosing these options:<br/>TB patient on LPV/r:<br/>- Super-boost LPV/r to 400 mg/400 mg by adding 300 mg ritonavir, and continue until 2 weeks after completion of TB treatment<br/>- Double-dose LPV/r to 800 mg/200 mg twice daily (double dosing is only for clients >10 years of age) and continue until 2 weeks after completion of TB treatment<br/>- If evidence of VL suppression in the past 3-6 months, switch to a DTG-based second-line regimen and continue twice-daily DTG until 2 weeks after completion of TB treatment<br/>TB patient on ATV/r or DRV/r:<br/>- Do not combine with rifampicin<br/>- Change to DTG twice daily if DTG-naive, or LPV/r with adjustments as above if DTG-experienced<br/>Patients who may be failing ART:<br/>- Follow guidance on managing treatment failure",
+      "cs": 2
      }
     ],
+    {
+     "section": "For clients with multidrug-resistant TB"
+    },
     [
      {
-      "t": "For Clients with Multidrug-Resistant TB"
+      "t": "EFV and bedaquiline (BDQ)"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "EFV and Bedaquiline (BDQ)"
-     },
-     {
-      "t": "- EFV should not be used with BDQ."
-     },
-     {
-      "t": ""
+      "t": "- EFV should not be used with BDQ.<br/>- EFV induces CYP3A activity and co-administration with BDQ may result in reduced BDQ exposure and loss of BDQ activity.<br/>- DTG is the preferred INSTI for clients receiving BDQ.",
+      "cs": 2
      }
     ],
     [
@@ -7500,10 +6906,8 @@
       "t": "Delamanid (DLM) and ARVs"
      },
      {
-      "t": "DLM is generally considered safe to administer with ART."
-     },
-     {
-      "t": ""
+      "t": "- DLM is generally considered safe to administer with ART.<br/>- Evidence shows safety with EFV, TDF and LPV/r.<br/>- No LPV/r dose adjustment is needed for TB patients on DLM. No long-term studies have been done on drug-drug interactions between DLM and ARVs. DTG is the preferred INSTI for clients receiving DLM.",
+      "cs": 2
      }
     ]
    ],
@@ -7513,7 +6917,7 @@
     194,
     195
    ],
-   "context_before": "Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients"
+   "table_note": "For all clients, maintain the same NRTI backbone provided no dose adjustment is necessary and the client is virally suppressed."
   },
   {
    "table_id": "tb-2025-tbl-p196-0499",
@@ -7659,142 +7063,152 @@
    "header": [
     [
      {
-      "t": "Treatment of HIV-associated TB in children"
+      "t": "Weight"
      },
      {
-      "t": ""
+      "t": "Current ART regimen"
      },
      {
-      "t": ""
+      "t": "Initial regimen / suggested modification (NRTIs based on HIV guidelines)"
      }
     ]
    ],
    "body": [
+    {
+     "section": "Treatment of HIV-associated TB in children – patients initiating ART while on TB treatment"
+    },
     [
      {
-      "t": "Patients Initiating ART while on TB Treatment"
+      "t": "< 10 kg"
      },
      {
-      "t": ""
+      "t": "Not on ART"
      },
      {
-      "t": ""
+      "t": "LPV/r with 1:1 ritonavir boosting ¹ ⁶ (recommended) or ABC-3TC-AZT ² ³ (recommended if ritonavir is not available) or NVP ² ³ ⁴ ⁵"
      }
     ],
     [
      {
-      "t": "Weight"
+      "t": "10-20 kg"
      },
      {
-      "t": "Initial Regimen (NRTIs based on HIV guidelines)"
+      "t": "Not on ART"
      },
      {
-      "t": ""
+      "t": "EFV (recommended) or LPV/r with 1:1 ritonavir boosting ¹ ⁶ or ABC-3TC-AZT ² ³"
      }
     ],
     [
      {
-      "t": "< 10 Kg"
+      "t": "> 20 kg"
      },
      {
-      "t": "LPV/r with 1:1 ritonavir boosting1,6 (recommended) or ABC-3TC-AZT [note 2],3 (recommended if ritonavir is not available) or NVP [note 2],3,4,5"
+      "t": "Not on ART"
      },
      {
-      "t": ""
+      "t": "DTG ⁷ twice daily (recommended)"
+     }
+    ],
+    {
+     "section": "Modifications to ART when initiating TB treatment in patients on ART"
+    },
+    [
+     {
+      "t": "< 10 kg",
+      "rs": 2
+     },
+     {
+      "t": "NVP"
+     },
+     {
+      "t": "Continue NVP ² ³ ⁴ ⁵"
      }
     ],
     [
      {
-      "t": "10-20 Kg"
+      "t": "LPV/r"
      },
      {
-      "t": "EFV (recommended) or LPV/r with 1:1 ritonavir boosting1,6 or ABC-3TC-AZT [note 2],3"
-     },
-     {
-      "t": ""
+      "t": "LPV/r with 1:1 ritonavir boosting ¹ ⁶ (recommended) or ABC-3TC-AZT ² ³ (recommended if ritonavir not available) or NVP ² ³ ⁴ ⁵"
      }
     ],
     [
      {
-      "t": "> 20 Kg"
+      "t": "10-20 kg",
+      "rs": 3
      },
      {
-      "t": "DTG⁷ twice daily (recommended)"
+      "t": "NVP or EFV"
      },
      {
-      "t": ""
+      "t": "EFV ⁸"
      }
     ],
     [
      {
-      "t": "Modifications to ART when initiating TB Rx in patients on ART<br/>Weight"
+      "t": "LPV/r (1st-line ART)"
      },
      {
-      "t": "Modifications to ART when initiating TB Rx in patients on ART<br/>Current ART Regimen"
-     },
-     {
-      "t": "Modifications to ART when initiating TB Rx in patients on ART<br/>Suggested Modification"
+      "t": "LPV/r with 1:1 ritonavir boosting ¹ ⁶ (recommended) or EFV (recommended if VL undetectable in the last 6 months) or ABC-3TC-AZT ² ³"
      }
     ],
     [
      {
-      "t": "< 10 Kg"
+      "t": "LPV/r (2nd-line treatment)"
      },
      {
-      "t": "NVP<br/>LPV/r"
-     },
-     {
-      "t": "Continue NVP [note 2],3,4,5<br/>LPV/r with 1:1 ritonavir boosting1,6 (recommended) or ABC-3TC-AZT [note 2],3 (recommended if ritonavir not available) or NVP [note 2],3,4,5"
+      "t": "LPV/r with 1:1 ritonavir boosting ⁶ (recommended) or ABC-3TC-AZT ² ³"
      }
     ],
     [
      {
-      "t": "10-20 Kg"
+      "t": "> 20 kg",
+      "rs": 3
      },
      {
-      "t": "NVP or EFV<br/>LPV/r (1st Line ART)<br/>LPV/r (2nd Line Treatment)"
+      "t": "NVP or EFV"
      },
      {
-      "t": "EFV [note 8]<br/>LPV/r based with 1:1 ritonavir boosting1,6 (recommended) or EFV (recommended if VL undetectable in last 6 mo) or ABC-3TC-AZT [note 2],3.<br/>LPV/r with 1:1 ritonavir boosting6 (recommended) or ABC-3TC-AZT [note 2],3"
+      "t": "EFV ⁸ ⁹"
      }
     ],
     [
      {
-      "t": "> 20 Kg"
+      "t": "ATV/r or LPV/r (1st or 2nd line)"
      },
      {
-      "t": "NVP or EFV<br/>ATV/r or LPV/r (1st or 2nd Line Treatment)<br/>DTG"
-     },
-     {
-      "t": "EFV [note 8],9<br/>LPV/r Double dose 6 or DTG [note 7] twice daily (If VL confirmed undetectable at TB treatment initiation)<br/>Twice daily DTG [note 7]"
+      "t": "LPV/r double dose ⁶ or DTG ⁷ twice daily (if VL confirmed undetectable at TB treatment initiation)"
      }
     ],
     [
      {
-      "t": "Guiding Principles x Always immediately check a viral load and CD4 in a patient on ART who is diagnosed with TB to assess for treatment failure x If the viral load is detectable avoid one drug change and manage it as a treatment failure considering ART/ATT drug interactions x Consider ART and PMTCT history when changing and selecting ART regimens x NRTI companion drugs should be based on HIV guidelines considering weight, comorbidities and prior NRTI exposure x Consult with TB/HIV experts through NTCP, ENAP or Partners with questions and for patients failing second-line ART or failing a PI"
+      "t": "DTG"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Twice-daily DTG ⁷"
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "1. See Dosing Table **** for 1:1 LPV/r (ritonavir solution and capsules) [as printed]. 2. NEVER continue ABC-3TC-AZT or an NVP-based regimen for more than 2 weeks after rifampicin is discontinued. 3. Consider ABC-3TC-AZT or NVP if intolerant to LPV/r. 4. Avoid NVP if prior exposure to PMTCT or ART. 5. Start at full dose and increase the dose to 200 mg/m²/dose if formulation allows when co-administered with rifampicin. 6. LPV/r can be administered as a double dose instead of 1:1 in children swallowing LPV/r tablets, reduced to standard dosing 2 weeks after rifampicin is discontinued. 7. DTG must be given twice daily while on TB treatment and continued twice daily for two weeks after rifampicin is discontinued. 8. NVP can be continued during TB treatment instead of EFV if intolerance or cannot swallow EFV. 9. Plan to change to DTG from EFV following completion of TB treatment (two weeks after rifampicin is stopped) if viral load is undetectable."
+   ],
+   "source_flags": [
+    "Footnote 1 refers to 'Dosing Table ****' (unfinished cross-reference); footnote 5 runs into footnote 6 in the PDF.",
+    "The table predates paediatric DTG for children <20 kg: current WHO guidance prefers DTG (twice daily with rifampicin) for children ≥4 weeks and ≥3 kg; the table still recommends LPV/r, NVP or EFV for <20 kg."
+   ],
    "pages": [
     201,
     202
    ],
-   "context_before": "Table 50: TB/HIV Simplified Treatment Table"
+   "table_note": "Guiding principles: always immediately check viral load and CD4 in a patient on ART who is diagnosed with TB; if VL is detectable avoid a one-drug change and manage as treatment failure considering ART/ATT interactions; consider ART and PMTCT history; NRTI companion drugs per HIV guidelines (weight, comorbidities, prior NRTI exposure); consult TB/HIV experts (NTCP, ENAP, partners) for questions and patients failing second-line ART or a PI."
   },
   {
    "table_id": "tb-2025-tbl-p203-0520",
    "page": 203,
    "image_only": false,
    "heading_path": "10.6 Management of TB in children living with HIV > 10.6.3 Cotrimoxazole Preventive Therapy (CPT)",
-   "caption": "10.6.3 Cotrimoxazole Preventive Therapy (CPT) (Weight, Child suspension, Single strength adult tablet<br/>(b400mg/80mg), Double strength adult tablet<br/>(800mg/160mg))",
+   "caption": "Table 51: Cotrimoxazole preventive therapy (CPT) dosing by body weight for children and adults living with HIV: suspension, single- and double-strength tablets",
    "replaces_chunks": [
     "tb-2025-0520"
    ],
@@ -7802,16 +7216,16 @@
    "header": [
     [
      {
-      "t": "Weight"
+      "t": "Weight (kg)"
      },
      {
       "t": "Child suspension"
      },
      {
-      "t": "Single strength adult tablet<br/>(b400mg/80mg)"
+      "t": "Single-strength adult tablet (400 mg/80 mg)"
      },
      {
-      "t": "Double strength adult tablet<br/>(800mg/160mg)"
+      "t": "Double-strength adult tablet (800 mg/160 mg)"
      }
     ]
    ],
@@ -7824,10 +7238,10 @@
       "t": "2.5 ml"
      },
      {
-      "t": "1/4 tablets"
+      "t": "1/4 tablet"
      },
      {
-      "t": "-"
+      "t": "–"
      }
     ],
     [
@@ -7835,13 +7249,13 @@
       "t": "5-15"
      },
      {
-      "t": "5ml"
+      "t": "5 ml"
      },
      {
-      "t": "1/2 tablets"
+      "t": "1/2 tablet"
      },
      {
-      "t": "-"
+      "t": "–"
      }
     ],
     [
@@ -7849,13 +7263,13 @@
       "t": "15-30"
      },
      {
-      "t": "10ml"
+      "t": "10 ml"
      },
      {
       "t": "One tablet"
      },
      {
-      "t": "1/2 tablets"
+      "t": "1/2 tablet"
      }
     ],
     [
@@ -7863,7 +7277,7 @@
       "t": ">30"
      },
      {
-      "t": "-"
+      "t": "–"
      },
      {
       "t": "Two tablets"
@@ -7874,7 +7288,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Weight units are not printed (presumably kg); bands overlap at 5, 15 and 30."
+   ],
    "pages": [
     203
    ]
@@ -8402,65 +7818,26 @@
    "header": [
     [
      {
-      "t": "TPT regimens and drug formulations"
+      "t": "TPT regimens and drug formulations",
+      "rs": 2
      },
      {
-      "t": "No. of tablets or quantity of solution by body weight band"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "No. of tablets or quantity of solution by body weight band",
+      "cs": 13
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
-      "t": ""
+      "t": "3-5.9 kg (>3 months) [as printed]"
      },
      {
-      "t": "3-5.9 kg<br/>(> 3 months)"
+      "t": "3-5.9 kg (≥3 months)"
      },
      {
-      "t": "3-5.9 kg<br/>(≥ 3 months)"
+      "t": "6-9.9 kg (<6 months)"
      },
      {
-      "t": "6-9.9 kg<br/>(< 6 months)"
-     },
-     {
-      "t": "6-9.9 kg<br/>(≥ 6 months)"
+      "t": "6-9.9 kg (≥6 months)"
      },
      {
       "t": "10-14.9 kg"
@@ -8487,62 +7864,23 @@
       "t": "45-49.9 kg"
      },
      {
-      "t": "< 50 kg"
+      "t": "< 50 kg [as printed]"
      }
-    ],
+    ]
+   ],
+   "body": [
+    {
+     "section": "Three months of weekly rifapentine plus isoniazid (3HP)"
+    },
     [
      {
-      "t": "Three months of weekly rifapentine plus isoniazid (3HP)"
+      "t": "Isoniazid 100 mg dt"
      },
      {
-      "t": ""
+      "t": "0.6 (6 mL ᵃ)"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Isoniazid 100mg dt"
-     },
-     {
-      "t": "0.6<br/>(6 mLa)"
-     },
-     {
-      "t": "0.7<br/>(7 mLa)"
+      "t": "0.7 (7 mL ᵃ)"
      },
      {
       "t": "1"
@@ -8580,7 +7918,7 @@
     ],
     [
      {
-      "t": "Isoniazid 300mg tab"
+      "t": "Isoniazid 300 mg tab"
      },
      {
       "t": "–"
@@ -8624,13 +7962,13 @@
     ],
     [
      {
-      "t": "Rifapentine 150mg dt"
+      "t": "Rifapentine 150 mg dt"
      },
      {
-      "t": "0.5<br/>(5 mLd)"
+      "t": "0.5 (5 mL ᵈ)"
      },
      {
-      "t": "0.7<br/>(7 mLd)"
+      "t": "0.7 (7 mL ᵈ)"
      },
      {
       "t": "1.5"
@@ -8668,7 +8006,7 @@
     ],
     [
      {
-      "t": "Rifapentine 300mg tab"
+      "t": "Rifapentine 300 mg tab"
      },
      {
       "t": "–"
@@ -8712,7 +8050,7 @@
     ],
     [
      {
-      "t": "Rifapentine 300 mg<br/>and Isoniazid<br/>300 mg FDC tab"
+      "t": "Rifapentine 300 mg and isoniazid 300 mg FDC tab"
      },
      {
       "t": "–"
@@ -8754,53 +8092,12 @@
       "t": "3"
      }
     ],
+    {
+     "section": "One month of daily rifapentine plus isoniazid (1HP) ᵉ"
+    },
     [
      {
-      "t": "One month of daily rifapentine plus isoniazid (1HP)e"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Isoniazid 300mg tab"
+      "t": "Isoniazid 300 mg tab"
      },
      {
       "t": "–"
@@ -8844,7 +8141,7 @@
     ],
     [
      {
-      "t": "Rifapentine 30 mg tab"
+      "t": "Rifapentine 30 mg tab [as printed]"
      },
      {
       "t": "–"
@@ -8886,53 +8183,12 @@
       "t": "2"
      }
     ],
+    {
+     "section": "Six months of daily levofloxacin (6Lfx)"
+    },
     [
      {
-      "t": "Six months of daily levofloxacin (6Lfx)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Lfx 100mg dt"
+      "t": "Lfx 100 mg dt"
      },
      {
       "t": "0.5"
@@ -8976,19 +8232,19 @@
     ],
     [
      {
-      "t": "Lfx 250mg tab"
+      "t": "Lfx 250 mg tab"
      },
      {
-      "t": "0.25<br/>(2.5 mLd)"
+      "t": "0.25 (2.5 mL ᵈ)"
      },
      {
-      "t": "0.5<br/>(5 mLd)"
+      "t": "0.5 (5 mL ᵈ)"
      },
      {
-      "t": "0.5<br/>(5 mLd)"
+      "t": "0.5 (5 mL ᵈ)"
      },
      {
-      "t": "1<br/>(10 mLd)"
+      "t": "1 (10 mL ᵈ)"
      },
      {
       "t": "1"
@@ -9020,7 +8276,7 @@
     ],
     [
      {
-      "t": "Lfx 500mg tab"
+      "t": "Lfx 500 mg tab"
      },
      {
       "t": "–"
@@ -9063,15 +8319,20 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Abbreviations: 1HP, 1 month of daily rifapentine plus isoniazid; 3HP, 3 months of weekly rifapentine plus isoniazid; 6H or 9H, 6 or 9 months of daily isoniazid; 6Lfx, 6 months of daily levofloxacin; dt, dispersible tablet; FDC, fixed-dose combination. Different weight bands are used in the two parts of this table; weight-band harmonisation is ongoing.",
+    "ᵃ Solution with a concentration of 10 mg/mL (one 100 mg isoniazid dispersible tablet in 10 mL water). ᵇ A triple combination of isoniazid 300 mg + pyridoxine 25 mg + sulfamethoxazole 800 mg + trimethoprim 160 mg (scored) can be used for people with HIV. ᶜ A quantity of 0.5 can be achieved by adding a 150 mg capsule of rifampicin. ᵈ Solution with a concentration of 15 mg/mL (one 150 mg rifapentine dispersible tablet in 10 mL water). ᵉ For individuals aged < 13 years [as printed]."
+   ],
    "source_flags": [
     "1HP row lists 'Rifapentine 30 mg tab' (2 tablets); the 1HP rifapentine dose is 600 mg daily, i.e. 2 × 300 mg tablets.",
-    "The last weight column is printed '< 50 kg' after 45-49.9 kg (presumably ≥50 kg); the first two columns are '3-5.9 kg (> 3 months)' and '3-5.9 kg (≥ 3 months)', so the under-3-months band is missing."
+    "The last weight column is printed '< 50 kg' after 45-49.9 kg (presumably ≥50 kg); the first two columns are '3-5.9 kg (> 3 months)' and '3-5.9 kg (≥ 3 months)', so the under-3-months band is missing.",
+    "1HP footnote reads 'for individuals aged < 13 years'; 1HP is recommended for people aged ≥13 years (Table 58 says ≥12 years).",
+    "Lfx 250 mg tab has no dose for 20-24.9 kg ('–') although the bands either side are covered.",
+    "Footnote d (rifapentine 15 mg/mL solution) is attached to the levofloxacin 250 mg suspension volumes."
    ],
    "pages": [
     214
-   ],
-   "context_before": "Table 55: TPT regimen and drug dosing"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p215-0557",
@@ -9086,42 +8347,15 @@
    "header": [
     [
      {
-      "t": "TPT regimens and drug formulations"
+      "t": "TPT regimens and drug formulations",
+      "rs": 2
      },
      {
-      "t": "No. of tablets or quantity of solution by body weight band"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "No. of tablets or quantity of solution by body weight band",
+      "cs": 9
      }
-    ]
-   ],
-   "body": [
+    ],
     [
-     {
-      "t": ""
-     },
      {
       "t": "4-7.9 kg"
      },
@@ -9149,45 +8383,18 @@
      {
       "t": "≥ 65 kg"
      }
-    ],
-    [
-     {
-      "t": "Six or nine months of daily isoniazid monotherapy (6H or 9H)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    ]
+   ],
+   "body": [
+    {
+     "section": "Six or nine months of daily isoniazid monotherapy (6H or 9H)"
+    },
     [
      {
       "t": "Isoniazid 100 mg dt"
      },
      {
-      "t": "0.5<br/>(0.5 mLa)"
+      "t": "0.5 (0.5 mL ᵃ) [as printed]"
      },
      {
       "t": "1"
@@ -9216,7 +8423,7 @@
     ],
     [
      {
-      "t": "Isoniazid 300 mg tabb"
+      "t": "Isoniazid 300 mg tab ᵇ"
      },
      {
       "t": "–"
@@ -9246,38 +8453,9 @@
       "t": "1.25"
      }
     ],
-    [
-     {
-      "t": "Four months of daily rifampicin monotherapy (4R)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "Four months of daily rifampicin monotherapy (4R)"
+    },
     [
      {
       "t": "Rifampicin 150 mg cap"
@@ -9312,7 +8490,7 @@
     ],
     [
      {
-      "t": "Rifampicin 300 mg capc"
+      "t": "Rifampicin 300 mg cap ᶜ"
      },
      {
       "t": "–"
@@ -9342,38 +8520,9 @@
       "t": "2.5"
      }
     ],
-    [
-     {
-      "t": "Three months of daily rifampicin plus isoniazid (3HR)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "Three months of daily rifampicin plus isoniazid (3HR)"
+    },
     [
      {
       "t": "Isoniazid 300 mg tab"
@@ -9408,7 +8557,7 @@
     ],
     [
      {
-      "t": "Rifampicin 300 mg capc"
+      "t": "Rifampicin 300 mg cap ᶜ"
      },
      {
       "t": "–"
@@ -9440,7 +8589,7 @@
     ],
     [
      {
-      "t": "Rifampicin 75 mg and<br/>Isoniazid 50 mg FDC dt"
+      "t": "Rifampicin 75 mg and isoniazid 50 mg FDC dt"
      },
      {
       "t": "1"
@@ -9472,7 +8621,7 @@
     ],
     [
      {
-      "t": "Rifampicin 150 mg and<br/>Isoniazid 75 mg FDC dt"
+      "t": "Rifampicin 150 mg and isoniazid 75 mg FDC dt"
      },
      {
       "t": "–"
@@ -9505,19 +8654,20 @@
    ],
    "footnotes": [],
    "source_flags": [
-    "≥65 kg: isoniazid 300 mg × 1.25 tablets (375 mg) and rifampicin 300 mg × 2.5 capsules (750 mg) exceed the usual maximum daily doses (isoniazid 300 mg, rifampicin 600 mg for TPT); clinician to confirm."
+    "≥65 kg: isoniazid 300 mg × 1.25 tablets (375 mg) and rifampicin 300 mg × 2.5 capsules (750 mg) exceed the usual maximum daily doses (isoniazid 300 mg, rifampicin 600 mg for TPT); clinician to confirm.",
+    "Isoniazid 100 mg dt for 4-7.9 kg is printed '0.5 (0.5 mL)'; half a tablet in 10 mL is 5 mL."
    ],
    "pages": [
     215
    ],
-   "context_before": "Table 56: TPT dosing by body size Note: For 3HP regimen, when Rifapentine 150 mg formulation or individual molecule of Isoniazid and Rifapentine are not available, a 3HR (50/75 mg) regimen will be used for children who are less than 25 kg. For children and adults whose weight is>25 kg, 2 tablets of 3HP (300/300 mg) for body weight band 25-29.9 kg, 2.5 tablets for 30-34.9 kg and 3 tablets for those above 35 kg (see table below)"
+   "table_note": "Note: for 3HP, when the rifapentine 150 mg formulation or individual isoniazid and rifapentine are not available, 3HR (50/75 mg) is used for children under 25 kg; for children and adults over 25 kg, 3HP (300/300 mg) 2 tablets for 25-29.9 kg, 2.5 tablets for 30-34.9 kg and 3 tablets above 35 kg (Table 57)."
   },
   {
    "table_id": "tb-2025-tbl-p216-0559",
    "page": 216,
    "image_only": false,
    "heading_path": "11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available",
-   "caption": "Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available (Group, TPT Regimen, Dosing)",
+   "caption": "Table 57: Dosing of TPT regimens for people without HIV when rifapentine 150 mg or individual isoniazid and rifapentine are not available: 3HR (50/75) for children <25 kg, 3HP (300/300) for >25 kg, levofloxacin (100 mg dt, 250 mg, 500 mg) by weight",
    "replaces_chunks": [
     "tb-2025-0559",
     "tb-2025-0560",
@@ -9530,141 +8680,327 @@
       "t": "Group"
      },
      {
-      "t": "TPT Regimen"
+      "t": "TPT regimen"
      },
      {
-      "t": "Dosing"
+      "t": "Weight (kg)"
      },
      {
-      "t": ""
+      "t": "Dose"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": ""
+      "t": "Children less than 25 kg",
+      "rs": 4
      },
      {
-      "t": ""
+      "t": "3HR (50/75) – number of HR (50/75) tablets",
+      "rs": 4
      },
      {
-      "t": "Weight"
+      "t": "4-7.9"
      },
      {
-      "t": "HR (50/75)"
+      "t": "1"
      }
     ],
     [
      {
-      "t": "Children less than 25 kg"
+      "t": "8-11.9"
      },
      {
-      "t": "3HR (50/75)"
-     },
-     {
-      "t": "4-7.9<br/>8-11.9<br/>12-15.9<br/>16-24.9<br/>Weight"
-     },
-     {
-      "t": "1<br/>2<br/>3<br/>4<br/>HP (300/300)"
+      "t": "2"
      }
     ],
     [
      {
-      "t": "Children and adults >25 kg"
+      "t": "12-15.9"
      },
      {
-      "t": "3HP (300/300)"
-     },
-     {
-      "t": "25-29.9<br/>30-34.9<br/>>35<br/>Weight"
-     },
-     {
-      "t": "2<br/>2.5<br/>3<br/>Lfx (100 d.t)"
+      "t": "3"
      }
     ],
     [
      {
-      "t": "Children <30 kg"
+      "t": "16-24.9"
      },
      {
-      "t": "Lfx (100) dispersible tablet (d.t)"
-     },
-     {
-      "t": "3-5.9 (<3Mth old)<br/>3-5.9 (<3Mth old)<br/>6-9.9 (<6Mth old)<br/>6-9.9 (>6Mth old)<br/>10-14.9<br/>15-19.9<br/>20-24.9<br/>25-29.9<br/>Weight"
-     },
-     {
-      "t": "0.5<br/>1<br/>1<br/>1.5<br/>2<br/>2.5<br/>3<br/>3.5<br/>Lfx (250) tablets"
+      "t": "4"
      }
     ],
     [
      {
-      "t": "Children <20 kg"
+      "t": "Children and adults >25 kg",
+      "rs": 3
      },
      {
-      "t": "Lfx (250)"
+      "t": "3HP (300/300) – number of HP (300/300) tablets",
+      "rs": 3
      },
      {
-      "t": "3-5.9 (<3Mth old)<br/>3-5.9 (<3Mth old)<br/>6-9.9 (<6Mth old)<br/>6-9.9 (>6Mth old)<br/>10-14.9<br/>15-19.9<br/>Weight"
+      "t": "25-29.9"
      },
      {
-      "t": "0.25 (2.5 ml)<br/>0.5 (5 ml)<br/>0.5 (5ml)<br/>1 (10 ml)<br/>1 (10 ml)<br/>1.5<br/>Lfx (500) tablets"
+      "t": "2"
      }
     ],
     [
      {
-      "t": "Children and adults > 25 kg"
+      "t": "30-34.9"
      },
      {
-      "t": "Lfx (500)"
-     },
-     {
-      "t": "25-29.9<br/>30-34.9<br/>35-39.9<br/>40-44.9<br/>45-49.9<br/>>50"
-     },
-     {
-      "t": "1<br/>1<br/>1<br/>1<br/>1<br/>1.5"
+      "t": "2.5"
      }
     ],
     [
      {
-      "t": "Population Group"
+      "t": ">35"
      },
      {
-      "t": "Preferred Regimen"
-     },
-     {
-      "t": "Alternative Regimen"
-     },
-     {
-      "t": ""
+      "t": "3"
      }
     ],
     [
      {
-      "t": "Individuals<br/>≥ 12 years and ≥ 25kg"
+      "t": "Children <30 kg",
+      "rs": 8
      },
      {
-      "t": "3HP\\<br/>Weekly Isoniazid plus Rifapentine for 3 months<br/>(Rifapentine 300mg/ Isoniazid 300mg per tablet, 12 doses)<br/>3 tablets weekly plus 25 or 50 mg plus Vitamin B6 weekly"
+      "t": "Lfx (100) dispersible tablet – number of tablets",
+      "rs": 8
      },
      {
-      "t": "1HP (when available)<br/>Daily Isoniazid plus Rifapentine for 1 month<br/>Dosage: 300 mg of Isoniazid and 600 mg of Rifapentine daily plus 25 mg of Vitamin B6 daily"
+      "t": "3-5.9 (<3 months old)"
      },
      {
-      "t": ""
+      "t": "0.5"
      }
     ],
     [
      {
-      "t": "Children <14 years or<br/>Weight < 30 kg"
+      "t": "3-5.9 (<3 months old) [as printed]"
      },
      {
-      "t": "6H<br/>6 months of daily isoniazid plus Vitamin B6 25 mg daily<br/>Dosing<br/>\\<table>\\<tr>\\<th>Age\\</th>\\<th>Dosage\\</th>\\</tr>\\<tr>\\<td><10 yrs\\</td>\\<td>10 mg/kg/day\\</td>\\</tr>\\<tr>\\<td>>10 yrs\\</td>\\<td>5 mg/kg/day\\</td>\\</tr>\\</table>"
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "6-9.9 (<6 months old)"
      },
      {
-      "t": "3HP/1HP may be used for ³ 2 years old when a Child-friendly formula is available."
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "6-9.9 (>6 months old)"
      },
      {
-      "t": ""
+      "t": "1.5"
+     }
+    ],
+    [
+     {
+      "t": "10-14.9"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "15-19.9"
+     },
+     {
+      "t": "2.5"
+     }
+    ],
+    [
+     {
+      "t": "20-24.9"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "25-29.9"
+     },
+     {
+      "t": "3.5"
+     }
+    ],
+    [
+     {
+      "t": "Children <20 kg",
+      "rs": 6
+     },
+     {
+      "t": "Lfx (250) tablets*",
+      "rs": 6
+     },
+     {
+      "t": "3-5.9 (<3 months old)"
+     },
+     {
+      "t": "0.25 (2.5 ml)*"
+     }
+    ],
+    [
+     {
+      "t": "3-5.9 (<3 months old) [as printed]"
+     },
+     {
+      "t": "0.5 (5 ml)*"
+     }
+    ],
+    [
+     {
+      "t": "6-9.9 (<6 months old)"
+     },
+     {
+      "t": "0.5 (5 ml)*"
+     }
+    ],
+    [
+     {
+      "t": "6-9.9 (>6 months old)"
+     },
+     {
+      "t": "1 (10 ml)*"
+     }
+    ],
+    [
+     {
+      "t": "10-14.9"
+     },
+     {
+      "t": "1 (10 ml)*"
+     }
+    ],
+    [
+     {
+      "t": "15-19.9"
+     },
+     {
+      "t": "1.5"
+     }
+    ],
+    [
+     {
+      "t": "Children and adults > 25 kg",
+      "rs": 6
+     },
+     {
+      "t": "Lfx (500) tablets",
+      "rs": 6
+     },
+     {
+      "t": "25-29.9"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "30-34.9"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "35-39.9"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "40-44.9"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "45-49.9"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": ">50"
+     },
+     {
+      "t": "1.5"
+     }
+    ]
+   ],
+   "footnotes": [
+    "*250 mg Lfx tablet is to be used when the child-friendly 100 mg dt formulation is not available; the 250 mg tablet is crushed and the powder dissolved in 10 ml of clean water."
+   ],
+   "source_flags": [
+    "The second 3-5.9 kg row is labelled '<3 months old' twice (presumably ≥3 months) in both levofloxacin sub-tables.",
+    "Weight bands leave 25 kg itself uncovered (<25 kg and >25 kg)."
+   ],
+   "pages": [
+    216
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-tpt-plhiv",
+   "page": 217,
+   "image_only": false,
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Table 58: TPT Regimens and Dosing for PLHIV",
+   "caption": "Table 58: TPT regimens and dosing for people living with HIV: 3HP (preferred, ≥12 years and ≥25 kg), 1HP alternative, 6H for children <14 years or <30 kg and pregnant women, isoniazid mg/kg by age, vitamin B6",
+   "replaces_chunks": [],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population group"
+     },
+     {
+      "t": "Preferred regimen"
+     },
+     {
+      "t": "Alternative regimen"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Individuals ≥12 years and ≥25 kg"
+     },
+     {
+      "t": "3HP*: weekly isoniazid plus rifapentine for 3 months (rifapentine 300 mg/isoniazid 300 mg per tablet, 12 doses) – 3 tablets weekly plus 25 or 50 mg [as printed] plus vitamin B6 weekly"
+     },
+     {
+      "t": "1HP (when available): daily isoniazid plus rifapentine for 1 month. Dosage: 300 mg isoniazid and 600 mg rifapentine daily plus 25 mg vitamin B6 daily"
+     }
+    ],
+    [
+     {
+      "t": "Children <14 years or weight <30 kg"
+     },
+     {
+      "t": "6H: 6 months of daily isoniazid plus vitamin B6 25 mg daily. Isoniazid dosing: <10 years 10 mg/kg/day; >10 years 5 mg/kg/day"
+     },
+     {
+      "t": "3HP/1HP may be used for ≥2 years old when a child-friendly formula is available."
      }
     ],
     [
@@ -9672,23 +9008,22 @@
       "t": "Pregnant women"
      },
      {
-      "t": "6H<br/>6 months of daily isoniazid plus Vitamin B6 25 mg daily<br/>(dosing: 5 mg/kg/day, maximum dose 300 mg/ day)<br/>PNP prophylaxis for INH-containing regimen: Vitamin B6- 10-25 mg/day"
+      "t": "6H: 6 months of daily isoniazid plus vitamin B6 25 mg daily (dosing 5 mg/kg/day, maximum 300 mg/day). PNP prophylaxis for INH-containing regimen: vitamin B6 10-25 mg/day"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "—"
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    216,
-    217
+   "source_flags": [
+    "3HP row: '3 tablets weekly plus 25 or 50 mg plus Vitamin B6 weekly' is garbled.",
+    "Table 58 allows 3HP/1HP in children ≥2 years only with a child-friendly formula, while Table 55 gives 3HP doses from 3 kg; the age limits for 3HP (≥2 years) and 1HP (≥13 years) are not consistent across the tables."
    ],
-   "context_before": "Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available"
+   "table_note": "3HP is not recommended for PLHIV taking antiretrovirals with clinically significant or unknown drug interactions with rifapentine, or for people presumed infected with isoniazid- or rifampicin-resistant M. tuberculosis. In infants receiving NVP for prevention of mother-to-child transmission, 6H should be the preferred regimen; caregivers of exposed infants who complete PMTCT should be told that if the infant becomes HIV positive, TPT may need to change from 3HR to avoid drug interactions.",
+   "pages": [
+    217
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p220-0571",

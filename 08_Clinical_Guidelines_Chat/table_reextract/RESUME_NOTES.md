@@ -39,6 +39,8 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - Mental Health desk guide part 2 (MentalHealth_2.pdf = pages 70-120, offset 69): generated tables `mh_b02.py`; drug tables pp.70-79 hand-transcribed in `mh_b03.py` (same table_ids, loaded after b02; p77-0174 folded into p77-0176). Remaining job-aid drug tables (pp.81-92) are rebuilt versions where two medicines share a row separated by ';' (still in order). **MH is complete.** Pipeline: mh_b01, mh_b02, mh_b03, then drop p77-0174.
 
+- TB dosing tables transcribed by hand from the page images (`batches/tb_b08.py`, loaded last, same table_ids; reads replaces_chunks and flags from the spec): Tables 12-14, 16, 26, 30, 31 (MDR weight-based, pp.134-136), 36-38, 41, 43, 46, 50, 51, 55-57, plus Table 58 (TPT for PLHIV, previously merged into Table 57). Every number checked against the PDF text. FP dose cells (side-effect appendix) checked against the images; no change needed. Pipeline: tb_b01..tb_b08.
+
 ## Next after that
 The other guidelines, once the user provides the PDFs. Remaining: HIV 2022, STI/VH in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 

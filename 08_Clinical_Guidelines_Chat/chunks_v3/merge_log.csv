@@ -1637,6 +1637,7 @@ tb-2025-0227,label,6.2 Treatment Initiation > Treatment of Drug-Susceptible Tube
 tb-2025-0232,label,6.4 Standard TB treatment regimens for adults => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.4 Standard TB Treatment Regimens for Adults > Regimen Codes
 tb-2025-0237,label,6.4 Standard TB treatment regimens for adults > Table 14: Recommended treatment regimen and dosages for adult cases of new and re-registered cases => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.4 Treatment Regimens (Previously Treated Patients); 6.5 Pyridoxine Supplementation
 tb-2025-0251,label,6.6 Treatment of Extra-Pulmonary Tuberculosis (EPTB) > The mechanism of hepatoprotection is three-fold. => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.6.8 Treatment for Patients with Liver Disorders > Hepatoprotection
+tb-2025-0256,cleaned,
 tb-2025-0269,label,6.9 Care and support people with TB => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.9 Care and Support for People with TB
 tb-2025-0275,label,6.12 Post-TB Lung Disease > Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.12 Post-TB Lung Disease > Assessment (Table 20)
 tb-2025-0287,label,7.2 Anti-TB drugs used in DR-TB treatment > Table 23: Medicines Grouping in order of priority (source: WHO) => Chapter 7: Drug-Resistant Tuberculosis Management > 7.2 Anti-TB Drugs Used in DR-TB Treatment > Notes to Table 23
@@ -1675,6 +1676,7 @@ tb-2025-0402,emptied,
 tb-2025-0418,cleaned,
 tb-2025-0434,label,"9.6 Management of specific conditions > 9.6.5 Management of Peripheral Neuropathy > Rarely, medication may be discontinued, but only if an alternative drug is available or the regimen is not compromised. => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms"
 tb-2025-0435,label,9.6 Management of specific conditions > 9.6.5 Management of Peripheral Neuropathy => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms > Acute Psychosis
+tb-2025-0446,cleaned,
 tb-2025-0446,label,9.6 Management of specific conditions > 9.6.10 Management of electrolyte abnormalities > 9.6.10.1 Hypokalemia – Hypomagnesemia > Table 43: Blood Potassium levels and recommended monitoring protocol => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.10.1 Hypokalaemia/Hypomagnesaemia > Potassium Monitoring (Table 43)
 tb-2025-0469,emptied,
 tb-2025-0472,emptied,
@@ -1685,11 +1687,14 @@ tb-2025-0480,emptied,
 tb-2025-0482,label,9.9 Algorithms for management of adverse events with Second-line Anti-TB Drugs > Figure 32: Management of Anaemia/ Thrombocytopenia => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Adverse Event Algorithms > Figure 32 Notes (Anaemia/Thrombocytopenia)
 tb-2025-0483,label,9.9 Algorithms for management of adverse events with Second-line Anti-TB Drugs > TB and HIV Collaborative Activities and Advanced HIV Disease => Chapter 10: TB and HIV Collaborative Activities > Introduction
 tb-2025-0487,cleaned,
+tb-2025-0494,cleaned,
 tb-2025-0494,label,10.1 TB/HIV interaction and the comprehensive package of care > 10.1.6 What ART regimen to start on? > Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients => Chapter 10: TB and HIV Collaborative Activities > 10.1.6 Recommended Adult ART Regimens for TB/HIV Co-infected Patients
+tb-2025-0496,emptied,
+tb-2025-0498,cleaned,
 tb-2025-0498,label,10.1 TB/HIV interaction and the comprehensive package of care > 10.1.6 What ART regimen to start on? > Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients => Chapter 10: TB and HIV Collaborative Activities > 10.1.6 ART Regimens (Notes); 10.1.7 Drug-Drug Interactions
 tb-2025-0503,label,10.2 Care and support for people with TB/HIV treatment => Chapter 10: TB and HIV Collaborative Activities > 10.3.3 TB Preventive Treatment and Infection Prevention and Control
+tb-2025-0518,cleaned,
 tb-2025-0518,label,10.6 Management of TB in children living with HIV > Footnotes => Chapter 10: TB and HIV Collaborative Activities > 10.6 TB in Children Living with HIV > Footnotes to Dosing Table
-tb-2025-0519,cleaned,
 tb-2025-0523,label,10.7 Management of TB in patients with advanced HIV disease > Table 50: TB/HIV Simplified Treatment Table => Chapter 10: TB and HIV Collaborative Activities > 10.7.2 Advanced HIV Assessment; 10.8 Advanced HIV Package of Care
 tb-2025-0530,label,10.8.4 Histoplasmosis > Table 52: Components of the package of care for people with advanced HIV disease => Chapter 10: TB and HIV Collaborative Activities > 10.8 Advanced HIV Package of Care (Table Notes)
 tb-2025-0531,label,10.8.4 Histoplasmosis => Chapter 11: Tuberculosis Preventive Treatment > 11.1 Introduction
