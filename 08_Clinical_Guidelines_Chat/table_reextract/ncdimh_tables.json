@@ -14,6 +14,10 @@
   {
    "file": "NCD_3.pdf",
    "pages": "172-250"
+  },
+  {
+   "file": "NCD_4.pdf",
+   "pages": "251-326"
   }
  ],
  "tables": [
@@ -20668,6 +20672,3928 @@
     "Several doses are misprinted: diazepam '0.5 - 0.2 mg/kg/dose' (usually 0.15-0.2 mg/kg); phenytoin maintenance '1.5 mg every 8hr' (no per-kg unit); thiopental infusion '3-3 mg/kg/hr'; lorazepam has no maximum. Propofol 5-10 mg/kg/hr is high for a 24 h infusion. Clinician to confirm.",
     "Glucose threshold is in mg/dl (60 mg/dl ≈ 3.3 mmol/L) while the rest of the guideline uses mmol/L. 'Diazepan', 'bogus' (bolus), 'stablization' printed."
    ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-cervical-screening-algorithm",
+   "page": 251,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Cervical Cancer > Cervical Cancer Screening & Treatment Algorithm",
+   "caption": "Cervical cancer screening and treatment algorithm: HIV-negative women vs women living with HIV (HPV DNA testing, VIA/VILI triage, screen-and-treat, stop age)",
+   "replaces_chunks": [
+    "ncdimh-0720"
+   ],
+   "content": "A. General population (HIV-negative women):\n1. Age 25-50 years: HPV DNA testing; screen every 5 years.\n2. HPV negative: rescreen in 5 years. HPV positive: triage testing.\n3. VIA every 2 years (rescreen in 2 years):\n   - Negative: rescreen in 2 years.\n   - Positive: refer for LEEP/colposcopy.\n4. Stop screening after age 50 + two negative tests.\n\nB. Women living with HIV:\n1. HIV positive, age 25+ OR at diagnosis: HPV DNA testing; screen every 3 years.\n2. HPV negative: rescreen in 3 years. HPV positive: triage testing.\n3. VIA every year or VILI every year (return in 1 year):\n   - Negative: return in 1 year.\n   - Positive: refer for LEEP/oncology.\n4. Stop screening after age 50 + two negative tests.\n\nSingle-visit screen-and-treat: SCREEN → TRIAGE → TREAT (same day) → FOLLOW-UP; same-day care when feasible.\nVIA: visual inspection with acetic acid. VILI: visual inspection with Lugol's iodine.",
+   "footnotes": [],
+   "source_flags": [
+    "In both panels the chart draws VIA as a routine screen after a negative HPV test (as well as a triage test after a positive one), and the HIV panel has a second 'Negative' box reading 'Refer for LEEP / Year'. The intended pathway is unclear; summarised here. Clinician to confirm.",
+    "Stopping screening at 50 in women living with HIV differs from usual WHO advice (continue screening); the age range for the general population is printed '25-50'."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-cervical-screening-summary",
+   "page": 252,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Cervical Cancer > Cervical Cancer Screening & Management Summary Table",
+   "caption": "Cervical cancer screening and management summary: HIV-negative women vs women living with HIV (start/stop age, test, intervals, triage, treatment, service model)",
+   "replaces_chunks": [
+    "ncdimh-0722"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Component"
+     },
+     {
+      "t": "General Population (HIV-Negative Women)"
+     },
+     {
+      "t": "Women Living with HIV"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Start Age"
+     },
+     {
+      "t": "25 years"
+     },
+     {
+      "t": "25 years or at HIV diagnosis (whichever first)"
+     }
+    ],
+    [
+     {
+      "t": "Stop Age"
+     },
+     {
+      "t": "After 50 years with 2 consecutive negative screens"
+     },
+     {
+      "t": "After 50 years with 2 consecutive negative screens"
+     }
+    ],
+    [
+     {
+      "t": "Preferred Test"
+     },
+     {
+      "t": "HPV DNA testing"
+     },
+     {
+      "t": "HPV DNA testing"
+     }
+    ],
+    [
+     {
+      "t": "HPV Screening Interval (if negative)"
+     },
+     {
+      "t": "Every 5 years"
+     },
+     {
+      "t": "Every 3 years"
+     }
+    ],
+    [
+     {
+      "t": "If HPV Positive"
+     },
+     {
+      "t": "Triage (VIA / colposcopy / cytology)"
+     },
+     {
+      "t": "Triage (VIA / colposcopy / cytology)"
+     }
+    ],
+    [
+     {
+      "t": "Alternative Method (if HPV unavailable)"
+     },
+     {
+      "t": "VIA"
+     },
+     {
+      "t": "VIA ± VILI"
+     }
+    ],
+    [
+     {
+      "t": "VIA/VILI Interval"
+     },
+     {
+      "t": "Every 2 years"
+     },
+     {
+      "t": "Annually (every year)"
+     }
+    ],
+    [
+     {
+      "t": "Screening Approach"
+     },
+     {
+      "t": "Screen-and-treat"
+     },
+     {
+      "t": "Screen-and-treat integrated into HIV care"
+     }
+    ],
+    [
+     {
+      "t": "If VIA/VILI Negative"
+     },
+     {
+      "t": "Rescreen at interval"
+     },
+     {
+      "t": "Rescreen at interval"
+     }
+    ],
+    [
+     {
+      "t": "If VIA/VILI Positive & eligible"
+     },
+     {
+      "t": "Same-day cryotherapy/thermal ablation"
+     },
+     {
+      "t": "Same-day cryotherapy/thermal ablation"
+     }
+    ],
+    [
+     {
+      "t": "If not eligible for ablation"
+     },
+     {
+      "t": "Refer for LEEP/colposcopy"
+     },
+     {
+      "t": "Refer for LEEP/colposcopy/oncology"
+     }
+    ],
+    [
+     {
+      "t": "Service Delivery Model"
+     },
+     {
+      "t": "Primary care, MCH/OPD clinics"
+     },
+     {
+      "t": "Routine HIV clinic visits (provider-initiated)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Cervical cancer is the leading cause of cancer-related death among women in Eswatini (incidence 84.5 per 100,000 women, the highest in the world). Women living with HIV have a six-fold increased risk."
+  },
+  {
+   "table_id": "ncdimh-tbl-via-results-management",
+   "page": 252,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Cervical Cancer > Management by VIA result",
+   "caption": "Management by VIA screening result: negative, positive eligible for ablation, positive ineligible (LEEP), suspicious for cancer: eligibility, action and follow-up",
+   "replaces_chunks": [
+    "ncdimh-0723"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "VIA Screening Result"
+     },
+     {
+      "t": "Treatment Eligibility / Findings"
+     },
+     {
+      "t": "Clinical Action & Procedure"
+     },
+     {
+      "t": "Follow-Up Timeline"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "VIA Negative"
+     },
+     {
+      "t": "No lesions or suspicious areas identified"
+     },
+     {
+      "t": "Discharge: return to routine screening (annual for HIV+; 2 years for HIV-)"
+     },
+     {
+      "t": "12 - 24 months (based on HIV status)"
+     }
+    ],
+    [
+     {
+      "t": "VIA Positive (eligible for ablation)"
+     },
+     {
+      "t": "Lesion ≤75% of ectocervix; TZ fully visible (type 1); no endocervical extension; no suspicion of cancer"
+     },
+     {
+      "t": "Ablative treatment (same visit): thermal ablation or cryotherapy"
+     },
+     {
+      "t": "12 months (repeat VIA)"
+     }
+    ],
+    [
+     {
+      "t": "VIA Positive (ineligible for ablation)"
+     },
+     {
+      "t": "Large lesion (≥75% coverage); high-grade lesion suspected; tissue diagnosis needed"
+     },
+     {
+      "t": "Refer for LEEP"
+     },
+     {
+      "t": "6 months (VIA or HPV)"
+     }
+    ],
+    [
+     {
+      "t": "Suspicious for Cancer"
+     },
+     {
+      "t": "Visible mass/cauliflower growth; bleeds easily on contact; extension to vaginal walls"
+     },
+     {
+      "t": "Urgent referral to secondary/tertiary level for colposcopy and biopsy"
+     },
+     {
+      "t": "Immediate (per specialist)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Ablation eligibility is '≤75%' and ineligibility '≥75%' (both include 75%); WHO uses <75% / ≥75%."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-cervical-special-populations",
+   "page": 253,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Cervical Cancer > Special Populations",
+   "caption": "Cervical cancer screening in special populations: women living with HIV (on ART/PrEP), pregnant women, HIV-negative women",
+   "replaces_chunks": [
+    "ncdimh-0724",
+    "ncdimh-0725"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Screening Rule"
+     },
+     {
+      "t": "Key Clinical Note"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "HIV-positive women"
+     },
+     {
+      "t": "Annual VIA screening"
+     },
+     {
+      "t": "Integrate into ART initiation and routine follow-up."
+     }
+    ],
+    [
+     {
+      "t": "On ART / PrEP"
+     },
+     {
+      "t": "Annual VIA screening"
+     },
+     {
+      "t": "Adherence reduces but does not eliminate risk."
+     }
+    ],
+    [
+     {
+      "t": "Pregnant women"
+     },
+     {
+      "t": "Screen per HIV status"
+     },
+     {
+      "t": "VIA is safe. Defer treatment until post-delivery unless cancer is suspected."
+     }
+    ],
+    [
+     {
+      "t": "HIV-negative"
+     },
+     {
+      "t": "Every 2 years"
+     },
+     {
+      "t": "Use community health workers and registries for recall."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The PDF text layer for this page is overprinted with a second copy of the table; transcribed from the page image. 'On ART / PrEP' screening applies annual VIA screening to people on PrEP (HIV-negative), as printed."
+   ],
+   "context_before": "Because HIV significantly increases the risk of cervical cancer, screening must be integrated into routine care."
+  },
+  {
+   "table_id": "ncdimh-tbl-lymphoma-investigations",
+   "page": 254,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Adult Lymphomas > Investigations",
+   "caption": "Adult lymphoma investigations: biopsy, pathology, laboratory tests and radiology",
+   "replaces_chunks": [
+    "ncdimh-0728"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Diagnostic Category"
+     },
+     {
+      "t": "Investigation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Biopsy"
+     },
+     {
+      "t": "- A whole node excision biopsy by a medical officer<br/>- Bone marrow aspirate trephine (BMAT)"
+     }
+    ],
+    [
+     {
+      "t": "Pathology"
+     },
+     {
+      "t": "- A full pathology report with IHC and cell of origin defined<br/>- Blood smear<br/>- Immunohistochemistry (often CD45, CD20, CD3 etc.)"
+     }
+    ],
+    [
+     {
+      "t": "Laboratory Tests"
+     },
+     {
+      "t": "- A full biochemistry report, including KFT, LFT, uric acid, LDH, CMP, blood glucose<br/>- FBC and differential count<br/>- Erythrocyte sedimentation rate (ESR)<br/>- CD4 count and viral load for eligible patients<br/>- Hepatitis B surface antigen (HBsAg), hepatitis C virus and HIV tests"
+     }
+    ],
+    [
+     {
+      "t": "Radiology"
+     },
+     {
+      "t": "- Echocardiogram report<br/>- Contrasted CT scan – must include neck, chest, abdomen, and pelvis<br/>- PET/CT scan for Deauville scoring, if available"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The lymphoma text on p.253 is overprinted with garbled characters in the PDF text layer."
+   ],
+   "context_before": "Lymphoma: no routine screening is available; patients are suspected from symptoms (enlarged lymph nodes, chills, weight loss, fatigue, swollen abdomen, early satiety, chest pain or pressure, shortness of breath or cough, severe or frequent infections, easy bruising or bleeding). High-risk groups: EBV infection, HTLV-1, Kaposi sarcoma, immunosuppression (HIV or non-HIV related), H. pylori infection, autoimmune disorders (Sjogren's syndrome, Hashimoto's thyroiditis), exposure to pesticides, radiation and chemotherapy.",
+   "table_note": "REFER TO A HIGHER LEVEL FACILITY FOR FURTHER INVESTIGATION AND MANAGEMENT."
+  },
+  {
+   "table_id": "ncdimh-tbl-breast-cancer-risk",
+   "page": 255,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Breast Cancer > Risk Stratification for Breast Cancer",
+   "caption": "Breast cancer risk stratification by family history and genetics: above average, moderately increased, high risk",
+   "replaces_chunks": [
+    "ncdimh-0732"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Risk Level"
+     },
+     {
+      "t": "Criteria"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Above Average Risk"
+     },
+     {
+      "t": "- No family history<br/>- One first-degree relative or 1–2 second-degree relatives diagnosed at age 50 or older"
+     }
+    ],
+    [
+     {
+      "t": "Moderately Increased Risk"
+     },
+     {
+      "t": "- A first-degree relative diagnosed before age 50<br/>- Two or more first-degree relatives on the same side of the family diagnosed at any age"
+     }
+    ],
+    [
+     {
+      "t": "High Risk"
+     },
+     {
+      "t": "- Known to carry a breast cancer susceptibility gene mutation (e.g. BRCA1 or BRCA2)<br/>- Strong family history with at least two first-degree relatives affected, plus other features"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'No family history' is listed under 'Above Average Risk'; presumably this level is average/near-population risk."
+   ],
+   "table_note": "General population screening should begin at age 35 with clinical and self-exam. High-risk clients start 8-10 years earlier than the index case (e.g. those with BRCA mutations may start at age 25). High risk: radiation to the chest in childhood or adulthood; familial breast and ovarian cancer; male breast cancer in the family; presenting with a breast lump; breast cancer in a first-degree relative under 50."
+  },
+  {
+   "table_id": "ncdimh-tbl-breast-cancer-diagnostics",
+   "page": 256,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Breast Cancer > Recommended diagnostics for breast cancer",
+   "caption": "Breast cancer diagnostics: biopsy techniques, pathology, laboratory tests and radiology for staging",
+   "replaces_chunks": [
+    "ncdimh-0735",
+    "ncdimh-0736",
+    "ncdimh-0737",
+    "ncdimh-0739",
+    "ncdimh-0740"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Diagnostic Category"
+     },
+     {
+      "t": "Investigation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Biopsy"
+     },
+     {
+      "t": "- Biopsy techniques: excision; lumpectomy; tru-cut biopsy<br/>- Ultrasound guided biopsies are preferred"
+     }
+    ],
+    [
+     {
+      "t": "Pathology"
+     },
+     {
+      "t": "- A full pathology report including immunohistochemistry (IHC)"
+     }
+    ],
+    [
+     {
+      "t": "Laboratory Tests"
+     },
+     {
+      "t": "- A full biochemistry report, including KFT and LFT<br/>- FBC and differential count"
+     }
+    ],
+    [
+     {
+      "t": "Radiology"
+     },
+     {
+      "t": "- Echocardiogram report<br/>- Contrasted CT scan to include chest, abdomen and pelvis to rule out metastasis<br/>- Chest X-ray prior to surgery to rule out effusions<br/>- Bone scan in locally advanced breast cancers on the radiologist's recommendation if CT does not show metastasis; diffusion-weighted imaging (DWI) with MRI to image the spine. Note: DWI is recommended in place of a bone scan if a bone scan is not available<br/>- Bilateral mammogram required for every patient for staging: the mammogram should include bilateral and axillary ultrasound; lymph nodes: routine supraclavicular ultrasound"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The tick-mark sub-items in this table are missing from the PDF text layer; transcribed from the page image. 'Enchocardiogram' printed."
+   ],
+   "context_before": "Screening modalities: breast self-examination (breast awareness); clinical breast examination by a trained health worker; breast ultrasound; mammography; FNA; tissue biopsy (incision, excision or tru-cut); MRI in selected cases."
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-breast-self-exam",
+   "page": 257,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Breast Cancer > How to Advise Client on Breast Self-Examination",
+   "caption": "Breast self-examination: how to advise clients (looking, touching, lying down, lymph nodes)",
+   "replaces_chunks": [
+    "ncdimh-0741",
+    "ncdimh-0742"
+   ],
+   "content": "1. By looking: stand before a mirror and look at both breasts and nipples – once with both arms beside your body; once with both hands on your hips; once with both arms raised and arms behind your head.\n2. By touching: raise your left arm. Use the pads of 3 or 4 fingers of the right hand to examine your left breast; repeat on the right side. Examine once in lines up and down the breast from outside and inside; once in circles around the breast, making smaller circles towards the nipple; once in wedges starting from outside towards the nipple and back again.\n3. While lying down: lie on your back, left arm over your head and a pillow under your left shoulder. Examine your left breast with your right hand as described before; repeat for the right side. This position flattens the breast and makes it easier to examine.\n4. Lymph nodes: place your left hand on your waist. With your right hand try to find enlarged lymph nodes in the left underarm area and around your collar bone; repeat on your right side. An enlarged lymph node feels like a corn kernel or a bean.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-cbe-what-to-look-for",
+   "page": 258,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination > What to look out for and palpation sequence",
+   "caption": "Clinical breast examination: what to look out for (lump, pulled-in nipple, dimpling, skin changes, redness/rash, discharge) and the palpation sequence",
+   "replaces_chunks": [
+    "ncdimh-0745",
+    "ncdimh-0746"
+   ],
+   "content": "What to look out for during CBE (illustration): lump; pulled-in nipple; dimpling; skin changes; redness/rash; dripping (nipple discharge).\n\nSequence to follow when performing breast palpation: 1. upper outer quadrant; 2. upper inner quadrant; 3. lower inner quadrant; 4. lower outer quadrant; 5. nipple-areola area; 6. axillary (underarm) quadrant.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-breast-early-referral",
+   "page": 259,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Breast Cancer > Early Referral Flow Chart for Suspected Breast Cancer",
+   "caption": "Early referral flowchart for suspected breast cancer: urgent referral to the specialised breast unit, booking, or surgical clinic, by likelihood of malignancy",
+   "replaces_chunks": [
+    "ncdimh-0747"
+   ],
+   "content": "Suspected lump → provider-initiated clinical breast exam (PI-CBE) and direct referral to the specialised breast unit (SBU):\n- High likelihood of malignancy → URGENT REFERRAL TO SBU (call and inform the SBU): suspicious lump (fixed, hard, irregular); palpable axillary lymph node; ulceration; nodules on the skin; skin tethering; nipple retraction; nipple discharge (e.g. bloody).\n- Unsure → book SBU: palpable lump in women >25 years; non-lactational breast infection/abscess.\n- Unlikely to be malignant → book for surgical clinic: palpable lump in women <25 years; breast pain with normal PI-CBE; family history with normal PI-CBE; lactation-associated infection with non-resolution/recurrence.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-childhood-cancer-warning-signs",
+   "page": 260,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Childhood Cancers > Warning Signs of Childhood Cancers (St. Siluan's signs)",
+   "caption": "Warning signs of childhood cancers (St. Siluan's signs): seek help, eye, lump, unexplained symptoms, aches, neurological signs, with likely cancers and actions",
+   "replaces_chunks": [
+    "ncdimh-0752",
+    "ncdimh-0753"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Letter"
+     },
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Key Signs & Symptoms"
+     },
+     {
+      "t": "Actions/Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "S"
+     },
+     {
+      "t": "Seek"
+     },
+     {
+      "t": "Seek medical help early for ongoing symptoms: prolonged symptoms; symptoms persist after treatment; symptoms return after initially disappearing"
+     },
+     {
+      "t": "Seek medical help; return to the same clinic/doctor for follow-up"
+     }
+    ],
+    [
+     {
+      "t": "I (E)"
+     },
+     {
+      "t": "Eye"
+     },
+     {
+      "t": "White spot in the eye (leukocoria) → possible retinoblastoma; loss of red eye reflex; new squint or sudden blindness → possible brain tumour; bulging eyeball → possible eye cancer or retro-orbital tumour"
+     },
+     {
+      "t": "Urgent referral to an ophthalmologist or paediatrician"
+     }
+    ],
+    [
+     {
+      "t": "L"
+     },
+     {
+      "t": "Lump"
+     },
+     {
+      "t": "Lump in the abdomen, pelvis, head, arms, legs, testicle or glands; Wilms' tumour (age 3–4 years); consider neuroblastoma, lymphoma"
+     },
+     {
+      "t": "Refer every lump to a doctor. If treated for TB without confirmation and not improving after 2 weeks → re-evaluate, consider biopsy"
+     }
+    ],
+    [
+     {
+      "t": "U"
+     },
+     {
+      "t": "Unexplained"
+     },
+     {
+      "t": "Unexplained fever for over two weeks; weight or appetite loss; fatigue; pallor; easy bruising and bleeding"
+     },
+     {
+      "t": "Possible leukaemia or solid tumours; requires thorough clinical assessment"
+     }
+    ],
+    [
+     {
+      "t": "A"
+     },
+     {
+      "t": "Ache"
+     },
+     {
+      "t": "Aching bones, joints, back and easy fractures. Aches and pains in bones and back are not common in children and should raise suspicion"
+     },
+     {
+      "t": "Possible leukaemia or sarcoma; needs critical evaluation"
+     }
+    ],
+    [
+     {
+      "t": "N"
+     },
+     {
+      "t": "Neurological"
+     },
+     {
+      "t": "Change in walk, balance or speech; regression of milestones; slurred speech; continuous headaches (>1 week) with or without vomiting; early morning vomiting; cranial nerve palsy; enlarged head (hydrocephalus)"
+     },
+     {
+      "t": "Possible brain tumour; prompt referral and neuroimaging as needed"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The summary box spells the mnemonic SILUAN (I = eye signs) while the detailed table on p.261 uses 'E' for Eye; combined here.",
+    "The PDF prints a summary box (p.260) and a detailed table (p.261); merged."
+   ],
+   "pages": [
+    260,
+    261
+   ],
+   "context_before": "Childhood cancers arise between birth and 19 years. The most common are leukaemias (about 28%), brain and spinal cord tumours (about 26%), neuroblastoma (about 6%), Wilms tumour (5%), lymphomas, rhabdomyosarcoma, retinoblastoma and bone cancers (osteosarcoma, Ewing sarcoma). A high index of suspicion and early detection are critical."
+  },
+  {
+   "table_id": "ncdimh-tbl-childhood-cancer-suspicious-features",
+   "page": 262,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Childhood Cancers > Warning Signs of Childhood Cancer: suspicious clinical features",
+   "caption": "Warning signs of childhood cancer: signs and symptoms with the clinical features that make them suspicious (pallor, fever, infections, lymphadenopathy, bleeding, headache, masses, bone pain and others)",
+   "replaces_chunks": [
+    "ncdimh-0754",
+    "ncdimh-0755",
+    "ncdimh-0756",
+    "ncdimh-0757"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Signs and Symptoms"
+     },
+     {
+      "t": "Suspicious Clinical Features"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Paleness, fatigue, and malaise"
+     },
+     {
+      "t": "Especially if persistent and associated with signs of bone marrow infiltration (unexplained fever, recurrent infections, bleeding diathesis) and/or lymphadenopathy"
+     }
+    ],
+    [
+     {
+      "t": "Fever"
+     },
+     {
+      "t": "Prolonged (>2 weeks) without apparent cause, associated with weight loss, night sweats, paleness, petechiae, mass, bone pain and lymphadenopathy"
+     }
+    ],
+    [
+     {
+      "t": "Recurrent or persistent infections"
+     },
+     {
+      "t": "Associated with paleness, petechiae, weight loss, bone pain, lymphadenopathy, hepatosplenomegaly or palpable mass"
+     }
+    ],
+    [
+     {
+      "t": "Anorexia and weight loss"
+     },
+     {
+      "t": "Prolonged and unjustified, especially with other warning signs (recurrent infections, fever, paleness, lymphadenopathy, hepatosplenomegaly)"
+     }
+    ],
+    [
+     {
+      "t": "Localized lymphadenopathy"
+     },
+     {
+      "t": "Persistent or progressive, not resolving in 4-6 weeks or unresponsive to antibiotics; size >2 cm, hard, painless, supraclavicular or epitrochlear"
+     }
+    ],
+    [
+     {
+      "t": "Generalized or localized (lymphadenopathy)"
+     },
+     {
+      "t": "Associated with fever, night sweats, weight loss, malaise, paleness and hepatosplenomegaly"
+     }
+    ],
+    [
+     {
+      "t": "Hemorrhagic manifestations (petechiae, ecchymosis, recurrent epistaxis, bleeding gums)"
+     },
+     {
+      "t": "Persistent or combined with other signs of bone marrow infiltration (paleness, fatigue, recurrent infections)"
+     }
+    ],
+    [
+     {
+      "t": "Headache"
+     },
+     {
+      "t": "Recent onset, in the morning or waking the child at night, without a history of migraine, associated with vomiting or neurological symptoms (cranial palsy, motor or sensory signs), occipital location, worse when lying down"
+     }
+    ],
+    [
+     {
+      "t": "Impaired school performance and mood changes"
+     },
+     {
+      "t": "Recent onset, progressive and not explained"
+     }
+    ],
+    [
+     {
+      "t": "Palpable abdominal mass"
+     },
+     {
+      "t": "Any mass (except in the neonatal period) is suspicious for malignancy, especially with vomiting, abdominal pain, constipation, hematuria or hypertension"
+     }
+    ],
+    [
+     {
+      "t": "Hepatomegaly"
+     },
+     {
+      "t": "Must always be investigated, even in asymptomatic cases"
+     }
+    ],
+    [
+     {
+      "t": "Vomiting"
+     },
+     {
+      "t": "Persistent or recurring; associated with morning headache or abdominal mass"
+     }
+    ],
+    [
+     {
+      "t": "Bone pain, arthralgia/arthritis, limp or refusal to walk"
+     },
+     {
+      "t": "Bone pain that wakes the child at night, duration >2 weeks, localized, associated with inflammation, no improvement with NSAIDs"
+     }
+    ],
+    [
+     {
+      "t": "Back pain, kyphoscoliosis, lordosis and torticollis"
+     },
+     {
+      "t": "Back pain of sudden onset, age <4 years, worse at night, associated with fever or neurological symptoms, without trauma, not improving with NSAIDs"
+     }
+    ],
+    [
+     {
+      "t": "Mass or lump in extremities, head, neck, or trunk"
+     },
+     {
+      "t": "Any palpable mass of recent appearance, deep to the fascia, not painful, hard, >2 cm in diameter and associated with regional lymphadenopathy"
+     }
+    ],
+    [
+     {
+      "t": "Urinary retention/enuresis"
+     },
+     {
+      "t": "Recent; associated with neurological symptoms or abdominal mass"
+     }
+    ],
+    [
+     {
+      "t": "Scrotal mass or swelling"
+     },
+     {
+      "t": "Recent; isolated right varicocele"
+     }
+    ],
+    [
+     {
+      "t": "Swollen/bleeding gums"
+     },
+     {
+      "t": "Not explained"
+     }
+    ],
+    [
+     {
+      "t": "Dermatological manifestations"
+     },
+     {
+      "t": "Eczema that does not respond to treatment; subcutaneous nodules"
+     }
+    ]
+   ],
+   "footnotes": [
+    "NSAIDs: non-steroidal anti-inflammatory drugs."
+   ],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-childhood-cancer-referral",
+   "page": 263,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Childhood Cancers > Childhood Cancer Referral Pathway",
+   "caption": "Childhood cancer referral pathway: primary clinic identification, urgent referral, workup, MDT, confirmation, paediatric oncology",
+   "replaces_chunks": [
+    "ncdimh-0758"
+   ],
+   "content": "1. Primary clinic (e.g. GP, school nurse): identify suspected cancer using the SILUAN signs (significant, unexplained, rapid onset, ongoing symptoms, night sweats).\n2. Urgent referral to a health centre/regional hospital.\n3. Initial workup and assessment: physical exam, blood tests, imaging as needed.\n4. Multidisciplinary team (MDT): paediatric oncologist, radiology, radiotherapy (as printed 'ratiology'), pathology, surgery.\n5. Confirmation of diagnosis.\n6. Referral to paediatric oncology for management (treatment planning, supportive care).",
+   "footnotes": [],
+   "source_flags": [
+    "The chart expands SILUAN as 'Significant, Unexplained, Rapid onset, Ongoing, Night sweats', which does not match the SILUAN mnemonic on p.260. 'Night sweets', 'surgeology' printed."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-crc-risk-factors",
+   "page": 264,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Colorectal Cancer > Risk Factors for Colorectal Cancer",
+   "caption": "Colorectal cancer risk factors: modifiable vs non-modifiable",
+   "replaces_chunks": [
+    "ncdimh-0760"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Modifiable Risk Factors"
+     },
+     {
+      "t": "Non-modifiable Risk Factors"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Excess body fat"
+     },
+     {
+      "t": "Family history of colorectal cancer"
+     }
+    ],
+    [
+     {
+      "t": "Sedentary lifestyle"
+     },
+     {
+      "t": "Advanced polyps"
+     }
+    ],
+    [
+     {
+      "t": "Westernized diet including processed/pre-packed meats, fried foods, fast food etc."
+     },
+     {
+      "t": "Polyposis syndrome (FAP, MAP)"
+     }
+    ],
+    [
+     {
+      "t": "Processed meats"
+     },
+     {
+      "t": "Lynch syndrome (HNPCC)"
+     }
+    ],
+    [
+     {
+      "t": "Red meats"
+     },
+     {
+      "t": "Black race"
+     }
+    ],
+    [
+     {
+      "t": "Smoking"
+     },
+     {
+      "t": "Older age"
+     }
+    ],
+    [
+     {
+      "t": "Alcohol"
+     },
+     {
+      "t": "Male gender"
+     }
+    ]
+   ],
+   "footnotes": [
+    "CRC: colorectal cancer; FAP: familial adenomatous polyposis; HNPCC: hereditary non-polyposis colorectal cancer; MAP: MUTYH-associated polyposis."
+   ],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-oral-lesion-algorithm",
+   "page": 271,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Oral & Maxillofacial Cancers > Diagnostic Algorithm",
+   "caption": "Oral lesion diagnostic algorithm: clinical diagnosis, follow-up vs biopsy, adjuvant diagnostic techniques and urgent referral",
+   "replaces_chunks": [
+    "ncdimh-0776",
+    "ncdimh-0777"
+   ],
+   "content": "Photographs show the steps of the oral examination.\n\n1. Oral lesion → previous clinical diagnosis based on clinical data.\n2. Lesion resolves with or without therapy → follow-up.\n3. Lesion changes, persists or progresses → perform a biopsy → identification of the histological entity, with or without malignancy → follow-up (or repeat biopsy).\n\nAdjuvant diagnostic techniques: 1. oral cytology; 2. salivary biomarkers; 3. light-based techniques (auto-fluorescence, spectroscopy, chemiluminescence); 4. tissue staining.\n\nDiagnostic workup: if there is any suspicion that a lesion may be oral cavity cancer, document the lesion site and size, take a clinical photograph if possible, and make an urgent referral to an oral & maxillofacial surgeon who is part of a head and neck oncology MDT. Any oral lesion (including a patch or ulcer) that fails to resolve in 2-3 weeks should raise suspicion.",
+   "footnotes": [],
+   "source_flags": [
+    "The PDF text layer for this page is overprinted with garbled characters; transcribed from the page image."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-psa-risk-stratification",
+   "page": 272,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Prostate Cancer > Screening and Diagnosis of Prostate Cancer > PSA levels",
+   "caption": "PSA-based prostate cancer screening: risk stratification for PSA under 4 ng/ml by age (EAU 2022), and recommendations for PSA 4-10 and >10 ng/ml in men 50-75",
+   "replaces_chunks": [
+    "ncdimh-0780",
+    "ncdimh-0781",
+    "ncdimh-0782"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category / PSA level"
+     },
+     {
+      "t": "Definition"
+     },
+     {
+      "t": "Recommendation"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "PSA under 4 ng/ml: risk stratification (EAU 2022)"
+    },
+    [
+     {
+      "t": "Low Risk"
+     },
+     {
+      "t": "PSA <1 in those <40 years; PSA <2 in those 41-60 years"
+     },
+     {
+      "t": "Repeat screening after 5 - 8 years"
+     }
+    ],
+    [
+     {
+      "t": "High Risk"
+     },
+     {
+      "t": "PSA >1 in those <40 years; PSA >2 in those 41-60 years"
+     },
+     {
+      "t": "Repeat screening after 2 years"
+     }
+    ],
+    {
+     "section": "PSA above 4 ng/ml in men 50-75 years"
+    },
+    [
+     {
+      "t": "4-10 ng/ml"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1. If DRE is normal, repeat after 4-6 weeks; if it increases, refer for urologist review. 2. If DRE abnormal, refer to urologist. 3. If available, determine the free to total PSA ratio and PSA density, and consult"
+     }
+    ],
+    [
+     {
+      "t": "> 10 ng/ml"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Refer to urologist"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The age bands (<40 and 41-60) leave age 40 uncovered; the definitions 'PSA >1' / 'PSA >2' leave PSA exactly 1 or 2 uncovered.",
+    "Screening is said to be every two years from 50 'with any of the following risk factors' but the list that follows gives discussion ages, not risk factors; elsewhere PSA is annual."
+   ],
+   "context_before": "Prostate screening every two years for men above 50 with risk factors. Discuss screening at age 45 for men at high risk (African American, first-degree relative with prostate cancer at an early age) and at age 40 for very high risk (several first-degree relatives with early prostate cancer). DRE by a trained health worker, with annual PSA and rectal or pelvic ultrasound. Those with above-average risk start earlier at the clinician's discretion."
+  },
+  {
+   "table_id": "ncdimh-tbl-prostate-diagnostics",
+   "page": 273,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Prostate Cancer > Diagnosis and Staging",
+   "caption": "Prostate cancer diagnosis and staging investigations: biopsy, pathology, PSA tests, radiology, other",
+   "replaces_chunks": [
+    "ncdimh-0784"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Diagnostic Category"
+     },
+     {
+      "t": "Investigation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Biopsy"
+     },
+     {
+      "t": "Biopsy (trans-rectal ultrasound-guided biopsy is the current standard)"
+     }
+    ],
+    [
+     {
+      "t": "Pathology"
+     },
+     {
+      "t": "A full histology report"
+     }
+    ],
+    [
+     {
+      "t": "Laboratory Tests"
+     },
+     {
+      "t": "Prostate specific antigen (PSA) test and its isoforms: PSA doubling time; PSA density; PSA velocity; PSA ratio, free to bound"
+     }
+    ],
+    [
+     {
+      "t": "Radiology"
+     },
+     {
+      "t": "Ultrasound pelvis and abdomen; chest X-ray; if PSA >20, bone scan, or MRI DWI (high risk) if bone scan unavailable; CT scan; MRI pelvis (prostate-specific sequences)"
+     }
+    ],
+    [
+     {
+      "t": "Other"
+     },
+     {
+      "t": "Endoscopy and other specialized tests as indicated and available"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Signs and symptoms: may be asymptomatic; LUTS (urgency/frequency, dysuria, nocturia, poor stream, straining); haematuria, poor erectile function, bone pain, bladder outlet obstruction, urinary retention, chronic renal failure, rectal bleeding."
+  },
+  {
+   "table_id": "ncdimh-tbl-prostate-management-by-risk",
+   "page": 275,
+   "image_only": false,
+   "heading_path": "Chapter 9: Oncology > Prostate Cancer > Summary Guideline for Management by Risk Category",
+   "caption": "Prostate cancer management by risk category (very low, low, high risk): observation, active surveillance, radiotherapy, radical prostatectomy, hormone therapy",
+   "replaces_chunks": [
+    "ncdimh-0788"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Risk category"
+     },
+     {
+      "t": "Recommended Treatment"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Very Low Risk"
+     },
+     {
+      "t": "Life expectancy <10 yrs: observation. Life expectancy 10-20 yrs: active surveillance. Life expectancy >20 yrs: active surveillance, radiotherapy (EBRT or brachytherapy), or radical prostatectomy (RP) +/- pelvic lymph node dissection (LND) if >2% risk of LN involvement (Roach or Partin tables)"
+     }
+    ],
+    [
+     {
+      "t": "Low Risk"
+     },
+     {
+      "t": "Life expectancy <10 yrs: observation. Life expectancy >10 yrs: RT alone, RP +/- pelvic LND, or active surveillance. If RP with positive margins → adjuvant RT (preferred) or expectant management"
+     }
+    ],
+    [
+     {
+      "t": "High Risk"
+     },
+     {
+      "t": "Radiotherapy (3DCRT/IMRT with IGRT +/- brachytherapy boost) + long-term hormone therapy (2-3 yrs; neoadjuvant, concurrent and adjuvant). 4-6 months of androgen deprivation therapy (ADT) considered for select patients with a single adverse feature with Gleason score 6-7. Consider whole pelvis radiotherapy. Consider RP with pelvic LND only for selected patients with low-volume disease and no fixation. Adjuvant RT +/- short-term ADT for positive margins or pT3 disease"
+     }
+    ]
+   ],
+   "footnotes": [
+    "ADT: androgen deprivation therapy; CAB: combined androgen blockade; EBRT: external beam radiation therapy; IGRT: image-guided radiation therapy; IMRT: intensity-modulated radiation therapy; LN: lymph node; LND: lymph node dissection; RP: radical prostatectomy; RT: radiotherapy; 3DCRT: three-dimensional conformal radiation therapy."
+   ],
+   "source_flags": [
+    "The table has no intermediate-risk row (very low, low and high risk only). The first column is headed 'Stage' but lists risk categories."
+   ],
+   "context_before": "Management depends on stage, risk category, age, comorbidities and life expectancy, performance status, resources, hormone sensitivity in metastatic disease, and the patient's wishes. Options: watchful waiting; active surveillance; surgery (radical prostatectomy, TURP etc.); radiotherapy (external beam, brachytherapy); hormonal therapy (medical or surgical castration, bilateral orchiectomy); chemotherapy; supportive care (pain management, bisphosphonates such as zoledronate). Localised disease: radical prostatectomy or radiotherapy with or without hormones. Metastatic hormone-sensitive: bilateral orchiectomy (cheaper than medical therapy) or hormonal therapy as ADT or combined androgen blockade (CAB). Castration-resistant: second-line hormonal agents (enzalutamide, abiraterone) and/or chemotherapy (docetaxel)."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-cataract-workflow",
+   "page": 278,
+   "image_only": false,
+   "heading_path": "Chapter 10: Ophthalmology > Cataract > Screening and Diagnosis of Cataract",
+   "caption": "Cataract screening, diagnosis and management workflow: assessment, ruling out other causes, impact on daily life, referral, early vs significant cataract, surgery; referral rules",
+   "replaces_chunks": [
+    "ncdimh-0796",
+    "ncdimh-0797"
+   ],
+   "content": "1. Patient presents with visual complaints: gradual, painless vision loss; glare, haloes, blurred vision.\n2. Clinical assessment: visual acuity; lens exam (cloudiness); red reflex.\n3. Rule out other causes of vision loss: retinal disease; glaucoma; refractive errors.\n4. Confirm the cataract diagnosis.\n5. Assess the impact on daily life: daily activities; bilateral/unilateral; uncorrectable with glasses.\n6. Refer to an ophthalmologist: full evaluation; biometry.\n   - Mild/early cataract: monitor; improve lighting; adjust glasses.\n   - Affects daily life (significant cataract): surgery (phacoemulsification + IOL); post-operative care: eye drops, follow-up, patient education.\n\nREFER ALL SEVERE/SIGNIFICANT CATARACT CASES TO AN EYE SURGEON FOR CATARACT SURGERY. Refer clients with comorbidities such as HTN/DM, and pregnant women with cataract, to an ophthalmologist once a year from diagnosis for routine screening. Refer children immediately: a white pupil in a child may be an eye tumour, and late referral may lead to permanent loss of vision, squint, loss of the eye or loss of life.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-dr-classification",
+   "page": 279,
+   "image_only": false,
+   "heading_path": "Chapter 10: Ophthalmology > Diabetic Retinopathy > Classification of DR",
+   "caption": "Diabetic retinopathy classification by severity (no DR, mild/moderate/severe NPDR, PDR, DME): defining features, management and follow-up interval",
+   "replaces_chunks": [
+    "ncdimh-0800",
+    "ncdimh-0801"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "DR Severity"
+     },
+     {
+      "t": "Defining Features"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": "Follow-up"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "No DR"
+     },
+     {
+      "t": "No microvascular abnormalities"
+     },
+     {
+      "t": "Control blood glucose levels, serum lipid levels, and blood pressure"
+     },
+     {
+      "t": "1-2 yrs"
+     }
+    ],
+    [
+     {
+      "t": "Mild NPDR"
+     },
+     {
+      "t": "Microaneurysms only"
+     },
+     {
+      "t": "Control blood glucose levels, serum lipid levels, and blood pressure"
+     },
+     {
+      "t": "6-12 mo"
+     }
+    ],
+    [
+     {
+      "t": "Moderate NPDR"
+     },
+     {
+      "t": "Microaneurysms and other signs (dot and blot haemorrhages, hard exudates, cotton wool spots), but not severe NPDR"
+     },
+     {
+      "t": "Control blood glucose levels, serum lipid levels, and blood pressure"
+     },
+     {
+      "t": "3-6 mo"
+     }
+    ],
+    [
+     {
+      "t": "Severe NPDR"
+     },
+     {
+      "t": "Intraretinal haemorrhages (>20 in each of 4 quadrants), definite venous beading (in at least 2 quadrants), or apparent IRMA (in at least 1 quadrant), but not PDR"
+     },
+     {
+      "t": "Consider PRP"
+     },
+     {
+      "t": "<3 mo"
+     }
+    ],
+    [
+     {
+      "t": "PDR"
+     },
+     {
+      "t": "Neovascularization of the optic disc or elsewhere, preretinal haemorrhage, or vitreous haemorrhage"
+     },
+     {
+      "t": "Strongly consider PRP; consider vitrectomy for persistent vitreous haemorrhage or tractional retinal detachment"
+     },
+     {
+      "t": "<1 mo (variable)"
+     }
+    ],
+    [
+     {
+      "t": "DME"
+     },
+     {
+      "t": "Retinal thickening in the macula"
+     },
+     {
+      "t": "Consider focal laser photocoagulation, anti-VEGF therapy, or corticosteroid therapy for centre-involving DME"
+     },
+     {
+      "t": "1-3 mo"
+     }
+    ]
+   ],
+   "footnotes": [
+    "No DR: no apparent retinopathy; NPDR: non-proliferative diabetic retinopathy; PDR: proliferative diabetic retinopathy; DME: diabetic macular oedema. Fundus photographs show normal fundus, moderate NPDR, severe NPDR and PDR (courtesy of Medscape Education)."
+   ],
+   "source_flags": [
+    "'Control blood levels' printed in the No DR row (blood glucose levels)."
+   ],
+   "pages": [
+    279,
+    280
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-dr-screening-flowchart",
+   "page": 281,
+   "image_only": false,
+   "heading_path": "Chapter 10: Ophthalmology > Diabetic Retinopathy > Screening flowchart for diabetic retinopathy",
+   "caption": "Diabetic retinopathy screening flowchart: visual acuity and fundus findings → routine re-examination, non-urgent referral, or urgent referral",
+   "replaces_chunks": [
+    "ncdimh-0804",
+    "ncdimh-0805"
+   ],
+   "content": "1. Diabetes history, medical history, current medication, biochemical parameters.\n2. Uncorrected visual acuity (VA) with current spectacles, and ophthalmoscopy or fundus photography.\n   - VA better than 6/12 (20/40) and no DR → routine re-examination.\n   - VA 6/12 (20/40) or worse, or mild or moderate NPDR → non-urgent referral for refraction and assessment.\n   - Severe NPDR, DME, or PDR → urgent referral.\n*Need to optimise medical treatment: glycaemic control, hypertension, and lipids.\nDME = diabetic macular oedema; NPDR = non-proliferative diabetic retinopathy; PDR = proliferative diabetic retinopathy; VA = visual acuity.",
+   "footnotes": [],
+   "source_flags": [
+    "Branch layout read from the chart; 'Current Medition' printed."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-dr-screening-schedule",
+   "page": 281,
+   "image_only": false,
+   "heading_path": "Chapter 10: Ophthalmology > Diabetic Retinopathy > Screening and Diagnosis of Diabetic Retinopathy",
+   "caption": "Diabetic retinopathy screening schedule: timing of first and subsequent retinal examination by risk factor (type 1, type 2, complications, poor control, other)",
+   "replaces_chunks": [
+    "ncdimh-0802",
+    "ncdimh-0803"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Risk Factors"
+     },
+     {
+      "t": "1st retinal examination"
+     },
+     {
+      "t": "Subsequent examination"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Type 1 DM"
+     },
+     {
+      "t": "Within 5 years of diagnosis and after onset of puberty"
+     },
+     {
+      "t": "Annually"
+     }
+    ],
+    [
+     {
+      "t": "Type 2 DM"
+     },
+     {
+      "t": "At time of diagnosis"
+     },
+     {
+      "t": "Annually"
+     }
+    ],
+    [
+     {
+      "t": "Evidence of other diabetic complications, e.g. CVD, renal disease (nephropathy), foot ulcers (neuropathy)"
+     },
+     {
+      "t": "Immediately"
+     },
+     {
+      "t": "As recommended by eye care provider"
+     }
+    ],
+    [
+     {
+      "t": "Poor glycaemic control"
+     },
+     {
+      "t": "Immediately"
+     },
+     {
+      "t": "As recommended by eye care provider"
+     }
+    ],
+    [
+     {
+      "t": "Other risk factors: hyperlipidemia, smoking, cataract surgery, obesity, anaemia, leukaemias etc."
+     },
+     {
+      "t": "At time of diagnosis / immediately"
+     },
+     {
+      "t": "As recommended by eye care provider"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "Screening by health care workers (medical officers and nursing staff): visual acuity with a Snellen or illiterate E chart; penlight torch to examine the external eye, pupillary reaction etc. Symptoms are absent early; later fluctuating or blurred vision, spots or floaters, dark or empty areas in vision, total loss of vision."
+  },
+  {
+   "table_id": "ncdimh-tbl-glaucoma-acute-vs-chronic",
+   "page": 283,
+   "image_only": false,
+   "heading_path": "Chapter 10: Ophthalmology > Glaucoma > Screening and Diagnosis of Glaucoma",
+   "caption": "Acute (angle-closure) vs chronic (open-angle) glaucoma: onset, pain, redness, vision, pupil, cornea, IOP, optic nerve, age, family history, urgency; who to screen",
+   "replaces_chunks": [
+    "ncdimh-0810",
+    "ncdimh-0811"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Feature"
+     },
+     {
+      "t": "Acute Glaucoma (Angle Closure)"
+     },
+     {
+      "t": "Chronic Glaucoma (Open Angle)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Onset"
+     },
+     {
+      "t": "Sudden"
+     },
+     {
+      "t": "Gradual"
+     }
+    ],
+    [
+     {
+      "t": "Pain"
+     },
+     {
+      "t": "Severe eye pain"
+     },
+     {
+      "t": "Usually painless"
+     }
+    ],
+    [
+     {
+      "t": "Redness"
+     },
+     {
+      "t": "Present, typically unilateral"
+     },
+     {
+      "t": "Usually absent"
+     }
+    ],
+    [
+     {
+      "t": "Vision Changes"
+     },
+     {
+      "t": "Sudden vision loss; haloes around lights"
+     },
+     {
+      "t": "Gradual peripheral vision loss (tunnel vision)"
+     }
+    ],
+    [
+     {
+      "t": "Headache"
+     },
+     {
+      "t": "Unilateral, temporal"
+     },
+     {
+      "t": "Rare"
+     }
+    ],
+    [
+     {
+      "t": "Nausea/Vomiting"
+     },
+     {
+      "t": "Common"
+     },
+     {
+      "t": "Rare"
+     }
+    ],
+    [
+     {
+      "t": "Pupil"
+     },
+     {
+      "t": "Mid-dilated, fixed, non-reactive"
+     },
+     {
+      "t": "Usually normal"
+     }
+    ],
+    [
+     {
+      "t": "Cornea"
+     },
+     {
+      "t": "Cloudy or hazy"
+     },
+     {
+      "t": "Clear"
+     }
+    ],
+    [
+     {
+      "t": "Anterior Chamber"
+     },
+     {
+      "t": "Shallow"
+     },
+     {
+      "t": "Normal depth"
+     }
+    ],
+    [
+     {
+      "t": "Intraocular Pressure (IOP)"
+     },
+     {
+      "t": "Markedly elevated; eye feels hard on palpation"
+     },
+     {
+      "t": "Elevated; eye may feel tense on palpation"
+     }
+    ],
+    [
+     {
+      "t": "Optic Nerve"
+     },
+     {
+      "t": "May appear swollen in acute phase"
+     },
+     {
+      "t": "Shows cupping/damage on fundoscopy"
+     }
+    ],
+    [
+     {
+      "t": "Age Group"
+     },
+     {
+      "t": "Usually >40 years"
+     },
+     {
+      "t": "Usually >40 years, earlier in Black individuals"
+     }
+    ],
+    [
+     {
+      "t": "Family History"
+     },
+     {
+      "t": "Not prominent"
+     },
+     {
+      "t": "First-degree relatives at higher risk"
+     }
+    ],
+    [
+     {
+      "t": "Urgency"
+     },
+     {
+      "t": "Ophthalmological emergency – urgent referral"
+     },
+     {
+      "t": "Chronic, but requires monitoring and long-term management"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Primary open-angle glaucoma has no symptoms in early stages, so routine intraocular pressure checks and fundus examination should be done in everyone aged 40 and above by qualified eye care personnel.",
+    "All suspected cases of glaucoma should be referred to qualified eye care personnel for confirmation of diagnosis and a treatment plan."
+   ],
+   "source_flags": [],
+   "context_before": "Who must be screened (risk factors): adults ≥40 years; family history of glaucoma; high IOP; diabetes, hypertension, migraines, sickle cell anaemia; eye injuries or certain eye surgery; prolonged corticosteroid use, especially eye drops. Screening: all health workers take visual acuity with a Snellen chart and examine the external eye with a penlight torch."
+  },
+  {
+   "table_id": "ncdimh-tbl-glaucoma-drugs",
+   "page": 284,
+   "image_only": false,
+   "heading_path": "Chapter 10: Ophthalmology > Glaucoma > Pharmacological Management of Glaucoma",
+   "caption": "Glaucoma medicines: acute glaucoma (acetazolamide, glycerol, timolol) and chronic glaucoma stepwise (timolol/betaxolol, latanoprost/bimatoprost, brimonidine, pilocarpine, acetazolamide): dose, frequency, duration",
+   "replaces_chunks": [
+    "ncdimh-0814",
+    "ncdimh-0815",
+    "ncdimh-0816",
+    "ncdimh-0817",
+    "ncdimh-0818",
+    "ncdimh-0819",
+    "ncdimh-0821",
+    "ncdimh-0822",
+    "ncdimh-0823"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Step"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Acute glaucoma (refer to ophthalmologist immediately)"
+    },
+    [
+     {
+      "t": "First"
+     },
+     {
+      "t": "Acetazolamide PO"
+     },
+     {
+      "t": "250-500 mg"
+     },
+     {
+      "t": "Once"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Or"
+     },
+     {
+      "t": "Glycerin as glycerol"
+     },
+     {
+      "t": "1 ml/kg"
+     },
+     {
+      "t": "Once"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Plus"
+     },
+     {
+      "t": "Timolol 0.25-0.5%"
+     },
+     {
+      "t": "Instil 1 drop"
+     },
+     {
+      "t": "Twice daily"
+     },
+     {
+      "t": "2 weeks"
+     }
+    ],
+    {
+     "section": "Chronic glaucoma"
+    },
+    [
+     {
+      "t": "First line"
+     },
+     {
+      "t": "Timolol 0.25 or 0.5% eye drops"
+     },
+     {
+      "t": "Instil 1 drop in the eyes"
+     },
+     {
+      "t": "Twice daily"
+     },
+     {
+      "t": "Long term"
+     }
+    ],
+    [
+     {
+      "t": "Or"
+     },
+     {
+      "t": "Betaxolol 0.25 or 0.5% eye drops"
+     },
+     {
+      "t": "Instil 1 drop in the eyes"
+     },
+     {
+      "t": "Twice daily"
+     },
+     {
+      "t": "Long term"
+     }
+    ],
+    [
+     {
+      "t": "If adherent with no good response, add (or first line if beta-blockers contraindicated)"
+     },
+     {
+      "t": "Latanoprost 0.005% eye drops"
+     },
+     {
+      "t": "Instil 1 drop in the eyes"
+     },
+     {
+      "t": "Twice daily (as printed)"
+     },
+     {
+      "t": "Long term"
+     }
+    ],
+    [
+     {
+      "t": "Or"
+     },
+     {
+      "t": "Prostamide bimatoprost 0.03% eye drops"
+     },
+     {
+      "t": "Instil 1 drop in the eyes"
+     },
+     {
+      "t": "Twice daily (as printed)"
+     },
+     {
+      "t": "Long term"
+     }
+    ],
+    [
+     {
+      "t": "If intolerant of or not responding to prostaglandin analogue"
+     },
+     {
+      "t": "Brimonidine 0.15-0.2% eye drops"
+     },
+     {
+      "t": "Instil 1 drop in the eyes"
+     },
+     {
+      "t": "Twice daily"
+     },
+     {
+      "t": "Long term"
+     }
+    ],
+    [
+     {
+      "t": "Failure to respond (consult a specialist first)"
+     },
+     {
+      "t": "Pilocarpine hydrochloride 2% or 4% eye drops"
+     },
+     {
+      "t": "Instil 1 drop in the eyes"
+     },
+     {
+      "t": "Four times daily"
+     },
+     {
+      "t": "Review"
+     }
+    ],
+    [
+     {
+      "t": "Severe cases or while waiting for surgery"
+     },
+     {
+      "t": "Acetazolamide PO"
+     },
+     {
+      "t": "250 mg"
+     },
+     {
+      "t": "Four times daily"
+     },
+     {
+      "t": "Review"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Latanoprost and bimatoprost are printed 'twice daily'; both are normally once daily (evening). Clinician to confirm.",
+    "The old chunks lost the first-line chronic glaucoma rows (timolol, betaxolol) and placed the acute glaucoma table under 'Chronic Glaucoma'."
+   ],
+   "table_note": "Acute glaucoma: also treat pain and nausea/vomiting. Acetazolamide contains sulphur: do not use in patients allergic to sulphur. Glycerol is a concentrated sugar solution: do not give to diabetic patients. Prostaglandin analogues may be first line when beta-blockers are contraindicated, or second line on beta-blockers if the target IOP reduction is not reached. Beta-blockers are contraindicated in overt asthma (may cause an acute asthma attack soon after instillation). Pilocarpine causes long-standing pupil constriction; use only when the patient is prepared for glaucoma surgery, or as an alternative when timolol is contraindicated.",
+   "pages": [
+    284,
+    285
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-pain-types",
+   "page": 286,
+   "image_only": false,
+   "heading_path": "Chapter 11: Palliation > Pain Management > Types and Characteristics of Pain",
+   "caption": "Types of pain (nociceptive somatic, visceral, inflammatory; neurogenic; functional): characteristics, mechanisms and example drug treatments",
+   "replaces_chunks": [
+    "ncdimh-0826"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Type of Pain"
+     },
+     {
+      "t": "Subtype"
+     },
+     {
+      "t": "Characteristics"
+     },
+     {
+      "t": "Mechanisms"
+     },
+     {
+      "t": "Examples of pharmacologic treatments"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Nociceptive",
+      "rs": 3
+     },
+     {
+      "t": "Somatic (tissue injury)"
+     },
+     {
+      "t": "Superficial (skin) or deep pain (muscle, fascia, tendon)"
+     },
+     {
+      "t": "Mechanical, thermal or chemical stimuli"
+     },
+     {
+      "t": "Acetaminophen, Na+ blockers, NSAIDs, steroids, opioids"
+     }
+    ],
+    [
+     {
+      "t": "Visceral (irritable bowel, cystitis)"
+     },
+     {
+      "t": "Constant or cramping. Poor localization. Autonomic responses"
+     },
+     {
+      "t": "Visceral distension"
+     },
+     {
+      "t": "NSAIDs, antispasmodics, opioids"
+     }
+    ],
+    [
+     {
+      "t": "Inflammatory (musculoskeletal)"
+     },
+     {
+      "t": "Localized or diffuse pain, hyperalgesia, allodynia"
+     },
+     {
+      "t": "Associated with localized inflammation"
+     },
+     {
+      "t": "NSAIDs, steroids"
+     }
+    ],
+    [
+     {
+      "t": "Neurogenic",
+      "rs": 2
+     },
+     {
+      "t": "Neuralgia, radiculopathy, causalgia, CNS lesions"
+     },
+     {
+      "t": "Spontaneous, paroxysmal pain, allodynia, hyperalgesia"
+     },
+     {
+      "t": "Peripheral or CNS lesions"
+     },
+     {
+      "t": "Anticonvulsants, opioids, antidepressants"
+     }
+    ],
+    [
+     {
+      "t": "Functional (FM, thalamic syndromes, irritable bowel syndrome)"
+     },
+     {
+      "t": "Diffuse deep pain, hyperalgesia, allodynia"
+     },
+     {
+      "t": "Dysregulation of excitatory or inhibitory mechanisms in CNS"
+     },
+     {
+      "t": "Antidepressants, anticonvulsants, opioids, cannabinoids"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Functional pain sits under 'Neurogenic' in the PDF's first column (row span), as printed. FM is not expanded (fibromyalgia)."
+   ],
+   "pages": [
+    286,
+    287
+   ],
+   "context_before": "Pain is 'an unpleasant sensory and emotional experience associated with, or resembling that associated with, actual or potential tissue damage' (IASP)."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-who-analgesic-ladder",
+   "page": 289,
+   "image_only": false,
+   "heading_path": "Chapter 11: Palliation > Pain Management > Management of Pain > WHO Analgesic Ladder",
+   "caption": "WHO analgesic ladder for adult pain: step 1 non-opioid (mild), step 2 weak opioid (moderate), step 3 strong opioid (severe), with drug categories",
+   "replaces_chunks": [
+    "ncdimh-0831",
+    "ncdimh-0832"
+   ],
+   "content": "Pain scores on the numerical rating scale: none 0; mild 1-3; moderate 4-6; severe 7-10.\n- Step 1, mild pain (0-3): non-opioid +/- adjuvant.\n- Step 2, moderate pain (4-6): weak opioid +/- non-opioid +/- adjuvant.\n- Step 3, severe pain: strong opioid +/- non-opioid +/- adjuvant.\nStep up if pain persists or increases; step down if pain decreases.\n\nCategories of drugs:\n- Non-opioids: ibuprofen or other NSAID, paracetamol (acetaminophen), or aspirin.\n- Weak opioids: codeine, tramadol, or low-dose morphine.\n- Strong opioids: morphine, fentanyl, oxycodone, hydromorphone, buprenorphine.\n- Adjuvants: antidepressant, anticonvulsant, antispasmodic, muscle relaxant, bisphosphonate, or corticosteroid.\nCombining an opioid and a non-opioid is effective, but do not combine drugs of the same class. Time doses by drug half-life ('dose by the clock'); do not wait for pain to recur.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-analgesic-doses",
+   "page": 290,
+   "image_only": false,
+   "heading_path": "Chapter 11: Palliation > Pain Management > Analgesics: doses and cautions",
+   "caption": "Analgesics for palliative pain management: non-opioids (paracetamol, ibuprofen, diclofenac), weak opioids (tramadol, codeine), strong opioid (morphine): doses, cautions and contraindications",
+   "replaces_chunks": [
+    "ncdimh-0833",
+    "ncdimh-0834"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Drug and Dosage"
+     },
+     {
+      "t": "Caution and Contraindications"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Non-Opioid",
+      "rs": 3
+     },
+     {
+      "t": "Paracetamol: 500 mg-1 g 6-8 hourly"
+     },
+     {
+      "t": "Hepatotoxicity. Maximum dose 4 g per day"
+     }
+    ],
+    [
+     {
+      "t": "Ibuprofen: 400 mg 6-8 hourly"
+     },
+     {
+      "t": "Give with food. Maximum dose 1.2 g. Avoid in asthma and peptic ulcer. Lower dose if liver impairment"
+     }
+    ],
+    [
+     {
+      "t": "Diclofenac: 50 mg 8-12 hourly"
+     },
+     {
+      "t": "Give with food; avoid in asthma and peptic ulcer. Maximum dose 150 mg"
+     }
+    ],
+    [
+     {
+      "t": "Weak Opioid",
+      "rs": 2
+     },
+     {
+      "t": "Tramadol: 50-100 mg 4-6 hourly"
+     },
+     {
+      "t": "Caution in epileptic patients. Maximum dosage 240 mg daily (as printed). Give laxatives to avoid constipation unless the patient has diarrhoea",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "Codeine: 30-60 mg 4 hourly"
+     }
+    ],
+    [
+     {
+      "t": "Strong Opioid"
+     },
+     {
+      "t": "Morphine: start with 2.5-20 mg q4h (immediate release); give 8-24 hourly for slow release. 5%-20% of the daily dose is used as the starting dose for breakthrough pain"
+     },
+     {
+      "t": "Low-dose morphine is given if the maximum weak-opioid dose does not work. No ceiling dose for morphine (increase gradually until pain is controlled). Pethidine can be used for acute pain (NOT for chronic pain)"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Less commonly used strong opioids in our settings: fentanyl, oxycodone, hydromorphone, methadone."
+   ],
+   "source_flags": [
+    "Tramadol maximum is printed '240mg daily'; the usual maximum is 400 mg/day. Clinician to confirm.",
+    "'Ibuprofene', 'Qxycodone' printed."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-opioid-equianalgesic",
+   "page": 290,
+   "image_only": false,
+   "heading_path": "Chapter 11: Palliation > Opioids Equi-analgesic Dose Ratios",
+   "caption": "Opioid equi-analgesic doses: oral and subcutaneous/IV equivalents of codeine, tramadol, morphine, hydromorphone, oxycodone, fentanyl, methadone",
+   "replaces_chunks": [
+    "ncdimh-0835"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Opioid"
+     },
+     {
+      "t": "Approximate oral equivalent dose"
+     },
+     {
+      "t": "Equivalent dose subcut (IV)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Codeine"
+     },
+     {
+      "t": "100 mg"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Tramadol"
+     },
+     {
+      "t": "50 mg"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Morphine"
+     },
+     {
+      "t": "10 mg"
+     },
+     {
+      "t": "5 mg (3 mg)"
+     }
+    ],
+    [
+     {
+      "t": "Hydromorphone"
+     },
+     {
+      "t": "2 mg"
+     },
+     {
+      "t": "1 mg (0.5 mg)"
+     }
+    ],
+    [
+     {
+      "t": "Oxycodone"
+     },
+     {
+      "t": "5 mg-7.5 mg"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Fentanyl"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "50 mcg"
+     }
+    ],
+    [
+     {
+      "t": "Methadone"
+     },
+     {
+      "t": "About 1 mg"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Methadone 'about 1 mg' = 10 mg oral morphine is printed without noting that the ratio varies widely with dose; tramadol 50 mg ≈ morphine 10 mg is lower than usual (about 100 mg). Clinician to confirm."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-palliative-care-trajectory-levels",
+   "page": 291,
+   "image_only": false,
+   "heading_path": "Chapter 11: Palliation > Palliative Care in the Trajectory of the Patient's Illness",
+   "caption": "Palliative care across the illness trajectory, and palliative care tasks by level (referral hospital, regional hospital, health centre/primary clinic, home)",
+   "replaces_chunks": [
+    "ncdimh-0838",
+    "ncdimh-0840",
+    "ncdimh-0841"
+   ],
+   "content": "Trajectory (diagram): from presentation/diagnosis, therapies to modify disease (curative, restorative intent) decrease over time while therapies to relieve suffering and/or improve quality of life (palliative care) increase; palliative care continues through life closure and active dying to death, followed by bereavement care.\n\nPalliative care by level:\n- Referral hospitals: holistic assessment and reassessment; appropriate pain and symptom management; holistic care with specialised management (radiotherapy, chemotherapy, surgery).\n- Regional hospitals: holistic assessment and reassessment; appropriate pain and symptom management; initiate or adjust the PC regimen for mild, moderate or severe symptoms; plan continued PC after discharge to a lower level or home; refer to referral hospitals for specialised management.\n- Health centre/primary care clinic: visit the patient at home in the first week after discharge if possible; holistic pain assessment; pain and symptom management using the WHO ladder; emotional support; liaise with CHWs who visit patients at home; request oral morphine solution for PC patients in the HC catchment area; request advice from the regional hospital if needed; refer complicated cases to the regional hospital.\n- Home: recognise and report inadequately relieved pain or other physical, psychological or social distress, and improper use of morphine or other medicines; provide emotional support; educate the family on daily care (feeding, hygiene, mobility, medications).",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-opioids-in-ckd",
+   "page": 291,
+   "image_only": false,
+   "heading_path": "Chapter 11: Palliation > Opioids to use or to avoid with Chronic Kidney Disease",
+   "caption": "Opioids in chronic kidney disease: which to use, reduce or avoid in mild-moderate vs advanced CKD",
+   "replaces_chunks": [
+    "ncdimh-0836"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Opioid"
+     },
+     {
+      "t": "Mild to moderate CKD stages 1, 2, (3)"
+     },
+     {
+      "t": "Advanced CKD stages (3), 4, 5 (eGFR <30 mL/min)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Codeine"
+     },
+     {
+      "t": "YES, reduced dose"
+     },
+     {
+      "t": "AVOID"
+     }
+    ],
+    [
+     {
+      "t": "Tramadol"
+     },
+     {
+      "t": "YES, reduced dose"
+     },
+     {
+      "t": "Maybe (4), reduced dose"
+     }
+    ],
+    [
+     {
+      "t": "Buprenorphine (3)"
+     },
+     {
+      "t": "YES"
+     },
+     {
+      "t": "YES, reduced dose"
+     }
+    ],
+    [
+     {
+      "t": "Morphine"
+     },
+     {
+      "t": "YES, reduced dose"
+     },
+     {
+      "t": "AVOID"
+     }
+    ],
+    [
+     {
+      "t": "Hydromorphone"
+     },
+     {
+      "t": "YES, reduced dose"
+     },
+     {
+      "t": "Use with caution, reduced dose"
+     }
+    ],
+    [
+     {
+      "t": "Oxycodone"
+     },
+     {
+      "t": "YES, reduced dose"
+     },
+     {
+      "t": "AVOID (4)"
+     }
+    ],
+    [
+     {
+      "t": "Fentanyl (1,2)"
+     },
+     {
+      "t": "YES (1)"
+     },
+     {
+      "t": "YES, reduced dose"
+     }
+    ],
+    [
+     {
+      "t": "Methadone (1,2)"
+     },
+     {
+      "t": "YES (1,2)"
+     },
+     {
+      "t": "YES, with caution (1,2)"
+     }
+    ]
+   ],
+   "footnotes": [
+    "(1) 2nd line. (2) Only to be used under palliative care or pain specialist supervision. (3) Not used much in palliative care settings. (4) Only very select cases."
+   ],
+   "source_flags": [
+    "The codeine row is split over two rows in the PDF ('Codeine' with empty cells, then 'YES, reduced dose | AVOID'); joined.",
+    "The mild-moderate column is headed '(eGFR >60 mL/min)' although it includes stage 3 (eGFR 30-59)."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-adjuvant-analgesics",
+   "page": 293,
+   "image_only": false,
+   "heading_path": "Chapter 11: Palliation > Pain Management > Adjuvant Analgesics for Bone and Neuropathic Pain",
+   "caption": "Adjuvant analgesics for bone and neuropathic pain: dexamethasone, amitriptyline, gabapentin, pregabalin: indications, doses and key notes",
+   "replaces_chunks": [
+    "ncdimh-0844",
+    "ncdimh-0845"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Class"
+     },
+     {
+      "t": "Indications"
+     },
+     {
+      "t": "Common Drugs & Doses"
+     },
+     {
+      "t": "Key Notes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Steroids"
+     },
+     {
+      "t": "Pain caused by pressure (e.g. stretched liver capsule, raised ICP, Pancoast tumour)"
+     },
+     {
+      "t": "Dexamethasone: 8–16 mg once daily before noon; if effective, reduce by 2 mg/day after 3 days"
+     },
+     {
+      "t": "Stop after 5 days if no response"
+     }
+    ],
+    [
+     {
+      "t": "Antidepressants"
+     },
+     {
+      "t": "Neuropathic pain"
+     },
+     {
+      "t": "Amitriptyline: 10–75 mg at night; start low, increase every 2–3 days until pain controlled or side effects limit use"
+     },
+     {
+      "t": "Sedating – useful at night; caution in elderly"
+     }
+    ],
+    [
+     {
+      "t": "Anticonvulsants",
+      "rs": 2
+     },
+     {
+      "t": "Neuropathic pain",
+      "rs": 2
+     },
+     {
+      "t": "Gabapentin: start 300 mg at night → increase by 300 mg every 2–3 days (night → BD → TDS → 600 mg BD); max 2400 mg/day; if no benefit after 900 mg/day, unlikely to be effective"
+     },
+     {
+      "t": "Titrate slowly to minimise dizziness & somnolence. Caution: renal impairment",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "Pregabalin: start 50 mg TDS or 75 mg BD; doses >300 mg/day rarely give extra benefit"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'&' is printed as 'C' (font substitution) in the title and cells."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-ut-classification",
+   "page": 294,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Classification > University of Texas classification",
+   "caption": "University of Texas (UT) diabetic foot wound classification: grade 0-III by depth and stage A-D by infection and ischaemia",
+   "replaces_chunks": [
+    "ncdimh-0847",
+    "ncdimh-0848"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Stage"
+     },
+     {
+      "t": "Grade 0"
+     },
+     {
+      "t": "Grade I"
+     },
+     {
+      "t": "Grade II"
+     },
+     {
+      "t": "Grade III"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Stage A"
+     },
+     {
+      "t": "Pre- or post-ulcerative lesion, completely epithelialized"
+     },
+     {
+      "t": "Superficial wound, not involving tendon, capsule or bone"
+     },
+     {
+      "t": "Wound penetrating to tendon or capsule"
+     },
+     {
+      "t": "Wound penetrating to bone or joint"
+     }
+    ],
+    [
+     {
+      "t": "Stage B"
+     },
+     {
+      "t": "With infection"
+     },
+     {
+      "t": "With infection"
+     },
+     {
+      "t": "With infection"
+     },
+     {
+      "t": "With infection"
+     }
+    ],
+    [
+     {
+      "t": "Stage C"
+     },
+     {
+      "t": "With ischaemia"
+     },
+     {
+      "t": "With ischaemia"
+     },
+     {
+      "t": "With ischaemia"
+     },
+     {
+      "t": "With ischaemia"
+     }
+    ],
+    [
+     {
+      "t": "Stage D"
+     },
+     {
+      "t": "With infection and ischaemia"
+     },
+     {
+      "t": "With infection and ischaemia"
+     },
+     {
+      "t": "With infection and ischaemia"
+     },
+     {
+      "t": "With infection and ischaemia"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "All patients with diabetes should be assessed for diabetic foot at risk: screened, diagnosed, investigated, classified and risk-stratified."
+  },
+  {
+   "table_id": "ncdimh-tbl-wagner-classification",
+   "page": 294,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Classification > Wagner grades",
+   "caption": "Diabetic foot ulcer classification (Wagner grades 0-5): description and category",
+   "replaces_chunks": [
+    "ncdimh-0846"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Ulcer Grade"
+     },
+     {
+      "t": "Description"
+     },
+     {
+      "t": "Category"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "0"
+     },
+     {
+      "t": "No ulcer but high-risk foot (e.g. deformity, callus, or ischaemia)"
+     },
+     {
+      "t": "Non-ulcer stage"
+     }
+    ],
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Superficial ulcer involving only the skin"
+     },
+     {
+      "t": "Non-gangrenous ulcer"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Deep ulcer, extending into tendon, bone, or joint capsule, but without bony involvement or abscess"
+     },
+     {
+      "t": "Non-gangrenous ulcer"
+     }
+    ],
+    [
+     {
+      "t": "3"
+     },
+     {
+      "t": "Deep ulcer with abscess, osteomyelitis, or joint sepsis (confirmed clinically or by X-ray)"
+     },
+     {
+      "t": "Non-gangrenous ulcer"
+     }
+    ],
+    [
+     {
+      "t": "4"
+     },
+     {
+      "t": "Localized gangrene (e.g. toe, heel, forefoot)"
+     },
+     {
+      "t": "Gangrenous ulcer"
+     }
+    ],
+    [
+     {
+      "t": "5"
+     },
+     {
+      "t": "Extensive gangrene involving the whole foot"
+     },
+     {
+      "t": "Gangrenous ulcer"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Grade 2 is described as 'extending into tendon, bone, or joint capsule, but without bony involvement' (self-contradictory; Wagner grade 2 is a deep ulcer to tendon or capsule without abscess or osteomyelitis)."
+   ],
+   "context_before": "Diabetic foot: infection, ulceration or destruction of tissues of the foot associated with neuropathy and/or peripheral arterial disease in people with diabetes. About 80% of non-traumatic lower limb amputations in diabetes are preceded by a foot ulcer."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-diabetic-foot-algorithm-a",
+   "page": 295,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Algorithm A: foot assessment and risk",
+   "caption": "Diabetic foot algorithm A: foot assessment in all patients with diabetes, active foot problems, and risk stratification (high, moderate, low) with actions",
+   "replaces_chunks": [
+    "ncdimh-0850",
+    "ncdimh-0851"
+   ],
+   "content": "All patients with diabetes → foot assessment: skin; neurological; vascular; musculoskeletal.\n1. Active foot problem? (any of: ulceration; spreading infection; critical limb ischaemia; gangrene; suspicion of acute Charcot neuroarthropathy or an unexplained hot, red, swollen foot with or without pain)\n   - Yes → Algorithm B.\n   - No → 2.\n2. Previous history of ulceration, amputation, or on renal replacement therapy? Yes → HIGH RISK: early referral to podiatrist/surgical department for further care.\n3. Deformity/neuropathy/non-critical limb ischaemia → MODERATE RISK: refer to NCD clinic/podiatrist/surgical department for further review.\n4. Callus alone → LOW RISK: total contact insole; foot care education; yearly screening.\n5. Normal findings → foot care education; yearly screening.\n*Risk categories as in the diabetic foot risk stratification table.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-diabetic-foot-algorithm-b",
+   "page": 296,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Algorithm B: active foot problems",
+   "caption": "Diabetic foot algorithm B: management of active foot problems by ulcer type, infection and ischaemia (outpatient, oral antibiotics, multidisciplinary foot care team)",
+   "replaces_chunks": [
+    "ncdimh-0852"
+   ],
+   "content": "Active foot problems*:\n- Without ulcer (UT grade 0): manage as outpatient by foot protection services.\n- With ulcer:\n  - Superficial (UT IA): manage as outpatient by foot protection services.\n  - Infection:\n    - Superficial ulcer not requiring surgical intervention (UT IB): oral antibiotics (outpatient, foot protection services).\n    - Deep ulcer requiring surgical intervention (UT IIB/IIIB): refer to the multidisciplinary foot care team.\n  - Ischaemia (pulses not palpable) (UT IC/IIC/IIIC): refer to the multidisciplinary foot care team.\n  - Infection and ischaemia (UT ID/IID/IIID): refer to the multidisciplinary foot care team.\n*Refer urgently for admission if the patient presents with general illness (e.g. sepsis or diabetic [emergency]).",
+   "footnotes": [],
+   "source_flags": [
+    "The footnote is cut off at 'sepsis or diabetic'; 'Without ulcer (UT' is also cut off."
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-tuning-fork-test",
+   "page": 297,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Screening > Tuning Fork Examination",
+   "caption": "How to perform the 128 Hz tuning fork test for diabetic neuropathy",
+   "replaces_chunks": [
+    "ncdimh-0855"
+   ],
+   "content": "1. Ask the patient to close his/her eyes.\n2. Tap a 128 Hz tuning fork and place it on the patient's sternum to confirm vibration.\n3. Tap the tuning fork and place it on a bony prominence of the foot (distal phalanx of the great toe).\n4. Ask the patient to tell you when vibration is felt on the foot and when it stops.\n5. If sensation is impaired, continue to assess more proximally (e.g. mid-dorsal foot, medial malleolus, mid-fibula, patella).\n6. Repeat on the other leg.\nNote: any bony prominence of the foot can be tested, but the best point for the vibration test is the great toe.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-diabetic-foot-risk",
+   "page": 297,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Diabetic Foot Risk Stratification",
+   "caption": "Diabetic foot risk stratification: normal, low, moderate, high risk findings",
+   "replaces_chunks": [
+    "ncdimh-0856"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Diabetic Foot Risk"
+     },
+     {
+      "t": "Findings"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Normal"
+     },
+     {
+      "t": "No abnormalities"
+     }
+    ],
+    [
+     {
+      "t": "Low Risk"
+     },
+     {
+      "t": "Callus alone"
+     }
+    ],
+    [
+     {
+      "t": "Moderate Risk"
+     },
+     {
+      "t": "Any of the following: deformity; neuropathy; non-critical limb ischaemia"
+     }
+    ],
+    [
+     {
+      "t": "High Risk"
+     },
+     {
+      "t": "One of the following: previous ulceration; previous amputation; on renal replacement therapy; neuropathy and non-critical limb ischaemia; neuropathy with callus and/or deformity; non-critical limb ischaemia with callus and/or deformity"
+     }
+    ],
+    [
+     {
+      "t": "Active Diabetic Foot Problem"
+     },
+     {
+      "t": "Any of the following: ulceration; infection; critical limb ischaemia; gangrene; suspicion of an acute Charcot neuroarthropathy, or an unexplained hot, red, swollen foot with or without pain"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.298 (active diabetic foot problem row). The PDF text layer for this page is overprinted with a second copy; transcribed from the page image."
+   ],
+   "pages": [
+    297,
+    298
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-dfu-key-steps",
+   "page": 299,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Key Steps in Diabetic Foot Ulcer (DFU) Management",
+   "caption": "Key steps in diabetic foot ulcer management: risk stratification, MDT, assessment, debridement, infection, moist healing, advanced therapies, offloading, metabolic control, monitoring, referral",
+   "replaces_chunks": [
+    "ncdimh-0860"
+   ],
+   "content": "1. Risk stratification (Wagner, UT, SINBAD).\n2. Multidisciplinary team (endocrinology, podiatry, surgery, nursing, dietitian).\n3. Comprehensive assessment (wound, vascular, neuropathy, labs).\n4. Debridement (sharp, enzymatic, autolytic, etc.).\n5. Infection management (antibiotics, osteomyelitis care).\n6. Moist wound healing (appropriate dressings).\n7. Advanced therapies (NPWT, skin substitutes, HBOT, PRP).\n8. Offloading (total contact cast is the gold standard; walkers; footwear).\n9. Glycaemic & metabolic control.\n10. Monitoring & documentation (weekly to biweekly, photos).\n11. Referral criteria (no healing, infection, ischaemia).",
+   "footnotes": [],
+   "source_flags": [
+    "'Risk Stratification' is printed again as the last box (cycle back to the start)."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-dfu-offloading",
+   "page": 300,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Diabetic Foot > Off-Loading Techniques for DFUs",
+   "caption": "Off-loading techniques for diabetic foot ulcers: total contact cast, removable cast walkers, cushioned footwear, custom orthotics, wheelchair/bed rest: indications, advantages, disadvantages, care",
+   "replaces_chunks": [
+    "ncdimh-0862",
+    "ncdimh-0863"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Technique"
+     },
+     {
+      "t": "Description"
+     },
+     {
+      "t": "Indications"
+     },
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     },
+     {
+      "t": "Care Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Total Contact Cast (TCC)"
+     },
+     {
+      "t": "Cast that encompasses the foot & ankle, redistributing pressure"
+     },
+     {
+      "t": "Moderate–severe plantar DFUs; no infection or significant ischaemia"
+     },
+     {
+      "t": "Gold standard for off-loading; promotes wound healing; reduces recurrence & re-ulceration"
+     },
+     {
+      "t": "Hard to monitor wound; skin maceration risk; fall/ambulation difficulty"
+     },
+     {
+      "t": "Keep dry & intact; weekly reviews for skin breakdown or infection"
+     }
+    ],
+    [
+     {
+      "t": "Removable Cast Walkers (RCWs) / Braces"
+     },
+     {
+      "t": "Custom-fitted, removable devices for off-loading"
+     },
+     {
+      "t": "Mild–moderate DFUs, or if TCC not feasible"
+     },
+     {
+      "t": "Allows wound inspection & hygiene; more comfortable & easier to use"
+     },
+     {
+      "t": "Less effective than TCC; compliance issues if removed too often"
+     },
+     {
+      "t": "Use with proper footwear; patient education on strict off-loading"
+     }
+    ],
+    [
+     {
+      "t": "Cushioned Footwear"
+     },
+     {
+      "t": "Shoes with cushioned insoles, rocker soles, or extra depth"
+     },
+     {
+      "t": "Mild DFUs; patients needing frequent ambulation"
+     },
+     {
+      "t": "Comfortable & non-invasive; redistributes pressure, especially combined with other techniques"
+     },
+     {
+      "t": "Not effective for moderate–severe ulcers; requires consistent use"
+     },
+     {
+      "t": "Regular podiatry inspection & fitting"
+     }
+    ],
+    [
+     {
+      "t": "Custom Orthotics"
+     },
+     {
+      "t": "Tailored insoles/orthotics to redistribute pressure"
+     },
+     {
+      "t": "DFUs on forefoot or heel"
+     },
+     {
+      "t": "Individualized to foot anatomy; less cumbersome than casts/walkers"
+     },
+     {
+      "t": "Requires precise fitting; wear out & need replacement"
+     },
+     {
+      "t": "Educate patients on maintenance; ensure proper shoe fit"
+     }
+    ],
+    [
+     {
+      "t": "Wheelchair / Bed Rest"
+     },
+     {
+      "t": "Eliminates weight-bearing through immobilization"
+     },
+     {
+      "t": "Severe DFUs, or with major vascular/neuropathic issues"
+     },
+     {
+      "t": "Removes pressure completely; can combine with NPWT"
+     },
+     {
+      "t": "Reduces mobility & quality of life; risk of pressure sores from immobility"
+     },
+     {
+      "t": "Monitor skin, nutrition, and mental health closely"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Off-loading reduces chronic pressure on the ulcer (which prevents healing and can lead to tissue damage, infection and amputation), promotes healing (better blood flow, regulated inflammation, collagen formation), and lowers infection risk (less friction and moisture)."
+  },
+  {
+   "table_id": "ncdimh-tbl-peripheral-neuropathy-types",
+   "page": 304,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Peripheral Neuropathy > Guide to Clinical diagnosis of Peripheral Neuropathies",
+   "caption": "Peripheral neuropathy types: distal symmetric polyneuropathy, mononeuropathy, mononeuropathy multiplex, hereditary neuropathies: clinical features and common causes",
+   "replaces_chunks": [
+    "ncdimh-0874"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Type"
+     },
+     {
+      "t": "Clinical Features"
+     },
+     {
+      "t": "Common causes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Distal Symmetric Polyneuropathy"
+     },
+     {
+      "t": "Length-dependent: diffuse involvement affects distal segments first; symptoms occur below the knees before affecting the fingertips"
+     },
+     {
+      "t": "Most common cause: diabetes. Chronic idiopathic axonal polyneuropathy, alcohol, chemotherapy induced"
+     }
+    ],
+    [
+     {
+      "t": "Mononeuropathy"
+     },
+     {
+      "t": "Symptoms restricted to the distribution of a single nerve, myotome, or dermatome; asymmetric reflexes"
+     },
+     {
+      "t": "Entrapment neuropathies, e.g. carpal tunnel, peroneal nerve entrapment; post-traumatic neuropathies; diabetes"
+     }
+    ],
+    [
+     {
+      "t": "Mononeuropathy multiplex"
+     },
+     {
+      "t": "Occurrence of several concurrent mononeuropathies"
+     },
+     {
+      "t": "Autoimmune vasculitis etiologies"
+     }
+    ],
+    [
+     {
+      "t": "Hereditary neuropathies"
+     },
+     {
+      "t": "Distal calf atrophy, hammertoes, pes cavus; motor deficits ≥ sensory deficits; diffuse areflexia"
+     },
+     {
+      "t": "Genetic diseases"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Peripheral neuropathies are disorders of peripheral nerve cells and fibres affecting motor, sensory and autonomic fibres; classified as mononeuropathies, multifocal neuropathies and polyneuropathies, and as axonal, demyelinating or mixed."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-painful-diabetic-neuropathy",
+   "page": 305,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Peripheral Neuropathy > Treatment of Neuropathic Pain in Diabetic Foot",
+   "caption": "Treatment of painful diabetic neuropathy (flowchart): first-line anticonvulsants or antidepressants, second-line SNRIs, opioid-like drugs, topicals, third-line SSRIs and opioids",
+   "replaces_chunks": [
+    "ncdimh-0876",
+    "ncdimh-0877"
+   ],
+   "content": "Patient presenting with painful neuropathy → rule out other causes of neuropathy → establish treatment goals → optimise glycaemic control.\n- First-line therapy: anticonvulsants (pregabalin, gabapentin) or antidepressants (TCAs and SNRIs: amitriptyline, duloxetine).\n- Second-line therapy: SNRIs (venlafaxine or desvenlafaxine); opioid-like drugs (tramadol or tapentadol ER); topical treatments (lidocaine 5% patch or capsaicin 0.075% cream).\n- Third-line therapy: SSRIs (citalopram or paroxetine or escitalopram); opioids (oxycodone controlled release).\nER = extended release; SNRI = serotonin-norepinephrine reuptake inhibitor; SSRI = selective serotonin reuptake inhibitor; TCA = tricyclic antidepressant. Adapted from Snyder MJ, Gibbs LM, Lindsay TJ. Treating Painful Diabetic Peripheral Neuropathy: An Update. Am Fam Physician. 2016;94(3):227-34.",
+   "footnotes": [],
+   "source_flags": [
+    "'Capsaisin' printed. 'or Escitalopram' is printed under the opioids column; read as a third SSRI option."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-neuropathic-pain-drugs",
+   "page": 306,
+   "image_only": false,
+   "heading_path": "Chapter 12: Podiatry > Peripheral Neuropathy > Medicines for painful diabetic neuropathy: doses",
+   "caption": "Medicines for painful diabetic neuropathy: SNRIs, opioid-like drugs, topicals, anticonvulsants, amitriptyline: doses, maximum doses and cautions",
+   "replaces_chunks": [
+    "ncdimh-0878",
+    "ncdimh-0879"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Usual dose"
+     },
+     {
+      "t": "Maximum dose"
+     },
+     {
+      "t": "Notes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Serotonin-norepinephrine reuptake inhibitors"
+    },
+    [
+     {
+      "t": "Duloxetine"
+     },
+     {
+      "t": "60 mg daily or divided twice daily"
+     },
+     {
+      "t": "120 mg daily or divided twice daily"
+     },
+     {
+      "t": "Side effects: nausea, vomiting, dry mouth, constipation, decreased appetite, insomnia, dizziness, somnolence, blurred vision, increased sweating and fatigue. Advise taking with food to reduce nausea",
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "Venlafaxine"
+     },
+     {
+      "t": "150 mg daily"
+     },
+     {
+      "t": "225 mg daily"
+     }
+    ],
+    [
+     {
+      "t": "Desvenlafaxine"
+     },
+     {
+      "t": "200 mg daily"
+     },
+     {
+      "t": "400 mg daily"
+     }
+    ],
+    {
+     "section": "Opioid-like medications"
+    },
+    [
+     {
+      "t": "Tramadol"
+     },
+     {
+      "t": "50 mg every 4 to 6 hours"
+     },
+     {
+      "t": "100 mg every 6 hours; maximum 400 mg daily"
+     },
+     {
+      "t": "Lowers seizure threshold; avoid in epilepsy or at risk of seizures",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "Tapentadol ER"
+     },
+     {
+      "t": "100 mg twice daily"
+     },
+     {
+      "t": "250 mg twice daily"
+     }
+    ],
+    {
+     "section": "Topical medications"
+    },
+    [
+     {
+      "t": "Lidocaine 5% patch"
+     },
+     {
+      "t": "1 patch daily"
+     },
+     {
+      "t": "3 patches daily"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Capsaicin 0.075% cream"
+     },
+     {
+      "t": "Four times daily"
+     },
+     {
+      "t": "NA"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Isosorbide dinitrate spray"
+     },
+     {
+      "t": "30 mg at bedtime applied to the bottom of the feet"
+     },
+     {
+      "t": "NA"
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "Anticonvulsants"
+    },
+    [
+     {
+      "t": "Pregabalin"
+     },
+     {
+      "t": "300 mg divided twice daily"
+     },
+     {
+      "t": "600 mg divided twice daily"
+     },
+     {
+      "t": "Side effects: dizziness, sedation, GI symptoms and mild peripheral oedema. Use cautiously in heart failure and with thiazolidinediones (cases of decompensated heart failure reported); renal insufficiency (creatinine clearance ≤30 ml/min/1.73 m2) requires dose adjustment"
+     }
+    ],
+    [
+     {
+      "t": "Gabapentin"
+     },
+     {
+      "t": "1,200 mg divided three times daily"
+     },
+     {
+      "t": "3,600 mg divided three times daily"
+     },
+     {
+      "t": "Side effects: dizziness, sedation, GI symptoms and mild peripheral oedema. Dose adjustment recommended in renal impairment"
+     }
+    ],
+    {
+     "section": "Tricyclic antidepressant"
+    },
+    [
+     {
+      "t": "Amitriptyline"
+     },
+     {
+      "t": "25 mg daily at bedtime"
+     },
+     {
+      "t": "150 mg daily at bedtime or divided twice daily"
+     },
+     {
+      "t": "Side effects: dry mouth, sedation, disturbed vision, arrhythmia, palpitations, postural hypotension, urinary retention and constipation. Contraindicated in cardiovascular disease (unstable angina, recent MI, heart failure, abnormal cardiac conduction) and glaucoma. Caution in elderly patients"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The table has no column headers in the PDF; the dose columns are read as usual and maximum dose.",
+    "Amitriptyline is listed under a second 'Anticonvulsants' heading in the PDF; it is a tricyclic antidepressant.",
+    "Gabapentin 'usual' 1,200 mg/day and amitriptyline max 150 mg differ from the palliative adjuvant table on p.293 (gabapentin max 2,400 mg/day; amitriptyline 10-75 mg)."
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-mdd-assessment",
+   "page": 308,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Major Depressive Disorder > Screening and Diagnosis of Major Depressive Disorder",
+   "caption": "Major depressive disorder: 8-step assessment, DSM-5/ICD-11 criteria (5 of 9 for 2+ weeks), severity classification and when to refer urgently",
+   "replaces_chunks": [
+    "ncdimh-0883",
+    "ncdimh-0884",
+    "ncdimh-0885",
+    "ncdimh-0886"
+   ],
+   "content": "Assessment steps:\n1. Screen: 'Have you felt sad/depressed most of the time for the past 2 weeks?' AND 'Have you lost interest in activities you usually enjoy?'\n2. Assess core symptoms: 5 or more of 9 criteria present for 2+ weeks.\n3. Assess functional impairment: work, relationships, self-care, daily activities.\n4. RULE OUT: bipolar disorder (past mania?), psychosis, medical causes (hypothyroidism, anaemia, HIV, stroke, diabetes).\n5. Screen for suicide/self-harm: 'Do you have thoughts of harming yourself or not wanting to live?'\n6. Assess alcohol and substance use (may co-occur or cause symptoms).\n7. Determine severity: mild / moderate / severe (any psychotic features?).\n8. DIAGNOSIS confirmed if 5+ criteria are met, at least 1 being depressed mood or anhedonia.\n\nDSM-5 / ICD-11 criteria (5 of 9, lasting 2+ weeks): depressed mood most of the day (or irritability in children/adolescents); markedly diminished interest or pleasure (anhedonia); significant weight loss/gain or appetite change; insomnia or hypersomnia nearly every day; psychomotor agitation or retardation (observable by others); fatigue or loss of energy nearly every day; feelings of worthlessness or excessive/inappropriate guilt; difficulty concentrating or making decisions; recurrent thoughts of death or suicidal ideation.\n\nSeverity: mild – few symptoms beyond the minimum, mild functional impairment; moderate – between mild and severe, moderate impairment; severe – most symptoms, marked impairment, may have psychotic features.\n\nWhen to refer urgently: active suicidal ideation with plan or intent; psychotic features (hallucinations, delusions); severe self-neglect or inability to care for self; no response after 2 adequate medication trials; suspected bipolar disorder.",
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Screen all clients accessing services for major depressive disorder with the PHQ-9 (self-administered or by a provider)."
+  },
+  {
+   "table_id": "ncdimh-tbl-antidepressants-summary",
+   "page": 309,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Major Depressive Disorder > Depression Management – Pharmacological Treatment",
+   "caption": "Antidepressants for moderate-severe depression: fluoxetine, amitriptyline, imipramine, sertraline, escitalopram: starting and usual doses and notes; psychoeducation and cautions",
+   "replaces_chunks": [
+    "ncdimh-0887",
+    "ncdimh-0888",
+    "ncdimh-0889",
+    "ncdimh-0890"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Starting Dose"
+     },
+     {
+      "t": "Usual Dose"
+     },
+     {
+      "t": "Notes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Fluoxetine (SSRI)"
+     },
+     {
+      "t": "10-20 mg mane"
+     },
+     {
+      "t": "20-60 mg/day"
+     },
+     {
+      "t": "First-line; only SSRI recommended for adolescents ≥12 yrs; avoid with MAOIs"
+     }
+    ],
+    [
+     {
+      "t": "Amitriptyline (TCA)"
+     },
+     {
+      "t": "25-50 mg nocte"
+     },
+     {
+      "t": "75-150 mg/day"
+     },
+     {
+      "t": "Effective; caution in cardiac disease, elderly, overdose risk"
+     }
+    ],
+    [
+     {
+      "t": "Imipramine (TCA)"
+     },
+     {
+      "t": "25-50 mg nocte"
+     },
+     {
+      "t": "75-200 mg/day"
+     },
+     {
+      "t": "Alternative TCA; monitor ECG if cardiac risk present"
+     }
+    ],
+    [
+     {
+      "t": "Sertraline (SSRI)"
+     },
+     {
+      "t": "25-50 mg/day"
+     },
+     {
+      "t": "50-200 mg/day"
+     },
+     {
+      "t": "Good tolerability; preferred in elderly and cardiac disease"
+     }
+    ],
+    [
+     {
+      "t": "Escitalopram (SSRI)"
+     },
+     {
+      "t": "5-10 mg/day"
+     },
+     {
+      "t": "10-20 mg/day"
+     },
+     {
+      "t": "Well tolerated; fewer drug interactions; good for elderly"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "This table makes fluoxetine first line; the MDD table on p.310 lists amitriptyline as '1st line' alongside SSRIs. Sertraline is 'preferred in elderly' here."
+   ],
+   "context_before": "Consider antidepressants for moderate-severe depression. Discuss with the person: not addictive; takes 2-4 weeks for effect; must be taken for 9-12 months minimum after remission.",
+   "table_note": "Psychoeducation & psychosocial interventions: depression is very common and NOT a sign of weakness or laziness; negative thoughts about self, world and future are symptoms, not reality; encourage regular activity, social engagement and pleasurable activities, regular sleep/wake times and meals; Problem Management Plus (PM+, WHO behavioural activation + problem solving); group interpersonal therapy (IPT); Thinking Healthy (CBT approach for perinatal depression); medications are NOT addictive (9-12 month course); never stop antidepressants abruptly – taper gradually. Cautions & special populations: if a manic episode occurs STOP the antidepressant immediately (may be bipolar disorder); do not combine antidepressants (serotonin syndrome); SSRIs may increase suicidal ideation in adolescents/young adults – weekly monitoring for the first 4 weeks; pregnancy: avoid if possible, if severe use the lowest effective dose with specialist input; breastfeeding: fluoxetine and sertraline generally safer; elderly: start low, go slow, monitor for falls and hyponatraemia (SSRIs); epilepsy: avoid tricyclics (lower seizure threshold)."
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-suicide-risk-depression-follow-up",
+   "page": 310,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Major Depressive Disorder > Suicide Risk Assessment and Follow-up",
+   "caption": "Depression: suicide risk assessment (mandatory), risk-level actions, follow-up schedule and PHQ-9 rescreening",
+   "replaces_chunks": [
+    "ncdimh-0891",
+    "ncdimh-0892",
+    "ncdimh-0893"
+   ],
+   "content": "SUICIDE RISK ASSESSMENT – mandatory in all depression cases. Ask directly: 'Are you having thoughts of harming yourself or ending your life?' If YES, assess: plan? method? intent? previous attempts? access to means (medications, weapons)?\n- HIGH RISK: hospitalise / urgent referral; remove access to lethal means immediately.\n- MEDIUM RISK: safety plan; close follow-up within 2-3 days; involve a trusted person/carer.\n- ALL risk levels: do not leave alone; mobilise social support; document the safety plan.\n\nFOLLOW-UP – depression (2 weeks initially, then monthly, then every 3 months):\n- Weeks 2-4: assess side effects and suicidal ideation (especially adolescents on SSRIs).\n- Weeks 4-6: has mood/interest improved? If no response, increase the dose or switch medication.\n- Weeks 8-12: full remission expected; reinforce adherence for the full course (9-12 months minimum).\n- After 9-12 months symptom-free: discuss gradual tapering over weeks to months.\n- 3+ recurrent episodes: consider long-term maintenance therapy.\n- Screen for re-emergence of symptoms at every follow-up after stopping treatment.\n\nPHQ-9 can be used for screening and follow-up: clients scoring 0-9 are rescreened every 6 months; those scoring 10 and above are reassessed 2 weeks after the initial visit and then at every follow-up visit.",
+   "footnotes": [],
+   "source_flags": [
+    "'Week 4-6: if no response increase dose or switch' conflicts with the prescribing rule on the same page ('consider second line after maximum dose for at least 8 weeks')."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-mdd-pharmacological",
+   "page": 310,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Major Depressive Disorder > Pharmacological Management of Major Depressive Disorder",
+   "caption": "Pharmacological management of major depressive disorder by line: TCA and SSRIs (1st), duloxetine (2nd), valproate and flunarizine (3rd), lorazepam for insomnia, antipsychotics (haloperidol, sulpiride, aripiprazole; risperidone, olanzapine 2nd line) for psychotic depression",
+   "replaces_chunks": [
+    "ncdimh-0894",
+    "ncdimh-0895",
+    "ncdimh-0896",
+    "ncdimh-0897",
+    "ncdimh-0898",
+    "ncdimh-0899"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Line"
+     },
+     {
+      "t": "Class"
+     },
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Dosage and frequency"
+     },
+     {
+      "t": "Contraindications"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1st line",
+      "rs": 3
+     },
+     {
+      "t": "Tricyclic antidepressants"
+     },
+     {
+      "t": "Amitriptyline"
+     },
+     {
+      "t": "Initial dose 25 mg PO nocte for 3 days then 50 mg PO nocte. Maximum dose 200 mg/24 hrs"
+     },
+     {
+      "t": "Urine retention, constipation, arrhythmia"
+     }
+    ],
+    [
+     {
+      "t": "Selective serotonin reuptake inhibitors",
+      "rs": 2
+     },
+     {
+      "t": "Fluoxetine"
+     },
+     {
+      "t": "Initial dose 10-20 mg PO nocte. Maximum dose 60-80 mg/24 hours"
+     },
+     {
+      "t": "Use with caution: bipolar disorder in a manic phase (may be useful for depressive phases); bleeding disorders such as haemophilia; type 1 or type 2 diabetes",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "Sertraline"
+     },
+     {
+      "t": "Initial dose 25-50 mg PO nocte. Maximum dose 200 mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "2nd line"
+     },
+     {
+      "t": "Serotonin norepinephrine reuptake inhibitor"
+     },
+     {
+      "t": "Duloxetine"
+     },
+     {
+      "t": "Initial dose 30 mg PO nocte"
+     },
+     {
+      "t": "Urolithiasis, AGE (as printed), cognitive dysfunction"
+     }
+    ],
+    [
+     {
+      "t": "3rd line",
+      "rs": 2
+     },
+     {
+      "t": "Anticonvulsant"
+     },
+     {
+      "t": "Sodium valproate"
+     },
+     {
+      "t": "200 mg twice a day"
+     },
+     {
+      "t": "Pregnancy, hepatic impairment"
+     }
+    ],
+    [
+     {
+      "t": "Calcium-channel blocker"
+     },
+     {
+      "t": "Flunarizine"
+     },
+     {
+      "t": "5 mg nocte"
+     },
+     {
+      "t": "Depression; constipation"
+     }
+    ],
+    {
+     "section": "PLUS sedatives if insomnia (MDD with insomnia)"
+    },
+    [
+     {
+      "t": "Sedative for insomnia"
+     },
+     {
+      "t": "Benzodiazepine"
+     },
+     {
+      "t": "Lorazepam PO"
+     },
+     {
+      "t": "1-2 mg nocte for 7 days"
+     },
+     {
+      "t": "Myasthenia gravis, sleep apnoea, bronchitis, and COPD"
+     }
+    ],
+    {
+     "section": "PLUS antipsychotics if psychotic symptoms (MDD with psychosis)"
+    },
+    [
+     {
+      "t": "1st line"
+     },
+     {
+      "t": "Typical antipsychotic"
+     },
+     {
+      "t": "Haloperidol"
+     },
+     {
+      "t": "Initial dose 1.5-3 mg PO nocte. Maximum dose 20 mg/24 hours"
+     },
+     {
+      "t": "Previous acute stroke or coma; severe intoxication with alcohol or other CNS depressants; allergy to haloperidol or other butyrophenones; heart disease"
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Selective D2 dopamine receptor antagonist"
+     },
+     {
+      "t": "Sulpiride"
+     },
+     {
+      "t": "Initial dose 50 mg PO nocte. Maximum dose 200 mg/24 hours"
+     },
+     {
+      "t": "Hypersensitivity to sulpiride; pre-existing breast cancer or other prolactin-dependent tumours; phaeochromocytoma; intoxication with other centrally-active drugs; concomitant levodopa; acute porphyria; comatose state or CNS depression; bone-marrow suppression"
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Atypical antipsychotic"
+     },
+     {
+      "t": "Aripiprazole"
+     },
+     {
+      "t": "Initial dose 2-5 mg PO nocte. Maximum dose 30 mg/24 hours"
+     },
+     {
+      "t": "History of alcohol abuse; depression; diabetes mellitus or family history of DM; drug abuse or dependence; hyperglycaemia; neuroleptic malignant syndrome (NMS); neutropenia; history of seizures – use with caution"
+     }
+    ],
+    [
+     {
+      "t": "2nd line",
+      "rs": 2
+     },
+     {
+      "t": "Atypical antipsychotic",
+      "rs": 2
+     },
+     {
+      "t": "Risperidone"
+     },
+     {
+      "t": "Initial dose 1-2 mg PO nocte. Maximum dose 8-12 mg/24 hours"
+     },
+     {
+      "t": "Risperidone and olanzapine are absolutely contraindicated in patients with hypertension, diabetes mellitus, obesity, and elderly patients. Check BMI, FBS, BP and PR before prescribing olanzapine and risperidone",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "Olanzapine"
+     },
+     {
+      "t": "Initial dose 5-10 mg PO nocte. Maximum dose 25 mg/24 hours"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Avoid chlorpromazine for patients with major depressive disorder."
+   ],
+   "source_flags": [
+    "Flunarizine (a calcium-channel blocker used for migraine/vertigo) is listed as 3rd-line treatment for depression, while its own contraindication column lists 'Depression'; flunarizine can cause depression. Sodium valproate is also not an antidepressant. Clinician to confirm.",
+    "Fluoxetine is given 'nocte' here but 'mane' on p.309; amitriptyline is 1st line here but fluoxetine is first line on p.309.",
+    "Duloxetine contraindications 'Urolithiasis, AGE, cognitive dysfunction' are printed as is (AGE unexplained); sertraline/fluoxetine 'contraindications' list type 1 or 2 diabetes.",
+    "Aripiprazole 'contraindications' list depression, although it is listed here for depression with psychosis. 'Absolutely contraindicated' for risperidone/olanzapine in all elderly, hypertensive, diabetic or obese patients is stronger than usual guidance.",
+    "'Amitryptyline', 'Sulpride', 'Norepinehrine' printed. Table continues onto pp.311-312."
+   ],
+   "pages": [
+    310,
+    311,
+    312
+   ],
+   "context_before": "General prescribing rules: 1. prescribe one antidepressant or antipsychotic at a time; 2. consider second line after the maximum dose for at least 8 weeks without significant improvement; 3. do not prescribe anti-muscarinics routinely; manage side effects."
+  },
+  {
+   "table_id": "ncdimh-tbl-mdd-special-cases",
+   "page": 312,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Major Depressive Disorder > Special cases",
+   "caption": "Major depressive disorder special cases: children under 12, pregnancy and breastfeeding, psychotic depression, bipolar depression, emerging mania, PLHIV drug interactions",
+   "replaces_chunks": [
+    "ncdimh-0900"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Special Case"
+     },
+     {
+      "t": "Intervention"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If younger than 12 years"
+     },
+     {
+      "t": "No antidepressants; provide counselling then refer"
+     }
+    ],
+    [
+     {
+      "t": "Pregnant women and breastfeeding mothers"
+     },
+     {
+      "t": "Antidepressants should be avoided as far as possible, then refer"
+     }
+    ],
+    [
+     {
+      "t": "Depression with psychotic symptoms"
+     },
+     {
+      "t": "Prescribe antidepressants + antipsychotics"
+     }
+    ],
+    [
+     {
+      "t": "BAD (bipolar affective disorder), depressive phase"
+     },
+     {
+      "t": "Prescribe mood stabilizer + antidepressant + antipsychotic"
+     }
+    ],
+    [
+     {
+      "t": "If symptoms of mania emerge during treatment of depression"
+     },
+     {
+      "t": "Immediately stop antidepressants and refer"
+     }
+    ],
+    [
+     {
+      "t": "PLHIV"
+     },
+     {
+      "t": "Nevirapine may decrease the level of fluoxetine; ritonavir increases levels of amitriptyline and fluoxetine; darunavir decreases the level of sertraline; fluvoxamine increases levels of PIs and NNRTIs; carbamazepine is contraindicated as it increases levels of PIs and NNRTIs (as printed)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Carbamazepine is a CYP3A4 inducer and usually DEcreases PI/NNRTI levels; 'increases' is printed. Pregnancy/breastfeeding advice here ('avoid') differs from p.309 (fluoxetine and sertraline safer in breastfeeding)."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-alcohol-withdrawal-sedative",
+   "page": 316,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Substance Use Disorder > Alcohol Withdrawal Syndrome",
+   "caption": "Alcohol withdrawal syndrome: benzodiazepine (lorazepam) dosing, PAWSS and CIWA-Ar/SAWS assessment, outpatient vs inpatient",
+   "replaces_chunks": [
+    "ncdimh-0910"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Class"
+     },
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Dosage and Frequency"
+     },
+     {
+      "t": "Contraindications"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Sedatives for insomnia: benzodiazepine"
+     },
+     {
+      "t": "Lorazepam PO"
+     },
+     {
+      "t": "1-2 mg nocte for 7 days"
+     },
+     {
+      "t": "Myasthenia gravis, sleep apnoea, bronchitis, and COPD"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The only benzodiazepine regimen given for alcohol withdrawal is the insomnia regimen 'lorazepam 1-2 mg nocte for 7 days', which is not a withdrawal regimen (usually symptom-triggered or fixed-schedule dosing, e.g. diazepam or chlordiazepoxide). Clinician to confirm."
+   ],
+   "context_before": "Alcohol withdrawal starts 4-12 hours after the last drink (anxiety, agitation, tremor, sympathetic activation; severe: seizures and delirium tremens, potentially fatal); symptoms may last up to 5 days. Mild to moderate withdrawal can be managed as an outpatient in primary care with benzodiazepines; severe withdrawal or complicating conditions need inpatient management. Use the PAWSS to predict severe withdrawal (score <4 = low risk, suitable for outpatient care).",
+   "table_note": "Where withdrawal symptoms are present, assess severity with a validated instrument: the Clinical Institute Withdrawal Assessment for Alcohol, Revised (CIWA-Ar), or the self-completed 10-item Short Alcohol Withdrawal Scale (SAWS)."
+  },
+  {
+   "table_id": "ncdimh-tbl-alcohol-dependence-drugs",
+   "page": 317,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Substance Use Disorder > Alcohol dependence: pharmacological management",
+   "caption": "Medicines for alcohol dependence: acamprosate, naltrexone (oral and XR injectable), disulfiram, gabapentin, topiramate: doses and contraindications",
+   "replaces_chunks": [
+    "ncdimh-0912",
+    "ncdimh-0913",
+    "ncdimh-0914"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Line"
+     },
+     {
+      "t": "Class"
+     },
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Dosage and Frequency"
+     },
+     {
+      "t": "Contraindications / Cautions"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1st line"
+     },
+     {
+      "t": "Organosulfonic acids"
+     },
+     {
+      "t": "Acamprosate"
+     },
+     {
+      "t": "Weight <60 kg: 666 mg once daily at breakfast and 333 mg twice daily at midday and night (maximum 1332 mg). Adults >60 kg: 666 mg TID. Start as soon as the patient has abstained from alcohol, within 7 days"
+     },
+     {
+      "t": "Do not prescribe if CrCl <30 mL/min or eGFR <30 mL/min/1.73 m2. Hypersensitivity to the active substance or excipients. Breast-feeding women"
+     }
+    ],
+    [
+     {
+      "t": "1st line",
+      "rs": 2
+     },
+     {
+      "t": "Opiate antagonists (recommend XR naltrexone if adherence to oral is a concern; start naltrexone even if patients continue to use alcohol)",
+      "rs": 2
+     },
+     {
+      "t": "Naltrexone oral"
+     },
+     {
+      "t": "Initial dose 25 mg OD; increase to 50 mg per day over about 1 week. Maintenance 50 mg once daily; if adverse events, consider 25 mg once daily. Maximum 100 mg daily"
+     },
+     {
+      "t": "Absolute contraindication: acute hepatitis or liver failure; taking opioid analgesics; currently physically dependent on opioids, including those maintained on opioid agonists (e.g. methadone) or partial agonists (e.g. buprenorphine); acute opioid withdrawal",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "XR naltrexone, long-acting injectable"
+     },
+     {
+      "t": "Initial: oral naltrexone 50 mg once daily for at least 3 days. Maintenance: 380 mg intragluteal injection every 28 days"
+     }
+    ],
+    [
+     {
+      "t": "2nd line"
+     },
+     {
+      "t": "Alcohol antagonists"
+     },
+     {
+      "t": "Disulfiram"
+     },
+     {
+      "t": "500 mg once daily for 1 to 2 weeks, then 250 mg once daily. Maintenance 250 mg once a day (range 125-500 mg). Maximum 500 mg once a day"
+     },
+     {
+      "t": "Absolute contraindication: recent or concomitant metronidazole, paraldehyde, alcohol or alcohol-containing preparations (e.g. cough syrups, tonics); coronary artery disease; recent myocardial infarction; psychoses; acute hepatitis or acute liver failure"
+     }
+    ],
+    [
+     {
+      "t": "3rd line",
+      "rs": 2
+     },
+     {
+      "t": "Anticonvulsants (not FDA approved but found beneficial)",
+      "rs": 2
+     },
+     {
+      "t": "Gabapentin"
+     },
+     {
+      "t": "Initial 300 mg once daily; increase by 300 mg every 1 to 2 days by response and tolerability. Maintenance individualised, generally in 3 divided doses, up to 2,400 mg or 3,600 mg per day"
+     },
+     {
+      "t": "Caution: gabapentin can be misused for its psychoactive effect, alone or with opioids, benzodiazepines and alcohol"
+     }
+    ],
+    [
+     {
+      "t": "Topiramate"
+     },
+     {
+      "t": "Initial 25 mg once daily; increase by 50 mg each week to a maximum of 400 mg daily in 2 divided doses. Maintenance 200-400 mg daily in 2 doses. Moderate-to-severe renal impairment: 50% dose reduction"
+     },
+     {
+      "t": "Halve the dose in adults with CrCl ≤70 mL/min or eGFR ≤70 mL/min/1.73 m2"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.318 with the header repeated."
+   ],
+   "pages": [
+    317,
+    318
+   ],
+   "context_before": "Alcohol dependence: three main classes of drugs are recommended: (i) organosulfonic acids, (ii) opiate antagonists, (iii) alcohol antagonists."
+  },
+  {
+   "table_id": "ncdimh-tbl-gad-drugs",
+   "page": 322,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Anxiety Disorders > Pharmacological Management of Generalized Anxiety Disorder",
+   "caption": "Generalized anxiety disorder medicines: SSRIs (fluoxetine, sertraline) first line, plus lorazepam if insomnia",
+   "replaces_chunks": [
+    "ncdimh-0922",
+    "ncdimh-0923",
+    "ncdimh-0924"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Line"
+     },
+     {
+      "t": "Class"
+     },
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Dosage and Frequency"
+     },
+     {
+      "t": "Contraindications"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1st line",
+      "rs": 2
+     },
+     {
+      "t": "Selective serotonin reuptake inhibitors",
+      "rs": 2
+     },
+     {
+      "t": "Fluoxetine"
+     },
+     {
+      "t": "Initial dose 10-20 mg PO nocte. Maximum dose 60-80 mg/24 hours"
+     },
+     {
+      "t": "Use with caution: bipolar disorder in a manic phase (may be useful for depressive phases); bleeding disorders such as haemophilia; type 1 or type 2 diabetes",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "Sertraline"
+     },
+     {
+      "t": "Initial dose 25 mg PO nocte. Maximum dose 200 mg/24 hours"
+     }
+    ],
+    {
+     "section": "PLUS a sedative with anxiolytic effect if insomnia is a presenting symptom (GAD with insomnia)"
+    },
+    [
+     {
+      "t": "Sedative for insomnia"
+     },
+     {
+      "t": "Benzodiazepine"
+     },
+     {
+      "t": "Lorazepam PO"
+     },
+     {
+      "t": "1-2 mg nocte for 7 days"
+     },
+     {
+      "t": "Myasthenia gravis, sleep apnoea, bronchitis, and COPD"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Fluoxetine and sertraline are given 'nocte'; SSRIs are usually given in the morning (fluoxetine is 'mane' on p.309)."
+   ],
+   "context_before": "Generalized anxiety disorder responds better to psychotherapy and low-dose SSRIs. Prescribing rules: one antidepressant at a time; do not prescribe anti-muscarinics routinely, manage side effects."
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-suicide-warning-signs",
+   "page": 323,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Suicide > Warning Signs of Suicidal Behaviour",
+   "caption": "Warning signs of suicidal behaviour",
+   "replaces_chunks": [
+    "ncdimh-0927"
+   ],
+   "content": "Warning signs to look out for: feeling like a burden; being isolated; increased anxiety; talking about feeling trapped or in unbearable pain; increased substance use; looking for a way to access lethal means; increased anger or rage; extreme mood swings; expressing hopelessness and having no reason to live; sleeping too little or too much; talking or posting about wanting to die or to kill oneself; making plans for suicide; giving away prized possessions; showing rage or talking about seeking revenge; suddenly coming out of being hopeless; not wanting to complete projects one has started.",
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Suicidal behaviour is any thought, action or behaviour indicating intent or desire to end one's life: suicidal ideation, suicide plan, suicide attempt, completed suicide. It emerges from individual, interpersonal, communal and societal factors."
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-suicidal-behaviour-diagnostic-features",
+   "page": 324,
+   "image_only": false,
+   "heading_path": "Chapter 13: Psychiatry > Suicide > Diagnostic Features of Suicidal Behaviour",
+   "caption": "Diagnostic features of suicidal behaviour disorder (DSM-5)",
+   "replaces_chunks": [
+    "ncdimh-0929"
+   ],
+   "content": "a. The act: 1. has been attempted within the last 24 months; 2. does not meet criteria for non-suicidal self-injury (self-injury to produce a positive mood); 3. is not applied to suicidal ideation or preparatory acts; 4. was not initiated during a state of delirium or confusion; 5. was not undertaken solely for a political or religious objective.\nb. The behaviour or its consequences cause clinically significant distress or interference in interpersonal, academic, or other important areas of functioning.\nc. The behaviour does not occur exclusively during psychotic episodes, delirium, substance intoxication, or substance withdrawal.",
+   "footnotes": [],
+   "source_flags": []
   }
  ],
  "text_labels": {
@@ -20987,11 +24913,120 @@
   "ncdimh-0700": "Chapter 8: Neurology > Epilepsy > Diagnosis of Epilepsy",
   "ncdimh-0705": "Chapter 8: Neurology > Epilepsy > Pharmacological Treatment > Principles",
   "ncdimh-0712": "Chapter 8: Neurology > Epilepsy > When to start AEDs",
-  "ncdimh-0714": "Chapter 8: Neurology > Epilepsy > Complications and Emergencies of Epilepsy"
+  "ncdimh-0714": "Chapter 8: Neurology > Epilepsy > Complications and Emergencies of Epilepsy",
+  "ncdimh-0718": "Chapter 9: Oncology > Introduction",
+  "ncdimh-0719": "Chapter 9: Oncology > Cervical Cancer > Screening Recommendations",
+  "ncdimh-0721": "Chapter 9: Oncology > Cervical Cancer > Screening abbreviations (VIA, VILI)",
+  "ncdimh-0726": "Chapter 9: Oncology > Adult Lymphomas > Definition and Classification",
+  "ncdimh-0727": "Chapter 9: Oncology > Adult Lymphomas > Screening, Signs and Symptoms, Risk Factors",
+  "ncdimh-0729": "Chapter 9: Oncology > Adult Lymphomas > Risk Factors and Patient Assessment",
+  "ncdimh-0730": "Chapter 9: Oncology > Breast Cancer > Definition and Classification",
+  "ncdimh-0731": "Chapter 9: Oncology > Breast Cancer > Metastases and Risk Factors",
+  "ncdimh-0733": "Chapter 9: Oncology > Breast Cancer > Screening and Diagnosis",
+  "ncdimh-0734": "Chapter 9: Oncology > Breast Cancer > Screening Modalities",
+  "ncdimh-0743": "Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Step 1: Visual Inspection",
+  "ncdimh-0744": "Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Steps 2-3: Nodal Examination and Palpation",
+  "ncdimh-0748": "Chapter 9: Oncology > Breast Cancer > Treatment Targets and Management",
+  "ncdimh-0749": "Chapter 9: Oncology > Breast Cancer > Management in Special Populations (pregnancy)",
+  "ncdimh-0750": "Chapter 9: Oncology > Childhood Cancers > Definition and Common Childhood Cancers",
+  "ncdimh-0751": "Chapter 9: Oncology > Childhood Cancers > Warning Signs of Childhood Cancers",
+  "ncdimh-0759": "Chapter 9: Oncology > Colorectal Cancer > Definition and Classification",
+  "ncdimh-0761": "Chapter 9: Oncology > Colorectal Cancer > Prevention",
+  "ncdimh-0762": "Chapter 9: Oncology > Colorectal Cancer > Screening and High-Risk Patients",
+  "ncdimh-0763": "Chapter 9: Oncology > Colorectal Cancer > Patient Assessment",
+  "ncdimh-0764": "Chapter 9: Oncology > Colorectal Cancer > Screening Modalities",
+  "ncdimh-0765": "Chapter 9: Oncology > Colorectal Cancer > Diagnostic Work Up",
+  "ncdimh-0766": "Chapter 9: Oncology > Colorectal Cancer > Staging of Colorectal Cancer (TNM)",
+  "ncdimh-0767": "Chapter 9: Oncology > Colorectal Cancer > Staging Summary; Non-Pharmacological Management (aspirin)",
+  "ncdimh-0768": "Chapter 9: Oncology > Colorectal Cancer > Treatment Targets and Management",
+  "ncdimh-0769": "Chapter 9: Oncology > Colorectal Cancer > Management: rectal and anal cancers",
+  "ncdimh-0770": "Chapter 9: Oncology > Colorectal Cancer > Management: chemotherapy regimens; Survivorship and Follow-up",
+  "ncdimh-0771": "Chapter 9: Oncology > Colorectal Cancer > Management in Special Populations",
+  "ncdimh-0772": "Chapter 9: Oncology > Oral & Maxillofacial Cancers > Definition, Classification and Risk Factors",
+  "ncdimh-0773": "Chapter 9: Oncology > Oral & Maxillofacial Cancers > Clinical Features",
+  "ncdimh-0774": "Chapter 9: Oncology > Oral & Maxillofacial Cancers > Visual Screening Examination",
+  "ncdimh-0775": "Chapter 9: Oncology > Oral & Maxillofacial Cancers > Visual Screening Examination",
+  "ncdimh-0778": "Chapter 9: Oncology > Prostate Cancer > Definition, Classification and Screening",
+  "ncdimh-0779": "Chapter 9: Oncology > Prostate Cancer > PSA Levels",
+  "ncdimh-0783": "Chapter 9: Oncology > Prostate Cancer > Signs and Symptoms",
+  "ncdimh-0785": "Chapter 9: Oncology > Prostate Cancer > Staging (TNM) and Treatment Targets",
+  "ncdimh-0786": "Chapter 9: Oncology > Prostate Cancer > Management of Prostate Cancer",
+  "ncdimh-0787": "Chapter 9: Oncology > Prostate Cancer > General Principles of Management by Category",
+  "ncdimh-0789": "Chapter 9: Oncology > Prostate Cancer > Systemic Therapy",
+  "ncdimh-0790": "Chapter 9: Oncology > Prostate Cancer > Supportive Care",
+  "ncdimh-0791": "Chapter 9: Oncology > Prostate Cancer > Complications; Follow-up and Survivorship",
+  "ncdimh-0792": "Chapter 9: Oncology > Prostate Cancer > Management in Special Populations",
+  "ncdimh-0793": "Chapter 10: Ophthalmology > Cataract > Definition",
+  "ncdimh-0794": "Chapter 10: Ophthalmology > Cataract > Classification of Cataract",
+  "ncdimh-0795": "Chapter 10: Ophthalmology > Cataract > Screening and Diagnosis of Cataract",
+  "ncdimh-0798": "Chapter 10: Ophthalmology > Cataract > Non-Pharmacological Management of Cataract",
+  "ncdimh-0799": "Chapter 10: Ophthalmology > Cataract > Complications of Cataract; Diabetic Retinopathy definition",
+  "ncdimh-0806": "Chapter 10: Ophthalmology > Diabetic Retinopathy > Non-Pharmacological Management",
+  "ncdimh-0807": "Chapter 10: Ophthalmology > Diabetic Retinopathy > Complications and Special Populations (pregnancy)",
+  "ncdimh-0808": "Chapter 10: Ophthalmology > Glaucoma > Definition and Classification",
+  "ncdimh-0809": "Chapter 10: Ophthalmology > Glaucoma > Who to Screen and Screening",
+  "ncdimh-0812": "Chapter 10: Ophthalmology > Glaucoma > Patient Assessment",
+  "ncdimh-0813": "Chapter 10: Ophthalmology > Glaucoma > Non-Pharmacological Management of Glaucoma",
+  "ncdimh-0824": "Chapter 10: Ophthalmology > Glaucoma > Complications of Glaucoma; Chapter 11 Palliation: definition",
+  "ncdimh-0825": "Chapter 11: Palliation > Palliative Care: definition and benefits; Pain definition",
+  "ncdimh-0827": "Chapter 11: Palliation > Pain Management > Pain Assessment",
+  "ncdimh-0828": "Chapter 11: Palliation > Pain Management > Pain Scoring Tools > Numerical Rating Scale",
+  "ncdimh-0829": "Chapter 11: Palliation > Pain Management > Pain Scoring Tools > Wong-Baker, Five Fingers, FLACC",
+  "ncdimh-0830": "Chapter 11: Palliation > Pain Management > Management of Pain (WHO ladder)",
+  "ncdimh-0837": "Chapter 11: Palliation > Palliative Care in the Trajectory of the Patient's Illness",
+  "ncdimh-0842": "Chapter 11: Palliation > Palliative care at home",
+  "ncdimh-0843": "Chapter 11: Palliation > Pain Management > Morphine: dose calculation, paediatric dose, side effects, naloxone",
+  "ncdimh-0849": "Chapter 12: Podiatry > Diabetic Foot > Algorithm A",
+  "ncdimh-0853": "Chapter 12: Podiatry > Diabetic Foot > Screening: Semmes-Weinstein Monofilament Examination",
+  "ncdimh-0854": "Chapter 12: Podiatry > Diabetic Foot > Screening: How and where to perform SWME",
+  "ncdimh-0857": "Chapter 12: Podiatry > Diabetic Foot > Diabetic Foot Ulcers",
+  "ncdimh-0858": "Chapter 12: Podiatry > Diabetic Foot > Diabetic Foot Ulcers: Non-pharmacological and Pharmacological Treatment",
+  "ncdimh-0859": "Chapter 12: Podiatry > Diabetic Foot > Diabetic Foot Ulcers: Surgical Management",
+  "ncdimh-0861": "Chapter 12: Podiatry > Diabetic Foot > Importance of Off-Loading in DFU Management",
+  "ncdimh-0864": "Chapter 12: Podiatry > Diabetic Foot > Negative Pressure Wound Therapy (NPWT)",
+  "ncdimh-0865": "Chapter 12: Podiatry > Post-Amputation Management > Immediate Post-Operative Care",
+  "ncdimh-0866": "Chapter 12: Podiatry > Post-Amputation Management > Infection Prevention; Rehabilitation and Mobility Support",
+  "ncdimh-0867": "Chapter 12: Podiatry > Post-Amputation Management > Long-Term Rehabilitation and Psychological Screening",
+  "ncdimh-0868": "Chapter 12: Podiatry > Post-Amputation Management > Peer Support; Prevention of Complications",
+  "ncdimh-0869": "Chapter 12: Podiatry > Post-Amputation Management > Vascular Health and Circulation",
+  "ncdimh-0870": "Chapter 12: Podiatry > Post-Amputation Management > Pressure Ulcer Prevention; Follow-Up",
+  "ncdimh-0871": "Chapter 12: Podiatry > Post-Amputation Management > Multidisciplinary Team Involvement",
+  "ncdimh-0872": "Chapter 12: Podiatry > Post-Amputation Management > Special Considerations (elderly, paediatric)",
+  "ncdimh-0873": "Chapter 12: Podiatry > Peripheral Neuropathy > Definition, Classification and Clinical Presentation",
+  "ncdimh-0875": "Chapter 12: Podiatry > Peripheral Neuropathy > Clinical Presentation",
+  "ncdimh-0880": "Chapter 12: Podiatry > Peripheral Arterial Disease (PAD)",
+  "ncdimh-0881": "Chapter 13: Psychiatry > Major Depressive Disorder > Definition and Classes of Depressive Disorders",
+  "ncdimh-0882": "Chapter 13: Psychiatry > Major Depressive Disorder > Screening and Diagnosis (PHQ-9)",
+  "ncdimh-0901": "Chapter 13: Psychiatry > Major Depressive Disorder > Complications",
+  "ncdimh-0902": "Chapter 13: Psychiatry > Major Depressive Disorder > Emergencies, Comorbidities and Special Populations",
+  "ncdimh-0903": "Chapter 13: Psychiatry > Substance Use Disorder > Definitions (intoxication, overdose)",
+  "ncdimh-0904": "Chapter 13: Psychiatry > Substance Use Disorder > Definitions (withdrawal, harmful use, dependence); Screening",
+  "ncdimh-0905": "Chapter 13: Psychiatry > Substance Use Disorder > Diagnostic Criteria (DSM-5, alcohol use disorder)",
+  "ncdimh-0906": "Chapter 13: Psychiatry > Substance Use Disorder > Patient Assessment",
+  "ncdimh-0907": "Chapter 13: Psychiatry > Substance Use Disorder > Non-Pharmacological Management",
+  "ncdimh-0908": "Chapter 13: Psychiatry > Substance Use Disorder > Managing Withdrawal Syndrome",
+  "ncdimh-0909": "Chapter 13: Psychiatry > Substance Use Disorder > Alcohol Withdrawal Syndrome",
+  "ncdimh-0911": "Chapter 13: Psychiatry > Substance Use Disorder > Alcohol Withdrawal Syndrome > Severity assessment",
+  "ncdimh-0915": "Chapter 13: Psychiatry > Substance Use Disorder > Treatment Targets",
+  "ncdimh-0916": "Chapter 13: Psychiatry > Substance Use Disorder > Complications and In-Hospital Management of AUD",
+  "ncdimh-0917": "Chapter 13: Psychiatry > Substance Use Disorder > Management in Special Populations; Anxiety Disorders definition",
+  "ncdimh-0918": "Chapter 13: Psychiatry > Anxiety Disorders > Types and Screening",
+  "ncdimh-0919": "Chapter 13: Psychiatry > Anxiety Disorders > Diagnostic Criteria (GAD)",
+  "ncdimh-0920": "Chapter 13: Psychiatry > Anxiety Disorders > Patient Assessment",
+  "ncdimh-0921": "Chapter 13: Psychiatry > Anxiety Disorders > Patient Literacy, Non-Pharmacological Management and Prescribing Rules",
+  "ncdimh-0925": "Chapter 13: Psychiatry > Anxiety Disorders > Treatment Targets, Complications and Special Populations",
+  "ncdimh-0926": "Chapter 13: Psychiatry > Suicide > Introduction and Suicidal Behaviour",
+  "ncdimh-0930": "Chapter 13: Psychiatry > Suicide > Assessment of Patients with Suicidal Behaviour",
+  "ncdimh-0931": "Chapter 13: Psychiatry > Suicide > Differential Diagnosis and Management of Suicide",
+  "ncdimh-0932": "Chapter 13: Psychiatry > Suicide > Management: Pharmacotherapy",
+  "ncdimh-0933": "Chapter 13: Psychiatry > Suicide > Psychosocial Management",
+  "ncdimh-0934": "Chapter 13: Psychiatry > Suicide > Psychosocial Management > Offer Support to the Person",
+  "ncdimh-0935": "Chapter 13: Psychiatry > Suicide > Psychosocial Management > Activate Psychosocial Support",
+  "ncdimh-0936": "Chapter 13: Psychiatry > Suicide > Referral, Linkages and Follow-Up"
  },
  "text_fix_pages": [
   1,
-  250
+  326
  ],
  "text_merge": {
   "ncdimh-0319": "ncdimh-0317",
@@ -21001,9 +25036,12 @@
   "ncdimh-0512": "ncdimh-0508",
   "ncdimh-0525": "ncdimh-0527",
   "ncdimh-0538": "ncdimh-0542",
-  "ncdimh-0564": "ncdimh-0562"
+  "ncdimh-0564": "ncdimh-0562",
+  "ncdimh-0875": "ncdimh-0873"
  },
  "text_drop": [
-  "ncdimh-0690"
+  "ncdimh-0690",
+  "ncdimh-0721",
+  "ncdimh-0842"
  ]
 }

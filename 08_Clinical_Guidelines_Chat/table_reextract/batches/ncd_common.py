@@ -23,3 +23,8 @@ CH6 = "Chapter 6: Injuries and Trauma"
 CH7 = "Chapter 7: Nephrology"
 CH8 = "Chapter 8: Neurology"
 def L(*xs): return C("<br/>".join("- " + x for x in xs))
+CH9 = "Chapter 9: Oncology"
+CH10 = "Chapter 10: Ophthalmology"
+CH11 = "Chapter 11: Palliation"
+CH12 = "Chapter 12: Podiatry"
+CH13 = "Chapter 13: Psychiatry"

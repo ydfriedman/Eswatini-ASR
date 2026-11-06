@@ -520,6 +520,112 @@ ncdimh-0712,replaced,ncdimh-fig-epilepsy-long-term-treatment
 ncdimh-0713,replaced,ncdimh-fig-epilepsy-long-term-treatment
 ncdimh-0714,replaced,ncdimh-fig-epilepsy-long-term-treatment
 ncdimh-0717,replaced,ncdimh-fig-status-epilepticus
+ncdimh-0720,replaced,ncdimh-fig-cervical-screening-algorithm
+ncdimh-0722,replaced,ncdimh-tbl-cervical-screening-summary
+ncdimh-0723,replaced,ncdimh-tbl-via-results-management
+ncdimh-0724,replaced,ncdimh-tbl-cervical-special-populations
+ncdimh-0725,replaced,ncdimh-tbl-cervical-special-populations
+ncdimh-0728,replaced,ncdimh-tbl-lymphoma-investigations
+ncdimh-0732,replaced,ncdimh-tbl-breast-cancer-risk
+ncdimh-0735,replaced,ncdimh-tbl-breast-cancer-diagnostics
+ncdimh-0736,replaced,ncdimh-tbl-breast-cancer-diagnostics
+ncdimh-0737,replaced,ncdimh-tbl-breast-cancer-diagnostics
+ncdimh-0739,replaced,ncdimh-tbl-breast-cancer-diagnostics
+ncdimh-0740,replaced,ncdimh-tbl-breast-cancer-diagnostics
+ncdimh-0741,replaced,ncdimh-box-breast-self-exam
+ncdimh-0742,replaced,ncdimh-box-breast-self-exam
+ncdimh-0745,replaced,ncdimh-box-cbe-what-to-look-for
+ncdimh-0746,replaced,ncdimh-box-cbe-what-to-look-for
+ncdimh-0747,replaced,ncdimh-fig-breast-early-referral
+ncdimh-0752,replaced,ncdimh-tbl-childhood-cancer-warning-signs
+ncdimh-0753,replaced,ncdimh-tbl-childhood-cancer-warning-signs
+ncdimh-0754,replaced,ncdimh-tbl-childhood-cancer-suspicious-features
+ncdimh-0755,replaced,ncdimh-tbl-childhood-cancer-suspicious-features
+ncdimh-0756,replaced,ncdimh-tbl-childhood-cancer-suspicious-features
+ncdimh-0757,replaced,ncdimh-tbl-childhood-cancer-suspicious-features
+ncdimh-0758,replaced,ncdimh-fig-childhood-cancer-referral
+ncdimh-0760,replaced,ncdimh-tbl-crc-risk-factors
+ncdimh-0776,replaced,ncdimh-fig-oral-lesion-algorithm
+ncdimh-0777,replaced,ncdimh-fig-oral-lesion-algorithm
+ncdimh-0780,replaced,ncdimh-tbl-psa-risk-stratification
+ncdimh-0781,replaced,ncdimh-tbl-psa-risk-stratification
+ncdimh-0782,replaced,ncdimh-tbl-psa-risk-stratification
+ncdimh-0784,replaced,ncdimh-tbl-prostate-diagnostics
+ncdimh-0788,replaced,ncdimh-tbl-prostate-management-by-risk
+ncdimh-0796,replaced,ncdimh-fig-cataract-workflow
+ncdimh-0797,replaced,ncdimh-fig-cataract-workflow
+ncdimh-0800,replaced,ncdimh-tbl-dr-classification
+ncdimh-0801,replaced,ncdimh-tbl-dr-classification
+ncdimh-0802,replaced,ncdimh-tbl-dr-screening-schedule
+ncdimh-0803,replaced,ncdimh-tbl-dr-screening-schedule
+ncdimh-0804,replaced,ncdimh-fig-dr-screening-flowchart
+ncdimh-0805,replaced,ncdimh-fig-dr-screening-flowchart
+ncdimh-0810,replaced,ncdimh-tbl-glaucoma-acute-vs-chronic
+ncdimh-0811,replaced,ncdimh-tbl-glaucoma-acute-vs-chronic
+ncdimh-0814,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0815,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0816,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0817,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0818,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0819,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0821,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0822,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0823,replaced,ncdimh-tbl-glaucoma-drugs
+ncdimh-0826,replaced,ncdimh-tbl-pain-types
+ncdimh-0831,replaced,ncdimh-fig-who-analgesic-ladder
+ncdimh-0832,replaced,ncdimh-fig-who-analgesic-ladder
+ncdimh-0833,replaced,ncdimh-tbl-analgesic-doses
+ncdimh-0834,replaced,ncdimh-tbl-analgesic-doses
+ncdimh-0835,replaced,ncdimh-tbl-opioid-equianalgesic
+ncdimh-0836,replaced,ncdimh-tbl-opioids-in-ckd
+ncdimh-0838,replaced,ncdimh-fig-palliative-care-trajectory-levels
+ncdimh-0840,replaced,ncdimh-fig-palliative-care-trajectory-levels
+ncdimh-0841,replaced,ncdimh-fig-palliative-care-trajectory-levels
+ncdimh-0844,replaced,ncdimh-tbl-adjuvant-analgesics
+ncdimh-0845,replaced,ncdimh-tbl-adjuvant-analgesics
+ncdimh-0846,replaced,ncdimh-tbl-wagner-classification
+ncdimh-0847,replaced,ncdimh-tbl-ut-classification
+ncdimh-0848,replaced,ncdimh-tbl-ut-classification
+ncdimh-0850,replaced,ncdimh-fig-diabetic-foot-algorithm-a
+ncdimh-0851,replaced,ncdimh-fig-diabetic-foot-algorithm-a
+ncdimh-0852,replaced,ncdimh-fig-diabetic-foot-algorithm-b
+ncdimh-0855,replaced,ncdimh-box-tuning-fork-test
+ncdimh-0856,replaced,ncdimh-tbl-diabetic-foot-risk
+ncdimh-0860,replaced,ncdimh-fig-dfu-key-steps
+ncdimh-0862,replaced,ncdimh-tbl-dfu-offloading
+ncdimh-0863,replaced,ncdimh-tbl-dfu-offloading
+ncdimh-0874,replaced,ncdimh-tbl-peripheral-neuropathy-types
+ncdimh-0876,replaced,ncdimh-fig-painful-diabetic-neuropathy
+ncdimh-0877,replaced,ncdimh-fig-painful-diabetic-neuropathy
+ncdimh-0878,replaced,ncdimh-tbl-neuropathic-pain-drugs
+ncdimh-0879,replaced,ncdimh-tbl-neuropathic-pain-drugs
+ncdimh-0883,replaced,ncdimh-box-mdd-assessment
+ncdimh-0884,replaced,ncdimh-box-mdd-assessment
+ncdimh-0885,replaced,ncdimh-box-mdd-assessment
+ncdimh-0886,replaced,ncdimh-box-mdd-assessment
+ncdimh-0887,replaced,ncdimh-tbl-antidepressants-summary
+ncdimh-0888,replaced,ncdimh-tbl-antidepressants-summary
+ncdimh-0889,replaced,ncdimh-tbl-antidepressants-summary
+ncdimh-0890,replaced,ncdimh-tbl-antidepressants-summary
+ncdimh-0891,replaced,ncdimh-box-suicide-risk-depression-follow-up
+ncdimh-0892,replaced,ncdimh-box-suicide-risk-depression-follow-up
+ncdimh-0893,replaced,ncdimh-box-suicide-risk-depression-follow-up
+ncdimh-0894,replaced,ncdimh-tbl-mdd-pharmacological
+ncdimh-0895,replaced,ncdimh-tbl-mdd-pharmacological
+ncdimh-0896,replaced,ncdimh-tbl-mdd-pharmacological
+ncdimh-0897,replaced,ncdimh-tbl-mdd-pharmacological
+ncdimh-0898,replaced,ncdimh-tbl-mdd-pharmacological
+ncdimh-0899,replaced,ncdimh-tbl-mdd-pharmacological
+ncdimh-0900,replaced,ncdimh-tbl-mdd-special-cases
+ncdimh-0910,replaced,ncdimh-tbl-alcohol-withdrawal-sedative
+ncdimh-0912,replaced,ncdimh-tbl-alcohol-dependence-drugs
+ncdimh-0913,replaced,ncdimh-tbl-alcohol-dependence-drugs
+ncdimh-0914,replaced,ncdimh-tbl-alcohol-dependence-drugs
+ncdimh-0922,replaced,ncdimh-tbl-gad-drugs
+ncdimh-0923,replaced,ncdimh-tbl-gad-drugs
+ncdimh-0924,replaced,ncdimh-tbl-gad-drugs
+ncdimh-0927,replaced,ncdimh-box-suicide-warning-signs
+ncdimh-0929,replaced,ncdimh-box-suicidal-behaviour-diagnostic-features
 ncdimh-0013,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations => Chapter 1: Prevention, Health Education and Routine Health Examinations > Introduction"
 ncdimh-0016,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > NCD Risk Factors > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening => Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening"
 ncdimh-0021,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Tobacco Cessation => Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patients)"
@@ -739,18 +845,114 @@ ncdimh-0694,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Mana
 ncdimh-0695,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > For care givers => Chapter 8: Neurology > Autism Spectrum Disorder > Non-Pharmacological Management > For care givers and teachers
 ncdimh-0698,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > ASD and Other Comorbidities => Chapter 8: Neurology > Autism Spectrum Disorder > ASD and Other Comorbidities; Epilepsy definition
 ncdimh-0700,label,Chapter 8: Neurology > Diagnosis of Epilepsy => Chapter 8: Neurology > Epilepsy > Diagnosis of Epilepsy
+ncdimh-0718,label,Chapter 9: Oncology => Chapter 9: Oncology > Introduction
 ncdimh-0719,emptied,
-ncdimh-0746,cleaned,
-ncdimh-0757,cleaned,
+ncdimh-0721,label,"Chapter 9: Oncology > Cervical Cancer => Chapter 9: Oncology > Cervical Cancer > Screening abbreviations (VIA, VILI)"
+ncdimh-0726,label,Chapter 9: Oncology > Adult Lymphomas > Definition(s) and Classification of Adult Lymphomas => Chapter 9: Oncology > Adult Lymphomas > Definition and Classification
+ncdimh-0727,label,"Chapter 9: Oncology > Adult Lymphomas > Screening and Risk factors for Adult Lymphomas => Chapter 9: Oncology > Adult Lymphomas > Screening, Signs and Symptoms, Risk Factors"
+ncdimh-0729,label,Chapter 9: Oncology > Adult Lymphomas > Screening and Risk factors for Adult Lymphomas => Chapter 9: Oncology > Adult Lymphomas > Risk Factors and Patient Assessment
+ncdimh-0730,label,Chapter 9: Oncology > Breast Cancer => Chapter 9: Oncology > Breast Cancer > Definition and Classification
+ncdimh-0731,label,Chapter 9: Oncology > Breast Cancer > Isolated Tumour Cells (ITCs) => Chapter 9: Oncology > Breast Cancer > Metastases and Risk Factors
+ncdimh-0733,cleaned,
+ncdimh-0733,label,Chapter 9: Oncology > Breast Cancer > Screening and Diagnosis of Breast Cancer => Chapter 9: Oncology > Breast Cancer > Screening and Diagnosis
+ncdimh-0743,label,Chapter 9: Oncology > Provider-initiated Breast Exam (Pibe)/ Clinical Breast Examination > Clinical Breast Examination (CBE) => Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Step 1: Visual Inspection
+ncdimh-0744,cleaned,
+ncdimh-0744,label,Chapter 9: Oncology > Provider-initiated Breast Exam (Pibe)/ Clinical Breast Examination > Clinical Breast Examination (CBE) > Step 2: Nodal Examination (while sitting) => Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Steps 2-3: Nodal Examination and Palpation
+ncdimh-0748,label,Chapter 9: Oncology > Provider-initiated Breast Exam (Pibe)/ Clinical Breast Examination > Early Referral Flow Chart for Suspected Breast Cancer > Treatment Targets => Chapter 9: Oncology > Breast Cancer > Treatment Targets and Management
+ncdimh-0749,label,Chapter 9: Oncology > Provider-initiated Breast Exam (Pibe)/ Clinical Breast Examination > Management of Breast Cancer > Management in Special Populations => Chapter 9: Oncology > Breast Cancer > Management in Special Populations (pregnancy)
+ncdimh-0750,label,Chapter 9: Oncology > Childhood Cancers => Chapter 9: Oncology > Childhood Cancers > Definition and Common Childhood Cancers
+ncdimh-0751,cleaned,
+ncdimh-0751,label,Chapter 9: Oncology > Screening and Diagnosis of Childhood Cancers > Warning Signs of Childhood Cancers => Chapter 9: Oncology > Childhood Cancers > Warning Signs of Childhood Cancers
+ncdimh-0759,label,Chapter 9: Oncology > Colorectal Cancer > Definition(s) and Classification of Colorectal Cancer => Chapter 9: Oncology > Colorectal Cancer > Definition and Classification
+ncdimh-0761,label,Chapter 9: Oncology > Colorectal Cancer > Risk Factors for Colorectal Cancer > Prevention => Chapter 9: Oncology > Colorectal Cancer > Prevention
+ncdimh-0762,label,Chapter 9: Oncology > Colorectal Cancer > High risk patients => Chapter 9: Oncology > Colorectal Cancer > Screening and High-Risk Patients
+ncdimh-0763,label,Chapter 9: Oncology > Colorectal Cancer > High risk patients > Patient Assessment => Chapter 9: Oncology > Colorectal Cancer > Patient Assessment
+ncdimh-0766,label,Chapter 9: Oncology > Staging of Colorectal Cancer (TNM) => Chapter 9: Oncology > Colorectal Cancer > Staging of Colorectal Cancer (TNM)
+ncdimh-0767,label,Chapter 9: Oncology > Staging of Colorectal Cancer (TNM) > Staging Summary of Colorectal Cancer => Chapter 9: Oncology > Colorectal Cancer > Staging Summary; Non-Pharmacological Management (aspirin)
+ncdimh-0768,label,Chapter 9: Oncology > Staging of Colorectal Cancer (TNM) > Management of Colorectal Cancer => Chapter 9: Oncology > Colorectal Cancer > Treatment Targets and Management
+ncdimh-0769,label,Chapter 9: Oncology > Staging of Colorectal Cancer (TNM) > Management of Colorectal Cancer => Chapter 9: Oncology > Colorectal Cancer > Management: rectal and anal cancers
+ncdimh-0770,label,Chapter 9: Oncology > Staging of Colorectal Cancer (TNM) > Management of Colorectal Cancer => Chapter 9: Oncology > Colorectal Cancer > Management: chemotherapy regimens; Survivorship and Follow-up
+ncdimh-0771,label,Chapter 9: Oncology > Staging of Colorectal Cancer (TNM) > Survivorship and Follow-up > Management in Special Populations => Chapter 9: Oncology > Colorectal Cancer > Management in Special Populations
+ncdimh-0772,label,"Chapter 9: Oncology > Oral & Maxillofacial Cancers > Definition(s) and Classification of Oral & Maxillofacial Cancers => Chapter 9: Oncology > Oral & Maxillofacial Cancers > Definition, Classification and Risk Factors"
+ncdimh-0773,label,Chapter 9: Oncology > Oral & Maxillofacial Cancers > Definition(s) and Classification of Oral & Maxillofacial Cancers > Clinical Features => Chapter 9: Oncology > Oral & Maxillofacial Cancers > Clinical Features
 ncdimh-0775,cleaned,
+ncdimh-0778,label,"Chapter 9: Oncology > Prostate Cancer > Definition(s) and Classification of Prostate Cancer => Chapter 9: Oncology > Prostate Cancer > Definition, Classification and Screening"
+ncdimh-0783,label,Chapter 9: Oncology > Prostate Cancer > Clinical Features and Diagnostic work up > Signs and Symptoms => Chapter 9: Oncology > Prostate Cancer > Signs and Symptoms
+ncdimh-0785,label,Chapter 9: Oncology > Prostate Cancer => Chapter 9: Oncology > Prostate Cancer > Staging (TNM) and Treatment Targets
+ncdimh-0787,label,Chapter 9: Oncology > General Principles of Management by Category => Chapter 9: Oncology > Prostate Cancer > General Principles of Management by Category
+ncdimh-0789,label,Chapter 9: Oncology > General Principles of Management by Category > Systemic Therapy Prostate Cancer 6 => Chapter 9: Oncology > Prostate Cancer > Systemic Therapy
+ncdimh-0790,label,Chapter 9: Oncology > General Principles of Management by Category > Systemic Therapy Prostate Cancer 6 > Supportive Care => Chapter 9: Oncology > Prostate Cancer > Supportive Care
+ncdimh-0791,label,Chapter 9: Oncology > Complications of Prostate Cancer => Chapter 9: Oncology > Prostate Cancer > Complications; Follow-up and Survivorship
+ncdimh-0792,label,Chapter 9: Oncology > Complications of Prostate Cancer > Follow Up and Survivorship > Management in Special Populations => Chapter 9: Oncology > Prostate Cancer > Management in Special Populations
+ncdimh-0793,label,Chapter 10: Ophthalmology > Diagnosis and Management of Cataracts => Chapter 10: Ophthalmology > Cataract > Definition
+ncdimh-0794,label,Chapter 10: Ophthalmology > Diagnosis and Management of Cataracts > Classification of Cataract 2 => Chapter 10: Ophthalmology > Cataract > Classification of Cataract
 ncdimh-0795,emptied,
-ncdimh-0803,cleaned,
+ncdimh-0798,label,Chapter 10: Ophthalmology > Non-pharmacological Management of Cataract => Chapter 10: Ophthalmology > Cataract > Non-Pharmacological Management of Cataract
+ncdimh-0799,label,Chapter 10: Ophthalmology > Non-pharmacological Management of Cataract > Complications of Cataract => Chapter 10: Ophthalmology > Cataract > Complications of Cataract; Diabetic Retinopathy definition
+ncdimh-0806,label,Chapter 10: Ophthalmology > Screening and Diagnosis of Diabetic Retinopathy > Non-Pharmacological Management of Diabetic Retinopathy => Chapter 10: Ophthalmology > Diabetic Retinopathy > Non-Pharmacological Management
+ncdimh-0807,label,Chapter 10: Ophthalmology > Screening and Diagnosis of Diabetic Retinopathy > Complications of Diabetic Retinopathy => Chapter 10: Ophthalmology > Diabetic Retinopathy > Complications and Special Populations (pregnancy)
+ncdimh-0808,label,Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > Classification of Glaucoma 2 => Chapter 10: Ophthalmology > Glaucoma > Definition and Classification
+ncdimh-0809,label,Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > Screening for Glaucoma => Chapter 10: Ophthalmology > Glaucoma > Who to Screen and Screening
+ncdimh-0812,label,Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > “refer to Ophthalmologist” > Patient Assessment => Chapter 10: Ophthalmology > Glaucoma > Patient Assessment
+ncdimh-0813,label,Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > Non-Pharmacological Management of Hypertension => Chapter 10: Ophthalmology > Glaucoma > Non-Pharmacological Management of Glaucoma
+ncdimh-0824,label,Chapter 10: Ophthalmology > Chronic Glaucoma > Complications of Glaucoma => Chapter 10: Ophthalmology > Glaucoma > Complications of Glaucoma; Chapter 11 Palliation: definition
+ncdimh-0825,label,Chapter 11: Palliation > Palliation > Benefits of palliative care => Chapter 11: Palliation > Palliative Care: definition and benefits; Pain definition
+ncdimh-0828,label,Chapter 11: Palliation > Pain Management > Numerical Rating Scale (NRS) => Chapter 11: Palliation > Pain Management > Pain Scoring Tools > Numerical Rating Scale
+ncdimh-0829,label,"Chapter 11: Palliation > Pain Management > Five Fingers Scale => Chapter 11: Palliation > Pain Management > Pain Scoring Tools > Wong-Baker, Five Fingers, FLACC"
 ncdimh-0830,cleaned,
+ncdimh-0830,label,Chapter 11: Palliation > Pain Management > Management of Pain => Chapter 11: Palliation > Pain Management > Management of Pain (WHO ladder)
 ncdimh-0837,emptied,
+ncdimh-0842,cleaned,
+ncdimh-0842,label,Chapter 11: Palliation > Opioids Equi-analgesic Dose Ratios > Health Center/ Primary Care Clinic > Home => Chapter 11: Palliation > Palliative care at home
+ncdimh-0843,label,"Chapter 11: Palliation > Opioids Equi-analgesic Dose Ratios > How to calculate the dose of morphine PR => Chapter 11: Palliation > Pain Management > Morphine: dose calculation, paediatric dose, side effects, naloxone"
 ncdimh-0849,emptied,
-ncdimh-0851,cleaned,
+ncdimh-0853,label,Chapter 12: Podiatry > Diabetic Foot > Algorithm B => Chapter 12: Podiatry > Diabetic Foot > Screening: Semmes-Weinstein Monofilament Examination
+ncdimh-0854,label,Chapter 12: Podiatry > Diabetic Foot > How to perform SWME? => Chapter 12: Podiatry > Diabetic Foot > Screening: How and where to perform SWME
+ncdimh-0857,label,Chapter 12: Podiatry > Diabetic Foot => Chapter 12: Podiatry > Diabetic Foot > Diabetic Foot Ulcers
+ncdimh-0858,label,Chapter 12: Podiatry > Diabetic Foot > Non-pharmacological Treatment => Chapter 12: Podiatry > Diabetic Foot > Diabetic Foot Ulcers: Non-pharmacological and Pharmacological Treatment
 ncdimh-0859,cleaned,
+ncdimh-0859,label,Chapter 12: Podiatry > Diabetic Foot > Surgical Management => Chapter 12: Podiatry > Diabetic Foot > Diabetic Foot Ulcers: Surgical Management
+ncdimh-0864,label,Chapter 12: Podiatry > Diabetic Foot > Off-Loading Techniques for DFUs => Chapter 12: Podiatry > Diabetic Foot > Negative Pressure Wound Therapy (NPWT)
+ncdimh-0865,label,Chapter 12: Podiatry > Diabetic Foot > Post-Amputation Management of Patients => Chapter 12: Podiatry > Post-Amputation Management > Immediate Post-Operative Care
+ncdimh-0866,label,Chapter 12: Podiatry > Diabetic Foot > Rehabilitation and Mobility Support => Chapter 12: Podiatry > Post-Amputation Management > Infection Prevention; Rehabilitation and Mobility Support
+ncdimh-0867,label,Chapter 12: Podiatry > Long-Term Rehabilitation => Chapter 12: Podiatry > Post-Amputation Management > Long-Term Rehabilitation and Psychological Screening
+ncdimh-0868,label,Chapter 12: Podiatry > Long-Term Rehabilitation > Peer Support and Community Reintegration => Chapter 12: Podiatry > Post-Amputation Management > Peer Support; Prevention of Complications
+ncdimh-0869,label,Chapter 12: Podiatry > Long-Term Rehabilitation > Vascular Health and Circulation => Chapter 12: Podiatry > Post-Amputation Management > Vascular Health and Circulation
+ncdimh-0870,label,Chapter 12: Podiatry > Long-Term Rehabilitation > Pressure Ulcer Prevention => Chapter 12: Podiatry > Post-Amputation Management > Pressure Ulcer Prevention; Follow-Up
+ncdimh-0871,label,Chapter 12: Podiatry > Long-Term Rehabilitation > (b) Multidisciplinary Team Involvement => Chapter 12: Podiatry > Post-Amputation Management > Multidisciplinary Team Involvement
+ncdimh-0872,label,"Chapter 12: Podiatry > Special Considerations > Elderly Patients => Chapter 12: Podiatry > Post-Amputation Management > Special Considerations (elderly, paediatric)"
+ncdimh-0873,label,"Chapter 12: Podiatry > Special Considerations > Peripheral Neuropathy => Chapter 12: Podiatry > Peripheral Neuropathy > Definition, Classification and Clinical Presentation"
 ncdimh-0875,cleaned,
+ncdimh-0875,label,Chapter 12: Podiatry > Special Considerations > Guide to Clinical diagnosis of Peripheral Neuropathies > Clinical Presentation => Chapter 12: Podiatry > Peripheral Neuropathy > Clinical Presentation
+ncdimh-0881,cleaned,
+ncdimh-0881,label,Chapter 13: Pyschiatry > Major Depressive Disorder => Chapter 13: Psychiatry > Major Depressive Disorder > Definition and Classes of Depressive Disorders
+ncdimh-0882,label,Chapter 13: Pyschiatry > Major Depressive Disorder > Screening and Diagnosis of Major Depressive Disorder => Chapter 13: Psychiatry > Major Depressive Disorder > Screening and Diagnosis (PHQ-9)
+ncdimh-0901,label,Chapter 13: Pyschiatry > General Prescribing Rules > Complications of Major Depressive Disorder => Chapter 13: Psychiatry > Major Depressive Disorder > Complications
+ncdimh-0902,label,"Chapter 13: Pyschiatry > Major Depressive Disorder => Chapter 13: Psychiatry > Major Depressive Disorder > Emergencies, Comorbidities and Special Populations"
+ncdimh-0903,label,"Chapter 13: Pyschiatry > Substance use Disorder > Definition(s) and Classification => Chapter 13: Psychiatry > Substance Use Disorder > Definitions (intoxication, overdose)"
+ncdimh-0904,label,"Chapter 13: Pyschiatry > Substance use Disorder > Screening and Diagnosis => Chapter 13: Psychiatry > Substance Use Disorder > Definitions (withdrawal, harmful use, dependence); Screening"
+ncdimh-0905,label,"Chapter 13: Pyschiatry > Substance use Disorder > Diagnostic Criteria => Chapter 13: Psychiatry > Substance Use Disorder > Diagnostic Criteria (DSM-5, alcohol use disorder)"
+ncdimh-0906,label,Chapter 13: Pyschiatry > Substance use Disorder > Enquire and assess for => Chapter 13: Psychiatry > Substance Use Disorder > Patient Assessment
+ncdimh-0907,label,Chapter 13: Pyschiatry > Substance use Disorder > Enquire and assess for > Non-Pharmacological Management => Chapter 13: Psychiatry > Substance Use Disorder > Non-Pharmacological Management
+ncdimh-0908,label,Chapter 13: Pyschiatry > Substance use Disorder > Managing Withdrawal Syndrome (red) => Chapter 13: Psychiatry > Substance Use Disorder > Managing Withdrawal Syndrome
+ncdimh-0909,label,Chapter 13: Pyschiatry > Substance use Disorder > Alcohol Withdrawal Syndrome (red) => Chapter 13: Psychiatry > Substance Use Disorder > Alcohol Withdrawal Syndrome
+ncdimh-0911,label,Chapter 13: Pyschiatry > Substance use Disorder > Alcohol Withdrawal Syndrome (red) => Chapter 13: Psychiatry > Substance Use Disorder > Alcohol Withdrawal Syndrome > Severity assessment
+ncdimh-0915,label,Chapter 13: Pyschiatry > Substance use Disorder > Alcohol dependence > Treatment Targets (3) => Chapter 13: Psychiatry > Substance Use Disorder > Treatment Targets
+ncdimh-0916,label,Chapter 13: Pyschiatry > Substance use Disorder > Complications of Alcohol Use Disorder => Chapter 13: Psychiatry > Substance Use Disorder > Complications and In-Hospital Management of AUD
+ncdimh-0917,label,Chapter 13: Pyschiatry > Substance use Disorder > In-Hospital Management of AUD(3) > Management in Special Populations => Chapter 13: Psychiatry > Substance Use Disorder > Management in Special Populations; Anxiety Disorders definition
+ncdimh-0918,label,Chapter 13: Pyschiatry > Anxiety Disorders > Screening and Diagnosis => Chapter 13: Psychiatry > Anxiety Disorders > Types and Screening
+ncdimh-0919,label,Chapter 13: Pyschiatry > Anxiety Disorders > PLUS => Chapter 13: Psychiatry > Anxiety Disorders > Diagnostic Criteria (GAD)
+ncdimh-0920,label,Chapter 13: Pyschiatry > Anxiety Disorders > Enquire and Assess for => Chapter 13: Psychiatry > Anxiety Disorders > Patient Assessment
+ncdimh-0921,label,"Chapter 13: Pyschiatry > Anxiety Disorders > Patient Literacy and Support => Chapter 13: Psychiatry > Anxiety Disorders > Patient Literacy, Non-Pharmacological Management and Prescribing Rules"
+ncdimh-0925,label,"Chapter 13: Pyschiatry > Anxiety Disorders > Patient Literacy and Support > Treatment Targets => Chapter 13: Psychiatry > Anxiety Disorders > Treatment Targets, Complications and Special Populations"
+ncdimh-0926,label,Chapter 13: Pyschiatry > Suicide > Introduction => Chapter 13: Psychiatry > Suicide > Introduction and Suicidal Behaviour
+ncdimh-0930,label,Chapter 13: Pyschiatry > Suicide > Assessments of Patients with Suicidal Behaviour => Chapter 13: Psychiatry > Suicide > Assessment of Patients with Suicidal Behaviour
+ncdimh-0931,label,Chapter 13: Pyschiatry > Suicide > Differential diagnosis => Chapter 13: Psychiatry > Suicide > Differential Diagnosis and Management of Suicide
+ncdimh-0932,label,Chapter 13: Pyschiatry > Management of Suicide > Pharmacotherapy => Chapter 13: Psychiatry > Suicide > Management: Pharmacotherapy
+ncdimh-0933,label,Chapter 13: Pyschiatry > Management of Suicide > Psychosocial Management => Chapter 13: Psychiatry > Suicide > Psychosocial Management
+ncdimh-0934,label,Chapter 13: Pyschiatry > Management of Suicide > Offer Support to the Person => Chapter 13: Psychiatry > Suicide > Psychosocial Management > Offer Support to the Person
+ncdimh-0935,label,Chapter 13: Pyschiatry > Management of Suicide > Activate Psychosocial Support => Chapter 13: Psychiatry > Suicide > Psychosocial Management > Activate Psychosocial Support
+ncdimh-0936,label,"Chapter 13: Pyschiatry > Management of Suicide > Referral & Linkages, and Follow-Up => Chapter 13: Psychiatry > Suicide > Referral, Linkages and Follow-Up"
 ncdimh-0969,cleaned,
 ncdimh-0971,emptied,
 ncdimh-0983,cleaned,
@@ -759,6 +961,8 @@ ncdimh-1010,emptied,
 ncdimh-0219,trailing heading dropped (next is a table/flowchart),#### **Diagnosis**
 ncdimh-0395,trailing heading dropped (next is a table/flowchart),## **Algorithm with the Initial Evaluation and Management of RHD in Children**
 ncdimh-0716,trailing heading dropped (next is a table/flowchart),## Status Epilepticus ## Treatment Algorithm for Status Epilepticus
+ncdimh-0859,trailing heading dropped (next is a table/flowchart),## **Key Steps in Diabetic Foot Ulcer (DFU) Management**
+ncdimh-0875,trailing heading dropped (next is a table/flowchart),## **Treatment of Neuropathic Pain in Diabetic Foot**
 ncdimh-0042,merged into,ncdimh-0041
 ncdimh-0236,merged into,ncdimh-0235
 ncdimh-0237,merged into,ncdimh-0235
@@ -792,7 +996,6 @@ ncdimh-0751,merged into,ncdimh-0750
 ncdimh-0779,merged into,ncdimh-0778
 ncdimh-0809,merged into,ncdimh-0808
 ncdimh-0830,merged into,ncdimh-0829
-ncdimh-0842,merged into,ncdimh-0841
 ncdimh-0854,merged into,ncdimh-0853
 ncdimh-0859,merged into,ncdimh-0858
 ncdimh-0882,merged into,ncdimh-0881
@@ -802,7 +1005,11 @@ ncdimh-0986,merged into,ncdimh-0985
 ncdimh-0995,merged into,ncdimh-0994
 ncdimh-1018,merged into,ncdimh-1017
 ncdimh-1033,merged into,ncdimh-1017
+ncdimh-0729,merged into,ncdimh-0730
+ncdimh-0904,merged into,ncdimh-0905
 ncdimh-0690,dropped,heading-only fragment
+ncdimh-0721,dropped,heading-only fragment
+ncdimh-0842,dropped,heading-only fragment
 ncdimh-0319,merged into,ncdimh-0317
 ncdimh-0388,merged into,ncdimh-0387
 ncdimh-0395,merged into,ncdimh-0391
@@ -811,3 +1018,4 @@ ncdimh-0512,merged into,ncdimh-0508
 ncdimh-0525,merged into,ncdimh-0527
 ncdimh-0538,merged into,ncdimh-0542
 ncdimh-0564,merged into,ncdimh-0562
+ncdimh-0875,merged into,ncdimh-0873

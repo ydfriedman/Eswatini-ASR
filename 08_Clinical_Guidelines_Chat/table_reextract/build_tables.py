@@ -251,7 +251,8 @@ def main(spec_path, pdf_dir, chunks_path, out_dir):
             html_s = (f'<div class="box" data-table-id="{t["table_id"]}"><b>{H.escape(t["caption"])}</b>'
                       + ''.join(f'<p>{H.escape(l)}</p>' for l in t['content'].split('\n')) + '</div>')
             text_s = f'> **{t["caption"]}**\n>\n' + '\n'.join('> ' + l for l in t['content'].split('\n'))
-            embed_s = [f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})\n\n{t["caption"]}.\n{t["content"]}']
+            embed_s = embed_parts([f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})', '', t['caption'] + '.']
+                                  + [p for p in t['content'].split('\n\n')])
         else:
             n = ncols_of(t['header'])
             html_s, text_s = render_html(t, n), render_text(t, n)

@@ -7,7 +7,7 @@ Chunk validation showed that most tables had lost their structure in the LlamaPa
 | Guideline | Status | Items | Review page |
 |---|---|---|---|
 | HIV Amendment 2024 | Complete | 36 (18 tables, 2 boxes, 16 flowcharts), replacing 64 old chunks | `hiv-amendment-2024_review.html` |
-| NCDIMH | Parts 1-3 of 5 done (pp.1-250: Ch.1 prevention and screening, Ch.2 endocrinology, Ch.3 cardiology, Ch.4 dermatology, Ch.5 gastroenterology, Ch.6 injuries and trauma, Ch.7 nephrology, Ch.8 neurology to status epilepticus) | Part 1: 74 items replacing 144 old chunks. Part 2: 82 (63 tables, 2 boxes, 17 flowcharts) replacing 135. Part 3: 81 (60 tables, 5 boxes, 16 flowcharts) replacing 157 | `ncdimh_part1_review.html`, `ncdimh_part2_review.html`, `ncdimh_part3_review.html` |
+| NCDIMH | Parts 1-4 of 5 done (pp.1-326: Ch.1 prevention and screening, Ch.2 endocrinology, Ch.3 cardiology, Ch.4 dermatology, Ch.5 gastroenterology, Ch.6 injuries and trauma, Ch.7 nephrology, Ch.8 neurology to status epilepticus, Ch.9 oncology, Ch.10 ophthalmology, Ch.11 palliation, Ch.12 podiatry, Ch.13 psychiatry) | Part 1: 74 items replacing 144 old chunks. Part 2: 82 (63 tables, 2 boxes, 17 flowcharts) replacing 135. Part 3: 81 (60 tables, 5 boxes, 16 flowcharts) replacing 157 Part 4: 52 (33 tables, 7 boxes, 12 flowcharts) replacing 106 | `ncdimh_part1_review.html`, `ncdimh_part2_review.html`, `ncdimh_part3_review.html`, `ncdimh_part4_review.html` |
 
 NCDIMH items are written as small Python batches (`batches/ncd_b*.py`, with shared helpers in `batches/ncd_common.py`), then added to `ncdimh_tables.json` with `add_items.py`.
 

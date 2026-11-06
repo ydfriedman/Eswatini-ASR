@@ -11,7 +11,9 @@ DROP = re.compile(r"^(Image in the PDF|Flowchart is an image|This table is an im
                   r"'Cardiac U/C'|The PDF lays each stage|The PDF prints the antipsychotics|The PDF prints one small table|"
                   r"Flowchart-style chart|The PDF table is laid out|The timeline is an image|Bar extents|The motor section is headed|"
                   r"The first column is headed|The PDF lays the targets|Risk colours are not printed|The immunisation row is labelled|"
-                  r"The footnote markers in the table|The dermis fractions|Table spans pp|The PDF has the)", re.I)
+                  r"The footnote markers in the table|The dermis fractions|Table spans pp|The PDF has the|The tick-mark sub-items|"
+                  r"The PDF prints a summary box|The table has no column headers|Branch layout read|'Risk Stratification' is printed|"
+                  r"The codeine row is split|The lymphoma text on|The summary box spells)", re.I)
 TYPO = re.compile(r"(^'[^']+'.*printed|printed; correct|printed; written|; corrected\.?$|written as MTB|duplicated words removed|"
                   r"Interaction category is shown only)", re.I)
 src = open('../SOURCE_ISSUES.md').read()
@@ -19,7 +21,7 @@ head = src.split('## HIV Amendment 2024')[0]
 tail = '## Text sections' + src.split('## Text sections')[1]
 out = [head.rstrip(), '']
 n = 0
-for path, title in (('hiv-amendment-2024_tables.json', 'HIV Amendment 2024'), ('ncdimh_tables.json', 'NCDIMH (pages 1-250 so far)')):
+for path, title in (('hiv-amendment-2024_tables.json', 'HIV Amendment 2024'), ('ncdimh_tables.json', 'NCDIMH (pages 1-326 so far)')):
     rows = sorted((t['page'], t['caption'], t['table_id'], f) for t in json.load(open(path))['tables']
                   for f in t.get('source_flags', []) if not DROP.match(f.strip()) and not TYPO.search(f))
     out += [f'## {title}', '', '| Page | Item | Issue |', '|---|---|---|']
