@@ -35,6 +35,8 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - FP 2021 part 2 (FP_2.pdf = pages 68-118, offset 67): `batches/fp_b02.py` (generated with gen_tables_fp2.py; MEC wheel pp.105-106 replaced by a description; two-list tables collapsed; ECP flags). Text labels for the whole document derived automatically. **FP is complete.** Pipeline: fp_b01, fp_b02.
 
+- Mental Health desk guide part 1 (MentalHealth_1.pdf = pages 1-69, no offset): `batches/mh_b01.py` (generated + flags). Some stepwise-management tables are joined to the preceding classification table (no bold header to split on) and a few of their rows survive as text chunks; harmless duplication. Existing text labels were already reasonable.
+
 ## Next after that
 The other guidelines, once the user provides the PDFs. Remaining: HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 

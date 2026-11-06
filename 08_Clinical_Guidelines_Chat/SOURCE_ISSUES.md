@@ -359,6 +359,14 @@ Pages are PDF pages. "Item" is the `table_id` in the chunk set.
 | 76 | Emergency Contraception: Who can use ECPs (MEC Category 1, MEC Category 2) (`fp-2021-tbl-p76-0147`) | Reduced effectiveness is tied to weight >70 kg; WHO uses BMI ≥30 kg/m² for reduced LNG/UPA efficacy. |
 | 106 | MEC wheel for contraceptive use (WHO): circular chart giving MEC categories for each method by condition (postpartum and breastfeeding, PID, STIs, HIV and ARVs, medications, headache, smoking, obesity, hypertension, cardiovascular disease, VTE, liver disease, cancers, etc.) (`fp-2021-fig-mec-wheel`) | The MEC wheel is an image; the earlier chunk was an empty grid with no categories. Its values are not available as text. |
 
+## Mental Health Desk Guide (pages 1-69 so far)
+
+| Page | Item | Issue |
+|---|---|---|
+| 40 | Bipolar and Related Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT) (`mental-health-deskguide-tbl-p40-0082`) | A hypomanic episode is classified as 'BIPOLAR I DISORDER HYPMANIC EPISODE'; hypomania without a manic episode defines bipolar II (with a major depressive episode). 'Hypmanic' typo. |
+| 49 | TABLE 15: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF NEUROCOGNITIVE DISORDERS: Table 15: Summary of Classification and Management of Neurocognitive Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT) (`mental-health-deskguide-tbl-p49-0104`) | Delirium: 'a sedative preferably lorazepam 0.5-1 mg nocte for seven days' – benzodiazepines can worsen delirium (except in alcohol or benzodiazepine withdrawal) and are generally avoided; low-dose antipsychotic only if distressing symptoms is the usual approach. |
+| 53 | Substance-Related and Addictive Disorders (If the patient has, ALCOHOL INTOXICATION) (`mental-health-deskguide-tbl-p53-0114`) | Alcohol withdrawal management lists investigations and 'prescribe medications' but no thiamine; WHO mhGAP recommends thiamine 100 mg for all patients with alcohol withdrawal (and a benzodiazepine regimen), which is not stated here. |
+
 ## Text sections (NCDIMH pages 1-356)
 
 | Page | Section | Issue |

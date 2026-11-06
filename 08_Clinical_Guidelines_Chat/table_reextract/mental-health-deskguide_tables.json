@@ -1,0 +1,2477 @@
+{
+ "doc_id": "mental-health-deskguide",
+ "doc_title": "Eswatini Mental Health Desk Guide",
+ "method": "Tables rebuilt from the original LlamaParse chunks (split rows merged, pieces joined, markdown removed) with every word checked against the PDF text layer.",
+ "pdf_parts": [
+  {
+   "file": "MentalHealth_1.pdf",
+   "pages": "1-69"
+  }
+ ],
+ "tables": [
+  {
+   "table_id": "mental-health-deskguide-tbl-p09-0009",
+   "page": 9,
+   "image_only": false,
+   "heading_path": "Definition of Terms",
+   "caption": "Definition of Terms (Affect - observable emotional response seen in the person’s non-verbal behavior.)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0009",
+    "mental-health-deskguide-0010"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Affect - observable emotional response seen in the person’s non-verbal behavior."
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Delusions - Irrational, strong beliefs which have no basis in reality but which cannot be changed by logic or argument."
+     }
+    ],
+    [
+     {
+      "t": "Disability – refers to any impairment which may be physical, mental, and developmental or a combination of these."
+     }
+    ],
+    [
+     {
+      "t": "Fear - The body’s physiologic and emotional response to a known or recognized danger."
+     }
+    ],
+    [
+     {
+      "t": "Flight of ideas – is a symptom that is common in BAD mania patients manifested by expressing many ideas at the same time (jumping from topic to topic)."
+     }
+    ],
+    [
+     {
+      "t": "Grandiose delusions – abnormal fixed beliefs of expansive ideas such as inflated worth, power, knowledge, identity or special relationship to a famous person."
+     }
+    ],
+    [
+     {
+      "t": "Hallucinations - perceptions that occur in the absence of any appropriate external stimuli and could be of any of the five senses."
+     }
+    ],
+    [
+     {
+      "t": "Illusion - a false interpretation or perception of a real environmental stimulus that may involve any of the five senses."
+     }
+    ],
+    [
+     {
+      "t": "Insomnia – inability to sleep well either difficulty in initiating and/or maintaining sleep or interrupted sleeping pattern."
+     }
+    ],
+    [
+     {
+      "t": "Impulsivity - behavior characterized by little or no forethought, reflection, or consideration of the consequences."
+     }
+    ],
+    [
+     {
+      "t": "Mental Status Examination (MSE) - a structured way of observing and describing a patient’s current state of mind under the domains of appearance, attitude, behavior, mood, speech, thought process, thought content, perception, cognitions, judgment and insight"
+     }
+    ],
+    [
+     {
+      "t": "Mood - a normal internal felt subjective emotion that a person experiences most of the time."
+     }
+    ],
+    [
+     {
+      "t": "Psychotherapy - use of psychological methods based on regular personal interaction to help a person change and overcome problems in desired ways. It aims at increasing each individual’s wellbeing and mental health."
+     }
+    ],
+    [
+     {
+      "t": "Psychosis - A term that refers to a patient presenting with hallucinations, and/or delusions and/or illusions."
+     }
+    ],
+    [
+     {
+      "t": "Tolerance: is a state where by the individual who uses alcohol and/or drugs feels the need for markedly increased amounts of the substance to achieve intoxication."
+     }
+    ],
+    [
+     {
+      "t": "Withdrawal: are symptoms that occur upon abrupt cessation of excessive alcohol/ substance use."
+     }
+    ],
+    [
+     {
+      "t": "Dependence: is an adaptive state that develops when an individual persist in use of alcohol/ substance despite problems related to the use of the substance."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    9
+   ],
+   "context_before": "DEFINITION OF TERMS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p14-0021",
+   "page": 14,
+   "image_only": false,
+   "heading_path": "Chapter 2: Identification of Common Mental Health Conditions > Assess the Patient",
+   "caption": "Assess the Patient (Does the patient;<br/>• Have excessive fear or worry?<br/>• Find it difficult to control the worry?, If yes to any of these questions suspect DEPRESSI)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0021"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Does the patient;<br/>• Have excessive fear or worry?<br/>• Find it difficult to control the worry?"
+     },
+     {
+      "t": "If yes to any of these questions suspect DEPRESSIVE DISORDERS and GO TO PAGE 4"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Does the patient;<br/>• Have excessive fear or worry?<br/>• Find it difficult to control the worry?"
+     },
+     {
+      "t": "If yes to any of these questions suspect ANXIETY DISORDERS and GO TO PAGE 13"
+     }
+    ],
+    [
+     {
+      "t": "Has the patient;<br/>• Been exposed to a traumatic event either experienced, witnessed or was confronted with threatening event(s)?"
+     },
+     {
+      "t": "If yes to this question suspect TRAUMA & STRESS RELATED DISORDERS and GO TO PAGE 16"
+     }
+    ],
+    [
+     {
+      "t": "Does the patient;<br/>• Have abnormally and persistently elevated, expansive, or irritable mood?<br/>• Abnormally and persistently increased level of activity or energy?"
+     },
+     {
+      "t": "If yes to any of these questions suspect BIPOLAR AND RELATED DISORDERS and GO TO PAGE 28"
+     }
+    ],
+    [
+     {
+      "t": "Does the patient;<br/>• Have marked unusual behavior<br/>• Speech that is difficult to understand<br/>• Have hallucinations<br/>• Have delusions"
+     },
+     {
+      "t": "If yes to any of these questions suspect SCHIZOPHRENIA OR OTHER PSYCHOTIC DISORDERS and GO TO PAGE 33"
+     }
+    ],
+    [
+     {
+      "t": "Does the patient;<br/>• Have progressive memory loss with loss of functioning in different area?"
+     },
+     {
+      "t": "If yes to this question suspect DEMENTIA and GO TO PAGE 37"
+     }
+    ],
+    [
+     {
+      "t": "Does the patient;<br/>• Use alcohol or substances"
+     },
+     {
+      "t": "If yes suspect SUBSTANCE USE DISORDER and GO TO PAGE 40"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    14
+   ],
+   "context_before": "ASSESS THE PATIENT"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p15-0022",
+   "page": 15,
+   "image_only": false,
+   "heading_path": "Chapter 2: Identification of Common Mental Health Conditions > Assess the Patient > If the patient is a child",
+   "caption": "If the patient is a child (Does the child present with:<br/>• Inattention and/or<br/>• Hyperactivity-impulsivity., If yes to any of these questions<br/>question suspect ADHD and)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0022"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Does the child present with:<br/>• Inattention and/or<br/>• Hyperactivity-impulsivity."
+     },
+     {
+      "t": "If yes to any of these questions<br/>question suspect ADHD and GO TO<br/>PAGE 52"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Does the child present with:<br/>• Repetitive and persistent pattern of<br/>behavior in which basic rights of others<br/>are violated"
+     },
+     {
+      "t": "If yes to this question suspect<br/>CONDUCT DISORDER and GO TO<br/>PAGE 56"
+     }
+    ],
+    [
+     {
+      "t": "Does the child have the following?<br/>• Angry/irritable mood<br/>• Argumentative/Defiant behavior<br/>• Vindictiveness"
+     },
+     {
+      "t": "If yes to this question suspect<br/>OPPOSITIONAL DEFiant DISORDER<br/>and GO TO PAGE 55"
+     }
+    ],
+    [
+     {
+      "t": "Does the child present with:<br/>• Impaired social interaction or behavior<br/>• Impaired communication and language<br/>• Restricted repetitive & stereotyped<br/>patterns of movements/behavior"
+     },
+     {
+      "t": "If yes to any of these question<br/>suspect AUTISM SPECTRUM<br/>DISORDER (ASD) and GO TO PAGE<br/>51"
+     }
+    ],
+    [
+     {
+      "t": "Does the child:<br/>• Have deficits of skills across multiple<br/>areas that the person’s effectiveness in<br/>meeting age appropriate expectations?"
+     },
+     {
+      "t": "If yes to any of these questions<br/>question suspect INTELLECTUAL<br/>DISABILITY and GO TO PAGE 50"
+     }
+    ],
+    [
+     {
+      "t": "Does the child have difficulty in:<br/>• Reading<br/>• Writing<br/>• Mathematics"
+     },
+     {
+      "t": "If yes to any of these questions<br/>question suspect LEARNING<br/>DISORDERS and GO TO PAGE 53"
+     }
+    ],
+    [
+     {
+      "t": "Does the patient;<br/>• Feel sad most of the time and/or<br/>• Has loss of interest?"
+     },
+     {
+      "t": "If yes to any of these questions<br/>suspect DEPRESSION DISORDERS<br/>and GO TO PAGE 4"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    15
+   ],
+   "context_before": "If the patient is a child"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p17-0027",
+   "page": 17,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Major Depressive Disorder > 2. Conduct physical examination and Mental Status Evaluation (MSE)",
+   "caption": "2. Conduct physical examination and Mental Status Evaluation (MSE) (SIGNS, CLASSIFY AS:, MANAGEMENT/INTERVENTIONS)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0027",
+    "mental-health-deskguide-0028",
+    "mental-health-deskguide-0030",
+    "mental-health-deskguide-0031",
+    "mental-health-deskguide-0032",
+    "mental-health-deskguide-0033",
+    "mental-health-deskguide-0034"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT/INTERVENTIONS"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has:<br/>Diagnostic criteria for Major Depressive Disorder, and has NO; - Suicide thoughts or attempt - Delusion - Hallucinations"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER, WITH NO SUICIDALITY/ PSYCHOSIS"
+     },
+     {
+      "t": "- Initiate antidepressants or refer Go to page 58 - PLUS a sedative if insomnia is one of the presenting symptom preferably Lorazepam 1-2mg nocte for 7/7 - Provide counseling or refer Go to page 85 - Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling - Adherence counseling Go to page 81 - Family involvement Go to page 81"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has:<br/>At least 2 or more symptoms of depression; lasting for 2 years or more"
+     },
+     {
+      "t": "PERSISTENT DEPRESSIVE DISORDER (DYSTHIMIA)"
+     },
+     {
+      "t": "- Consider above interventions for Major Depressive Disorder, with no suicidality/psychosis"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has;<br/>Diagnostic criteria for Major Depressive Disorder PLUS suicide thoughts or attempted suicide<br/>Diagnostic criteria for Major Depressive Disorder"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER WITH SUICIDAL THOUGHTS OR ATTEMPT, NO PSYCHOSIS"
+     },
+     {
+      "t": "• Conduct a Suicidal Risk Assessment Go to page 99 • Assess criteria for inpatient care • Initiate antidepressants or refer Go to page 58 • PLUS a sedative if insomnia is one of the presenting symptom preferably Lorazepam 1-2mg nocte for 7/7 • Refer to the Clinical Psychologist for psychotherapy • Adherence counseling Go to page 81 • Family involvement Go to page 81"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has;<br/>Diagnostic criteria for Major Depressive Disorder PLUS • Delusions and/or • Hallucinations • NO suicidal thoughts/ attempt"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER WITH PSYCHOSIS, NO SUICIDAL ATTEMPTS/ THOUGHTS"
+     },
+     {
+      "t": "• Initiate the following medications or refer • Antidepressants Go to page 58 • PLUS an antipsychotic Go to page 59 • PLUS a sedative if insomnia is one of the presenting symptom Lorazepam 1-2mg nocte for 7/7 • Provide counseling or refer Go to page 85 • Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling • Adherence counseling • Family involvement Go to page 81"
+     }
+    ],
+    [
+     {
+      "t": "If the client has:<br/>One or more of the following symptoms improving in the post menses:<br/>- Hallucinations<br/>- Marked mood lability<br/>- Marked irritability or anger<br/>- Marked depressed mood, hopelessness or guilty feeling<br/>With one or more additional symptoms:<br/>- Decreased interest/ pleasure<br/>- Poor concentration<br/>- Marked lack of energy/ lethargy<br/>- Marked change in appetite<br/>- Hypersomnia or insomnia<br/>- A sense of being overwhelmed<br/>- Physical menstrual symptoms; breast tenderness or swelling, joint or muscle pains, sensation of bloating"
+     },
+     {
+      "t": "PREMENSTRUAL DYSPHORIC DISORDER"
+     },
+     {
+      "t": "- Consider above interventions for Major Depressive Disorder, with no suicidality/psychosis<br/>- If there is no improvement with antidepressants and psychotherapy, initiate combined oestrogen-progestin contraceptives or refer"
+     }
+    ],
+    [
+     {
+      "t": "If the client has:<br/>Prominent and persistent depressed mood or lack of interest/ pleasure, with evidence<br/>• From history, physical exams or laboratory findings of symptoms developing during or soon after substance intoxication, withdrawal or after exposure to medications<br/>• The involved substance or medication is capable of producing depressive symptoms.<br/>• The disturbance include clinical significant distress or impairment in social, occupational or other important area of functioning"
+     },
+     {
+      "t": "SUBSTANCE OR MEDICATION INDUCED DEPRESSIVE DISORDER"
+     },
+     {
+      "t": "• Consider above interventions for Major Depressive Disorder, with no suicidality/psychosis<br/>• Consider long term rehabilitation if there is no improvement on alcohol and substance use behavior"
+     }
+    ],
+    [
+     {
+      "t": "If the client has:<br/>Prominent and persistent depressed mood or lack of interest/ pleasure with evidence;<br/>• from history, physical exams or laboratory findings that the disturbance is the direct consequences of a medical condition<br/>No history of another mental disorder or delirium"
+     },
+     {
+      "t": "DEPRESSIVE DISORDER DUE TO ANOTHER MEDICAL CONDITION"
+     },
+     {
+      "t": "• Manage the general medical condition first or refer<br/>• If there is no improvement after stabilizing the general medical condition consider the same interventions for managing Major Depressive Disorder, with no suicidality/psychosis"
+     }
+    ],
+    [
+     {
+      "t": "If the client has:<br/>The following symptoms for 12 months or more;<br/>• Severe recurrent temper outburst<br/>• Temper outbursts inconsistent for age<br/>• Temper outbursts occurs 3 or more times a week<br/>• Persistent irritable mood most of the day"
+     },
+     {
+      "t": "DISRUPTIVE MOOD DYSREGULATION DISORDER<br/>(N.B The diagnosis should not be done before age 6 or after 18 years)"
+     },
+     {
+      "t": "<br/>• Provide support and reassurance<br/>• Provide psychoeducation<br/>Go to page 86<br/>• Provide counseling or refer<br/>• Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counselling"
+     }
+    ],
+    [
+     {
+      "t": "If the clients has:<br/>depressive symptoms with at least two or more of the following;<br/>• feeling keyed up or tense<br/>• feeling unusually distressed<br/>• difficult concentrating because of worry<br/>• fear of something awful is going to happen<br/>• Unable to control the fear"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER WITH ANXIOUS DISTRESS"
+     },
+     {
+      "t": "• Consider the same interventions for managing Major Depressive Disorder, with no suicidality or psychosis"
+     }
+    ],
+    [
+     {
+      "t": "If the clients has; depressive symptoms with at least three or more of the following; - fear of something awful is going to happen - elevated mood - grandiosity - over talkativeness/ pressured speech - flights of ideas - increased energy - increased activity - decreased need for sleep"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER WITH MIXED FEATURES"
+     },
+     {
+      "t": "- Prescribe medications as follows or refer - Antidepressants Go to page 58 - PLUS an antipsychotics Go to page 59 - PLUS a mood stabilizer or refer Go to page 69 - PLUS a sedative if insomnia is one of the presenting symptom Lorazepam 1-2mg nocte for 7/7 - Provide counseling or refer Go to page 85 - Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling - Adherence counseling Go to page 81 - Family involvement Go to page 81"
+     }
+    ],
+    [
+     {
+      "t": "If the clients has; depressive symptoms with catatonic features"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER WITH CATATONIA"
+     },
+     {
+      "t": "- Consider the same interventions for managing Major Depressive Disorder with psychosis, no suicidal attempts/thoughts"
+     }
+    ],
+    [
+     {
+      "t": "If the clients has; depressive symptoms with mood reactivity PLUS two or more - Significant weight gain - Hypersomnia - Leaden paralysis (heaviness around arms, neck or legs& shoulders) - Interpersonal rejection"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER WITH ATYPICAL FEATURES"
+     },
+     {
+      "t": "- Consider the same interventions for managing Major Depressive Disorder without psychosis or suicidality"
+     }
+    ],
+    [
+     {
+      "t": "If the clients has depressive symptoms during pregnancy or in the 4 week following delivery"
+     },
+     {
+      "t": "MAJOR DEPRESSIVE DISORDER WITH PERIPARTUM ONSET"
+     },
+     {
+      "t": "Consider the same interventions for managing Major Depressive Disorder without psychosis or suicidality"
+     }
+    ],
+    [
+     {
+      "t": "If the client has:<br/>Symptoms of depressive disorder but do not meet full criteria for any depressive disorders"
+     },
+     {
+      "t": "OTHER SPECIFIED DEPRESSIVE DISORDER"
+     },
+     {
+      "t": "<br/>• Provide counselling or refer<br/>• Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling<br/>• Prescribe antidepressants if the patient continues to present with depressive symptoms or refer Go to page 58"
+     }
+    ],
+    [
+     {
+      "t": "Consider a sedative with anxiolytic effect for patients presenting with insomnia"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p24-0036",
+   "page": 24,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Major Depressive Disorder > 2. Conduct physical examination and Mental Status Evaluation (MSE)",
+   "caption": "2. Conduct physical examination and Mental Status Evaluation (MSE) (Entry point, Management)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0036",
+    "mental-health-deskguide-0037"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "- Mild symptoms of Major Depressive Disorder - No psychosis symptoms - No suicide attempt/thoughts - Stable depression on treatment (continuation phase)"
+     },
+     {
+      "t": "- Take vital signs - Provide health education and support - Encourage family support - Provide counselling - Conduct MSE and physical examinations - Take vital signs - Assess side effects of medications - Assess adherence to medications - Refill medications as indicated - Refer to doctor led services every 6 months for review If not improved within 2 months go to step 2"
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "- Moderate form of Major Depressive Disorder - Presence of psychosis and suicide thoughts/attempt - Failure at step 1"
+     },
+     {
+      "t": "- Take vital signs - Conduct MSE and physical examination each visit - Assess side effects and adherence of medications - Provide health education and encourage family support - Initiate or review medications as indicated - Conduct Suicidal Risk Assessment - Assess the need for inpatient care - Counselling If not improved after 2 months go to step 3"
+     }
+    ],
+    [
+     {
+      "t": "Step 3: Specialized Psychiatric Hospital"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "- Failure at step 2. - Children with Major Depressive Disorder - Elderly, pregnant women and breastfeeding mothers with any form of Major Depressive Disorder - Severe form of Major Depressive Disorder with or without psychosis or suicidality - Suicide attempt regardless of the severity of Major Depressive Disorder"
+     },
+     {
+      "t": "- Doctor led services - Clinical Psychologist for psychotherapy"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    24
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p25-0039",
+   "page": 25,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Generalized Anxiety Disorder (GAD) and Panic Disorder > Table 3: Summary of Classification and Management of Anxiety Disorders",
+   "caption": "TABLE 3: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF ANXIETY DISORDERS: Table 3: Summary of Classification and Management of Anxiety Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0039"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has:<br/>• Excessive fear or worry occurring more days for at least 6/12<br/>• Difficult to control the worry<br/>PLUS<br/>3 or more of the following symptoms (NB: in children only 1 item/symptom is required).<br/>• restlessness or feeling keyed up<br/>• easy fatigue,<br/>• difficulty concentrating,<br/>• irritability,<br/>• muscle tension<br/>• insomnia<br/>NB; It must eliminate or exclude drug abuse, medication, medical conditions or other mental disorders that may induce anxiety."
+     },
+     {
+      "t": "GENERALIZED ANXIETY DISORDER"
+     },
+     {
+      "t": "<br/>• Assess and provide counselling or refer<br/>• Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling<br/>• Prescribe antidepressants or refer Refer to page 61<br/>• Consider an anxiolytic to patients presenting with insomnia or in distress"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has"
+     },
+     {
+      "t": "PANIC DISORDER"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    25
+   ],
+   "context_before": "TABLE 3: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF ANXIETY DISORDERS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p25-0040",
+   "page": 25,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Generalized Anxiety Disorder (GAD) and Panic Disorder",
+   "caption": "TABLE 4: STEPWISE MANAGEMENT OF GAD AND PANIC DISORDER: Generalized Anxiety Disorder (GAD) and Panic Disorder (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0040",
+    "mental-health-deskguide-0042",
+    "mental-health-deskguide-0044",
+    "mental-health-deskguide-0046"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Unexpected abrupt surge of intense fear or discomfort that reaches a peak within a minute PLUS 4 or more of the following symptoms • Awareness of heart beats • Difficulty concentrating • Sweating • Trembling or shaking • Sensation of shortness of breath • Feelings of choking • Chest pain or discomfort • Chills or fever/heat sensations • Nausea and/or abdominal. discomfort • numbness or tingling sensations (paresthesias) • Derealisation or depersonalization • Fear of losing control/going crazy • Fear of dying PLUS At least one of the attacks has been followed by one month or more of one or both of the following; • Persistent worry or concern over another attack or their consequences • Notable change in behaviour related to the attacks N;B The disturbances are not due to physiological effects drugs of abuse, medications, another mental disorder or medical conditions e.g. hyperthyroidism, cardiopulmonary disorders"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "• Provide counselling or refer • Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling • Prescribe antidepressants or refer Refer to page 61 • Consider prescribing an anxiolytic to patients presenting with insomnia or in distress"
+     }
+    ],
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "* Mild symptoms of Generalized Anxiety Disorder"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Failure at step 1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Failure at step 2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    25,
+    26,
+    27
+   ],
+   "context_before": "TABLE 4: STEPWISE MANAGEMENT OF GAD AND PANIC DISORDER"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p28-0049",
+   "page": 28,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Trauma and Stressor Related Disorders > Table 5: Summary of Classification and Management of Trauma and Stressor Related Disorders",
+   "caption": "TABLE 5: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF TRAUMA AND STRESSOR RELATED DISORDERS: Table 5: Summary of Classification and Management of Trauma and Stressor Related Disorders (SIGNS, CLASSIFIED AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0049"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFIED AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "The following are diagnostic criteria;<br/>A. If the patient was exposed to actual or threatened death, serious injury or sexual violence in one or more of the following ways;<br/>- Directly experienced the trauma<br/>- Witnessed the event(s) as it occurred to others<br/>- Learned the event(s) occurred to a close relative or friend<br/>- Experienced repeated or extreme exposure to a traumatic event(s) (does not apply to exposure through electronic media, TV, movies, pictures unless the exposure is work related)<br/>Duration of symptoms (criteria B,C, D and E) is more than one month.<br/>B. Presence of one or more of the following symptoms:<br/>- Recurrent involuntary and intrusive distressing memories of traumatic event(s). (in children repetitive play may occur in which themes or aspects of the traumatic event(s) are expressed.<br/>- Recurrent distressing dreams of the traumatic event(s). In children there may be frightening dreams.<br/>- Flash backs of the event(s)<br/>- Intense or prolonged psychological distress at exposure to cues that symbolizes or resembles the traumatic event(s)"
+     },
+     {
+      "t": "POST TRAUMATIC STRESS DISORDER (PTSD)"
+     },
+     {
+      "t": "- Assess and provide counseling<br/>- Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling<br/>- Prescribe medications or refer Refer to Table 26, Page 61<br/>- Rule out MDD, GAD & Panic Disorder"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    28
+   ],
+   "context_before": "TABLE 5: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF TRAUMA AND STRESSOR RELATED DISORDERS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p28-0050",
+   "page": 28,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Trauma and Stressor Related Disorders",
+   "caption": "Trauma and Stressor Related Disorders (SIGNS, CLASSIFIED AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0050",
+    "mental-health-deskguide-0052",
+    "mental-health-deskguide-0054",
+    "mental-health-deskguide-0056",
+    "mental-health-deskguide-0058"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFIED AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Marked physiological reactions to cues that symbolizes or resembles the traumatic event(s) C. Persistent avoidance of stimuli associated with the traumatic event(s) as evidenced by one or both of the following; • Avoidance of or efforts to avoid distressing memories, thoughts or feelings about or associated with the traumatic event(s) • Avoidance of or efforts to avoid external reminders (such as people, places, objects, activities, situations) about or associated with the traumatic event(s) D. Negative alterations in cognitions and mood associated with the traumatic event(s) as evidenced by two or more of the following; • Inability to remember an important aspect of the event • Persistent and exaggerated negative beliefs or expectations about oneself, others or the world e.g. I am bad • Self-blame or blaming others • Persistent negative emotional state (fear, horror, anger, shame, guilty). • Lack of interest • Feelings of detachment or estrangement from others. • Persistent inability to express positive emotions such as happiness, satisfaction"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "E. Marked alterations in an arousal or reactivity associated with the traumatic event as evidenced by two of more of the following; - Irritability or anger outburst - Reckless or self-destructive behavior - Hypervigilance - Exaggerated startle response - Problems with concentration - Sleep disturbances"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "- Diagnostic criteria is the similar to PTSD symptoms – but symptoms lasts from 3 days to 1 month following exposure to a traumatic event(s) - Therefore the diagnosis changes to PTSD if symptoms persists after a month"
+     },
+     {
+      "t": "ACUTE STRESS DISORDER"
+     },
+     {
+      "t": "- Assess and provide counseling - Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counseling - Provide supportive medications as indicated"
+     }
+    ],
+    [
+     {
+      "t": "A. Presence of emotional or behavioral symptoms in response to an identifiable stressor(s) occurring within 3 months of the onset of the stressor. B. These symptoms or behaviors are clinically significant as evidenced by one or both of the following; - Marked distress that is out of proportion to the severity of the stressor - Significant impairment in social, occupational or other important areas of functioning The stress related disturbance does not meet the diagnosis of any other mental illness or normal bereavement"
+     },
+     {
+      "t": "Adjustment disorder"
+     },
+     {
+      "t": "- Assess and provide counseling - Reassure"
+     }
+    ],
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "* Acute stress disorder"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Failure at step 1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Failure at step 2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p34-0064",
+   "page": 34,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Suicide and Self-Harm > Management",
+   "caption": "Management (Entry point, Management)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0064"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Suicide thoughts/ideation"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Refer to Doctor led services and then Clinical Psychologist led services"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    34
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p36-0068",
+   "page": 36,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Grief and Bereavement > Types of complicated grief",
+   "caption": "Types of complicated grief (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0068",
+    "mental-health-deskguide-0070"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If an individual experienced the death of someone with a close relationship<br/>PLUS at least one of the following symptoms to a clinically significant degree and has persisted for at least 12 moths;- Persistent yearning/longing for the deceased"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Persistent Complex Bereavement Disorder"
+     },
+     {
+      "t": "• Take vital signs<br/>• Conduct physical examination<br/>• Conduct MSE<br/>• Provide support and counseling<br/>• Assess for MDD<br/>• If there is no improvement after a month, go to step 2"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Failure at step1<br/>• Persistent Complex Bereavement Disorder comorbid with mild or moderate symptoms of other psychiatric conditions such MDD, GAD, Bipolar Disorders"
+     },
+     {
+      "t": "• Take vital signs<br/>• Conduct physical examination<br/>• Conduct MSE<br/>• Provide support and counseling<br/>• Prescribe medications<br/>• If there is no improvement after a month, go to step 3"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Failure at step 2<br/>• Persistent Complex Bereavement Disorder comorbid with severe symptoms of other psychiatric conditions such MDD, GAD<br/>• Children, adolescents and elderly"
+     },
+     {
+      "t": "• Doctor and Clinical Psychologist led services"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    36,
+    37
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p39-0074",
+   "page": 39,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Sexual Assault and Psychiatry > Management",
+   "caption": "Management (Entry point, Management)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0074",
+    "mental-health-deskguide-0076",
+    "mental-health-deskguide-0078"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "* Sexual Assault without psychiatric symptoms or pregnancy"
+     },
+     {
+      "t": "- Vital signs"
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Sexual assault with mild symptoms of psychiatric conditions"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Sexual assault with moderate or severe symptoms of psychiatric conditions"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    39
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p40-0081",
+   "page": 40,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Bipolar and Related Disorders > Table 11: Summary of Diagnosis and Classification for Bipolar I and Ii",
+   "caption": "TABLE 11: SUMMARY OF DIAGNOSIS AND CLASSIFICATION FOR BIPOLAR I AND II: Table 11: Summary of Diagnosis and Classification for Bipolar I and Ii (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0081"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has:<br/>A. Abnormally and persistent elevated, expansive or irritable mood and abnormally and persistently increase activity or energy lasting at least one week<br/>B. PLUS 3 or more of the following;<br/>- Flight of ideas<br/>- Decreased need for sleep (feels rested after only three hours of sleep).<br/>- More talkative than usual<br/>- Inflated self-esteem or grandiosity<br/>- Distractibility<br/>- Increase in goal directed activity<br/>- Excessive involvement in activities that have a high potential for painful consequences eg buying spree<br/>C. Marked impairment in social and occupational functioning<br/>D. Episodes not attributable to a physiological effect of a substance e.g. drugs, medications or other medical condition"
+     },
+     {
+      "t": "BIPOLAR I DISORDER MANIC EPISODE"
+     },
+     {
+      "t": "- Initiate the following medications or refer;<br/>- Anti-psychotics Check Table 30 & 31 Page 64<br/>PLUS a mood stabilizer Refer page 69<br/>- PLUS a sedative if insomnia is one of the presenting symptom preferably Promethazine HCl 50mg to 75mg nocte for 7/7<br/>- Psycho-education<br/>- Adherence counseling Refer page 81<br/>- Family involvement Refer page 81<br/>- Counseling on alcohol and substance use issues"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    40
+   ],
+   "context_before": "TABLE 11: SUMMARY OF DIAGNOSIS AND CLASSIFICATION FOR BIPOLAR I AND II"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p40-0082",
+   "page": 40,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Bipolar and Related Disorders",
+   "caption": "Bipolar and Related Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0082",
+    "mental-health-deskguide-0083"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has: A. Abnormally and persistent elevated, expansive or irritable mood and abnormally and persistently increase activity or energy lasting at least four consecutive days. B. PLUS 3 or more of the following that represent a noticeable change from usual behaviour and has been present to a significant degree; - Flight of ideas - Decreased need for sleep (feels rested after only three hours of sleep). - More talkative than usual - Inflated self-esteem or grandiosityDistractibility - Increase in goal directed activity - Excessive involvement in activities that have a high potential for painful consequences eg buying spree Note the following; - The episode should not present with psychotic symptoms - The episode should not be severe enough to cause marked impairment in social or occupational functioning - The episode should not be severe to necessitate hospitalization"
+     },
+     {
+      "t": "BIPOLAR I DISORDER HYPMANIC EPISODE"
+     },
+     {
+      "t": "Initiate the following medications or refer; - Mood stabilizer Refer page 69 - PLUS a sedative if insomnia is one of the presenting symptom preferably Lorazepam 2-4mg nocte for 7/7 - Psycho- education - Adherence counseling Refer page 81 - Family involvement Refer page 81 - Counseling on alcohol and substance use issues"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has: Five or more of the following symptoms have been present during the same two weeks period, at least one of the symptoms is either depressed mood or loss of interest or pleasure. PLUS: - Weight loss or weight gain - Insomnia or hypersomnia - Psychomotor agitation or retardation - Fatigue or loss of energy - Feeling of worthlessness or excessive inappropriate guilt - Diminished ability to think or concentrate and indecisiveness - Recurrent thought of death Do not include symptoms that are attributable to the physiological effects of substance or another medical condition:"
+     },
+     {
+      "t": "BIPOLAR I DISORDER MAJOR DEPRESSIVE EPISODE"
+     },
+     {
+      "t": "Initiate the following medications or refer; - Anti-psychotics Refer page 64 PLUS a mood stabilizer Refer page 69 PLUS an antidepressant Refer page 58 - PLUS a sedative if insomnia is one of the presenting symptom preferably Lorazepam 2-4mg nocte for 7/7 - Psycho- education - Adherence counseling Refer page 81 - Family involvement Refer page 81 - Counseling on alcohol and substance use issues - Refer to the Clinical Psychologist for psychotherapy"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "A hypomanic episode is classified as 'BIPOLAR I DISORDER HYPMANIC EPISODE'; hypomania without a manic episode defines bipolar II (with a major depressive episode). 'Hypmanic' typo."
+   ],
+   "pages": [
+    40
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p43-0085",
+   "page": 43,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Bipolar and Related Disorders",
+   "caption": "Bipolar and Related Disorders (If the patient has:<br/>Has current or past hypomanic episode together with current or past Major Depressive Episode, BIPOLAR II DISORDER, Initiate th)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0085",
+    "mental-health-deskguide-0087"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "If the patient has:<br/>Has current or past hypomanic episode together with current or past Major Depressive Episode"
+     },
+     {
+      "t": "BIPOLAR II DISORDER"
+     },
+     {
+      "t": "Initiate the following medications or refer; - Anti-psychotics Refer page 64 PLUS a mood stabilizer Refer page 69 PLUS an antidepressant Refer page 58 - PLUS a sedative if insomnia is one of the presenting symptom - Psycho-education - Adherence counseling Refer page 81 - Family involvement Refer page 81 - Counseling on alcohol and substance use issues - Counseling - Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counselling."
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "TABLE 12: STEPWISE MANAGEMENT OF BIPOLAR I AND II DISORDERS"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Mentally stable Bipolar I Disorder on treatment"
+     },
+     {
+      "t": "• Take vital signs"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Mentally stable Bipolar II Disorder on treatment"
+     },
+     {
+      "t": "• Conduct physical examination and MSE<br/>• Psycho- education and adherence counseling<br/>• Assess side effects of medications<br/>• Counseling and family involvement<br/>• Counseling on alcohol and substance use issues<br/>• Refill medications as indicated.<br/>• Refer to Doctor led service once in 6 months for review"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Failure step1"
+     },
+     {
+      "t": "• Vital signs, physical examination and MSE"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Bipolar I Disorder moderate symptoms"
+     },
+     {
+      "t": "• Psycho- education and adherence counseling"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Bipolar II Disorder moderate symptoms"
+     },
+     {
+      "t": "• Assess side effects of medications<br/>• Counseling and family involvement<br/>• Counseling on alcohol and substance use issues<br/>• Review patients' medications as indicated or refer"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Failure at step 2<br/>• Acute/severe symptoms of Bipolar I Disorder"
+     },
+     {
+      "t": "• Refer to Doctor led services at the National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    43,
+    44
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p45-0089",
+   "page": 45,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Schizophrenia and Other Psychosis > Table 13: Summary of Classification and Management of Schizophrenia & Other Psychosis",
+   "caption": "TABLE 13: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF SCHIZOPHRENIA & OTHER PSYCHOSIS: Table 13: Summary of Classification and Management of Schizophrenia & Other Psychosis (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0089"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has two or more of the following symptoms for not less than 6 months:- Speech that is difficult to understand"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    45
+   ],
+   "context_before": "TABLE 13: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF SCHIZOPHRENIA & OTHER PSYCHOSIS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p45-0091",
+   "page": 45,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Schizophrenia and Other Psychosis",
+   "caption": "TABLE 14: STEPWISE MANAGEMENT OF SCHIZOPHRENIA AND OTHER PSYCHOTIC DISORDERS: Schizophrenia and Other Psychosis (Condition, Diagnosis, Interventions)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0091",
+    "mental-health-deskguide-0092",
+    "mental-health-deskguide-0093",
+    "mental-health-deskguide-0095",
+    "mental-health-deskguide-0097",
+    "mental-health-deskguide-0099",
+    "mental-health-deskguide-0101"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Condition"
+     },
+     {
+      "t": "Diagnosis"
+     },
+     {
+      "t": "Interventions"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has one or more of the following symptoms for a duration of symptoms, at least one day but less than one month: 1. Speech that is difficult to understand 2. Delusions 3. Hallucinations 4. Marked unusual behaviour"
+     },
+     {
+      "t": "BRIEF PSYCHOTIC DISORDER"
+     },
+     {
+      "t": "Consider the same interventions for managing schizophrenia"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has two or more of the following symptoms for a duration of one month but less than six months:<br/>1. Speech that is difficult to understand<br/>2. Delusions<br/>3. Hallucinations<br/>4. Marked unusual behavior"
+     },
+     {
+      "t": "SCHIZOPHRENIFORM DISORDER"
+     },
+     {
+      "t": "• Consider the same interventions for managing schizophrenia"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has symptoms of schizophrenia concurrent with a major mood episode (major depressive episode or manic episode)"
+     },
+     {
+      "t": "SCHIZOAFFECTIVE DISORDER"
+     },
+     {
+      "t": "Initiate the following interventions or refer<br/>• Anti-psychotics Refer page 64<br/>• PLUS a mood stabilizer Refer page 69<br/>• PLUS a sedative if the patient presents with insomnia<br/>• Psycho-education Refer page 89<br/>• Adherence counseling Refer page 81<br/>• Family involvement<br/>• Assess for suicidal risk Refer page 99"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has<br/>• Prominent delusions or hallucinations<br/>• Evidence from history, physical examination or laboratory findings that the disturbance is the direct pathophysiological consequences of another medical condition.<br/>• No presence of a mental condition"
+     },
+     {
+      "t": "PSYCHOTIC DISORDER DUE TO A GENERAL MEDICAL CONDITION"
+     },
+     {
+      "t": "Provide first aid as applicable<br/>• Manage the general Medical condition or refer (DO NOT REFER TO THE NPRH)<br/>• Initiate low dose of an antipsychotic if there is no improvement after stabilizing the general Medical condition<br/>• PLUS a sedative preferably Lorazepam 0.5 to 1mg nocte for seven days if presents with insomnia"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has: - Either hallucinations or delusions or both - Evidence from history, physical examination or laboratory findings of hallucinations and/or delusions developed during or soon after substance intoxication or withdrawal or after exposure to a medication. - The involved substance or medication is capable of producing hallucinations and/or delusions. - No presence of a mental condition"
+     },
+     {
+      "t": "SUBSTANCE INDUCED PSYCHOTIC DISORDER"
+     },
+     {
+      "t": "- Consider the same interventions for managing schizophrenia - PLUS substance use education and counseling - Conduct multi drug test"
+     }
+    ],
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "The following conditions, stable on treatment- Schizophrenia"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "- Failure step 1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "- Failure step 2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    45,
+    46,
+    47,
+    48
+   ],
+   "context_before": "TABLE 14: STEPWISE MANAGEMENT OF SCHIZOPHRENIA AND OTHER PSYCHOTIC DISORDERS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p49-0104",
+   "page": 49,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Neurocognitive Disorders (dementia) > Table 15: Summary of Classification and Management of Neurocognitive Disorders",
+   "caption": "TABLE 15: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF NEUROCOGNITIVE DISORDERS: Table 15: Summary of Classification and Management of Neurocognitive Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0104"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has<br/>• A disturbance in attention and awareness<br/>• A disturbance develops over a short period of time and fluctuates in severity during the course of a day.<br/>• PLUS disturbance in cognition (memory deficit, disorientation, language challenges etc.)<br/>• Evidence from history, physical examination or laboratory findings that the disturbance is a direct physiological consequences of another medical condition"
+     },
+     {
+      "t": "DELIRIUM"
+     },
+     {
+      "t": "<br/>• Initiate the following interventions or refer<br/>• Manage the physical condition first<br/>• PLUS a sedative preferably Lorazepam 0.5 to 1mg nocte for seven days if presents with insomnia<br/>• Psycho-education<br/>• Adherence counseling Refer page 90<br/>• Family involvement Refer page 81"
+     }
+    ],
+    [
+     {
+      "t": "The same symptoms as above but they are due to side effects of medications"
+     },
+     {
+      "t": "MEDICATION INDUCED DELIRIUM"
+     },
+     {
+      "t": "As above PLUS withdrawal the medication causing side effects"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has<br/>• evidence of modest decline level of performance in one or more cognitive domains (attention, executive function, learning and memory, language, perceptual motor or social cognition)<br/>• The cognitive deficit do not interfere with independence in everyday activities"
+     },
+     {
+      "t": "MILD NEUROCOGNITIVE DISORDER"
+     },
+     {
+      "t": "• As above for managing Major Neurocognitive Disorder"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Delirium: 'a sedative preferably lorazepam 0.5-1 mg nocte for seven days' – benzodiazepines can worsen delirium (except in alcohol or benzodiazepine withdrawal) and are generally avoided; low-dose antipsychotic only if distressing symptoms is the usual approach."
+   ],
+   "pages": [
+    49
+   ],
+   "context_before": "TABLE 15: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF NEUROCOGNITIVE DISORDERS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p49-0105",
+   "page": 49,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Neurocognitive Disorders (dementia)",
+   "caption": "TABLE 16: STEPWISE MANAGEMENT OF DEMENTIA (NEUROCOGNITIVE DISORDERS): Neurocognitive Disorders (dementia) (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0105",
+    "mental-health-deskguide-0107",
+    "mental-health-deskguide-0109"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has<br/>• evidence of significant decline level of performance in one or more cognitive domains (attention, executive function, learning and memory, language, perceptual motor or social cognition)<br/>• The cognitive deficit interfere with independence in everyday activities"
+     },
+     {
+      "t": "MAJOR NEUROCOGNITIVE DISORDER"
+     },
+     {
+      "t": "• Initiate the following interventions or refer<br/>• Assess for hearing loss<br/>• Assess nutritional status to rule out malnutrition<br/>• Manage any physical condition<br/>• Prescribe medications<br/>• PLUS low dose of antipsychotics if the patient presents with behavioral disturbance<br/>• PLUS antidepressants and psychotherapy if the patient presents with MDD and/or GAD and/or panic disorder Refer page 76<br/>• Psycho-education Refer page 90<br/>• Adherence counseling<br/>• Occupational therapy<br/>• Family involvement Refer page 81<br/>• Counseling and support to care givers"
+     }
+    ],
+    [
+     {
+      "t": "With psychotic symptoms/severe agitation"
+     },
+     {
+      "t": "Consider low dose of anti-psychotics"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "With depressive or anxiety symptoms"
+     },
+     {
+      "t": "Consider prescribing antidepressants"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "-"
+     },
+     {
+      "t": "NA"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Mild Neurocognitive Disorder"
+     },
+     {
+      "t": "- Take vital signs<br/>- Conduct MSE and physical examination<br/>- Family involvement<br/>- Assess nutritional status and manage as indicated<br/>- Prescribe medications as indicated<br/>- Occupational therapy<br/>- Assess and manage side effects of medications<br/>- Counseling and support to the patient and care givers<br/>- Adherence counseling"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Severe Neurocognitive Disorder"
+     },
+     {
+      "t": "Doctor led services and occupational Therapy led services"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Failure step 2"
+     },
+     {
+      "t": "Doctor led services"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    49,
+    50,
+    51
+   ],
+   "context_before": "TABLE 16: STEPWISE MANAGEMENT OF DEMENTIA (NEUROCOGNITIVE DISORDERS)"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p52-0112",
+   "page": 52,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders > Table 17: Summary of Classification and Management of Substance-Related and Addictive Disorders",
+   "caption": "TABLE 17: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF SUBSTANCE-RELATED AND ADDICTIVE DISORDERS: Table 17: Summary of Classification and Management of Substance-Related and Addictive Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0112"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Evidence from history, physical examination or laboratory findings<br/>PLUS both of the following;<br/>• The disorder developed during or within one month of a substance intoxication or withdrawal or taking a medication.<br/>• The involved substance/ medication is capable of producing the mental disorder<br/>PLUS<br/>• The disorder is not better explained by an independent mental illness."
+     },
+     {
+      "t": "SUBSTANCE OR MEDICATION INDUCED MENTAL DISORDER"
+     },
+     {
+      "t": "• Refer or initiate the following interventions;<br/>• Prescribe antipsychotics<br/>Refer page 64<br/>PLUS a sedative if presents with insomnia<br/>• Psycho-education<br/>• Adherence counseling<br/>Refer page 81<br/>• Family involvement<br/>Refer page 81<br/>• Counseling on substance use"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    52
+   ],
+   "context_before": "TABLE 17: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF SUBSTANCE-RELATED AND ADDICTIVE DISORDERS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p53-0114",
+   "page": 53,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders",
+   "caption": "Substance-Related and Addictive Disorders (If the patient has, ALCOHOL INTOXICATION)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0114",
+    "mental-health-deskguide-0116",
+    "mental-health-deskguide-0118",
+    "mental-health-deskguide-0119",
+    "mental-health-deskguide-0121"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "If the patient has"
+     },
+     {
+      "t": "ALCOHOL INTOXICATION"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Recent use of alcohol • Change of behavior that developed during or shortly after alcohol • PLUS one or more of the following symptoms developing during or shortly after alcohol;- Slurred speech"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "If the patient has;<br/>• History of cessation or reduction of heavy alcohol use<br/>• PLUS two or more of the following within several hours to few days after the cessation or reduction<br/>o Autonomic hyperactivity e.g. sweating<br/>o Increased hand tremor<br/>o Insomnia<br/>o Nausea and vomiting<br/>o Transient visual, tactile or auditory hallucinations or illusions<br/>o Psychomotor agitation<br/>o Anxiety<br/>o Generalized tonic clonic seizures"
+     },
+     {
+      "t": "ALCOHOL WITHDRAW"
+     },
+     {
+      "t": "<br/>• Initiate the following interventions or refer<br/>• Random Blood Glucose testing and management<br/>• Check Serum Creatinine and Urea, ALAT & ASAT, CBC, electrolytes and GGT and manage<br/>• Urinary multi drug test to detect other substance use<br/>• Check hydration status and manage.<br/>• Asses suicidal thoughts<br/>• Manage seizures as indicted<br/>• Prescribe medications<br/>• Psycho-education<br/>• Counseling"
+     }
+    ],
+    [
+     {
+      "t": "If a client/ patient presents with the problematic pattern of alcohol or substance use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12-month period: 1.<br/>Alcohol is often taken in larger amounts or over a longer period than was intended.<br/>2.<br/>There is a persistent desire or unsuccessful efforts to cut down or control alcohol use.<br/>3.<br/>A great deal of time is spent in activities necessary to obtain alcohol, use it or recover from its effects.<br/>4.<br/>Craving, or a strong desire or urge to use alcohol.<br/>5.<br/>Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home.<br/>6.<br/>Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol.<br/>7.<br/>Important social, occupational, or recreational activities are given up or reduced because of alcohol use.<br/>8.<br/>Recurrent alcohol use in situations in which it is physically hazardous.<br/>9."
+     },
+     {
+      "t": "ALCOHOL USE DISORDER"
+     },
+     {
+      "t": "- As a Initiate the following interventions or refer - Check Serum Creatinine and Urea, ALAT & ASAT, and GGT and manage - Urinary multi drug test to detect other substance use - Psycho-education - Counseling - Family involvement - Long term rehabilitation as indicated"
+     }
+    ],
+    [
+     {
+      "t": "Alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "10. Tolerance<br/>11. Withdrawal symptoms"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Alcohol withdrawal management lists investigations and 'prescribe medications' but no thiamine; WHO mhGAP recommends thiamine 100 mg for all patients with alcohol withdrawal (and a benzodiazepine regimen), which is not stated here."
+   ],
+   "pages": [
+    53,
+    54,
+    55
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p56-0122",
+   "page": 56,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders > Cannabis Use Disorders",
+   "caption": "Cannabis Use Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0122",
+    "mental-health-deskguide-0124",
+    "mental-health-deskguide-0126"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the patient has - Recent use of cannabis - Change of behavior that developed during or shortly after alcohol or substance use. - PLUS two or more of the following symptoms developing within two hours after cannabis use; - Conjunctiva injection - Increased appetite - Dry mouth - Tachycardia"
+     },
+     {
+      "t": "CANNABIS INTOXICATION"
+     },
+     {
+      "t": "- Initiate the following interventions or refer - Urinary multi drug test to detect other substance use - Psycho-education - Counseling on cannabis use - Family involvement Refer page 81 - Check Serum Creatinine and Urea, ALAT & ASAT, CBC, serum electrolytes and manage - Hydrate as indicated - Educate for a possibility of long term rehabilitation as indicated"
+     }
+    ],
+    [
+     {
+      "t": "If the patient has;"
+     },
+     {
+      "t": "CANNABIS WITHDRAW"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• History of cessation or reduction of heavy cannabis use<br/>• PLUS three or more of the following within a week after the cessation or reduction<br/>- Irritability, anger, aggression<br/>- Nervousness or anxiety<br/>- Sleep difficulty<br/>- Decreased appetite or weight loss<br/>- Restlessness<br/>- Decreased mood<br/>- At least one of the following physical symptoms causing significant discomfort; abdominal pain, tremors, sweating, fever, chills or headache"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "• Initiate the following interventions or refer<br/>• Random Blood Glucose<br/>• Check Serum Creatinine & Urea, ALAT & ASAT, CBC, and manage<br/>• Urinary multi drug test to detect other substances<br/>• Check hydration status and manage.<br/>• Asses suicidal thoughts<br/>• Manage seizures as indicted<br/>• Prescribe supportive medications<br/>• Psycho-education<br/>• Counseling<br/>• Long term rehabilitation as indicated"
+     }
+    ],
+    [
+     {
+      "t": "If a client/ patient presents with the problematic pattern of cannabis use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12-month period: 1. Cannabis is often taken in larger amounts or over a longer period than was intended. 2. There is a persistent desire or unsuccessful efforts to cut down or control cannabis use. 3. A great deal of time is spent in activities necessary to obtain cannabis use it or recover from its effects. 4. Craving, or a strong desire or urge to use cannabis. 5. Recurrent cannabis use resulting in a failure to fulfill major role obligations at work, school, or home. 6. Continued cannabis use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol or substance. 7. Important social, occupational, or recreational activities are given up or reduced because of cannabis use. 8. Recurrent cannabis use in situations in which it is physically hazardous. 9. Cannabis use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol or substance cannabis.<br/>10. Tolerance<br/>11. Withdrawal symptoms"
+     },
+     {
+      "t": "CANNABIS USE DISORDER"
+     },
+     {
+      "t": "- As a Initiate the following interventions or refer - Urinary multi drug test to detect other substance use - Psycho-education - Counseling - Family involvement - Long term rehabilitation as indicated"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    56,
+    57,
+    58
+   ],
+   "context_before": "CANNABIS USE DISORDERS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p60-0129",
+   "page": 60,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders > Cannabis Use Disorders",
+   "caption": "Cannabis Use Disorders (Entry point, Management)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0129",
+    "mental-health-deskguide-0131",
+    "mental-health-deskguide-0133"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "* Alcohol or substance use disorder; mild"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Failure at step1"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Failure at step 2"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    60
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p62-0137",
+   "page": 62,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders",
+   "caption": "C. Disruptive, Impulse Control, and Conduct Disorders (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0137",
+    "mental-health-deskguide-0139",
+    "mental-health-deskguide-0140",
+    "mental-health-deskguide-0141"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SIGNS"
+     },
+     {
+      "t": "CLASSIFY AS:"
+     },
+     {
+      "t": "MANAGEMENT"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the child has 3 or more of the following:<br/>Deficits in intellectual functioning such as reasoning, judgment, planning, academic learning and learning from experience.<br/>• Deficit in adaptive functioning such as communication, social participation and independent living.<br/>• Onset of signs is during the developmental period (within the first 2 years of life)."
+     },
+     {
+      "t": "INTELLECTUAL DISABILITY"
+     },
+     {
+      "t": "• Provide counselling to parent(s) or caregiver(s)<br/>• Provide psychoeducation about the condition<br/>Refer to Job Aid; Developmental Disorders. Page 94<br/>• Occupational therapy for behavioral modification<br/>• Advice to teachers"
+     }
+    ],
+    [
+     {
+      "t": "If the child has:<br/>• Persistent difficulties in acquisition and use of language such as limited vocabulary, poor sentence construction and impairments in expression of written and spoken communication.<br/>• Language abilities are substantially and quantifiably below those expected for age in communication, social participation and academic performance.<br/>• Onset of signs is during the early developmental period.<br/>• Difficulties not attributable to sensory impairment, motor dysfunction, medical, neurological condition or mental disorder."
+     },
+     {
+      "t": "LANGUAGE DISORDER"
+     },
+     {
+      "t": "• Provide counselling to parents(s) or caregiver<br/>• Speech therapy"
+     }
+    ],
+    [
+     {
+      "t": "If the child has: - Persistent difficulties with speech sound production. - The disturbance causes limitations in effective communication, poor social participation, and academic achievement. - Onset of signs is during the early developmental period. - It is not attributable to congenital or acquired conditions."
+     },
+     {
+      "t": "SPEECH SOUND DISORDER"
+     },
+     {
+      "t": "- Provide counselling to parents(s) or caregiver - Speech therapy"
+     }
+    ],
+    [
+     {
+      "t": "If the child has one or more of the following: - Deficits in social communication and interaction in multiple contexts. - Restricted repetitive and stereotyped patterns of behavior, interests and activities. - Onset of signs is during the early developmental period. - Significant clinical impairments in social, academic and other areas of functioning. - Disturbances not attributable to intellectual disability."
+     },
+     {
+      "t": "AUTISM SPECTRUM DISORDER"
+     },
+     {
+      "t": "- Assessment - Screen for ADHD, epilepsy, intellectual disability and manage as indicated - Provide counselling to parent(s) or caregiver(s) - Provide psychoeducation about the condition - Occupational therapy for behavioral modification - Advice to teachers Refer to Job Aid; Developmental Disorders. Page 94"
+     }
+    ],
+    [
+     {
+      "t": "If the child has 6 or more of the following symptoms of inattention that have persisted for at least 6 months. Inattention - Fails to give close attention to details. - Often does not seem to listen when spoken to directly - Often does not follow through on instructions and fails to finish tasks - Forgetful in daily activities - Difficulties in organizing tasks and activities - Avoids tasks that require sustained mental effort - Easily loses things necessary for tasks or activities - Often forgetful in daily activities - Easily distracted 6 or more of the following past 6 months Hyperactivity-Impulsivity - Fidgets with hands and feet - Difficulty in awaiting turn"
+     },
+     {
+      "t": "ATTENTION DEFICIT HYPERACTIVITY DISORDER (ADHD)"
+     },
+     {
+      "t": "- Provide counselling to parents(s) or caregiver Refer to Job Aid; ADHD. Page 92 - Occupational therapy for behavioral modification - Advice to teachers - Prescribe psycho-stimulants or refer. Refer page 72"
+     }
+    ],
+    [
+     {
+      "t": "- Runs about or climbs excessively in inappropriate situations - Leaves seat in situations in which remaining seated is expected. - Talks excessively - Interrupts or intrudes on others - Blurts out answers before question is completed - Difficulty playing quietly Onset of symptoms by age 12. Symptoms must be present in two or more settings (e.g school and home)."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "If the child has difficulties learning and using academic skills and has one of the following symptoms that have persisted for at least six months: - Inaccurate, slow and effortful word reading - Difficulty understanding the meaning of what is read. - Difficulty with spelling - Difficulties with written expression. - Difficulties with mathematical reasoning. - Difficulties with activities of daily living. Academic skills are substantially and quantifiably below those expected for age in communication, social participation and academic performance. Onset is during school age years. It may manifest prior to school age years Learning difficulties are not attributable to intellectual disability, medical, neurological, other mental and psychological disorders, or inadequate educational instruction"
+     },
+     {
+      "t": "SPECIFIC LEARNING DISORDER"
+     },
+     {
+      "t": "- Provide counselling to parents(s) or caregiver - Occupational therapy - Educational psychologist - Advice to teachers Refer to Job Aid; Developmental Disorders. Page 94"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    62,
+    63
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p66-0143",
+   "page": 66,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders",
+   "caption": "C. Disruptive, Impulse Control, and Conduct Disorders ()",
+   "replaces_chunks": [
+    "mental-health-deskguide-0143",
+    "mental-health-deskguide-0144",
+    "mental-health-deskguide-0146"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If the child has the following symptoms:<br/>Repeated involuntary or intentional voiding of urine in bed or clothes.<br/><br/>Frequency must be at least twice a week for three consecutive months or significant clinical distress that may show in impairments in social and academic performance.<br/><br/>Onset is at least age 5 years.<br/>Behaviour is not attributable to substance use, or any medical, neurological or mental disorder."
+     },
+     {
+      "t": "ENURESIS"
+     },
+     {
+      "t": "<br/>• Assess for depressive symptoms<br/>• Provide counselling<br/>• Provide psychoeducation to parent(s) or caregiver<br/>Asses for depressive symptoms. Refer to page 4"
+     }
+    ],
+    [
+     {
+      "t": "If the child has the following symptomssymptoms<br/>Repeated involuntary or voluntary passage of faeces into inappropriate places.<br/><br/>Occurs at least once a month for at least three months.<br/><br/>Onset is at least age 4 years.<br/>Behaviour is not attributable to substance use, or any medical, neurological or mental disorder."
+     },
+     {
+      "t": "ENCOPRESIS"
+     },
+     {
+      "t": "<br/>• Assess for depressive symptoms<br/>• Provide counselling<br/>• Provide psychoeducation to parent(s) or caregiver<br/>Asses for depressive symptoms. Refer to page 4"
+     }
+    ],
+    [
+     {
+      "t": "If the child has a pattern of angry/ irritable, argumentative/defiant, or vindictiveness lasting at least six months as evidenced by at least four symptoms from any of the following categories and exhibited during interaction with at least one individual who is not a sibling: Angry irritable mood - Often loses temper - Often touchy and easily annoyed - Often angry and resentful Argumentative or defiant behaviour - Often argues with authority figures - Often defies or refuses to comply with rules - Often deliberately annoys others - Often blames others for his/her mistakes or behaviour Vindictiveness - Has been spiteful or vindictive at least twice within past six months Impacts negatively on social, educational and other areas of functioning. Behaviours are not attributable to a psychotic, substance use, depressive, or bipolar disorder"
+     },
+     {
+      "t": "OPPOSITIONAL DEFiant DISORDER"
+     },
+     {
+      "t": "- Provide counselling/ psychotherapy to parents(s) or caregiver - Advice to teachers - Clinical Psychologist for psychotherapy Refer to Job Aid; Conduct Disorder Page 92"
+     }
+    ],
+    [
+     {
+      "t": "If the child has a repetitive and persistent pattern of behaviour in which basic rights of others or societal norms and rules are violated as manifested by at least three of the following in the past 12 months, with at least one criterion present in the past 6 months: - Violation of basic rights of others and societal norms - Aggression to people and animals. - Destruction of property - Deceitfulness or theft - Serious violation of rules. Disturbance in behaviour causes clinically significant impairment in social, and academic functioning. Onset is on the early preschool years. If the individual is age 18 years or older, criteria are not met for antisocial personality disorder."
+     },
+     {
+      "t": "CONDUCT DISORDER"
+     },
+     {
+      "t": "- Provide counselling/ psychotherapy to parents(s) or caregiver - Advice to teachers - Clinical Psychologist for psychotherapy"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    66,
+    67,
+    68
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p69-0147",
+   "page": 69,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders > Table 20: Stepwise Management for Childhood Psychiatric Conditions",
+   "caption": "TABLE 20: STEPWISE MANAGEMENT FOR CHILDHOOD PSYCHIATRIC CONDITIONS: Table 20: Stepwise Management for Childhood Psychiatric Conditions (Entry point, Management)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0147"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Entry point"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Step 1: Community Clinic Level"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Mild Childhood Psychiatric Conditions"
+     },
+     {
+      "t": "• Screening<br/>• Vital signs<br/>• Refer to Doctor led services"
+     }
+    ],
+    [
+     {
+      "t": "Step 2: General Hospital or Health Centre"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Moderate Childhood Psychiatric Conditions"
+     },
+     {
+      "t": "• Comprehensive history taking<br/>• Comprehensive physical examination and mental status evaluation<br/>• Psycho-education to parent(s) or caregiver about the child’s condition<br/>• Provide counselling to parents(s) or caregiver<br/>• Refer to Psychiatrist/OT/Clinical Psychologist led services<br/>• Link with support groups"
+     }
+    ],
+    [
+     {
+      "t": "Step 3: National Psychiatric Referral Hospital"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Moderate and severe Mild Childhood Psychiatric Conditions"
+     },
+     {
+      "t": "Refer to Psychiatrist, Clinical Psychologist, Paediatric Psychiatric Nurse and OT led services"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    69
+   ],
+   "context_before": "TABLE 20: STEPWISE MANAGEMENT FOR CHILDHOOD PSYCHIATRIC CONDITIONS"
+  }
+ ],
+ "text_labels": {},
+ "text_merge": {},
+ "text_drop": [],
+ "text_fix_pages": [
+  1,
+  69
+ ]
+}
