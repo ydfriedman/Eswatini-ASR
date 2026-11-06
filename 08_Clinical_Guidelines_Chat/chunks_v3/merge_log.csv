@@ -626,6 +626,71 @@ ncdimh-0923,replaced,ncdimh-tbl-gad-drugs
 ncdimh-0924,replaced,ncdimh-tbl-gad-drugs
 ncdimh-0927,replaced,ncdimh-box-suicide-warning-signs
 ncdimh-0929,replaced,ncdimh-box-suicidal-behaviour-diagnostic-features
+ncdimh-0938,replaced,ncdimh-tbl-asthma-diagnosis-checklist
+ncdimh-0939,replaced,ncdimh-tbl-asthma-diagnosis-checklist
+ncdimh-0940,replaced,ncdimh-tbl-asthma-diagnosis-checklist
+ncdimh-0941,replaced,ncdimh-tbl-asthma-diagnostic-tests
+ncdimh-0942,replaced,ncdimh-tbl-asthma-diagnostic-tests
+ncdimh-0943,replaced,ncdimh-tbl-asthma-ddx-children
+ncdimh-0944,replaced,ncdimh-tbl-asthma-ddx-adults
+ncdimh-0945,replaced,ncdimh-tbl-asthma-control
+ncdimh-0946,replaced,ncdimh-tbl-asthma-control
+ncdimh-0947,replaced,ncdimh-tbl-asthma-severity-steps
+ncdimh-0948,replaced,ncdimh-tbl-asthma-severity-steps
+ncdimh-0949,replaced,ncdimh-tbl-asthma-steps-adults
+ncdimh-0950,replaced,ncdimh-tbl-asthma-biologics
+ncdimh-0951,replaced,ncdimh-tbl-asthma-step-up-down
+ncdimh-0952,replaced,ncdimh-tbl-asthma-steps-6-11
+ncdimh-0953,replaced,ncdimh-tbl-asthma-steps-6-11
+ncdimh-0954,replaced,ncdimh-tbl-asthma-steps-6-11
+ncdimh-0955,replaced,ncdimh-tbl-asthma-steps-6-11
+ncdimh-0956,replaced,ncdimh-tbl-asthma-steps-under-5
+ncdimh-0957,replaced,ncdimh-tbl-asthma-steps-under-5
+ncdimh-0958,replaced,ncdimh-tbl-asthma-steps-under-5
+ncdimh-0959,replaced,ncdimh-tbl-asthma-steps-under-5
+ncdimh-0960,replaced,ncdimh-tbl-asthma-exacerbation-severity
+ncdimh-0961,replaced,ncdimh-tbl-asthma-nonpharm
+ncdimh-0963,replaced,ncdimh-tbl-asthma-follow-up
+ncdimh-0964,replaced,ncdimh-tbl-asthma-drug-classes
+ncdimh-0965,replaced,ncdimh-tbl-asthma-long-term-older-format
+ncdimh-0967,replaced,ncdimh-tbl-asthma-long-term-older-format
+ncdimh-0968,replaced,ncdimh-box-acute-asthma-immediate
+ncdimh-0969,replaced,ncdimh-box-acute-asthma-immediate
+ncdimh-0970,replaced,ncdimh-fig-acute-asthma-primary-care
+ncdimh-0972,replaced,ncdimh-fig-acute-asthma-hospital
+ncdimh-0973,replaced,ncdimh-fig-acute-asthma-hospital
+ncdimh-0976,replaced,ncdimh-tbl-copd-symptoms-signs
+ncdimh-0978,replaced,ncdimh-tbl-copd-bronchitis-vs-emphysema-ddx
+ncdimh-0979,replaced,ncdimh-tbl-copd-bronchitis-vs-emphysema-ddx
+ncdimh-0980,replaced,ncdimh-tbl-copd-bronchitis-vs-emphysema-ddx
+ncdimh-0981,replaced,ncdimh-tbl-copd-severity
+ncdimh-0982,replaced,ncdimh-tbl-copd-severity
+ncdimh-0983,replaced,ncdimh-tbl-copd-severity
+ncdimh-0984,replaced,ncdimh-fig-copd-stepwise
+ncdimh-0985,replaced,ncdimh-fig-copd-stepwise
+ncdimh-0987,replaced,ncdimh-tbl-bronchiectasis
+ncdimh-0988,replaced,ncdimh-tbl-bronchiectasis
+ncdimh-0990,replaced,ncdimh-fig-bronchiectasis-algorithm
+ncdimh-0992,replaced,ncdimh-tbl-hematuria-definitions-classification
+ncdimh-0993,replaced,ncdimh-tbl-hematuria-definitions-classification
+ncdimh-0996,replaced,ncdimh-tbl-gross-hematuria-pathways
+ncdimh-0997,replaced,ncdimh-tbl-gross-hematuria-pathways
+ncdimh-0998,replaced,ncdimh-fig-microhematuria
+ncdimh-0999,replaced,ncdimh-tbl-aua-microhematuria-risk
+ncdimh-1000,replaced,ncdimh-tbl-aua-microhematuria-risk
+ncdimh-1001,replaced,ncdimh-tbl-hematuria-investigations
+ncdimh-1002,replaced,ncdimh-fig-male-luts-algorithm
+ncdimh-1003,replaced,ncdimh-fig-male-luts-algorithm
+ncdimh-1005,replaced,ncdimh-tbl-bph-terminology
+ncdimh-1006,replaced,ncdimh-tbl-luts-etiology
+ncdimh-1007,replaced,ncdimh-tbl-bph-treatment
+ncdimh-1008,replaced,ncdimh-tbl-ed-classification
+ncdimh-1010,replaced,ncdimh-fig-ed-primary-care
+ncdimh-1011,replaced,ncdimh-fig-ed-primary-care
+ncdimh-1012,replaced,ncdimh-tbl-pde5-comparison
+ncdimh-1013,replaced,ncdimh-tbl-pde5-comparison
+ncdimh-1014,replaced,ncdimh-tbl-pde5-princeton-risk
+ncdimh-1015,replaced,ncdimh-tbl-premature-ejaculation-types
 ncdimh-0013,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations => Chapter 1: Prevention, Health Education and Routine Health Examinations > Introduction"
 ncdimh-0016,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > NCD Risk Factors > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening => Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening"
 ncdimh-0021,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Tobacco Cessation => Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patients)"
@@ -953,11 +1018,18 @@ ncdimh-0933,label,Chapter 13: Pyschiatry > Management of Suicide > Psychosocial 
 ncdimh-0934,label,Chapter 13: Pyschiatry > Management of Suicide > Offer Support to the Person => Chapter 13: Psychiatry > Suicide > Psychosocial Management > Offer Support to the Person
 ncdimh-0935,label,Chapter 13: Pyschiatry > Management of Suicide > Activate Psychosocial Support => Chapter 13: Psychiatry > Suicide > Psychosocial Management > Activate Psychosocial Support
 ncdimh-0936,label,"Chapter 13: Pyschiatry > Management of Suicide > Referral & Linkages, and Follow-Up => Chapter 13: Psychiatry > Suicide > Referral, Linkages and Follow-Up"
-ncdimh-0969,cleaned,
+ncdimh-0937,label,Chapter 14: Pulmonology > Bronchial Asthma => Chapter 14: Pulmonology > Bronchial Asthma > Definition
+ncdimh-0962,label,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Asthma In Pregnancy => Chapter 14: Pulmonology > Bronchial Asthma > Asthma in Pregnancy
 ncdimh-0971,emptied,
-ncdimh-0983,cleaned,
-ncdimh-0997,cleaned,
-ncdimh-1010,emptied,
+ncdimh-0974,label,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Chronic Obstructive Pulmonary Disease => Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Definition and Types
+ncdimh-0975,label,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Etiology/Risks Factors => Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Etiology / Risk Factors
+ncdimh-0986,label,Chapter 14: Pulmonology > Bronchiectasis => Chapter 14: Pulmonology > Bronchiectasis > Definition
+ncdimh-0991,label,Chapter 15: Urology > Hematuria => Chapter 15: Urology > Common Urological Conditions > Hematuria > Definition
+ncdimh-0994,label,"Chapter 15: Urology > Hematuria > Initial Management (Clinic, Health Centre, or Hospital level) => Chapter 15: Urology > Hematuria > Initial Management (Clinic, Health Centre or Hospital Level)"
+ncdimh-0995,label,Chapter 15: Urology > Management of Gross Hematuria => Chapter 15: Urology > Hematuria > Management of Gross Hematuria
+ncdimh-1009,label,Chapter 15: Urology > Benign Prostatic Uropathy > Benign Prostatic Obstructive Uropathy => Chapter 15: Urology > Erectile Function Disorders > Definitions of Erectile Dysfunction and Premature Ejaculation
+ncdimh-1016,label,Chapter 15: Urology > Benign Prostatic Uropathy > History & Exam => Chapter 15: Urology > Erectile Function Disorders > Premature Ejaculation > Approach / Assessment and Treatment
+ncdimh-1017,label,Chapter 15: Urology > Benign Prostatic Uropathy > Complications of Common Urological Conditions => Chapter 15: Urology > Complications and Emergencies of Common Urological Conditions
 ncdimh-0219,trailing heading dropped (next is a table/flowchart),#### **Diagnosis**
 ncdimh-0395,trailing heading dropped (next is a table/flowchart),## **Algorithm with the Initial Evaluation and Management of RHD in Children**
 ncdimh-0716,trailing heading dropped (next is a table/flowchart),## Status Epilepticus ## Treatment Algorithm for Status Epilepticus
@@ -1001,7 +1073,6 @@ ncdimh-0859,merged into,ncdimh-0858
 ncdimh-0882,merged into,ncdimh-0881
 ncdimh-0932,merged into,ncdimh-0931
 ncdimh-0975,merged into,ncdimh-0974
-ncdimh-0986,merged into,ncdimh-0985
 ncdimh-0995,merged into,ncdimh-0994
 ncdimh-1018,merged into,ncdimh-1017
 ncdimh-1033,merged into,ncdimh-1017

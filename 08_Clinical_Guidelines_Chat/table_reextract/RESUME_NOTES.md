@@ -13,8 +13,10 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 - NCDIMH part 3 (pp.172-250, NCD_3.pdf, offset 171): 81 items (`batches/ncd_b41-b54.py`), hand labels for all text chunks, `text_merge`/`text_drop` for fragments, `text_fix_pages` [1,250].
 - NCDIMH part 4 (pp.251-326, NCD_4.pdf, offset 250): 52 items (`batches/ncd_b55-b64.py`), hand labels, `text_fix_pages` [1,326]. Boxes are now split for embedding like flowcharts.
 
+- NCDIMH part 5 (pp.327-356, NCD_5.pdf, offset 326; pp.357-364 are references and blank notes pages): 39 items (`batches/ncd_b65-b70.py`), hand labels, `text_fix_pages` [1,356]. **NCDIMH is complete.**
+
 ## Next after that
-NCDIMH part 5 (starts at document page 327, Chapter 14 Pulmonology) (the user uploads them one at a time). Then the other guidelines. Keep a running "source issues" list from each item's `source_flags`.
+The other guidelines (HIV 2022, TB, PrEP, STI, MH Deskguide, FP, ANC, Linkages SOP), once the user provides the PDFs. Keep a running "source issues" list from each item's `source_flags`.
 
 ## Notes for the next part
 - Page images/text: `pdftotext -layout` and `pdftoppm -r 110` per page, named by document page (part page + offset).

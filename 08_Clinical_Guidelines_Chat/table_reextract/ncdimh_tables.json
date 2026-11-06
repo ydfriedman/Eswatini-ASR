@@ -18,6 +18,10 @@
   {
    "file": "NCD_4.pdf",
    "pages": "251-326"
+  },
+  {
+   "file": "NCD_5.pdf",
+   "pages": "327-364"
   }
  ],
  "tables": [
@@ -24594,6 +24598,3543 @@
    "content": "a. The act: 1. has been attempted within the last 24 months; 2. does not meet criteria for non-suicidal self-injury (self-injury to produce a positive mood); 3. is not applied to suicidal ideation or preparatory acts; 4. was not initiated during a state of delirium or confusion; 5. was not undertaken solely for a political or religious objective.\nb. The behaviour or its consequences cause clinically significant distress or interference in interpersonal, academic, or other important areas of functioning.\nc. The behaviour does not occur exclusively during psychotic episodes, delirium, substance intoxication, or substance withdrawal.",
    "footnotes": [],
    "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-diagnosis-checklist",
+   "page": 327,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Diagnosis of Asthma > Checklist",
+   "caption": "Asthma diagnosis checklist: essential clinical diagnosis, clinical history questions, criteria in children, and documentation by spirometry or peak flow",
+   "replaces_chunks": [
+    "ncdimh-0938",
+    "ncdimh-0939",
+    "ncdimh-0940"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Component"
+     },
+     {
+      "t": "Checklist Item"
+     },
+     {
+      "t": "Status (check)"
+     },
+     {
+      "t": "Notes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "i. Essential clinical diagnosis"
+    },
+    [
+     {
+      "t": "Core symptoms"
+     },
+     {
+      "t": "History of cough; history of wheeze; history of breathing difficulty; history of chest tightness"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Physical exam"
+     },
+     {
+      "t": "Presence of bilateral polyphonic wheeze"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "ii. Clinical history questions"
+    },
+    [
+     {
+      "t": "Cough pattern"
+     },
+     {
+      "t": "Mainly nocturnal and early morning? Dry or wet? Relation with exercise? Recurrent or persistent? Seasonal or year-round symptoms?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Breathing issues"
+     },
+     {
+      "t": "History of breathlessness? History of whistling sound (wheezing) in the chest?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Atopy history"
+     },
+     {
+      "t": "Personal or family history of atopy (eczema, allergic rhinitis)?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Treatment response"
+     },
+     {
+      "t": "Response to bronchodilators? Response to inhaled/oral steroids?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Exacerbation history"
+     },
+     {
+      "t": "Emergency room visits for difficult breathing? Previous hospitalizations for asthma (PICU or ward)?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "iii. Clinical diagnosis (children)"
+    },
+    [
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "≥3 episodes of wheeze per year?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Reversibility"
+     },
+     {
+      "t": "Wheezing reversed spontaneously or with bronchodilator?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Exclusion"
+     },
+     {
+      "t": "Other causes of wheezing ruled out? (see differential diagnosis tables)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "iv. Documentation (if possible)"
+    },
+    [
+     {
+      "t": "Spirometry"
+     },
+     {
+      "t": "FEV1 measurement; FVC measurement; FEV1/FVC ratio"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Peak flowmetry"
+     },
+     {
+      "t": "Measurement of peak flow"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Inferior to spirometry"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Table continues onto p.328 with the header repeated."
+   ],
+   "pages": [
+    327,
+    328
+   ],
+   "context_before": "Asthma: a heterogeneous disease with recurrent wheeze, cough, shortness of breath and chest tightness that vary over time and intensity, with chronic airway inflammation, hyperresponsiveness and reversible, variable airflow limitation. Diagnosis is essentially clinical (cough, wheeze, breathing difficulty, chest tightness, bilateral polyphonic wheeze), with documentation of variable expiratory airflow limitation by spirometry (FEV1, FVC, FEV1/FVC) and peak flowmetry (inferior to spirometry) if possible."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-diagnostic-tests",
+   "page": 328,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Diagnostic Tests for Bronchial Asthma",
+   "caption": "Diagnostic tests for asthma: spirometry, peak flow, allergy tests, chest X-ray, FeNO, blood tests: utility and interpretation; GINA 2024 positive criteria for variable airflow limitation",
+   "replaces_chunks": [
+    "ncdimh-0941",
+    "ncdimh-0942"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Test"
+     },
+     {
+      "t": "Utility & Recommendation"
+     },
+     {
+      "t": "Key Diagnostic Criteria / Interpretation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Spirometry"
+     },
+     {
+      "t": "Primary tool to document variable airflow limitation. Recommended for children >6 years."
+     },
+     {
+      "t": "1. Baseline: FEV1/FVC ratio <80%. 2. Reversibility: FEV1 increases by >12% (or ≥200 mL) post-bronchodilator."
+     }
+    ],
+    [
+     {
+      "t": "Peak Flowmetry"
+     },
+     {
+      "t": "Not for diagnosis (low sensitivity). Good for monitoring exacerbations, especially in 'under-perceivers'."
+     },
+     {
+      "t": "Children: average daily diurnal PEF variability >12% suggests asthma. Compare the current value to personal best PEF."
+     }
+    ],
+    [
+     {
+      "t": "Allergy Tests"
+     },
+     {
+      "t": "Not routinely recommended. Use only for difficult-to-control asthma, allergic rhinitis, or food allergy."
+     },
+     {
+      "t": "A positive result (skin prick or sIgE) DOES NOT prove causation; must be confirmed by the patient's history."
+     }
+    ],
+    [
+     {
+      "t": "Chest X-ray"
+     },
+     {
+      "t": "NOT ROUTINE FOR DIAGNOSIS. Use to rule out alternative conditions (asthma mimics)."
+     },
+     {
+      "t": "May show hyperinflation, atelectasis, or be normal."
+     }
+    ],
+    [
+     {
+      "t": "FeNO"
+     },
+     {
+      "t": "Not established for ruling in or ruling out the diagnosis (GINA 2021)."
+     },
+     {
+      "t": "Modestly associated with eosinophil levels."
+     }
+    ],
+    [
+     {
+      "t": "Blood Tests"
+     },
+     {
+      "t": "Serum total IgE is NOT useful for diagnosis."
+     },
+     {
+      "t": "Complete blood count (CBC) may show eosinophilia in atopy."
+     }
+    ],
+    {
+     "section": "Positive criteria for variable expiratory airflow limitation (GINA 2024)"
+    },
+    [
+     {
+      "t": "Post-BD FEV1 reversibility"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "FEV1 increase ≥12% AND ≥200 mL from baseline"
+     }
+    ],
+    [
+     {
+      "t": "Excessive variability in twice-daily PEF"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Average daily diurnal variation >10% (adults), >13% (children)"
+     }
+    ],
+    [
+     {
+      "t": "FEV1 increase after 4 weeks ICS"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "FEV1 increase ≥12% AND ≥200 mL (without infection)"
+     }
+    ],
+    [
+     {
+      "t": "Bronchial challenge test"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "PC20 methacholine ≤4 mg/mL (or mannitol/exercise challenge positive)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Reversibility is '>12% (or ≥200 mL)' in the first table but '≥12% AND ≥200 mL' in the GINA 2024 criteria; children's PEF variability is >12% in one table and >13% in the other. The GINA 2024 criteria are a separate table in the PDF."
+   ],
+   "pages": [
+    328,
+    329
+   ],
+   "table_note": "Key diagnostic criteria: history of variable respiratory symptoms (wheeze, shortness of breath, chest tightness, cough; varying over time and in intensity; worse at night/early morning; triggered by exercise, allergens, cold air, irritants, viral infections) AND confirmed variable expiratory airflow limitation (spirometry preferred for ≥6 years)."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-ddx-children",
+   "page": 329,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Differential Diagnoses of Asthma in Children",
+   "caption": "Differential diagnosis of asthma in children (viral infection, allergic rhinitis, vocal cord dysfunction, laryngomalacia, subglottic stenosis, GERD, cystic fibrosis, foreign body, congenital heart disease, habit cough); diagnosing asthma under 5",
+   "replaces_chunks": [
+    "ncdimh-0943"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Condition"
+     },
+     {
+      "t": "Key Clinical Features / Clues"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Viral Respiratory Infections"
+     },
+     {
+      "t": "Common cold symptoms (fever, cough, rhinorrhea), self-limiting, wheezing may occur"
+     }
+    ],
+    [
+     {
+      "t": "Allergic Rhinitis"
+     },
+     {
+      "t": "Nasal congestion, sneezing, itchy eyes/nose, seasonal or perennial pattern"
+     }
+    ],
+    [
+     {
+      "t": "Vocal Cord Dysfunction (VCD)"
+     },
+     {
+      "t": "Inspiratory stridor, sudden onset, normal spirometry, worse with stress or exercise"
+     }
+    ],
+    [
+     {
+      "t": "Laryngomalacia"
+     },
+     {
+      "t": "Inspiratory stridor in infants, worse when supine or feeding, improves with age"
+     }
+    ],
+    [
+     {
+      "t": "Subglottic Stenosis"
+     },
+     {
+      "t": "Biphasic stridor, recurrent croup, history of intubation or airway trauma"
+     }
+    ],
+    [
+     {
+      "t": "Gastroesophageal Reflux Disease (GERD)"
+     },
+     {
+      "t": "Chronic cough, regurgitation, wheezing, worse after feeding or lying down"
+     }
+    ],
+    [
+     {
+      "t": "Cystic Fibrosis"
+     },
+     {
+      "t": "Persistent productive cough, failure to thrive, greasy stools, recurrent chest infections"
+     }
+    ],
+    [
+     {
+      "t": "Aspiration of Foreign Objects"
+     },
+     {
+      "t": "Sudden onset of cough or choking, unilateral wheeze, decreased breath sounds"
+     }
+    ],
+    [
+     {
+      "t": "Congenital Heart Disease"
+     },
+     {
+      "t": "Cyanosis, failure to thrive, murmur, recurrent respiratory infections"
+     }
+    ],
+    [
+     {
+      "t": "Psychogenic (Habit) Cough"
+     },
+     {
+      "t": "Dry, barking cough; absent during sleep; often in older children; may be stress-related"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Diagnosing asthma in under-5s: spirometry is unreliable, so diagnosis is clinical and based on symptom patterns. A therapeutic trial of low-dose ICS (4–8 weeks) is recommended to confirm the diagnosis. Recurrent wheezing (≥3 episodes) in a child with atopy or family history strongly supports asthma. Differential diagnoses include bronchiolitis, viral-induced wheeze, foreign body, tracheomalacia. Reassess the diagnosis regularly, as symptoms may resolve with age."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-control",
+   "page": 330,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Level of asthma control",
+   "caption": "Asthma symptom control assessment: daytime symptoms, night waking, SABA use, activity limitation → well controlled, partly controlled, uncontrolled",
+   "replaces_chunks": [
+    "ncdimh-0945",
+    "ncdimh-0946"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Assessment Question"
+     },
+     {
+      "t": "Well Controlled"
+     },
+     {
+      "t": "Partly Controlled"
+     },
+     {
+      "t": "Uncontrolled"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Daytime asthma symptoms more than twice per week?"
+     },
+     {
+      "t": "None of those"
+     },
+     {
+      "t": "1–2 of those"
+     },
+     {
+      "t": "3–4 of those"
+     }
+    ],
+    [
+     {
+      "t": "Any night waking due to asthma?"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "1–2 nights/month"
+     },
+     {
+      "t": "≥1 night/week"
+     }
+    ],
+    [
+     {
+      "t": "SABA reliever use for symptoms more than twice per week?"
+     },
+     {
+      "t": "≤2 times/week"
+     },
+     {
+      "t": "3–4 times/week"
+     },
+     {
+      "t": "≥5 times/week"
+     }
+    ],
+    [
+     {
+      "t": "Any activity limitation due to asthma?"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "Minor limitation"
+     },
+     {
+      "t": "Marked limitation"
+     }
+    ],
+    [
+     {
+      "t": "Total 'Yes' responses (out of 4)"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1–2"
+     },
+     {
+      "t": "3–4"
+     }
+    ],
+    [
+     {
+      "t": "Overall level of asthma control"
+     },
+     {
+      "t": "Well Controlled"
+     },
+     {
+      "t": "Partly Controlled"
+     },
+     {
+      "t": "Uncontrolled"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The table mixes two scoring methods: the GINA yes/no count (0, 1–2, 3–4) and per-question frequency bands; the first row's cells ('None of those / 1–2 of those / 3–4 of those') are the yes/no totals, not daytime symptom frequencies."
+   ],
+   "context_before": "GINA 2024 bases severity on the treatment step required for good control. Assess symptom control at every visit, covering two domains: symptom control and future risk of adverse outcomes. If a child's asthma is partly or well controlled, they can be placed in step 1 or 2 (if no other serious risk of exacerbation); if uncontrolled, steps 3–5."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-ddx-adults",
+   "page": 330,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Differential Diagnosis of Asthma in Adults",
+   "caption": "Differential diagnosis of asthma in adults (COPD, bronchiectasis, heart failure, pulmonary fibrosis, foreign body, GERD, obliterative bronchiolitis, large airway stenosis, lung cancer, sarcoidosis)",
+   "replaces_chunks": [
+    "ncdimh-0944"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Condition"
+     },
+     {
+      "t": "Key Clinical Features / Clues"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Chronic Obstructive Pulmonary Disease (COPD)"
+     },
+     {
+      "t": "History of smoking, chronic cough, sputum, dyspnea, wheeze"
+     }
+    ],
+    [
+     {
+      "t": "Bronchiectasis"
+     },
+     {
+      "t": "Productive cough with copious sputum, recurrent infections, crackles"
+     }
+    ],
+    [
+     {
+      "t": "Heart (failure)"
+     },
+     {
+      "t": "Orthopnea, paroxysmal nocturnal dyspnea, peripheral edema, bibasal crackles"
+     }
+    ],
+    [
+     {
+      "t": "Pulmonary Fibrosis"
+     },
+     {
+      "t": "Progressive dyspnea, dry cough, fine inspiratory crackles, clubbing"
+     }
+    ],
+    [
+     {
+      "t": "Inhaled Foreign Body"
+     },
+     {
+      "t": "Sudden onset cough, unilateral wheeze, localized decreased breath sounds"
+     }
+    ],
+    [
+     {
+      "t": "Gastroesophageal Reflux Disease (GERD)"
+     },
+     {
+      "t": "Cough worse when lying down, heartburn, sour taste in mouth"
+     }
+    ],
+    [
+     {
+      "t": "Obliterative Bronchiolitis"
+     },
+     {
+      "t": "Progressive dyspnea, fixed airflow obstruction, history of toxic exposure"
+     }
+    ],
+    [
+     {
+      "t": "Large Airway Stenosis"
+     },
+     {
+      "t": "Biphasic stridor, difficulty breathing, fixed airway obstruction"
+     }
+    ],
+    [
+     {
+      "t": "Lung Cancer"
+     },
+     {
+      "t": "Persistent cough, weight loss, hemoptysis, smoking history"
+     }
+    ],
+    [
+     {
+      "t": "Sarcoidosis"
+     },
+     {
+      "t": "Hilar lymphadenopathy, dry cough, skin lesions, uveitis"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The heart failure row is labelled only 'Heart' in the PDF."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-biologics",
+   "page": 331,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Add-on Biologic Options (Severe Asthma)",
+   "caption": "Biologics for severe asthma: omalizumab, mepolizumab, benralizumab, dupilumab, tezepelumab: target, indication, route and frequency",
+   "replaces_chunks": [
+    "ncdimh-0950"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Biologic"
+     },
+     {
+      "t": "Target / Indication"
+     },
+     {
+      "t": "Route / Frequency"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Omalizumab"
+     },
+     {
+      "t": "Anti-IgE; allergic asthma, IgE 30–1500 IU/mL"
+     },
+     {
+      "t": "SC every 2–4 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Mepolizumab"
+     },
+     {
+      "t": "Anti-IL-5; eosinophilic (blood eos ≥150/µL)"
+     },
+     {
+      "t": "SC every 4 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Benralizumab"
+     },
+     {
+      "t": "Anti-IL-5Rα; eosinophilic (blood eos ≥300/µL)"
+     },
+     {
+      "t": "SC every 4 weeks × 3, then every 8 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Dupilumab"
+     },
+     {
+      "t": "Anti-IL-4Rα; T2 asthma, eos ≥300/µL or FeNO ≥25 ppb"
+     },
+     {
+      "t": "SC every 2 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Tezepelumab"
+     },
+     {
+      "t": "Anti-TSLP; broad T2 and non-T2 severe asthma"
+     },
+     {
+      "t": "SC every 4 weeks"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-severity-steps",
+   "page": 331,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Severity Classification (based on minimum step for control)",
+   "caption": "Asthma severity by the minimum treatment step needed for control (mild, moderate, severe), adolescents/adults and children 6-11",
+   "replaces_chunks": [
+    "ncdimh-0947",
+    "ncdimh-0948"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Steps (adolescents/adults)"
+     },
+     {
+      "t": "Steps (children 6–11 yrs)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Mild"
+     },
+     {
+      "t": "Steps 1–2"
+     },
+     {
+      "t": "Steps 1–2"
+     }
+    ],
+    [
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Step 3"
+     },
+     {
+      "t": "Step 3"
+     }
+    ],
+    [
+     {
+      "t": "Severe"
+     },
+     {
+      "t": "Steps 4–5"
+     },
+     {
+      "t": "Steps 4–5"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-steps-adults",
+   "page": 331,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Adolescents & Adults",
+   "caption": "Asthma treatment steps for adolescents and adults (GINA 2024): preferred controller and reliever for steps 1-5 (anti-inflammatory reliever strategy)",
+   "replaces_chunks": [
+    "ncdimh-0949"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Step"
+     },
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Preferred Controller"
+     },
+     {
+      "t": "Reliever"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Mild intermittent"
+     },
+     {
+      "t": "No daily controller needed"
+     },
+     {
+      "t": "As-needed low-dose ICS-formoterol"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Mild persistent"
+     },
+     {
+      "t": "Low-dose ICS daily (or as-needed ICS-formoterol)"
+     },
+     {
+      "t": "As-needed low-dose ICS-formoterol"
+     }
+    ],
+    [
+     {
+      "t": "3"
+     },
+     {
+      "t": "Moderate persistent"
+     },
+     {
+      "t": "Low-dose ICS-LABA (preferred) OR medium-dose ICS"
+     },
+     {
+      "t": "As-needed low-dose ICS-formoterol"
+     }
+    ],
+    [
+     {
+      "t": "4"
+     },
+     {
+      "t": "Severe persistent"
+     },
+     {
+      "t": "Medium-to-high-dose ICS-LABA"
+     },
+     {
+      "t": "As-needed low-dose ICS-formoterol"
+     }
+    ],
+    [
+     {
+      "t": "5"
+     },
+     {
+      "t": "Very severe / refractory"
+     },
+     {
+      "t": "High-dose ICS-LABA + add-on therapy (LAMA, biologic, low-dose OCS)"
+     },
+     {
+      "t": "As-needed low-dose ICS-formoterol"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "GINA 2024 key change: the preferred reliever is now low-dose ICS-formoterol (anti-inflammatory reliever, AIR, e.g. budesonide-formoterol 200/6 mcg as needed). SABA-only reliever is no longer preferred at any step for adolescents and adults. AIR reduces exacerbations by ≥60% compared with SABA alone."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-step-up-down",
+   "page": 332,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepping Up / Stepping Down",
+   "caption": "When to step asthma treatment up or down",
+   "replaces_chunks": [
+    "ncdimh-0951"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "STEP UP – indications"
+     },
+     {
+      "t": "STEP DOWN – criteria"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Uncontrolled symptoms"
+     },
+     {
+      "t": "Well controlled ≥3 months"
+     }
+    ],
+    [
+     {
+      "t": "≥2 exacerbations/year"
+     },
+     {
+      "t": "No exacerbations in past year"
+     }
+    ],
+    [
+     {
+      "t": "≥1 severe exacerbation/year"
+     },
+     {
+      "t": "Reduce ICS dose by 25–50%"
+     }
+    ],
+    [
+     {
+      "t": "PEF / FEV1 <80% predicted"
+     },
+     {
+      "t": "Do not stop ICS completely (risk of exacerbation)"
+     }
+    ],
+    [
+     {
+      "t": "First check: technique, adherence, triggers"
+     },
+     {
+      "t": "Review in 2–3 months after change"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-steps-6-11",
+   "page": 332,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children 6-11 Years",
+   "caption": "Asthma treatment steps for children 6-11 years: controller and reliever for steps 1-5, ICS dose ranges, key points",
+   "replaces_chunks": [
+    "ncdimh-0952",
+    "ncdimh-0953",
+    "ncdimh-0954",
+    "ncdimh-0955"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Step"
+     },
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Preferred Controller"
+     },
+     {
+      "t": "Reliever"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Mild intermittent"
+     },
+     {
+      "t": "No daily controller"
+     },
+     {
+      "t": "As-needed SABA OR as-needed low-dose ICS + SABA (when symptoms occur)"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Mild persistent"
+     },
+     {
+      "t": "Low-dose ICS daily (preferred) OR LTRA"
+     },
+     {
+      "t": "As-needed SABA"
+     }
+    ],
+    [
+     {
+      "t": "3"
+     },
+     {
+      "t": "Moderate persistent"
+     },
+     {
+      "t": "Low-dose ICS-LABA (preferred in ≥6 yrs) OR medium-dose ICS"
+     },
+     {
+      "t": "As-needed SABA"
+     }
+    ],
+    [
+     {
+      "t": "4"
+     },
+     {
+      "t": "Severe persistent"
+     },
+     {
+      "t": "Medium-to-high-dose ICS-LABA + LTRA"
+     },
+     {
+      "t": "As-needed SABA"
+     }
+    ],
+    [
+     {
+      "t": "5"
+     },
+     {
+      "t": "Refractory"
+     },
+     {
+      "t": "Refer to paediatric specialist. Consider biologic (mepolizumab ≥6 yrs, dupilumab ≥6 yrs, omalizumab ≥6 yrs)"
+     },
+     {
+      "t": "As-needed SABA + add-on LAMA (tiotropium ≥6 yrs)"
+     }
+    ],
+    {
+     "section": "ICS dose ranges, children 6-11 years (mcg/day): low / medium / high"
+    },
+    [
+     {
+      "t": "Budesonide DPI"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 100–200; medium 201–400"
+     },
+     {
+      "t": "High >400"
+     }
+    ],
+    [
+     {
+      "t": "Fluticasone propionate DPI/MDI"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 50–100; medium 101–200"
+     },
+     {
+      "t": "High >200"
+     }
+    ],
+    [
+     {
+      "t": "Beclometasone dipropionate MDI"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 100–200; medium 201–400"
+     },
+     {
+      "t": "High >400"
+     }
+    ],
+    [
+     {
+      "t": "Ciclesonide MDI"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 80–160; medium 161–320"
+     },
+     {
+      "t": "High >320"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The ICS dose ranges are a separate table in the PDF; added here as a section. The key-points box is headed '3 key points' but lists six."
+   ],
+   "pages": [
+    332,
+    333
+   ],
+   "context_before": "Children aged 6–11 years can perform spirometry reliably. Management follows a step-based approach similar to adults but with important differences in drug doses and preferred options.",
+   "table_note": "Key points for 6–11 years: confirm the diagnosis with spirometry (FEV1/FVC <0.80 abnormal in children). Preferred device: MDI + spacer for all ages; DPI from about 7 years with good technique. ICS-LABA approved from age 6; use fixed-dose combinations where available. LABA should never be used without ICS in children. LTRA (montelukast) is an alternative/add-on, especially with allergic rhinitis; note the FDA boxed warning for neuropsychiatric events. Tiotropium (LAMA) mist inhaler is licensed as add-on from age 6 (steps 4–5)."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-steps-under-5",
+   "page": 333,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children < 5 Years",
+   "caption": "Asthma treatment steps for children under 5: controller and reliever by pattern, ICS doses, and under-5 considerations",
+   "replaces_chunks": [
+    "ncdimh-0956",
+    "ncdimh-0957",
+    "ncdimh-0958",
+    "ncdimh-0959"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Step"
+     },
+     {
+      "t": "Pattern"
+     },
+     {
+      "t": "Preferred Controller"
+     },
+     {
+      "t": "Reliever"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Infrequent viral wheeze"
+     },
+     {
+      "t": "No daily controller needed"
+     },
+     {
+      "t": "As-needed SABA (salbutamol 100 mcg × 2–4 puffs via spacer)"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Symptoms ≥2×/month OR any activity limitation"
+     },
+     {
+      "t": "Low-dose ICS daily (e.g. budesonide 100 mcg/day OR fluticasone 50 mcg BD)"
+     },
+     {
+      "t": "As-needed SABA"
+     }
+    ],
+    [
+     {
+      "t": "3"
+     },
+     {
+      "t": "Uncontrolled on low-dose ICS"
+     },
+     {
+      "t": "Double low-dose ICS (medium dose) OR add LTRA (montelukast)"
+     },
+     {
+      "t": "As-needed SABA"
+     }
+    ],
+    [
+     {
+      "t": "4"
+     },
+     {
+      "t": "Persistent uncontrolled – refer"
+     },
+     {
+      "t": "Continue medium-dose ICS + LTRA. URGENT referral to paediatric pulmonologist"
+     },
+     {
+      "t": "As-needed SABA. Consider nebulised ipratropium for acute exacerbations"
+     }
+    ],
+    {
+     "section": "ICS doses, under 5 years (mcg/day): low / medium"
+    },
+    [
+     {
+      "t": "Budesonide nebulised"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 250–500"
+     },
+     {
+      "t": "Medium 501–1000"
+     }
+    ],
+    [
+     {
+      "t": "Budesonide MDI + spacer"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 100–200"
+     },
+     {
+      "t": "Medium 201–400"
+     }
+    ],
+    [
+     {
+      "t": "Fluticasone propionate MDI"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 50–100"
+     },
+     {
+      "t": "Medium 101–200"
+     }
+    ],
+    [
+     {
+      "t": "Beclometasone MDI"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Low 100–200"
+     },
+     {
+      "t": "Medium 201–400"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Step 2 example 'fluticasone 50 mcg BD' (100 mcg/day) is at the top of the low-dose range; the ICS doses table is a separate table in the PDF, added as a section."
+   ],
+   "pages": [
+    333,
+    334
+   ],
+   "context_before": "Under-5 asthma: the evidence base is more limited; balance benefit against the burden of daily treatment. Preferred delivery: pressurised MDI with valved spacer and face mask (<3 yrs) or mouthpiece (3–5 yrs). Reassess the diagnosis every 3–6 months; many children outgrow symptoms.",
+   "table_note": "Additional under-5 considerations: LABA are NOT recommended under 5 years; LAMAs are not approved in this age group; allergen immunotherapy not routinely recommended under 5; montelukast 4 mg granules/chewable for 2–5 yrs may help allergic or exercise-induced symptoms (weaker evidence than ICS); intermittent high-dose ICS during viral triggers may be considered in pure viral-triggered wheeze as an alternative to daily ICS at steps 1–2; monitor height and weight at every visit (systemic ICS effects with high doses)."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-exacerbation-severity",
+   "page": 334,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Severity Assessment",
+   "caption": "Acute asthma exacerbation severity: SpO2, speech, respiratory rate, heart rate, PEF and mental state for mild, moderate, severe and life-threatening",
+   "replaces_chunks": [
+    "ncdimh-0960"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Feature"
+     },
+     {
+      "t": "Mild"
+     },
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Severe"
+     },
+     {
+      "t": "Life-Threatening"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "SpO2 (air)"
+     },
+     {
+      "t": "≥95%"
+     },
+     {
+      "t": "92–94%"
+     },
+     {
+      "t": "<92%"
+     },
+     {
+      "t": "<92%"
+     }
+    ],
+    [
+     {
+      "t": "Speech"
+     },
+     {
+      "t": "Normal"
+     },
+     {
+      "t": "Phrases"
+     },
+     {
+      "t": "Words only"
+     },
+     {
+      "t": "None / silent chest"
+     }
+    ],
+    [
+     {
+      "t": "RR"
+     },
+     {
+      "t": "Normal"
+     },
+     {
+      "t": "Increased"
+     },
+     {
+      "t": ">30/min"
+     },
+     {
+      "t": "Bradypnoea"
+     }
+    ],
+    [
+     {
+      "t": "HR (adults)"
+     },
+     {
+      "t": "<100"
+     },
+     {
+      "t": "100–120"
+     },
+     {
+      "t": ">120"
+     },
+     {
+      "t": "Bradycardia"
+     }
+    ],
+    [
+     {
+      "t": "PEF (% best/predicted)"
+     },
+     {
+      "t": ">70%"
+     },
+     {
+      "t": "40–69%"
+     },
+     {
+      "t": "<40%"
+     },
+     {
+      "t": "<25%"
+     }
+    ],
+    [
+     {
+      "t": "Mental state"
+     },
+     {
+      "t": "Alert"
+     },
+     {
+      "t": "Alert"
+     },
+     {
+      "t": "Agitated"
+     },
+     {
+      "t": "Confused/drowsy"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "PEF 70% exactly is not covered (>70% mild, 40–69% moderate)."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-nonpharm",
+   "page": 334,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Non-Pharmacological Interventions",
+   "caption": "Asthma non-pharmacological interventions: trigger avoidance, inhaler education, written action plan, physical activity, breathing exercises, weight reduction, allergen immunotherapy",
+   "replaces_chunks": [
+    "ncdimh-0961"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Intervention"
+     },
+     {
+      "t": "Key Points"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Trigger avoidance"
+     },
+     {
+      "t": "Identify and reduce allergens, tobacco smoke, NSAIDs/aspirin (if sensitive), occupational irritants"
+     }
+    ],
+    [
+     {
+      "t": "Inhaler education"
+     },
+     {
+      "t": "Check and correct technique at EVERY visit; MDI + spacer is equivalent to a nebuliser for most indications"
+     }
+    ],
+    [
+     {
+      "t": "Written Asthma Action Plan"
+     },
+     {
+      "t": "Provide to all patients; include when to increase treatment and when to seek emergency care"
+     }
+    ],
+    [
+     {
+      "t": "Physical activity"
+     },
+     {
+      "t": "Encourage regular exercise; warm-up reduces EIB; use pre-exercise SABA or ICS-LABA if needed"
+     }
+    ],
+    [
+     {
+      "t": "Breathing exercises"
+     },
+     {
+      "t": "Buteyko, yoga breathing; evidence for symptom improvement though not lung function"
+     }
+    ],
+    [
+     {
+      "t": "Weight reduction"
+     },
+     {
+      "t": "Obesity worsens asthma control; weight loss improves FEV1, symptoms, and quality of life"
+     }
+    ],
+    [
+     {
+      "t": "Allergen immunotherapy"
+     },
+     {
+      "t": "SCIT or SLIT for allergic asthma (≥5 yrs); reduces exacerbations and ICS requirement"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-drug-classes",
+   "page": 335,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Management of Asthma > Pharmacological Treatment",
+   "caption": "Asthma drug classes: SABA, ICS, LABA, LTRA, methylxanthines: examples, key points and precautions",
+   "replaces_chunks": [
+    "ncdimh-0964"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Class"
+     },
+     {
+      "t": "Examples"
+     },
+     {
+      "t": "Key Points"
+     },
+     {
+      "t": "Notes/Precautions"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Short-Acting Beta Agonists (SABA)"
+     },
+     {
+      "t": "Salbutamol"
+     },
+     {
+      "t": "Mainstay of quick relief; used for acute symptom relief; frequent use suggests poor control"
+     },
+     {
+      "t": "Not for long-term control"
+     }
+    ],
+    [
+     {
+      "t": "Inhaled Corticosteroids (ICS)"
+     },
+     {
+      "t": "Beclomethasone, budesonide, fluticasone"
+     },
+     {
+      "t": "Cornerstone of long-term treatment; safe and effective; use a spacer to improve delivery and reduce oral candidiasis"
+     },
+     {
+      "t": "Dose depends on severity, potency & response; increase ICS if SABA use is frequent"
+     }
+    ],
+    [
+     {
+      "t": "Long-Acting Beta Agonists (LABA)"
+     },
+     {
+      "t": "Salmeterol, formoterol (in combination with ICS: fluticasone/salmeterol, budesonide/formoterol)"
+     },
+     {
+      "t": "Added to low/medium ICS to improve control; improve lung function"
+     },
+     {
+      "t": "Never use alone; always with ICS"
+     }
+    ],
+    [
+     {
+      "t": "Leukotriene Receptor Antagonists (LTRA)"
+     },
+     {
+      "t": "Montelukast 10 mg"
+     },
+     {
+      "t": "Controls mild persistent asthma; useful in aspirin-induced, exercise-induced, and allergic rhinitis-associated asthma"
+     },
+     {
+      "t": "Less potent than ICS; stop if no benefit within 1 month"
+     }
+    ],
+    [
+     {
+      "t": "Methylxanthines (second-line)"
+     },
+     {
+      "t": "Theophylline"
+     },
+     {
+      "t": "Mild bronchodilator; add-on for persistent asthma"
+     },
+     {
+      "t": "Narrow therapeutic window; requires serum level monitoring (5–15 μg/ml); starting dose 10 mg/kg/day"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-follow-up",
+   "page": 335,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Monitoring & Follow-Up Schedule",
+   "caption": "Asthma monitoring and follow-up schedule by age: stable asthma and after an exacerbation",
+   "replaces_chunks": [
+    "ncdimh-0963"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Stable Asthma"
+     },
+     {
+      "t": "After Exacerbation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Children <5 yrs"
+     },
+     {
+      "t": "Every 3–6 months"
+     },
+     {
+      "t": "Within 2–4 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Children 6–11 yrs"
+     },
+     {
+      "t": "Every 3–6 months"
+     },
+     {
+      "t": "Within 2–4 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Adolescents ≥12 yrs"
+     },
+     {
+      "t": "Every 3–6 months"
+     },
+     {
+      "t": "Within 1–2 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Adults"
+     },
+     {
+      "t": "Every 3–12 months depending on control"
+     },
+     {
+      "t": "Within 1–2 weeks"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Asthma in pregnancy: uncontrolled asthma is more dangerous to the foetus than any asthma medication. Continue ICS at effective doses throughout pregnancy (do not step down); budesonide has the most safety data; SABA (salbutamol) is safe as reliever; montelukast may continue if essential; OCS may be used for exacerbations."
+  },
+  {
+   "table_id": "ncdimh-tbl-asthma-long-term-older-format",
+   "page": 336,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchial Asthma > Long-term management by age (step table)",
+   "caption": "Long-term asthma management step tables (children 6-11 and ages 12+): symptoms per step, preferred and alternative controllers, relievers",
+   "replaces_chunks": [
+    "ncdimh-0965",
+    "ncdimh-0967"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age / option"
+     },
+     {
+      "t": "Step I"
+     },
+     {
+      "t": "Step II"
+     },
+     {
+      "t": "Step III"
+     },
+     {
+      "t": "Step IV"
+     },
+     {
+      "t": "Step V"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Children 6–11 years (reliever: as-needed SABA, or ICS-formoterol reliever for MART)"
+    },
+    [
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "Symptoms <twice a month"
+     },
+     {
+      "t": "Symptoms >twice a month"
+     },
+     {
+      "t": "Symptoms most days or waking with asthma once a week or more"
+     },
+     {
+      "t": "Symptoms most days or waking with asthma once a week or more and low lung function"
+     },
+     {
+      "t": "Short course OCS may also be needed for severely uncontrolled asthma"
+     }
+    ],
+    [
+     {
+      "t": "Preferred controller"
+     },
+     {
+      "t": "Low dose ICS taken whenever SABA taken"
+     },
+     {
+      "t": "Daily low dose ICS"
+     },
+     {
+      "t": "Low dose ICS-LABA, or medium dose ICS, or very low dose ICS-formoterol MART"
+     },
+     {
+      "t": "Medium dose ICS-LABA, or low dose ICS-formoterol MART (refer for expert advice)"
+     },
+     {
+      "t": "Refer for phenotypic assessment ± higher dose ICS-LABA or add-on therapy, e.g. anti-IgE"
+     }
+    ],
+    [
+     {
+      "t": "Alternative controller"
+     },
+     {
+      "t": "Consider daily low dose ICS"
+     },
+     {
+      "t": "Daily LTRA, or low dose ICS taken whenever SABA taken"
+     },
+     {
+      "t": "Low dose ICS + LTRA"
+     },
+     {
+      "t": "Add tiotropium or add LTRA"
+     },
+     {
+      "t": "Add-on anti-IL5, or add-on low dose OCS, but consider side effects"
+     }
+    ],
+    {
+     "section": "12 years onward, option A (reliever: as-needed low dose ICS-formoterol)"
+    },
+    [
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "Symptoms less than 4–5 days a week"
+     },
+     {
+      "t": "Symptoms less than 4–5 days a week"
+     },
+     {
+      "t": "Symptoms most days or waking with asthma once a week or more"
+     },
+     {
+      "t": "Daily symptoms or waking with asthma once a week or more and low lung function"
+     },
+     {
+      "t": "Short course OCS may also be needed for severely uncontrolled asthma"
+     }
+    ],
+    [
+     {
+      "t": "Controller and preferred reliever"
+     },
+     {
+      "t": "As-needed low dose ICS-formoterol"
+     },
+     {
+      "t": "As-needed low dose ICS-formoterol"
+     },
+     {
+      "t": "Low dose maintenance ICS-formoterol"
+     },
+     {
+      "t": "Medium dose maintenance ICS-formoterol"
+     },
+     {
+      "t": "High-dose maintenance ICS-formoterol. Refer for specialist review"
+     }
+    ],
+    {
+     "section": "12 years onward, option B (reliever: as-needed SABA)"
+    },
+    [
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "Symptoms less than twice a month"
+     },
+     {
+      "t": "Symptoms twice a month or more but less than 4–5 days a week"
+     },
+     {
+      "t": "Symptoms most days or waking with asthma once a week or more"
+     },
+     {
+      "t": "Daily symptoms or waking with asthma once a week or more, and low lung function"
+     },
+     {
+      "t": "Short course OCS may also be needed for severely uncontrolled asthma"
+     }
+    ],
+    [
+     {
+      "t": "Controller and alternative reliever"
+     },
+     {
+      "t": "Take ICS whenever SABA taken"
+     },
+     {
+      "t": "Low dose maintenance ICS"
+     },
+     {
+      "t": "Low dose maintenance ICS-LABA"
+     },
+     {
+      "t": "Medium/high dose maintenance ICS-LABA"
+     },
+     {
+      "t": "High-dose maintenance ICS-LABA. Refer for specialist review"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "These step tables (from the older GINA 2023 format) are printed after, and differ from, the treatment-step tables on pp.331-333 (e.g. children 6-11 step 1: 'low dose ICS taken whenever SABA taken' here vs 'no daily controller, as-needed SABA' there; step 4: medium ICS-LABA here vs medium-to-high ICS-LABA + LTRA there). Clinician to confirm which applies.",
+    "The 12+ option A step 1 and 2 symptom rows are identical ('less than 4–5 days a week'). Words run together throughout ('twicea', 'asthmaoncea'). The option B label is not printed."
+   ],
+   "pages": [
+    336,
+    337
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "ncdimh-box-acute-asthma-immediate",
+   "page": 337,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > All Age Groups – Immediate Actions and Admission Criteria",
+   "caption": "Acute asthma exacerbation: immediate actions for all ages (oxygen, salbutamol, ipratropium, steroids, magnesium) and admission criteria",
+   "replaces_chunks": [
+    "ncdimh-0968",
+    "ncdimh-0969"
+   ],
+   "content": "All age groups – immediate actions:\n- Oxygen to achieve SpO2 94–98% (adults/adolescents) or 94–98% (children).\n- SABA: salbutamol 4–10 puffs via MDI + spacer every 20 min × 3 (first hour).\n- Severe: nebulised salbutamol 2.5 mg (children) / 5 mg (adults) every 20 min.\n- Ipratropium bromide: add 0.5 mg (adults) / 0.25 mg (children) to the nebuliser for moderate–severe exacerbations.\n- Systemic corticosteroids: prednisolone 1 mg/kg/day (max 40 mg, children) OR 40–50 mg/day (adults) × 5–7 days.\n- IV magnesium sulfate: 2 g IV over 20 min (adults/adolescents) or 25–75 mg/kg (children) for severe exacerbations, SpO2 <92%.\n\nAdmission criteria – refer/admit if ANY: severe or life-threatening features; SpO2 <92% after initial treatment; no improvement after 1 hour of treatment; PEF remains <40% after initial treatment; unable to maintain oral intake (children); concern about home environment/adherence.",
+   "footnotes": [],
+   "source_flags": [
+    "The oxygen target is printed '94–98% (adults/adolescents) or 94–98% (children)' (same range twice); the primary-care flowchart on p.338 targets 93–95% in adults. Children's magnesium '25–75 mg/kg' is printed (usually 25–50 mg/kg, max 2 g)."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-acute-asthma-primary-care",
+   "page": 338,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of acute asthma in primary care",
+   "caption": "Acute or sub-acute asthma exacerbation in primary care (flowchart): assessment, severity (mild/moderate, severe, life-threatening), treatment, transfer, discharge and follow-up",
+   "replaces_chunks": [
+    "ncdimh-0970"
+   ],
+   "content": "1. Patient presents with an acute or sub-acute asthma exacerbation. Assess: is it asthma? Risk factors for asthma-related death? Severity of the exacerbation?\n2. Severity:\n   - Mild or moderate: talks in phrases; prefers sitting to lying; not agitated; respiratory rate increased; accessory muscles used; pulse 100-120 bpm; O2 saturation (on air) 90-95%; PEF >50% predicted or best (printed '50%').\n   - Severe: talks in words; sits hunched; agitated; respiratory rate >30/min; accessory muscles used; pulse >120/min; O2 saturation (on air) <90%; PEF <50% predicted or best.\n   - Life-threatening: drowsy; confused; silent chest.\n3. Mild/moderate: start treatment: SABA 4-10 puffs by pMDI + spacer, repeat every 20 min for 1 hour; prednisolone adults 40-50 mg, children 1-2 mg/kg (max 40 mg); controlled oxygen (if available), target saturation 93-95% (children 94-98%).\n   - Worsening → transfer to an acute care facility.\n   - Improving → continue SABA as needed; assess response at 1 hour (or earlier).\n4. Severe or life-threatening → transfer to an acute care facility; while waiting give SABA, ipratropium bromide, oxygen, systemic corticosteroids.\n5. Assess for discharge: symptoms improved, SABA not needed; PEF improving and >60-80% of personal best or predicted; oxygen saturation >94% on room air; adequate resources at home.\n6. Follow-up: review symptoms and signs (is the exacerbation resolving? should prednisolone be continued?). Reliever: reduce to as needed. Controller: continue a higher dose short term (1-2 weeks) or long term (3 months) depending on the background to the exacerbation. Risk factors: check and correct modifiable risk factors, including inhaler technique and adherence; refer if >1-2 exacerbations.",
+   "footnotes": [],
+   "source_flags": [
+    "Severity thresholds here (SpO2 90-95% mild/moderate, <90% severe; PEF 50%) differ from the severity table on p.334 (SpO2 92-94% moderate, <92% severe; PEF 40-69% moderate, <40% severe). 'Life threating', 'Ipratroplum', 'on aur' printed."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-acute-asthma-hospital",
+   "page": 339,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of Acute Asthma Exacerbations (adults, adolescents, children 6-11)",
+   "caption": "Management of acute asthma exacerbations in adults, adolescents and children 6-11 (flowchart): triage by worst feature, treatment, reassessment at 1 hour; IV salbutamol and aminophylline",
+   "replaces_chunks": [
+    "ncdimh-0972",
+    "ncdimh-0973"
+   ],
+   "content": "1. Initial assessment: A airway, B breathing, C circulation. Any of drowsiness, confusion, silent chest? → consult ICU, start SABA and O2, and prepare the patient for intubation.\n2. Further triage by clinical status, according to the worst feature:\n   - Mild or moderate: talks in phrases; prefers sitting to lying down; not agitated; respiratory rate increased; accessory muscles not used; pulse rate 100-120 bpm (printed '100-200'); O2 saturation (on air) 90-95%; PEF >50% predicted or best. Treat: short-acting beta agonists; O2 to maintain saturation 94-98%; oral corticosteroids.\n   - Severe: talks in words; sits hunched forwards; agitated; respiratory rate >30/min; accessory muscles being used; pulse rate >120 bpm; O2 saturation (on air) <90%; PEF <50% predicted or best. Treat: short-acting beta2 agonists; ipratropium bromide; O2 to maintain saturation 94-98%; oral or IV corticosteroids; consider IV magnesium sulfate; IV terbutaline/IV aminophylline.\n   - If continuing deterioration, treat as severe and reassess for ICU; transfer if necessary.\n3. Assess clinical progress frequently; measure lung function in all patients one hour after initial treatment:\n   - FEV1 or PEF 60-80% of predicted or personal best and symptoms improved (moderate): consider discharge.\n   - FEV1 or PEF <60% of predicted or personal best, or lack of clinical response (severe): continue treatment as above and reassess frequently.\n\nIV salbutamol can be used in severe asthma failing other treatments, mainly to prevent intubation; evidence that IV beta2-agonists shorten recovery or improve lung function is very limited. Inhaled drugs may have limited effect with near-complete obstruction and in ventilated patients. Side effects: arrhythmia, tachycardia, raised lactate and anxiety (may increase respiratory workload). Patients on IV salbutamol should be in an ICU setting.\nMost guidelines do not recommend IV aminophylline (low efficacy and safety). If used, reserve it for severe exacerbations failing maximal therapy (continuous inhaled beta2-agonists, IV corticosteroids, IV magnesium sulfate), generally in high care/ICU. Its risk-benefit balance is unfavourable.",
+   "footnotes": [],
+   "source_flags": [
+    "Mild/moderate pulse rate is printed '100-200 bpm' (100-120 on p.338). IV terbutaline/aminophylline are listed in the severe treatment box although the text below says aminophylline is generally not recommended."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-copd-bronchitis-vs-emphysema-ddx",
+   "page": 341,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Bronchitis vs Emphysema and Differential Diagnosis",
+   "caption": "COPD: predominant bronchitis vs predominant emphysema; differential diagnosis (asthma, cardiac failure, interstitial lung disease, cystic fibrosis); asthma vs COPD",
+   "replaces_chunks": [
+    "ncdimh-0978",
+    "ncdimh-0979",
+    "ncdimh-0980"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Feature"
+     },
+     {
+      "t": "Column 1"
+     },
+     {
+      "t": "Column 2"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Predominant bronchitis vs predominant emphysema"
+    },
+    [
+     {
+      "t": "Age (years)"
+     },
+     {
+      "t": "Bronchitis: 40-45"
+     },
+     {
+      "t": "Emphysema: 50-75"
+     }
+    ],
+    [
+     {
+      "t": "Appearance"
+     },
+     {
+      "t": "Bronchitis: blue bloater"
+     },
+     {
+      "t": "Emphysema: pink puffer"
+     }
+    ],
+    [
+     {
+      "t": "Dyspnoea"
+     },
+     {
+      "t": "Bronchitis: mild; late"
+     },
+     {
+      "t": "Emphysema: severe; early"
+     }
+    ],
+    [
+     {
+      "t": "Cough"
+     },
+     {
+      "t": "Bronchitis: early, copious sputum"
+     },
+     {
+      "t": "Emphysema: late, scanty sputum"
+     }
+    ],
+    [
+     {
+      "t": "Infections"
+     },
+     {
+      "t": "Bronchitis: common"
+     },
+     {
+      "t": "Emphysema: occasional"
+     }
+    ],
+    [
+     {
+      "t": "Cor pulmonale"
+     },
+     {
+      "t": "Bronchitis: common"
+     },
+     {
+      "t": "Emphysema: rare, terminal"
+     }
+    ],
+    [
+     {
+      "t": "Airway resistance"
+     },
+     {
+      "t": "Bronchitis: increased"
+     },
+     {
+      "t": "Emphysema: normal or slightly increased"
+     }
+    ],
+    [
+     {
+      "t": "Elastic recoil"
+     },
+     {
+      "t": "Bronchitis: normal"
+     },
+     {
+      "t": "Emphysema: low"
+     }
+    ],
+    [
+     {
+      "t": "Chest radiograph"
+     },
+     {
+      "t": "Bronchitis: prominent vessels; large heart"
+     },
+     {
+      "t": "Emphysema: hyperinflation; small heart"
+     }
+    ],
+    {
+     "section": "Differential diagnosis of COPD: alternative diagnosis and suggestive features"
+    },
+    [
+     {
+      "t": "Asthma"
+     },
+     {
+      "t": "Onset early in life; day-to-day variability; nocturnal cough and/or wheeze; family history; substantial reversibility with bronchodilator; nonsmoker",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Cardiac failure"
+     },
+     {
+      "t": "History of hypertension, ischaemic heart disease; elevated JVP, peripheral oedema; cardiac enlargement",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Interstitial lung diseases"
+     },
+     {
+      "t": "Tachypnoea, clubbing; bibasal fine inspiratory crackles; basal reticulonodular shadowing on CXR; HRCT: septal thickening, honeycombing",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Cystic fibrosis"
+     },
+     {
+      "t": "Family history; usually diagnosed in childhood; history of childhood chest disorder; malabsorption; finger clubbing, failure to thrive",
+      "cs": 2
+     }
+    ],
+    {
+     "section": "Asthma vs COPD"
+    },
+    [
+     {
+      "t": "Symptoms <35 years"
+     },
+     {
+      "t": "COPD: rare"
+     },
+     {
+      "t": "Asthma: common"
+     }
+    ],
+    [
+     {
+      "t": "Smoking history"
+     },
+     {
+      "t": "COPD: nearly all"
+     },
+     {
+      "t": "Asthma: maybe"
+     }
+    ],
+    [
+     {
+      "t": "Breathlessness"
+     },
+     {
+      "t": "COPD: persistent and progressive"
+     },
+     {
+      "t": "Asthma: variable through the day and from day to day"
+     }
+    ],
+    [
+     {
+      "t": "Chronic productive cough"
+     },
+     {
+      "t": "COPD: common"
+     },
+     {
+      "t": "Asthma: uncommon"
+     }
+    ],
+    [
+     {
+      "t": "Waking at night with cough/wheeze"
+     },
+     {
+      "t": "COPD: uncommon"
+     },
+     {
+      "t": "Asthma: common"
+     }
+    ],
+    [
+     {
+      "t": "Response to inhaled therapy"
+     },
+     {
+      "t": "COPD: poor"
+     },
+     {
+      "t": "Asthma: good"
+     }
+    ],
+    [
+     {
+      "t": "Atopy"
+     },
+     {
+      "t": "COPD: uncommon"
+     },
+     {
+      "t": "Asthma: common"
+     }
+    ],
+    [
+     {
+      "t": "Post-bronchodilator reversibility"
+     },
+     {
+      "t": "COPD: not completely reversible"
+     },
+     {
+      "t": "Asthma: completely reversible"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Three separate tables in the PDF are combined here with sections. 'Blue boater' printed. The bronchitis age band '40-45' is printed as is."
+   ],
+   "pages": [
+    341,
+    342,
+    343
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-copd-symptoms-signs",
+   "page": 341,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Symptoms and Signs",
+   "caption": "COPD clinical features: chronic cough, sputum, acute bronchitis, dyspnoea, exposure history, advanced disease features, physical signs",
+   "replaces_chunks": [
+    "ncdimh-0976"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Feature"
+     },
+     {
+      "t": "Details"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Chronic cough"
+     },
+     {
+      "t": "Persistent, intermittently or every day; often present throughout the day, seldom only nocturnal"
+     }
+    ],
+    [
+     {
+      "t": "Chronic sputum production"
+     },
+     {
+      "t": "Any pattern of chronic sputum production may indicate COPD"
+     }
+    ],
+    [
+     {
+      "t": "Acute bronchitis"
+     },
+     {
+      "t": "Repeated episodes, often in winter"
+     }
+    ],
+    [
+     {
+      "t": "Dyspnoea that is"
+     },
+     {
+      "t": "Progressive; persistent; worse with exercise; worse during respiratory infections"
+     }
+    ],
+    [
+     {
+      "t": "History of exposure to risk factors"
+     },
+     {
+      "t": "Tobacco smoke; occupational dusts and chemicals; indoor and outdoor pollution"
+     }
+    ],
+    [
+     {
+      "t": "With advanced disease"
+     },
+     {
+      "t": "Fatigue; anorexia; weight loss"
+     }
+    ],
+    [
+     {
+      "t": "Signs on physical examination"
+     },
+     {
+      "t": "Tachypnoea; reduced chest expansion; hyperinflated lungs; hyper-resonant percussion; use of accessory respiratory muscles and paradoxical indrawing of lower intercostal spaces (Hoover sign); cyanosis (blue bloater) – oedematous and central cyanosis; pink puffer – always breathless; elevated JVP; peripheral oedema; wheezing on forced and unforced expiration; diffusely decreased breath sounds; signs of respiratory failure; signs of cor pulmonale"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Signs may be completely absent in early stages of COPD."
+   ],
+   "source_flags": [],
+   "context_before": "COPD: a slowly progressive group of disorders with airway inflammation and airflow limitation that is not fully reversible. Two types: chronic bronchitis (productive cough for at least 3 months a year for more than 2 consecutive years) and emphysema (pathological diagnosis: abnormal dilation of terminal air spaces with destruction of alveolar septa). Risk factors: smoking; indoor and outdoor air pollution; recurrent childhood respiratory infection; occupational; alpha-1 antitrypsin deficiency; genetic predisposition."
+  },
+  {
+   "table_id": "ncdimh-tbl-copd-severity",
+   "page": 343,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Diagnosis and Investigation > Severity classification",
+   "caption": "COPD severity: by FEV1 % predicted (spirometry-capable facilities) or MRC dyspnoea scale (facilities without spirometry)",
+   "replaces_chunks": [
+    "ncdimh-0981",
+    "ncdimh-0982",
+    "ncdimh-0983"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Grade / severity"
+     },
+     {
+      "t": "Criterion"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "By FEV1 (for spirometry-capable health facilities)"
+    },
+    [
+     {
+      "t": "Mild COPD"
+     },
+     {
+      "t": "FEV1 60-80% predicted"
+     }
+    ],
+    [
+     {
+      "t": "Moderate COPD"
+     },
+     {
+      "t": "FEV1 40-59% predicted"
+     }
+    ],
+    [
+     {
+      "t": "Severe COPD"
+     },
+     {
+      "t": "FEV1 <40% predicted"
+     }
+    ],
+    {
+     "section": "MRC dyspnoea scale (for facilities unable to provide spirometry): degree of breathlessness related to physical activity"
+    },
+    [
+     {
+      "t": "0"
+     },
+     {
+      "t": "Not troubled by breathlessness except on strenuous exercise"
+     }
+    ],
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Short of breath when hurrying or walking up a slight hill"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Walks slower than contemporaries on level ground because of breathlessness, or has to stop for breath when walking at own pace"
+     }
+    ],
+    [
+     {
+      "t": "3"
+     },
+     {
+      "t": "Stops for breath after walking about 100 m or after a few minutes on level ground"
+     }
+    ],
+    [
+     {
+      "t": "4"
+     },
+     {
+      "t": "Too breathless to leave the house, or breathless on dressing/undressing"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "FEV1 ≥80% is not covered (GOLD grades: mild ≥80%, moderate 50-79%, severe 30-49%, very severe <30%); the bands here differ from GOLD."
+   ],
+   "context_before": "Spirometry is the gold standard for diagnosis, assessment and management of COPD. A post-bronchodilator FEV1/FVC ratio below 0.7 confirms persistent airflow limitation, suggesting COPD with relevant symptoms; FEV1 <80% predicted indicates the severity of obstruction. Measure after a bronchodilator to help distinguish from asthma. Other tests: CXR, high-resolution CT."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-copd-stepwise",
+   "page": 344,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Step-Wise Management for COPD: Pharmacological Interventions",
+   "caption": "Stepwise pharmacological management of COPD: short-acting bronchodilators, combinations, long-acting bronchodilator, ICS, theophylline; asthma-COPD overlap",
+   "replaces_chunks": [
+    "ncdimh-0984",
+    "ncdimh-0985"
+   ],
+   "content": "Non-pharmacological: smoking cessation and/or nicotine replacement therapy.\n1. Start a short-acting bronchodilator for relief of breathlessness: beta2 agonist, e.g. salbutamol 100-200 mcg (1-2 puffs) as needed, OR anticholinergic, e.g. ipratropium 20-40 mcg 3-4 times a day.\n2. Poor symptom control → combine short-acting bronchodilators from different groups, e.g. salbutamol and ipratropium (as above).\n3. Poor symptom control → consider adding a long-acting bronchodilator (beta2 agonist or anticholinergic), e.g. salmeterol 50 mcg BD, with short-acting bronchodilator(s) as above.\n4. Poor symptom control → consider combining a long-acting bronchodilator and an inhaled corticosteroid, e.g. beclomethasone 200 mcg, with a short-acting bronchodilator. Discontinue corticosteroids after 4 weeks if no benefit.\n5. Poor symptom control → consider adding SR theophylline 250-500 mg BD; monitor plasma levels and interactions.\n\nAsthma-COPD overlap, initial treatment: predominant asthma features → inhaled corticosteroids (long-acting bronchodilators should not be used as monotherapy). Predominant COPD features → appropriate long-acting bronchodilators; consider ICS + long-acting bronchodilator combination; ICS should not be used as monotherapy for COPD.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-bronchiectasis",
+   "page": 345,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchiectasis > Bronchiectasis: features and management",
+   "caption": "Bronchiectasis: predisposing factors, symptoms, imaging findings, complications, differential diagnosis, and management (non-pharmacological, acute, chronic, referral)",
+   "replaces_chunks": [
+    "ncdimh-0987",
+    "ncdimh-0988"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Details"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Predisposing Factors"
+     },
+     {
+      "t": "Infectious: whooping cough, measles, tuberculosis. Obstructive: inhaled foreign body, bronchial carcinoma. Genetic/congenital: cystic fibrosis, Kartagener syndrome"
+     }
+    ],
+    [
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "Daily cough, worse on walking. Mild cases: yellow or green sputum only after infection. Advanced: daily profuse sputum; persistent halitosis; haemoptysis (occasional and recurrent); shortness of breath and wheezing; recurrent chest infections; fevers and/or chills"
+     }
+    ],
+    [
+     {
+      "t": "Findings on Imaging"
+     },
+     {
+      "t": "Tram tracks (dilated airways), signet-ring sign, lack of bronchial tapering, cystic lesions at the lung bases in some patients. The gold standard for diagnosis is high-resolution computed tomography (HRCT)"
+     }
+    ],
+    [
+     {
+      "t": "Complications"
+     },
+     {
+      "t": "Pneumonia, pleurisy, pleural effusion, pneumothorax, sinusitis, haemoptysis (>600 mL/day = life-threatening), brain abscess"
+     }
+    ],
+    [
+     {
+      "t": "Differential Diagnosis"
+     },
+     {
+      "t": "Tuberculosis, asthma, COPD, interstitial fibrosis, chronic lung abscess, foreign body aspiration, cystic fibrosis, lung carcinoma"
+     }
+    ],
+    {
+     "section": "Management"
+    },
+    [
+     {
+      "t": "Non-pharmacologic therapy"
+     },
+     {
+      "t": "Postural drainage (e.g. lie head down 10–20 min ×3/day), adequate hydration, supplemental oxygen, patient education & preventive care"
+     }
+    ],
+    [
+     {
+      "t": "Acute care"
+     },
+     {
+      "t": "Antibiotics guided by Gram stain; target common pathogens (H. influenzae, P. aeruginosa if unknown); bronchodilators if bronchospasm present"
+     }
+    ],
+    [
+     {
+      "t": "Chronic therapy"
+     },
+     {
+      "t": "Avoid tobacco; maintain nutrition & hydration; prompt treatment of infections; vaccination (pneumococcal, influenza)"
+     }
+    ],
+    [
+     {
+      "t": "Referral"
+     },
+     {
+      "t": "Consider partial lung resection for severe cases unresponsive to medical therapy"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Bronchiectasis: dilation of the bronchi when their walls become inflamed, thickened and irreversibly damaged, usually after obstruction followed by infection. The left lower lobe and lingula are the commonest sites of localized disease."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-bronchiectasis-algorithm",
+   "page": 346,
+   "image_only": false,
+   "heading_path": "Chapter 14: Pulmonology > Bronchiectasis > Diagnosis and management algorithm",
+   "caption": "Bronchiectasis diagnosis and management (flowchart): chest X-ray, CT, routine and further tests, cause-specific and general management",
+   "replaces_chunks": [
+    "ncdimh-0990"
+   ],
+   "content": "Risk factors, symptoms and/or signs suggestive of bronchiectasis? → request a chest X-ray.\n- Chest X-ray in keeping with bronchiectasis? Yes → bronchiectasis confirmed. No → request thin-slice CT chest or high-resolution CT.\n- CT chest in keeping with bronchiectasis? Yes → bronchiectasis confirmed. No → consider an alternative diagnosis.\nOnce confirmed:\n- Routine tests: FBC, U&E and creatinine, LFTs, glucose, HIV, sputum MCS and TB culture, Aspergillus IgE, sweat chloride.\n- Further tests guided by history and examination: IgG, IgM, IgA, IgG subclasses, total IgE, sweat conductivity, nasal or bronchial mucosa biopsy.\n- If an underlying cause is identified, treat it specifically.\n- General management: airway clearance techniques; vaccination (influenza, pneumococcal, SARS-CoV-2); antibiotics; other: nutrition, diuretics, lung transplant.",
+   "footnotes": [],
+   "source_flags": [
+    "'Asperillus', 'or conductivity' printed."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-hematuria-definitions-classification",
+   "page": 347,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Hematuria > Definition and Standard Classification of Hematuria",
+   "caption": "Haematuria: definitions (gross/visible, microscopic ≥3 RBC/HPF) and classification of causes (urological and non-urological)",
+   "replaces_chunks": [
+    "ncdimh-0992",
+    "ncdimh-0993"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Subcategory"
+     },
+     {
+      "t": "Definition / Examples"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Definitions"
+    },
+    [
+     {
+      "t": "Gross Hematuria (GH) / Visible Hematuria (VH)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Visible blood in urine"
+     }
+    ],
+    [
+     {
+      "t": "Microscopic Hematuria"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Presence of ≥3 RBCs per HPF"
+     }
+    ],
+    {
+     "section": "Standard classification of hematuria (causes)"
+    },
+    [
+     {
+      "t": "Urological causes",
+      "rs": 6
+     },
+     {
+      "t": "Metabolic"
+     },
+     {
+      "t": "Stones"
+     }
+    ],
+    [
+     {
+      "t": "Malignant"
+     },
+     {
+      "t": "Renal, ureter, bladder, prostate, urethral malignancies"
+     }
+    ],
+    [
+     {
+      "t": "Congenital"
+     },
+     {
+      "t": "Congenital urological abnormalities"
+     }
+    ],
+    [
+     {
+      "t": "Infective"
+     },
+     {
+      "t": "Tuberculosis (TB), bilharzia"
+     }
+    ],
+    [
+     {
+      "t": "Inflammatory"
+     },
+     {
+      "t": "Cystitis"
+     }
+    ],
+    [
+     {
+      "t": "Benign"
+     },
+     {
+      "t": "Benign prostatic hyperplasia (BPH), exercise-induced hematuria, post-sexual activity"
+     }
+    ],
+    [
+     {
+      "t": "Non-urological causes",
+      "rs": 2
+     },
+     {
+      "t": "Medical (renal/systemic)"
+     },
+     {
+      "t": "Glomerulonephritis (GN), IgA nephropathy, pigmenturia, myoglobinuria, renal TB"
+     }
+    ],
+    [
+     {
+      "t": "Hematological"
+     },
+     {
+      "t": "Bleeding disorders, blood dyscrasias, anticoagulant therapy"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Haematuria is the presence of blood in urine, grossly or microscopically. It is a sign rather than a condition, usually suggesting a condition of the genito-urinary tract that needs urgent attention."
+  },
+  {
+   "table_id": "ncdimh-tbl-gross-hematuria-pathways",
+   "page": 348,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Hematuria > Management of Gross Hematuria",
+   "caption": "Management of gross haematuria by pathway: haemodynamically unstable, stable with clot retention, stable without clot retention",
+   "replaces_chunks": [
+    "ncdimh-0996",
+    "ncdimh-0997"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Element"
+     },
+     {
+      "t": "Pathway 1: Hemodynamically Unstable"
+     },
+     {
+      "t": "Pathway 2: Stable + Clot Retention"
+     },
+     {
+      "t": "Pathway 3: Stable, No Clot Retention"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Signs to look out for"
+     },
+     {
+      "t": "Hypotension, tachycardia, active bleeding"
+     },
+     {
+      "t": "Suprapubic pain, bladder distension, inability to void"
+     },
+     {
+      "t": "Visible hematuria, able to void"
+     }
+    ],
+    [
+     {
+      "t": "Initial priority"
+     },
+     {
+      "t": "Resuscitation"
+     },
+     {
+      "t": "Relieve obstruction"
+     },
+     {
+      "t": "Investigate cause. Send urine for M/C/S. If terminal hematuria, send a specimen between 10am and 2pm to look for schistosomiasis and treat accordingly"
+     }
+    ],
+    [
+     {
+      "t": "Immediate actions"
+     },
+     {
+      "t": "ATLS protocol; IV fluids ± blood"
+     },
+     {
+      "t": "3-way catheter; manual washout"
+     },
+     {
+      "t": "Basic investigations"
+     }
+    ],
+    [
+     {
+      "t": "Bladder management"
+     },
+     {
+      "t": "3-way catheter + continuous irrigation"
+     },
+     {
+      "t": "3-way catheter + continuous irrigation"
+     },
+     {
+      "t": "Not routinely required"
+     }
+    ],
+    [
+     {
+      "t": "Investigations"
+     },
+     {
+      "t": "After stabilisation"
+     },
+     {
+      "t": "After decompression"
+     },
+     {
+      "t": "UA, U&E, ultrasound"
+     }
+    ],
+    [
+     {
+      "t": "Disposition"
+     },
+     {
+      "t": "Urgent urology referral"
+     },
+     {
+      "t": "Urology referral"
+     },
+     {
+      "t": "All gross hematuria → urology referral"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "A heading 'Etiological Classification of Hematuria' is printed on p.348 with no content under it."
+   ],
+   "context_before": "Initial management (clinic, health centre or hospital): ATLS approach; fluid therapy, blood transfusions; correct reversible derangements (infections, coagulopathies); indwelling 3-way catheter (22/24 Fr); clot evacuation and bladder irrigation with isotonic saline (60 cc catheter-tip syringes, 3 L saline bags/water for irrigation); once stabilised, refer to a urologist.",
+   "table_note": "ALL CLIENTS PRESENTING WITH GROSS HEMATURIA SHOULD BE REFERRED TO THE UROLOGIST."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-microhematuria",
+   "page": 349,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Hematuria > Management of Microhematuria",
+   "caption": "Management of microscopic haematuria (flowchart): confirm, infection, glomerular cause, other causes, imaging, cytology, cystoscopy, follow-up",
+   "replaces_chunks": [
+    "ncdimh-0998"
+   ],
+   "content": "1. Microscopic evaluation to confirm RBCs (>3 RBC/HPF) in 2 of 3 samples.\n2. Signs or symptoms of infection (dysuria, frequency, flank pain, leukocyte esterase, nitrites, white cells, bacteria)?\n   - Yes: treat the infection; confirm resolution of microscopic haematuria with a follow-up urinalysis 6 weeks after completing therapy.\n   - No: 3.\n3. Findings supporting a glomerular cause (proteinuria, elevated creatinine, red cell casts, dysmorphic RBCs, abnormal sediment, ≥5-10 WBC/HPF, or reduced renal function)? Yes: refer to a nephrologist. (Cytology is a poor screening test and is not recommended in the initial workup.)\n4. No: other aetiology probable (vigorous exercise, urethral trauma, menstruation, offending medication)? Yes: retest urine after the possible contributing factor is stopped.\n5. No: radiographic evaluation of the urinary tract (renal ultrasonography, CT, or IVP, considering availability and costs). If imaging is not available, refer to a urologist.\n   - If imaging is positive: refer to a urology subspecialist. If negative: urine cytology.\n   - Negative findings and low risk (age <40 and no risk factors): follow-up with urinalysis and blood pressure; if haematuria persists >3 months, consider specialist referral.\n   - Positive findings, or all patients >40, or younger patients with risk factors for urothelial tumours: refer to a urology subspecialist for cystoscopy.",
+   "footnotes": [],
+   "source_flags": [
+    "Branch layout read from the chart; the caption fragment 'and costs.¹' is printed under renal ultrasonography."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-aua-microhematuria-risk",
+   "page": 350,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Hematuria > Diagnostic Stratification of Common Urological Conditions > AUA Microhematuria Risk Stratification",
+   "caption": "Risk stratification of haematuria: AUA microhaematuria risk categories (low, intermediate, high) for urothelial malignancy and urgency of urology referral",
+   "replaces_chunks": [
+    "ncdimh-0999",
+    "ncdimh-1000"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Low Risk"
+     },
+     {
+      "t": "Intermediate Risk"
+     },
+     {
+      "t": "High Risk"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Women <50 yrs, men <40 yrs"
+     },
+     {
+      "t": "Women 50–59 yrs, men 40–59 yrs"
+     },
+     {
+      "t": "Women & men ≥60 yrs"
+     }
+    ],
+    [
+     {
+      "t": "Never smoker or <10 pack-years"
+     },
+     {
+      "t": "10–30 pack-years"
+     },
+     {
+      "t": ">30 pack-years"
+     }
+    ],
+    [
+     {
+      "t": "3–10 RBC/HPF"
+     },
+     {
+      "t": "11–25 [RBC/HPF]"
+     },
+     {
+      "t": "[>25] RBC/HPF"
+     }
+    ],
+    [
+     {
+      "t": "3–10 RBC/HPF"
+     },
+     {
+      "t": "11–25 RBC/HPF on one urinalysis"
+     },
+     {
+      "t": "RBC >25/HPF on repeat urinalysis"
+     }
+    ],
+    [
+     {
+      "t": "No other urothelial cancer risk factors"
+     },
+     {
+      "t": "1 or more additional urothelial cancer risk factors; previously low risk, no prior evaluation and RBC 3–25/HPF on repeat urinalysis"
+     },
+     {
+      "t": "History of gross hematuria; previously low risk, no prior evaluation"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The RBC rows are garbled as printed: row 3 reads '3–10 RBC/HPF | 11–25 | RBC/HPF' (the high-risk value is missing; bracketed values inferred), and row 4 repeats '3–10 RBC/HPF'. In the AUA 2020 system, low risk is 3–10 RBC/HPF, intermediate 11–25 RBC/HPF, high >25 RBC/HPF; clinician to confirm and correct the table.",
+    "'Starification' printed in the table title."
+   ],
+   "table_note": "Purpose: risk stratification helps the health practitioner decide which patients presenting with haematuria to refer as an emergency or urgently to a facility with urology services. The higher the category, the higher the malignancy risk and the greater the need for a full work-up and prompt referral to the urologist."
+  },
+  {
+   "table_id": "ncdimh-tbl-hematuria-investigations",
+   "page": 350,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Hematuria > Diagnostic Stratification of Common Urological Conditions > Investigations",
+   "caption": "Investigations and resources for haematuria and common urological conditions: laboratory, radiology, drugs, endoscopy",
+   "replaces_chunks": [
+    "ncdimh-1001"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Items"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Laboratory requirements"
+     },
+     {
+      "t": "- Urine: MCS (microscopy, culture & sensitivity), cytology<br/>- Bloods: full blood count (FBC), kidney function tests (KFTs), liver function tests (LFTs), coagulation profile<br/>- Histological analysis"
+     }
+    ],
+    [
+     {
+      "t": "Radiology"
+     },
+     {
+      "t": "- X-ray<br/>- Ultrasound scan (USS)<br/>- CT scan<br/>- MRI"
+     }
+    ],
+    [
+     {
+      "t": "Drugs"
+     },
+     {
+      "t": "- Intravesical aminocaproic acid / prostaglandin F2 / silver nitrate / aluminium ammonium sulphate<br/>- Alpha blockers (see BPH protocol)<br/>- 5-alpha reductase inhibitors"
+     }
+    ],
+    [
+     {
+      "t": "Endoscope"
+     },
+     {
+      "t": "- TURP set (transurethral resection of the prostate set)<br/>- Cystoscope"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-male-luts-algorithm",
+   "page": 351,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Adult Male LUTS / Haematuria / Retention - Clinical Algorithm",
+   "caption": "Adult male with LUTS, haematuria or urinary retention: assessment pathway, red flags, medical treatment vs emergency care, refer to urologist",
+   "replaces_chunks": [
+    "ncdimh-1002",
+    "ncdimh-1003"
+   ],
+   "content": "Step 1–5: assessment pathway\n1. Adult male with LUTS ± haematuria / retention.\n2. History: LUTS, haematuria, retention; comorbidities, medications.\n3. IPSS ± IIEF.\n4. Examination: abdominal, neurological, DRE.\n5. Investigations: urine dipstick ± MCS; FBC, UECs, PSA; KUB ± prostate ultrasound.\nDecision: red flags present?\n- No red flags: medical treatment – alpha-blocker ± 5-ARI, monitor IPSS → refer if poor response.\n- Red flags present: emergency care – 3-way catheter 22–24 Fr, irrigation ± clot evacuation → stabilise.\nBoth pathways: refer to urologist.\nKey: IPSS = International Prostate Symptom Score; IIEF = International Index of Erectile Function; DRE = digital rectal examination; FBC = full blood count; UECs = urea, electrolytes & creatinine; PSA = prostate-specific antigen; MCS = microscopy, culture & sensitivity; KUB = kidneys, ureters & bladder X-ray; 5-ARI = 5-alpha reductase inhibitor; USS = ultrasound scan; LUTS = lower urinary tract symptoms.",
+   "footnotes": [],
+   "source_flags": [
+    "The red-flag criteria themselves are not listed on the algorithm."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-bph-terminology",
+   "page": 352,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Benign Prostatic Uropathy > Standard Classification of Benign Prostatic Uropathy",
+   "caption": "Standard classification and terminology of benign prostatic uropathy: BOO, BPH, BPE, BPO definitions",
+   "replaces_chunks": [
+    "ncdimh-1005"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Term"
+     },
+     {
+      "t": "Full name"
+     },
+     {
+      "t": "Definition"
+     },
+     {
+      "t": "Key characteristics"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "BOO"
+     },
+     {
+      "t": "Bladder Outlet Obstruction"
+     },
+     {
+      "t": "A generic clinical term for a blockage that slows or stops urine flow during voiding."
+     },
+     {
+      "t": "Diagnosed via urodynamics (shows high bladder pressure but low flow)."
+     }
+    ],
+    [
+     {
+      "t": "BPH"
+     },
+     {
+      "t": "Benign Prostatic Hyperplasia"
+     },
+     {
+      "t": "A histological (microscopic) diagnosis referring to the overgrowth of prostate cells."
+     },
+     {
+      "t": "It is a cellular diagnosis, typically confirmed through biopsy or pathology after surgery."
+     }
+    ],
+    [
+     {
+      "t": "BPE"
+     },
+     {
+      "t": "Benign Prostatic Enlargement"
+     },
+     {
+      "t": "A clinical observation of an increased prostate volume (size), regardless of symptoms."
+     },
+     {
+      "t": "Can be detected via physical exam (digital rectal exam) or imaging (ultrasound)."
+     }
+    ],
+    [
+     {
+      "t": "BPO"
+     },
+     {
+      "t": "Benign Prostatic Obstruction"
+     },
+     {
+      "t": "A specific form of BOO where the blockage is proven to be caused by BPE."
+     },
+     {
+      "t": "This links the physical size of the prostate to the actual obstruction of urine."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-bph-treatment",
+   "page": 352,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Benign Prostatic Uropathy > Benign Prostatic Obstructive Uropathy > Treatment",
+   "caption": "Treatment of benign prostatic obstruction / BPH by line of therapy: watchful waiting, urotherapy and lifestyle, alpha-1 blockers tamsulosin and doxazosin, side effects, referral and follow-up",
+   "replaces_chunks": [
+    "ncdimh-1007"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Line of therapy"
+     },
+     {
+      "t": "Indications"
+     },
+     {
+      "t": "Interventions"
+     },
+     {
+      "t": "Key notes / side effects"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "First-line therapy",
+      "rs": 3
+     },
+     {
+      "t": "BPE without bothersome symptoms – mild IPSS score"
+     },
+     {
+      "t": "Watchful waiting (mild IPSS): reassure, reinforce healthy lifestyle"
+     },
+     {
+      "t": "Education and lifestyle modification are central",
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "Mild–moderate IPSS"
+     },
+     {
+      "t": "- Urotherapy: double voiding<br/>- Treat constipation<br/>- Bladder training<br/>- Urethral milking post-void<br/>- Control fluid intake (storage LUTS)"
+     }
+    ],
+    [
+     {
+      "t": "Mild–moderate IPSS"
+     },
+     {
+      "t": "- Avoid bladder irritants (coffee, alcohol, cola, spicy foods)<br/>- Optimise DM/HTN control if concomitant<br/>- Substitute LUTS-exacerbating drugs (diuretics, TCAs, antihistamines, flu medications)"
+     }
+    ],
+    [
+     {
+      "t": "Second-line therapy",
+      "rs": 3
+     },
+     {
+      "t": "Moderate–severe LUTS – failed 1st-line therapy"
+     },
+     {
+      "t": "Alpha-1 blockers – relax internal sphincter & prostate smooth muscles"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Preferred in normotensive patients"
+     },
+     {
+      "t": "Tamsulosin (Uromax) 0.4 mg OD (may double in selected cases) – uroselective"
+     },
+     {
+      "t": "- Retrograde ejaculation → ↓ ejaculate volume<br/>- Orthostatic hypotension (first few weeks) → ↑ fall risk<br/>- Floppy iris syndrome in cataract surgery → avoid in cataract patients"
+     }
+    ],
+    [
+     {
+      "t": "Particularly useful in patients with hypertension"
+     },
+     {
+      "t": "Doxazosin (Cardura) 4 mg / 8 mg XL nocte"
+     },
+     {
+      "t": "- Dizziness<br/>- Asthenia<br/>- Orthostatic hypotension<br/>- Strong vasodilatory effect → avoid with nitrates or CCF"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "5-alpha reductase inhibitors are named in the algorithm (p.351) and investigations table (p.350) but have no dosing row in this treatment table."
+   ],
+   "pages": [
+    352,
+    353
+   ],
+   "table_note": "Patients whose IPSS fails to improve despite the interventions above are candidates for referral to a urologist for further evaluation, with the possibility of combination therapy or surgical treatment. Patients doing well on therapy can be seen at 3–6-month intervals."
+  },
+  {
+   "table_id": "ncdimh-tbl-luts-etiology",
+   "page": 352,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Benign Prostatic Uropathy > Etiological Classification of LUTS",
+   "caption": "Etiological classification of lower urinary tract symptoms (LUTS): anatomical, functional/neurological, inflammatory/infectious, systemic causes",
+   "replaces_chunks": [
+    "ncdimh-1006"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Specific conditions"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Anatomical & structural"
+     },
+     {
+      "t": "Benign prostatic hyperplasia, urethral stricture, bladder tumour, stones (bladder or ureter)"
+     }
+    ],
+    [
+     {
+      "t": "Functional & neurological"
+     },
+     {
+      "t": "Neurogenic bladder, overactive bladder / detrusor overactivity, detrusor underactivity"
+     }
+    ],
+    [
+     {
+      "t": "Inflammatory & infectious"
+     },
+     {
+      "t": "Urinary tract infection & inflammation, chronic pelvic pain syndrome"
+     }
+    ],
+    [
+     {
+      "t": "Systemic & miscellaneous"
+     },
+     {
+      "t": "Nocturnal polyuria (excessive night-time urination), others"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-ed-classification",
+   "page": 353,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Erectile Function Disorders > Classification",
+   "caption": "Erectile dysfunction: classification (organic, psychogenic, mixed) and common contributing factors",
+   "replaces_chunks": [
+    "ncdimh-1008"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Classification"
+     },
+     {
+      "t": "Description"
+     },
+     {
+      "t": "Common contributing factors"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Organic"
+     },
+     {
+      "t": "Caused by physical defects, vascular issues, or nerve damage."
+     },
+     {
+      "t": "Cardiovascular disease, diabetes mellitus, hypertension, smoking, and chronic kidney disease"
+     }
+    ],
+    [
+     {
+      "t": "Psychogenic"
+     },
+     {
+      "t": "Resulting from psychological factors or emotional stress."
+     },
+     {
+      "t": "Anxiety, depression, relationship issues, and performance stress"
+     }
+    ],
+    [
+     {
+      "t": "Mixed"
+     },
+     {
+      "t": "A combination of both physical and psychological factors."
+     },
+     {
+      "t": "Primary organic issues that lead to secondary performance anxiety"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "This table has no title and is printed between the BPH treatment table and the 'Erectile Function Disorders' heading; its content is the classification of erectile dysfunction."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "ncdimh-fig-ed-primary-care",
+   "page": 354,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Erectile Function Disorders > Guidelines for Primary Care Management of Erectile Dysfunction",
+   "caption": "Primary care management of erectile dysfunction (flowchart): initial assessment, psychogenic vs organic features, investigations, hypogonadism, PDE5 inhibitors, CHD, referral",
+   "replaces_chunks": [
+    "ncdimh-1010",
+    "ncdimh-1011"
+   ],
+   "content": "1. GP initial assessment: sexual history, relevant blood tests, blood pressure, genital examination. ALL young patients with a history of trauma and/or penile/testicular abnormalities on clinical examination SHOULD BE REFERRED TO UROLOGY IMMEDIATELY.\n2a. Suggests psychogenic: sudden onset; good or better early-morning / self-stimulated erections; relationship problems; variable depending on circumstances → first-line treatment with PDE5 inhibitors and monitor response; consider counselling.\n2b. Suggests organic: gradual onset; lack of tumescence; normal libido; relevant medical history; smoker; difficulty with penetration → further investigations: BMI, BP, abdominal circumference, HbA1c, lipogram; encourage weight loss.\n3. Clinical features suggestive of hypogonadism: testosterone (before 10 am) and thyroid function; if testosterone low, do FSH, LH, prolactin, SHBG.\n   - If abnormal: refer to urology / endocrinology as appropriate.\n   - If normal with no evidence of CHD: first-line treatment with PDE5 inhibitors.\n   - Normal but with CHD: guidance from cardiology/medicine; once the patient is low risk according to Princeton criteria, consider PDE5 inhibitors.\nPDE5 inhibitors: sildenafil (Viagra); tadalafil (Cialis) – consider daily dose if possible; vardenafil (Levitra).",
+   "footnotes": [],
+   "source_flags": [
+    "Printed 'IF NORMAL WITH N EVIDENCE OF CHD' (read as 'no evidence'), 'Tadalifil', 'In hibitors', 'Princetown' (Princeton), 'SHOULD REFERRED'."
+   ]
+  },
+  {
+   "table_id": "ncdimh-tbl-pde5-comparison",
+   "page": 355,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Erectile Function Disorders > PDE5 Inhibitors",
+   "caption": "PDE5 inhibitors for erectile dysfunction: sildenafil (Viagra) vs tadalafil (Cialis) onset, half-life, food effect, doses, side effects, contraindications, pharmacological failure",
+   "replaces_chunks": [
+    "ncdimh-1012",
+    "ncdimh-1013"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Sildenafil / Viagra"
+     },
+     {
+      "t": "Tadalafil / Cialis"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Onset of action"
+     },
+     {
+      "t": "15 min – 1 hour"
+     },
+     {
+      "t": "15 min – 2 hours"
+     }
+    ],
+    [
+     {
+      "t": "½ life"
+     },
+     {
+      "t": "3–5 hours"
+     },
+     {
+      "t": "17.5 hours"
+     }
+    ],
+    [
+     {
+      "t": "Food effect"
+     },
+     {
+      "t": "Reduced absorption with fatty foods"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Dosages"
+     },
+     {
+      "t": "25, 50, 100 mg"
+     },
+     {
+      "t": "5, 10, 20 mg"
+     }
+    ],
+    [
+     {
+      "t": "Side effects"
+     },
+     {
+      "t": "Headache, dyspepsia, facial flushing, blurred/blue vision (rare), myalgia, backache",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Contraindications"
+     },
+     {
+      "t": "Nitrates"
+     },
+     {
+      "t": "Nitrates"
+     }
+    ],
+    [
+     {
+      "t": "Pharmacological failure"
+     },
+     {
+      "t": "Counsel the patient to take the medication at least 8 times at the maximum dose, 1 hour before sex, on an empty stomach, together with sexual stimulation, before it is deemed medication failure. Then refer to urology.",
+      "cs": 2
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "ncdimh-tbl-pde5-princeton-risk",
+   "page": 355,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Erectile Function Disorders > PDE5 Inhibitor Eligibility (Princeton III)",
+   "caption": "PDE5 inhibitor fitness/eligibility by cardiovascular risk (Princeton III Consensus 2010): low, intermediate, high risk and management",
+   "replaces_chunks": [
+    "ncdimh-1014"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Risk level"
+     },
+     {
+      "t": "Examples / criteria"
+     },
+     {
+      "t": "Next steps / management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Low risk"
+     },
+     {
+      "t": "- Controlled hypertension<br/>- Successfully revascularised (e.g. bypass surgery)"
+     },
+     {
+      "t": "Lifestyle changes, PDE5 inhibitors"
+     }
+    ],
+    [
+     {
+      "t": "Intermediate risk"
+     },
+     {
+      "t": "- Mild or moderate stable angina<br/>- Past myocardial infarction (2–8 weeks)"
+     },
+     {
+      "t": "Cardiovascular evaluation & management → if improves: low-risk management; if fails: high-risk management (refer to cardiologist / internal medicine)"
+     }
+    ],
+    [
+     {
+      "t": "High risk"
+     },
+     {
+      "t": "- Unstable angina<br/>- CCF NYHA IV<br/>- Recent MI (<2 weeks)"
+     },
+     {
+      "t": "Refer to cardiologist / internal medicine"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "PDE5 inhibitors' fitness/eligibility criteria – based on the Princeton III Consensus Conference 2010."
+  },
+  {
+   "table_id": "ncdimh-tbl-premature-ejaculation-types",
+   "page": 355,
+   "image_only": false,
+   "heading_path": "Chapter 15: Urology > Erectile Function Disorders > Premature Ejaculation",
+   "caption": "Premature ejaculation: types (lifelong/primary vs acquired/secondary), description and aetiology",
+   "replaces_chunks": [
+    "ncdimh-1015"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Type"
+     },
+     {
+      "t": "Description"
+     },
+     {
+      "t": "Etiology"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Lifelong / primary"
+     },
+     {
+      "t": "Cluster of core symptoms including early ejaculation at nearly every intercourse: within 30–60 seconds in ~80% of cases; between 1–2 minutes in ~20% of cases"
+     },
+     {
+      "t": "Present from first sexual experiences"
+     }
+    ],
+    [
+     {
+      "t": "Acquired / secondary"
+     },
+     {
+      "t": "Early ejaculation at some point in life in men who previously had normal ejaculatory experiences"
+     },
+     {
+      "t": "Situational: partner conflicts; psychological: stressors"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
   }
  ],
  "text_labels": {
@@ -25022,11 +28563,23 @@
   "ncdimh-0933": "Chapter 13: Psychiatry > Suicide > Psychosocial Management",
   "ncdimh-0934": "Chapter 13: Psychiatry > Suicide > Psychosocial Management > Offer Support to the Person",
   "ncdimh-0935": "Chapter 13: Psychiatry > Suicide > Psychosocial Management > Activate Psychosocial Support",
-  "ncdimh-0936": "Chapter 13: Psychiatry > Suicide > Referral, Linkages and Follow-Up"
+  "ncdimh-0936": "Chapter 13: Psychiatry > Suicide > Referral, Linkages and Follow-Up",
+  "ncdimh-0937": "Chapter 14: Pulmonology > Bronchial Asthma > Definition",
+  "ncdimh-0962": "Chapter 14: Pulmonology > Bronchial Asthma > Asthma in Pregnancy",
+  "ncdimh-0974": "Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Definition and Types",
+  "ncdimh-0975": "Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Etiology / Risk Factors",
+  "ncdimh-0986": "Chapter 14: Pulmonology > Bronchiectasis > Definition",
+  "ncdimh-0991": "Chapter 15: Urology > Common Urological Conditions > Hematuria > Definition",
+  "ncdimh-0994": "Chapter 15: Urology > Hematuria > Initial Management (Clinic, Health Centre or Hospital Level)",
+  "ncdimh-0995": "Chapter 15: Urology > Hematuria > Management of Gross Hematuria",
+  "ncdimh-1004": "Chapter 15: Urology > Benign Prostatic Uropathy > Definition and Overview",
+  "ncdimh-1009": "Chapter 15: Urology > Erectile Function Disorders > Definitions of Erectile Dysfunction and Premature Ejaculation",
+  "ncdimh-1016": "Chapter 15: Urology > Erectile Function Disorders > Premature Ejaculation > Approach / Assessment and Treatment",
+  "ncdimh-1017": "Chapter 15: Urology > Complications and Emergencies of Common Urological Conditions"
  },
  "text_fix_pages": [
   1,
-  326
+  356
  ],
  "text_merge": {
   "ncdimh-0319": "ncdimh-0317",
@@ -25037,11 +28590,14 @@
   "ncdimh-0525": "ncdimh-0527",
   "ncdimh-0538": "ncdimh-0542",
   "ncdimh-0564": "ncdimh-0562",
-  "ncdimh-0875": "ncdimh-0873"
+  "ncdimh-0875": "ncdimh-0873",
+  "ncdimh-1018": "ncdimh-1017"
  },
  "text_drop": [
   "ncdimh-0690",
   "ncdimh-0721",
-  "ncdimh-0842"
+  "ncdimh-0842",
+  "ncdimh-0971",
+  "ncdimh-1033"
  ]
 }
