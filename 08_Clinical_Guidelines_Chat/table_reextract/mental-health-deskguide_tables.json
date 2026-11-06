@@ -6,6 +6,10 @@
   {
    "file": "MentalHealth_1.pdf",
    "pages": "1-69"
+  },
+  {
+   "file": "MentalHealth_2.pdf",
+   "pages": "70-120"
   }
  ],
  "tables": [
@@ -2032,7 +2036,7 @@
    ],
    "footnotes": [],
    "source_flags": [
-    "Alcohol withdrawal management lists investigations and 'prescribe medications' but no thiamine; WHO mhGAP recommends thiamine 100 mg for all patients with alcohol withdrawal (and a benzodiazepine regimen), which is not stated here."
+    "The alcohol withdrawal management in this table lists investigations and 'prescribe medications' but does not mention thiamine; thiamine and the chlordiazepoxide regimen are only in the job aid (p.91). WHO mhGAP recommends thiamine for all patients with alcohol withdrawal."
    ],
    "pages": [
     53,
@@ -2465,6 +2469,3533 @@
     69
    ],
    "context_before": "TABLE 20: STEPWISE MANAGEMENT FOR CHILDHOOD PSYCHIATRIC CONDITIONS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p70-0149",
+   "page": 70,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Major Depressive Disorders",
+   "caption": "Tables 21-22. First-line (amitriptyline, fluoxetine, sertraline) and second-line (duloxetine) antidepressants for major depressive disorder: doses, titration, maximum doses",
+   "replaces_chunks": [
+    "mental-health-deskguide-0149",
+    "mental-health-deskguide-0151",
+    "mental-health-deskguide-0152"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Table 21 - First line: tricyclic antidepressants"
+    },
+    [
+     {
+      "t": "Amitriptyline po"
+     },
+     {
+      "t": "Initial dose 25 mg for 3 days, then 50 mg"
+     },
+     {
+      "t": "Bedtime"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "150-200 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Then increase the dose gradually by 25 mg at an interval of 7-14 days if there is no response.",
+      "cs": 6
+     }
+    ],
+    {
+     "section": "Table 21 - First line: SSRIs (alternative)"
+    },
+    [
+     {
+      "t": "Fluoxetine po"
+     },
+     {
+      "t": "Initial dose 10-20 mg"
+     },
+     {
+      "t": "Once daily"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "60-80 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 10-20 mg at an interval of 4-8 weeks if there is no response.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Sertraline po"
+     },
+     {
+      "t": "Initial dose 25-50 mg"
+     },
+     {
+      "t": "Bedtime"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "200 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 25-50 mg at an interval of 7-14 days if there is no response.",
+      "cs": 6
+     }
+    ],
+    {
+     "section": "Table 22 - Second line: SNRI"
+    },
+    [
+     {
+      "t": "Duloxetine po"
+     },
+     {
+      "t": "Initial dose 20-30 mg"
+     },
+     {
+      "t": "Once daily"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "120 mg/day"
+     },
+     {
+      "t": "S E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 20-30 mg at an interval of 7-14 days if there is no response.",
+      "cs": 6
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "Amitriptyline is better prescribed if sedation is desirable. Fluoxetine and sertraline are better if sedation is not desirable, and for depression with suicidality, the elderly, children and frail physically ill patients.",
+   "pages": [
+    70
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p71-0154",
+   "page": 71,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Major Depressive Disorders > Insomnia and Psychotic Symptoms",
+   "caption": "Tables 23-24. Major depressive disorder: lorazepam for insomnia; antipsychotics (haloperidol, risperidone, olanzapine, aripiprazole) for depression with psychosis – doses and titration; cautions for SSRIs and TCAs",
+   "replaces_chunks": [
+    "mental-health-deskguide-0154",
+    "mental-health-deskguide-0156"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Table 23 - Insomnia in major depressive disorder"
+    },
+    [
+     {
+      "t": "Lorazepam po"
+     },
+     {
+      "t": "1-2 mg"
+     },
+     {
+      "t": "Bedtime"
+     },
+     {
+      "t": "5-7 days"
+     },
+     {
+      "t": "2 mg"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    {
+     "section": "Table 24 - Depressive disorder with psychosis: prescribe antidepressants concurrently with one antipsychotic"
+    },
+    [
+     {
+      "t": "Haloperidol po"
+     },
+     {
+      "t": "Initial dose 1.5-3 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "20 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 1.5 mg at an interval of 7-14 days if the patient presents with psychosis.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Risperidone po"
+     },
+     {
+      "t": "Initial dose 1-2 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "6 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 3-14 days by 50-200mg [as printed] if the patient presents with psychosis.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Olanzapine po"
+     },
+     {
+      "t": "Initial dose 5-10 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "25 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 5 mg at an interval of 7-14 days if the patient presents with psychosis.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Aripiprazole po"
+     },
+     {
+      "t": "Initial dose 2-5 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "30 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 3-14 days by 5-10 mg if the patient presents with psychosis.",
+      "cs": 6
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Risperidone titration is printed 'by 50-200mg' (Table 24); risperidone is titrated in 0.5-1 mg steps (max 6 mg/day). The 50-200 mg figure appears copied from sulpiride/chlorpromazine.",
+    "Olanzapine maximum is given as 25 mg/day here and in Table 31; the usual maximum is 20 mg/day."
+   ],
+   "table_note": "Caution: SSRIs may cause agitation and an increased suicide risk during the first 2-4 weeks. TCAs can be fatal in overdose – conduct a suicide risk assessment at every follow-up visit and avoid them in patients with suicidal thoughts/attempt as much as possible. Avoid TCAs in children, the elderly and patients with heart disease, urinary retention, glaucoma and epilepsy. For depression with psychomotor agitation consider amitriptyline if no other contraindications; consider sertraline/fluoxetine for depression with psychomotor retardation."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p72-0159",
+   "page": 72,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Major Depressive Disorders > Drug Interactions and Anti-Depressants & Haart > Table 25: Special Considerations in the Management of Major Depressive Disorders",
+   "caption": "TABLE 25: SPECIAL CONSIDERATIONS IN THE MANAGEMENT OF MAJOR DEPRESSIVE DISORDERS: Table 25: Special Considerations in the Management of Major Depressive Disorders (Special case, Intervention)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0159"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Special case"
+     },
+     {
+      "t": "Intervention"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "If younger than 12 years"
+     },
+     {
+      "t": "• No antidepressants, provide counselling then refer"
+     }
+    ],
+    [
+     {
+      "t": "Pregnant women and breastfeeding mothers"
+     },
+     {
+      "t": "• Antidepressants should be avoided as far as possible and the refer"
+     }
+    ],
+    [
+     {
+      "t": "Depression with psychotic symptoms"
+     },
+     {
+      "t": "• Prescribe anti-depressants + anti-psychotics"
+     }
+    ],
+    [
+     {
+      "t": "BAD, depressive phase."
+     },
+     {
+      "t": "• Prescribe mood stabilizer + anti-depressant + antipsychotic"
+     }
+    ],
+    [
+     {
+      "t": "If symptoms of mania emerge during treatment of depression"
+     },
+     {
+      "t": "• Immediately stop antidepressants and refer"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    72
+   ],
+   "context_before": "TABLE 25: SPECIAL CONSIDERATIONS IN THE MANAGEMENT OF MAJOR DEPRESSIVE DISORDERS"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p73-0161",
+   "page": 73,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Anxiety Disorders",
+   "caption": "Tables 26-27. Anxiety disorders: antidepressants (fluoxetine, sertraline) and short-term benzodiazepines in crisis (lorazepam, alprazolam, clonazepam) – doses, titration, maximum duration; cautions",
+   "replaces_chunks": [
+    "mental-health-deskguide-0161",
+    "mental-health-deskguide-0163"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Table 26 - Antidepressants for anxiety disorders"
+    },
+    [
+     {
+      "t": "Fluoxetine po"
+     },
+     {
+      "t": "Initial dose 10 mg"
+     },
+     {
+      "t": "Once a day"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "60 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 10 mg at an interval of 4-8 weeks if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Sertraline po"
+     },
+     {
+      "t": "Initial dose 25 mg"
+     },
+     {
+      "t": "Bedtime"
+     },
+     {
+      "t": "Short to long-term"
+     },
+     {
+      "t": "150 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 25 mg at an interval of 7-14 days if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ],
+    {
+     "section": "Table 27 - Benzodiazepines for short-term management (patient in crisis)"
+    },
+    [
+     {
+      "t": "Lorazepam po"
+     },
+     {
+      "t": "Initial dose 1-2 mg"
+     },
+     {
+      "t": "Once to three times"
+     },
+     {
+      "t": "Maximum 2-4 weeks"
+     },
+     {
+      "t": "10 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 0.5-2 mg at an interval of 3-7 days if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Alprazolam"
+     },
+     {
+      "t": "0.25-0.5 mg"
+     },
+     {
+      "t": "Two to three times"
+     },
+     {
+      "t": "Maximum 2-4 weeks"
+     },
+     {
+      "t": "4 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 0.5 mg at an interval of 3-7 days if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Clonazepam po"
+     },
+     {
+      "t": "Initial dose 0.5-1 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Maximum 2-8 weeks"
+     },
+     {
+      "t": "4 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 0.25-0.5 mg at an interval of 3-7 days if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Lorazepam maximum 10 mg/day for anxiety is high (usual maximum about 4-6 mg/day in divided doses)."
+   ],
+   "table_note": "Caution: benzodiazepines cause cognitive impairment (drowsiness) – warn patients not to drive, swim or operate machinery; the elderly are at risk of over-sedation, falls and hip fractures (consider low doses); dependence may occur after only a few weeks – do not prescribe continuously for long; do not prescribe to people at high risk of addiction (e.g. personality disorders, previous or current substance misuse)."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p74-0166",
+   "page": 74,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Trauma and Stressor Related Disorders > Panic Disorder in Crisis",
+   "caption": "Table 28. Trauma and stressor-related disorders (panic in crisis): short-term benzodiazepines lorazepam, alprazolam, clonazepam – doses and duration (antidepressants as for anxiety, Table 26)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0166"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Initial dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Lorazepam po"
+     },
+     {
+      "t": "Initial dose 1-2 mg"
+     },
+     {
+      "t": "Once to three times"
+     },
+     {
+      "t": "Maximum 2-4 weeks"
+     },
+     {
+      "t": "10 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 0.5-2 mg at an interval of 3-7 days if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Alprazolam"
+     },
+     {
+      "t": "0.5 mg"
+     },
+     {
+      "t": "Two to three times"
+     },
+     {
+      "t": "Maximum 2-4 weeks"
+     },
+     {
+      "t": "10 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 0.5 mg at an interval of 3-7 days if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Clonazepam po"
+     },
+     {
+      "t": "Initial dose 0.5-1 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Maximum 2-8 weeks"
+     },
+     {
+      "t": "4 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 0.25-0.5 mg at an interval of 3-7 days if the patient still presents with anxiety symptoms.",
+      "cs": 6
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Alprazolam: initial dose 0.5 mg and maximum 10 mg/day here, but 0.25-0.5 mg and 4 mg/day in Table 27; 10 mg/day is far above usual maximum doses."
+   ],
+   "context_before": "Pharmacological management of trauma and stressor-related disorders: refer to the management of anxiety disorders, Table 26."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p75-0168",
+   "page": 75,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Schizophrenia and Other Psychosis > Acute Phase",
+   "caption": "Table 29. Rapid neuroleptization/tranquillization for acute psychosis: haloperidol IM, chlorpromazine IM, followed by diazepam IV or lorazepam IV – doses and maximums; cautions",
+   "replaces_chunks": [
+    "mental-health-deskguide-0168"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Haloperidol IM"
+     },
+     {
+      "t": "Initial dose 5 mg"
+     },
+     {
+      "t": "Stat dose"
+     },
+     {
+      "t": "Immediate"
+     },
+     {
+      "t": "18-20 mg/day"
+     },
+     {
+      "t": "C V"
+     }
+    ],
+    [
+     {
+      "t": "Then every half hourly if the patient is still agitated.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "OR",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Chlorpromazine IM"
+     },
+     {
+      "t": "Initial dose 100-150 mg"
+     },
+     {
+      "t": "Stat dose"
+     },
+     {
+      "t": "Immediate"
+     },
+     {
+      "t": "600-800 mg/day"
+     },
+     {
+      "t": "C V"
+     }
+    ],
+    [
+     {
+      "t": "Then every 4-6 hourly if the patient is still agitated.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Followed by",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Diazepam IV"
+     },
+     {
+      "t": "Initial dose 10-20 mg"
+     },
+     {
+      "t": "Stat dose"
+     },
+     {
+      "t": "Immediate"
+     },
+     {
+      "t": "20 mg/day"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "OR",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Lorazepam IV"
+     },
+     {
+      "t": "Initial dose 2-4 mg"
+     },
+     {
+      "t": "Stat dose"
+     },
+     {
+      "t": "Immediate"
+     },
+     {
+      "t": "4 mg/day"
+     },
+     {
+      "t": "C V"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Chlorpromazine 100-150 mg IM stat is a high intramuscular dose (usual 25-50 mg IM, risk of hypotension)."
+   ],
+   "table_note": "Caution: avoid chlorpromazine for elderly and adolescent patients and in epilepsy (lowers the seizure threshold). Always consult a psychiatrist when prescribing for violent, mentally unstable children, the elderly, pregnant women and breastfeeding mothers."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p76-0170",
+   "page": 76,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Schizophrenia and Other Psychosis > Maintenance Phase",
+   "caption": "Tables 30-31. Maintenance treatment of schizophrenia: first-line antipsychotics (haloperidol, sulpiride, chlorpromazine, aripiprazole) and second-line (risperidone, olanzapine, quetiapine) – doses, titration, maximums; cautions",
+   "replaces_chunks": [
+    "mental-health-deskguide-0170",
+    "mental-health-deskguide-0172"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Table 30 - First-line antipsychotics"
+    },
+    [
+     {
+      "t": "Haloperidol po"
+     },
+     {
+      "t": "Initial dose 1.5-5 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "20 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 1.5-5 mg at an interval of 3-14 days if the patient is still unstable.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Sulpiride po"
+     },
+     {
+      "t": "Initial dose 50-200 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "800 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 3-14 days by 50-200 mg if the patient is still unstable.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Chlorpromazine po"
+     },
+     {
+      "t": "Initial dose 50-200 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "800 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 7-14 days by 50-200 mg if the patient is still unstable.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Aripiprazole po"
+     },
+     {
+      "t": "Initial dose 10-15 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "30 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 3-14 days by 5-10 mg if the patient is still unstable.",
+      "cs": 6
+     }
+    ],
+    {
+     "section": "Table 31 - Second-line antipsychotics"
+    },
+    [
+     {
+      "t": "Risperidone po"
+     },
+     {
+      "t": "Initial dose 1-2 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "6-8 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually by 0.5-2 mg at an interval of 3-14 days if the patient is still unstable.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Olanzapine po"
+     },
+     {
+      "t": "Initial dose 5-10 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "25 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 3-14 days by 5 mg at a time if the patient is still unstable.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Quetiapine po"
+     },
+     {
+      "t": "Initial dose 25 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short term"
+     },
+     {
+      "t": "750 mg/day"
+     },
+     {
+      "t": "C E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 7-14 days by 50-100 mg increments until the mood is stabilised.",
+      "cs": 6
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'Quetapine' printed (quetiapine); its titration note refers to 'until the mood is stabilized' in a schizophrenia table.",
+    "The caution says not to prescribe olanzapine/risperidone to people with obesity, diabetes, hypertension or the elderly, while p.66 says to prescribe them 'cautiously' in the same groups."
+   ],
+   "table_note": "Caution: prescribe one antipsychotic at a time. Check FBS, BMI and BP before prescribing olanzapine and risperidone, and do not prescribe them to patients with obesity, diabetes, the elderly and hypertension.",
+   "context_before": "Maintenance phase: short- to long-term management after controlling agitation by rapid neuroleptization."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p77-0176",
+   "page": 77,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Schizophrenia and Other Psychosis > Long-acting Depot Antipsychotics",
+   "caption": "Tables 32-34. Schizophrenia: promethazine for insomnia; first-line depot antipsychotics (flupenthixol, fluphenazine, zuclopenthixol decanoate) and second-line (risperidone depot) – doses, intervals, maximums",
+   "replaces_chunks": [
+    "mental-health-deskguide-0176",
+    "mental-health-deskguide-0178",
+    "mental-health-deskguide-0174"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Initial dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Table 32 - Insomnia in schizophrenia"
+    },
+    [
+     {
+      "t": "Promethazine hydrochloride po"
+     },
+     {
+      "t": "50-75 mg"
+     },
+     {
+      "t": "Bedtime"
+     },
+     {
+      "t": "5-7 days"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    {
+     "section": "Table 33 - First-line depot antipsychotics (for poor adherence or poorly responding cases)"
+    },
+    [
+     {
+      "t": "Flupenthixol decanoate IM"
+     },
+     {
+      "t": "20 mg"
+     },
+     {
+      "t": "Biweekly or monthly"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "60 mg"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose biweekly/monthly by 20 mg if there is no response.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Fluphenazine decanoate IM"
+     },
+     {
+      "t": "25 mg"
+     },
+     {
+      "t": "Biweekly or monthly"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "125 mg"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "Zuclopenthixol decanoate IM"
+     },
+     {
+      "t": "200 mg"
+     },
+     {
+      "t": "Biweekly or monthly"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "400 mg"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose biweekly/monthly by 100 mg if there is no response.",
+      "cs": 6
+     }
+    ],
+    {
+     "section": "Table 34 - Second-line depot antipsychotic"
+    },
+    [
+     {
+      "t": "Risperidone decanoate IM"
+     },
+     {
+      "t": "Initial dose 12.5 mg"
+     },
+     {
+      "t": "Biweekly or monthly"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "50 mg"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose biweekly/monthly by 12.5 mg if there is no response.",
+      "cs": 6
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'All depot antipsychotic injections must be prescribed together with an anti-cholinergic' conflicts with p.66 ('do not provide anticholinergic to every patient'); routine prophylactic anticholinergics are not recommended by WHO mhGAP.",
+    "Long-acting risperidone is a microsphere injection, not a 'decanoate'; it is usually given every 2 weeks (25-50 mg)."
+   ],
+   "table_note": "Flupenthixol decanoate and risperidone depot are mostly preferred for schizophrenia. All depot antipsychotic injections must be prescribed together with an anticholinergic (Table 35)."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p78-0180",
+   "page": 78,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Schizophrenia and Other Psychosis > Long-acting Depot Antipsychotics",
+   "caption": "Table 35. Antimuscarinics prescribed with depot antipsychotics to prevent EPSE: trihexyphenidyl (Artane) or biperiden 2 mg daily; treatment duration and cautions for antipsychotics",
+   "replaces_chunks": [
+    "mental-health-deskguide-0180"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Initial dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Trihexyphenidyl (Artane) po"
+     },
+     {
+      "t": "2 mg"
+     },
+     {
+      "t": "Morning daily"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "OR",
+      "cs": 5
+     }
+    ],
+    [
+     {
+      "t": "Biperiden hydrochloride po"
+     },
+     {
+      "t": "2 mg"
+     },
+     {
+      "t": "Morning daily"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "A V"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "Treatment duration: reduce the antipsychotic dose at each follow-up visit if mentally stable; maintain the lowest dose; consult a psychiatrist about discontinuing; if more than 3 episodes of psychosis, advise lifelong treatment. Caution: prescribe olanzapine and risperidone cautiously to the elderly and people with obesity, diabetes, hypertension or other cardiovascular conditions; one antipsychotic at a time, starting low and increasing gradually to an optimum dose for at least 4-6 weeks before considering it ineffective; treat side effects – do not provide an anticholinergic to every patient."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p79-0184",
+   "page": 79,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Schizophrenia and Other Psychosis > Psychosis Due to a General Medical Condition",
+   "caption": "Tables 36-37. Psychosis due to a general medical condition: low-dose haloperidol, risperidone, aripiprazole; lorazepam for insomnia – doses, titration, duration; cautions",
+   "replaces_chunks": [
+    "mental-health-deskguide-0184",
+    "mental-health-deskguide-0186"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Table 36 - Antipsychotics (after the physical condition has been treated, if abnormal behaviour persists)"
+    },
+    [
+     {
+      "t": "Haloperidol po"
+     },
+     {
+      "t": "Initial dose 0.75-1.5 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short term"
+     },
+     {
+      "t": "10 mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually every 3-14 days by 0.75-1.5 mg increments if there is no improvement.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Risperidone po"
+     },
+     {
+      "t": "Initial dose 0.5-1 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short term"
+     },
+     {
+      "t": "6 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually every 3-14 days by 0.5-1 mg increments if there is no improvement.",
+      "cs": 6
+     }
+    ],
+    [
+     {
+      "t": "Aripiprazole po"
+     },
+     {
+      "t": "Initial dose 2-5 mg"
+     },
+     {
+      "t": "Once to twice a day"
+     },
+     {
+      "t": "Short term"
+     },
+     {
+      "t": "15 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 3-14 days by 2-5 mg if the patient is still unstable.",
+      "cs": 6
+     }
+    ],
+    {
+     "section": "Table 37 - Insomnia"
+    },
+    [
+     {
+      "t": "Lorazepam po"
+     },
+     {
+      "t": "0.5-1 mg"
+     },
+     {
+      "t": "Bedtime"
+     },
+     {
+      "t": "5-7 days"
+     },
+     {
+      "t": "15 mg/day"
+     },
+     {
+      "t": "B E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Lorazepam for insomnia (Table 37): maximum printed as 15 mg/day for a 0.5-1 mg bedtime dose – likely an error (elsewhere 2 mg); the same page also says to avoid benzodiazepines in psychosis due to a medical condition."
+   ],
+   "table_note": "Treatment duration: reduce the dose at each follow-up visit if stable and keep the lowest dose; consider discontinuing if no psychotic symptoms and normal daily activities for at least 3 months; taper over 1-2 months and reinstitute if recurrence. Caution: avoid benzodiazepines and chlorpromazine as their sedative effects may mask the clinical picture."
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p81-0194",
+   "page": 81,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management Bipolar Affective Disorders (BAD) > Mood Stabilizerers",
+   "caption": "Mood Stabilizerers (Medicine, Medicine, Initial Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0194"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Initial Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Carbamazepine po<br/>Increase the dose gradually at an interval of 7-14 days by 200mg increments until the mood is stabilized or max dose is reached."
+     },
+     {
+      "t": "200mg"
+     },
+     {
+      "t": "Once to twice"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "1600mg /day"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Sodium Valproate CR po<br/>Increase the dose gradually at an interval of 7-14 days by 200mg-300mg increments until the mood is stabilized.<br/>Lamotrigine po"
+     },
+     {
+      "t": "500mg<br/>Initial dose; 25mg -50mg po daily for the first 7 days then 50mg 12 hourly."
+     },
+     {
+      "t": "Once to twice<br/>Once to twice"
+     },
+     {
+      "t": "Long term<br/>Long term"
+     },
+     {
+      "t": "2500mg/day<br/>400-500mg/ day"
+     },
+     {
+      "t": "A V<br/>B E"
+     }
+    ],
+    [
+     {
+      "t": "Increase the dose gradually at an interval of 7-14 days by 50mg - 100mg increments until the mood is stabilized."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Lamotrigine: '25-50 mg daily for the first 7 days then 50 mg 12-hourly' is faster than the recommended titration (25 mg daily for 2 weeks, then 50 mg daily for 2 weeks, then increase), which raises the risk of Stevens-Johnson syndrome.",
+    "'Mood Stabilizerers' heading; lithium, the reference mood stabiliser, is not listed."
+   ],
+   "pages": [
+    81
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p84-0200",
+   "page": 84,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of ADHD",
+   "caption": "TABLE 40: SUMMARY OF SECOND LINE PSYCHOSTIMULANTS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST: Pharmacological Management of ADHD (Medicine, Medicine, Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0200",
+    "mental-health-deskguide-0202"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Children >6 years"
+     },
+     {
+      "t": "Methyl phenidate HCL po<br/>Increase the dose gradually by 5-10mg at an interval of 7-14 days if the patient is still unstable"
+     },
+     {
+      "t": "Initial dose; 5-10 mg"
+     },
+     {
+      "t": "Morning to morning & lunchtime"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "60 mg/day"
+     },
+     {
+      "t": "S E"
+     }
+    ],
+    [
+     {
+      "t": "Adults"
+     },
+     {
+      "t": "Methyl phenidate HCL po<br/>Increase the dose gradually by 10mg at an interval of 7-14 days if the patient is still unstable"
+     },
+     {
+      "t": "Initial dose; 10-20 mg"
+     },
+     {
+      "t": "morning to morning & lunchtime"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "60 mg/day"
+     },
+     {
+      "t": "S E"
+     }
+    ],
+    [
+     {
+      "t": "Children"
+     },
+     {
+      "t": "Methyl phenidate HCL Extended Release po<br/>Increase the dose gradually by 18mg at an interval of 7-14 days if the patient is still unstable."
+     },
+     {
+      "t": "Initial dose; 18mg"
+     },
+     {
+      "t": "Morning to morning & lunchtime"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "54 mg/ day"
+     },
+     {
+      "t": "S N"
+     }
+    ],
+    [
+     {
+      "t": "Adults"
+     },
+     {
+      "t": "Methyl phenidate HCL Extended Release po<br/>Increase the dose gradually by 18mg at an interval of 7-14 days if the patient is still unstable"
+     },
+     {
+      "t": "Initial dose; 18-36mg"
+     },
+     {
+      "t": "Morning to morning & lunchtime"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "72mg/ day"
+     },
+     {
+      "t": "S N"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    84
+   ],
+   "context_before": "TABLE 40: SUMMARY OF SECOND LINE PSYCHOSTIMULANTS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p85-0204",
+   "page": 85,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Client Presents with",
+   "caption": "If the Client Presents with (Medicine, Medicine, Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0204",
+    "mental-health-deskguide-0205"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Sodium Valproate CR po<br/>Increase the dose gradually at an interval of 7-14 days by 300-500mg increments until fits are controlled or max dose is reached."
+     },
+     {
+      "t": "Initial dose; 300-500 mg"
+     },
+     {
+      "t": "Once to three times"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "2500 mg/day"
+     },
+     {
+      "t": "B V"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Carbamazepine CR po<br/>Increase the dose gradually at an interval of 7-14 days by 200mg increments until fits are controlled or max dose is reached."
+     },
+     {
+      "t": "Initial dose; 200mg"
+     },
+     {
+      "t": "Once to three times"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "1200-1600mg /day"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Carbamazepine po<br/>Increase the dose gradually at an interval of 7-14 days by 200mg increments until fits are controlled or max dose is reached."
+     },
+     {
+      "t": "Initial dose; 200mg"
+     },
+     {
+      "t": "Once to three times"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "1200-1600mg /day"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Phenobarbital po<br/>Increase the dose gradually at an interval of 7-14 days by 30mg increments until fits are controlled or max dose is reached."
+     },
+     {
+      "t": "Initial dose; 30-60mg"
+     },
+     {
+      "t": "Bedtime"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "180mg/day"
+     },
+     {
+      "t": "A V"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Levetiracetam po<br/>Increase the dose gradually at an interval of 7-14 days by 250mg increments until fits are controlled or max dose is reached."
+     },
+     {
+      "t": "Initial dose; 250mg"
+     },
+     {
+      "t": "Once to three times"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "3000 mg/day"
+     },
+     {
+      "t": "C E"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Lamotrigine po<br/>Increase the dose gradually at an interval of 7-14 days by 25-50mg increments until fits are controlled or max dose is reached."
+     },
+     {
+      "t": "Initial dose 25-50mg daily for 2 weeks"
+     },
+     {
+      "t": "Once to three times"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "400mg/day"
+     },
+     {
+      "t": "C V"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    85
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p86-0208",
+   "page": 86,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Patient Present with Aggression/uncontrolled Behavior",
+   "caption": "If the Patient Present with Aggression/uncontrolled Behavior (Medicine, Medicine, Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0208"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Risperidone po<br/>Increase the dose gradually every 3-14 days by 0.25-1mg increments if there is no improvement<br/>Aripiprazole po<br/>Increase the dose gradually at an interval of 3-14 days by 2mg if if there is no improvement"
+     },
+     {
+      "t": "Initial dose; 0.5-1mg<br/>Initial dose; 2mg"
+     },
+     {
+      "t": "Once to twice a day<br/>Once to twice a day"
+     },
+     {
+      "t": "Short to long term<br/>Short to long term"
+     },
+     {
+      "t": "6mg/day<br/>15 mg/day"
+     },
+     {
+      "t": "B E<br/>B E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    86
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p87-0210",
+   "page": 87,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Patient Present with Aggression/uncontrolled Behavior > If the Patient Present with Major Depressive Disorder and Is 12 Years or Above",
+   "caption": "If the Patient Present with Major Depressive Disorder and Is 12 Years or Above (SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0210"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Fluoxetine<br/>po<br/>Increase the dose gradually by 10-20mg at an interval of 4 – 8 weeks if there is no<br/>response<br/>Sertraline<br/>po<br/>Increase the dose gradually by 25-50mg at an interval of 7-14 days if there is no<br/>response"
+     },
+     {
+      "t": "Initial dose; 10-<br/>20mg<br/>Initial dose; 25-<br/>50mg"
+     },
+     {
+      "t": "Once<br/>daily<br/>Bedtime"
+     },
+     {
+      "t": "Short to long-term<br/>Short to long-term"
+     },
+     {
+      "t": "60-80mg a day<br/>200mg a day"
+     },
+     {
+      "t": "A E<br/>A E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    87
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p87-0212",
+   "page": 87,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Patient Present with Anxiety Disorder",
+   "caption": "If the Patient Present with Anxiety Disorder (Medicine, Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0212"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Fluoxetine po<br/>Increase the dose gradually by 10mg at an interval of 4-8 weeks if the patient still<br/>presents with anxiety symptoms<br/>Sertraline po<br/>Increase the dose gradually by 25mg at an interval of 7-14 days if the patient still<br/>presents with anxiety symptoms"
+     },
+     {
+      "t": "Initial dose 10 mg<br/>Initial dose; 25mg"
+     },
+     {
+      "t": "Once a day<br/>Bedtime"
+     },
+     {
+      "t": "Short to long-term<br/>Short to long-term"
+     },
+     {
+      "t": "60mg/day<br/>150mg/<br/>day"
+     },
+     {
+      "t": "A E<br/>A E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    87
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p87-0214",
+   "page": 87,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Neurocognitive Disorders",
+   "caption": "Neurocognitive Disorders (Medicine, Initial Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0214"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Initial Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Donepezil<br/>Hydrochloride po<br/>Increase the dose gradually by 5mg at an interval of 4-6 weeks if the patient is still<br/>unstable"
+     },
+     {
+      "t": "5mg"
+     },
+     {
+      "t": "Once to twice"
+     },
+     {
+      "t": "Long term"
+     },
+     {
+      "t": "23 mg/day"
+     },
+     {
+      "t": "S E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    87
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p88-0216",
+   "page": 88,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Neurocognitive Disorders > If the patient present with severe agitation or psychotic symptoms; consider",
+   "caption": "If the patient present with severe agitation or psychotic symptoms; consider (Medicine, Medicine, Initial Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0216"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Initial Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Haloperidol po<br/>Increase the dose gradually by 1.5-5mg at an interval of 3-14 days if the patient is still unstable."
+     },
+     {
+      "t": "1.5 mg"
+     },
+     {
+      "t": "Once a day"
+     },
+     {
+      "t": "Short to long term"
+     },
+     {
+      "t": "7.5mg/day"
+     },
+     {
+      "t": "A E"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Sulpride po<br/>Increase the dose gradually at an interval of 3-14 days by 50-200mg if the patient is still unstable.<br/>Aripiprazole po<br/>Increase the dose gradually at an interval of 3-14 days by 5-10mg if the patient is still unstable."
+     },
+     {
+      "t": "50 mg<br/>10 mg"
+     },
+     {
+      "t": "Once a day<br/>Once a day"
+     },
+     {
+      "t": "Short to long term<br/>Short to long term"
+     },
+     {
+      "t": "400mg/day<br/>30 mg/day"
+     },
+     {
+      "t": "A E<br/>B E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    88
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p88-0218",
+   "page": 88,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the patient present with Major Depressive Disorder",
+   "caption": "If the patient present with Major Depressive Disorder (Medicine<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS, Medicine<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESS)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0218"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     },
+     {
+      "t": "Medicine<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     },
+     {
+      "t": "Initial Dose<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     },
+     {
+      "t": "Frequency<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     },
+     {
+      "t": "Duration<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     },
+     {
+      "t": "Max dose<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     },
+     {
+      "t": "Code<br/>SELECTIVE SEROTONIN REUPTAKE INHIBITORS (SSRIs) ANTIDEPRESSANTS"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Fluoxetine po<br/>Increase the dose gradually by 10-20mg at an interval of 4 – 8 weeks if there is no response<br/>Sertraline po<br/>Increase the dose gradually by 25-50mg at an interval of 7-14 days if there is no response"
+     },
+     {
+      "t": "10-20mg<br/>25-50mg"
+     },
+     {
+      "t": "Once daily<br/>Bedtime"
+     },
+     {
+      "t": "Short to long-term<br/>Short to long-term"
+     },
+     {
+      "t": "60-80mg a day<br/>200mg a day"
+     },
+     {
+      "t": "A E<br/>A E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    88
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p89-0220",
+   "page": 89,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable with Mild Side Effects",
+   "caption": "Mentally Stable with Mild Side Effects (Medicine, Medicine, Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0220"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Trihexyphenidyl Hcl po<br/>Increase the dose at an interval of 3-14 days by 2-5 mg if there is no response<br/>Biperiden Hcl po<br/>Increase the dose at an interval of 3-14 days by 2 mg if there is no response"
+     },
+     {
+      "t": "Initial dose; 2 mg<br/>Initial dose; 2 mg"
+     },
+     {
+      "t": "Morning to morning & lunchtime<br/>Morning to morning & lunchtime"
+     },
+     {
+      "t": "Short to long term<br/>Short/long term"
+     },
+     {
+      "t": "15mg/day<br/>12mg/day"
+     },
+     {
+      "t": "A E<br/>A E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    89
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p90-0222",
+   "page": 90,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable with Moderate Side Effects",
+   "caption": "Mentally Stable with Moderate Side Effects (Medicine, Medicine, Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0222"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Trihexyphenidyl Hcl po<br/>Increase the dose at an interval of 3-14 days by 2-5mg if there is no response<br/>Biperiden Hcl po<br/>Increase the dose at an interval of 3-14 days by 2mg if there is no response"
+     },
+     {
+      "t": "Initial dose; 2-5 mg<br/>Initial dose; 2-4 mg"
+     },
+     {
+      "t": "Morning to morning & lunchtime<br/>Morning to morning & lunchtime"
+     },
+     {
+      "t": "Short to long term<br/>Short/long term"
+     },
+     {
+      "t": "15mg/day<br/>12mg/day"
+     },
+     {
+      "t": "A E<br/>A E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    90
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p90-0224",
+   "page": 90,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable/unstable with Severe Side Effects",
+   "caption": "Mentally Stable/unstable with Severe Side Effects (Medicine, Medicine, Initial Dose, Frequency, Duration, Max dose, Codes)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0224",
+    "mental-health-deskguide-0226"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Initial Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "WITH OR WITHOUT"
+     },
+     {
+      "t": "Biperiden Hydrochloride IM<br/>Repeat the same dose after every 30-60 minutes if there is no response.<br/>Diazepam IV"
+     },
+     {
+      "t": "5mg<br/>10-20mg"
+     },
+     {
+      "t": "Stat dose<br/>Stat dose"
+     },
+     {
+      "t": "Immediate<br/>Immediate"
+     },
+     {
+      "t": "10-20mg/ day<br/>20mg/day"
+     },
+     {
+      "t": "B E<br/>A E"
+     }
+    ],
+    [
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Medicine"
+     },
+     {
+      "t": "Dose"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Duration"
+     },
+     {
+      "t": "Max dose"
+     },
+     {
+      "t": "Codes"
+     }
+    ],
+    [
+     {
+      "t": "OR"
+     },
+     {
+      "t": "Trihexyphenidyl Hcl po<br/>Increase the dose at an interval of 3-14 days by 2-5mg if there is no response<br/>Biperiden Hcl po<br/>Increase the dose at an interval of 3-14 days by 2mg if there is no response"
+     },
+     {
+      "t": "Initial dose; 5-8 mg<br/>Initial dose; 4 - 8mg"
+     },
+     {
+      "t": "Morning to morning & lunchtime<br/>Morning to morning & lunchtime"
+     },
+     {
+      "t": "Short to long term<br/>Short/long term"
+     },
+     {
+      "t": "15mg/day<br/>12mg/day"
+     },
+     {
+      "t": "A E<br/>A E"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    90
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p91-0228",
+   "page": 91,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Alcohol Intoxication",
+   "caption": "Alcohol Intoxication (Severity, Medications)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0228"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Medications"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Severe cases presenting with Wernicke’s<br/>encephalopathy"
+     },
+     {
+      "t": "Thiamine 200-500mg IV/IM 8 hourly for 3-5<br/>days, followed by 250-1000mg/day po for a<br/>month."
+     }
+    ],
+    [
+     {
+      "t": "High risk patients of thiamine deficiency"
+     },
+     {
+      "t": "Thiamine 200-500mg IV/IM 12 hourly for 3-5<br/>days, followed by 250-300mg/day po for a<br/>month."
+     }
+    ],
+    [
+     {
+      "t": "Patients with mild symptoms of thiamine<br/>deficiency"
+     },
+     {
+      "t": "Thiamine 100mg po daily for a month."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    91
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p91-0230",
+   "page": 91,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Short term management",
+   "caption": "Short term management (Severity, Medications)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0230"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Medications"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Mild withdrawal<br/>symptoms"
+     },
+     {
+      "t": "Chlorpdiazepoxide 10-20mg 8hourly for 2-5 days. Max dose is<br/>250mg/24hours<br/>Then taper daily total dose by 25–50% per day over 2–5 days by<br/>reducing the dose amount and/or dose frequency to the lowest<br/>dose of 5mg daily."
+     }
+    ],
+    [
+     {
+      "t": "Moderate and severe<br/>withdrawal symptoms"
+     },
+     {
+      "t": "Chlorpdiazepoxide 20-50mg 6hourly for 2-5 days.<br/>Then taper daily total dose by 25–50% per day over 2–5 days by<br/>reducing the dose amount and/or dose frequency to the lowest<br/>dose of 5mg daily."
+     }
+    ],
+    [
+     {
+      "t": "Complicated with<br/>psychotic symptoms"
+     },
+     {
+      "t": "Prescribe an antipsychotic"
+     }
+    ],
+    [
+     {
+      "t": "Complicated with<br/>active seizures"
+     },
+     {
+      "t": "Prescribe an anticonvulsant"
+     }
+    ],
+    [
+     {
+      "t": "Complicated<br/>with Wernicke’s<br/>encephalopathy<br/>or high risk to<br/>develop Wernicke’s<br/>encephalopathy"
+     },
+     {
+      "t": "Add Thiamine as per table 51 above"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    91
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p92-0232",
+   "page": 92,
+   "image_only": false,
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Long term management",
+   "caption": "Long term management (Severity, Medications)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0232"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Medications"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• If liver function tests (AST & ALT) are within normal range"
+     },
+     {
+      "t": "Naltrexone 25mg for 3/7 then 50 mg od for 3-6 months"
+     }
+    ],
+    [
+     {
+      "t": "• Liver function tests (AST & ALT) are high<br/>• Serum creatinine and urea are within normal range"
+     },
+     {
+      "t": "Acamprosate 333mg to 666mg 8hourly for 3-6 months"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    92
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p111-0266",
+   "page": 111,
+   "image_only": false,
+   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Appendix I > SUICIDE RISK ASSESSMENT FORM (Adapted from Becks Suicidal Intent Scale)",
+   "caption": "SUICIDE RISK ASSESSMENT FORM (Adapted from Becks Suicidal Intent Scale) (1. Isolation:, Somebody present, 0)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0266",
+    "mental-health-deskguide-0267"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "1. Isolation:"
+     },
+     {
+      "t": "Somebody present"
+     },
+     {
+      "t": "0"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Somebody nearby, or in visual or vocal contact<br/>No-one nearby or in visual or vocal contact"
+     },
+     {
+      "t": "1<br/>2"
+     }
+    ],
+    [
+     {
+      "t": "2. Timing:"
+     },
+     {
+      "t": "Intervention probable"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "2. Timing:"
+     },
+     {
+      "t": "Intervention unlikely"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "2. Timing:"
+     },
+     {
+      "t": "Intervention highly unlikely"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "3. Precautions against discovery/ intervention:"
+     },
+     {
+      "t": "No precautions<br/>Passive precautions, e.g. avoiding others but doing nothing to prevent their intervention, alone in room with unlocked door<br/>Active precautions, e.g. locked door"
+     },
+     {
+      "t": "0<br/>1<br/>2"
+     }
+    ],
+    [
+     {
+      "t": "5. Final acts in anticipation of death (e.g., will, gifts, insurance):"
+     },
+     {
+      "t": "None<br/>Thought about or made some arrangements<br/>Made definite plans or completed arrange"
+     },
+     {
+      "t": "0<br/>1<br/>2"
+     }
+    ],
+    [
+     {
+      "t": "6. Active preparation for attempt:"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "6. Active preparation for attempt:"
+     },
+     {
+      "t": "Minimal to moderate"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "6. Active preparation for attempt:"
+     },
+     {
+      "t": "Extensive"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "7. Suicide note:"
+     },
+     {
+      "t": "Absence of note"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "7. Suicide note:"
+     },
+     {
+      "t": "Note written or torn up, or thought about"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "7. Suicide note:"
+     },
+     {
+      "t": "Presence of note"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "8. Overt communication of intent before attempt:"
+     },
+     {
+      "t": "None<br/>Equivocal communication<br/>Unequivocal communication"
+     },
+     {
+      "t": "0<br/>1<br/>2"
+     }
+    ],
+    [
+     {
+      "t": "9. Alleged purpose or intent:"
+     },
+     {
+      "t": "To manipulate environment, get attention, revenge"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "9. Alleged purpose or intent:"
+     },
+     {
+      "t": "Components of 0 and 2"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "9. Alleged purpose or intent:"
+     },
+     {
+      "t": "To escape, solve problems"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "10. Expectations<br/>of<br/>fatality:"
+     },
+     {
+      "t": "Thought that death was unlikely"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "10. Expectations<br/>of<br/>fatality:"
+     },
+     {
+      "t": "Thought that death was possible, not probable"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "10. Expectations<br/>of<br/>fatality:"
+     },
+     {
+      "t": "Thought that death was probable or certain"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "11. Conception of<br/>method’s lethality:"
+     },
+     {
+      "t": "Did less to self that thought would be lethal<br/>Was unsure if action would be lethal<br/>Equaled or exceeded what s/he thought would be<br/>lethal"
+     },
+     {
+      "t": "0<br/>1<br/>2"
+     }
+    ],
+    [
+     {
+      "t": "12. Seriousness<br/>of Attempt:"
+     },
+     {
+      "t": "Did not seriously attempt to end life"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "12. Seriousness<br/>of Attempt:"
+     },
+     {
+      "t": "Uncertain about seriousness to end life"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "12. Seriousness<br/>of Attempt:"
+     },
+     {
+      "t": "Seriously attempted to end life"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "13. Attitude<br/>towards<br/>living/dying:"
+     },
+     {
+      "t": "Did not want to die<br/>Components of 0 and 2<br/>Wanted to die"
+     },
+     {
+      "t": "0<br/>1<br/>2"
+     }
+    ],
+    [
+     {
+      "t": "14. Conception of<br/>medical<br/>rescuability:"
+     },
+     {
+      "t": "Thought death would be unlikely with medical<br/>attention<br/>Was uncertain whether death could be averted by<br/>medical attention<br/>Was certain of death even with medical attention"
+     },
+     {
+      "t": "0<br/>1<br/>2"
+     }
+    ],
+    [
+     {
+      "t": "15. Degree of<br/>premeditation:"
+     },
+     {
+      "t": "None, impulsive"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "15. Degree of<br/>premeditation:"
+     },
+     {
+      "t": "Contemplated for 3 hours or less before attempt"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "15. Degree of<br/>premeditation:"
+     },
+     {
+      "t": "Contemplated for more than 3 hours before<br/>attempt"
+     },
+     {
+      "t": "2"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    111
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p112-0268",
+   "page": 112,
+   "image_only": false,
+   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Appendix I > Recommendations",
+   "caption": "Recommendations (SCORING:, RISK:, SUGGESTED MANAGEMENT PLAN:)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0268"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "SCORING:"
+     },
+     {
+      "t": "RISK:"
+     },
+     {
+      "t": "SUGGESTED MANAGEMENT PLAN:"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "0 - 10"
+     },
+     {
+      "t": "LOW"
+     },
+     {
+      "t": "May be sent home with advice to see health care professional"
+     }
+    ],
+    [
+     {
+      "t": "11 - 20"
+     },
+     {
+      "t": "MEDIUM"
+     },
+     {
+      "t": "Assessment by health care professional.<br/><br/>Admission may be an option if patient:<br/>• Lives alone<br/>• Has a history of previous suicide attempt; or<br/>• Is clinically depressed"
+     }
+    ],
+    [
+     {
+      "t": "21 - 30"
+     },
+     {
+      "t": "HIGH"
+     },
+     {
+      "t": "Immediate assessment by Psychiatrist or Clinical Psychologist.<br/>Psychiatric admission recommended.<br/>Involuntary admission may be required."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    112
+   ],
+   "context_before": "RECOMMENDATIONS:"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p113-0269",
+   "page": 113,
+   "image_only": false,
+   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Appendix I > ACTION TAKEN: (Tick box applicable)",
+   "caption": "ACTION TAKEN: (Tick box applicable) (Admitted:, Medical Ward)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0269"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Admitted:"
+     },
+     {
+      "t": "Medical Ward"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Psychiatric Ward"
+     }
+    ],
+    [
+     {
+      "t": "Sent home:"
+     },
+     {
+      "t": "Alone"
+     }
+    ],
+    [
+     {
+      "t": "Sent home:"
+     },
+     {
+      "t": "With relative/friend"
+     }
+    ],
+    [
+     {
+      "t": "Referred to:"
+     },
+     {
+      "t": "Health care professional"
+     }
+    ],
+    [
+     {
+      "t": "Referred to:"
+     },
+     {
+      "t": "GP"
+     }
+    ],
+    [
+     {
+      "t": "Referred to:"
+     },
+     {
+      "t": "Psychiatrist"
+     }
+    ],
+    [
+     {
+      "t": "Referred to:"
+     },
+     {
+      "t": "Clinical Psychologist"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    113
+   ],
+   "context_before": "ACTION TAKEN: (Tick box applicable)"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p114-0271",
+   "page": 114,
+   "image_only": false,
+   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Patient Health Questionnaire (PHQ-9)",
+   "caption": "Patient Health Questionnaire (PHQ-9) (Not at all (0), Several days (1), More than half the days (2), Nearly every day (3))",
+   "replaces_chunks": [
+    "mental-health-deskguide-0271"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Not at all (0)"
+     },
+     {
+      "t": "Several days (1)"
+     },
+     {
+      "t": "More than half the days (2)"
+     },
+     {
+      "t": "Nearly every day (3)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "a. Little interest or pleasure in doing things."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "b. Feeling down, depressed, or hopeless."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "c. Trouble falling/staying asleep, sleeping too much."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "d. Feeling tired or having little energy."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "e. Poor appetite or overeating."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "f. Feeling bad about yourself, or that you are a failure, or have let yourself or your family down."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "g. Trouble concentrating on things, such as reading the newspaper or watching TV."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "h. Moving or speaking so slowly that other people could have noticed. Or the opposite; being so fidgety or restless that you have been moving around more than usual."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ],
+    [
+     {
+      "t": "i. Thoughts that you would be better off dead or of hurting yourself in some way."
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     },
+     {
+      "t": "🞏"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    114
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p115-0274",
+   "page": 115,
+   "image_only": false,
+   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Guide for Interpreting PHQ-9 Scores",
+   "caption": "Guide for Interpreting PHQ-9 Scores (Score, Recommended Actions)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0274"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Score"
+     },
+     {
+      "t": "Recommended Actions"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "0-4"
+     },
+     {
+      "t": "Normal range or full remission. The score suggests the patient may not need depression treatment."
+     }
+    ],
+    [
+     {
+      "t": "5-9"
+     },
+     {
+      "t": "Minimal depressive symptoms. Support, educate"
+     }
+    ],
+    [
+     {
+      "t": "10-14"
+     },
+     {
+      "t": "Major depression, mild severity. Use clinical judgment about treatment, based on patient's duration of symptoms and functional impairment. Treat with antidepressant or psychotherapy."
+     }
+    ],
+    [
+     {
+      "t": "15-19"
+     },
+     {
+      "t": "Major depression, moderate severity. Warrants treatment for depression, using antidepressant, psychotherapy or a combination of treatment."
+     }
+    ],
+    [
+     {
+      "t": "20 or higher"
+     },
+     {
+      "t": "Major depression, severe severity. Warrants treatment with antidepressant and psychotherapy, especially if not improved on monotherapy; follow frequently."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    115
+   ],
+   "context_before": "Guide for Interpreting PHQ-9 Scores"
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p118-0278",
+   "page": 118,
+   "image_only": false,
+   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Mental Status Evaluation",
+   "caption": "Mental Status Evaluation (Appearance, Well kempt/ unkempt)",
+   "replaces_chunks": [
+    "mental-health-deskguide-0278"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Appearance"
+     },
+     {
+      "t": "Well kempt/ unkempt"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Behaviour"
+     },
+     {
+      "t": "Eye contact; good / poor"
+     }
+    ],
+    [
+     {
+      "t": "Behaviour"
+     },
+     {
+      "t": "Aggressive / calm / cooperative / uncooperative / restless"
+     }
+    ],
+    [
+     {
+      "t": "Behaviour"
+     },
+     {
+      "t": "Abnormal movements; tremors / mannerisms / facial grimaces"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    118
+   ],
+   "context_before": "MENTAL STATUS EVALUATION"
   }
  ],
  "text_labels": {},
@@ -2472,6 +6003,6 @@
  "text_drop": [],
  "text_fix_pages": [
   1,
-  69
+  120
  ]
 }

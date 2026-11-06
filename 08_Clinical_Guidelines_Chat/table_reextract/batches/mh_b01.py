@@ -83,7 +83,7 @@ ITEMS = [
 ]
 # Clinical read (source problems in the guideline itself)
 FLAGS = {
- "tbl-p53-0114": ["Alcohol withdrawal management lists investigations and 'prescribe medications' but no thiamine; WHO mhGAP recommends thiamine 100 mg for all patients with alcohol withdrawal (and a benzodiazepine regimen), which is not stated here."],
+ "tbl-p53-0114": ["The alcohol withdrawal management in this table lists investigations and 'prescribe medications' but does not mention thiamine; thiamine and the chlordiazepoxide regimen are only in the job aid (p.91). WHO mhGAP recommends thiamine for all patients with alcohol withdrawal."],
  "tbl-p49-0104": ["Delirium: 'a sedative preferably lorazepam 0.5-1 mg nocte for seven days' – benzodiazepines can worsen delirium (except in alcohol or benzodiazepine withdrawal) and are generally avoided; low-dose antipsychotic only if distressing symptoms is the usual approach."],
  "tbl-p40-0082": ["A hypomanic episode is classified as 'BIPOLAR I DISORDER HYPMANIC EPISODE'; hypomania without a manic episode defines bipolar II (with a major depressive episode). 'Hypmanic' typo."],
 }

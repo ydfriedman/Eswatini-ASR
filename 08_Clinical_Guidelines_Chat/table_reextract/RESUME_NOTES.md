@@ -37,8 +37,10 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - Mental Health desk guide part 1 (MentalHealth_1.pdf = pages 1-69, no offset): `batches/mh_b01.py` (generated + flags). Some stepwise-management tables are joined to the preceding classification table (no bold header to split on) and a few of their rows survive as text chunks; harmless duplication. Existing text labels were already reasonable.
 
+- Mental Health desk guide part 2 (MentalHealth_2.pdf = pages 70-120, offset 69): generated tables `mh_b02.py`; drug tables pp.70-79 hand-transcribed in `mh_b03.py` (same table_ids, loaded after b02; p77-0174 folded into p77-0176). Remaining job-aid drug tables (pp.81-92) are rebuilt versions where two medicines share a row separated by ';' (still in order). **MH is complete.** Pipeline: mh_b01, mh_b02, mh_b03, then drop p77-0174.
+
 ## Next after that
-The other guidelines, once the user provides the PDFs. Remaining: HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
+The other guidelines, once the user provides the PDFs. Remaining: HIV 2022, STI/VH in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 
 ## Starting a new guideline
 1. Put the PDF in its own scratch dir; `pdftotext -layout` and `pdftoppm -jpeg -r 110` per page (pN.txt, pgN.jpg). Check whether old chunk `page_start` matches PDF pages (offset).
