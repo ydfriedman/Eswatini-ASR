@@ -280,6 +280,14 @@ Pages are PDF pages. "Item" is the `table_id` in the chunk set.
 | 42 | Anaemia in pregnancy by haemoglobin: no anaemia (>11 g/dl), moderate (7-11 g/dl: double-dose iron 3 months), severe (<7 g/dl: urgent referral) – clinic vs hospital management (`anc-tbl-anaemia-management`) | The table uses >11 g/dl for no anaemia, while the definition above uses <10.5 g/dl in the 2nd trimester; Hb 10.5–11 in the 2nd trimester falls in 'moderate anaemia' here. |
 | 43 | UTI in pregnancy: asymptomatic bacteriuria, acute cystitis, pyelonephritis – signs, MSSU culture diagnosis, treatment (amoxicillin 500 mg TDS or nitrofurantoin 100 mg TDS 7 days; refer pyelonephritis) (`anc-tbl-uti-pregnancy`) | Acute cystitis diagnosis reads '>100,000 bacteria/mL with less than 20 white cells and 2 or more organisms' – mixed growth with few white cells usually indicates contamination, not cystitis. Clinician to confirm. |
 
+## UNAIDS Linkages SOP
+
+| Page | Item | Issue |
+|---|---|---|
+| 99 | Annexure 1. Linkages for a client testing HIV positive in the facility: true new positive verification (CMIS/APMR), RTT package, readiness assessment, retesting, ART initiation, LCM enrolment (`unaids-linkages-sop-fig-annex1-positive-facility`) | The flowchart prints 'CMIS.APMAR'; elsewhere the system is 'APMR'. |
+| 100 | Annexure 2. Linkages for a client returning to care by interruption type: missed appointment (<28 days), early interrupters (28 days-6 months), late interrupters (>6 months) – RTT package, enhanced adherence counselling, escalation (`unaids-linkages-sop-fig-annex2-returning-to-care`) | Early interrupters are defined by time 'post initiation' and late interrupters by time 'on ART'; the categories overlap for someone who interrupted more than 6 months after starting ART. |
+| 100 | Annexure 2. Linkages for a client returning to care by interruption type: missed appointment (<28 days), early interrupters (28 days-6 months), late interrupters (>6 months) – RTT package, enhanced adherence counselling, escalation (`unaids-linkages-sop-fig-annex2-returning-to-care`) | For clients on ART who missed an appointment (<28 days), the chart says 'offer relevant prevention services according to client's preferences' rather than resuming ART/adherence support; probably copied from the HIV-negative pathway. |
+
 ## Text sections (NCDIMH pages 1-356)
 
 | Page | Section | Issue |

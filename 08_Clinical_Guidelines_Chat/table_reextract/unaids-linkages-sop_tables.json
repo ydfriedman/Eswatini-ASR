@@ -10,8 +10,8 @@
  ],
  "tables": [
   {
-   "table_id": "unaids-linkages-sop-tbl-p09-0009",
-   "page": 9,
+   "table_id": "unaids-linkages-sop-tbl-p13-0009",
+   "page": 13,
    "image_only": false,
    "heading_path": "Key Definitions",
    "caption": "Key Definitions (Term, Definition)",
@@ -213,15 +213,15 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    9,
-    10,
-    11
+    13,
+    14,
+    15
    ],
    "context_before": "Key Definitions"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p18-0025",
-   "page": 18,
+   "table_id": "unaids-linkages-sop-tbl-p22-0025",
+   "page": 22,
    "image_only": false,
    "heading_path": "5 Linkage to Treatment and Care > 5.4 Summary of Linkage case management services > Guiding Principles for Linkage Case Management",
    "caption": "Guiding Principles for Linkage Case Management (1., LCM is voluntary; all eligible patients are free to enroll or discontinue services.)",
@@ -276,13 +276,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    18
+    22
    ],
    "context_before": "<mark>Guiding Principles for Linkage Case Management</mark>"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p22-0033",
-   "page": 22,
+   "table_id": "unaids-linkages-sop-tbl-p26-0033",
+   "page": 26,
    "image_only": false,
    "heading_path": "9 Intra-Facility Linkage Case Management > 9.2.1 The EC will provide the following",
    "caption": "9.2.1 The EC will provide the following (Facilitate Screening for TB and NCDs.)",
@@ -337,13 +337,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    22
+    26
    ],
    "context_before": "9.2.1 The EC will provide the following:"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p23-0036",
-   "page": 23,
+   "table_id": "unaids-linkages-sop-tbl-p27-0036",
+   "page": 27,
    "image_only": false,
    "heading_path": "9 Intra-Facility Linkage Case Management > 9.3 Initiating ART at a co-located ART Clinic/VCT (Annex 1)",
    "caption": "9.3 Initiating ART at a co-located ART Clinic/VCT (Annex 1) (Client on arrival at co-located ART clinic)",
@@ -423,12 +423,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    23
+    27
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p23-0038",
-   "page": 23,
+   "table_id": "unaids-linkages-sop-tbl-p27-0038",
+   "page": 27,
    "image_only": false,
    "heading_path": "9 Intra-Facility Linkage Case Management > 9.4 Initiating ART at the Inpatient Department (Annex 1)",
    "caption": "9.4 Initiating ART at the Inpatient Department (Annex 1) (Client on arrival at co-located ART clinic)",
@@ -498,12 +498,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    23
+    27
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p24-0039",
-   "page": 24,
+   "table_id": "unaids-linkages-sop-tbl-p28-0039",
+   "page": 28,
    "image_only": false,
    "heading_path": "9 Intra-Facility Linkage Case Management > 9.5 Initiating ART at the community (Annex 1)",
    "caption": "9.5 Initiating ART at the community (Annex 1) (Client referred after initiation)",
@@ -542,13 +542,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    24
+    28
    ],
    "context_before": "9.5 Initiating ART at the community (Annex 1)"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p24-0040",
-   "page": 24,
+   "table_id": "unaids-linkages-sop-tbl-p28-0040",
+   "page": 28,
    "image_only": false,
    "heading_path": "9 Intra-Facility Linkage Case Management > 9.5 Initiating ART at the community (Annex 1) > 10 Client referred without ART initiation.",
    "caption": "10 Client referred without ART initiation. (The health care worker)",
@@ -573,13 +573,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    24
+    28
    ],
    "context_before": "10 Client referred without ART initiation."
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p28-0046",
-   "page": 28,
+   "table_id": "unaids-linkages-sop-tbl-p32-0046",
+   "page": 32,
    "image_only": false,
    "heading_path": "12.3 Day Zero responsibilities > Clients Initiating ART",
    "caption": "Clients Initiating ART (HTS Provider, Linkage's facilitator, Nurse/Doctor, Client)",
@@ -655,19 +655,19 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    28,
-    29,
-    30,
-    31,
     32,
     33,
-    34
+    34,
+    35,
+    36,
+    37,
+    38
    ],
    "context_before": "Clients initiating ART."
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p36-0057",
-   "page": 36,
+   "table_id": "unaids-linkages-sop-tbl-p40-0057",
+   "page": 40,
    "image_only": false,
    "heading_path": "12.5 During telephone call",
    "caption": "12.5 During telephone call (Linkages Facilitator ( EC/Adherence officer/Counselor))",
@@ -706,13 +706,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    36
+    40
    ],
    "context_before": "12.5 During telephone call:"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p37-0059",
-   "page": 37,
+   "table_id": "unaids-linkages-sop-tbl-p41-0059",
+   "page": 41,
    "image_only": false,
    "heading_path": "12.6 Day 10 - 12: second telephonic call > During telephone call",
    "caption": "During telephone call (Linkages Facilitator<br/>Clients initiated on ART, Linkages Facilitator<br/>Clients delaying ART initiation)",
@@ -743,13 +743,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    37
+    41
    ],
    "context_before": "During telephone call:"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p38-0062",
-   "page": 38,
+   "table_id": "unaids-linkages-sop-tbl-p42-0062",
+   "page": 42,
    "image_only": false,
    "heading_path": "12.7 DAY 14: FIRST CLINIC VISIT (1st ARV REFILL) > Objective of the visit",
    "caption": "Objective of the visit (For clients who have not missed appointment, For Clients who missed appointment)",
@@ -788,12 +788,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    38
+    42
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p39-0063",
-   "page": 39,
+   "table_id": "unaids-linkages-sop-tbl-p43-0063",
+   "page": 43,
    "image_only": false,
    "heading_path": "12.7 DAY 14: FIRST CLINIC VISIT (1st ARV REFILL) > Client initiated on ART.",
    "caption": "Client initiated on ART. (Linkage's facilitator, Doctor/Nurse, Client)",
@@ -830,13 +830,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    39
+    43
    ],
    "context_before": "Client initiated on ART."
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p40-0065",
-   "page": 40,
+   "table_id": "unaids-linkages-sop-tbl-p44-0065",
+   "page": 44,
    "image_only": false,
    "heading_path": "12.9 Clients delaying initiation on ART",
    "caption": "12.9 Clients delaying initiation on ART (Linkage's facilitator, Doctor/Nurse)",
@@ -867,13 +867,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    40
+    44
    ],
    "context_before": "12.9 Clients delaying initiation on ART"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p41-0069",
-   "page": 41,
+   "table_id": "unaids-linkages-sop-tbl-p45-0069",
+   "page": 45,
    "image_only": false,
    "heading_path": "12.11 During telephone call",
    "caption": "12.11 During telephone call (Linkages Facilitator)",
@@ -904,12 +904,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    41
+    45
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p43-0071",
-   "page": 43,
+   "table_id": "unaids-linkages-sop-tbl-p47-0071",
+   "page": 47,
    "image_only": false,
    "heading_path": "12.12 DAY 30-45: SECOND CLINIC VISIT (2nd ARV REFILL)",
    "caption": "12.12 DAY 30-45: SECOND CLINIC VISIT (2nd ARV REFILL) (Linkage's facilitator, Doctor/Nurse, Client)",
@@ -946,12 +946,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    43
+    47
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p44-0073",
-   "page": 44,
+   "table_id": "unaids-linkages-sop-tbl-p48-0073",
+   "page": 48,
    "image_only": false,
    "heading_path": "12.14 Clients delaying initiation on ART.",
    "caption": "12.14 Clients delaying initiation on ART. (Expect Client/Mentor Mother, Doctor/Nurse)",
@@ -982,13 +982,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    44
+    48
    ],
    "context_before": "12.14 Clients delaying initiation on ART."
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p45-0076",
-   "page": 45,
+   "table_id": "unaids-linkages-sop-tbl-p49-0076",
+   "page": 49,
    "image_only": false,
    "heading_path": "12.15 Day 44 - 60: Fourth Telephonic Call > During telephone call",
    "caption": "During telephone call (Linkage Facilitator)",
@@ -1019,12 +1019,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    45
+    49
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p47-0078",
-   "page": 47,
+   "table_id": "unaids-linkages-sop-tbl-p51-0078",
+   "page": 51,
    "image_only": false,
    "heading_path": "12.16 DAYS 60-90: THIRD CLINIC VISIT (3rd ARV REFILL)",
    "caption": "12.16 DAYS 60-90: THIRD CLINIC VISIT (3rd ARV REFILL) (Linkage's facilitator (Expert Client/Mentor Mother), Doctor/Nurse, Client)",
@@ -1061,12 +1061,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    47
+    51
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p48-0081",
-   "page": 48,
+   "table_id": "unaids-linkages-sop-tbl-p52-0081",
+   "page": 52,
    "image_only": false,
    "heading_path": "12.17 Day 120-125: Fifth Telephonic Call > During telephone call",
    "caption": "During telephone call (Linkage Facilitator<br/>Clients initiated on ART, Clients delaying ART initiation)",
@@ -1097,13 +1097,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    48
+    52
    ],
    "context_before": "During telephone call:"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p49-0084",
-   "page": 49,
+   "table_id": "unaids-linkages-sop-tbl-p53-0084",
+   "page": 53,
    "image_only": false,
    "heading_path": "12.18 DAY 150: FIFTH CLINIC VISIT (5th ARV REFILL) > Objective of the visit",
    "caption": "Objective of the visit (Linkage Facilitator<br/>Clients initiated on ART, Linkage Facilitator<br/>Clients delaying ART initiation)",
@@ -1134,12 +1134,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    49
+    53
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p50-0087",
-   "page": 50,
+   "table_id": "unaids-linkages-sop-tbl-p54-0087",
+   "page": 54,
    "image_only": false,
    "heading_path": "12.19 Day 170-175: Sixth Telephonic Call > 💡 During the phone call first ascertain if it is the right client and convenient time, if yes proceed and if no reschedule",
    "caption": "💡 During the phone call first ascertain if it is the right client and convenient time, if yes proceed and if no reschedule (Clients initiated on ART, Clients delaying ART initiation)",
@@ -1170,13 +1170,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    50
+    54
    ],
    "context_before": "💡 During the phone call first ascertain if it is the right client and convenient time, if yes proceed and if no reschedule"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p51-0089",
-   "page": 51,
+   "table_id": "unaids-linkages-sop-tbl-p55-0089",
+   "page": 55,
    "image_only": false,
    "heading_path": "12.20 Day 180 SIXTH CLINICAL (6th ARV REFILL)",
    "caption": "12.20 Day 180 SIXTH CLINICAL (6th ARV REFILL) (Linkage Facilitator<br/>Clients initiated on ART, Clients delaying ART initiation)",
@@ -1207,12 +1207,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    51
+    55
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p54-0094",
-   "page": 54,
+   "table_id": "unaids-linkages-sop-tbl-p58-0094",
+   "page": 58,
    "image_only": false,
    "heading_path": "12.23 Responsibility Of Referring Facility",
    "caption": "12.23 Responsibility Of Referring Facility (For clients referred after the first clinical visit)",
@@ -1293,12 +1293,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    54
+    58
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p56-0097",
-   "page": 56,
+   "table_id": "unaids-linkages-sop-tbl-p60-0097",
+   "page": 60,
    "image_only": false,
    "heading_path": "12.24 Responsibilities At Receiving Facility",
    "caption": "12.24 Responsibilities At Receiving Facility (EC/MM/Nurse/Doctor<br/>Clients initiating ART at referring health facility, Clients not initiated at referring facility)",
@@ -1329,12 +1329,12 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    56
+    60
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p60-0103",
-   "page": 60,
+   "table_id": "unaids-linkages-sop-tbl-p64-0103",
+   "page": 64,
    "image_only": false,
    "heading_path": "12.27 Day Zero; Referral of HIV Positive Client > Responsibilities at community Linkages",
    "caption": "Responsibilities at community Linkages (Community Linkages facilitator / health care worker, Client, Receiving health facility)",
@@ -1438,14 +1438,14 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    60,
-    61
+    64,
+    65
    ],
    "context_before": "Responsibilities at community Linkages"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p63-0107",
-   "page": 63,
+   "table_id": "unaids-linkages-sop-tbl-p67-0107",
+   "page": 67,
    "image_only": false,
    "heading_path": "12.28 Strategy 1: Community outreach HIV testing (not ART initiation) > Responsibilities for HIV testing and not initiating ART at Community level",
    "caption": "Responsibilities for HIV testing and not initiating ART at Community level (Facilitator<br/>Clients willing to initiate ART, Facilitator<br/>Clients not willing to initiate ART)",
@@ -1476,13 +1476,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    63
+    67
    ],
    "context_before": "Responsibilities for HIV testing and not initiating ART at Community level"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p65-0110",
-   "page": 65,
+   "table_id": "unaids-linkages-sop-tbl-p69-0110",
+   "page": 69,
    "image_only": false,
    "heading_path": "12.30 Responsibilities for HIV testing and initiating ART at Community level",
    "caption": "12.30 Responsibilities for HIV testing and initiating ART at Community level (Linkage facilitator, Nurse)",
@@ -1522,14 +1522,14 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    65,
-    66
+    69,
+    70
    ],
    "context_before": "12.30 Responsibilities for HIV testing and initiating ART at Community level"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p69-0118",
-   "page": 69,
+   "table_id": "unaids-linkages-sop-tbl-p73-0118",
+   "page": 73,
    "image_only": false,
    "heading_path": "3 Men",
    "caption": "3 Men (Children, Adolescents, Key populations, Men)",
@@ -1603,15 +1603,15 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    69,
-    70,
-    71,
-    72
+    73,
+    74,
+    75,
+    76
    ]
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p81-0136",
-   "page": 81,
+   "table_id": "unaids-linkages-sop-tbl-p85-0136",
+   "page": 85,
    "image_only": false,
    "heading_path": "13.5 Strategies To Improve Bidirectional Linkage > For paper- based the following reporting tools are used.",
    "caption": "For paper- based the following reporting tools are used. (Name of tool, Description, Responsible, Frequency of Use)",
@@ -1682,13 +1682,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    81
+    85
    ],
    "context_before": "For paper- based the following reporting tools are used."
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p83-0139",
-   "page": 83,
+   "table_id": "unaids-linkages-sop-tbl-p87-0139",
+   "page": 87,
    "image_only": false,
    "heading_path": "13.9 List of LCM Reporting Indicators",
    "caption": "13.9 List of LCM Reporting Indicators (Indicator, Description, Calculation, Data Collection tools)",
@@ -1773,13 +1773,13 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    83
+    87
    ],
    "context_before": "13.9 List of LCM Reporting Indicators"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p84-0140",
-   "page": 84,
+   "table_id": "unaids-linkages-sop-tbl-p88-0140",
+   "page": 88,
    "image_only": false,
    "heading_path": "13.9 List of LCM Reporting Indicators > Enhanced Linkages Case Management",
    "caption": "Enhanced Linkages Case Management (Number of HIV positive clients linked for ART initiation, Total HIV positive clients that were initiated on ART during the reporting period., n/a, LCM)",
@@ -1921,14 +1921,14 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    84,
-    85
+    88,
+    89
    ],
    "context_before": "ENHANCED LINKAGES CASE MANAGEMENT ENHANCED LINKAGES CASE MANAGEMENT"
   },
   {
-   "table_id": "unaids-linkages-sop-tbl-p87-0143",
-   "page": 87,
+   "table_id": "unaids-linkages-sop-tbl-p91-0143",
+   "page": 91,
    "image_only": false,
    "heading_path": "14 Annex > Objective",
    "caption": "Objective (To assist clients overcome ART initiation barriers and retain them in care using LCM strategy)",
@@ -2130,19 +2130,75 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    87,
-    88,
-    89,
-    90,
     91,
     92,
     93,
-    94
+    94,
+    95,
+    96,
+    97,
+    98
    ],
    "context_before": "Objective: Refer client to clinician.|"
+  },
+  {
+   "kind": "diagram",
+   "table_id": "unaids-linkages-sop-fig-annex1-positive-facility",
+   "page": 99,
+   "image_only": false,
+   "heading_path": "14 Annex > 14.1 Annexure 1 Linkages for Client Testing Positive in the Facility",
+   "caption": "Annexure 1. Linkages for a client testing HIV positive in the facility: true new positive verification (CMIS/APMR), RTT package, readiness assessment, retesting, ART initiation, LCM enrolment",
+   "replaces_chunks": [
+    "unaids-linkages-sop-0165",
+    "unaids-linkages-sop-0166"
+   ],
+   "content": "1. Tested HIV positive → true new positive verification (CMIS, APMR).\n2a. Found in any of the information systems → provide the RTT (return to treatment) package: welcome the client, support, do not be judgmental, review last treatment, refer client for counselling → readiness assessment.\n2b. Not found in any information system → readiness assessment.\n3. Ready → retesting for verification as per the HTS algorithm → initiate ART as per ART initiation guidelines → enrol into LCM → offer prevention package (e.g. TPT, CaCx) → follow the client as per LCM guidance to ensure retention.\n4. Not ready → enrol into LCM; escalation counselling (doctor, nurse, social worker, HTS provider, expert client, psychologist) → follow the client as per LCM guidance until initiation → offer prevention package (TPT, CaCx) → follow as per LCM guidance to ensure retention.",
+   "footnotes": [],
+   "source_flags": [
+    "The flowchart prints 'CMIS.APMAR'; elsewhere the system is 'APMR'."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "unaids-linkages-sop-fig-annex2-returning-to-care",
+   "page": 100,
+   "image_only": false,
+   "heading_path": "14 Annex > 14.2 Annexure 2 Linkages for Client Returning to Care",
+   "caption": "Annexure 2. Linkages for a client returning to care by interruption type: missed appointment (<28 days), early interrupters (28 days-6 months), late interrupters (>6 months) – RTT package, enhanced adherence counselling, escalation",
+   "replaces_chunks": [
+    "unaids-linkages-sop-0167",
+    "unaids-linkages-sop-0168"
+   ],
+   "content": "HIV positive → verify previous HIV-positive / ART registration in any system (CMIS, APMR) – found in system:\n- Missed appointment and defaulter (immediate interrupters, <28 days post initiation) → offer relevant prevention services according to client's preferences → enrol client into LCM.\n- Interruption in treatment (LTFU), early interrupters (>28 days up to 6 months post initiation) → provide RTT package → enhanced adherence counselling.\n- Interruption in treatment (LTFU), late interrupters (>6 months on ART) → provide RTT package → counsel client based on EAC for late interrupters guidelines to ascertain barriers → escalate client based on needs after ascertaining barriers.",
+   "footnotes": [],
+   "source_flags": [
+    "For clients on ART who missed an appointment (<28 days), the chart says 'offer relevant prevention services according to client's preferences' rather than resuming ART/adherence support; probably copied from the HIV-negative pathway.",
+    "Early interrupters are defined by time 'post initiation' and late interrupters by time 'on ART'; the categories overlap for someone who interrupted more than 6 months after starting ART."
+   ]
   }
  ],
- "text_labels": {},
+ "text_labels": {
+  "unaids-linkages-sop-0115": "12 Linkage Case Management for Special Populations > Adolescents",
+  "unaids-linkages-sop-0116": "12 Linkage Case Management for Special Populations > Key Populations and Men",
+  "unaids-linkages-sop-0117": "12 Linkage Case Management for Special Populations > Key Populations and Men",
+  "unaids-linkages-sop-0124": "13 Clients Who Interrupted Treatment (Lost to Follow-up)",
+  "unaids-linkages-sop-0125": "13 Clients Who Interrupted Treatment (Lost to Follow-up)",
+  "unaids-linkages-sop-0126": "13 Clients Who Interrupted Treatment (Lost to Follow-up) > Identifying Clients Who Have Disengaged from Care",
+  "unaids-linkages-sop-0135": "13.5 Strategies to Improve Bidirectional Linkage > Regional and National Level",
+  "unaids-linkages-sop-0137": "13.6-13.8 Monitoring and Evaluation, Data Collection Tools, Data Flow and Reporting",
+  "unaids-linkages-sop-0142": "14 Annex > Barriers to ART Initiation",
+  "unaids-linkages-sop-0145": "14 Annex > Barriers to ART Initiation and Possible Interventions",
+  "unaids-linkages-sop-0155": "14 Annex > Barriers to ART Initiation and Possible Interventions",
+  "unaids-linkages-sop-0159": "14 Annex > Barriers to ART Initiation and Possible Interventions > Interpersonal Factors",
+  "unaids-linkages-sop-0052": "12.3 Day Zero Responsibilities > Clients Delaying ART Initiation"
+ },
  "text_merge": {},
- "text_drop": []
+ "text_drop": [
+  "unaids-linkages-sop-0119",
+  "unaids-linkages-sop-0088"
+ ],
+ "text_fix_pages": [
+  1,
+  104
+ ]
 }
