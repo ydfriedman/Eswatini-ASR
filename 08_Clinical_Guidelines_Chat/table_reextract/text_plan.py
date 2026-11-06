@@ -8,7 +8,9 @@ Usage: python3 text_plan.py SECTIONS.json SPEC.json OLD_CHUNKS.jsonl DOC FIRST L
 CONFIG.json: {"chapters": {"4": "Chapter 4: ...", ...}, "split": {"compound heading": ["first", "second"]},
               "fix": {"garbled heading": "fixed"}, "tag": "t02", "first_chapter": "4",
               "replace": {"text": "fixed"}, "drop_prefix": ["line start to drop"], "drop_sections": [[page, "first line"]],
-              "exclude_chunks": ["old chunk ids mapped to items by hand"]}
+              "exclude_chunks": ["old chunk ids mapped to items by hand"], "old_page_shift": [lo, hi],
+              "sub_pattern": "regex for numbered headings that are not sections", "level_headings": ["unnumbered section-level heading"],
+              "force": {"old chunk id suffix": "substring of the target section path"}}
 """
 import collections, json, re, sys
 
@@ -47,8 +49,12 @@ for s in flat:
     if intro:
         chap, num, sub, h = CH[intro], None, None, 'Introduction'
     if h:
-        m = re.match(r'(\d+)((?:\.\d+)*)\s', h)
-        if m:
+        m = re.match(r'(\d+)((?:\.\s?\d+)*)\.?\s', h)
+        if m and cfg.get('sub_pattern') and re.match(cfg['sub_pattern'], h):
+            m = None                                  # numbered but not a section heading (e.g. '5.2.1 See chart 3 ...')
+        if h in cfg.get('level_headings', []):        # unnumbered heading printed at section level
+            num, sub = h, None
+        elif m:
             chap = CH.get(m.group(1), chap)
             num, sub = h, None
         else:
@@ -64,7 +70,7 @@ for s in flat:
         if any(l.startswith(x) for x in cfg.get('drop_prefix', [])):
             continue
         t = tok(l)
-        if l.strip() in ('', '.', '4') or (len(t) >= 6 and (' ' + ' '.join(t) + ' ') in itemtext and not l.startswith('Key message')):
+        if l.strip() in ('', '.', '4') or (len(t) >= cfg.get('dedupe_min_tokens', 6) and (' ' + ' '.join(t) + ' ') in itemtext and not l.startswith('Key message')):
             continue
         for a, b in cfg.get('replace', {}).items():
             l = l.replace(a, b)
@@ -76,7 +82,8 @@ for s in flat:
     if not lines or (str(s['page']), lines[0]) in {(str(a), b) for a, b in cfg.get('drop_sections', [])}:
         continue
     title = (sub or num or chap.split(': ', 1)[-1]) + ('' if h else ' (continued)')
-    path = ' > '.join(x for x in (chap, num if num and num != title.replace(' (continued)', '') else None, title) if x)
+    path = ' > '.join(x for x in (chap, num if num and num not in (title.replace(' (continued)', ''), chap) else None,
+                                  None if title.replace(' (continued)', '') == chap else title) if x)
     out.append({'page': s['page'], 'page_end': s['page_end'], 'title': title, 'path': path, 'content': '\n'.join(lines)})
 
 old = [json.loads(l) for l in open(old_p)]
@@ -88,19 +95,23 @@ for k in old:
     kt = collections.Counter(tok(k['text']))
     best, bs = None, 0
     for i, s in enumerate(out):
-        if s['page'] - 1 <= k['page_start'] <= s['page_end'] + 1:
+        lo, hi = cfg.get('old_page_shift', [0, 0])    # old chunks from a differently paginated edition: new page = old + lo..hi
+        if s['page'] - hi - 1 <= k['page_start'] <= s['page_end'] - lo + 1:
             sc = sum((kt & collections.Counter(tok(s['content']))).values()) / max(1, sum(kt.values()))
             if sc > bs:
                 best, bs = i, sc
+    forced = cfg.get('force', {}).get(k['chunk_id'][len(doc) + 1:])
+    if forced:
+        best, bs = next(i for i, x in enumerate(out) if forced in x['path']), 1
     if best is None or bs < 0.2:
         # nearest section by page as a fallback: the chunk is replaced, its content lives in items or the rebuilt text
-        best = min(range(len(out)), key=lambda i: abs(out[i]['page'] - k['page_start']))
+        best = min(range(len(out)), key=lambda i: abs(out[i]['page'] - k['page_start'] - sum(cfg.get('old_page_shift', [0, 0])) / 2))
         un.append((k['chunk_id'], k['page_start'], round(bs, 2), k['text'][:70].replace('\n', ' ')))
     assign[best].append(k['chunk_id'])
 
 J = lambda x: json.dumps(x, ensure_ascii=False)
 pre = doc + '-'
-L = ['exec(open("batches/hiv_common.py").read())',
+L = [f'exec(open("batches/{cfg.get("common", "hiv_common.py")}").read())',
      f'# {doc} pp.{first}-{last}: running text rebuilt from the PDF text layer (text_from_pdf.py + text_plan.py); every old text chunk of',
      '# the page range is replaced. Checked page by page against the page images.', 'ITEMS = [']
 for i, s in enumerate(out):
