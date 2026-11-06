@@ -973,8 +973,7 @@
    "heading_path": "3.4 Strategies to ensure optimal TB screening coverage > 3.4.1 Cascade analysis and continuous quality improvement > Table 8: TB screening cascade",
    "caption": "Table 8: TB screening cascade (TB symptoms screening positive cascade, Number ())",
    "replaces_chunks": [
-    "tb-2025-0113",
-    "tb-2025-0115"
+    "tb-2025-0113"
    ],
    "row_header_cols": 1,
    "header": [
@@ -1147,7 +1146,26 @@
      {
       "t": ""
      }
-    ],
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    55
+   ],
+   "context_before": "Table 8: TB screening cascade"
+  },
+  {
+   "table_id": "tb-2025-tbl-p56-0115",
+   "page": 56,
+   "image_only": false,
+   "heading_path": "3.4 Strategies to ensure optimal TB screening coverage > 3.4.1 Cascade analysis and continuous quality improvement > Table 8: TB screening cascade",
+   "caption": "Table 8: TB screening cascade (Gap, Action to be taken)",
+   "replaces_chunks": [
+    "tb-2025-0115"
+   ],
+   "row_header_cols": 1,
+   "header": [
     [
      {
       "t": "Gap"
@@ -1155,7 +1173,9 @@
      {
       "t": "Action to be taken"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "Low screening coverage by CXR and CAD/AI"
@@ -1200,10 +1220,8 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    55,
     56
-   ],
-   "context_before": "Table 8: TB screening cascade"
+   ]
   },
   {
    "table_id": "tb-2025-tbl-p57-0119",
@@ -6511,6 +6529,3905 @@
     "A positive CXR screen has no next step drawn (presumably specimen collection, as in Figure 23); the earlier chunk omitted the branch.",
     "Children with HIV, not on ART, symptom-negative and aged 10 or under have no screening step (CRP is 'for >10 years only').",
     "The figure title says 'PLHIV <15 years' but the chart covers children with and without HIV."
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p161-0407",
+   "page": 161,
+   "image_only": false,
+   "heading_path": "9.4 Monitoring of TB Patients for Adverse Effects of Anti-TB Drugs > Pharmacovigilance and Adverse Event Management > Table 39: Guide to management of side effects of first line",
+   "caption": "Table 39: Guide to management of side effects of first line (Side effects, Drugs (probably responsible), Management)",
+   "replaces_chunks": [
+    "tb-2025-0407",
+    "tb-2025-0408"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Side effects"
+     },
+     {
+      "t": "Drugs (probably responsible)"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Major"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Generalized severe skin rash with or without itching"
+     },
+     {
+      "t": "Isoniazid, Rifampicin, Pyrazinamide and Ethambutol"
+     },
+     {
+      "t": "Stop anti-TB drugs and refer. Re-challenge once stable, starting with the least likely causative agent. Give antihistamines to manage pruritis"
+     }
+    ],
+    [
+     {
+      "t": "Deafness (no wax on otoscopy)"
+     },
+     {
+      "t": "Injectable *"
+     },
+     {
+      "t": "Stop Injectable and refer"
+     }
+    ],
+    [
+     {
+      "t": "Dizziness (vertigo and nystagmus)"
+     },
+     {
+      "t": "Injectable *"
+     },
+     {
+      "t": "Stop Injectable and refer"
+     }
+    ],
+    [
+     {
+      "t": "Jaundice (other causes excluded), hepatitis"
+     },
+     {
+      "t": "Pyrazinamide, INH, Rifampicin"
+     },
+     {
+      "t": "Stop anti-TB drugs and refer Re-challenge once stable starting with the least hepatotoxic agent"
+     }
+    ],
+    [
+     {
+      "t": "Confusion (suspect drug-induced acute liver failure if there is jaundice)"
+     },
+     {
+      "t": "Most anti-TB drugs"
+     },
+     {
+      "t": "Stop anti-TB drugs and refer"
+     }
+    ],
+    [
+     {
+      "t": "Visual impairment (other causes excluded)"
+     },
+     {
+      "t": "Ethambutol"
+     },
+     {
+      "t": "Stop Ethambutol and refer"
+     }
+    ],
+    [
+     {
+      "t": "Shock, purpura, acute renal failure"
+     },
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "Stop Rifampicin and refer"
+     }
+    ],
+    [
+     {
+      "t": "Decreased urine output (acute renal failure)"
+     },
+     {
+      "t": "Injectable *"
+     },
+     {
+      "t": "Stop Injectable and refer Adjust the doses of other renally-excreted drugs e.g. Ethambutol"
+     }
+    ],
+    [
+     {
+      "t": "Minor"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Anorexia, nausea, abdominal pain"
+     },
+     {
+      "t": "Pyrazinamide, Rifampicin, INH"
+     },
+     {
+      "t": "Give drugs with small meals or just before bedtime and advise the patient to swallow pills slowly with small sips of water. If the symptoms persist or worsen, or there is protracted vomiting or any sign of bleeding, consider the side-effect to be major and refer to the Clinician urgently."
+     }
+    ],
+    [
+     {
+      "t": "Joint pains"
+     },
+     {
+      "t": "Pyrazinamide"
+     },
+     {
+      "t": "Aspirin or other non-steroidal anti-inflammatory drugs or Paracetamol."
+     }
+    ],
+    [
+     {
+      "t": "Major"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Burning, numbness or tingling sensation in the hands or feet"
+     },
+     {
+      "t": "INH"
+     },
+     {
+      "t": "Give Pyridoxine 50-75mg daily Can go up to 100mg. Refer if no improvement or grade 3 or 4 neuropathy."
+     }
+    ],
+    [
+     {
+      "t": "Drowsiness"
+     },
+     {
+      "t": "INH"
+     },
+     {
+      "t": "Reassure the patient. Give drugs before bedtime."
+     }
+    ],
+    [
+     {
+      "t": "Orange/red urine"
+     },
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "Reassure patient. Patients should be informed about the urine change when initiating TB treatment."
+     }
+    ],
+    [
+     {
+      "t": "Flu-like syndrome (fever, chills, malaise, headache, bone pain)"
+     },
+     {
+      "t": "Intermittent dosing of Rifampicin"
+     },
+     {
+      "t": "Reassure patient. When starting TB treatment, patients should be informed about the possibility of such occurring and that it is normal."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    161
+   ],
+   "context_before": "Table 39: Guide to management of side effects of first line Source: Treatment of tuberculosis guidelines. 5thEdition. WHO/HTM/TB/2017"
+  },
+  {
+   "table_id": "tb-2025-tbl-p162-0410",
+   "page": 162,
+   "image_only": false,
+   "heading_path": "9.4 Monitoring of TB Patients for Adverse Effects of Anti-TB Drugs > Pharmacovigilance and Adverse Event Management > Table 40: When to stop anti-TB drugs",
+   "caption": "Table 40: When to stop anti-TB drugs (Reaction, Drug Responsible)",
+   "replaces_chunks": [
+    "tb-2025-0410"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Reaction"
+     },
+     {
+      "t": "Drug Responsible"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Hearing loss or disturbed balance"
+     },
+     {
+      "t": "Injectable"
+     }
+    ],
+    [
+     {
+      "t": "Visual disturbance (poor vision and colour perception)"
+     },
+     {
+      "t": "Ethambutol"
+     }
+    ],
+    [
+     {
+      "t": "Renal failure"
+     },
+     {
+      "t": "Injectable"
+     }
+    ],
+    [
+     {
+      "t": "Shock, or thrombocytopenia"
+     },
+     {
+      "t": "Rifampicin"
+     }
+    ],
+    [
+     {
+      "t": "Hepatitis"
+     },
+     {
+      "t": "Pyrazinamide"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    162
+   ],
+   "context_before": "Table 40: When to stop anti-TB drugs"
+  },
+  {
+   "table_id": "tb-2025-tbl-p163-0413",
+   "page": 163,
+   "image_only": false,
+   "heading_path": "9.4 Monitoring of TB Patients for Adverse Effects of Anti-TB Drugs > Reintroduction of anti-TB drugs following drug reaction > Table 41: Guide to performing anti-TB drug challenge and re-introduction",
+   "caption": "Table 41: Guide to performing anti-TB drug challenge and re-introduction (Drug, Likelihood of causing<br/>a reaction, Challenge doses)",
+   "replaces_chunks": [
+    "tb-2025-0413"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Likelihood of causing<br/>a reaction"
+     },
+     {
+      "t": "Challenge doses"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Day 1"
+     },
+     {
+      "t": "Day 2"
+     },
+     {
+      "t": "Day 3"
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid"
+     },
+     {
+      "t": "Least likely"
+     },
+     {
+      "t": "50 mg"
+     },
+     {
+      "t": "300 mg"
+     },
+     {
+      "t": "300 mg"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "75 mg"
+     },
+     {
+      "t": "300 mg"
+     },
+     {
+      "t": "Full dose"
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "250 mg"
+     },
+     {
+      "t": "1 gr"
+     },
+     {
+      "t": "Full dose"
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "100 mg"
+     },
+     {
+      "t": "500 mg"
+     },
+     {
+      "t": "Full dose"
+     }
+    ],
+    [
+     {
+      "t": "Streptomycin"
+     },
+     {
+      "t": "Most likely"
+     },
+     {
+      "t": "125 mg"
+     },
+     {
+      "t": "500 mg"
+     },
+     {
+      "t": "Full dose"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    163
+   ],
+   "context_before": "Table 41: Guide to performing anti-TB drug challenge and re-introduction"
+  },
+  {
+   "table_id": "tb-2025-tbl-p168-0423",
+   "page": 168,
+   "image_only": false,
+   "heading_path": "9.5 Management of Adverse Events",
+   "caption": "9.5 Management of Adverse Events (Drug<br/>Pretomanid<br/>Bedaquiline, Moderate to severe adverse events<br/>x Peripheral neuropathy x Acne x Anaemia x Nausea and vomiting x Hepatotoxi)",
+   "replaces_chunks": [
+    "tb-2025-0423"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug<br/>Pretomanid<br/>Bedaquiline"
+     },
+     {
+      "t": "Moderate to severe adverse events<br/>x Peripheral neuropathy x Acne x Anaemia x Nausea and vomiting x Hepatotoxicity (increase in ALT/AST) x Musculoskeletal pain<br/>Cardiotoxicity (QTcF prolongation): mean increase (10 ms at 8-12 weeks, then decreases) Hepatotoxicity (increase in ALT/AST)"
+     },
+     {
+      "t": "Mild adverse events<br/>x Abnormal weight loss x Diarrhea (10%) x ECG QT prolonged (6%) x Insomnia (6%)<br/>Nausea, anorexia, arthralgia, headache, increased blood lipase/ amylase, rash"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Delamanid"
+     },
+     {
+      "t": "Cardiotoxicity (QTcF prolongation): 6-10 weeks after initiation, stable afterwards"
+     },
+     {
+      "t": "Nausea, vomiting, dizziness, anxiety, paresthesia, itchiness, tremor"
+     }
+    ],
+    [
+     {
+      "t": "Linezolid"
+     },
+     {
+      "t": "Anemia Thrombocytopenia Optic neuropathy Peripheral neuropathy"
+     },
+     {
+      "t": "Avoid linezolid in combination with other serotonergic agents"
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid"
+     },
+     {
+      "t": "Skin rash with mild itchiness, no mucous membrane involvement or blisters Jaundice (yellow eyes or skin) Hepatotoxicity (increase in ALT/AST) Clumsiness or unsteadiness. Nausea or vomiting. Numbness, tingling, burning, or pain in hands and feet."
+     },
+     {
+      "t": "Peripheral neuropathy Skin rash with mild itchiness, no mucous membrane involvement or blisters"
+     }
+    ],
+    [
+     {
+      "t": "Clofazimine"
+     },
+     {
+      "t": "QTcF prolongation Skin hyperpigmentation or discoloration (slowly reversible)"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    168
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p178-0445",
+   "page": 178,
+   "image_only": false,
+   "heading_path": "9.6 Management of specific conditions > 9.6.10 Management of electrolyte abnormalities > 9.6.10.1 Hypokalemia – Hypomagnesemia > Table 43: Blood Potassium levels and recommended monitoring protocol",
+   "caption": "Table 43: Blood Potassium levels and recommended monitoring protocol (Potassium level mEq/L, Quantity of KCL 1mEq I. V=1mmol I.V 8mEq=600mg tablet, When to do the next control (sooner if the patient has vomiting or diarr)",
+   "replaces_chunks": [
+    "tb-2025-0445"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Potassium level mEq/L"
+     },
+     {
+      "t": "Quantity of KCL 1mEq I. V=1mmol I.V 8mEq=600mg tablet"
+     },
+     {
+      "t": "When to do the next control (sooner if the patient has vomiting or diarrhoea)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "4.0 or more"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "Monthly"
+     }
+    ],
+    [
+     {
+      "t": "3.7 – 4.0"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "Monthly"
+     }
+    ],
+    [
+     {
+      "t": "3.4 – 3.6"
+     },
+     {
+      "t": "20 - 40 mEq (1500-3000mg)"
+     },
+     {
+      "t": "Monthly"
+     }
+    ],
+    [
+     {
+      "t": "3.0 – 3.3"
+     },
+     {
+      "t": "60 mEq (4500mg)"
+     },
+     {
+      "t": "Two weeks"
+     }
+    ],
+    [
+     {
+      "t": "2.7 – 2.9"
+     },
+     {
+      "t": "80 mEq (6000mg)"
+     },
+     {
+      "t": "One week"
+     }
+    ],
+    [
+     {
+      "t": "2.4 – 2.6"
+     },
+     {
+      "t": "60 mmol IV and 6000 mg orally every 6 hours for 24 hours"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "2.0 – 2.3"
+     },
+     {
+      "t": "60 mmol IV and 7500 mg orally"
+     },
+     {
+      "t": "Every 6 hours with aggressive IV replacement.<br/>Consider holding injectable until >2.4"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    178
+   ],
+   "context_before": "Table 43: Blood Potassium levels and recommended monitoring protocol"
+  },
+  {
+   "table_id": "tb-2025-tbl-p184-0463",
+   "page": 184,
+   "image_only": false,
+   "heading_path": "9.6 Management of specific conditions > 9.6.13 Specific toxicities due to Bedaquiline > Other toxicities",
+   "caption": "Other toxicities ()",
+   "replaces_chunks": [
+    "tb-2025-0463"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Oral candidiasis (non-AIDS patient)"
+     },
+     {
+      "t": "Fluconazole, clotrimazole lozenges"
+     }
+    ],
+    [
+     {
+      "t": "Diarrhoea"
+     },
+     {
+      "t": "ORS, Loperamide where necessary"
+     }
+    ],
+    [
+     {
+      "t": "Depression"
+     },
+     {
+      "t": "Selective serotonin reuptake inhibitors (fluoxetine,), tricyclic antidepressants (amitriptyline)"
+     }
+    ],
+    [
+     {
+      "t": "Severe anxiety"
+     },
+     {
+      "t": "Diazepam, clonazepam"
+     }
+    ],
+    [
+     {
+      "t": "Insomnia"
+     },
+     {
+      "t": "Dimenhydrinate"
+     }
+    ],
+    [
+     {
+      "t": "Psychosis"
+     },
+     {
+      "t": "Haloperidol, risperidone (consider benztropine to prevent extrapyramidal effects)"
+     }
+    ],
+    [
+     {
+      "t": "Seizures"
+     },
+     {
+      "t": "Phenytoin, carbamazepine, valproic acid, phenobarbital"
+     }
+    ],
+    [
+     {
+      "t": "Prophylaxis of neurological complications of Cycloserine"
+     },
+     {
+      "t": "Pyridoxine (vitamin B6)"
+     }
+    ],
+    [
+     {
+      "t": "Peripheral neuropathy"
+     },
+     {
+      "t": "Amitriptyline, Gabapentin"
+     }
+    ],
+    [
+     {
+      "t": "Vestibular symptoms"
+     },
+     {
+      "t": "Meclizine, prochlorperazine, promethazine"
+     }
+    ],
+    [
+     {
+      "t": "Musculoskeletal pain, arthralgia, headaches"
+     },
+     {
+      "t": "Ibuprofen, paracetamol, paracodeine"
+     }
+    ],
+    [
+     {
+      "t": "Cutaneous reactions, itching"
+     },
+     {
+      "t": "Hydrocortisone cream, calamine, caladryl lotions"
+     }
+    ],
+    [
+     {
+      "t": "Systemic hypersensitivity reactions"
+     },
+     {
+      "t": "Antihistamines (diphenhydramine, chlorpheniramine, dimenhydrinate), corticosteroids (prednisone, dexamethasone)"
+     }
+    ],
+    [
+     {
+      "t": "Bronchospasm"
+     },
+     {
+      "t": "Salbutamol, Inhaled beta-agonists (salbutamol, albuterol, etc.), inhaled corticosteroids (beclomethasone, etc.), oral steroids (prednisone), injectable steroids (dexamethasone, methylprednisolone)"
+     }
+    ],
+    [
+     {
+      "t": "Hypothyroidism"
+     },
+     {
+      "t": "Levothyroxine"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    184
+   ],
+   "context_before": "Source: Adapted from Guidelines for Programmatic Management of Drug-resistant Tuberculosis. Emergency update 2008. WHO/HTM/TB/200.402."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "tb-2025-fig-qtc-management",
+   "page": 186,
+   "image_only": false,
+   "heading_path": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Algorithms for Management of Adverse Events with Second-line Anti-TB Drugs > Figure 28: Management of QTc Prolongation",
+   "caption": "Figure 28. Management of QTcF prolongation on second-line TB drugs (BDQ, CFZ, MFX, DLM, LFX): ECG monitoring, grades 1-4 and actions, order of stopping drugs",
+   "replaces_chunks": [
+    "tb-2025-0470",
+    "tb-2025-0471"
+   ],
+   "content": "Items: If on multiple QtcF prolonging drugs, stop ancillary drugs first. Then stop MFX if receiving this drug. If QTcF prolongation persists, then stop CFZ. If CTcF prolongation persists, then stop BDQ.\n- Causative Medications: BDQ, CFZ, MFX, DLM, LFX -> QTcF prolongation: Signs and symptoms include palpitations, syncope/fainting, dizziness\n- Monitor for QTcF prolongation by checking an ECG at baseline, week 2 and monthly until month 6 or anytime if there are symptoms -> QTcF prolongation: Signs and symptoms include palpitations, syncope/fainting, dizziness\n- QTcF prolongation: Signs and symptoms include palpitations, syncope/fainting, dizziness -> Assess ECG. If QtcF is prolonged, repeat ECG. Consider other possible causes including low potassium, malnutrition, hypothyroidism or other medications. Consider checking and replacing potassium if vomiting or diarrhea.\n- Assess ECG. If QtcF is prolonged, repeat ECG. Consider other possible causes including low potassium, malnutrition, hypothyroidism or other medications. Consider checking and replacing potassium if vomiting or diarrhea. -> Assess severity and manage\n- Assess severity and manage -> Mild/Grade 1: *45 - 480 msec* Monitor closely, weekly ECG until QTcF < grade or baseline; correct electrolytes or other causes as needed; Moderate/Grade 2: *> 480 - 500 msec* Monitor closely, weekly ECG until QTcF < grade or baseline; correct electrolytes or other causes as needed; Severe/Grade 3: *> 500 msec* Stop the suspected causative drug(s); hospitalize and correct electrolytes or other underlying causes as needed; Life-threatening/Grade 4: *> 501 msec or 60 msec change from baseline and one of the following:* Torsades de pointers polymorphic ventricular tachycardia, or signs/symptoms or serious arrhythmia. Stop the suspected causative drugs; hospitalize and correct electrolytes or other underlying causes",
+   "footnotes": [],
+   "source_flags": [
+    "Grade 1 is printed as '45 - 480 msec' (presumably 451-480 msec); grade 4 as '> 501 msec or 60 msec change' (usually >500 msec or >60 msec increase from baseline).",
+    "'CTcF' typo in the drug-stopping note."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "tb-2025-fig-liver-management",
+   "page": 189,
+   "image_only": false,
+   "heading_path": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Algorithms for Management of Adverse Events with Second-line Anti-TB Drugs > Figure 31: Management of Liver Function Abnormalities",
+   "caption": "Figure 31. Management of liver function abnormalities on TB drugs (PZA, INH, BDQ, CFZ, Eto, PAS): LFT monitoring, grades 1-4 by ULN, stop and reintroduce drugs, liver-sparing regimen",
+   "replaces_chunks": [
+    "tb-2025-0478",
+    "tb-2025-0479"
+   ],
+   "content": "- Causative Medications: PZA, INH, BDQ, CFZ, Eto, PAS -> Liver Function Abnormalities: Liver function test abnormalities can present asymptomaticaly or with abdominal pain, nausea/vomiting, jaundice/icterus, itching\n- Monitor elevated liver function tests at baseline and monthly for the first six months of treatment and anytime if there are symptoms -> Liver Function Abnormalities: Liver function test abnormalities can present asymptomaticaly or with abdominal pain, nausea/vomiting, jaundice/icterus, itching\n- Liver Function Abnormalities: Liver function test abnormalities can present asymptomaticaly or with abdominal pain, nausea/vomiting, jaundice/icterus, itching -> Assess for other causes. These include alcohol use, use of traditional medicines/ herbs, viral hepatitis and TB itself\n- Assess for other causes. These include alcohol use, use of traditional medicines/ herbs, viral hepatitis and TB itself -> Assess severity and manage\n- Assess severity and manage -> Mild/Grade 1: >1 to 2.5 times ULN and asymptomatic Continue treatment and follow until return to baseline or stabilization of AST/ALT elevation; Moderate/Grade 2: >2.5 to 5 times ULN and asymptomatic Continue treatment and follow until return to baseline or stabilization of AST/ALT elevation; Severe/Grade 3: > 5 to 10 ULN or any asymptomatic elevations Stop all drugs, measure LFTs weekly; reintroduce drugs after toxicity is resolved; Life-threatening/Grade 4: > 10 time ULN regardless of symptoms Stop all drugs, measure LFTs weekly; reintroduce drugs after toxicity is resolved\nLiver-sparing regimen drugs: EMB, DLM, CS, amikacin (with caution) and likely the FQs. People with underlying liver disease, heavy alcohol use or viral hepatitis should start a modified shorter regimen that includes CS and does NOT include INH or PZA.",
+   "footnotes": [],
+   "source_flags": [
+    "Grade 3 reads '> 5 to 10 ULN or any asymptomatic elevations' – probably 'symptomatic' (drug-induced liver injury is usually ALT >3×ULN with symptoms or >5×ULN without)."
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p194-0492",
+   "page": 194,
+   "image_only": false,
+   "heading_path": "10.1 TB/HIV interaction and the comprehensive package of care > 10.1.5 When to start ART? > Table 45: Recommended periods to start ART in PLHIV with presumptive TB and confirmed TB",
+   "caption": "Table 45: Recommended periods to start ART in PLHIV with presumptive TB and confirmed TB (Patient Category, When to start ART)",
+   "replaces_chunks": [
+    "tb-2025-0492"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Patient Category"
+     },
+     {
+      "t": "When to start ART"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Among PLHIV who are presumptive for TB"
+     },
+     {
+      "t": "Initiate ART while rapidly investigating for TB, with close follow-up within seven days to initiate TB treatment if TB is confirmed"
+     }
+    ],
+    [
+     {
+      "t": "Among PLHIV on ART and diagnosed with TB"
+     },
+     {
+      "t": "Continue ART and initiate anti-TB treatment as soon as diagnosed, may need to adjust ART regimen/dosage if required"
+     }
+    ],
+    [
+     {
+      "t": "For newly diagnosed PLHIV/returnees who also have been diagnosed with TB"
+     },
+     {
+      "t": "Initiate ART as soon as possible preferably within 2 weeks of initiating tuberculosis treatment (including same-day anti-TB and ART treatment if clinically stable) regardless of immune status"
+     }
+    ],
+    [
+     {
+      "t": "Patients with TB meningitis"
+     },
+     {
+      "t": "Delay ART to 4 weeks post-initiation of anti-TB treatment"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    194
+   ],
+   "context_before": "Table 45: Recommended periods to start ART in PLHIV with presumptive TB and confirmed TB"
+  },
+  {
+   "table_id": "tb-2025-tbl-p194-0493",
+   "page": 194,
+   "image_only": false,
+   "heading_path": "10.1 TB/HIV interaction and the comprehensive package of care > 10.1.6 What ART regimen to start on? > Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients",
+   "caption": "Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients (Client Category, Recommended ART regimen, Comments)",
+   "replaces_chunks": [
+    "tb-2025-0493",
+    "tb-2025-0495",
+    "tb-2025-0497"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Client Category"
+     },
+     {
+      "t": "Recommended ART regimen"
+     },
+     {
+      "t": "Comments"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Clients already on TB treatment presenting for ART initiation"
+     },
+     {
+      "t": "TDF (300mg)/3TC (300mg) once daily +<br/>DTG (50mg twice daily)"
+     },
+     {
+      "t": "• Start ART as soon as possible with increased DTG dosing of 50mg twice daily<br/>• Return to standard DTG dosing 50mg once daily two weeks after the completion of TB treatment"
+     }
+    ],
+    [
+     {
+      "t": "Clients developing TB while on a DTG based ART regimen"
+     },
+     {
+      "t": "Increased DTG dose to 50mg twice daily"
+     },
+     {
+      "t": "For Clients must return to DTG 50mg once daily 2 weeks after completing TB treatment."
+     }
+    ],
+    [
+     {
+      "t": "Developing DS-TB while on an EFV-based ART regimen."
+     },
+     {
+      "t": "TDF/3TC+EFV 400mg (once daily)"
+     },
+     {
+      "t": "• Check VL at the end of treatment. If VL is undetectable, the client can be transitioned to a once-daily FDC of TDF+3TC+DTG two weeks after completion of TB treatment<br/>• If VL is detectable immediately switch to the second line and continue adherence support refer to the ART section"
+     }
+    ],
+    [
+     {
+      "t": "Developing DS-TB while on Protease inhibitor (PI) based ART regimen"
+     },
+     {
+      "t": "Consult an experienced HIV clinician or snapthirdline\\@mohcoag.org before choosing these options:<br/>TB patient on LPV/r<br/>• Super boost LPV/r to 400mg/400mg by adding 300mg Ritonavir and continue until 2 weeks after completion of TB treatment<br/>* Double-dose of LPV/r to 800 mg/200 mg twice daily. Double dosing is only for clients >10yrs of age and continues until 2 weeks after completion of TB treatment."
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "For Clients with Multidrug-Resistant TB"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "EFV and Bedaquiline (BDQ)"
+     },
+     {
+      "t": "- EFV should not be used with BDQ."
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Delamanid (DLM) and ARVs"
+     },
+     {
+      "t": "DLM is generally considered safe to administer with ART."
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    194,
+    195
+   ],
+   "context_before": "Table 46: Recommended Adult ART Regimens for TB/HIV Co-infected patients"
+  },
+  {
+   "table_id": "tb-2025-tbl-p196-0499",
+   "page": 196,
+   "image_only": false,
+   "heading_path": "10.1 TB/HIV interaction and the comprehensive package of care > Table 47: TB treatment/ART Drug Interactions",
+   "caption": "Table 47: TB treatment/ART Drug Interactions (Drug combination, Considerations)",
+   "replaces_chunks": [
+    "tb-2025-0499"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug combination"
+     },
+     {
+      "t": "Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Rifampicin and (LPV/r)"
+     },
+     {
+      "t": "- LPV/r can be used with Rifampicin - Super boost the LPV/r (1:1 lopinavir and ritonavir) by adding ritonavir. - Closely monitor the client for toxicity (especially gastrointestinal intolerance) and virological failure"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin and Oral Contraceptive Pill"
+     },
+     {
+      "t": "- Oral contraceptive pills may not be effective when administered with RIF. - Women of childbearing age should either receive a contraceptive pill containing a higher dose of oestrogen (50μg) or use another form of contraception (e.g., medroxyprogesterone). - Emphasize concomitant condom use during this period"
+     }
+    ],
+    [
+     {
+      "t": "DTG and all TB treatments"
+     },
+     {
+      "t": "- Preference is for clients to be maintained on a fixed dose combination of TDF+3TC+EFV for the duration of TB treatment. - Check VL at the end of TB treatment. If the VL is undetectable: the client can be transitioned to a once-daily FDC of TDF+3TC+DTG two weeks after completion of TB treatment. If the VL is detectable, immediately switch to the second line and continue adherence support. - If the client is on a DTG regimen, the DTG does need to be given as 50mg twice daily until at least 2 weeks after the client has completed TB treatment. This may increase the occurrence of DTG side effects."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    196
+   ],
+   "context_before": "Table 47: TB treatment/ART Drug Interactions"
+  },
+  {
+   "table_id": "tb-2025-tbl-p198-0505",
+   "page": 198,
+   "image_only": false,
+   "heading_path": "10.4 Monitoring patients on concurrent ART and TB treatment > Table 48: Important features of regular clinical assessments should include",
+   "caption": "Table 48: Important features of regular clinical assessments should include:: Table 48: Important features of regular clinical assessments should include (- Monitoring weight (every visit) height (in children, done every 3 months) - Head circumference (in children < 3 years of age, measured every 3 month)",
+   "replaces_chunks": [
+    "tb-2025-0505"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "- Monitoring weight (every visit) height (in children, done every 3 months) - Head circumference (in children < 3 years of age, measured every 3 months) - Developmental status in children nutritional status in children"
+     },
+     {
+      "t": "- Medication review - Side effects - Adherence and dosing - Other medications, including traditional medicines and other medications that may interact with ARVs"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- Diagnosis and management of interim or new illnesses - Opportunistic infections (OIs) that may suggest immune reconstitution inflammatory syndrome (IRIS) or treatment failure. - Other co-morbidities, including STIs, Hepatitis B, substance abuse, psychiatric illness"
+     },
+     {
+      "t": "- Early diagnosis of pregnancy - Changes in social situation that might affect adherence to ART and anti-TB therapy"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    198
+   ],
+   "context_before": "Table 48: Important features of regular clinical assessments should include:"
+  },
+  {
+   "table_id": "tb-2025-tbl-p198-0507",
+   "page": 198,
+   "image_only": false,
+   "heading_path": "10.4 Monitoring patients on concurrent ART and TB treatment > Table 49: Baseline Laboratory Investigations",
+   "caption": "Table 49: Baseline Laboratory Investigations (- CD4 count, or percentage (in children < 5 years) - Full blood count (FBC) - ALT and AST - RBS (random blood sugar) - Pregnancy test in all women of )",
+   "replaces_chunks": [
+    "tb-2025-0507"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Baseline investigations"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- CD4 count, or percentage (in children < 5 years) - Full blood count (FBC) - ALT and AST - RBS (random blood sugar) - Pregnancy test in all women of childbearing age"
+     },
+     {
+      "t": "- Serum Creatinine, followed by calculation of the rate of Creatinine Clearance (for details of calculation method for Creatinine clearance, please refer to TB treatment in special situations in the chapter on TB treatment and monitoring)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    198
+   ],
+   "context_before": "Table 49: Baseline Laboratory Investigations"
+  },
+  {
+   "table_id": "tb-2025-tbl-p201-0516",
+   "page": 201,
+   "image_only": false,
+   "heading_path": "10.6 Management of TB in children living with HIV > Table 50: TB/HIV Simplified Treatment Table",
+   "caption": "Table 50: TB/HIV Simplified Treatment Table (Treatment of HIV-associated TB in children)",
+   "replaces_chunks": [
+    "tb-2025-0516",
+    "tb-2025-0517"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Treatment of HIV-associated TB in children"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Patients Initiating ART while on TB Treatment"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Weight"
+     },
+     {
+      "t": "Initial Regimen (NRTIs based on HIV guidelines)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "< 10 Kg"
+     },
+     {
+      "t": "LPV/r with 1:1 ritonavir boosting1,6 (recommended) or ABC-3TC-AZT [note 2],3 (recommended if ritonavir is not available) or NVP [note 2],3,4,5"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "10-20 Kg"
+     },
+     {
+      "t": "EFV (recommended) or LPV/r with 1:1 ritonavir boosting1,6 or ABC-3TC-AZT [note 2],3"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "> 20 Kg"
+     },
+     {
+      "t": "DTG⁷ twice daily (recommended)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Modifications to ART when initiating TB Rx in patients on ART<br/>Weight"
+     },
+     {
+      "t": "Modifications to ART when initiating TB Rx in patients on ART<br/>Current ART Regimen"
+     },
+     {
+      "t": "Modifications to ART when initiating TB Rx in patients on ART<br/>Suggested Modification"
+     }
+    ],
+    [
+     {
+      "t": "< 10 Kg"
+     },
+     {
+      "t": "NVP<br/>LPV/r"
+     },
+     {
+      "t": "Continue NVP [note 2],3,4,5<br/>LPV/r with 1:1 ritonavir boosting1,6 (recommended) or ABC-3TC-AZT [note 2],3 (recommended if ritonavir not available) or NVP [note 2],3,4,5"
+     }
+    ],
+    [
+     {
+      "t": "10-20 Kg"
+     },
+     {
+      "t": "NVP or EFV<br/>LPV/r (1st Line ART)<br/>LPV/r (2nd Line Treatment)"
+     },
+     {
+      "t": "EFV [note 8]<br/>LPV/r based with 1:1 ritonavir boosting1,6 (recommended) or EFV (recommended if VL undetectable in last 6 mo) or ABC-3TC-AZT [note 2],3.<br/>LPV/r with 1:1 ritonavir boosting6 (recommended) or ABC-3TC-AZT [note 2],3"
+     }
+    ],
+    [
+     {
+      "t": "> 20 Kg"
+     },
+     {
+      "t": "NVP or EFV<br/>ATV/r or LPV/r (1st or 2nd Line Treatment)<br/>DTG"
+     },
+     {
+      "t": "EFV [note 8],9<br/>LPV/r Double dose 6 or DTG [note 7] twice daily (If VL confirmed undetectable at TB treatment initiation)<br/>Twice daily DTG [note 7]"
+     }
+    ],
+    [
+     {
+      "t": "Guiding Principles x Always immediately check a viral load and CD4 in a patient on ART who is diagnosed with TB to assess for treatment failure x If the viral load is detectable avoid one drug change and manage it as a treatment failure considering ART/ATT drug interactions x Consider ART and PMTCT history when changing and selecting ART regimens x NRTI companion drugs should be based on HIV guidelines considering weight, comorbidities and prior NRTI exposure x Consult with TB/HIV experts through NTCP, ENAP or Partners with questions and for patients failing second-line ART or failing a PI"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    201,
+    202
+   ],
+   "context_before": "Table 50: TB/HIV Simplified Treatment Table"
+  },
+  {
+   "table_id": "tb-2025-tbl-p203-0520",
+   "page": 203,
+   "image_only": false,
+   "heading_path": "10.6 Management of TB in children living with HIV > 10.6.3 Cotrimoxazole Preventive Therapy (CPT)",
+   "caption": "10.6.3 Cotrimoxazole Preventive Therapy (CPT) (Weight, Child suspension, Single strength adult tablet<br/>(b400mg/80mg), Double strength adult tablet<br/>(800mg/160mg))",
+   "replaces_chunks": [
+    "tb-2025-0520"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Weight"
+     },
+     {
+      "t": "Child suspension"
+     },
+     {
+      "t": "Single strength adult tablet<br/>(b400mg/80mg)"
+     },
+     {
+      "t": "Double strength adult tablet<br/>(800mg/160mg)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "<5"
+     },
+     {
+      "t": "2.5 ml"
+     },
+     {
+      "t": "1/4 tablets"
+     },
+     {
+      "t": "-"
+     }
+    ],
+    [
+     {
+      "t": "5-15"
+     },
+     {
+      "t": "5ml"
+     },
+     {
+      "t": "1/2 tablets"
+     },
+     {
+      "t": "-"
+     }
+    ],
+    [
+     {
+      "t": "15-30"
+     },
+     {
+      "t": "10ml"
+     },
+     {
+      "t": "One tablet"
+     },
+     {
+      "t": "1/2 tablets"
+     }
+    ],
+    [
+     {
+      "t": ">30"
+     },
+     {
+      "t": "-"
+     },
+     {
+      "t": "Two tablets"
+     },
+     {
+      "t": "One tablet"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    203
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p205-0528",
+   "page": 205,
+   "image_only": false,
+   "heading_path": "10.8.4 Histoplasmosis > Table 52: Components of the package of care for people with advanced HIV disease",
+   "caption": "Table 52: Components of the package of care for people with advanced HIV disease (Intervention, CD4 Cell Count, Adults, Adolescents, Children <10 years)",
+   "replaces_chunks": [
+    "tb-2025-0528",
+    "tb-2025-0529"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Intervention"
+     },
+     {
+      "t": "CD4 Cell Count"
+     },
+     {
+      "t": "Adults"
+     },
+     {
+      "t": "Adolescents"
+     },
+     {
+      "t": "Children <10 years"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Diagnosis"
+     },
+     {
+      "t": "Xpert MTB/Rif Ultra as the first test for TB diagnosis among symptomatic patients<br/>Urine LF-LAM for TB diagnosis among people who are seriously ill or have symptoms and signs of TB<br/>Cryptococcal antigen CrAg screening<br/>Histoplasma antigen test"
+     },
+     {
+      "t": "Any<br/>Symptomatic patients: All patients regardless of CD4 count with TB signs and symptoms Seriously ill patients: All patients regardless of CD4 count or of TB signs and symptoms Inpatient setting: CD4<br/>CD4 ≤ 100 cells/ml<br/>CD4 ≤ 200 cells/ml<br/>ALL PLHIV"
+     },
+     {
+      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered<br/>Yes"
+     },
+     {
+      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered<br/>Yes"
+     },
+     {
+      "t": "Yes<br/>Yes<br/>No<br/>No<br/>Yes"
+     }
+    ],
+    [
+     {
+      "t": "Prophylaxis"
+     },
+     {
+      "t": "Cotrimoxazole prophylaxis<br/>TB-preventive treatment<br/>Fluconazole pre-emptive therapy for cryptococcal antigen-positive people without evidence of meningitis<br/>Itraconazole prophylaxis for Histoplasma antigen-positive patients"
+     },
+     {
+      "t": "CD4 ≤350 cells/mm3 or WHO clinical stage 3 or 4<br/>Any<br/><100 cells/mm3<br/>≤200cells/ml<br/>Any CD4 count until 12 months or stable on ART and virally suppressed"
+     },
+     {
+      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered as above<br/>Yes"
+     },
+     {
+      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered as above<br/>Yes"
+     },
+     {
+      "t": "Yes<br/>Yes<br/>No<br/>No<br/>Yes"
+     }
+    ],
+    [
+     {
+      "t": "ART initiation"
+     },
+     {
+      "t": "Rapid ART initiation<br/>Defer ART initiation if signs and symptoms of TB, CCM or CNS histoplasmosis"
+     },
+     {
+      "t": "Any<br/>Any"
+     },
+     {
+      "t": "Yes<br/>Yes"
+     },
+     {
+      "t": "Yes<br/>Yes"
+     },
+     {
+      "t": "Yes<br/>Yes"
+     }
+    ],
+    [
+     {
+      "t": "Adapted adherence support"
+     },
+     {
+      "t": "Tailored counselling to ensure optimal adherence to the advanced disease package, including home visits, if feasible"
+     },
+     {
+      "t": "≤200 cells/ml"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    205
+   ],
+   "context_before": "Table 52: Components of the package of care for people with advanced HIV disease"
+  },
+  {
+   "table_id": "tb-2025-tbl-p206-0533",
+   "page": 206,
+   "image_only": false,
+   "heading_path": "11.2 The difference between TB infection and TB disease > Table 53: Difference between TB infection and TB disease",
+   "caption": "Table 53: Difference between TB infection and TB disease (Characteristics<br/>Symptoms<br/>Tuberculin skin test or Interferon Gamma Release Assays (IGRA), Tuberculosis Infection<br/>None<br/>Usually Positive,)",
+   "replaces_chunks": [
+    "tb-2025-0533"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Characteristics<br/>Symptoms<br/>Tuberculin skin test or Interferon Gamma Release Assays (IGRA)"
+     },
+     {
+      "t": "Tuberculosis Infection<br/>None<br/>Usually Positive"
+     },
+     {
+      "t": "Tuberculosis Disease<br/>Most present with one or more of the following symptoms: cough, weight loss or poor weight gain, in children (failure to thrive), fever, night sweats, chest pain, hemoptysis, fatigue, and decreased appetite.<br/>Usually Positive"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Bacteriological status"
+     },
+     {
+      "t": "Negative"
+     },
+     {
+      "t": "Respiratory specimens are usually positive on smear microscopy, mWRD, and culture. However, may be negative in people with extrapulmonary disease or minimal or early pulmonary disease."
+     }
+    ],
+    [
+     {
+      "t": "Chest X-RAY"
+     },
+     {
+      "t": "Normal"
+     },
+     {
+      "t": "Usually, abnormal"
+     }
+    ],
+    [
+     {
+      "t": "Infectiousness"
+     },
+     {
+      "t": "No"
+     },
+     {
+      "t": "Often infectious (before treatment)"
+     }
+    ],
+    [
+     {
+      "t": "Tuberculosis Case"
+     },
+     {
+      "t": "No"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Preferred Management"
+     },
+     {
+      "t": "Preventive treatment"
+     },
+     {
+      "t": "Tuberculosis treatment"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    206
+   ],
+   "context_before": "Table 53: Difference between TB infection and TB disease"
+  },
+  {
+   "kind": "diagram",
+   "table_id": "tb-2025-fig-tpt-adult-contacts",
+   "page": 210,
+   "image_only": false,
+   "heading_path": "Chapter 11: TB Preventive Treatment > 11.6 Ruling out Active TB Disease > Figure 35: HIV-negative Household Contacts >10 Years and Other Risk Groups",
+   "caption": "Figure 35. Ruling out active TB before TPT in HIV-negative household contacts >10 years and other risk groups: symptom screen/CXR, TB infection test, start TPT",
+   "replaces_chunks": [
+    "tb-2025-0543"
+   ],
+   "content": "- Household TB contacts. Other Risk Groups* -> Symptom based screening (CXR if available)\n- Symptom based screening (CXR if available) -> Positive (S/S and/or CXC); *Negative (S/S and/or CXC)\n- Positive (S/S and/or CXC) -> Evaluate for TB/DR-TB\n- Evaluate for TB/DR-TB -> TB/DR-TB disease; No TB\n- TB/DR-TB disease -> Treat for TB/DR-TB\n- No TB -> Start TPT\n- *Negative (S/S and/or CXC) -> Perform TBI Test; TBI test unavailable and household contact\n- Perform TBI Test -> Positive; Negative; Indeterminate\n- Positive -> Start TPT\n- Negative -> No TPT\n- Indeterminate -> No TPT\n- TBI test unavailable and household contact -> Start TPT\nNeither CXR nor a TB infection (TBI) test is mandatory to decide to start TPT. Other risk groups: silicosis, immunosuppressive drugs (long steroid therapy, cancer chemotherapy), anti-TNF treatment, transplantation (including candidates), health care workers and offenders.",
+   "footnotes": [],
+   "source_flags": [
+    "An indeterminate TB infection test leads to 'No TPT'; an indeterminate IGRA is usually repeated or the decision made clinically.",
+    "'CXC' printed for CXR."
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p212-0549",
+   "page": 212,
+   "image_only": false,
+   "heading_path": "11.8 TPT Regimens and Dosing",
+   "caption": "11.8 TPT Regimens and Dosing (Characteristics<br/>Drug (s)<br/>Duration (mths), 6H<br/>Isoniazid<br/>6, 3HP<br/>Isoniazid + Rifapentine<br/>3, 3HR<br/>Isoniazid + Rifampicin<br/>3,)",
+   "replaces_chunks": [
+    "tb-2025-0549",
+    "tb-2025-0550",
+    "tb-2025-0551",
+    "tb-2025-0552"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Characteristics<br/>Drug (s)<br/>Duration (mths)"
+     },
+     {
+      "t": "6H<br/>Isoniazid<br/>6"
+     },
+     {
+      "t": "3HP<br/>Isoniazid + Rifapentine<br/>3"
+     },
+     {
+      "t": "3HR<br/>Isoniazid + Rifampicin<br/>3"
+     },
+     {
+      "t": "4R<br/>Rifampicin<br/>4"
+     },
+     {
+      "t": "1HP<br/>Isoniazid + Rifapentine<br/>1"
+     },
+     {
+      "t": "6H(+CPT+B6)<br/>Isoniazid + Cotrimoxazole + Pyridoxine<br/>6"
+     },
+     {
+      "t": "6Lfx<br/>Levofloxacin<br/>6"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Daily"
+     },
+     {
+      "t": "Weekly"
+     },
+     {
+      "t": "Daily"
+     },
+     {
+      "t": "Daily"
+     },
+     {
+      "t": "Daily"
+     },
+     {
+      "t": "Daily"
+     },
+     {
+      "t": "Daily"
+     }
+    ],
+    [
+     {
+      "t": "Total No. of doses"
+     },
+     {
+      "t": "182"
+     },
+     {
+      "t": "12"
+     },
+     {
+      "t": "84"
+     },
+     {
+      "t": "120"
+     },
+     {
+      "t": "28"
+     },
+     {
+      "t": "182"
+     },
+     {
+      "t": "182"
+     }
+    ],
+    [
+     {
+      "t": "Pill burden per dose (total per regimen), person weighing 50kg using adult formulationsa"
+     },
+     {
+      "t": "1(182)"
+     },
+     {
+      "t": "6 singles (72) or 3 with FDC (36)"
+     },
+     {
+      "t": "3(252)"
+     },
+     {
+      "t": "3(360)"
+     },
+     {
+      "t": "3(84)"
+     },
+     {
+      "t": "1(182)"
+     },
+     {
+      "t": "1(182)"
+     }
+    ],
+    [
+     {
+      "t": "Children"
+     },
+     {
+      "t": "All ages: child-friendly (dispersible) formulation available preferred for children with HIV on LPV/r or NVP"
+     },
+     {
+      "t": "All ages: child-friendly (dispersible) formulation available"
+     },
+     {
+      "t": "All ages: child-friendly (dispersible) formulation available"
+     },
+     {
+      "t": "All ages: no child-friendly formulation available, not generally feasible for children < 25kg"
+     },
+     {
+      "t": "≥ 13 years"
+     },
+     {
+      "t": "Adults and adolescents; no child-friendly formulations available"
+     },
+     {
+      "t": "All ages: child-friendly (dispersible) formulation available"
+     }
+    ],
+    [
+     {
+      "t": "Pregnant women"
+     },
+     {
+      "t": "Safe for usec"
+     },
+     {
+      "t": "Not known"
+     },
+     {
+      "t": "Safe for usec"
+     },
+     {
+      "t": "May be safe, although no safety or efficacy data available for this population"
+     },
+     {
+      "t": "Not known"
+     },
+     {
+      "t": "Safe for usec"
+     },
+     {
+      "t": "May be safe, although no safety or efficacy data available specifically in this population"
+     }
+    ],
+    [
+     {
+      "t": "Interactions with ART"
+     },
+     {
+      "t": "No restriction"
+     },
+     {
+      "t": "Contraindicated: All protease inhibitors (PIs), nevirapine (NVP), doravirine and etravirine, tenofovir alafenamide (TAF) Use: tenofovirdisoproxil fumarate (TDF), EFV, DTG, RAL"
+     },
+     {
+      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine Use with caution: TAF Adjust dose: DTG, RAL Use: TDF, EFV"
+     },
+     {
+      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine, TAF Adjust dose: DTG, RAL Use: TDF, EFV"
+     },
+     {
+      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine, TAF Use: TDF, EFV, DTG, RAL"
+     },
+     {
+      "t": "No restriction"
+     },
+     {
+      "t": "No restriction (may interfere with lamivudine clearance)"
+     }
+    ],
+    [
+     {
+      "t": "Toxicity"
+     },
+     {
+      "t": "Hepatotoxicity (more), peripheral neuropathy, rash, gastrointestinal upset"
+     },
+     {
+      "t": "Flu-like syndrome, hypersensitivity reactions, gastrointestinal upset, orange discolouration of body fluids, rash, hepatotoxicity (less)"
+     },
+     {
+      "t": "Hypersensitivity reactions, hepa-totoxicity (less), rash, gastrointestinal upset, hypo-pro-thrombinaemia, orange disco-louration of body fluids"
+     },
+     {
+      "t": "Rash, gastrointes-tinal upset, hepatotoxicity (less), hypo-pro-thrombinaemia, Orange discolouration of body Fluids"
+     },
+     {
+      "t": "Hepatotoxicity (more), hypersensitivity reaction, rash, gastrointestinal upset, orange discolouration of body fluid"
+     },
+     {
+      "t": "Hepatotoxicity, rash, gastro-intestinal upset"
+     },
+     {
+      "t": "Diarrhoea, nau-sea and bloating, arthralgia, inflamed or torn tendons, muscle pain or weak-ness, prolonged QTc interval, mood or be-haviour changes, insomnia"
+     }
+    ],
+    [
+     {
+      "t": "Characteristics"
+     },
+     {
+      "t": "6H"
+     },
+     {
+      "t": "3HP"
+     },
+     {
+      "t": "3HR"
+     },
+     {
+      "t": "4R"
+     },
+     {
+      "t": "1HP"
+     },
+     {
+      "t": "6H(+CPT+B6)"
+     },
+     {
+      "t": "6Lfx"
+     }
+    ],
+    [
+     {
+      "t": "Absorption"
+     },
+     {
+      "t": "Best absorbed on an empty stomach; up to 50% reduction in peak concentration with a fatty meal"
+     },
+     {
+      "t": "Oral rifapentine bioavailability is 70%; peak concentration increased if given with a meal"
+     },
+     {
+      "t": "Rifampicin absorption is rapid but may be delayed or decreased by high-fat meals."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Same as 3HP"
+     },
+     {
+      "t": "Same as 6H"
+     },
+     {
+      "t": "Absorption is not influenced by food.<br/>Concomitant steroid use may increase risk of tendon rupture.<br/>Multivalent cation containing products including antacids (may contain aluminium), mineral supplements (e.g. iron or magnesium) or multivitamins may decrease absorption.<br/>Effect of warfarin may be enhanced"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    212
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p214-0554",
+   "page": 214,
+   "image_only": false,
+   "heading_path": "11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 55: TPT regimen and drug dosing",
+   "caption": "Table 55: TPT regimen and drug dosing (TPT regimens and drug formulations, No. of tablets or quantity of solution by body weight band)",
+   "replaces_chunks": [
+    "tb-2025-0554",
+    "tb-2025-0555"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "TPT regimens and drug formulations"
+     },
+     {
+      "t": "No. of tablets or quantity of solution by body weight band"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "3-5.9 kg<br/>(> 3 months)"
+     },
+     {
+      "t": "3-5.9 kg<br/>(≥ 3 months)"
+     },
+     {
+      "t": "6-9.9 kg<br/>(< 6 months)"
+     },
+     {
+      "t": "6-9.9 kg<br/>(≥ 6 months)"
+     },
+     {
+      "t": "10-14.9 kg"
+     },
+     {
+      "t": "15-19.9 kg"
+     },
+     {
+      "t": "20-24.9 kg"
+     },
+     {
+      "t": "25-29.9 kg"
+     },
+     {
+      "t": "30-34.9 kg"
+     },
+     {
+      "t": "35-39.9 kg"
+     },
+     {
+      "t": "40-44.9 kg"
+     },
+     {
+      "t": "45-49.9 kg"
+     },
+     {
+      "t": "< 50 kg"
+     }
+    ],
+    [
+     {
+      "t": "Three months of weekly rifapentine plus isoniazid (3HP)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid 100mg dt"
+     },
+     {
+      "t": "0.6<br/>(6 mLa)"
+     },
+     {
+      "t": "0.7<br/>(7 mLa)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2.5"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4.5"
+     },
+     {
+      "t": "4.5"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "7.5"
+     },
+     {
+      "t": "7.5"
+     },
+     {
+      "t": "9"
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid 300mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2.5"
+     },
+     {
+      "t": "2.5"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Rifapentine 150mg dt"
+     },
+     {
+      "t": "0.5<br/>(5 mLd)"
+     },
+     {
+      "t": "0.7<br/>(7 mLd)"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "6"
+     }
+    ],
+    [
+     {
+      "t": "Rifapentine 300mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2.5"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Rifapentine 300 mg<br/>and Isoniazid<br/>300 mg FDC tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "One month of daily rifapentine plus isoniazid (1HP)e"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid 300mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     }
+    ],
+    [
+     {
+      "t": "Rifapentine 30 mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     }
+    ],
+    [
+     {
+      "t": "Six months of daily levofloxacin (6Lfx)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Lfx 100mg dt"
+     },
+     {
+      "t": "0.5"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2.5"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "3.5"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     }
+    ],
+    [
+     {
+      "t": "Lfx 250mg tab"
+     },
+     {
+      "t": "0.25<br/>(2.5 mLd)"
+     },
+     {
+      "t": "0.5<br/>(5 mLd)"
+     },
+     {
+      "t": "0.5<br/>(5 mLd)"
+     },
+     {
+      "t": "1<br/>(10 mLd)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Lfx 500mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    214
+   ],
+   "context_before": "Table 55: TPT regimen and drug dosing"
+  },
+  {
+   "table_id": "tb-2025-tbl-p215-0557",
+   "page": 215,
+   "image_only": false,
+   "heading_path": "11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 56: TPT dosing by body size",
+   "caption": "Table 56: TPT dosing by body size (TPT regimens and drug formulations, No. of tablets or quantity of solution by body weight band)",
+   "replaces_chunks": [
+    "tb-2025-0557"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "TPT regimens and drug formulations"
+     },
+     {
+      "t": "No. of tablets or quantity of solution by body weight band"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "4-7.9 kg"
+     },
+     {
+      "t": "8-11.9 kg"
+     },
+     {
+      "t": "12-15.9 kg"
+     },
+     {
+      "t": "16-24.9 kg"
+     },
+     {
+      "t": "25-29.9 kg"
+     },
+     {
+      "t": "30-34.9 kg"
+     },
+     {
+      "t": "35-49 kg"
+     },
+     {
+      "t": "50-64.9 kg"
+     },
+     {
+      "t": "≥ 65 kg"
+     }
+    ],
+    [
+     {
+      "t": "Six or nine months of daily isoniazid monotherapy (6H or 9H)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid 100 mg dt"
+     },
+     {
+      "t": "0.5<br/>(0.5 mLa)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid 300 mg tabb"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "0.5"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.25"
+     }
+    ],
+    [
+     {
+      "t": "Four months of daily rifampicin monotherapy (4R)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin 150 mg cap"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "5"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin 300 mg capc"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2.5"
+     }
+    ],
+    [
+     {
+      "t": "Three months of daily rifampicin plus isoniazid (3HR)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid 300 mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "0.5"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.25"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin 300 mg capc"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2.5"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin 75 mg and<br/>Isoniazid 50 mg FDC dt"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin 150 mg and<br/>Isoniazid 75 mg FDC dt"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "5"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    215
+   ],
+   "context_before": "Table 56: TPT dosing by body size Note: For 3HP regimen, when Rifapentine 150 mg formulation or individual molecule of Isoniazid and Rifapentine are not available, a 3HR (50/75 mg) regimen will be used for children who are less than 25 kg. For children and adults whose weight is>25 kg, 2 tablets of 3HP (300/300 mg) for body weight band 25-29.9 kg, 2.5 tablets for 30-34.9 kg and 3 tablets for those above 35 kg (see table below)"
+  },
+  {
+   "table_id": "tb-2025-tbl-p216-0559",
+   "page": 216,
+   "image_only": false,
+   "heading_path": "11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available",
+   "caption": "Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available (Group, TPT Regimen, Dosing)",
+   "replaces_chunks": [
+    "tb-2025-0559",
+    "tb-2025-0560",
+    "tb-2025-0562"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Group"
+     },
+     {
+      "t": "TPT Regimen"
+     },
+     {
+      "t": "Dosing"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Weight"
+     },
+     {
+      "t": "HR (50/75)"
+     }
+    ],
+    [
+     {
+      "t": "Children less than 25 kg"
+     },
+     {
+      "t": "3HR (50/75)"
+     },
+     {
+      "t": "4-7.9<br/>8-11.9<br/>12-15.9<br/>16-24.9<br/>Weight"
+     },
+     {
+      "t": "1<br/>2<br/>3<br/>4<br/>HP (300/300)"
+     }
+    ],
+    [
+     {
+      "t": "Children and adults >25 kg"
+     },
+     {
+      "t": "3HP (300/300)"
+     },
+     {
+      "t": "25-29.9<br/>30-34.9<br/>>35<br/>Weight"
+     },
+     {
+      "t": "2<br/>2.5<br/>3<br/>Lfx (100 d.t)"
+     }
+    ],
+    [
+     {
+      "t": "Children <30 kg"
+     },
+     {
+      "t": "Lfx (100) dispersible tablet (d.t)"
+     },
+     {
+      "t": "3-5.9 (<3Mth old)<br/>3-5.9 (<3Mth old)<br/>6-9.9 (<6Mth old)<br/>6-9.9 (>6Mth old)<br/>10-14.9<br/>15-19.9<br/>20-24.9<br/>25-29.9<br/>Weight"
+     },
+     {
+      "t": "0.5<br/>1<br/>1<br/>1.5<br/>2<br/>2.5<br/>3<br/>3.5<br/>Lfx (250) tablets"
+     }
+    ],
+    [
+     {
+      "t": "Children <20 kg"
+     },
+     {
+      "t": "Lfx (250)"
+     },
+     {
+      "t": "3-5.9 (<3Mth old)<br/>3-5.9 (<3Mth old)<br/>6-9.9 (<6Mth old)<br/>6-9.9 (>6Mth old)<br/>10-14.9<br/>15-19.9<br/>Weight"
+     },
+     {
+      "t": "0.25 (2.5 ml)<br/>0.5 (5 ml)<br/>0.5 (5ml)<br/>1 (10 ml)<br/>1 (10 ml)<br/>1.5<br/>Lfx (500) tablets"
+     }
+    ],
+    [
+     {
+      "t": "Children and adults > 25 kg"
+     },
+     {
+      "t": "Lfx (500)"
+     },
+     {
+      "t": "25-29.9<br/>30-34.9<br/>35-39.9<br/>40-44.9<br/>45-49.9<br/>>50"
+     },
+     {
+      "t": "1<br/>1<br/>1<br/>1<br/>1<br/>1.5"
+     }
+    ],
+    [
+     {
+      "t": "Population Group"
+     },
+     {
+      "t": "Preferred Regimen"
+     },
+     {
+      "t": "Alternative Regimen"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Individuals<br/>≥ 12 years and ≥ 25kg"
+     },
+     {
+      "t": "3HP\\<br/>Weekly Isoniazid plus Rifapentine for 3 months<br/>(Rifapentine 300mg/ Isoniazid 300mg per tablet, 12 doses)<br/>3 tablets weekly plus 25 or 50 mg plus Vitamin B6 weekly"
+     },
+     {
+      "t": "1HP (when available)<br/>Daily Isoniazid plus Rifapentine for 1 month<br/>Dosage: 300 mg of Isoniazid and 600 mg of Rifapentine daily plus 25 mg of Vitamin B6 daily"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Children <14 years or<br/>Weight < 30 kg"
+     },
+     {
+      "t": "6H<br/>6 months of daily isoniazid plus Vitamin B6 25 mg daily<br/>Dosing<br/>\\<table>\\<tr>\\<th>Age\\</th>\\<th>Dosage\\</th>\\</tr>\\<tr>\\<td><10 yrs\\</td>\\<td>10 mg/kg/day\\</td>\\</tr>\\<tr>\\<td>>10 yrs\\</td>\\<td>5 mg/kg/day\\</td>\\</tr>\\</table>"
+     },
+     {
+      "t": "3HP/1HP may be used for ³ 2 years old when a Child-friendly formula is available."
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Pregnant women"
+     },
+     {
+      "t": "6H<br/>6 months of daily isoniazid plus Vitamin B6 25 mg daily<br/>(dosing: 5 mg/kg/day, maximum dose 300 mg/ day)<br/>PNP prophylaxis for INH-containing regimen: Vitamin B6- 10-25 mg/day"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    216,
+    217
+   ],
+   "context_before": "Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available"
+  },
+  {
+   "table_id": "tb-2025-tbl-p220-0571",
+   "page": 220,
+   "image_only": false,
+   "heading_path": "11.11 Monitoring and management of Adverse events > Table 59: Documented adverse events with drug used for TPT",
+   "caption": "Table 59: Documented adverse events with drug used for TPT (Drug, Known Adverse Event, Uncommon Adverse Event)",
+   "replaces_chunks": [
+    "tb-2025-0571"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Known Adverse Event"
+     },
+     {
+      "t": "Uncommon Adverse Event"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Isoniazid"
+     },
+     {
+      "t": "Asymptomatic elevation of serum liver enzyme titres<br/>Hepatitis<br/>Peripheral neuropathy (paraesthesia, numbness, limb pain)<br/>Skin rash<br/>Sleepiness and lethargy"
+     },
+     {
+      "t": "Convulsions<br/>Pellagra<br/>Arthralgia<br/>Anaemia<br/>Lupoid reactions"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "Gastrointestinal reactions (abdominal pain, nausea, vomiting)<br/>Hepatitis<br/>Generalized cutaneous reactions<br/>Thrombocytopenic purpura<br/>Discolouration of body fluids"
+     },
+     {
+      "t": "Osteomalacia<br/>Pseudomembranous colitis<br/>Pseudo adrenal crisis<br/>Acute renal failure<br/>Shock<br/>Haemolytic anaemia<br/>Influenza-like syndrome<br/>Hypoprothrombinemia"
+     }
+    ],
+    [
+     {
+      "t": "Rifapentine"
+     },
+     {
+      "t": "Gastrointestinal reactions (abdominal pain, nausea, vomiting)<br/>Hypersensitivity reactions (influenza like symptoms)<br/>Hepatitis<br/>Discoloration of body fluids"
+     },
+     {
+      "t": "Hypotension or syncope<br/>Decrease in white and red blood cell counts<br/>Decreased appetite<br/>Hyperbilirubinemia<br/>Hypoprothrombinemia"
+     }
+    ],
+    [
+     {
+      "t": "Levofloxacin"
+     },
+     {
+      "t": "Diarrhoea<br/>Nausea and bloating<br/>Arthralgia"
+     },
+     {
+      "t": "Inflamed or torn tendons<br/>Muscle pain or weakness<br/>Peripheral neuropathy<br/>Mood or behaviour changes<br/>Insomnia<br/>Prolongation of the QTc interval<br/>Altered taste and smell"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    220
+   ],
+   "context_before": "Table 59: Documented adverse events with drug used for TPT"
+  },
+  {
+   "table_id": "tb-2025-tbl-p221-0573",
+   "page": 221,
+   "image_only": false,
+   "heading_path": "11.11 Monitoring and management of Adverse events > Table 59: Documented adverse events with drug used for TPT",
+   "caption": "Table 59: Documented adverse events with drug used for TPT (Adverse event, Responsible drug, Management)",
+   "replaces_chunks": [
+    "tb-2025-0573",
+    "tb-2025-0574",
+    "tb-2025-0575",
+    "tb-2025-0576"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Adverse event"
+     },
+     {
+      "t": "Responsible drug"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Flu-like signs and symptoms"
+     },
+     {
+      "t": "Rifapentine, rifampicin"
+     },
+     {
+      "t": "• Advise to stay hydrated by drinking plenty of water and juice.<br/>• Prescribe Paracetamol which may be taken every 4 to 6 hours. Leave at least 4 hours between doses. (Dosage 500mg tab for adults, for children 3 months- 6 years 120mg/5ml suspension, children 6 years of age and adults 250mg/5ml suspension.)<br/>• If severe and not tolerated to 3HP/3HR regimen, consider switching to an alternate regimen (6H)"
+     }
+    ],
+    [
+     {
+      "t": "Nausea and<br/>vomiting"
+     },
+     {
+      "t": "Rifapentine, rifampicin,<br/>isoniazid"
+     },
+     {
+      "t": "• Prescribe 10 mg of metoclopramide bid (twice a day) or<br/>tid.<br/>• Advise patients to stay hydrated by drinking plenty of<br/>water and juice.<br/>• Avoid spicy and greasy foods.<br/>• Prescribe oral rehydration solution if mild dehydration is<br/>present."
+     }
+    ],
+    [
+     {
+      "t": "Hepatotoxicity"
+     },
+     {
+      "t": "More with INH than<br/>rifapentine and rifampicin)"
+     },
+     {
+      "t": "• If people on TPT have signs and symptoms of<br/>hepatotoxicity, perform LFT.<br/>• If aspartate aminotransferase (AST) and/or alanine<br/>aminotransferase (ALT) are >3 but <5 times upper limit of<br/>normal (ULN) without signs and symptoms of hepatitis,<br/>continue TPT and repeat AST and ALT weekly.<br/>• If AST and/or ALT >3 times ULN with signs and symptoms<br/>of hepatitis or if AST and/or ALT >5 times ULN with or<br/>without signs and symptoms of hepatitis, stop TPT and do<br/>not reintroduce."
+     }
+    ],
+    [
+     {
+      "t": "Peripheral<br/>neuropathy"
+     },
+     {
+      "t": "Isoniazid"
+     },
+     {
+      "t": "• Use brief peripheral neuropathy scoring system<br/>(BPNS) to screen and assess the severity of peripheral<br/>neuropathy.<br/>• If mild: give 100 to 150 mg of pyridoxine in adults and 50<br/>mg in children.<br/>• If not better or worsened with an increased pyridoxine<br/>dose, stop the H-containing regimen and consider<br/>switching to 4R."
+     }
+    ],
+    [
+     {
+      "t": "Skin<br/>hypersensitivity<br/>reaction"
+     },
+     {
+      "t": "Rifampicin, Rifapentine,<br/>Isoniazid"
+     },
+     {
+      "t": "• If itchiness and localized mild rashes occur, give calamine<br/>lotion or steroid cream to apply bid on the affected area;<br/>chlorpheniramine 8 mg tid or bid orally may be given.<br/>• If itchiness, generalized rashes, or swelling of oral or nasal<br/>mucosa with or without fever, withhold TPT.<br/>• For mild or moderate hypersensitivity reaction,<br/>desensitization may be attempted with a low dose rechallenge once the rash resolves starting with isoniazid<br/>alone at 1/6 normal dose on day 1, then full dose on day<br/>2 and subsequently monitoring closely, especially on the<br/>completion of antihistamines (at least weekly to 2-weekly<br/>for the first month then monthly).<br/>• If a rash does not recur, continue isoniazid monotherapy<br/>ensuring that the client gets a total of 180 doses.<br/>If rash recurs, do not rechallenge with isoniazid.<br/>Alternative regimen 4R may be considered by re-introduction with a low dose (1/6 of the dose) on day 1 and then a full dose on day 2.<br/>• If desensitization cannot be performed, an alternative regimen (e.g. 4R or 6H) may be considered<br/>• Never reintroduce after severe hypersensitivity reaction or Stevens-Johnson syndrome."
+     }
+    ],
+    [
+     {
+      "t": "Orange-red discoloration of body fluid (tear, saliva, urine, milk, urine)"
+     },
+     {
+      "t": "Rifampicin, rifapentine"
+     },
+     {
+      "t": "• Reassure that it is just the staining from a drug in the regimen and is harmless. Advice to continue TPT."
+     }
+    ],
+    [
+     {
+      "t": "Any occurrence of TB signs and symptoms"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "• Investigate for active TB disease or other diseases.<br/>• If there is no active TB disease, continue TPT.<br/>• If active TB disease, stop TPT and provide DS-TB or DR-TB treatment, as appropriate."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    221
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p224-0580",
+   "page": 224,
+   "image_only": false,
+   "heading_path": "11.13 TPT completion and management of TBI treatment interruption > Table 61: Minimum requirement of TPT completion (doses) and extended duration",
+   "caption": "Table 61: Minimum requirement of TPT completion (doses) and extended duration (TPT regimen<br/>3HP (weekly)<br/>3HR (daily), Total duration (in month)<br/>3<br/>3, Expected No. of doses<br/>12<br/>84, 80% of recommended doses (da)",
+   "replaces_chunks": [
+    "tb-2025-0580"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "TPT regimen<br/>3HP (weekly)<br/>3HR (daily)"
+     },
+     {
+      "t": "Total duration (in month)<br/>3<br/>3"
+     },
+     {
+      "t": "Expected No. of doses<br/>12<br/>84"
+     },
+     {
+      "t": "80% of recommended doses (days)<br/>10<br/>68"
+     },
+     {
+      "t": "Extended time for treatment completion (days) Total duration +33% additional time<br/>112<br/>120"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "6H (daily)"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "182"
+     },
+     {
+      "t": "146"
+     },
+     {
+      "t": "239"
+     }
+    ],
+    [
+     {
+      "t": "4R (daily)"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "120"
+     },
+     {
+      "t": "96"
+     },
+     {
+      "t": "160"
+     }
+    ],
+    [
+     {
+      "t": "1HP (daily)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "28"
+     },
+     {
+      "t": "23"
+     },
+     {
+      "t": "40"
+     }
+    ],
+    [
+     {
+      "t": "6Lfx"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "182"
+     },
+     {
+      "t": "146"
+     },
+     {
+      "t": "239"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    224
+   ],
+   "context_before": "Table 61: Minimum requirement of TPT completion (doses) and extended duration"
+  },
+  {
+   "table_id": "tb-2025-tbl-p224-0582",
+   "page": 224,
+   "image_only": false,
+   "heading_path": "11.13 TPT completion and management of TBI treatment interruption > Table 62: Management of TPT interruption or missed dose",
+   "caption": "Table 62: Management of TPT interruption or missed dose (TPT regimen, Duration of treatment interruption, Next Steps)",
+   "replaces_chunks": [
+    "tb-2025-0582",
+    "tb-2025-0583",
+    "tb-2025-0584"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "TPT regimen"
+     },
+     {
+      "t": "Duration of treatment interruption"
+     },
+     {
+      "t": "Next Steps"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "3HP"
+     },
+     {
+      "t": "1 weekly dose missed<br/>More than 1 weekly doses missed"
+     },
+     {
+      "t": "If the missed dose is remembered within the next 2 days, continue to take the remaining doses according to the original schedule. If the missed dose is remembered > 2 days later, take the missed dose immediately, and change the schedule for weekly intake to the day the missed dose was taken, until treatment completion. This will avoid 2 weekly doses being taken fewer than 4 days apart.<br/>If treatment interruption occurred after at least 9 doses were taken within 12 weeks of starting, continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 112 days. If ≥ 4 weekly doses are missed, consider restarting the full TPT course. If an individual has difficulty adhering to a weekly routine, consider dis continuing 3HP and offering an alternative regimen with daily dosing."
+     }
+    ],
+    [
+     {
+      "t": "1HP"
+     },
+     {
+      "t": "Less than 7 doses missed<br/>More than 7 doses missed"
+     },
+     {
+      "t": "Continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 6 weeks (42 days from starting TPT)<br/>If < 7 consecutive doses were missed, consider restarting the complete course of the 1HP regimen. If > 7 doses were missed intermittently, continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 6 weeks (42 days from starting TPT)"
+     }
+    ],
+    [
+     {
+      "t": "3HR, 4R, 6H, 6Lfx"
+     },
+     {
+      "t": "Less than 2 weeks<br/>More than 2 weeks"
+     },
+     {
+      "t": "Resume TPT and add the number of missed doses to the total treatment duration.<br/>Do not change the scheduled date of the next follow-up visit, but postpone the last follow-up visit by the number of extra days to compensate for missed doses. For example, if a child on 3HR misses 3 days of treatment, continue TPT for a total of 3 months + 3 days from the date of start.<br/>If treatment interruption occurs after more than 80% of doses in the regimen have been taken, continue and complete the remaining treatment as per the original plan. If less than 80% of doses in the regimen were taken, and the treatment course can still be completed within the expected treatment duration + 33% additional time, continue and complete the remaining treatment as per the original plan. For example, if an adult on 6H had taken only 120 doses by month 6, the remaining 62 doses can be taken in the next 2 months, without exceeding the 239-day limit. If < 80% of doses in the regimen were taken, and the treatment course cannot be completed within the expected time, consider restarting the full TPT course. A shorter regimen would be preferable."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    224
+   ],
+   "context_before": "Table 62: Management of TPT interruption or missed dose"
+  },
+  {
+   "table_id": "tb-2025-tbl-p226-0587",
+   "page": 226,
+   "image_only": false,
+   "heading_path": "11.15 TPT Outcomes > Table 63: TPT treatment outcomes definition",
+   "caption": "Table 63: TPT treatment outcomes definition (Outcome, Definition)",
+   "replaces_chunks": [
+    "tb-2025-0587"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Outcome"
+     },
+     {
+      "t": "Definition"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Completed treatment"
+     },
+     {
+      "t": "Received the full course of daily INH within 6 to 9 months or weekly Rifapentine-INH or daily Rif-INH within 3-4 months."
+     }
+    ],
+    [
+     {
+      "t": "Lost to follow up"
+     },
+     {
+      "t": "▪ Has taken isoniazid monotherapy. then interrupted for ≥ 60 days or<br/>▪ Has taken Rifampicin and Isoniazid. then interrupted for >30 days or<br/>▪ Has taken Rifapentine and Isoniazid. then interrupted for >30 days."
+     }
+    ],
+    [
+     {
+      "t": "Died"
+     },
+     {
+      "t": "Death from any cause while on TBI treatment."
+     }
+    ],
+    [
+     {
+      "t": "Failed treatment"
+     },
+     {
+      "t": "Develop active TB while on TBI treatment."
+     }
+    ],
+    [
+     {
+      "t": "Transferred out"
+     },
+     {
+      "t": "Transferred to another facility to continue treatment."
+     }
+    ],
+    [
+     {
+      "t": "Treatment discontinued"
+     },
+     {
+      "t": "Treatment is stopped by a healthcare worker due to adverse effects or any other reason."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    226
+   ],
+   "context_before": "Table 63: TPT treatment outcomes definition"
+  },
+  {
+   "table_id": "tb-2025-tbl-p227-0589",
+   "page": 227,
+   "image_only": false,
+   "heading_path": "11.16 Community-based care and support for people taking TPT > Which TBI treatment regimen option to give? > Table 64: The checklist for monitoring adverse events and TB signs and symptoms",
+   "caption": "Table 64: The checklist for monitoring adverse events and TB signs and symptoms (Checklist<br/>Flu-like signs and symptoms: Fever, headache, runny nose, joint pain, etc<br/>Nausea and vomiting, Yes, No)",
+   "replaces_chunks": [
+    "tb-2025-0589"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Checklist<br/>Flu-like signs and symptoms: Fever, headache, runny nose, joint pain, etc<br/>Nausea and vomiting"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "No"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Abdominal pain, and yellow colouration of eye and skin"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Burning sensation, tingling, and numbness in the feet and/or hands"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Skin itchiness, rashes"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Any occurrence of TB signs and symptoms (cough, fever, weight loss, night sweat)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Any “Yes”, refer to health facility"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "If referred to health facility, specify the name of the health facility"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    227
+   ],
+   "context_before": "Table 64: The checklist for monitoring adverse events and TB signs and symptoms"
+  },
+  {
+   "table_id": "tb-2025-tbl-p227-0591",
+   "page": 227,
+   "image_only": false,
+   "heading_path": "11.17 Recording, reporting and monitoring of TPT implementation > Which TBI treatment regimen option to give? > Table 65: TPT cascade for regular review and timely action",
+   "caption": "Table 65: TPT cascade for regular review and timely action (Parameter, No)",
+   "replaces_chunks": [
+    "tb-2025-0591"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Parameter"
+     },
+     {
+      "t": "No"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Total number of TB cases diagnosed"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Number of BC-PTB and CD-PTB cases"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Number of index cases identified for contact investigation"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts (as enumerated by identified index cases)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts screened for TB"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts who screened negative for active TB"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts tested for TBI"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts tested positive for TBI"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts eligible for TPT (for population who do not need TBI test: e.g. PLHIV, Children <5 y.o)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts initiated TPT"
+     },
+     {
+      "t": "0"
+     }
+    ],
+    [
+     {
+      "t": "Number of contacts who completed TPT"
+     },
+     {
+      "t": "0"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    227
+   ],
+   "context_before": "Table 65: TPT cascade for regular review and timely action"
+  },
+  {
+   "table_id": "tb-2025-tbl-p230-0597",
+   "page": 230,
+   "image_only": false,
+   "heading_path": "11.18 Performing TB Infection Tests > Which TBI treatment regimen option to give? > Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus)",
+   "caption": "Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus) (Results, Nil, TB Response, Interpretation)",
+   "replaces_chunks": [
+    "tb-2025-0597"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Results"
+     },
+     {
+      "t": "Nil"
+     },
+     {
+      "t": "TB Response"
+     },
+     {
+      "t": "Interpretation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Positive"
+     },
+     {
+      "t": "≤8.0"
+     },
+     {
+      "t": "TB1 and/or TB2 minus Nil ≥0.35 and ≥25% of Nil"
+     },
+     {
+      "t": "TBI is likely"
+     }
+    ],
+    [
+     {
+      "t": "Negative"
+     },
+     {
+      "t": "≤8.0"
+     },
+     {
+      "t": "Mitogen minus NIL <0.5, TB1 and TB2 minus NIL <0.35<br/>or ≥0.35 and ≥25% of Nil"
+     },
+     {
+      "t": "TBI is not likely"
+     }
+    ],
+    [
+     {
+      "t": "Indeterminate"
+     },
+     {
+      "t": ">8.0"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "The likelihood of TBI<br/>cannot be determined"
+     }
+    ],
+    [
+     {
+      "t": "Indeterminate"
+     },
+     {
+      "t": "≤8.0"
+     },
+     {
+      "t": "TB1 and TB2 <0.35 or ≥0.35 and ≥25% of Nil and<br/>Mitogen minus Nil <0.5"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    230
+   ],
+   "context_before": "Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus) Note: The NTP may introduce an Interferon-Gamma Release Assay (IGRA) in the future. The IGRA test measures the response of immune cells to simulated TB proteins when they are mixed with a small amount of whole blood. Currently, there are two types of commercially available and WHO-recommended IGRA tests: QuantiFERON(R) TB Gold in Tube and T-SPOT(R) TB."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "tb-2025-fig-growth-curve-example",
+   "page": 231,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.19 Example of Drawing Growth Curve",
+   "caption": "Figure 37. Example of drawing a child growth curve on the WHO weight-for-age chart for girls (birth to 5 years, z-scores)",
+   "replaces_chunks": [
+    "tb-2025-0599",
+    "tb-2025-0600",
+    "tb-2025-0601"
+   ],
+   "content": "Figure 37 reproduces the WHO weight-for-age chart for girls, birth to 5 years (z-score lines), with an example: a 2-year-old girl weighing 14 kg is plotted, illustrating how to read the z-score from the chart (the annotation on the chart reads '2 years old girl with 14kg weight = -2 Z score'). Use the WHO growth standards for the reference values.",
+   "footnotes": [],
+   "source_flags": [
+    "The chart annotation says a 2-year-old girl weighing 14 kg is at -2 Z score; on the WHO girls' weight-for-age standard 14 kg at 24 months is above +1 SD (the -2 SD line is about 9 kg). The example appears wrong.",
+    "The earlier chunk listed z-score weights by age that are not printed in the PDF (and are not the WHO values, e.g. a median birth weight of 2.4 kg); they have been removed."
    ]
   }
  ],

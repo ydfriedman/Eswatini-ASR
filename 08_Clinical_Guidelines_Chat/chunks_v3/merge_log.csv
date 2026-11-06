@@ -1451,7 +1451,7 @@ tb-2025-0068,replaced,tb-2025-tbl-p38-0064
 tb-2025-0070,replaced,tb-2025-tbl-p39-0070
 tb-2025-0109,replaced,tb-2025-tbl-p54-0109
 tb-2025-0113,replaced,tb-2025-tbl-p55-0113
-tb-2025-0115,replaced,tb-2025-tbl-p55-0113
+tb-2025-0115,replaced,tb-2025-tbl-p56-0115
 tb-2025-0119,replaced,tb-2025-tbl-p57-0119
 tb-2025-0120,replaced,tb-2025-tbl-p57-0120
 tb-2025-0124,replaced,tb-2025-tbl-p57-0120
@@ -1529,6 +1529,57 @@ tb-2025-0392,replaced,tb-2025-fig-screen-children
 tb-2025-0393,replaced,tb-2025-fig-screen-children-plhiv
 tb-2025-0394,replaced,tb-2025-fig-screen-children-plhiv
 tb-2025-0395,replaced,tb-2025-fig-screen-children-plhiv
+tb-2025-0407,replaced,tb-2025-tbl-p161-0407
+tb-2025-0408,replaced,tb-2025-tbl-p161-0407
+tb-2025-0410,replaced,tb-2025-tbl-p162-0410
+tb-2025-0413,replaced,tb-2025-tbl-p163-0413
+tb-2025-0423,replaced,tb-2025-tbl-p168-0423
+tb-2025-0445,replaced,tb-2025-tbl-p178-0445
+tb-2025-0463,replaced,tb-2025-tbl-p184-0463
+tb-2025-0470,replaced,tb-2025-fig-qtc-management
+tb-2025-0471,replaced,tb-2025-fig-qtc-management
+tb-2025-0478,replaced,tb-2025-fig-liver-management
+tb-2025-0479,replaced,tb-2025-fig-liver-management
+tb-2025-0492,replaced,tb-2025-tbl-p194-0492
+tb-2025-0493,replaced,tb-2025-tbl-p194-0493
+tb-2025-0495,replaced,tb-2025-tbl-p194-0493
+tb-2025-0497,replaced,tb-2025-tbl-p194-0493
+tb-2025-0499,replaced,tb-2025-tbl-p196-0499
+tb-2025-0505,replaced,tb-2025-tbl-p198-0505
+tb-2025-0507,replaced,tb-2025-tbl-p198-0507
+tb-2025-0516,replaced,tb-2025-tbl-p201-0516
+tb-2025-0517,replaced,tb-2025-tbl-p201-0516
+tb-2025-0520,replaced,tb-2025-tbl-p203-0520
+tb-2025-0528,replaced,tb-2025-tbl-p205-0528
+tb-2025-0529,replaced,tb-2025-tbl-p205-0528
+tb-2025-0533,replaced,tb-2025-tbl-p206-0533
+tb-2025-0543,replaced,tb-2025-fig-tpt-adult-contacts
+tb-2025-0549,replaced,tb-2025-tbl-p212-0549
+tb-2025-0550,replaced,tb-2025-tbl-p212-0549
+tb-2025-0551,replaced,tb-2025-tbl-p212-0549
+tb-2025-0552,replaced,tb-2025-tbl-p212-0549
+tb-2025-0554,replaced,tb-2025-tbl-p214-0554
+tb-2025-0555,replaced,tb-2025-tbl-p214-0554
+tb-2025-0557,replaced,tb-2025-tbl-p215-0557
+tb-2025-0559,replaced,tb-2025-tbl-p216-0559
+tb-2025-0560,replaced,tb-2025-tbl-p216-0559
+tb-2025-0562,replaced,tb-2025-tbl-p216-0559
+tb-2025-0571,replaced,tb-2025-tbl-p220-0571
+tb-2025-0573,replaced,tb-2025-tbl-p221-0573
+tb-2025-0574,replaced,tb-2025-tbl-p221-0573
+tb-2025-0575,replaced,tb-2025-tbl-p221-0573
+tb-2025-0576,replaced,tb-2025-tbl-p221-0573
+tb-2025-0580,replaced,tb-2025-tbl-p224-0580
+tb-2025-0582,replaced,tb-2025-tbl-p224-0582
+tb-2025-0583,replaced,tb-2025-tbl-p224-0582
+tb-2025-0584,replaced,tb-2025-tbl-p224-0582
+tb-2025-0587,replaced,tb-2025-tbl-p226-0587
+tb-2025-0589,replaced,tb-2025-tbl-p227-0589
+tb-2025-0591,replaced,tb-2025-tbl-p227-0591
+tb-2025-0597,replaced,tb-2025-tbl-p230-0597
+tb-2025-0599,replaced,tb-2025-fig-growth-curve-example
+tb-2025-0600,replaced,tb-2025-fig-growth-curve-example
+tb-2025-0601,replaced,tb-2025-fig-growth-curve-example
 tb-2025-0022,label,1.1 Introduction > Introduction and Country Background > Table 1: Summary of Changes and New Recommendations in the Guidelines => Chapter 1: Background > 1.1 Introduction > Summary of Changes and New Recommendations (continued)
 tb-2025-0029,cleaned,
 tb-2025-0031,label,"1.5 Epidemiology of Tuberculosis > 1.5.1 Global trend in TB incidence > Figure 1: Global TB Incidence Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Incidence"
@@ -1604,14 +1655,18 @@ tb-2025-0388,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment >
 tb-2025-0389,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.13 Management of a Newborn from a Mother with TB"
 tb-2025-0390,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.14 TB Preventive Treatment in Children"
 tb-2025-0402,emptied,
+tb-2025-0418,cleaned,
 tb-2025-0469,emptied,
 tb-2025-0472,emptied,
 tb-2025-0475,emptied,
 tb-2025-0477,emptied,
 tb-2025-0480,emptied,
 tb-2025-0487,cleaned,
+tb-2025-0519,cleaned,
+tb-2025-0536,cleaned,
 tb-2025-0538,emptied,
 tb-2025-0542,emptied,
+tb-2025-0548,cleaned,
 tb-2025-0594,emptied,
 tb-2025-0603,cleaned,
 tb-2025-0610,cleaned,
@@ -1630,6 +1685,7 @@ tb-2025-0320,merged into,tb-2025-0319
 tb-2025-0350,merged into,tb-2025-0349
 tb-2025-0451,merged into,tb-2025-0450
 tb-2025-0486,merged into,tb-2025-0485
+tb-2025-0496,merged into,tb-2025-0494
 tb-2025-0511,merged into,tb-2025-0510
 tb-2025-0519,merged into,tb-2025-0518
 tb-2025-0564,merged into,tb-2025-0563

@@ -26,6 +26,8 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 - TB 2025 part 2 (TB_2.pdf = pages 85-157, offset 84; page text copied into the same work dir as pN.txt/pgN.jpg with original numbering): tables in `batches/tb_b03.py` (generated), Figures 23-24 in `tb_b04.py`. Flowcharts on pp.86, 118, 145, 146 match the images and are kept. Pipeline: add tb_b01, tb_b02, tb_b03, tb_b04. Hand labels for 33 part-2 text chunks and a clinical read done; Table 35/36 split fixed by hand in tb_b03 (after the generated items); text_fix_pages [1,157].
 - Generator bug fixed (scratchpad gen_tables.py / lk_gen.py): a continuation chunk's first row (marked as a header by LlamaParse) was being dropped, and merged cells were trimmed with strip('<br/>'). Affected tables in TB part 1 (5) and Linkages (5, incl. the Day-0 responsibilities table) were regenerated; lk_b01 and tb_b01 keep their hand-written tails.
 
+- TB 2025 part 3 (TB_3.pdf = pages 158-231, offset 157): tables `tb_b05.py` (generated with gen_tables3.py; growth chart Figure 37 replaced by a description), flagged flowcharts `tb_b06.py` (Figures 28, 31, 35). Figures 29, 34 checked and match; Figures 30, 32 (same layout as 28/29/31) and the PV/HTS/QFT charts kept unchecked. Generator now starts a new table when a chunk opens with a different bold header row (split TB part-1 Tables 8/9). Pipeline: tb_b01..tb_b06. No hand text labels or clinical read of part-3 tables yet.
+
 ## Next after that
 The other guidelines, once the user provides the PDFs. Suggested order: TB 2025 and HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 
