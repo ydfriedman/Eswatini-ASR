@@ -1,0 +1,742 @@
+{
+ "doc_id": "fp-2021",
+ "doc_title": "Eswatini National Family Planning Services Guidelines (2021)",
+ "method": "Tables rebuilt from the original LlamaParse chunks (split rows merged, pieces joined, markdown removed) with every word checked against the PDF text layer and key tables checked against the page images.",
+ "pdf_parts": [
+  {
+   "file": "FP_1.pdf",
+   "pages": "1-67"
+  }
+ ],
+ "tables": [
+  {
+   "table_id": "fp-2021-tbl-p29-0037",
+   "page": 29,
+   "image_only": false,
+   "heading_path": "5 Natural Family Planning Method > 5.2 Abstinence > Advantages and disadvantages",
+   "caption": "Abstinence: Advantages and disadvantages (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0037"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Encourages partner’s communication on contraception<br/>• Abstinence has no side effects<br/>• It is supported by religious beliefs and socio-cultural norms.<br/>• Delays sexual debut for the adolescents and young people<br/>• Provides 100% protection against pregnancy and reduces risk of sexually transmitted infections and HIV."
+     },
+     {
+      "t": "• Both partners must decide, agree and be fully committed to use abstinence.<br/>• It requires self-control<br/>• It can have a high failure rate, especially if drugs and alcohol are used."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    29
+   ],
+   "context_before": "Advantages and disadvantages"
+  },
+  {
+   "table_id": "fp-2021-tbl-p31-0043",
+   "page": 31,
+   "image_only": false,
+   "heading_path": "5 Natural Family Planning Method > 5.3 Fertility Awareness Methods > Advantages and disadvantages",
+   "caption": "Fertility Awareness Methods: Advantages and disadvantages (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0043"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Fertility Awareness methods have no side effects.<br/>• Improve knowledge of the reproductive system and understanding of menstrual cycle.<br/>• Shared responsibility by partners.<br/>• Less expensive.<br/>• Do not require procedures and usually do not require supplies<br/>• Limited need for professional consultation.<br/>• Allows some partners to adhere to their religious or cultural norms<br/>• Can assist partners in achieving a wanted pregnancy.<br/>• Return to fertility is immediate."
+     },
+     {
+      "t": "• No protection against sexually transmitted infections including HIV<br/>• Need cooperation and commitment by both partners.<br/>• Require intensive education and instruction before being confident to use method.<br/>• May not be easy to use if menstrual cycle is irregular.<br/>• Require accurate record keeping.<br/>• Unreliable if client is breastfeeding and has amenorrhea.<br/>• Has a high failure rate if client is not well trained and there is no commitment and cooperation between partners."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    31
+   ],
+   "context_before": "Advantages and disadvantages"
+  },
+  {
+   "table_id": "fp-2021-tbl-p32-0044",
+   "page": 32,
+   "image_only": false,
+   "heading_path": "5 Natural Family Planning Method > 5.3 Fertility Awareness Methods > When to Start",
+   "caption": "When to Start (Woman’s situation, Symptoms Based Methods, Calendar Method)",
+   "replaces_chunks": [
+    "fp-2021-0044",
+    "fp-2021-0045"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Woman’s situation"
+     },
+     {
+      "t": "Symptoms Based Methods"
+     },
+     {
+      "t": "Calendar Method"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Regular menstrual cycles"
+     },
+     {
+      "t": "• Any time of the month.<br/>• No need to wait until the start of next monthly bleeding"
+     },
+     {
+      "t": "• Any time of the month<br/>• No need to wait until the start of next monthly bleeding."
+     }
+    ],
+    [
+     {
+      "t": "Amenorrhoea"
+     },
+     {
+      "t": "• Delay until menses return"
+     },
+     {
+      "t": "• Delay until menses return"
+     }
+    ],
+    [
+     {
+      "t": "After childbirth (whether or not breastfeeding)"
+     },
+     {
+      "t": "• She can start symptoms-based methods once normal vaginal secretions have returned.<br/>• Normal vaginal secretions will return later in breastfeeding women than in women who are not breastfeeding."
+     },
+     {
+      "t": "• Delay the method until she has had 3-6 menstrual cycles, and the last one was 26 to 32 days long<br/>• Regular cycles will return later in breastfeeding women than in women who are not breastfeeding"
+     }
+    ],
+    [
+     {
+      "t": "After miscarriage or abortion"
+     },
+     {
+      "t": "• She can start immediately with special counselling and support, if she has no infection-related secretions or bleeding due to injury to the genital tract."
+     },
+     {
+      "t": "• Delay until the start of her next monthly period, if she has no infection-related secretions or bleeding due to injury to the genital tract."
+     }
+    ],
+    [
+     {
+      "t": "Switching from a hormonal method"
+     },
+     {
+      "t": "• She can start symptoms-based methods in the next menstrual cycle after stopping a hormonal method. Use of condom is encouraged while waiting for the next menstrual cycle."
+     },
+     {
+      "t": "• Delay starting the Standard Days Method until the start of her next monthly bleeding.<br/>• If she is switching from injectables, delay the Standard Days Method at least until her repeat injection would have been due, and then start it at the beginning of her next monthly bleeding"
+     }
+    ],
+    [
+     {
+      "t": "After taking emergency contraceptive pills"
+     },
+     {
+      "t": "• She can start symptoms-based methods once normal secretions have returned."
+     },
+     {
+      "t": "• Delay the Standard Days Method until the start of her next monthly bleeding."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    32
+   ],
+   "context_before": "When to Start"
+  },
+  {
+   "table_id": "fp-2021-tbl-p34-0048",
+   "page": 34,
+   "image_only": false,
+   "heading_path": "5 Natural Family Planning Method > 5.4 Lactational Amenorrhea Method (LAM) > Advantages and disadvantages",
+   "caption": "Lactational Amenorrhea Method (LAM): Advantages and disadvantages (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0048"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Is universally available and free.<br/>• Helps protect against the risk of<br/>pregnancy<br/>• Encourages exclusive<br/>breastfeeding.<br/>• It does not interfere with the act<br/>of sexual intercourse.<br/>• No supplies or procedures<br/>needed and has no side effects.<br/>• Effective in all women<br/>regardless of body weight"
+     },
+     {
+      "t": "• Provides no protection against<br/>STI’s including HIV.<br/>• Effectiveness after exclusive<br/>breastfeeding period is not certain.<br/>• Frequent breastfeeding may<br/>be inconvenient or difficult for<br/>some women, especially working<br/>mothers.<br/>• If the mother is HIV positive there<br/>is a risk that the virus will be<br/>transmitted to the baby through the<br/>breast milk.<br/>• If woman develops severe medical<br/>breasts conditions, the method can<br/>be compromised."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    34
+   ],
+   "context_before": "Advantages and disadvantages"
+  },
+  {
+   "table_id": "fp-2021-tbl-p35-0053",
+   "page": 35,
+   "image_only": false,
+   "heading_path": "5 Natural Family Planning Method > 5.5 Coitus Interruptus > Advantages and disadvantages",
+   "caption": "Coitus Interruptus: Advantages and disadvantages (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0053"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Can be used at any time<br/>• It does not affect breastfeeding.<br/>• Always available as a back-up method and no need for professional supervision.<br/>• No related cost and no use of chemicals or devices needed.<br/>• Accepted by religious, cultural and other beliefs.<br/>• Promotes male involvement and partner communication."
+     },
+     {
+      "t": "• No protection against STI’s including HIV.<br/>• High failure rate if not used correctly and consistently.<br/>• Need for self-control and discipline during sexual intercourse.<br/>• Interrupts act of sexual intercourse.<br/>• Requires the willingness, commitment of both sexual partners"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    35
+   ],
+   "context_before": "Advantages and disadvantages"
+  },
+  {
+   "table_id": "fp-2021-tbl-p38-0058",
+   "page": 38,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > When a pill or more is missed",
+   "caption": "When a pill or more is missed (Number of Missed Pills, Action to be taken)",
+   "replaces_chunks": [
+    "fp-2021-0058"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Number of Missed Pills"
+     },
+     {
+      "t": "Action to be taken"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1 pill"
+     },
+     {
+      "t": "She should take the pill as soon as she can then continue at the usual time. Use a backup method for 2 days after the missed pill."
+     }
+    ],
+    [
+     {
+      "t": "2 pills"
+     },
+     {
+      "t": "She should take 2 pills as soon as she can and take another 2 pills the next day then return to her regular schedule on the 3rd day. A backup method of contraception should be used."
+     }
+    ],
+    [
+     {
+      "t": "3 pills"
+     },
+     {
+      "t": "Do not attempt to replace as above; She should use a backup method of contraception and report to the health facility for professional help as soon as possible."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Missed progestin-only pills: the instructions ('take 2 pills as soon as she can and another 2 the next day'; for 3 missed pills 'do not attempt to replace') are combined-pill style. For POPs, WHO advises taking one pill as soon as possible whenever a pill is more than 3 hours late (27 hours for desogestrel), continuing daily, and using a backup method for the next 2 days."
+   ],
+   "pages": [
+    38
+   ],
+   "context_before": "When a pill or more is missed;"
+  },
+  {
+   "table_id": "fp-2021-tbl-p38-0059",
+   "page": 38,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Advantages and disadvantages of POPs",
+   "caption": "Progesterone-Only Oral Pills (pops): Advantages and disadvantages of POPs (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0059"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Can be used during breastfeeding anytime between giving birth and 6 months<br/>• Do not affect breast milk production.<br/>• Suitable for women with risk factors such as heart attack, stroke and thrombosis.<br/>• Less side effects such as acne and weight gain.<br/>• Return to fertility is immediate upon discontinuation.<br/>• Non contraceptive health benefits which include prevention of endometrial cancer, and anaemia."
+     },
+     {
+      "t": "• Do not protect against STIs including HIV and AIDS<br/>• They require strict daily pill-taking, preferably at the same time each day<br/>• Irregular bleeding and spotting is common<br/>• Less effective in women who are not breastfeeding<br/>• Effectiveness may decrease if clients are also taking some other medications (anti-TB drugs, anticonvulsants and antiretroviral (Retinovir boosted and NNRTI based, etc) so a client should use a backup method or change the medication/ method altogether.<br/>• Effectiveness may also be lowered in the presence of diarrhoea and vomiting"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    38
+   ],
+   "context_before": "Advantages and disadvantages of POPs"
+  },
+  {
+   "table_id": "fp-2021-tbl-p40-0060",
+   "page": 40,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Who can use POPs: MEC",
+   "caption": "Who can use POPs: MEC (MEC Category 1, MEC Category 2, MEC Category 3, MEC Category 4)",
+   "replaces_chunks": [
+    "fp-2021-0060",
+    "fp-2021-0061"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "MEC Category 1"
+     },
+     {
+      "t": "MEC Category 2"
+     },
+     {
+      "t": "MEC Category 3"
+     },
+     {
+      "t": "MEC Category 4"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Are breastfeeding (she can start immediately after childbirth)<br/>• Have or have not had children (Parous and nulliparous)<br/>• Are married or are not married<br/>• Are of any age, including adolescents and women over 40 years old<br/>• Have just had an abortion, miscarriage, or ectopic pregnancy<br/>• Smoke cigarettes, regardless of woman’s age or number of cigarettes smoked<br/>• Have anaemia presently or in the past • Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
+     },
+     {
+      "t": "• Elevated blood pressure (systolic >/= 160, diastolic >/= 100)<br/>• History of stroke for initiating clients<br/>• History of or current ischaemic heart disease for initiating clients<br/>• History of DVT or current DVT on anticoagulant therapy<br/>• Major surgery with prolonged immobilization<br/>• Systemic lupus erythematous (associated with severe thrombocytopenia or are on Immunosuppressive treatment) • Irregular, heavy or prolonged vaginal bleeding<br/>• Unexplained vaginal bleeding before evaluation<br/>• Undiagnosed breast mass"
+     },
+     {
+      "t": "• Acute DVT or pulmonary embolism<br/>• History of or current Ischemic heart disease for continuing clients<br/>• History of stroke for continuing clients<br/>• Systemic Lupus Erythematosus with positive antiphospholipid antibodies<br/>• Epilepsy on certain anticonvulsants (phenytoin, carbamazepine, barbiturates etc).<br/>• TB patients on Rifampicin or Rifabutin therapy • ARV therapy with Ritonavir-boosted protease inhibitors<br/>• Headaches with aura at any age<br/>• Severe cirrhosis decompensated."
+     },
+     {
+      "t": "• Current breast cancer"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "POP eligibility categories differ from the WHO MEC: elevated BP ≥160/100, history of DVT, stroke and ischaemic heart disease at initiation are WHO category 2 for POPs (here 3); acute DVT/PE, ischaemic heart disease or stroke while continuing, and SLE with antiphospholipid antibodies are WHO category 3 (here 4)."
+   ],
+   "pages": [
+    40
+   ],
+   "context_before": "Who can use POPs: MEC Nearly all women can use POPs safely and effectively, including women who:"
+  },
+  {
+   "table_id": "fp-2021-tbl-p46-0076",
+   "page": 46,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > Advantages and disadvantages of POIs",
+   "caption": "PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs): Advantages and disadvantages of POIs (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0076"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Can be used during breastfeeding starting after childbirth<br/>• Do not affect breast milk production<br/>• Suitable for women with risk factors such as heart attack, stroke and thrombosis.<br/>• Provides highly effective protection against pregnancy.<br/>• Ensures periodic contact with medical or trained health personnel.<br/>• Only requires to remember the clinic return dates<br/>• It can be confidential: no one else can tell that a woman is using contraception<br/>• Non-contraceptive health benefits which include prevention of endometrial cancer, uterine fibroids, endometrial cancers, Pelvic Inflammatory Diseases, endometriosis and anaemia.<br/>• Decreases incidence of pre-menstrual or postmenstrual depression and epileptic seizures<br/>• Do not make a woman infertile and do not disrupt an existing pregnancy"
+     },
+     {
+      "t": "• Do not protect against STIs including HIV and AIDS<br/>• May cause changes in menstrual bleeding patterns.<br/>• May cause indirect weight changes and acne.<br/>• Requires repeat injection every 2 or 3 months.<br/>• There may be delayed return to fertility and cannot be reversed immediately.<br/>• May cause headaches, breast tenderness, nausea, hair loss, reduced and changes in libido"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    46
+   ],
+   "context_before": "Advantages and disadvantages of POIs"
+  },
+  {
+   "table_id": "fp-2021-tbl-p50-0085",
+   "page": 50,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.4 Combined Oral Contraceptives (COCs) > Advantages and disadvantages of using COCs",
+   "caption": "Combined Oral Contraceptives (COCs): Advantages and disadvantages of using COCs (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0085"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Easy to use<br/>• Can be used from adolescence to menopause; by nulliparous and multiparous women; provided that no risk factors exist.<br/>Help protect against:<br/>• Risks of pregnancy<br/>• Cancer of the lining of the uterus (endometrial cancer)<br/>• Cancer of the ovary<br/>• Symptomatic pelvic inflammatory disease<br/>• Ovarian cysts<br/>• Iron-deficiency anaemia<br/>• Reduce menstrual cramps<br/>• Supresses menstrual bleeding problems<br/>• Reduce ovulation pain<br/>• Reduce excess hair on face or body<br/>• Minimises symptoms of polycystic ovarian syndrome (irregular period, acne, excess hair on face or body)<br/>• Reduce symptoms of endometriosis (pelvic pain, irregular bleeding)"
+     },
+     {
+      "t": "• Does not protect against STIs and HIV infection.<br/>• Must be taken daily and at the same time<br/>• Require an individual to obtain regular supplies.<br/>• Effectiveness may be lowered if client is on anti-TB drugs (Rifampicin or Rifabutin therapy), anti-epilepsy treatment and some ARVs indicating a need for a backup method.<br/>• Effectiveness may also be lowered in the presence of diarrhoea and vomiting<br/>• Reduce milk production in breastfeeding women.<br/>• May cause mood changes and low libido to some women<br/>• Can increase the risk of Myocardial Infarction (MI) in women with existing risk factors such as smoking, Diabetes or hypertension."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    50
+   ],
+   "context_before": "Advantages and disadvantages of using COCs"
+  },
+  {
+   "table_id": "fp-2021-tbl-p51-0086",
+   "page": 51,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.4 Combined Oral Contraceptives (COCs) > Who can use COCs",
+   "caption": "Combined Oral Contraceptives (COCs): Who can use COCs (MEC Category 1, MEC Category 2, MEC Category 3, MEC Category 4)",
+   "replaces_chunks": [
+    "fp-2021-0086",
+    "fp-2021-0087"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "MEC Category 1"
+     },
+     {
+      "t": "MEC Category 2"
+     },
+     {
+      "t": "MEC Category 3"
+     },
+     {
+      "t": "MEC Category 4"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Nearly all women can use COCs safely and effectively, including women who:<br/>• Have or have not had children<br/>• Are of any age, including adolescents and women over 40 years old<br/>• After childbirth and during breastfeeding, after a period of time • Have just had an abortion, miscarriage, or ectopic pregnancy<br/>• Smoke cigarettes, if under 35 years old<br/>• Have anemia now or had in the past<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
+     },
+     {
+      "t": "• Age above 40 years<br/>• Breastfeeding more than 6 months after delivery<br/>• Non-breastfeeding women 21 – 42 days with no risk of venous thromboembolism<br/>• Smoking and age less than 35 years<br/>• Obesity<br/>• History of p high blood pressure during pregnancy<br/>• Family history of DVT/PE<br/>• Major surgery without prolonged immobilization<br/>• Superficial thrombophlebitis<br/>• Uncomplicated Valvular heart disease • Systemic lupus erythematous (associated with severe thrombocytopenia or are on Immunosuppressive treatment)<br/>• Non-migraine headache (mild or severe) in continuing clients<br/>• Migraine headache without aura at age less than 35 years for Initiating clients<br/>• Unexplained vaginal bleeding before evaluation<br/>• Cervical intraepithelial neoplasia or cervical cancer awaiting treatment<br/>• Undiagnosed breast mass<br/>• Insulin dependent Diabetes Mellitus<br/>• Asymptomatic gall bladder disease<br/>• HIV treatment with NNRTIs and PIs"
+     },
+     {
+      "t": "• Breastfeeding 6 weeks to 6 months after delivery<br/>• Acute Viral hepatitis<br/>• TB patients on Rifampicin or Rifabutin therapy<br/>• Anticonvulsant therapy (phenytoin, carbamazepine, barbiturates)"
+     },
+     {
+      "t": "• Breastfeeding less than 6 weeks postpartum<br/>• Smoking and age more than 35 year (smoking more than 15 cigarettes/day)<br/>• Non-breastfeeding less than 21 days after delivery with or without risk of venous thromboembolism<br/>• Symptomatic gall bladder disease (medically treated and current)<br/>• Severe hypertension (systolic >160 or diastolic >100 mm Hg) and hypertension with vascular complications<br/>• Hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension) • History of DVT/PE or current DVT/PE or DVT/PE on anticoagulant therapy<br/>• Major surgery with prolonged immobilization<br/>• History of stroke<br/>• History of or current ischaemic heart disease<br/>• Complicated Valvular heart disease<br/>• Systemic Lupus Erythematosus with positive antiphospholipid antibodies<br/>• Migraine headache with aura at any age<br/>• Severe liver cirrhosis (decompensated)<br/>• Current breast cancer<br/>• Liver Cancer<br/>• Known thrombogenic mutation<br/>• Benign liver tumours"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "COCs category 4 includes 'hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)'; in the WHO MEC adequately controlled hypertension and BP 140-159/90-99 are category 3, and only BP ≥160/≥100 or vascular disease is category 4."
+   ],
+   "pages": [
+    51
+   ],
+   "context_before": "Who can use COCs:"
+  },
+  {
+   "table_id": "fp-2021-tbl-p56-0099",
+   "page": 56,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.5 Combined Injectable Contraceptives (CICs) > Advantages and disadvantages",
+   "caption": "Combined Injectable Contraceptives (CICs): Advantages and disadvantages (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0099"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Do not require daily action<br/>• Are private:<br/>No one else can tell that a woman is using contraception<br/>• Can be stopped at any time<br/>• Are good for spacing births"
+     },
+     {
+      "t": "• Does not protect against STIs and HIV infection.<br/>• Requires injection monthly<br/>• Must be administered by a trained health service provider.<br/>• Effectiveness may be lowered if client is on anti-TB drugs (Rifampicin or Rifabutin therapy), anti-epilepsy treatment and some ARVs etc., indicating a need for a backup method.<br/>• Cannot be given to breastfeeding women with babies less than six months. It affects the quality and quantity of the milk production among breastfeeding women.<br/>• May affect the menstrual cycle"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    56
+   ],
+   "context_before": "Advantages and disadvantages"
+  },
+  {
+   "table_id": "fp-2021-tbl-p57-0100",
+   "page": 57,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.5 Combined Injectable Contraceptives (CICs) > Who can use CICs",
+   "caption": "Combined Injectable Contraceptives (CICs): Who can use CICs (MEC Category 1, MEC Category 2, MEC Category 3, MEC Category 4)",
+   "replaces_chunks": [
+    "fp-2021-0100",
+    "fp-2021-0101",
+    "fp-2021-0102"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "MEC Category 1"
+     },
+     {
+      "t": "MEC Category 2"
+     },
+     {
+      "t": "MEC Category 3"
+     },
+     {
+      "t": "MEC Category 4"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Women of any parity<br/>• Are of any age, including adolescents and women over 40 years old<br/>• Have just had an abortion or miscarriage<br/>• Smoke any number of cigarettes daily and are under 35 years old"
+     },
+     {
+      "t": "• Age above 40 years<br/>• Breastfeeding more than 6 months after delivery<br/>• Non-breastfeeding women 21 – 42 day with no risk of venous thromboembolism<br/>• Smoking and age less than 35 years<br/>• Obesity<br/>• History of high blood pressure during pregnancy where blood pressure is measured and is normal<br/>• Family history of DVT/PE<br/>• Major surgery without prolonged immobilization<br/>• Superficial thrombosis<br/>• Uncomplicated Valvular heart disease"
+     },
+     {
+      "t": "• Breastfeeding 6 weeks to 6 months after delivery<br/>• Non-breastfeeding less than 21 days after delivery with or without risk of venous thromboembolism<br/>• Smoking and age more than 35 years"
+     },
+     {
+      "t": "• Breastfeeding less than 6 weeks postpartum<br/>• Severe hypertension (systolic >160 or diastolic >100 mm Hg) and hypertension with vascular complications<br/>• History of DVT/PE or current DVT/PE or DVT/PE on anticoagulant therapy<br/>• Major surgery with prolonged immobilization<br/>• History of stroke<br/>• History of or current ischaemic heart disease<br/>• Complicated Valvular heart disease<br/>• Complicated Diabetes Mellitus (vascular complications e.g. nephropathy, retinopathy)"
+     }
+    ],
+    [
+     {
+      "t": "• Smoke fewer than 15 cigarettes daily and are over 35 years old<br/>• Have anaemia or history of anaemia<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
+     },
+     {
+      "t": "• Systemic lupus erythematous (associated with severe thrombocytopenia or are on Immunosuppressive treatment)<br/>• Non-migraine headache (mild or severe)<br/>• Migraine headache without aura at age less than 35 years for Initiating clients<br/>• Unexplained vaginal bleeding before evaluation<br/>• Cervical intraepithelial neoplasia or cervical cancer awaiting treatment<br/>• Undiagnosed breast mass<br/>• Uncomplicated Diabetes Mellitus<br/>• Asymptomatic gall bladder disease<br/>• HIV treatment with NNRTIs and PIs"
+     },
+     {
+      "t": "• Hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)<br/>• Migraine headache without aura at age less than 35 years for continuing clients<br/>• Symptomatic gall bladder disease<br/>• Acute Viral hepatitis"
+     },
+     {
+      "t": "• HIV/AIDS on treatment<br/>Ritonavir boosted PIs<br/>• TB patients on Rifampicin or Rifabutin therapy<br/>• Systemic Lupus Erythematosus with positive antiphospholipid antibodies<br/>• Migraine headache without aura at age more than 35 years for continuing clients<br/>• Migraine headache with aura at any age<br/>• Severe liver cirrhosis (decompensated)<br/>• Current breast cancer<br/>• Liver Cancer<br/>• Anticonvulsant therapy (phenytoin, carbamazepine, barbiturates)"
+     }
+    ],
+    [
+     {
+      "t": "• Smoke fewer than 15 cigarettes daily and are over 35 years old<br/>• Have anaemia or history of anaemia<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "• Multiple risk factors for arterial cardiovascular disease (such as older age, smoking, diabetes and hypertension"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    57
+   ],
+   "context_before": "Who can use CICs"
+  },
+  {
+   "table_id": "fp-2021-tbl-p63-0115",
+   "page": 63,
+   "image_only": false,
+   "heading_path": "6 Hormonal Contraceptives > 6.6 Implants > Advantages and disadvantages",
+   "caption": "Implants: Advantages and disadvantages (Advantages, Disadvantages)",
+   "replaces_chunks": [
+    "fp-2021-0115"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Advantages"
+     },
+     {
+      "t": "Disadvantages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Provide long-term pregnancy protection.<br/>• Do not require the user to do anything once<br/>they are inserted<br/>• Are both long-lasting and reversible<br/>• Do not interfere with sex<br/>• Very effective for 3 to 5 years, depending on<br/>the type of implant used.<br/>• Immediately reversible.<br/>• Avoids user errors and problems with<br/>resupply<br/>• Helps protect against symptomatic pelvic<br/>inflammatory disease (PID)<br/>• Reduces risk of ectopic pregnancies<br/>• Cut down menstrual pains"
+     },
+     {
+      "t": "• Does not protect<br/>against STIs and HIV/<br/>AIDS<br/>• Require specifically<br/>trained provider to<br/>insert and remove.<br/>• A woman cannot start<br/>or stop implants on her<br/>own."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    63
+   ],
+   "context_before": "Advantages and disadvantages"
+  }
+ ],
+ "text_labels": {
+  "fp-2021-0047": "5 Natural Family Planning Method > 5.4 LACTATIONAL AMENORRHEA METHOD > Effectiveness",
+  "fp-2021-0049": "5 Natural Family Planning Method > 5.4 LACTATIONAL AMENORRHEA METHOD > Women Who Can Use LAM",
+  "fp-2021-0050": "5 Natural Family Planning Method > 5.4 LACTATIONAL AMENORRHEA METHOD > When to start",
+  "fp-2021-0064": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Not breastfeeding > Less than 6 weeks after giving birth",
+  "fp-2021-0065": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > More than 6 weeks after giving birth",
+  "fp-2021-0066": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Switching from a hormonal method",
+  "fp-2021-0067": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Having menstrual bleeding > Any time of the month",
+  "fp-2021-0068": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Amenorrhoeac (not related to childbirth or breastfeeding)",
+  "fp-2021-0069": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > After miscarriage or abortion",
+  "fp-2021-0070": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs",
+  "fp-2021-0071": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > After taking emergency contraceptive pills (ECPs) > After taking postinor ECPs",
+  "fp-2021-0072": "6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Common Side effects",
+  "fp-2021-0077": "6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > Who can use POIs: MEC > MEC Category 1",
+  "fp-2021-0078": "6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > When to start POIs?",
+  "fp-2021-0079": "6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > When to start POIs? > Postpartum client",
+  "fp-2021-0080": "6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > Post abortion",
+  "fp-2021-0081": "6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > Side effects",
+  "fp-2021-0083": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mode of action",
+  "fp-2021-0084": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Effectiveness",
+  "fp-2021-0088": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > When to start",
+  "fp-2021-0089": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > When to start > Switching from a hormonal method",
+  "fp-2021-0090": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > When to start > Exclusive Breastfeeding",
+  "fp-2021-0091": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mixed feeding",
+  "fp-2021-0092": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mixed feeding",
+  "fp-2021-0093": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mixed feeding > Not breastfeeding",
+  "fp-2021-0094": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs",
+  "fp-2021-0095": "6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > After taking emergency contraceptive pills (ECPs) > After taking Postinor or ulipristal acetate (UPA) ECPs",
+  "fp-2021-0097": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Effectiveness",
+  "fp-2021-0098": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Mode of action",
+  "fp-2021-0103": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > When to start CICs",
+  "fp-2021-0104": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > When to start CICs > Switching from a hormonal method",
+  "fp-2021-0105": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > When to start CICs > Exclusive breastfeeding",
+  "fp-2021-0106": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Not breastfeeding",
+  "fp-2021-0107": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > After miscarriage or abortion",
+  "fp-2021-0108": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs",
+  "fp-2021-0109": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > After taking emergency contraceptive pills (ECPs) > After taking Postinor or ulipristal acetate (UPA) ECPs",
+  "fp-2021-0110": "6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Side effects",
+  "fp-2021-0112": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Types of implants",
+  "fp-2021-0113": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Mode of action",
+  "fp-2021-0114": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Effectiveness",
+  "fp-2021-0116": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Side effects",
+  "fp-2021-0117": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Who can use",
+  "fp-2021-0118": "6 Hormonal Contraceptives > 6.6 IMPLANTS > When to start",
+  "fp-2021-0119": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Switching from another hormonal method",
+  "fp-2021-0120": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Exclusive breastfeeding",
+  "fp-2021-0121": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Mixed feeding",
+  "fp-2021-0122": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Not breastfeeding",
+  "fp-2021-0123": "6 Hormonal Contraceptives > 6.6 IMPLANTS > Amenorrhea (not related to childbirth or breastfeeding)",
+  "fp-2021-0124": "6 Hormonal Contraceptives > 6.6 IMPLANTS > After miscarriage or abortion",
+  "fp-2021-0125": "6 Hormonal Contraceptives > 6.6 IMPLANTS > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs",
+  "fp-2021-0126": "6 Hormonal Contraceptives > 6.6 IMPLANTS > After taking postinor ECPs"
+ },
+ "text_merge": {},
+ "text_drop": [],
+ "text_fix_pages": [
+  1,
+  67
+ ]
+}

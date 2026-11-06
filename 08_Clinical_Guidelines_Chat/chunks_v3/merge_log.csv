@@ -1276,7 +1276,6 @@ prep-2025-0086,merged into,prep-2025-0085
 prep-2025-0097,merged into,prep-2025-0096
 prep-2025-0115,merged into,prep-2025-0114
 prep-2025-0140,merged into,prep-2025-0139
-prep-2025-0147,merged into,prep-2025-0146
 prep-2025-0102,dropped,heading-only fragment
 prep-2025-0103,dropped,heading-only fragment
 prep-2025-0194,dropped,heading-only fragment
@@ -1423,7 +1422,6 @@ unaids-linkages-sop-0137,label,"13.8 Linkages Case Management Data Flow and Repo
 unaids-linkages-sop-0169,emptied,
 unaids-linkages-sop-0171,emptied,
 unaids-linkages-sop-0173,emptied,
-unaids-linkages-sop-0030,merged into,unaids-linkages-sop-0029
 unaids-linkages-sop-0083,merged into,unaids-linkages-sop-0082
 unaids-linkages-sop-0088,dropped,heading-only fragment
 unaids-linkages-sop-0119,dropped,heading-only fragment
@@ -1750,24 +1748,132 @@ tb-2025-0733,label,"17.2 Monitoring of TB Case Detection and Treatment Activitie
 tb-2025-0734,label,"17.2 Monitoring of TB Case Detection and Treatment Activities => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.4 Planning (Five-year Plan and Annual Operational Plan)"
 tb-2025-0002,heading moved to,tb-2025-0012
 tb-2025-0363,trailing heading dropped (next is a table/flowchart),## **Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available)**
-tb-2025-0087,merged into,tb-2025-0086
-tb-2025-0118,merged into,tb-2025-0117
 tb-2025-0163,merged into,tb-2025-0162
 tb-2025-0184,merged into,tb-2025-0182
 tb-2025-0186,merged into,tb-2025-0182
 tb-2025-0244,merged into,tb-2025-0243
 tb-2025-0295,merged into,tb-2025-0294
 tb-2025-0320,merged into,tb-2025-0319
-tb-2025-0350,merged into,tb-2025-0349
 tb-2025-0451,merged into,tb-2025-0450
 tb-2025-0486,merged into,tb-2025-0485
-tb-2025-0511,merged into,tb-2025-0510
-tb-2025-0606,merged into,tb-2025-0605
-tb-2025-0642,merged into,tb-2025-0641
 tb-2025-0645,merged into,tb-2025-0644
-tb-2025-0646,merged into,tb-2025-0644
-tb-2025-0656,merged into,tb-2025-0655
-tb-2025-0657,merged into,tb-2025-0655
+tb-2025-0657,merged into,tb-2025-0656
 tb-2025-0561,merged into,tb-2025-0563
 tb-2025-0628,merged into,tb-2025-0629
 tb-2025-0739,dropped,heading-only fragment
+fp-2021-0037,replaced,fp-2021-tbl-p29-0037
+fp-2021-0043,replaced,fp-2021-tbl-p31-0043
+fp-2021-0044,replaced,fp-2021-tbl-p32-0044
+fp-2021-0045,replaced,fp-2021-tbl-p32-0044
+fp-2021-0048,replaced,fp-2021-tbl-p34-0048
+fp-2021-0053,replaced,fp-2021-tbl-p35-0053
+fp-2021-0058,replaced,fp-2021-tbl-p38-0058
+fp-2021-0059,replaced,fp-2021-tbl-p38-0059
+fp-2021-0060,replaced,fp-2021-tbl-p40-0060
+fp-2021-0061,replaced,fp-2021-tbl-p40-0060
+fp-2021-0076,replaced,fp-2021-tbl-p46-0076
+fp-2021-0085,replaced,fp-2021-tbl-p50-0085
+fp-2021-0086,replaced,fp-2021-tbl-p51-0086
+fp-2021-0087,replaced,fp-2021-tbl-p51-0086
+fp-2021-0099,replaced,fp-2021-tbl-p56-0099
+fp-2021-0100,replaced,fp-2021-tbl-p57-0100
+fp-2021-0101,replaced,fp-2021-tbl-p57-0100
+fp-2021-0102,replaced,fp-2021-tbl-p57-0100
+fp-2021-0115,replaced,fp-2021-tbl-p63-0115
+fp-2021-0029,cleaned,
+fp-2021-0032,cleaned,
+fp-2021-0047,label,5 Natural Family Planning Method > Effectiveness => 5 Natural Family Planning Method > 5.4 LACTATIONAL AMENORRHEA METHOD > Effectiveness
+fp-2021-0049,label,5 Natural Family Planning Method > Women Who Can Use LAM => 5 Natural Family Planning Method > 5.4 LACTATIONAL AMENORRHEA METHOD > Women Who Can Use LAM
+fp-2021-0050,label,5 Natural Family Planning Method > When to start => 5 Natural Family Planning Method > 5.4 LACTATIONAL AMENORRHEA METHOD > When to start
+fp-2021-0064,label,6 Hormonal Contraceptives > Not breastfeeding > Less than 6 weeks after giving birth => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Not breastfeeding > Less than 6 weeks after giving birth
+fp-2021-0065,label,6 Hormonal Contraceptives > More than 6 weeks after giving birth => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > More than 6 weeks after giving birth
+fp-2021-0066,label,6 Hormonal Contraceptives > Switching from a hormonal method => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Switching from a hormonal method
+fp-2021-0067,label,6 Hormonal Contraceptives > Having menstrual bleeding > Any time of the month => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Having menstrual bleeding > Any time of the month
+fp-2021-0068,label,6 Hormonal Contraceptives > Amenorrhoeac (not related to childbirth or breastfeeding) => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Amenorrhoeac (not related to childbirth or breastfeeding)
+fp-2021-0069,label,6 Hormonal Contraceptives > After miscarriage or abortion => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > After miscarriage or abortion
+fp-2021-0070,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs
+fp-2021-0071,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking postinor ECPs => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > After taking emergency contraceptive pills (ECPs) > After taking postinor ECPs
+fp-2021-0072,label,6 Hormonal Contraceptives > Common Side effects => 6 Hormonal Contraceptives > 6.2 Progesterone-Only Oral Pills (pops) > Common Side effects
+fp-2021-0077,label,6 Hormonal Contraceptives > Who can use POIs: MEC > MEC Category 1 => 6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > Who can use POIs: MEC > MEC Category 1
+fp-2021-0078,label,6 Hormonal Contraceptives > When to start POIs? => 6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > When to start POIs?
+fp-2021-0079,label,6 Hormonal Contraceptives > When to start POIs? > Postpartum client => 6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > When to start POIs? > Postpartum client
+fp-2021-0080,label,6 Hormonal Contraceptives > Post abortion => 6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > Post abortion
+fp-2021-0081,label,6 Hormonal Contraceptives > Side effects => 6 Hormonal Contraceptives > 6.3 PROGESTON-ONLY INJECTABLE CONTRACEPTIVES (POIs) > Side effects
+fp-2021-0083,label,6 Hormonal Contraceptives > Mode of action => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mode of action
+fp-2021-0084,label,6 Hormonal Contraceptives > Effectiveness => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Effectiveness
+fp-2021-0088,label,6 Hormonal Contraceptives > When to start => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > When to start
+fp-2021-0089,label,6 Hormonal Contraceptives > When to start > Switching from a hormonal method => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > When to start > Switching from a hormonal method
+fp-2021-0090,label,6 Hormonal Contraceptives > When to start > Exclusive Breastfeeding => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > When to start > Exclusive Breastfeeding
+fp-2021-0091,label,6 Hormonal Contraceptives > Mixed feeding => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mixed feeding
+fp-2021-0092,label,6 Hormonal Contraceptives > Mixed feeding => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mixed feeding
+fp-2021-0093,label,6 Hormonal Contraceptives > Mixed feeding > Not breastfeeding => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > Mixed feeding > Not breastfeeding
+fp-2021-0094,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs
+fp-2021-0095,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking Postinor or ulipristal acetate (UPA) ECPs => 6 Hormonal Contraceptives > 6.4 COMBINED ORAL CONTRACEPTIVES (COCs) > After taking emergency contraceptive pills (ECPs) > After taking Postinor or ulipristal acetate (UPA) ECPs
+fp-2021-0097,label,6 Hormonal Contraceptives > Effectiveness => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Effectiveness
+fp-2021-0098,label,6 Hormonal Contraceptives > Mode of action => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Mode of action
+fp-2021-0103,label,6 Hormonal Contraceptives > When to start CICs => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > When to start CICs
+fp-2021-0104,label,6 Hormonal Contraceptives > When to start CICs > Switching from a hormonal method => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > When to start CICs > Switching from a hormonal method
+fp-2021-0105,label,6 Hormonal Contraceptives > When to start CICs > Exclusive breastfeeding => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > When to start CICs > Exclusive breastfeeding
+fp-2021-0106,label,6 Hormonal Contraceptives > Not breastfeeding => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Not breastfeeding
+fp-2021-0107,label,6 Hormonal Contraceptives > After miscarriage or abortion => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > After miscarriage or abortion
+fp-2021-0108,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs
+fp-2021-0109,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking Postinor or ulipristal acetate (UPA) ECPs => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > After taking emergency contraceptive pills (ECPs) > After taking Postinor or ulipristal acetate (UPA) ECPs
+fp-2021-0110,label,6 Hormonal Contraceptives > Side effects => 6 Hormonal Contraceptives > 6.5 COMBINED INJECTABLES CONTRACEPTIVES (CICs) > Side effects
+fp-2021-0112,label,6 Hormonal Contraceptives > Types of implants => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Types of implants
+fp-2021-0113,label,6 Hormonal Contraceptives > Mode of action => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Mode of action
+fp-2021-0114,label,6 Hormonal Contraceptives > Effectiveness => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Effectiveness
+fp-2021-0116,label,6 Hormonal Contraceptives > Side effects => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Side effects
+fp-2021-0117,label,6 Hormonal Contraceptives > Who can use => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Who can use
+fp-2021-0118,label,6 Hormonal Contraceptives > When to start => 6 Hormonal Contraceptives > 6.6 IMPLANTS > When to start
+fp-2021-0119,label,6 Hormonal Contraceptives > Switching from another hormonal method => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Switching from another hormonal method
+fp-2021-0120,label,6 Hormonal Contraceptives > Exclusive breastfeeding => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Exclusive breastfeeding
+fp-2021-0121,label,6 Hormonal Contraceptives > Mixed feeding => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Mixed feeding
+fp-2021-0122,label,6 Hormonal Contraceptives > Not breastfeeding => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Not breastfeeding
+fp-2021-0123,label,6 Hormonal Contraceptives > Amenorrhea (not related to childbirth or breastfeeding) => 6 Hormonal Contraceptives > 6.6 IMPLANTS > Amenorrhea (not related to childbirth or breastfeeding)
+fp-2021-0124,label,6 Hormonal Contraceptives > After miscarriage or abortion => 6 Hormonal Contraceptives > 6.6 IMPLANTS > After miscarriage or abortion
+fp-2021-0125,label,6 Hormonal Contraceptives > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs => 6 Hormonal Contraceptives > 6.6 IMPLANTS > After taking emergency contraceptive pills (ECPs) > After taking progestin-only or combined ECPs
+fp-2021-0126,label,6 Hormonal Contraceptives > After taking postinor ECPs => 6 Hormonal Contraceptives > 6.6 IMPLANTS > After taking postinor ECPs
+fp-2021-0174,emptied,
+fp-2021-0208,emptied,
+fp-2021-0001,heading moved to,fp-2021-0012
+fp-2021-0036,merged into,fp-2021-0035
+fp-2021-0041,merged into,fp-2021-0040
+fp-2021-0042,merged into,fp-2021-0040
+fp-2021-0047,merged into,fp-2021-0046
+fp-2021-0050,merged into,fp-2021-0049
+fp-2021-0052,merged into,fp-2021-0051
+fp-2021-0055,merged into,fp-2021-0054
+fp-2021-0064,merged into,fp-2021-0063
+fp-2021-0065,merged into,fp-2021-0063
+fp-2021-0066,merged into,fp-2021-0063
+fp-2021-0068,merged into,fp-2021-0067
+fp-2021-0071,merged into,fp-2021-0070
+fp-2021-0075,merged into,fp-2021-0074
+fp-2021-0080,merged into,fp-2021-0079
+fp-2021-0081,merged into,fp-2021-0079
+fp-2021-0083,merged into,fp-2021-0082
+fp-2021-0084,merged into,fp-2021-0082
+fp-2021-0093,merged into,fp-2021-0092
+fp-2021-0097,merged into,fp-2021-0096
+fp-2021-0098,merged into,fp-2021-0096
+fp-2021-0110,merged into,fp-2021-0109
+fp-2021-0112,merged into,fp-2021-0111
+fp-2021-0113,merged into,fp-2021-0111
+fp-2021-0114,merged into,fp-2021-0111
+fp-2021-0123,merged into,fp-2021-0122
+fp-2021-0134,merged into,fp-2021-0133
+fp-2021-0136,merged into,fp-2021-0135
+fp-2021-0137,merged into,fp-2021-0135
+fp-2021-0138,merged into,fp-2021-0135
+fp-2021-0140,merged into,fp-2021-0139
+fp-2021-0142,merged into,fp-2021-0141
+fp-2021-0152,merged into,fp-2021-0151
+fp-2021-0153,merged into,fp-2021-0151
+fp-2021-0160,merged into,fp-2021-0159
+fp-2021-0163,merged into,fp-2021-0162
+fp-2021-0164,merged into,fp-2021-0162
+fp-2021-0169,merged into,fp-2021-0168
+fp-2021-0170,merged into,fp-2021-0168
+fp-2021-0171,merged into,fp-2021-0168
+fp-2021-0014,merged into,fp-2021-0015
+fp-2021-0038,merged into,fp-2021-0039

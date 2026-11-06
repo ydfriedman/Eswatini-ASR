@@ -30,6 +30,9 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - TB 2025 part 4 (TB_4.pdf = pages 232-286, offset 231): tables `tb_b07.py` (gen_tables4.py) with clinical flags; labels for 26 text chunks; NOTES page dropped. **TB is complete.** Pipeline: tb_b01..tb_b07.
 
+- FP 2021 part 1 (FP_1.pdf = pages 1-67, no offset; many pages carry an overprinted abbreviation list in the text layer): `batches/fp_b01.py` (generated, then method names, flags). Text labels derived automatically (last numbered section heading within the chapter). Counselling flowchart p25 checked and kept.
+- apply_reextraction.py: the small-chunk merge (step 4) no longer folds a chunk that opens a numbered section into the previous chunk (it was putting e.g. '6.6 Implants' under a CIC label); 11 chunks across PrEP/TB/Linkages/FP are now kept separate.
+
 ## Next after that
 The other guidelines, once the user provides the PDFs. Suggested order: HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 

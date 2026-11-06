@@ -24,6 +24,7 @@ from build_v2 import norm, page_label, plain, sid  # noqa: E402
 from fix_headings import tidy_case  # noqa: E402
 
 SMALL_TOKENS, MERGED_MAX_TOKENS = 80, 400
+NEW_SECTION = re.compile(r'^\s*#*\s*[*_<u>\s]*\d+\.\d+(\.\d+)*\s+\S')
 DROP_LINE = re.compile(r'^\s*[*_\\]*\s*(Flowchart:|Diagram:|image:\s*decorative|Figure\s+\d+(\.\d+)*\b)', re.I)
 NUMBERED = re.compile(r'^\d+(\.\d+)+\s')
 BAD_PART = re.compile(r'^(Flowchart:|Figure\s+\d|Diagram:|Refer to\b)', re.I)
@@ -193,7 +194,8 @@ def main(src, out, pairs):
         merged = []
         for c in chunks:
             small = (c['doc_id'] == doc and c['type'] == 'text' and not c.get('table_id')
-                     and len(c['text']) // 4 < SMALL_TOKENS)
+                     and len(c['text']) // 4 < SMALL_TOKENS
+                     and not NEW_SECTION.match(c['text']))   # a chunk that opens a numbered section keeps its own label
             prev = merged[-1] if merged else None
             if (small and prev and prev['doc_id'] == doc and prev['type'] == 'text' and not prev.get('table_id')
                     and prev['heading_path'].split(' > ')[0] == c['heading_path'].split(' > ')[0]
