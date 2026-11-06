@@ -81,7 +81,8 @@ for s in flat:
 
 old = [json.loads(l) for l in open(old_p)]
 old = [k for k in old if k['doc_id'] == doc and k['type'] == 'text' and first <= k['page_start'] <= last
-       and k['chunk_id'] not in cfg.get('exclude_chunks', [])]   # chunks mapped to items by hand
+       and k['chunk_id'] not in cfg.get('exclude_chunks', [])   # chunks mapped to items by hand
+       and k['chunk_id'] not in {c for t in spec['tables'] if t.get('kind') != 'section' for c in t.get('replaces_chunks', [])}]
 assign, un = collections.defaultdict(list), []
 for k in old:
     kt = collections.Counter(tok(k['text']))

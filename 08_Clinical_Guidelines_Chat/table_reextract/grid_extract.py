@@ -11,7 +11,7 @@ BUL = re.compile(r'^\s*([•●▪■◦∞➢✓\-–*]|\d+[.)]\s|[a-z][.)]\s|o
 
 
 def cell_text(pg, bb):
-    crop = pg.crop((bb[0] + 0.5, bb[1] + 0.5, bb[2] - 0.5, bb[3] - 0.5))
+    crop = pg.crop((max(bb[0] + 0.5, 0), max(bb[1] + 0.5, 0), min(bb[2] - 0.5, pg.width), min(bb[3] - 0.5, pg.height)))
     txt = crop.extract_text(layout=False) or ''
     out = []
     for line in txt.split('\n'):

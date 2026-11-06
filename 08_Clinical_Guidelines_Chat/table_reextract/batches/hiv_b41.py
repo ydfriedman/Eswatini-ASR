@@ -1,0 +1,47 @@
+exec(open("batches/hiv_common.py").read())
+# HIV 2022 part 5, pp.270-272 (Annexes 11.4 ARV-analgesic interactions, 11.5 ARV-contraceptive interactions, 11.6 drugs not to use with
+# selected ARVs). From the page images; Annex 11.5 colour categories read from a high-resolution render.
+AN = "Chapter 11: Annexes"
+N1, N2, N3, N4 = "No restrictions (dark green)", "Generally use; some follow-up may be needed (light green)", "Usually not recommended (orange)", "Do not use (red)"
+ITEMS = [
+ T("tbl-11.4-arv-analgesic-interactions", 270, AN + " > 11.4 Potential Interactions between ARVs and Pain Management Medicines", "Annex 11.4 Potential Interactions between ARVs and Pain Management Medicines", ["0743", "0744"],
+   [r("ARV", "Analgesic", "Effect", "Time Course", "Severity", "Comments")],
+   [
+    r("Zidovudine (AZT)", "Paracetamol", "May rarely result in granulocytopenia and hepatotoxicity", "Delayed", "Minor", "Intermittent use of paracetamol is considered safe; adverse effects not consistently reported"),
+    r("Nevirapine (NVP)", "Phenytoin and carbamazepine", "May decrease serum levels of NVP and anticonvulsants", "Delayed", "Moderate", "Consider alternative anti-convulsant as an adjuvant analgesic"),
+    r("Efavirenz (EFV)", "Phenytoin and carbamazepine", "May decrease serum levels of EFV and anticonvulsants", "Delayed", "Moderate", "Consider alternative anti-convulsant as an adjuvant analgesic"),
+    [C("Ritonavir (RTV)", rs=3), C("Benzodiazepines"), C("Prolonged sedation due to accumulation of benzodiazepine"), C("Delayed"), C("Major"), C("Monitor closely and adjust medication as needed")],
+    r("Phenytoin and carbamazepine", "May decrease serum levels of RTV; RTV may increase serum levels of anticonvulsants", "Delayed", "Moderate", "Consider alternative anti-convulsant as an adjuvant analgesic"),
+    r("Antidepressants", "Increased serum levels of anti-depressants", "Immediate", "Major", "Monitor closely and adjust the dose or change medication as needed"),
+    [C("Lopinavir/ritonavir (LPV/r)", rs=3), C("Benzodiazepines"), C("Prolonged sedation due to accumulation of benzodiazepines"), C("Delayed"), C("Major"), C("Monitor closely and adjust medication as needed")],
+    r("Antidepressants", "Increased serum levels of anti-depressants", "Immediate", "Moderate", "May increase toxicities"),
+    r("Phenytoin (also carbamazepine)", "May significantly decrease serum levels of LPV/r", "Delayed", "Major", "Consider alternative anti-convulsant as an adjuvant analgesic"),
+    [C("Atazanavir (ATV)", rs=2), C("Benzodiazepines"), C("Prolonged sedation due to accumulation of benzodiazepines"), C("Delayed"), C("Major"), C("Monitor closely and adjust medication as needed")],
+    r("Phenytoin and carbamazepine", "May decrease serum levels of ATV. ATV may increase serum levels of anticonvulsants", "Delayed", "Moderate", "Consider alternative anti-convulsant as an adjuvant analgesic"),
+   ]),
+ T("tbl-11.5-arv-contraceptive-interactions", 271, AN + " > 11.5 ARV Interactions with Contraceptives", "Annex 11.5 ARV Interactions with Contraceptives", ["0745", "0746"],
+   [[C("Family Planning Options", rs=2), C("Antiretroviral Therapy", cs=5), C("Rifampicin", rs=2), C("HIV Stage III/IV (advanced HIV disease, CD4<200)", rs=2), C("Untreated STI (Gonorrhoea and/or Chlamydia)", rs=2)],
+    r("NNRTI: NVP", "NNRTI: EFV", "NRTIs (AZT, 3TC, ABC, TDF)", "PIs (ATV/r, LPV/r, DRV/r)", "Integrase Inhibitors (RAL, DTG)")],
+   [r("Male/Female Condoms", N1, N1, N1, N1, N1, N1, N1, N1),
+    r("Oral Contraceptive Pills (COCs/ POP)", N2, N2, N1, N2, N1, N3, N1, N1),
+    r("Implants (Jadelle or Implanon) *", N2, N3, N1, N2, N1, N2, N1, N1),
+    r("IUD (copper or hormonal IUD)", N2, N2, N2, N2, N2, N1, "Don't initiate: " + N4 + "; continuation: " + N2, "Don't initiate: " + N4 + "; continuation: " + N2),
+    r("Progestin-only injectables: Depo Provera", N1, N1, N1, N1, N1, N1, N1, N1),
+    r("Progestin-only injectables: NST", N2, N2, N1, N1, N1, N2, N1, N1),
+    r("Emergency Contraception (ECP)", N1, N1, N1, N1, N1, N1, N1, N1),
+    r("Tubal Ligation/ Vasectomy", N1, N1, N1, N1, N1, N1, "Case by Case basis (" + N2 + ")", "Delay (" + N2 + ")")],
+   footnotes=["Key (cell colours in the source): dark green = No restrictions on use; light green = Generally, use: some follow-up may be needed; orange = Usually not recommended unless other more appropriate methods are not available or acceptable; red = This method should not be used.",
+              "The asterisk on Implants has no footnote in the source."],
+   source_flags=["Annex 11.5 rates implants with efavirenz as 'usually not recommended' (orange); WHO Medical Eligibility Criteria (2015 onwards) rate implants with EFV as category 2 (generally use), consistent with the FP 2021 guidelines; check which applies."]),
+ T("tbl-11.6-drugs-to-avoid-with-arvs", 272, AN + " > 11.6 Drugs That Should Not Be Used with Selected ARV Regimens", "Annex 11.6 Drugs That Should Not Be Used with Selected ARV Regimens", ["0747"],
+   [r("ARV", "Anti-TB Agents to Avoid", "Antiepileptic Agents to Avoid", "Neurologic Agents")],
+   [r("ATV/r or Atazanavir/cobicistat (ATV/c)", "Rifampin<br/>Rifapentine", "ATV/c only: Carbamazepine; Phenobarbital; Phenytoin", "Lurasidone; Midazolam; Pimozide; Triazolam"),
+    r("Darunavir/cobicistat (DRV/c) or DRV/r", "Rifampin<br/>Rifapentine", "DRV/c only: Carbamazepine Phenobarbital; Phenytoin", "Lurasidone; Midazolam; Pimozide; Triazolam"),
+    r("LPV/r", "Rifampin<br/>Rifapentine", "None", "Lurasidone; Midazolam; Pimozide; Triazolam"),
+    r("EFV", "None", "None", "None"),
+    r("ETV", "Rifampin<br/>Rifapentine", "Carbamazepine; Phenobarbital; Phenytoin", "None"),
+    r("NVP", "Rifapentine", "None", "None"),
+    r("MVC", "Rifapentine", "None", "None"),
+    r("DTG", "Rifapentine", "Carbamazepine; Phenobarbital; Phenytoin", "None")],
+   source_flags=["Annex 11.6 lists rifapentine as an anti-TB agent to avoid with DTG and EFV is listed with none, yet the 2024 Amendment and Chapter 6 recommend 3HP (rifapentine) TPT for clients on DTG or EFV; and LPV/r is listed with rifampicin to avoid although super-boosted LPV/r is the recommended option for children on rifampicin."]),
+]

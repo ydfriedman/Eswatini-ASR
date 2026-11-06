@@ -34,6 +34,14 @@
     263
    ],
    "offset": 198
+  },
+  {
+   "file": "HIV_5.pdf",
+   "pages": [
+    264,
+    315
+   ],
+   "offset": 263
   }
  ],
  "tables": [
@@ -17241,12 +17249,5916 @@
    "content": "Caring for clients with chronic illness involves responding to their total needs, including:\n- Social needs : an individual sense of belonging, role in family, community, society at large and friendships.\n- Physical needs : basic needs such as food, shelter and clothing but also adequate health care and security and protection from physical pain.\n- Spiritual needs : the individual’s hope for the future, sense of trust, hope for survival and sense of meaning.\n- Emotional : love, security, encouragement, motivation, care, self-care, trust, guidance and understanding.",
    "footnotes": [],
    "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.1-arv-overview",
+   "page": 265,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.1 Overview of ARV Drugs",
+   "caption": "Annex 11.1 Overview of ARV Drugs",
+   "replaces_chunks": [
+    "hiv-2022-0734",
+    "hiv-2022-0735",
+    "hiv-2022-0736",
+    "hiv-2022-0737"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Generic Name"
+     },
+     {
+      "t": "Standard Adult Dose"
+     },
+     {
+      "t": "Adult Formulation"
+     },
+     {
+      "t": "Paediatric Formulation"
+     },
+     {
+      "t": "Food Restrictions / Special Considerations"
+     },
+     {
+      "t": "Contraindications"
+     },
+     {
+      "t": "Information on Use in Pregnancy"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Nucleoside reverse-transcriptase inhibitors (NRTIs)"
+    },
+    [
+     {
+      "t": "Abacavir (ABC)"
+     },
+     {
+      "t": "300 mg every 12 hours"
+     },
+     {
+      "t": "300 mg tabs"
+     },
+     {
+      "t": "20 mg/mL suspension"
+     },
+     {
+      "t": "With or without food"
+     },
+     {
+      "t": "Previous hypersensitivity reactions, kidney or liver disease"
+     },
+     {
+      "t": "No evidence of human teratogenicity"
+     }
+    ],
+    [
+     {
+      "t": "Emtricitabine (FTC)"
+     },
+     {
+      "t": "200 mg once a day"
+     },
+     {
+      "t": "200 mg caps"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "With food"
+     },
+     {
+      "t": "Kidney or liver disease"
+     },
+     {
+      "t": "No evidence of human teratogenicity"
+     }
+    ],
+    [
+     {
+      "t": "Lamivudine (3TC)"
+     },
+     {
+      "t": "150 mg every 12 hours or 300 mg once daily"
+     },
+     {
+      "t": "150 mg tabs"
+     },
+     {
+      "t": "10 mg/mL syrup"
+     },
+     {
+      "t": "With or without food"
+     },
+     {
+      "t": "Acute or chronic pancreatitis"
+     },
+     {
+      "t": "No evidence of human teratogenicity"
+     }
+    ],
+    [
+     {
+      "t": "Zidovudine (AZT)"
+     },
+     {
+      "t": "300 mg every 12 hours"
+     },
+     {
+      "t": "300 mg tabs"
+     },
+     {
+      "t": "10 mg/mL syrup"
+     },
+     {
+      "t": "With or without food, with adequate fluid (water)"
+     },
+     {
+      "t": "Lactic acidosis<br/>Hypersensitivity to zidovudine or any of the components (e.g., anaphylaxis, Stevens-Johnson syndrome)"
+     },
+     {
+      "t": "High placental transfer to the foetus"
+     }
+    ],
+    {
+     "section": "Nucleotide reverse-transcriptase inhibitors (NtRTIs)"
+    },
+    [
+     {
+      "t": "Tenofovir (TDF)"
+     },
+     {
+      "t": "300 mg every 24 hours"
+     },
+     {
+      "t": "300 mg tabs"
+     },
+     {
+      "t": "Oral powder scoops 40 mg/scoop<br/>Tablets 150 mg or 200 mg"
+     },
+     {
+      "t": "With or without food"
+     },
+     {
+      "t": "Kidney or liver disease"
+     },
+     {
+      "t": "—"
+     }
+    ],
+    {
+     "section": "Non-nucleoside reverse-transcriptase inhibitors (NNRTIs)"
+    },
+    [
+     {
+      "t": "Efavirenz (EFV)"
+     },
+     {
+      "t": "400 mg at night"
+     },
+     {
+      "t": "200 mg caps/tabs, 400 mg caps/tabs"
+     },
+     {
+      "t": "50 mg caps/tabs, 30 mg/mL susp"
+     },
+     {
+      "t": "Without food, at bedtime on an empty stomach"
+     },
+     {
+      "t": "Psychosis"
+     },
+     {
+      "t": "Potential foetal safety concern, no contraindication"
+     }
+    ],
+    [
+     {
+      "t": "Etravirine (ETV)"
+     },
+     {
+      "t": "200 mg every 12 hours"
+     },
+     {
+      "t": "100 mg caps, 200 mg caps"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "With food"
+     },
+     {
+      "t": "Severe liver disease, history of Stevens-Johnson syndrome"
+     },
+     {
+      "t": "—"
+     }
+    ],
+    [
+     {
+      "t": "Nevirapine (NVP)"
+     },
+     {
+      "t": "200 mg every 24 hours for 14 days, then 200 mg every 12 hours"
+     },
+     {
+      "t": "200 mg tabs"
+     },
+     {
+      "t": "10 mg/mL syrup"
+     },
+     {
+      "t": "With or without food"
+     },
+     {
+      "t": "Severe liver disease, history of Stevens-Johnson syndrome"
+     },
+     {
+      "t": "The potential risk of life-threatening hepatotoxicity in women with ≥250 cells/mm³ CD4 counts"
+     }
+    ],
+    {
+     "section": "Integrase strand transfer inhibitors (INSTIs) / Integrase inhibitors"
+    },
+    [
+     {
+      "t": "Raltegravir (RAL)"
+     },
+     {
+      "t": "400 mg film-coated tablet orally, twice daily"
+     },
+     {
+      "t": "400 mg tabs, 600 mg tabs"
+     },
+     {
+      "t": "100 mg scored and 25 mg chewable tabs<br/>Single-use packet of 100 mg susp"
+     },
+     {
+      "t": "With or without food"
+     },
+     {
+      "t": "—"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Dolutegravir (DTG)"
+     },
+     {
+      "t": "50 mg once daily"
+     },
+     {
+      "t": "10 mg, 25 mg, and 50 mg tabs"
+     },
+     {
+      "t": "40 mg tabs"
+     },
+     {
+      "t": "With or without food"
+     },
+     {
+      "t": "Previous hypersensitivity reaction to dolutegravir"
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "NRTI/NtRTI Fixed-Dose Combinations"
+    },
+    [
+     {
+      "t": "Tenofovir + Lamivudine"
+     },
+     {
+      "t": "300mg + 300mg once daily; 1 tablet every 24 hours"
+     },
+     {
+      "t": "300 mg + 300 mg tabs"
+     },
+     {
+      "t": "Indicated for children >35kg"
+     },
+     {
+      "t": "See tenofovir, lamivudine"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Abacavir + Lamivudine"
+     },
+     {
+      "t": "1 tablet every 24 hours"
+     },
+     {
+      "t": "600mg + 300mg<br/>300mg + 150mg"
+     },
+     {
+      "t": "60mg + 30mg<br/>300 mg + 150 mg tab"
+     },
+     {
+      "t": "See abacavir, lamivudine"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Zidovudine + Lamivudine"
+     },
+     {
+      "t": "1 tablet every 12 hours"
+     },
+     {
+      "t": "300 mg + 150 mg tabs"
+     },
+     {
+      "t": "60 mg + 30 mg tabs"
+     },
+     {
+      "t": "See zidovudine, lamivudine"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Tenofovir + Lamivudine + Efavirenz"
+     },
+     {
+      "t": "1 tablet every 24 hours"
+     },
+     {
+      "t": "300 mg + 300 mg + 400 mg tabs"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "See tenofovir, lamivudine, efavirenz"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "NtRTI/NRTI/NNRTI Fixed-Dose Combinations"
+    },
+    [
+     {
+      "t": "Tenofovir + Emtricitabine + Rilpivirine"
+     },
+     {
+      "t": "1 tablet every 24 hours"
+     },
+     {
+      "t": "300 mg + 200 mg + 25 mg tabs"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "See tenofovir, emtricitabine, Rilpivirine"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "Protease Inhibitors"
+    },
+    [
+     {
+      "t": "Darunavir (DRV)"
+     },
+     {
+      "t": "600 mg with 100 mg ritonavir every 12 hours or 800 mg with 100 mg ritonavir every 24 hours"
+     },
+     {
+      "t": "400 mg tab, 600 mg tabs"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "With food"
+     },
+     {
+      "t": "Liver disease"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Lopinavir (boosted with ritonavir) (LPV/r)"
+     },
+     {
+      "t": "LPV + RTV (200 mg + 50mg) tabs every 12 hours"
+     },
+     {
+      "t": "100 mg + 25 mg tabs<br/>200 mg + 50 mg tabs"
+     },
+     {
+      "t": "100 mg + 25 mg oral tablet 80 mg + 20 mg syrup<br/>Oral pellets 40 mg/10 mg"
+     },
+     {
+      "t": "With food"
+     },
+     {
+      "t": "Diabetes, liver or heart problems"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ritonavir (RTV)"
+     },
+     {
+      "t": "To boost other protease inhibitors, 100–200 mg every 12 hours or 24 hours"
+     },
+     {
+      "t": "100 mg caps"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "With food"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Atazanavir (boosted with ritonavir) (ATV/r)"
+     },
+     {
+      "t": "ATV + RTV (300 mg + 100 mg) tabs every 24 hours"
+     },
+     {
+      "t": "300 mg tabs"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Better with food"
+     },
+     {
+      "t": "Liver disease, heart problems, diabetes"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [
+    "Column borders shift in the fixed-dose-combination and protease-inhibitor rows (pp.266-267): the 'See ...' cross-references are printed across the last columns, and the protease inhibitors' 'Liver disease' / 'Diabetes, liver or heart problems' / 'Liver disease, heart problems, diabetes' are printed in the last column; they are placed here under Contraindications. The NRTI heading is printed twice (before and after lamivudine); the second is omitted."
+   ],
+   "source_flags": [
+    "Annex 11.1 gives dolutegravir paediatric formulation as '40 mg tabs' and adult formulations '10 mg, 25 mg, and 50 mg'; the paediatric formulation used in Eswatini is pDTG 10 mg dispersible (Chapter 9), and there is no 40 mg DTG tablet.",
+    "Annex 11.1 lists ABC/3TC 300 mg + 150 mg as '1 tablet every 24 hours' (half the adult daily dose) and omits the paediatric ABC/3TC 120/60 mg dispersible tablet that Chapter 9 makes the preferred formulation.",
+    "Annex 11.1 still lists the efavirenz standard adult dose as 400 mg at night and ritonavir 100-200 mg every 12 or 24 hours; check against current dosing (Annex 11.17 and the 2024 Amendment paediatric dosing chart)."
+   ],
+   "pages": [
+    265,
+    266,
+    267
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.2-arv-combinations-to-avoid",
+   "page": 267,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.2 ARV Drug Combinations to be Avoided",
+   "caption": "Annex 11.2 ARV Drug Combinations to be Avoided",
+   "replaces_chunks": [
+    "hiv-2022-0738"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug Combination"
+     },
+     {
+      "t": "Reason to Avoid"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "TDF + 3TC + ABC"
+     },
+     {
+      "t": "High incidence of virological failure."
+     }
+    ],
+    [
+     {
+      "t": "ETV + TPV/r"
+     },
+     {
+      "t": "ETV concentration may be significantly reduced by RTV-boosted TPV."
+     }
+    ],
+    [
+     {
+      "t": "FTC + 3TC"
+     },
+     {
+      "t": "Similar resistance profiles; no potential benefit."
+     }
+    ],
+    [
+     {
+      "t": "ATV + IDV"
+     },
+     {
+      "t": "Overlapping toxicity—hyperbilirubinemia and jaundice."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.3-arv-drug-interactions",
+   "page": 268,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.3 Potential ARV Interactions with Other Drugs",
+   "caption": "Annex 11.3 Potential ARV Interactions with Other Drugs",
+   "replaces_chunks": [
+    "hiv-2022-0739",
+    "hiv-2022-0740",
+    "hiv-2022-0741",
+    "hiv-2022-0742"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "ARV Drug"
+     },
+     {
+      "t": "Potential Interaction With"
+     },
+     {
+      "t": "Avoid Combination With"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Zidovudine (AZT)"
+     },
+     {
+      "t": "Codeine, Clarithromycin, Dapsone, Methadone, Rifampicin, Phenytoin, Phenobarbital, Valproate, amphotericin B, Fluconazole"
+     },
+     {
+      "t": "- Ganciclovir—Increased zidovudine effects<br/>- Ribavirin—In vitro antagonism"
+     }
+    ],
+    [
+     {
+      "t": "Abacavir (ABC)"
+     },
+     {
+      "t": "Rifampicin, Methadone, Metronidazole, Phenobarbital, Phenytoin"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Lamivudine (3TC)"
+     },
+     {
+      "t": "Amphotericin B, Co-trimoxazole"
+     },
+     {
+      "t": "Chlorpropamide—Potentially increased serum glucose concentrations"
+     }
+    ],
+    [
+     {
+      "t": "Tenofovir (TDF)"
+     },
+     {
+      "t": "Acyclovir, Amphotericin B, Co-trimoxazole, Cimetidine, Furosemide, Hydroxyurea, Streptomycin"
+     },
+     {
+      "t": "- Lamivudine (3TC) + Abacavir (ABC)—High virological failure<br/>- Lamivudine (3TC) + Didanosine (ddI)—High incidence of virological failure; increased risk of side effects.<br/>- Didanosine (DDI) + NNRTI—High incidence of virological failure; increased risk of side effects.<br/>- Probenecid—Probenecid-induced inhibition of the renal tubular secretion of tenofovir"
+     }
+    ],
+    [
+     {
+      "t": "Nevirapine (NVP)"
+     },
+     {
+      "t": "Artemisinin, Amiodarone, Buprenorphine, Carbamazepine, Clarithromycin, Codeine, Dexamethasone, Diazepam, Digoxin, Erythromycin, Oestradiol, Ethinyl Oestradiol, Fluconazole, Furosemide, Garlic, Gliclazide, Glipizide, Glitazones, Halofantrine, Haloperidol, Itraconazole, Ketamine, Ketoconazole, Levonorgestrel, Lorazepam, Medroxyprogesterone (intramuscular and oral), Methadone, Miconazole, Norethisterone, Milk Thistle, Phenobarbital, Phenytoin, Prednisolone, Quinine, Rifabutin, Rifampicin, Saint John’s Wort, Simvastatin, Valproate"
+     },
+     {
+      "t": "- Etravirine (ETV)—Co-administration decreases etravirine concentration and is contraindicated<br/>- Atazanavir (ATV)—Co-administration is not recommended: increases nevirapine exposure and decreases Atazanavir concentration<br/>- St. John’s Wort—Decreased nevirapine effects.<br/>- Artemether/Lumefantrine—Potentially increased treatment failure<br/>- Ketoconazole—Decreased ketoconazole effects<br/>- Ethinyl oestradiol/norethindrone acetate—Possible contraceptive failure due to the induction of CYP450 3A4 by nevirapine"
+     }
+    ],
+    [
+     {
+      "t": "Efavirenz (EFV)"
+     },
+     {
+      "t": "Artemisinin, Codeine, Buprenorphine, Cimetidine, Clarithromycin, Diazepam, Ergometrine, Oestradiol, Ethinyl Oestradiol, Ketamine, Furosemide, Garlic, Gliclazide, Glipizide, Halofantrine, Haloperidol, Ketoconazole, Levonorgestrel, Lumefantrine, Lorazepam, Midazolam, Milk Thistle, Phenobarbital, Phenytoin, Prednisolone, Quinine, Rifabutin, Rifampicin, St John’s Wort"
+     },
+     {
+      "t": "- Etravirine (ETV)—Co-administration decreases etravirine concentration and is contraindicated<br/>- Atazanavir—Do not co-administer efavirenz with unboosted atazanavir<br/>- Boceprevir—Potentially decreased boceprevir effects<br/>- Carbamazepine—Decreased efavirenz and carbamazepine effects<br/>- Ergotamine—Potentially increased ergotamine effects (e.g., ergotism)"
+     }
+    ],
+    [
+     {
+      "t": "Lopinavir/ritonavir (LPV/r)"
+     },
+     {
+      "t": "Amiodarone, Atorvastatin, Carbamazepine, Colchicine, Dexamethasone, Diltiazem, Ethinyl Oestradiol, Midazolam, Norethindrone, Oxycodone, Phenobarbital, Prednisolone, Rifampicin, Sildenafil, Simvastatin, St John’s Wort, Tricyclic Antidepressants, Warfarin (monitor INR)"
+     },
+     {
+      "t": "- Astemizole—Increased astemizole effects (e.g., cardiac arrhythmias)<br/>- Cisapride—Increased Cisapride effects (e.g., cardiac arrhythmias)<br/>- Darunavir—Decreased darunavir/ritonavir effects; increased lopinavir/ritonavir effects<br/>- Fluticasone—Increased fluticasone concentrations"
+     }
+    ],
+    [
+     {
+      "t": "Atazanavir/ritonavir (ATV/r)"
+     },
+     {
+      "t": "Amiodarone, Antacids, Carbamazepine, Clarithromycin, Colchicine, Dexamethasone, H2 Receptor Antagonists, Midazolam, PPIs, Phenobarbital, Rifampicin, Sildenafil, Simvastatin, Tricyclic Antidepressants, St John’s Wort, Warfarin (monitor INR)"
+     },
+     {
+      "t": "- Etravirine, nevirapine<br/>- Cisapride—Increased Cisapride effects (e.g., cardiac arrhythmias)<br/>- Ergotamine—Increased ergotamine effects (e.g., ergotism)<br/>- Lansoprazole—Do not co-administer PPIs with unboosted atazanavir<br/>- Lovastatin—Increased lovastatin effects (e.g., myopathy, rhabdomyolysis)<br/>- Simvastatin—Increased simvastatin effects (e.g., myopathy, rhabdomyolysis)"
+     }
+    ],
+    [
+     {
+      "t": "Darunavir/ritonavir (DRV/r)"
+     },
+     {
+      "t": "Amiodarone, clarithromycin colchicine, diltiazem, ethinyloestradiol, norethindrone, phenobarbital, simvastatin, rifampicin, midazolam, sertraline, St John’s wort, tricyclic antidepressants, warfarin (monitor INR)"
+     },
+     {
+      "t": "- Cisapride—Increased Cisapride effects (e.g., cardiac arrhythmias)<br/>- Lopinavir/ritonavir—Decreased darunavir/ritonavir effects; increased lopinavir/ritonavir effects<br/>- Phenobarbital and phenytoin—Decreased darunavir/ritonavir effects"
+     }
+    ],
+    [
+     {
+      "t": "Dolutegravir (DTG)"
+     },
+     {
+      "t": "Carbamazepine, Phenobarbital, Phenytoin, Rifampicin - double dose of DTG"
+     },
+     {
+      "t": "Use alternative anticonvulsant agent"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.3 lists rifampicin with DTG under 'potential interaction' ('double dose of DTG') and lists the TDF + 3TC + didanosine combinations although didanosine is no longer used."
+   ],
+   "pages": [
+    268,
+    269
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.4-arv-analgesic-interactions",
+   "page": 270,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.4 Potential Interactions between ARVs and Pain Management Medicines",
+   "caption": "Annex 11.4 Potential Interactions between ARVs and Pain Management Medicines",
+   "replaces_chunks": [
+    "hiv-2022-0743",
+    "hiv-2022-0744"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "ARV"
+     },
+     {
+      "t": "Analgesic"
+     },
+     {
+      "t": "Effect"
+     },
+     {
+      "t": "Time Course"
+     },
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Comments"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Zidovudine (AZT)"
+     },
+     {
+      "t": "Paracetamol"
+     },
+     {
+      "t": "May rarely result in granulocytopenia and hepatotoxicity"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Minor"
+     },
+     {
+      "t": "Intermittent use of paracetamol is considered safe; adverse effects not consistently reported"
+     }
+    ],
+    [
+     {
+      "t": "Nevirapine (NVP)"
+     },
+     {
+      "t": "Phenytoin and carbamazepine"
+     },
+     {
+      "t": "May decrease serum levels of NVP and anticonvulsants"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Consider alternative anti-convulsant as an adjuvant analgesic"
+     }
+    ],
+    [
+     {
+      "t": "Efavirenz (EFV)"
+     },
+     {
+      "t": "Phenytoin and carbamazepine"
+     },
+     {
+      "t": "May decrease serum levels of EFV and anticonvulsants"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Consider alternative anti-convulsant as an adjuvant analgesic"
+     }
+    ],
+    [
+     {
+      "t": "Ritonavir (RTV)",
+      "rs": 3
+     },
+     {
+      "t": "Benzodiazepines"
+     },
+     {
+      "t": "Prolonged sedation due to accumulation of benzodiazepine"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Major"
+     },
+     {
+      "t": "Monitor closely and adjust medication as needed"
+     }
+    ],
+    [
+     {
+      "t": "Phenytoin and carbamazepine"
+     },
+     {
+      "t": "May decrease serum levels of RTV; RTV may increase serum levels of anticonvulsants"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Consider alternative anti-convulsant as an adjuvant analgesic"
+     }
+    ],
+    [
+     {
+      "t": "Antidepressants"
+     },
+     {
+      "t": "Increased serum levels of anti-depressants"
+     },
+     {
+      "t": "Immediate"
+     },
+     {
+      "t": "Major"
+     },
+     {
+      "t": "Monitor closely and adjust the dose or change medication as needed"
+     }
+    ],
+    [
+     {
+      "t": "Lopinavir/ritonavir (LPV/r)",
+      "rs": 3
+     },
+     {
+      "t": "Benzodiazepines"
+     },
+     {
+      "t": "Prolonged sedation due to accumulation of benzodiazepines"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Major"
+     },
+     {
+      "t": "Monitor closely and adjust medication as needed"
+     }
+    ],
+    [
+     {
+      "t": "Antidepressants"
+     },
+     {
+      "t": "Increased serum levels of anti-depressants"
+     },
+     {
+      "t": "Immediate"
+     },
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "May increase toxicities"
+     }
+    ],
+    [
+     {
+      "t": "Phenytoin (also carbamazepine)"
+     },
+     {
+      "t": "May significantly decrease serum levels of LPV/r"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Major"
+     },
+     {
+      "t": "Consider alternative anti-convulsant as an adjuvant analgesic"
+     }
+    ],
+    [
+     {
+      "t": "Atazanavir (ATV)",
+      "rs": 2
+     },
+     {
+      "t": "Benzodiazepines"
+     },
+     {
+      "t": "Prolonged sedation due to accumulation of benzodiazepines"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Major"
+     },
+     {
+      "t": "Monitor closely and adjust medication as needed"
+     }
+    ],
+    [
+     {
+      "t": "Phenytoin and carbamazepine"
+     },
+     {
+      "t": "May decrease serum levels of ATV. ATV may increase serum levels of anticonvulsants"
+     },
+     {
+      "t": "Delayed"
+     },
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Consider alternative anti-convulsant as an adjuvant analgesic"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.5-arv-contraceptive-interactions",
+   "page": 271,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.5 ARV Interactions with Contraceptives",
+   "caption": "Annex 11.5 ARV Interactions with Contraceptives",
+   "replaces_chunks": [
+    "hiv-2022-0745",
+    "hiv-2022-0746"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Family Planning Options",
+      "rs": 2
+     },
+     {
+      "t": "Antiretroviral Therapy",
+      "cs": 5
+     },
+     {
+      "t": "Rifampicin",
+      "rs": 2
+     },
+     {
+      "t": "HIV Stage III/IV (advanced HIV disease, CD4<200)",
+      "rs": 2
+     },
+     {
+      "t": "Untreated STI (Gonorrhoea and/or Chlamydia)",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "NNRTI: NVP"
+     },
+     {
+      "t": "NNRTI: EFV"
+     },
+     {
+      "t": "NRTIs (AZT, 3TC, ABC, TDF)"
+     },
+     {
+      "t": "PIs (ATV/r, LPV/r, DRV/r)"
+     },
+     {
+      "t": "Integrase Inhibitors (RAL, DTG)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Male/Female Condoms"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     }
+    ],
+    [
+     {
+      "t": "Oral Contraceptive Pills (COCs/ POP)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "Usually not recommended (orange)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     }
+    ],
+    [
+     {
+      "t": "Implants (Jadelle or Implanon) *"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Usually not recommended (orange)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     }
+    ],
+    [
+     {
+      "t": "IUD (copper or hormonal IUD)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "Don't initiate: Do not use (red); continuation: Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Don't initiate: Do not use (red); continuation: Generally use; some follow-up may be needed (light green)"
+     }
+    ],
+    [
+     {
+      "t": "Progestin-only injectables: Depo Provera"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     }
+    ],
+    [
+     {
+      "t": "Progestin-only injectables: NST"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "Generally use; some follow-up may be needed (light green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     }
+    ],
+    [
+     {
+      "t": "Emergency Contraception (ECP)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     }
+    ],
+    [
+     {
+      "t": "Tubal Ligation/ Vasectomy"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "No restrictions (dark green)"
+     },
+     {
+      "t": "Case by Case basis (Generally use; some follow-up may be needed (light green))"
+     },
+     {
+      "t": "Delay (Generally use; some follow-up may be needed (light green))"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Key (cell colours in the source): dark green = No restrictions on use; light green = Generally, use: some follow-up may be needed; orange = Usually not recommended unless other more appropriate methods are not available or acceptable; red = This method should not be used.",
+    "The asterisk on Implants has no footnote in the source."
+   ],
+   "source_flags": [
+    "Annex 11.5 rates implants with efavirenz as 'usually not recommended' (orange); WHO Medical Eligibility Criteria (2015 onwards) rate implants with EFV as category 2 (generally use), consistent with the FP 2021 guidelines; check which applies."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.6-drugs-to-avoid-with-arvs",
+   "page": 272,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.6 Drugs That Should Not Be Used with Selected ARV Regimens",
+   "caption": "Annex 11.6 Drugs That Should Not Be Used with Selected ARV Regimens",
+   "replaces_chunks": [
+    "hiv-2022-0747"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "ARV"
+     },
+     {
+      "t": "Anti-TB Agents to Avoid"
+     },
+     {
+      "t": "Antiepileptic Agents to Avoid"
+     },
+     {
+      "t": "Neurologic Agents"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "ATV/r or Atazanavir/cobicistat (ATV/c)"
+     },
+     {
+      "t": "Rifampin<br/>Rifapentine"
+     },
+     {
+      "t": "ATV/c only: Carbamazepine; Phenobarbital; Phenytoin"
+     },
+     {
+      "t": "Lurasidone; Midazolam; Pimozide; Triazolam"
+     }
+    ],
+    [
+     {
+      "t": "Darunavir/cobicistat (DRV/c) or DRV/r"
+     },
+     {
+      "t": "Rifampin<br/>Rifapentine"
+     },
+     {
+      "t": "DRV/c only: Carbamazepine Phenobarbital; Phenytoin"
+     },
+     {
+      "t": "Lurasidone; Midazolam; Pimozide; Triazolam"
+     }
+    ],
+    [
+     {
+      "t": "LPV/r"
+     },
+     {
+      "t": "Rifampin<br/>Rifapentine"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "Lurasidone; Midazolam; Pimozide; Triazolam"
+     }
+    ],
+    [
+     {
+      "t": "EFV"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "ETV"
+     },
+     {
+      "t": "Rifampin<br/>Rifapentine"
+     },
+     {
+      "t": "Carbamazepine; Phenobarbital; Phenytoin"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "NVP"
+     },
+     {
+      "t": "Rifapentine"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "MVC"
+     },
+     {
+      "t": "Rifapentine"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "DTG"
+     },
+     {
+      "t": "Rifapentine"
+     },
+     {
+      "t": "Carbamazepine; Phenobarbital; Phenytoin"
+     },
+     {
+      "t": "None"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.6 lists rifapentine as an anti-TB agent to avoid with DTG and EFV is listed with none, yet the 2024 Amendment and Chapter 6 recommend 3HP (rifapentine) TPT for clients on DTG or EFV; and LPV/r is listed with rifampicin to avoid although super-boosted LPV/r is the recommended option for children on rifampicin."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.7-arv-adverse-reactions",
+   "page": 273,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.7 Most Common Adverse Drug Reactions to ARV Drugs",
+   "caption": "Annex 11.7 Most Common Adverse Drug Reactions to ARV Drugs",
+   "replaces_chunks": [
+    "hiv-2022-0748",
+    "hiv-2022-0749",
+    "hiv-2022-0750",
+    "hiv-2022-0751",
+    "hiv-2022-0752"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Generic Name"
+     },
+     {
+      "t": "Adverse Reactions"
+     },
+     {
+      "t": "Frequency"
+     },
+     {
+      "t": "Signs and Symptoms"
+     },
+     {
+      "t": "Management"
+     },
+     {
+      "t": "Prevention"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Zidovudine (AZT)",
+      "rs": 10
+     },
+     {
+      "t": "Minor symptoms"
+     },
+     {
+      "t": "High"
+     },
+     {
+      "t": "Nausea, vomiting, abdominal pain, diarrhoea, headaches; at the beginning of the treatment"
+     },
+     {
+      "t": "Symptomatic treatment only if not subsiding or if leading to complication (dehydration)"
+     },
+     {
+      "t": "Take AZT with food"
+     }
+    ],
+    [
+     {
+      "t": "Lipodystrophy"
+     },
+     {
+      "t": "High"
+     },
+     {
+      "t": "Shrinking of lower limbs and buttocks, accumulation of fat around the abdomen, gynaecomastia, buffalo hump"
+     },
+     {
+      "t": "If marked, switch to TDF"
+     },
+     {
+      "t": "Regular exercise"
+     }
+    ],
+    [
+     {
+      "t": "Myalgia"
+     },
+     {
+      "t": "High"
+     },
+     {
+      "t": "Intermittent muscle pain (usually lower limbs), cramps"
+     },
+     {
+      "t": "NSAID, stretching, massages"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Leucopoenia"
+     },
+     {
+      "t": "High"
+     },
+     {
+      "t": "Leucopoenia < 750/mL"
+     },
+     {
+      "t": "Follow-up, if high grade, with structured ART interruption, monitoring, and reintroduction of ART (TDF)"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Red cell megaloblastia"
+     },
+     {
+      "t": "High"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "None—a good sign of adherence to AZT"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Nail discolouration"
+     },
+     {
+      "t": "Medium"
+     },
+     {
+      "t": "Black lines perpendicular to nail growth line (fingers, toes)"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Bone marrow* suppression"
+     },
+     {
+      "t": "Medium"
+     },
+     {
+      "t": "Anaemia, bicytopenia or pancytopenia"
+     },
+     {
+      "t": "If high grade, implement structured ART interruption, monitoring, and reintroduction of ART (TDF)"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Hepatitis*"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Nausea, vomiting, jaundice, right flank pain, or asymptomatic + raised ALTs"
+     },
+     {
+      "t": "Follow-up, if high grade, with structured interruption of ART, monitoring, and reintroduction of ART without AZT"
+     },
+     {
+      "t": "Avoid alcohol and other hepatotoxic drugs"
+     }
+    ],
+    [
+     {
+      "t": "Lactic acidosis*"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Fatigue, rapid loss of weight, abdominal and limb cramps, nausea, in a very adherent client (more commonly female, obese, pregnant). Critical stage: dyspnoea"
+     },
+     {
+      "t": "Stop all ART and follow up on the weight gain; usually, after one month, reintroduce ART with TDF. If dyspnoea: hospitalisation"
+     },
+     {
+      "t": "Weight check at each consultation, client’s education"
+     }
+    ],
+    [
+     {
+      "t": "Myopathy"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Muscle weakness, muscle stiffness, muscular pain, cramps"
+     },
+     {
+      "t": "Check creatinine kinase (CK); if high grade, switch AZT to TDF; massage, stretching"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Lamivudine (3TC)",
+      "rs": 2
+     },
+     {
+      "t": "Pancreatitis"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Epigastric pain, loss of appetite"
+     },
+     {
+      "t": "If high grade, implement structured ART interruption; when subsided, reintroduce regimen without 3TC, d4T, or ddI"
+     },
+     {
+      "t": "Avoid alcohol and other pancreatotoxic drugs"
+     }
+    ],
+    [
+     {
+      "t": "Paraesthesia/ peripheral neuropathy"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Numbness, pins and needles, burning sensation of the limbs"
+     },
+     {
+      "t": "Pyridoxine, amitriptyline. If high grade, switch regimen to one without 3TC, d4T, and ddI"
+     },
+     {
+      "t": "Avoid alcohol and other neurotoxic drugs"
+     }
+    ],
+    [
+     {
+      "t": "Abacavir (ABC)",
+      "rs": 3
+     },
+     {
+      "t": "Hypersensitivity reaction"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Fever, rash, headache, sore throat, cough, shortness of breath"
+     },
+     {
+      "t": "Stop the medication immediately, treat symptoms<br/>Substitute with AZT or TDF"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Lactic acidosis"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Nausea, vomiting, abdominal discomfort, fatigue, muscle weakness in arms and legs"
+     },
+     {
+      "t": "Stop the medication and treat the symptoms"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Minor symptoms"
+     },
+     {
+      "t": "Medium"
+     },
+     {
+      "t": "Loss of appetite, headache, malaise, nausea, vomiting, diarrhoea"
+     },
+     {
+      "t": "Continue medication, symptoms improve within a few weeks of starting ART"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Emtricitabine (FTC)",
+      "rs": 2
+     },
+     {
+      "t": "Lactic acidosis"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Nausea, vomiting, abdominal discomfort, muscle weakness and tiredness, shortness of breath"
+     },
+     {
+      "t": "Stop all ART, treat symptoms and re-introduce ART with another NTRI e.g., TDF"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Minor symptoms"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": "Headache, diarrhoea, nausea, rash, stomach pain, indigestion"
+     },
+     {
+      "t": "Continue treatment. Symptoms usually subside within a few weeks"
+     },
+     {
+      "t": "None"
+     }
+    ],
+    [
+     {
+      "t": "Efavirenz (EFV)",
+      "rs": 2
+     },
+     {
+      "t": "CNS adverse effects"
+     },
+     {
+      "t": "50% of clients (less common in kids)"
+     },
+     {
+      "t": "Tiredness, dizziness, impaired concentration drowsiness, vivid dreams"
+     },
+     {
+      "t": "Generally, resolve after 2-4 weeks. Avoid alcohol as may worsen CNS side effects."
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Gynaecomastia"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Enlargement of breast"
+     },
+     {
+      "t": "Substitute with NVP or another therapeutic class (integrase inhibitors or boosted PIs)."
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Tenofovir (TDF)"
+     },
+     {
+      "t": "Reduction in bone mineral density"
+     },
+     {
+      "t": "Low"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Avoid concomitant corticosteroids"
+     }
+    ],
+    [
+     {
+      "t": "Nevirapine (NVP)"
+     },
+     {
+      "t": "Rash"
+     },
+     {
+      "t": "Females have a greater risk than males"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "If rash occurs in the first 14 days do not increase the dose until it resolves (up to 28 days). If the rash persists after 28 days choose an alternate ARV. Stop treatment if the rash is severe or Steven’s Johnson Syndrome develops."
+     },
+     {
+      "t": "Do not use antihistamines or systemic corticosteroids to prevent rash, they will be ineffective and may increase the chance of rash occurring."
+     }
+    ],
+    [
+     {
+      "t": "Lopinavir (LPV/r)"
+     },
+     {
+      "t": "Rash, diarrhoea"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Atazanavir (ATV/r)",
+      "rs": 2
+     },
+     {
+      "t": "Unconjugated Hyperbilirubinemia"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Jaundice - yellowing of the eyes and skin"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Cholelithiasis"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Abdominal pain. History of kidney stones increases risk and clients may present with cholelithiasis and Kidney stones concurrently"
+     },
+     {
+      "t": "Substitute with LPV/r or DRV/r. If boosted PIs are contraindicated and NNRTIs have failed in first-line ART, consider substituting with integrase inhibitors."
+     },
+     {
+      "t": "—"
+     }
+    ],
+    [
+     {
+      "t": "Darunavir (DRV)"
+     },
+     {
+      "t": "DRV has a sulphonamide moiety which may predispose to Stevens-Johnson syndrome and erythema multiforme; Hepatotoxicity; Hyperlipidaemia"
+     },
+     {
+      "t": "10%"
+     },
+     {
+      "t": "Skin rash, Diarrhoea, nausea, Headache, Transaminase elevation, Fat maldistribution, Hyperglycaemia"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "—"
+     }
+    ],
+    [
+     {
+      "t": "Ritonavir*"
+     },
+     {
+      "t": "GI intolerance, Paraesthesia, Hyperlipidaemia, Hepatitis"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Nausea, vomiting, diarrhoea, Fat maldistribution, Taste perversion, Hyperglycaemia"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "—"
+     }
+    ],
+    [
+     {
+      "t": "Dolutegravir (DTG)"
+     },
+     {
+      "t": "Hepatotoxicity; Hypersensitivity reactions; Insomnia"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Rash"
+     },
+     {
+      "t": "If DTG is used in first-line ART, and there are hypersensitivity reactions, substitute with another therapeutic class (EFV or boosted PIs)."
+     },
+     {
+      "t": "—"
+     }
+    ]
+   ],
+   "footnotes": [
+    "* Ritonavir: (RTV) (as a pharmacokinetic booster). The asterisks on AZT bone marrow suppression, hepatitis and lactic acidosis have no footnote in the source.",
+    "The last page of the table (cholelithiasis to dolutegravir) has no Prevention column ('—')."
+   ],
+   "source_flags": [
+    "Annex 11.7 gives AZT leucopoenia as '< 750/mL' (units/threshold unclear; neutropenia grading uses cells/mm³), and still refers to d4T and ddI.",
+    "Annex 11.7 advises substituting DTG with EFV or boosted PIs after hypersensitivity, and NVP for EFV gynaecomastia; NVP is no longer used in Eswatini adult regimens."
+   ],
+   "pages": [
+    273,
+    274,
+    275,
+    276
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.8-toxicity-grading",
+   "page": 277,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.8 Grading of Severity of ARV Toxicities",
+   "caption": "Annex 11.8 Grading of Severity of ARV Toxicities",
+   "replaces_chunks": [
+    "hiv-2022-0754",
+    "hiv-2022-0755",
+    "hiv-2022-0756",
+    "hiv-2022-0757",
+    "hiv-2022-0758",
+    "hiv-2022-0759",
+    "hiv-2022-0760",
+    "hiv-2022-0761"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Parameter"
+     },
+     {
+      "t": "Mild (Grade 1)"
+     },
+     {
+      "t": "Moderate (Grade 2)"
+     },
+     {
+      "t": "Severe (Grade 3)"
+     },
+     {
+      "t": "Severe and potentially life-threatening (Grade 4)"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "General Guidance on Estimating Severity / Grade"
+    },
+    [
+     {
+      "t": "Characterization of symptoms and general guidance on management"
+     },
+     {
+      "t": "Symptoms causing no or minimal interference with usual social and functional activities"
+     },
+     {
+      "t": "Symptoms causing greater than minimal interference with usual social and functional activities; may require minimal intervention and monitoring"
+     },
+     {
+      "t": "Symptoms causing the inability to perform usual social and functional activities; require medical care and possible hospitalization"
+     },
+     {
+      "t": "Symptoms causing an inability to perform basic self-care functions; requires medical or operative intervention to prevent permanent impairment, persistent disability or death"
+     }
+    ],
+    {
+     "section": "Haematology"
+    },
+    [
+     {
+      "t": "Absolute neutrophil count"
+     },
+     {
+      "t": "750 - 1000/ mm³<br/>0.75 x 109 - < 1 x 10⁹/L"
+     },
+     {
+      "t": "500-749/ mm³<br/>0.5 x 109 - 0.749x10⁹/L"
+     },
+     {
+      "t": "250-500/ mm³<br/>0.25 x 10⁹-0.5 x 10⁹/L"
+     },
+     {
+      "t": "<250/ mm³<br/><0.250 x 10⁹/L"
+     }
+    ],
+    [
+     {
+      "t": "Haemoglobin"
+     },
+     {
+      "t": "8.5 - 10.0 g/dl<br/>1.32 - 1.55 mmol/L"
+     },
+     {
+      "t": "7.5 - 8.5 g/dl<br/>1.16 - 1.32 mmol/L"
+     },
+     {
+      "t": "6.5 - 7.5 g/dl<br/>1.01 - 1.16 mmol/L"
+     },
+     {
+      "t": "<6.5 g/dl<br/><1.01 mmol/L or severe clinical symptoms attributable to anaemia (e.g., cardiac failure), refractory to supportive therapy."
+     }
+    ],
+    [
+     {
+      "t": "Platelets"
+     },
+     {
+      "t": "100,00 -< 125,000/mm³<br/>100 x 10⁹ - 125 x 10⁹/L"
+     },
+     {
+      "t": "50,000- <100,000/ mm³<br/>50 x 109 - < 100 x 10⁹/L"
+     },
+     {
+      "t": "25000 - <50000/mm³<br/>25 x 10⁹ - <50 x 10⁹/ L"
+     },
+     {
+      "t": "<25,000/ mm³<br/><35 x 10⁹/L or bleeding"
+     }
+    ],
+    {
+     "section": "Liver Function"
+    },
+    [
+     {
+      "t": "ALT (SGPT)"
+     },
+     {
+      "t": "1.25 - 2.5 x ULN"
+     },
+     {
+      "t": "2.5 - 5.0 x ULN"
+     },
+     {
+      "t": "5.1 - 10.0 x ULN"
+     },
+     {
+      "t": ">10.0 x ULN"
+     }
+    ],
+    [
+     {
+      "t": "AST (SGOT)"
+     },
+     {
+      "t": "1.25 - 2.5 x ULN"
+     },
+     {
+      "t": "2.5 - 5.0 x ULN"
+     },
+     {
+      "t": "5.1 - 10.0 x ULN"
+     },
+     {
+      "t": ">10.0 x ULN"
+     }
+    ],
+    {
+     "section": "Gastrointestinal"
+    },
+    [
+     {
+      "t": "Bilirubin (>2 weeks old)"
+     },
+     {
+      "t": "1.1 - 1.5 x ULN"
+     },
+     {
+      "t": "1.6 - 2.5 x ULN"
+     },
+     {
+      "t": "2.6 - 5.0 x ULN"
+     },
+     {
+      "t": "> 5.0 x ULN"
+     }
+    ],
+    [
+     {
+      "t": "Lipase"
+     },
+     {
+      "t": "1.1 - 1.5 x ULN"
+     },
+     {
+      "t": "1.6 - 3.0x ULN"
+     },
+     {
+      "t": "3.1 - 5.0 x ULN"
+     },
+     {
+      "t": "> 5.0 x ULN"
+     }
+    ],
+    [
+     {
+      "t": "Pancreatic amylase"
+     },
+     {
+      "t": "1.1 - 1.5 x ULN"
+     },
+     {
+      "t": "1.6 - 2.0x ULN"
+     },
+     {
+      "t": "2.1 - 5.0 x ULN"
+     },
+     {
+      "t": "> 5.0 x ULN"
+     }
+    ],
+    {
+     "section": "Clinical"
+    },
+    [
+     {
+      "t": "Diarrhoea > 1 year of age"
+     },
+     {
+      "t": "Transient or intermittent episodes of unformed stools OR increase of < 3 stools over baseline per day"
+     },
+     {
+      "t": "Persistent episodes of unformed to watery stools OR increase of 4-6 stools over baseline per day"
+     },
+     {
+      "t": "Grossly bloody diarrhoea OR increase of > 7 stools per day OR intravenous fluid replacement indicated."
+     },
+     {
+      "t": "Life-threatening consequences (e.g., hypotensive shock)"
+     }
+    ],
+    [
+     {
+      "t": "Diarrhoea < 1 year of age"
+     },
+     {
+      "t": "Liquid stools (more unformed than usual) but the usual number of stools"
+     },
+     {
+      "t": "Liquid stools with an increased number of stools OR mild dehydration"
+     },
+     {
+      "t": "Liquid stools with moderate dehydration"
+     },
+     {
+      "t": "Liquid stools resulting in severe dehydration with aggressive rehydration indicated OR hypotensive shock"
+     }
+    ],
+    [
+     {
+      "t": "Nausea"
+     },
+     {
+      "t": "Not applicable"
+     },
+     {
+      "t": "Symptomatic AND hospitalisation not indicated (other than emergency treatment)"
+     },
+     {
+      "t": "Symptomatic AND hospitalization not indicated (other than emergency treatment)"
+     },
+     {
+      "t": "Life-threatening consequences (i.e., circulatory failure, haemorrhage, sepsis)."
+     }
+    ],
+    [
+     {
+      "t": "Vomiting"
+     },
+     {
+      "t": "Transient or intermittent vomiting with no or minimal interference with oral intake"
+     },
+     {
+      "t": "Frequent episodes of vomiting with no or mild dehydration"
+     },
+     {
+      "t": "Persistent vomiting"
+     },
+     {
+      "t": "Life-threatening consequences (e.g., hypotensive shock)"
+     }
+    ],
+    {
+     "section": "Allergic / Dermatological"
+    },
+    [
+     {
+      "t": "Acute systemic allergic reaction"
+     },
+     {
+      "t": "Localized urticaria (wheals) lasting a few hours"
+     },
+     {
+      "t": "Localized urticaria with medical intervention indicated OR mild angioedema"
+     },
+     {
+      "t": "Generalized urticaria OR angioedema with medical intervention indicated OR symptomatic mild bronchospasm"
+     },
+     {
+      "t": "Acute anaphylaxis OR life-threatening bronchospasm or laryngeal oedema"
+     }
+    ],
+    [
+     {
+      "t": "Cutaneous reaction rash"
+     },
+     {
+      "t": "Localized macular rash"
+     },
+     {
+      "t": "Diffuse macular, maculopapular or morbilliform rash, OR target lesions"
+     },
+     {
+      "t": "Diffuse macular maculopapular or morbilliform rash with vesicles or limited number of bullae OR superficial ulcerations of mucous membrane limited to 1 site"
+     },
+     {
+      "t": "Extensive or generalized bullous lesions OR Stevens-Johnson syndrome OR ulceration of mucous membrane involving 2 or more distinct mucosal sites OR toxic epidermal necrolysis (TEN)."
+     }
+    ],
+    {
+     "section": "Neurological"
+    },
+    [
+     {
+      "t": "Alteration in personality behaviour or mood"
+     },
+     {
+      "t": "Alteration causing no or minimal interference with usual social and functional activities ᵇ"
+     },
+     {
+      "t": "Alteration causing greater than minimal interference with usual social and functional activities ᵇ"
+     },
+     {
+      "t": "Alteration causing an inability to perform usual social and functional activities ᵇ AND intervention indicated"
+     },
+     {
+      "t": "Behavioural potentially harmful to self or others OR life-threatening consequences"
+     }
+    ],
+    [
+     {
+      "t": "Altered mental status"
+     },
+     {
+      "t": "Changes causing no or minimal interference with usual social and functional activities ᵇ"
+     },
+     {
+      "t": "Mild lethargy or somnolence causing greater than minimal interference with usual social and functional activities ᵇ"
+     },
+     {
+      "t": "The onset of confusion, memory impairment, lethargy or somnolence causing an inability to perform usual social and functional activities ᵇ"
+     },
+     {
+      "t": "The onset of delirium obtundation or coma"
+     }
+    ],
+    [
+     {
+      "t": "Neurosensory alteration (including painful neuropathy)"
+     },
+     {
+      "t": "Asymptomatic with sensory alteration on examination OR minimal paraesthesia causing no or minimal interference with usual social and functional activities"
+     },
+     {
+      "t": "Sensory alteration or paraesthesia causing greater than minimal interference with usual social and functional activities"
+     },
+     {
+      "t": "Sensory alteration or paraesthesia causing an inability to perform usual social and functional activities"
+     },
+     {
+      "t": "Disabling sensory alteration or paraesthesia causing the inability to perform basic self-care functions ᶜ"
+     }
+    ],
+    [
+     {
+      "t": "Neuromuscular weakness (including myopathy and neuropathy)"
+     },
+     {
+      "t": "Asymptomatic with decreased strength on examination OR minimal muscle weakness causing no or minimal interference with usual social and functional activities ᵇ"
+     },
+     {
+      "t": "Muscle weakness causing greater than minimal interference with usual social and functional activities ᵇ"
+     },
+     {
+      "t": "Sensory alteration or paraesthesia causing greater than minimal interference with usual social and functional activities"
+     },
+     {
+      "t": "Disabling muscle weakness causing an inability to perform basic self-care functions OR respiratory muscle weakness impairing ventilation."
+     }
+    ],
+    {
+     "section": "Other Laboratory Functions"
+    },
+    [
+     {
+      "t": "Cholesterol (fasting paediatric < 18 years old)"
+     },
+     {
+      "t": "170-<200 mg/dl<br/>4.40-5.15 mmol/L"
+     },
+     {
+      "t": "200-300 mg/dl<br/>5.16-7.77 mmol/L"
+     },
+     {
+      "t": ">300 mg/dl<br/>>7.77 mmol/L"
+     },
+     {
+      "t": "Not applicable"
+     }
+    ],
+    [
+     {
+      "t": "Glucose, serum, high: non-fasting"
+     },
+     {
+      "t": "116-<161 mg/dl<br/>6.44-<8.89 mmol/L"
+     },
+     {
+      "t": "161-<251 mg/dl<br/>8.89-<13.89 mmol/L"
+     },
+     {
+      "t": "251-500 mg/dl<br/>13.89 - 27.75 mmol/L"
+     },
+     {
+      "t": ">500 mg/dl<br/>>27.75 mmol/L"
+     }
+    ],
+    [
+     {
+      "t": "Glucose, serum, high: fasting"
+     },
+     {
+      "t": "110-<126 mg/dl<br/>6.11-<6.95 mmol/L"
+     },
+     {
+      "t": "126-<251 mg/dl<br/>6.95-<13.89 mmol/L"
+     },
+     {
+      "t": "251-500 mg/dl<br/>13.89 - 27.75 mmol/L"
+     },
+     {
+      "t": ">500 mg/dl<br/>>27.75 mmol/L"
+     }
+    ],
+    [
+     {
+      "t": "Lactate"
+     },
+     {
+      "t": "<2.0 x ULN without acidosis"
+     },
+     {
+      "t": "2.0 x ULN without acidosis"
+     },
+     {
+      "t": "Increased lactate with pH < 7.3 without life-threatening consequences or related conditions present"
+     },
+     {
+      "t": "Increased lactate with pH < 7.3 with life-threatening consequences (e.g., neurological findings, coma, or related condition present)"
+     }
+    ],
+    [
+     {
+      "t": "Triglycerides (fasting)"
+     },
+     {
+      "t": "Not applicable"
+     },
+     {
+      "t": "500-751 mg/dl<br/>5.65 - <8.49 mmol/L"
+     },
+     {
+      "t": "751 - 1200 mg/dl<br/>8.49 - 13.56 mmol/L"
+     },
+     {
+      "t": ">1200 mg/dl<br/>>13.56 mmol/L"
+     }
+    ]
+   ],
+   "footnotes": [
+    "ª Values are provided for children in general except where age groups are specified.",
+    "ᵇ Usual social and functional activities in young children include those that are appropriate for their age and culture (e.g., social interactions, play activities, learning tasks).",
+    "ᶜ Activities appropriate for age and culture (e.g., feeding self with culturally appropriate eating implement, walking or using hands).",
+    "Values as printed, including '0.75 x 109' and '50 x 109' (for 10⁹) and '100,00' (for 100,000). The Grade 4 cell for diarrhoea > 1 year ends with a stray '< 1 year of age' (omitted)."
+   ],
+   "source_flags": [
+    "Annex 11.8 platelets Grade 4 is '<25,000/mm³' but '<35 x 10⁹/L' (should be <25 x 10⁹/L); Grade 1 lower bound printed '100,00'.",
+    "Annex 11.8 nausea Grades 2 and 3 have identical text ('Symptomatic AND hospitalisation not indicated'); in the DAIDS table Grade 3 is persistent nausea with minimal oral intake >48 h or rehydration indicated.",
+    "Annex 11.8 neuromuscular weakness Grade 3 repeats the neurosensory Grade 2 text ('Sensory alteration or paraesthesia causing greater than minimal interference'); DAIDS Grade 3 is muscle weakness causing inability to perform usual activities.",
+    "Annex 11.8 haematology bands share their end points (e.g. haemoglobin 7.5-8.5 and 8.5-10.0 g/dl; neutrophils 250-500 and <250/mm³; ALT 2.5-5.0 in Grades 1 and 2), so a value at a boundary fits two grades."
+   ],
+   "pages": [
+    277,
+    278,
+    279,
+    280
+   ]
+  },
+  {
+   "kind": "section",
+   "table_id": "hiv-2022-txt-p281-t0500",
+   "page": 281,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.9 Supplementary Information on Dolutegravir",
+   "caption": "11.9 Supplementary Information on Dolutegravir",
+   "replaces_chunks": [
+    "hiv-2022-0762",
+    "hiv-2022-0763",
+    "hiv-2022-0764"
+   ],
+   "content": "Dolutegravir (DTG) is an HIV Type 1 (HIV-1) integrase strand transfer inhibitor (INSTI) that can be used—in adults and children 12 years and older who weigh more than 40 kg—in combination with other antiretroviral medications for the treatment of HIV. Integrase inhibitors block HIV replication by preventing the viral DNA from integrating into the genetic material of human immune cells (T cells). This step is essential in the HIV replication cycle and is also responsible for establishing chronic infection.\nDTG is approved for use in more than 90 countries across North America, Europe, Asia, Australia, Africa and Latin America.\nDTG may be taken without food.\nThe most commonly reported adverse drug reactions are insomnia (3%), fatigue (2%) and headache (2%). There have been reported cases of weight gain among patients taking INSTIs and the reasons are multifactorial: age, race, sex, AHD, CD4 count, VL, previous weight loss and previous ART regimen. More data is needed to allow the WHO to make evidence based recommendations.\nHypersensitivity reactions characterized by rash, constitutional findings, and sometimes organ dysfunction, including liver injury, have been reported (in <1% or fewer clients). DTG is contraindicated in clients with a previous history of hypersensitivity. Discontinue DTG immediately if signs of hypersensitivity develop.\nDTG inhibits OCT2 and MATE1, which are responsible for the tubular secretion of creatinine resulting in a mild increase in creatinine after initiation, which remains stable. No DTG dose adjustment is necessary for INI-naive subjects with mild, moderate or severe renal dysfunction.\nDrugs that are metabolic inducers (e.g., ATT) may decrease the plasma concentrations of DTG.\nTake DTG 2 hours before or 6 hours after taking cation-containing antacids or laxatives, sucralfate, oral supplements containing iron or calcium, or buffered medications. Alternatively, DTG and supplements containing calcium or iron can be taken together with food.\nCo-administration of DTG with Dofetilide (an antiarrhythmic) is not recommended.\nPlasma concentrations of metformin increase with co-administration of DTG. Metformin requires a total daily dose limit of 1000 mg with co-administration. When stopping DTG, the metformin dose may require an adjustment. Discuss with an HIV specialist before any adjustments.\nClients with underlying hepatitis B or hepatitis C may be at increased risk for worsening or development of transaminase elevations with the use of DTG. Appropriate laboratory testing before initiating therapy, and monitoring for hepatotoxicity during therapy with DTG, are recommended in clients with underlying hepatic diseases such as hepatitis B or C.\nRedistribution or accumulation of body fat and immune reconstitution syndrome have been reported in clients treated with combination antiretroviral therapy.\nThe efficacy of DTG 50 mg is reduced in clients with an INSTI-resistance Q148 substitution plus 2 or more additional INSTI-resistance substitutions, including T66A, L74I/M, E138A/K/T, G140S/A/C, Y143R/C/H, E157Q, G163S/E/K/Q, or G193E/R.\nDolutegravir in pregnancy: DTG is classified as a B1 by the United States Federal Drug Administration. This category means that the drug has been taken by only a limited number of pregnant women and women of childbearing age, and there has not been an increase in the frequency of malformation or other direct or indirect harmful effects on the human foetus observed. Studies in animals have also not shown evidence of an increased occurrence of foetal damage.",
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.9 says DTG can be used in adults and children 12 years and older weighing more than 40 kg; Chapter 9 and the 2024 Amendment use DTG (pDTG 10 mg, pALD) from 4 weeks of age and 3 kg.",
+    "Annex 11.9 calls B1 a United States FDA pregnancy category; B1 is an Australian (TGA) category - the US FDA letter categories (A/B/C/D/X) do not include B1 and were replaced in 2015."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-2022-fig-11.10-hbv-treatment-algorithm",
+   "page": 282,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.10 Hepatitis B Virus Treatment Algorithm",
+   "caption": "Annex 11.10 Hepatitis B Virusᵃ Treatment Algorithm",
+   "replaces_chunks": [
+    "hiv-2022-0765",
+    "hiv-2022-0766",
+    "hiv-2022-0767",
+    "hiv-2022-0768"
+   ],
+   "content": "Assessment for treatment. Start: HBsAg positive → Cirrhosis? (clinical criteriaᵇ; NITs: APRI score >2 in adults or FibroScan)\n- YES (cirrhosis) → Initiate NA therapy and monitor: tenofovir or entecavir; entecavir in children 2-11 years. Stopping treatment: cirrhosis → lifelong treatment.\n- NO (no cirrhosis):\n   - Ageᶜ >30 years (in particular) with ALTᵈ,ᵉ persistently abnormal:\n      - HBV DNA >20,000 IU/mL → Initiate NA therapy and monitor (tenofovir or entecavir; entecavir in children 2-11 years)\n      - HBV DNA 2,000-20,000 IU/mL → Defer treatment and monitor\n      - HBV DNA <2,000 IU/mL → Defer treatment and monitor\n   - ALTᵈ,ᵉ intermittently abnormal → Defer treatment and monitor\n   - ALTᵈ,ᵉ persistently normal → Defer treatment and monitor\n   - Age ≤30 years, ALTᵈ,ᵉ persistently normal, HBV DNA <2000 IU/mL → Defer treatment and monitor\n\nMonitoring (treated and deferred):\n- Every 6 months: detection of HCCᶠ (persons with cirrhosis or HCC family history)\n- Every 12 months: disease progression and/or treatment response in all: adherent at each visit, if on treatment; ALT, HBV DNA and HBeAg; clinical criteria and NITs (APRI in adults or FibroScan)\n- Baseline and every 12 months: toxicity monitoring in persons on treatment: renal function and risk factors for renal dysfunctionᵍ\n\nStopping treatment:\n- Cirrhosis: lifelong treatment\n- No cirrhosis: may stop with HBeAg loss and seroconversion to anti-HBe after completion of at least one additional year of treatment, and persistently normal ALT, and persistently undetectable HBV DNA\n\nNITs: non-invasive tests; ALT: alanine aminotransferase; APRI: aspartate aminotransferase-to-platelet ratio index.\nᵃ Defined as persistence of hepatitis B surface antigen (HBsAg) for six months or more. The algorithm does not capture all potential scenarios, but the main categories for treatment or monitoring. Recommendations for settings without access to HBV DNA testing are provided in the relevant chapters.\nᵇ Clinical features of decompensated cirrhosis: portal hypertension (ascites, variceal haemorrhage and hepatic encephalopathy), coagulopathy, or liver insufficiency (jaundice). Other clinical features of advanced liver disease/cirrhosis may include hepatomegaly, splenomegaly, pruritus, fatigue, arthralgia, palmar erythema, and oedema.\nᶜ The age cut-off of >30 years is not absolute, and some persons with CHB less than 30 years may also meet the criteria for antiviral treatment.\nᵈ ALT levels fluctuate in persons with chronic hepatitis B and require longitudinal monitoring to determine the trend. Upper limits for normal ALT have been defined as below 30 U/L for men and 19 U/L for women, though local laboratory normal ranges should be applied. Persistently normal/abnormal may be defined as three ALT determinations below or above the upper limit of normal, made at unspecified intervals during a 6 to 12 month period or predefined intervals during a 12-month period.\nᵉ Where HBV DNA testing is not available, treatment may be considered based on persistently abnormal ALT levels, but other common causes of persistently raised ALT levels such as impaired glucose tolerance, dyslipidaemia and fatty liver should be excluded.\nᶠ All persons with CHB should be monitored regularly for disease activity/progression and detection of HCC, and after stopping treatment for evidence of reactivation. More frequent monitoring may be required in those with more advanced liver disease, during the first year of treatment or where adherence is a concern, and in those with abnormal ALT and HBV DNA levels >2000 IU/mL, not yet on treatment.\nᵍ Before initiation, an assessment should be done of renal function (serum creatinine level, estimated glomerular filtration rate, urine dipsticks for proteinuria and glycosuria, and risk factors for renal dysfunction (decompensated cirrhosis, CrCl <50 mL/min, poorly controlled hypertension, proteinuria, uncontrolled diabetes, active glomerulonephritis, concomitant nephrotoxic drugs, solid organ transplantation, older age, BMI <18.5 kg/m2 (or body weight <50 kg), concomitant use of nephrotoxic drugs or a boosted protease inhibitor (PI) for HIV). Monitoring should be more frequent in those at higher risk of renal dysfunction.",
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    282,
+    283
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.11-hbv-test-interpretation",
+   "page": 283,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.11 Interpretation of HBV laboratory tests",
+   "caption": "Annex 11.11 Interpretation of HBV laboratory tests",
+   "replaces_chunks": [
+    "hiv-2022-0769"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "HBsAg"
+     },
+     {
+      "t": "Total anti-HBc"
+     },
+     {
+      "t": "IgM anti HBc"
+     },
+     {
+      "t": "Anti-HBs"
+     },
+     {
+      "t": "HBeAg"
+     },
+     {
+      "t": "Anti-HBe"
+     },
+     {
+      "t": "Interpretation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Never exposed"
+     }
+    ],
+    [
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Past natural infection, cleared, anti-HBs levels have waned over time"
+     }
+    ],
+    [
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "Acute Hepatitis B, ongoing infection"
+     }
+    ],
+    [
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "Chronic Hepatitis B with active viral replication"
+     }
+    ],
+    [
+     {
+      "t": "+ve"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "Inactive HBV carrier state (low HBV DNA level) or HBeAg -ve chronic hepatitis B with active viral replication (high HBV DNA level)"
+     }
+    ],
+    [
+     {
+      "t": "+ve"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "+ or -ve"
+     },
+     {
+      "t": "+ or -ve"
+     },
+     {
+      "t": "Chronic hepatitis B with heterotypic anti-HBs (about 10% of cases)"
+     }
+    ],
+    [
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Recent infection, recovered, immunity achieved"
+     }
+    ],
+    [
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve or -ve"
+     },
+     {
+      "t": "Immunity due to past infection"
+     }
+    ],
+    [
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "+ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "Immunity due to vaccination"
+     }
+    ],
+    [
+     {
+      "t": "-ve"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "-ve"
+     },
+     {
+      "t": "False positive; less commonly, infection in remote past"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Cells are colour-coded in the source: +ve red, -ve green, either orange; blank cells are not tested/not informative."
+   ],
+   "source_flags": [
+    "Annex 11.11 last row ('False positive; less commonly, infection in remote past') shows HBsAg -ve; the pattern usually described this way is isolated anti-HBc positive."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-2022-fig-11.11-hbv-jaundice-diagnosis",
+   "page": 284,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.11 Interpretation of HBV laboratory tests > HBV diagnosis in jaundiced patients",
+   "caption": "HBV diagnosis in jaundiced patients (flowchart)",
+   "replaces_chunks": [
+    "hiv-2022-0770",
+    "hiv-2022-0771"
+   ],
+   "content": "HBV diagnosis in jaundiced patients: test HBsAg (non-reactive / reactive) and IgM anti-HBc (non-reactive / reactive).\n- If HBsAg is reactive and IgM anti-HBc is non-reactive: HBV positive\n- If both HBsAg and IgM anti-HBc are positive: HBV positive\n- If IgM anti-HBc is reactive and HBsAg is non-reactive: HBV positive\n- If both IgM anti-HBc and HBsAg are negative: HBV negative\n\nMarkers (text above the figure): IgM anti-HBc is a specific marker for acute HBV infection; it decreases and disappears after 32 weeks. Total anti-HBc: IgM and total anti-HBc increase after 2 weeks of infection; IgM indicates acute infection, IgG persists for life. Anti-HBs appears after acute infection, signalling cure. HBsAg increases within 2-10 weeks then decreases and disappears within 6 months with acute infection. HBeAg indicates HBV infectivity/replication. Total anti-HBc, mainly IgG, continues to be positive for life.",
+   "footnotes": [],
+   "source_flags": [
+    "The figure label reads 'IgM anto HBc' (for IgM anti-HBc)."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.12-hbv-treatment",
+   "page": 285,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.12 Hepatitis B Virus Treatment and Clinical Considerations",
+   "caption": "Annex 11.12 Hepatitis B Virus Treatment and Clinical Considerations",
+   "replaces_chunks": [
+    "hiv-2022-0772",
+    "hiv-2022-0773"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Considerations"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Who to treat",
+      "rs": 2
+     },
+     {
+      "t": "As a priority, all adults, adolescents and children with chronic hepatitis B infection (CHB) and clinical evidence of compensated or decompensated liver disease"
+     },
+     {
+      "t": "APRI score >2 in adults<br/>Start treatment regardless of alanine aminotransferase (ALT) level, HBeAg or hepatitis B virus DNA levels"
+     }
+    ],
+    [
+     {
+      "t": "Adults with CHB who do not have clinical evidence of cirrhosis"
+     },
+     {
+      "t": "APRI score ≤2 and<br/>More than 30 years old and<br/>Has persistently abnormal ALT<br/>And if available, there is evidence of high-level HBV replication (HBV DNA >20,000 IU/mL)"
+     }
+    ],
+    [
+     {
+      "t": "Who not to treat"
+     },
+     {
+      "t": "Treatment is not recommended in HIV-negative clients without clinical evidence of cirrhosis; however, clinical monitoring should continue"
+     },
+     {
+      "t": "APRI score ≤2 and<br/>Persistently normal ALT levels and<br/>Low level of HBV replication (HBV DNA <2,000 IU/mL)"
+     }
+    ],
+    [
+     {
+      "t": "What to treat with"
+     },
+     {
+      "t": "Recommended agents and dosages (weight kg | dose | agent):<br/>≥35 | 1 OD | TDF (300mg) + 3TC (300mg)<br/>>30–35 | 10 or 0.5 mg | Entecavir (0.05 mg/mL)<br/>>26–30 | 9 | Entecavir (0.05 mg/mL)<br/>>23–26 | 8 | Entecavir (0.05 mg/mL)<br/>>20–23 | 7 | Entecavir (0.05 mg/mL)<br/>>17–20 | 6 | Entecavir (0.05 mg/mL)<br/>>14–17 | 5 | Entecavir (0.05 mg/mL)<br/>>11–14 | 4 | Entecavir (0.05 mg/mL)<br/>10–11 | 2 | Entecavir (0.05 mg/mL)"
+     },
+     {
+      "t": "Lamivudine (3TC) alone should not be used due to the rapid development of HBV resistance<br/>Provide pre-treatment counselling about indications for treatment, likely benefits and side effects, the need for follow-up both on and off therapy, and the importance of full adherence to treatment"
+     }
+    ],
+    [
+     {
+      "t": "How to monitor"
+     },
+     {
+      "t": "The following should be monitored at least annually:<br/>- ALT (and aspartate aminotransferase [AST] for APRI)<br/>- HBsAg, HBeAg<br/>- HBV DNA levels<br/>- Adherence to treatment at each visit"
+     },
+     {
+      "t": "More frequent monitoring is required for the following:<br/>- Clients who do not meet the criteria for treatment<br/>- Clients with advanced disease on treatment<br/>- Clients who had their treatment discontinued"
+     }
+    ],
+    [
+     {
+      "t": "When to stop treatment"
+     },
+     {
+      "t": "Discontinuation may be considered in the following:<br/>- Persons without clinical evidence of cirrhosis (APRI score ≤2) and also<br/>- Can be followed carefully and long-term for reactivation and also<br/>- Have persistently normal ALT levels and persistently undetectable HBV DNA levels"
+     },
+     {
+      "t": "- Lifelong treatment is required in all persons with cirrhosis based on clinical evidence (or APRI score >2 in adults)<br/>- Do not discontinue antiviral treatment due to the risk of reactivation<br/>- Relapse may occur after discontinuation, and re-treatment is recommended"
+     }
+    ]
+   ],
+   "footnotes": [
+    "The dosing table is a sub-table inside the 'What to treat with' row; entecavir doses are in mL of the 0.05 mg/mL oral solution (units not printed)."
+   ],
+   "source_flags": [
+    "Annex 11.12 entecavir dose for 10–11 kg is printed as 2 (mL = 0.1 mg); the WHO weight-band dose is 3 mL (0.15 mg), and every other band rises by 1 mL. The dose column also has no units ('10 or 0.5 mg' for >30-35 kg mixes mL and mg)."
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "hiv-2022-box-11.13-hypertension-evaluation",
+   "page": 286,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.13 Clinical Evaluation of a Client with High Blood Pressure and HIV Infection",
+   "caption": "Annex 11.13 Clinical Evaluation of a Client with High Blood Pressure and HIV Infection",
+   "replaces_chunks": [
+    "hiv-2022-0774"
+   ],
+   "content": "HIV and hypertension confirmed; assess risk factors for cardiovascular disease.\nInvestigate for end-organ damage; ask for an echocardiogram (ECG), creatinine, haemoglobin, low-density lipoprotein cholesterol, TC renal sonography and urine albumin.\nUse conservative and/or pharmacologic treatment of hypertension:\n- Use diuretics and angiotensin-converting enzyme inhibitors as appropriate.\n- Avoid calcium channel blockers, or use them with caution.\n- Monitor closely for the occurrence of Ischemic heart disease.",
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.13 expands ECG as 'echocardiogram'; ECG is an electrocardiogram (an echocardiogram is a different test)."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.15-infant-lpv-r-initiation",
+   "page": 286,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.15 Initiation of Infants Less Than 4 Weeks old on Lopinavir/Ritonavir",
+   "caption": "Annex 11.15 Initiation of Infants Less Than 4 Weeks old on Lopinavir/Ritonavir",
+   "replaces_chunks": [
+    "hiv-2022-0776"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age"
+     },
+     {
+      "t": "AM"
+     },
+     {
+      "t": "PM"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "0–2 weeks"
+     },
+     {
+      "t": "AZT + 3TC + NVP"
+     },
+     {
+      "t": "AZT + 3TC + NVP"
+     }
+    ],
+    [
+     {
+      "t": "2 weeks–3 months"
+     },
+     {
+      "t": "ABC + 3TC + LPV/r syrup"
+     },
+     {
+      "t": "ABC + 3TC + LPV/r syrup"
+     }
+    ],
+    [
+     {
+      "t": "3–36 months"
+     },
+     {
+      "t": "ABC + 3TC + LPV/r syrup or pellets"
+     },
+     {
+      "t": "ABC + 3TC + LPV/r syrup or pellets"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.15 keeps infants on ABC + 3TC + LPV/r up to 36 months; Chapter 9 and the 2024 Amendment move children to DTG (pDTG or pALD) from 4 weeks of age and 3 kg."
+   ]
+  },
+  {
+   "kind": "section",
+   "table_id": "hiv-2022-txt-p286-t0501",
+   "page": 286,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.14 Baylor HIV/TB Hotline and Email Information",
+   "caption": "11.14 Baylor HIV/TB Hotline and Email Information",
+   "replaces_chunks": [
+    "hiv-2022-0775"
+   ],
+   "content": "Paediatric HIV and TB hotlines are available to clinicians (nurses and doctors)\nBaylor HIV/TB Hotline: 7848-5571\n- The toll-free number, is available Monday through Thursday, 08:00 until 16:00, Friday 8.00 until 14.00\n- Calls with questions on paediatric HIV care will be answered by a physician at Baylor\n- Clinicians can use Short Message Service text messages or WhatsApp using the above number for assistance\nBaylor clinic phone: 2409-6000\nDBS Hotline: +268 7687-9925. To obtain dried blood spot results or for laboratory-related dried blood spot questions about TB/HIV email: swazihivtb@gmail.com. To address clinical questions to Baylor physicians",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.16-paediatric-art-on-tb-treatment",
+   "page": 287,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.16 Alternative ART for Pediatric Clients on TB Treatment",
+   "caption": "Annex 11.16 Alternative ART for Paediatric Clients on TB Treatment",
+   "replaces_chunks": [
+    "hiv-2022-0777",
+    "hiv-2022-0778",
+    "hiv-2022-0779",
+    "hiv-2022-0780"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Consideration"
+     },
+     {
+      "t": "Current situation"
+     },
+     {
+      "t": "Regimen"
+     },
+     {
+      "t": "Comments"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Infants and children <3 years or < 10 kg"
+    },
+    [
+     {
+      "t": "Initiating ARVs while on ATT",
+      "rs": 3
+     },
+     {
+      "t": "",
+      "rs": 3
+     },
+     {
+      "t": "Recommended: ABC+3TC+AZT while on ATT"
+     },
+     {
+      "t": "Avoid in settings of severe immunosuppression, CD4 <15%. Check VL at the end of ATT. Change to LPV/r at TB treatment completion."
+     }
+    ],
+    [
+     {
+      "t": "Alternative 1: ABC(AZT)+3TC+LPV/r. Super boosting with 1:1 ritonavir for the duration of TB treatment"
+     },
+     {
+      "t": "Check VL at the end of ATT. Change back to LPV/r standard dosing after TB treatment. If VL is undetectable, conduct SUAC and consider genotyping."
+     }
+    ],
+    [
+     {
+      "t": "Alternative 2: ABC(AZT)+3TC+NVP for the duration of ATT"
+     },
+     {
+      "t": "Check VL at the end of ATT"
+     }
+    ],
+    [
+     {
+      "t": "Initiating TB treatment while receiving ART",
+      "rs": 4
+     },
+     {
+      "t": "Child on standard first-line PI-based regimen (2 NRTIs + LPV/r)",
+      "rs": 3
+     },
+     {
+      "t": "Recommended: Substitute to ABC+3TC+AZT while on ATT"
+     },
+     {
+      "t": "Check VL at the end of ATT. Change back to LPV/r after TB treatment."
+     }
+    ],
+    [
+     {
+      "t": "Alternative 1: Continue ABC (AZT)+3TC+LPV/r. Super-boosting with 1:1 ritonavir for the duration of TB treatment"
+     },
+     {
+      "t": "Consider if the client currently tolerates standard dose LPV/r without a problem.<br/>If VL >1000 copies/mL:<br/>- Adherence counselling<br/>- Consider alternative formulations of LPV/r including pellets"
+     }
+    ],
+    [
+     {
+      "t": "Alternative 2: Transition to ABC(AZT)+3TC+NVP"
+     },
+     {
+      "t": "- Consider if poor tolerability is already limiting the efficacy of the LPV/r-based regimen<br/>- Adherence counselling<br/>- Check VL at the end of ATT or earlier if clinical deterioration<br/>- Continue NNRTI-based regimen if VL is undetectable at the end of ATT"
+     }
+    ],
+    [
+     {
+      "t": "Child on standard NNRTI-based regimen (NVP)"
+     },
+     {
+      "t": "Recommended: Continue ABC(AZT)+3TC+NVP"
+     },
+     {
+      "t": "Check VL at the end of ATT and continue NNRTI based regimen if VL is undetectable"
+     }
+    ],
+    {
+     "section": "Children and adolescents 3 years and older"
+    },
+    [
+     {
+      "t": "Initiating ARVs while on TB treatment (ATT)",
+      "rs": 3
+     },
+     {
+      "t": "> 3 years, <10 kg"
+     },
+     {
+      "t": "Recommended: ABC(AZT)+3TC +EFV"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "> 12 years, >40 kg",
+      "rs": 2
+     },
+     {
+      "t": "Recommended: TDF+3TC+EFV"
+     },
+     {
+      "t": "Check VL at the end of TB treatment. If VL is undetectable, substitute EFV with DTG"
+     }
+    ],
+    [
+     {
+      "t": "Alternative: ABC+3TC+AZT while on ATT"
+     },
+     {
+      "t": "Check VL at the end of ATT. Change back to LPV/r after TB treatment."
+     }
+    ],
+    [
+     {
+      "t": "Initiating TB treatment while receiving ART",
+      "rs": 10
+     },
+     {
+      "t": "Child on standard first-line PI-based regimen (2 NRTIs + LPV/r)",
+      "rs": 3
+     },
+     {
+      "t": "Recommended: Substitute with EFV"
+     },
+     {
+      "t": "Check that the child has no history of failure of an NNRTI-based regimen (VL<1000 copies/mL). Check VL at the end of ATT and continue the NNRTI-based regimen if VL is undetectable."
+     }
+    ],
+    [
+     {
+      "t": "Alternative 1: Substitute to ABC+3TC+AZT while on ATT"
+     },
+     {
+      "t": "Consider if tolerability is leading to poor adherence with LPV/r or if not tolerating 1:1 ritonavir super boosting (see below). Check VL at the end of ATT. Change back to LPV/r after TB treatment."
+     }
+    ],
+    [
+     {
+      "t": "Alternative 2: Continue ABC(AZT)+3TC+LPV/r. Super boosting with 1:1 ritonavir for the duration of TB treatment"
+     },
+     {
+      "t": "Consider if the client currently tolerates standard dose LPV/r without a problem.<br/>If VL >1000 copies/mL:<br/>- Adherence counselling<br/>- Consider alternative formulations of LPV/r including pellets"
+     }
+    ],
+    [
+     {
+      "t": "Child on standard NNRTI-based regimen (2 NRTIs + EFV or NVP)",
+      "rs": 3
+     },
+     {
+      "t": "Recommended: Continue the same regimen if the child is receiving EFV"
+     },
+     {
+      "t": "In children with severe immunosuppression consider fast-track evaluation and initiation of second-line therapy while on ATT."
+     }
+    ],
+    [
+     {
+      "t": "Recommended: If the child is receiving NVP, substitute with EFV"
+     },
+     {
+      "t": "Check VL at the end of ATT and continue the NNRTI-based regimen if VL is undetectable."
+     }
+    ],
+    [
+     {
+      "t": "Alternative 1: Substitute to ABC+3TC+AZT while on ATT"
+     },
+     {
+      "t": "Check VL at the end of ATT and continue the NNRTI-based regimen if VL is undetectable."
+     }
+    ],
+    [
+     {
+      "t": "Adolescent on TDF-3TC-DTG"
+     },
+     {
+      "t": "Recommendation: Substitute DTG to EFV"
+     },
+     {
+      "t": "Check VL at the end of ATT, if VL < 100 copies, the client can switch back to DTG"
+     }
+    ],
+    [
+     {
+      "t": "Current regimen LPV/r as second-line",
+      "rs": 2
+     },
+     {
+      "t": "Recommended: Continue ABC(AZT)+3TC+LPV/r. Super boosting with 1:1 ritonavir for the duration of TB treatment"
+     },
+     {
+      "t": "Consider if the client currently tolerates standard dose LPV/r without a problem.<br/>If VL >1000 copies/mL:<br/>- Adherence counselling<br/>- Consider alternative formulations of LPV/r including pellets<br/>- Consult doctor and Baylor HIV/TB Hotline for 3rd line evaluation (See Annex 11.14)"
+     }
+    ],
+    [
+     {
+      "t": "Alternative 1: Substitute to ABC+3TC+AZT while on ATT"
+     },
+     {
+      "t": "Avoid in settings of severe immunosuppression. Consider if tolerability of LPV/r is leading to poor adherence and will likely be made worse by increasing the ritonavir dose if not tolerating 1:1 dosing. Adherence counselling. Check VL at the end of ATT"
+     }
+    ],
+    [
+     {
+      "t": "Current regimen ATV/r as second-line"
+     },
+     {
+      "t": "Recommended: Substitute and double LPV/r dose for the duration of ATTs"
+     },
+     {
+      "t": "Change back to ATV/r after TB treatment.<br/>If VL >1000 copies/mL:<br/>- Adherence counselling<br/>- Consider alternative formulations of LPV/r including pellets<br/>- Consult doctor and Baylor HIV/TB Hotline for 3rd line evaluation"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.16 says 'If VL is undetectable, conduct SUAC and consider genotyping' (Alternative 1, children <3 years); SUAC and genotyping apply to a detectable VL.",
+    "Annex 11.16 tells adolescents on TDF-3TC-DTG starting TB treatment to substitute DTG with EFV (back to DTG if VL <100 copies); Chapter 9, the adult TB/HIV guidance and the 2024 Amendment (9.4) instead give DTG twice daily during rifampicin-based TB treatment and for 2 weeks after.",
+    "Annex 11.16 is built on LPV/r-, NVP- and EFV-based regimens; the 2024 Amendment table for children starting TB treatment while on ART (DTG twice daily; LPV/r to DTG if DTG-naive; DRV/r or ATV/r replaced) supersedes it."
+   ],
+   "pages": [
+    287,
+    288,
+    289
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.17-paediatric-arv-dosing",
+   "page": 290,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.17 Paediatric ARV Dosing Card",
+   "caption": "Annex 11.17 Paediatric ARV Dosing Card",
+   "replaces_chunks": [
+    "hiv-2022-0781",
+    "hiv-2022-0782",
+    "hiv-2022-0783",
+    "hiv-2022-0784"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Paediatric ARV Formulation",
+      "rs": 2
+     },
+     {
+      "t": "Weight in kg",
+      "cs": 8
+     }
+    ],
+    [
+     {
+      "t": "3 - 5.9"
+     },
+     {
+      "t": "6 - 9.9"
+     },
+     {
+      "t": "10 - 13.9"
+     },
+     {
+      "t": "14 - 19.9"
+     },
+     {
+      "t": "20 - 24.9"
+     },
+     {
+      "t": "25-29.9"
+     },
+     {
+      "t": "30-39.9"
+     },
+     {
+      "t": ">40"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "ABC/3TC 120mg/60mg Tablet (dispersible)"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1.5 OD"
+     },
+     {
+      "t": "2 OD"
+     },
+     {
+      "t": "2.5 OD"
+     },
+     {
+      "t": "3 OD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "ABC/3TC 600mg/300mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 5
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "AZT/3TC 60mg/30mg Tablet (dispersible)"
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "1.5 BD"
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "2.5 BD"
+     },
+     {
+      "t": "3 BD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "AZT/3TC 300mg/150mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 5
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "1 BD"
+     }
+    ],
+    [
+     {
+      "t": "DTG 10mg Tablet (scored/dispersible)"
+     },
+     {
+      "t": "0.5 OD"
+     },
+     {
+      "t": "1.5 OD"
+     },
+     {
+      "t": "2 OD"
+     },
+     {
+      "t": "2.5 OD"
+     },
+     {
+      "t": "Change to Adult DTG 50mg tab OD",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "DTG 50mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 4
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "TDF+3TC+DTG 300mg/300mg/50mg TLD Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 6
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "LPV/r 100mg/25mg Tablet"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 3
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "3 BD"
+     },
+     {
+      "t": "3 BD"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "LPV/r 200mg/50mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 4
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "2 AM, 1 PM"
+     },
+     {
+      "t": "2 AM, 1 PM"
+     },
+     {
+      "t": "2 BD"
+     }
+    ],
+    [
+     {
+      "t": "ATV/r 300mg/100 mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 7
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    [
+     {
+      "t": "TDF+3TC+EFV 300mg/300mg/400mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 7
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    {
+     "section": "†Recommended DRV and ritonavir Dosing for PI Naïve Paediatric Patients ≥3 yrs & 10 kg In Need of 2nd Line"
+    },
+    [
+     {
+      "t": "†DRV 75 mg Tablet (must add RTV)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 3
+     },
+     {
+      "t": "8 OD"
+     },
+     {
+      "t": "8 OD"
+     },
+     {
+      "t": "8 OD"
+     },
+     {
+      "t": "9 OD"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "†DRV 150 mg Tablet (must add RTV)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 3
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "†DRV 600 mg Tablet (must add RTV)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 3
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "675 mg OD (600mg tab +75mg tab)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "†DRV/r 400/50 mg Tablet"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 7
+     },
+     {
+      "t": "2 OD"
+     }
+    ],
+    {
+     "section": "Boosting RTV for children on DRV for 2nd Line"
+    },
+    [
+     {
+      "t": "Ritonavir 25mg Tablet"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 3
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": "4 OD"
+     },
+     {
+      "t": "4 OD"
+     }
+    ],
+    [
+     {
+      "t": "Ritonavir 100mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 3
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     },
+     {
+      "t": "1 OD"
+     }
+    ],
+    {
+     "section": "Super boosting RTV for children on Rifampicin-containing TB Treatment"
+    },
+    [
+     {
+      "t": "Ritonavir (RTV) 80mg/ml Suspension"
+     },
+     {
+      "t": "0.8ml BD"
+     },
+     {
+      "t": "1.2ml BD"
+     },
+     {
+      "t": "1.5ml BD"
+     },
+     {
+      "t": "2ml BD"
+     },
+     {
+      "t": "2.3ml BD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ritonavir 100mg Tablet (Adult)"
+     },
+     {
+      "t": "Not recommended",
+      "cs": 2
+     },
+     {
+      "t": "1 BD"
+     },
+     {
+      "t": "1 AM, 2 PM"
+     },
+     {
+      "t": "1 AM, 2 PM"
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "2 BD"
+     },
+     {
+      "t": "3 BD"
+     }
+    ]
+   ],
+   "footnotes": [
+    "† DRV must be given with ritonavir (see chart above). DRV/r CANNOT be co-administered with rifampicin containing TB treatment. DRV should be used with caution in patients with known sulphonamide allergies.",
+    "DRV/r can only be used in 2nd line in the following situations: children ≥3 years and ≥10 kg; PI naïve client; has INSTI resistance confirmed by genotype. (Any patient with PI exposure clinicians must consult National 3rd Line Committee prior to DRV use.)",
+    "OD = once daily; BD = twice daily. Rows are colour-banded by drug class in the source (NRTIs green, DTG yellow, PIs/EFV pink, DRV blue, ritonavir purple). Blank cells are blank in the source."
+   ],
+   "source_flags": [
+    "Superseded by the 2024 Amendment: the updated paediatric dosing chart adds paediatric ABC/3TC/DTG 60/30/5 mg (pALD) for 6-24.9 kg (Amendment 9.2, Annex 11.17).",
+    "Annex 11.17 heads the DRV section '≥3 yrs & 10 kg' but marks DRV 'not recommended' below 14 kg; the LPV/r 100/25 mg row is blank for >40 kg."
+   ],
+   "pages": [
+    290,
+    291
+   ],
+   "context_before": "Any third line client with PI Resistance clinicians must consult with the National 3rd Line Committee for updated dosing and administrative guidance for 3rd line treatment options. (Printed twice above the card.)"
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.18-tanner-staging",
+   "page": 292,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.18 Tanner staging",
+   "caption": "Annex 11.18 Tanner staging",
+   "replaces_chunks": [
+    "hiv-2022-0785"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Tanner stage"
+     },
+     {
+      "t": "Male genital description"
+     },
+     {
+      "t": "Female pubic hair description"
+     },
+     {
+      "t": "Breast description"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Testicular volume <3ml"
+     },
+     {
+      "t": "No pubic hair"
+     },
+     {
+      "t": "Elevation of papilla only"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Testicular volume <3ml, change in texture to scrotal skin"
+     },
+     {
+      "t": "Sparse growth chiefly along the labia/base of penis"
+     },
+     {
+      "t": "Breast bud stage"
+     }
+    ],
+    [
+     {
+      "t": "3"
+     },
+     {
+      "t": "Increase in size of penis with further testicular enlargement"
+     },
+     {
+      "t": "Darker, coarser, more curled hair"
+     },
+     {
+      "t": "Enlargement of breast and areola"
+     }
+    ],
+    [
+     {
+      "t": "4"
+     },
+     {
+      "t": "Further enlargment of penis and testicles with development of glans penis"
+     },
+     {
+      "t": "Adult type hair over a smaller area"
+     },
+     {
+      "t": "Projection of the areola and papilla"
+     }
+    ],
+    [
+     {
+      "t": "5"
+     },
+     {
+      "t": "Adult size and shape"
+     },
+     {
+      "t": "Spread to the medial surface of the thighs"
+     },
+     {
+      "t": "Recession of the areola to the contour of the breast, projection of papilla only"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Source: BMJ 2020;368:l6597. The printed table also has drawing columns (male genital appearance, female pubic hair appearance, breast appearance) illustrating each stage."
+   ],
+   "source_flags": [
+    "Annex 11.18 Tanner stage 2 gives testicular volume '<3ml' (same as stage 1); stage 2 is usually testicular volume ≥4 ml (>3 ml)."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "hiv-2022-fig-11.19-birth-tested-infants",
+   "page": 293,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.19 Special Dosing Considerations in Birth Tested Infants",
+   "caption": "Annex 11.19 Special Dosing Considerations in Birth Tested Infants",
+   "replaces_chunks": [
+    "hiv-2022-0787",
+    "hiv-2022-0788"
+   ],
+   "content": "Positive birth HIV PCR test: actively trace and link to care to start treatment ASAP; ensure mother is on ART.\n- If neonate is UNWELL or PREMATURE (<35 weeks): call Mother Facility Doctor or Baylor Hotline for support.\n- If neonate ≥35 weeks gestation & STABLE: start ART SAME DAY. Baselines: repeat HIV PCR, FBC & CD4 count/% (if possible).\n   - If 0-4 weeks old use syrups: AZT (4mg/kg/dose BD) + 3TC (2mg/kg/dose BD) + *NVP (see dosing chart) (*no lead-in needed, see dosing chart). Review at 1 week, 2 weeks & 4 weeks for counseling and *dose adjustments of NVP (see dosing chart).\n      → At 4 weeks of age: bloods: FBC; start CTX prophylaxis. CHANGE REGIMEN: if ≥3kg: ABC/3TC FDC + DTG; if <3kg: AZT (12mg/kg/dose BD) + 3TC (4mg/kg/dose BD) + NVP (200 mg/m² of BSA/dose BD).\n   - If ≥4 weeks old but <3kg: AZT (12mg/kg/dose BD) + 3TC (4mg/kg/dose BD) + NVP (200 mg/m² of BSA/dose BD). Optimize to ABC/3TC/DTG once ≥3kg.\n   - If ≥4 weeks old AND ≥3kg: ABC/3TC FDC + DTG.",
+   "footnotes": [],
+   "source_flags": [
+    "Superseded in part by the 2024 Amendment: pALD (ABC/3TC/DTG 60/30/5 mg) is the formulation from 6 kg; separate ABC/3TC + pDTG remain for 3-5.9 kg (Amendment 9.2)."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.20-holding-regimen-dosing",
+   "page": 294,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.20 Holding Regimen Dosing for Birth Tested Infants",
+   "caption": "Annex 11.20 Holding Regimen Dosing for Birth Tested Infants 0-4 weeks old and ≥35 Weeks Gestation (Or after 4 weeks until ≥3kg)",
+   "replaces_chunks": [
+    "hiv-2022-0789",
+    "hiv-2022-0790"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Weeks Gestation at Birth"
+     },
+     {
+      "t": "Current Age (weeks)"
+     },
+     {
+      "t": "Dose"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "AZT",
+      "rs": 2
+     },
+     {
+      "t": "≥35 Weeks",
+      "rs": 2
+     },
+     {
+      "t": "0-4 weeks"
+     },
+     {
+      "t": "4 mg/kg/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "≥ 4 weeks"
+     },
+     {
+      "t": "12 mg/kg/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "3TC",
+      "rs": 2
+     },
+     {
+      "t": "≥35 Weeks",
+      "rs": 2
+     },
+     {
+      "t": "0-4 weeks"
+     },
+     {
+      "t": "2 mg/kg/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "≥ 4 weeks"
+     },
+     {
+      "t": "4 mg/kg/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "*NVP",
+      "rs": 5
+     },
+     {
+      "t": "≥35 to <37 Weeks",
+      "rs": 3
+     },
+     {
+      "t": "0-1 week"
+     },
+     {
+      "t": "4 mg/kg/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "1-4 weeks"
+     },
+     {
+      "t": "6 mg/kg/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "≥ 4 weeks"
+     },
+     {
+      "t": "⁺200 mg/m² of BSA/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "≥37 Weeks",
+      "rs": 2
+     },
+     {
+      "t": "0-4 weeks"
+     },
+     {
+      "t": "6 mg/kg/dose BD"
+     }
+    ],
+    [
+     {
+      "t": "≥ 4 weeks"
+     },
+     {
+      "t": "⁺200 mg/m² of BSA/dose BD"
+     }
+    ]
+   ],
+   "footnotes": [
+    "*No NVP lead in dosing needed.",
+    "⁺ Body Surface Area calculator can be found at: mdcalc.com/body-mass-index-bmi-body-surface-area-bsa"
+   ],
+   "source_flags": []
+  },
+  {
+   "kind": "box",
+   "table_id": "hiv-2022-box-11.21-hiv-screening-tool-adults",
+   "page": 295,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.21 HIV Testing Screening Tool > HIV screening tool for adults and adolescents",
+   "caption": "Annex 11.21 HIV screening tool for adults and adolescents",
+   "replaces_chunks": [
+    "hiv-2022-0791",
+    "hiv-2022-0792",
+    "hiv-2022-0796"
+   ],
+   "content": "Have you ever tested for HIV?\n- NO → Offer routine HIV testing.\n- YES → Record date of last HIV test result and status in HTS client record and continue with HIV testing tool to identify the need for retesting:\n1. Have you had unprotected sex (sex without a condom) after a negative HIV test result with a partner with unknown HIV status? [ ] Yes [ ] No\n2. Have you had unprotected sex with an HIV-positive partner who has a detectable viral load or who is not (yet) on ART? [If unknown VL, tick Yes] [ ] Yes [ ] No\n3. Have you had sex while under the influence of alcohol or drugs? [ ] Yes [ ] No\n4. Have you had more than 1 sexual partner in the last 12 months? [ ] Yes [ ] No\n5. Have you ever come in contact with body fluids like blood or body secretions after a negative HIV test or in the past 2 months? [ ] Yes [ ] No\n6. Have you had a sexually transmitted infection in the last 6 months? [ ] Yes [ ] No\n7. Are you injecting drugs and sharing needles, syringes or other drug equipment with others? [ ] Yes [ ] No\nClients that answer “Yes” to one or more of the above questions should be re-tested for HIV. If the individual is requesting a test, provide it regardless of the screening result.",
+   "footnotes": [],
+   "source_flags": [
+    "Superseded in part by the 2024 Amendment: HIV eligibility screening process flow and risk assessment tool, and HIV self-testing as a screening tool (Amendment Chapter 3)."
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "hiv-2022-box-11.21-hiv-screening-tool-children",
+   "page": 295,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.21 HIV Testing Screening Tool > HIV Testing Screening Tool for Children",
+   "caption": "Annex 11.21 HIV Testing Screening Tool for Children",
+   "replaces_chunks": [
+    "hiv-2022-0794",
+    "hiv-2022-0795"
+   ],
+   "content": "Complete the tool for all children (age 6 - 15 years) with negative or unknown status. If there is a single “Yes” the child needs HIV testing.\n1. Are one or both parents of the child deceased or living with HIV? [ ] Yes [ ] No\n2. Has the child ever been admitted to the hospital before? [ ] Yes [ ] No\n3. Does the child have reoccurring skin problems? [ ] Yes [ ] No\n4. Has the child had poor health in the last 3 months? [ ] Yes [ ] No",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "box",
+   "table_id": "hiv-2022-box-11.22-art-readiness-form",
+   "page": 296,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.22 ART Readiness and Psychosocial Assessment Form",
+   "caption": "Annex 11.22 ART Readiness and Psychosocial Assessment Form",
+   "replaces_chunks": [
+    "hiv-2022-0797",
+    "hiv-2022-0798",
+    "hiv-2022-0799",
+    "hiv-2022-0800",
+    "hiv-2022-0801",
+    "hiv-2022-0802",
+    "hiv-2022-0803"
+   ],
+   "content": "CAPACITY: Knowledge about HIV prevention and transmission and basic knowledge about the process of treatment and how treatment works, including side effects, is essential. A basic understanding is that treatment works by “reducing the virus” in the body and the need to maintain viral suppression. Patients should understand the importance of adherence to treatment, harm reduction and safe sexual practices. Patients need confidence in their ability to meet expectations of commitment to treatment, including coping strategies to maintain emotional stability.\n\nBasics of HIV: What is HIV? What is AIDS? How is HIV passed on / spread? You CAN NOT get HIV from…\nART: What do you understand by ART? What are the benefits of early ART? What is your understanding of lifelong treatment? What are some side effects that may occur while taking ART? What should you do if any of these side effects occur? What are opportunistic infections, and can you list some you know? How can you prevent opportunistic infections? Would you continue ART if you would develop and opportunistic infections?\nViral load and CD4: What do you understand about the HIV viral load? What is an undetectable/ lower than detectable viral load? What is a high/ unsuppressed viral load (>1000 copies/ml)? What do you understand about CD4? Do you need to start ART with high CD4? What you need to do if your CD4 goes below 200 (ADM) (AHD)\nAdherence: What do you understand by adherence? What is adherence to ART? What happens when a patient does not practice adherence?\nPatient monitoring: How will you be clinically monitored while on ART? Why is monitoring ART important? What will be monitored during clinical visits? Do you know your laboratory monitoring schedule? (Adults and children 0-10yrs / Pregnant and lactating / Adolescents) What other labs are monitored? Why is it important to come back to the clinic for review?\nDisclosure: What is disclosure? When and to who can you disclose your HIV status and HIV treatment (Partner / Children / Family member / Co-worker / other)\nTreatment support: For adults: Do you have someone at home who can remind you about or make sure you are taking your HIV medications? For children: Who will give the child medication at home? What reminders do you have for the child on ART?\nCo-existing conditions: Do you have any co-existing conditions? (Hypertension / Diabetics / Anaemia / Epilepsy / Mental illness / Other) Are you taking medication for these conditions? How well controlled is your condition?\nPotential barriers to adherence: What potential barriers do you think could affect your treatment (ART)? (Financial / Work-related / Family-related / Transport related / Migration/mobility / Service provider related / Facility related / Mental health issues (substance use disorder and others) / Others) How can these barriers be addressed?\n\nNEED: The person initiating treatment must understand that treatment can extend health and productive life. The participants must trust that treatment will be helpful. This is one of the factors that could be bolstered by experienced expert clients on HIV treatment.\n\nAcceptance of HIV status and attitude towards ART: How do you feel about starting ART? What do you expect from taking ARVs? What are your goals for the future? Do you think ARVs can help you achieve those goals? Do you feel confident that you can take ARVs as prescribed and adhere to treatment? If you change your residential place, what will you do to continue with treatment? Are there any challenges that you foresee that can result in you stopping treatment?\nReview possible previous experience with ART (Defaulters, Back to care): Have you been prescribed ART before? If yes, under what circumstance was it prescribed? What issues or challenges made you stop taking your ARVs?\nClient’s Intention to start and adhere to ART: Treatment plan (adults): How and where will you store your medication? How will you remember to take your medication? Do you have a treatment supporter? What to do if you cannot make an appointment? How can you move to another facility? Treatment plan (special considerations for children and adolescents): Have you identified a primary and secondary caregiver? How will you remember to give your child medication? How will your child receive additional support from the community?\n\nDRIVE TO LIVE: This desire may be supported or discouraged by other aspects of life (family, children, partners, and friends). A component of the drive to live should include an assessment of shame, stigma, and how perceived or experienced discrimination is a force in the person’s life. Understanding a person’s drive to live may be guided by their expressions of fear of death. Within this context, assessing the presence and magnitude of anger, depression, and other emotionally distressing elements could be useful.\n\nOther aspects of PHDP (Positive Health, Dignity and Prevention): Index testing, prevention and treatment: Do you know the status of your partners? Do you know the status of your children? Do you inject drugs? Have your social contacts tested for HIV? Is your partner or any of your children taking HIV treatment? What are safer sex practices you can use to protect yourself and your partner? Why is STI screening and treatment important? Are you using any family planning methods? Why is family planning important? Do you experience stigma and discrimination? Where does this occur (work, school or home)? Feeling sad, down, or uninterested in life? Feeling anxious or nervous? Feeling stressed? Feeling angry? Do you feel stigmatized because of your HIV-positive status?\nIntimate partner violence: Do you experience Intimate Partner Violence? Has your partner ever hit, kicked, slapped, or otherwise physically hurt you for taking HIV treatment? Has your partner ever threatened to throw away or hide your HIV medicine? Has your partner ever forced you to stop HIV treatment? Has your partner forced you to share your medicine with them or force you to collect his medicine for him?\n\nSELF-CARE AND TREATMENT SUCCESS MEASURES: The client should be given information on how they will know their treatment is working to be motivated to continue taking treatment. Other factors like multi-month dispensing should be included as benefits for treatment success. The following information on treatment success and self-care will be provided:\n- What can you do to ensure you stay well on ART? (PLHIV support groups, exercise, good nutrition, healthy lifestyle)\n- How can you know the treatment is working? (VL suppression, increasing CD4, reduced or no OIs, good growth and development (children))\n- Do you know what U=U stand for? A sustained undetectable VL reduces the chance of you passing on HIV to your sexual partner, unborn child or breastfeeding child. This does not mean one has to stop using condoms.\n- What additional packages exist for you? Discuss DSD models available; longer refill intervals and convenient pick-up models; integrated care for HIV and other comorbidities.\n\nKey message: All clients must be enrolled for linkage case management for active follow-up and additional support.",
+   "footnotes": [],
+   "source_flags": [
+    "The readiness form defines an unsuppressed viral load as >1000 copies/ml; the 2024 Amendment sets suppression at <200 copies/mL."
+   ],
+   "pages": [
+    296,
+    297,
+    298,
+    299
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.23-low-readiness-scores",
+   "page": 300,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.23 Guidance on patients with low scores on ART readiness assessment",
+   "caption": "Annex 11.23 Guidance on patients with low scores on ART readiness assessment",
+   "replaces_chunks": [
+    "hiv-2022-0804",
+    "hiv-2022-0805"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Assessment"
+     },
+     {
+      "t": "Remedial action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "From I- XVI"
+     },
+     {
+      "t": "Additional counselling and patient education on identified knowledge gaps/ low scores to improve patient literacy and support by a nurse/ doctor or social worker<br/>Involve treatment/ Peer supporter for counselling for additional support<br/>Link to support group and community support structures"
+     }
+    ],
+    [
+     {
+      "t": "V- VI"
+     },
+     {
+      "t": "Appoint re- counselling session with Treatment/ supporter<br/>- Link to support group and other community support structures"
+     }
+    ],
+    [
+     {
+      "t": "VIII"
+     },
+     {
+      "t": "- Counsel for assisted disclosure with EC, Peer supporter, Nurse or social worker"
+     }
+    ],
+    [
+     {
+      "t": "IX"
+     },
+     {
+      "t": "- Identify treatment supporter<br/>- Emphasize setting reminders"
+     }
+    ],
+    [
+     {
+      "t": "X"
+     },
+     {
+      "t": "- Refer to nurse/ doctor for assessment, management and decision to initiate or delay ART"
+     }
+    ],
+    [
+     {
+      "t": "XI"
+     },
+     {
+      "t": "- Assess the barrier<br/>- Counsel on possible remedial actions<br/>- Discuss, Agree and revise the treatment plan to address barriers<br/>- Identify/ engage treatment supporter/ Peer supporter<br/>- Assist and Arrange for referral to additional support structures (Nurse, social worker, Psychiatric nurse, OVC-DREAMS Linkage Case Assistants)"
+     }
+    ],
+    [
+     {
+      "t": "XII"
+     },
+     {
+      "t": "If the Client is not ready for ART initiation<br/>- Review potential barriers to ART initiation<br/>- Additional counselling and patient education on identified knowledge gaps/ low scores to improve patient literacy and support by a nurse/ doctor or social worker<br/>- Assist and Arrange for referral to additional support structures (Nurse, social worker, Psychiatric nurse, OVC-DREAMS Linkage Case Assistants)<br/>- Engage Treatment supporter<br/>- Reappoint patient for follow-up +/- ART initiation within 2 weeks."
+     }
+    ],
+    [
+     {
+      "t": "XIII"
+     },
+     {
+      "t": "- Review potential barriers to ART initiation<br/>- Additional counselling and patient education on identified knowledge gaps/ low scores to improve patient literacy and support by a nurse/ doctor or social worker<br/>- Assist and Arrange for referral to additional support structures (Nurse, social worker, Psychiatric nurse, OVC-DREAMS Linkage Case Assistants)<br/>- Engage Treatment supporter"
+     }
+    ],
+    [
+     {
+      "t": "XVI"
+     },
+     {
+      "t": "- Additional counselling and patient education on identified knowledge gaps/ low scores to improve patient literacy and support by a nurse/ doctor or social worker<br/>- Involve treatment/ Peer supporter for counselling for additional support<br/>- Link to support group and community support structures"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.23 refers to assessment sections I-XVI, but the readiness form in Annex 11.22 has no numbered sections, and no scoring is given, so the 'low scores' cannot be mapped."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.24-phq9-siswati",
+   "page": 301,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.24 Depression Assessment > Siswati",
+   "caption": "Annex 11.24 Depression Assessment (Siswati PHQ-9)",
+   "replaces_chunks": [
+    "hiv-2022-0806",
+    "hiv-2022-0807"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Sebentisa nalu luphawu √ kuphendvula",
+      "cs": 5
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Akukake kwenteka"
+     },
+     {
+      "t": "Emalanga lambalwa"
+     },
+     {
+      "t": "Lokungetulu kweliviki (7 days)"
+     },
+     {
+      "t": "Cishe onkhe emalanga"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Kuncishelwa ngumdlandla/inshisekelo ekwenteni tintfo letikuchazako/letikujabulisako"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Kutiva uphansi emoyeni, ukhatsatekile noma ute litsemba"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Bulukhuni bekwehlelwa butfongo noma kuphelelwa butfongo noma kuba nebutfongo lobuningi"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Kutiva udziniwe noma uphelelwa ngemandla"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Kungakhanuki kudla (inhlitiyo imnyama) noma kudla kakhulu"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Kuva utisola/utenyanya noma usehluleki noma utentele phansi noma wentele phansi umndeni wakho"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Kuba nebulukhuni kubeka umcondvo/kulandzelela etintfweni lotentako, letinjengekufundza liphephandzaba noma kubukela mabonakudze (TV)"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Kuhamba kancane noma kunamula lokunakekako kulabanye bantfu. Noma kungahlaliseki kangangekutsi uhlala uphitsitela lokungetulu kwalokutayelekile"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Kuba nemicabango yekutsi kuncono kufa, noma ucabange kutilimata."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "SEKUKONKHE:"
+     },
+     {
+      "t": "",
+      "cs": 4
+     }
+    ]
+   ],
+   "footnotes": [
+    "Below the table: Sisebenti setemphilo; kutfola inchazelo ngemphumela buka luhla lwetinchazelo ngemuva kuhlatiya umphumela. Nangabe ubeke luphawu kulenye yaletinkinga, kwente kwaba lukhuni kangakanani kutsi wente umsebenti, unakekele kahle likhaya noma uphilisane kahle nebantfuukabi nebulukhuni: Kube lukhunyana / Kube lukhuni kakhulu / Kube lukhuni ngalokwecile.",
+    "The Siswati items are the nine PHQ-9 questions in the same order as the English version (next table)."
+   ],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.24-phq9-english",
+   "page": 302,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.24 Depression Assessment > English",
+   "caption": "Annex 11.24 Depression Assessment (English PHQ-9)",
+   "replaces_chunks": [
+    "hiv-2022-0808",
+    "hiv-2022-0809"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+      "cs": 5
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Not at all"
+     },
+     {
+      "t": "Several days"
+     },
+     {
+      "t": "More than half the days"
+     },
+     {
+      "t": "Nearly every day"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1. Little interest or pleasure in doing things"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "2. Feeling down, depressed, or hopeless"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "3. Trouble falling or staying asleep, or sleeping too much"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "4. Feeling tired or having little energy"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "5. Poor appetite or overeating"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "6. Feeling bad about yourself or that you are a failure or have let yourself or your family down"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "7. Trouble concentrating (on things linked with your usual activities)"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "8. Moving or speaking so slowly that other people could have noticed, or, on the contrary, being fidgety, restless, or moving around a lot more than usual"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "9. Thoughts that you would be better off dead or hurting yourself in some way"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "TOTAL:"
+     },
+     {
+      "t": "",
+      "cs": 4
+     }
+    ]
+   ],
+   "footnotes": [
+    "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people? Not difficult at all / Somewhat difficult / Very difficult / Extremely difficult."
+   ],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.24-phq9-score",
+   "page": 302,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.24 Depression Assessment > Depression Assessment Score (English and Siswati)",
+   "caption": "Depression Assessment Score (English and Siswati)",
+   "replaces_chunks": [
+    "hiv-2022-0810"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Client Health Questionnaire Score (English and Siswati)"
+     },
+     {
+      "t": "Provisional diagnosis"
+     },
+     {
+      "t": "Recommendation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "5–9"
+     },
+     {
+      "t": "Minimal symptoms"
+     },
+     {
+      "t": "Support and educate to call for support if symptoms get worse."
+     }
+    ],
+    [
+     {
+      "t": "10–14"
+     },
+     {
+      "t": "Minor to mild depression or chronic depression (symptoms lasting for 2 years)"
+     },
+     {
+      "t": "Support and watchful waiting. Reassess in 1–2 weeks.<br/>Consider starting treatment for psychological support."
+     }
+    ],
+    [
+     {
+      "t": "15–19"
+     },
+     {
+      "t": "Major depression"
+     },
+     {
+      "t": "Refer to social workers/psychologist/nurse. Needed for specific treatment."
+     }
+    ],
+    [
+     {
+      "t": ">20"
+     },
+     {
+      "t": "Severe depression"
+     },
+     {
+      "t": "Major impairment, need for active treatment."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The PHQ-9 score bands leave out 0-4 and a score of exactly 20 (5-9, 10-14, 15-19, >20), and nothing is said about a positive answer to item 9 (thoughts of death or self-harm), which needs same-day suicide risk assessment (see the 2024 Amendment Chapter 10 suicide screening)."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.25-karnofsky",
+   "page": 303,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.25 Karnofsky performance status",
+   "caption": "Annex 11.25 Karnofsky performance status",
+   "replaces_chunks": [
+    "hiv-2022-0811"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Status"
+     },
+     {
+      "t": "Response"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "100%"
+     },
+     {
+      "t": "Normal, no complaints, no signs of disease"
+     }
+    ],
+    [
+     {
+      "t": "90%"
+     },
+     {
+      "t": "Capable of normal activity, minor symptoms or signs of disease"
+     }
+    ],
+    [
+     {
+      "t": "80%"
+     },
+     {
+      "t": "Normal activity with some difficulty, some symptoms or signs"
+     }
+    ],
+    [
+     {
+      "t": "70%"
+     },
+     {
+      "t": "Caring for self, not capable of normal activity or work"
+     }
+    ],
+    [
+     {
+      "t": "60%"
+     },
+     {
+      "t": "Requiring some help can take care of most personal requirements"
+     }
+    ],
+    [
+     {
+      "t": "50%"
+     },
+     {
+      "t": "Requires help often, requires frequent medical care"
+     }
+    ],
+    [
+     {
+      "t": "40%"
+     },
+     {
+      "t": "Disabled, requires special care and help"
+     }
+    ],
+    [
+     {
+      "t": "30%"
+     },
+     {
+      "t": "Severely disabled, hospital admission indicated but no risk of death"
+     }
+    ],
+    [
+     {
+      "t": "20%"
+     },
+     {
+      "t": "Very ill, urgently requiring admission, requires supportive measures or treatment"
+     }
+    ],
+    [
+     {
+      "t": "10%"
+     },
+     {
+      "t": "Moribund, rapidly progressive fatal disease processes"
+     }
+    ],
+    [
+     {
+      "t": "0%"
+     },
+     {
+      "t": "Death"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.26-cd4-vl-uses",
+   "page": 303,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.26 Summary of the Uses of CD4 and Viral Load Monitoring",
+   "caption": "Annex 11.26 Summary of the Uses of CD4 and Viral Load Monitoring",
+   "replaces_chunks": [
+    "hiv-2022-0812"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Use"
+     },
+     {
+      "t": "CD4"
+     },
+     {
+      "t": "VL"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Baseline laboratory for clients diagnosed with HIV"
+     },
+     {
+      "t": "X"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Disease progression for clients with HIV who have not initiated ART"
+     },
+     {
+      "t": "X"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "To determine immune status at enrolment—mild, moderate or advanced immunodeficiency"
+     },
+     {
+      "t": "X"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "To determine if LF TB-LAM testing and LF-CrAg screening should be conducted"
+     },
+     {
+      "t": "X"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "To assess treatment success or failure"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "X"
+     }
+    ],
+    [
+     {
+      "t": "To assess if a client is stable or unstable on ART"
+     },
+     {
+      "t": "X"
+     },
+     {
+      "t": "X"
+     }
+    ],
+    [
+     {
+      "t": "To assess adherence to treatment"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "X"
+     }
+    ],
+    [
+     {
+      "t": "To assess eligibility for DSD"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "X"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Superseded in part by the 2024 Amendment: a pretreatment (baseline) VL is now done for new initiators (Amendment 5.1), whereas Annex 11.26 marks baseline laboratory testing as CD4 only."
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "hiv-2022-box-11.27-adr-report-form",
+   "page": 304,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.27 Adverse Drug Reaction Report Form",
+   "caption": "Annex 11.27 Adverse Drug Reaction Report Form",
+   "replaces_chunks": [
+    "hiv-2022-0813",
+    "hiv-2022-0814",
+    "hiv-2022-0815",
+    "hiv-2022-0816",
+    "hiv-2022-0817",
+    "hiv-2022-0818"
+   ],
+   "content": "The report can be returned to Central Medical Stores by Fax: 2518 6279 or via Whatsapp on +268 7655 7303. Email: cms@realnet.co.sz. Post: Adverse Drug Reaction, Central Medical Stores. P.O. Box 72, Kwaluseni.\n\nSection A: Patient Information: patient initials or reference number; sex (male/female); pregnant (no/yes/unknown); weight (if known) kg; date of birth (dd/mm/yyyy) or age (at last birthday).\nSection B: Medication History: table of all drug therapies/vaccines before ADR (please use trade names and circle the suspected drug) with batch number, daily dosage, route, date begun, date stopped, indication for use. Allergies or other relevant histories (including medical history, liver/kidney problems, smoking, alcohol use, etc.).\nSection C: About the Adverse Drug Reaction: date of onset of ADR (dd/mm/yyyy); description of event. Category of ADR (please tick): suspect minor/major reaction from a drug (e.g., allergic reaction); adverse event (e.g., congenital defects); product use error (e.g., use of antibiotic instead of NSAID). Severity (can tick more than one if appropriate): life-threatening; hospitalization (dd/mm/yyyy); hospitalization NOT required. Relevant laboratory result.\nSection D: Treatment and Outcomes: treatment of ADR (no/yes); details (including dosage, frequency, route, and duration). Outcome: recovered on (dd/mm/yyyy); not yet recovered; unknown; died on (dd/mm/yyyy); persistent disability; birth defect; medically significant events; details.\nSection E: Reporter Details: name; director of the service (private/public); occupation (doctor, dentist, pharmacist, nurse, other); correspondence address; telephone number; fax number; email; also report to: manufacturer / distributor/importer / others; date of this report (dd/mm/yyyy).\n\nInstructions/ Notes:\n1. ADR can be briefly described as a noxious and unintended response to a drug or vaccine when the normal dose is used\n2. This report form is used for voluntary of all suspected ADR\n3. There is no need to put down the full name of the patient\n4. Please provide information to every section, information of individual reporter will be treated with strict confidence\n5. Please use another page for additional information if necessary\n6. For further enquiries, please contact the Pharmacist at Central Medical Stores at 2518 4111\n*Completion of this form is not an admission of guilt or negligence",
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    304,
+    305
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.28-causes-of-treatment-failure",
+   "page": 306,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.28 Causes of treatment failure",
+   "caption": "Annex 11.28 Causes of treatment failure",
+   "replaces_chunks": [
+    "hiv-2022-0819",
+    "hiv-2022-0820",
+    "hiv-2022-0821",
+    "hiv-2022-0822"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Cause"
+     },
+     {
+      "t": "Intervention"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Medical conditions"
+    },
+    [
+     {
+      "t": "Comorbidities<br/>Malabsorption<br/>Inter-current illnesses<br/>Advanced immunodeficiency (AHD)"
+     },
+     {
+      "t": "Consult experienced clinician<br/>Treat current illness following national guidelines<br/>Conduct thorough screening of OIs before ART initiation<br/>Follow AHD guidelines<br/>Assure of correct doses of treatment at every visit"
+     }
+    ],
+    [
+     {
+      "t": "Substance use disorder<br/>Depression *"
+     },
+     {
+      "t": "Consult social worker/psychologist<br/>Consult the psychiatrist and refer if necessary"
+     }
+    ],
+    [
+     {
+      "t": "Transmitted resistance"
+     },
+     {
+      "t": "Counsel patient and trace index contacts<br/>Switch to an appropriate regimen<br/>Identify previous ARV exposure before ART initiation"
+     }
+    ],
+    [
+     {
+      "t": "Toxicity or side effects<br/>Drug-drug interactions"
+     },
+     {
+      "t": "Manage according to the severity of the side effect (see chapter 5, Section 5.12 on pharmacovigilance)<br/>Stop offending drug(s) if necessary<br/>Follow national guidelines when prescribing<br/>Ask about drug history at each refill"
+     }
+    ],
+    {
+     "section": "Psychosocial factors"
+    },
+    [
+     {
+      "t": "Forgetfulness<br/>Absence of social support<br/>Stigma<br/>Lack of disclosure"
+     },
+     {
+      "t": "Engage treatment supporter<br/>Home visits<br/>Engage community health care workers"
+     }
+    ],
+    [
+     {
+      "t": "Migration and relocation<br/>Unfavourable working hours"
+     },
+     {
+      "t": "Ensure adequate supply when travelling<br/>Enrol into DSD if eligible"
+     }
+    ],
+    [
+     {
+      "t": "Misinformation from the community"
+     },
+     {
+      "t": "Document presented issues and engaged the APS/health promotion focal persons"
+     }
+    ],
+    [
+     {
+      "t": "Poor storage conditions"
+     },
+     {
+      "t": "Ensure optimal storage conditions of the drug formulations before prescribing MMD"
+     }
+    ],
+    {
+     "section": "Health System Factors (Management)"
+    },
+    [
+     {
+      "t": "Drug stockouts<br/>Incorrect regimen and drug doses<br/>VL regimen stock out"
+     },
+     {
+      "t": "Capture correct patient medical data in the correct data collection tools.<br/>Verify M&E data before quantification"
+     }
+    ],
+    [
+     {
+      "t": "Service Accessibility"
+     },
+     {
+      "t": "Encourage patients to access services at their nearest health facilities<br/>Conduct ART readiness assessment before ART initiation<br/>Aim to provide patient-centred care<br/>Conduct routine VL monitoring and use the HVL register effectively"
+     }
+    ]
+   ],
+   "footnotes": [
+    "* Follow the PHQ9 screening tool on Annex 0 for Depression screening and manage appropriately (the PHQ-9 is Annex 11.24; 'Annex 0' is a broken cross-reference)."
+   ],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.29-who-clinical-staging",
+   "page": 307,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.29 Revised WHO clinical staging",
+   "caption": "Annex 11.29 Revised WHO clinical staging",
+   "replaces_chunks": [
+    "hiv-2022-0823",
+    "hiv-2022-0824",
+    "hiv-2022-0825",
+    "hiv-2022-0826",
+    "hiv-2022-0827"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Adults and adolescentsᵃ"
+     },
+     {
+      "t": "Children"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Clinical stage 1"
+    },
+    [
+     {
+      "t": "- Asymptomatic<br/>- Persistent generalized lymphadenopathy"
+     },
+     {
+      "t": "- Asymptomatic<br/>- Persistent generalized lymphadenopathy"
+     }
+    ],
+    {
+     "section": "Clinical stage 2"
+    },
+    [
+     {
+      "t": "- Moderate unexplained weight loss (<10% of presumed or measured body weight)<br/>- Recurrent respiratory tract infections (sinusitis, tonsillitis, otitis media, pharyngitis)<br/>- Herpes zoster<br/>- Angular cheilitis<br/>- Recurrent oral ulceration<br/>- Papular pruritic eruption<br/>- Fungal nail infections<br/>- Seborrheic dermatitis"
+     },
+     {
+      "t": "- Unexplained persistent hepatosplenomegaly<br/>- Recurrent or chronic upper respiratory tract infections (otitis media, otorrhoea, sinusitis, tonsillitis)<br/>- Herpes zoster<br/>- Linear gingival erythema<br/>- Recurrent oral ulceration<br/>- Papular pruritic eruption<br/>- Fungal nail infections<br/>- Extensive wart virus infection<br/>- Extensive molluscum contagiosum<br/>- Unexplained persistent parotid enlargement"
+     }
+    ],
+    {
+     "section": "Clinical stage 3"
+    },
+    [
+     {
+      "t": "- Unexplained severe weight loss (>10% of presumed or measured body weight)<br/>- Unexplained chronic diarrhoea for longer than 1 month<br/>- Unexplained persistent fever (intermittent or constant for longer than 1 month)<br/>- Persistent oral candidiasis<br/>- Oral hairy leucoplakia<br/>- Pulmonary tuberculosis<br/>- Severe bacterial infections (such as pneumonia, empyema, pyomyositis, bone or joint infection, meningitis, bacteraemia)<br/>- Acute necrotizing ulcerative stomatitis, gingivitis or periodontitis<br/>- Unexplained anaemia (<8 g/dl), neutropenia (<0.5 x 10⁹/l) and/or chronic thrombocytopaenia (<50 x 10⁹/l)"
+     },
+     {
+      "t": "- Unexplained moderate malnutritionᵇ not adequately responding to standard therapy<br/>- Unexplained persistent diarrhoea (14 days or more)<br/>- Unexplained persistent fever (above 37.5°C, intermittent or constant, for longer than one 1 month)<br/>- Persistent oral candidiasis (after the first 6 weeks of life)<br/>- Oral hairy leucoplakia<br/>- Lymph node tuberculosis<br/>- Pulmonary tuberculosis<br/>- Severe recurrent bacterial pneumonia<br/>- Acute necrotizing ulcerative gingivitis or periodontitis<br/>- Unexplained anaemia (<8 g/dl), neutropenia (<0.5 x 10⁹/l) or chronic thrombocytopaenia (<50 x 10⁹/l)<br/>- Symptomatic lymphoid interstitial pneumonitis<br/>- Chronic HIV-associated lung disease, including bronchiectasis"
+     }
+    ],
+    {
+     "section": "Clinical stage 4ᶜ"
+    },
+    [
+     {
+      "t": "- HIV wasting syndrome<br/>- Pneumocystis (jirovecii) pneumonia<br/>- Recurrent severe bacterial pneumonia<br/>- Chronic herpes simplex infection (orolabial, genital or anorectal of more than 1 month’s duration or visceral at any site)<br/>- Oesophageal candidiasis (or candidiasis of trachea, bronchi or lungs)<br/>- Extrapulmonary tuberculosis<br/>- Kaposi sarcoma<br/>- Cytomegalovirus infection (retinitis or infection of other organs)<br/>- Central nervous system toxoplasmosis<br/>- HIV encephalopathy<br/>- Extrapulmonary cryptococcosis, including meningitis<br/>- Disseminated nontuberculous mycobacterial infection<br/>- Progressive multifocal leukoencephalopathy<br/>- Chronic cryptosporidiosis<br/>- Chronic Isosporiasis<br/>- Disseminated mycosis (extrapulmonary histoplasmosis, coccidioidomycosis)<br/>- Lymphoma (cerebral or B-cell non-Hodgkin)<br/>- Symptomatic HIV-associated nephropathy or cardiomyopathy<br/>- Recurrent septicaemia (including nontyphoidal Salmonella)<br/>- Invasive cervical carcinoma<br/>- Atypical disseminated leishmaniasis"
+     },
+     {
+      "t": "- Unexplained severe wasting, stunting or severe malnutritionᵈ not responding to standard therapy<br/>- Pneumocystis (jirovecii) pneumonia<br/>- Recurrent severe bacterial infections (such as empyema, pyomyositis, bone or joint infection, meningitis, but excluding pneumonia)<br/>- Chronic herpes simplex infection (orolabial or cutaneous of more than 1 month’s duration or visceral at any site)<br/>- Oesophageal candidiasis (or candidiasis of trachea, bronchi or lungs)<br/>- Extrapulmonary tuberculosis<br/>- Kaposi sarcoma<br/>- Cytomegalovirus infection (retinitis or infection of other organs with onset at age more than 1 month)<br/>- Central nervous system toxoplasmosis (after the neonatal period)<br/>- HIV encephalopathy<br/>- Extrapulmonary cryptococcosis, including meningitis<br/>- Disseminated nontuberculous mycobacterial infection<br/>- Progressive multifocal leukoencephalopathy<br/>- Chronic cryptosporidiosis (with diarrhoea)<br/>- Chronic Isosporiasis<br/>- Disseminated endemic mycosis (extrapulmonary histoplasmosis, coccidioidomycosis, penicilliosis)<br/>- Cerebral or B-cell non-Hodgkin lymphoma<br/>- HIV-associated nephropathy or cardiomyopathy"
+     }
+    ]
+   ],
+   "footnotes": [
+    "ᵃ In the development of this table, adolescents were defined as 15 years or older. For those aged less than 15 years, the clinical staging for children should be used.",
+    "ᵇ For children younger than 5 years, moderate malnutrition is defined as weight-for-height <–2 z-score or mid-upper arm circumference ≥115 mm to <125 mm.",
+    "ᶜ Some additional specific conditions can be included in regional classifications, such as penicilliosis in Asia, HIV-associated rectovaginal fistula in southern Africa and reactivation of trypanosomiasis in Latin America.",
+    "ᵈ For children younger than 5 years of age, severe wasting is defined as weight-for-height <–3 z-score; stunting is defined as length-for-age/height-for-age <–2 z-score, and severe acute malnutrition is either weight for height <–3 z-score or mid-upper arm circumference <115mm or the presence of oedema.",
+    "The footnotes are printed as bullets; only the last carries its letter (d) in the source. Neutropenia and thrombocytopenia thresholds are printed '0.5 x 109/l' and '50 x 109/l' (10⁹)."
+   ],
+   "source_flags": [],
+   "pages": [
+    307,
+    308
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.30-developmental-milestones",
+   "page": 309,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.30 Developmental milestones- The First 24 months of life",
+   "caption": "Annex 11.30 Developmental milestones - The First 24 months of life",
+   "replaces_chunks": [
+    "hiv-2022-0828",
+    "hiv-2022-0829"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age"
+     },
+     {
+      "t": "Psychosocial"
+     },
+     {
+      "t": "Gross motor"
+     },
+     {
+      "t": "Fine motor and visual"
+     },
+     {
+      "t": "Communication and hearing"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1 month"
+     },
+     {
+      "t": "Follows faces to the midline"
+     },
+     {
+      "t": "Moves all extremities equally.<br/>Lifts head while lying down on stomach"
+     },
+     {
+      "t": "Opens hands spontaneously"
+     },
+     {
+      "t": "Startled by loud sounds<br/>Cries<br/>Quiets when fed and comforted"
+     }
+    ],
+    [
+     {
+      "t": "2 months"
+     },
+     {
+      "t": "Follows faces past the midline<br/>Smiles responsively"
+     },
+     {
+      "t": "Lifts head at 45 degrees when on stomach"
+     },
+     {
+      "t": "Looks at their own hand"
+     },
+     {
+      "t": "Makes baby sounds (cooing, squealing, gurgling)"
+     }
+    ],
+    [
+     {
+      "t": "3 months"
+     },
+     {
+      "t": "Recognizes mother<br/>Smiles responsively"
+     },
+     {
+      "t": "Can support head for a few seconds when held upright"
+     },
+     {
+      "t": "Opens hand frequently"
+     },
+     {
+      "t": "Responds to voices<br/>Laughs"
+     }
+    ],
+    [
+     {
+      "t": "4 months"
+     },
+     {
+      "t": "Follows an object with the eye for 180degress<br/>Regards own hand<br/>Anticipates food on sight"
+     },
+     {
+      "t": "Bears weight on legs<br/>Good neck control when pulled to a sitting position<br/>Lifts chest and supports self on elbows when lying on stomach"
+     },
+     {
+      "t": "Claps hands<br/>Grabs objects e.g., a rattle<br/>Reaches for objects"
+     },
+     {
+      "t": "Turns head to sound"
+     }
+    ],
+    [
+     {
+      "t": "6 months"
+     },
+     {
+      "t": "Reaches out to familiar people"
+     },
+     {
+      "t": "Rolls from stomach to back or back to stomach<br/>Sits with anterior support"
+     },
+     {
+      "t": "Plays with hands by touching them together<br/>Sees small objects e.g., breadcrumbs"
+     },
+     {
+      "t": "Responds to name<br/>Babbles"
+     }
+    ],
+    [
+     {
+      "t": "9 months"
+     },
+     {
+      "t": "Indicates wants<br/>Waves “bye-bye”<br/>Has stranger anxiety"
+     },
+     {
+      "t": "Can sit without support<br/>Creeps or crawls on hands and knees"
+     },
+     {
+      "t": "Looks for a toy when it falls from his/her hand<br/>Takes a toy in each hand<br/>Transfers a toy from one hand to the other"
+     },
+     {
+      "t": "Responds to soft sounds e.g., whispers"
+     }
+    ],
+    [
+     {
+      "t": "12 months"
+     },
+     {
+      "t": "Has separation anxiety<br/>Social interactions are intentional and goal-directed"
+     },
+     {
+      "t": "Pulls self-up to a standing position<br/>Walks with support"
+     },
+     {
+      "t": "Points at objects with the index finger"
+     },
+     {
+      "t": "Says 1-word<br/>Makes mama or dada sounds<br/>Locates sounds by turning head"
+     }
+    ],
+    [
+     {
+      "t": "15 months"
+     },
+     {
+      "t": "Imitates activities<br/>Finds a nearby hidden object"
+     },
+     {
+      "t": "Can take steps on own<br/>Can get up from a sitting position to a lying position"
+     },
+     {
+      "t": "Can stack one cube on top of another"
+     },
+     {
+      "t": "Able to say mama and dada to respective parents (Sounds to identify caretakers)"
+     }
+    ],
+    [
+     {
+      "t": "18 months"
+     },
+     {
+      "t": "Initiates interactions by calling an adult"
+     },
+     {
+      "t": "Walks without help"
+     },
+     {
+      "t": "Can take off their own shoes<br/>Feeds self"
+     },
+     {
+      "t": "Says at least 3 words"
+     }
+    ],
+    [
+     {
+      "t": "2 years"
+     },
+     {
+      "t": "Does things to please others<br/>Engages in imitative play"
+     },
+     {
+      "t": "Runs without falling"
+     },
+     {
+      "t": "Looks at pictures in a book<br/>Imitates drawing a vertical line"
+     },
+     {
+      "t": "Combines 2 different words"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.31-bmi-for-age-boys",
+   "page": 310,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.31 Nutritional Assessments > BMI-for-Age Table, BOYS 15–18 years",
+   "caption": "Annex 11.31 BMI-for-Age Table, BOYS 15–18 years",
+   "replaces_chunks": [
+    "hiv-2022-0830"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age (Years.months)"
+     },
+     {
+      "t": "Severe acute malnutrition < –3 SD (BMI)"
+     },
+     {
+      "t": "Moderate malnutrition ≥ –3 to < –2 SD (BMI)"
+     },
+     {
+      "t": "Normal ≥ –2 to ≤ +1 SD (BMI)"
+     },
+     {
+      "t": "Overweight > +1 to ≤+2 SD (BMI)"
+     },
+     {
+      "t": "Obese > +2 SD (BMI)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "15.0"
+     },
+     {
+      "t": "<14.7"
+     },
+     {
+      "t": "14.7- 15.9"
+     },
+     {
+      "t": "16.0- 22.7"
+     },
+     {
+      "t": "22.8 -27.0"
+     },
+     {
+      "t": ">27"
+     }
+    ],
+    [
+     {
+      "t": "15.6"
+     },
+     {
+      "t": "<14.9"
+     },
+     {
+      "t": "14.9- 16.3"
+     },
+     {
+      "t": "16.3 -23.1"
+     },
+     {
+      "t": "23.2 – 27.4"
+     },
+     {
+      "t": ">27.4"
+     }
+    ],
+    [
+     {
+      "t": "16.0"
+     },
+     {
+      "t": "<15.1"
+     },
+     {
+      "t": "15.1-16.4"
+     },
+     {
+      "t": "16.5 -23.5"
+     },
+     {
+      "t": "23.6 -27.9"
+     },
+     {
+      "t": ">27.9"
+     }
+    ],
+    [
+     {
+      "t": "16.6"
+     },
+     {
+      "t": "<15.3"
+     },
+     {
+      "t": "15.3- 16.6"
+     },
+     {
+      "t": "16.7 -23.9"
+     },
+     {
+      "t": "24.0 -28.3"
+     },
+     {
+      "t": ">28.3"
+     }
+    ],
+    [
+     {
+      "t": "17.0"
+     },
+     {
+      "t": "<15.4"
+     },
+     {
+      "t": "15.4-16.8"
+     },
+     {
+      "t": "16.9 -24.3"
+     },
+     {
+      "t": "22.4 -28.6"
+     },
+     {
+      "t": ">28.6"
+     }
+    ],
+    [
+     {
+      "t": "17.6"
+     },
+     {
+      "t": "<15.6"
+     },
+     {
+      "t": "15.6- 17.0"
+     },
+     {
+      "t": "17.1 -24.6"
+     },
+     {
+      "t": "24.7 -29.0"
+     },
+     {
+      "t": ">29.0"
+     }
+    ],
+    [
+     {
+      "t": "18"
+     },
+     {
+      "t": "<15.7"
+     },
+     {
+      "t": "15.7- 17.2"
+     },
+     {
+      "t": "17.3 -24.9"
+     },
+     {
+      "t": "25.0 -29.2"
+     },
+     {
+      "t": ">29.2"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Adapted from WHO 2007. Age is years.months (15.6 = 15 years 6 months). Columns are colour-coded in the source (red, yellow, green, grey, pink)."
+   ],
+   "source_flags": [
+    "Annex 11.31 boys 17.0 years: overweight printed '22.4 -28.6', overlapping the normal band (16.9-24.3); likely 24.4. Boys 15.6 years: moderate '14.9-16.3' and normal '16.3-23.1' share 16.3."
+   ]
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.31-bmi-for-age-girls",
+   "page": 310,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.31 Nutritional Assessments > BMI-for-Age Table, Girls 15-18 years",
+   "caption": "Annex 11.31 BMI-for-Age Table, Girls 15-18 years",
+   "replaces_chunks": [
+    "hiv-2022-0832"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age (Years.months)"
+     },
+     {
+      "t": "Severe acute malnutrition < –3 SD (BMI)"
+     },
+     {
+      "t": "Moderate malnutrition ≥ –3 to < –2 SD (BMI)"
+     },
+     {
+      "t": "Normal ≥ –2 to ≤ +1 SD (BMI)"
+     },
+     {
+      "t": "Overweight > +1 to ≤+2 SD (BMI)"
+     },
+     {
+      "t": "Obese > +2 SD (BMI)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "15.0"
+     },
+     {
+      "t": "<14.4"
+     },
+     {
+      "t": "14.4- 15.8"
+     },
+     {
+      "t": "15.9- 23.5"
+     },
+     {
+      "t": "23.6 -28.2"
+     },
+     {
+      "t": ">28.2"
+     }
+    ],
+    [
+     {
+      "t": "15.6"
+     },
+     {
+      "t": "<14.5"
+     },
+     {
+      "t": "14.5- 15.9"
+     },
+     {
+      "t": "16.0 -23.8"
+     },
+     {
+      "t": "23.9 – 28.6"
+     },
+     {
+      "t": ">28.6"
+     }
+    ],
+    [
+     {
+      "t": "16.0"
+     },
+     {
+      "t": "<14.6"
+     },
+     {
+      "t": "14.6-16.1"
+     },
+     {
+      "t": "16.2 -24.1"
+     },
+     {
+      "t": "24.2 -28.9"
+     },
+     {
+      "t": ">28.9"
+     }
+    ],
+    [
+     {
+      "t": "16.6"
+     },
+     {
+      "t": "<14.7"
+     },
+     {
+      "t": "14.7- 16.2"
+     },
+     {
+      "t": "16.3 -24.3"
+     },
+     {
+      "t": "24.4 -29.1"
+     },
+     {
+      "t": ">29.1"
+     }
+    ],
+    [
+     {
+      "t": "17.0"
+     },
+     {
+      "t": "<14.7"
+     },
+     {
+      "t": "14.7-16.3"
+     },
+     {
+      "t": "16.4 -24.5"
+     },
+     {
+      "t": "24.6 -29.3"
+     },
+     {
+      "t": ">29.3"
+     }
+    ],
+    [
+     {
+      "t": "17.6"
+     },
+     {
+      "t": "<14.7"
+     },
+     {
+      "t": "14.7- 16.3"
+     },
+     {
+      "t": "16.4 -24.6"
+     },
+     {
+      "t": "24.7 -29.4"
+     },
+     {
+      "t": ">29.4"
+     }
+    ],
+    [
+     {
+      "t": "18"
+     },
+     {
+      "t": "<14.7"
+     },
+     {
+      "t": "14.7- 16.3"
+     },
+     {
+      "t": "16.4 -24.8"
+     },
+     {
+      "t": "24.9 -29.5"
+     },
+     {
+      "t": ">29.5"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Adapted from WHO 2007. Age is years.months (15.6 = 15 years 6 months)."
+   ],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.32-cough-respiratory-distress-ddx",
+   "page": 311,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.32 Differential diagnosis of a child presenting with cough and respiratory distress",
+   "caption": "Annex 11.32 Differential diagnosis of a child presenting with cough and respiratory distress",
+   "replaces_chunks": [
+    "hiv-2022-0834"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Diagnosis"
+     },
+     {
+      "t": "Common signs and symptoms"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Pneumonia"
+     },
+     {
+      "t": "Cough with fast breathing<br/>Lower chest wall in-drawing<br/>Fever<br/>Coarse crackles on auscultation<br/>Nasal flaring<br/>Grunting<br/>Head nodding"
+     }
+    ],
+    [
+     {
+      "t": "Tuberculosis"
+     },
+     {
+      "t": "Cough<br/>Poor growth/wasting or weight loss<br/>Positive contact history with tuberculosis patient<br/>Diagnostic chest x-rays such as primary complex or miliary tuberculosis"
+     }
+    ],
+    [
+     {
+      "t": "Pneumocystis pneumonia"
+     },
+     {
+      "t": "A 2-6-month-old child with central cyanosis<br/>Hyper-expanded chest<br/>Fast breathing<br/>Finger clubbing<br/>Chest x-ray changes, but chest clear on auscultation<br/>Enlarged liver, spleen, lymph nodes<br/>Wasting"
+     }
+    ],
+    [
+     {
+      "t": "Pneumothorax"
+     },
+     {
+      "t": "Sudden onset<br/>Hyper-resonance on percussion on one side of the chest<br/>Shift in mediastinum"
+     }
+    ],
+    [
+     {
+      "t": "Empyema"
+     },
+     {
+      "t": "Stony dullness to percussion"
+     }
+    ],
+    [
+     {
+      "t": "Severe anaemia"
+     },
+     {
+      "t": "Severe palmar pallor<br/>Haemoglobin <6 g/dl"
+     }
+    ],
+    [
+     {
+      "t": "Foreign body"
+     },
+     {
+      "t": "History of sudden choking<br/>Sudden onset of stridor or respiratory distress<br/>Focal areas of wheeze or reduced breath sounds"
+     }
+    ],
+    [
+     {
+      "t": "Cardiac failure"
+     },
+     {
+      "t": "Gallop rhythm<br/>Raised jugular venous pressure<br/>Basal fine crackles<br/>Apex beat displaced<br/>Enlarged palpable liver<br/>Heart murmur"
+     }
+    ],
+    [
+     {
+      "t": "Congenital heart disease"
+     },
+     {
+      "t": "Central cyanosis<br/>Difficulty in feeding or breastfeeding<br/>Enlarged liver<br/>Heart murmur"
+     }
+    ],
+    [
+     {
+      "t": "Malaria"
+     },
+     {
+      "t": "Fast breathing in a febrile child<br/>Blood smear: high parasitaemia<br/>Lives in or travelled to a malaria endemic area<br/>In severe malarial deep (acidotic) breathing/lower chest wall indrawing<br/>Chest is clear on auscultation"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Adapted from World Health Organization. Management of the child with a serious infection or severe malnutrition. Guidelines for care at the first-referral level in developing countries, 2000. (Some cells are printed in two side-by-side lists; they are listed here in reading order.)"
+   ],
+   "source_flags": []
+  },
+  {
+   "table_id": "hiv-2022-tbl-11.33-immunization-schedule",
+   "page": 312,
+   "image_only": false,
+   "heading_path": "Chapter 11: Annexes > 11.33 Eswatini Immunization Schedule",
+   "caption": "Annex 11.33 Eswatini Immunization Schedule",
+   "replaces_chunks": [
+    "hiv-2022-0836"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Antigen & Supplements"
+     },
+     {
+      "t": "No. of Doses"
+     },
+     {
+      "t": "Age for Administration of Vaccine"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "BCG & OPV 0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "At birth"
+     }
+    ],
+    [
+     {
+      "t": "OPV"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "6,10,14 weeks, 18 months & 5 years"
+     }
+    ],
+    [
+     {
+      "t": "DTP-HepB-Hib"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "6,10,14 weeks"
+     }
+    ],
+    [
+     {
+      "t": "PCV13"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "6,10,14 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Rotarix"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "6,10 weeks"
+     }
+    ],
+    [
+     {
+      "t": "IPV"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "14 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Measles-Rubella (MR)"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "9, 18 months"
+     }
+    ],
+    [
+     {
+      "t": "DPT"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "18 months"
+     }
+    ],
+    [
+     {
+      "t": "Td"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "5, 9 years"
+     }
+    ],
+    [
+     {
+      "t": "Td for women of childbearing age (15-49 years)"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "First contact; 4 weeks after 6 months after;1 year after; 1 year after respectively"
+     }
+    ],
+    [
+     {
+      "t": "Hepatitis B adult"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "First contact, 4 weeks, 6 months"
+     }
+    ],
+    [
+     {
+      "t": "Yellow fever"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "Travellers to at-risk countries"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Annex 11.33 lists Td as 1 dose given at '5, 9 years' (two ages); check the current EPI schedule (HPV vaccine for girls is not listed)."
+   ]
   }
  ],
  "text_labels": {},
  "text_fix_pages": [
   1,
-  263
+  315
  ],
  "text_merge": [],
  "text_drop": []
