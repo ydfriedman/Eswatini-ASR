@@ -53,7 +53,15 @@
       "t": "Drug-susceptible TB treatment"
      },
      {
-      "t": "Four-month regimen for children 3-15 years old with non-severe pulmonary TB, 6-month (6RHZ+Eto) TB meningitis treatment regimen for children, COVID-19 vaccination for TB patients, post-TB lung disease assessment and referral<br/>Treatment support: Nutritional support for clinically indicated clients (i.e. based on BMI/MUAC), Digital adherence technology use (Smart pillbox in addition to VOT)<br/>Use of 6-month Bdq-Dlm-Lzd-Lfx-Cfz regimen for individuals not eligible for BPaLM regimen, especially for children, pregnant and lactating women<br/>Use of 9-month regimens for individuals not eligible for 6-month long BPaLM and Bdq-Dlm-Lzd-Lfx-Cfz regimens. These regimens include:<br/>9 Bdq-Mfz-Lzd-Z, 9 Bdq-Lzd-Lfz-Cfz-Z, 9 Bdq-Dlm-Lzd-LfX-Z"
+      "t": "Four-month regimen for children 3-15 years old with non-severe pulmonary TB, 6-month (6RHZ+Eto) TB meningitis treatment regimen for children, COVID-19 vaccination for TB patients, post-TB lung disease assessment and referral<br/>Treatment support: Nutritional support for clinically indicated clients (i.e. based on BMI/MUAC), Digital adherence technology use (Smart pillbox in addition to VOT)"
+     }
+    ],
+    [
+     {
+      "t": "Drug-resistant TB treatment (DR-TB)"
+     },
+     {
+      "t": "Use of BPaLM regimen for RR/MDR TB, guidance for empirical treatment approach, especially for initially diagnosed as Hr-TB before tNGS result.<br/>Use of 6-month Bdq-Dlm-Lzd-Lfx-Cfz regimen for individuals not eligible for BPaLM regimen, especially for children, pregnant and lactating women<br/>Use of 9-month regimens for individuals not eligible for 6-month long BPaLM and Bdq-Dlm-Lzd-Lfx-Cfz regimens. These regimens include:<br/>9 Bdq-Mfz-Lzd-Z, 9 Bdq-Lzd-Lfz-Cfz-Z, 9 Bdq-Dlm-Lzd-LfX-Z"
      }
     ],
     [
@@ -252,7 +260,7 @@
       "t": "3. Intensified research and innovation"
      },
      {
-      "t": "3. Protection and promotion of human rights, and ethics.<br/>4. Adaptation of the strategy and targets at the country level, with global collaboration.<br/>MILESTONES<br/>2020"
+      "t": "3. Protection and promotion of human rights, and ethics.<br/>4. Adaptation of the strategy and targets at the country level, with global collaboration.<br/>TARGETS<br/>MILESTONES<br/>2020"
      },
      {
       "t": ""
@@ -622,6 +630,14 @@
      },
      {
       "t": "- Screen for TB when you experience any one TB symptom - Test for TB when screened positive - Get TB treatment for free in all public health facilities - Take and complete your TB treatment as advised by your healthcare provider - Ask your healthcare provider about TB preventive treatment (TPT), if you are eligible, start TPT and take it as advised. - To prevent the spread of TB, cover your mouth when coughing."
+     }
+    ],
+    [
+     {
+      "t": "Secondary Audience"
+     },
+     {
+      "t": "Communication Channels / Modes"
      }
     ],
     [
@@ -1134,6 +1150,14 @@
     ],
     [
      {
+      "t": "Gap"
+     },
+     {
+      "t": "Action to be taken"
+     }
+    ],
+    [
+     {
       "t": "Low screening coverage by CXR and CAD/AI"
      },
      {
@@ -1562,6 +1586,11 @@
     ],
     [
      {
+      "t": "MTB was detected, and Rifampicin resistance detected"
+     }
+    ],
+    [
+     {
       "t": "(All patients whose diagnosis of TB has been confirmed by Xpert MTB/RIF® Ultra with evidence of Rifampicin resistance)"
      }
     ],
@@ -1770,6 +1799,4884 @@
     81
    ],
    "context_before": "Table 11: A brief details of type of EP-TB, clinical features and diagnostic procedure"
+  },
+  {
+   "table_id": "tb-2025-tbl-p90-0210",
+   "page": 90,
+   "image_only": false,
+   "heading_path": "5.2 TB Laboratory Network in Eswatini > 5.2.6 External Quality Assessment > 5.2.6.5 Conducting supervisory visits to microscopy centres",
+   "caption": "5.2.6.5 Conducting supervisory visits to microscopy centres (PREPARING FOR VISITS)",
+   "replaces_chunks": [
+    "tb-2025-0210",
+    "tb-2025-0211"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "PREPARING FOR VISITS"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Supervisory visits should be planned such that all laboratories are visited at least once. Every quarter by a national laboratory supervisor. Information should be given in advance about the visit to the laboratory."
+     }
+    ],
+    [
+     {
+      "t": "Review the recommendations made during previous visits and the actions taken."
+     }
+    ],
+    [
+     {
+      "t": "Ensure the availability of an updated lab supervision checklist"
+     }
+    ],
+    [
+     {
+      "t": "CONDUCTING THE VISIT"
+     }
+    ],
+    [
+     {
+      "t": "Visiting the laboratory requires good time management to ensure a productive supportive visit without significantly disrupting the daily work schedule of the supervisee. The supervisor should be focused and systematic in conducting the visit. The following techniques could be employed to check the laboratory operations:"
+     }
+    ],
+    [
+     {
+      "t": "Review the Tuberculosis Laboratory Register for completeness, consistency and accuracy of recording; and verify that monthly summaries are made correctly."
+     }
+    ],
+    [
+     {
+      "t": "Discuss with the laboratory technicians: to verify their understanding of the national guidelines concerning the correct number of sputum specimens required for diagnosis and follow-up examinations; the importance of limiting administrative errors and accurately recording the results of TB sample smear examinations on the Laboratory Form for Sputum Examination; and storing the examined. TB Simple smear slides of all patients for EQA purposes."
+     }
+    ],
+    [
+     {
+      "t": "Examine supplies: to determine if there are adequate numbers of TB sample containers, slides, reagents, forms and other laboratory supplies for the expected patient turnover."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    90
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p92-0217",
+   "page": 92,
+   "image_only": false,
+   "heading_path": "5.3 Disposal of Laboratory Materials",
+   "caption": "5.3 Disposal of Laboratory Materials (Description)",
+   "replaces_chunks": [
+    "tb-2025-0217",
+    "tb-2025-0218"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Description"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Disinfection"
+     },
+     {
+      "t": "After the TB specimens have been used, all sputum cups should be kept in a bucket containing 5% hypochlorite, 10% bleach solution (freshly prepared), or 5% phenol solution. The caps of the sputum cups must be removed and the cups, caps and wooden sticks completely submerged in the solution in a secure place for at least 18 hours. After this, the solution, cups, caps and wooden sticks can be discarded with other hospital waste. This bin/bucket should have a lid which is foot operated."
+     }
+    ],
+    [
+     {
+      "t": "Incineration"
+     },
+     {
+      "t": "Wherever incinerators exist, the type specified under the Biomedical Waste Management & Handling Rules of the country, with a combustion efficiency of 99%, should be used. Sputum cups made of polypropylene should be used wherever available. (Note: If sputum cups are made of other varieties of plastic, they should be disinfected and destroyed as per the hospital waste management rules). Burning is NOT recommended."
+     }
+    ],
+    [
+     {
+      "t": "Autoclaving"
+     },
+     {
+      "t": "The sputum cups and lids, with the lids removed, along with wooden sticks can be autoclaved at the end of each day's laboratory work. The autoclave cycle should have a holding time of 15 minutes at 121°C HTAT (Holding time at temperature), 10 minutes at 126°C HTAT or 3 minutes at 134°C HTAT. The material can be discarded with other waste after proper cooling."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    92
+   ],
+   "context_before": "5.3 Disposal of Laboratory Materials TB Specimens examined in the laboratory are potentially infectious. Hence, after examination, they must be disinfected and destroyed so that the risk of infection is reduced. All disposable containers must be used only once. Sputum cups which contain sputum can be disposed of by any one of the following methods:"
+  },
+  {
+   "table_id": "tb-2025-tbl-p96-0226",
+   "page": 96,
+   "image_only": false,
+   "heading_path": "6.2 Treatment Initiation > Treatment of Drug-Susceptible Tuberculosis > (b) History Taking and Baseline Examination",
+   "caption": "(b) History Taking and Baseline Examination (HIV infection, Acute or chronic liver disease)",
+   "replaces_chunks": [
+    "tb-2025-0226"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "HIV infection"
+     },
+     {
+      "t": "Acute or chronic liver disease"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Diabetes mellitus"
+     },
+     {
+      "t": "Renal insufficiency"
+     }
+    ],
+    [
+     {
+      "t": "Malnutrition"
+     },
+     {
+      "t": "Pregnancy"
+     }
+    ],
+    [
+     {
+      "t": "Hypertension"
+     },
+     {
+      "t": "Alcohol and substance use"
+     }
+    ],
+    [
+     {
+      "t": "Heart disease"
+     },
+     {
+      "t": "Smoking"
+     }
+    ],
+    [
+     {
+      "t": "Cancer"
+     },
+     {
+      "t": "Chronic steroid use"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    96
+   ],
+   "context_before": "(b) History Taking and Baseline Examination Take a thorough history including previous TB treatment history (when, where which regimen and outcomes). Perform a thorough physical examination. Past medical and social history include:"
+  },
+  {
+   "table_id": "tb-2025-tbl-p96-0229",
+   "page": 96,
+   "image_only": false,
+   "heading_path": "6.3 Essential first-line anti-TB drugs > Table 12: Essential anti-TB drugs and recommended daily dosages by weight",
+   "caption": "Table 12: Essential anti-TB drugs and recommended daily dosages by weight (Essential TB drugs, Recommended Daily Dose<br/>(Dose range in mg/kg))",
+   "replaces_chunks": [
+    "tb-2025-0229"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Essential TB drugs"
+     },
+     {
+      "t": "Recommended Daily Dose<br/>(Dose range in mg/kg)"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Adults"
+     },
+     {
+      "t": "Children"
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid (H) (max 300mg)"
+     },
+     {
+      "t": "4 – 6 mg/kg"
+     },
+     {
+      "t": "10 – 15 mg/kg"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin (R) (max 600mg)"
+     },
+     {
+      "t": "8 – 12 mg/kg"
+     },
+     {
+      "t": "10 – 20 mg/kg"
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide (Z) (max 2g)"
+     },
+     {
+      "t": "20 – 30 mg/kg"
+     },
+     {
+      "t": "30 – 40 mg/kg"
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol (E) (max 1.6g)"
+     },
+     {
+      "t": "15 – 20 mg/kg"
+     },
+     {
+      "t": "15 – 25 mg/kg"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    96
+   ],
+   "context_before": "Table 12: Essential anti-TB drugs and recommended daily dosages by weight Source: Treatment of tuberculosis guidelines. 5th Edition. WHO/HTM/TB/2017"
+  },
+  {
+   "table_id": "tb-2025-tbl-p98-0233",
+   "page": 98,
+   "image_only": false,
+   "heading_path": "6.4 Standard TB treatment regimens for adults > Table 13: Summary of DS-TB treatment regimens for adult TB cases",
+   "caption": "Table 13: Summary of DS-TB treatment regimens for adult TB cases (TB Registration, TB Patients, Treatment Regimens)",
+   "replaces_chunks": [
+    "tb-2025-0233"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "TB Registration"
+     },
+     {
+      "t": "TB Patients"
+     },
+     {
+      "t": "Treatment Regimens"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Intensive Phase<br/>(daily)"
+     },
+     {
+      "t": "Continuation<br/>Phase (daily)"
+     }
+    ],
+    [
+     {
+      "t": "New Episode"
+     },
+     {
+      "t": "All new cases of TB, regardless of site (except severe EP-TB), type or severity of disease."
+     },
+     {
+      "t": "2RHZE"
+     },
+     {
+      "t": "4RH"
+     }
+    ],
+    [
+     {
+      "t": "Re-registered"
+     },
+     {
+      "t": "Previously treated cases with the outcome of cure, completed or LTFU (in the previous treatment episode).<br/>Previously treated case with the outcome of ‘failure’ (in the previous treatment episode)<br/>All patients should receive pyridoxine with isoniazid to prevent peripheral neuropathy."
+     },
+     {
+      "t": "2RHZE<br/>Repeat GeneXpert and first-line DST then refer for DR-TB treatment."
+     },
+     {
+      "t": "4RH"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    98
+   ],
+   "context_before": "Table 13: Summary of DS-TB treatment regimens for adult TB cases"
+  },
+  {
+   "table_id": "tb-2025-tbl-p99-0236",
+   "page": 99,
+   "image_only": false,
+   "heading_path": "6.4 Standard TB treatment regimens for adults > Table 14: Recommended treatment regimen and dosages for adult cases of new and re-registered cases",
+   "caption": "Table 14: Recommended treatment regimen and dosages for adult cases of new and re-registered cases (Phase of treatment, Drugs, Weight in Kg<br/>25-34.9, Weight in Kg<br/>35-54.9, Weight in Kg<br/>55-70, Weight in Kg<br/>>70)",
+   "replaces_chunks": [
+    "tb-2025-0236"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Phase of treatment"
+     },
+     {
+      "t": "Drugs"
+     },
+     {
+      "t": "Weight in Kg<br/>25-34.9"
+     },
+     {
+      "t": "Weight in Kg<br/>35-54.9"
+     },
+     {
+      "t": "Weight in Kg<br/>55-70"
+     },
+     {
+      "t": "Weight in Kg<br/>>70"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "The intensive phase of 2 months"
+     },
+     {
+      "t": "(RHZE) 150mg/75mg/400mg/275mg)"
+     },
+     {
+      "t": "2 tabs"
+     },
+     {
+      "t": "3 tabs"
+     },
+     {
+      "t": "4 tabs"
+     },
+     {
+      "t": "5 tabs"
+     }
+    ],
+    [
+     {
+      "t": "Continuation phase of 4 months"
+     },
+     {
+      "t": "(RH) (150mg/75mg)"
+     },
+     {
+      "t": "2 tabs"
+     },
+     {
+      "t": "3 tabs"
+     },
+     {
+      "t": "4 tabs"
+     },
+     {
+      "t": "5 tabs"
+     }
+    ],
+    [
+     {
+      "t": "For severe extrapulmonary TB cases (TB meningitis and Bone & Joint TB: total treatment duration is from 9-12 months with 2 months of RHZE and 7-10 months of RH depending on the response to treatment. For TB meningitis, refer to section 6.7 for further details."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Vitamin B6 for peripheral neuropathy prophylaxis: 25-50 mg (25 mg tablets)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    99
+   ],
+   "context_before": "Table 14: Recommended treatment regimen and dosages for adult cases of new and re-registered cases"
+  },
+  {
+   "table_id": "tb-2025-tbl-p101-0242",
+   "page": 101,
+   "image_only": false,
+   "heading_path": "6.6 Treatment of Extra-Pulmonary Tuberculosis (EPTB) > 6.6.3 Treatment of TB Meningitis (TBM) > Table 15: Indications for adjuvant corticosteroids in adults",
+   "caption": "Table 15: Indications for adjuvant corticosteroids in adults (Increased Intracranial Pressure)",
+   "replaces_chunks": [
+    "tb-2025-0242"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Increased Intracranial Pressure"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Spinal Block"
+     }
+    ],
+    [
+     {
+      "t": "Altered Consciousness"
+     }
+    ],
+    [
+     {
+      "t": "Tuberculous Encephalopathy"
+     }
+    ],
+    [
+     {
+      "t": "Focal Neurological Findings"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    101
+   ],
+   "context_before": "Table 15: Indications for adjuvant corticosteroids in adults"
+  },
+  {
+   "table_id": "tb-2025-tbl-p106-0255",
+   "page": 106,
+   "image_only": false,
+   "heading_path": "6.7 The Role of Adjuvant Steroid Treatment > Table 16: Steroid indication and recommended doses in TB management",
+   "caption": "Table 16: Steroid indication and recommended doses in TB management (Indication, Prednisolone treatment (dose for children in brackets), Dexamethasone treatment)",
+   "replaces_chunks": [
+    "tb-2025-0255"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Indication"
+     },
+     {
+      "t": "Prednisolone treatment (dose for children in brackets)"
+     },
+     {
+      "t": "Dexamethasone treatment"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "TB Meningitis"
+     },
+     {
+      "t": "60 mg (1–2 mg/kg) daily for weeks 1–4, then decrease over several weeks"
+     },
+     {
+      "t": "Intravenous dexamethasone for 4 weeks (0.4 mg/kg per day in week 1, 0.3 mg/kg per day in week 2, 0.2 mg/kg per day in week 3, and 0.1 mg/kg per day in week 4), followed by a taper of oral dexamethasone (4 mg/day, 3 mg/day, 2 mg/day and 1 mg/day, each for 1 week)."
+     }
+    ],
+    [
+     {
+      "t": "TB Pericarditis"
+     },
+     {
+      "t": "60 mg (1–2 mg/kg) daily for weeks 1–4 30 mg (0.5–1 mg/kg) daily for weeks 5–8, then decrease over several weeks"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "TB Pleural Effusion"
+     },
+     {
+      "t": "30 mg (0.5–1 mg/kg) daily for 1–2 weeks"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    106
+   ],
+   "context_before": "Table 16: Steroid indication and recommended doses in TB management"
+  },
+  {
+   "table_id": "tb-2025-tbl-p108-0262",
+   "page": 108,
+   "image_only": false,
+   "heading_path": "6.8 Monitoring Tuberculosis Treatment > 6.8.5 Bacteriological Monitoring > Table 17: Recommended Schedule for follow-up sputum examinations for PTB patients",
+   "caption": "Table 17: Recommended Schedule for follow-up sputum examinations for PTB patients (When to monitor, Regimen for New TB cases<br/>6-month treatment regimen, Regimen for Previously treated<br/>Cases (6-month Regimen))",
+   "replaces_chunks": [
+    "tb-2025-0262"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "When to monitor"
+     },
+     {
+      "t": "Regimen for New TB cases<br/>6-month treatment regimen"
+     },
+     {
+      "t": "Regimen for Previously treated<br/>Cases (6-month Regimen)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "At the time of diagnosis"
+     },
+     {
+      "t": "Xpert MTB/RIF® ULTRA test Culture<br/>& DST"
+     },
+     {
+      "t": "Xpert MTB/RI&#x46;® ULTRA test<br/>Culture & DST"
+     }
+    ],
+    [
+     {
+      "t": "At the end of the initial phase"
+     },
+     {
+      "t": "Sputum smear (end month 2)"
+     },
+     {
+      "t": "Sputum smear (end month 2)"
+     }
+    ],
+    [
+     {
+      "t": "In continuation phase"
+     },
+     {
+      "t": "Sputum smear (end month 5)"
+     },
+     {
+      "t": "Sputum smear (end month 5)"
+     }
+    ],
+    [
+     {
+      "t": "During the last month of<br/>treatment"
+     },
+     {
+      "t": "Sputum smear (end month 6)"
+     },
+     {
+      "t": "Sputum smear (end month 6)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    108
+   ],
+   "context_before": "Table 17: Recommended Schedule for follow-up sputum examinations for PTB patients Source: Treatment of tuberculosis guidelines. WHO (2018)"
+  },
+  {
+   "table_id": "tb-2025-tbl-p110-0266",
+   "page": 110,
+   "image_only": false,
+   "heading_path": "6.8 Monitoring Tuberculosis Treatment > 6.8.7 Management of treatment interruption > Table 18: Management of TB treatment interruption",
+   "caption": "Table 18: Management of TB treatment interruption (Length of treatment, Length of interruption, Sputum status upon return, Actions to be taken<br/>Treatment outcome, Actions to be taken<br/>DST, Action)",
+   "replaces_chunks": [
+    "tb-2025-0266",
+    "tb-2025-0267"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Length of treatment"
+     },
+     {
+      "t": "Length of interruption"
+     },
+     {
+      "t": "Sputum status upon return"
+     },
+     {
+      "t": "Actions to be taken<br/>Treatment outcome"
+     },
+     {
+      "t": "Actions to be taken<br/>DST"
+     },
+     {
+      "t": "Actions to be taken<br/>Registration and further treatment"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "< 1 Month"
+     },
+     {
+      "t": "< 2 weeks"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Continue treatment from the point it was stopped"
+     }
+    ],
+    [
+     {
+      "t": "< 1 Month"
+     },
+     {
+      "t": "2-7 weeks"
+     },
+     {
+      "t": "(-)<br/>(+)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST"
+     },
+     {
+      "t": "Restart treatment without new registration if there is no RIF resistance on rapid DST, otherwise register as DRTB case if there is RIF resistance"
+     }
+    ],
+    [
+     {
+      "t": "< 1 Month"
+     },
+     {
+      "t": "> 7 weeks"
+     },
+     {
+      "t": "(-)<br/>(+)"
+     },
+     {
+      "t": "Lost to follow up<br/>Lost to follow up"
+     },
+     {
+      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST"
+     },
+     {
+      "t": "If no resistance, give outcome of LTFU and register again as re-registered and restart treatment regimen. If there is resistance, register as DR TB case"
+     }
+    ],
+    [
+     {
+      "t": "> 1 Month"
+     },
+     {
+      "t": "< 2 weeks"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Rapid DST (X-pert MTB/RIF®) MGIT Culture & DST"
+     },
+     {
+      "t": "Continue treatment from the point it was stopped if there is no RIF resistance on rapid DST. If there is RIF resistance register as DR-TB case"
+     }
+    ],
+    [
+     {
+      "t": "> 1 Month"
+     },
+     {
+      "t": "2-7 weeks<br/>> 7 weeks"
+     },
+     {
+      "t": "(-)<br/>(+)<br/>(-)<br/>(+)"
+     },
+     {
+      "t": "Lost to follow up"
+     },
+     {
+      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST<br/>Rapid DST (Xpert MTB/ RIF®)# MGIT Culture & DST"
+     },
+     {
+      "t": "Continue treatment from the point it was stopped if there is no RIF resistance on rapid DS, if there is RIF resistance register as DR-TB<br/>Give outcome of LTFU on previous registration status; Restart treatment with new registration as a re-registered for treatment if there is no RIF resistance on rapid DST. If there is RIF resistance, register as a DR-TB case"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    110
+   ],
+   "context_before": "Table 18: Management of TB treatment interruption"
+  },
+  {
+   "table_id": "tb-2025-tbl-p111-0271",
+   "page": 111,
+   "image_only": false,
+   "heading_path": "6.10 Treatment outcomes > Table 19: Definition of TB treatment outcomes",
+   "caption": "Table 19: Definition of TB treatment outcomes (Outcome, Definition)",
+   "replaces_chunks": [
+    "tb-2025-0271"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Outcome"
+     },
+     {
+      "t": "Definition"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Cured"
+     },
+     {
+      "t": "A bacteriologically confirmed case, who is smear or culture-negative in the last month of treatment and on at least one previous occasion (at least 7 days apart)a"
+     }
+    ],
+    [
+     {
+      "t": "Treatment completed"
+     },
+     {
+      "t": "A patient who completed treatment but who does not have a negative sputum smear or culture result in the last month of treatment and in at least one previous occasionb"
+     }
+    ],
+    [
+     {
+      "t": "Treatment Failure"
+     },
+     {
+      "t": "● A patient whose sputum culture is positive at 2 months, or smear is positive at 5 months or later during treatment.<br/>● Clinically diagnosed PTB or extra-pulmonary TB patients with clinical condition not improving or worsening (clinically judged)<br/>● Patients found to harbour a DR strain at any time during the treatment (excluding baseline sample)"
+     }
+    ],
+    [
+     {
+      "t": "Died"
+     },
+     {
+      "t": "A patient who dies for any reason during the course of treatment"
+     }
+    ],
+    [
+     {
+      "t": "Loss to follow-up"
+     },
+     {
+      "t": "A patient whose treatment was interrupted for 2 or more consecutive months"
+     }
+    ],
+    [
+     {
+      "t": "Not evaluated"
+     },
+     {
+      "t": "Patient for whom no treatment outcome is assigned; Include former “transfer-out” in this category"
+     }
+    ],
+    [
+     {
+      "t": "Treatment successc"
+     },
+     {
+      "t": "The sum of cured and completed treatment"
+     }
+    ],
+    [
+     {
+      "t": "(a) These definitions apply to bacteriologically confirmed and clinically diagnosed pulmonary TB patients, and patients with extra-pulmonary disease. (b) The sputum examination may not have been done, or the results may not be available (c) For all patients, bacteriologically confirmed and clinically diagnosed pulmonary TB patients, and extra-pulmonary TB patients."
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    111
+   ],
+   "context_before": "Table 19: Definition of TB treatment outcomes"
+  },
+  {
+   "table_id": "tb-2025-tbl-p112-0274",
+   "page": 112,
+   "image_only": false,
+   "heading_path": "6.12 Post-TB Lung Disease > Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation",
+   "caption": "Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation (Assessment Parameter, Examination, Indication for Pulmonary Rehabilitation)",
+   "replaces_chunks": [
+    "tb-2025-0274",
+    "tb-2025-0276",
+    "tb-2025-0277",
+    "tb-2025-0279",
+    "tb-2025-0280",
+    "tb-2025-0282",
+    "tb-2025-0283"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Assessment Parameter"
+     },
+     {
+      "t": "Examination"
+     },
+     {
+      "t": "Indication for Pulmonary Rehabilitation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Clinical Assessment"
+     },
+     {
+      "t": "Respiratory focused history taking:- Pulmonary disease: asthma including childhood asthma, bronchiectasis, COPD and previous TB treatment history, frequent respiratory tract infection during childhood, COVID-19"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Clinical examination: Weight, height, BMI, Vital signs (Temperature, Heart rate, Respiratory rate)<br/>• Sings of repository distress"
+     },
+     {
+      "t": "• Reported/presence of respiratory symptoms (dyspnoea, cough, sputum, wheeze, chest pain, fatigue)<br/>• Ineffective cough and/or difficult to clear bronchial secretions<br/>• Clubbing, coarse crepitation, raised jugular venous pressure, oedema, anaemia<br/>• Oxygen saturation by pulse oximeter<br/>• Blood and urine as clinically indicated (e.g. CBC if anemia is present, urea & creatinine and electrolyte if oedema is present)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Imaging CXR"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Functional Assessment"
+     },
+     {
+      "t": "• Spirometry test<br/>• Minute walking test (6MWT) – can apply for 4-year-old and above"
+     },
+     {
+      "t": "• Impaired pulmonary function showing airflow obstruction or restriction or mixed abnormalities and bronchodilator response and/or impaired diffusing capacity for carbon monoxide<br/>• Impaired exercise test"
+     }
+    ],
+    [
+     {
+      "t": "Subjective Evaluation"
+     },
+     {
+      "t": "Quality of life (QOL) questionnaire<br/>(TB specific QOL questionnaires: EUROHIS-QOL (see Table 22)"
+     },
+     {
+      "t": "Impaired quality of life ≥16"
+     }
+    ],
+    [
+     {
+      "t": "• Impaired exercise capacity, limited by dyspnoea and or other respiratory symptoms<br/>• Restriction in daily life activities"
+     },
+     {
+      "t": "• Free walking on a treadmill<br/>• 30 min 2–5 times/week for 4–8 week"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Reduced muscle mass and strength of peripheral muscles. Lower muscle weakness with risk for falls.<br/>• Impaired activities of daily living involving the upper extremities (including dressing, bathing, and household tasks)"
+     },
+     {
+      "t": "• Free weights (dumbbells and ankle-brace)<br/>• 20–30 min 2–5 times/week for 4–8 week"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Difficult to remove secretions or mucous plugs<br/>• Frequent bronchial exacerbations (>2/year)<br/>• Concomitant diagnosis of bronchiectasis"
+     },
+     {
+      "t": "• Airway clearance"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Resting hypoxaemia despite stable condition and optimal medical therapy (partial pressure of oxygen <7.3 kPa (<55 mmHg) or 8 kPa (≤60 mmHg) with evidence of peripheral oedema, polycythaemia (haematocrit > 55%) or pulmonary"
+     },
+     {
+      "t": "• Titrate oxygen flow that maintain oxygen saturation >92–93%<br/>• Long term oxygen therapy should be initiated on a flow rate of 1 L/min and titrated up in 1 L/min increments until oxygen saturation > 90% at rest has been achieved<br/>• Non-hypercapnic patients initiated on long term oxygen therapy should increase their flow rate by 1 L/min during sleep in the absence of any contraindications<br/>• Ambulatory oximetry may be performed to allow more accurate flow rates to be ordered for exercise<br/>• Provide formal education to patients referred to home<br/>• Schedule periodic re-assessment every 3 month"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Malnutrition (body mass index ,16 kg/m2 or body mass index ,17 kg/m2 in patients with TB-HIV, MDR-TB, or pregnant and lactating mothers"
+     },
+     {
+      "t": "• Nutritional assessment<br/>• Treatment of malnutrition and medical supplements"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Social isolation, depression and anxiety. Impaired health status and/or quality of life despite optimal pharmacological treatment.<br/>• Low adherence to medical treatment"
+     },
+     {
+      "t": "• Psychological assessment<br/>• Psychological support<br/>• Consider self-help group"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "QOL Assessment Parameter"
+     },
+     {
+      "t": "Score"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "1. How would you rate your quality of life?"
+     },
+     {
+      "t": "a. Very poor (0)<br/>b. Poor (1)<br/>c. Neither poor nor good (2)<br/>d. Good (3)<br/>e. Very good (4)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "2. How satisfied are you with your health?"
+     },
+     {
+      "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "3. Do you have enough energy for everyday life?"
+     },
+     {
+      "t": "a. Not at all (0)<br/>b. A little (1)<br/>c. Moderately (2)<br/>d. Mostly (3)<br/>e. Completely (4)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "4. How satisfied are you with your ability to perform your daily activities?"
+     },
+     {
+      "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "5. How satisfied are you with yourself?"
+     },
+     {
+      "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "6. How satisfied are you with your personal relationships?"
+     },
+     {
+      "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "7. Have you enough money to meet your needs?"
+     },
+     {
+      "t": "a. Not at all (0)<br/>b. A little (1)<br/>c. Moderately (2)<br/>d. Mostly (3)<br/>e. Completely (4)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "QOL Assessment Parameter"
+     },
+     {
+      "t": "Score"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "8. How satisfied are you with the conditions of your living place?"
+     },
+     {
+      "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    112,
+    113,
+    114
+   ],
+   "context_before": "Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation"
+  },
+  {
+   "table_id": "tb-2025-tbl-p116-0286",
+   "page": 116,
+   "image_only": false,
+   "heading_path": "7.2 Anti-TB drugs used in DR-TB treatment > Table 23: Medicines Grouping in order of priority (source: WHO)",
+   "caption": "Table 23: Medicines Grouping in order of priority (source: WHO) (Group, Medication, Abbreviation)",
+   "replaces_chunks": [
+    "tb-2025-0286"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Group"
+     },
+     {
+      "t": "Medication"
+     },
+     {
+      "t": "Abbreviation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Group A<br/>(Include all three medicines unless they cannot be used)"
+     },
+     {
+      "t": "Levofloxacin or Moxifloxacin<br/>Bedaquiline<br/>Linezolid"
+     },
+     {
+      "t": "Lfx or Mfx<br/>Bdq<br/>Lzd"
+     }
+    ],
+    [
+     {
+      "t": "Group B<br/>(Add both medicines unless they cannot be used)"
+     },
+     {
+      "t": "Clofazimine Cycloserine OR Terizidone"
+     },
+     {
+      "t": "Cfz<br/>Cs<br/>Trd"
+     }
+    ],
+    [
+     {
+      "t": "Group C<br/>(Add to complete the regimen and when medicines from Groups A and B cannot be used)"
+     },
+     {
+      "t": "Ethambutol<br/>Delamanid<br/>Pyrazinamide<br/>Imipenem-cilastatin or Meropenem<br/>Amikacin (or Streptomycin)<br/>Ethionamide OR<br/>Prothionamide<br/>p-aminosalicylic acid"
+     },
+     {
+      "t": "E<br/>Dlm<br/>Z<br/>Ipm-cln or Mpm<br/>Am (s)<br/>Eto<br/>Pto<br/>PAS"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    116
+   ],
+   "context_before": "Table 23: Medicines Grouping in order of priority (source: WHO)"
+  },
+  {
+   "table_id": "tb-2025-tbl-p120-0296",
+   "page": 120,
+   "image_only": false,
+   "heading_path": "7.3 Treatment of DR-TB > 7.3.3 Summary of Types of DR-TB treatment regimens and their eligibility",
+   "caption": "7.3.3 Summary of Types of DR-TB treatment regimens and their eligibility (Oral MDR TB regimens, Regimen composition, Eligible group and a brief guide for regimen use)",
+   "replaces_chunks": [
+    "tb-2025-0296",
+    "tb-2025-0297"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Oral MDR TB regimens"
+     },
+     {
+      "t": "Regimen composition"
+     },
+     {
+      "t": "Eligible group and a brief guide for regimen use"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "BPaL"
+     },
+     {
+      "t": "6-9 Bdq-Pa-Lzd"
+     },
+     {
+      "t": "An alternative treatment regimen for Pre-XDR-TB patients ≥15 years old. (Note: pregnant and lactating women are not eligible.)"
+     }
+    ],
+    [
+     {
+      "t": "BPaLM"
+     },
+     {
+      "t": "6 Bdq-Pa-Lzd-Mfx"
+     },
+     {
+      "t": "The primary treatment regimen for MDR-TB/RR-TB/PDR-TB ≥15 years old. (Note: pregnant and lactating women are not eligible.)"
+     }
+    ],
+    [
+     {
+      "t": "6 Bdq-Dlm-Lfx-Lzd-Cfz"
+     },
+     {
+      "t": "6 Bdq-Dlm-Lzd-Lfx-Cfz<br/>Can change as below when the FQ DST result is available.<br/>If the DST result shows.<br/>FQ susceptible, omit Cfz and continue with Bdq-Dlm-Lzd-Lfx.<br/>FQ resistant, omit Lfx and continue with Bdq-Dlm-Lzd-Cfz."
+     },
+     {
+      "t": "Alternative regimen to BPaLM for RR/MDR with/without FQ resistance. Children and pregnant and lactating women are eligible for this regimen. For clients with known FQ resistance, this regimen by omitting Lfx is preferable (ie. Bdq-Dlm-Lzd-Cfz) to BPaL."
+     }
+    ],
+    [
+     {
+      "t": "9-month regimens"
+     },
+     {
+      "t": "a. 9 Bdq-Lzd-Mfx-Z#<br/>b. 9 Bdq-Lzd-Lfx-Cfz-Z<br/>c. 9 Bdq-Dlm-Lzd-Lfx-Z<br/>(# priority regimen among the three 9 mth regimens)"
+     },
+     {
+      "t": "MDR/RR-TB without FQ resistance who are not eligible to BPaLM or 6 Bdq-Dlm-Lfx-Lzd-Cfz regimens"
+     }
+    ],
+    [
+     {
+      "t": "LTR (standardized - STDTR or individualized-ITR)"
+     },
+     {
+      "t": "STDTR<br/>18-20 Bdq/Lzd/DLM/Cfz/Trd(Cs)<br/>ITR: composed of 4-5 likely effective drugs containing Group A&B drugs as a priority"
+     },
+     {
+      "t": "For those who are not eligible for the BPaL or mSTR, XDR, Severe EP TB (meningitis, Osteoarticular, pericardial), disseminated or military TB"
+     }
+    ],
+    [
+     {
+      "t": "Hr-TB Regimen"
+     },
+     {
+      "t": "6 RHZE"
+     },
+     {
+      "t": "If the absence of Rifampicin resistance cannot be confirmed (i.e., lack of rifampicin-resistant report by sequencing which is missed to detect by pDST and Xpert test) 6RHZE is preferable to avoid drug resistance amplification, especially for Lfx which is an important core drug in second-line treatment), If Hr-TB without any confirmed additional resistance to other drugs with the availability of full DST results, a 6 (H)RZE+Lfx regimen may be used."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    120
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p124-0306",
+   "page": 124,
+   "image_only": false,
+   "heading_path": "7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations > Table 25: Central Nervous System Penetration of Second-Line anti-TB Medication",
+   "caption": "Table 25: Central Nervous System Penetration of Second-Line anti-TB Medication (TB Drugs<br/>Fluoroquinolones<br/>Injectables, CSF Penetration<br/>Moderate to good: 60-80%<br/>Poor (<20%))",
+   "replaces_chunks": [
+    "tb-2025-0306"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "TB Drugs<br/>Fluoroquinolones<br/>Injectables"
+     },
+     {
+      "t": "CSF Penetration<br/>Moderate to good: 60-80%<br/>Poor (<20%)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Ethionamide"
+     },
+     {
+      "t": "Good"
+     }
+    ],
+    [
+     {
+      "t": "Cycloserine"
+     },
+     {
+      "t": "Good"
+     }
+    ],
+    [
+     {
+      "t": "Linezolid"
+     },
+     {
+      "t": "Good"
+     }
+    ],
+    [
+     {
+      "t": "Clofazamine"
+     },
+     {
+      "t": "Good"
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide"
+     },
+     {
+      "t": "Good"
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol"
+     },
+     {
+      "t": "Poor"
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "Poor, (20%), High-dose-has good penetration"
+     }
+    ],
+    [
+     {
+      "t": "Isoniazid"
+     },
+     {
+      "t": "Good"
+     }
+    ],
+    [
+     {
+      "t": "High-dose INH"
+     },
+     {
+      "t": "Good"
+     }
+    ],
+    [
+     {
+      "t": "Bedaquiline"
+     },
+     {
+      "t": "Likely poor"
+     }
+    ],
+    [
+     {
+      "t": "Delamanid"
+     },
+     {
+      "t": "Likely poor"
+     }
+    ],
+    [
+     {
+      "t": "PAS"
+     },
+     {
+      "t": "Poor"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    124
+   ],
+   "context_before": "Table 25: Central Nervous System Penetration of Second-Line anti-TB Medication"
+  },
+  {
+   "table_id": "tb-2025-tbl-p125-0309",
+   "page": 125,
+   "image_only": false,
+   "heading_path": "7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations > 7.3.5.4 People with renal disease > Table 26: Recommended Dosing of TB Drugs for Patients with Renal Failure",
+   "caption": "Table 26: Recommended Dosing of TB Drugs for Patients with Renal Failure (Drug, Recommended dose and frequency for patients with CrCl < 30 ml/min or receiving hemodialysis)",
+   "replaces_chunks": [
+    "tb-2025-0309"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Recommended dose and frequency for patients with CrCl < 30 ml/min or receiving hemodialysis"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Pyrazinamide"
+     },
+     {
+      "t": "25 – 35 mg/kg per dose three times per week (not daily)"
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol"
+     },
+     {
+      "t": "15 – 25 mg/kg per dose three times per week (not daily)"
+     }
+    ],
+    [
+     {
+      "t": "Amikacin"
+     },
+     {
+      "t": "12 – 15 mg/kg per dose two or three times per week (not daily)"
+     }
+    ],
+    [
+     {
+      "t": "Levofloxacin"
+     },
+     {
+      "t": "750 – 1000 mg per dose three times per week (not daily)"
+     }
+    ],
+    [
+     {
+      "t": "Cycloserine"
+     },
+     {
+      "t": "250 mg once daily, or 500 mg/dose three times per week."
+     }
+    ],
+    [
+     {
+      "t": "Amoxicillin/ Clavulanate"
+     },
+     {
+      "t": "For CrCl 10 – 30 ml/min dose 1000 mg as amoxicillin component BID;<br/>For CrCl < 10 ml/min dose 1000 mg as amoxicillin component OD"
+     }
+    ],
+    [
+     {
+      "t": "Imipenem / Cilastin"
+     },
+     {
+      "t": "For CrCl 20 – 40 ml/min dose 500 mg every 8 hours; For CrCl < 20 ml/min dose 500 mg every 12 hours"
+     }
+    ],
+    [
+     {
+      "t": "Meropenem"
+     },
+     {
+      "t": "For CrCl 20 – 40 ml/min dose 750 mg every 12 hours; For CrCl <20 ml/min dose 500 mg every 12 hours"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    125
+   ],
+   "context_before": "Table 26: Recommended Dosing of TB Drugs for Patients with Renal Failure"
+  },
+  {
+   "table_id": "tb-2025-tbl-p126-0313",
+   "page": 126,
+   "image_only": false,
+   "heading_path": "7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations > 7.3.5.7 Monitoring treatment progress",
+   "caption": "7.3.5.7 Monitoring treatment progress (Investigation, Baseline, Follow up)",
+   "replaces_chunks": [
+    "tb-2025-0313",
+    "tb-2025-0315",
+    "tb-2025-0316"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Investigation"
+     },
+     {
+      "t": "Baseline"
+     },
+     {
+      "t": "Follow up"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Screening for adverse events (AEs)"
+     },
+     {
+      "t": "Counsel on possible adverse events"
+     },
+     {
+      "t": "At every clinical visit"
+     }
+    ],
+    [
+     {
+      "t": "Clinical evaluation and weight"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Monthly until treatment completion"
+     }
+    ],
+    [
+     {
+      "t": "Smear microscopy"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Monthly until treatment completion"
+     }
+    ],
+    [
+     {
+      "t": "Culture"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Monthly until treatment completion"
+     }
+    ],
+    [
+     {
+      "t": "DST"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Repeat phenotypic and genotypic DST, including second-line DST if:<br/>• Smear /culture remains positive after 3 months of treatment (or 2 months for H-r TB)<br/>• There is a positive culture after initial conversion."
+     }
+    ],
+    [
+     {
+      "t": "Chest Radiograph"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Baseline, then every 6 months or earlier as decided by the DR-TB physician"
+     }
+    ],
+    [
+     {
+      "t": "FBC"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Monthly or as clinically required<br/>For HIV co-infected patients on AZT-containing ART regimen, monitor monthly for the first 6 months, and then as needed based on symptoms"
+     }
+    ],
+    [
+     {
+      "t": "Serum creatinine"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Every two weeks for the first two months when initiating an injectable drug, then monthly while receiving the injectable. Patients with baseline renal insufficiency should be monitored frequently."
+     }
+    ],
+    [
+     {
+      "t": "Investigation<br/>Electrolytes<br/>TSH"
+     },
+     {
+      "t": "Baseline<br/>√<br/>√"
+     },
+     {
+      "t": "Follow up<br/>Every two weeks for the first two months when initiating an injectable drug, then monthly while receiving the injectable.<br/>Every 2 months for the first 6 months if receiving PAS and ETO/ PTO (It is not necessary to measure hormone thyroid levels, TSH is sufficient for screening for hypothyroidism)"
+     }
+    ],
+    [
+     {
+      "t": "Liver serum enzymes (ALT and AST)"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "To be monitored regularly in patients who are receiving pyrazinamide, are HIV co-infected or have a history of active hepatitis; can be monitored every two months during the continuation phase"
+     }
+    ],
+    [
+     {
+      "t": "HIV testing"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Repeat as clinically indicated (risk assessment as per Eswatini HIV Testing Guidelines)"
+     }
+    ],
+    [
+     {
+      "t": "CD4+ cell count"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Every 6 months for newly initiated ART clients, in combination with viral load monitoring (follow Swaziland Integrated HIV Management Guidelines) Repeat whenever ART failure is suspected."
+     }
+    ],
+    [
+     {
+      "t": "HIV Viral load"
+     },
+     {
+      "t": "No"
+     },
+     {
+      "t": "Pre-treatment viral load for ART-naive patients. At 3-6- and 12-months post-ART initiation, and then annually if the client is virally suppressed. Repeat VL whenever ART failure is suspected"
+     }
+    ],
+    [
+     {
+      "t": "Pregnancy tests"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Repeat as clinically indicated. All women of childbearing age should be provided with long-term family planning methods while on DR-TB treatment."
+     }
+    ],
+    [
+     {
+      "t": "ECG"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Every two weeks for a month when initiating a BDQ or Dlm, then monthly while receiving these drugs. Patients with baseline prolonged QTC interval or receiving concomitant treatment with QTC-prolonging agents (Mfx and Cfz) should be monitored frequently as per clinician discretion."
+     }
+    ],
+    [
+     {
+      "t": "Audiometry"
+     },
+     {
+      "t": "√ (if on injectable)"
+     },
+     {
+      "t": "Repeat at 72 hours post initiation, 2 times a month for high-risk patients for the first 60 days of therapy, but otherwise monthly during the intensive phase/on injectable. Repeat at 3 and 6 months after completion of injectable."
+     }
+    ],
+    [
+     {
+      "t": "Visual test (Snellen chart and Ishihara)"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "At baseline and Monthly if on E or Lzd, otherwise use visual testing charts monthly, and refer to an ophthalmologist when indicated"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    126,
+    127
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p128-0317",
+   "page": 128,
+   "image_only": false,
+   "heading_path": "7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations > Table 28: The distribution of duties among doctors, nurses and counsellors in the provision of care is delineated",
+   "caption": "Table 28: The distribution of duties among doctors, nurses and counsellors in the provision of care is delineated (Medical Doctor, Clinical assessment and consultation, physical examination. Laboratory investigation as per guideline Interpretation of ECG and all ot)",
+   "replaces_chunks": [
+    "tb-2025-0317"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Medical Doctor"
+     },
+     {
+      "t": "Clinical assessment and consultation, physical examination. Laboratory investigation as per guideline Interpretation of ECG and all other tests Interpretation of lab results from current and previous visits (biochemistry, DST, ECG, etc.) Assessment of side effects · Prescription of medication for DR-TB and co-morbidities."
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "DR-TB Nurse"
+     },
+     {
+      "t": "Clinical support Performing ECG, visual tests, ill count Adherence support by leading support group Discussing VOT and WhatsApp with patients enrolled on the digital health component Initiating patient tracing (for patients not presenting to appointments)"
+     }
+    ],
+    [
+     {
+      "t": "Counsellor/ Psychologist/ DR-TB Nurse"
+     },
+     {
+      "t": "Psychological assessment (using PHQ-9) Adherence support Psychologist from ENAP Social workers from the DPM office"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    128
+   ],
+   "context_before": "Table 28: The distribution of duties among doctors, nurses and counsellors in the provision of care is delineated"
+  },
+  {
+   "table_id": "tb-2025-tbl-p130-0321",
+   "page": 130,
+   "image_only": false,
+   "heading_path": "7.5 Treatment Care and Support > Table 29: Treatment readiness checklist parameters",
+   "caption": "Table 29: Treatment readiness checklist parameters (Readiness Checklist Parameters, Readiness Checklist Parameters)",
+   "replaces_chunks": [
+    "tb-2025-0321",
+    "tb-2025-0322"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Readiness Checklist Parameters"
+     },
+     {
+      "t": "Readiness Checklist Parameters"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Patients are informed about their diagnosis"
+     },
+     {
+      "t": "Patient understands their diagnosis, TB disease, adherence, treatment duration, side effects, IPC measures"
+     }
+    ],
+    [
+     {
+      "t": "Health care providers will ensure this through patient education and use of educational material and necessary documentation i.e. Lab results, x-ray etc. The health care provider will provide health education on T3 and ask questions to verify patients understanding"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ability to identify potential barriers and has solutions to them"
+     },
+     {
+      "t": "Patient understands the importance of adherence; taking medication at right dose, time and frequency; provision of DOT and treatment supporter, healthy preventative habits, actions implemented; Attending all reviews in facilities<br/>The psychosocial assessment is conducted to assist client in identifying the barriers and ensure they can come up with solutions"
+     }
+    ],
+    [
+     {
+      "t": "Patient has been offered appropriate HIV Counselling"
+     },
+     {
+      "t": "Patient has been tested for HIV; If positive, patient understands their diagnosis and the need for ARV's; If already on ART, patient understands that drugs may be changed to ensure minimal interaction with TB drugs; understands the importance of adhering to TB/HIV treatment; if Negative; HIV Prevention services have been offered"
+     }
+    ],
+    [
+     {
+      "t": "Health care provider provides health education on HIV/TB, conducts HIV test where applicable (HIV status unknown)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Patient understands side effects and steps to take when encountering them"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Patient is self-motivated"
+     },
+     {
+      "t": "Can identify individual resources or coping mechanisms to adhere to TB treatment apart from health benefits"
+     }
+    ],
+    [
+     {
+      "t": "Patient understands the importance of starting TB treatment"
+     },
+     {
+      "t": "Patient consents to TB treatment"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    130
+   ],
+   "context_before": "Table 29: Treatment readiness checklist parameters"
+  },
+  {
+   "table_id": "tb-2025-tbl-p133-0332",
+   "page": 133,
+   "image_only": false,
+   "heading_path": "7.13 Post-treatment follow-up of DR-TB cases > Table 30: Drug dosing for BPaLM and BPaL regimen",
+   "caption": "Table 30: Drug dosing for BPaLM and BPaL regimen (Drugs, Suggested, Remarks)",
+   "replaces_chunks": [
+    "tb-2025-0332"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drugs"
+     },
+     {
+      "t": "Suggested"
+     },
+     {
+      "t": "Remarks"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Bdq (100 mg tablets)<br/>400 mg"
+     },
+     {
+      "t": "400mg daily for 2 weeks<br/><br/>Then 200mg three times per week"
+     },
+     {
+      "t": "Minimum of 48 hours between doses after the first 2 weeks"
+     }
+    ],
+    [
+     {
+      "t": "Pa (200mg tablets)"
+     },
+     {
+      "t": "200mg daily"
+     },
+     {
+      "t": "7 days per week"
+     }
+    ],
+    [
+     {
+      "t": "Lzd (600mg)"
+     },
+     {
+      "t": "600mg daily for the duration of treatment"
+     },
+     {
+      "t": "7 days per week<br/><br/>Alternative dosing regimens for patients with severe adverse effects: 600 mg thrice weekly (M, W, F), or 300 mg daily provided that 9 consecutive weeks of treatment is completed."
+     }
+    ],
+    [
+     {
+      "t": "Mfx (400 mg tablets)"
+     },
+     {
+      "t": "400 mg daily for the duration of treatment"
+     },
+     {
+      "t": "7 days per week"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    133
+   ],
+   "context_before": "Table 30: Drug dosing for BPaLM and BPaL regimen"
+  },
+  {
+   "table_id": "tb-2025-tbl-p134-0333",
+   "page": 134,
+   "image_only": false,
+   "heading_path": "7.13 Post-treatment follow-up of DR-TB cases > Table 31: Weight-based dosing of medicines used in multidrug-resistant TB regimens, adults and childrena",
+   "caption": "Table 31: Weight-based dosing of medicines used in multidrug-resistant TB regimens, adults and children<sup>a</sup>: Table 31: Weight-based dosing of medicines used in multidrug-resistant TB regimens, adults and childrena (Group A Medicines, Formulation (tablets, diluted in 10 mL of water, as applicable), 3-4 kg, 5-6 kg, 7-9 kg, 10-15 kg, 16-24 kg, 25-29 kg, 30-35 kg, 36)",
+   "replaces_chunks": [
+    "tb-2025-0333",
+    "tb-2025-0334",
+    "tb-2025-0335",
+    "tb-2025-0336",
+    "tb-2025-0337",
+    "tb-2025-0338",
+    "tb-2025-0339"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Group A Medicines"
+     },
+     {
+      "t": "Formulation (tablets, diluted in 10 mL of water, as applicable)"
+     },
+     {
+      "t": "3-4 kg"
+     },
+     {
+      "t": "5-6 kg"
+     },
+     {
+      "t": "7-9 kg"
+     },
+     {
+      "t": "10-15 kg"
+     },
+     {
+      "t": "16-24 kg"
+     },
+     {
+      "t": "25-29 kg"
+     },
+     {
+      "t": "30-35 kg"
+     },
+     {
+      "t": "36-45 kg"
+     },
+     {
+      "t": "46-56 kg"
+     },
+     {
+      "t": "56-69 kg"
+     },
+     {
+      "t": "≥70 kg"
+     },
+     {
+      "t": "Comments"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Levofloxacin (Lfx)"
+     },
+     {
+      "t": "100 mg dt (10 mg/mL)"
+     },
+     {
+      "t": "5 mL (0.5 dt)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Levofloxacin (Lfx)"
+     },
+     {
+      "t": "250 mg tab (25 mg/mL)"
+     },
+     {
+      "t": "2 mLb"
+     },
+     {
+      "t": "5 mL (0.5 tab)b"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Levofloxacin (Lfx)"
+     },
+     {
+      "t": "500 mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Levofloxacin (Lfx)"
+     },
+     {
+      "t": "750 mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Moxifloxacin (Mfx)"
+     },
+     {
+      "t": "100 mg dt (10 mg/mL)"
+     },
+     {
+      "t": "1 mL"
+     },
+     {
+      "t": "8 mL"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Moxifloxacin (Mfx)"
+     },
+     {
+      "t": "400 mg tab (40 mg/mL) Standard dose"
+     },
+     {
+      "t": "1 mLb"
+     },
+     {
+      "t": "2 mLb"
+     },
+     {
+      "t": "3 mLb"
+     },
+     {
+      "t": "5 mL (0.5 tab)b"
+     },
+     {
+      "t": "7.5 mL"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Moxifloxacin (Mfx)"
+     },
+     {
+      "t": "400 mg tab high doses"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1 or 1.5"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "1.5 or 2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Bedaquiline (Bdq)"
+     },
+     {
+      "t": "20 mg dt"
+     },
+     {
+      "t": "0 to <3 months: 1.5 od (2 weeks); then 0.5 od M/W/F (22 weeks)<br/>≥ 3 months: 3 od for 2 weeks. then 1 od M/W/F for 22 weeks"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "0 to <3 months: 1.5 od for 2 weeks; then 0.5 od M/W/F 3 to <6 months: 3 od for 2 weeks; then 1 od M/W/F ≥6 months: 4 od for 2 weeks; then 2 od M/W/F"
+     },
+     {
+      "t": "3 to <6 months: 3 od for 2 weeks; then 1 od M/W/F ≥ 6 months: 6 od for 2 weeks; then 3 od M/W/F"
+     },
+     {
+      "t": "10 od for 2 weeks. then 5 od M/W/F"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "20 od for 2 weeks; then 10 od M/W/F"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Bedaquiline (Bdq)"
+     },
+     {
+      "t": "100 mg tab (10 mg/mL)d"
+     },
+     {
+      "t": "0 to <3 months: 3 mL od for 2 weeks. then 1 mL od M/W/Fb<br/>≥ 3 months: 6 mL od for 2 weeks. then 2 mL od M/W/Fb"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "0 to <3 months: 3 mL od for 2 weeks; then 1 mL od M/W/Fb 3 to <6 months: 6 mL od for 2 weeks; then 2 mL od M/W/Fb ≥ 6 months: 8 mL od for 2 weeks; then 4 mL od M/W/Fb"
+     },
+     {
+      "t": "3 to <6 months: 6 mL od for 2 weeks; then 2 mL od M/W/Fb ≥ 6 months: 12 mL od for 2 weeks; then 6 mL od M/W/Fb"
+     },
+     {
+      "t": "2 od for 2 weeks. then 1 od M/W/F"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4 od for 2 weeks then 2 od M/W/F"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Bedaquiline (Bdq)"
+     },
+     {
+      "t": "100 mg tab (Alternative dosing strategy for BPaLM/BPaL and BDLLfxCfz regimens)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2 od for 8 weeks followed by 1 od"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Dosing scheme is for BPaLM/BPaL regimen (>14 years) and for BDLLfxCfz in adults"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Linezolid<br/>(Lzd)"
+     },
+     {
+      "t": "20 mg /mL susp"
+     },
+     {
+      "t": "2 mL"
+     },
+     {
+      "t": "4 mL"
+     },
+     {
+      "t": "6 mL"
+     },
+     {
+      "t": "8 mL"
+     },
+     {
+      "t": "11 mL"
+     },
+     {
+      "t": "14 mL"
+     },
+     {
+      "t": "15 mL"
+     },
+     {
+      "t": "20 mL"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Linezolid<br/>(Lzd)"
+     },
+     {
+      "t": "150 mg dt (15 mg/mL)"
+     },
+     {
+      "t": "2.5 mL"
+     },
+     {
+      "t": "5 mL (0.5 dt)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2e"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Linezolid<br/>(Lzd)"
+     },
+     {
+      "t": "600 mg tab (60 mg/mL)"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1.25 mLb"
+     },
+     {
+      "t": "2.5 mLb"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "5 mL (0.5 tab)b, e"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "5 mL (0.5 tab)b"
+     },
+     {
+      "t": "7.5 mL (0.75 tab)b"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "LZD"
+     },
+     {
+      "t": "600 mg tab (alternative dosing strategy for modified 9 months regimens)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "0.5"
+     },
+     {
+      "t": "1 od for 16 weeks followed by 0.5 od or 1 M/W/F until the end of treatment"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "This applies to modified 9-month regimens (BLMZ, BLLCZ, BLLlfxCZ)"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Group B Medicines"
+     },
+     {
+      "t": "Formulation"
+     },
+     {
+      "t": "3-5 kg"
+     },
+     {
+      "t": "5-7 kg"
+     },
+     {
+      "t": "7-9 kg"
+     },
+     {
+      "t": "10-15 kg"
+     },
+     {
+      "t": "16-23 kg"
+     },
+     {
+      "t": "24-29 kg"
+     },
+     {
+      "t": "30-35 kg"
+     },
+     {
+      "t": "36-45 kg"
+     },
+     {
+      "t": "46-55 kg"
+     },
+     {
+      "t": "56-69 kg"
+     },
+     {
+      "t": "≥70 kg"
+     },
+     {
+      "t": "Comments"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Clofazimine<br/>(Cfz)"
+     },
+     {
+      "t": "50 mg cap or tab"
+     },
+     {
+      "t": "1 M/F"
+     },
+     {
+      "t": "1 M/W/F"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "For children <24 kg, the use of the 50 mg tab is preferred."
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Clofazimine<br/>(Cfz)"
+     },
+     {
+      "t": "100 mg cap or tabf"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "1 M/F"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1 M/W/F"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Cycloserine or terizidone<br/>(Cs/Tz)"
+     },
+     {
+      "t": "125 mg mini cap (Cs) (12.5 mg/mL)<br/>250 mg cap (25 mg/mL)"
+     },
+     {
+      "t": "2 mLb, g<br/>1 mLb, g"
+     },
+     {
+      "t": "4 mLb<br/>2 mLb"
+     },
+     {
+      "t": "1<br/>5 mLb"
+     },
+     {
+      "t": "2<br/>1"
+     },
+     {
+      "t": "3<br/>2"
+     },
+     {
+      "t": "4<br/>2"
+     },
+     {
+      "t": "4<br/>2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "–<br/>3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Pyridoxine is usually given to limit Cs toxicity"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Group C medicines"
+     },
+     {
+      "t": "Formulation"
+     },
+     {
+      "t": "3-4 kga"
+     },
+     {
+      "t": "5-6 kga"
+     },
+     {
+      "t": "7-9 kg"
+     },
+     {
+      "t": "10-15 kg"
+     },
+     {
+      "t": "16-23 kg"
+     },
+     {
+      "t": "24-29 kg"
+     },
+     {
+      "t": "30-35 kg"
+     },
+     {
+      "t": "36-45 kg"
+     },
+     {
+      "t": "46-55 kg"
+     },
+     {
+      "t": "56-69 kg"
+     },
+     {
+      "t": "≥70 kg"
+     },
+     {
+      "t": "Comments"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol<br/>(E or EMB)"
+     },
+     {
+      "t": "100 mg dt (10 mg/mL)"
+     },
+     {
+      "t": "5 mL (0.5 dt)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol<br/>(E or EMB)"
+     },
+     {
+      "t": "400 mg tab (40 mg/mL)"
+     },
+     {
+      "t": "1.5 mLb"
+     },
+     {
+      "t": "3 mLb"
+     },
+     {
+      "t": "4 mLb"
+     },
+     {
+      "t": "6 mL"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Delamanid<br/>(Dlm)"
+     },
+     {
+      "t": "25 mg dt"
+     },
+     {
+      "t": "1 od"
+     },
+     {
+      "t": "<3 months: 1 od<br/>≥3 months: 1 bd"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1 bd"
+     },
+     {
+      "t": "2 morning,<br/>1 evening"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2 bd"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Delamanid<br/>(Dlm)"
+     },
+     {
+      "t": "50 mg tabh<br/>(5 mg/mL)"
+     },
+     {
+      "t": "5 mL (0.5 tab) odb"
+     },
+     {
+      "t": "<3 months: 5 mL (0.5 tab) odb<br/>≥3 months: 5 mL (0.5 tab) bdb"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "5 mL (0.5 tab) bdb"
+     },
+     {
+      "t": "10 mL (1 tab) morning<br/>5 mL (0.5 tab) evening"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1 bd"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2 bd"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide<br/>(Z or PZA)"
+     },
+     {
+      "t": "150 mg dt (15 mg/mL)"
+     },
+     {
+      "t": "5 mL (0.5 dt)"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide<br/>(Z or PZA)"
+     },
+     {
+      "t": "400 mg tab (40 mg/mL)"
+     },
+     {
+      "t": "2.5 mLb"
+     },
+     {
+      "t": "5 mL (0.5 tab)b"
+     },
+     {
+      "t": "7.5 mL (0.75 tab)b"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2.5"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "5"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide<br/>(Z or PZA)"
+     },
+     {
+      "t": "500 mg tab (50 mg/mL)"
+     },
+     {
+      "t": "2 mLb"
+     },
+     {
+      "t": "5 mL (5 mL)b"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1.5"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2.5"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Imipenem–cilastatin (Ipm/Cin)"
+     },
+     {
+      "t": "500 mg + 500 mg powder for injection, vial (10 mL)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2 vials (1 g + 1 g) bd"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Only to be used with clavulanic acid"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Meropenem (Mpm)"
+     },
+     {
+      "t": "1 g powder for injection, vial (20 mL)"
+     },
+     {
+      "t": "1 mL tid"
+     },
+     {
+      "t": "2 mL tid"
+     },
+     {
+      "t": "4 mL tid"
+     },
+     {
+      "t": "6 mL tid"
+     },
+     {
+      "t": "9 mL tid"
+     },
+     {
+      "t": "11 mL tid"
+     },
+     {
+      "t": "1 vials (1 g + 1 g) bd"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Only to be used with clavulanic acid"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Group C Medicines"
+     },
+     {
+      "t": "Formulation"
+     },
+     {
+      "t": "3-4 kga"
+     },
+     {
+      "t": "5-6 kga"
+     },
+     {
+      "t": "7-9 kg"
+     },
+     {
+      "t": "10-15 kg"
+     },
+     {
+      "t": "16-23 kg"
+     },
+     {
+      "t": "24-29 kg"
+     },
+     {
+      "t": "30-35 kg"
+     },
+     {
+      "t": "36-45 kg"
+     },
+     {
+      "t": "46-55 kg"
+     },
+     {
+      "t": "56-69 kg"
+     },
+     {
+      "t": "≥70 kg"
+     },
+     {
+      "t": "Comments"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Amikacin<br/>(Am)"
+     },
+     {
+      "t": "500 mg/2 mL solution for injection, ampoule"
+     },
+     {
+      "t": "_ i"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "3–4 mL"
+     },
+     {
+      "t": "4 mL"
+     },
+     {
+      "t": "4 mL"
+     },
+     {
+      "t": "Recommended only in adults aged >18 years"
+     }
+    ],
+    [
+     {
+      "t": "Streptomycin<br/>(Sm)"
+     },
+     {
+      "t": "1 g powder for injection, vial"
+     },
+     {
+      "t": "_ i"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Calculate according to the dilution used"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Recommended only in adults aged >18 years"
+     }
+    ],
+    [
+     {
+      "t": "Ethionamide or Prothionamide<br/>(Eto/Pto)"
+     },
+     {
+      "t": "125 mg dt (Eto)<br/>(12.5 mg/mL)<br/>250 mg tab<br/>(25 mg/mL)"
+     },
+     {
+      "t": "3 mLb<br/>–"
+     },
+     {
+      "t": "7 mLb<br/>3 mLb"
+     },
+     {
+      "t": "1<br/>5 mL<br/>(0.5 tab)b"
+     },
+     {
+      "t": "2<br/>1"
+     },
+     {
+      "t": "3<br/>2"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "4<br/>2"
+     },
+     {
+      "t": "–<br/>3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Although once daily dose advised, two divided doses can be also given to improve tolerance"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "P-aminosalicylic acid (PAS)"
+     },
+     {
+      "t": "PAS sodium salt<br/>(equivalent to 4 g PAS acid) sachet"
+     },
+     {
+      "t": "0.3 g<br/>bd"
+     },
+     {
+      "t": "0.75 g<br/>bd"
+     },
+     {
+      "t": "1 g<br/>bd"
+     },
+     {
+      "t": "2 g<br/>bd"
+     },
+     {
+      "t": "3 g<br/>bd"
+     },
+     {
+      "t": "3.5 g<br/>bd"
+     },
+     {
+      "t": "4 g<br/>bd"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4–6 g<br/>bd"
+     },
+     {
+      "t": "Usually given in divided doses. Fully dose may be given once daily if tolerated"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Other Medicines"
+     },
+     {
+      "t": "Formulation"
+     },
+     {
+      "t": "3-5 kg"
+     },
+     {
+      "t": "5-6 kg"
+     },
+     {
+      "t": "7-9 kg"
+     },
+     {
+      "t": "10-15 kg"
+     },
+     {
+      "t": "16-23 kg"
+     },
+     {
+      "t": "24-29 kg"
+     },
+     {
+      "t": "30-35 kg"
+     },
+     {
+      "t": "36-45 kg"
+     },
+     {
+      "t": "46-55 kg"
+     },
+     {
+      "t": "56-69 kg"
+     },
+     {
+      "t": "≥70 kg"
+     },
+     {
+      "t": "Comments"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Group C Medicines"
+     },
+     {
+      "t": "Formulation"
+     },
+     {
+      "t": "3-4 kga"
+     },
+     {
+      "t": "5-6 kga"
+     },
+     {
+      "t": "7-9 kg"
+     },
+     {
+      "t": "10-15 kg"
+     },
+     {
+      "t": "16-23 kg"
+     },
+     {
+      "t": "24-29 kg"
+     },
+     {
+      "t": "30-35 kg"
+     },
+     {
+      "t": "36-45 kg"
+     },
+     {
+      "t": "46-55 kg"
+     },
+     {
+      "t": "56-69 kg"
+     },
+     {
+      "t": "≥70 kg"
+     },
+     {
+      "t": "Comments"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Isoniazidj<br/>(INH or H)<br/>(high dose)"
+     },
+     {
+      "t": "50 mg/5 mL soln<br/>100 mg dt or tab<br/>(10 mg/mL)<br/>300 mg tab"
+     },
+     {
+      "t": "5 mL<br/>5 mL<br/>(0.5 dt)<br/>–"
+     },
+     {
+      "t": "9 mL<br/>1"
+     },
+     {
+      "t": "15 mL<br/>1.5"
+     },
+     {
+      "t": "20 mL<br/>2"
+     },
+     {
+      "t": "–<br/>3<br/>1"
+     },
+     {
+      "t": "–<br/>4<br/>1.5"
+     },
+     {
+      "t": "–<br/>4<br/>1.5"
+     },
+     {
+      "t": "4.5"
+     },
+     {
+      "t": "–<br/>2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Pyridoxine is always given with high-dose isoniazid in children (1–2 mg/kg) and in people at risk of side-effects (e.g. those with HIV or malnutrition). In infants, pyridoxine may be given as part of a multi-vitamin syrup."
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Clavulanic acidj (as amoxicillin/ clavulanate)<br/>(Amx/clav)"
+     },
+     {
+      "t": "62.5 mg clavulanic acid as amoxicillin/ clavulanate (250/62.5 mg), powder for oral solution, 5 mL<br/>125 mg clavulanic acid as amoxicillin/ clavulanate (500/125 mg) tab"
+     },
+     {
+      "t": "1.5 mL tid<br/>–"
+     },
+     {
+      "t": "2 mL tid"
+     },
+     {
+      "t": "3 mL tid"
+     },
+     {
+      "t": "5 mL tid"
+     },
+     {
+      "t": "8 mL tid"
+     },
+     {
+      "t": "10 mL tid<br/>1 tid"
+     },
+     {
+      "t": "10 mL bd or tid<br/>1 bd or tid"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Only available in combination with amoxicillin. To be given with each dose of imipenem/ cilastatin (bd) or meropenem (tid)."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Pretomanid<br/>(Pa)"
+     },
+     {
+      "t": "200 mg tab"
+     },
+     {
+      "t": "–"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Currently only used as part of the BPaLM/BPaL regimens."
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    134,
+    135,
+    136
+   ],
+   "context_before": "Table 31: Weight-based dosing of medicines used in multidrug-resistant TB regimens, adults and children<sup>a</sup>"
+  },
+  {
+   "table_id": "tb-2025-tbl-p142-0356",
+   "page": 142,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection",
+   "caption": "Table 32: Procedures of respiratory sample and stool sample collection (Method, Techniques)",
+   "replaces_chunks": [
+    "tb-2025-0356",
+    "tb-2025-0357"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Method"
+     },
+     {
+      "t": "Techniques"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Sputum Induction"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Gastric Aspirate"
+     },
+     {
+      "t": "• Consider in children < 7 years<br/>• Nasogastric aspiration of gastric secretions using a nasogastric tube<br/>• 2-3 specimens are recommended to increase yield<br/>• Volume: 5-10 ml should be collected, if less confirm tube placement and re-attempt. If still < 5-10 ml instill up to 20 ml of sterile water and re-aspirate.<br/>• It should be performed in the early morning and fast for 4 hours (outpatient collection is fine provided these parameters are met).<br/>• Nasogastric tube should be used<br/>• If possible, neutralize the aspirate with sodium bicarbonate if the specimen is not processed that day based on pH testing"
+     }
+    ],
+    [
+     {
+      "t": "Nasopharyngeal Aspirate"
+     },
+     {
+      "t": "• Can be performed in children under 6 years<br/>• Suctioning of the nasopharynx via a nasopharyngeal tube at 15 -20 kPa of pressure<br/>• 2 ml of aspirate is recommended<br/>• Can be performed at any time but morning is preferred, generally follows sputum induction<br/>• A suction machine is recommended for the procedure"
+     }
+    ],
+    [
+     {
+      "t": "Stool for TB"
+     },
+     {
+      "t": "• Performed only for children under the age of 15 years.<br/>• For infants and toddlers, stools can be directly collected from the diaper as soon as possible after defecation. (Avoiding prolonged contact with the surface of the diaper.)<br/>• Older children are directed to defecate on a clean sheet of paper, avoiding contamination from the soil and urine.<br/>• Using a designated spatula or wooden stick, the sample is transferred into a stool container or a sputum container and sealed tightly before submitting it to the laboratory for processing. The sample container should NOT be filled to the brim.<br/>• A volume of 1g (a pea size) for a formed stool or 5 ml for a watery stool is sufficient to perform the Xpert test.<br/>• The simple one-step method (SOS) is used in the laboratory to analyse the sample.<br/>• A subsequently induced sputum or gastric aspirate will have to be collected and sent for culture and DST to the reference lab should the Xpert MTB results turn out positive."
+     }
+    ],
+    [
+     {
+      "t": "Methods of specimen collection for Extra-Pulmonary Disease"
+     },
+     {
+      "t": "• Specimen collection should be attempted from the presumed site of disease through fine needle aspiration of lymph nodes, collection of CSFS, pleural, ascetic fluid etc."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    142
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p144-0360",
+   "page": 144,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > 8.3.4 Clinical diagnosis of pulmonary TB and decision for treatment in children (0-10) years old > Table 33: Danger and Priority Signs in Children <10 Years Old",
+   "caption": "Table 33: Danger and Priority Signs in Children <10 Years Old (Age <5 yrs, Age <5-9 yrs, Age <10 yrs)",
+   "replaces_chunks": [
+    "tb-2025-0360"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age <5 yrs"
+     },
+     {
+      "t": "Age <5-9 yrs"
+     },
+     {
+      "t": "Age <10 yrs"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Danger Signs (IMCI)"
+     },
+     {
+      "t": "Danger Signs (ETAT)"
+     },
+     {
+      "t": "Priority Signs"
+     }
+    ],
+    [
+     {
+      "t": "Gastrointestinal/circulatory:<br/>• Unable to eat or drink<br/>• Vomiting up everything<br/>• Signs of severe dehydration (sunken eyes, skin pinch returns very slowly)<br/>• Severe palmar pallor"
+     },
+     {
+      "t": "Gastrointestinal/circulatory:<br/>• Diarrhea with any two signs of severe dehydration (lethargy, unconsciousness, sunken eyes, very slow return of skin after pinching)<br/>• Signs of shock (cold extremities with capillary refill time>3 seconds, weak and fast pulse)"
+     },
+     {
+      "t": "Any sick child aged <2 months<br/>• High fever (>39° C)<br/>• Severe pallor<br/>• Respiratory distress<br/>• Restless, continuously irritable, lethargic<br/>• Severe acute malnutrition (SAM)"
+     }
+    ],
+    [
+     {
+      "t": "Respiratory:<br/>• Stridor<br/>• Oxygen saturation <90%"
+     },
+     {
+      "t": "Respiratory:<br/>• Obstructed or absent<br/>• Breathing<br/>• Severe respiratory distress<br/>• Central cyanosis"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Neurological:<br/>• Seizures<br/>• Profoundly lethargic, unconscious<br/>• Neck stiffness or bulging fontanelle"
+     },
+     {
+      "t": "Neurological:<br/>• Coma (or seriously reduced level of consciousness)<br/>• Seizures"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    144
+   ],
+   "context_before": "Table 33: Danger and Priority Signs in Children <10 Years Old"
+  },
+  {
+   "table_id": "tb-2025-tbl-p148-0368",
+   "page": 148,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old)",
+   "caption": "Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old) (Assess the Site of TB Disease)",
+   "replaces_chunks": [
+    "tb-2025-0368"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Assess the Site of TB Disease"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "2Pulmonary TB (PTB): Both new and re-registered"
+     },
+     {
+      "t": "Extra-pulmonary TB (EP-TB): Both new and re-registered"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "What is the child’s age?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "<3 mth"
+     },
+     {
+      "t": "3 mth-<16 yrs"
+     },
+     {
+      "t": "16 yrs-19 yrs"
+     },
+     {
+      "t": "<3 mth"
+     },
+     {
+      "t": "3 mth -19 yrs"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "2HRZE/4HR"
+     },
+     {
+      "t": "Assess severity<br/>Non-severe<br/>2HRZE/2HR"
+     },
+     {
+      "t": "Severe<br/>2HRZE/4HR"
+     },
+     {
+      "t": "2HRZE/4HR"
+     },
+     {
+      "t": "2HRZE/4HR"
+     },
+     {
+      "t": "Assess severity<br/>Non-Severe<br/>(Isolated<br/>peripheral<br/>lymphadenopathy)<br/>2HRZE/2HR"
+     },
+     {
+      "t": "Severe<br/>Bone & Joint<br/>TB (incl<br/>spine)<br/>2HRZE/10HR"
+     },
+     {
+      "t": "TB<br/>Meningitis<br/>6HRZ+Eto<br/>or 2HRZE/<br/>10HR"
+     },
+     {
+      "t": "All other<br/>forms of<br/>EP-TB<br/>2HRZE/<br/>4HR"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    148
+   ],
+   "context_before": "Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old)"
+  },
+  {
+   "table_id": "tb-2025-tbl-p149-0372",
+   "page": 149,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old)",
+   "caption": "8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) (Age <5 yrs, Age <5-9 yrs, Age <10 yrs)",
+   "replaces_chunks": [
+    "tb-2025-0372",
+    "tb-2025-0373",
+    "tb-2025-0374"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age <5 yrs"
+     },
+     {
+      "t": "Age <5-9 yrs"
+     },
+     {
+      "t": "Age <10 yrs"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Danger Signs (IMCI)"
+     },
+     {
+      "t": "Danger Signs (ETAT)"
+     },
+     {
+      "t": "Priority Signs"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Gastrointestinal/circulatory: - Unable to eat or drink - Vomiting up everything - Signs of severe dehydration (sunken eyes, skin pinch returns very slowly) - Severe palmar pallor"
+     },
+     {
+      "t": "Gastrointestinal/circulatory: - Diarrhea with any two signs of severe dehydration (lethargy, unconsciousness, sunken eyes, very slow return of skin after pinching) - Signs of shock (cold extremities with capillary refill time>3 seconds, weak and fast pulse)"
+     },
+     {
+      "t": "Any sick child aged <2 months - High fever (>39° C) - Severe pallor - Respiratory distress - Restless, continuously irritable, lethargic - Severe acute malnutrition (SAM)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Respiratory: - Stridor - Oxygen saturation <90%"
+     },
+     {
+      "t": "Respiratory: - Obstructed or absent Breathing - Severe respiratory distress - Central cyanosis"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     }
+    ],
+    [
+     {
+      "t": "WT Bands (Kg)"
+     },
+     {
+      "t": "Intensive Phase<br/>RHZ (75/50/150) Mg"
+     },
+     {
+      "t": "E (100 mg)"
+     },
+     {
+      "t": "How to prepare the medicine"
+     },
+     {
+      "t": "Continuation Phase<br/>RH (75/50 mg)"
+     },
+     {
+      "t": "How to prepare the medicine"
+     }
+    ],
+    [
+     {
+      "t": "2 kg"
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/4) of this solution measured with a syringe."
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 5 ml (1/4) of this solution measured with a syringe."
+     }
+    ],
+    [
+     {
+      "t": "2.9 kg"
+     },
+     {
+      "t": "½"
+     },
+     {
+      "t": "½"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/2) of this solution measured with a syringe."
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 10 ml (1/2) of this solution measured with a syringe."
+     }
+    ],
+    [
+     {
+      "t": "3-3.9 kg"
+     },
+     {
+      "t": "¾"
+     },
+     {
+      "t": "¾"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 15ml (3/4) of this solution measured with a syringe"
+     },
+     {
+      "t": "¾"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RH in 20 ml of safe drinking water. Once fully dissolved, give 15ml (3/4) of this solution measured with a syringe."
+     }
+    ],
+    [
+     {
+      "t": "Vit B6"
+     },
+     {
+      "t": "Give 1-2 mg/kg/day of vitamin B6 (25 mg tablets)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol is not dissolvable: crush before adding to the liquid After giving the child their dose for that day, discard the rest of the solution. Prepare a fresh solution every day. If volumes are too high the tablet may also be dissolved in 10 ml maintaining the same fraction of medication delivered"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    149,
+    150
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p150-0376",
+   "page": 150,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.5 Recommended dosing of anti-TB drugs in children less than 25 kg > Table 36. Recommended treatment regimen and anti-TB drug dosages for paediatrics",
+   "caption": "Table 36. Recommended treatment regimen and anti-TB drug dosages for paediatrics (Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets, Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of T)",
+   "replaces_chunks": [
+    "tb-2025-0376",
+    "tb-2025-0377"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     },
+     {
+      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "WT Bands (Kg)"
+     },
+     {
+      "t": "Intensive Phase<br/>RHZ (75/50/150) Mg"
+     },
+     {
+      "t": "E (100 mg)"
+     },
+     {
+      "t": "How to prepare the medicine"
+     },
+     {
+      "t": "Continuation Phase<br/>RH (75/50 mg)"
+     },
+     {
+      "t": "How to prepare the medicine"
+     }
+    ],
+    [
+     {
+      "t": "2 kg"
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/4) of this solution measured with a syringe."
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 5 ml (1/4) of this solution measured with a syringe."
+     }
+    ],
+    [
+     {
+      "t": "2.9 kg"
+     },
+     {
+      "t": "½"
+     },
+     {
+      "t": "½"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/2) of this solution measured with a syringe."
+     },
+     {
+      "t": "¼"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 10 ml (1/2) of this solution measured with a syringe."
+     }
+    ],
+    [
+     {
+      "t": "3-3.9 kg"
+     },
+     {
+      "t": "¾"
+     },
+     {
+      "t": "¾"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 15ml (3/4) of this solution measured with a syringe"
+     },
+     {
+      "t": "¾"
+     },
+     {
+      "t": "Dissolve one (1) tablet of RH in 20 ml of safe drinking water. Once fully dissolved, give 15ml (3/4) of this solution measured with a syringe."
+     }
+    ],
+    [
+     {
+      "t": "Vit B6"
+     },
+     {
+      "t": "Give 1-2 mg/kg/day of vitamin B6 (25 mg tablets)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol is not dissolvable: crush before adding to the liquid After giving the child their dose for that day, discard the rest of the solution. Prepare a fresh solution every day. If volumes are too high the tablet may also be dissolved in 10 ml maintaining the same fraction of medication delivered"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    150
+   ],
+   "context_before": "Table 36. Recommended treatment regimen and anti-TB drug dosages for paediatrics"
+  },
+  {
+   "table_id": "tb-2025-tbl-p151-0378",
+   "page": 151,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > Table 37:Child-friendly dispersible medicine for Children 4 - 24.",
+   "caption": "Table 37:Child-friendly dispersible medicine for Children 4 - 24. (Number of Tablets)",
+   "replaces_chunks": [
+    "tb-2025-0378"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Number of Tablets"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "WT<br/>Bands<br/>(Kg)"
+     },
+     {
+      "t": "Intensive Phase<br/>RHZ<br/>(75/50/150) Mg"
+     },
+     {
+      "t": "E<br/>(100 mg)"
+     },
+     {
+      "t": "How to prepare the medicine"
+     },
+     {
+      "t": "Continuation Phase<br/>RH<br/>(75/50 mg)"
+     },
+     {
+      "t": "How to prepare the<br/>medicine"
+     }
+    ],
+    [
+     {
+      "t": "4-7.9"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "Dissolve the tablet(s) of RHZ in<br/>10-20 ml of safe drinking water.<br/>Once fully dissolved, mix in<br/>completely crushed tablet(s) of<br/>Ethambutol and give ALL of this<br/>solution to the child.<br/>Rinse the cup and give any<br/>residual liquid."
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "Dissolve the tablet(s) of<br/>RH in 10-20 ml of safe<br/>drinking water.<br/>Once fully dissolved<br/>give ALL of this solution<br/>to the child.<br/>Rinse the cup and give<br/>any residual liquid."
+     }
+    ],
+    [
+     {
+      "t": "8-11.9"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "12-15.9"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "16-24.9"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": ">25 kg"
+     },
+     {
+      "t": "Same as in the above dosing table for adults"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "VIT B6"
+     },
+     {
+      "t": "Give 1-2 mg/kg/day vitamin B6 (25 mg tablets)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ethambutol is not dissolvable: crush before adding it to the liquid"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    151
+   ],
+   "context_before": "Table 37:Child-friendly dispersible medicine for Children 4 - 24."
+  },
+  {
+   "table_id": "tb-2025-tbl-p152-0380",
+   "page": 152,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > Table 38: Recommended dosing for 6RHZ+Ethionamide regimen for TB meningitis in children and adolescents",
+   "caption": "Table 38: Recommended dosing for 6RHZ+Ethionamide regimen for TB meningitis in children and adolescents (Drug, Dosage (mg/kg))",
+   "replaces_chunks": [
+    "tb-2025-0380"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Dosage (mg/kg)"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Isoniazid (H)"
+     },
+     {
+      "t": "15-20"
+     },
+     {
+      "t": "Higher end of dosing for younger<br/>children and lower end for older<br/>children."
+     }
+    ],
+    [
+     {
+      "t": "Rifampicin (R)"
+     },
+     {
+      "t": "22.5-30"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Pyrazinamide (Z)"
+     },
+     {
+      "t": "35-45"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Ethionamide (Eto)"
+     },
+     {
+      "t": "17.5-22.5"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    152
+   ],
+   "context_before": "Table 38: Recommended dosing for 6RHZ+Ethionamide regimen for TB meningitis in children and adolescents"
+  },
+  {
+   "kind": "diagram",
+   "table_id": "tb-2025-fig-screen-children",
+   "page": 156,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > TB Screening Algorithms for Children > Figure 23: Children <15 Years at Health Facilities",
+   "caption": "Figure 23. TB screening algorithm for children <15 years at health facilities: symptom screen by age, risk factors (TB contact, MUAC, vulnerable children), CXR by human reader, sputum or stool Xpert, LF-LAM for children with HIV, TPT",
+   "replaces_chunks": [
+    "tb-2025-0391",
+    "tb-2025-0392"
+   ],
+   "content": "Population: children and adolescents <15 years attending health facilities.\n1. Symptom screen: for 10–15 years, current cough OR fever OR weight loss OR night sweats (W4SS); for <10 years, cough, fever, weight loss/poor weight gain of any duration, or history of TB contact.\n   - Positive: collect two specimens (if <5 years or cannot produce sputum, collect one stool sample) and perform microbiological assessment for active TB (including LF-LAM for children living with HIV*).\n   - Negative: assess risk factors – child TB contact, nutrition status (MUAC <12.5 cm for <5 years, <22.5 cm for >5 years), vulnerable children (e.g. orphans).\n     - No risk factors: exit.\n     - Risk factors: was CXR screening done in the past 12 months? Yes: further clinical evaluation, provide TPT if eligible. No: CXR read by a human reader → suggestive of TB: collect specimens as above; negative: further clinical evaluation, TPT if eligible; non-TB abnormalities: clinical assessment for active TB if symptoms persist or other morbidity, take CXR if not taken before, provide TPT if eligible.\n2. Microbiological result: positive → initiate TB treatment; negative → clinical assessment for active TB if symptoms persist or other morbidity, take CXR if not taken before, provide TPT if eligible.\n* Perform TB-LAM for all with AHD (CD4 <200, WHO stage 3 or 4) regardless of symptoms, seriously ill regardless of CD4, and all presumptive TB regardless of CD4.",
+   "footnotes": [],
+   "source_flags": [
+    "The CXR result 'positive' is not drawn as a box; an arrow from 'CXR read by human reader' leads to specimen collection.",
+    "MUAC <22.5 cm is given as the cut-off for all children >5 years; MUAC thresholds vary with age (5–9 vs 10–14 years), and BMI-for-age is usually used over 5.",
+    "The symptom screen is defined for '>10-15 y.o' and '<10 y.o'; age 10 itself is not covered."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "tb-2025-fig-screen-children-plhiv",
+   "page": 157,
+   "image_only": false,
+   "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > TB Screening Algorithms for Children > Figure 24: Children <15 Years (With and Without HIV) at Facilities with X-ray, CAD/AI and CRP",
+   "caption": "Figure 24. TB screening algorithm for children <15 years with and without HIV at facilities with X-ray, CAD/AI and CRP: symptom screen, risk factors, ART status, CRP (>10 years), CXR by human reader, sputum/stool Xpert, TB-LAM, TPT",
+   "replaces_chunks": [
+    "tb-2025-0393",
+    "tb-2025-0394",
+    "tb-2025-0395"
+   ],
+   "content": "Population: children and adolescents <15 years attending health facilities (non-PLHIV and PLHIV).\n1. Symptom screen: current cough OR fever OR weight loss (poor weight gain, failure to thrive) OR night sweats.\n   - Positive (with or without HIV): collect two sputum samples (if <5 years or cannot produce sputum, one stool sample) and perform microbiological assessment for active TB (including TB-LAM for eligible PLHIV**).\n   - Negative, without HIV: assess risk factors* → none: exit; present: was CXR taken in the past 12 months? Yes: evaluate and provide TPT if eligible. No: CXR screen by human reader → negative: evaluate and provide TPT if eligible; positive: (no next step drawn).\n   - Negative, living with HIV: on ART? Yes: CXR pathway as above. No: CRP screen (for >10 years only) → positive: collect sputum/stool for microbiological assessment; negative: further clinical evaluation, provide TPT if eligible.\n2. Microbiological result: positive → initiate active TB treatment; negative → further clinical evaluation, provide TPT if eligible.\n* Risk factors: child TB contacts; nutrition status (MUAC <12.5 cm for <5 years, <22.5 cm for >5 years); vulnerable children (e.g. orphans). ** Perform TB-LAM for all with AHD (CD4 <200, WHO stage 3 or 4) regardless of symptoms, seriously ill regardless of CD4, and all presumptive TB regardless of CD4.",
+   "footnotes": [],
+   "source_flags": [
+    "A positive CXR screen has no next step drawn (presumably specimen collection, as in Figure 23); the earlier chunk omitted the branch.",
+    "Children with HIV, not on ART, symptom-negative and aged 10 or under have no screening step (CRP is 'for >10 years only').",
+    "The figure title says 'PLHIV <15 years' but the chart covers children with and without HIV."
+   ]
   }
  ],
  "text_labels": {

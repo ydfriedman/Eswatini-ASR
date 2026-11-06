@@ -1411,6 +1411,7 @@ unaids-linkages-sop-0088,cleaned,
 unaids-linkages-sop-0093,cleaned,
 unaids-linkages-sop-0096,cleaned,
 unaids-linkages-sop-0099,cleaned,
+unaids-linkages-sop-0108,cleaned,
 unaids-linkages-sop-0115,label,2 Adolescents => 12 Linkage Case Management for Special Populations > Adolescents
 unaids-linkages-sop-0116,label,3 Men => 12 Linkage Case Management for Special Populations > Key Populations and Men
 unaids-linkages-sop-0117,label,3 Men => 12 Linkage Case Management for Special Populations > Key Populations and Men
@@ -1472,6 +1473,62 @@ tb-2025-0183,replaced,tb-2025-tbl-p80-0181
 tb-2025-0185,replaced,tb-2025-tbl-p80-0181
 tb-2025-0187,replaced,tb-2025-tbl-p80-0181
 tb-2025-0188,replaced,tb-2025-tbl-p80-0181
+tb-2025-0210,replaced,tb-2025-tbl-p90-0210
+tb-2025-0211,replaced,tb-2025-tbl-p90-0210
+tb-2025-0217,replaced,tb-2025-tbl-p92-0217
+tb-2025-0218,replaced,tb-2025-tbl-p92-0217
+tb-2025-0226,replaced,tb-2025-tbl-p96-0226
+tb-2025-0229,replaced,tb-2025-tbl-p96-0229
+tb-2025-0233,replaced,tb-2025-tbl-p98-0233
+tb-2025-0236,replaced,tb-2025-tbl-p99-0236
+tb-2025-0242,replaced,tb-2025-tbl-p101-0242
+tb-2025-0255,replaced,tb-2025-tbl-p106-0255
+tb-2025-0262,replaced,tb-2025-tbl-p108-0262
+tb-2025-0266,replaced,tb-2025-tbl-p110-0266
+tb-2025-0267,replaced,tb-2025-tbl-p110-0266
+tb-2025-0271,replaced,tb-2025-tbl-p111-0271
+tb-2025-0274,replaced,tb-2025-tbl-p112-0274
+tb-2025-0276,replaced,tb-2025-tbl-p112-0274
+tb-2025-0277,replaced,tb-2025-tbl-p112-0274
+tb-2025-0279,replaced,tb-2025-tbl-p112-0274
+tb-2025-0280,replaced,tb-2025-tbl-p112-0274
+tb-2025-0282,replaced,tb-2025-tbl-p112-0274
+tb-2025-0283,replaced,tb-2025-tbl-p112-0274
+tb-2025-0286,replaced,tb-2025-tbl-p116-0286
+tb-2025-0296,replaced,tb-2025-tbl-p120-0296
+tb-2025-0297,replaced,tb-2025-tbl-p120-0296
+tb-2025-0306,replaced,tb-2025-tbl-p124-0306
+tb-2025-0309,replaced,tb-2025-tbl-p125-0309
+tb-2025-0313,replaced,tb-2025-tbl-p126-0313
+tb-2025-0315,replaced,tb-2025-tbl-p126-0313
+tb-2025-0316,replaced,tb-2025-tbl-p126-0313
+tb-2025-0317,replaced,tb-2025-tbl-p128-0317
+tb-2025-0321,replaced,tb-2025-tbl-p130-0321
+tb-2025-0322,replaced,tb-2025-tbl-p130-0321
+tb-2025-0332,replaced,tb-2025-tbl-p133-0332
+tb-2025-0333,replaced,tb-2025-tbl-p134-0333
+tb-2025-0334,replaced,tb-2025-tbl-p134-0333
+tb-2025-0335,replaced,tb-2025-tbl-p134-0333
+tb-2025-0336,replaced,tb-2025-tbl-p134-0333
+tb-2025-0337,replaced,tb-2025-tbl-p134-0333
+tb-2025-0338,replaced,tb-2025-tbl-p134-0333
+tb-2025-0339,replaced,tb-2025-tbl-p134-0333
+tb-2025-0356,replaced,tb-2025-tbl-p142-0356
+tb-2025-0357,replaced,tb-2025-tbl-p142-0356
+tb-2025-0360,replaced,tb-2025-tbl-p144-0360
+tb-2025-0368,replaced,tb-2025-tbl-p148-0368
+tb-2025-0372,replaced,tb-2025-tbl-p149-0372
+tb-2025-0373,replaced,tb-2025-tbl-p149-0372
+tb-2025-0374,replaced,tb-2025-tbl-p149-0372
+tb-2025-0376,replaced,tb-2025-tbl-p150-0376
+tb-2025-0377,replaced,tb-2025-tbl-p150-0376
+tb-2025-0378,replaced,tb-2025-tbl-p151-0378
+tb-2025-0380,replaced,tb-2025-tbl-p152-0380
+tb-2025-0391,replaced,tb-2025-fig-screen-children
+tb-2025-0392,replaced,tb-2025-fig-screen-children
+tb-2025-0393,replaced,tb-2025-fig-screen-children-plhiv
+tb-2025-0394,replaced,tb-2025-fig-screen-children-plhiv
+tb-2025-0395,replaced,tb-2025-fig-screen-children-plhiv
 tb-2025-0022,label,1.1 Introduction > Introduction and Country Background > Table 1: Summary of Changes and New Recommendations in the Guidelines => Chapter 1: Background > 1.1 Introduction > Summary of Changes and New Recommendations (continued)
 tb-2025-0029,cleaned,
 tb-2025-0031,label,"1.5 Epidemiology of Tuberculosis > 1.5.1 Global trend in TB incidence > Figure 1: Global TB Incidence Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Incidence"
@@ -1506,11 +1563,14 @@ tb-2025-0173,emptied,
 tb-2025-0177,cleaned,
 tb-2025-0182,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > Table 11: A brief details of type of EP-TB, clinical features and diagnostic procedure => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes"
 tb-2025-0198,emptied,
+tb-2025-0209,cleaned,
 tb-2025-0290,cleaned,
+tb-2025-0295,cleaned,
+tb-2025-0312,cleaned,
+tb-2025-0355,cleaned,
 tb-2025-0361,emptied,
 tb-2025-0363,cleaned,
-tb-2025-0391,emptied,
-tb-2025-0393,emptied,
+tb-2025-0370,cleaned,
 tb-2025-0402,emptied,
 tb-2025-0469,emptied,
 tb-2025-0472,emptied,
