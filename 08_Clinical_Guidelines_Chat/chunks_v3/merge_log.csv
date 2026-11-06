@@ -1580,6 +1580,25 @@ tb-2025-0597,replaced,tb-2025-tbl-p230-0597
 tb-2025-0599,replaced,tb-2025-fig-growth-curve-example
 tb-2025-0600,replaced,tb-2025-fig-growth-curve-example
 tb-2025-0601,replaced,tb-2025-fig-growth-curve-example
+tb-2025-0604,replaced,tb-2025-tbl-p232-0604
+tb-2025-0631,replaced,tb-2025-tbl-p243-0631
+tb-2025-0632,replaced,tb-2025-tbl-p243-0631
+tb-2025-0639,replaced,tb-2025-tbl-p247-0639
+tb-2025-0640,replaced,tb-2025-tbl-p247-0639
+tb-2025-0652,replaced,tb-2025-tbl-p251-0652
+tb-2025-0658,replaced,tb-2025-tbl-p252-0658
+tb-2025-0666,replaced,tb-2025-tbl-p254-0666
+tb-2025-0673,replaced,tb-2025-tbl-p258-0673
+tb-2025-0676,replaced,tb-2025-tbl-p259-0676
+tb-2025-0685,replaced,tb-2025-tbl-p261-0685
+tb-2025-0689,replaced,tb-2025-tbl-p262-0689
+tb-2025-0702,replaced,tb-2025-tbl-p268-0702
+tb-2025-0705,replaced,tb-2025-tbl-p269-0705
+tb-2025-0706,replaced,tb-2025-tbl-p269-0705
+tb-2025-0707,replaced,tb-2025-tbl-p270-0707
+tb-2025-0708,replaced,tb-2025-tbl-p271-0708
+tb-2025-0709,replaced,tb-2025-tbl-p271-0708
+tb-2025-0712,replaced,tb-2025-tbl-p273-0712
 tb-2025-0022,label,1.1 Introduction > Introduction and Country Background > Table 1: Summary of Changes and New Recommendations in the Guidelines => Chapter 1: Background > 1.1 Introduction > Summary of Changes and New Recommendations (continued)
 tb-2025-0029,cleaned,
 tb-2025-0031,label,"1.5 Epidemiology of Tuberculosis > 1.5.1 Global trend in TB incidence > Figure 1: Global TB Incidence Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Incidence"
@@ -1698,7 +1717,37 @@ tb-2025-0594,emptied,
 tb-2025-0603,cleaned,
 tb-2025-0610,cleaned,
 tb-2025-0614,cleaned,
+tb-2025-0619,label,12.2 TB infection prevention and control measures > 12.2.2 Environmental Control Measures > Surgical Masks => Chapter 12: TB Infection Prevention and Control > 12.3 Personal Respiratory Protection > Surgical Masks
+tb-2025-0620,label,12.2 TB infection prevention and control measures > 12.2.2 Environmental Control Measures > Surgical Masks => Chapter 12: TB Infection Prevention and Control > 12.4.1 TB IPC in Health Facilities
+tb-2025-0653,label,"13.3 Mental Health > Table 69: Provisional diagnosis and recommended action according to PHQ9 score => Chapter 13: Integrated Management of TB and Non-Communicable Diseases > 13.3 Mental Health > Depression (Suicidal Thoughts, PHQ-9 Actions)"
+tb-2025-0665,cleaned,
+tb-2025-0674,label,"14.1 Zoonotic TB and MOTT > 14.1.5 Treatment > Table 72: Treatment of disease by M. bovis => Chapter 14: Zoonotic TB, Mycobacteria Other Than TB and Leprosy > 14.1.5.1 Treatment of M. bovis (Notes)"
+tb-2025-0678,label,"14.1 Zoonotic TB and MOTT > Table 73: Treatment Regimens for MOTT Species => Chapter 14: Zoonotic TB, Mycobacteria Other Than TB and Leprosy > 14.2 Leprosy > 14.2.1 Transmission"
+tb-2025-0688,cleaned,
+tb-2025-0691,label,14.2.10 Care for Prevention of impairments leading to disability > Tuberculosis Mortality Reviews => Chapter 15: Tuberculosis Mortality Reviews > Introduction
 tb-2025-0698,emptied,
+tb-2025-0701,cleaned,
+tb-2025-0710,cleaned,
+tb-2025-0711,label,16.1 Community Referrals and Linkages => Chapter 16: Referrals and Linkages in TB Services > 16.1 Community Referrals and Linkages > If the Client Does Not Arrive
+tb-2025-0713,label,16.1 Community Referrals and Linkages => Chapter 16: Referrals and Linkages in TB Services > 16.2 Referral Between Treatment Sites > 16.2.1 Treatment Site to Another Treatment Site
+tb-2025-0714,label,16.1 Community Referrals and Linkages => Chapter 16: Referrals and Linkages in TB Services > 16.2.2 Down-referral from Hospital
+tb-2025-0717,label,"16.2.4 DR-TB Site to Local Clinic > Monitoring, Evaluation and Supportive Supervision => Chapter 17: Monitoring, Evaluation and Supportive Supervision > Introduction"
+tb-2025-0718,label,"16.2.4 DR-TB Site to Local Clinic > Monitoring, Evaluation and Supportive Supervision => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 Description of TB Surveillance System"
+tb-2025-0719,label,"16.2.4 DR-TB Site to Local Clinic > Presumptive TB Register (PTB 01) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Presumptive TB Register (PTB 01)"
+tb-2025-0720,label,"16.2.4 DR-TB Site to Local Clinic > Laboratory Request Form (TB 02) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Laboratory Request Form (TB 02)"
+tb-2025-0721,label,"16.2.4 DR-TB Site to Local Clinic > Laboratory Register (TB 03) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Laboratory Register (TB 03)"
+tb-2025-0722,label,"16.2.4 DR-TB Site to Local Clinic > DS-TB Register (TB 04) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > DS-TB Register (TB 04)"
+tb-2025-0723,label,"16.2.4 DR-TB Site to Local Clinic > DR-TB Register (TB 05) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > DR-TB Register (TB 05)"
+tb-2025-0724,label,"16.2.4 DR-TB Site to Local Clinic > DST TB treatment Card (TB 06) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > TB Treatment Card (TB 06)"
+tb-2025-0726,label,"16.2.4 DR-TB Site to Local Clinic > Contact Tracing Logbook (TB 08) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > DR-TB Patient File and Contact Tracing Logbook (TB 08)"
+tb-2025-0727,label,"16.2.4 DR-TB Site to Local Clinic > Contact and TPT Register (TB 09) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Contact and TPT Register (TB 09)"
+tb-2025-0728,label,"16.2.4 DR-TB Site to Local Clinic > Referral / Transfer form (TB 10) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Referral/Transfer Form (TB 10)"
+tb-2025-0729,label,"16.2.4 DR-TB Site to Local Clinic > Community Referral Form (TB 11) => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Community Referral Form (TB 11)"
+tb-2025-0730,label,"17.2 Monitoring of TB Case Detection and Treatment Activities => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.2 Monitoring of TB Case Detection and Treatment Activities"
+tb-2025-0731,label,"17.2 Monitoring of TB Case Detection and Treatment Activities => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.2 Monitoring of TB Case Detection and Treatment Activities"
+tb-2025-0732,label,"17.2 Monitoring of TB Case Detection and Treatment Activities > Supervisory visits aim to => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.3 Supportive Supervision"
+tb-2025-0733,label,"17.2 Monitoring of TB Case Detection and Treatment Activities => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.3 Supportive Supervision > Field Visits"
+tb-2025-0734,label,"17.2 Monitoring of TB Case Detection and Treatment Activities => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.4 Planning (Five-year Plan and Annual Operational Plan)"
 tb-2025-0002,heading moved to,tb-2025-0012
 tb-2025-0363,trailing heading dropped (next is a table/flowchart),## **Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available)**
 tb-2025-0087,merged into,tb-2025-0086
@@ -1719,5 +1768,6 @@ tb-2025-0645,merged into,tb-2025-0644
 tb-2025-0646,merged into,tb-2025-0644
 tb-2025-0656,merged into,tb-2025-0655
 tb-2025-0657,merged into,tb-2025-0655
-tb-2025-0725,merged into,tb-2025-0724
 tb-2025-0561,merged into,tb-2025-0563
+tb-2025-0628,merged into,tb-2025-0629
+tb-2025-0739,dropped,heading-only fragment

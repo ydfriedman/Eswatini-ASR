@@ -298,7 +298,7 @@ Pages are PDF pages. "Item" is the `table_id` in the chunk set.
 | 100 | Annexure 2. Linkages for a client returning to care by interruption type: missed appointment (<28 days), early interrupters (28 days-6 months), late interrupters (>6 months) – RTT package, enhanced adherence counselling, escalation (`unaids-linkages-sop-fig-annex2-returning-to-care`) | Early interrupters are defined by time 'post initiation' and late interrupters by time 'on ART'; the categories overlap for someone who interrupted more than 6 months after starting ART. |
 | 100 | Annexure 2. Linkages for a client returning to care by interruption type: missed appointment (<28 days), early interrupters (28 days-6 months), late interrupters (>6 months) – RTT package, enhanced adherence counselling, escalation (`unaids-linkages-sop-fig-annex2-returning-to-care`) | For clients on ART who missed an appointment (<28 days), the chart says 'offer relevant prevention services according to client's preferences' rather than resuming ART/adherence support; probably copied from the HIV-negative pathway. |
 
-## TB Guidelines 2025 (pages 1-231 so far)
+## TB Guidelines 2025 (pages 1-286, complete)
 
 | Page | Item | Issue |
 |---|---|---|
@@ -340,6 +340,12 @@ Pages are PDF pages. "Item" is the `table_id` in the chunk set.
 | 215 | Table 56: TPT dosing by body size (TPT regimens and drug formulations, No. of tablets or quantity of solution by body weight band) (`tb-2025-tbl-p215-0557`) | ≥65 kg: isoniazid 300 mg × 1.25 tablets (375 mg) and rifampicin 300 mg × 2.5 capsules (750 mg) exceed the usual maximum daily doses (isoniazid 300 mg, rifampicin 600 mg for TPT); clinician to confirm. |
 | 231 | Figure 37. Example of drawing a child growth curve on the WHO weight-for-age chart for girls (birth to 5 years, z-scores) (`tb-2025-fig-growth-curve-example`) | The chart annotation says a 2-year-old girl weighing 14 kg is at -2 Z score; on the WHO girls' weight-for-age standard 14 kg at 24 months is above +1 SD (the -2 SD line is about 9 kg). The example appears wrong. |
 | 231 | Figure 37. Example of drawing a child growth curve on the WHO weight-for-age chart for girls (birth to 5 years, z-scores) (`tb-2025-fig-growth-curve-example`) | The earlier chunk listed z-score weights by age that are not printed in the PDF (and are not the WHO values, e.g. a median birth weight of 2.4 kg); they have been removed. |
+| 247 | Table 68: Drug-drug interaction between most used oral hypoglycaemics and ARVs (DRUG INTERACTION TABLE<br/>Antidiabetic Agent, DRUG INTERACTION TABLE<br/>TDF/ TAF, DRUG INTERACTION TABLE<br/>AZT, DRUG INTERACTION TABLE<br/>3TC, DR) (`tb-2025-tbl-p247-0639`) | A stray footnote ('Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives') from the hypertension section is printed under the hypoglycaemics interaction table. |
+| 251 | Table 69: Provisional diagnosis and recommended action according to PHQ9 score (PHQ-9 Score, Provisional diagnosis, Recommended actions) (`tb-2025-tbl-p251-0652`) | PHQ-9 bands end at '15-19' and '>20', so a score of exactly 20 is not covered; 10-14 is called 'minor to mild depression' where PHQ-9 calls it moderate. |
+| 252 | Table 70: Psychotropic drugs used in major depressive disorder (Category, Drugs, Dosage) (`tb-2025-tbl-p252-0658`) | Amitriptyline is first-line here without a caution, although many DR-TB patients take QT-prolonging drugs (BDQ, CFZ, MFX); the peripheral neuropathy chart (Figure 29) carries that caution. |
+| 252 | Table 70: Psychotropic drugs used in major depressive disorder (Category, Drugs, Dosage) (`tb-2025-tbl-p252-0658`) | Lorazepam is listed as a 'second-line anti-depressant'; it is a benzodiazepine (anxiolytic/hypnotic), not an antidepressant. |
+| 259 | Table 73: Treatment Regimens for MOTT Species (MOTT / NTM, Regimen (Adult Dose)) (`tb-2025-tbl-p259-0676`) | M. kansasii regimen gives ethambutol as '300mg'; the usual dose is 15 mg/kg daily (about 800-1200 mg). 'Pyridoxide' should be pyridoxine. |
+| 262 | 14.2.9 Classification of leprosy disabilities (Hands and Feet) (`tb-2025-tbl-p262-0689`) | Eye disability grade 1 is defined with vision '6/6 or better'; the WHO leprosy disability grading uses 6/60 (counting fingers at 6 metres). 'Count figures' should be 'count fingers'. |
 
 ## Text sections (NCDIMH pages 1-356)
 

@@ -6,6 +6,18 @@
   {
    "file": "TB_1.pdf",
    "pages": "1-84"
+  },
+  {
+   "file": "TB_2.pdf",
+   "pages": "85-157"
+  },
+  {
+   "file": "TB_3.pdf",
+   "pages": "158-231"
+  },
+  {
+   "file": "TB_4.pdf",
+   "pages": "232-286"
   }
  ],
  "tables": [
@@ -10439,6 +10451,2466 @@
     "The chart annotation says a 2-year-old girl weighing 14 kg is at -2 Z score; on the WHO girls' weight-for-age standard 14 kg at 24 months is above +1 SD (the -2 SD line is about 9 kg). The example appears wrong.",
     "The earlier chunk listed z-score weights by age that are not printed in the PDF (and are not the WHO values, e.g. a median birth weight of 2.4 kg); they have been removed."
    ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p232-0604",
+   "page": 232,
+   "image_only": false,
+   "heading_path": "12.2 TB infection prevention and control measures",
+   "caption": "12.2 TB infection prevention and control measures (Measure, Impact)",
+   "replaces_chunks": [
+    "tb-2025-0604"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Measure"
+     },
+     {
+      "t": "Impact"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Administrative Controls"
+     },
+     {
+      "t": "Most Impact"
+     }
+    ],
+    [
+     {
+      "t": "Environment Controls"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Respiratory Protection"
+     },
+     {
+      "t": "Least"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    232
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p243-0631",
+   "page": 243,
+   "image_only": false,
+   "heading_path": "12.6 Recording and reporting of IPC implementation > Table 67: Infection control plan and risk assessment tool",
+   "caption": "Table 67: Infection control plan and risk assessment tool (Name of Facility:)",
+   "replaces_chunks": [
+    "tb-2025-0631",
+    "tb-2025-0632"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Name of Facility:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Location:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Type of Facility:"
+     },
+     {
+      "t": "Hospital/Health Centre/Clinic"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Date of Assessment:"
+     },
+     {
+      "t": "/ /"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Name of Accessor:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Administrative Control"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "No"
+     },
+     {
+      "t": "Comment"
+     }
+    ],
+    [
+     {
+      "t": "Does the facility have an IPC committee or IPC focal?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Are clients screened for TB at the entry point and segregated (place/time)?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Are household contacts of TB being followed up and screened for TB?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Are presumptive TB clients diagnosed early and put on treatment early if diagnosed with TB?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Are all staff in the health facility screened at least annually?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Are clients and their family members/caregivers given TB health education including cough etiquette and IPC measures at home?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Do HCWs and patients practice cough hygiene (cover their cough)?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Environmental Control"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Are Window and Doors opened most of the time to keep maximum ventilation?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Do HCWs take downwind positions (against the wind) during consultation/health education/<br/>counselling?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Are the waiting areas well ventilated?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Person Respiratory Protection"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Do coughing patients’ surgical mask?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Do HCWs wear FFP2 or N95 masks during consultation with sputum-positive patients or<br/>perform high-risk procedures?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Does the facility have a fit-test program for the HCWs using respirators (FFP2/N95)?"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Findings:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Recommendations:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    243
+   ],
+   "context_before": "Table 67: Infection control plan and risk assessment tool"
+  },
+  {
+   "table_id": "tb-2025-tbl-p247-0639",
+   "page": 247,
+   "image_only": false,
+   "heading_path": "13.1 Diabetes Mellitus > 13.1.2 Management of TB and diabetes > Drug-drug interaction > Table 68: Drug-drug interaction between most used oral hypoglycaemics and ARVs",
+   "caption": "Table 68: Drug-drug interaction between most used oral hypoglycaemics and ARVs (DRUG INTERACTION TABLE<br/>Antidiabetic Agent, DRUG INTERACTION TABLE<br/>TDF/ TAF, DRUG INTERACTION TABLE<br/>AZT, DRUG INTERACTION TABLE<br/>3TC, DR)",
+   "replaces_chunks": [
+    "tb-2025-0639",
+    "tb-2025-0640"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "DRUG INTERACTION TABLE<br/>Antidiabetic Agent"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>TDF/ TAF"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>AZT"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>3TC"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>FTC"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>EFV"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>NVP"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>DTG"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>LPV/r"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>ATV/r"
+     },
+     {
+      "t": "DRUG INTERACTION TABLE<br/>DRV/r"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Metformin"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↑"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Glibenclamide"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     }
+    ],
+    [
+     {
+      "t": "Glipizide"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↑"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     }
+    ],
+    [
+     {
+      "t": "Gliquidone"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↑"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     }
+    ],
+    [
+     {
+      "t": "Gliclazide"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↑"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     }
+    ],
+    [
+     {
+      "t": "Glimepiride"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↑"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     },
+     {
+      "t": "↓"
+     }
+    ],
+    [
+     {
+      "t": "Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• No interaction"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• Potential interaction with increased or decreased levels of the sulfonylurea which may require dose adjustment of the sulfonylurea. Monitor blood glucose and adjust the sulfonylurea dosage as needed."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "• CAUTION should be exercised when co-administering metformin with DTG as metformin levels are increased and dose reduction of metformin should be considered. The US prescribing information recommends limiting the total daily dose of metformin to 1,000 mg when co-administered with DTG. Renal monitoring is recommended as PLHIV with renal impairment are at increased risk of lactic acidosis due to increased metformin levels in the presence of DTG."
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "↑ Increase in antidiabetic agent level ↓Decrease in antidiabetic agent level"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "A stray footnote ('Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives') from the hypertension section is printed under the hypoglycaemics interaction table."
+   ],
+   "pages": [
+    247
+   ],
+   "context_before": "Table 68: Drug-drug interaction between most used oral hypoglycaemics and ARVs"
+  },
+  {
+   "table_id": "tb-2025-tbl-p251-0652",
+   "page": 251,
+   "image_only": false,
+   "heading_path": "13.3 Mental Health > Table 69: Provisional diagnosis and recommended action according to PHQ9 score",
+   "caption": "Table 69: Provisional diagnosis and recommended action according to PHQ9 score (PHQ-9 Score, Provisional diagnosis, Recommended actions)",
+   "replaces_chunks": [
+    "tb-2025-0652"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "PHQ-9 Score"
+     },
+     {
+      "t": "Provisional diagnosis"
+     },
+     {
+      "t": "Recommended actions"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "5-9"
+     },
+     {
+      "t": "Minimal symptoms"
+     },
+     {
+      "t": "Support and educate to call for support if symptoms get worse"
+     }
+    ],
+    [
+     {
+      "t": "10-14"
+     },
+     {
+      "t": "Minor to mild depression or chronic<br/>depression (symptoms lasting for 2 years)"
+     },
+     {
+      "t": "Support and watchful waiting. Reassess in 1-2 weeks.<br/>Consider starting treatment for psychological support"
+     }
+    ],
+    [
+     {
+      "t": "15-19"
+     },
+     {
+      "t": "Major depression"
+     },
+     {
+      "t": "Needed for specific treatment Refer to psychologist/trained<br/>nurse-psychologist"
+     }
+    ],
+    [
+     {
+      "t": ">20"
+     },
+     {
+      "t": "Severe depression"
+     },
+     {
+      "t": "Needed active treatment including pharmacological treatment<br/>Refer to a trained medical officer/psychiatrist"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "PHQ-9 bands end at '15-19' and '>20', so a score of exactly 20 is not covered; 10-14 is called 'minor to mild depression' where PHQ-9 calls it moderate."
+   ],
+   "pages": [
+    251
+   ],
+   "context_before": "Table 69: Provisional diagnosis and recommended action according to PHQ9 score"
+  },
+  {
+   "table_id": "tb-2025-tbl-p252-0658",
+   "page": 252,
+   "image_only": false,
+   "heading_path": "13.3 Mental Health > Table 70: Psychotropic drugs used in major depressive disorder",
+   "caption": "Table 70: Psychotropic drugs used in major depressive disorder (Category, Drugs, Dosage)",
+   "replaces_chunks": [
+    "tb-2025-0658"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Category"
+     },
+     {
+      "t": "Drugs"
+     },
+     {
+      "t": "Dosage"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Firstline anti-depressant"
+     },
+     {
+      "t": "Amitriptyline"
+     },
+     {
+      "t": "25 mg OD at bedtime initially, may gradually increase the dose, maximum dose is 200 mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "Firstline anti-depressant"
+     },
+     {
+      "t": "Fluoxetine"
+     },
+     {
+      "t": "Initial dose 10-20mg OD at bedtime, may gradually increase the dose, maximum dose is 60-80mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "Firstline anti-depressant"
+     },
+     {
+      "t": "Sertraline"
+     },
+     {
+      "t": "Initial dose 25-50mg OD at bedtime, may increase gradually, the maximum dose is 200mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "Second-line anti-depressant"
+     },
+     {
+      "t": "Duloxetine"
+     },
+     {
+      "t": "Initial dose 30mg at bedtime"
+     }
+    ],
+    [
+     {
+      "t": "Second-line anti-depressant"
+     },
+     {
+      "t": "Lorazepam"
+     },
+     {
+      "t": "1-2mg at bedtime"
+     }
+    ],
+    [
+     {
+      "t": "Firstline anti-psychotropics"
+     },
+     {
+      "t": "Haloperidol"
+     },
+     {
+      "t": "Initial dose 1.5-3mg at bedtime, maximum dose 20mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "Firstline anti-psychotropics"
+     },
+     {
+      "t": "Sulpride"
+     },
+     {
+      "t": "Initial dose 50mg at bedtime, maximum dose 200mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "Firstline anti-psychotropics"
+     },
+     {
+      "t": "Aripiprazole"
+     },
+     {
+      "t": "Initial dose 2-5 mg at bedtime, maximum dose 30mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "Secondline anti-psychotrophics"
+     },
+     {
+      "t": "Risperidone"
+     },
+     {
+      "t": "Initial dose 1-2mg at bedtime, maximum dose 8-12mg/24 hours"
+     }
+    ],
+    [
+     {
+      "t": "Secondline anti-psychotrophics"
+     },
+     {
+      "t": "Olanzapine"
+     },
+     {
+      "t": "Initial dose 5-10mg at bedtime, maximum dose 25mg/24 hours"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Lorazepam is listed as a 'second-line anti-depressant'; it is a benzodiazepine (anxiolytic/hypnotic), not an antidepressant.",
+    "Amitriptyline is first-line here without a caution, although many DR-TB patients take QT-prolonging drugs (BDQ, CFZ, MFX); the peripheral neuropathy chart (Figure 29) carries that caution."
+   ],
+   "pages": [
+    252
+   ],
+   "context_before": "Table 70: Psychotropic drugs used in major depressive disorder"
+  },
+  {
+   "table_id": "tb-2025-tbl-p254-0666",
+   "page": 254,
+   "image_only": false,
+   "heading_path": "13.4 Substance-related addictive disorder > 13.4.3 Treatment literacy and support",
+   "caption": "13.4.3 Treatment literacy and support (Patient Health Questionnaire-9<br/>(PHQ-9))",
+   "replaces_chunks": [
+    "tb-2025-0666"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Patient Health Questionnaire-9<br/>(PHQ-9)"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Over the last 2 weeks, how often have you been bothered by any of the following problems?<br/>(Use (✓) to indicate your answer)"
+     },
+     {
+      "t": "Not at all"
+     },
+     {
+      "t": "Several days"
+     },
+     {
+      "t": "More than half the days"
+     },
+     {
+      "t": "Nearly every day"
+     }
+    ],
+    [
+     {
+      "t": "1. Little interest or pleasure in doing things"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "2. Feeling down, depressed, or hopeless"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "3. Trouble falling or staying asleep, or sleeping too much"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "4. Feeling tired or having little energy"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "5. Poor appetite or overeating"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "6. Feeling bad about yourself - or that you are a failure<br/>or have let yourself or your family down"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "7. Trouble concentrating on things, such as reading the<br/>newspaper or watching television"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "8. Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "9. Thoughts that you would be better off dead or of hurting yourself in some way"
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "For office coding ____0____"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "+_______"
+     },
+     {
+      "t": "+_______"
+     },
+     {
+      "t": "+_______"
+     }
+    ],
+    [
+     {
+      "t": "Total Score: __________"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?"
+     },
+     {
+      "t": "Not difficult at all"
+     },
+     {
+      "t": "Somewhat difficult"
+     },
+     {
+      "t": "Very difficult"
+     },
+     {
+      "t": "Extremely difficult"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    254
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p258-0673",
+   "page": 258,
+   "image_only": false,
+   "heading_path": "14.1 Zoonotic TB and MOTT > 14.1.5 Treatment > Table 72: Treatment of disease by M. bovis",
+   "caption": "Table 72: Treatment of disease by M. bovis (Phase of treatment, Recommended regimen)",
+   "replaces_chunks": [
+    "tb-2025-0673"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Phase of treatment"
+     },
+     {
+      "t": "Recommended regimen"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Intensive phase"
+     },
+     {
+      "t": "2 months RHE"
+     }
+    ],
+    [
+     {
+      "t": "Continuation phase"
+     },
+     {
+      "t": "7 months RH"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    258
+   ],
+   "context_before": "Table 72: Treatment of disease by M. bovis"
+  },
+  {
+   "table_id": "tb-2025-tbl-p259-0676",
+   "page": 259,
+   "image_only": false,
+   "heading_path": "14.1 Zoonotic TB and MOTT > 14.1.5 Treatment > Table 73: Treatment Regimens for MOTT Species",
+   "caption": "Table 73: Treatment Regimens for MOTT Species (MOTT / NTM, Regimen (Adult Dose))",
+   "replaces_chunks": [
+    "tb-2025-0676"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "MOTT / NTM"
+     },
+     {
+      "t": "Regimen (Adult Dose)"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "M. avium complex"
+     },
+     {
+      "t": "- Rifampicin (600mg)<br/>- Clarithromycin (500 – 1000mg) (or Azithromycin (250-500mg))<br/>- Ethambutol (15mg/kg)"
+     }
+    ],
+    [
+     {
+      "t": "M. kansasii"
+     },
+     {
+      "t": "- Rifampicin (600mg)<br/>- Ethambutol (300mg)<br/>- Isoniazid (300mg)<br/>Pyridoxide 50mg should be added"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "M. kansasii regimen gives ethambutol as '300mg'; the usual dose is 15 mg/kg daily (about 800-1200 mg). 'Pyridoxide' should be pyridoxine."
+   ],
+   "pages": [
+    259
+   ],
+   "context_before": "Table 73: Treatment Regimens for MOTT Species"
+  },
+  {
+   "table_id": "tb-2025-tbl-p261-0685",
+   "page": 261,
+   "image_only": false,
+   "heading_path": "14.2.6 Treatment of Leprosy > Table 74: Dosing of drugs used in leprosy treatment",
+   "caption": "Table 74: Dosing of drugs used in leprosy treatment (Age group, Drug, Dosage & frequency, Duration<br/>Multi Bacillary, Duration<br/>Pauci Bacillary)",
+   "replaces_chunks": [
+    "tb-2025-0685"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Age group"
+     },
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Dosage & frequency"
+     },
+     {
+      "t": "Duration<br/>Multi Bacillary"
+     },
+     {
+      "t": "Duration<br/>Pauci Bacillary"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Adult"
+     },
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "600 mg once a month"
+     },
+     {
+      "t": "12 months"
+     },
+     {
+      "t": "6 months"
+     }
+    ],
+    [
+     {
+      "t": "Adult"
+     },
+     {
+      "t": "Clofazimine"
+     },
+     {
+      "t": "300 mg once a month and 50 mg daily"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Adult"
+     },
+     {
+      "t": "Dapsone"
+     },
+     {
+      "t": "100 mg daily"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Children (10–14 years)"
+     },
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "450 mg once a month"
+     },
+     {
+      "t": "12 months"
+     },
+     {
+      "t": "6 months"
+     }
+    ],
+    [
+     {
+      "t": "Children (10–14 years)"
+     },
+     {
+      "t": "Clofazimine"
+     },
+     {
+      "t": "150 mg once a month, 50 mg on alternate days"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Children (10–14 years)"
+     },
+     {
+      "t": "Dapsone"
+     },
+     {
+      "t": "50 mg daily"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Children <10 years old or <40kg"
+     },
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "10 mg/kg once month"
+     },
+     {
+      "t": "12 months"
+     },
+     {
+      "t": "6 months"
+     }
+    ],
+    [
+     {
+      "t": "Children <10 years old or <40kg"
+     },
+     {
+      "t": "Clofazimine"
+     },
+     {
+      "t": "100 mg once a month, 50 mg twice weekly"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Children <10 years old or <40kg"
+     },
+     {
+      "t": "Dapsone"
+     },
+     {
+      "t": "2 mg/kg daily"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    261
+   ],
+   "context_before": "Table 74: Dosing of drugs used in leprosy treatment"
+  },
+  {
+   "table_id": "tb-2025-tbl-p262-0689",
+   "page": 262,
+   "image_only": false,
+   "heading_path": "14.2.9 Classification of leprosy disabilities",
+   "caption": "14.2.9 Classification of leprosy disabilities (Hands and Feet)",
+   "replaces_chunks": [
+    "tb-2025-0689"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Hands and Feet"
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Grade"
+     },
+     {
+      "t": "Disability"
+     }
+    ],
+    [
+     {
+      "t": "0"
+     },
+     {
+      "t": "No anaesthesia, no visible deformity or damage"
+     }
+    ],
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Anaesthesia present, no deformity or damage"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Visible deformity or damage"
+     }
+    ],
+    [
+     {
+      "t": "Eyes"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Grade"
+     },
+     {
+      "t": "Disability"
+     }
+    ],
+    [
+     {
+      "t": "0"
+     },
+     {
+      "t": "No eye problems due to leprosy; no evidence of visual loss"
+     }
+    ],
+    [
+     {
+      "t": "1"
+     },
+     {
+      "t": "Eye problems due to leprosy, vision not severely affected (6/6 or better), can count fingers at six meters"
+     }
+    ],
+    [
+     {
+      "t": "2"
+     },
+     {
+      "t": "Severe visual impairment (vision worse than 6/60, inability to count figures at six meters)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Eye disability grade 1 is defined with vision '6/6 or better'; the WHO leprosy disability grading uses 6/60 (counting fingers at 6 metres). 'Count figures' should be 'count fingers'."
+   ],
+   "pages": [
+    262
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p268-0702",
+   "page": 268,
+   "image_only": false,
+   "heading_path": "15.2 Procedures of TB mortality review meeting in a health facility > Who should record in the logbook",
+   "caption": "Who should record in the logbook (Where did the patient die?, Mortality Review Team/responsible facility, Who Reports?)",
+   "replaces_chunks": [
+    "tb-2025-0702"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Where did the patient die?"
+     },
+     {
+      "t": "Mortality Review Team/responsible facility"
+     },
+     {
+      "t": "Who Reports?"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Home/ Community"
+     },
+     {
+      "t": "Facility team where the patient is registered +<br/>Zonal/Cluster mentoring team"
+     },
+     {
+      "t": "Facility where patient is<br/>registered"
+     }
+    ],
+    [
+     {
+      "t": "Outpatient"
+     },
+     {
+      "t": "Facility team where a patient died + Zonal/Cluster<br/>mentoring team+ Referring facility"
+     },
+     {
+      "t": "Facility where patient is<br/>registered"
+     }
+    ],
+    [
+     {
+      "t": "During referral"
+     },
+     {
+      "t": "Facility team where patient finally arrives + Zonal/<br/>Cluster mentoring team+ Referring facility"
+     },
+     {
+      "t": "Facility where patient is<br/>registered"
+     }
+    ],
+    [
+     {
+      "t": "In the ward/inpatient"
+     },
+     {
+      "t": "Facility team where a patient died + Zonal/Cluster<br/>mentoring team+ Referring facility"
+     },
+     {
+      "t": "Facility where patient is<br/>registered"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    268
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-p269-0705",
+   "page": 269,
+   "image_only": false,
+   "heading_path": "15.6 Monitoring and Evaluation > Table 76: M&E framework of mortality review",
+   "caption": "Table 76: M&E framework of mortality review (Objective<br/>Provide stewardship to ensure regular MRM in facilities<br/>Increase participation in MRM to ensure ownership by the facility staff, Ind)",
+   "replaces_chunks": [
+    "tb-2025-0705",
+    "tb-2025-0706"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Objective<br/>Provide stewardship to ensure regular MRM in facilities<br/>Increase participation in MRM to ensure ownership by the facility staff"
+     },
+     {
+      "t": "Indicator<br/>Number of MRMs being conducted in the facilities monthly<br/>Number of hospital personnel representing key departments at each MRM"
+     },
+     {
+      "t": "Target<br/>1 MRM per month per facility<br/>1 personnel from each key department in monthly MRM"
+     },
+     {
+      "t": "Output<br/>All facilities conducting monthly MRMs<br/>Active participation by all HCWs in MRMs"
+     },
+     {
+      "t": "Responsible Person<br/>RHMT<br/>Hospital management"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Identify clinical/patient factors that contribute to TB-related mortality"
+     },
+     {
+      "t": "Number of clinical/patient challenges identified during each MRM"
+     },
+     {
+      "t": "At least 2 clinical gaps and 2 patient-related gaps per MRM"
+     },
+     {
+      "t": "All TB-related death cases thoroughly discussed, clinical/ patient gaps identified, and remedial actions taken."
+     },
+     {
+      "t": "Clinician, all MRM participants"
+     }
+    ],
+    [
+     {
+      "t": "Identify health systems challenges that contribute to TB-related mortality"
+     },
+     {
+      "t": "Number of health system challenges identified as contributing to deaths during MRM"
+     },
+     {
+      "t": "At least 1 challenge identified per MRM"
+     },
+     {
+      "t": "System challenges identified and remedial actions taken to resolve them"
+     },
+     {
+      "t": "Clinical Services support, referring facility staff, all participants"
+     }
+    ],
+    [
+     {
+      "t": "Ensure standardized approach to MRM"
+     },
+     {
+      "t": "Availability of printed SOPs, MRM IEC materials, and registers"
+     },
+     {
+      "t": "SOPs, IEC materials, and registers available in all wards and TB units in the region"
+     },
+     {
+      "t": "All HCWs conversant with MRM SOPs and process flow"
+     },
+     {
+      "t": "TB regional coordinator Regional partner TB thematic lead"
+     }
+    ],
+    [
+     {
+      "t": "Ensure regional Feedback/dissemination"
+     },
+     {
+      "t": "Number of dissemination meetings"
+     },
+     {
+      "t": "At least 1feedback session per quarter"
+     },
+     {
+      "t": "RHMT and facilities aware of regional contributory factors to TB deaths"
+     },
+     {
+      "t": "Regional SID RHMT Regional partner thematic lead"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    269
+   ],
+   "context_before": "Table 76: M&E framework of mortality review"
+  },
+  {
+   "table_id": "tb-2025-tbl-p270-0707",
+   "page": 270,
+   "image_only": false,
+   "heading_path": "15.6 Monitoring and Evaluation > Table 77: Case review report forms (CRFs) for documenting TB mortality review outcomes",
+   "caption": "Table 77: Case review report forms (CRFs) for documenting TB mortality review outcomes (TB Mortality Case Review Report Form, Section C: Case Assessment)",
+   "replaces_chunks": [
+    "tb-2025-0707"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "TB Mortality Case Review Report Form"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Section C: Case Assessment"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Section A: General Information"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Major Clinical Management - RELATED gaps identified"
+     }
+    ],
+    [
+     {
+      "t": "Name:"
+     },
+     {
+      "t": "Surname:"
+     },
+     {
+      "t": "Date:"
+     },
+     {
+      "t": "1."
+     }
+    ],
+    [
+     {
+      "t": "Age:"
+     },
+     {
+      "t": "Sex:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2."
+     }
+    ],
+    [
+     {
+      "t": "Date of Referral:"
+     },
+     {
+      "t": "Date of Admission:"
+     },
+     {
+      "t": "Date of Death:"
+     },
+     {
+      "t": "3.<br/>4."
+     }
+    ],
+    [
+     {
+      "t": "Diagnosis:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "5."
+     }
+    ],
+    [
+     {
+      "t": "Treatment given:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "Major Health Systems i RELATED gap identified<br/>1."
+     }
+    ],
+    [
+     {
+      "t": "Facility Name:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "2.<br/>3."
+     }
+    ],
+    [
+     {
+      "t": "Section B: Case Summary"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "4.<br/>5.<br/>Major Patient Related gaps identified<br/>1.<br/>2.<br/>3.<br/>4.<br/>5.<br/>Was the death preventable? (tick one box)<br/>Definitely \\[ ] Probably \\[ ] Probably Not \\[ ]<br/>Definitely Not \\[ ] Don’t Know \\[ ]"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    270
+   ],
+   "context_before": "Table 77: Case review report forms (CRFs) for documenting TB mortality review outcomes"
+  },
+  {
+   "table_id": "tb-2025-tbl-p271-0708",
+   "page": 271,
+   "image_only": false,
+   "heading_path": "15.6 Monitoring and Evaluation > Table 78: TB Mortality Register and Logbook",
+   "caption": "Table 78: TB Mortality Register and Logbook (Reporting Month: ........................, TB Mortality Review Report: ........................)",
+   "replaces_chunks": [
+    "tb-2025-0708",
+    "tb-2025-0709"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Reporting Month: ........................"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "TB Mortality Review Report: ........................"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Facility Name:"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Patient Demographics"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "TB / HIV"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Name & Surname"
+     },
+     {
+      "t": "TB Number"
+     },
+     {
+      "t": "Date of Birth (dd/mm/yyyy)"
+     },
+     {
+      "t": "Sex (F/M)"
+     },
+     {
+      "t": "Weight (kg)"
+     },
+     {
+      "t": "Height (meters)"
+     },
+     {
+      "t": "BMI at diagnosis"
+     },
+     {
+      "t": "Date of TB diagnosis (dd/mm/yyyy)"
+     },
+     {
+      "t": "Type of TB (DS / DR)"
+     },
+     {
+      "t": "Disease Site (P/EP) Circle appropriate<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP"
+     },
+     {
+      "t": "Confirmation Bacteriological / Clinical (Circle appropriate)<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical"
+     },
+     {
+      "t": "Date of TB Treatment Initiation (dd/mm/yyyy)"
+     },
+     {
+      "t": "(HIV Status R/N R / U K)"
+     },
+     {
+      "t": "On ART (Yes / No)"
+     },
+     {
+      "t": "Date of ART Initiation (dd/mm/yyyy)"
+     },
+     {
+      "t": "Date of ART initiation (dd/mm/yyyy)"
+     },
+     {
+      "t": "Latest CD4 and Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date"
+     },
+     {
+      "t": "Comorbidities"
+     },
+     {
+      "t": "Cause of death"
+     },
+     {
+      "t": "Date Died (dd/mm/yyyy)"
+     },
+     {
+      "t": "Outpatient / inpatient"
+     },
+     {
+      "t": "Recommen- dations"
+     },
+     {
+      "t": "Addressed (Y/N)"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    271
+   ],
+   "context_before": "Table 78: TB Mortality Register and Logbook"
+  },
+  {
+   "table_id": "tb-2025-tbl-p273-0712",
+   "page": 273,
+   "image_only": false,
+   "heading_path": "16.1 Community Referrals and Linkages",
+   "caption": "16.1 Community Referrals and Linkages (Special Considerations for the diagnosis of TB in children:)",
+   "replaces_chunks": [
+    "tb-2025-0712"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Special Considerations for the diagnosis of TB in children:"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "• Write down a facility-to-facility referral form for the child"
+     }
+    ],
+    [
+     {
+      "t": "• Call the facility where the child will be referred to and schedule an appointment"
+     }
+    ],
+    [
+     {
+      "t": "• Appoint the child for follow-up in the referring facility appointment register"
+     }
+    ],
+    [
+     {
+      "t": "• After the day of the agreed date to visit the facility, call the facility to follow up if client has honoured the appointment"
+     }
+    ],
+    [
+     {
+      "t": "• Follow up with the caregiver if the child did not reach the health facility and reappoint in the facility appointment register"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    273
+   ]
   }
  ],
  "text_labels": {
@@ -10522,12 +12994,40 @@
   "tb-2025-0566": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 Which TPT Regimen to Give > Repeat Course of TPT",
   "tb-2025-0572": "Chapter 11: Tuberculosis Preventive Treatment > 11.11 Monitoring and Management of Adverse Events (Table 60)",
   "tb-2025-0577": "Chapter 11: Tuberculosis Preventive Treatment > 11.11 Adverse Events > How to Manage TPT Regimen if Switched for Severe AE",
-  "tb-2025-0581": "Chapter 11: Tuberculosis Preventive Treatment > 11.13 TPT Completion and Management of Treatment Interruption"
+  "tb-2025-0581": "Chapter 11: Tuberculosis Preventive Treatment > 11.13 TPT Completion and Management of Treatment Interruption",
+  "tb-2025-0619": "Chapter 12: TB Infection Prevention and Control > 12.3 Personal Respiratory Protection > Surgical Masks",
+  "tb-2025-0620": "Chapter 12: TB Infection Prevention and Control > 12.4.1 TB IPC in Health Facilities",
+  "tb-2025-0653": "Chapter 13: Integrated Management of TB and Non-Communicable Diseases > 13.3 Mental Health > Depression (Suicidal Thoughts, PHQ-9 Actions)",
+  "tb-2025-0674": "Chapter 14: Zoonotic TB, Mycobacteria Other Than TB and Leprosy > 14.1.5.1 Treatment of M. bovis (Notes)",
+  "tb-2025-0678": "Chapter 14: Zoonotic TB, Mycobacteria Other Than TB and Leprosy > 14.2 Leprosy > 14.2.1 Transmission",
+  "tb-2025-0691": "Chapter 15: Tuberculosis Mortality Reviews > Introduction",
+  "tb-2025-0711": "Chapter 16: Referrals and Linkages in TB Services > 16.1 Community Referrals and Linkages > If the Client Does Not Arrive",
+  "tb-2025-0713": "Chapter 16: Referrals and Linkages in TB Services > 16.2 Referral Between Treatment Sites > 16.2.1 Treatment Site to Another Treatment Site",
+  "tb-2025-0714": "Chapter 16: Referrals and Linkages in TB Services > 16.2.2 Down-referral from Hospital",
+  "tb-2025-0717": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > Introduction",
+  "tb-2025-0718": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 Description of TB Surveillance System",
+  "tb-2025-0719": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Presumptive TB Register (PTB 01)",
+  "tb-2025-0720": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Laboratory Request Form (TB 02)",
+  "tb-2025-0721": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Laboratory Register (TB 03)",
+  "tb-2025-0722": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > DS-TB Register (TB 04)",
+  "tb-2025-0723": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > DR-TB Register (TB 05)",
+  "tb-2025-0724": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > TB Treatment Card (TB 06)",
+  "tb-2025-0726": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > DR-TB Patient File and Contact Tracing Logbook (TB 08)",
+  "tb-2025-0727": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Contact and TPT Register (TB 09)",
+  "tb-2025-0728": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Referral/Transfer Form (TB 10)",
+  "tb-2025-0729": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.1 TB Recording Tools > Community Referral Form (TB 11)",
+  "tb-2025-0730": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.2 Monitoring of TB Case Detection and Treatment Activities",
+  "tb-2025-0731": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.2 Monitoring of TB Case Detection and Treatment Activities",
+  "tb-2025-0732": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.3 Supportive Supervision",
+  "tb-2025-0733": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.3 Supportive Supervision > Field Visits",
+  "tb-2025-0734": "Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.4 Planning (Five-year Plan and Annual Operational Plan)"
  },
  "text_merge": {},
- "text_drop": [],
+ "text_drop": [
+  "tb-2025-0739"
+ ],
  "text_fix_pages": [
   1,
-  231
+  286
  ]
 }

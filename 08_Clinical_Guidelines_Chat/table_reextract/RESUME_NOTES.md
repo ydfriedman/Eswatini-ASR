@@ -28,8 +28,10 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - TB 2025 part 3 (TB_3.pdf = pages 158-231, offset 157): tables `tb_b05.py` (generated with gen_tables3.py; growth chart Figure 37 replaced by a description), flagged flowcharts `tb_b06.py` (Figures 28, 31, 35). Figures 29, 34 checked and match; Figures 30, 32 (same layout as 28/29/31) and the PV/HTS/QFT charts kept unchecked. Generator now starts a new table when a chunk opens with a different bold header row (split TB part-1 Tables 8/9). Pipeline: tb_b01..tb_b06. Hand labels for 27 part-3 text chunks and a clinical read done; text_fix_pages [1,231].
 
+- TB 2025 part 4 (TB_4.pdf = pages 232-286, offset 231): tables `tb_b07.py` (gen_tables4.py) with clinical flags; labels for 26 text chunks; NOTES page dropped. **TB is complete.** Pipeline: tb_b01..tb_b07.
+
 ## Next after that
-The other guidelines, once the user provides the PDFs. Suggested order: TB 2025 and HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
+The other guidelines, once the user provides the PDFs. Suggested order: HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 
 ## Starting a new guideline
 1. Put the PDF in its own scratch dir; `pdftotext -layout` and `pdftoppm -jpeg -r 110` per page (pN.txt, pgN.jpg). Check whether old chunk `page_start` matches PDF pages (offset).
