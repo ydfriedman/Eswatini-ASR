@@ -298,6 +298,14 @@ Pages are PDF pages. "Item" is the `table_id` in the chunk set.
 | 100 | Annexure 2. Linkages for a client returning to care by interruption type: missed appointment (<28 days), early interrupters (28 days-6 months), late interrupters (>6 months) – RTT package, enhanced adherence counselling, escalation (`unaids-linkages-sop-fig-annex2-returning-to-care`) | Early interrupters are defined by time 'post initiation' and late interrupters by time 'on ART'; the categories overlap for someone who interrupted more than 6 months after starting ART. |
 | 100 | Annexure 2. Linkages for a client returning to care by interruption type: missed appointment (<28 days), early interrupters (28 days-6 months), late interrupters (>6 months) – RTT package, enhanced adherence counselling, escalation (`unaids-linkages-sop-fig-annex2-returning-to-care`) | For clients on ART who missed an appointment (<28 days), the chart says 'offer relevant prevention services according to client's preferences' rather than resuming ART/adherence support; probably copied from the HIV-negative pathway. |
 
+## TB Guidelines 2025 (pages 1-84 so far)
+
+| Page | Item | Issue |
+|---|---|---|
+| 27 | Figures 1-2. Global TB incidence and mortality trends (WHO Global TB Report 2024): 10.8 million fell ill and 1.1 million died in 2023 (`tb-2025-fig-global-incidence-mortality`) | The charts carry no printed values; the year-by-year numbers in the earlier chunks were estimated from the graphs and have been removed. |
+| 29 | Figures 3-4. Drivers of TB in Eswatini (cases attributable to HIV, alcohol, smoking, undernutrition, diabetes) and estimated TB incidence and deaths 2010-2023 (`tb-2025-fig-eswatini-drivers-incidence`) | The charts carry no printed values; the earlier chunks listed bar and line values read off the graphs (e.g. an incidence of 537/100,000 in 2010, which contradicts the 1590/100,000 in the text). They have been removed. |
+| 32 | Figure 5. Natural history of TB infection: infection cleared, TB infection, subclinical TB disease, active TB disease – TST/IGRA, culture, smear, infectiousness, symptoms, preferred treatment (`tb-2025-tbl-natural-history`) | The figure has four state labels over five columns; the second column (TB infection, no treatment) is labelled here as early infection by inference. |
+
 ## Text sections (NCDIMH pages 1-356)
 
 | Page | Section | Issue |

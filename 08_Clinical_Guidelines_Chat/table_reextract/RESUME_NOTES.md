@@ -21,6 +21,8 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - UNAIDS Linkages SOP (uploaded PDF = original pages 5-103; item pages use the original numbering, with page text/images copied to p(N+4)): 32 tables rebuilt from the old chunks with every word checked against the PDF text, Annexure 1-2 flowcharts re-done from the images, hand labels for mislabelled text chunks. Annexure 3-5 and the in-text flowcharts keep their old chunks (they read correctly). Clinical read done (flags in SOURCE_ISSUES.md). The 'Barriers to ART initiation' annex (tbl-p91-0143, `batches/lk_b03.py`) was re-transcribed from the PDF text layer, restoring rows LlamaParse had dropped. Pipeline order for this doc: add lk_b01, lk_b02, lk_b03; build with the page-renumbered work dir (pN.txt/pgN.jpg = uploaded page N-4).
 
+- TB 2025 part 1 (TB_1.pdf = pages 1-84, no offset): `batches/tb_b01.py`, generated with scratchpad `gen_tables.py` (rebuild old table chunks + word check) plus hand overrides for Figures 1-5. Flowcharts (screening algorithms pp.59-64, diagnostic algorithm p72, trace calls p74, PLHIV p77) kept from the old chunks after checking Figure 10 against the image. No hand text labels or clinical read yet.
+
 ## Next after that
 The other guidelines, once the user provides the PDFs. Suggested order: TB 2025 and HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
 

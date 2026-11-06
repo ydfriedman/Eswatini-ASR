@@ -11,6 +11,7 @@ Chunk validation showed that most tables had lost their structure in the LlamaPa
 | PrEP 2025 | Complete (86 pages) | 43 items (30 tables, 4 boxes, 9 flowcharts/figures) replacing 97 old chunks. Annex 4 counselling messages rebuilt into one table; Figure 9's invented concentration values removed | `prep-2025_review.html` |
 | ANC | Complete (48 pages) | 13 items (12 tables, 1 flowchart) replacing 36 old chunks; most table pages have no text layer, so cells were read from page images | `anc_review.html` |
 | UNAIDS Linkages SOP | Done (tables + annexure 1-2 flowcharts) | 32 tables and 2 flowcharts replacing 70 old chunks; tables rebuilt from the old chunks (split rows merged, pieces joined) with every word checked against the PDF text layer; no image transcription | `unaids-linkages-sop_review.html` |
+| TB 2025 | Part 1 of 4 (pp.1-84) | 20 items replacing 44 old chunks: tables rebuilt from the old chunks with every word checked against the PDF text; Figures 1-4 (charts) re-described without the chart values the old parser had invented; flowcharts spot-checked and kept | `tb-2025_part1_review.html` |
 
 NCDIMH, PrEP and ANC items are written as small Python batches (`batches/ncd_b*.py`, `batches/prep_b*.py`, `batches/anc_b*.py`, with shared helpers in `batches/ncd_common.py` and `batches/prep_common.py`), then added to `ncdimh_tables.json` with `add_items.py`.
 
