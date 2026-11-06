@@ -1942,90 +1942,125 @@
    "table_id": "unaids-linkages-sop-tbl-p91-0143",
    "page": 91,
    "image_only": false,
-   "heading_path": "14 Annex > Objective",
-   "caption": "Objective (To assist clients overcome ART initiation barriers and retain them in care using LCM strategy)",
+   "heading_path": "14 Annex > Barriers to ART Initiation",
+   "caption": "Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)",
    "replaces_chunks": [
     "unaids-linkages-sop-0143",
     "unaids-linkages-sop-0144",
+    "unaids-linkages-sop-0145",
     "unaids-linkages-sop-0146",
+    "unaids-linkages-sop-0147",
     "unaids-linkages-sop-0148",
+    "unaids-linkages-sop-0149",
     "unaids-linkages-sop-0150",
+    "unaids-linkages-sop-0151",
     "unaids-linkages-sop-0152",
+    "unaids-linkages-sop-0153",
     "unaids-linkages-sop-0154",
+    "unaids-linkages-sop-0155",
     "unaids-linkages-sop-0156",
+    "unaids-linkages-sop-0157",
     "unaids-linkages-sop-0158",
+    "unaids-linkages-sop-0159",
     "unaids-linkages-sop-0160",
+    "unaids-linkages-sop-0161",
     "unaids-linkages-sop-0162",
+    "unaids-linkages-sop-0163",
     "unaids-linkages-sop-0164"
    ],
    "row_header_cols": 1,
    "header": [
     [
      {
-      "t": "To assist clients overcome ART initiation barriers and retain them in care using LCM strategy"
+      "t": "Enrolment barrier"
      },
      {
-      "t": ""
+      "t": "Client's perception for not starting treatment"
      },
      {
-      "t": ""
+      "t": "Possible intervention"
      }
     ]
    ],
    "body": [
+    {
+     "section": "Individual factors"
+    },
     [
      {
-      "t": "Individual factors"
+      "t": "1. Feeling healthy/well (some men are unaware that early treatment can mean a longer and healthier life; some know but find it too …)"
      },
      {
-      "t": ""
+      "t": "Client does not believe he/she needs to start treatment because of perceived good health. Patient argues that with a high CD4 count there is no need to start ART."
      },
      {
-      "t": ""
+      "t": "- Explain that the earlier an individual starts ART, the longer they can live without acquiring AIDS.<br/>- Explain the goal of ART is to improve quality of life.<br/>- Refer client to clinician for escalated counselling according to the facility-adapted plan.<br/>- Clinician explains HIV progression using pre-treatment viral load.<br/>- Inform client that treatment guidelines have changed and now nearly all clients can start ART on the day of diagnosis; explain the previous thresholds for starting ART (200-350-500)."
      }
     ],
     [
      {
-      "t": "1. Feeling healthy/well<br/><br/>Some men are unaware that early treatment can mean a longer and healthier life. Some know but find it too"
+      "t": "2. No time; too busy with work, school or other responsibilities"
      },
      {
-      "t": "Client does not believe he/she needs to start treatment because of perceived good health.<br/><br/>Patient argues that with high CD4 count, there is no need to start ART."
+      "t": "Client believes he/she does not have time to initiate or come for refills."
      },
      {
-      "t": "* Explain that the earlier an individual starts ART the longer they can live without acquiring AIDS."
+      "t": "- Enrol client on LCM.<br/>- Explore the client's time commitments and underlying reasons.<br/>- Provide motivational counselling.<br/>- Develop a treatment plan that adjusts refill dates and times to suit the client.<br/>- Appoint client for a counselling session at the agreed time and date.<br/>- Inform client about DSD models once on treatment with an undetectable viral load.<br/>- Refer client to clinician for escalated counselling."
      }
     ],
     [
      {
-      "t": "3. Denies being HIV infected."
+      "t": "3. Denies being HIV infected"
      },
      {
       "t": "Client believes he/she is not infected with HIV."
      },
      {
-      "t": "Inform client that before being initiated on ART they will be retested for verification by another health care worker."
+      "t": "- Inform client that before ART initiation they will be retested for verification by another health care worker.<br/>- Clinician explains HIV progression using pre-treatment viral load.<br/>- Provide motivational counselling.<br/>- Enrol client on LCM."
      }
     ],
     [
      {
-      "t": "5. Substance abuse."
+      "t": "4. Loss of confidentiality and stigma"
+     },
+     {
+      "t": "Client does not want others to know and fears stigmatisation if identified at the ART clinic."
+     },
+     {
+      "t": "- Explore why the client does not want others to know.<br/>- Share benefits of disclosure and implications of not disclosing.<br/>- Be cautious and explore the potential of partner violence.<br/>- Explain the disclosure process.<br/>- Inform client that ART services are now integrated into service points."
+     }
+    ],
+    [
+     {
+      "t": "5. Substance abuse"
      },
      {
       "t": "Client has been drinking too much and/or using other drugs."
      },
      {
-      "t": "Explain effects of substance abuse on adherence and possible interactions."
+      "t": "- Explain effects of substance abuse on adherence and possible interactions.<br/>- Refer client to clinician."
      }
     ],
     [
      {
-      "t": "6. Denial that client has HIV, Want Confirmation in another facility"
+      "t": "6. Denial that client has HIV; wants confirmation in another facility"
      },
      {
-      "t": "Clients want second opinion."
+      "t": "Client wants a second opinion."
      },
      {
-      "t": "Clinician to refer client to psychologist/mental health nurse."
+      "t": "- Clinician to refer client to psychologist / mental health nurse.<br/>- Complete referral form and empower client to produce it at the site wherever he/she tests.<br/>- Inform client that before ART initiation they will be retested for verification by another health care worker, within or in another facility of his/her choosing."
+     }
+    ],
+    [
+     {
+      "t": "7. Concerned about lifelong commitment"
+     },
+     {
+      "t": "Client is worried that he/she might not be able to adhere to treatment."
+     },
+     {
+      "t": "- Demystify ART (explain what it is, how it works and potential side effects).<br/>- Enrol client on LCM.<br/>- Yes, ART is lifelong treatment, and it is not the only one: there are other conditions that need treatment for life, e.g. diabetes, hypertension."
      }
     ],
     [
@@ -2033,76 +2068,104 @@
       "t": "8. Fear of side effects"
      },
      {
-      "t": "Clients is concerned about side effects"
+      "t": "Client is concerned about side effects."
      },
      {
-      "t": "Inform the client that there are simpler, less toxic combinations."
+      "t": "- Inform the client that there are simpler, less toxic combinations.<br/>- Inform clients about possible side effects and advise them to report to a nurse or doctor as soon as possible.<br/>- Encourage treatment ownership and reporting of new or unfamiliar symptoms at each visit.<br/>- Explain the continuous monitoring of side effects by the clinician during refills, which has scaled up early identification of side effects."
+     }
+    ],
+    {
+     "section": "Interpersonal factors"
+    },
+    [
+     {
+      "t": "1. Fears lack of support, violence, or separation from spouse/partner, or partner's disapproval"
+     },
+     {
+      "t": "Client fears they might not get support from close family members, partner(s), peers and associates."
+     },
+     {
+      "t": "- Educate client on the disclosure process (who, why, when and how).<br/>- Explain benefits of disclosing status.<br/>- Refer client to social worker for further counselling and support.<br/>- Encourage client to join a support group for peer support."
      }
     ],
     [
      {
-      "t": "1. Fear's lack of support, violence, or separation from spouse/partner or partners disapproval."
+      "t": "2. Wants to disclose to partner first"
      },
      {
-      "t": "Client fears might not get support from close family members, partner(s), Peers, and associates."
+      "t": "Fears the partner's reaction if they start treatment; perceived lack of support from spouse if he/she starts ART; lacks skills to disclose."
      },
      {
-      "t": "- Educate client on the disclosure process (who, why, when, and how)"
+      "t": "- Educate client on the disclosure process (who, why, when and how).<br/>- Explore the reasons why the client wants to disclose to the partner before initiation.<br/>- Refer client to social worker / mental health nurse / psychologist for further counselling and support.<br/>- Refer to the 101 counselling job aid."
      }
     ],
     [
      {
-      "t": "3. Believes in traditional medicine."
+      "t": "3. Believes in traditional medicine"
      },
      {
       "t": "Client believes that traditional medicine cures HIV or AIDS."
      },
      {
-      "t": "- Explain the basic facts about HIV.<br/>- Inform client of possible drug interaction with traditional medicine.<br/>- refer for further counseling as per escalation plan"
+      "t": "- Explain the basic facts about HIV.<br/>- Inform client of possible drug interactions with traditional medicine.<br/>- Refer for further counselling as per escalation plan."
      }
     ],
     [
      {
-      "t": "4. Has strong religious beliefs."
+      "t": "4. Has strong religious beliefs"
      },
      {
       "t": "Client believes that prayer will cure HIV or AIDS."
      },
      {
-      "t": "- Explain the basic facts about HIV.<br/>- refer for further counseling as per escalation plan."
+      "t": "- Explain the basic facts about HIV.<br/>- Refer for further counselling as per escalation plan."
      }
     ],
-    [
-     {
-      "t": "Health system factors"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "Health system factors"
+    },
     [
      {
       "t": "1. Quality or delivery of HIV care is poor"
      },
      {
-      "t": "Client believes treatment offered is sub-standard"
+      "t": "Client believes treatment offered is sub-standard."
      },
      {
-      "t": "Ascertain why the client thinks services offered is sub-standard.<br/>- Inform clients that there are standard trainings for all HCWs in country.<br/>- Document referral to preferred site and set appointment.<br/>- Enroll into LCM for follow up"
+      "t": "- Ascertain why the client thinks services offered are sub-standard.<br/>- Inform clients that there are standard trainings for all HCWs in the country.<br/>- Document referral to the preferred site and set an appointment.<br/>- Enrol into LCM for follow-up."
      }
     ],
     [
      {
-      "t": "4. Health care worker’s attitude towards clients"
+      "t": "2. Operational hours not conducive to clients"
      },
      {
-      "t": "Clients feel they have been mistreated"
+      "t": "Facility operating hours."
      },
      {
-      "t": "● Inform clients on procedures of how report if mistreated.<br/>● Assure the client that the facility will support and has best intention for all clients.<br/>● Explain that the earlier an individual starts ART the longer they can live without acquiring AIDS"
+      "t": "- Explore a possible time for initiation.<br/>- Inform client about DSD models offered by the facility that can suit his/her situation.<br/>- Facility should develop a plan on how to manage clients unable to attend during normal operating hours."
+     }
+    ],
+    [
+     {
+      "t": "3. Vertical ART services"
+     },
+     {
+      "t": "Clients feel vertical ART services will lead to incidental disclosure."
+     },
+     {
+      "t": "Inform client that ART services are now integrated into service points."
+     }
+    ],
+    [
+     {
+      "t": "4. Health care worker's attitude towards clients"
+     },
+     {
+      "t": "Clients feel they have been mistreated."
+     },
+     {
+      "t": "- Inform clients of the procedure for reporting mistreatment.<br/>- Assure the client that the facility will support them and has the best intention for all clients.<br/>- Explain that the earlier an individual starts ART, the longer they can live without acquiring AIDS."
      }
     ],
     [
@@ -2110,10 +2173,10 @@
       "t": "5. Use of unique identifier"
      },
      {
-      "t": "Clients perceive that there would be breach of confidentiality"
+      "t": "Clients perceive that there would be a breach of confidentiality."
      },
      {
-      "t": "● Explain why it is necessary to use unique identifier."
+      "t": "Explain why it is necessary to use a unique identifier."
      }
     ],
     [
@@ -2121,10 +2184,10 @@
       "t": "6. Long queues at facilities"
      },
      {
-      "t": "client thinks he/she does not have enough time to wait in line"
+      "t": "Client thinks he/she does not have enough time to wait in line."
      },
      {
-      "t": "● Inform client about the DSD model once client is on treatment and have undetectable viral load."
+      "t": "Inform client about the DSD model once on treatment with an undetectable viral load."
      }
     ],
     [
@@ -2132,15 +2195,19 @@
       "t": "7. Long distance to health facility"
      },
      {
-      "t": "Client believes that you can only initiate ART certain health facility"
+      "t": "Client believes ART can only be initiated at certain health facilities."
      },
      {
-      "t": "● Initiating ART at community level<br/>● Assure the client that ART has been decentralized to most health facilities in country"
+      "t": "- Initiating ART at community level.<br/>- Assure the client that ART has been decentralised to most health facilities in the country."
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Individual factor 1: the barrier cell ends mid-sentence ('Some know but find it too').",
+    "Individual factor 1 asks the clinician to explain the old CD4 thresholds for starting ART (200-350-500); this may confuse clients now that treatment starts at diagnosis.",
+    "Health-system factor 4 (staff attitude) includes 'explain that the earlier an individual starts ART the longer they can live', which seems misplaced from factor 1."
+   ],
    "pages": [
     91,
     92,
@@ -2151,7 +2218,7 @@
     97,
     98
    ],
-   "context_before": "Objective: Refer client to clinician.|"
+   "context_before": "Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy."
   },
   {
    "kind": "diagram",
@@ -2199,9 +2266,6 @@
   "unaids-linkages-sop-0135": "13.5 Strategies to Improve Bidirectional Linkage > Regional and National Level",
   "unaids-linkages-sop-0137": "13.6-13.8 Monitoring and Evaluation, Data Collection Tools, Data Flow and Reporting",
   "unaids-linkages-sop-0142": "14 Annex > Barriers to ART Initiation",
-  "unaids-linkages-sop-0145": "14 Annex > Barriers to ART Initiation and Possible Interventions",
-  "unaids-linkages-sop-0155": "14 Annex > Barriers to ART Initiation and Possible Interventions",
-  "unaids-linkages-sop-0159": "14 Annex > Barriers to ART Initiation and Possible Interventions > Interpersonal Factors",
   "unaids-linkages-sop-0052": "12.3 Day Zero Responsibilities > Clients Delaying ART Initiation"
  },
  "text_merge": {},
