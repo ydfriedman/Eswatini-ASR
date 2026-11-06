@@ -56,15 +56,15 @@ for t in T:
 {f"<div class='flags'><b>Points to check in the source:</b><ul>{flags}</ul></div>" if flags else ""}
 {f"<div class='notes'><b>Your notes on the old chunks:</b><ul>{your}</ul></div>" if your else ""}
 <div class="grid"><div><h3>PDF page</h3>{imgs}</div>
-<div><h3>New: {"flowchart" if t.get("kind") == "diagram" else "box" if t.get("kind") == "box" else "table with merged cells (as in the PDF)"}</h3><div class="tbl">{t["html"]}</div>
+<div><h3>New: {"flowchart" if t.get("kind") == "diagram" else "box" if t.get("kind") == "box" else "text section" if t.get("kind") == "section" else "table with merged cells (as in the PDF)"}</h3><div class="tbl">{t["html"]}</div>
 <h3>New: what the model receives</h3><div class="tbl">{md_to_html(t["text"])}</div></div></div>
 <details><summary>New: embedding text ({len(t["embed_text"])} part{"s" if len(t["embed_text"]) > 1 else ""})</summary><pre>{H.escape(chr(10).join(t["embed_text"]))}</pre></details>
 <details><summary>Old chunks</summary><div class="tbl">{md_to_html(t["old_text"])}</div></details></section>''')
     n = len(t['embed_text'])
     for i, e in enumerate(t['embed_text']):
         records.append(dict(chunk_id=f'{t["table_id"]}-p{i + 1}' if n > 1 else t['table_id'], table_id=t['table_id'],
-                            table_part=f'{i + 1}/{n}', doc_title=doc_title, type={'diagram': 'diagram', 'box': 'text'}.get(t.get('kind'), 'table'), heading_path=t['heading_path'],
-                            page_start=t['page'], page_end=t['page'], text=t['text'], html=t['html'], embed_text=e,
+                            table_part=f'{i + 1}/{n}', doc_title=doc_title, type={'diagram': 'diagram', 'box': 'text', 'section': 'text'}.get(t.get('kind'), 'table'), heading_path=t['heading_path'],
+                            page_start=t['page'], page_end=max(t.get('pages', [t['page']])), text=t['text'], html=t['html'], embed_text=e,
                             replaces_chunks=t['replaces_chunks'], source_flags=t['source_flags'],
                             extraction='claude-vision', number_check=chk))
 

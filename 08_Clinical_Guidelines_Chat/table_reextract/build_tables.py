@@ -253,6 +253,12 @@ def main(spec_path, pdf_dir, chunks_path, out_dir):
             text_s = f'> **{t["caption"]}**\n>\n' + '\n'.join('> ' + l for l in t['content'].split('\n'))
             embed_s = embed_parts([f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})', '', t['caption'] + '.']
                                   + [p for p in t['content'].split('\n\n')])
+        elif t.get('kind') == 'section':   # running text rebuilt from the PDF text layer (headings + paragraphs/bullets)
+            html_s = (f'<div class="section" data-table-id="{t["table_id"]}"><h4>{H.escape(t["caption"])}</h4>'
+                      + ''.join(f'<p>{H.escape(l)}</p>' for l in t['content'].split('\n')) + '</div>')
+            text_s = f'## {t["caption"]}\n\n{t["content"]}'
+            embed_s = embed_parts([f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})', '', t['caption'] + '.']
+                                  + [p for p in t['content'].split('\n')])
         else:
             n = ncols_of(t['header'])
             html_s, text_s = render_html(t, n), render_text(t, n)
@@ -267,7 +273,8 @@ def main(spec_path, pdf_dir, chunks_path, out_dir):
         results.append(dict(table_id=t['table_id'], page=t['page'], html=html_s, text=text_s, embed_text=embed_s,
                             checks=chk, source_flags=t.get('source_flags', []), replaces_chunks=t['replaces_chunks'],
                             old_text=old_text, caption=t['caption'], heading_path=t['heading_path'],
-                            image_only=t.get('image_only', False), kind=t.get('kind', 'table')))
+                            image_only=t.get('image_only', False), kind=t.get('kind', 'table'),
+                            pages=sorted(set(t.get('pages', [t['page']])) | {t['page']})))
         print(t['table_id'], json.dumps(chk))
     json.dump(results, open(os.path.join(out_dir, 'tables_out.json'), 'w'), ensure_ascii=False, indent=1)
 
