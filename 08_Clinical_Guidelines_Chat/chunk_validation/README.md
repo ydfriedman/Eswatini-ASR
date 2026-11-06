@@ -25,7 +25,7 @@ When you are done, your "Merged" verdicts go into `VERIFIED_HV` in `chunks_v2/sc
 
 ## v3 sample (re-extracted chunks, eight guidelines)
 
-`build_validation_v3.py` → `chunk_validation_v3.xlsx` + `chunk_viewer_v3.html`: 200 items from `chunks_v3`
+`build_validation_v3.py` → `chunk_validation_v3.xlsx` + `chunk_viewer_v3.html`: 50 items (core 25 + next 25), chosen from a pool of 200 from `chunks_v3`
 (HIV Amendment 2024, NCDIMH, PrEP 2025, ANC, Linkages SOP, TB 2025, FP 2021, Mental Health desk guide).
 One row per re-extracted table/flowchart (embedding parts collapsed), plus text chunks.
 
@@ -36,3 +36,7 @@ One row per re-extracted table/flowchart (embedding parts collapsed), plus text 
 | C | Random baseline per document (2 items + 2 text chunks) |
 
 "How produced" is derived from the batch files in `table_reextract/batches`; the Summary sheet counts Major issues per method.
+
+The set leaves out tables that the automatic completeness audit (`table_reextract/audit_cell_positions.py`, `classify_missing.py`)
+found incomplete; those are listed in `table_reextract/audit/REPAIR_WORKLIST.md` and repaired from page images. Core 25: 9 items with
+source flags, 5 hand-transcribed dosing tables, 4 audit-clean rebuilt tables (to test the audit), 3 old-parse flowcharts, 4 text chunks.

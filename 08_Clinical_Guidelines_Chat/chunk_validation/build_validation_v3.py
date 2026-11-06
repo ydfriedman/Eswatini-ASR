@@ -150,7 +150,33 @@ for doc in DOCS:
     for u in random.sample(pool_t, min(2, len(pool_t))):
         pick(u['chunk_id'], 'C', 'Random baseline (text chunk)', 'Text is complete and readable; the section label is right.')
 
-rows = sorted(picked.items(), key=lambda kv: (DOCS.index(units[kv[0]]['doc_id']), units[kv[0]]['page_start'], kv[0]))
+# ---------- reduce to 50: core 25 + next 25 ----------
+# Tables the automatic completeness audit already caught are being repaired, so they are left out.
+# What remains is what a script cannot judge, plus audit-clean rebuilt tables to test the audit itself.
+AUD = json.load(open(os.path.join(TR, 'audit', 'cell_audit.json')))
+REPAIR = set(json.load(open(os.path.join(TR, 'audit', 'repair_ids.json'))))
+for k in list(picked):
+    if k in REPAIR:
+        del picked[k]
+clean = [u for u in rebuilt if u['table_id'] in AUD and AUD[u['table_id']].get('pdf_words_in_table') and not AUD[u['table_id']]['issues']
+         and not AUD[u['table_id']]['lost'] and not AUD[u['table_id']]['elsewhere'] and u['table_id'] not in REPAIR]
+for u in capped(clean, 10, 3):
+    picked[u['table_id']] = ('A', 'Rebuilt table that passed the automatic completeness audit',
+                             'Tests the audit: is every value in the right row and column, and is anything missing? An error here means the audit misses things.')
+CATS = [('source flag', 9), ('transcribed from the page image', 5), ('passed the automatic', 4), ('Flowchart', 3),
+        ('Safety-critical text', 2), ('Random baseline (text', 2)]
+core, nxt = [], []
+for key_, n in CATS:
+    cand = [k for k, v in picked.items() if key_.lower() in v[1].lower()]
+    cnt = collections.Counter()
+    for k in cand:  # spread across documents: at most 2 per document per category in the core set
+        d = units[k]['doc_id']
+        if len([c for c in core if c[1] == key_]) < n and cnt[d] < 2:
+            core.append((k, key_)); cnt[d] += 1
+    rest = [k for k in cand if k not in [c[0] for c in core]]
+    nxt += [(k, key_) for k in rest[:n]]
+picked = collections.OrderedDict([(k, ('A',) + picked[k][1:]) for k, _ in core] + [(k, ('B',) + picked[k][1:]) for k, _ in nxt])
+rows = sorted(picked.items(), key=lambda kv: (kv[1][0], DOCS.index(units[kv[0]]['doc_id']), units[kv[0]]['page_start'], kv[0]))
 print('sample size', len(rows), collections.Counter(v[0] for _, v in rows),
       collections.Counter(SHORT[units[k]['doc_id']] for k, _ in rows), collections.Counter(H[id(units[k])] for k, _ in rows))
 
@@ -164,10 +190,10 @@ lines = [
     ('', False),
     ('How to work through it', True),
     ('1. Open chunk_viewer_v3.html in a browser next to the PDF. Tables are drawn with their merged cells; source flags are shown under each item.', False),
-    ('2. Rows are sorted by document, then PDF page: open one PDF and move forward through it.', False),
+    ('2. Rows 1-25 are the core set, rows 26-50 the next set; within each, sorted by document then PDF page.', False),
     ('   "PDF page" is the page in the full original PDF (TB, FP, NCDIMH and Mental Health were uploaded in parts; use the full document page).', False),
     ('3. Read "What to check", compare with the PDF, and pick a value in each yellow column.', False),
-    ('4. Start with priority A. B and C can be skimmed if time is short.', False),
+    ('4. Do the core 25 first. Tables the automatic audit found incomplete are not here: they are being repaired separately (table_reextract/audit/REPAIR_WORKLIST.md).', False),
     ('5. Only write a note when something is wrong: say what the PDF has, e.g. "PDF says 10 mg, chunk says 1 mg", or "this value belongs in the 16-24 kg column".', False),
     ('', False),
     ('"How produced" (the main risk signal)', True),
@@ -195,7 +221,7 @@ for i, (t, bold) in enumerate(lines, start=1):
 ins.column_dimensions['A'].width = 150
 
 ws = wb.create_sheet('Review')
-head = ['#', 'Priority', 'Document', 'PDF page', 'Item / chunk id', 'Type', 'How produced', 'Section label', 'Why picked', 'What to check',
+head = ['#', 'Set (A = core 25, B = next 25)', 'Document', 'PDF page', 'Item / chunk id', 'Type', 'How produced', 'Section label', 'Why picked', 'What to check',
         'Source flags (guideline problems to confirm)',
         'Text complete?', 'Numbers correct?', 'Table structure OK?', 'Label correct?', 'Source flag correct?', 'Overall', 'Note',
         'Chunk text (also in chunk_viewer_v3.html)']
@@ -335,7 +361,7 @@ nav .nums a{{font-size:11px;text-decoration:none;color:#fff;border-radius:4px;pa
 th{{background:var(--th)}} td:empty{{background:repeating-linear-gradient(45deg,transparent,transparent 4px,rgba(228,87,46,.12) 4px,rgba(228,87,46,.12) 8px)}}
 h4{{margin:8px 0 4px}} p{{margin:3px 0}} code{{font-size:12px}} pre{{white-space:pre-wrap}}
 </style></head><body><h1>Chunk validation viewer (v3)</h1>
-<p class="intro">{len(rows)} items from chunks_v3, same order as the Review sheet in chunk_validation_v3.xlsx. Red = priority A, teal = B, grey = C. Empty table cells are hatched.</p>
+<p class="intro">{len(rows)} items from chunks_v3, same order as the Review sheet in chunk_validation_v3.xlsx. Red = core 25, teal = next 25. Empty table cells are hatched.</p>
 <nav><div>Jump to: {doc_jump}</div><div class="nums">{toc}</div></nav>
 {''.join(cards)}
 </body></html>'''
