@@ -6,7 +6,9 @@ a batch of S(...) items.
 
 Usage: python3 text_plan.py SECTIONS.json SPEC.json OLD_CHUNKS.jsonl DOC FIRST LAST CONFIG.json OUT_BATCH.py
 CONFIG.json: {"chapters": {"4": "Chapter 4: ...", ...}, "split": {"compound heading": ["first", "second"]},
-              "fix": {"garbled heading": "fixed"}, "tag": "t02", "first_chapter": "4"}
+              "fix": {"garbled heading": "fixed"}, "tag": "t02", "first_chapter": "4",
+              "replace": {"text": "fixed"}, "drop_prefix": ["line start to drop"], "drop_sections": [[page, "first line"]],
+              "exclude_chunks": ["old chunk ids mapped to items by hand"]}
 """
 import collections, json, re, sys
 
@@ -51,26 +53,35 @@ for s in flat:
             num, sub = h, None
         else:
             sub = h
-    lines = []
+    lines, glyph = [], False
     for l in s['lines']:
+        if l.strip() in ('•', '▪', '●'):        # a bullet glyph set apart from its (callout-coloured) text
+            glyph = True
+            continue
+        if glyph and l.startswith('Key message: '):
+            l = '• ' + l[len('Key message: '):]
+        glyph = False
+        if any(l.startswith(x) for x in cfg.get('drop_prefix', [])):
+            continue
         t = tok(l)
         if l.strip() in ('', '.', '4') or (len(t) >= 6 and (' ' + ' '.join(t) + ' ') in itemtext and not l.startswith('Key message')):
             continue
         for a, b in cfg.get('replace', {}).items():
             l = l.replace(a, b)
-        if l.startswith('• '):
+        if l.startswith('• ') or l.startswith('▪ '):
             l = '- ' + l[2:].strip()
         elif l.startswith('o '):
             l = '   - ' + l[2:].strip()
         lines.append(l)
-    if not lines:
+    if not lines or (str(s['page']), lines[0]) in {(str(a), b) for a, b in cfg.get('drop_sections', [])}:
         continue
     title = (sub or num or chap.split(': ', 1)[-1]) + ('' if h else ' (continued)')
     path = ' > '.join(x for x in (chap, num if num and num != title.replace(' (continued)', '') else None, title) if x)
     out.append({'page': s['page'], 'page_end': s['page_end'], 'title': title, 'path': path, 'content': '\n'.join(lines)})
 
 old = [json.loads(l) for l in open(old_p)]
-old = [k for k in old if k['doc_id'] == doc and k['type'] == 'text' and first <= k['page_start'] <= last]
+old = [k for k in old if k['doc_id'] == doc and k['type'] == 'text' and first <= k['page_start'] <= last
+       and k['chunk_id'] not in cfg.get('exclude_chunks', [])]   # chunks mapped to items by hand
 assign, un = collections.defaultdict(list), []
 for k in old:
     kt = collections.Counter(tok(k['text']))
