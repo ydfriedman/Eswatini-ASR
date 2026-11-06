@@ -19,3 +19,7 @@ def B(tid, page, hp, cap, repl, content, flags=(), **kw):
 CH3 = "Chapter 3: Cardiology"
 CH4 = "Chapter 4: Dermatology"
 CH5 = "Chapter 5: Gastroenterology and Hepatology"
+CH6 = "Chapter 6: Injuries and Trauma"
+CH7 = "Chapter 7: Nephrology"
+CH8 = "Chapter 8: Neurology"
+def L(*xs): return C("<br/>".join("- " + x for x in xs))

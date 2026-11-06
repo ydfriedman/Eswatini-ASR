@@ -232,6 +232,11 @@ def main(src, out, pairs):
         chunks = out2
         # 4c. hand-chosen merges for fragments that sit between tables/flowcharts: spec 'text_merge' {src: dst}
         # (src text is appended to dst; dst keeps its label and position)
+        drop = set(spec.get('text_drop', []))          # heading-only leftovers (content now in a re-extracted item)
+        for c in [c for c in chunks if c['chunk_id'] in drop]:
+            removed.append(dict(c, drop_reason='heading-only fragment (text_drop)'))
+            log.append((c['chunk_id'], 'dropped', 'heading-only fragment'))
+        chunks = [c for c in chunks if c['chunk_id'] not in drop]
         tm = spec.get('text_merge', {})
         if tm:
             by_id = {c['chunk_id']: c for c in chunks}

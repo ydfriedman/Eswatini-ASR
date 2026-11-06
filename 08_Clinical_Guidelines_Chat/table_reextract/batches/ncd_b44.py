@@ -1,0 +1,32 @@
+exec(open('batches/ncd_common.py').read())
+TB = CH6 + " > Traumatic Brain Injury"
+ITEMS = [
+ T("tbl-tbi-surgical-evacuation", 191, TB + " > Indications for Surgical Evacuation of Mass Lesions",
+   "Traumatic brain injury: indications for surgical evacuation of epidural haematoma, subdural haematoma and parenchymal lesions", ["0543"],
+   [[C("Mass Lesion"), C("Indication for Surgical Evacuation")]],
+   [[C("Epidural Hematoma (EDH)"), L("EDH >30 cm3 regardless of GCS", "GCS <9, clot thickness >15 mm, midline shift >5 mm or focal neurologic deficits")],
+    [C("Subdural Hematoma (SDH)"), L("SDH >1 cm", "SDH associated with midline shift >5 mm", "GCS <8 with rapid decline or ICP <20 mmHg")],
+    [C("Parenchymal Lesions"), L("Progressive neurologic decline", "Mass effect", "Refractory ICH", "GCS scores of 6-8 with frontal or temporal contusions >20 cm3", "Midline shift of 5 mm and/or compression of cisterns, or lesion volume >50 cm3")]],
+   context_before="Neuro-worsening is defined as a decrease in motor GCS > 2, new loss of pupil reactivity, interval development of pupil asymmetry > 2 mm, or a new focal motor deficit. Immediate management: medical control of ICP, normothermia and normocapnia; hyperventilate for 30 minutes if PCO2 is high (>40 mmHg); brain CT as soon as possible; consult the neurosurgical team.",
+   source_flags=["SDH: 'GCS <8 with rapid decline or ICP <20 mmHg' printed; presumably ICP >20 mmHg. 'Refractory ICH' presumably means refractory intracranial hypertension (ICP), not haemorrhage. Clinician to confirm."]),
+ B("box-paeds-tbi-manifestations", 191, TB + " > (g) Traumatic Brain Injury in Paediatric Population > Clinical Manifestations",
+   "Head injury in children: presenting symptoms and signs associated with intracranial injury", ["0546", "0547"],
+   "Children with head trauma may present with: impaired level of consciousness (disorientation, confusion); blurred vision; headache; seizures; vomiting; amnesia. Younger children may present with lethargy or irritability.\n\n"
+   "Signs particularly associated with intracranial injury: prolonged loss of consciousness or impaired level of consciousness; disorientation or confusion; amnesia; worsening headache; repeated or persistent vomiting."),
+ T("tbl-catch-rule", 192, TB + " > (g) Traumatic Brain Injury in Paediatric Population > Indications for CT scan",
+   "Indications for CT in children with head injury: Canadian Assessment of Tomography for Childhood Head Injury (CATCH) medium and high risk factors; management", ["0549", "0550"],
+   [[C("Risk"), C("Factor"), C("Details")]],
+   [[C("Medium Risk", rs=3), C("Large boggy hematoma of the scalp"), C("")],
+    [C("Any sign of basal skull fracture"), C("Hemotympanum, raccoon eyes, CSF otorrhea, Battle's sign")],
+    [C("Dangerous mechanism of injury"), C("Motor vehicle collision; fall from a height ≥ 91 cm or down five stairs; falling from a bicycle without a helmet")],
+    [C("High Risk"), C("GCS score < 15 at 2h after injury; suspected open or depressed skull fracture; history of worsening headache; irritability on examination", cs=2)]],
+   context_before="Initial management priorities: stabilise vital signs with a structured ABCD approach. Consider abusive head trauma in infants and children.",
+   table_note="Management should include: continuous monitoring of vital signs and, if possible, end-tidal CO2; mechanical ventilation to maintain normal oxygenation and ventilation; maintenance of a normal core temperature; sedation and analgesia, particularly during procedures and transport; fluids as required to maintain normovolemia and avoid hypotension."),
+ T("tbl-common-poisons", 193, CH6 + " > Poisoning > Common Poisons",
+   "Common poisons by category: household agents, medicines, other substances, foods", ["0552"],
+   [[C("Category"), C("Examples")]],
+   [[C("Household Agents"), L("Organophosphates", "Pesticides/herbicides (e.g. rat poison, MASTER900)", "Hydrocarbons (e.g. kerosene)", "Disinfectants and bleach")],
+    [C("Medicines"), L("Acetylsalicylic acid (aspirin)", "Paracetamol", "Anticonvulsants (e.g. carbamazepine)", "Haematinics (iron and vitamins)")],
+    [C("Other Substances"), L("Major tranquilizers", "Herbal products")],
+    [C("Foods"), L("Toxic mushrooms", "Infected or spoiled foods")]]),
+]

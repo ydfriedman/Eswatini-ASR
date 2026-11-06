@@ -363,6 +363,163 @@ ncdimh-0462,replaced,ncdimh-tbl-h-pylori-eradication
 ncdimh-0463,replaced,ncdimh-tbl-h-pylori-eradication
 ncdimh-0470,replaced,ncdimh-tbl-ugib-differential
 ncdimh-0474,replaced,ncdimh-tbl-lgib-differential
+ncdimh-0477,replaced,ncdimh-tbl-burns-classification
+ncdimh-0478,replaced,ncdimh-tbl-burns-classification
+ncdimh-0479,replaced,ncdimh-tbl-burns-degrees
+ncdimh-0480,replaced,ncdimh-box-tbsa-lund-browder
+ncdimh-0481,replaced,ncdimh-box-tbsa-lund-browder
+ncdimh-0482,replaced,ncdimh-box-tbsa-lund-browder
+ncdimh-0483,replaced,ncdimh-tbl-burns-hospitalization
+ncdimh-0484,replaced,ncdimh-tbl-burns-care-stages
+ncdimh-0485,replaced,ncdimh-tbl-burns-care-stages
+ncdimh-0486,replaced,ncdimh-tbl-burns-care-stages
+ncdimh-0494,replaced,ncdimh-fig-spinal-injury-assessment
+ncdimh-0496,replaced,ncdimh-tbl-spinal-injury-management
+ncdimh-0497,replaced,ncdimh-tbl-spinal-injury-management
+ncdimh-0498,replaced,ncdimh-tbl-spinal-injury-management
+ncdimh-0502,replaced,ncdimh-tbl-snake-venom-types
+ncdimh-0504,replaced,ncdimh-tbl-snakebite-management-by-venom
+ncdimh-0505,replaced,ncdimh-tbl-snakebite-management-by-venom
+ncdimh-0510,replaced,ncdimh-tbl-gcs-all-ages
+ncdimh-0511,replaced,ncdimh-tbl-gcs-all-ages
+ncdimh-0513,replaced,ncdimh-tbl-tbi-primary-secondary
+ncdimh-0514,replaced,ncdimh-tbl-tbi-primary-secondary
+ncdimh-0515,replaced,ncdimh-tbl-ct-head-rules
+ncdimh-0516,replaced,ncdimh-tbl-tbi-care-by-facility
+ncdimh-0518,replaced,ncdimh-fig-tbi-mild
+ncdimh-0519,replaced,ncdimh-fig-tbi-mild
+ncdimh-0520,replaced,ncdimh-fig-tbi-moderate
+ncdimh-0521,replaced,ncdimh-fig-tbi-moderate
+ncdimh-0522,replaced,ncdimh-fig-tbi-severe
+ncdimh-0523,replaced,ncdimh-fig-tbi-severe
+ncdimh-0524,replaced,ncdimh-tbl-tbi-goal-directed-targets
+ncdimh-0526,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0528,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0529,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0531,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0533,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0535,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0537,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0539,replaced,ncdimh-tbl-tbi-drugs
+ncdimh-0541,replaced,ncdimh-tbl-tbi-inhospital
+ncdimh-0543,replaced,ncdimh-tbl-tbi-surgical-evacuation
+ncdimh-0546,replaced,ncdimh-box-paeds-tbi-manifestations
+ncdimh-0547,replaced,ncdimh-box-paeds-tbi-manifestations
+ncdimh-0549,replaced,ncdimh-tbl-catch-rule
+ncdimh-0550,replaced,ncdimh-tbl-catch-rule
+ncdimh-0552,replaced,ncdimh-tbl-common-poisons
+ncdimh-0555,replaced,ncdimh-tbl-toxidromes
+ncdimh-0556,replaced,ncdimh-tbl-toxidromes
+ncdimh-0557,replaced,ncdimh-tbl-toxidromes
+ncdimh-0558,replaced,ncdimh-tbl-toxins-dysrhythmias
+ncdimh-0560,replaced,ncdimh-tbl-poisoning-decontamination
+ncdimh-0561,replaced,ncdimh-tbl-poisoning-decontamination
+ncdimh-0563,replaced,ncdimh-tbl-toxin-levels
+ncdimh-0565,replaced,ncdimh-tbl-poisoning-supportive-care
+ncdimh-0566,replaced,ncdimh-tbl-antidotes
+ncdimh-0567,replaced,ncdimh-tbl-antidotes
+ncdimh-0568,replaced,ncdimh-tbl-antidotes
+ncdimh-0570,replaced,ncdimh-tbl-aki-causes-by-region
+ncdimh-0572,replaced,ncdimh-tbl-aki-conditions
+ncdimh-0573,replaced,ncdimh-tbl-aki-staging
+ncdimh-0575,replaced,ncdimh-fig-aki-algorithm
+ncdimh-0577,replaced,ncdimh-fig-aki-fluids-electrolytes
+ncdimh-0578,replaced,ncdimh-tbl-aki-ckd-akd-definitions
+ncdimh-0579,replaced,ncdimh-tbl-aki-ckd-akd-definitions
+ncdimh-0580,replaced,ncdimh-tbl-aki-screening-by-level
+ncdimh-0581,replaced,ncdimh-fig-aki-akd-follow-up
+ncdimh-0582,replaced,ncdimh-fig-aki-akd-follow-up
+ncdimh-0583,replaced,ncdimh-fig-aki-akd-follow-up
+ncdimh-0584,replaced,ncdimh-tbl-aki-assessment
+ncdimh-0585,replaced,ncdimh-tbl-aki-assessment
+ncdimh-0586,replaced,ncdimh-tbl-aki-nonpharm
+ncdimh-0588,replaced,ncdimh-tbl-aki-fluid-challenge
+ncdimh-0590,replaced,ncdimh-tbl-aki-hyperkalaemia
+ncdimh-0591,replaced,ncdimh-tbl-aki-hyperkalaemia
+ncdimh-0593,replaced,ncdimh-tbl-aki-fluid-contexts
+ncdimh-0594,replaced,ncdimh-tbl-aki-fluid-contexts
+ncdimh-0595,replaced,ncdimh-tbl-aki-fluid-contexts
+ncdimh-0596,replaced,ncdimh-tbl-aki-fluid-contexts
+ncdimh-0597,replaced,ncdimh-tbl-aki-fluid-contexts
+ncdimh-0598,replaced,ncdimh-tbl-aki-complications
+ncdimh-0600,replaced,ncdimh-fig-pr-aki-causes-timeline
+ncdimh-0601,replaced,ncdimh-fig-pr-aki-causes-timeline
+ncdimh-0602,replaced,ncdimh-tbl-ckd-causes
+ncdimh-0603,replaced,ncdimh-tbl-ckd-causes
+ncdimh-0604,replaced,ncdimh-tbl-ckd-criteria
+ncdimh-0605,replaced,ncdimh-tbl-ckd-prognosis-heatmap
+ncdimh-0606,replaced,ncdimh-tbl-ckd-prognosis-heatmap
+ncdimh-0607,replaced,ncdimh-tbl-kidney-function-measures
+ncdimh-0608,replaced,ncdimh-tbl-kidney-function-measures
+ncdimh-0611,replaced,ncdimh-fig-ckd-screening-algorithm
+ncdimh-0613,replaced,ncdimh-fig-ckd-risk-management-algorithm
+ncdimh-0614,replaced,ncdimh-fig-ckd-risk-management-algorithm
+ncdimh-0615,replaced,ncdimh-tbl-kdigo-referral-heatmap
+ncdimh-0616,replaced,ncdimh-tbl-kdigo-referral-heatmap
+ncdimh-0617,replaced,ncdimh-tbl-kdigo-referral-heatmap
+ncdimh-0620,replaced,ncdimh-fig-ckd-interventions-by-stage
+ncdimh-0621,replaced,ncdimh-fig-ckd-interventions-by-stage
+ncdimh-0622,replaced,ncdimh-tbl-ckd-management-principles
+ncdimh-0623,replaced,ncdimh-tbl-ckd-management-principles
+ncdimh-0624,replaced,ncdimh-tbl-ckd-complications
+ncdimh-0628,replaced,ncdimh-tbl-ckd-glucose-lowering-agents
+ncdimh-0629,replaced,ncdimh-tbl-ckd-glucose-lowering-agents
+ncdimh-0630,replaced,ncdimh-tbl-ckd-glucose-lowering-agents
+ncdimh-0633,replaced,ncdimh-tbl-ckd-pregnancy-effects
+ncdimh-0636,replaced,ncdimh-tbl-paeds-ckd
+ncdimh-0637,replaced,ncdimh-tbl-paeds-ckd
+ncdimh-0638,replaced,ncdimh-tbl-ckd-contrast-media
+ncdimh-0639,replaced,ncdimh-tbl-ckd-contrast-media
+ncdimh-0642,replaced,ncdimh-fig-gn-classification
+ncdimh-0643,replaced,ncdimh-fig-gn-classification
+ncdimh-0644,replaced,ncdimh-tbl-nephrotic-vs-nephritic
+ncdimh-0647,replaced,ncdimh-tbl-gn-investigations-ddx
+ncdimh-0648,replaced,ncdimh-tbl-gn-investigations-ddx
+ncdimh-0649,replaced,ncdimh-tbl-gn-investigations-by-level
+ncdimh-0650,replaced,ncdimh-tbl-gn-investigations-by-level
+ncdimh-0651,replaced,ncdimh-tbl-nephrotic-proteinuria-definitions
+ncdimh-0652,replaced,ncdimh-tbl-nephrotic-key-terms
+ncdimh-0653,replaced,ncdimh-tbl-nephrotic-key-terms
+ncdimh-0655,replaced,ncdimh-fig-nephrotic-syndrome-treatment
+ncdimh-0657,replaced,ncdimh-fig-ns-new-child-algorithm
+ncdimh-0658,replaced,ncdimh-fig-ns-new-child-algorithm
+ncdimh-0659,replaced,ncdimh-box-kidney-biopsy-decision
+ncdimh-0660,replaced,ncdimh-box-kidney-biopsy-decision
+ncdimh-0661,replaced,ncdimh-tbl-gn-histology-treatment
+ncdimh-0662,replaced,ncdimh-tbl-gn-histology-treatment
+ncdimh-0663,replaced,ncdimh-tbl-gn-histology-treatment
+ncdimh-0664,replaced,ncdimh-tbl-gn-histology-treatment
+ncdimh-0665,replaced,ncdimh-tbl-gn-histology-treatment
+ncdimh-0666,replaced,ncdimh-tbl-gn-histology-treatment
+ncdimh-0668,replaced,ncdimh-tbl-gn-pregnancy-care
+ncdimh-0669,replaced,ncdimh-tbl-gn-pregnancy-care
+ncdimh-0670,replaced,ncdimh-tbl-gn-pregnancy-care
+ncdimh-0671,replaced,ncdimh-tbl-gn-contraception
+ncdimh-0672,replaced,ncdimh-tbl-gn-contraception
+ncdimh-0677,replaced,ncdimh-tbl-adhd-patient-assessment
+ncdimh-0681,replaced,ncdimh-tbl-adhd-drugs
+ncdimh-0682,replaced,ncdimh-tbl-adhd-drugs
+ncdimh-0689,replaced,ncdimh-tbl-asd-severity
+ncdimh-0691,replaced,ncdimh-tbl-asd-patient-assessment
+ncdimh-0693,replaced,ncdimh-tbl-asd-patient-assessment
+ncdimh-0696,replaced,ncdimh-tbl-asd-drugs
+ncdimh-0697,replaced,ncdimh-tbl-asd-drugs
+ncdimh-0699,replaced,ncdimh-tbl-seizure-classification
+ncdimh-0701,replaced,ncdimh-box-epilepsy-algorithm
+ncdimh-0702,replaced,ncdimh-box-epilepsy-algorithm
+ncdimh-0703,replaced,ncdimh-box-epilepsy-algorithm
+ncdimh-0704,replaced,ncdimh-box-epilepsy-algorithm
+ncdimh-0705,replaced,ncdimh-tbl-antiepileptic-drugs
+ncdimh-0706,replaced,ncdimh-tbl-antiepileptic-drugs
+ncdimh-0707,replaced,ncdimh-tbl-antiepileptic-drugs
+ncdimh-0708,replaced,ncdimh-tbl-antiepileptic-drugs
+ncdimh-0709,replaced,ncdimh-box-epilepsy-psychoeducation-cautions
+ncdimh-0710,replaced,ncdimh-box-epilepsy-psychoeducation-cautions
+ncdimh-0711,replaced,ncdimh-box-epilepsy-psychoeducation-cautions
+ncdimh-0712,replaced,ncdimh-fig-epilepsy-long-term-treatment
+ncdimh-0713,replaced,ncdimh-fig-epilepsy-long-term-treatment
+ncdimh-0714,replaced,ncdimh-fig-epilepsy-long-term-treatment
+ncdimh-0717,replaced,ncdimh-fig-status-epilepticus
 ncdimh-0013,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations => Chapter 1: Prevention, Health Education and Routine Health Examinations > Introduction"
 ncdimh-0016,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > NCD Risk Factors > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening => Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for and Identifying Modifiable Risk Factors > Target Population for Screening"
 ncdimh-0021,label,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Tobacco Cessation => Chapter 1: Prevention, Health Education and Routine Health Examinations > Management of Identified Risk Factors > Lifestyle Interventions (FIRST LINE for All Patients)"
@@ -511,18 +668,77 @@ ncdimh-0471,label,Chapter 5: Gastroenterology and Hepatology > Gastrointestinal 
 ncdimh-0472,label,Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Differential diagnosis of UGIB > Laboratory Investigations => Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Upper GI Bleeding > Laboratory Investigations and Pharmacological Treatment
 ncdimh-0473,cleaned,
 ncdimh-0473,label,Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Differential Diagnosis of LGIB => Chapter 5: Gastroenterology and Hepatology > Gastrointestinal Bleeding > Lower GI Bleeding
+ncdimh-0476,label,Chapter 6: Injuries and Trauma > Management of Electrical Burns => Chapter 6: Injuries and Trauma > Head Injury > Investigations and Management
+ncdimh-0488,label,Chapter 6: Injuries and Trauma > Burns > Amount of Fluids to be Administered => Chapter 6: Injuries and Trauma > Burns > Fluid Management in Burns > Amount of Fluids to be Administered (Parkland formula)
+ncdimh-0489,label,"Chapter 6: Injuries and Trauma > Special Types of Burns => Chapter 6: Injuries and Trauma > Burns > Fluid types, monitoring and Special Types of Burns"
+ncdimh-0490,label,Chapter 6: Injuries and Trauma > Management of Electrical Burns => Chapter 6: Injuries and Trauma > Burns > Management of Electrical Burns
+ncdimh-0492,label,Chapter 6: Injuries and Trauma > Spinal Injury > Causes of Spinal Injuries > Clinical Features => Chapter 6: Injuries and Trauma > Spinal Injury > Clinical Features and Investigations
 ncdimh-0493,emptied,
+ncdimh-0499,cleaned,
+ncdimh-0499,label,Chapter 6: Injuries and Trauma > Spinal Injury > Investigations => Chapter 6: Injuries and Trauma > Snakebite Envenomation
 ncdimh-0503,emptied,
+ncdimh-0506,label,Chapter 6: Injuries and Trauma > Traumatic Brain Injury => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Types of intracranial haemorrhage
+ncdimh-0508,label,"Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis of Traumatic Brain Injury > 1. History => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis of Traumatic Brain Injury > History, Clinical (GCS) and Imaging"
+ncdimh-0512,label,Chapter 6: Injuries and Trauma > Traumatic Brain Injury > 3. Imaging => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis > Imaging
 ncdimh-0517,emptied,
-ncdimh-0519,cleaned,
-ncdimh-0521,cleaned,
+ncdimh-0525,label,Chapter 6: Injuries and Trauma > Pharmacological Management of Traumatic Brain Injury > Acute Treatment for TBI => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Pharmacological Management > Antifibrinolytics
+ncdimh-0527,label,Chapter 6: Injuries and Trauma > Pharmacological Management of Traumatic Brain Injury > Acute Treatment for TBI => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Pharmacological Management of TBI
+ncdimh-0530,label,Chapter 6: Injuries and Trauma > Pharmacological Management of Traumatic Brain Injury > Acute Treatment for TBI => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Pharmacological Management > Anaesthetics and Sedatives
+ncdimh-0532,label,Chapter 6: Injuries and Trauma > Pharmacological Management of Traumatic Brain Injury > Acute Treatment for TBI => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Pharmacological Management > Thromboembolism Prophylaxis
+ncdimh-0534,label,Chapter 6: Injuries and Trauma > Pharmacological Management of Traumatic Brain Injury > Acute Treatment for TBI => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Pharmacological Management > Seizure Treatment and Prophylaxis
+ncdimh-0536,label,Chapter 6: Injuries and Trauma > Pharmacological Management of Traumatic Brain Injury > Acute Treatment for TBI => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Pharmacological Management > Antipyretics
+ncdimh-0538,label,Chapter 6: Injuries and Trauma > Pharmacological Management of Traumatic Brain Injury > Acute Treatment for TBI => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Pharmacological Management > Analgesics
+ncdimh-0540,cleaned,
+ncdimh-0540,label,Chapter 6: Injuries and Trauma > In-Hospital Management of Traumatic Brain Injury => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > In-Hospital Management of Traumatic Brain Injury
+ncdimh-0542,label,Chapter 6: Injuries and Trauma > In-Hospital Management of Traumatic Brain Injury > Neuro-worsening => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > In-Hospital Management > Analgesia and Neuro-worsening
+ncdimh-0544,label,Chapter 6: Injuries and Trauma > Traumatic Brain Injury => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Traumatic Brain Injury and Other Comorbidities
+ncdimh-0545,label,Chapter 6: Injuries and Trauma > Traumatic Brain Injury > (g) Traumatic Brain Injury in paediatric population => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > (g) Traumatic Brain Injury in Paediatric Population
+ncdimh-0551,label,Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Post-traumatic Seizures => Chapter 6: Injuries and Trauma > Traumatic Brain Injury > (g) Paediatric TBI > Post-traumatic Seizures; Poisoning definition
+ncdimh-0553,label,Chapter 6: Injuries and Trauma > General Principles of Management of Poisoning => Chapter 6: Injuries and Trauma > Poisoning > General Principles of Management of Poisoning
+ncdimh-0554,label,Chapter 6: Injuries and Trauma > General Principles of Management of Poisoning > Resuscitation and stabilization => Chapter 6: Injuries and Trauma > Poisoning > General Principles > Resuscitation and Stabilization
+ncdimh-0559,label,Chapter 6: Injuries and Trauma > General Principles of Management of Poisoning > Management Protocol of a poison (specific and non-specific antidotes) > Investigations => Chapter 6: Injuries and Trauma > Poisoning > Management Protocol > Investigations
+ncdimh-0562,label,Chapter 6: Injuries and Trauma > General Principles of Management of Poisoning > Management Protocol of a poison (specific and non-specific antidotes) > Investigations => Chapter 6: Injuries and Trauma > Poisoning > Management Protocol > Investigations by toxidrome
+ncdimh-0564,cleaned,
+ncdimh-0564,label,Chapter 6: Injuries and Trauma > General Principles of Management of Poisoning > Psychosocial Intervention => Chapter 6: Injuries and Trauma > Poisoning > Supportive Care
+ncdimh-0569,label,Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children => Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children > Definition
+ncdimh-0571,label,Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children > Acute Kidney Injury Causes => Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children > KDIGO Criteria for Diagnosis of AKI
 ncdimh-0574,emptied,
-ncdimh-0581,cleaned,
+ncdimh-0587,label,Chapter 7: Nephrology > Pharmacological Management of acute Kidney Injury Management > Treat Underlying Cause => Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children > Pharmacological Management > Treat Underlying Cause; Furosemide Stress Test
+ncdimh-0589,label,Chapter 7: Nephrology > Pharmacological Management of acute Kidney Injury Management > Fluid overload in kidney failure => Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children > Pharmacological Management > Fluid Overload in Kidney Failure
+ncdimh-0592,label,Chapter 7: Nephrology > Pharmacological Management of acute Kidney Injury Management > Fluid overload in kidney failure => Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children > Indications for Dialysis and AKD Follow-up
+ncdimh-0599,label,Chapter 7: Nephrology > Pharmacological Management of acute Kidney Injury Management > Complications of Acute Kidney Injury > Management in Special Populations => Chapter 7: Nephrology > Acute Kidney Injury in Adults and Children > Management in Special Populations
+ncdimh-0609,label,Chapter 7: Nephrology > Prognosis of CKD and ALBUMINURIA => Chapter 7: Nephrology > Chronic Kidney Disease > Measuring kidney function; Screening and Diagnosis of CKD
 ncdimh-0610,emptied,
-ncdimh-0613,cleaned,
+ncdimh-0612,cleaned,
+ncdimh-0612,label,Chapter 7: Nephrology > Targeted Screening => Chapter 7: Nephrology > Chronic Kidney Disease > Targeted Screening
+ncdimh-0618,label,Chapter 7: Nephrology > KDIGO Heart Map > Non-Pharmacological Management of Chronic Kidney Disease => Chapter 7: Nephrology > Chronic Kidney Disease > Non-Pharmacological Management of Chronic Kidney Disease
+ncdimh-0625,label,Chapter 7: Nephrology > Indications for Renal Replacement Therapy in CKD => Chapter 7: Nephrology > Chronic Kidney Disease > Indications for Renal Replacement Therapy in CKD
+ncdimh-0626,label,Chapter 7: Nephrology > Indications for Renal Replacement Therapy in CKD > In-Hospital Management of CKD – review all medication => Chapter 7: Nephrology > Chronic Kidney Disease > In-Hospital Management of CKD (medication review)
+ncdimh-0627,label,Chapter 7: Nephrology > CKD and Diabetes > Overview of hypoglycaemic agents usable in CKD => Chapter 7: Nephrology > Chronic Kidney Disease > CKD and Diabetes > Glucose-lowering agents usable in CKD
+ncdimh-0631,label,Chapter 7: Nephrology > Finerone in Diabetic Kidney Disease > Drug Class => Chapter 7: Nephrology > Chronic Kidney Disease > CKD and Diabetes > Finerenone in Diabetic Kidney Disease
+ncdimh-0634,cleaned,
+ncdimh-0634,label,Chapter 7: Nephrology > Indications for Renal Replacement Therapy in CKD > Pre-eclampsia risk reduction in CKD => Chapter 7: Nephrology > Chronic Kidney Disease > Management in Special Populations > Pre-eclampsia risk reduction; CKD in elderly and frail
+ncdimh-0635,label,Chapter 7: Nephrology > Indications for Renal Replacement Therapy in CKD > (j) CKD in HIV/TB => Chapter 7: Nephrology > Chronic Kidney Disease > Management in Special Populations > CKD in HIV/TB
+ncdimh-0640,label,"Chapter 7: Nephrology > Indications for Renal Replacement Therapy in CKD > CKD and Contrast Media => Chapter 7: Nephrology > Glomerular Disease > Definition (Management of Acute Glomerulonephritis, Nephrotic and Nephritic Syndromes)"
 ncdimh-0641,cleaned,
-ncdimh-0659,cleaned,
-ncdimh-0712,cleaned,
+ncdimh-0667,label,Chapter 7: Nephrology > Indications for Renal Replacement Therapy in CKD > Histology based treatment of Glomerular Disease > Management in Special Populations => Chapter 7: Nephrology > Glomerular Disease > Management in Special Populations > Pregnancy and women of child-bearing age
+ncdimh-0673,label,Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Abbreviations and Definition
+ncdimh-0674,label,Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Definition and Classification of ADHD > Classification => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Classification; Screening for ADHD
+ncdimh-0675,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Diagnostic Criteria (DSM5) => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Diagnostic Criteria (DSM-5): Inattention
+ncdimh-0676,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Diagnostic Criteria (DSM5) => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Diagnostic Criteria (DSM-5): Hyperactivity and Impulsivity
+ncdimh-0678,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Non-Pharmacological Management of ADHD
+ncdimh-0679,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > For care givers => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Non-Pharmacological Management > For care givers and teachers
+ncdimh-0680,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > For teachers > Treatment Targets => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Treatment Targets
+ncdimh-0683,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > Complications of ADHD => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Complications and Prevention of ADHD
+ncdimh-0685,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > Adjunct Therapies in the Management of ADHD => Chapter 8: Neurology > Attention Deficit Hyperactivity Disorder > Adjunct Therapies; Autism Spectrum Disorder definition
+ncdimh-0686,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Screening for ASD => Chapter 8: Neurology > Autism Spectrum Disorder > Screening for ASD
+ncdimh-0687,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Diagnostic Criteria (DSM-5) => Chapter 8: Neurology > Autism Spectrum Disorder > Diagnostic Criteria (DSM-5)
+ncdimh-0688,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Diagnostic Criteria (DSM-5) => Chapter 8: Neurology > Autism Spectrum Disorder > Diagnostic Criteria (DSM-5)
+ncdimh-0690,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Severity of ASD => Chapter 8: Neurology > Autism Spectrum Disorder > Patient Assessment
+ncdimh-0694,label,Chapter 8: Neurology > Screening and Diagnosisi of ADHD > Management of ASD Treatment Targets => Chapter 8: Neurology > Autism Spectrum Disorder > Management of ASD > Treatment Targets and Non-Pharmacological Management
+ncdimh-0695,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > For care givers => Chapter 8: Neurology > Autism Spectrum Disorder > Non-Pharmacological Management > For care givers and teachers
+ncdimh-0698,label,Chapter 8: Neurology > Non-Pharmacological Management of ADHD > ASD and Other Comorbidities => Chapter 8: Neurology > Autism Spectrum Disorder > ASD and Other Comorbidities; Epilepsy definition
+ncdimh-0700,label,Chapter 8: Neurology > Diagnosis of Epilepsy => Chapter 8: Neurology > Epilepsy > Diagnosis of Epilepsy
 ncdimh-0719,emptied,
 ncdimh-0746,cleaned,
 ncdimh-0757,cleaned,
@@ -542,6 +758,7 @@ ncdimh-0997,cleaned,
 ncdimh-1010,emptied,
 ncdimh-0219,trailing heading dropped (next is a table/flowchart),#### **Diagnosis**
 ncdimh-0395,trailing heading dropped (next is a table/flowchart),## **Algorithm with the Initial Evaluation and Management of RHD in Children**
+ncdimh-0716,trailing heading dropped (next is a table/flowchart),## Status Epilepticus ## Treatment Algorithm for Status Epilepticus
 ncdimh-0042,merged into,ncdimh-0041
 ncdimh-0236,merged into,ncdimh-0235
 ncdimh-0237,merged into,ncdimh-0235
@@ -561,13 +778,16 @@ ncdimh-0466,merged into,ncdimh-0464
 ncdimh-0468,merged into,ncdimh-0467
 ncdimh-0501,merged into,ncdimh-0500
 ncdimh-0509,merged into,ncdimh-0508
-ncdimh-0548,merged into,ncdimh-0547
+ncdimh-0530,merged into,ncdimh-0527
+ncdimh-0532,merged into,ncdimh-0527
+ncdimh-0534,merged into,ncdimh-0527
+ncdimh-0536,merged into,ncdimh-0527
+ncdimh-0540,merged into,ncdimh-0538
 ncdimh-0619,merged into,ncdimh-0618
 ncdimh-0632,merged into,ncdimh-0631
 ncdimh-0641,merged into,ncdimh-0640
 ncdimh-0684,merged into,ncdimh-0683
-ncdimh-0715,merged into,ncdimh-0714
-ncdimh-0716,merged into,ncdimh-0714
+ncdimh-0716,merged into,ncdimh-0715
 ncdimh-0751,merged into,ncdimh-0750
 ncdimh-0779,merged into,ncdimh-0778
 ncdimh-0809,merged into,ncdimh-0808
@@ -582,6 +802,12 @@ ncdimh-0986,merged into,ncdimh-0985
 ncdimh-0995,merged into,ncdimh-0994
 ncdimh-1018,merged into,ncdimh-1017
 ncdimh-1033,merged into,ncdimh-1017
+ncdimh-0690,dropped,heading-only fragment
 ncdimh-0319,merged into,ncdimh-0317
 ncdimh-0388,merged into,ncdimh-0387
 ncdimh-0395,merged into,ncdimh-0391
+ncdimh-0495,merged into,ncdimh-0492
+ncdimh-0512,merged into,ncdimh-0508
+ncdimh-0525,merged into,ncdimh-0527
+ncdimh-0538,merged into,ncdimh-0542
+ncdimh-0564,merged into,ncdimh-0562

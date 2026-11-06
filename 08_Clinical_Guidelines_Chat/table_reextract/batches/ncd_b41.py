@@ -1,0 +1,55 @@
+exec(open('batches/ncd_common.py').read())
+BU = CH6 + " > Burns"
+ITEMS = [
+ T("tbl-burns-classification", 173, BU + " > Classification of Burns",
+   "Classification of burns by skin depth (first to fourth degree): cause, surface and colour, pain", ["0477", "0478"],
+   [[C("Skin depth"), C("Cause"), C("Surface and colour"), C("Pain")]],
+   [[C("Superficial (epidermal) (FIRST DEGREE)"), C("Sunburn, flash burn or minor scald"), C("Dry, erythema, and brisk capillary return. No blisters"), C("Painful")],
+    [C("Partial thickness (superficial dermal) (SECOND DEGREE)"), C("Scald"), C("Moist, pale pink, broken blisters, and brisk capillary return. Blanches with pressure. Weeping blisters"), C("Painful to temperature and air")],
+    [C("Partial thickness (mid dermal) (SECOND DEGREE)"), C("Scald, flame and contact"), C("Moist, dark pink, and sluggish capillary return"), C("May or may not be painful. Perceptive of pressure only")],
+    [C("Partial thickness (deep dermal) (SECOND DEGREE)"), C("Scald, flame and contact"), C("Moist, blotchy red, white, mottled, sluggish or absent capillary return. No blanching with pressure. Easily unroofed blisters"), C("Painless OR on deep pressure only")],
+    [C("Full thickness (THIRD DEGREE)"), C("Flame, severe scald and electrical"), C("Dry, charred, whitish, leathery, and an absence of capillary return"), C("Painless or on deep pressure only")]],
+   footnotes=["Fourth degree burns have the same characteristics as third degree burns but extend into fascia and/or muscle."]),
+ T("tbl-burns-degrees", 174, BU + " > Classification of Burns > Burn degrees",
+   "Burn degrees 1 to 5: depth, common causes, appearance, healing and scarring", ["0479"],
+   [[C("Degree"), C("Features")]],
+   [[C("1st Degree Burns"), L("Epidermis only", "Commonly caused by UV light or very short flash or flame exposure", "Skin is red, dry & hypersensitive", "No treatment except analgesia", "Leaves no scarring on healing")],
+    [C("2nd Degree Burns: superficial"), L("Epidermis + upper third of dermis", "Commonly caused by scald (spill or splash)", "Red, moist, weeping blisters that blanch with pressure", "Painful - due to nerve exposure; heals in 7-14 days", "Leaves no scarring on healing but there are potential pigmentary changes")],
+    [C("2nd Degree Burns: deep"), L("Epidermis + upper part of dermis (deeper)", "Commonly caused by scald, flame, chemicals, oil & grease", "Cheesy white, wet or waxy dry; do not blanch with pressure", "Healing takes > 21 days", "Severe scarring & risk of contractures")],
+    [C("3rd Degree Burns (Full Thickness Burns)"), L("Full epidermis + dermis are destroyed, leaving no cells to heal", "Commonly caused by scald, steam, flame, chemicals, oil, grease & high voltage electricity", "Grey to charred & black, insensate, contracted, pale, leathery tissue", "Severe scarring & high risk of contractures")],
+    [C("4th Degree Burns"), L("Muscle involvement")],
+    [C("5th Degree Burns"), L("Bone involvement - especially in epileptics who convulse during burning")]],
+   source_flags=["The dermis fractions are printed with garbled characters ('Upper ы' for superficial, 'Upper a' for deep); presumably 1/3 and 2/3. Written as 'upper third' and 'upper part (deeper)'.", "'cob blisters' printed."]),
+ B("box-tbsa-lund-browder", 174, BU + " > Total Body Surface Area (TBSA) Burns Estimation",
+   "Total body surface area (TBSA) burn estimation: Lund and Browder chart with age-specific percentages for head, thigh and leg; palm rule", ["0480", "0481", "0482"],
+   "Lund and Browder chart (body diagrams of adult, child and infant, front and back), with a form to record the % burnt for: head, neck, trunk (front), trunk (back), arm (right/left), hand (right/left), buttock (right/left), genitals, leg (right/left), feet (right/left), total burn area.\n\n"
+   "Areas that change with age (% of body surface for each region):\n"
+   "| Age (years) | Under 1 | 2–4 | 5–9 | 10–14 | 15 | Adult |\n|---|---|---|---|---|---|---|\n"
+   "| A — ½ of head | 9½ | 8½ | 6½ | 5½ | 4½ | 3½ |\n"
+   "| B — ½ of one thigh | 2¾ | 3¼ | 4 | 4½ | 4½ | 4¾ |\n"
+   "| C — ½ of one leg | 2½ | 2½ | 2¾ | 3 | 3¼ | 3 |\n\n"
+   "Do not include first degree burns in the calculation of % TBSA. The surface area of a patient's palm (including fingers) is roughly 1% of TBSA. The palmar surface can be used to estimate relatively small burns (< 15% of total surface area) or very large burns (> 85%, when unburnt skin is counted). For medium-sized burns it is inaccurate.",
+   ["The age table is a low-resolution image; fractions were read at high zoom and agree with the standard Lund and Browder chart except the adult value for C (printed 3; the standard chart gives 3½). The old chunk had 2¼ and 4¼ for B and 2¼ for C (5-9). Clinician to confirm.",
+    "The palm rule here (palm including fingers = 1%) differs from the fluid section on p.176 (palm excluding fingers ≈ 1%)."]),
+ T("tbl-burns-hospitalization", 175, BU + " > Severe Burns Requiring Hospitalization",
+   "Severe burns requiring hospitalisation: criteria by age and %TBSA, depth, special populations and areas, burn pattern and type, associated conditions, electrical burns, referral", ["0483"],
+   [[C("Category"), C("Criteria")]],
+   [[C("By Age & % TBSA"), L("Adult: >15% TBSA", "Paediatric: >10% TBSA", "All burn patients <1 year of age", "Children 1–2 years with >5% TBSA", "Patients >2 years with partial thickness burns >10% TBSA")],
+    [C("Depth of Burn"), L("Any full-thickness (third-degree) burn of any size")],
+    [C("Special Populations"), L("Very young, elderly, or infirm patients", "Paediatric burns with suspected child abuse")],
+    [C("Special Areas Involved"), L("Face, ears, eyes, hands, feet, perineum, genitalia, or major joints")],
+    [C("Burn Pattern"), L("Circumferential burns of limbs or chest")],
+    [C("Type of Burn"), L("High-voltage electrical burns (including lightning)", "Chemical burns", "Inhalation injury")],
+    [C("Associated Conditions"), L("Concomitant trauma", "Significant pre-burn illness (e.g., diabetes)", "Pre-existing medical disorders complicating management or recovery", "Septic burn wound")],
+    [C("Electrical Burn Specifics"), L("Loss of consciousness", "Documented arrhythmias (before/after ED arrival)", "Cardiac arrest", "ECG evidence of ischemia", "High-voltage electrical injury")],
+    [C("Referral Needs"), L("Burn patients requiring treatment beyond the capacity of the referring centre")]]),
+ T("tbl-burns-care-stages", 175, BU + " > Burn care: first aid and wound care",
+   "Burn care by stage: first aid, initial wound care, daily wound care (topical agents), special care of hands, surgical care", ["0484", "0485", "0486"],
+   [[C("Stage"), C("Key Actions")]],
+   [[C("First Aid (Immediate Care)"), L("Drench burn with cool water to prevent further damage", "Remove burned clothing if easily removable", "If burn area is limited → immerse in cold water for 30 min (reduces pain, oedema, tissue damage)", "If burn area is large → cover with clean wraps to prevent hypothermia", "Beware of hypothermia risk: especially in young children", "Critical window: first 6 hours → transport severe burn cases to hospital urgently")],
+    [C("Initial Wound Care"), L("Administer tetanus prophylaxis in all cases if possible", "Debride bullae (except very small burns) & excise necrotic tissue (continue over first few days)", "Gentle scrubbing to remove loose tissue", "Cleansing: use 0.25% chlorhexidine, 0.1% cetrimide, or other mild antiseptic (avoid alcohol-based solutions)", "Apply thin layer of antibiotic cream (silver sulfadiazine)", "Dress with petroleum gauze + dry gauze thick enough to prevent seepage")],
+    [C("Daily Wound Care"), L("Change dressing daily (twice daily if seepage)", "Remove loose tissue during each change", "Inspect wounds for discoloration or haemorrhage (infection signs)", "Systemic antibiotics: for haemolytic streptococcal infection or septicaemia", "Pseudomonas infection → treat with systemic aminoglycosides", "Topical agents: silver nitrate 0.5% (cheap, occlusive dressings, no eschar penetration, causes electrolyte loss & stains); silver sulfadiazine 1% (with single-layer dressing, limited eschar penetration, may cause neutropenia); mafenide acetate 11% (no dressings, penetrates eschar, may cause acidosis). Strategy: alternate agents if needed")],
+    [C("Special Care – Hands"), L("Cover with silver sulfadiazine & place in loose polythene gloves/bags, secured with crepe bandage", "Elevate hands for first 48 hrs → then start hand exercises", "Once daily: remove gloves, bathe, inspect burns, reapply cream & gloves")],
+    [C("Surgical Care"), L("If skin grafting is required → refer to a specialist after healthy granulation tissue appears")]],
+   pages=[175, 176], source_flags=["Table continues onto p.176 with the header repeated. '&' is printed as 'C' in several places (font substitution)."]),
+]
