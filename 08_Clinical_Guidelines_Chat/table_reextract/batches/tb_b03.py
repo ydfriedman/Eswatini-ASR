@@ -87,3 +87,27 @@ ITEMS = [
    [[{"t": "Drug"}, {"t": "Dosage (mg/kg)"}, {"t": ""}]],
    [[{"t": "Isoniazid (H)"}, {"t": "15-20"}, {"t": "Higher end of dosing for younger<br/>children and lower end for older<br/>children."}], [{"t": "Rifampicin (R)"}, {"t": "22.5-30"}, {"t": ""}], [{"t": "Pyrazinamide (Z)"}, {"t": "35-45"}, {"t": ""}], [{"t": "Ethionamide (Eto)"}, {"t": "17.5-22.5"}, {"t": ""}]], **{'pages': [152], 'context_before': 'Table 38: Recommended dosing for 6RHZ+Ethionamide regimen for TB meningitis in children and adolescents'}),
 ]
+# Hand fixes after generation
+for it in ITEMS:
+    if it['table_id'].endswith('p149-0372'):   # Table 35 only; the next piece (0374) belongs to Table 36
+        cut = next(i for i, r in enumerate(it['body']) if isinstance(r, list) and r[0]['t'].startswith('Child friendly'))
+        it['body'] = it['body'][:cut]
+        it['header'] = [[C("Danger signs (IMCI), age <5 yrs"), C("Danger signs (ETAT), age 5-9 yrs"), C("Priority signs, age <10 yrs")]]
+        it['body'] = [[c for c in r][:3] if isinstance(r, list) else r for r in it['body']][1:] if it['body'] and isinstance(it['body'][0], list) and it['body'][0][0]['t'].startswith('Danger') else [[c for c in r][:3] for r in it['body']]
+        it['body'].append([C("Neurological:<br/>- Seizures<br/>- Profoundly lethargic, unconscious<br/>- Neck stiffness or bulging fontanelle"), C("Neurological:<br/>- Coma (or seriously reduced level of consciousness)<br/>- Seizures"), C("")])
+        it['pages'] = [149, 150]
+        it['replaces_chunks'] = [c for c in it['replaces_chunks'] if not c.endswith('0374')]
+        it['caption'] = "Table 35: Danger and high-priority signs for children <10 years (IMCI danger signs <5 yrs, ETAT danger signs 5-9 yrs, priority signs) used to assess TB severity"
+    if it['table_id'].endswith('p150-0376'):
+        it['replaces_chunks'] = it['replaces_chunks'] + ['tb-2025-0374']
+# Clinical read (source problems in the guideline itself)
+FLAGS = {
+ "tbl-p111-0271": ["Treatment failure is defined as 'sputum culture positive at 2 months, or smear positive at 5 months or later'. In the WHO definitions failure is a positive smear/culture at month 5 or later (or treatment change); a positive culture at month 2 is not treatment failure."],
+ "tbl-p110-0266": ["Interruptions of '> 7 weeks' are classed as lost to follow-up, but Table 19 defines LTFU as interruption for 2 or more consecutive months (about 8.7 weeks)."],
+ "tbl-p112-0274": ["The title says 'pulmonary resuscitation'; the content is pulmonary rehabilitation (also Table 21). 'Sings of repository distress' should read 'signs of respiratory distress'."],
+ "tbl-p150-0376": ["Babies <4 kg: for 2.9 kg the intensive-phase dose is ½ tablet but the instruction says 'give 5 ml (1/2)' (half of the 20 ml solution is 10 ml); the continuation-phase cell says ¼ but the instruction gives 10 ml (1/2).", "Weight bands are printed as '2 kg', '2.9 kg', '3-3.9 kg', leaving gaps (e.g. 2.1-2.8 kg)."],
+ "tbl-p120-0296": ["Longer regimen row: 'military TB' should be 'miliary TB'."],
+}
+for it in ITEMS:
+    for k, v in FLAGS.items():
+        if it['table_id'].endswith(k): it['source_flags'] = it.get('source_flags', []) + v

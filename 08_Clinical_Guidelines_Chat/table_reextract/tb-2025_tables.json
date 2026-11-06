@@ -2597,7 +2597,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Interruptions of '> 7 weeks' are classed as lost to follow-up, but Table 19 defines LTFU as interruption for 2 or more consecutive months (about 8.7 weeks)."
+   ],
    "pages": [
     110
    ],
@@ -2690,7 +2692,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Treatment failure is defined as 'sputum culture positive at 2 months, or smear positive at 5 months or later'. In the WHO definitions failure is a positive smear/culture at month 5 or later (or treatment change); a positive culture at month 2 is not treatment failure."
+   ],
    "pages": [
     111
    ],
@@ -2959,7 +2963,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "The title says 'pulmonary resuscitation'; the content is pulmonary rehabilitation (also Table 21). 'Sings of repository distress' should read 'signs of respiratory distress'."
+   ],
    "pages": [
     112,
     113,
@@ -3125,7 +3131,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Longer regimen row: 'military TB' should be 'miliary TB'."
+   ],
    "pages": [
     120
    ]
@@ -5962,56 +5970,26 @@
    "page": 149,
    "image_only": false,
    "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old)",
-   "caption": "8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) (Age <5 yrs, Age <5-9 yrs, Age <10 yrs)",
+   "caption": "Table 35: Danger and high-priority signs for children <10 years (IMCI danger signs <5 yrs, ETAT danger signs 5-9 yrs, priority signs) used to assess TB severity",
    "replaces_chunks": [
     "tb-2025-0372",
-    "tb-2025-0373",
-    "tb-2025-0374"
+    "tb-2025-0373"
    ],
    "row_header_cols": 1,
    "header": [
     [
      {
-      "t": "Age <5 yrs"
+      "t": "Danger signs (IMCI), age <5 yrs"
      },
      {
-      "t": "Age <5-9 yrs"
+      "t": "Danger signs (ETAT), age 5-9 yrs"
      },
      {
-      "t": "Age <10 yrs"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Priority signs, age <10 yrs"
      }
     ]
    ],
    "body": [
-    [
-     {
-      "t": "Danger Signs (IMCI)"
-     },
-     {
-      "t": "Danger Signs (ETAT)"
-     },
-     {
-      "t": "Priority Signs"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
     [
      {
       "t": "Gastrointestinal/circulatory: - Unable to eat or drink - Vomiting up everything - Signs of severe dehydration (sunken eyes, skin pinch returns very slowly) - Severe palmar pallor"
@@ -6021,15 +5999,6 @@
      },
      {
       "t": "Any sick child aged <2 months - High fever (>39° C) - Severe pallor - Respiratory distress - Restless, continuously irritable, lethargic - Severe acute malnutrition (SAM)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -6041,152 +6010,14 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
+      "t": "Neurological:<br/>- Seizures<br/>- Profoundly lethargic, unconscious<br/>- Neck stiffness or bulging fontanelle"
      },
      {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     },
-     {
-      "t": "Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets"
-     }
-    ],
-    [
-     {
-      "t": "WT Bands (Kg)"
-     },
-     {
-      "t": "Intensive Phase<br/>RHZ (75/50/150) Mg"
-     },
-     {
-      "t": "E (100 mg)"
-     },
-     {
-      "t": "How to prepare the medicine"
-     },
-     {
-      "t": "Continuation Phase<br/>RH (75/50 mg)"
-     },
-     {
-      "t": "How to prepare the medicine"
-     }
-    ],
-    [
-     {
-      "t": "2 kg"
-     },
-     {
-      "t": "¼"
-     },
-     {
-      "t": "¼"
-     },
-     {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/4) of this solution measured with a syringe."
-     },
-     {
-      "t": "¼"
-     },
-     {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 5 ml (1/4) of this solution measured with a syringe."
-     }
-    ],
-    [
-     {
-      "t": "2.9 kg"
-     },
-     {
-      "t": "½"
-     },
-     {
-      "t": "½"
-     },
-     {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 5 ml (1/2) of this solution measured with a syringe."
-     },
-     {
-      "t": "¼"
-     },
-     {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, give 10 ml (1/2) of this solution measured with a syringe."
-     }
-    ],
-    [
-     {
-      "t": "3-3.9 kg"
-     },
-     {
-      "t": "¾"
-     },
-     {
-      "t": "¾"
-     },
-     {
-      "t": "Dissolve one (1) tablet of RHZ in 20 ml of safe drinking water. Once fully dissolved, add the completely crushed one (1) tablet of Ethambutol and give 15ml (3/4) of this solution measured with a syringe"
-     },
-     {
-      "t": "¾"
-     },
-     {
-      "t": "Dissolve one (1) tablet of RH in 20 ml of safe drinking water. Once fully dissolved, give 15ml (3/4) of this solution measured with a syringe."
-     }
-    ],
-    [
-     {
-      "t": "Vit B6"
-     },
-     {
-      "t": "Give 1-2 mg/kg/day of vitamin B6 (25 mg tablets)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Ethambutol is not dissolvable: crush before adding to the liquid After giving the child their dose for that day, discard the rest of the solution. Prepare a fresh solution every day. If volumes are too high the tablet may also be dissolved in 10 ml maintaining the same fraction of medication delivered"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Neurological:<br/>- Coma (or seriously reduced level of consciousness)<br/>- Seizures"
      },
      {
       "t": ""
@@ -6208,7 +6039,8 @@
    "caption": "Table 36. Recommended treatment regimen and anti-TB drug dosages for paediatrics (Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of Tablets, Child friendly dispersible TB medicine for a baby <4 kg<br/>Number of T)",
    "replaces_chunks": [
     "tb-2025-0376",
-    "tb-2025-0377"
+    "tb-2025-0377",
+    "tb-2025-0374"
    ],
    "row_header_cols": 1,
    "header": [
@@ -6356,7 +6188,10 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Babies <4 kg: for 2.9 kg the intensive-phase dose is ½ tablet but the instruction says 'give 5 ml (1/2)' (half of the 20 ml solution is 10 ml); the continuation-phase cell says ¼ but the instruction gives 10 ml (1/2).",
+    "Weight bands are printed as '2 kg', '2.9 kg', '3-3.9 kg', leaving gaps (e.g. 2.1-2.8 kg)."
+   ],
    "pages": [
     150
    ],
@@ -6700,12 +6535,45 @@
   "tb-2025-0123": "Chapter 3: Tuberculosis Case Finding > 3.6 Recording of TB Case-finding Activities",
   "tb-2025-0165": "Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological Diagnosis > Diagnostic Algorithm Notes (Figure 15)",
   "tb-2025-0175": "Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 LF-LAM in PLHIV > Notes to Figure 18",
-  "tb-2025-0182": "Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes"
+  "tb-2025-0182": "Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes",
+  "tb-2025-0224": "Chapter 5: Quality Assurance of Laboratory Services > 5.4.3 Expired/Damaged Laboratory and Drug Commodities; Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.1 The Aims of TB Treatment",
+  "tb-2025-0227": "Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.2 Treatment Initiation > (b) History Taking and Baseline Examination",
+  "tb-2025-0232": "Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.4 Standard TB Treatment Regimens for Adults > Regimen Codes",
+  "tb-2025-0237": "Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.4 Treatment Regimens (Previously Treated Patients); 6.5 Pyridoxine Supplementation",
+  "tb-2025-0251": "Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.6.8 Treatment for Patients with Liver Disorders > Hepatoprotection",
+  "tb-2025-0269": "Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.9 Care and Support for People with TB",
+  "tb-2025-0275": "Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.12 Post-TB Lung Disease > Assessment (Table 20)",
+  "tb-2025-0287": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.2 Anti-TB Drugs Used in DR-TB Treatment > Notes to Table 23",
+  "tb-2025-0290": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.1 DR-TB Treatment Considerations > Before Initiation of Treatment",
+  "tb-2025-0292": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.3 Treatment of DR-TB > Figure 20 Notes; Box 1: Eligibility for BPaLM",
+  "tb-2025-0301": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.4 RR/MDR-TB Treatment Regimens > (ii) 9-month Bdq-based Regimens; (iii) Longer Regimens",
+  "tb-2025-0302": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.4 RR/MDR-TB Treatment Regimens > (iv) Isoniazid-resistant TB",
+  "tb-2025-0307": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.5.2 CNS or Osteoarticular Disease; 7.3.5.3 People with Hepatic Disease",
+  "tb-2025-0314": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.5.7 Monitoring Treatment Progress",
+  "tb-2025-0324": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.9 Social Protection at the Community Level; 7.10 Treatment Support for Detection and Management of ADRs",
+  "tb-2025-0325": "Chapter 7: Drug-Resistant Tuberculosis Management > 7.10 Treatment Support for Detection and Management of ADRs",
+  "tb-2025-0340": "Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines",
+  "tb-2025-0341": "Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines",
+  "tb-2025-0342": "Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines",
+  "tb-2025-0343": "Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines",
+  "tb-2025-0344": "Chapter 7: Drug-Resistant Tuberculosis Management > Specific Comments on Dosing Children with Second-line MDR-TB Medicines",
+  "tb-2025-0349": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.2.4 C-Reactive Protein; 8.2.5 Defining Presumptive TB",
+  "tb-2025-0353": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.2 Laboratory Diagnosis of Childhood TB",
+  "tb-2025-0355": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.2 Laboratory Diagnosis > Sample Collection Procedures (Table 32)",
+  "tb-2025-0358": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.3 Diagnosis of EPTB in Children",
+  "tb-2025-0363": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.4 Clinical Diagnosis > Figure 22 (Decision Tree without CXR)",
+  "tb-2025-0369": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.1 Recommended Regimens > Notes to Table 34",
+  "tb-2025-0370": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity of TB Disease in Children",
+  "tb-2025-0371": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity > Mild (Non-severe) TB",
+  "tb-2025-0387": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 Treatment of Drug-resistant TB in Children",
+  "tb-2025-0388": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 DR-TB in Children (Monitoring); 8.13 Management of a Newborn from a Mother with TB",
+  "tb-2025-0389": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.13 Management of a Newborn from a Mother with TB",
+  "tb-2025-0390": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.14 TB Preventive Treatment in Children"
  },
  "text_merge": {},
  "text_drop": [],
  "text_fix_pages": [
   1,
-  84
+  157
  ]
 }

@@ -1519,7 +1519,7 @@ tb-2025-0360,replaced,tb-2025-tbl-p144-0360
 tb-2025-0368,replaced,tb-2025-tbl-p148-0368
 tb-2025-0372,replaced,tb-2025-tbl-p149-0372
 tb-2025-0373,replaced,tb-2025-tbl-p149-0372
-tb-2025-0374,replaced,tb-2025-tbl-p149-0372
+tb-2025-0374,replaced,tb-2025-tbl-p150-0376
 tb-2025-0376,replaced,tb-2025-tbl-p150-0376
 tb-2025-0377,replaced,tb-2025-tbl-p150-0376
 tb-2025-0378,replaced,tb-2025-tbl-p151-0378
@@ -1564,13 +1564,45 @@ tb-2025-0177,cleaned,
 tb-2025-0182,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > Table 11: A brief details of type of EP-TB, clinical features and diagnostic procedure => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes"
 tb-2025-0198,emptied,
 tb-2025-0209,cleaned,
+tb-2025-0224,label,6.1 The aims of TB treatment > Scenarios to place an emergency order => Chapter 5: Quality Assurance of Laboratory Services > 5.4.3 Expired/Damaged Laboratory and Drug Commodities; Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.1 The Aims of TB Treatment
+tb-2025-0227,label,6.2 Treatment Initiation > Treatment of Drug-Susceptible Tuberculosis > (b) History Taking and Baseline Examination => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.2 Treatment Initiation > (b) History Taking and Baseline Examination
+tb-2025-0232,label,6.4 Standard TB treatment regimens for adults => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.4 Standard TB Treatment Regimens for Adults > Regimen Codes
+tb-2025-0237,label,6.4 Standard TB treatment regimens for adults > Table 14: Recommended treatment regimen and dosages for adult cases of new and re-registered cases => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.4 Treatment Regimens (Previously Treated Patients); 6.5 Pyridoxine Supplementation
+tb-2025-0251,label,6.6 Treatment of Extra-Pulmonary Tuberculosis (EPTB) > The mechanism of hepatoprotection is three-fold. => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.6.8 Treatment for Patients with Liver Disorders > Hepatoprotection
+tb-2025-0269,label,6.9 Care and support people with TB => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.9 Care and Support for People with TB
+tb-2025-0275,label,6.12 Post-TB Lung Disease > Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.12 Post-TB Lung Disease > Assessment (Table 20)
+tb-2025-0287,label,7.2 Anti-TB drugs used in DR-TB treatment > Table 23: Medicines Grouping in order of priority (source: WHO) => Chapter 7: Drug-Resistant Tuberculosis Management > 7.2 Anti-TB Drugs Used in DR-TB Treatment > Notes to Table 23
 tb-2025-0290,cleaned,
+tb-2025-0290,label,7.3 Treatment of DR-TB > Before initiation of treatment > Figure 20: Algorithm for treatment selection and modification => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.1 DR-TB Treatment Considerations > Before Initiation of Treatment
+tb-2025-0292,label,7.3 Treatment of DR-TB > 7.3.2 Eligibility to BPaLM/BPaL or mSTR regimen > Box 1: Eligibility criteria for the BPaLM regimen => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3 Treatment of DR-TB > Figure 20 Notes; Box 1: Eligibility for BPaLM
 tb-2025-0295,cleaned,
+tb-2025-0301,label,"7.3 Treatment of DR-TB > 7.3.4 RR/MDR-TB treatment regimens > (c) Switch to ITR shall be considered earlier in patients with a clear lack of response (clinically, smear grading, culture). > (i) 6-month Bdq-Dlm-Lzd-Lfx-Cfz treatment regimen => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.4 RR/MDR-TB Treatment Regimens > (ii) 9-month Bdq-based Regimens; (iii) Longer Regimens"
+tb-2025-0302,label,"7.3 Treatment of DR-TB > 7.3.4 RR/MDR-TB treatment regimens > (c) Switch to ITR shall be considered earlier in patients with a clear lack of response (clinically, smear grading, culture). > (i) 6-month Bdq-Dlm-Lzd-Lfx-Cfz treatment regimen => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.4 RR/MDR-TB Treatment Regimens > (iv) Isoniazid-resistant TB"
+tb-2025-0307,label,7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.5.2 CNS or Osteoarticular Disease; 7.3.5.3 People with Hepatic Disease
 tb-2025-0312,cleaned,
+tb-2025-0314,label,7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations > 7.3.5.7 Monitoring treatment progress => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.5.7 Monitoring Treatment Progress
+tb-2025-0324,label,"7.6 Domiciliary, ambulatory and inpatient care => Chapter 7: Drug-Resistant Tuberculosis Management > 7.9 Social Protection at the Community Level; 7.10 Treatment Support for Detection and Management of ADRs"
+tb-2025-0325,label,"7.6 Domiciliary, ambulatory and inpatient care => Chapter 7: Drug-Resistant Tuberculosis Management > 7.10 Treatment Support for Detection and Management of ADRs"
+tb-2025-0340,label,7.13 Post-treatment follow-up of DR-TB cases > Notes => Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines
+tb-2025-0341,label,7.13 Post-treatment follow-up of DR-TB cases > Notes => Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines
+tb-2025-0342,label,7.13 Post-treatment follow-up of DR-TB cases > Notes => Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines
+tb-2025-0343,label,7.13 Post-treatment follow-up of DR-TB cases > Notes => Chapter 7: Drug-Resistant Tuberculosis Management > Table 31 Notes: Weight-based Dosing of MDR-TB Medicines
+tb-2025-0344,label,7.13 Post-treatment follow-up of DR-TB cases > Notes > Specific comments on dosing children with medicines used in second-line MDR-TB regimens => Chapter 7: Drug-Resistant Tuberculosis Management > Specific Comments on Dosing Children with Second-line MDR-TB Medicines
+tb-2025-0349,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.2 Systematic Screening of TB in children > 8.2.1 TB Symptom Screening Tool => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.2.4 C-Reactive Protein; 8.2.5 Defining Presumptive TB"
+tb-2025-0353,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > 8.3.1 Clinical assessment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.2 Laboratory Diagnosis of Childhood TB"
 tb-2025-0355,cleaned,
+tb-2025-0355,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.2 Laboratory Diagnosis > Sample Collection Procedures (Table 32)"
+tb-2025-0358,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.3 Diagnosis of EPTB in Children"
 tb-2025-0361,emptied,
 tb-2025-0363,cleaned,
-tb-2025-0370,cleaned,
+tb-2025-0363,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection > Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.4 Clinical Diagnosis > Figure 22 (Decision Tree without CXR)"
+tb-2025-0369,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.1 Recommended Regimens > Notes to Table 34"
+tb-2025-0370,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity of TB Disease in Children"
+tb-2025-0371,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) > Mild TB symptoms that do not require hospitalization are => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity > Mild (Non-severe) TB"
+tb-2025-0387,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 Treatment of Drug-resistant TB in Children"
+tb-2025-0388,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 DR-TB in Children (Monitoring); 8.13 Management of a Newborn from a Mother with TB"
+tb-2025-0389,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.13 Management of a Newborn from a Mother with TB"
+tb-2025-0390,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.14 TB Preventive Treatment in Children"
 tb-2025-0402,emptied,
 tb-2025-0469,emptied,
 tb-2025-0472,emptied,
@@ -1586,6 +1618,7 @@ tb-2025-0610,cleaned,
 tb-2025-0614,cleaned,
 tb-2025-0698,emptied,
 tb-2025-0002,heading moved to,tb-2025-0012
+tb-2025-0363,trailing heading dropped (next is a table/flowchart),## **Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available)**
 tb-2025-0087,merged into,tb-2025-0086
 tb-2025-0118,merged into,tb-2025-0117
 tb-2025-0163,merged into,tb-2025-0162
