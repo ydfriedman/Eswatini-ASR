@@ -22,3 +22,17 @@ Rows are sorted by document, then PDF page, so you can work through each PDF onc
 | Random baseline, 2 per document (gives a general error rate) | 20 | C |
 
 When you are done, your "Merged" verdicts go into `VERIFIED_HV` in `chunks_v2/scripts/fix_tables.py`, and any Major issues become fixes in the build.
+
+## v3 sample (re-extracted chunks, eight guidelines)
+
+`build_validation_v3.py` → `chunk_validation_v3.xlsx` + `chunk_viewer_v3.html`: 200 items from `chunks_v3`
+(HIV Amendment 2024, NCDIMH, PrEP 2025, ANC, Linkages SOP, TB 2025, FP 2021, Mental Health desk guide).
+One row per re-extracted table/flowchart (embedding parts collapsed), plus text chunks.
+
+| Priority | Why picked |
+|---|---|
+| A | Tables rebuilt from old chunks with doses/criteria (cell placement not auto-checked); dosing tables transcribed from page images; items carrying clinically significant source flags |
+| B | Flowcharts kept from the old parse; other rebuilt tables; safety-critical text chunks |
+| C | Random baseline per document (2 items + 2 text chunks) |
+
+"How produced" is derived from the batch files in `table_reextract/batches`; the Summary sheet counts Major issues per method.
