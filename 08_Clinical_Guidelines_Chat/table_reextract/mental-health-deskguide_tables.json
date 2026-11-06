@@ -1008,11 +1008,11 @@
    "table_id": "mental-health-deskguide-tbl-p36-0068",
    "page": 36,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Grief and Bereavement > Types of complicated grief",
-   "caption": "Types of complicated grief (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Grief and Bereavement > Table 8: Summary of classification of grief and bereavement",
+   "caption": "Table 8: Summary of classification and classification of grief and bereavement",
    "replaces_chunks": [
     "mental-health-deskguide-0068",
-    "mental-health-deskguide-0070"
+    "mental-health-deskguide-0069"
    ],
    "row_header_cols": 1,
    "header": [
@@ -1031,35 +1031,46 @@
    "body": [
     [
      {
-      "t": "If an individual experienced the death of someone with a close relationship<br/>PLUS at least one of the following symptoms to a clinically significant degree and has persisted for at least 12 moths;- Persistent yearning/longing for the deceased"
+      "t": "If an individual experienced the death of someone with a close relationship<br/>PLUS at least one of the following symptoms to a clinically significant degree and has persisted for at least 12 moths;<br/>• Persistent yearning/longing for the deceased<br/>• Intense sorrow and emotional pain in response to the death<br/>• Preoccupation with the deceased<br/>• Preoccupation with the circumstances of the death<br/>PLUS at least six of the following symptoms;<br/>• Marked difficult in accepting death<br/>• Experiencing disbelief or emotional numbness over the loss<br/>• Difficulty with positive reminiscing about the deceased<br/>• Bitterness or anger related to the loss<br/>• Maladaptive appraisals about oneself in relation to the deceased or the death<br/>• Excessive avoidance of reminders of the loss<br/>• A desire to die in order to be with the deceased<br/>• Difficulty trusting other individuals since the death<br/>• Feeling alone or detached from others since the death.<br/>• Feeling life is meaningless or empty without the deceased<br/>• Confusion about one's role in life or a diminished sense of one's identity<br/>• Difficulty or reluctance to pursue interests since the loss or plan for the future"
      },
      {
-      "t": ""
+      "t": "PERSISTENT COMPLEX BEREAVEMENT DISORDER"
      },
      {
-      "t": ""
+      "t": "• Refer or provide the following interventions;<br/>• Support and counselling<br/>• Assess for symptoms of Major Depressive Disorder<br/>• Refer to the Clinical Psychologist for psychotherapy if there is no improvement with counselling."
      }
-    ],
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "'12 moths' (months). The first symptom list says 'at least one of the following' – DSM-5 persistent complex bereavement disorder requires at least one of these four and at least six of the twelve that follow, as the table states."
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-37-stepwise-grief",
+   "page": 37,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Grief and Bereavement > Table 9: Stepwise management of grief",
+   "caption": "Table 9: Stepwise management of grief",
+   "replaces_chunks": [
+    "mental-health-deskguide-0070"
+   ],
+   "row_header_cols": 1,
+   "header": [
     [
      {
       "t": "Entry point"
      },
      {
       "t": "Management"
-     },
-     {
-      "t": ""
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
-      "t": "Step 1: Community Clinic Level"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Step 1: Community Clinic Level",
+      "cs": 2
      }
     ],
     [
@@ -1068,20 +1079,12 @@
      },
      {
       "t": "• Take vital signs<br/>• Conduct physical examination<br/>• Conduct MSE<br/>• Provide support and counseling<br/>• Assess for MDD<br/>• If there is no improvement after a month, go to step 2"
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Step 2: General Hospital or Health Centre"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Step 2: General Hospital or Health Centre",
+      "cs": 2
      }
     ],
     [
@@ -1090,20 +1093,12 @@
      },
      {
       "t": "• Take vital signs<br/>• Conduct physical examination<br/>• Conduct MSE<br/>• Provide support and counseling<br/>• Prescribe medications<br/>• If there is no improvement after a month, go to step 3"
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Step 3: National Psychiatric Referral Hospital"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Step 3: National Psychiatric Referral Hospital",
+      "cs": 2
      }
     ],
     [
@@ -1112,17 +1107,12 @@
      },
      {
       "t": "• Doctor and Clinical Psychologist led services"
-     },
-     {
-      "t": ""
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    36,
-    37
+   "source_flags": [
+    "Step 2 says 'Prescribe medications' without naming which; no grief-specific medication guidance is given."
    ]
   },
   {
@@ -1461,9 +1451,14 @@
    "page": 45,
    "image_only": false,
    "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Schizophrenia and Other Psychosis > Table 13: Summary of Classification and Management of Schizophrenia & Other Psychosis",
-   "caption": "TABLE 13: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF SCHIZOPHRENIA & OTHER PSYCHOSIS: Table 13: Summary of Classification and Management of Schizophrenia & Other Psychosis (SIGNS, CLASSIFY AS:, MANAGEMENT)",
+   "caption": "Table 13: Summary of classification and management of schizophrenia & other psychosis",
    "replaces_chunks": [
-    "mental-health-deskguide-0089"
+    "mental-health-deskguide-0089",
+    "mental-health-deskguide-0090",
+    "mental-health-deskguide-0091",
+    "mental-health-deskguide-0092",
+    "mental-health-deskguide-0093",
+    "mental-health-deskguide-0095"
    ],
    "row_header_cols": 1,
    "header": [
@@ -1482,62 +1477,24 @@
    "body": [
     [
      {
-      "t": "If the patient has two or more of the following symptoms for not less than 6 months:- Speech that is difficult to understand"
+      "t": "If the patient has two or more of the following symptoms for not less than 6 months:<br/>• Speech that is difficult to understand<br/>• Delusions<br/>• Hallucinations<br/>• Marked unusual behaviour e.g. lack of self-care etc.<br/>• Negative symptoms i.e. blunt affect, impairment in linguistic ability, decrease in motivation etc.<br/>NB: If the above symptoms are present for a period of less than six months, diagnosis is Schizophreniform Disorder"
      },
      {
-      "t": ""
+      "t": "SCHIZOPHRENIA"
      },
      {
-      "t": ""
+      "t": "Initiate the following interventions or refer<br/>• Anti-psychotics (Refer page 64)<br/>• PLUS a sedative if the patient presents with insomnia<br/>• Psycho-education (Refer page 89)<br/>• Adherence counseling (Refer page 81)<br/>• Family involvement (Refer page 81)<br/>• Occupational therapy"
      }
-    ]
-   ],
-   "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    45
-   ],
-   "context_before": "TABLE 13: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF SCHIZOPHRENIA & OTHER PSYCHOSIS"
-  },
-  {
-   "table_id": "mental-health-deskguide-tbl-p45-0091",
-   "page": 45,
-   "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Schizophrenia and Other Psychosis",
-   "caption": "TABLE 14: STEPWISE MANAGEMENT OF SCHIZOPHRENIA AND OTHER PSYCHOTIC DISORDERS: Schizophrenia and Other Psychosis (Condition, Diagnosis, Interventions)",
-   "replaces_chunks": [
-    "mental-health-deskguide-0091",
-    "mental-health-deskguide-0092",
-    "mental-health-deskguide-0093",
-    "mental-health-deskguide-0095",
-    "mental-health-deskguide-0097",
-    "mental-health-deskguide-0099",
-    "mental-health-deskguide-0101"
-   ],
-   "row_header_cols": 1,
-   "header": [
+    ],
     [
      {
-      "t": "Condition"
-     },
-     {
-      "t": "Diagnosis"
-     },
-     {
-      "t": "Interventions"
-     }
-    ]
-   ],
-   "body": [
-    [
-     {
-      "t": "If the patient has one or more of the following symptoms for a duration of symptoms, at least one day but less than one month: 1. Speech that is difficult to understand 2. Delusions 3. Hallucinations 4. Marked unusual behaviour"
+      "t": "If the patient has one or more of the following symptoms for a duration of symptoms, at least one day but less than one month:<br/>1. Speech that is difficult to understand<br/>2. Delusions<br/>3. Hallucinations<br/>4. Marked unusual behaviour"
      },
      {
       "t": "BRIEF PSYCHOTIC DISORDER"
      },
      {
-      "t": "Consider the same interventions for managing schizophrenia"
+      "t": "• Consider the same interventions for managing schizophrenia"
      }
     ],
     [
@@ -1559,7 +1516,7 @@
       "t": "SCHIZOAFFECTIVE DISORDER"
      },
      {
-      "t": "Initiate the following interventions or refer<br/>• Anti-psychotics Refer page 64<br/>• PLUS a mood stabilizer Refer page 69<br/>• PLUS a sedative if the patient presents with insomnia<br/>• Psycho-education Refer page 89<br/>• Adherence counseling Refer page 81<br/>• Family involvement<br/>• Assess for suicidal risk Refer page 99"
+      "t": "Initiate the following interventions or refer<br/>• Anti-psychotics (Refer page 64)<br/>• PLUS a mood stabilizer (Refer page 69)<br/>• PLUS a sedative if the patient presents with insomnia<br/>• Psycho-education (Refer page 89)<br/>• Adherence counseling (Refer page 81)<br/>• Family involvement<br/>• Assess for suicidal risk (Refer page 99)"
      }
     ],
     [
@@ -1575,102 +1532,96 @@
     ],
     [
      {
-      "t": "If the patient has: - Either hallucinations or delusions or both - Evidence from history, physical examination or laboratory findings of hallucinations and/or delusions developed during or soon after substance intoxication or withdrawal or after exposure to a medication. - The involved substance or medication is capable of producing hallucinations and/or delusions. - No presence of a mental condition"
+      "t": "If the patient has:<br/>• Either hallucinations or delusions or both<br/>• Evidence from history, physical examination or laboratory findings of hallucinations and/or delusions developed during or soon after substance intoxication or withdrawal or after exposure to a medication.<br/>• The involved substance or medication is capable of producing hallucinations and/or delusions.<br/>• No presence of a mental condition"
      },
      {
       "t": "SUBSTANCE INDUCED PSYCHOTIC DISORDER"
      },
      {
-      "t": "- Consider the same interventions for managing schizophrenia - PLUS substance use education and counseling - Conduct multi drug test"
+      "t": "• Consider the same interventions for managing schizophrenia<br/>• PLUS substance use education and counseling<br/>• Conduct multi drug test"
      }
-    ],
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The NB in the schizophrenia row says symptoms for less than six months mean schizophreniform disorder, but brief psychotic disorder (one day to under one month) is also under six months; the schizophreniform row correctly says one to six months."
+   ],
+   "pages": [
+    45,
+    46,
+    47
+   ]
+  },
+  {
+   "table_id": "mental-health-deskguide-tbl-p45-0091",
+   "page": 48,
+   "image_only": false,
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Schizophrenia and Other Psychosis > Table 14: Stepwise Management of Schizophrenia and Other Psychotic Disorders",
+   "caption": "Table 14: Stepwise management of schizophrenia and other psychotic disorders",
+   "replaces_chunks": [
+    "mental-health-deskguide-0097",
+    "mental-health-deskguide-0099",
+    "mental-health-deskguide-0101"
+   ],
+   "row_header_cols": 1,
+   "header": [
     [
      {
       "t": "Entry point"
      },
      {
       "t": "Management"
-     },
+     }
+    ]
+   ],
+   "body": [
+    [
      {
-      "t": ""
+      "t": "Step 1: Community Clinic Level",
+      "cs": 2
      }
     ],
     [
      {
-      "t": "Step 1: Community Clinic Level"
+      "t": "The following conditions, stable on treatment<br/>• Schizophrenia<br/>• Schizophreniform disorder<br/>• Schizoaffective disorder<br/>• Brief Psychotic Disorder<br/>• Substance Induced Psychotic Disorder<br/>• Psychotic Disorder Due To A General Medical Condition"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "• Take vital signs<br/>• Conduct MSE and physical examination<br/>• Adherence counselling<br/>• Family involvement<br/>• Assess side effects of medications<br/>• Refill medications as indicated<br/>• Refer to Doctor led services every 6 months for review."
      }
     ],
     [
      {
-      "t": "The following conditions, stable on treatment- Schizophrenia"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Step 2: General Hospital or Health Centre",
+      "cs": 2
      }
     ],
     [
      {
-      "t": "Step 2: General Hospital or Health Centre"
+      "t": "• Failure step 1<br/>• Moderate psychotic symptoms of the following;<br/>o Psychotic Disorder Due To A General Medical Condition<br/>o Schizophrenia<br/>o Schizophreniform disorder<br/>o Schizoaffective disorder<br/>o Brief Psychotic Disorder<br/>o Substance Induced Psychotic Disorder<br/>o Psychotic Disorder Due To A General Medical Condition"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "• Take vital signs<br/>• Conduct physical examination<br/>• Conduct Mental Status Evaluation<br/>• Review medications and prescribe as indicated<br/>• Provide psychosocial support<br/>• If not improved within 2 weeks refer to Doctor led services<br/>• If no improvement go to step 3"
      }
     ],
     [
      {
-      "t": "- Failure step 1"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Step 3: National Psychiatric Referral Hospital",
+      "cs": 2
      }
     ],
     [
      {
-      "t": "Step 3: National Psychiatric Referral Hospital"
+      "t": "• Failure step 2<br/>• Pregnant women, breastfeeding mothers, children and elderly with schizophrenia and other psychosis<br/>• Severe acute psychotic symptoms<br/>o Psychotic Disorder Due To A General Medical Condition<br/>o Schizophrenia<br/>o Schizophreniform disorder<br/>o Schizoaffective disorder<br/>o Brief Psychotic Disorder<br/>o Substance Induced Psychotic Disorder"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "- Failure step 2"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Doctor led services at NPRH"
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    45,
-    46,
-    47,
-    48
-   ],
-   "context_before": "TABLE 14: STEPWISE MANAGEMENT OF SCHIZOPHRENIA AND OTHER PSYCHOTIC DISORDERS"
+   "source_flags": [
+    "Step 2 and Step 3 lists name 'Psychotic Disorder Due To A General Medical Condition' and 'Schizophrenia' run together, and Step 2 lists the general-medical-condition disorder twice; Table 13 says this disorder should not be referred to the NPRH, yet Step 3 includes it."
+   ]
   },
   {
    "table_id": "mental-health-deskguide-tbl-p49-0104",
@@ -1943,10 +1894,11 @@
    "table_id": "mental-health-deskguide-tbl-p53-0114",
    "page": 53,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders",
-   "caption": "Substance-Related and Addictive Disorders (If the patient has, ALCOHOL INTOXICATION)",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders > Table 17 (continued): alcohol intoxication, withdrawal and use disorder",
+   "caption": "Table 17 (continued): Alcohol intoxication, alcohol withdrawal and alcohol use disorder",
    "replaces_chunks": [
     "mental-health-deskguide-0114",
+    "mental-health-deskguide-0115",
     "mental-health-deskguide-0116",
     "mental-health-deskguide-0118",
     "mental-health-deskguide-0119",
@@ -1956,26 +1908,26 @@
    "header": [
     [
      {
-      "t": "If the patient has"
+      "t": "SIGNS"
      },
      {
-      "t": "ALCOHOL INTOXICATION"
+      "t": "CLASSIFY AS:"
      },
      {
-      "t": ""
+      "t": "MANAGEMENT"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "• Recent use of alcohol • Change of behavior that developed during or shortly after alcohol • PLUS one or more of the following symptoms developing during or shortly after alcohol;- Slurred speech"
+      "t": "If the patient has<br/>• Recent use of alcohol<br/>• Change of behavior that developed during or shortly after alcohol<br/>• PLUS one or more of the following symptoms developing during or shortly after alcohol;<br/>o Slurred speech<br/>o Incoordination<br/>o Unsteady gait<br/>o Nystagmus<br/>o Impairment in attention or memory<br/>o Stupor or coma"
      },
      {
-      "t": ""
+      "t": "ALCOHOL INTOXICATION"
      },
      {
-      "t": ""
+      "t": "• Initiate the following interventions or refer<br/>• ABC<br/>• Supplemental oxygen if in coma<br/>• Random Blood Glucose testing and management<br/>• Check Serum Creatinine and Urea, ALAT & ASAT, CBC, electrolytes and GGT and manage as indicated<br/>• Urinary multi drug test to detect other substance use<br/>• Check hydration status and manage.<br/>• Prescribe thiamine (Refer page 79)<br/>• Psycho-education<br/>• Adherence counseling<br/>• Counseling<br/>• Long term rehabilitation as indicated<br/>• Family involvement"
      }
     ],
     [
@@ -1986,62 +1938,31 @@
       "t": "ALCOHOL WITHDRAW"
      },
      {
-      "t": "<br/>• Initiate the following interventions or refer<br/>• Random Blood Glucose testing and management<br/>• Check Serum Creatinine and Urea, ALAT & ASAT, CBC, electrolytes and GGT and manage<br/>• Urinary multi drug test to detect other substance use<br/>• Check hydration status and manage.<br/>• Asses suicidal thoughts<br/>• Manage seizures as indicted<br/>• Prescribe medications<br/>• Psycho-education<br/>• Counseling"
+      "t": "• Initiate the following interventions or refer<br/>• Random Blood Glucose testing and management<br/>• Check Serum Creatinine and Urea, ALAT & ASAT, CBC, electrolytes and GGT and manage<br/>• Urinary multi drug test to detect other substance use<br/>• Check hydration status and manage.<br/>• Asses suicidal thoughts<br/>• Manage seizures as indicted<br/>• Prescribe medications<br/>• Psycho-education<br/>• Counseling"
      }
     ],
     [
      {
-      "t": "If a client/ patient presents with the problematic pattern of alcohol or substance use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12-month period: 1.<br/>Alcohol is often taken in larger amounts or over a longer period than was intended.<br/>2.<br/>There is a persistent desire or unsuccessful efforts to cut down or control alcohol use.<br/>3.<br/>A great deal of time is spent in activities necessary to obtain alcohol, use it or recover from its effects.<br/>4.<br/>Craving, or a strong desire or urge to use alcohol.<br/>5.<br/>Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home.<br/>6.<br/>Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol.<br/>7.<br/>Important social, occupational, or recreational activities are given up or reduced because of alcohol use.<br/>8.<br/>Recurrent alcohol use in situations in which it is physically hazardous.<br/>9."
+      "t": "If a client/ patient presents with the problematic pattern of alcohol or substance use leading to clinically significant impairment or distress, as manifested by at least two of the following, occurring within a 12-month period:<br/>1. Alcohol is often taken in larger amounts or over a longer period than was intended.<br/>2. There is a persistent desire or unsuccessful efforts to cut down or control alcohol use.<br/>3. A great deal of time is spent in activities necessary to obtain alcohol, use it or recover from its effects.<br/>4. Craving, or a strong desire or urge to use alcohol.<br/>5. Recurrent alcohol use resulting in a failure to fulfill major role obligations at work, school, or home.<br/>6. Continued alcohol use despite having persistent or recurrent social or interpersonal problems caused or exacerbated by the effects of alcohol.<br/>7. Important social, occupational, or recreational activities are given up or reduced because of alcohol use.<br/>8. Recurrent alcohol use in situations in which it is physically hazardous.<br/>9. Alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol.<br/>10. Tolerance<br/>11. Withdrawal symptoms"
      },
      {
       "t": "ALCOHOL USE DISORDER"
      },
      {
-      "t": "- As a Initiate the following interventions or refer - Check Serum Creatinine and Urea, ALAT & ASAT, and GGT and manage - Urinary multi drug test to detect other substance use - Psycho-education - Counseling - Family involvement - Long term rehabilitation as indicated"
-     }
-    ],
-    [
-     {
-      "t": "Alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Alcohol use is continued despite knowledge of having a persistent or recurrent physical or psychological problem that is likely to have been caused or exacerbated by alcohol."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "10. Tolerance<br/>11. Withdrawal symptoms"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "• As a Initiate the following interventions or refer<br/>• Check Serum Creatinine and Urea, ALAT & ASAT, and GGT and manage<br/>• Urinary multi drug test to detect other substance use<br/>• Psycho-education<br/>• Counseling<br/>• Family involvement<br/>• Long term rehabilitation as indicated"
      }
     ]
    ],
    "footnotes": [],
    "source_flags": [
-    "The alcohol withdrawal management in this table lists investigations and 'prescribe medications' but does not mention thiamine; thiamine and the chlordiazepoxide regimen are only in the job aid (p.91). WHO mhGAP recommends thiamine for all patients with alcohol withdrawal."
+    "Alcohol withdrawal management lists investigations and 'Prescribe medications' but not thiamine; thiamine appears only under alcohol intoxication (p.53) and in the job aid. WHO mhGAP recommends thiamine for all patients with alcohol withdrawal.",
+    "Withdrawal management does not name the medication (benzodiazepine, e.g. the chlordiazepoxide regimen on p.91)."
    ],
    "pages": [
     53,
     54,
-    55
+    55,
+    56
    ]
   },
   {

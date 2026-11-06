@@ -57,3 +57,25 @@ FP pages carry a hidden acronym-list text layer; runs from it are ignored. Table
 | unaids-linkages-sop | 27 | `unaids-linkages-sop-tbl-p27-0038` | 0 | 33 | is fast tracked into the consultation room for art initiation / ascertain if contacts have been elicited provi |
 
 50 items.
+
+## Result of the repair pass
+
+Each item was checked against the page image or the PDF grid. **Repaired** (batches `tb_b09.py`, `mh_b04.py`, `fp_b03.py`):
+
+| Item | Problem | Fix |
+|---|---|---|
+| TB Table 1 (p.23) | 3 of 4 screening-strategy bullets in a separate text chunk | Cell completed; text chunk absorbed |
+| TB Table 2 (p.28) | Year/target header rows dropped: percentages had no years | Re-done from image (2020/2025 milestones, 2030 SDG, 2035 End TB) |
+| TB Table 11 (p.80) | Second diagnostic bullet of the LN, pleural and TBM rows in a text chunk | Cells completed from the PDF grid |
+| TB Tables 20/21/22 (pp.112-115) | Three tables fused into one item; Table 20 rows shifted and half its cells in a text chunk | Split into three items; Table 20 re-done from images |
+| TB Table 32 (p.142) | Sputum-induction cell empty (content in a text chunk) | Cell filled |
+| TB Table 34 (p.148) | Treatment algorithm flattened into a 9-column grid | Written out as a decision tree |
+| TB 'Other toxicities' (p.184) | First two rows (nausea/vomiting, heartburn) dropped as a header | Rows restored with a proper header |
+| MH Tables 8/9 (pp.36-37) | Fused; Table 8 signs and management in a text chunk | Split; both re-done from images |
+| MH Tables 13/14 (pp.45-48) | Table 13 first row cut after one bullet, its other rows filed under Table 14; Table 14 step cells cut after the first line (content lost) | Both re-done from images |
+| MH Table 17 cont. (pp.53-56) | Intoxication row symptoms and whole management cell in a text chunk | Re-done from images; thiamine flag confirmed (intoxication only) |
+| FP Appendix 6 (p.116) | Decorative icon labels ('Condom / IUD ...') appended to the ECP cell and as extra rows | Removed |
+
+**No change needed** (audit noise): neighbouring tables on the same page (HIV Amendment p.12 and p.28 pairs, MH classification/stepwise pairs pp.25, 28, 40, 49, Linkages p.27, TB Table 61/62), hand-transcribed tables reworded on purpose (TB Tables 31, 50, 51, 55-58, PrEP tables, MH job aids pp.85-88), FP overprinted abbreviation list, rotated pages (TB Tables 31, 78), and HIV Figure 9.4.
+
+Second check added: `audit/lost_phrases.py` compares each rebuilt item with the old chunks it replaced (4-word phrases found nowhere in the new chunks). It caught TB Table 2 and the p.184 table, which the PDF-grid audit could not see. Root cause of both: the rebuild treated an old chunk's first markdown row as a header and dropped it when it carried content.

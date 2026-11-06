@@ -30,7 +30,8 @@
    "replaces_chunks": [
     "tb-2025-0021",
     "tb-2025-0023",
-    "tb-2025-0024"
+    "tb-2025-0024",
+    "tb-2025-0022"
    ],
    "row_header_cols": 1,
    "header": [
@@ -49,7 +50,7 @@
       "t": "TB Screening"
      },
      {
-      "t": "New screening tool: CXR and CAD use both in health facilities and community, CRP for PLHIV, revised symptom screening tool to increase presumption index on lung cancer<br/>Approaches: Bidirectional screening of TB and COVID, Integrated Screening in the Community<br/>Strategies to ensure optimal screening coverage:- Checking the copy of the screening tool that is given out to the client (recording in the CMIS) by the screening officer/any community cadre by the attending clinicians."
+      "t": "New screening tool: CXR and CAD use both in health facilities and community, CRP for PLHIV, revised symptom screening tool to increase presumption index on lung cancer<br/>Approaches: Bidirectional screening of TB and COVID, Integrated Screening in the Community<br/>Strategies to ensure optimal screening coverage:<br/>• Checking the copy of the screening tool that is given out to the client (recording in the CMIS) by the screening officer/any community cadre by the attending clinicians.<br/>• Using a stamp strategy (i.e. giving a stamped slip to the client and checking by attending clinicians if screening is done or not)<br/>• Repeated screening at the multi-service delivery points<br/>• Cascade analysis and continuous quality improvement using the data of screening activities"
      }
     ],
     [
@@ -207,7 +208,7 @@
    "page": 28,
    "image_only": false,
    "heading_path": "1.5 Epidemiology of Tuberculosis > Table 2: End TB Strategy Milestones",
-   "caption": "Table 2: End TB Strategy Milestones (Pillars of The End TB Strategy, Key Principles of the End TB Strategy)",
+   "caption": "Table 2: End TB Strategy Milestones",
    "replaces_chunks": [
     "tb-2025-0037",
     "tb-2025-0038"
@@ -220,15 +221,6 @@
      },
      {
       "t": "Key Principles of the End TB Strategy"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ]
    ],
@@ -239,15 +231,6 @@
      },
      {
       "t": "1. Government stewardship and accountability, with monitoring and evaluation."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -256,15 +239,6 @@
      },
      {
       "t": "2. Strong coalition with civil society organizations and communities."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -272,16 +246,19 @@
       "t": "3. Intensified research and innovation"
      },
      {
-      "t": "3. Protection and promotion of human rights, and ethics.<br/>4. Adaptation of the strategy and targets at the country level, with global collaboration.<br/>TARGETS<br/>MILESTONES<br/>2020"
-     },
+      "t": "3. Protection and promotion of human rights, and ethics.<br/>4. Adaptation of the strategy and targets at the country level, with global collaboration."
+     }
+    ],
+    [
      {
-      "t": ""
-     },
+      "t": "Vision: A World Free of TB (Zero deaths, disease, suffering due to TB). Goal: End The Global TB epidemic.",
+      "cs": 2
+     }
+    ],
+    [
      {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Milestones and targets: 2020 milestone | 2025 milestone | 2030 SDG* target | 2035 End TB target",
+      "cs": 2
      }
     ],
     [
@@ -289,16 +266,7 @@
       "t": "Reduction in number of TB deaths compared with 2015 (%)"
      },
      {
-      "t": "35%"
-     },
-     {
-      "t": "75%"
-     },
-     {
-      "t": "90%"
-     },
-     {
-      "t": "95%"
+      "t": "2020: 35% | 2025: 75% | 2030 (SDG): 90% | 2035 (End TB): 95%"
      }
     ],
     [
@@ -306,16 +274,7 @@
       "t": "Reduction in TB incidence rate compared with 2015 (%)"
      },
      {
-      "t": "20%"
-     },
-     {
-      "t": "50%"
-     },
-     {
-      "t": "80%"
-     },
-     {
-      "t": "90%"
+      "t": "2020: 20% | 2025: 50% | 2030 (SDG): 80% | 2035 (End TB): 90%"
      }
     ],
     [
@@ -323,42 +282,14 @@
       "t": "TB-affected families facing catastrophic costs due to TB (%)"
      },
      {
-      "t": "0%"
-     },
-     {
-      "t": "0%"
-     },
-     {
-      "t": "0%"
-     },
-     {
-      "t": "0%"
-     }
-    ],
-    [
-     {
-      "t": "The United Nations Sustainable Development Goals (SDGs) include ending the TB epidemic by 2030 under Goal 3."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "2020: 0% | 2025: 0% | 2030 (SDG): 0% | 2035 (End TB): 0%"
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    28
+   "footnotes": [
+    "*The United Nations Sustainable Development Goals (SDGs) include ending the TB epidemic by 2030 under Goal 3."
    ],
-   "context_before": "Table 2: End TB Strategy Milestones"
+   "source_flags": []
   },
   {
    "kind": "diagram",
@@ -1725,7 +1656,8 @@
     "tb-2025-0183",
     "tb-2025-0185",
     "tb-2025-0187",
-    "tb-2025-0188"
+    "tb-2025-0188",
+    "tb-2025-0182"
    ],
    "row_header_cols": 1,
    "header": [
@@ -1750,7 +1682,7 @@
       "t": "Fever, weight loss, fatigue and occasionally night sweat or no symptoms at all.<br/><br/>Enlarged lymph nodes (>2cm). They can break down due to the formation of caseous pus. Cervical LN is the most common.<br/><br/>Mediastinal or abdominal LNs, if large may obstruct nearby 'hollow' organs producing such symptoms as stridor, dysphagia, intestinal obstruction, etc."
      },
      {
-      "t": "* Fine needle aspiration of the LN and send the specimen for Xpert MTB/RIF Ultra® and Xpert MTB/XDR testing and culture/DST, and tNGS where applicable."
+      "t": "• Fine needle aspiration of the LN and send the specimen for Xpert MTB/RIF Ultra® and Xpert MTB/XDR testing and culture/DST, and tNGS where applicable.<br/>• If the aspirate is dry then an LN biopsy should be taken, sending the material for histological examination."
      }
     ],
     [
@@ -1761,7 +1693,7 @@
       "t": "Acute or sub-acute illness varies from a few days to a few weeks.<br/><br/>Pleuritic chest pains, non-productive cough and dyspnoea, sometimes fever.<br/><br/>In an empyema complicated pleural TB, the patient may be acutely ill with chest pains, breathlessness, and cough with expectoration, fever and toxaemia. Occasionally it may be present as a chest wall mass or draining sinus tract."
      },
      {
-      "t": "- By therapeutic/diagnostic tap and sending the fluid for Xpert MTB/RIF Ultra® and Xpert MTB/XDR testing and culture / DST and tNGS where applicable."
+      "t": "• By therapeutic/diagnostic tap and sending the fluid for Xpert MTB/RIF Ultra® and Xpert MTB/XDR testing and culture / DST and tNGS where applicable.<br/>• If the patient has empyema, he must be admitted; the empyema drained and the material for Xpert MTB/RIF Ultra® testing, culture/DST, and tNGS where applicable."
      }
     ],
     [
@@ -1772,7 +1704,7 @@
       "t": "Meningism (neck stiffness, Kerning's sign), irritability, anorexia, vomiting, fever and sometimes seizures.<br/><br/>Complete or partial loss of vision is a major complication of TBM.<br/><br/>Without treatment the patient may descend into a coma and death would follow in five to eight weeks. Thus, patients need immediate admission."
      },
      {
-      "t": "Lumbar puncture for CSF examination: increased lymphocytes, increased proteins and decreased glucose."
+      "t": "• Lumbar puncture for CSF examination: increased lymphocytes, increased proteins and decreased glucose.<br/>• CSF should be sent for Xpert MTB/RIF Ultra®, and Xpert MTB/XDR testing and culture/DST.<br/>• If the patient is HIV+, CSF should also be sent for CrAg and India ink staining."
      }
     ],
     [
@@ -2725,7 +2657,7 @@
    "page": 112,
    "image_only": false,
    "heading_path": "6.12 Post-TB Lung Disease > Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation",
-   "caption": "Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation (Assessment Parameter, Examination, Indication for Pulmonary Rehabilitation)",
+   "caption": "Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation",
    "replaces_chunks": [
     "tb-2025-0274",
     "tb-2025-0276",
@@ -2733,7 +2665,8 @@
     "tb-2025-0279",
     "tb-2025-0280",
     "tb-2025-0282",
-    "tb-2025-0283"
+    "tb-2025-0283",
+    "tb-2025-0275"
    ],
    "row_header_cols": 1,
    "header": [
@@ -2752,35 +2685,28 @@
    "body": [
     [
      {
-      "t": "Clinical Assessment"
+      "t": "Clinical Assessment",
+      "rs": 2
      },
      {
-      "t": "Respiratory focused history taking:- Pulmonary disease: asthma including childhood asthma, bronchiectasis, COPD and previous TB treatment history, frequent respiratory tract infection during childhood, COVID-19"
+      "t": "Respiratory focused history taking:<br/>• Pulmonary disease: asthma including childhood asthma, bronchiectasis, COPD and previous TB treatment history, frequent respiratory tract infection during childhood, COVID-19<br/>• Vaccination history: COVID-19, Influenza, Pneumococcal<br/>• Comorbidity: HIV, Diabetes<br/>• Health hazardous exposure: smoking, biomass fuel, silica dust<br/>• History of hospitalization for chronic repository disease"
      },
      {
-      "t": ""
+      "t": "• Presence of comorbid conditions such as chronic obstructive pulmonary disease, asthma, bronchiectasis, pulmonary fibrosis, pulmonary hypertension, and/or a need for surgery. At least one hospitalization or two exacerbations in the past 12 months."
      }
     ],
     [
      {
-      "t": "• Clinical examination: Weight, height, BMI, Vital signs (Temperature, Heart rate, Respiratory rate)<br/>• Sings of repository distress"
+      "t": "• Clinical examination: Weight, height, BMI, Vital signs (Temperature, Heart rate, Respiratory rate)<br/>• Sings of repository distress<br/>• Clubbing, coarse crepitation, raised jugular venous pressure, oedema, anaemia<br/>• Oxygen saturation by pulse oximeter<br/>• Blood and urine as clinically indicated (e.g. CBC if anemia is present, urea & creatinine and electrolyte if oedema is present)"
      },
      {
-      "t": "• Reported/presence of respiratory symptoms (dyspnoea, cough, sputum, wheeze, chest pain, fatigue)<br/>• Ineffective cough and/or difficult to clear bronchial secretions<br/>• Clubbing, coarse crepitation, raised jugular venous pressure, oedema, anaemia<br/>• Oxygen saturation by pulse oximeter<br/>• Blood and urine as clinically indicated (e.g. CBC if anemia is present, urea & creatinine and electrolyte if oedema is present)"
-     },
-     {
-      "t": ""
+      "t": "• Reported/presence of respiratory symptoms (dyspnoea, cough, sputum, wheeze, chest pain, fatigue)<br/>• Ineffective cough and/or difficult to clear bronchial secretions<br/>• Abnormal blood gas PaO2, 80 mmHg/10.6 kPa and/or PaCO2.45 mmHg/6.0 kPa and/or nocturnal and exercise-induced desaturation"
      }
     ],
     [
      {
-      "t": "Imaging CXR"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Imaging CXR",
+      "cs": 3
      }
     ],
     [
@@ -2804,16 +2730,46 @@
      {
       "t": "Impaired quality of life ≥16"
      }
-    ],
+    ]
+   ],
+   "footnotes": [
+    "(Source: Adapted from the Clinical standards for the assessment, management and rehabilitation of post-TB lung disease, INT J TUBERC LUNG DIS 25 (10):797–813 Q, 2021 The Union)"
+   ],
+   "source_flags": [
+    "The title says 'pulmonary resuscitation'; the content is pulmonary rehabilitation (also Table 21). 'Sings of repository distress' should read 'signs of respiratory distress'.",
+    "Blood gas thresholds read 'PaO2, 80 mmHg/10.6 kPa and/or PaCO2.45 mmHg/6.0 kPa' – the comparison signs are missing (presumably PaO2 < 80 mmHg, PaCO2 > 45 mmHg).",
+    "'Imaging CXR' has no examination or indication entries."
+   ],
+   "pages": [
+    112,
+    113
+   ]
+  },
+  {
+   "table_id": "tb-2025-tbl-21-pulmonary-rehab-strategies",
+   "page": 113,
+   "image_only": false,
+   "heading_path": "6.12 Post-TB Lung Disease > Table 21: Management strategies for pulmonary resuscitation",
+   "caption": "Table 21: Management strategies for pulmonary resuscitation",
+   "replaces_chunks": [],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Problem"
+     },
+     {
+      "t": "Management strategy"
+     }
+    ]
+   ],
+   "body": [
     [
      {
       "t": "• Impaired exercise capacity, limited by dyspnoea and or other respiratory symptoms<br/>• Restriction in daily life activities"
      },
      {
       "t": "• Free walking on a treadmill<br/>• 30 min 2–5 times/week for 4–8 week"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2822,9 +2778,6 @@
      },
      {
       "t": "• Free weights (dumbbells and ankle-brace)<br/>• 20–30 min 2–5 times/week for 4–8 week"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2833,9 +2786,6 @@
      },
      {
       "t": "• Airway clearance"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2844,9 +2794,6 @@
      },
      {
       "t": "• Titrate oxygen flow that maintain oxygen saturation >92–93%<br/>• Long term oxygen therapy should be initiated on a flow rate of 1 L/min and titrated up in 1 L/min increments until oxygen saturation > 90% at rest has been achieved<br/>• Non-hypercapnic patients initiated on long term oxygen therapy should increase their flow rate by 1 L/min during sleep in the absence of any contraindications<br/>• Ambulatory oximetry may be performed to allow more accurate flow rates to be ordered for exercise<br/>• Provide formal education to patients referred to home<br/>• Schedule periodic re-assessment every 3 month"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2855,9 +2802,6 @@
      },
      {
       "t": "• Nutritional assessment<br/>• Treatment of malnutrition and medical supplements"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2866,31 +2810,46 @@
      },
      {
       "t": "• Psychological assessment<br/>• Psychological support<br/>• Consider self-help group"
-     },
-     {
-      "t": ""
      }
-    ],
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The table has no column headings in the PDF; 'Problem' / 'Management strategy' were added here.",
+    "Malnutrition threshold reads 'body mass index ,16 kg/m2 or ... ,17 kg/m2' – presumably '<16' and '<17'.",
+    "The resting-hypoxaemia criterion is cut off ('... polycythaemia (haematocrit > 55%) or pulmonary')."
+   ],
+   "pages": [
+    113,
+    114
+   ],
+   "context_before": "The core components of pulmonary resuscitation and suggested management strategies are briefly outlined in the table below."
+  },
+  {
+   "table_id": "tb-2025-tbl-22-eurohis-qol8",
+   "page": 114,
+   "image_only": false,
+   "heading_path": "6.12 Post-TB Lung Disease > Table 22: TB Specific QOL Assessment: EUROHIS-QOL8",
+   "caption": "Table 22: TB Specific QOL Assessment: EUROHIS-QOL8",
+   "replaces_chunks": [],
+   "row_header_cols": 1,
+   "header": [
     [
      {
       "t": "QOL Assessment Parameter"
      },
      {
       "t": "Score"
-     },
-     {
-      "t": ""
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "1. How would you rate your quality of life?"
      },
      {
       "t": "a. Very poor (0)<br/>b. Poor (1)<br/>c. Neither poor nor good (2)<br/>d. Good (3)<br/>e. Very good (4)"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2899,9 +2858,6 @@
      },
      {
       "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2910,9 +2866,6 @@
      },
      {
       "t": "a. Not at all (0)<br/>b. A little (1)<br/>c. Moderately (2)<br/>d. Mostly (3)<br/>e. Completely (4)"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2921,9 +2874,6 @@
      },
      {
       "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2932,9 +2882,6 @@
      },
      {
       "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2943,9 +2890,6 @@
      },
      {
       "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2954,20 +2898,6 @@
      },
      {
       "t": "a. Not at all (0)<br/>b. A little (1)<br/>c. Moderately (2)<br/>d. Mostly (3)<br/>e. Completely (4)"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "QOL Assessment Parameter"
-     },
-     {
-      "t": "Score"
-     },
-     {
-      "t": ""
      }
     ],
     [
@@ -2976,22 +2906,16 @@
      },
      {
       "t": "a. Very dissatisfied (0)<br/>b. Dissatisfied (1)<br/>c. Neither satisfied nor dissatisfied (2)<br/>d. Satisfied (3)<br/>e. Very satisfied (4)"
-     },
-     {
-      "t": ""
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [
-    "The title says 'pulmonary resuscitation'; the content is pulmonary rehabilitation (also Table 21). 'Sings of repository distress' should read 'signs of respiratory distress'."
-   ],
+   "source_flags": [],
    "pages": [
-    112,
-    113,
-    114
+    114,
+    115
    ],
-   "context_before": "Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation"
+   "context_before": "The questionnaire has 8 parameters, and each question was answered using a five-point Likert response scale numerically scored with \"0\" being very dissatisfied and \"4\" being very satisfied. A score ≤16 is defined as \"ill-being\" or \"impaired quality of life\" and indicates pulmonary rehabilitation."
   },
   {
    "table_id": "tb-2025-tbl-p116-0286",
@@ -5202,7 +5126,8 @@
    "caption": "Table 32: Procedures of respiratory sample and stool sample collection (Method, Techniques)",
    "replaces_chunks": [
     "tb-2025-0356",
-    "tb-2025-0357"
+    "tb-2025-0357",
+    "tb-2025-0355"
    ],
    "row_header_cols": 1,
    "header": [
@@ -5221,7 +5146,7 @@
       "t": "Sputum Induction"
      },
      {
-      "t": ""
+      "t": "• Can be performed at any age<br/>• Collection of sputa after the child inhales 3-5% hypertonic saline (induction improves the yield of sputa collection for all ages)<br/>• The child should not have eaten for 2 hours before the procedure and pretreated with salbutamol<br/>• Nasopharyngeal suctioning can be performed following the procedure if the child is unable to expectorate<br/>• Can be performed at any time but morning is preferred<br/>• 5 ml is recommended for Gene Xpert and Culture<br/>• Do not perform in children with respiratory distress or wheeze<br/>• A nebulizer and mask must be sterilized after each use"
      }
     ],
     [
@@ -5340,170 +5265,20 @@
    "context_before": "Table 33: Danger and Priority Signs in Children <10 Years Old"
   },
   {
+   "kind": "diagram",
    "table_id": "tb-2025-tbl-p148-0368",
    "page": 148,
    "image_only": false,
    "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old)",
-   "caption": "Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old) (Assess the Site of TB Disease)",
+   "caption": "Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old)",
    "replaces_chunks": [
     "tb-2025-0368"
    ],
-   "row_header_cols": 1,
-   "header": [
-    [
-     {
-      "t": "Assess the Site of TB Disease"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ]
+   "content": "Assess the site of TB disease*.\nA. Pulmonary TB (PTB), both new and re-registered – what is the child's age?\n   - <3 months: 2HRZE/4HR\n   - 3 months to <16 years: assess severity\n       - Non-severe: 2HRZE/2HR\n       - Severe: 2HRZE/4HR\n   - 16-19 years: 2HRZE/4HR\nB. Extra-pulmonary TB (EP-TB), both new and re-registered – what is the child's age?\n   - <3 months: 2HRZE/4HR\n   - 3 months to 19 years: assess severity\n       - Non-severe (isolated peripheral lymphadenopathy): 2HRZE/2HR\n       - Severe, bone & joint TB (incl. spine): 2HRZE/10HR\n       - Severe, TB meningitis: 6HRZ+Eto or 2HRZE/10HR\n       - Severe, all other forms of EP-TB: 2HRZE/4HR",
+   "footnotes": [
+    "*If a child has both PTB and EP-TB severe form, treat with the regimen for the EP-TB severe form. Adjuvant steroid therapy: administer steroids for TB Meningitis, also for pericardial, spinal (sometimes), airway obstruction and TB-IRIS."
    ],
-   "body": [
-    [
-     {
-      "t": "2Pulmonary TB (PTB): Both new and re-registered"
-     },
-     {
-      "t": "Extra-pulmonary TB (EP-TB): Both new and re-registered"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "What is the child’s age?"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "<3 mth"
-     },
-     {
-      "t": "3 mth-<16 yrs"
-     },
-     {
-      "t": "16 yrs-19 yrs"
-     },
-     {
-      "t": "<3 mth"
-     },
-     {
-      "t": "3 mth -19 yrs"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "2HRZE/4HR"
-     },
-     {
-      "t": "Assess severity<br/>Non-severe<br/>2HRZE/2HR"
-     },
-     {
-      "t": "Severe<br/>2HRZE/4HR"
-     },
-     {
-      "t": "2HRZE/4HR"
-     },
-     {
-      "t": "2HRZE/4HR"
-     },
-     {
-      "t": "Assess severity<br/>Non-Severe<br/>(Isolated<br/>peripheral<br/>lymphadenopathy)<br/>2HRZE/2HR"
-     },
-     {
-      "t": "Severe<br/>Bone & Joint<br/>TB (incl<br/>spine)<br/>2HRZE/10HR"
-     },
-     {
-      "t": "TB<br/>Meningitis<br/>6HRZ+Eto<br/>or 2HRZE/<br/>10HR"
-     },
-     {
-      "t": "All other<br/>forms of<br/>EP-TB<br/>2HRZE/<br/>4HR"
-     }
-    ]
-   ],
-   "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    148
-   ],
-   "context_before": "Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old)"
+   "source_flags": []
   },
   {
    "table_id": "tb-2025-tbl-p149-0372",
@@ -6581,7 +6356,7 @@
    "page": 184,
    "image_only": false,
    "heading_path": "9.6 Management of specific conditions > 9.6.13 Specific toxicities due to Bedaquiline > Other toxicities",
-   "caption": "Other toxicities ()",
+   "caption": "Other toxicities: suggested drugs to manage adverse drug reactions (ADRs) during DR-TB treatment",
    "replaces_chunks": [
     "tb-2025-0463"
    ],
@@ -6589,14 +6364,30 @@
    "header": [
     [
      {
-      "t": ""
+      "t": "ADRs"
      },
      {
-      "t": ""
+      "t": "Suggested drugs to manage the ADR"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Nausea, vomiting, abdominal upset"
+     },
+     {
+      "t": "Metoclopramide, ondansetron, dimenhydrinate, prochlorperazine, promethazine, bismuth subsalicylate"
+     }
+    ],
+    [
+     {
+      "t": "Heartburn, acid indigestion, sour stomach, ulcer"
+     },
+     {
+      "t": "H2-blockers (ranitidine, cimetidine, etc.), proton pump inhibitors (omeprazole, etc.). Avoid antacids because they can decrease the absorption of fluoroquinolones."
+     }
+    ],
     [
      {
       "t": "Oral candidiasis (non-AIDS patient)"

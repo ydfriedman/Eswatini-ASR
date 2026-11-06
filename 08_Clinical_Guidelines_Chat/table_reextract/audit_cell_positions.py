@@ -59,7 +59,7 @@ def parse(htm):
         row, col = [], 0
         for attrs, body in re.findall(r'<t[hd]([^>]*)>(.*?)</t[hd]>', tr, re.S):
             cs = int((re.search(r'colspan="(\d+)"', attrs) or [0, 1])[1])
-            txt = re.sub(r'<[^>]+>', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', body)))
+            txt = re.sub(r'</?[a-z][^>]*>', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', body)))
             row.append((col, cs, txt))
             col += cs
         rows.append(row)
@@ -91,7 +91,7 @@ def locate(T, stream, used):
 def missing_words(u, pages):
     """Per ruled PDF cell of this table: words not covered by a matching run (>=2 words) in the chunk."""
     import difflib
-    chunk = tok(re.sub(r'<[^>]+>', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', u['html']))))
+    chunk = tok(re.sub(r'</?[a-z][^>]*>', ' ', H.unescape(re.sub(r'<[^>]+>', ' ', u['html']))))
     chunkset = set(chunk)
     runs, total, inreg = [], 0, 0
     for p in pages:

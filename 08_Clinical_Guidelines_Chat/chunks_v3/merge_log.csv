@@ -1426,6 +1426,7 @@ unaids-linkages-sop-0083,merged into,unaids-linkages-sop-0082
 unaids-linkages-sop-0088,dropped,heading-only fragment
 unaids-linkages-sop-0119,dropped,heading-only fragment
 tb-2025-0021,replaced,tb-2025-tbl-p23-0021
+tb-2025-0022,replaced,tb-2025-tbl-p23-0021
 tb-2025-0023,replaced,tb-2025-tbl-p23-0021
 tb-2025-0024,replaced,tb-2025-tbl-p23-0021
 tb-2025-0030,replaced,tb-2025-tbl-p26-0030
@@ -1467,6 +1468,7 @@ tb-2025-0174,replaced,tb-2025-fig-plhiv-evaluation
 tb-2025-0175,replaced,tb-2025-fig-plhiv-evaluation
 tb-2025-0179,replaced,tb-2025-tbl-p79-0179
 tb-2025-0181,replaced,tb-2025-tbl-p80-0181
+tb-2025-0182,replaced,tb-2025-tbl-p80-0181
 tb-2025-0183,replaced,tb-2025-tbl-p80-0181
 tb-2025-0185,replaced,tb-2025-tbl-p80-0181
 tb-2025-0187,replaced,tb-2025-tbl-p80-0181
@@ -1486,6 +1488,7 @@ tb-2025-0266,replaced,tb-2025-tbl-p110-0266
 tb-2025-0267,replaced,tb-2025-tbl-p110-0266
 tb-2025-0271,replaced,tb-2025-tbl-p111-0271
 tb-2025-0274,replaced,tb-2025-tbl-p112-0274
+tb-2025-0275,replaced,tb-2025-tbl-p112-0274
 tb-2025-0276,replaced,tb-2025-tbl-p112-0274
 tb-2025-0277,replaced,tb-2025-tbl-p112-0274
 tb-2025-0279,replaced,tb-2025-tbl-p112-0274
@@ -1511,6 +1514,7 @@ tb-2025-0336,replaced,tb-2025-tbl-p134-0333
 tb-2025-0337,replaced,tb-2025-tbl-p134-0333
 tb-2025-0338,replaced,tb-2025-tbl-p134-0333
 tb-2025-0339,replaced,tb-2025-tbl-p134-0333
+tb-2025-0355,replaced,tb-2025-tbl-p142-0356
 tb-2025-0356,replaced,tb-2025-tbl-p142-0356
 tb-2025-0357,replaced,tb-2025-tbl-p142-0356
 tb-2025-0360,replaced,tb-2025-tbl-p144-0360
@@ -1597,11 +1601,11 @@ tb-2025-0707,replaced,tb-2025-tbl-p270-0707
 tb-2025-0708,replaced,tb-2025-tbl-p271-0708
 tb-2025-0709,replaced,tb-2025-tbl-p271-0708
 tb-2025-0712,replaced,tb-2025-tbl-p273-0712
-tb-2025-0022,label,1.1 Introduction > Introduction and Country Background > Table 1: Summary of Changes and New Recommendations in the Guidelines => Chapter 1: Background > 1.1 Introduction > Summary of Changes and New Recommendations (continued)
 tb-2025-0029,cleaned,
 tb-2025-0031,label,"1.5 Epidemiology of Tuberculosis > 1.5.1 Global trend in TB incidence > Figure 1: Global TB Incidence Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Incidence"
 tb-2025-0034,label,"1.5 Epidemiology of Tuberculosis > 1.5.2 Global trend of TB mortality > Figure 2: Global TB Mortality Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Mortality"
 tb-2025-0036,label,"1.5 Epidemiology of Tuberculosis > 1.5.2 Global trend of TB mortality > Figure 2: Global TB Mortality Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > The End TB Strategy"
+tb-2025-0039,cleaned,
 tb-2025-0039,label,"1.5 Epidemiology of Tuberculosis > Table 2: End TB Strategy Milestones => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > End TB Strategy: Vision, Goal and Targets"
 tb-2025-0041,label,"1.5 Epidemiology of Tuberculosis > Estimated number of TB cases attributable to five risk factors, 2023 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > TB in Eswatini"
 tb-2025-0052,cleaned,
@@ -1629,7 +1633,8 @@ tb-2025-0165,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbio
 tb-2025-0168,cleaned,
 tb-2025-0173,emptied,
 tb-2025-0177,cleaned,
-tb-2025-0182,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > Table 11: A brief details of type of EP-TB, clinical features and diagnostic procedure => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes"
+tb-2025-0184,emptied,
+tb-2025-0186,emptied,
 tb-2025-0198,emptied,
 tb-2025-0209,cleaned,
 tb-2025-0224,label,6.1 The aims of TB treatment > Scenarios to place an emergency order => Chapter 5: Quality Assurance of Laboratory Services > 5.4.3 Expired/Damaged Laboratory and Drug Commodities; Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.1 The Aims of TB Treatment
@@ -1639,7 +1644,8 @@ tb-2025-0237,label,6.4 Standard TB treatment regimens for adults > Table 14: Rec
 tb-2025-0251,label,6.6 Treatment of Extra-Pulmonary Tuberculosis (EPTB) > The mechanism of hepatoprotection is three-fold. => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.6.8 Treatment for Patients with Liver Disorders > Hepatoprotection
 tb-2025-0256,cleaned,
 tb-2025-0269,label,6.9 Care and support people with TB => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.9 Care and Support for People with TB
-tb-2025-0275,label,6.12 Post-TB Lung Disease > Table 20: Assessment of post-TB lungs disease and indication for pulmonary resuscitation => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.12 Post-TB Lung Disease > Assessment (Table 20)
+tb-2025-0278,cleaned,
+tb-2025-0281,cleaned,
 tb-2025-0287,label,7.2 Anti-TB drugs used in DR-TB treatment > Table 23: Medicines Grouping in order of priority (source: WHO) => Chapter 7: Drug-Resistant Tuberculosis Management > 7.2 Anti-TB Drugs Used in DR-TB Treatment > Notes to Table 23
 tb-2025-0290,cleaned,
 tb-2025-0290,label,7.3 Treatment of DR-TB > Before initiation of treatment > Figure 20: Algorithm for treatment selection and modification => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.1 DR-TB Treatment Considerations > Before Initiation of Treatment
@@ -1659,8 +1665,6 @@ tb-2025-0343,label,7.13 Post-treatment follow-up of DR-TB cases > Notes => Chapt
 tb-2025-0344,label,7.13 Post-treatment follow-up of DR-TB cases > Notes > Specific comments on dosing children with medicines used in second-line MDR-TB regimens => Chapter 7: Drug-Resistant Tuberculosis Management > Specific Comments on Dosing Children with Second-line MDR-TB Medicines
 tb-2025-0349,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.2 Systematic Screening of TB in children > 8.2.1 TB Symptom Screening Tool => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.2.4 C-Reactive Protein; 8.2.5 Defining Presumptive TB"
 tb-2025-0353,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > 8.3.1 Clinical assessment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.2 Laboratory Diagnosis of Childhood TB"
-tb-2025-0355,cleaned,
-tb-2025-0355,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.2 Laboratory Diagnosis > Sample Collection Procedures (Table 32)"
 tb-2025-0358,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.3 Diagnosis of EPTB in Children"
 tb-2025-0361,emptied,
 tb-2025-0363,cleaned,
@@ -1754,9 +1758,8 @@ tb-2025-0734,label,"17.2 Monitoring of TB Case Detection and Treatment Activitie
 tb-2025-0002,heading moved to,tb-2025-0012
 tb-2025-0363,trailing heading dropped (next is a table/flowchart),## **Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available)**
 tb-2025-0163,merged into,tb-2025-0162
-tb-2025-0184,merged into,tb-2025-0182
-tb-2025-0186,merged into,tb-2025-0182
 tb-2025-0244,merged into,tb-2025-0243
+tb-2025-0281,merged into,tb-2025-0278
 tb-2025-0295,merged into,tb-2025-0294
 tb-2025-0320,merged into,tb-2025-0319
 tb-2025-0451,merged into,tb-2025-0450
@@ -1954,7 +1957,8 @@ mental-health-deskguide-0056,replaced,mental-health-deskguide-tbl-p28-0050
 mental-health-deskguide-0058,replaced,mental-health-deskguide-tbl-p28-0050
 mental-health-deskguide-0064,replaced,mental-health-deskguide-tbl-p34-0064
 mental-health-deskguide-0068,replaced,mental-health-deskguide-tbl-p36-0068
-mental-health-deskguide-0070,replaced,mental-health-deskguide-tbl-p36-0068
+mental-health-deskguide-0069,replaced,mental-health-deskguide-tbl-p36-0068
+mental-health-deskguide-0070,replaced,mental-health-deskguide-tbl-37-stepwise-grief
 mental-health-deskguide-0074,replaced,mental-health-deskguide-tbl-p39-0074
 mental-health-deskguide-0076,replaced,mental-health-deskguide-tbl-p39-0074
 mental-health-deskguide-0078,replaced,mental-health-deskguide-tbl-p39-0074
@@ -1964,10 +1968,11 @@ mental-health-deskguide-0083,replaced,mental-health-deskguide-tbl-p40-0082
 mental-health-deskguide-0085,replaced,mental-health-deskguide-tbl-p43-0085
 mental-health-deskguide-0087,replaced,mental-health-deskguide-tbl-p43-0085
 mental-health-deskguide-0089,replaced,mental-health-deskguide-tbl-p45-0089
-mental-health-deskguide-0091,replaced,mental-health-deskguide-tbl-p45-0091
-mental-health-deskguide-0092,replaced,mental-health-deskguide-tbl-p45-0091
-mental-health-deskguide-0093,replaced,mental-health-deskguide-tbl-p45-0091
-mental-health-deskguide-0095,replaced,mental-health-deskguide-tbl-p45-0091
+mental-health-deskguide-0090,replaced,mental-health-deskguide-tbl-p45-0089
+mental-health-deskguide-0091,replaced,mental-health-deskguide-tbl-p45-0089
+mental-health-deskguide-0092,replaced,mental-health-deskguide-tbl-p45-0089
+mental-health-deskguide-0093,replaced,mental-health-deskguide-tbl-p45-0089
+mental-health-deskguide-0095,replaced,mental-health-deskguide-tbl-p45-0089
 mental-health-deskguide-0097,replaced,mental-health-deskguide-tbl-p45-0091
 mental-health-deskguide-0099,replaced,mental-health-deskguide-tbl-p45-0091
 mental-health-deskguide-0101,replaced,mental-health-deskguide-tbl-p45-0091
@@ -1977,6 +1982,7 @@ mental-health-deskguide-0107,replaced,mental-health-deskguide-tbl-p49-0105
 mental-health-deskguide-0109,replaced,mental-health-deskguide-tbl-p49-0105
 mental-health-deskguide-0112,replaced,mental-health-deskguide-tbl-p52-0112
 mental-health-deskguide-0114,replaced,mental-health-deskguide-tbl-p53-0114
+mental-health-deskguide-0115,replaced,mental-health-deskguide-tbl-p53-0114
 mental-health-deskguide-0116,replaced,mental-health-deskguide-tbl-p53-0114
 mental-health-deskguide-0118,replaced,mental-health-deskguide-tbl-p53-0114
 mental-health-deskguide-0119,replaced,mental-health-deskguide-tbl-p53-0114
@@ -2048,8 +2054,6 @@ mental-health-deskguide-0059,cleaned,
 mental-health-deskguide-0067,cleaned,
 mental-health-deskguide-0073,cleaned,
 mental-health-deskguide-0080,cleaned,
-mental-health-deskguide-0088,cleaned,
-mental-health-deskguide-0090,cleaned,
 mental-health-deskguide-0098,cleaned,
 mental-health-deskguide-0100,cleaned,
 mental-health-deskguide-0102,cleaned,
@@ -2079,8 +2083,9 @@ mental-health-deskguide-0077,merged into,mental-health-deskguide-0075
 mental-health-deskguide-0079,merged into,mental-health-deskguide-0075
 mental-health-deskguide-0080,merged into,mental-health-deskguide-0075
 mental-health-deskguide-0088,merged into,mental-health-deskguide-0086
-mental-health-deskguide-0102,merged into,mental-health-deskguide-0100
-mental-health-deskguide-0103,merged into,mental-health-deskguide-0100
+mental-health-deskguide-0100,merged into,mental-health-deskguide-0098
+mental-health-deskguide-0102,merged into,mental-health-deskguide-0098
+mental-health-deskguide-0103,merged into,mental-health-deskguide-0098
 mental-health-deskguide-0134,merged into,mental-health-deskguide-0132
 mental-health-deskguide-0136,merged into,mental-health-deskguide-0135
 mental-health-deskguide-0153,merged into,mental-health-deskguide-0150
