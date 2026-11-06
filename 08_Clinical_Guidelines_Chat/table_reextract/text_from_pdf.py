@@ -26,11 +26,13 @@ def col(c):
 
 def kind(ch):
     f, s, c = ch['fontname'].split('+')[-1], ch['size'], col(ch)
+    if ch.get('text') in ('•', '▪', '●', '◦', '\u2022'):
+        return 'body'
     if f.startswith('Calibri-Light'):
         return 'footer'
     if s < 9.8:
         return 'small'
-    if 'Italic' in f and f.startswith('ArialNarrow'):
+    if 'Italic' in f and f.startswith('ArialNarrow') and c not in ((1.0,), (1, 1, 1), (1.0, 1.0, 1.0)):
         return 'caption'
     if c == PURPLE:
         return 'heading'
@@ -53,6 +55,20 @@ for p in range(first, last + 1):
     pg = pdf.pages[p - off - 1]
     boxes = [tb.bbox for tb in pg.find_tables()] + [tuple(b) for b in EXCL.get(str(p), [])]
     words = pg.extract_words(extra_attrs=['fontname', 'size', 'non_stroking_color'], keep_blank_chars=False, use_text_flow=False)
+    # tightly set justified lines lose their word gaps at the default tolerance: re-split long run-together words
+    fine = pg.extract_words(x_tolerance=1, extra_attrs=['fontname', 'size', 'non_stroking_color'], keep_blank_chars=False, use_text_flow=False)
+    fixed = []
+    for w in words:
+        if len(w['text']) > 22 and re.search(r'[a-z]{3}[A-Za-z]*[a-z][A-Z]|[a-z]{12,}', w['text']):
+            parts = [f for f in fine if abs(f['top'] - w['top']) < 1 and f['x0'] >= w['x0'] - 0.5 and f['x1'] <= w['x1'] + 0.5]
+            if len(parts) > 1:
+                fixed += parts
+                continue
+        fixed.append(w)
+    words = fixed
+    for w in words:   # bullet glyphs printed in white on a white page: treat as body bullets
+        if w['text'] in ('•', '▪', '●', '◦'):
+            w['non_stroking_color'] = (0.0,)
     words.sort(key=lambda w: (round(w['top'] / 3), w['x0']))   # reading order by position (content-stream order is unreliable)
     lines = []
     for w in words:

@@ -1,0 +1,70 @@
+exec(open("batches/hiv_common.py").read())
+# HIV 2022 part 2, pp.125-130 (Chapter 6: TPT for DR-TB contacts, monitoring, ADRs, completion, interruptions, outcomes; ART with TB).
+# From the page images; numbers checked against the text layer.
+C6 = "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease"
+TB25 = "The 2025 National Integrated TB Management Guidelines (Chapter 11) give current TPT completion, interruption and outcome rules; check them for current practice."
+B_ = lambda *xs: "<br/>".join("• " + x for x in xs)
+ITEMS = [
+ T("tbl-6.8-drtb-contact-pt", 125, C6 + " > 6.1.5 TB Prevention > Preventive treatment for Drug-Resistant TB > Table 6.8", "Table 6.8 Preventive Treatment for Drug-Resistant Contacts", ["0323"],
+   [r("DR-TB contacts", "Drug regimen", "Maximum dose")],
+   [r("MDR-TB/RR-TB/Rif mono-resistance", "Levofloxacin + Ethambutol (6 months)", "15-20mg/kg + 15-25mg/kg"), r("INH Mono and PDR", "Levofloxacin + Ethambutol (6 months)", "15-20mg/kg + 15-25mg/kg"),
+    [C("Fluoroquinolone resistance (Pre-XDR and XDR)"), C("Send to expert panel review", cs=2)]],
+   source_flags=["The 'Maximum dose' column gives daily dose ranges per kg, not maximum doses.", "WHO and the 2025 TB guidelines use levofloxacin alone (6Lfx) for MDR/RR-TB contacts; ethambutol is not part of the regimen."]),
+ B("box-6.1.5-tpt-monitoring", 125, C6 + " > 6.1.5 TB Prevention > Monitoring of TPT clients", "Monitoring of TPT clients", [],
+   "Clients on TPT should be routinely monitored for adherence, adverse events and TB screening at all visits.\n"
+   "- Stable patients should be reviewed at their standard HIV care visits and ART patients on DSD models should have their TPT refills and other appointments synchronized.\n"
+   "- Additional follow-up strategies should be put in place to follow up patients on TPT with multi-month dispensing/scripting (MMD)\n"
+   "- At each review, assess for:\n   - Adherence to therapy\n   - Toxicity (hepatitis, neuropathy, rash, etc.)\n   - TB symptoms.\n"
+   "- Hold TPT and refer to the medical officer (MO) if there are major side effects e.g.,\n   - Symptoms of acute hepatitis and elevation of ALT three times ULN or\n   - When ALT increases 5 times or more the ULN\n"
+   "TPT refill dates must be synchronized with ART refill or clinic visits."),
+ T("tbl-6.9-tpt-adr-management", 125, C6 + " > 6.1.5 TB Prevention > Management of TPT Adverse events > Table 6.9", "Table 6.9 Management of TPT ADRs (Table 6.10 continued)", ["0326", "0327"],
+   [r("Drug", "Adverse events", "Management")],
+   [r("Isoniazid", "Asymptomatic elevation of serum liver enzyme concentration, hypersensitivity reactions, gastrointestinal intolerance and hepatotoxicity.",
+      "In the event of itching or localized rash, provide antihistamines and monitor closely. If a systemic rash develops, continue antihistamines and perform clinical and laboratory evaluation. If there are systemic symptoms, fever, urticarial, mucous membrane involvement, blistering, oedema or wheezing, discontinue INH immediately and do not re-challenge."),
+    r("Rifampicin and Rifapentine", "Cutaneous reactions, hypersensitivity reactions, gastrointestinal intolerance, and hepatotoxicity",
+      "If hypersensitivity reactions (flu-like symptoms: fever, chills, headache, dizziness, rash but in severe cases can present with hypotension and shock) are severe discontinue and do not re-challenge."),
+    r("Rifampicin and Isoniazid", "Rash", B_("Withhold and do not re-challenge if LTBI treatment is found to be the cause of grade 3 or 4 hypersensitivity.",
+        "Otherwise, re-challenge once rash resolves starting with isoniazid alone at 1/6 normal dose on day 1 then full dose on day 2 and subsequently and monitor closely, especially on the completion of antihistamines (at least weekly to 2-weekly for the first month then monthly).",
+        "If close monitoring is not possible, do not re-challenge.", "If a rash does not recur, continue isoniazid monotherapy ensuring that the client gets a total of 180 doses.", "If rash recurs, do not rechallenge with Rifampicin and/or isoniazid."))],
+   pages=[125, 126]),
+ T("tbl-6.11-tpt-completion", 126, C6 + " > 6.1.5 TB Prevention > TPT completion timelines > Table 6.11", "Table 6.11 TPT completion timelines", ["0328"],
+   [r("Regimen", "Total duration (months)", "Expected number of doses", "80% of recommended doses", "Extended time for treatment completion (days): original treatment duration +33% additional time")],
+   [r("6 months of daily isoniazid (6H daily)", "6", "182", "46", "239"), r("3 months of daily Isoniazid and rifampicin (3RH daily)", "3", "84", "68", "120"),
+    r("3 months of weekly Isoniazid and rifapentine (3HP weekly)", "3", "12", "11", "120"), r("1 month of daily Isoniazid and rifapentine (1HP daily)", "1", "28", "23", "38"),
+    r("4 months daily Rifampicin (4R daily)", "4", "1201", "96", "160")],
+   footnotes=["TPT should be completed within 6-9 months. 180 doses are required for effective preventive therapy."],
+   source_flags=["6H: '80% of recommended doses' is printed as 46; 80% of 182 doses is 146.", "4R: 'Expected number of doses' is printed as 1201 (presumably 120; 96 is 80% of 120).",
+                 "3HP: 11 of 12 doses is about 90%, not 80% (80% would be 10); WHO completion for 3HP is 11 of 12 doses.", TB25]),
+ T("tbl-6.12-tpt-interruptions", 127, C6 + " > 6.1.5 TB Prevention > Management of TPT interruptions > Table 6.12", "Table 6.12 Management of TPT Interrupters by regimen (Table 6.13 continued)", ["0330", "0331", "0332", "0333"],
+   [r("TPT regimen", "Duration of treatment interruption", "Next step", "For all regimens")],
+   [[C("3HR, 4R, 6H", rs=2), C("Less than 2weeks"), C("Resume preventive treatment immediately upon return and add the number of days of missed doses to the total treatment duration. Do not change the scheduled date of the next follow-up visit but the last follow-up visit will be postponed by the number of extra days to compensate for missed doses (e.g., If a child on 3HR missed 3 days of treatment, continue preventive treatment for a total duration of 3 months + 3 days from the date of start)."),
+     C("Address the reason for interruption. Counsel the person on TPT and the caregiver on the importance of adherence to preventive treatment. Review and agree with the person on TPT and the caregiver about the best ways to improve adherence. See Table 6.11 for the thresholds of regimen prolongations due to consecutive or erratic interruptions.", rs=6)],
+    r("More than 2 weeks", "If treatment interruption occurred after more than 80% of doses expected in the regimen were taken, no action is required. Continue and complete the remaining treatment as per the original plan. If less than 80% of doses expected in the regimen were taken, and the treatment course can still be completed within the expected time for completion, i.e., treatment duration + 33% additional time, no action is required. Continue and complete the remaining treatment as per the original plan. If less than 80% of doses expected in the regimen were taken, and the treatment course cannot be completed within the expected time for completion, consider restarting the full TPT course"),
+    [C("3 HP", rs=2), C("Weekly schedule of one dose missed"), C("If the missed dose is remembered within the next 2 days, the person can take the dose immediately. Continue the schedule as originally planned (i.e., continue to take the remaining doses following the same schedule). If the missed dose is remembered more than 2 days later, the person can take the missed dose immediately and change the schedule for weekly intake to the day the missed dose was taken until treatment completion. This will avoid 2 weekly doses being taken less than 4 days apart")],
+    r("More than 1 weekly doses of 3HP missed", "If between 1–3 weekly doses are missed, treatment is continued until all 12 doses are taken, thus prolonging the treatment duration to a maximum of 16 weeks. If, however, 4 or more weekly doses are missed, consider restarting the full TPT course. If adherence to a weekly routine is not possible, consider discontinuing 3HP and offering an alternative (daily) regimen"),
+    [C("1 HP", rs=2), C("Less than one week"), C("If more than 80% (23) of doses expected in the regimen were taken no action is required, just complete the remaining doses. If less than 80% (23) of doses expected in the regimen were taken, resume treatment immediately upon return and add the missed doses to the total treatment duration to complete the course within a maximum of 6 weeks.")],
+    r("More than 1 week", "If more than 7 consecutive doses were missed, consider restarting the complete course of 1HP regimen. If more than 7 doses were missed intermittently, resume preventive treatment immediately upon return and add the missed doses to the total treatment duration to complete the course within a maximum of 8 weeks. If adherence to 1HP is not possible, consider discontinuing it and offering an alternative daily regimen or 3HP")],
+   rhc=2, pages=[127, 128], source_flags=["1HP: 'within a maximum of 6 weeks' (fewer than a week missed) and 'a maximum of 8 weeks' (more than a week) differ from Table 6.11, where the extended time for 1HP is 38 days.", TB25]),
+ T("tbl-6.14-tpt-outcomes", 129, C6 + " > 6.1.5 TB Prevention > TPT Outcomes > Table 6.14", "Table 6.14 TPT patient outcomes", ["0337"],
+   [r("TPT treatment outcomes", "Definition")],
+   [r("Completed treatment", "Received the full course of;<br/>" + B_("Daily INH/Lfx + Eth within 6 to 9 months (180 doses)", "Weekly Rifapentine-INH within 3-4 months (12 doses)", "Daily RPT-INH within 8 weeks (30 doses for 1HP).", "Daily Rifampicin within 4 months (90 doses)")),
+    r("Lost to follow-up", "Took Isoniazid monotherapy then interrupted for ≥ 60 days or<br/>Took Rifampicin and Isoniazid then interrupted for >30 days or<br/>Took Rifapentine and Isoniazid then interrupted for >30 days.<br/>Took 1HP and was interrupted by >7 consecutive days"),
+    r("Died", "Death from any cause while on TPT."), r("Failed treatment", "Developed active TB while on TPT."), r("Treatment discontinued", "TPT was stopped by a healthcare worker due to toxicity/adverse effects or any other reason."),
+    r("Not evaluated", "No documented outcome.<br/>Efforts should be made to document appropriate outcomes by the initiating facility.")],
+   context_before="TPT outcomes should be documented in the patient records: electronic or paper-based. Transferred out is no longer considered an outcome as it does not show the definitive outcome of a TPT initiation. It is the responsibility of the initiating facility to follow-up on all patients transferred out to document the outcome at the end of the TPT course.",
+   source_flags=["Completion definitions conflict with Table 6.11: 1HP '30 doses' here vs 28 expected doses; 4R '90 doses' within 4 months here vs 120 expected doses; 3RH has no completion definition.", TB25]),
+ T("tbl-6.15-art-for-tb-hiv", 130, C6 + " > 6.1.5 > ART for TB patients > Table 6.15", "Table 6.15 Recommended Adult ART Regimens for TB/HIV Coinfected patients", ["0339", "0340", "0341"],
+   [r("Client Category", "Recommended ART regimen", "Comments")],
+   [[C("Clients already on TB treatment presenting for ART initiation"), C("TDF/3TC/DTG Qam + DTG 50mg Qpm", rs=2), C(B_("Start ART as soon as possible with increased DTG dosing of 50mg twice daily", "Return to standard DTG dosing 50mg once daily two weeks after the completion of TB treatment"))],
+    r("Clients developing TB while on a DTG-based ART regimen", "Clients must return to DTG 50mg once daily 2 weeks after completing TB treatment."),
+    r("Developing DS-TB while on an EFV-based ART regimen", "Continue with EFV based regimen", "Check VL at the end of treatment. If VL is undetectable, the client can be transitioned to a once-daily FDC of TDF+3TC+DTG two weeks after completion of TB treatment<br/>If VL is detectable immediately switch to the second line and continue adherence support refer to the ART section"),
+    [C("Developing DS-TB while on a Protease inhibitor (PI) based ART regimen"), C("Consult an experienced HIV clinician or snapthirdline@mohcoag.org before choosing these options:<br/>TB patient on LPV/r:<br/>"
+       + B_("Super boost LPV/r to 400 mg/400 mg by adding 300 mg Ritonavir and continue until 2 weeks after completion of TB treatment", "Double dose of LPV/r to 800 mg/200 mg twice daily. Double dosing is only for clients >10yrs of age and continues until 2 weeks after completion of TB treatment",
+            "If evidence of VL suppression in the past 3-6months, switch to a DTG-based second-line regimen and continue twice daily DTG until 2weeks after completion of TB treatment")
+       + "<br/>TB patient on ATV/r or DRV/r:<br/>" + B_("Do not combine with RIF", "Change to DTG twice daily if DTG naïve or LPV/r with adjustments as stated above if DTG experienced") + "<br/>Patients who may be failing ART:<br/>" + B_("Follow the guidance on managing treatment failure"), cs=2)],
+    {"section": "For Clients with Multidrug-Resistant TB"},
+    [C("EFV and Bedaquiline (BDQ)"), C("EFV should not be used with BDQ. EFV induces CYP3A activity and co-administration with BDQ may result in reduced BDQ exposure and loss of BDQ activity.<br/>DTG is the preferred INSTI for clients receiving BDQ.", cs=2)],
+    [C("Delamanid (DLM) and ARVs"), C("DLM is generally considered safe to administer with ART. Evidence shows safety with EFV, TDF and LPV/r. No LPV/r dose adjustment is needed for TB patients on DLM<br/>No long-term studies have been done on potential drug-to-drug interactions with DLM and ARVs<br/>DTG is the preferred INSTI for clients receiving DLM", cs=2)]],
+   footnotes=["For all clients, maintain the same NRTI backbone provided there is no dose adjustment necessary, and the client is virally suppressed"],
+   source_flags=["Check against the 2025 TB guidelines (Table 46, Recommended Adult ART Regimens for TB/HIV Co-infection) for current regimens."]),
+]
