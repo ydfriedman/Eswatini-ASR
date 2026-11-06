@@ -1,0 +1,24 @@
+C = lambda t, cs=1, rs=1: {"t": t, **({"cs": cs} if cs > 1 else {}), **({"rs": rs} if rs > 1 else {})}
+Y = C("✓"); NO = C("—")
+def T(tid, page, hp, cap, repl, header, body, rhc=1, **kw):
+    d = {"table_id": "prep-2025-" + tid, "page": page, "image_only": False, "heading_path": hp, "caption": cap,
+         "replaces_chunks": ["prep-2025-" + r for r in repl], "row_header_cols": rhc, "header": header, "body": body,
+         "footnotes": [], "source_flags": []}
+    d.update(kw); return d
+def D(tid, page, hp, cap, repl, content, flags=(), **kw):
+    d = {"kind": "diagram", "table_id": "prep-2025-" + tid, "page": page, "image_only": False, "heading_path": hp, "caption": cap,
+         "replaces_chunks": ["prep-2025-" + r for r in repl], "content": content, "footnotes": [],
+         "source_flags": list(flags)}
+    d.update(kw); return d
+def B(tid, page, hp, cap, repl, content, flags=(), **kw):
+    d = {"kind": "box", "table_id": "prep-2025-" + tid, "page": page, "image_only": False, "heading_path": hp, "caption": cap,
+         "replaces_chunks": ["prep-2025-" + r for r in repl], "content": content, "footnotes": [], "source_flags": list(flags)}
+    d.update(kw); return d
+def L(*xs): return C("<br/>".join("- " + x for x in xs))
+CH1 = "1 Introduction to PrEP"
+CH2 = "2 Overview of PrEP Products"
+CH3 = "3 PrEP Delivery"
+CH4 = "4 Management of Clients in Specific Situations"
+CH5 = "5 Documentation and Data Management"
+CH6 = "6 Annexes"
+def r(*v): return [C(x) for x in v]

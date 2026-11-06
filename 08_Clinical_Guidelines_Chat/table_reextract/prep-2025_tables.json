@@ -1,0 +1,3313 @@
+{
+ "doc_id": "prep-2025",
+ "doc_title": "Eswatini PrEP Implementation Guidelines (2025)",
+ "method": "Transcribed by Claude from PDF page images (110 dpi), checked against the PDF text layer and the original LlamaParse chunks. Annex 4 rows were rebuilt from the original chunks after a word-coverage check against the PDF text layer.",
+ "pdf_parts": [
+  {
+   "file": "2025_11_23_Eswatini_PrEP_implementation_guidelines_FINAL_CLEAN-to_print.pdf",
+   "pages": "1-86"
+  }
+ ],
+ "tables": [
+  {
+   "table_id": "prep-2025-tbl-terminology",
+   "page": 8,
+   "image_only": false,
+   "heading_path": "Terminology",
+   "caption": "Terminology: adverse drug reaction, adverse event, assigned female/male at birth, cisgender, integration, non-binary, transgender",
+   "replaces_chunks": [
+    "prep-2025-0010"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Term"
+     },
+     {
+      "t": "Definition"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Adverse Drug Reaction (ADR)"
+     },
+     {
+      "t": "A response to a drug which is noxious and unintended, and which occurs at doses normally used in humans for prophylaxis, diagnosis, or therapy of disease, or for the modification of physiological function. An adverse drug reaction, in contrast to an adverse event, is characterized by the fact that a causal relationship between a medical product and an occurrence is suspected."
+     }
+    ],
+    [
+     {
+      "t": "Adverse Event (AE) / Adverse Experience"
+     },
+     {
+      "t": "Any untoward medical occurrence that may present during treatment with a pharmaceutical product, but which does not necessarily have a causal relationship with this treatment."
+     }
+    ],
+    [
+     {
+      "t": "Assigned female at birth"
+     },
+     {
+      "t": "People assigned female at birth may include cisgender women, transgender men, and some non-binary people."
+     }
+    ],
+    [
+     {
+      "t": "Assigned male at birth"
+     },
+     {
+      "t": "People assigned male at birth may include cisgender men, transgender women, and some non-binary people."
+     }
+    ],
+    [
+     {
+      "t": "Cisgender"
+     },
+     {
+      "t": "Describes a person whose gender identity corresponds to their sex assigned at birth."
+     }
+    ],
+    [
+     {
+      "t": "Integration"
+     },
+     {
+      "t": "Joining operational programs to ensure effective outcomes through many modalities (multi-tasked providers, referral, one-stop-shop services under one roof, etc.)"
+     }
+    ],
+    [
+     {
+      "t": "Non-binary"
+     },
+     {
+      "t": "A spectrum of gender identities that do not exclusively or neatly fit into the category male or female, man or woman, and are outside the gender binary."
+     }
+    ],
+    [
+     {
+      "t": "Transgender"
+     },
+     {
+      "t": "A person who has a gender identity or gender expression that differs from the sex assigned at birth."
+     }
+    ],
+    [
+     {
+      "t": "Transgender woman"
+     },
+     {
+      "t": "An individual assigned male sex at birth who identifies as a female."
+     }
+    ],
+    [
+     {
+      "t": "Transgender man"
+     },
+     {
+      "t": "An individual assigned female sex at birth who identifies as a male."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-oral-prep-drug-interactions",
+   "page": 12,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.1 Oral PrEP > Oral PrEP and Other Drug Interactions",
+   "caption": "Table 1. Oral PrEP (TDF/3TC) drug interactions: contraceptive hormones, gender-affirming hormones, estradiol-based exogenous hormones",
+   "replaces_chunks": [
+    "prep-2025-0021"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Interaction"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Contraceptive hormones"
+     },
+     {
+      "t": "No known interactions"
+     }
+    ],
+    [
+     {
+      "t": "Gender-affirming hormones"
+     },
+     {
+      "t": "No known interactions: levels of gender-affirming hormones used by transgender individuals are not affected"
+     }
+    ],
+    [
+     {
+      "t": "Estradiol-based exogenous hormones"
+     },
+     {
+      "t": "Estradiol-based exogenous hormones may reduce oral PrEP drug levels in people AMAB, which is why daily oral PrEP is recommended for these individuals, but ED-PrEP is not."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-oral-prep-start-stop",
+   "page": 14,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.1 Oral PrEP > Starting and Stopping Oral PrEP",
+   "caption": "Table 2. Starting, using and stopping oral PrEP (daily and event-driven 2+1+1) by population: AMAB not on estradiol, AFAB, AMAB on estradiol hormones, people who inject drugs",
+   "replaces_chunks": [
+    "prep-2025-0024",
+    "prep-2025-0025"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population(s)"
+     },
+     {
+      "t": "Often includes ᵃ"
+     },
+     {
+      "t": "Starting oral PrEP"
+     },
+     {
+      "t": "Using oral PrEP"
+     },
+     {
+      "t": "Stopping oral PrEP"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "People assigned male at birth who are NOT using estradiol-based exogenous hormones and are using oral PrEP to prevent HIV acquisition during sex"
+     },
+     {
+      "t": "Cisgender men and transgender women who are not using estradiol-based exogenous hormones; non-binary people assigned male at birth who are not using estradiol-based exogenous hormones"
+     },
+     {
+      "t": "Daily or ED: take a double dose 2 to 24 hours before potential sexual exposure. Ideally, this loading dose should be taken closer to 24 hours before potential exposure."
+     },
+     {
+      "t": "Take one dose per day."
+     },
+     {
+      "t": "Daily or ED: after a single dose is taken daily for two days after the last potential exposure, PrEP can be stopped."
+     }
+    ],
+    [
+     {
+      "t": "People assigned female at birth who are using oral PrEP to prevent HIV acquisition during sex"
+     },
+     {
+      "t": "Cisgender women, transgender men, non-binary people assigned female at birth"
+     },
+     {
+      "t": "Daily: take a single dose daily for seven days before potential exposure.<br/>ED-PrEP is not recommended for these populations.",
+      "rs": 3
+     },
+     {
+      "t": "Take one dose per day.",
+      "rs": 3
+     },
+     {
+      "t": "After a single dose is taken daily for seven days after the last potential exposure, PrEP can be stopped.",
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "People assigned male at birth who are using estradiol-based exogenous hormones who are using oral PrEP to prevent HIV acquisition during sex"
+     },
+     {
+      "t": "Transgender women who are using estradiol-based exogenous hormones; non-binary people assigned male at birth who are using estradiol-based exogenous hormones"
+     }
+    ],
+    [
+     {
+      "t": "People using oral PrEP to prevent HIV acquisition from nonsexual exposures"
+     },
+     {
+      "t": "Anyone who shares injection-related materials ᵇ"
+     }
+    ]
+   ],
+   "footnotes": [
+    "ᵃ This list is provided to support interpretation of this guidance and is not inclusive of all gender identities or terms that may be used by people with diverse gender identities to describe themselves and/or their communities. Starting and stopping oral PrEP should be based on the factors in the first column.",
+    "ᵇ Injection drug use is mentioned in this guidance; however, first-line prevention strategies for people who inject drugs are needle exchange and/or drug use harm reduction and treatment. Daily oral PrEP has some preventative effects for this population and should be offered as part of a larger prevention package."
+   ],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-ed-prep-examples",
+   "page": 15,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.1 Oral PrEP > Additional Guidance for ED-PrEP Use",
+   "caption": "Figures 1-6. Event-driven (ED, 2+1+1) oral PrEP dosing examples: sex once, on consecutive days, on non-consecutive days, sex does not occur; switching between ED-PrEP and daily PrEP",
+   "replaces_chunks": [
+    "prep-2025-0028",
+    "prep-2025-0030"
+   ],
+   "content": "Examples for clients AMAB not using estradiol-based hormones (pill = one tablet; all doses at 9 AM in the examples).\nFigure 1 – sex one time / in one day: double dose (2 tablets) Friday 9 AM; sex Friday 11 PM; then 1 tablet Saturday 9 AM and 1 tablet Sunday 9 AM (two days after sex), then stop.\nFigure 2 – sex on multiple consecutive days: double dose Friday 9 AM; sex Friday 11 PM, Saturday 10 PM, Sunday 4 AM; 1 tablet daily Saturday to Tuesday 9 AM (continued daily through the days of sex and for two days after the last sex), then stop.\nFigure 3 – sex on multiple non-consecutive days: double dose Friday 9 AM; sex Friday 11 PM and Sunday 1 PM; 1 tablet daily Saturday to Tuesday 9 AM (two days after the last sex), then stop.\nFigure 4 – sex does not occur: double dose Friday 9 AM; no sex; no further tablets are shown.\nFigure 5 – transitioning from ED-PrEP to daily PrEP: ED course (double dose Saturday 9 AM, sex Saturday 7 PM, 1 tablet Sunday and Monday); later, when sex becomes frequent, double dose Sunday 9 AM then 1 tablet daily while having sex almost every day (Sunday 3 PM to Saturday 8 PM), continuing daily dosing; to stop, continue for two days after the last sex.\nFigure 6 – transitioning from daily PrEP to ED-PrEP: daily dosing (double dose Sunday 9 AM, then 1 tablet daily) while sex occurs Monday to Saturday; daily tablets continue for two days after the last sex (to Monday) and then stop; for the next sex (Thursday 2 PM), a double dose Thursday 9 AM, then 1 tablet Friday and Saturday 9 AM.",
+   "footnotes": [],
+   "source_flags": [
+    "Figures 1-6 are pictures (day strips with pill and sex icons); described here in words. In Figure 4 the Saturday and Sunday 9 AM labels are printed without tablets; whether to continue after a loading dose when sex does not happen is not stated in the text."
+   ],
+   "pages": [
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-ring-pbfw-contraindications",
+   "page": 18,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Contraindications for PrEP Ring Use",
+   "caption": "Table 3. Additional contraindications for the dapivirine PrEP ring in pregnant and breastfeeding women (during pregnancy and postnatal period)",
+   "replaces_chunks": [
+    "prep-2025-0034"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Additional contraindication for the ring for PBFW",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "During pregnancy"
+     },
+     {
+      "t": "During the postnatal period"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- Active labour at any gestation<br/>- Vaginal bleeding<br/>- Suspected or confirmed rupture of the amniotic membranes<br/>- Cervical cerclage<br/>- Suspected or confirmed intrauterine infection"
+     },
+     {
+      "t": "- Unresolved postnatal vaginal bleeding<br/>- Uterus not yet returned to near pre-pregnancy size through normal involution<br/>- Following spontaneous or therapeutic abortion"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "In addition to the general contraindications for PrEP, the ring should not be provided to: individuals assigned male at birth; individuals exposed to HIV through anal sex or needle sharing; allergy or hypersensitivity to the active substances; women using contraceptive vaginal rings or diaphragm. For PBFW there are additional contraindications (Table 3)."
+  },
+  {
+   "table_id": "prep-2025-tbl-ring-drug-interactions",
+   "page": 19,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > PrEP Ring and Other Drug Interactions",
+   "caption": "Table 4. Dapivirine PrEP ring drug interactions: vaginal antimicrobials, miconazole, clotrimazole, metronidazole, clindamycin, other vaginal rings, hormones",
+   "replaces_chunks": [
+    "prep-2025-0038"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Interaction"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Vaginally administered antimicrobial products"
+     },
+     {
+      "t": "- No data available on concurrent use with the ring<br/>- Concomitant use is not recommended"
+     }
+    ],
+    [
+     {
+      "t": "Miconazole"
+     },
+     {
+      "t": "Evaluations of co-administered use of miconazole and the ring are not fully resolved; clients should be advised to use additional preventative measures for HIV when co-treated with vaginal miconazole."
+     }
+    ],
+    [
+     {
+      "t": "Clotrimazole vaginal cream"
+     },
+     {
+      "t": "Co-administered clotrimazole as a water-based vaginal cream with the ring was well tolerated, but given methodological issues that limited the reliability of the pharmacokinetic results of both clotrimazole and dapivirine, concurrent use should be undertaken with caution."
+     }
+    ],
+    [
+     {
+      "t": "Metronidazole; clindamycin"
+     },
+     {
+      "t": "There is no data on concomitant use of the ring and metronidazole or clindamycin, so concomitant use is not recommended."
+     }
+    ],
+    [
+     {
+      "t": "Other vaginal rings, e.g. contraceptive rings or diaphragms"
+     },
+     {
+      "t": "No current data on concomitant use of the ring and other vaginal rings, so concomitant use is not recommended."
+     }
+    ],
+    [
+     {
+      "t": "Contraceptive hormones; gender-affirming hormone therapy"
+     },
+     {
+      "t": "No known interactions"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "box",
+   "table_id": "prep-2025-box-ring-insertion",
+   "page": 20,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring > Inserting the PrEP Ring",
+   "caption": "Box 3. Dapivirine PrEP ring insertion steps for clients",
+   "replaces_chunks": [
+    "prep-2025-0041"
+   ],
+   "content": "Box 3. Ring insertion steps for clients:\n1. Get into a position that is comfortable for inserting the ring, such as squatting, one leg lifted, or lying down. If a health care provider is assisting you, you should be in a reclining position.\n2. With clean hands, squeeze the ring between the thumb and forefinger, pressing both sides together so that the ring forms a 'figure 8' shape.\n3. Use the other hand to open the folds of skin around the vagina.\n4. Place the tip of the ring into the vaginal opening and use your fingers to push the folded ring gently up into the vagina.\n5. Push the ring as far toward the lower back as possible. If the ring feels uncomfortable, it is probably not inserted far enough; use a finger to push it as far up into the vagina as is comfortable.\n*Ring insertion should be painless. If you have any bleeding or discomfort upon insertion, contact your health care provider.",
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    20,
+    21
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-ring-start-stop",
+   "page": 22,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring",
+   "caption": "Table 5. Starting, using and stopping the dapivirine PrEP ring (24 hours to effectiveness, 28-day ring, no protection after removal)",
+   "replaces_chunks": [
+    "prep-2025-0044"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Starting PrEP ring"
+     },
+     {
+      "t": "Using PrEP ring"
+     },
+     {
+      "t": "Stopping PrEP ring"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "The ring must be in place for at least 24 hours before it is maximally effective."
+     },
+     {
+      "t": "The ring must be left in place for 28 days. After 28 days, the ring can be removed and replaced immediately with a new ring."
+     },
+     {
+      "t": "When the ring is removed, dapivirine levels drop quickly and there will be no protection from acquiring HIV."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-cab-la-drug-interactions",
+   "page": 26,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > CAB-LA and Other Drug Interactions",
+   "caption": "Table 6. CAB-LA (cabotegravir) drug interactions: anticonvulsants and rifampicin/rifapentine contraindicated; hormones safe; methadone, rifabutin, high-dose aspirin cautions",
+   "replaces_chunks": [
+    "prep-2025-0057",
+    "prep-2025-0058"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Interaction"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "CAB-LA should not be co-administered"
+    },
+    [
+     {
+      "t": "- Anticonvulsants: carbamazepine<br/>- oxcarbazepine<br/>- phenobarbital<br/>- phenytoin"
+     },
+     {
+      "t": "- Significant reduction of cabotegravir concentrations in blood plasma and therefore decreasing its efficacy.<br/>- These drugs should not be co-administered with CAB-LA; clients using them may need to select a different PrEP method or HIV prevention strategy."
+     }
+    ],
+    [
+     {
+      "t": "- Antimycobacterial medications: rifampicin<br/>- rifapentine"
+     },
+     {
+      "t": "- Significant reduction of cabotegravir concentrations in blood plasma and therefore decreasing its efficacy.<br/>- These drugs should not be co-administered with CAB-LA; clients using them may need to select a different PrEP method or HIV prevention strategy.<br/>- CAB-LA can be considered two weeks after a client completes rifampin or rifapentine."
+     }
+    ],
+    {
+     "section": "Safe to co-administer"
+    },
+    [
+     {
+      "t": "Contraceptive hormones; gender-affirming hormones"
+     },
+     {
+      "t": "No known interactions"
+     }
+    ],
+    {
+     "section": "Clients may still be eligible for CAB-LA, but additional cautions may be warranted"
+    },
+    [
+     {
+      "t": "Methadone; rifabutin"
+     },
+     {
+      "t": "Clients could require medication dose adjustments to maintain the effectiveness of these medications while they are using CAB-LA."
+     }
+    ],
+    [
+     {
+      "t": "High-dose aspirin (>325 mg)"
+     },
+     {
+      "t": "Clients using high-dose aspirin in the past week, other nonsteroidal anti-inflammatory drugs for pain, or anticoagulants or other antiplatelets may have a higher likelihood of bruising or bleeding at the injection site and should be made aware and counselled on mitigation strategies, if relevant."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    26,
+    27
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-len-initiation-schedule",
+   "page": 29,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Starting LEN",
+   "caption": "LEN (lenacapavir) initiation and dosing schedule: day 1 two subcutaneous injections + 2 oral tablets, day 2 two oral tablets, follow-up injections every 6 months (±14 days); injection sites and angle (Figure 8)",
+   "replaces_chunks": [
+    "prep-2025-0067"
+   ],
+   "content": "Initiation (Day 1): provider gives initiation injection 1 and initiation injection 2 (each 1.5 ml / 463.5 mg, subcutaneous) in separate preferred injection sites; client takes 2 oral LEN loading tablets (2 × 300 mg).\nInitiation (Day 2): client takes another 2 oral LEN loading tablets.\nFollow-up: two subcutaneous injections every 6 months (26 weeks), ±14 days (window 24–28 weeks).\nInjection technique (diagram): needle 22-gauge (1.27 cm) for most clients; inject subcutaneously into the abdomen (preferred; at least 5 cm from the navel, second injection at least 10 cm from the first) or the thigh (alternative); insert the needle fully, 90° angle preferred, 45° acceptable; choose an area with enough skin to pinch and avoid intradermal injection.",
+   "footnotes": [],
+   "source_flags": [
+    "The injection-site diagram labels the distance from the navel as 'at least 2 inches', the text as 'at least 5 cm'."
+   ],
+   "pages": [
+    29,
+    30
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-len-bridging",
+   "page": 31,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Bridging for an Anticipated Delayed Follow-up Injection",
+   "caption": "Figure 9. Maintaining LEN concentrations with oral bridging (LEN 300 mg weekly) when a follow-up injection will be delayed; restart from Day 1 if >28 weeks",
+   "replaces_chunks": [
+    "prep-2025-0072"
+   ],
+   "content": "Figure 9 (curve of mean LEN plasma concentration over 65 weeks, log scale):\n- LEN for PrEP initiation regimen on Day 1 and Day 2 (injections + oral loading) keeps concentrations above the protective level (IQ4).\n- If the next injection cannot be given within the 24–28-week window: oral bridging with LEN 300 mg PO once weekly, starting around week 26, keeps concentrations up.\n- Resume LEN subcutaneous injections 7 days after the last oral LEN dose (gap must not exceed 7 days).\n- If >28 weeks have elapsed since the last injection and bridging tablets have not been taken, restart LEN for PrEP from Day 1.\nBridging is only for exceptional circumstances, for short periods, not exceeding three months.",
+   "footnotes": [],
+   "source_flags": [
+    "The figure is a pharmacokinetic curve with no numeric values to transcribe; the earlier chunk listed week-by-week concentrations that are not in the PDF."
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-len-drug-interactions",
+   "page": 32,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN and Other Drug Interactions",
+   "caption": "Table 7. LEN (lenacapavir) drug interactions: TB rifamycins, anticonvulsants, ketamine contraindicated; supplemental LEN with rifampicin; erectile dysfunction drugs; hormones safe",
+   "replaces_chunks": [
+    "prep-2025-0075",
+    "prep-2025-0076"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Drug"
+     },
+     {
+      "t": "Interaction"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "LEN should not be co-administered"
+    },
+    [
+     {
+      "t": "- Drugs used in the treatment of tuberculosis: rifabutin<br/>- rifampicin<br/>- rifapentine"
+     },
+     {
+      "t": "- These drugs cause significant reduction of LEN concentration and therefore decrease its efficacy.<br/>- Clients should not initiate LEN if currently on TB treatment and may need to select a different PrEP or HIV prevention strategy.<br/>- For clients already on LEN and wanting to continue, supplemental LEN can be given to maintain adequate LEN concentrations (see Figure 10)."
+     }
+    ],
+    [
+     {
+      "t": "- Medication used in the treatment of epilepsy: carbamazepine<br/>- phenobarbital<br/>- phenytoin"
+     },
+     {
+      "t": "- Significant reduction of LEN concentration and therefore decreasing its efficacy.<br/>- These drugs should not be co-administered with LEN; clients using them may need to select a different PrEP method or HIV prevention strategy."
+     }
+    ],
+    [
+     {
+      "t": "Anaesthetic drugs: ketamine"
+     },
+     {
+      "t": "- Ketamine concentrations may increase and may increase side effects associated with ketamine such as respiratory depression and hallucinations.<br/>- This potential interaction may persist after discontinuation of LEN.<br/>- These drugs should not be co-administered with LEN; clients using them may need to select a different PrEP method or HIV prevention strategy."
+     }
+    ],
+    {
+     "section": "Drug that might need a dose adjustment"
+    },
+    [
+     {
+      "t": "Clients already on LEN and newly diagnosed with TB and starting rifampicin"
+     },
+     {
+      "t": "- Clients already using LEN when diagnosed with TB can continue LEN, but a dose adjustment needs to be made in consultation with the MO.<br/>- Supplemental LEN dosing for co-administration with rifampicin-based TB regimens consists of repeating the LEN initiation dosing when rifampicin is started (see Figure 10) and continuing supplemental LEN every 6 months until completing TB treatment."
+     }
+    ],
+    [
+     {
+      "t": "- Drugs used in treatment of erectile dysfunction: avanafil<br/>- sildenafil<br/>- tadalafil<br/>- vardenafil"
+     },
+     {
+      "t": "- There is a potential interaction which may persist after discontinuation of LEN.<br/>- The concentrations of these drugs may increase; start with a lower than regular dose and work up to higher doses until the desired effect is achieved.<br/>- Dose adjustments should be done by the MO."
+     }
+    ],
+    {
+     "section": "Safe to co-administer"
+    },
+    [
+     {
+      "t": "Gender-affirming hormones and hormonal contraceptives"
+     },
+     {
+      "t": "No known interactions"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Rifabutin is listed under 'LEN should not be co-administered', while the dose-adjustment row covers only rifampicin; supplemental dosing for rifabutin or rifapentine is not addressed."
+   ],
+   "pages": [
+    32,
+    33
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-len-rifampicin",
+   "page": 33,
+   "image_only": false,
+   "heading_path": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN and Other Drug Interactions",
+   "caption": "Figure 10. Maintaining LEN concentrations during rifampicin-based TB treatment: supplemental LEN doses (repeat initiation dosing) every 6 months alongside routine injections",
+   "replaces_chunks": [],
+   "content": "Figure 10 (timeline, January to January): routine LEN use with routine injections every 6 months. When a strong CYP3A inducer (rifampicin) is started (example: March), give supplemental LEN doses – repeat the initiation dosing (first day: injections + 2 tablets; second day: 2 tablets). While the CYP3A inducer continues (>6 months), give supplemental doses every 6 months (example: September) in addition to routine injections (example: June). After the strong CYP3A inducer is stopped (example: November), continue with routine LEN injections only.\nText: rifampicin is a strong CYP3A inducer and can reduce LEN concentrations below therapeutic levels. For the duration of concomitant LEN and rifampicin use, give routine LEN doses (6 months apart) and supplemental LEN doses (6 months apart). Repeating LEN initiation dosing (SC and PO) beginning Day 3 of LEN for PrEP maintains target LEN concentrations when rifampicin is started no sooner than 2 days after starting LEN for PrEP.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-community-prep-services",
+   "page": 35,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.1 PrEP Delivery Overview > Community-based PrEP Services",
+   "caption": "Table 8. Community-based PrEP services: community initiation and referral, community initiation and refill, PrEP ring distribution by community workers",
+   "replaces_chunks": [
+    "prep-2025-0081"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Approach"
+     },
+     {
+      "t": "Description"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Community PrEP initiation and referral"
+     },
+     {
+      "t": "PrEP can be initiated at community level by trained providers. Clients should be referred and linked to a PrEP service delivery point of their choice for refills."
+     }
+    ],
+    [
+     {
+      "t": "Community PrEP initiation and refill"
+     },
+     {
+      "t": "If a community provider returns to the same community for clinical services, clients can continue to receive PrEP refills in the community."
+     }
+    ],
+    [
+     {
+      "t": "Community PrEP ring distribution by community workers"
+     },
+     {
+      "t": "Community healthcare workers trained and competent in HIVST and PrEP can distribute the PrEP ring to HIV-negative women in the following situations:<br/>- An individual wants to use the ring for HIV prevention.<br/>- An individual is undecided about the preferred PrEP method: a ring can be offered for immediate insertion and the client is encouraged to come to the nearest facility within 4 weeks for either ring refill or switching to another preferred PrEP method."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-hiv-testing-initiation",
+   "page": 36,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 1: HIV Testing and Counseling",
+   "caption": "Table 9. HIV testing services at PrEP initiation: HIVST for oral PrEP/ring, RDT for CAB-LA/LEN, positive or inconclusive results, risk assessment, referral",
+   "replaces_chunks": [
+    "prep-2025-0084"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "PrEP initiation steps"
+     },
+     {
+      "t": "Plan of action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Counselling and information"
+     },
+     {
+      "t": "Refer to HIV testing services (HTS) guidelines."
+     }
+    ],
+    [
+     {
+      "t": "HIV test (HIV testing services [HTS] guidelines)"
+     },
+     {
+      "t": "- An HIV test needs to be performed on the day of PrEP initiation.<br/>- An HIVST is the preferred test for initial screening or prior to oral PrEP or PrEP ring initiation.<br/>- If the HIV test is negative, clients should be linked to HIV prevention services.<br/>- For clients choosing CAB-LA or LEN, a rapid diagnostic test (RDT) is needed prior to PrEP initiation.<br/>- If positive, confirm the HIV-positive result as per the national testing algorithm. Do not initiate the client on PrEP.<br/>- Initiate the client on antiretroviral therapy (ART) as per national guidelines.<br/>- If the test result is inconclusive, defer PrEP and follow the national HIV testing algorithm until a definitive HIV test result has been obtained."
+     }
+    ],
+    [
+     {
+      "t": "Risk assessment"
+     },
+     {
+      "t": "Assess and discuss risk of acquiring HIV with HIV-negative clients."
+     }
+    ],
+    [
+     {
+      "t": "Referral and linkages"
+     },
+     {
+      "t": "Provide information on HIV prevention services and link to appropriate prevention services. See the HIV Prevention Referral and Linkages Job Aid for detailed guidance."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "box",
+   "table_id": "prep-2025-box-ahi-signs-suspicion",
+   "page": 37,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 2: PrEP Eligibility Assessment > Acute HIV Infection (AHI) Assessment",
+   "caption": "Boxes 11-12. Acute HIV infection (AHI): common signs and symptoms, and when to suspect AHI and defer PrEP",
+   "replaces_chunks": [
+    "prep-2025-0087",
+    "prep-2025-0089"
+   ],
+   "content": "Box 11. Common signs and symptoms of AHI: fever; swollen lymph glands; skin rash; headache; sore throat; aches and pains; mouth sores.\nBox 12. Suspicion of AHI:\n- If the client has symptoms of AHI (currently or in the past fourteen days) AND has been exposed to HIV in the 14 days prior to the HIV test, defer PrEP and repeat the HIV test after four weeks to reassess HIV status.\n- PEP should be provided if exposure is reported within 72 hours.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-initiation-exposure-ahi",
+   "page": 38,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 2: PrEP Eligibility Assessment > Acute HIV Infection (AHI) Assessment",
+   "caption": "Figure 11. PrEP initiation flowchart: HIV test result, exposure in past 72 hours (PEP), AHI symptoms in past 14 days, start PrEP or delay and retest",
+   "replaces_chunks": [
+    "prep-2025-0090",
+    "prep-2025-0091",
+    "prep-2025-0092"
+   ],
+   "content": "1. Is the client's HIV test result negative?\n   - No: refer the client to confirmatory testing and HIV treatment.\n   - Yes: 2.\n2. Was the client potentially exposed to HIV in the past 72 hours? (⁰)\n   - Yes: start PEP standard of care (SOC). If PEP is started, retest for HIV in 28 days; if the client is seronegative upon PEP completion, continue with PrEP SOC.\n   - No: 3.\n3. Does the client have AHI symptoms now, or have they had AHI symptoms in the past 14 days? (¹)\n   - No: start PrEP SOC. (²)\n   - Yes: 4.\n4. Did the client have a potential exposure to HIV in the 14 days before symptom onset?\n   - No: start PrEP SOC. (²)\n   - Yes: the symptoms may be due to AHI (a prevention method was not being used effectively around the time of exposure). Provider and client should weigh the risks and benefits of delaying PrEP initiation and retesting per the national algorithm 28 days from potential exposure, or earlier if HIV testing that can reliably detect HIV is available.\nNotes: ⁰ 'No' means no potential exposure at all, or exposure 72 or more hours ago. ¹ Two-thirds of people have AHI symptoms within two to four weeks of acquiring HIV; symptoms that mimic AHI (sore throat, fever, sweats, swollen glands, mouth ulcers, headache, rash, muscle aches) are commonly due to other illnesses, so use discretion. ² Before starting PrEP the client should know that the HIV test may not detect HIV acquired fewer than 28 days ago (and possibly beyond 28 days), and that without AHI symptoms they could be pre-symptomatic or among the one-third who never develop symptoms.",
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    38,
+    39
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-product-eligibility",
+   "page": 39,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 2: PrEP Eligibility Assessment > Product-specific Eligibility Assessment",
+   "caption": "Table 10. Product-specific PrEP eligibility criteria for oral PrEP, PrEP ring, CAB-LA and LEN: follow-up attendance, age ≥16, body weight, pregnancy/breastfeeding, contraindications",
+   "replaces_chunks": [
+    "prep-2025-0093",
+    "prep-2025-0094"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Criterion"
+     },
+     {
+      "t": "Oral PrEP"
+     },
+     {
+      "t": "PrEP ring"
+     },
+     {
+      "t": "CAB-LA"
+     },
+     {
+      "t": "LEN"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Able/willing to attend PrEP visits"
+     },
+     {
+      "t": "For all products, clients should be committed to attend scheduled follow-up appointments",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "Age"
+     },
+     {
+      "t": "≥16 years*",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "Body weight"
+     },
+     {
+      "t": "≥30 kg",
+      "cs": 2
+     },
+     {
+      "t": "≥35 kg"
+     },
+     {
+      "t": "≥35 kg"
+     }
+    ],
+    [
+     {
+      "t": "Pregnancy / breastfeeding"
+     },
+     {
+      "t": "All available PrEP products are safe to use in pregnant or breastfeeding women.",
+      "cs": 4
+     }
+    ],
+    [
+     {
+      "t": "No contraindications for PrEP method"
+     },
+     {
+      "t": "Not using nephrotoxic medication or having known creatinine clearance <60 ml/min"
+     },
+     {
+      "t": "Not using vaginally administered antimicrobial products and no allergies to dapivirine"
+     },
+     {
+      "t": "Not using rifampin, rifapentine, carbamazepine, oxcarbazepine, phenobarbital, phenytoin, and does not have allergy to CAB-LA"
+     },
+     {
+      "t": "No allergy or previous reaction to LEN"
+     }
+    ]
+   ],
+   "footnotes": [
+    "*In case of a mature minor between the age of 12-15 years, oral PrEP can be considered as per the discretion of the healthcare provider."
+   ],
+   "source_flags": [
+    "The ≥30 kg weight cell appears to span oral PrEP and the PrEP ring; the PrEP ring is for people assigned female at birth only, which is not repeated here.",
+    "LEN's contraindications in this table omit the drug interactions listed in Table 7 (rifamycins, carbamazepine, phenobarbital, phenytoin, ketamine), while CAB-LA's include them."
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-prescription-by-method",
+   "page": 40,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 4: PrEP Prescription",
+   "caption": "Table 11. PrEP prescription at initiation by method: oral PrEP and ring 3 months + HIVST at 1 month; CAB-LA injection 1 then injection 2 at one month; LEN injections and oral loading",
+   "replaces_chunks": [
+    "prep-2025-0098"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "PrEP method"
+     },
+     {
+      "t": "PrEP prescription"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Oral PrEP (daily or ED)"
+     },
+     {
+      "t": "- Maximum 3 months prescription (3 bottles) of TDF/3TC.<br/>- Distribute an HIVST for self-test at 1 month.<br/>- Schedule next visit date after 3 months."
+     }
+    ],
+    [
+     {
+      "t": "PrEP ring"
+     },
+     {
+      "t": "- Maximum 3 months prescription (3 DPV rings).<br/>- Distribute an HIVST for self-test at 1 month.<br/>- Schedule next visit date after 3 months."
+     }
+    ],
+    [
+     {
+      "t": "CAB-LA"
+     },
+     {
+      "t": "- Initiation injection 1 is given.<br/>- Schedule next visit date for initiation injection 2 after one month (±7 days)."
+     }
+    ],
+    [
+     {
+      "t": "LEN"
+     },
+     {
+      "t": "- Initiation injections 1 and 2 are given.<br/>- 2 oral loading tablets on day 1.<br/>- 2 oral loading tablets are given to take at home on day 2."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "The one-month visit for clients starting oral PrEP, the PrEP ring and LEN is optional; they are given an HIVST to use at home after one month (if positive, return for confirmatory testing). CAB-LA clients must come back after one month for HIV testing and initiation injection 2."
+  },
+  {
+   "table_id": "prep-2025-tbl-community-initiation-referral",
+   "page": 41,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 4: PrEP Prescription > Community-based PrEP Initiation and Referrals for Refills",
+   "caption": "Table 12. Community-based PrEP: initiation with referral for refills, community initiation and refill, community peer distribution of the PrEP ring; registers, referral tool, reporting",
+   "replaces_chunks": [
+    "prep-2025-0100"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Community-based PrEP"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Community initiation with referrals for refill"
+     }
+    ],
+    [
+     {
+      "t": "- Clients should be willing to be linked to a PrEP-offering facility of their choice.<br/>- Enter each initiated client in the PrEP register and document them as an initiated and transferred-out client, with the referral serial number and referred facility noted in the notes section.<br/>- Complete the national referral tool with: PrEP initiation date; results of baseline laboratory tests (if applicable); contact information of a health care worker who can support any follow-up questions.<br/>- Provide the client with the national referral tool and an appointment card for the next scheduled visit.<br/>- When the client comes for a follow-up visit after three months in the receiving facility, record as a 'transfer in'; put the referral serial number and referring organisation/clinic in the notes section.<br/>- Follow up with the clinic three days after the scheduled follow-up visit to see if the client came to the appointment.<br/>- If the client attended the scheduled appointment, the client has successfully been linked to the clinic.<br/>- If the client has not attended, the client needs continued follow-up and documentation of status in the Community Outreach Provider PrEP register (STOP, LTFU, etc.).<br/>- Utilise a provider-specific PrEP register.<br/>- Report monthly on PrEP use through existing regional reporting structures.<br/>- For ordering, storage, and reconciliation of PrEP commodities, follow routine Central Medical Store (CMS) ordering and standard operating procedures."
+     }
+    ],
+    [
+     {
+      "t": "Community initiation and refill"
+     }
+    ],
+    [
+     {
+      "t": "- Provide PrEP services monthly at the same outreach location to ensure clients can receive their refills.<br/>- Align PrEP refills with other services, e.g. contraceptive refills, refills for non-communicable diseases (NCD), etc.<br/>- For oral PrEP and the vaginal ring, up to three months' worth of refills can be given at initiation.<br/>- Record the initiated client in the PrEP register / Client Management Information System (CMIS).<br/>- Provide each client with an appointment card and indicate the next scheduled visit; the card should include all relevant information (PrEP method, refill date, etc.) for a client who may need to access a health care worker between visits.<br/>- Utilise a PrEP register specific to that provider.<br/>- Report monthly on PrEP use through existing regional reporting structures.<br/>- For ordering, storage, and reconciliation of PrEP commodities, follow routine CMS ordering and standard operating procedures."
+     }
+    ],
+    [
+     {
+      "t": "Community peer distribution of the PrEP ring"
+     }
+    ],
+    [
+     {
+      "t": "- For the PrEP ring, dispensing can be done by trained community cadres already conducting HIVST in the community when: a woman testing HIV negative can be given the ring for some protection until she comes to the facility to start oral or injectable PrEP;<br/>- a woman is not willing/able to come to a PrEP facility to start another PrEP method;<br/>- a woman prefers the ring over another method, or is already using the ring and due for a refill."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "pages": [
+    41,
+    42
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-initiation-additional-components",
+   "page": 42,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Additional Components of PrEP Initiation Visit",
+   "caption": "Table 13. Additional components of the PrEP initiation visit: hepatitis B and C testing, kidney function (creatinine) for oral PrEP, STIs, pregnancy and contraception, GBV/IPV, mental health and substance use, VMMC, NCDs",
+   "replaces_chunks": [
+    "prep-2025-0105",
+    "prep-2025-0106",
+    "prep-2025-0107",
+    "prep-2025-0108",
+    "prep-2025-0109",
+    "prep-2025-0110",
+    "prep-2025-0111"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Component"
+     },
+     {
+      "t": "Action"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Hepatitis B testing"
+     },
+     {
+      "t": "- Unavailability of or access to hepatitis B testing should not be a barrier to PrEP initiation or use regardless of the method choice.<br/>- Testing oral PrEP users for hepatitis B at or within three months of PrEP initiation is strongly suggested where feasible.<br/>- All recommended PrEP options can be safely offered to people with hepatitis B, so awaiting hepatitis B test results should not delay initiation.<br/>- If tested for hepatitis B, clients who are negative can be offered hepatitis B vaccination (as per national treatment guidelines).<br/>- Clients with hepatitis B who are not interested in oral PrEP should be referred to relevant management/treatment services.<br/>- Clients with HBV co-infection who stop using oral PrEP should also be referred to relevant management/treatment services, as stopping oral PrEP may cause viral reactivation."
+     }
+    ],
+    [
+     {
+      "t": "Hepatitis C testing"
+     },
+     {
+      "t": "- Unavailability of or access to hepatitis C testing should not be a barrier to PrEP initiation or use.<br/>- Testing for hepatitis C is strongly encouraged at or within the first three months of PrEP initiation and every 12 months thereafter where PrEP services are provided to populations with increased exposure to hepatitis C.<br/>- All recommended PrEP options can be safely offered to individuals with hepatitis C, so awaiting results should not delay initiation.<br/>- If tested, clients with hepatitis C should be referred for assessment and treatment (as per national treatment guidelines)."
+     }
+    ],
+    [
+     {
+      "t": "Kidney function assessment"
+     },
+     {
+      "t": "PrEP ring, CAB-LA and LEN:<br/>- Kidney function measurement is not necessary for use of the PrEP ring or any of the injectable PrEP methods.<br/>Oral PrEP:<br/>- For oral PrEP users, creatinine testing is recommended for some users at the one-month follow-up visit.<br/>- Measuring kidney function of potential oral PrEP users at initiation and/or during follow-up is suggested for some populations; Table 17 outlines for whom and how often.<br/>- Section 4.1, Box 11 gives the formula to calculate creatinine clearance / eGFR.<br/>- Initiation or continuation of oral PrEP should not be delayed while waiting for a kidney function result in clinically stable clients: review results as soon as they arrive and call back clients with abnormal results immediately; normal results can be communicated at the follow-up visit.<br/>- Any individual with estimated creatinine clearance ≥60 mL/min or eGFR ≥60 mL/min per 1.73 m² can safely be prescribed oral PrEP.<br/>- If estimated creatinine clearance is <60 mL/min or eGFR <60 mL/min per 1.73 m², see Section 4, Management of Creatinine Elevation."
+     }
+    ],
+    [
+     {
+      "t": "Screening, testing and treatment of other STIs"
+     },
+     {
+      "t": "- Any PrEP method can be used if the client has STIs other than HIV and during treatment of STIs other than HIV.<br/>- Manage STIs per STI standard treatment guidelines.<br/>- If testing is not possible, symptomatically manage STIs as per STI standard treatment guidelines.<br/>- PrEP should still be provided even if STI services are not available or if the client is unable to or does not wish to access them. Lack of access or uptake of STI services should not be a barrier to accessing PrEP."
+     }
+    ],
+    [
+     {
+      "t": "Pregnancy testing and provision of contraceptives"
+     },
+     {
+      "t": "Assess fertility intentions and offer pregnancy testing and contraception or safer conception counselling."
+     }
+    ],
+    [
+     {
+      "t": "Provision of gender-based violence (GBV) services, including intimate partner violence (IPV) services"
+     },
+     {
+      "t": "- Clients identified as experiencing GBV, including IPV, should be provided with appropriate services as needed and available.<br/>- PrEP should still be provided even if these services are not available or if the client is unable to or does not wish to access these services. These services should not be barriers to accessing PrEP.<br/>- Provide appropriate GBV and IPV response, including support and referral where necessary.<br/>- Nurses should provide the appropriate minimum package of care for GBV/IPV depending on the type of GBV: PEP/PrEP/ART if appropriate and other related medical care (see Eswatini GBV guidelines); referral to a social worker; informing the police for all children younger than age 12 if there is no reachable social worker nearby; any other service that brought the client to the facility, including PrEP; nurses not trained/equipped in forensic examination should then refer to a doctor.<br/>- Clients experiencing GBV should not be prohibited from receiving PrEP if they can effectively use it."
+     }
+    ],
+    [
+     {
+      "t": "Assessment for mental health and substance abuse disorders and provision of supportive services or referrals as needed"
+     },
+     {
+      "t": "- Clients with mental health or substance use concerns should not be prohibited from receiving PrEP if they can effectively use PrEP.<br/>- Screen for mental health concerns, including depression and substance abuse disorders, which might increase potential HIV exposure or affect effective use of PrEP, and provide or link to follow-up services as needed (see the annex for depression and substance abuse screening tools).<br/>- PrEP should still be provided even if these services are not available or if the client is unable to or does not wish to access these services. These services should not be barriers to accessing PrEP."
+     }
+    ],
+    [
+     {
+      "t": "Provision of or referral to voluntary medical male circumcision (VMMC) services"
+     },
+     {
+      "t": "- Clients who may benefit from VMMC can be provided with or referred to VMMC services in alignment with national guidelines.<br/>- VMMC education (group/one-on-one) at facility or community level should incorporate combination prevention, including PrEP.<br/>- VMMC service providers should provide all other available combination prevention services.<br/>- PrEP can also be initiated on the day of VMMC or the VMMC follow-up visit.<br/>- PrEP should still be provided even if these services are not available or if the client is unable to or does not wish to access these services. These services should not be barriers to accessing PrEP."
+     }
+    ],
+    [
+     {
+      "t": "Screening for and treatment of non-communicable diseases"
+     },
+     {
+      "t": "- Clients may have additional health needs that come up during a visit or are discovered through further assessment.<br/>- Provide clients with relevant health care services or refer them to appropriate services as needed and available.<br/>- PrEP should still be provided even if these services are not available or if the client is unable to or does not wish to access these services. These services should not be barriers to accessing PrEP."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The kidney row points to 'Section 4.1, box 11' for the creatinine clearance formula; Box 11 is the AHI signs box (p.37) and the formula is elsewhere.",
+    "The mental health row refers to 'Appendix 4' for screening tools; the tools are in Annex 5.",
+    "'Testing (oral PrEP users for hepatitis B' – a bracket is opened and not closed."
+   ],
+   "pages": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "context_before": "The following components could be offered alongside PrEP services as part of comprehensive, person-centred care, depending on the client's needs and preferences. HCWs should explain which tests will be done, why, and when to expect results."
+  },
+  {
+   "table_id": "prep-2025-tbl-first-followup-timing",
+   "page": 46,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit",
+   "caption": "Table 14. Timing of the first follow-up visit by PrEP product: oral PrEP and ring 3 months, CAB-LA 4 weeks (injection 2), LEN 6 months ±2 weeks",
+   "replaces_chunks": [
+    "prep-2025-0113"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "PrEP product"
+     },
+     {
+      "t": "Timing of first follow-up visit"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Oral PrEP; PrEP ring"
+     },
+     {
+      "t": "3 months after initiation (earlier follow-up visits can be done for more efficient integration with other services)."
+     }
+    ],
+    [
+     {
+      "t": "CAB-LA"
+     },
+     {
+      "t": "Four weeks after initiation injection 1, the client should return for initiation injection 2."
+     }
+    ],
+    [
+     {
+      "t": "LEN"
+     },
+     {
+      "t": "6 months ±2 weeks (24–28 weeks) after the initiation package"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "table_note": "Clients should come back earlier if uncertain about managing side effects, if they have symptoms suggestive of acute HIV infection, difficulties with effective oral PrEP or ring use, or need other assistance. Oral PrEP, PrEP ring and LEN clients get an HIVST for self-testing at month 1, returning for confirmatory testing if positive."
+  },
+  {
+   "table_id": "prep-2025-tbl-exposure-during-prep",
+   "page": 47,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > HIV Exposure and AHI Assessment",
+   "caption": "Table 15. Assessing HIV exposure during PrEP use: poor adherence with exposure in last 72 hours (PEP) or with AHI signs (stop PrEP 28 days), counselling, retest after 28 days",
+   "replaces_chunks": [
+    "prep-2025-0118"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "If"
+     },
+     {
+      "t": "Consider"
+     },
+     {
+      "t": "Counselling"
+     },
+     {
+      "t": "Follow-up after 28 days"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- Adherence to PrEP product was poor ¹<br/>- HIV test is negative<br/>- Client was exposed to HIV in the last 72 hours"
+     },
+     {
+      "t": "PEP"
+     },
+     {
+      "t": "Discuss barriers to effective PrEP use.<br/>Encourage condom use.",
+      "rs": 2
+     },
+     {
+      "t": "Retest for HIV. If negative, restart PrEP."
+     }
+    ],
+    [
+     {
+      "t": "- Poor adherence ¹<br/>- HIV test is negative<br/>- No exposure in the last 72 hours but high-risk sex in the last 14 days and signs/symptoms of AHI"
+     },
+     {
+      "t": "Discontinuing PrEP for 28 days"
+     },
+     {
+      "t": "Retest for HIV. If negative, restart PrEP."
+     }
+    ]
+   ],
+   "footnotes": [
+    "¹ Poor adherence can be defined as inconsistent or inappropriate use of PrEP as prescribed during periods of exposure, in a way that does not achieve a high level of protection against acquisition of HIV (see Table 16)."
+   ],
+   "source_flags": [
+    "The footnote says 'See Table 6' (CAB-LA drug interactions); the adherence definitions are in Table 16."
+   ],
+   "pages": [
+    47,
+    48
+   ],
+   "context_before": "At every follow-up visit, assess PrEP use and adherence in an open-ended, non-judgmental way. If adherence is poor, assess the client for PEP indication and symptoms of AHI."
+  },
+  {
+   "table_id": "prep-2025-tbl-followup-hiv-testing",
+   "page": 47,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 1: HIV Testing Services",
+   "caption": "HIV testing during PrEP follow-up by product: frequency and test type (HIVST for oral PrEP and ring, RDT before every CAB-LA injection, LEN HIVST at month 1 then RDT)",
+   "replaces_chunks": [
+    "prep-2025-0116"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "Oral PrEP"
+     },
+     {
+      "t": "PrEP ring"
+     },
+     {
+      "t": "CAB-LA"
+     },
+     {
+      "t": "LEN"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "HIV testing frequency"
+     },
+     {
+      "t": "M1 home-based HIVST, then every three months",
+      "cs": 2
+     },
+     {
+      "t": "Before every injection"
+     },
+     {
+      "t": "At M1 and before every injection"
+     }
+    ],
+    [
+     {
+      "t": "HIV testing type"
+     },
+     {
+      "t": "HIVST",
+      "cs": 2
+     },
+     {
+      "t": "Rapid diagnostic test"
+     },
+     {
+      "t": "M1 only HIVST. RDT."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Two tables are numbered 'Table 14' (timing of follow-up visits, p.46, and HIV testing services, p.47)."
+   ],
+   "context_before": "HIV testing and counselling should be conducted at every follow-up visit to inform decisions on whether to continue or discontinue PrEP. The type of HIV testing depends on the PrEP method."
+  },
+  {
+   "table_id": "prep-2025-tbl-adherence-definition",
+   "page": 48,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments",
+   "caption": "Table 16. Defining PrEP adherence (adherent vs non-adherent) for oral PrEP (AFAB, AMAB event-driven), PrEP ring, CAB-LA and LEN injection timing",
+   "replaces_chunks": [
+    "prep-2025-0120",
+    "prep-2025-0121"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "PrEP method"
+     },
+     {
+      "t": "Adherent"
+     },
+     {
+      "t": "Non-adherent"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Oral PrEP",
+      "rs": 2
+     },
+     {
+      "t": "Assigned female at birth: ≤2 doses missed each week in the week before and week after each day of sex"
+     },
+     {
+      "t": "Assigned female at birth: 2+ doses missed each week in the week before and week after each day of sex."
+     }
+    ],
+    [
+     {
+      "t": "Assigned male at birth: a double dose was taken 2–24 hours before sexual exposure and at least 2 days of daily PrEP were continued after each day of sex"
+     },
+     {
+      "t": "Assigned male at birth: double (loading) dose was not taken within 2–24 hours before sexual exposure and/or daily PrEP was not continued for 2 days after each day of sex."
+     }
+    ],
+    [
+     {
+      "t": "PrEP ring"
+     },
+     {
+      "t": "Ring in place continuously the day before and the day of sex for each day of vaginal sex"
+     },
+     {
+      "t": "Ring was not continuously in place the day before and the day of vaginal sex.<br/>Any reported anal sex without a condom should be considered PrEP ring non-adherent."
+     }
+    ],
+    [
+     {
+      "t": "CAB-LA",
+      "rs": 2
+     },
+     {
+      "t": "Prior injection was initiation injection 1 and ≤2 months ago"
+     },
+     {
+      "t": "Prior injection was initiation injection 1 and >2 months ago"
+     }
+    ],
+    [
+     {
+      "t": "Prior injection was initiation injection 2 or follow-up and ≤3 months ago"
+     },
+     {
+      "t": "Prior injection was initiation injection 2 or follow-up and >3 months ago"
+     }
+    ],
+    [
+     {
+      "t": "LEN",
+      "rs": 2
+     },
+     {
+      "t": "Initiation: day-2 oral dose taken at home as prescribed"
+     },
+     {
+      "t": "Initiation: day-2 oral dose not taken at home."
+     }
+    ],
+    [
+     {
+      "t": "Maintenance: prior injection (initiation injection or re-injections) was ≤28 weeks ago; or >28 weeks since the last injection but oral LEN bridging was correctly taken until the next injection"
+     },
+     {
+      "t": "Maintenance: prior injection (initiation injection or re-injections) was >28 weeks ago, and no oral LEN bridging taken, or bridging incomplete."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Oral PrEP for people assigned female at birth: '≤2 doses missed' counts as adherent while '2+ doses missed' counts as non-adherent, so exactly 2 missed doses falls in both."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-followup-exposure-ahi",
+   "page": 49,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > HIV Exposure and AHI Assessment",
+   "caption": "Figure 12. PrEP follow-up flowchart: HIV test, exposure in past 72 hours and effective use (continue PrEP or start PEP), AHI symptoms in past 14 days, pause PrEP and retest",
+   "replaces_chunks": [
+    "prep-2025-0122",
+    "prep-2025-0123",
+    "prep-2025-0124"
+   ],
+   "content": "1. Is the client's HIV test result negative?\n   - No: refer the client to confirmatory testing and HIV treatment.\n   - Yes: 2.\n2. Was the client potentially exposed to HIV in the past 72 hours? (⁰)\n   - Yes: did the client practise prevention-effective use of the chosen method during this potential exposure?\n     - Yes: continue PrEP standard of care (SOC).\n     - No: start PEP SOC. (²) If PEP is started, retest for HIV in 28 days; if seronegative on PEP completion, continue PrEP SOC.\n   - No: 3.\n3. Does the client have, or have they had, symptoms of AHI in the past 14 days? (¹)\n   - No: continue PrEP SOC; special effective-use counselling may be beneficial.\n   - Yes: did the client have a potential exposure to HIV in the 14 days before symptom onset?\n     - No: symptoms are unlikely due to AHI because the timing of exposure and symptom onset does not align. Continue PrEP SOC using best clinical judgement.\n     - Yes: did the client practise prevention-effective use of the chosen method around the potential exposure?\n       - Yes: symptoms are unlikely due to AHI because the method was used effectively at the time of exposure. Continue PrEP SOC using best clinical judgement.\n       - No: symptoms may be due to AHI. Provider and client should weigh the risks and benefits of pausing PrEP use and retesting per the national algorithm 28 days from potential exposure, or earlier if HIV testing that can reliably detect HIV given the timing of exposure is available. (²)\nNotes: ⁰ 'No' means no potential exposure at all, or exposure 72+ hours ago. ¹ Two-thirds of people have AHI symptoms within two to four weeks of acquiring HIV; similar symptoms (sore throat, fever, sweats, swollen glands, mouth ulcers, headache, rash, muscle aches) are commonly due to other illnesses, so use discretion. ² If HIV testing that can reliably detect HIV given the exposure and time frame is available, PrEP may be started earlier than 28 days if results are non-reactive.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-creatinine-monitoring",
+   "page": 50,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > Monitoring Kidney Function for Clients Using Oral PrEP",
+   "caption": "Table 17. Creatinine (kidney function) monitoring for oral PrEP by age and risk group: under 30, 30-49, 50+, comorbidities, CrCl 60-89, nephrotoxic drugs; stop PrEP if CrCl <60",
+   "replaces_chunks": [
+    "prep-2025-0126"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Population"
+     },
+     {
+      "t": "Frequency of creatinine monitoring"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Age <30 years"
+     },
+     {
+      "t": "- Optional (until age 30 or if kidney-related comorbidities develop).<br/>- If done and CrCl <90 ml/min, conduct follow-up every six months.<br/>- If <60 ml/min, stop PrEP and manage as per guidance (Section 4)."
+     }
+    ],
+    [
+     {
+      "t": "Age 30–49 years"
+     },
+     {
+      "t": "Conduct creatinine test once, at or within three months of initiation.<br/>- If CrCl ≥90 ml/min: optional (until age 50 or kidney-related comorbidities develop).<br/>- If CrCl <90 ml/min (60–89 ml/min): screening every 6–12 months.<br/>- If <60 ml/min: stop PrEP and manage as per guidance (Section 4)."
+     }
+    ],
+    [
+     {
+      "t": "Age 50+"
+     },
+     {
+      "t": "- Conduct creatinine test once, at or within three months of initiation.<br/>- Follow-up screening every 6–12 months.<br/>- If <60 ml/min, stop oral PrEP and manage as per guidance (Section 4).",
+      "rs": 4
+     }
+    ],
+    [
+     {
+      "t": "Individuals of any age with comorbidities"
+     }
+    ],
+    [
+     {
+      "t": "Individuals with CrCl <90 ml/min (60–89)"
+     }
+    ],
+    [
+     {
+      "t": "Individuals with concurrent nephrotoxic medication"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The text above the table says monitoring is after one month and every six months; the table says once within three months of initiation and then every 6–12 months (or six-monthly for under-30s with CrCl <90)."
+   ],
+   "context_before": "Renal function testing is not a prerequisite at baseline before PrEP initiation. For certain age and population groups it should be monitored after one month of oral PrEP use and every six months thereafter.",
+   "table_note": "For the management of clients with abnormal creatinine levels, see Section 4."
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-oral-ring-dispensing-schedule",
+   "page": 51,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP Ring",
+   "caption": "Figure 13. Oral PrEP and PrEP ring follow-up and dispensing schedule: 3 months at initiation, HIVST at month 1, then up to 6-month dispensing with HIVST every 3 months; 6-month refill criteria",
+   "replaces_chunks": [
+    "prep-2025-0129"
+   ],
+   "content": "Figure 13 (timeline in months 0–13):\n- Month 0: initiate and dispense 3 months of PrEP product + HIVST.\n- Month 1: use HIVST at home.\n- Month 3: dispense a maximum of 6 months of PrEP + HIVST.\n- Month 6: use HIVST.\n- Month 9: dispense a maximum of 6 months of PrEP + HIVST.\n- Month 12: use HIVST.\nSix-month refill criteria (after the first follow-up visit; otherwise maximum three months): attends the follow-up appointment on time (not later than three days after the scheduled date); reports no side effects; wants to continue with the same method; not pregnant or breastfeeding and no co-morbidities; willing to do an HIVST after three months – if negative, continue with the remaining three months; if positive, stop the PrEP method and report to the facility for confirmation and linkage to ART.\nED-PrEP users: dispense three months of PrEP minus the number of full bottles the client has at home (enough tablets should they use PrEP daily). Clients on 6-month dispensing get an HIVST to use after three months before continuing with the last three months of product.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-restarting-prep",
+   "page": 53,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.6 Re-starting PrEP Use",
+   "caption": "Table 18. Restarting PrEP by product: oral PrEP (7 days daily for AFAB, double dose 2-24 hours for AMAB), dapivirine ring (24 hours), CAB-LA and LEN (missed-injection annexes)",
+   "replaces_chunks": [
+    "prep-2025-0133"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "PrEP product"
+     },
+     {
+      "t": "Restarting"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Oral PrEP"
+     },
+     {
+      "t": "For individuals AFAB restarting oral PrEP, it will take seven days of daily use before oral PrEP reaches maximum effectiveness.<br/>For individuals AMAB restarting oral PrEP, a double dose (two tablets) should be taken 2 to 24 hours before a sexual encounter, whether the intention is to use daily oral PrEP or ED-PrEP."
+     }
+    ],
+    [
+     {
+      "t": "Dapivirine ring"
+     },
+     {
+      "t": "Restart the PrEP ring at least 24 hours before a sexual encounter to reach maximum protection."
+     }
+    ],
+    [
+     {
+      "t": "CAB-LA"
+     },
+     {
+      "t": "For clients wanting to restart CAB-LA, follow the same guidance as for a missed injection (Annex 2)."
+     }
+    ],
+    [
+     {
+      "t": "LEN"
+     },
+     {
+      "t": "For clients wanting to restart LEN, follow the same guidance as for a missed injection (printed 'Annex 5'; the LEN missed-injection scenarios are in Annex 3)."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The LEN row refers to 'Annex 5' (mental health screening tools); LEN missed-injection guidance is Annex 3.",
+    "Ring row printed 'To restart the PrEP ring within 24 hours to reach maximum protection before sexual encounter' (incomplete sentence)."
+   ],
+   "context_before": "Clients restarting PrEP should follow the same guidance as when starting PrEP for the first time."
+  },
+  {
+   "table_id": "prep-2025-tbl-product-switch",
+   "page": 54,
+   "image_only": false,
+   "heading_path": "3 PrEP Delivery > 3.7 Switching between PrEP Products",
+   "caption": "Table 19. Switching between PrEP products: overlap and timing when switching between oral PrEP, PrEP ring, CAB-LA and LEN",
+   "replaces_chunks": [
+    "prep-2025-0135",
+    "prep-2025-0136"
+   ],
+   "row_header_cols": 2,
+   "header": [
+    [
+     {
+      "t": "Product switch",
+      "cs": 2
+     },
+     {
+      "t": "Guidance"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Oral PrEP",
+      "rs": 3
+     },
+     {
+      "t": "to PrEP ring"
+     },
+     {
+      "t": "Continue oral PrEP for seven days after ring insertion."
+     }
+    ],
+    [
+     {
+      "t": "to CAB-LA"
+     },
+     {
+      "t": "Continue oral PrEP for seven days after the first CAB-LA initiation injection."
+     }
+    ],
+    [
+     {
+      "t": "to LEN"
+     },
+     {
+      "t": "Continue oral PrEP throughout both days of receiving the LEN initiation regimen."
+     }
+    ],
+    [
+     {
+      "t": "PrEP ring",
+      "rs": 3
+     },
+     {
+      "t": "to oral PrEP"
+     },
+     {
+      "t": "Continue using the ring for seven days after starting oral PrEP."
+     }
+    ],
+    [
+     {
+      "t": "to CAB-LA"
+     },
+     {
+      "t": "Continue with the ring for seven days after the first CAB-LA initiation injection."
+     }
+    ],
+    [
+     {
+      "t": "to LEN"
+     },
+     {
+      "t": "Continue to use the PrEP ring throughout both days of receiving the LEN initiation regimen."
+     }
+    ],
+    [
+     {
+      "t": "CAB-LA",
+      "rs": 3
+     },
+     {
+      "t": "to oral PrEP"
+     },
+     {
+      "t": "- If the last injection was initiation injection one, start oral PrEP one month after the last injection.<br/>- If the last injection was initiation injection two or a re-injection, start oral PrEP two months after the last injection."
+     }
+    ],
+    [
+     {
+      "t": "to PrEP ring"
+     },
+     {
+      "t": "- If the last injection was initiation injection one, insert the PrEP ring one month after the last injection.<br/>- If the last injection was initiation injection two or a re-injection, insert the PrEP ring two months after the last injection."
+     }
+    ],
+    [
+     {
+      "t": "to LEN"
+     },
+     {
+      "t": "- If the last injection was initiation injection one, start the LEN initiation regimen one month after the last injection.<br/>- If the last injection was initiation injection two or a re-injection, start the LEN initiation regimen two months after the last injection."
+     }
+    ],
+    [
+     {
+      "t": "LEN",
+      "rs": 3
+     },
+     {
+      "t": "to oral PrEP"
+     },
+     {
+      "t": "Start oral PrEP 6 months after the last LEN injection, regardless of the type of LEN injection last administered."
+     }
+    ],
+    [
+     {
+      "t": "to PrEP ring"
+     },
+     {
+      "t": "Insert the PrEP ring 6 months after the last LEN injection, regardless of the type of LEN injection last administered."
+     }
+    ],
+    [
+     {
+      "t": "to CAB-LA"
+     },
+     {
+      "t": "Start CAB-LA 6 months after the last LEN injection, regardless of the type of LEN injection last administered."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Box 14 says 'Table 9 below provides general guidance' for switching; the switching table is Table 19.",
+    "The PrEP ring section (p.22) refers to 'table 19, page 55, section 3.7'; the table is on printed page 56."
+   ],
+   "context_before": "Clients may switch between PrEP methods. Safety data on simultaneous use of different PrEP products are limited and it is not recommended, but simultaneous use is allowed to ensure protection while the new product builds up to effective levels. Providers should consider time to effectiveness and waning effectiveness of each method, coverage of previous and future exposures, and client preferences."
+  },
+  {
+   "kind": "box",
+   "table_id": "prep-2025-box-creatinine-clearance-apri",
+   "page": 55,
+   "image_only": false,
+   "heading_path": "4 Management of Clients in Specific Situations > 4.1 Management of Clients with Elevated Creatinine Levels",
+   "caption": "Boxes 15-17. Creatinine clearance formula (Cockcroft-Gault, µmol/L: ×1.23 men, ×1.04 women), management of creatinine elevation on oral PrEP, causes of renal insufficiency, APRI score for hepatitis B",
+   "replaces_chunks": [
+    "prep-2025-0138"
+   ],
+   "content": "Box 15. Calculating creatinine clearance (ml/min):\n- Male: (140 − age) × weight in kg × 1.23 ÷ serum creatinine (µmol/L)\n- Female: (140 − age) × weight in kg × 1.04 ÷ serum creatinine (µmol/L)\nIn case of creatinine elevation:\n- Stop oral PrEP if creatinine elevation is confirmed and estimated creatinine clearance decreases to <60 ml/min.\n- Evaluate for additional causes of creatinine elevation and manage in consultation with the medical officer (MO).\n- After oral PrEP is stopped, check creatinine for another one to three months; oral PrEP can be restarted if CrCl returns to >60 ml/min.\nBox 16. Common causes of chronic or severe renal insufficiency: diabetes mellitus; uncontrolled systemic hypertension; pre-eclampsia during pregnancy; hepatitis C infection; liver failure.\nBox 17. APRI score (hepatitis B, section 4.2): APRI = [AST level ÷ AST upper limit of normal] ÷ platelet count (10⁹/L) × 100.",
+   "footnotes": [],
+   "source_flags": [
+    "The creatinine clearance and APRI formulas are printed as images only (no text layer).",
+    "'Evaluate for additional causes of creatinine elevations (see Box 12)' – Box 12 is about AHI; the causes are in Box 16."
+   ]
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-seroconverters",
+   "page": 57,
+   "image_only": false,
+   "heading_path": "4 Management of Clients in Specific Situations > 4.3 HIV Seroconversion",
+   "caption": "Figure 14. Identifying and reporting PrEP seroconverters: current PrEP client (≤3 or >3 months since initiation), previous PrEP client, no PrEP history – what to document; genotype for CAB-LA/LEN tail period",
+   "replaces_chunks": [
+    "prep-2025-0144",
+    "prep-2025-0145"
+   ],
+   "content": "HIV-positive client:\n- Current PrEP client, PrEP initiation ≤3 months ago: document as missed AHI in the PrEP register / CMIS; document previous PrEP exposure in the ART chronic care file / CMIS.\n- Current PrEP client, PrEP initiation >3 months ago: document PrEP seroconverter in the PrEP register / CMIS; document previous PrEP exposure in the ART chronic care file / CMIS.\n- Previous PrEP client who tested HIV negative after stopping PrEP: document seroconverter after PrEP discontinuation in the PrEP register / CMIS; document previous PrEP exposure in the ART chronic care file / CMIS.\n- No history of PrEP use: document no previous ARV exposure in the ART chronic care file / CMIS.\nNote: all clients testing HIV positive should be initiated on the first-line recommended ART regimen regardless of previous PrEP/PEP exposure. A genotype test for HIV drug resistance should be taken for clients seroconverting during the CAB-LA or LEN tail period.",
+   "footnotes": [],
+   "source_flags": [
+    "Section 4.3 says genotyping should be done for all PrEP seroconverters and anyone exposed to CAB-LA in the last 12 months; the note under Figure 14 limits it to seroconversion during the CAB-LA or LEN tail period."
+   ]
+  },
+  {
+   "kind": "box",
+   "table_id": "prep-2025-box-pbfw-opt-out",
+   "page": 58,
+   "image_only": false,
+   "heading_path": "4 Management of Clients in Specific Situations > 4.6 Pregnancy and Breastfeeding",
+   "caption": "Box 19. PrEP as a routine opt-out approach for pregnant and breastfeeding women at ANC, maternity and PNC (eMTCT)",
+   "replaces_chunks": [
+    "prep-2025-0148"
+   ],
+   "content": "Box 19. PrEP should be provided routinely as an opt-out approach at ANC, maternity and PNC services.\n- HIV prevention, including PrEP, is a key intervention in the elimination of mother-to-child HIV transmission (eMTCT).\n- PrEP has been shown to be very effective in reducing HIV acquisition and is also safe among PBFW.\n- Universal PrEP provision, using an opt-out approach, is thus part of the national eMTCT strategy.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-data-collection-tools",
+   "page": 59,
+   "image_only": false,
+   "heading_path": "5 Documentation and Data Management > 5.1 PrEP Data Collection Tools",
+   "caption": "Table 20. PrEP data collection tools: CMIS PrEP module, PrEP register and monthly summary form (sites without CMIS), client appointment card",
+   "replaces_chunks": [
+    "prep-2025-0151"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Service delivery point"
+     },
+     {
+      "t": "Tool"
+     },
+     {
+      "t": "Purpose"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Service delivery point using CMIS"
+     },
+     {
+      "t": "PrEP module within CMIS"
+     },
+     {
+      "t": "To document all PrEP-related activities, including PrEP initiations, follow-up visits, side effects, etc."
+     }
+    ],
+    [
+     {
+      "t": "Service delivery points without access to CMIS",
+      "rs": 2
+     },
+     {
+      "t": "PrEP register"
+     },
+     {
+      "t": "To be used at service delivery points without access to CMIS, to document all PrEP initiations and follow-up visits."
+     }
+    ],
+    [
+     {
+      "t": "PrEP monthly summary form"
+     },
+     {
+      "t": "To summarise monthly PrEP initiations and follow-up visits for service delivery points without access to CMIS."
+     }
+    ],
+    [
+     {
+      "t": "All service delivery points"
+     },
+     {
+      "t": "PrEP client appointment card"
+     },
+     {
+      "t": "Can be used for all clients whether or not the service delivery point has access to CMIS. The client-held card documents the next follow-up appointment."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [],
+   "context_before": "Most PrEP service delivery points have access to the electronic CMIS; paper-based PrEP tools are only used where there is no CMIS. Concurrent use of the CMIS PrEP module and paper tools is not recommended."
+  },
+  {
+   "table_id": "prep-2025-tbl-monitoring-indicators",
+   "page": 60,
+   "image_only": false,
+   "heading_path": "5 Documentation and Data Management > 5.3 PrEP Indicators",
+   "caption": "Table 21. Key PrEP monitoring indicators: PrEP eligibility, offer, acceptance, initiation, CAB-LA injection 2, 3-month continuation, active at 6 months, product switching, IEC, SRH clients, volumes dispensed",
+   "replaces_chunks": [
+    "prep-2025-0154",
+    "prep-2025-0155",
+    "prep-2025-0157"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Indicator"
+     },
+     {
+      "t": "Numerator"
+     },
+     {
+      "t": "Denominator"
+     },
+     {
+      "t": "Disaggregation"
+     },
+     {
+      "t": "Reporting frequency"
+     },
+     {
+      "t": "Data source"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "% of HIV-negative at-risk clients eligible for PrEP"
+     },
+     {
+      "t": "No. of HIV-negative at-risk clients (not on PrEP) eligible for PrEP"
+     },
+     {
+      "t": "No. of HIV-negative at-risk clients (not on PrEP)"
+     },
+     {
+      "t": "Region, facility, age, gender, priority population",
+      "rs": 3
+     },
+     {
+      "t": "Quarterly",
+      "rs": 3
+     },
+     {
+      "t": "HTS register, CMIS",
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "% of HIV-negative at-risk clients offered PrEP"
+     },
+     {
+      "t": "No. of HIV-negative at-risk clients (not on PrEP) offered PrEP"
+     },
+     {
+      "t": "No. of HIV-negative at-risk clients (not on PrEP) eligible for PrEP"
+     }
+    ],
+    [
+     {
+      "t": "% of eligible HIV-negative at-risk clients accepted PrEP"
+     },
+     {
+      "t": "No. of HIV-negative at-risk clients (not on PrEP) accepted PrEP offer"
+     },
+     {
+      "t": "No. of HIV-negative at-risk clients (not on PrEP) and offered PrEP"
+     }
+    ],
+    [
+     {
+      "t": "% of eligible clients accepting PrEP offer who are newly initiated on PrEP"
+     },
+     {
+      "t": "No. of clients newly initiated on PrEP"
+     },
+     {
+      "t": "No. of clients that accepted PrEP offer"
+     },
+     {
+      "t": "Region, facility, age, gender, priority (population)"
+     },
+     {
+      "t": "Monthly"
+     },
+     {
+      "t": "PrEP register, CMIS"
+     }
+    ],
+    [
+     {
+      "t": "% of CAB clients initiated that received initiation injection 2"
+     },
+     {
+      "t": "No. of clients returned for initiation injection 2"
+     },
+     {
+      "t": "No. of clients initiated on CAB-LA and due for initiation injection 2"
+     },
+     {
+      "t": "Population, PrEP product",
+      "rs": 3
+     },
+     {
+      "t": "Quarterly",
+      "rs": 3
+     },
+     {
+      "t": "PrEP register, CMIS",
+      "rs": 3
+     }
+    ],
+    [
+     {
+      "t": "% of eligible clients that came for 3-month visit and continued oral PrEP / PrEP ring / CAB-LA"
+     },
+     {
+      "t": "No. of clients that came for 3-month visit and received an oral PrEP / PrEP ring / CAB-LA PrEP refill / re-injection"
+     },
+     {
+      "t": "No. of clients due for 3-month visit"
+     }
+    ],
+    [
+     {
+      "t": "% of clients active on PrEP at 6 months"
+     },
+     {
+      "t": "No. of clients that received an oral PrEP/ring refill at M3, CAB-LA re-injection at M5 or LEN re-injection at M6"
+     },
+     {
+      "t": "No. of clients that started a PrEP method 6 months ago"
+     }
+    ],
+    [
+     {
+      "t": "% of clients switching PrEP product within the last 6 months"
+     },
+     {
+      "t": "No. of clients switching PrEP product within 6 months"
+     },
+     {
+      "t": "No. of clients that used a PrEP product within the last 6 months"
+     },
+     {
+      "t": "By PrEP product, age, gender"
+     },
+     {
+      "t": "Semi-annually"
+     },
+     {
+      "t": "PrEP register, CMIS"
+     }
+    ],
+    [
+     {
+      "t": "% of PrEP facilities having MOH-approved information, education, communication (IEC) material"
+     },
+     {
+      "t": "No. of facilities using MOH-approved IEC for demand creation"
+     },
+     {
+      "t": "No. of PrEP facilities"
+     },
+     {
+      "t": "Facility, region, implementer"
+     },
+     {
+      "t": "Semi-annually"
+     },
+     {
+      "t": "Facility reports"
+     }
+    ],
+    [
+     {
+      "t": "% of SRH clients that receive PrEP during their FP, ANC or PNC visit"
+     },
+     {
+      "t": "No. of HIV-negative clients coming for a FP, ANC or PNC visit that received or are using a PrEP product"
+     },
+     {
+      "t": "No. of HIV-negative clients coming for a FP, ANC or PNC visit"
+     },
+     {
+      "t": "Facility, region, age, SRH service, PrEP product"
+     },
+     {
+      "t": "Quarterly"
+     },
+     {
+      "t": "PrEP register, CMIS"
+     }
+    ],
+    [
+     {
+      "t": "Volume of PrEP prescribed/dispensed"
+     },
+     {
+      "t": "Number of units of each PrEP product dispensed"
+     },
+     {
+      "t": "Not applicable",
+      "rs": 2
+     },
+     {
+      "t": "Visit type, age, gender"
+     },
+     {
+      "t": "Quarterly",
+      "rs": 2
+     },
+     {
+      "t": "CMIS",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "No. of client visits in which a PrEP product was provided"
+     },
+     {
+      "t": "Number of client visits during which a PrEP product was provided"
+     },
+     {
+      "t": "Priority population, PrEP product, visit type"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "The text introducing the indicators refers to 'Table 11'; the indicators are Tables 21 and 22."
+   ],
+   "pages": [
+    60,
+    61,
+    62
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-evaluation-indicators",
+   "page": 62,
+   "image_only": false,
+   "heading_path": "5 Documentation and Data Management > 5.3 PrEP Indicators",
+   "caption": "Table 22. Key PrEP evaluation indicators: HIV seroconversion while on PrEP (3 months oral/ring, 12 months CAB-LA/LEN) and HIV drug resistance among CAB-LA/LEN seroconverters",
+   "replaces_chunks": [],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Indicator"
+     },
+     {
+      "t": "Numerator"
+     },
+     {
+      "t": "Denominator"
+     },
+     {
+      "t": "Disaggregation"
+     },
+     {
+      "t": "Reporting frequency"
+     },
+     {
+      "t": "Data source"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "% of clients newly identified HIV positive while using PrEP in the last 3 months (oral PrEP or ring) or 12 months for CAB-LA/LEN"
+     },
+     {
+      "t": "No. of clients newly identified HIV positive while using PrEP in the previous 3 months"
+     },
+     {
+      "t": "No. of clients having used PrEP in the last 3 months receiving an HIV test"
+     },
+     {
+      "t": "Facility, region, age, gender, last product used",
+      "rs": 2
+     },
+     {
+      "t": "Quarterly",
+      "rs": 2
+     },
+     {
+      "t": "HTS register, PrEP register, CMIS",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "% of PrEP seroconverters exposed to CAB-LA/LEN with HIVDR mutations"
+     },
+     {
+      "t": "No. of PrEP seroconverters with HIVDR mutations detected in genotype sample"
+     },
+     {
+      "t": "No. of clients with genotype testing conducted"
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "kind": "diagram",
+   "table_id": "prep-2025-fig-annex1-rule-out-ahi",
+   "page": 63,
+   "image_only": false,
+   "heading_path": "6 Annexes > Annex 1: Job Aid to Rule Out Acute HIV Infection",
+   "caption": "Annex 1. Job aid to rule out acute HIV infection (AHI) before PrEP: cold/flu symptoms in past 14 days plus HIV exposure in past 14 days → defer PrEP and retest in 4 weeks",
+   "replaces_chunks": [
+    "prep-2025-0159",
+    "prep-2025-0160",
+    "prep-2025-0161",
+    "prep-2025-0163"
+   ],
+   "content": "1. In the past 14 days, have you had any of the following 'cold' or 'flu' symptoms? (yes/no for each): sore throat; fever; night sweats; swollen glands; mouth ulcers; headache; rash; generalised body rash; fatigue.\n2. Is there at least one symptom and a recent exposure to HIV?\n   - In the past 14 days, has the client experienced any signs and/or symptoms of AHI? (yes/no)\n   - Has there been a potential exposure to HIV in the previous 14 days? (yes/no)\n3. If YES to both: defer PrEP and make an appointment for repeat HIV testing in four weeks. Document the appointment date on the PrEP client appointment card.\n   If NO to either one: determine if the client meets eligibility criteria for PrEP. If yes, initiate the client's preferred PrEP method.",
+   "footnotes": [],
+   "source_flags": [
+    "'Headache' is listed twice in the symptom checklist."
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-annex2-cab-la-missed",
+   "page": 64,
+   "image_only": false,
+   "heading_path": "6 Annexes > Annex 2: Scenarios for Clients Missing CAB-LA Injection",
+   "caption": "Annex 2. Missed or postponed CAB-LA injections: unplanned missed injection 2 or follow-up injection (<2 or <3 months vs later), planned postponement with oral TDF bridging up to 90 days, restart rules",
+   "replaces_chunks": [
+    "prep-2025-0165",
+    "prep-2025-0166",
+    "prep-2025-0167"
+   ],
+   "row_header_cols": 2,
+   "header": [
+    [
+     {
+      "t": "Missed / postponed injection"
+     },
+     {
+      "t": "Time since prior injection"
+     },
+     {
+      "t": "Recommended action for provider"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Unplanned missed injection visits"
+    },
+    [
+     {
+      "t": "Initiation injection 2",
+      "rs": 2
+     },
+     {
+      "t": "<2 months since initiation injection 1"
+     },
+     {
+      "t": "Proceed with initiation injection 2 and schedule the follow-up injection for 2 months later as a follow-up visit."
+     }
+    ],
+    [
+     {
+      "t": ">2 months since initiation injection 1"
+     },
+     {
+      "t": "Assess the client's clinical eligibility for restarting CAB-LA using the initiation procedure and, if clinically eligible, administer initiation injection 1 that day and schedule initiation visit 2 in one month. Follow-up visits every 2 months thereafter."
+     }
+    ],
+    [
+     {
+      "t": "Follow-up injection",
+      "rs": 2
+     },
+     {
+      "t": "<3 months since last injection"
+     },
+     {
+      "t": "Proceed with administering the follow-up injection that day and schedule the subsequent follow-up injection for 2 months later."
+     }
+    ],
+    [
+     {
+      "t": ">3 months since last injection"
+     },
+     {
+      "t": "Rescreen for potential restart and, if clinically eligible, administer initiation injection 1 that day and schedule initiation injection 2 in 1 month. Follow-up visits every 2 months thereafter."
+     }
+    ],
+    {
+     "section": "Planned postponed injection visits"
+    },
+    [
+     {
+      "t": "Initiation injection 2",
+      "rs": 2
+     },
+     {
+      "t": "<1 month (±7 days) from initiation injection 1"
+     },
+     {
+      "t": "Schedule initiation injection 2 on the first date the client is available to return (within 1 month [±7 days] of initiation injection 1)."
+     }
+    ],
+    [
+     {
+      "t": "≥1 month (±7 days) from initiation injection 1"
+     },
+     {
+      "t": "Defer start of CAB-LA and consider another PrEP method or HIV prevention strategy as an interim alternative. When the client is available for two appointments in a row separated by 1 month (±7 days), it may be possible to reconsider initiating CAB-LA."
+     }
+    ],
+    [
+     {
+      "t": "Follow-up injection",
+      "rs": 2
+     },
+     {
+      "t": "Postponement <3 months from the ideal follow-up injection date"
+     },
+     {
+      "t": "Prescribe up to 90 days of daily oral tenofovir-based PrEP to bridge the gap.* Resume or restart CAB-LA at the end of the oral PrEP bridge:<br/>- If the most recent CAB-LA injection (before the bridge) was <3 months ago, resume CAB-LA follow-up injections.<br/>- If it was >3 months ago, restart CAB-LA with initiation injection 1 and schedule initiation injection 2 for 1 month later.<br/>Administer the follow-up injection as soon as the client is available and continue every 2 months thereafter."
+     }
+    ],
+    [
+     {
+      "t": "Postponement >3 months from the ideal follow-up injection date"
+     },
+     {
+      "t": "Do not re-initiate CAB-LA until the client is available to return on time. The client can consider daily oral PrEP or another HIV prevention strategy as an alternative."
+     }
+    ]
+   ],
+   "footnotes": [
+    "*Clients who wish to remain on CAB-LA and anticipate needing to postpone their follow-up visit by 8 days or more may be given tenofovir-based oral PrEP as a 'bridge' to cover the gap between follow-up injections. Oral PrEP may be used only to bridge between follow-up injections, not between initiation injections 1 and 2. There is no specific maximum duration for bridging with oral TDF-based PrEP, but 90 days may be a reasonable limit, since HIV retesting should occur quarterly for oral PrEP users. Providers should know in advance how a postponed follow-up injection will be managed in order to prescribe the correct type of oral PrEP (cabotegravir vs tenofovir-based) and a sufficient volume."
+   ],
+   "source_flags": [
+    "Exactly 2 months (initiation injection 2) and exactly 3 months (follow-up) are not covered by '<' and '>'.",
+    "The footnote mentions oral cabotegravir as a bridging option, which is not available in the guideline's product list."
+   ],
+   "pages": [
+    64,
+    65,
+    66
+   ],
+   "context_before": "When a client misses a CAB-LA injection it may be a planned postponement or an unplanned missed visit. If the client does not want to continue CAB-LA, support stopping (bridging doses or alternative PrEP / prevention if still exposed)."
+  },
+  {
+   "table_id": "prep-2025-tbl-annex3-len-missed",
+   "page": 67,
+   "image_only": false,
+   "heading_path": "6 Annexes > Annex 3: Scenarios for Clients Missing LEN Oral Loading Dose or LEN Injection",
+   "caption": "Annex 3. Missed LEN day-2 oral loading dose, unplanned missed LEN follow-up injection (<28 or >28 weeks, restart package), planned postponement with weekly oral LEN 300 mg bridging",
+   "replaces_chunks": [
+    "prep-2025-0168",
+    "prep-2025-0169",
+    "prep-2025-0170"
+   ],
+   "row_header_cols": 2,
+   "header": [
+    [
+     {
+      "t": "Missed / postponed dose"
+     },
+     {
+      "t": "Time since prior dose"
+     },
+     {
+      "t": "Recommended action for provider"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Missed oral LEN loading dose on day 2"
+    },
+    [
+     {
+      "t": "Missed day-2 oral LEN dose (2 × 300 mg)"
+     },
+     {
+      "t": "≥24 hours since initiation injections"
+     },
+     {
+      "t": "Encourage the client to take the 2 oral LEN tablets as soon as remembered."
+     }
+    ],
+    {
+     "section": "Unplanned missed injection visits"
+    },
+    [
+     {
+      "t": "Follow-up injection",
+      "rs": 2
+     },
+     {
+      "t": "<28 weeks since last injection"
+     },
+     {
+      "t": "Proceed with the follow-up injection that day and schedule the subsequent follow-up injection 26 weeks later."
+     }
+    ],
+    [
+     {
+      "t": ">28 weeks since last injection"
+     },
+     {
+      "t": "Rescreen for potential restart and, if clinically eligible:<br/>- Administer initiation injections 1 and 2<br/>- Give oral LEN 300 mg, 2 tablets<br/>- Provide oral LEN 300 mg, 2 tablets for the client to take at home the following day<br/>- Provide an HIVST for the client to use after 4 weeks<br/>- Reschedule the next appointment after 26 weeks (±14 days)"
+     }
+    ],
+    {
+     "section": "Planned postponed injection visits"
+    },
+    [
+     {
+      "t": "Follow-up injection",
+      "rs": 2
+     },
+     {
+      "t": "<28 weeks since last injection"
+     },
+     {
+      "t": "Prescribe up to 90 days of weekly oral LEN 300 mg to bridge the gap in the follow-up schedule.* Continue with the next LEN follow-up injection."
+     }
+    ],
+    [
+     {
+      "t": ">28 weeks since last injection"
+     },
+     {
+      "t": "If oral LEN was taken weekly and the last oral LEN dose was taken <7 days ago, continue with LEN continuation injections and schedule follow-up after 26 weeks.<br/>If oral LEN was not taken weekly during the bridging period and/or the last oral LEN dose was >7 days ago, restart the LEN initiation package (subcutaneous LEN and 2 × 300 mg oral LEN on day 1, and 2 × 300 mg oral LEN on day 2)."
+     }
+    ]
+   ],
+   "footnotes": [
+    "*Clients who wish to remain on LEN and anticipate needing to postpone their follow-up visit by 7 days or more may be given oral LEN as a 'bridge' between follow-up injections. There is no specific maximum duration for oral LEN bridging, but 90 days may be a reasonable limit, given that HIV retesting should occur quarterly. Providers should know in advance how a postponed follow-up injection will be managed to prescribe the correct volume of oral LEN."
+   ],
+   "source_flags": [
+    "'schedule the subsequent follow-up injection for 26 later' – the unit (weeks) is missing.",
+    "The 90-day limit for bridging is justified by quarterly retesting 'for those using oral PrEP', copied from the CAB-LA annex.",
+    "Section 2.4 says LEN bridging should not exceed three months and is for exceptional circumstances; the annex offers it routinely for postponements of 7 days or more."
+   ],
+   "pages": [
+    67,
+    68
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-annex4-counselling-messages",
+   "page": 69,
+   "image_only": false,
+   "heading_path": "6 Annexes > Annex 4: PrEP Counseling and Educational Messages",
+   "caption": "Annex 4. PrEP counselling and educational key messages by topic: what PrEP is, effectiveness, side effects, starting/stopping, follow-up, partner disclosure; for oral, daily, ED-PrEP, ring, CAB-LA and LEN users (missed doses, switching, tail period)",
+   "replaces_chunks": [
+    "prep-2025-0171",
+    "prep-2025-0172",
+    "prep-2025-0173",
+    "prep-2025-0174",
+    "prep-2025-0175",
+    "prep-2025-0176",
+    "prep-2025-0177",
+    "prep-2025-0178",
+    "prep-2025-0179",
+    "prep-2025-0180",
+    "prep-2025-0181",
+    "prep-2025-0182",
+    "prep-2025-0183",
+    "prep-2025-0184",
+    "prep-2025-0185",
+    "prep-2025-0186",
+    "prep-2025-0187",
+    "prep-2025-0188",
+    "prep-2025-0189",
+    "prep-2025-0190",
+    "prep-2025-0191",
+    "prep-2025-0192",
+    "prep-2025-0193"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Topic"
+     },
+     {
+      "t": "Key messages"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "What is PrEP?"
+     },
+     {
+      "t": "- PrEP is the use of antiretroviral drugs by HIV-negative clients to prevent HIV.<br/>- It is one of several HIV prevention options and, where possible, should be used in combination with condoms and condom-compatible lubricants and other HIV prevention strategies.<br/>- There are four PrEP methods available in Eswatini for PrEP: Tablets taken orally, a ring that is inserted into the vagina and 2 different PrEP injections. Injectable CAB-LA is a PrEP method given as 2-monthly injections while LEN is a 6-monthly injection."
+     }
+    ],
+    [
+     {
+      "t": "Effectiveness of PrEP"
+     },
+     {
+      "t": "- When used as prescribed, oral PrEP is more than 90% effective at preventing HIV acquisition and the PrEP ring is about 50% effective (likely more with effective use). CAB-LA and LEN are most effective in preventing HIV, more than 90% compared to oral PrEP. This is likely due to improved adherence with injections.<br/>- When choosing a PrEP method, it is important to consider which method(s) will work best for you to prevent HIV during the types of exposures you anticipate, among other factors.<br/><br/>For people assigned female at birth (AFAB) interested in PrEP:<br/>- Daily oral PrEP, CAB-LA and LEN reduce your chance of getting HIV during all types of exposures to HIV.<br/>- The PrEP ring works only for sexual exposures during receptive vaginal sex.<br/><br/>For people assigned male at birth (AMAB) interested in PrEP:<br/>- Daily oral PrEP, CAB-LA and LEN reduces your chances of getting HIV during all types of exposures to HIV<br/>- Event-drive PrEP, known as ED-PrEP, works only for sexual exposures and can only be used if you are not using any estradiol-based hormones."
+     }
+    ],
+    [
+     {
+      "t": "PrEP is not for life"
+     },
+     {
+      "t": "- You should take PrEP for as long as you feel you may be exposed to HIV.<br/>- Some people need to take PrEP only during certain times in their lives, while others have an ongoing need to use PrEP.<br/>- If you decide to start oral PrEP or the PrEP ring, you should come back every three months for a follow-up visit,.<br/>- If you decide to start CAB-LA injectable PrEP, you should come back in a month for a follow-up visit and then return every two months after that.<br/>- If you decide to start LEN injectable PrEP, you should come back every 6 months for a follow-up visit."
+     }
+    ],
+    [
+     {
+      "t": "PrEP and alcohol or other recreational drugs"
+     },
+     {
+      "t": "- Taking PrEP while you are using alcohol or other recreational drugs will not harm you.<br/>- However, alcohol or other recreational drugs may make it challenging to use PrEP correctly, such as by causing you to miss a dose of oral PrEP, so plan to continue using PrEP effectively if you use alcohol or other substances. Or choose a PrEP method that does not need to be taken daily, such as an injectable option.<br/>- We can talk about planning together if that would be helpful."
+     }
+    ],
+    [
+     {
+      "t": "PrEP and other medications"
+     },
+     {
+      "t": "Oral PrEP<br/>- Oral PrEP can be taken with hormonal contraceptives and other medications.<br/>- For people AMAB using estradiol-based exogenous hormones, there is some indication that the use of estradiol-based hormones may reduce oral PrEP drug levels; therefore, ED-PrEP is not recommended for this population.<br/>- Oral PrEP use does not seem to affect levels of estradiol-based exogenous hormones when they are used together.<br/><br/>The PrEP ring<br/>- The ring can be used with most hormonal contraceptives and barrier methods, including condoms and condom-compatible lubricant.<br/>- Using the ring with a diaphragm or another vaginal ring, such as a contraceptive vaginal ring, is not recommended.<br/>- There are no known interactions between dapivirine, and the hormones used for gender-affirming hormone therapy.<br/><br/>Injectable PrEP<br/>- Injectable PrEP, both CAB-LA and LEN can be taken with hormonal contraceptives, gender-affirming hormones, and most other medication.<br/>- Some medicines are not recommended when taking injectable PrEP (CAB-LA or LEN).<br/>- It is important to tell your health provider about all other medicines you are taking, particularly when you use medicines to treat or prevent tuberculosis, medicines for<br/>seizures/convulsions, high dose of aspirin.<br/>- If you take any of these, your provider will discuss whether your PrEP dose needs adjustment, or whether another injectable or a different PrEP option would be safer for you.”"
+     }
+    ],
+    [
+     {
+      "t": "PrEP, pregnancy, and breastfeeding"
+     },
+     {
+      "t": "- PrEP does not prevent pregnancy. To avoid unintended pregnancy, use a contraceptive method.<br/>- Taking PrEP while you are pregnant or breastfeeding will not harm you or your baby.<br/>- Because HIV can be transmitted during pregnancy and breastfeeding, taking PrEP during this time prevents both you and your baby from acquiring HIV. You can use PrEP throughout pregnancy and breastfeeding.<br/>- If you are pregnant or breastfeeding, or intend to be, we should discuss which PrEP or other HIV prevention option could work best for you.<br/>PROVIDER NOTE: If a client is pregnant, link to antenatal care or pregnancy options counseling."
+     }
+    ],
+    [
+     {
+      "t": "PrEP and STIs"
+     },
+     {
+      "t": "- PrEP does not prevent any STIs other than HIV.<br/>- To prevent other STIs, use a condom and condom-compatible lubricant correctly whenever you have sex."
+     }
+    ],
+    [
+     {
+      "t": "Starting and stopping PrEP"
+     },
+     {
+      "t": "- For PrEP to be most effective, you must use PrEP as prescribed.<br/>- When choosing a PrEP method, it is important to consider which method(s) you can use effectively.<br/>- Now, I will tell you about how long you should use PrEP before and after potential HIV exposures, which is different for different methods.<br/>- If you choose to start PrEP, it is particularly important to try to avoid potential exposures to HIV until adequate drug levels are achieved; use condoms with condom-compatible lubricant and use sterile and non-shared injection-related materials.<br/><br/>For people assigned female at birth interested in daily oral PrEP or the PrEP ring:<br/>- Your choice between daily oral PrEP or the PrEP ring depends on your potential exposures to HIV, including the types of sex you have, as well as your preferences.<br/>- Oral PrEP must be taken daily and should be used for at least seven consecutive days before it is considered effective. It must be continued for seven days after the last potential<br/>exposure. Taken this way, oral PrEP is effective at preventing HIV during all types of exposures to HIV. Oral PrEP can be taken with or without food.<br/>- The PrEP ring is also an option for you. You can insert the PrEP ring into the vagina yourself or with help from a provider if you would like. The ring should remain in place for one month without removal and should be replaced with a new ring at the end of the month. The ring must be in place for at least 24 hours before it is considered maximally effective. The ring prevents HIV acquisition only during receptive vaginal sex. The ring can be removed by hand, so you can remove it without help. However, if you would prefer support, you can receive help removing it and there is no need for a speculum or other tools.<br/>- When stopping any PrEP method, it is important to use another PrEP method or HIV prevention strategy if your need for HIV prevention continues.<br/>For people assigned male at birth interested in oral PrEP (daily or ED-PrEP):<br/>- Your choice between daily oral PrEP or ED-PrEP depends upon your potential exposures to HIV, including the frequency and predictability with which you have sex, as well as your preferences.<br/>- ED-PrEP may be more appropriate if you find it more effective and convenient, have infrequent sex (for example, less than two times per week on average), and are able to plan for sex at least two hours in advance or delay sex for at least two hours.<br/>- You may wish to transition between daily and ED-PrEP use according to your circumstances.<br/>- Oral PrEP can be taken with or without food.<br/>- To start daily oral PrEP, take a loading dose of two tablets at PrEP initiation and delay sex for at least two hours, ideally closer to 24 hours, at which time drug levels will be maximally effective to prevent HIV acquisition from sexual exposures. Continue taking one tablet of oral PrEP at the same time daily. For injection-related exposures, you will need to take one tablet daily for seven days prior to exposure for drug levels to be maximally effective. To discontinue, continue one tablet of oral PrEP daily until two days after the last potential<br/>sexual exposure or seven days after the last potential injection-related exposure, whichever is longer.<br/>- To start ED-PrEP, take a loading dose of two tablets two to 24 hours before having sex, ideally closer to 24 hours, at which time drug levels will be maximally effective to prevent HIV acquisition from sexual exposures. Continue taking one tablet daily at the same time you took the loading dose until two days after the last potential sexual exposure. This process should be repeated for each period of potential sexual exposure to HIV.<br/>- When stopping any PrEP method, it is important to use another PrEP method or HIV prevention strategy if your need for HIV prevention continues.<br/>For people interested in CAB-LA injectable PrEP:<br/>- CAB-LA is injected into the buttocks. The first two injections are one month apart, followed by injections every two months thereafter. CAB-LA starts protecting you about a week after the first injection.<br/>- When stopping CAB-LA, the medication will stay in the body at levels effective for preventing HIV acquisition for at least two months after your last injection, but then levels decline and may not prevent HIV acquisition. At these reduced levels, if you get HIV, you may develop drug resistance, meaning that medicines used to treat HIV may be less effective or not work at all. This period where drug resistance is possible is called the \"tail period.\" To prevent HIV drug resistance during the tail period, it is important for you to use an effective HIV prevention strategy if you might be exposed to HIV.<br/>For people interested in LEN injectable PrEP:<br/>- LEN is given as an injection just under the skin, usually in your tummy (abdomen) or thigh. When you start, you will receive 2 injections and need to swallow 2 tablets. You will also receive 2 tablets to swallow at home the following day. LEN will start protecting you within one day from completing the initiation regimen. After you have completed your initiation regimen, you need to come back every 6 months.<br/>- If you know in advance that you will miss your scheduled injection (for example due to travel or other commitments), talk to your healthcare provider so you can discuss the options<br/>to ensure you stay fully protected.<br/>- When stopping LEN, the medication will stay in the body at levels effective for preventing HIV acquisition for at least six months after your last injection, but then levels decline and may not prevent HIV acquisition. At these reduced levels, if you get HIV, you may develop drug resistance, meaning that medicines used to treat HIV may be less effective or not work at all. This period where drug resistance is possible is called the \"tail period.\" To prevent HIV drug resistance during the tail period, it is important for you to use an effective HIV prevention strategy if you might be exposed to HIV."
+     }
+    ],
+    [
+     {
+      "t": "Side effects"
+     },
+     {
+      "t": "Oral PrEP<br/>- Approximately 10 percent of people using oral PrEP may experience side effects. Those who do will typically experience only mild side effects, including: - Gastrointestinal symptoms (diarrhea and nausea, decreased appetite, abdominal cramping, and flatulence) - Dizziness - Headaches<br/>- Most of those side effects disappear within one month. However, I can help you manage them. PrEP ring<br/>- Those who have side effects while using the ring typically experience only mild side effects, including: - Urinary tract infections (UTIs) – experienced by about 15% of users) - Vaginal discharge (experienced by about 7% of users) - Vulvar itching - Pelvic and lower abdominal pain (experienced by about 6% of users)<br/>- Contact your provider if you experience any urinary or reproductive tract changes, as these could be a sign of an STI or UTI needing treatment. Injectable PrEP (CAB-LA and LEN)<br/>- Side effects with CAB-LA or LEN are not common but some people who initiate CAB-LA or LEN may experience: - Headache - Dizziness<br/>- Nausea/diarrhea<br/>- Feeling fatigue or feverish<br/>- Localized pain or swelling, redness/bruising at the injection site<br/><br/>- Some people may also experience depressive disorders while using CAB-LA, although these are uncommon. If you experience changes in how you are feeling emotionally, let me know so we can discuss how to get you the support you need.<br/><br/>- Side effects are more common during the earlier injections and decrease over time."
+     }
+    ],
+    [
+     {
+      "t": "Switching between HIV prevention options"
+     },
+     {
+      "t": "- It is okay to start one PrEP method now and decide later that you want to use another PrEP method or another HIV prevention strategy. Many people switch between methods as their needs change. I am here to help you make the best decision for you.<br/><br/>- Some additional strategies to prevent HIV include:<br/>- Using condoms and condom-compatible lubricant consistently<br/>- Accessing PEP as early as possible, ideally within 72 hours of a potential exposure to HIV<br/>- Having other types of sex that come with little or no likelihood of HIV acquisition (such as oral sex or mutual masturbation)<br/>- Receiving screening, diagnosis, and treatment for other STIs<br/>- Receiving voluntary medical male circumcision<br/>- Reducing your number of sexual partners<br/>- Accessing drug harm reduction and treatment services<br/>- If you have a partner living with HIV, ensuring they have been on effective ART for at least six months, have an undetectable viral load, and remain adherent to ART if not consistently using condoms and condom-compatible lubricant"
+     }
+    ],
+    [
+     {
+      "t": "Provider note"
+     },
+     {
+      "t": "It is likely that the client will have enough information now to make an informed choice about whether they want to use a PrEP method or not and, if so, which one. You can ask the client which method they prefer, if any, and what outstanding questions they may have, and then continue with the key messages."
+     }
+    ],
+    [
+     {
+      "t": "Follow-up visits"
+     },
+     {
+      "t": "- It is important that you attend follow-up visits for the following reasons:<br/>- To get support on effective use and managing side effects and to address other concerns you may have.<br/>- To verify your HIV status and, if positive, be referred for ART. Between now and your next visit, if you experience sore throat, fever, sweats, swollen glands, mouth ulcers, rash, or muscle aches, please contact me or come back here for a follow-up visit.<br/>- To reduce your likelihood of drug resistance if you have acquired HIV<br/>- Do you have any upcoming travel, or do you anticipate any other challenges with returning for regular visits that we can discuss and maybe I can help you plan for?"
+     }
+    ],
+    [
+     {
+      "t": "Discontinuing PrEP use"
+     },
+     {
+      "t": "- As we already discussed, PrEP use is typically not for life.<br/>- How long you use PrEP may vary, and you may start and stop PrEP depending on potential HIV exposures during different periods of your life, including changes in your relationships or behaviors.<br/>- If you want to stop PrEP use indefinitely, it would be helpful to us both if you let me know.<br/>- If you decide to restart PrEP later, you can always come back, and we can discuss the next steps.<br/>PROVIDER NOTE: Be sure to inform clients about any post-exposure use of PrEP that is needed for their chosen method to effectively stop PrEP use. Encourage ongoing links to appropriate HIV prevention and contraceptive services, as well as the use of other HIV prevention strategies, as needed. Clients with hepatitis B who are using oral PrEP should be referred to relevant management/treatment services because stopping oral PrEP may have implications for the management of hepatitis B."
+     }
+    ],
+    [
+     {
+      "t": "Partner disclosure"
+     },
+     {
+      "t": "People have different reasons for sharing or not sharing their PrEP use with their partner(s). Generally, individuals who can disclose their PrEP use with their partners can use it more effectively. If you would like, we can discuss your thoughts on sharing or not sharing your PrEP use together. If you choose not to tell your partner, we can also discuss your plan if your partner happens to learn about your PrEP use.<br/>PROVIDER NOTE: Assess client’s experience of gender-based violence (GBV), including intimate partner violence (IPV). If the<br/>client discloses that they have experienced or are at risk of GBV, including IPV, provide first-line support and make referrals as appropriate. Discuss how violence and fear of violence affect their potential HIV exposures and prevention behaviors and discuss ways they can stay safe and protect themselves in the context of their relationship(s). Although the ring may be an option for clients concerned about IPV due to its discreet nature, clients who wish to keep their ring use private from their sexual partner(s) should be counseled on the possibility that a partner may feel the ring during sex and be assisted with a plan to implement should this occur.<br/><br/>Clients experiencing GBV or IPV should not be prohibited from receiving the ring if they can effectively use it."
+     }
+    ],
+    {
+     "section": "For clients who choose oral PrEP"
+    },
+    [
+     {
+      "t": "Supporting effective use"
+     },
+     {
+      "t": "- During instances or periods of potential exposure to HIV, some people find it easy to remember to take their oral PrEP when they integrate it into a daily routine and take it the same time each day. For example, you could take oral PrEP (or consider taking oral PrEP if using ED-PrEP) when you brush your teeth (either in the morning or evening), or when watching a favorite TV show or listening to a favorite radio program. It is helpful to pair taking oral PrEP with a routine that makes you feel good.<br/><br/>What challenges do you anticipate with taking oral PrEP as prescribed that I can work with you to find solutions for? (Providers should explore and emphasize effective use and pill-taking reminders specific to everyone. This may be an appropriate time to explore gender and intimate partner violence.)"
+     }
+    ],
+    {
+     "section": "For clients who choose daily oral PrEP"
+    },
+    [
+     {
+      "t": "Missed daily oral PrEP dose"
+     },
+     {
+      "t": "- If you forget to take a tablet or miss a dose, take it as soon as you remember. For example, if you usually take oral PrEP in the morning but realize at 10 p.m. or the next day that you forgot, it is okay to take your tablet then and resume your usual schedule the following morning.<br/>- If you forget more than once a week, come back here or contact someone here and we can discuss what to do."
+     }
+    ],
+    {
+     "section": "For clients who may use ED-PrEP"
+    },
+    [
+     {
+      "t": "Delayed ED-PrEP loading dose"
+     },
+     {
+      "t": "- If it is less than two hours before you plan to have sex, take the loading dose, and try to delay sex until two hours after the loading dose.<br/>- However, if you do NOT take the loading dose at least two<br/>hours before sex and cannot delay sex you could:<br/>- Use a condom and condom-compatible lubricant.<br/>- Have other types of sex that come with little or no likelihood of HIV acquisition (such as oral sex or mutual masturbation).<br/>- If you have sex before two hours and do not use a condom, you may be a candidate for a 28-day course of PEP, depending upon other factors (per the national guidelines)."
+     }
+    ],
+    [
+     {
+      "t": "Missed ED-PrEP dose(s)"
+     },
+     {
+      "t": "If you miss an ED-PrEP dose (loading or post-sex), you may be a candidate for a 28-day course of PEP per the national guidelines.<br/>PROVIDER NOTE: Because the timing and type of the sexual event will vary for each client in relation to the timing of the missed dose(s), such cases will require individual adjudication and best clinical judgment."
+     }
+    ],
+    [
+     {
+      "t": "Switching between ED-PrEP and daily PrEP"
+     },
+     {
+      "t": "- Because the frequency and predictability of sex may vary over time, the best PrEP dosing option for you may also vary over time.<br/>- To transition from ED-PrEP to daily oral PrEP: You should continue taking PrEP every day after your last exposure. You should continue this daily dosing until sex becomes less frequent or more predictable again, or for as long as you prefer the daily dosing option.<br/>- To transition from daily oral PrEP to ED-PrEP: You should stop daily dosing two days after the last potential exposure and then start following the ED-PrEP regimen until sex becomes more frequent or less predictable."
+     }
+    ],
+    [
+     {
+      "t": "Dosing scenarios"
+     },
+     {
+      "t": "- It is very important for you to try to take the follow-up doses around the same time of day you took the loading dose.<br/>- For ED-PrEP to be effective, take PrEP according to the dosing schedule prescribed. Let’s walk through some common scenarios together.<br/>PROVIDER NOTE: Walk through basic regimen with client (2+1+1). Provide client with information, education, and counseling (IEC) materials showing different scenarios for ED-PrEP use (see Oral PrEP Use above)"
+     }
+    ],
+    {
+     "section": "For clients who choose the ring"
+    },
+    [
+     {
+      "t": "Supporting effective use"
+     },
+     {
+      "t": "- The ring is designed to be in place for a full month without being removed. However, if you decide to remove the ring, it is important to clean it and insert it again as soon as possible.<br/>- The ring can be reinserted after removal until the 28-day<br/>period has expired, though levels of dapivirine drop quickly after ring removal and therefore removal is not recommended during the window of use.<br/>- Because levels of dapivirine drop quickly after ring removal, the need for other HIV prevention measures should be reinforced until the ring is reinserted. If the ring is removed for a longer period, it should be cleaned prior to reinsertion.<br/>- Once reinserted, the ring must be in place for at least 24 hours for maximum protection.<br/>- Since it needs to be changed monthly, it could be helpful to set a reminder in your phone if you have one or to record it somewhere else where you look frequently to help you remember when it is time to replace your ring with a new one.<br/>PROVIDER NOTE: Walk through insertion and removal instructions with the client (see PrEP Ring Use above)<br/>What challenges do you anticipate with using the ring as prescribed that I can work with you to find solutions for? (Providers should explore and emphasize effective use and ring replacement reminders specific to everyone. This may be an appropriate time to explore gender and intimate partner violence.)"
+     }
+    ],
+    [
+     {
+      "t": "Cleaning the ring"
+     },
+     {
+      "t": "- The ring does not need to be removed and cleaned for any reason.<br/>- However, if desired, it is acceptable to remove the ring, rinse it in clean water only, and then reinsert it immediately."
+     }
+    ],
+    [
+     {
+      "t": "Ring reinsertion"
+     },
+     {
+      "t": "- Although it is unlikely, it is possible that the ring may fall out. If this happens in a clean location, the ring should be rinsed in clean water and reinserted.<br/>- If the ring falls out in a dirty location, the ring should be replaced with a new ring."
+     }
+    ],
+    [
+     {
+      "t": "Ring use during sex"
+     },
+     {
+      "t": "- The ring does not interfere with sexual intercourse and should be worn during sex.<br/>- It can be used with condoms (internal and external) and condom-compatible lubricant.<br/>- Although it is unlikely, it is possible that your partner may feel the ring during sex. If this happens, you may need to confirm ring placement, as it may mean that the ring should be pushed further into the vagina.<br/>- The ring does not cause harm to your partner, but it does not prevent your partner from acquiring HIV."
+     }
+    ],
+    [
+     {
+      "t": "The ring and menses"
+     },
+     {
+      "t": "- The ring should be worn for one month, including during menses, to be most effective.<br/>- The ring does not cover the cervix and does not interrupt the flow of menstrual fluids.<br/>- There are no safety concerns related to the use of tampons, menstrual pads, menstrual cups, or other menstrual hygiene products while using the ring.<br/>- If using a tampon, be careful not to accidentally remove the ring when removing the tampon.<br/>- Although it is unlikely, it is possible that the ring may fall out.<br/>- If this happens in a clean location, the ring should be rinsed in clean water and reinserted.<br/>- If the ring falls out in a dirty location, the ring should be replaced with a new ring."
+     }
+    ],
+    [
+     {
+      "t": "Sharing the ring"
+     },
+     {
+      "t": "- The ring should not be shared with others.<br/>- If other people you know are interested in using the ring, they can come to the nearest health care facility."
+     }
+    ],
+    [
+     {
+      "t": "The ring and douching"
+     },
+     {
+      "t": "- It is possible that flushing the vagina with water to clean it (or any form of douching) may dilute the concentration of dapivirine in the vagina.<br/>- Douching is not recommended at any time, including while using the ring, because it may have a negative impact on the health of the vagina."
+     }
+    ],
+    [
+     {
+      "t": "Ring storage"
+     },
+     {
+      "t": "- Store rings in their original packaging in a cool, dry place, away from children and direct sunlight, and secured from any pets or animals.<br/>- The ring does not need to be refrigerated and can be safely stored at or around 25°C or 77°F for up to five years."
+     }
+    ],
+    [
+     {
+      "t": "Ring disposal"
+     },
+     {
+      "t": "Used rings can be placed inside the original wrapper provided with the ring or wrapped in tissue or toilet paper and disposed of in a trash bin out of reach of children. If you prefer, you can return your used ring to your health care provider/service provision point."
+     }
+    ],
+    {
+     "section": "For clients who choose CAB-LA injectable PrEP"
+    },
+    [
+     {
+      "t": "Missed CAB-LA injection(s)"
+     },
+     {
+      "t": "If you miss an injection visit, it is important to contact your health care provider immediately and schedule an appointment for the missed injection as soon as possible. If keeping to the injection schedule is not working for you, we can discuss changing to a different PrEP method or HIV prevention strategy."
+     }
+    ],
+    [
+     {
+      "t": "Switching from CAB PrEP to other PrEP methods"
+     },
+     {
+      "t": "It is okay to stop CAB PrEP and switch to another PrEP method. Depending on the method you would like to switch to, we can discuss the best way to switch safely and effectively."
+     }
+    ],
+    [
+     {
+      "t": "Stopping CAB PrEP and the “tail period”"
+     },
+     {
+      "t": "When you stop getting CAB PrEP injections, the drug cabotegravir can remain in your body for about a year, but not at high enough levels to prevent HIV. At these levels, if you acquire HIV, you may develop drug resistance, meaning that medicines used to treat HIV may be less effective or not work at all. This period when HIV drug resistance is possible is called the “tail period.” If you decide to stop your CAB PrEP injections, we should talk about transitioning you to another PrEP method or another HIV prevention strategy during the tail period for as long as exposure to HIV is possible."
+     }
+    ],
+    {
+     "section": "For clients who choose LEN injectable PrEP"
+    },
+    [
+     {
+      "t": "Missed LEN PrEP injection(s)"
+     },
+     {
+      "t": "If you miss an injection visit, it is important to contact your health care provider immediately and schedule an appointment for the missed injection as soon as possible. If keeping to the injection schedule is not working for you, we can discuss changing to a different PrEP method or HIV prevention strategy."
+     }
+    ],
+    [
+     {
+      "t": "Switching from LEN to other PrEP methods"
+     },
+     {
+      "t": "It is okay to stop LEN and switch to another PrEP method. Depending on the method you would like to switch to, we can discuss the best way to switch safely and effectively."
+     }
+    ],
+    [
+     {
+      "t": "Stopping LEN and the “tail period”"
+     },
+     {
+      "t": "When you stop getting LEN injections, the drug lenacapavir can remain in your body for about a year, but not at high enough levels to prevent HIV. At these levels, if you acquire HIV, you may develop drug resistance, meaning that some medicines used to treat HIV may be less effective or not work at all. Because LEN is not used in Eswatini for treatment, this should not be a major concern. This period when HIV drug resistance is possible is called the “tail period.” If you decide to stop your LEN injections, we should talk about transitioning you to another PrEP method or another HIV prevention strategy during the tail period for as long as exposure to HIV is possible."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Section 3.2 (Box 13) and section 3.3 refer to 'Annex 3' for counselling messages; they are in Annex 4."
+   ],
+   "pages": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-phq9",
+   "page": 82,
+   "image_only": false,
+   "heading_path": "6 Annexes > Annex 5: Mental Health and Alcohol Abuse Screening Tools > Patient Health Questionnaire (PHQ-9)",
+   "caption": "Annex 5. PHQ-9 depression screening questionnaire (9 items scored 0-3) and score interpretation: 0-4 none, 5-9 mild, 10-14 moderate, 15-19 moderately severe, 20-27 severe, with proposed treatment actions",
+   "replaces_chunks": [
+    "prep-2025-0195",
+    "prep-2025-0196",
+    "prep-2025-0197"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+     },
+     {
+      "t": "Not at all"
+     },
+     {
+      "t": "Several days"
+     },
+     {
+      "t": "More than half the days"
+     },
+     {
+      "t": "Nearly every day"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "1. Little interest or pleasure in doing things."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "2. Feeling down, depressed or hopeless."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "3. Trouble falling or staying asleep, or sleeping too much."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "4. Feeling tired or having little energy."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "5. Poor appetite or overeating."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "6. Feeling bad about yourself – or that you are a failure or have let yourself or your family down."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "7. Trouble concentrating on things, such as reading the newspaper or watching television."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "8. Moving or speaking so slowly that other people could have noticed. Or the opposite – being so fidgety or restless that you have been moving around a lot more than usual."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "9. Thoughts that you would be better off dead, or of hurting yourself in some way."
+     },
+     {
+      "t": "0"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "2"
+     },
+     {
+      "t": "3"
+     }
+    ],
+    [
+     {
+      "t": "Total score: add the column scores (0–27). Then: if you checked off any problems, how difficult have these made it for you to do your work, take care of things at home, or get along with other people? Not difficult at all / Somewhat difficult / Very difficult / Extremely difficult.",
+      "cs": 5
+     }
+    ],
+    {
+     "section": "Score interpretation: PHQ-9 score – depression severity – proposed treatment actions"
+    },
+    [
+     {
+      "t": "0–4"
+     },
+     {
+      "t": "None–minimal",
+      "cs": 2
+     },
+     {
+      "t": "None",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "5–9"
+     },
+     {
+      "t": "Mild",
+      "cs": 2
+     },
+     {
+      "t": "Watchful waiting; repeat PHQ-9 at follow-up",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "10–14"
+     },
+     {
+      "t": "Moderate",
+      "cs": 2
+     },
+     {
+      "t": "Treatment plan, considering counselling, follow-up and/or pharmacotherapy.",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "15–19"
+     },
+     {
+      "t": "Moderately severe",
+      "cs": 2
+     },
+     {
+      "t": "Active treatment with pharmacotherapy and/or psychotherapy.",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "20–27"
+     },
+     {
+      "t": "Severe",
+      "cs": 2
+     },
+     {
+      "t": "Immediate initiation of pharmacotherapy and, if severe impairment or poor response to therapy, expedited referral to a mental health specialist for psychotherapy and/or collaborative management.",
+      "cs": 2
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Annex 5 is titled 'Mental Health and Alcohol Abuse Screening Tools' but only the PHQ-9 is printed; there is no alcohol or substance use screening tool.",
+    "PHQ-9 item 9 (thoughts of death or self-harm) has no instruction for what to do with a positive answer regardless of total score."
+   ]
+  },
+  {
+   "table_id": "prep-2025-tbl-annex6-side-effects",
+   "page": 83,
+   "image_only": false,
+   "heading_path": "6 Annexes > Annex 6: Management of PrEP Side-effects",
+   "caption": "Annex 6. Management of PrEP side effects by severity (mild, moderate, severe): injection site reactions (CAB-LA, LEN), headache/dizziness, fatigue/fever, nausea/diarrhoea",
+   "replaces_chunks": [
+    "prep-2025-0198",
+    "prep-2025-0199",
+    "prep-2025-0200",
+    "prep-2025-0201"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Severity"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Injection site reaction management (with CAB-LA and LEN)"
+    },
+    [
+     {
+      "t": "Mild"
+     },
+     {
+      "t": "Advise clients to use a warm or cold compress, depending on what works best with the symptoms they experience and what is available."
+     }
+    ],
+    [
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Prescribe pain medication or non-steroidal anti-inflammatory drugs (NSAIDs), which may be taken before as well as after injections to minimise pain and swelling (if there is no contraindication)."
+     }
+    ],
+    [
+     {
+      "t": "Severe"
+     },
+     {
+      "t": "If severe signs/symptoms or a fluctuant abscess is present and does not drain spontaneously, refer for appropriate care, which may include incision and drainage and antibiotics."
+     }
+    ],
+    {
+     "section": "Headache/dizziness management (with oral PrEP, CAB-LA and LEN)"
+    },
+    [
+     {
+      "t": "Mild"
+     },
+     {
+      "t": "Reassure the client this is common and will improve with time."
+     }
+    ],
+    [
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Suggest non-prescription pain medication or NSAIDs, provided there is no contraindication for use in the client."
+     }
+    ],
+    [
+     {
+      "t": "Severe"
+     },
+     {
+      "t": "Consider alternative diagnosis and refer for care."
+     }
+    ],
+    {
+     "section": "Feeling fatigued or feverish (with oral PrEP, CAB-LA and LEN)"
+    },
+    [
+     {
+      "t": "Mild"
+     },
+     {
+      "t": "Reassure the client this is common and will improve with time."
+     }
+    ],
+    [
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Suggest symptomatic treatment with a non-prescription antipyretic."
+     }
+    ],
+    [
+     {
+      "t": "Severe"
+     },
+     {
+      "t": "Refer for further evaluation."
+     }
+    ],
+    {
+     "section": "Nausea/diarrhoea management (with oral PrEP, CAB-LA and LEN)"
+    },
+    [
+     {
+      "t": "Mild"
+     },
+     {
+      "t": "Reassure the client this is common and will improve with time."
+     }
+    ],
+    [
+     {
+      "t": "Moderate"
+     },
+     {
+      "t": "Provide symptomatic treatment (anti-emetics or anti-diarrhoeals)."
+     }
+    ],
+    [
+     {
+      "t": "Severe"
+     },
+     {
+      "t": "Check liver function test, consider alternative diagnosis, and refer for further evaluation."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
+   "table_id": "prep-2025-tbl-annex7-adverse-reactions",
+   "page": 84,
+   "image_only": false,
+   "heading_path": "6 Annexes > Annex 7: Management of PrEP Adverse Reactions",
+   "caption": "Annex 7. Management of PrEP adverse reactions: hypersensitivity (oral PrEP, CAB-LA, LEN), hepatotoxicity (CAB-LA), depression (CAB-LA) – assessment and management",
+   "replaces_chunks": [
+    "prep-2025-0203",
+    "prep-2025-0204"
+   ],
+   "row_header_cols": 0,
+   "header": [
+    [
+     {
+      "t": "Assessment"
+     },
+     {
+      "t": "Management"
+     }
+    ]
+   ],
+   "body": [
+    {
+     "section": "Hypersensitivity reactions (clients using oral PrEP, CAB-LA or LEN)"
+    },
+    [
+     {
+      "t": "- Assess signs and symptoms including severe generalised rash (blistering, sores in the mouth), fever, swelling, angioedema or difficulty in breathing.<br/>- Monitor vital signs."
+     },
+     {
+      "t": "- If a hypersensitivity reaction is suspected, no further PrEP should be administered.<br/>- Give an antihistamine and refer for further evaluation.<br/>- Assess other medication use."
+     }
+    ],
+    {
+     "section": "Hepatotoxicity (clients using CAB-LA)"
+    },
+    [
+     {
+      "t": "- Assess signs/symptoms including nausea, vomiting and jaundice.<br/>- Ask about recent alcohol consumption (types and volume) as well as recent symptoms of illness and infection."
+     },
+     {
+      "t": "- If there is jaundice or suspected hepatotoxicity, stop CAB-LA injections while the client is evaluated.<br/>- Take liver function test and consider additional testing based on clinical concern (e.g. acute viral hepatitis)."
+     }
+    ],
+    {
+     "section": "Depression (clients using CAB-LA)"
+    },
+    [
+     {
+      "t": "- Obtain detailed history and evaluation.<br/>- Ask about a history of depressed mood or clinical depression, and document it, before treatment with CAB-LA.<br/>- Screen for other possible contributory factors, including use of alcohol or other drugs, financial or family stressors, grief or loss, and domestic violence."
+     },
+     {
+      "t": "- If the client reports new-onset depression with no prior history, or significantly worsening depression since starting CAB-LA, stop CAB-LA injections while referring for diagnosis and treatment of depression.<br/>- Consider another PrEP method while the client is evaluated for depression.<br/>- If it is not clear that the depressive symptoms are related to CAB-LA (e.g. prior history of major depressive disorder, or significant stressors such as death or financial stress that are a more likely cause), consider continuing CAB-LA while referring for diagnosis and treatment of depression."
+     }
+    ]
+   ],
+   "footnotes": [],
+   "source_flags": [
+    "Section 4.5 refers to 'annex 7 and 8' for side effects and adverse reactions; they are Annexes 6 and 7, and the annexes cover oral PrEP and LEN as well as CAB-LA."
+   ],
+   "context_before": "Adverse reactions are very rare with any PrEP product. Clients should return to the clinic immediately if they have signs/symptoms of hypersensitivity, including prolonged vomiting, shortness of breath, fever and/or severe generalised rash (blistering, sores in the mouth)."
+  }
+ ],
+ "text_labels": {
+  "prep-2025-0018": "2 Overview of PrEP Products > 2.1 Oral PrEP > Approved Regimen and Effectiveness",
+  "prep-2025-0019": "2 Overview of PrEP Products > 2.1 Oral PrEP > Contraindications for Oral PrEP Use",
+  "prep-2025-0020": "2 Overview of PrEP Products > 2.1 Oral PrEP > Oral PrEP Use",
+  "prep-2025-0022": "2 Overview of PrEP Products > 2.1 Oral PrEP > Possible Side Effects of Oral PrEP",
+  "prep-2025-0023": "2 Overview of PrEP Products > 2.1 Oral PrEP > Starting and Stopping Oral PrEP",
+  "prep-2025-0026": "2 Overview of PrEP Products > 2.1 Oral PrEP > Starting and Stopping Oral PrEP > Additional Guidance for ED-PrEP Use",
+  "prep-2025-0027": "2 Overview of PrEP Products > 2.1 Oral PrEP > Switching Between ED-PrEP and Daily Oral PrEP",
+  "prep-2025-0029": "2 Overview of PrEP Products > 2.1 Oral PrEP > Switching Between ED-PrEP and Daily Oral PrEP",
+  "prep-2025-0033": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Contraindications for PrEP Ring Use",
+  "prep-2025-0035": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Contraindications for PrEP Ring Use",
+  "prep-2025-0036": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > PrEP Ring Use",
+  "prep-2025-0037": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > PrEP Ring Use",
+  "prep-2025-0039": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Possible Side Effects of the PrEP Ring",
+  "prep-2025-0040": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring > Inserting the PrEP Ring",
+  "prep-2025-0042": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring > Removing the PrEP Ring",
+  "prep-2025-0043": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring > Removing the PrEP Ring",
+  "prep-2025-0045": "2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Restarting after Childbirth and Switching to Another PrEP Method",
+  "prep-2025-0046": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP",
+  "prep-2025-0047": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Formulation and Effectiveness of CAB-LA",
+  "prep-2025-0048": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Contraindications for CAB-LA Use",
+  "prep-2025-0049": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > CAB-LA Use",
+  "prep-2025-0050": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Potential Side Effects of CAB-LA",
+  "prep-2025-0051": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Starting CAB-LA",
+  "prep-2025-0052": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Starting CAB-LA > Injection Schedule (Box 5)",
+  "prep-2025-0053": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Stopping CAB-LA",
+  "prep-2025-0054": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Stopping CAB-LA > Tail Period (Figure 7)",
+  "prep-2025-0055": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Missing an Injection",
+  "prep-2025-0056": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Restarting CAB-LA",
+  "prep-2025-0059": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP",
+  "prep-2025-0060": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Formulation and Effectiveness of LEN",
+  "prep-2025-0061": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Contraindications for LEN Use",
+  "prep-2025-0062": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN Use",
+  "prep-2025-0063": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Potential Side Effects of LEN and Starting LEN",
+  "prep-2025-0066": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Starting LEN > Injection Sites",
+  "prep-2025-0068": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Starting LEN > Missing Day 2 Oral Loading Dose (Box 8)",
+  "prep-2025-0069": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Stopping LEN",
+  "prep-2025-0070": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Missing an Injection",
+  "prep-2025-0071": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Bridging for an Anticipated Delayed Follow-up Injection",
+  "prep-2025-0073": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Restarting LEN",
+  "prep-2025-0074": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN and Other Drug Interactions",
+  "prep-2025-0077": "2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN and Other Drug Interactions > LEN with Rifampicin-based TB Treatment (Figure 10)",
+  "prep-2025-0078": "3 PrEP Delivery > 3.1 PrEP Delivery Overview",
+  "prep-2025-0079": "3 PrEP Delivery > 3.1 PrEP Delivery Overview > PrEP Providers",
+  "prep-2025-0080": "3 PrEP Delivery > 3.1 PrEP Delivery Overview > Facility-based and Community-based PrEP Services",
+  "prep-2025-0082": "3 PrEP Delivery > 3.1 PrEP Delivery Overview > Integration of PrEP in DSD Models",
+  "prep-2025-0083": "3 PrEP Delivery > 3.2 PrEP Initiation Visit",
+  "prep-2025-0085": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 2: PrEP Eligibility Assessment > PEP Indication Assessment",
+  "prep-2025-0088": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 2: PrEP Eligibility Assessment > Acute HIV Infection (AHI) Assessment",
+  "prep-2025-0095": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 3: PrEP Choice Counseling",
+  "prep-2025-0096": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 3: PrEP Choice Counseling > Counseling Messages (Box 13)",
+  "prep-2025-0099": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 4: PrEP Prescription > One-month Visit and HIV Self-test",
+  "prep-2025-0104": "3 PrEP Delivery > 3.2 PrEP Initiation Visit > Additional Components of PrEP Initiation Visit",
+  "prep-2025-0114": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Timing of Follow-up, HIV Self-test and Used Rings",
+  "prep-2025-0117": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > Assessing Prevention Effective Use",
+  "prep-2025-0119": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > HIV Exposure and AHI Assessment",
+  "prep-2025-0125": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > Monitoring Kidney Function for Clients Using Oral PrEP",
+  "prep-2025-0127": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 3: Counseling",
+  "prep-2025-0128": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP Ring",
+  "prep-2025-0130": "3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP Ring",
+  "prep-2025-0131": "3 PrEP Delivery > 3.3-3.5 Prescription Refill (CAB-LA, LEN), Missed Appointments and PrEP Discontinuation",
+  "prep-2025-0132": "3 PrEP Delivery > 3.5 PrEP Discontinuation > Hepatitis B; 3.6 Re-starting PrEP Use",
+  "prep-2025-0134": "3 PrEP Delivery > 3.7 Switching between PrEP Products",
+  "prep-2025-0137": "4 Management of Clients in Specific Situations > 4.1 Management of Clients with Elevated Creatinine Levels",
+  "prep-2025-0139": "4 Management of Clients in Specific Situations > 4.1 Causes of Renal Insufficiency; 4.2 Hepatitis B Infection",
+  "prep-2025-0149": "4 Management of Clients in Specific Situations > 4.7 Clients Using Alcohol or Recreational Drugs",
+  "prep-2025-0202": "6 Annexes > Annex 7: Management of PrEP Adverse Reactions"
+ },
+ "text_fix_pages": [
+  1,
+  86
+ ],
+ "text_merge": {
+  "prep-2025-0112": "prep-2025-0114"
+ },
+ "text_drop": [
+  "prep-2025-0102",
+  "prep-2025-0103",
+  "prep-2025-0194"
+ ]
+}

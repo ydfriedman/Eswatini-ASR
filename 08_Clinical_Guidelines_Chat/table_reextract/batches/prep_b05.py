@@ -1,0 +1,28 @@
+exec(open('batches/prep_common.py').read())
+FU = CH3 + " > 3.3 PrEP Follow-up Visit"
+ITEMS = [
+ T("tbl-followup-hiv-testing", 47, FU + " > Component 1: HIV Testing Services", "HIV testing during PrEP follow-up by product: frequency and test type (HIVST for oral PrEP and ring, RDT before every CAB-LA injection, LEN HIVST at month 1 then RDT)", ["0116"],
+   [[C(""), C("Oral PrEP"), C("PrEP ring"), C("CAB-LA"), C("LEN")]],
+   [[C("HIV testing frequency"), C("M1 home-based HIVST, then every three months", cs=2), C("Before every injection"), C("At M1 and before every injection")],
+    [C("HIV testing type"), C("HIVST", cs=2), C("Rapid diagnostic test"), C("M1 only HIVST. RDT.")]],
+   context_before="HIV testing and counselling should be conducted at every follow-up visit to inform decisions on whether to continue or discontinue PrEP. The type of HIV testing depends on the PrEP method.",
+   source_flags=["Two tables are numbered 'Table 14' (timing of follow-up visits, p.46, and HIV testing services, p.47)."]),
+ T("tbl-exposure-during-prep", 47, FU + " > Component 2: Assessments > HIV Exposure and AHI Assessment", "Table 15. Assessing HIV exposure during PrEP use: poor adherence with exposure in last 72 hours (PEP) or with AHI signs (stop PrEP 28 days), counselling, retest after 28 days", ["0118"],
+   [[C("If"), C("Consider"), C("Counselling"), C("Follow-up after 28 days")]],
+   [[L("Adherence to PrEP product was poor ¹", "HIV test is negative", "Client was exposed to HIV in the last 72 hours"), C("PEP"), C("Discuss barriers to effective PrEP use.<br/>Encourage condom use.", rs=2), C("Retest for HIV. If negative, restart PrEP.")],
+    [L("Poor adherence ¹", "HIV test is negative", "No exposure in the last 72 hours but high-risk sex in the last 14 days and signs/symptoms of AHI"), C("Discontinuing PrEP for 28 days"), C("Retest for HIV. If negative, restart PrEP.")]],
+   footnotes=["¹ Poor adherence can be defined as inconsistent or inappropriate use of PrEP as prescribed during periods of exposure, in a way that does not achieve a high level of protection against acquisition of HIV (see Table 16)."],
+   pages=[47, 48], rhc=0,
+   context_before="At every follow-up visit, assess PrEP use and adherence in an open-ended, non-judgmental way. If adherence is poor, assess the client for PEP indication and symptoms of AHI.",
+   source_flags=["The footnote says 'See Table 6' (CAB-LA drug interactions); the adherence definitions are in Table 16."]),
+ T("tbl-adherence-definition", 48, FU + " > Component 2: Assessments", "Table 16. Defining PrEP adherence (adherent vs non-adherent) for oral PrEP (AFAB, AMAB event-driven), PrEP ring, CAB-LA and LEN injection timing", ["0120", "0121"],
+   [[C("PrEP method"), C("Adherent"), C("Non-adherent")]],
+   [[C("Oral PrEP", rs=2), C("Assigned female at birth: ≤2 doses missed each week in the week before and week after each day of sex"), C("Assigned female at birth: 2+ doses missed each week in the week before and week after each day of sex.")],
+    r("Assigned male at birth: a double dose was taken 2–24 hours before sexual exposure and at least 2 days of daily PrEP were continued after each day of sex", "Assigned male at birth: double (loading) dose was not taken within 2–24 hours before sexual exposure and/or daily PrEP was not continued for 2 days after each day of sex."),
+    r("PrEP ring", "Ring in place continuously the day before and the day of sex for each day of vaginal sex", "Ring was not continuously in place the day before and the day of vaginal sex.<br/>Any reported anal sex without a condom should be considered PrEP ring non-adherent."),
+    [C("CAB-LA", rs=2), C("Prior injection was initiation injection 1 and ≤2 months ago"), C("Prior injection was initiation injection 1 and >2 months ago")],
+    r("Prior injection was initiation injection 2 or follow-up and ≤3 months ago", "Prior injection was initiation injection 2 or follow-up and >3 months ago"),
+    [C("LEN", rs=2), C("Initiation: day-2 oral dose taken at home as prescribed"), C("Initiation: day-2 oral dose not taken at home.")],
+    r("Maintenance: prior injection (initiation injection or re-injections) was ≤28 weeks ago; or >28 weeks since the last injection but oral LEN bridging was correctly taken until the next injection", "Maintenance: prior injection (initiation injection or re-injections) was >28 weeks ago, and no oral LEN bridging taken, or bridging incomplete.")],
+   source_flags=["Oral PrEP for people assigned female at birth: '≤2 doses missed' counts as adherent while '2+ doses missed' counts as non-adherent, so exactly 2 missed doses falls in both."]),
+]

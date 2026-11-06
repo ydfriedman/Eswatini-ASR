@@ -1090,3 +1090,194 @@ ncdimh-0525,merged into,ncdimh-0527
 ncdimh-0538,merged into,ncdimh-0542
 ncdimh-0564,merged into,ncdimh-0562
 ncdimh-0875,merged into,ncdimh-0873
+prep-2025-0010,replaced,prep-2025-tbl-terminology
+prep-2025-0021,replaced,prep-2025-tbl-oral-prep-drug-interactions
+prep-2025-0024,replaced,prep-2025-tbl-oral-prep-start-stop
+prep-2025-0025,replaced,prep-2025-tbl-oral-prep-start-stop
+prep-2025-0028,replaced,prep-2025-fig-ed-prep-examples
+prep-2025-0030,replaced,prep-2025-fig-ed-prep-examples
+prep-2025-0034,replaced,prep-2025-tbl-ring-pbfw-contraindications
+prep-2025-0038,replaced,prep-2025-tbl-ring-drug-interactions
+prep-2025-0041,replaced,prep-2025-box-ring-insertion
+prep-2025-0044,replaced,prep-2025-tbl-ring-start-stop
+prep-2025-0057,replaced,prep-2025-tbl-cab-la-drug-interactions
+prep-2025-0058,replaced,prep-2025-tbl-cab-la-drug-interactions
+prep-2025-0067,replaced,prep-2025-fig-len-initiation-schedule
+prep-2025-0072,replaced,prep-2025-fig-len-bridging
+prep-2025-0075,replaced,prep-2025-tbl-len-drug-interactions
+prep-2025-0076,replaced,prep-2025-tbl-len-drug-interactions
+prep-2025-0081,replaced,prep-2025-tbl-community-prep-services
+prep-2025-0084,replaced,prep-2025-tbl-hiv-testing-initiation
+prep-2025-0087,replaced,prep-2025-box-ahi-signs-suspicion
+prep-2025-0089,replaced,prep-2025-box-ahi-signs-suspicion
+prep-2025-0090,replaced,prep-2025-fig-initiation-exposure-ahi
+prep-2025-0091,replaced,prep-2025-fig-initiation-exposure-ahi
+prep-2025-0092,replaced,prep-2025-fig-initiation-exposure-ahi
+prep-2025-0093,replaced,prep-2025-tbl-product-eligibility
+prep-2025-0094,replaced,prep-2025-tbl-product-eligibility
+prep-2025-0098,replaced,prep-2025-tbl-prescription-by-method
+prep-2025-0100,replaced,prep-2025-tbl-community-initiation-referral
+prep-2025-0105,replaced,prep-2025-tbl-initiation-additional-components
+prep-2025-0106,replaced,prep-2025-tbl-initiation-additional-components
+prep-2025-0107,replaced,prep-2025-tbl-initiation-additional-components
+prep-2025-0108,replaced,prep-2025-tbl-initiation-additional-components
+prep-2025-0109,replaced,prep-2025-tbl-initiation-additional-components
+prep-2025-0110,replaced,prep-2025-tbl-initiation-additional-components
+prep-2025-0111,replaced,prep-2025-tbl-initiation-additional-components
+prep-2025-0113,replaced,prep-2025-tbl-first-followup-timing
+prep-2025-0116,replaced,prep-2025-tbl-followup-hiv-testing
+prep-2025-0118,replaced,prep-2025-tbl-exposure-during-prep
+prep-2025-0120,replaced,prep-2025-tbl-adherence-definition
+prep-2025-0121,replaced,prep-2025-tbl-adherence-definition
+prep-2025-0122,replaced,prep-2025-fig-followup-exposure-ahi
+prep-2025-0123,replaced,prep-2025-fig-followup-exposure-ahi
+prep-2025-0124,replaced,prep-2025-fig-followup-exposure-ahi
+prep-2025-0126,replaced,prep-2025-tbl-creatinine-monitoring
+prep-2025-0129,replaced,prep-2025-fig-oral-ring-dispensing-schedule
+prep-2025-0133,replaced,prep-2025-tbl-restarting-prep
+prep-2025-0135,replaced,prep-2025-tbl-product-switch
+prep-2025-0136,replaced,prep-2025-tbl-product-switch
+prep-2025-0138,replaced,prep-2025-box-creatinine-clearance-apri
+prep-2025-0144,replaced,prep-2025-fig-seroconverters
+prep-2025-0145,replaced,prep-2025-fig-seroconverters
+prep-2025-0148,replaced,prep-2025-box-pbfw-opt-out
+prep-2025-0151,replaced,prep-2025-tbl-data-collection-tools
+prep-2025-0154,replaced,prep-2025-tbl-monitoring-indicators
+prep-2025-0155,replaced,prep-2025-tbl-monitoring-indicators
+prep-2025-0157,replaced,prep-2025-tbl-monitoring-indicators
+prep-2025-0159,replaced,prep-2025-fig-annex1-rule-out-ahi
+prep-2025-0160,replaced,prep-2025-fig-annex1-rule-out-ahi
+prep-2025-0161,replaced,prep-2025-fig-annex1-rule-out-ahi
+prep-2025-0163,replaced,prep-2025-fig-annex1-rule-out-ahi
+prep-2025-0165,replaced,prep-2025-tbl-annex2-cab-la-missed
+prep-2025-0166,replaced,prep-2025-tbl-annex2-cab-la-missed
+prep-2025-0167,replaced,prep-2025-tbl-annex2-cab-la-missed
+prep-2025-0168,replaced,prep-2025-tbl-annex3-len-missed
+prep-2025-0169,replaced,prep-2025-tbl-annex3-len-missed
+prep-2025-0170,replaced,prep-2025-tbl-annex3-len-missed
+prep-2025-0171,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0172,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0173,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0174,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0175,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0176,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0177,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0178,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0179,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0180,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0181,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0182,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0183,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0184,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0185,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0186,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0187,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0188,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0189,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0190,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0191,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0192,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0193,replaced,prep-2025-tbl-annex4-counselling-messages
+prep-2025-0195,replaced,prep-2025-tbl-phq9
+prep-2025-0196,replaced,prep-2025-tbl-phq9
+prep-2025-0197,replaced,prep-2025-tbl-phq9
+prep-2025-0198,replaced,prep-2025-tbl-annex6-side-effects
+prep-2025-0199,replaced,prep-2025-tbl-annex6-side-effects
+prep-2025-0200,replaced,prep-2025-tbl-annex6-side-effects
+prep-2025-0201,replaced,prep-2025-tbl-annex6-side-effects
+prep-2025-0203,replaced,prep-2025-tbl-annex7-adverse-reactions
+prep-2025-0204,replaced,prep-2025-tbl-annex7-adverse-reactions
+prep-2025-0018,label,2 Overview of PrEP Products > Approved regimen for oral PrEP => 2 Overview of PrEP Products > 2.1 Oral PrEP > Approved Regimen and Effectiveness
+prep-2025-0019,label,2 Overview of PrEP Products > Contraindications for oral PrEP use => 2 Overview of PrEP Products > 2.1 Oral PrEP > Contraindications for Oral PrEP Use
+prep-2025-0020,label,2 Overview of PrEP Products > Oral PrEP use => 2 Overview of PrEP Products > 2.1 Oral PrEP > Oral PrEP Use
+prep-2025-0022,label,2 Overview of PrEP Products > Possible Side Effects of Oral PrEP => 2 Overview of PrEP Products > 2.1 Oral PrEP > Possible Side Effects of Oral PrEP
+prep-2025-0023,cleaned,
+prep-2025-0023,label,2 Overview of PrEP Products > Starting and Stopping Oral PrEP => 2 Overview of PrEP Products > 2.1 Oral PrEP > Starting and Stopping Oral PrEP
+prep-2025-0026,cleaned,
+prep-2025-0026,label,2 Overview of PrEP Products > Table 2. Starting and Stopping Oral PrEP Use > Figure 1. Example of ED-PrEP use for sex one time or in one day => 2 Overview of PrEP Products > 2.1 Oral PrEP > Starting and Stopping Oral PrEP > Additional Guidance for ED-PrEP Use
+prep-2025-0027,cleaned,
+prep-2025-0027,label,2 Overview of PrEP Products > Table 2. Starting and Stopping Oral PrEP Use > Figure 5. Example of transitioning from ED-PrEP to daily PrEP => 2 Overview of PrEP Products > 2.1 Oral PrEP > Switching Between ED-PrEP and Daily Oral PrEP
+prep-2025-0029,cleaned,
+prep-2025-0029,label,2 Overview of PrEP Products > Table 2. Starting and Stopping Oral PrEP Use > Figure 6. Example of transitioning from daily PrEP to ED-PrEP => 2 Overview of PrEP Products > 2.1 Oral PrEP > Switching Between ED-PrEP and Daily Oral PrEP
+prep-2025-0035,label,2 Overview of PrEP Products > Contraindications for PrEP Ring Use > Table 3. Additional contraindications for the PrEP ring use in PBFW => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Contraindications for PrEP Ring Use
+prep-2025-0036,label,2 Overview of PrEP Products > Contraindications for PrEP Ring Use > PrEP Ring Use => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > PrEP Ring Use
+prep-2025-0037,label,2 Overview of PrEP Products > Contraindications for PrEP Ring Use > PrEP Ring Use => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > PrEP Ring Use
+prep-2025-0039,label,2 Overview of PrEP Products > Possible Side Effects of the PrEP Ring => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Possible Side Effects of the PrEP Ring
+prep-2025-0040,label,2 Overview of PrEP Products > Starting and Stopping the PrEP Ring > Inserting the PrEP Ring => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring > Inserting the PrEP Ring
+prep-2025-0042,cleaned,
+prep-2025-0042,label,2 Overview of PrEP Products > Possible Side Effects of the PrEP Ring => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring > Removing the PrEP Ring
+prep-2025-0043,label,2 Overview of PrEP Products > Removing the PrEP Ring > Box 4. Ring removal steps for clients. => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Starting and Stopping the PrEP Ring > Removing the PrEP Ring
+prep-2025-0045,label,2 Overview of PrEP Products > Table 5. Starting and Stopping PrEP Ring => 2 Overview of PrEP Products > 2.2 Dapivirine Vaginal Ring (PrEP Ring) > Restarting after Childbirth and Switching to Another PrEP Method
+prep-2025-0046,label,2 Overview of PrEP Products > 2.3 CAB-LA injectable PrEP => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP
+prep-2025-0047,label,2 Overview of PrEP Products > Table 5. Starting and Stopping PrEP Ring => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Formulation and Effectiveness of CAB-LA
+prep-2025-0048,label,2 Overview of PrEP Products > Contraindications for CAB-LA Use => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Contraindications for CAB-LA Use
+prep-2025-0049,label,2 Overview of PrEP Products > CAB-LA Use => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > CAB-LA Use
+prep-2025-0050,label,2 Overview of PrEP Products > Potential Side Effects of CAB-LA => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Potential Side Effects of CAB-LA
+prep-2025-0051,label,2 Overview of PrEP Products > Starting CAB-LA => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Starting CAB-LA
+prep-2025-0052,label,2 Overview of PrEP Products > Starting CAB-LA > Box 5. => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Starting CAB-LA > Injection Schedule (Box 5)
+prep-2025-0053,label,2 Overview of PrEP Products > Starting CAB-LA > Stopping CAB-LA => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Stopping CAB-LA
+prep-2025-0054,label,2 Overview of PrEP Products > Starting CAB-LA > Figure 7. CAB-LA “tail period” => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Stopping CAB-LA > Tail Period (Figure 7)
+prep-2025-0055,label,2 Overview of PrEP Products > Missing an Injection => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Missing an Injection
+prep-2025-0056,label,2 Overview of PrEP Products > Starting CAB-LA > Restarting CAB-LA => 2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Restarting CAB-LA
+prep-2025-0059,label,2 Overview of PrEP Products > 2.4 LEN injectable PrEP => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP
+prep-2025-0060,label,2 Overview of PrEP Products > 2.4 LEN injectable PrEP > Formulation of LEN => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Formulation and Effectiveness of LEN
+prep-2025-0061,label,2 Overview of PrEP Products > 2.4 LEN injectable PrEP > Contraindications for LEN Use => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Contraindications for LEN Use
+prep-2025-0062,label,2 Overview of PrEP Products > Starting CAB-LA > LEN Use => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN Use
+prep-2025-0063,label,2 Overview of PrEP Products > Starting CAB-LA > Potential Side Effects of LEN => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Potential Side Effects of LEN and Starting LEN
+prep-2025-0065,cleaned,
+prep-2025-0066,cleaned,
+prep-2025-0066,label,2 Overview of PrEP Products > Day 2 => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Starting LEN > Injection Sites
+prep-2025-0068,label,2 Overview of PrEP Products > Day 2 > Box 8: Missing Day 2 Oral initiation loading dose => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Starting LEN > Missing Day 2 Oral Loading Dose (Box 8)
+prep-2025-0069,label,2 Overview of PrEP Products > Day 2 > Stopping LEN > Figure 8. LEN dosing schedule => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Stopping LEN
+prep-2025-0070,label,2 Overview of PrEP Products > Day 2 > Missing an Injection => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Missing an Injection
+prep-2025-0071,label,2 Overview of PrEP Products > Day 2 > Bridging for an anticipated delayed follow-up injection => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Bridging for an Anticipated Delayed Follow-up Injection
+prep-2025-0073,label,2 Overview of PrEP Products > Bridging for an anticipated delayed follow-up injection > Restarting LEN => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > Restarting LEN
+prep-2025-0074,label,2 Overview of PrEP Products > Day 2 > LEN and Other Drug Interactions => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN and Other Drug Interactions
+prep-2025-0077,cleaned,
+prep-2025-0077,label,2 Overview of PrEP Products > Day 2 > Figure 10. Maintaining LEN concentrations during rifampicin-based TB treatment => 2 Overview of PrEP Products > 2.4 LEN Injectable PrEP > LEN and Other Drug Interactions > LEN with Rifampicin-based TB Treatment (Figure 10)
+prep-2025-0079,label,3 PrEP Delivery > PrEP Providers => 3 PrEP Delivery > 3.1 PrEP Delivery Overview > PrEP Providers
+prep-2025-0080,cleaned,
+prep-2025-0080,label,3 PrEP Delivery > Facility-based PrEP services => 3 PrEP Delivery > 3.1 PrEP Delivery Overview > Facility-based and Community-based PrEP Services
+prep-2025-0082,label,3 PrEP Delivery > Integration of PrEP in DSD Models => 3 PrEP Delivery > 3.1 PrEP Delivery Overview > Integration of PrEP in DSD Models
+prep-2025-0083,label,3 PrEP Delivery => 3 PrEP Delivery > 3.2 PrEP Initiation Visit
+prep-2025-0085,label,3 PrEP Delivery > Component 2: PrEP Eligibility Assessment => 3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 2: PrEP Eligibility Assessment > PEP Indication Assessment
+prep-2025-0088,label,3 PrEP Delivery > Acute HIV infection (AHI) assessment => 3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 2: PrEP Eligibility Assessment > Acute HIV Infection (AHI) Assessment
+prep-2025-0095,label,3 PrEP Delivery > Acute HIV infection (AHI) assessment > Component 3: PrEP Choice Counseling => 3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 3: PrEP Choice Counseling
+prep-2025-0096,label,3 PrEP Delivery > Component 3: PrEP Choice Counseling > Box 13. Counseling messages => 3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 3: PrEP Choice Counseling > Counseling Messages (Box 13)
+prep-2025-0099,label,3 PrEP Delivery > Component 4: PrEP Prescription > Table 11. PrEP prescription by method => 3 PrEP Delivery > 3.2 PrEP Initiation Visit > Component 4: PrEP Prescription > One-month Visit and HIV Self-test
+prep-2025-0101,emptied,
+prep-2025-0102,cleaned,
+prep-2025-0103,cleaned,
+prep-2025-0104,label,3 PrEP Delivery > Acute HIV infection (AHI) assessment > Additional Components of PrEP Initiation Visit => 3 PrEP Delivery > 3.2 PrEP Initiation Visit > Additional Components of PrEP Initiation Visit
+prep-2025-0114,label,"3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Table 14. Timing of F/U visits by PrEP product => 3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Timing of Follow-up, HIV Self-test and Used Rings"
+prep-2025-0117,label,3 PrEP Delivery > Component 2: Assessments > Assessing prevention effective use => 3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > Assessing Prevention Effective Use
+prep-2025-0119,label,3 PrEP Delivery > Component 2: Assessments > Table 15. Assessing HIV exposure during PrEP use => 3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > HIV Exposure and AHI Assessment
+prep-2025-0125,label,3 PrEP Delivery > Acute HIV infection (AHI) assessment > Monitoring kidney function for client using oral PrEP => 3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 2: Assessments > Monitoring Kidney Function for Clients Using Oral PrEP
+prep-2025-0127,cleaned,
+prep-2025-0127,label,3 PrEP Delivery > Acute HIV infection (AHI) assessment > Monitoring kidney function for client using oral PrEP => 3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 3: Counseling
+prep-2025-0128,cleaned,
+prep-2025-0128,label,3 PrEP Delivery > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP ring => 3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP Ring
+prep-2025-0130,label,3 PrEP Delivery > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP ring => 3 PrEP Delivery > 3.3 PrEP Follow-up Visit > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP Ring
+prep-2025-0131,label,"3 PrEP Delivery > Component 4: PrEP Prescription Refill > Oral PrEP or PrEP ring => 3 PrEP Delivery > 3.3-3.5 Prescription Refill (CAB-LA, LEN), Missed Appointments and PrEP Discontinuation"
+prep-2025-0132,label,3 PrEP Delivery > Acute HIV infection (AHI) assessment => 3 PrEP Delivery > 3.5 PrEP Discontinuation > Hepatitis B; 3.6 Re-starting PrEP Use
+prep-2025-0139,cleaned,
+prep-2025-0139,label,4 Management of Clients in Specific Situations => 4 Management of Clients in Specific Situations > 4.1 Causes of Renal Insufficiency; 4.2 Hepatitis B Infection
+prep-2025-0143,emptied,
+prep-2025-0149,label,4 Management of Clients in Specific Situations > 4.6 Clients using alcohol or recreational drugs => 4 Management of Clients in Specific Situations > 4.7 Clients Using Alcohol or Recreational Drugs
+prep-2025-0150,cleaned,
+prep-2025-0158,emptied,
+prep-2025-0194,cleaned,
+prep-2025-0202,cleaned,
+prep-2025-0202,label,6 Annexes > Annex 7: Management of PrEP adverse reactions => 6 Annexes > Annex 7: Management of PrEP Adverse Reactions
+prep-2025-0014,merged into,prep-2025-0013
+prep-2025-0064,merged into,prep-2025-0063
+prep-2025-0065,merged into,prep-2025-0063
+prep-2025-0086,merged into,prep-2025-0085
+prep-2025-0097,merged into,prep-2025-0096
+prep-2025-0115,merged into,prep-2025-0114
+prep-2025-0140,merged into,prep-2025-0139
+prep-2025-0147,merged into,prep-2025-0146
+prep-2025-0102,dropped,heading-only fragment
+prep-2025-0103,dropped,heading-only fragment
+prep-2025-0194,dropped,heading-only fragment
+prep-2025-0112,merged into,prep-2025-0114

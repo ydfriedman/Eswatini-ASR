@@ -15,8 +15,15 @@ Labels (`text_labels` in `ncdimh_tables.json`, range `text_fix_pages`), fragment
 
 - NCDIMH part 5 (pp.327-356, NCD_5.pdf, offset 326; pp.357-364 are references and blank notes pages): 39 items (`batches/ncd_b65-b70.py`), hand labels, `text_fix_pages` [1,356]. **NCDIMH is complete.**
 
+- PrEP 2025 (86 pages, no page offset: old chunks use PDF page numbers): 43 items (`batches/prep_b01-b12.py`), hand labels for text chunks, `text_drop`/`text_merge` for duplicates and fragments. Annex 4 (pp.69-81) was rebuilt from the old chunks after a word-coverage check against the PDF text layer. Figure 9 (LEN bridging) previously had week-by-week concentration values that are not in the PDF; it is now described in words.
+
 ## Next after that
-The other guidelines (HIV 2022, TB, PrEP, STI, MH Deskguide, FP, ANC, Linkages SOP), once the user provides the PDFs. Keep a running "source issues" list from each item's `source_flags`.
+The other guidelines, once the user provides the PDFs. Suggested order: ANC (small), then TB 2025 and HIV 2022 in ~80-page parts (as NCDIMH), mental health desk guide, STI/VH draft, FP 2021, Linkages SOP. For HIV 2022, note in SOURCE_ISSUES.md where the 2024 Amendment supersedes it.
+
+## Starting a new guideline
+1. Put the PDF in its own scratch dir; `pdftotext -layout` and `pdftoppm -jpeg -r 110` per page (pN.txt, pgN.jpg). Check whether old chunk `page_start` matches PDF pages (offset).
+2. Write `batches/<doc>_bNN.py` (T/D/B helpers), create `<doc>_tables.json` (doc_id, doc_title, method, pdf_parts, tables, text_labels, text_fix_pages, text_merge, text_drop), `add_items.py` each batch.
+3. `build_tables.py`, check numbers and that no old table/diagram chunk is left unreplaced; `make_review.py` (sed the intro line); add the spec + chunks pair to the `apply_reextraction.py` command; hand-label text chunks; add the spec to `make_source_issues.py`. Keep a running "source issues" list from each item's `source_flags`.
 
 ## Notes for the next part
 - Page images/text: `pdftotext -layout` and `pdftoppm -r 110` per page, named by document page (part page + offset).
