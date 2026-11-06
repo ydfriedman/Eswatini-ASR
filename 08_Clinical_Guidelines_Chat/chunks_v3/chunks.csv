@@ -36974,7 +36974,7 @@ Targeted viral load monitoring can be done in clients presenting with new WHO tr
 Point of care viral load (part 2 of 2).
 Key message: Move to annual viral load monitoring only if the client has had 2 consecutive undetectable viral load test results 6 months apart. If VL>1000copies/mL while on NNRTI based regimen and treatment failure is suspected, immediate switch to appropriate regimen is recommended. An immediate ART switch after a single eleveted viral load result should not be considered for those receiving DTG-or PI-based regimens, since the likehood of drug resistance is minimal according to current evidence.
 Targeted viral load monitoring can be done in clients presenting with new WHO treatment stage 3 or 4 opportunistic infections or whose treatment is suspected to be failing. Dried blood spot specimens (DBS) using venous or capillary whole blood can be used to determine HIV viral load. The same threshold of 1000 copies/mL is used to determine virological failure when using dried blood spot samples, as defined for testing in plasma."
-hiv-2022-fig-7.2-vl-cd4-schedule,hiv-2022,hiv-2022,diagram,hiv-2022-fig-7.2-vl-cd4-schedule,1/1,Chapter 7: Adult Antiretroviral Therapy > 7.10 Laboratory Monitoring > 7.10.2 Viral load monitoring > Figure 7.2,160,160,hiv-2022:06cff1d21f,hiv-2022:0ae21e50a9,hiv-2022-txt-p160-t0332-p2,hiv-2022-0427,60,"### Figure 7.2 VL and CD4 monitoring schedule
+hiv-2022-fig-7.2-vl-cd4-schedule,hiv-2022,hiv-2022,diagram,hiv-2022-fig-7.2-vl-cd4-schedule,1/1,Chapter 7: Adult Antiretroviral Therapy > 7.10 Laboratory Monitoring > 7.10.2 Viral load monitoring > Figure 7.2,160,160,hiv-2022:06cff1d21f,hiv-2022:0ae21e50a9,hiv-2022-txt-p160-t0332-p2,hiv-2022-txt-p161-t0333,60,"### Figure 7.2 VL and CD4 monitoring schedule
 
 1. ART initiation: baseline CD4 count.
 2. 6 months: 1st viral load; if detectable, start SUAC.
@@ -36986,12 +36986,7 @@ Figure 7.2 VL and CD4 monitoring schedule.
 2. 6 months: 1st viral load; if detectable, start SUAC.
 3. 12 months: 2nd viral load; if detectable, start SUAC.
 4. Yearly thereafter: routine VL testing."
-hiv-2022-0427,hiv-2022,Eswatini Integrated HIV Management Guidelines (2022),table,,,7 Adult Antiretroviral Therapy > 7.10 Laboratory Monitoring of Clients on ART > 7.10.2 Viral load monitoring > Point of care viral load,161,161,hiv-2022:0c0a20549c,hiv-2022:2b2b5ab021,hiv-2022-fig-7.2-vl-cd4-schedule,hiv-2022-txt-p161-t0333,131,"| **!** | Move to annual viral load monitoring only if the client has had 2 consecutive undetectable viral load test results 6 months apart.<br/>If VL>1000copies/mL while on NNRTI based regimen and treatment failure is suspected, immediate switch to appropriate regimen is recommended.<br/>An immediate ART switch after a single elevated viral load result should not be considered for those receiving DTG-or PI-based regimens, since the likelihood of drug resistance is minimal according to current evidence. |
-| --- | --- |","Eswatini Integrated HIV Management Guidelines (2022) | 7 Adult Antiretroviral Therapy > 7.10 Laboratory Monitoring of Clients on ART > 7.10.2 Viral load monitoring > Point of care viral load (page 161)
-
-| **!** | Move to annual viral load monitoring only if the client has had 2 consecutive undetectable viral load test results 6 months apart. / If VL>1000copies/mL while on NNRTI based regimen and treatment failure is suspected, immediate switch to appropriate regimen is recommended. / An immediate ART switch after a single elevated viral load result should not be considered for those receiving DTG-or PI-based regimens, since the likelihood of drug resistance is minimal according to current evidence. |
-| --- | --- |"
-hiv-2022-txt-p161-t0333,hiv-2022,hiv-2022,text,hiv-2022-txt-p161-t0333,1/1,Chapter 7: Adult Antiretroviral Therapy > 7.10.2 Viral load monitoring > Priority for DBS VL,161,162,hiv-2022:654f92f15d,hiv-2022:713847649a,hiv-2022-0427,hiv-2022-fig-7.3-vl-testing-algorithm,104,"## Priority for DBS VL
+hiv-2022-txt-p161-t0333,hiv-2022,hiv-2022,text,hiv-2022-txt-p161-t0333,1/1,Chapter 7: Adult Antiretroviral Therapy > 7.10.2 Viral load monitoring > Priority for DBS VL,161,162,hiv-2022:654f92f15d,hiv-2022:713847649a,hiv-2022-fig-7.2-vl-cd4-schedule,hiv-2022-fig-7.3-vl-testing-algorithm,104,"## Priority for DBS VL
 
 - DSD
 - Community commodity distribution (CCD)
@@ -37898,7 +37893,7 @@ CD4 and VL monitoring in pregnant and breastfeeding women Ensure that
 - ALL pregnant have a Viral Load in the 3 trimester preferably by 34weeks of gestation
 - ALL lactating women have a VL by 6 weeks post-partum or every 6 months thereafter.
 Key message: Ensure that all pregnant and lactating women who are on ART have a viral load test done during their first visit . All viral loads should be marked urgent and actively traced in the facility."
-hiv-2022-fig-8.1-vl-cd4-pregnant-lactating,hiv-2022,hiv-2022,diagram,hiv-2022-fig-8.1-vl-cd4-pregnant-lactating,1/1,Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women > Figure 8.1,187,187,hiv-2022:b03378af6e,hiv-2022:43645b4281,hiv-2022-txt-p186-t0363,hiv-2022-0505,398,"### Figure 8.1 Timing of viral load and CD4 monitoring for pregnant and lactating women
+hiv-2022-fig-8.1-vl-cd4-pregnant-lactating,hiv-2022,hiv-2022,diagram,hiv-2022-fig-8.1-vl-cd4-pregnant-lactating,1/1,Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women > Figure 8.1,187,187,hiv-2022:b03378af6e,hiv-2022:43645b4281,hiv-2022-txt-p186-t0363,hiv-2022-txt-p187-t0364,398,"### Figure 8.1 Timing of viral load and CD4 monitoring for pregnant and lactating women
 
 Pregnant women:
 - Women already on ART: VL at 1st ANC irrespective of when prior VL was done; repeat VL at 34 weeks gestation.
@@ -37920,28 +37915,7 @@ Lactating women:
 - Women newly initiating ART (e.g. at 1st PNC, 7 days after delivery, or at 6 weeks): CD4 testing on ART initiation; VL testing 3 months post ART initiation; VL 6 months after delivery and every 6 months until cessation of breastfeeding, aligned with the MBP schedule.
 If viral load >1000 copies/ml, follow the treatment monitoring algorithm and conduct infant HIV testing using POC infant diagnosis, where available, to expedite the return of results (see Table 8.10).
 A detectable viral load in a pregnant or breastfeeding woman should be treated as an emergency due to increased risk of MTCT: seek expert advice from the mother facility doctor or regional implementing partner focal doctors and/or Baylor HIV/TB hotline. Where available, prioritise pregnant and lactating women for point-of-care VL testing."
-hiv-2022-0505,hiv-2022,Eswatini Integrated HIV Management Guidelines (2022),table,,,8 Prevention of Mother to Child Transmission of HIV > 8.4 Treatment for HIV-Positive Pregnant and Lactating Women > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women,187,187,hiv-2022:898ca361c6,hiv-2022:20287bfa8a,hiv-2022-fig-8.1-vl-cd4-pregnant-lactating,hiv-2022-txt-p187-t0364,137,"| Women | Time point | Women already on ART | Women newly initiating ART |
-| --- | --- | --- | --- |
-| Pregnant | First ANC | VL | CD4 |
-| Pregnant | 34 weeks gestation | VL |  |
-| Pregnant | 3 months post ART initiation* |  | VL |
-| Pregnant | Delivery | (marked on the timeline; no test shown) | (marked on the timeline; no test shown) |
-| Lactating | 1st PNC (7 days after delivery) |  | CD4 |
-| Lactating | 6 weeks after delivery | VL | VL** |
-| Lactating | 6 months after delivery | VL | VL |
-| Lactating | 12 months after delivery | VL | VL |","Eswatini Integrated HIV Management Guidelines (2022) | 8 Prevention of Mother to Child Transmission of HIV > 8.4 Treatment for HIV-Positive Pregnant and Lactating Women > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women (page 187)
-
-| Women | Time point | Women already on ART | Women newly initiating ART |
-| --- | --- | --- | --- |
-| Pregnant | First ANC | VL | CD4 |
-| Pregnant | 34 weeks gestation | VL |  |
-| Pregnant | 3 months post ART initiation* |  | VL |
-| Pregnant | Delivery | (marked on the timeline; no test shown) | (marked on the timeline; no test shown) |
-| Lactating | 1st PNC (7 days after delivery) |  | CD4 |
-| Lactating | 6 weeks after delivery | VL | VL** |
-| Lactating | 6 months after delivery | VL | VL |
-| Lactating | 12 months after delivery | VL | VL |"
-hiv-2022-txt-p187-t0364,hiv-2022,hiv-2022,text,hiv-2022-txt-p187-t0364,1/1,Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women,187,187,hiv-2022:43645b4281,hiv-2022:6c5ec8c1be,hiv-2022-0505,hiv-2022-tbl-8.9-detectable-vl-pregnancy-p1,158,"## 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women
+hiv-2022-txt-p187-t0364,hiv-2022,hiv-2022,text,hiv-2022-txt-p187-t0364,1/1,Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women,187,187,hiv-2022:43645b4281,hiv-2022:6c5ec8c1be,hiv-2022-fig-8.1-vl-cd4-pregnant-lactating,hiv-2022-tbl-8.9-detectable-vl-pregnancy-p1,158,"## 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women
 
 Where available, pregnant and lactating women should be prioritised for point-of-care viral load testing
 Key message: A detectable viral load at any point in time should be managed accordingly. See Figure 7.3 and 7.4 A detectable viral load in pregnant and lactating women should be treated as an emergency due to increased risk of mother-to-child-transmission. Healthcare workers are urged to utilize expert consultation from Mother Facility doctor and regional implementing partner focal doctors or the Baylor hotline in addition to the guidance below","2022 Eswatini Integrated HIV Management Guidelines | Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women (page 187)

@@ -21,3 +21,11 @@ for t in _all:
         d = _c.deepcopy(t)
         d['source_flags'] = d.get('source_flags', []) + [n for n in notes if n not in d.get('source_flags', [])]
         ITEMS.append(d)
+# old table-typed chunk 0427 (p.161 callout box) is now part of the rebuilt p.160-161 text section
+for _t in _all:
+    if _t['table_id'].startswith('hiv-2022-txt-p160-t03') and 'Point of care viral load' in _t['heading_path']:
+        _d = next((x for x in ITEMS if x['table_id'] == _t['table_id']), None) or _c.deepcopy(_t)
+        if 'hiv-2022-0427' not in _d['replaces_chunks']:
+            _d['replaces_chunks'] = _d['replaces_chunks'] + ['hiv-2022-0427']
+        if _d not in ITEMS:
+            ITEMS.append(_d)

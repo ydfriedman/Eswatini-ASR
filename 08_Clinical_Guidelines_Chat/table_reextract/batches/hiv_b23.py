@@ -18,7 +18,7 @@ ITEMS = [
    footnotes=["**Note: The 6-week VL is essential to decide EIP duration and to intervene early in women with a DVL while breastfeeding. Therefore, ALL women on ART should have a VL at 6 weeks post-partum. The only women excluded from this are those starting ART during the 6 weeks post-partum visit.",
               "Ensure that all pregnant women have a viral load in the 3rd trimester preferably by 34 weeks of gestation, and all lactating women have a VL by 6 weeks post-partum and every 6 months thereafter. All pregnant and lactating women on ART should have a VL at their first visit; all VLs should be marked urgent and actively traced."],
    source_flags=["The newly-initiating PNC cell repeats one bullet (first VL 3 months after ART initiation, then every 6 months).", AMD]),
- D("fig-8.1-vl-cd4-pregnant-lactating", 187, C8 + " > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women > Figure 8.1", "Figure 8.1 Timing of viral load and CD4 monitoring for pregnant and lactating women", [],
+ D("fig-8.1-vl-cd4-pregnant-lactating", 187, C8 + " > 8.4.4 Viral load and CD4 testing schedule in pregnant and breastfeeding women > Figure 8.1", "Figure 8.1 Timing of viral load and CD4 monitoring for pregnant and lactating women", ["0505"],
    "Pregnant women:\n- Women already on ART: VL at 1st ANC irrespective of when prior VL was done; repeat VL at 34 weeks gestation.\n"
    "- Women newly initiating ART: baseline CD4 at ART initiation (first ANC); VL 3 months after ART initiation*.\n"
    "  *If viral load testing is expected to be undertaken in close proximity to the planned viral load at 34 weeks of gestation, the first viral load test can be delayed until week 34 of gestation.\n"
