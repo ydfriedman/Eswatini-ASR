@@ -942,7 +942,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "The symptomatic referral chart attributes weight loss, night sweats and fever to TB only, and wheezing to asthma only; other causes (e.g. HIV, malignancy, heart failure) are not listed for those symptoms."
+   ],
    "pages": [
     54
    ],
@@ -1454,7 +1456,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Smear grading: the 'Negative' row reads 'Number of AFB per 100 oil immersion fields' – it should read 'No AFB in 100 oil immersion fields'."
+   ],
    "pages": [
     69
    ],
@@ -1587,7 +1591,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "'Chest x-rays are contra-indicated in pregnancy especially during the first trimester' – CXR with abdominal shielding is acceptable in pregnancy when indicated, and WHO allows CXR for TB screening in pregnant women; 'LED-shield' should be 'lead shield'."
+   ],
    "pages": [
     79
    ]
@@ -1699,7 +1705,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "TB meningitis: 'Kerning's sign' (Kernig's sign)."
+   ],
    "pages": [
     80,
     81
@@ -1707,7 +1715,33 @@
    "context_before": "Table 11: A brief details of type of EP-TB, clinical features and diagnostic procedure"
   }
  ],
- "text_labels": {},
+ "text_labels": {
+  "tb-2025-0022": "Chapter 1: Background > 1.1 Introduction > Summary of Changes and New Recommendations (continued)",
+  "tb-2025-0031": "Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Incidence",
+  "tb-2025-0034": "Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Mortality",
+  "tb-2025-0036": "Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > The End TB Strategy",
+  "tb-2025-0039": "Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > End TB Strategy: Vision, Goal and Targets",
+  "tb-2025-0041": "Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > TB in Eswatini",
+  "tb-2025-0054": "Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.1 Introduction",
+  "tb-2025-0063": "Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.4 Social Mobilization",
+  "tb-2025-0065": "Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.4 Social Mobilization > ACSM Desired Behaviours and Outcomes",
+  "tb-2025-0071": "Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.5 Stigma and Discrimination > Strategies to Address Stigma; 2.6 Health Education",
+  "tb-2025-0090": "Chapter 3: Tuberculosis Case Finding > 3.2.6 Active Case Finding in Health Facilities > Parallel Screening (Symptoms and CXR)",
+  "tb-2025-0091": "Chapter 3: Tuberculosis Case Finding > 3.2.6.2 Active Case Finding Among Health Care Workers; 3.2.7 Community-based Active TB Case Finding",
+  "tb-2025-0092": "Chapter 3: Tuberculosis Case Finding > 3.2.7.1 Models of Community-based Case Finding",
+  "tb-2025-0093": "Chapter 3: Tuberculosis Case Finding > 3.2.7.2 Active Case Finding Through Contact Investigation",
+  "tb-2025-0097": "Chapter 3: Tuberculosis Case Finding > 3.2.7.2 Contact Investigation > Procedures; 3.2.7.3 Integrated Mobile Clinics",
+  "tb-2025-0114": "Chapter 3: Tuberculosis Case Finding > 3.4.1 Cascade Analysis > Acting on Gaps (Table 9)",
+  "tb-2025-0121": "Chapter 3: Tuberculosis Case Finding > 3.5.2 Sputum Collection, Labelling, Storage and Transport",
+  "tb-2025-0123": "Chapter 3: Tuberculosis Case Finding > 3.6 Recording of TB Case-finding Activities",
+  "tb-2025-0165": "Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological Diagnosis > Diagnostic Algorithm Notes (Figure 15)",
+  "tb-2025-0175": "Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 LF-LAM in PLHIV > Notes to Figure 18",
+  "tb-2025-0182": "Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes"
+ },
  "text_merge": {},
- "text_drop": []
+ "text_drop": [],
+ "text_fix_pages": [
+  1,
+  84
+ ]
 }

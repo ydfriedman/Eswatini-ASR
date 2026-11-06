@@ -1464,11 +1464,29 @@ tb-2025-0183,replaced,tb-2025-tbl-p80-0181
 tb-2025-0185,replaced,tb-2025-tbl-p80-0181
 tb-2025-0187,replaced,tb-2025-tbl-p80-0181
 tb-2025-0188,replaced,tb-2025-tbl-p80-0181
+tb-2025-0022,label,1.1 Introduction > Introduction and Country Background > Table 1: Summary of Changes and New Recommendations in the Guidelines => Chapter 1: Background > 1.1 Introduction > Summary of Changes and New Recommendations (continued)
 tb-2025-0029,cleaned,
+tb-2025-0031,label,"1.5 Epidemiology of Tuberculosis > 1.5.1 Global trend in TB incidence > Figure 1: Global TB Incidence Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Incidence"
+tb-2025-0034,label,"1.5 Epidemiology of Tuberculosis > 1.5.2 Global trend of TB mortality > Figure 2: Global TB Mortality Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > Global TB Mortality"
+tb-2025-0036,label,"1.5 Epidemiology of Tuberculosis > 1.5.2 Global trend of TB mortality > Figure 2: Global TB Mortality Trends, 2024 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > The End TB Strategy"
+tb-2025-0039,label,"1.5 Epidemiology of Tuberculosis > Table 2: End TB Strategy Milestones => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > End TB Strategy: Vision, Goal and Targets"
+tb-2025-0041,label,"1.5 Epidemiology of Tuberculosis > Estimated number of TB cases attributable to five risk factors, 2023 => Chapter 1: Background > 1.5 Epidemiology of Tuberculosis > TB in Eswatini"
 tb-2025-0052,cleaned,
 tb-2025-0054,cleaned,
+tb-2025-0054,label,"1.7 Natural History of TB > Table 3: Summary of the new TB National Strategic Plan => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.1 Introduction"
+tb-2025-0063,label,"2.3 Communication > 2.3.2 Key Messages, Target audiences and Channels of Communication > Table 4: Target audience, communication channels/modes and key messages => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.4 Social Mobilization"
+tb-2025-0065,label,"2.3 Communication > Table 5: ACSM intervention and desired behaviors and outcomes => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.4 Social Mobilization > ACSM Desired Behaviours and Outcomes"
+tb-2025-0071,label,"2.5 Stigma and Discrimination > Table 5: ACSM intervention and desired behaviors and outcomes => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.5 Stigma and Discrimination > Strategies to Address Stigma; 2.6 Health Education"
 tb-2025-0072,emptied,
+tb-2025-0090,label,3.2 Screening tools for systematic TB screening > 3.2.5 Intensified case finding in health facilities => Chapter 3: Tuberculosis Case Finding > 3.2.6 Active Case Finding in Health Facilities > Parallel Screening (Symptoms and CXR)
+tb-2025-0091,label,3.2 Screening tools for systematic TB screening > 3.2.5 Intensified case finding in health facilities => Chapter 3: Tuberculosis Case Finding > 3.2.6.2 Active Case Finding Among Health Care Workers; 3.2.7 Community-based Active TB Case Finding
+tb-2025-0092,label,3.2 Screening tools for systematic TB screening > 3.2.5 Intensified case finding in health facilities => Chapter 3: Tuberculosis Case Finding > 3.2.7.1 Models of Community-based Case Finding
+tb-2025-0093,label,3.2 Screening tools for systematic TB screening > 3.2.5 Intensified case finding in health facilities => Chapter 3: Tuberculosis Case Finding > 3.2.7.2 Active Case Finding Through Contact Investigation
+tb-2025-0097,label,3.2 Screening tools for systematic TB screening > Tuberculosis Case Finding => Chapter 3: Tuberculosis Case Finding > 3.2.7.2 Contact Investigation > Procedures; 3.2.7.3 Integrated Mobile Clinics
+tb-2025-0114,label,3.4 Strategies to ensure optimal TB screening coverage > 3.4.1 Cascade analysis and continuous quality improvement > Table 8: TB screening cascade > Table 9: Example of possible gap identified by cascade analysis and action to be taken => Chapter 3: Tuberculosis Case Finding > 3.4.1 Cascade Analysis > Acting on Gaps (Table 9)
+tb-2025-0121,label,"3.5 Linking people with presumptive TB for diagnosis and treatment > 3.5.2 Sputum Collection, Labelling, Storage and Transport > Spot – Morning => Chapter 3: Tuberculosis Case Finding > 3.5.2 Sputum Collection, Labelling, Storage and Transport"
 tb-2025-0123,cleaned,
+tb-2025-0123,label,3.6 Recording of TB case-finding activities => Chapter 3: Tuberculosis Case Finding > 3.6 Recording of TB Case-finding Activities
 tb-2025-0125,emptied,
 tb-2025-0128,emptied,
 tb-2025-0131,emptied,
@@ -1476,9 +1494,12 @@ tb-2025-0134,emptied,
 tb-2025-0137,emptied,
 tb-2025-0140,emptied,
 tb-2025-0163,cleaned,
+tb-2025-0165,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > Note: If no culture conversion at month 4 or culture reversion, perform C&DST and tNGS. => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological Diagnosis > Diagnostic Algorithm Notes (Figure 15)"
 tb-2025-0168,cleaned,
 tb-2025-0173,emptied,
+tb-2025-0175,label,Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3 Microbiological diagnosis of TB and DR-TB > Figure 18: Algorithm to evaluate for TB among PLHIV => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.3.4 LF-LAM in PLHIV > Notes to Figure 18
 tb-2025-0177,cleaned,
+tb-2025-0182,label,"Chapter 4: TB and Drug-Resistant TB Diagnosis > Table 11: A brief details of type of EP-TB, clinical features and diagnostic procedure => Chapter 4: TB and Drug-Resistant TB Diagnosis > 4.6 Confirming Diagnosis of Extra-Pulmonary TB > Table 11 Notes"
 tb-2025-0198,emptied,
 tb-2025-0290,cleaned,
 tb-2025-0361,emptied,
@@ -1499,7 +1520,7 @@ tb-2025-0603,cleaned,
 tb-2025-0610,cleaned,
 tb-2025-0614,cleaned,
 tb-2025-0698,emptied,
-tb-2025-0067,merged into,tb-2025-0065
+tb-2025-0002,heading moved to,tb-2025-0012
 tb-2025-0087,merged into,tb-2025-0086
 tb-2025-0118,merged into,tb-2025-0117
 tb-2025-0163,merged into,tb-2025-0162

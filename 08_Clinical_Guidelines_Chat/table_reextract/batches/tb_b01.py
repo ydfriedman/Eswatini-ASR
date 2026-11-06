@@ -72,3 +72,13 @@ ITEMS = [
    table_note="Source: Pai, Behr et al., 2016, Nature Reviews Disease Primers.",
    source_flags=["The figure has four state labels over five columns; the second column (TB infection, no treatment) is labelled here as early infection by inference."]),
 ]
+# Clinical read (source problems in the guideline itself)
+FLAGS = {
+ "tbl-p69-0153": ["Smear grading: the 'Negative' row reads 'Number of AFB per 100 oil immersion fields' – it should read 'No AFB in 100 oil immersion fields'."],
+ "tbl-p79-0179": ["'Chest x-rays are contra-indicated in pregnancy especially during the first trimester' – CXR with abdominal shielding is acceptable in pregnancy when indicated, and WHO allows CXR for TB screening in pregnant women; 'LED-shield' should be 'lead shield'."],
+ "tbl-p80-0181": ["TB meningitis: 'Kerning's sign' (Kernig's sign)."],
+ "tbl-p54-0109": ["The symptomatic referral chart attributes weight loss, night sweats and fever to TB only, and wheezing to asthma only; other causes (e.g. HIV, malignancy, heart failure) are not listed for those symptoms."],
+}
+for it in ITEMS:
+    for k, v in FLAGS.items():
+        if it['table_id'].endswith(k): it['source_flags'] = it.get('source_flags', []) + v
