@@ -21,7 +21,7 @@ head = src.split('## HIV Amendment 2024')[0]
 tail = '## Text sections' + src.split('## Text sections')[1]
 out = [head.rstrip(), '']
 n = 0
-for path, title in (('hiv-amendment-2024_tables.json', 'HIV Amendment 2024'), ('ncdimh_tables.json', 'NCDIMH (pages 1-356, complete)'), ('prep-2025_tables.json', 'PrEP Implementation Guidelines 2025'), ('anc_tables.json', 'ANC Guidelines'), ('unaids-linkages-sop_tables.json', 'UNAIDS Linkages SOP'), ('tb-2025_tables.json', 'TB Guidelines 2025 (pages 1-286, complete)'), ('fp-2021_tables.json', 'Family Planning Guidelines 2021 (pages 1-118, complete)'), ('mental-health-deskguide_tables.json', 'Mental Health Desk Guide (pages 1-120, complete)'), ('hiv-2022_tables.json', 'HIV Integrated Management Guidelines 2022 (parts 1-2: pages 1-142)')):
+for path, title in (('hiv-amendment-2024_tables.json', 'HIV Amendment 2024'), ('ncdimh_tables.json', 'NCDIMH (pages 1-356, complete)'), ('prep-2025_tables.json', 'PrEP Implementation Guidelines 2025'), ('anc_tables.json', 'ANC Guidelines'), ('unaids-linkages-sop_tables.json', 'UNAIDS Linkages SOP'), ('tb-2025_tables.json', 'TB Guidelines 2025 (pages 1-286, complete)'), ('fp-2021_tables.json', 'Family Planning Guidelines 2021 (pages 1-118, complete)'), ('mental-health-deskguide_tables.json', 'Mental Health Desk Guide (pages 1-120, complete)'), ('hiv-2022_tables.json', 'HIV Integrated Management Guidelines 2022 (parts 1-3: pages 1-198)')):
     rows = sorted((t['page'], t['caption'], t['table_id'], f) for t in json.load(open(path))['tables']
                   for f in t.get('source_flags', []) if not DROP.match(f.strip()) and not TYPO.search(f))
     out += [f'## {title}', '', '| Page | Item | Issue |', '|---|---|---|']
