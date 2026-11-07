@@ -62,13 +62,15 @@ for p in range(first, last + 1):
         ws = sorted(row['w'], key=lambda w: w['x0'])
         kinds = {w['kind'] for w in ws if w['text'] not in ('●', '•', '▪', '◦', '○')}
         k = ('caption' if 'caption' in kinds else 'heading' if kinds == {'heading'} else 'callout' if kinds == {'callout'} else 'body')
+        if k == 'heading' and len(ws) > 10 and max(w['size'] for w in ws) < 13:
+            k = 'body'                                  # a bold paragraph (e.g. a 'Note that ...' warning), not a heading
         main = [w for w in ws if w['text'] not in ('●', '•', '▪', '◦', '○')] or ws
         lines.append({'top': min(w['top'] for w in ws), 'bottom': max(w['bottom'] for w in ws), 'x0': ws[0]['x0'], 'kind': k,
                       'text': ' '.join(w['text'] for w in ws), 'size': max(w['size'] for w in main),
                       'bold': all('Bold' in w['fontname'] for w in main)})
     gaps = sorted(b['top'] - a['bottom'] for a, b in zip(lines, lines[1:]) if a['kind'] == b['kind'] == 'body' and 0 < b['top'] - a['bottom'] < 30)
     gap_max = max(7, gaps[len(gaps) // 2] + 5) if gaps else 7     # line spacing varies by page (single / 1.5): paragraph gap is relative
-    prev_bottom, prev_kind, prev_bold, prev_x0 = -100, 'body', False, 0
+    prev_bottom, prev_kind, prev_bold, prev_x0, prev_isbold = -100, 'body', False, 0, False
     for ln in lines:
         t = re.sub(r'\s+', ' ', ln['text']).strip()
         if not t:
@@ -99,12 +101,12 @@ for p in range(first, last + 1):
         t = re.sub(r'^[●•▪◦]\s*', '• ', t)
         t = re.sub(r'^○\s*', 'o ', t)
         new_para = (not cur['lines'] or BUL.match(t) or ln['top'] - prev_bottom > gap_max or prev_kind != 'body'
-                    or cur['lines'][-1].endswith(':') or ln['bold'] or prev_bold
+                    or cur['lines'][-1].endswith(':') or (ln['bold'] and not prev_isbold) or prev_bold
                     or (re.match(r'^(• |o |\d+[.)] )', cur['lines'][-1]) and ln['x0'] < prev_x0 - 8))   # back at the margin after a list item
         if new_para:
             cur['lines'].append(t)
         else:
             last = cur['lines'][-1]
             cur['lines'][-1] = (last if last.endswith('-') and not last.endswith(' -') else last + ' ') + t
-        prev_bottom, prev_kind, prev_bold, prev_x0 = ln['bottom'], 'body', ln['bold'] and len(t) < 80, ln['x0']
+        prev_bottom, prev_kind, prev_bold, prev_x0, prev_isbold = ln['bottom'], 'body', ln['bold'] and len(t) < 50, ln['x0'], ln['bold']
 json.dump(out, sys.stdout, ensure_ascii=False, indent=1)

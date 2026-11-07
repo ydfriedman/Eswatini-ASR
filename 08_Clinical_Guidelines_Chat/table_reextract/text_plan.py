@@ -52,7 +52,9 @@ for s in flat:
         m = re.match(r'(\d+)((?:\.\s?\d+)*)\.?\s', h)
         if m and cfg.get('sub_pattern') and re.match(cfg['sub_pattern'], h):
             m = None                                  # numbered but not a section heading (e.g. '5.2.1 See chart 3 ...')
-        if h in cfg.get('level_headings', []):        # unnumbered heading printed at section level
+        if h in cfg.get('chapter_headings', []):      # unnumbered chapter-level heading (e.g. 'Annexes')
+            chap, num, sub = h, None, None
+        elif h in cfg.get('level_headings', []):      # unnumbered heading printed at section level
             num, sub = h, None
         elif m:
             chap = CH.get(m.group(1), chap)
@@ -87,9 +89,9 @@ for s in flat:
     out.append({'page': s['page'], 'page_end': s['page_end'], 'title': title, 'path': path, 'content': '\n'.join(lines)})
 
 old = [json.loads(l) for l in open(old_p)]
-old = [k for k in old if k['doc_id'] == doc and k['type'] == 'text' and first <= k['page_start'] <= last
+old = [k for k in old if k['doc_id'] == doc and (k['type'] == 'text' or k['chunk_id'][len(doc) + 1:] in cfg.get('force', {})) and first <= k['page_start'] <= last
        and k['chunk_id'] not in cfg.get('exclude_chunks', [])   # chunks mapped to items by hand
-       and k['chunk_id'] not in {c for t in spec['tables'] if t.get('kind') != 'section' for c in t.get('replaces_chunks', [])}]
+       and (k['chunk_id'][len(doc) + 1:] in cfg.get('force', {}) or k['chunk_id'] not in {c for t in spec['tables'] if t.get('kind') != 'section' for c in t.get('replaces_chunks', [])})]
 assign, un = collections.defaultdict(list), []
 for k in old:
     kt = collections.Counter(tok(k['text']))
