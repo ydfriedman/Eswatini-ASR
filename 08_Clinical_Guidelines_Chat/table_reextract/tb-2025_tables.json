@@ -1,7 +1,7 @@
 {
  "doc_id": "tb-2025",
  "doc_title": "National Integrated TB Management Guidelines (2025)",
- "method": "Tables rebuilt from the original LlamaParse chunks (split rows merged, split pieces joined, markdown removed) with every word checked against the PDF text layer; image-only charts re-described from the page images. Flowcharts were spot-checked against the images and kept.",
+ "method": "Tables rebuilt from the original LlamaParse chunks (split rows merged, split pieces joined, markdown removed) with every word checked against the PDF text layer; image-only charts re-described from the page images. Flowcharts were spot-checked against the images and kept. Second pass (batch tb_b10): each rebuilt table was compared with its page image and re-transcribed from the image where its structure or content was wrong (merged or swallowed rows, missing bullets, wrong captions, colour-coded cells); new source flags were added where the printed table conflicts with itself or with current guidance.",
  "pdf_parts": [
   {
    "file": "TB_1.pdf",
@@ -123,7 +123,7 @@
    "page": 26,
    "image_only": false,
    "heading_path": "1.5 Epidemiology of Tuberculosis",
-   "caption": "1.5 Epidemiology of Tuberculosis (Category, 2023)",
+   "caption": "1.5 Epidemiology of Tuberculosis: global figures for 2023 (summary of the text; no table in the source)",
    "replaces_chunks": [
     "tb-2025-0030"
    ],
@@ -180,7 +180,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Not a printed table: the old parser built it from the paragraph on p.26 ('An estimated 10.8 million people fell ill due to TB including 1.3 million children and 6.8% were people living with HIV in 2023 ... 1.1 million deaths ... 400,000 people' with drug-resistant TB). Global (WHO) figures, not Eswatini."
+   ],
    "source_flags": [],
    "pages": [
     26
@@ -553,26 +555,16 @@
    "body": [
     [
      {
-      "t": "TB patients<br/>Key affected populations (household TB contacts, PLHIV, miners/ex-miners and their families, factory workers, inmates, diabetes clients)"
+      "t": "TB patients<br/>Key affected populations (household TB contacts, PLHIV, miners/ex-miners and their families, factory workers, inmates, diabetes clients)<br/>TB survivors"
      },
      {
-      "t": "- Health talks at the facility level - One-on-one discussions with HCWs - Support groups - Campaigns - Phone calls - Radio programmes - Television programmes - Newspapers articles - Printed and digital IEC materials (flyers, posters, pamphlets, brochures, promotional materials, newsletters) - Billboards - SMS - Short Educational videos - Facebook posts"
+      "t": "- Health talks at the facility level<br/>- One-on-one discussions with HCWs<br/>- Support groups<br/>- Campaigns<br/>- Phone calls<br/>- Radio programmes<br/>- Television programmes<br/>- Newspapers articles<br/>- Printed and digital IEC materials (flyers, posters, pamphlets, brochures, promotional materials, newsletters)<br/>- Billboards<br/>- SMS<br/>- Short Educational videos<br/>- Facebook posts"
      }
     ],
     [
      {
-      "t": "TB survivors"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Key Messages"
-     },
-     {
-      "t": "- Screen for TB when you experience any one TB symptom - Test for TB when screened positive - Get TB treatment for free in all public health facilities - Take and complete your TB treatment as advised by your healthcare provider - Ask your healthcare provider about TB preventive treatment (TPT), if you are eligible, start TPT and take it as advised. - To prevent the spread of TB, cover your mouth when coughing."
+      "t": "Key Messages:<br/>- Screen for TB when you experience any one TB symptom<br/>- Test for TB when screened positive<br/>- Get TB treatment for free in all public health facilities<br/>- Take and complete your TB treatment as advised by your healthcare provider<br/>- Ask your healthcare provider about TB preventive treatment (TPT), if you are eligible, start TPT and take it as advised.<br/>- To prevent the spread of TB, cover your mouth when coughing.",
+      "cs": 2
      }
     ],
     [
@@ -593,10 +585,8 @@
     ],
     [
      {
-      "t": "Key Messages:<br/>Educate all clients about basic TB facts<br/>Screen all clients for TB<br/>Test all TB presumptive clients<br/>Administer correct treatment to TB clients"
-     },
-     {
-      "t": "(a) Monitor all TB clients for treatment adherence<br/>(b) Stand-up against stigma and discrimination associated with TB"
+      "t": "Key Messages:<br/>Educate all clients about basic TB facts<br/>Screen all clients for TB<br/>Test all TB presumptive clients<br/>Administer correct treatment to TB clients<br/>(a) Monitor all TB clients for treatment adherence<br/>(b) Stand-up against stigma and discrimination associated with TB",
+      "cs": 2
      }
     ],
     [
@@ -617,14 +607,14 @@
     ],
     [
      {
-      "t": "Key Messages:<br/>Support TB campaigns in communities<br/>Advocate for sufficient domestic and external resources for the national TB response<br/>Provide technical expertise in planning, implementation and evaluation of TB interventions<br/>Invest in TB and save lives<br/>Convey correct messages about TB"
-     },
-     {
-      "t": ""
+      "t": "Key Messages:<br/>Support TB campaigns in communities<br/>Advocate for sufficient domestic and external resources for the national TB response<br/>Provide technical expertise in planning, implementation and evaluation of TB interventions<br/>Invest in TB and save lives<br/>Convey correct messages about TB",
+      "cs": 2
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Each audience block is followed by a key-messages row spanning both columns (the secondary-audience messages are printed in two columns but form one list)."
+   ],
    "source_flags": [],
    "pages": [
     36,
@@ -663,10 +653,10 @@
       "t": "Advocacy"
      },
      {
-      "t": "* Government maintains TB control a high priority"
+      "t": "- Government maintains TB control a high priority<br/>- Government provides quality TB services<br/>- Government ensures an un-interrupted adequate supply of TB diagnostic tests and anti-TB drugs<br/>- Policymakers remain active in advocating for TB issues"
      },
      {
-      "t": ""
+      "t": "- Sufficient resources for TB control<br/>- Availability of policies that enable access to free TB services regardless of Sex, ethnicity, social status.<br/>- Enabling environment for implementing TB services by applying patient-centred care approach"
      }
     ],
     [
@@ -674,10 +664,10 @@
       "t": "Communication"
      },
      {
-      "t": "Early screening and testing for TB among all people with symptoms"
+      "t": "- Early screening and testing for TB among all people with symptoms<br/>- Adherence to TB treatment<br/>- Collaboration and action against stigma and discrimination<br/>- Provision of quality TB services"
      },
      {
-      "t": ""
+      "t": "- A significant drop in the number of TB cases<br/>- Reduction in all forms of stigma and discrimination<br/>- Improvement in access to care and quality of TB services"
      }
     ],
     [
@@ -685,7 +675,7 @@
       "t": "Social Mobilization"
      },
      {
-      "t": "Communities and stakeholders unite and take action to fight TB"
+      "t": "- Communities and stakeholders unite and take action to fight TB"
      },
      {
       "t": "- Significant increase in the number of TB-free communities"
@@ -722,54 +712,16 @@
    "body": [
     [
      {
-      "t": "The history of TB"
+      "t": "The history of TB<br/>Associating TB with HIV<br/>Fear of contracting TB<br/>Fear of dying<br/>Lack of exposure to people having TB<br/>Myths and misconceptions about TB"
      },
      {
-      "t": "Lack of knowledge about TB"
-     }
-    ],
-    [
-     {
-      "t": "Associating TB with HIV"
-     },
-     {
-      "t": "Poverty"
-     }
-    ],
-    [
-     {
-      "t": "Fear of contracting TB"
-     },
-     {
-      "t": "Health care system"
-     }
-    ],
-    [
-     {
-      "t": "Fear of dying"
-     },
-     {
-      "t": "Cultural belief system"
-     }
-    ],
-    [
-     {
-      "t": "Lack of exposure to people having TB"
-     },
-     {
-      "t": "Sex sensitivity"
-     }
-    ],
-    [
-     {
-      "t": "Myths and misconceptions about TB"
-     },
-     {
-      "t": ""
+      "t": "Lack of knowledge about TB<br/>Poverty<br/>Health care system<br/>Cultural belief system<br/>Sex sensitivity"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "The two columns are independent lists (a factor is not paired with the determinant beside it)."
+   ],
    "source_flags": [],
    "pages": [
     39
@@ -986,14 +938,9 @@
       "t": ""
      }
     ],
-    [
-     {
-      "t": "TB symptoms are negative and CXR screening cascades"
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "TB symptoms are negative and CXR screening cascades"
+    },
     [
      {
       "t": "Total number of clients who attended OPD"
@@ -1036,7 +983,7 @@
     ],
     [
      {
-      "t": "Number of clients CXR screened positive and evaluated for TB by WRD<br/>(GeneXpert and/or TB-LAM)"
+      "t": "Number of clients CXR screened positive and evaluated for TB by WRD (GeneXpert and/or TB-LAM)"
      },
      {
       "t": ""
@@ -1066,14 +1013,9 @@
       "t": ""
      }
     ],
-    [
-     {
-      "t": "TPT Enrolment"
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "TPT Enrolment"
+    },
     [
      {
       "t": "Number of clients eligible for TPT"
@@ -1091,7 +1033,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A blank reporting template: the Number column is empty in the source."
+   ],
    "source_flags": [],
    "pages": [
     55
@@ -1103,7 +1047,7 @@
    "page": 56,
    "image_only": false,
    "heading_path": "3.4 Strategies to ensure optimal TB screening coverage > 3.4.1 Cascade analysis and continuous quality improvement > Table 8: TB screening cascade",
-   "caption": "Table 8: TB screening cascade (Gap, Action to be taken)",
+   "caption": "Table 9: Example of possible gap identified by cascade analysis and action to be taken",
    "replaces_chunks": [
     "tb-2025-0115"
    ],
@@ -1124,7 +1068,7 @@
       "t": "Low screening coverage by CXR and CAD/AI"
      },
      {
-      "t": "Identify which entry point has the lowest coverage (e.g. PLHIVs at ART clinic, TB contacts at TB clinic, persons with diabetes at NCD clinic, children at MCH clinic)<br/>Remind the relevant HCWs to identify the missing clients and refer them for CXR"
+      "t": "- Identify which entry point has the lowest coverage (e.g. PLHIVs at ART clinic, TB contacts at TB clinic, persons with diabetes at NCD clinic, children at MCH clinic)<br/>- Remind the relevant HCWs to identify the missing clients and refer them for CXR"
      }
     ],
     [
@@ -1132,7 +1076,7 @@
       "t": "Presumptive TB clients missing sputum submission"
      },
      {
-      "t": "Follow-up the presumptive TB clients failing to submit sputum samples through community cadres (rural health motivators/TB champions, expert clients)<br/>Strengthen training to clients on how to collect a good quality sputum sample"
+      "t": "- Follow-up the presumptive TB clients failing to submit sputum samples through community cadres (rural health motivators/TB champions, expert clients)<br/>- Strengthen training to clients on how to collect a good quality sputum sample"
      }
     ],
     [
@@ -1156,7 +1100,7 @@
       "t": "Missing eligible clients to initiate TPT"
      },
      {
-      "t": "Reminder to offer at next visit (e.g. PLHIV, clients with silicosis, etc.,)<br/>Follow-up through community cadre to return for the TPT initiation (household TB contacts)"
+      "t": "- Reminder to offer at next visit (e.g. PLHIV, clients with silicosis, etc.,)<br/>- Follow-up through community cadre to return for the TPT initiation (household TB contacts)"
      }
     ]
    ],
@@ -1242,48 +1186,6 @@
    "context_before": "Spot – Morning"
   },
   {
-   "table_id": "tb-2025-tbl-p58-0124",
-   "page": 58,
-   "image_only": false,
-   "heading_path": "3.6 Recording of TB case-finding activities",
-   "caption": "3.6 Recording of TB case-finding activities (Page Number, Document Title, Organization)",
-   "replaces_chunks": [
-    "tb-2025-0124"
-   ],
-   "row_header_cols": 1,
-   "header": [
-    [
-     {
-      "t": "Page Number"
-     },
-     {
-      "t": "Document Title"
-     },
-     {
-      "t": "Organization"
-     }
-    ]
-   ],
-   "body": [
-    [
-     {
-      "t": "36"
-     },
-     {
-      "t": "National Integrated Tuberculosis Management Guidelines 2025"
-     },
-     {
-      "t": "Ministry of Health"
-     }
-    ]
-   ],
-   "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    58
-   ]
-  },
-  {
    "kind": "diagram",
    "table_id": "tb-2025-fig-screen-plhiv-cxr",
    "page": 60,
@@ -1325,7 +1227,7 @@
    "page": 65,
    "image_only": false,
    "heading_path": "3.7 TB screening Algorithms with CXR and CAD/AI use > 3.7.1 Education message for proper sputum sample collection > Breath in and Out 3 Times",
-   "caption": "Breath in and Out 3 Times (Step, Action)",
+   "caption": "Breath in and out 3 times (illustration; steps as described in the 3.7.1 education message)",
    "replaces_chunks": [
     "tb-2025-0144"
    ],
@@ -1390,7 +1292,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "The source shows four pictures under the heading 'BREATH IN AND OUT 3 TIMES' (Source: https://www.vdh.virginia.gov/content/uploads/sites/112/2019/04/Lab.pdf); the numbered steps are taken from the breathing-exercise bullet in the text above, not from a printed table."
+   ],
    "source_flags": [],
    "pages": [
     65
@@ -1767,7 +1671,7 @@
    "page": 90,
    "image_only": false,
    "heading_path": "5.2 TB Laboratory Network in Eswatini > 5.2.6 External Quality Assessment > 5.2.6.5 Conducting supervisory visits to microscopy centres",
-   "caption": "5.2.6.5 Conducting supervisory visits to microscopy centres (PREPARING FOR VISITS)",
+   "caption": "5.2.6.5 Conducting supervisory visits to microscopy centres (box: preparing for and conducting the visit)",
    "replaces_chunks": [
     "tb-2025-0210",
     "tb-2025-0211"
@@ -1796,11 +1700,9 @@
       "t": "Ensure the availability of an updated lab supervision checklist"
      }
     ],
-    [
-     {
-      "t": "CONDUCTING THE VISIT"
-     }
-    ],
+    {
+     "section": "CONDUCTING THE VISIT"
+    },
     [
      {
       "t": "Visiting the laboratory requires good time management to ensure a productive supportive visit without significantly disrupting the daily work schedule of the supervisee. The supervisor should be focused and systematic in conducting the visit. The following techniques could be employed to check the laboratory operations:"
@@ -1887,7 +1789,7 @@
    "page": 96,
    "image_only": false,
    "heading_path": "6.2 Treatment Initiation > Treatment of Drug-Susceptible Tuberculosis > (b) History Taking and Baseline Examination",
-   "caption": "(b) History Taking and Baseline Examination (HIV infection, Acute or chronic liver disease)",
+   "caption": "(b) History taking and baseline examination: past medical and social history to include",
    "replaces_chunks": [
     "tb-2025-0226"
    ],
@@ -1895,14 +1797,20 @@
    "header": [
     [
      {
+      "t": "Past medical and social history to include",
+      "cs": 2
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
       "t": "HIV infection"
      },
      {
       "t": "Acute or chronic liver disease"
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "Diabetes mellitus"
@@ -1944,7 +1852,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A two-column list (no header); all twelve items are conditions to ask about."
+   ],
    "source_flags": [],
    "pages": [
     96
@@ -2237,11 +2147,16 @@
    "header": [
     [
      {
-      "t": "Increased Intracranial Pressure"
+      "t": "Indications"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Increased Intracranial Pressure"
+     }
+    ],
     [
      {
       "t": "Spinal Block"
@@ -2263,7 +2178,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A one-column list printed without a header; the heading 'Indications' is added here."
+   ],
    "source_flags": [],
    "pages": [
     101
@@ -2353,10 +2270,10 @@
       "t": "When to monitor"
      },
      {
-      "t": "Regimen for New TB cases<br/>6-month treatment regimen"
+      "t": "Regimen for New TB cases 6-month treatment regimen"
      },
      {
-      "t": "Regimen for Previously treated<br/>Cases (6-month Regimen)"
+      "t": "Regimen for Previously treated Cases (6-month Regimen)"
      }
     ]
    ],
@@ -2366,10 +2283,10 @@
       "t": "At the time of diagnosis"
      },
      {
-      "t": "Xpert MTB/RIF® ULTRA test Culture<br/>& DST"
+      "t": "Xpert MTB/RIF® ULTRA test Culture & DST"
      },
      {
-      "t": "Xpert MTB/RI&#x46;® ULTRA test<br/>Culture & DST"
+      "t": "Xpert MTB/RIF® ULTRA test Culture & DST"
      }
     ],
     [
@@ -2396,7 +2313,7 @@
     ],
     [
      {
-      "t": "During the last month of<br/>treatment"
+      "t": "During the last month of treatment"
      },
      {
       "t": "Sputum smear (end month 6)"
@@ -2406,7 +2323,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Source: Treatment of tuberculosis guidelines. WHO (2018)."
+   ],
    "source_flags": [],
    "pages": [
     108
@@ -2423,45 +2342,55 @@
     "tb-2025-0266",
     "tb-2025-0267"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 3,
    "header": [
     [
      {
-      "t": "Length of treatment"
+      "t": "Length of treatment",
+      "rs": 2
      },
      {
-      "t": "Length of interruption"
+      "t": "Length of interruption",
+      "rs": 2
      },
      {
-      "t": "Sputum status upon return"
+      "t": "Sputum status upon return",
+      "rs": 2
      },
      {
-      "t": "Actions to be taken<br/>Treatment outcome"
+      "t": "Actions to be taken",
+      "cs": 3
+     }
+    ],
+    [
+     {
+      "t": "Treatment outcome"
      },
      {
-      "t": "Actions to be taken<br/>DST"
+      "t": "DST"
      },
      {
-      "t": "Actions to be taken<br/>Registration and further treatment"
+      "t": "Registration and further treatment"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "< 1 Month"
+      "t": "< 1 Month",
+      "rs": 5
      },
      {
       "t": "< 2 weeks"
      },
      {
-      "t": ""
+      "t": "—"
      },
      {
-      "t": ""
+      "t": "—"
      },
      {
-      "t": ""
+      "t": "—"
      },
      {
       "t": "Continue treatment from the point it was stopped"
@@ -2469,56 +2398,73 @@
     ],
     [
      {
-      "t": "< 1 Month"
+      "t": "2-7 weeks",
+      "rs": 2
      },
      {
-      "t": "2-7 weeks"
+      "t": "(-)"
      },
      {
-      "t": "(-)<br/>(+)"
+      "t": "—"
      },
      {
-      "t": ""
+      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST",
+      "rs": 2
      },
      {
-      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST"
-     },
-     {
-      "t": "Restart treatment without new registration if there is no RIF resistance on rapid DST, otherwise register as DRTB case if there is RIF resistance"
+      "t": "Restart treatment without new registration if there is no RIF resistance on rapid DST, otherwise register as DRTB case if there is RIF resistance",
+      "rs": 2
      }
     ],
     [
      {
-      "t": "< 1 Month"
+      "t": "(+)"
      },
      {
-      "t": "> 7 weeks"
-     },
-     {
-      "t": "(-)<br/>(+)"
-     },
-     {
-      "t": "Lost to follow up<br/>Lost to follow up"
-     },
-     {
-      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST"
-     },
-     {
-      "t": "If no resistance, give outcome of LTFU and register again as re-registered and restart treatment regimen. If there is resistance, register as DR TB case"
+      "t": "—"
      }
     ],
     [
      {
-      "t": "> 1 Month"
+      "t": "> 7 weeks",
+      "rs": 2
+     },
+     {
+      "t": "(-)"
+     },
+     {
+      "t": "Lost to follow up"
+     },
+     {
+      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST",
+      "rs": 2
+     },
+     {
+      "t": "If no resistance, give outcome of LTFU and register again as re-registered and restart treatment regimen. If there is resistance, register as DR TB case",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "(+)"
+     },
+     {
+      "t": "Lost to follow up"
+     }
+    ],
+    [
+     {
+      "t": "> 1 Month",
+      "rs": 5
      },
      {
       "t": "< 2 weeks"
      },
      {
-      "t": ""
+      "t": "—"
      },
      {
-      "t": ""
+      "t": "—"
      },
      {
       "t": "Rapid DST (X-pert MTB/RIF®) MGIT Culture & DST"
@@ -2529,28 +2475,64 @@
     ],
     [
      {
-      "t": "> 1 Month"
+      "t": "2-7 weeks",
+      "rs": 2
      },
      {
-      "t": "2-7 weeks<br/>> 7 weeks"
+      "t": "(-)"
      },
      {
-      "t": "(-)<br/>(+)<br/>(-)<br/>(+)"
+      "t": "—"
      },
      {
-      "t": "Lost to follow up"
+      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST",
+      "rs": 2
      },
      {
-      "t": "Rapid DST (Xpert MTB/RIF®)# MGIT Culture & DST<br/>Rapid DST (Xpert MTB/ RIF®)# MGIT Culture & DST"
+      "t": "Continue treatment from the point it was stopped if there is no RIF resistance on rapid DS, if there is RIF resistance register as DR-TB",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "(+)"
      },
      {
-      "t": "Continue treatment from the point it was stopped if there is no RIF resistance on rapid DS, if there is RIF resistance register as DR-TB<br/>Give outcome of LTFU on previous registration status; Restart treatment with new registration as a re-registered for treatment if there is no RIF resistance on rapid DST. If there is RIF resistance, register as a DR-TB case"
+      "t": "—"
+     }
+    ],
+    [
+     {
+      "t": "> 7 weeks",
+      "rs": 2
+     },
+     {
+      "t": "(-)"
+     },
+     {
+      "t": "Lost to follow up",
+      "rs": 2
+     },
+     {
+      "t": "Rapid DST (Xpert MTB/ RIF®)# MGIT Culture & DST",
+      "rs": 2
+     },
+     {
+      "t": "Give outcome of LTFU on previous registration status; Restart treatment with new registration as a re-registered for treatment if there is no RIF resistance on rapid DST. If there is RIF resistance, register as a DR-TB case",
+      "rs": 2
+     }
+    ],
+    [
+     {
+      "t": "(+)"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Source: Adapted from Treatment of Tuberculosis guidelines. 4thEdition. WHO/HTM/TB/2009.420. '—' = grey (not applicable) cell in the source. The '#' has no footnote in the source."
+   ],
    "source_flags": [
-    "Interruptions of '> 7 weeks' are classed as lost to follow-up, but Table 19 defines LTFU as interruption for 2 or more consecutive months (about 8.7 weeks)."
+    "Table 18 gives 'Lost to follow up' for interruptions over 7 weeks, while Table 19 defines loss to follow-up as treatment interrupted for 2 or more consecutive months (about 8.7 weeks)."
    ],
    "pages": [
     110
@@ -2943,7 +2925,7 @@
    "body": [
     [
      {
-      "t": "Group A<br/>(Include all three medicines unless they cannot be used)"
+      "t": "Group A*<br/>(Include all three medicines unless they cannot be used)"
      },
      {
       "t": "Levofloxacin or Moxifloxacin<br/>Bedaquiline<br/>Linezolid"
@@ -2957,7 +2939,7 @@
       "t": "Group B<br/>(Add both medicines unless they cannot be used)"
      },
      {
-      "t": "Clofazimine Cycloserine OR Terizidone"
+      "t": "Clofazimine<br/>Cycloserine OR Terizidone"
      },
      {
       "t": "Cfz<br/>Cs<br/>Trd"
@@ -2968,14 +2950,16 @@
       "t": "Group C<br/>(Add to complete the regimen and when medicines from Groups A and B cannot be used)"
      },
      {
-      "t": "Ethambutol<br/>Delamanid<br/>Pyrazinamide<br/>Imipenem-cilastatin or Meropenem<br/>Amikacin (or Streptomycin)<br/>Ethionamide OR<br/>Prothionamide<br/>p-aminosalicylic acid"
+      "t": "Ethambutol<br/>Delamanid<br/>Pyrazinamide<br/>Imipenem-cilastatin or Meropenem<br/>Amikacin (or Streptomycin)<br/>Ethionamide OR Prothionamide<br/>p-aminosalicylic acid"
      },
      {
-      "t": "E<br/>Dlm<br/>Z<br/>Ipm-cln or Mpm<br/>Am (s)<br/>Eto<br/>Pto<br/>PAS"
+      "t": "E<br/>Dlm<br/>Z<br/>Ipm-cln or Mpm<br/>Am (s)<br/>Eto / Pto<br/>PAS"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "*Pretomanid does not yet appear in the revised medicine classification."
+   ],
    "source_flags": [],
    "pages": [
     116
@@ -2987,7 +2971,7 @@
    "page": 120,
    "image_only": false,
    "heading_path": "7.3 Treatment of DR-TB > 7.3.3 Summary of Types of DR-TB treatment regimens and their eligibility",
-   "caption": "7.3.3 Summary of Types of DR-TB treatment regimens and their eligibility (Oral MDR TB regimens, Regimen composition, Eligible group and a brief guide for regimen use)",
+   "caption": "Table 24: Type of DR-TB treatment regimens, the duration and composition of the regimens and eligible client groups",
    "replaces_chunks": [
     "tb-2025-0296",
     "tb-2025-0297"
@@ -3095,14 +3079,30 @@
    "header": [
     [
      {
-      "t": "TB Drugs<br/>Fluoroquinolones<br/>Injectables"
+      "t": "TB Drugs"
      },
      {
-      "t": "CSF Penetration<br/>Moderate to good: 60-80%<br/>Poor (<20%)"
+      "t": "CSF Penetration"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Fluoroquinolones"
+     },
+     {
+      "t": "Moderate to good: 60-80%"
+     }
+    ],
+    [
+     {
+      "t": "Injectables"
+     },
+     {
+      "t": "Poor (<20%)"
+     }
+    ],
     [
      {
       "t": "Ethionamide"
@@ -3201,7 +3201,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Table 25 rates clofazimine CSF penetration as 'Good'; clofazimine's CNS penetration is generally considered uncertain or poor."
+   ],
    "pages": [
     124
    ],
@@ -3307,7 +3309,7 @@
    "page": 126,
    "image_only": false,
    "heading_path": "7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations > 7.3.5.7 Monitoring treatment progress",
-   "caption": "7.3.5.7 Monitoring treatment progress (Investigation, Baseline, Follow up)",
+   "caption": "Table 27: Schedule of baseline and routine treatment monitoring during treatment and post-treatment follow-up",
    "replaces_chunks": [
     "tb-2025-0313",
     "tb-2025-0315",
@@ -3380,7 +3382,7 @@
       "t": "√"
      },
      {
-      "t": "Repeat phenotypic and genotypic DST, including second-line DST if:<br/>• Smear /culture remains positive after 3 months of treatment (or 2 months for H-r TB)<br/>• There is a positive culture after initial conversion."
+      "t": "Repeat phenotypic and genotypic DST, including second-line DST if:<br/>- Smear /culture remains positive after 3 months of treatment (or 2 months for H-r TB)<br/>- There is a positive culture after initial conversion."
      }
     ],
     [
@@ -3418,13 +3420,24 @@
     ],
     [
      {
-      "t": "Investigation<br/>Electrolytes<br/>TSH"
+      "t": "Electrolytes"
      },
      {
-      "t": "Baseline<br/>√<br/>√"
+      "t": "√"
      },
      {
-      "t": "Follow up<br/>Every two weeks for the first two months when initiating an injectable drug, then monthly while receiving the injectable.<br/>Every 2 months for the first 6 months if receiving PAS and ETO/ PTO (It is not necessary to measure hormone thyroid levels, TSH is sufficient for screening for hypothyroidism)"
+      "t": "Every two weeks for the first two months when initiating an injectable drug, then monthly while receiving the injectable."
+     }
+    ],
+    [
+     {
+      "t": "TSH"
+     },
+     {
+      "t": "√"
+     },
+     {
+      "t": "Every 2 months for the first 6 months if receiving PAS and ETO/ PTO (It is not necessary to measure hormone thyroid levels, TSH is sufficient for screening for hypothyroidism)"
      }
     ],
     [
@@ -3457,7 +3470,7 @@
       "t": "√"
      },
      {
-      "t": "Every 6 months for newly initiated ART clients, in combination with viral load monitoring (follow Swaziland Integrated HIV Management Guidelines) Repeat whenever ART failure is suspected."
+      "t": "Every 6 months for newly initiated ART clients, in combination with viral load monitoring (follow Swaziland Integrated HIV Management Guidelines)<br/>Repeat whenever ART failure is suspected."
      }
     ],
     [
@@ -3468,7 +3481,7 @@
       "t": "No"
      },
      {
-      "t": "Pre-treatment viral load for ART-naive patients. At 3-6- and 12-months post-ART initiation, and then annually if the client is virally suppressed. Repeat VL whenever ART failure is suspected"
+      "t": "Pre-treatment viral load for ART-naive patients.<br/>At 3-6- and 12-months post-ART initiation, and then annually if the client is virally suppressed.<br/>Repeat VL whenever ART failure is suspected"
      }
     ],
     [
@@ -3479,7 +3492,7 @@
       "t": "√"
      },
      {
-      "t": "Repeat as clinically indicated. All women of childbearing age should be provided with long-term family planning methods while on DR-TB treatment."
+      "t": "Repeat as clinically indicated.<br/>All women of childbearing age should be provided with long-term family planning methods while on DR-TB treatment."
      }
     ],
     [
@@ -3517,7 +3530,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Table 27 still schedules injectable-related monitoring (serum creatinine, electrolytes, audiometry) although the DR-TB regimens in Table 24 are all-oral; HIV viral load timing (3, 6, 12 months then annually) differs from the 2024 HIV Amendment schedule."
+   ],
    "pages": [
     126,
     127
@@ -3528,7 +3543,7 @@
    "page": 128,
    "image_only": false,
    "heading_path": "7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations > Table 28: The distribution of duties among doctors, nurses and counsellors in the provision of care is delineated",
-   "caption": "Table 28: The distribution of duties among doctors, nurses and counsellors in the provision of care is delineated (Medical Doctor, Clinical assessment and consultation, physical examination. Laboratory investigation as per guideline Interpretation of ECG and all ot)",
+   "caption": "Table 28: The distribution of duties among doctors, nurses and counsellors in the provision of care is delineated",
    "replaces_chunks": [
     "tb-2025-0317"
    ],
@@ -3536,20 +3551,28 @@
    "header": [
     [
      {
-      "t": "Medical Doctor"
+      "t": "Cadre"
      },
      {
-      "t": "Clinical assessment and consultation, physical examination. Laboratory investigation as per guideline Interpretation of ECG and all other tests Interpretation of lab results from current and previous visits (biochemistry, DST, ECG, etc.) Assessment of side effects · Prescription of medication for DR-TB and co-morbidities."
+      "t": "Duties"
      }
     ]
    ],
    "body": [
     [
      {
+      "t": "Medical Doctor"
+     },
+     {
+      "t": "Clinical assessment and consultation, physical examination.<br/>Laboratory investigation as per guideline<br/>Interpretation of ECG and all other tests<br/>Interpretation of lab results from current and previous visits (biochemistry, DST, ECG, etc.)<br/>Assessment of side effects · Prescription of medication for DR-TB and co-morbidities."
+     }
+    ],
+    [
+     {
       "t": "DR-TB Nurse"
      },
      {
-      "t": "Clinical support Performing ECG, visual tests, ill count Adherence support by leading support group Discussing VOT and WhatsApp with patients enrolled on the digital health component Initiating patient tracing (for patients not presenting to appointments)"
+      "t": "Clinical support Performing ECG, visual tests, ill count<br/>Adherence support by leading support group<br/>Discussing VOT and WhatsApp with patients enrolled on the digital health component<br/>Initiating patient tracing (for patients not presenting to appointments)"
      }
     ],
     [
@@ -3557,11 +3580,13 @@
       "t": "Counsellor/ Psychologist/ DR-TB Nurse"
      },
      {
-      "t": "Psychological assessment (using PHQ-9) Adherence support Psychologist from ENAP Social workers from the DPM office"
+      "t": "Psychological assessment (using PHQ-9)<br/>Adherence support<br/>Psychologist from ENAP<br/>Social workers from the DPM office"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed without a header row ('Cadre' / 'Duties' added here). 'ill count' is as printed (pill count)."
+   ],
    "source_flags": [],
    "pages": [
     128
@@ -3573,7 +3598,7 @@
    "page": 130,
    "image_only": false,
    "heading_path": "7.5 Treatment Care and Support > Table 29: Treatment readiness checklist parameters",
-   "caption": "Table 29: Treatment readiness checklist parameters (Readiness Checklist Parameters, Readiness Checklist Parameters)",
+   "caption": "Table 29: Treatment readiness checklist parameters",
    "replaces_chunks": [
     "tb-2025-0321",
     "tb-2025-0322"
@@ -3583,79 +3608,44 @@
     [
      {
       "t": "Readiness Checklist Parameters"
-     },
-     {
-      "t": "Readiness Checklist Parameters"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "Patients are informed about their diagnosis"
-     },
-     {
-      "t": "Patient understands their diagnosis, TB disease, adherence, treatment duration, side effects, IPC measures"
+      "t": "Patients are informed about their diagnosis<br/>Patient understands their diagnosis, TB disease, adherence, treatment duration, side effects, IPC measures<br/>Health care providers will ensure this through patient education and use of educational material and necessary documentation i.e. Lab results, x-ray etc. The health care provider will provide health education on T3 and ask questions to verify patients understanding"
      }
     ],
     [
      {
-      "t": "Health care providers will ensure this through patient education and use of educational material and necessary documentation i.e. Lab results, x-ray etc. The health care provider will provide health education on T3 and ask questions to verify patients understanding"
-     },
-     {
-      "t": ""
+      "t": "Ability to identify potential barriers and has solutions to them<br/>Patient understands the importance of adherence; taking medication at right dose, time and frequency; provision of DOT and treatment supporter, healthy preventative habits, actions implemented; Attending all reviews in facilities<br/>The psychosocial assessment is conducted to assist client in identifying the barriers and ensure they can come up with solutions"
      }
     ],
     [
      {
-      "t": "Ability to identify potential barriers and has solutions to them"
-     },
-     {
-      "t": "Patient understands the importance of adherence; taking medication at right dose, time and frequency; provision of DOT and treatment supporter, healthy preventative habits, actions implemented; Attending all reviews in facilities<br/>The psychosocial assessment is conducted to assist client in identifying the barriers and ensure they can come up with solutions"
-     }
-    ],
-    [
-     {
-      "t": "Patient has been offered appropriate HIV Counselling"
-     },
-     {
-      "t": "Patient has been tested for HIV; If positive, patient understands their diagnosis and the need for ARV's; If already on ART, patient understands that drugs may be changed to ensure minimal interaction with TB drugs; understands the importance of adhering to TB/HIV treatment; if Negative; HIV Prevention services have been offered"
-     }
-    ],
-    [
-     {
-      "t": "Health care provider provides health education on HIV/TB, conducts HIV test where applicable (HIV status unknown)"
-     },
-     {
-      "t": ""
+      "t": "Patient has been offered appropriate HIV Counselling<br/>Patient has been tested for HIV; If positive, patient understands their diagnosis and the need for ARV's; If already on ART, patient understands that drugs may be changed to ensure minimal interaction with TB drugs; understands the importance of adhering to TB/HIV treatment; if Negative; HIV Prevention services have been offered<br/>Health care provider provides health education on HIV/TB, conducts HIV test where applicable (HIV status unknown)"
      }
     ],
     [
      {
       "t": "Patient understands side effects and steps to take when encountering them"
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Patient is self-motivated"
-     },
-     {
-      "t": "Can identify individual resources or coping mechanisms to adhere to TB treatment apart from health benefits"
+      "t": "Patient is self-motivated<br/>Can identify individual resources or coping mechanisms to adhere to TB treatment apart from health benefits"
      }
     ],
     [
      {
-      "t": "Patient understands the importance of starting TB treatment"
-     },
-     {
-      "t": "Patient consents to TB treatment"
+      "t": "Patient understands the importance of starting TB treatment<br/>Patient consents to TB treatment"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "The first line of each cell is the parameter (printed in bold); the lines after it are the description."
+   ],
    "source_flags": [],
    "pages": [
     130
@@ -5197,7 +5187,7 @@
    "replaces_chunks": [
     "tb-2025-0360"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
@@ -5209,9 +5199,7 @@
      {
       "t": "Age <10 yrs"
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "Danger Signs (IMCI)"
@@ -5222,24 +5210,26 @@
      {
       "t": "Priority Signs"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
-      "t": "Gastrointestinal/circulatory:<br/>• Unable to eat or drink<br/>• Vomiting up everything<br/>• Signs of severe dehydration (sunken eyes, skin pinch returns very slowly)<br/>• Severe palmar pallor"
+      "t": "Gastrointestinal/circulatory:<br/>- Unable to eat or drink<br/>- Vomiting up everything<br/>- Signs of severe dehydration (sunken eyes, skin pinch returns very slowly)<br/>- Severe palmar pallor"
      },
      {
-      "t": "Gastrointestinal/circulatory:<br/>• Diarrhea with any two signs of severe dehydration (lethargy, unconsciousness, sunken eyes, very slow return of skin after pinching)<br/>• Signs of shock (cold extremities with capillary refill time>3 seconds, weak and fast pulse)"
+      "t": "Gastrointestinal/circulatory:<br/>- Diarrhea with any two signs of severe dehydration (lethargy, unconsciousness, sunken eyes, very slow return of skin after pinching)<br/>- Signs of shock (cold extremities with capillary refill time>3 seconds, weak and fast pulse)"
      },
      {
-      "t": "Any sick child aged <2 months<br/>• High fever (>39° C)<br/>• Severe pallor<br/>• Respiratory distress<br/>• Restless, continuously irritable, lethargic<br/>• Severe acute malnutrition (SAM)"
+      "t": "Any sick child aged <2 months<br/>- High fever (>39° C)<br/>- Severe pallor<br/>- Respiratory distress<br/>- Restless, continuously irritable, lethargic<br/>- Severe acute malnutrition (SAM)"
      }
     ],
     [
      {
-      "t": "Respiratory:<br/>• Stridor<br/>• Oxygen saturation <90%"
+      "t": "Respiratory:<br/>- Stridor<br/>- Oxygen saturation <90%"
      },
      {
-      "t": "Respiratory:<br/>• Obstructed or absent<br/>• Breathing<br/>• Severe respiratory distress<br/>• Central cyanosis"
+      "t": "Respiratory:<br/>- Obstructed or absent breathing<br/>- Severe respiratory distress<br/>- Central cyanosis"
      },
      {
       "t": ""
@@ -5247,17 +5237,19 @@
     ],
     [
      {
-      "t": "Neurological:<br/>• Seizures<br/>• Profoundly lethargic, unconscious<br/>• Neck stiffness or bulging fontanelle"
+      "t": "Neurological:<br/>- Seizures<br/>- Profoundly lethargic, unconscious<br/>- Neck stiffness or bulging fontanelle"
      },
      {
-      "t": "Neurological:<br/>• Coma (or seriously reduced level of consciousness)<br/>• Seizures"
+      "t": "Neurological:<br/>- Coma (or seriously reduced level of consciousness)<br/>- Seizures"
      },
      {
       "t": ""
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "'Obstructed or absent / Breathing' is printed as two bullets; one sign. The age header '<5-9 yrs' is as printed (5-9 years)."
+   ],
    "source_flags": [],
    "pages": [
     144
@@ -5285,7 +5277,7 @@
    "page": 149,
    "image_only": false,
    "heading_path": "Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old)",
-   "caption": "Table 35: Danger and high-priority signs for children <10 years (IMCI danger signs <5 yrs, ETAT danger signs 5-9 yrs, priority signs) used to assess TB severity",
+   "caption": "Table 35: Danger/High Priority Signs for children <10 years old",
    "replaces_chunks": [
     "tb-2025-0372",
     "tb-2025-0373"
@@ -5955,7 +5947,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "On the continuation page (p.162) Table 39 repeats the 'Major' band heading over peripheral neuropathy, drowsiness, orange urine and flu-like syndrome, which are minor side effects (WHO lists them as minor)."
+   ],
    "pages": [
     161
    ],
@@ -6168,7 +6162,7 @@
    "page": 168,
    "image_only": false,
    "heading_path": "9.5 Management of Adverse Events",
-   "caption": "9.5 Management of Adverse Events (Drug<br/>Pretomanid<br/>Bedaquiline, Moderate to severe adverse events<br/>x Peripheral neuropathy x Acne x Anaemia x Nausea and vomiting x Hepatotoxi)",
+   "caption": "Table 42: Common Adverse events to Second- Line Anti TB Drugs",
    "replaces_chunks": [
     "tb-2025-0423"
    ],
@@ -6176,26 +6170,48 @@
    "header": [
     [
      {
-      "t": "Drug<br/>Pretomanid<br/>Bedaquiline"
+      "t": "Drug"
      },
      {
-      "t": "Moderate to severe adverse events<br/>x Peripheral neuropathy x Acne x Anaemia x Nausea and vomiting x Hepatotoxicity (increase in ALT/AST) x Musculoskeletal pain<br/>Cardiotoxicity (QTcF prolongation): mean increase (10 ms at 8-12 weeks, then decreases) Hepatotoxicity (increase in ALT/AST)"
+      "t": "Moderate to severe adverse events"
      },
      {
-      "t": "Mild adverse events<br/>x Abnormal weight loss x Diarrhea (10%) x ECG QT prolonged (6%) x Insomnia (6%)<br/>Nausea, anorexia, arthralgia, headache, increased blood lipase/ amylase, rash"
+      "t": "Mild adverse events"
      }
     ]
    ],
    "body": [
     [
      {
+      "t": "Pretomanid"
+     },
+     {
+      "t": "- Peripheral neuropathy<br/>- Acne<br/>- Anaemia<br/>- Nausea and vomiting<br/>- Hepatotoxicity (increase in ALT/AST)<br/>- Musculoskeletal pain"
+     },
+     {
+      "t": "- Abnormal weight loss<br/>- Diarrhea (10%)<br/>- ECG QT prolonged (6%)<br/>- Insomnia (6%)"
+     }
+    ],
+    [
+     {
+      "t": "Bedaquiline"
+     },
+     {
+      "t": "- Cardiotoxicity (QTcF prolongation): mean increase (10 ms at 8-12 weeks, then decreases*)<br/>- Hepatotoxicity (increase in ALT/AST)"
+     },
+     {
+      "t": "- Nausea, anorexia, arthralgia, headache, increased blood lipase/ amylase, rash"
+     }
+    ],
+    [
+     {
       "t": "Delamanid"
      },
      {
-      "t": "Cardiotoxicity (QTcF prolongation): 6-10 weeks after initiation, stable afterwards"
+      "t": "- Cardiotoxicity (QTcF prolongation): 6-10 weeks after initiation, stable afterwards"
      },
      {
-      "t": "Nausea, vomiting, dizziness, anxiety, paresthesia, itchiness, tremor"
+      "t": "- Nausea, vomiting, dizziness, anxiety, paresthesia, itchiness, tremor"
      }
     ],
     [
@@ -6203,10 +6219,10 @@
       "t": "Linezolid"
      },
      {
-      "t": "Anemia Thrombocytopenia Optic neuropathy Peripheral neuropathy"
+      "t": "- Anemia<br/>- Thrombocytopenia<br/>- Optic neuropathy<br/>- Peripheral neuropathy"
      },
      {
-      "t": "Avoid linezolid in combination with other serotonergic agents"
+      "t": "- Avoid linezolid in combination with other serotonergic agents"
      }
     ],
     [
@@ -6214,10 +6230,10 @@
       "t": "Isoniazid"
      },
      {
-      "t": "Skin rash with mild itchiness, no mucous membrane involvement or blisters Jaundice (yellow eyes or skin) Hepatotoxicity (increase in ALT/AST) Clumsiness or unsteadiness. Nausea or vomiting. Numbness, tingling, burning, or pain in hands and feet."
+      "t": "- Skin rash with mild itchiness, no mucous membrane involvement or blisters<br/>- Jaundice (yellow eyes or skin)<br/>- Hepatotoxicity (increase in ALT/AST)<br/>- Clumsiness or unsteadiness.<br/>- Nausea or vomiting.<br/>- Numbness, tingling, burning, or pain in hands and feet."
      },
      {
-      "t": "Peripheral neuropathy Skin rash with mild itchiness, no mucous membrane involvement or blisters"
+      "t": "- Peripheral neuropathy<br/>- Skin rash with mild itchiness, no mucous membrane involvement or blisters"
      }
     ],
     [
@@ -6225,15 +6241,19 @@
       "t": "Clofazimine"
      },
      {
-      "t": "QTcF prolongation Skin hyperpigmentation or discoloration (slowly reversible)"
+      "t": "- QTcF prolongation<br/>- Skin hyperpigmentation or discoloration (slowly reversible)"
      },
      {
       "t": ""
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "The asterisk after 'then decreases' has no footnote in the source."
+   ],
+   "source_flags": [
+    "Table 42 lists 'mild skin rash' and peripheral neuropathy for isoniazid under both moderate-to-severe and mild events, and puts a drug-interaction warning (linezolid with serotonergic agents) in the 'mild adverse events' column."
+   ],
    "pages": [
     168
    ]
@@ -6715,7 +6735,7 @@
    "page": 196,
    "image_only": false,
    "heading_path": "10.1 TB/HIV interaction and the comprehensive package of care > Table 47: TB treatment/ART Drug Interactions",
-   "caption": "Table 47: TB treatment/ART Drug Interactions (Drug combination, Considerations)",
+   "caption": "Table 47: TB treatment/ART Drug Interactions",
    "replaces_chunks": [
     "tb-2025-0499"
    ],
@@ -6771,32 +6791,42 @@
    "page": 198,
    "image_only": false,
    "heading_path": "10.4 Monitoring patients on concurrent ART and TB treatment > Table 48: Important features of regular clinical assessments should include",
-   "caption": "Table 48: Important features of regular clinical assessments should include:: Table 48: Important features of regular clinical assessments should include (- Monitoring weight (every visit) height (in children, done every 3 months) - Head circumference (in children < 3 years of age, measured every 3 month)",
+   "caption": "Table 48: Important features of regular clinical assessments should include",
    "replaces_chunks": [
     "tb-2025-0505"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "- Monitoring weight (every visit) height (in children, done every 3 months) - Head circumference (in children < 3 years of age, measured every 3 months) - Developmental status in children nutritional status in children"
+      "t": "Clinical review"
      },
      {
-      "t": "- Medication review - Side effects - Adherence and dosing - Other medications, including traditional medicines and other medications that may interact with ARVs"
+      "t": "Treatment and social review"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "- Diagnosis and management of interim or new illnesses - Opportunistic infections (OIs) that may suggest immune reconstitution inflammatory syndrome (IRIS) or treatment failure. - Other co-morbidities, including STIs, Hepatitis B, substance abuse, psychiatric illness"
+      "t": "- Monitoring weight (done at every visit) height (in children, done every 3 months)<br/>- Head circumference (in children < 3 years of age, measured every 3 months)<br/>- Developmental status in children nutritional status in children"
      },
      {
-      "t": "- Early diagnosis of pregnancy - Changes in social situation that might affect adherence to ART and anti-TB therapy"
+      "t": "- Medication review<br/>- Side effects<br/>- Adherence and dosing<br/>- Other medications, including traditional medicines and other medications that may interact with ARVs"
+     }
+    ],
+    [
+     {
+      "t": "- Diagnosis and management of interim or new illnesses<br/>- Opportunistic infections (OIs) that may suggest immune reconstitution inflammatory syndrome (IRIS) or treatment failure.<br/>- Other co-morbidities, including STIs, Hepatitis B, substance abuse, psychiatric illness"
+     },
+     {
+      "t": "- Early diagnosis of pregnancy<br/>- Changes in social situation that might affect adherence to ART and anti-TB therapy"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed as four bullet-list boxes without a header row; the column headings here are added. The lists are independent (items side by side are not paired)."
+   ],
    "source_flags": [],
    "pages": [
     198
@@ -6808,32 +6838,34 @@
    "page": 198,
    "image_only": false,
    "heading_path": "10.4 Monitoring patients on concurrent ART and TB treatment > Table 49: Baseline Laboratory Investigations",
-   "caption": "Table 49: Baseline Laboratory Investigations (- CD4 count, or percentage (in children < 5 years) - Full blood count (FBC) - ALT and AST - RBS (random blood sugar) - Pregnancy test in all women of )",
+   "caption": "Table 49: Baseline Laboratory Investigations",
    "replaces_chunks": [
     "tb-2025-0507"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
       "t": "Baseline investigations"
      },
      {
-      "t": ""
+      "t": "Renal function"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "- CD4 count, or percentage (in children < 5 years) - Full blood count (FBC) - ALT and AST - RBS (random blood sugar) - Pregnancy test in all women of childbearing age"
+      "t": "- CD4 count, or percentage (in children < 5 years)<br/>- Full blood count (FBC)<br/>- ALT and AST<br/>- RBS (random blood sugar)<br/>- Pregnancy test in all women of childbearing age"
      },
      {
       "t": "- Serum Creatinine, followed by calculation of the rate of Creatinine Clearance (for details of calculation method for Creatinine clearance, please refer to TB treatment in special situations in the chapter on TB treatment and monitoring)"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed as two bullet-list boxes without a header row; the column headings here are added."
+   ],
    "source_flags": [],
    "pages": [
     198
@@ -7091,12 +7123,12 @@
    "page": 205,
    "image_only": false,
    "heading_path": "10.8.4 Histoplasmosis > Table 52: Components of the package of care for people with advanced HIV disease",
-   "caption": "Table 52: Components of the package of care for people with advanced HIV disease (Intervention, CD4 Cell Count, Adults, Adolescents, Children <10 years)",
+   "caption": "Table 52: Components of the package of care for people with advanced HIV disease",
    "replaces_chunks": [
     "tb-2025-0528",
     "tb-2025-0529"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 2,
    "header": [
     [
      {
@@ -7122,62 +7154,214 @@
    "body": [
     [
      {
-      "t": "Diagnosis"
+      "t": "Diagnosis",
+      "rs": 5
      },
      {
-      "t": "Xpert MTB/Rif Ultra as the first test for TB diagnosis among symptomatic patients<br/>Urine LF-LAM for TB diagnosis among people who are seriously ill or have symptoms and signs of TB<br/>Cryptococcal antigen CrAg screening<br/>Histoplasma antigen test"
+      "t": "Xpert MTB/Rif Ultra as the first test for TB diagnosis among symptomatic patients"
      },
      {
-      "t": "Any<br/>Symptomatic patients: All patients regardless of CD4 count with TB signs and symptoms Seriously ill patients: All patients regardless of CD4 count or of TB signs and symptoms Inpatient setting: CD4<br/>CD4 ≤ 100 cells/ml<br/>CD4 ≤ 200 cells/ml<br/>ALL PLHIV"
+      "t": "Any"
      },
      {
-      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered<br/>Yes"
+      "t": "Yes"
      },
      {
-      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered<br/>Yes"
+      "t": "Yes"
      },
      {
-      "t": "Yes<br/>Yes<br/>No<br/>No<br/>Yes"
+      "t": "Yes"
      }
     ],
     [
      {
-      "t": "Prophylaxis"
+      "t": "Urine LF-LAM for TB diagnosis among people who are seriously ill or have symptoms and signs of TB"
      },
      {
-      "t": "Cotrimoxazole prophylaxis<br/>TB-preventive treatment<br/>Fluconazole pre-emptive therapy for cryptococcal antigen-positive people without evidence of meningitis<br/>Itraconazole prophylaxis for Histoplasma antigen-positive patients"
+      "t": "Symptomatic patients: All patients regardless of CD4 count with TB signs and symptoms<br/>Seriously ill patients*: All patients regardless of CD4 count or of TB signs and symptoms<br/>Inpatient setting: CD4"
      },
      {
-      "t": "CD4 ≤350 cells/mm3 or WHO clinical stage 3 or 4<br/>Any<br/><100 cells/mm3<br/>≤200cells/ml<br/>Any CD4 count until 12 months or stable on ART and virally suppressed"
+      "t": "Yes"
      },
      {
-      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered as above<br/>Yes"
+      "t": "Yes"
      },
      {
-      "t": "Yes<br/>Yes<br/>Yes<br/>May be considered as above<br/>Yes"
-     },
-     {
-      "t": "Yes<br/>Yes<br/>No<br/>No<br/>Yes"
+      "t": "Yes"
      }
     ],
     [
      {
-      "t": "ART initiation"
+      "t": "Cryptococcal antigen CrAg screening",
+      "rs": 2
      },
      {
-      "t": "Rapid ART initiation<br/>Defer ART initiation if signs and symptoms of TB, CCM or CNS histoplasmosis"
+      "t": "CD4 ≤ 100 cells/ml"
      },
      {
-      "t": "Any<br/>Any"
+      "t": "Yes"
      },
      {
-      "t": "Yes<br/>Yes"
+      "t": "Yes"
      },
      {
-      "t": "Yes<br/>Yes"
+      "t": "No"
+     }
+    ],
+    [
+     {
+      "t": "CD4 ≤ 200 cells/ml"
      },
      {
-      "t": "Yes<br/>Yes"
+      "t": "May be considered**"
+     },
+     {
+      "t": "May be considered**"
+     },
+     {
+      "t": "No"
+     }
+    ],
+    [
+     {
+      "t": "Histoplasma antigen test"
+     },
+     {
+      "t": "ALL PLHIV"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Prophylaxis",
+      "rs": 5
+     },
+     {
+      "t": "Cotrimoxazole prophylaxis"
+     },
+     {
+      "t": "CD4 ≤350 cells/mm³ or WHO clinical stage 3 or 4"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "TB-preventive treatment"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Fluconazole pre-emptive therapy for cryptococcal antigen-positive people without evidence of meningitis",
+      "rs": 2
+     },
+     {
+      "t": "<100 cells/mm³"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "No"
+     }
+    ],
+    [
+     {
+      "t": "≤200cells/ml"
+     },
+     {
+      "t": "May be considered as above"
+     },
+     {
+      "t": "May be considered as above"
+     },
+     {
+      "t": "No"
+     }
+    ],
+    [
+     {
+      "t": "Itraconazole prophylaxis for Histoplasma antigen-positive patients"
+     },
+     {
+      "t": "Any CD4 count until 12 months or stable on ART and virally suppressed"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "ART initiation",
+      "rs": 2
+     },
+     {
+      "t": "Rapid ART initiation"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     }
+    ],
+    [
+     {
+      "t": "Defer ART initiation if signs and symptoms of TB, CCM or CNS histoplasmosis"
+     },
+     {
+      "t": "Any"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
+     },
+     {
+      "t": "Yes"
      }
     ],
     [
@@ -7201,8 +7385,15 @@
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "Source: WHO guidelines for the management of advanced HIV disease, 2022.",
+    "*Seriously ill patients (adults): any one of the following: respiratory rate >30 per minute, temperature > 39°C, heart rate >120 beats per minute, or unable to walk unaided. This excludes danger signs that can be explained or are a result of other diagnosed conditions e.g., cardiac failure, other bacterial infections, malaria etc.",
+    "**May be considered in high cryptococcal antigenemia settings with adequate testing capacity."
+   ],
+   "source_flags": [
+    "The LF-LAM inpatient criterion is cut off in the printed cell ('Inpatient setting: CD4'); WHO recommends LF-LAM for inpatients with CD4 ≤200 cells/mm³ (and for all symptomatic inpatients).",
+    "CD4 thresholds are printed as 'cells/ml' in several cells; the unit is cells/mm³ (cells/µL)."
+   ],
    "pages": [
     205
    ],
@@ -7213,7 +7404,7 @@
    "page": 206,
    "image_only": false,
    "heading_path": "11.2 The difference between TB infection and TB disease > Table 53: Difference between TB infection and TB disease",
-   "caption": "Table 53: Difference between TB infection and TB disease (Characteristics<br/>Symptoms<br/>Tuberculin skin test or Interferon Gamma Release Assays (IGRA), Tuberculosis Infection<br/>None<br/>Usually Positive,)",
+   "caption": "Table 53: Difference between TB infection and TB disease",
    "replaces_chunks": [
     "tb-2025-0533"
    ],
@@ -7221,17 +7412,39 @@
    "header": [
     [
      {
-      "t": "Characteristics<br/>Symptoms<br/>Tuberculin skin test or Interferon Gamma Release Assays (IGRA)"
+      "t": "Characteristics"
      },
      {
-      "t": "Tuberculosis Infection<br/>None<br/>Usually Positive"
+      "t": "Tuberculosis Infection"
      },
      {
-      "t": "Tuberculosis Disease<br/>Most present with one or more of the following symptoms: cough, weight loss or poor weight gain, in children (failure to thrive), fever, night sweats, chest pain, hemoptysis, fatigue, and decreased appetite.<br/>Usually Positive"
+      "t": "Tuberculosis Disease"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Symptoms"
+     },
+     {
+      "t": "None"
+     },
+     {
+      "t": "Most present with one or more of the following symptoms: cough, weight loss or poor weight gain, in children (failure to thrive), fever, night sweats, chest pain, hemoptysis, fatigue, and decreased appetite."
+     }
+    ],
+    [
+     {
+      "t": "Tuberculin skin test or Interferon Gamma Release Assays (IGRA)"
+     },
+     {
+      "t": "Usually Positive"
+     },
+     {
+      "t": "Usually Positive"
+     }
+    ],
     [
      {
       "t": "Bacteriological status"
@@ -7317,7 +7530,7 @@
    "page": 212,
    "image_only": false,
    "heading_path": "11.8 TPT Regimens and Dosing",
-   "caption": "11.8 TPT Regimens and Dosing (Characteristics<br/>Drug (s)<br/>Duration (mths), 6H<br/>Isoniazid<br/>6, 3HP<br/>Isoniazid + Rifapentine<br/>3, 3HR<br/>Isoniazid + Rifampicin<br/>3,)",
+   "caption": "Table 54: Key characteristics of TPT regimens",
    "replaces_chunks": [
     "tb-2025-0549",
     "tb-2025-0550",
@@ -7328,32 +7541,84 @@
    "header": [
     [
      {
-      "t": "Characteristics<br/>Drug (s)<br/>Duration (mths)"
+      "t": "Characteristics"
      },
      {
-      "t": "6H<br/>Isoniazid<br/>6"
+      "t": "6H"
      },
      {
-      "t": "3HP<br/>Isoniazid + Rifapentine<br/>3"
+      "t": "3HP"
      },
      {
-      "t": "3HR<br/>Isoniazid + Rifampicin<br/>3"
+      "t": "3HR"
      },
      {
-      "t": "4R<br/>Rifampicin<br/>4"
+      "t": "4R"
      },
      {
-      "t": "1HP<br/>Isoniazid + Rifapentine<br/>1"
+      "t": "1HP"
      },
      {
-      "t": "6H(+CPT+B6)<br/>Isoniazid + Cotrimoxazole + Pyridoxine<br/>6"
+      "t": "6H(+CPT+B6)"
      },
      {
-      "t": "6Lfx<br/>Levofloxacin<br/>6"
+      "t": "6Lfx"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Drug (s)"
+     },
+     {
+      "t": "Isoniazid"
+     },
+     {
+      "t": "Isoniazid + Rifapentine"
+     },
+     {
+      "t": "Isoniazid + Rifampicin"
+     },
+     {
+      "t": "Rifampicin"
+     },
+     {
+      "t": "Isoniazid + Rifapentine"
+     },
+     {
+      "t": "Isoniazid + Cotrimoxazole + Pyridoxine"
+     },
+     {
+      "t": "Levofloxacin"
+     }
+    ],
+    [
+     {
+      "t": "Duration (mths)"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "4"
+     },
+     {
+      "t": "1"
+     },
+     {
+      "t": "6"
+     },
+     {
+      "t": "6"
+     }
+    ],
     [
      {
       "t": "Frequency"
@@ -7408,7 +7673,7 @@
     ],
     [
      {
-      "t": "Pill burden per dose (total per regimen), person weighing 50kg using adult formulationsa"
+      "t": "Pill burden per dose (total per regimen), person weighing 50kg using adult formulations(a)"
      },
      {
       "t": "1(182)"
@@ -7463,13 +7728,13 @@
       "t": "Pregnant women"
      },
      {
-      "t": "Safe for usec"
+      "t": "Safe for use(c)"
      },
      {
       "t": "Not known"
      },
      {
-      "t": "Safe for usec"
+      "t": "Safe for use(c)"
      },
      {
       "t": "May be safe, although no safety or efficacy data available for this population"
@@ -7478,7 +7743,7 @@
       "t": "Not known"
      },
      {
-      "t": "Safe for usec"
+      "t": "Safe for use(c)"
      },
      {
       "t": "May be safe, although no safety or efficacy data available specifically in this population"
@@ -7492,16 +7757,16 @@
       "t": "No restriction"
      },
      {
-      "t": "Contraindicated: All protease inhibitors (PIs), nevirapine (NVP), doravirine and etravirine, tenofovir alafenamide (TAF) Use: tenofovirdisoproxil fumarate (TDF), EFV, DTG, RAL"
+      "t": "Contraindicated: All protease inhibitors (PIs), nevirapine (NVP), doravirine and etravirine, tenofovir alafenamide (TAF)<br/>Use: tenofovir disoproxil fumarate (TDF), EFV, DTG, RAL"
      },
      {
-      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine Use with caution: TAF Adjust dose: DTG, RAL Use: TDF, EFV"
+      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine<br/>Use with caution: TAF<br/>Adjust dose: DTG, RAL<br/>Use: TDF, EFV"
      },
      {
-      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine, TAF Adjust dose: DTG, RAL Use: TDF, EFV"
+      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine, TAF<br/>Adjust dose: DTG, RAL<br/>Use: TDF, EFV"
      },
      {
-      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine, TAF Use: TDF, EFV, DTG, RAL"
+      "t": "Contraindicated: All PIs, NVP, doravirine and etravirine, TAF<br/>Use: TDF, EFV, DTG, RAL"
      },
      {
       "t": "No restriction"
@@ -7521,10 +7786,10 @@
       "t": "Flu-like syndrome, hypersensitivity reactions, gastrointestinal upset, orange discolouration of body fluids, rash, hepatotoxicity (less)"
      },
      {
-      "t": "Hypersensitivity reactions, hepa-totoxicity (less), rash, gastrointestinal upset, hypo-pro-thrombinaemia, orange disco-louration of body fluids"
+      "t": "Hypersensitivity reactions, hepatotoxicity (less), rash, gastrointestinal upset, hypoprothrombinaemia, orange discolouration of body fluids"
      },
      {
-      "t": "Rash, gastrointes-tinal upset, hepatotoxicity (less), hypo-pro-thrombinaemia, Orange discolouration of body Fluids"
+      "t": "Rash, gastrointestinal upset, hepatotoxicity (less), hypoprothrombinaemia, Orange discolouration of body Fluids"
      },
      {
       "t": "Hepatotoxicity (more), hypersensitivity reaction, rash, gastrointestinal upset, orange discolouration of body fluid"
@@ -7533,33 +7798,7 @@
       "t": "Hepatotoxicity, rash, gastro-intestinal upset"
      },
      {
-      "t": "Diarrhoea, nau-sea and bloating, arthralgia, inflamed or torn tendons, muscle pain or weak-ness, prolonged QTc interval, mood or be-haviour changes, insomnia"
-     }
-    ],
-    [
-     {
-      "t": "Characteristics"
-     },
-     {
-      "t": "6H"
-     },
-     {
-      "t": "3HP"
-     },
-     {
-      "t": "3HR"
-     },
-     {
-      "t": "4R"
-     },
-     {
-      "t": "1HP"
-     },
-     {
-      "t": "6H(+CPT+B6)"
-     },
-     {
-      "t": "6Lfx"
+      "t": "Diarrhoea, nausea and bloating, arthralgia, inflamed or torn tendons, muscle pain or weakness, prolonged QTc interval, mood or behaviour changes, insomnia"
      }
     ],
     [
@@ -7585,14 +7824,21 @@
       "t": "Same as 6H"
      },
      {
-      "t": "Absorption is not influenced by food.<br/>Concomitant steroid use may increase risk of tendon rupture.<br/>Multivalent cation containing products including antacids (may contain aluminium), mineral supplements (e.g. iron or magnesium) or multivitamins may decrease absorption.<br/>Effect of warfarin may be enhanced"
+      "t": "Absorption is not influenced by food. Concomitant steroid use may increase risk of tendon rupture. Multivalent cation containing products including antacids (may contain aluminium), mineral supplements (e.g. iron or magnesium) or multivitamins may decrease absorption. Effect of warfarin may be enhanced"
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "1HP, 1 month of daily rifapentine plus isoniazid; 3HP, 3 months of weekly rifapentine plus isoniazid; 3HR, 3 months of daily rifampicin plus isoniazid; 4R, 4 months of daily rifampicin monotherapy; 6H, 6 months of daily isoniazid monotherapy; 6Lfx, 6 months of daily levofloxacin monotherapy; B6, pyridoxine; CPT, cotrimoxazole; DTG, dolutegravir; EFV, efavirenz; FDC, fixed-dose combination; H, isoniazid; LPV/r, lopinavir–ritonavir; NVP, nevirapine; P, rifapentine; PI, protease inhibitor; H + CPT + B6 (Q-TIB), isoniazid-cotrimoxazole-pyridoxine combination; R, rifampicin; RAL, raltegravir; TAF, tenofovir alafenamide; TDF, tenofovir disoproxil fumarate.",
+    "(a) H-300 mg; P-300 mg; H-300 mg/P-300 mg FDC; R-150 mg/H-75 mg FDC; R-300 mg/150 mg; Lfx-500 mg.",
+    "The Absorption row is printed on p.191 under a repeated header; the 4R absorption cell is blank in the source."
+   ],
+   "source_flags": [
+    "Footnote (c) on 'Safe for use' (pregnant women) is not printed with Table 54."
+   ],
    "pages": [
-    212
+    212,
+    213
    ]
   },
   {
@@ -8821,7 +9067,7 @@
    "page": 220,
    "image_only": false,
    "heading_path": "11.11 Monitoring and management of Adverse events > Table 59: Documented adverse events with drug used for TPT",
-   "caption": "Table 59: Documented adverse events with drug used for TPT (Drug, Known Adverse Event, Uncommon Adverse Event)",
+   "caption": "Table 59: Documented adverse events with drug used for TPT",
    "replaces_chunks": [
     "tb-2025-0571"
    ],
@@ -8888,7 +9134,8 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    220
+    220,
+    221
    ],
    "context_before": "Table 59: Documented adverse events with drug used for TPT"
   },
@@ -8897,7 +9144,7 @@
    "page": 221,
    "image_only": false,
    "heading_path": "11.11 Monitoring and management of Adverse events > Table 59: Documented adverse events with drug used for TPT",
-   "caption": "Table 59: Documented adverse events with drug used for TPT (Adverse event, Responsible drug, Management)",
+   "caption": "Table 60: Management strategies for adverse events of TPT",
    "replaces_chunks": [
     "tb-2025-0573",
     "tb-2025-0574",
@@ -8927,18 +9174,18 @@
       "t": "Rifapentine, rifampicin"
      },
      {
-      "t": "• Advise to stay hydrated by drinking plenty of water and juice.<br/>• Prescribe Paracetamol which may be taken every 4 to 6 hours. Leave at least 4 hours between doses. (Dosage 500mg tab for adults, for children 3 months- 6 years 120mg/5ml suspension, children 6 years of age and adults 250mg/5ml suspension.)<br/>• If severe and not tolerated to 3HP/3HR regimen, consider switching to an alternate regimen (6H)"
+      "t": "- Advise to stay hydrated by drinking plenty of water and juice.<br/>- Prescribe Paracetamol which may be taken every 4 to 6 hours. Leave at least 4 hours between doses. (Dosage 500mg tab for adults, for children 3 months- 6 years 120mg/5ml suspension, children 6 years of age and adults 250mg/5ml suspension.)<br/>- If severe and not tolerated to 3HP/3HR regimen, consider switching to an alternate regimen (6H)"
      }
     ],
     [
      {
-      "t": "Nausea and<br/>vomiting"
+      "t": "Nausea and vomiting"
      },
      {
-      "t": "Rifapentine, rifampicin,<br/>isoniazid"
+      "t": "Rifapentine, rifampicin, isoniazid"
      },
      {
-      "t": "• Prescribe 10 mg of metoclopramide bid (twice a day) or<br/>tid.<br/>• Advise patients to stay hydrated by drinking plenty of<br/>water and juice.<br/>• Avoid spicy and greasy foods.<br/>• Prescribe oral rehydration solution if mild dehydration is<br/>present."
+      "t": "- Prescribe 10 mg of metoclopramide bid (twice a day) or tid.<br/>- Advise patients to stay hydrated by drinking plenty of water and juice.<br/>- Avoid spicy and greasy foods.<br/>- Prescribe oral rehydration solution if mild dehydration is present."
      }
     ],
     [
@@ -8946,32 +9193,32 @@
       "t": "Hepatotoxicity"
      },
      {
-      "t": "More with INH than<br/>rifapentine and rifampicin)"
+      "t": "More with INH than rifapetine and rifampicin)"
      },
      {
-      "t": "• If people on TPT have signs and symptoms of<br/>hepatotoxicity, perform LFT.<br/>• If aspartate aminotransferase (AST) and/or alanine<br/>aminotransferase (ALT) are >3 but <5 times upper limit of<br/>normal (ULN) without signs and symptoms of hepatitis,<br/>continue TPT and repeat AST and ALT weekly.<br/>• If AST and/or ALT >3 times ULN with signs and symptoms<br/>of hepatitis or if AST and/or ALT >5 times ULN with or<br/>without signs and symptoms of hepatitis, stop TPT and do<br/>not reintroduce."
+      "t": "- If people on TPT have signs and symptoms of hepatotoxicity, perform LFT.<br/>- If aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) are >3 but <5 times upper limit of normal (ULN) without signs and symptoms of hepatitis, continue TPT and repeat AST and ALT weekly.<br/>- If AST and/or ALT >3 times ULN with signs and symptoms of hepatitis or if AST and/or ALT >5 times ULN with or without signs and symptoms of hepatitis, stop TPT and do not reintroduce."
      }
     ],
     [
      {
-      "t": "Peripheral<br/>neuropathy"
+      "t": "Peripheral neuropathy"
      },
      {
       "t": "Isoniazid"
      },
      {
-      "t": "• Use brief peripheral neuropathy scoring system<br/>(BPNS) to screen and assess the severity of peripheral<br/>neuropathy.<br/>• If mild: give 100 to 150 mg of pyridoxine in adults and 50<br/>mg in children.<br/>• If not better or worsened with an increased pyridoxine<br/>dose, stop the H-containing regimen and consider<br/>switching to 4R."
+      "t": "- Use brief peripheral neuropathy scoring system (BPNS) to screen and assess the severity of peripheral neuropathy.<br/>- If mild: give 100 to 150 mg of pyridoxine in adults and 50 mg in children.<br/>- If not better or worsened with an increased pyridoxine dose, stop the H-containing regimen and consider switching to 4R."
      }
     ],
     [
      {
-      "t": "Skin<br/>hypersensitivity<br/>reaction"
+      "t": "Skin hypersensitivity reaction"
      },
      {
-      "t": "Rifampicin, Rifapentine,<br/>Isoniazid"
+      "t": "Rifampicin, Rifapentine, Isoniazid"
      },
      {
-      "t": "• If itchiness and localized mild rashes occur, give calamine<br/>lotion or steroid cream to apply bid on the affected area;<br/>chlorpheniramine 8 mg tid or bid orally may be given.<br/>• If itchiness, generalized rashes, or swelling of oral or nasal<br/>mucosa with or without fever, withhold TPT.<br/>• For mild or moderate hypersensitivity reaction,<br/>desensitization may be attempted with a low dose rechallenge once the rash resolves starting with isoniazid<br/>alone at 1/6 normal dose on day 1, then full dose on day<br/>2 and subsequently monitoring closely, especially on the<br/>completion of antihistamines (at least weekly to 2-weekly<br/>for the first month then monthly).<br/>• If a rash does not recur, continue isoniazid monotherapy<br/>ensuring that the client gets a total of 180 doses.<br/>If rash recurs, do not rechallenge with isoniazid.<br/>Alternative regimen 4R may be considered by re-introduction with a low dose (1/6 of the dose) on day 1 and then a full dose on day 2.<br/>• If desensitization cannot be performed, an alternative regimen (e.g. 4R or 6H) may be considered<br/>• Never reintroduce after severe hypersensitivity reaction or Stevens-Johnson syndrome."
+      "t": "- If itchiness and localized mild rashes occur, give calamine lotion or steroid cream to apply bid on the affected area; chlorpheniramine 8 mg tid or bid orally may be given.<br/>- If itchiness, generalized rashes, or swelling of oral or nasal mucosa with or without fever, withhold TPT.<br/>- For mild or moderate hypersensitivity reaction, desensitization may be attempted with a low dose re-challenge once the rash resolves starting with isoniazid alone at 1/6 normal dose on day 1, then full dose on day 2 and subsequently monitoring closely, especially on the completion of antihistamines (at least weekly to 2-weekly for the first month then monthly).<br/>- If a rash does not recur, continue isoniazid monotherapy ensuring that the client gets a total of 180 doses. If rash recurs, do not rechallenge with isoniazid. Alternative regimen 4R may be considered by re-introduction with a low dose (1/6 of the dose) on day 1 and then a full dose on day 2.<br/>- If desensitization cannot be performed, an alternative regimen (e.g. 4R or 6H) may be considered<br/>- Never reintroduce after severe hypersensitivity reaction or Stevens-Johnson syndrome."
      }
     ],
     [
@@ -8982,7 +9229,7 @@
       "t": "Rifampicin, rifapentine"
      },
      {
-      "t": "• Reassure that it is just the staining from a drug in the regimen and is harmless. Advice to continue TPT."
+      "t": "- Reassure that it is just the staining from a drug in the regimen and is harmless. Advice to continue TPT."
      }
     ],
     [
@@ -8993,14 +9240,16 @@
       "t": ""
      },
      {
-      "t": "• Investigate for active TB disease or other diseases.<br/>• If there is no active TB disease, continue TPT.<br/>• If active TB disease, stop TPT and provide DS-TB or DR-TB treatment, as appropriate."
+      "t": "- Investigate for active TB disease or other diseases.<br/>- If there is no active TB disease, continue TPT.<br/>- If active TB disease, stop TPT and provide DS-TB or DR-TB treatment, as appropriate."
      }
     ]
    ],
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    221
+    221,
+    222,
+    223
    ]
   },
   {
@@ -9008,7 +9257,7 @@
    "page": 224,
    "image_only": false,
    "heading_path": "11.13 TPT completion and management of TBI treatment interruption > Table 61: Minimum requirement of TPT completion (doses) and extended duration",
-   "caption": "Table 61: Minimum requirement of TPT completion (doses) and extended duration (TPT regimen<br/>3HP (weekly)<br/>3HR (daily), Total duration (in month)<br/>3<br/>3, Expected No. of doses<br/>12<br/>84, 80% of recommended doses (da)",
+   "caption": "Table 61: Minimum requirement of TPT completion (doses) and extended duration",
    "replaces_chunks": [
     "tb-2025-0580"
    ],
@@ -9016,23 +9265,57 @@
    "header": [
     [
      {
-      "t": "TPT regimen<br/>3HP (weekly)<br/>3HR (daily)"
+      "t": "TPT regimen"
      },
      {
-      "t": "Total duration (in month)<br/>3<br/>3"
+      "t": "Total duration (in month)"
      },
      {
-      "t": "Expected No. of doses<br/>12<br/>84"
+      "t": "Expected No. of doses"
      },
      {
-      "t": "80% of recommended doses (days)<br/>10<br/>68"
+      "t": "80% of recommended doses (days)"
      },
      {
-      "t": "Extended time for treatment completion (days) Total duration +33% additional time<br/>112<br/>120"
+      "t": "Extended time for treatment completion (days) Total duration +33% additional time"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "3HP (weekly)"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "12"
+     },
+     {
+      "t": "10"
+     },
+     {
+      "t": "112"
+     }
+    ],
+    [
+     {
+      "t": "3HR (daily)"
+     },
+     {
+      "t": "3"
+     },
+     {
+      "t": "84"
+     },
+     {
+      "t": "68"
+     },
+     {
+      "t": "120"
+     }
+    ],
     [
      {
       "t": "6H (daily)"
@@ -9103,7 +9386,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "The text above Table 61 says 3HP requires at least 90% of doses, but the table gives 10 of 12 doses (83%); Table 62 uses 'at least 9 doses' (75%) for 3HP. WHO's 3HP completion threshold is 11 of 12 doses (90%) within 16 weeks."
+   ],
    "pages": [
     224
    ],
@@ -9114,7 +9399,7 @@
    "page": 224,
    "image_only": false,
    "heading_path": "11.13 TPT completion and management of TBI treatment interruption > Table 62: Management of TPT interruption or missed dose",
-   "caption": "Table 62: Management of TPT interruption or missed dose (TPT regimen, Duration of treatment interruption, Next Steps)",
+   "caption": "Table 62: Management of TPT interruption or missed dose",
    "replaces_chunks": [
     "tb-2025-0582",
     "tb-2025-0583",
@@ -9137,42 +9422,72 @@
    "body": [
     [
      {
-      "t": "3HP"
+      "t": "3HP",
+      "rs": 2
      },
      {
-      "t": "1 weekly dose missed<br/>More than 1 weekly doses missed"
+      "t": "1 weekly dose missed"
      },
      {
-      "t": "If the missed dose is remembered within the next 2 days, continue to take the remaining doses according to the original schedule. If the missed dose is remembered > 2 days later, take the missed dose immediately, and change the schedule for weekly intake to the day the missed dose was taken, until treatment completion. This will avoid 2 weekly doses being taken fewer than 4 days apart.<br/>If treatment interruption occurred after at least 9 doses were taken within 12 weeks of starting, continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 112 days. If ≥ 4 weekly doses are missed, consider restarting the full TPT course. If an individual has difficulty adhering to a weekly routine, consider dis continuing 3HP and offering an alternative regimen with daily dosing."
+      "t": "If the missed dose is remembered within the next 2 days, continue to take the remaining doses according to the original schedule. If the missed dose is remembered > 2 days later, take the missed dose immediately, and change the schedule for weekly intake to the day the missed dose was taken, until treatment completion. This will avoid 2 weekly doses being taken fewer than 4 days apart."
      }
     ],
     [
      {
-      "t": "1HP"
+      "t": "More than 1 weekly doses missed"
      },
      {
-      "t": "Less than 7 doses missed<br/>More than 7 doses missed"
-     },
-     {
-      "t": "Continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 6 weeks (42 days from starting TPT)<br/>If < 7 consecutive doses were missed, consider restarting the complete course of the 1HP regimen. If > 7 doses were missed intermittently, continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 6 weeks (42 days from starting TPT)"
+      "t": "If treatment interruption occurred after at least 9 doses were taken within 12 weeks of starting, continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 112 days. If ≥ 4 weekly doses are missed, consider restarting the full TPT course. If an individual has difficulty adhering to a weekly routine, consider dis continuing 3HP and offering an alternative regimen with daily dosing."
      }
     ],
     [
      {
-      "t": "3HR, 4R, 6H, 6Lfx"
+      "t": "1HP",
+      "rs": 2
      },
      {
-      "t": "Less than 2 weeks<br/>More than 2 weeks"
+      "t": "Less than 7 doses missed"
      },
      {
-      "t": "Resume TPT and add the number of missed doses to the total treatment duration.<br/>Do not change the scheduled date of the next follow-up visit, but postpone the last follow-up visit by the number of extra days to compensate for missed doses. For example, if a child on 3HR misses 3 days of treatment, continue TPT for a total of 3 months + 3 days from the date of start.<br/>If treatment interruption occurs after more than 80% of doses in the regimen have been taken, continue and complete the remaining treatment as per the original plan. If less than 80% of doses in the regimen were taken, and the treatment course can still be completed within the expected treatment duration + 33% additional time, continue and complete the remaining treatment as per the original plan. For example, if an adult on 6H had taken only 120 doses by month 6, the remaining 62 doses can be taken in the next 2 months, without exceeding the 239-day limit. If < 80% of doses in the regimen were taken, and the treatment course cannot be completed within the expected time, consider restarting the full TPT course. A shorter regimen would be preferable."
+      "t": "Continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 6 weeks (42 days from starting TPT)"
+     }
+    ],
+    [
+     {
+      "t": "More than 7 doses missed"
+     },
+     {
+      "t": "If < 7 consecutive doses were missed, consider restarting the complete course of the 1HP regimen. If > 7 doses were missed intermittently, continue and complete the remaining doses, thus prolonging the total treatment duration to a maximum of 6 weeks (42 days from starting TPT)"
+     }
+    ],
+    [
+     {
+      "t": "3HR, 4R, 6H, 6Lfx",
+      "rs": 2
+     },
+     {
+      "t": "Less than 2 weeks"
+     },
+     {
+      "t": "Resume TPT and add the number of missed doses to the total treatment duration.<br/>Do not change the scheduled date of the next follow-up visit, but postpone the last follow-up visit by the number of extra days to compensate for missed doses. For example, if a child on 3HR misses 3 days of treatment, continue TPT for a total of 3 months + 3 days from the date of start."
+     }
+    ],
+    [
+     {
+      "t": "More than 2 weeks"
+     },
+     {
+      "t": "If treatment interruption occurs after more than 80% of doses in the regimen have been taken, continue and complete the remaining treatment as per the original plan. If less than 80% of doses in the regimen were taken, and the treatment course can still be completed within the expected treatment duration + 33% additional time, continue and complete the remaining treatment as per the original plan. For example, if an adult on 6H had taken only 120 doses by month 6, the remaining 62 doses can be taken in the next 2 months, without exceeding the 239-day limit. If < 80% of doses in the regimen were taken, and the treatment course cannot be completed within the expected time, consider restarting the full TPT course. A shorter regimen would be preferable."
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "1HP 'More than 7 doses missed' row says 'If < 7 consecutive doses were missed, consider restarting'; the intended rule (WHO) is to restart if more than 7 consecutive doses are missed."
+   ],
    "pages": [
-    224
+    224,
+    225
    ],
    "context_before": "Table 62: Management of TPT interruption or missed dose"
   },
@@ -9258,7 +9573,7 @@
    "page": 227,
    "image_only": false,
    "heading_path": "11.16 Community-based care and support for people taking TPT > Which TBI treatment regimen option to give? > Table 64: The checklist for monitoring adverse events and TB signs and symptoms",
-   "caption": "Table 64: The checklist for monitoring adverse events and TB signs and symptoms (Checklist<br/>Flu-like signs and symptoms: Fever, headache, runny nose, joint pain, etc<br/>Nausea and vomiting, Yes, No)",
+   "caption": "Table 64: The checklist for monitoring adverse events and TB signs and symptoms",
    "replaces_chunks": [
     "tb-2025-0589"
    ],
@@ -9266,7 +9581,7 @@
    "header": [
     [
      {
-      "t": "Checklist<br/>Flu-like signs and symptoms: Fever, headache, runny nose, joint pain, etc<br/>Nausea and vomiting"
+      "t": "Checklist"
      },
      {
       "t": "Yes"
@@ -9277,6 +9592,28 @@
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Flu-like signs and symptoms: Fever, headache, runny nose, joint pain, etc"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": "Nausea and vomiting"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ],
     [
      {
       "t": "Abdominal pain, and yellow colouration of eye and skin"
@@ -9334,17 +9671,14 @@
     ],
     [
      {
-      "t": "If referred to health facility, specify the name of the health facility"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "If referred to health facility, specify the name of the health facility",
+      "cs": 3
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A blank form: the Yes/No columns are tick boxes."
+   ],
    "source_flags": [],
    "pages": [
     227
@@ -9461,10 +9795,13 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A blank reporting form. The '0' in some rows is printed in the source and is not data."
+   ],
    "source_flags": [],
    "pages": [
-    227
+    227,
+    228
    ],
    "context_before": "Table 65: TPT cascade for regular review and timely action"
   },
@@ -9473,7 +9810,7 @@
    "page": 230,
    "image_only": false,
    "heading_path": "11.18 Performing TB Infection Tests > Which TBI treatment regimen option to give? > Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus)",
-   "caption": "Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus) (Results, Nil, TB Response, Interpretation)",
+   "caption": "Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus)",
    "replaces_chunks": [
     "tb-2025-0597"
    ],
@@ -9517,7 +9854,7 @@
       "t": "≤8.0"
      },
      {
-      "t": "Mitogen minus NIL <0.5, TB1 and TB2 minus NIL <0.35<br/>or ≥0.35 and ≥25% of Nil"
+      "t": "Mitogen minus NIL <0.5, TB1 and TB2 minus NIL <0.35 or ≥0.35 and ≥25% of Nil"
      },
      {
       "t": "TBI is not likely"
@@ -9525,7 +9862,8 @@
     ],
     [
      {
-      "t": "Indeterminate"
+      "t": "Indeterminate",
+      "rs": 2
      },
      {
       "t": ">8.0"
@@ -9534,26 +9872,23 @@
       "t": "Any"
      },
      {
-      "t": "The likelihood of TBI<br/>cannot be determined"
+      "t": "The likelihood of TBI cannot be determined",
+      "rs": 2
      }
     ],
     [
      {
-      "t": "Indeterminate"
-     },
-     {
       "t": "≤8.0"
      },
      {
-      "t": "TB1 and TB2 <0.35 or ≥0.35 and ≥25% of Nil and<br/>Mitogen minus Nil <0.5"
-     },
-     {
-      "t": ""
+      "t": "TB1 and TB2 <0.35 or ≥0.35 and ≥25% of Nil and Mitogen minus Nil <0.5"
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "The Negative and Indeterminate rows print '≥0.35 and ≥25% of Nil', which is the positive criterion. The manufacturer's (QuantiFERON-TB Gold Plus) criteria are: Negative = Mitogen minus Nil ≥0.5 and TB1 and TB2 minus Nil <0.35, or ≥0.35 and <25% of Nil; Indeterminate (Nil ≤8.0) = TB1 and TB2 negative with Mitogen minus Nil <0.5. As printed, a negative result also requires Mitogen <0.5, which is the indeterminate criterion."
+   ],
    "pages": [
     230
    ],
@@ -9583,7 +9918,7 @@
    "page": 232,
    "image_only": false,
    "heading_path": "12.2 TB infection prevention and control measures",
-   "caption": "12.2 TB infection prevention and control measures (Measure, Impact)",
+   "caption": "Figure 38: The major strategies of TB IPC measures",
    "replaces_chunks": [
     "tb-2025-0604"
    ],
@@ -9591,10 +9926,13 @@
    "header": [
     [
      {
-      "t": "Measure"
+      "t": "Strategy"
      },
      {
       "t": "Impact"
+     },
+     {
+      "t": "Purpose"
      }
     ]
    ],
@@ -9605,6 +9943,9 @@
      },
      {
       "t": "Most Impact"
+     },
+     {
+      "t": "Reduce risk of exposure and infection through policy and practices"
      }
     ],
     [
@@ -9613,6 +9954,9 @@
      },
      {
       "t": ""
+     },
+     {
+      "t": "Reduce concentration of infectious bacilli in air in areas where contamination of air is likely"
      }
     ],
     [
@@ -9621,10 +9965,15 @@
      },
      {
       "t": "Least"
+     },
+     {
+      "t": "Protect personnel who must work in environments with contaminated air by use of high filtration masks"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed as an inverted pyramid (hierarchy of controls, most to least impact) beside a box of three bullets; shown here as a table, pairing each level with its bullet in printed order."
+   ],
    "source_flags": [],
    "pages": [
     232
@@ -9650,13 +9999,8 @@
       "t": ""
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "cs": 2
      }
     ]
    ],
@@ -9669,13 +10013,8 @@
       "t": ""
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "cs": 2
      }
     ],
     [
@@ -9683,16 +10022,11 @@
       "t": "Type of Facility:"
      },
      {
-      "t": "Hospital/Health Centre/Clinic"
-     },
-     {
       "t": ""
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Hospital/Health Centre/Clinic",
+      "cs": 2
      }
     ],
     [
@@ -9700,16 +10034,11 @@
       "t": "Date of Assessment:"
      },
      {
-      "t": "/ /"
-     },
-     {
       "t": ""
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "/ /",
+      "cs": 2
      }
     ],
     [
@@ -9720,21 +10049,13 @@
       "t": ""
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "",
+      "cs": 2
      }
     ],
     [
      {
       "t": "Administrative Control"
-     },
-     {
-      "t": ""
      },
      {
       "t": "Yes"
@@ -9758,17 +10079,11 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
       "t": "Are clients screened for TB at the entry point and segregated (place/time)?"
-     },
-     {
-      "t": ""
      },
      {
       "t": ""
@@ -9792,17 +10107,11 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
       "t": "Are presumptive TB clients diagnosed early and put on treatment early if diagnosed with TB?"
-     },
-     {
-      "t": ""
      },
      {
       "t": ""
@@ -9826,17 +10135,11 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
       "t": "Are clients and their family members/caregivers given TB health education including cough etiquette and IPC measures at home?"
-     },
-     {
-      "t": ""
      },
      {
       "t": ""
@@ -9860,28 +10163,11 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
-    [
-     {
-      "t": "Environmental Control"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "Environmental Control"
+    },
     [
      {
       "t": "Are Window and Doors opened most of the time to keep maximum ventilation?"
@@ -9894,17 +10180,11 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Do HCWs take downwind positions (against the wind) during consultation/health education/<br/>counselling?"
-     },
-     {
-      "t": ""
+      "t": "Do HCWs take downwind positions (against the wind) during consultation/health education/counselling?"
      },
      {
       "t": ""
@@ -9928,28 +10208,11 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
-    [
-     {
-      "t": "Person Respiratory Protection"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "Person Respiratory Protection"
+    },
     [
      {
       "t": "Do coughing patients’ surgical mask?"
@@ -9962,17 +10225,11 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Do HCWs wear FFP2 or N95 masks during consultation with sputum-positive patients or<br/>perform high-risk procedures?"
-     },
-     {
-      "t": ""
+      "t": "Do HCWs wear FFP2 or N95 masks during consultation with sputum-positive patients or perform high-risk procedures?"
      },
      {
       "t": ""
@@ -9996,47 +10253,24 @@
      },
      {
       "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Findings:"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Findings:",
+      "cs": 4
      }
     ],
     [
      {
-      "t": "Recommendations:"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Recommendations:",
+      "cs": 4
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A blank assessment form: facility details at the top (3 columns), then Yes / No / Comment tick columns for each question."
+   ],
    "source_flags": [],
    "pages": [
     243
@@ -10048,7 +10282,7 @@
    "page": 247,
    "image_only": false,
    "heading_path": "13.1 Diabetes Mellitus > 13.1.2 Management of TB and diabetes > Drug-drug interaction > Table 68: Drug-drug interaction between most used oral hypoglycaemics and ARVs",
-   "caption": "Table 68: Drug-drug interaction between most used oral hypoglycaemics and ARVs (DRUG INTERACTION TABLE<br/>Antidiabetic Agent, DRUG INTERACTION TABLE<br/>TDF/ TAF, DRUG INTERACTION TABLE<br/>AZT, DRUG INTERACTION TABLE<br/>3TC, DR)",
+   "caption": "Table 68: Drug-drug interaction between most used oral hypoglycaemics and ARVs",
    "replaces_chunks": [
     "tb-2025-0639",
     "tb-2025-0640"
@@ -10057,37 +10291,37 @@
    "header": [
     [
      {
-      "t": "DRUG INTERACTION TABLE<br/>Antidiabetic Agent"
+      "t": "Antidiabetic Agent"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>TDF/ TAF"
+      "t": "TDF/ TAF"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>AZT"
+      "t": "AZT"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>3TC"
+      "t": "3TC"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>FTC"
+      "t": "FTC"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>EFV"
+      "t": "EFV"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>NVP"
+      "t": "NVP"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>DTG"
+      "t": "DTG"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>LPV/r"
+      "t": "LPV/r"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>ATV/r"
+      "t": "ATV/r"
      },
      {
-      "t": "DRUG INTERACTION TABLE<br/>DRV/r"
+      "t": "DRV/r"
      }
     ]
    ],
@@ -10097,34 +10331,34 @@
       "t": "Metformin"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↑"
+      "t": "↑ CAUTION"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      }
     ],
     [
@@ -10132,34 +10366,34 @@
       "t": "Glibenclamide"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      }
     ],
     [
@@ -10167,34 +10401,34 @@
       "t": "Glipizide"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↑"
+      "t": "↑ potential"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      }
     ],
     [
@@ -10202,34 +10436,34 @@
       "t": "Gliquidone"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↑"
+      "t": "↑ potential"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      }
     ],
     [
@@ -10237,34 +10471,34 @@
       "t": "Gliclazide"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↑"
+      "t": "↑ potential"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      }
     ],
     [
@@ -10272,215 +10506,45 @@
       "t": "Glimepiride"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↑"
+      "t": "↑ potential"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": ""
+      "t": "none"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
+      "t": "↓ potential"
      },
      {
-      "t": "↓"
-     }
-    ],
-    [
-     {
-      "t": "Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "• No interaction"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "• Potential interaction with increased or decreased levels of the sulfonylurea which may require dose adjustment of the sulfonylurea. Monitor blood glucose and adjust the sulfonylurea dosage as needed."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "• CAUTION should be exercised when co-administering metformin with DTG as metformin levels are increased and dose reduction of metformin should be considered. The US prescribing information recommends limiting the total daily dose of metformin to 1,000 mg when co-administered with DTG. Renal monitoring is recommended as PLHIV with renal impairment are at increased risk of lactic acidosis due to increased metformin levels in the presence of DTG."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "↑ Increase in antidiabetic agent level ↓Decrease in antidiabetic agent level"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "↓ potential"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Colour-coded in the source; the colours are written out here. 'none' (green) = No interaction. 'potential' (yellow) = Potential interaction with increased or decreased levels of the sulfonylurea which may require dose adjustment of the sulfonylurea. Monitor blood glucose and adjust the sulfonylurea dosage as needed. 'CAUTION' (red) = CAUTION should be exercised when co-administering metformin with DTG as metformin levels are increased and dose reduction of metformin should be considered. The US prescribing information recommends limiting the total daily dose of metformin to 1,000 mg when co-administered with DTG. Renal monitoring is recommended as PLHIV with renal impairment are at increased risk of lactic acidosis due to increased metformin levels in the presence of DTG.",
+    "↑ Increase in antidiabetic agent level; ↓ Decrease in antidiabetic agent level.",
+    "*Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives.",
+    "Source: University of Liverpool, hiv-druginteractions.org"
+   ],
    "source_flags": [
-    "A stray footnote ('Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives') from the hypertension section is printed under the hypoglycaemics interaction table."
+    "The note '*Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives' refers to beta-blockers and has no asterisk in this table; it appears to belong to an antihypertensive table."
    ],
    "pages": [
     247
@@ -10492,7 +10556,7 @@
    "page": 251,
    "image_only": false,
    "heading_path": "13.3 Mental Health > Table 69: Provisional diagnosis and recommended action according to PHQ9 score",
-   "caption": "Table 69: Provisional diagnosis and recommended action according to PHQ9 score (PHQ-9 Score, Provisional diagnosis, Recommended actions)",
+   "caption": "Table 69: Provisional diagnosis and recommended action according to PHQ9 score",
    "replaces_chunks": [
     "tb-2025-0652"
    ],
@@ -10556,9 +10620,11 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Box below the table: For an individual with the thoughts of death or suicidal attempt, immediate referral to a psychologist/psychiatrist should be made for an effective magment [management]."
+   ],
    "source_flags": [
-    "PHQ-9 bands end at '15-19' and '>20', so a score of exactly 20 is not covered; 10-14 is called 'minor to mild depression' where PHQ-9 calls it moderate."
+    "Score bands leave gaps: 0-4 is not listed and a score of exactly 20 falls in no band ('>20'). The standard PHQ-9 bands are 0-4 none, 5-9 mild, 10-14 moderate, 15-19 moderately severe, 20-27 severe; the labels here also differ (10-14 'minor to mild', 15-19 'major')."
    ],
    "pages": [
     251
@@ -10570,7 +10636,7 @@
    "page": 252,
    "image_only": false,
    "heading_path": "13.3 Mental Health > Table 70: Psychotropic drugs used in major depressive disorder",
-   "caption": "Table 70: Psychotropic drugs used in major depressive disorder (Category, Drugs, Dosage)",
+   "caption": "Table 70: Psychotropic drugs used in major depressive disorder",
    "replaces_chunks": [
     "tb-2025-0658"
    ],
@@ -10591,7 +10657,8 @@
    "body": [
     [
      {
-      "t": "Firstline anti-depressant"
+      "t": "Firstline anti-depressant",
+      "rs": 3
      },
      {
       "t": "Amitriptyline"
@@ -10602,9 +10669,6 @@
     ],
     [
      {
-      "t": "Firstline anti-depressant"
-     },
-     {
       "t": "Fluoxetine"
      },
      {
@@ -10612,9 +10676,6 @@
      }
     ],
     [
-     {
-      "t": "Firstline anti-depressant"
-     },
      {
       "t": "Sertraline"
      },
@@ -10624,7 +10685,8 @@
     ],
     [
      {
-      "t": "Second-line anti-depressant"
+      "t": "Second-line anti-depressant",
+      "rs": 2
      },
      {
       "t": "Duloxetine"
@@ -10635,9 +10697,6 @@
     ],
     [
      {
-      "t": "Second-line anti-depressant"
-     },
-     {
       "t": "Lorazepam"
      },
      {
@@ -10646,7 +10705,8 @@
     ],
     [
      {
-      "t": "Firstline anti-psychotropics"
+      "t": "Firstline anti-psychotropics",
+      "rs": 3
      },
      {
       "t": "Haloperidol"
@@ -10657,9 +10717,6 @@
     ],
     [
      {
-      "t": "Firstline anti-psychotropics"
-     },
-     {
       "t": "Sulpride"
      },
      {
@@ -10667,9 +10724,6 @@
      }
     ],
     [
-     {
-      "t": "Firstline anti-psychotropics"
-     },
      {
       "t": "Aripiprazole"
      },
@@ -10679,7 +10733,8 @@
     ],
     [
      {
-      "t": "Secondline anti-psychotrophics"
+      "t": "Secondline anti-psychotrophics",
+      "rs": 2
      },
      {
       "t": "Risperidone"
@@ -10690,9 +10745,6 @@
     ],
     [
      {
-      "t": "Secondline anti-psychotrophics"
-     },
-     {
       "t": "Olanzapine"
      },
      {
@@ -10702,8 +10754,9 @@
    ],
    "footnotes": [],
    "source_flags": [
-    "Lorazepam is listed as a 'second-line anti-depressant'; it is a benzodiazepine (anxiolytic/hypnotic), not an antidepressant.",
-    "Amitriptyline is first-line here without a caution, although many DR-TB patients take QT-prolonging drugs (BDQ, CFZ, MFX); the peripheral neuropathy chart (Figure 29) carries that caution."
+    "Lorazepam is listed as a second-line antidepressant; it is a benzodiazepine (anxiolytic/sedative), not an antidepressant.",
+    "Fluoxetine and sertraline are advised 'at bedtime'; SSRIs are usually taken in the morning because they can cause insomnia.",
+    "Linezolid (used in DR-TB regimens) interacts with SSRIs and amitriptyline (serotonin syndrome risk); see the drug-interaction note below this table."
    ],
    "pages": [
     252
@@ -10715,31 +10768,12 @@
    "page": 254,
    "image_only": false,
    "heading_path": "13.4 Substance-related addictive disorder > 13.4.3 Treatment literacy and support",
-   "caption": "13.4.3 Treatment literacy and support (Patient Health Questionnaire-9<br/>(PHQ-9))",
+   "caption": "Table 71: Patient Heath Questionnaire-9 (PHQ-9)",
    "replaces_chunks": [
     "tb-2025-0666"
    ],
    "row_header_cols": 1,
    "header": [
-    [
-     {
-      "t": "Patient Health Questionnaire-9<br/>(PHQ-9)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ]
-   ],
-   "body": [
     [
      {
       "t": "Over the last 2 weeks, how often have you been bothered by any of the following problems?<br/>(Use (✓) to indicate your answer)"
@@ -10756,7 +10790,9 @@
      {
       "t": "Nearly every day"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "1. Little interest or pleasure in doing things"
@@ -10844,7 +10880,7 @@
     ],
     [
      {
-      "t": "6. Feeling bad about yourself - or that you are a failure<br/>or have let yourself or your family down"
+      "t": "6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
      },
      {
       "t": "0"
@@ -10861,7 +10897,7 @@
     ],
     [
      {
-      "t": "7. Trouble concentrating on things, such as reading the<br/>newspaper or watching television"
+      "t": "7. Trouble concentrating on things, such as reading the newspaper or watching television"
      },
      {
       "t": "0"
@@ -10912,41 +10948,36 @@
     ],
     [
      {
-      "t": "For office coding ____0____"
+      "t": "For office coding"
      },
      {
-      "t": ""
+      "t": "0"
      },
      {
-      "t": "+_______"
+      "t": "+____"
      },
      {
-      "t": "+_______"
+      "t": "+____"
      },
      {
-      "t": "+_______"
+      "t": "+____"
      }
     ],
     [
      {
-      "t": "Total Score: __________"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "Total Score: ____",
+      "cs": 5
      }
     ],
     [
      {
-      "t": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?"
+      "t": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+      "cs": 5
+     }
+    ],
+    [
+     {
+      "t": ""
      },
      {
       "t": "Not difficult at all"
@@ -10962,10 +10993,13 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "The difficulty question has tick boxes under each option."
+   ],
    "source_flags": [],
    "pages": [
-    254
+    254,
+    255
    ]
   },
   {
@@ -10994,7 +11028,7 @@
       "t": "Intensive phase"
      },
      {
-      "t": "2 months RHE"
+      "t": "2 months RHE*"
      }
     ],
     [
@@ -11006,7 +11040,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "* In practice, RHZE may be the available option (as an FDC). If used, the clinician should keep in mind the Z (pyrazinamide) is not effective against M. bovis. If serious side effects occur related to Z, single formulations may be requested."
+   ],
    "source_flags": [],
    "pages": [
     258
@@ -11053,7 +11089,7 @@
    ],
    "footnotes": [],
    "source_flags": [
-    "M. kansasii regimen gives ethambutol as '300mg'; the usual dose is 15 mg/kg daily (about 800-1200 mg). 'Pyridoxide' should be pyridoxine."
+    "M. kansasii: ethambutol is printed as 300 mg; the usual adult dose is 15 mg/kg (about 800-1,200 mg). 'Pyridoxide' is pyridoxine."
    ],
    "pages": [
     259
@@ -11065,34 +11101,44 @@
    "page": 261,
    "image_only": false,
    "heading_path": "14.2.6 Treatment of Leprosy > Table 74: Dosing of drugs used in leprosy treatment",
-   "caption": "Table 74: Dosing of drugs used in leprosy treatment (Age group, Drug, Dosage & frequency, Duration<br/>Multi Bacillary, Duration<br/>Pauci Bacillary)",
+   "caption": "Table 74: Dosing of drugs used in leprosy treatment",
    "replaces_chunks": [
     "tb-2025-0685"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 2,
    "header": [
     [
      {
-      "t": "Age group"
+      "t": "Age group",
+      "rs": 2
      },
      {
-      "t": "Drug"
+      "t": "Drug",
+      "rs": 2
      },
      {
-      "t": "Dosage & frequency"
+      "t": "Dosage & frequency",
+      "rs": 2
      },
      {
-      "t": "Duration<br/>Multi Bacillary"
+      "t": "Duration",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Multi Bacillary"
      },
      {
-      "t": "Duration<br/>Pauci Bacillary"
+      "t": "Pauci Bacillary"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "Adult"
+      "t": "Adult",
+      "rs": 3
      },
      {
       "t": "Rifampicin"
@@ -11101,49 +11147,34 @@
       "t": "600 mg once a month"
      },
      {
-      "t": "12 months"
+      "t": "12 months",
+      "rs": 3
      },
      {
-      "t": "6 months"
+      "t": "6 months",
+      "rs": 3
      }
     ],
     [
-     {
-      "t": "Adult"
-     },
      {
       "t": "Clofazimine"
      },
      {
       "t": "300 mg once a month and 50 mg daily"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
-     {
-      "t": "Adult"
-     },
      {
       "t": "Dapsone"
      },
      {
       "t": "100 mg daily"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Children (10–14 years)"
+      "t": "Children (10–14 years)",
+      "rs": 3
      },
      {
       "t": "Rifampicin"
@@ -11152,49 +11183,34 @@
       "t": "450 mg once a month"
      },
      {
-      "t": "12 months"
+      "t": "12 months",
+      "rs": 3
      },
      {
-      "t": "6 months"
+      "t": "6 months",
+      "rs": 3
      }
     ],
     [
-     {
-      "t": "Children (10–14 years)"
-     },
      {
       "t": "Clofazimine"
      },
      {
       "t": "150 mg once a month, 50 mg on alternate days"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
-     {
-      "t": "Children (10–14 years)"
-     },
      {
       "t": "Dapsone"
      },
      {
       "t": "50 mg daily"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
      {
-      "t": "Children <10 years old or <40kg"
+      "t": "Children <10 years old or <40kg",
+      "rs": 3
      },
      {
       "t": "Rifampicin"
@@ -11203,44 +11219,28 @@
       "t": "10 mg/kg once month"
      },
      {
-      "t": "12 months"
+      "t": "12 months",
+      "rs": 3
      },
      {
-      "t": "6 months"
+      "t": "6 months",
+      "rs": 3
      }
     ],
     [
-     {
-      "t": "Children <10 years old or <40kg"
-     },
      {
       "t": "Clofazimine"
      },
      {
       "t": "100 mg once a month, 50 mg twice weekly"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ],
     [
-     {
-      "t": "Children <10 years old or <40kg"
-     },
      {
       "t": "Dapsone"
      },
      {
       "t": "2 mg/kg daily"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      }
     ]
    ],
@@ -11256,7 +11256,7 @@
    "page": 262,
    "image_only": false,
    "heading_path": "14.2.9 Classification of leprosy disabilities",
-   "caption": "14.2.9 Classification of leprosy disabilities (Hands and Feet)",
+   "caption": "Table 75: Disabilities due to late presentation of leprosy",
    "replaces_chunks": [
     "tb-2025-0689"
    ],
@@ -11264,22 +11264,17 @@
    "header": [
     [
      {
-      "t": "Hands and Feet"
-     },
-     {
-      "t": ""
-     }
-    ]
-   ],
-   "body": [
-    [
-     {
       "t": "Grade"
      },
      {
       "t": "Disability"
      }
-    ],
+    ]
+   ],
+   "body": [
+    {
+     "section": "Hands and Feet"
+    },
     [
      {
       "t": "0"
@@ -11304,22 +11299,9 @@
       "t": "Visible deformity or damage"
      }
     ],
-    [
-     {
-      "t": "Eyes"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Grade"
-     },
-     {
-      "t": "Disability"
-     }
-    ],
+    {
+     "section": "Eyes"
+    },
     [
      {
       "t": "0"
@@ -11347,7 +11329,7 @@
    ],
    "footnotes": [],
    "source_flags": [
-    "Eye disability grade 1 is defined with vision '6/6 or better'; the WHO leprosy disability grading uses 6/60 (counting fingers at 6 metres). 'Count figures' should be 'count fingers'."
+    "Eyes grade 1 reads 'vision not severely affected (6/6 or better)'; the WHO grading uses 6/60 or better (grade 2 = worse than 6/60)."
    ],
    "pages": [
     262
@@ -11358,7 +11340,7 @@
    "page": 268,
    "image_only": false,
    "heading_path": "15.2 Procedures of TB mortality review meeting in a health facility > Who should record in the logbook",
-   "caption": "Who should record in the logbook (Where did the patient die?, Mortality Review Team/responsible facility, Who Reports?)",
+   "caption": "Who should record in the logbook: mortality review team and reporting facility by place of death",
    "replaces_chunks": [
     "tb-2025-0702"
    ],
@@ -11382,10 +11364,10 @@
       "t": "Home/ Community"
      },
      {
-      "t": "Facility team where the patient is registered +<br/>Zonal/Cluster mentoring team"
+      "t": "Facility team where the patient is registered + Zonal/Cluster mentoring team"
      },
      {
-      "t": "Facility where patient is<br/>registered"
+      "t": "Facility where patient is registered"
      }
     ],
     [
@@ -11393,10 +11375,10 @@
       "t": "Outpatient"
      },
      {
-      "t": "Facility team where a patient died + Zonal/Cluster<br/>mentoring team+ Referring facility"
+      "t": "Facility team where a patient died + Zonal/Cluster mentoring team+ Referring facility"
      },
      {
-      "t": "Facility where patient is<br/>registered"
+      "t": "Facility where patient is registered"
      }
     ],
     [
@@ -11404,10 +11386,10 @@
       "t": "During referral"
      },
      {
-      "t": "Facility team where patient finally arrives + Zonal/<br/>Cluster mentoring team+ Referring facility"
+      "t": "Facility team where patient finally arrives + Zonal/Cluster mentoring team+ Referring facility"
      },
      {
-      "t": "Facility where patient is<br/>registered"
+      "t": "Facility where patient is registered"
      }
     ],
     [
@@ -11415,10 +11397,10 @@
       "t": "In the ward/inpatient"
      },
      {
-      "t": "Facility team where a patient died + Zonal/Cluster<br/>mentoring team+ Referring facility"
+      "t": "Facility team where a patient died + Zonal/Cluster mentoring team+ Referring facility"
      },
      {
-      "t": "Facility where patient is<br/>registered"
+      "t": "Facility where patient is registered"
      }
     ]
    ],
@@ -11433,7 +11415,7 @@
    "page": 269,
    "image_only": false,
    "heading_path": "15.6 Monitoring and Evaluation > Table 76: M&E framework of mortality review",
-   "caption": "Table 76: M&E framework of mortality review (Objective<br/>Provide stewardship to ensure regular MRM in facilities<br/>Increase participation in MRM to ensure ownership by the facility staff, Ind)",
+   "caption": "Table 76: M&E framework of mortality review",
    "replaces_chunks": [
     "tb-2025-0705",
     "tb-2025-0706"
@@ -11442,23 +11424,57 @@
    "header": [
     [
      {
-      "t": "Objective<br/>Provide stewardship to ensure regular MRM in facilities<br/>Increase participation in MRM to ensure ownership by the facility staff"
+      "t": "Objective"
      },
      {
-      "t": "Indicator<br/>Number of MRMs being conducted in the facilities monthly<br/>Number of hospital personnel representing key departments at each MRM"
+      "t": "Indicator"
      },
      {
-      "t": "Target<br/>1 MRM per month per facility<br/>1 personnel from each key department in monthly MRM"
+      "t": "Target"
      },
      {
-      "t": "Output<br/>All facilities conducting monthly MRMs<br/>Active participation by all HCWs in MRMs"
+      "t": "Output"
      },
      {
-      "t": "Responsible Person<br/>RHMT<br/>Hospital management"
+      "t": "Responsible Person"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Provide stewardship to ensure regular MRM in facilities"
+     },
+     {
+      "t": "Number of MRMs being conducted in the facilities monthly"
+     },
+     {
+      "t": "1 MRM per month per facility"
+     },
+     {
+      "t": "All facilities conducting monthly MRMs"
+     },
+     {
+      "t": "RHMT"
+     }
+    ],
+    [
+     {
+      "t": "Increase participation in MRM to ensure ownership by the facility staff"
+     },
+     {
+      "t": "Number of hospital personnel representing key departments at each MRM"
+     },
+     {
+      "t": "1 personnel from each key department in monthly MRM"
+     },
+     {
+      "t": "Active participation by all HCWs in MRMs"
+     },
+     {
+      "t": "Hospital management"
+     }
+    ],
     [
      {
       "t": "Identify clinical/patient factors that contribute to TB-related mortality"
@@ -11507,7 +11523,7 @@
       "t": "All HCWs conversant with MRM SOPs and process flow"
      },
      {
-      "t": "TB regional coordinator Regional partner TB thematic lead"
+      "t": "TB regional coordinator<br/>Regional partner TB thematic lead"
      }
     ],
     [
@@ -11524,7 +11540,7 @@
       "t": "RHMT and facilities aware of regional contributory factors to TB deaths"
      },
      {
-      "t": "Regional SID RHMT Regional partner thematic lead"
+      "t": "Regional SID<br/>RHMT<br/>Regional partner thematic lead"
      }
     ]
    ],
@@ -11540,21 +11556,15 @@
    "page": 270,
    "image_only": false,
    "heading_path": "15.6 Monitoring and Evaluation > Table 77: Case review report forms (CRFs) for documenting TB mortality review outcomes",
-   "caption": "Table 77: Case review report forms (CRFs) for documenting TB mortality review outcomes (TB Mortality Case Review Report Form, Section C: Case Assessment)",
+   "caption": "Table 77: Case review report forms (CRFs) for documenting TB mortality review outcomes",
    "replaces_chunks": [
     "tb-2025-0707"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
       "t": "TB Mortality Case Review Report Form"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
      },
      {
       "t": "Section C: Case Assessment"
@@ -11564,118 +11574,16 @@
    "body": [
     [
      {
-      "t": "Section A: General Information"
+      "t": "Section A: General Information<br/>Name: ____ Surname: ____ Date: ____<br/>Age: ____ Sex: ____<br/>Date of Referral: ____ Date of Admission: ____ Date of Death: ____<br/>Diagnosis: ____<br/>Treatment given: ____<br/>Facility Name: ____<br/><br/>Section B: Case Summary<br/>(free text)"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Major Clinical Management - RELATED gaps identified"
-     }
-    ],
-    [
-     {
-      "t": "Name:"
-     },
-     {
-      "t": "Surname:"
-     },
-     {
-      "t": "Date:"
-     },
-     {
-      "t": "1."
-     }
-    ],
-    [
-     {
-      "t": "Age:"
-     },
-     {
-      "t": "Sex:"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "2."
-     }
-    ],
-    [
-     {
-      "t": "Date of Referral:"
-     },
-     {
-      "t": "Date of Admission:"
-     },
-     {
-      "t": "Date of Death:"
-     },
-     {
-      "t": "3.<br/>4."
-     }
-    ],
-    [
-     {
-      "t": "Diagnosis:"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "5."
-     }
-    ],
-    [
-     {
-      "t": "Treatment given:"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "Major Health Systems i RELATED gap identified<br/>1."
-     }
-    ],
-    [
-     {
-      "t": "Facility Name:"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "2.<br/>3."
-     }
-    ],
-    [
-     {
-      "t": "Section B: Case Summary"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "4.<br/>5.<br/>Major Patient Related gaps identified<br/>1.<br/>2.<br/>3.<br/>4.<br/>5.<br/>Was the death preventable? (tick one box)<br/>Definitely \\[ ] Probably \\[ ] Probably Not \\[ ]<br/>Definitely Not \\[ ] Don’t Know \\[ ]"
+      "t": "Major Clinical Management - RELATED gaps identified<br/>1. ____ 2. ____ 3. ____ 4. ____ 5. ____<br/>Major Health Systems i RELATED gap identified<br/>1. ____ 2. ____ 3. ____ 4. ____ 5. ____<br/>Major Patient Related gaps identified<br/>1. ____ 2. ____ 3. ____ 4. ____ 5. ____<br/>Was the death preventable? (tick one box)<br/>Definitely [ ] Probably [ ] Probably Not [ ] Definitely Not [ ] Don’t Know [ ]"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A blank form laid out in two columns (Sections A and B on the left, Section C on the right)."
+   ],
    "source_flags": [],
    "pages": [
     270
@@ -11687,228 +11595,13 @@
    "page": 271,
    "image_only": false,
    "heading_path": "15.6 Monitoring and Evaluation > Table 78: TB Mortality Register and Logbook",
-   "caption": "Table 78: TB Mortality Register and Logbook (Reporting Month: ........................, TB Mortality Review Report: ........................)",
+   "caption": "Table 78: TB Mortality Register and Logbook",
    "replaces_chunks": [
     "tb-2025-0708",
     "tb-2025-0709"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
-    [
-     {
-      "t": "Reporting Month: ........................"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "TB Mortality Review Report: ........................"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ]
-   ],
-   "body": [
-    [
-     {
-      "t": "Facility Name:"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Patient Demographics"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "TB / HIV"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
     [
      {
       "t": "Name & Surname"
@@ -11938,16 +11631,16 @@
       "t": "Type of TB (DS / DR)"
      },
      {
-      "t": "Disease Site (P/EP) Circle appropriate<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP<br/>P / EP"
+      "t": "Disease Site (P/EP) Circle appropriate"
      },
      {
-      "t": "Confirmation Bacteriological / Clinical (Circle appropriate)<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical<br/>Bacteriological / Clinical"
+      "t": "Confirmation Bateriological / Clinical (Circle appropriate)"
      },
      {
       "t": "Date of TB Treatment Initiation (dd/mm/yyyy)"
      },
      {
-      "t": "(HIV Status R/N R / U K)"
+      "t": "HIV Status R/NR/UK"
      },
      {
       "t": "On ART (Yes / No)"
@@ -11956,10 +11649,10 @@
       "t": "Date of ART Initiation (dd/mm/yyyy)"
      },
      {
-      "t": "Date of ART initiation (dd/mm/yyyy)"
+      "t": "Date of ART initiation (dd/mm/yyy)"
      },
      {
-      "t": "Latest CD4 and Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date<br/>CD4 Count Date"
+      "t": "Latest CD4 and Date"
      },
      {
       "t": "Comorbidities"
@@ -11974,14 +11667,89 @@
       "t": "Outpatient / inpatient"
      },
      {
-      "t": "Recommen- dations"
+      "t": "Recommendations"
      },
      {
       "t": "Addressed (Y/N)"
      }
     ]
    ],
-   "footnotes": [],
+   "body": [
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "P / EP"
+     },
+     {
+      "t": "Bateriological / Clinical"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": "CD4 Count Date"
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     },
+     {
+      "t": ""
+     }
+    ]
+   ],
+   "footnotes": [
+    "A blank register (8 empty rows in the source; one shown). Above the columns: 'Reporting Month: ....', 'TB Mortality Review Report: ....', 'Facility Name:'. The columns are grouped as Patient Demographics (Name to Date of TB Treatment Initiation) and TB / HIV (from HIV status). 'Date of ART initiation' appears twice, as printed."
+   ],
    "source_flags": [],
    "pages": [
     271
@@ -12150,6 +11918,7 @@
  },
  "text_merge": {},
  "text_drop": [
+  "tb-2025-0124",
   "tb-2025-0739"
  ],
  "text_fix_pages": [

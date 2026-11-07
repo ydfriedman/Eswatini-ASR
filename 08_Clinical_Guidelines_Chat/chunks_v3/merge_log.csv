@@ -1612,7 +1612,8 @@ tb-2025-0052,cleaned,
 tb-2025-0054,cleaned,
 tb-2025-0054,label,"1.7 Natural History of TB > Table 3: Summary of the new TB National Strategic Plan => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.1 Introduction"
 tb-2025-0063,label,"2.3 Communication > 2.3.2 Key Messages, Target audiences and Channels of Communication > Table 4: Target audience, communication channels/modes and key messages => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.4 Social Mobilization"
-tb-2025-0065,label,"2.3 Communication > Table 5: ACSM intervention and desired behaviors and outcomes => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.4 Social Mobilization > ACSM Desired Behaviours and Outcomes"
+tb-2025-0065,emptied,
+tb-2025-0067,emptied,
 tb-2025-0071,label,"2.5 Stigma and Discrimination > Table 5: ACSM intervention and desired behaviors and outcomes => Chapter 2: TB Advocacy, Communication and Social Mobilisation > 2.5 Stigma and Discrimination > Strategies to Address Stigma; 2.6 Health Education"
 tb-2025-0072,emptied,
 tb-2025-0090,label,3.2 Screening tools for systematic TB screening > 3.2.5 Intensified case finding in health facilities => Chapter 3: Tuberculosis Case Finding > 3.2.6 Active Case Finding in Health Facilities > Parallel Screening (Symptoms and CXR)
@@ -1620,9 +1621,9 @@ tb-2025-0091,label,3.2 Screening tools for systematic TB screening > 3.2.5 Inten
 tb-2025-0092,label,3.2 Screening tools for systematic TB screening > 3.2.5 Intensified case finding in health facilities => Chapter 3: Tuberculosis Case Finding > 3.2.7.1 Models of Community-based Case Finding
 tb-2025-0093,label,3.2 Screening tools for systematic TB screening > 3.2.5 Intensified case finding in health facilities => Chapter 3: Tuberculosis Case Finding > 3.2.7.2 Active Case Finding Through Contact Investigation
 tb-2025-0097,label,3.2 Screening tools for systematic TB screening > Tuberculosis Case Finding => Chapter 3: Tuberculosis Case Finding > 3.2.7.2 Contact Investigation > Procedures; 3.2.7.3 Integrated Mobile Clinics
+tb-2025-0114,cleaned,
 tb-2025-0114,label,3.4 Strategies to ensure optimal TB screening coverage > 3.4.1 Cascade analysis and continuous quality improvement > Table 8: TB screening cascade > Table 9: Example of possible gap identified by cascade analysis and action to be taken => Chapter 3: Tuberculosis Case Finding > 3.4.1 Cascade Analysis > Acting on Gaps (Table 9)
 tb-2025-0121,label,"3.5 Linking people with presumptive TB for diagnosis and treatment > 3.5.2 Sputum Collection, Labelling, Storage and Transport > Spot – Morning => Chapter 3: Tuberculosis Case Finding > 3.5.2 Sputum Collection, Labelling, Storage and Transport"
-tb-2025-0123,cleaned,
 tb-2025-0123,label,3.6 Recording of TB case-finding activities => Chapter 3: Tuberculosis Case Finding > 3.6 Recording of TB Case-finding Activities
 tb-2025-0125,emptied,
 tb-2025-0134,emptied,
@@ -1643,6 +1644,7 @@ tb-2025-0232,label,6.4 Standard TB treatment regimens for adults => Chapter 6: T
 tb-2025-0237,label,6.4 Standard TB treatment regimens for adults > Table 14: Recommended treatment regimen and dosages for adult cases of new and re-registered cases => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.4 Treatment Regimens (Previously Treated Patients); 6.5 Pyridoxine Supplementation
 tb-2025-0251,label,6.6 Treatment of Extra-Pulmonary Tuberculosis (EPTB) > The mechanism of hepatoprotection is three-fold. => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.6.8 Treatment for Patients with Liver Disorders > Hepatoprotection
 tb-2025-0256,cleaned,
+tb-2025-0268,cleaned,
 tb-2025-0269,label,6.9 Care and support people with TB => Chapter 6: Treatment of Drug-Susceptible Tuberculosis > 6.9 Care and Support for People with TB
 tb-2025-0278,cleaned,
 tb-2025-0281,cleaned,
@@ -1650,7 +1652,7 @@ tb-2025-0287,label,7.2 Anti-TB drugs used in DR-TB treatment > Table 23: Medicin
 tb-2025-0290,cleaned,
 tb-2025-0290,label,7.3 Treatment of DR-TB > Before initiation of treatment > Figure 20: Algorithm for treatment selection and modification => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.1 DR-TB Treatment Considerations > Before Initiation of Treatment
 tb-2025-0292,label,7.3 Treatment of DR-TB > 7.3.2 Eligibility to BPaLM/BPaL or mSTR regimen > Box 1: Eligibility criteria for the BPaLM regimen => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3 Treatment of DR-TB > Figure 20 Notes; Box 1: Eligibility for BPaLM
-tb-2025-0295,cleaned,
+tb-2025-0295,emptied,
 tb-2025-0301,label,"7.3 Treatment of DR-TB > 7.3.4 RR/MDR-TB treatment regimens > (c) Switch to ITR shall be considered earlier in patients with a clear lack of response (clinically, smear grading, culture). > (i) 6-month Bdq-Dlm-Lzd-Lfx-Cfz treatment regimen => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.4 RR/MDR-TB Treatment Regimens > (ii) 9-month Bdq-based Regimens; (iii) Longer Regimens"
 tb-2025-0302,label,"7.3 Treatment of DR-TB > 7.3.4 RR/MDR-TB treatment regimens > (c) Switch to ITR shall be considered earlier in patients with a clear lack of response (clinically, smear grading, culture). > (i) 6-month Bdq-Dlm-Lzd-Lfx-Cfz treatment regimen => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.4 RR/MDR-TB Treatment Regimens > (iv) Isoniazid-resistant TB"
 tb-2025-0307,label,7.3 Treatment of DR-TB > 7.3.5 DRTB Treatment in Comorbidities and Special Situations => Chapter 7: Drug-Resistant Tuberculosis Management > 7.3.5.2 CNS or Osteoarticular Disease; 7.3.5.3 People with Hepatic Disease
@@ -1671,13 +1673,14 @@ tb-2025-0363,cleaned,
 tb-2025-0363,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection > Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.4 Clinical Diagnosis > Figure 22 (Decision Tree without CXR)"
 tb-2025-0369,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.1 Recommended Regimens > Notes to Table 34"
 tb-2025-0370,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity of TB Disease in Children"
+tb-2025-0371,cleaned,
 tb-2025-0371,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) > Mild TB symptoms that do not require hospitalization are => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity > Mild (Non-severe) TB"
 tb-2025-0387,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 Treatment of Drug-resistant TB in Children"
 tb-2025-0388,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.12 DR-TB in Children (Monitoring); 8.13 Management of a Newborn from a Mother with TB"
 tb-2025-0389,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.13 Management of a Newborn from a Mother with TB"
 tb-2025-0390,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.11 Poor Response to Treatment => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.14 TB Preventive Treatment in Children"
 tb-2025-0402,emptied,
-tb-2025-0418,cleaned,
+tb-2025-0422,cleaned,
 tb-2025-0434,label,"9.6 Management of specific conditions > 9.6.5 Management of Peripheral Neuropathy > Rarely, medication may be discontinued, but only if an alternative drug is available or the regimen is not compromised. => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms"
 tb-2025-0435,label,9.6 Management of specific conditions > 9.6.5 Management of Peripheral Neuropathy => Chapter 9: Pharmacovigilance and Adverse Event Management > 9.6.6 Management of Psychiatric Symptoms > Acute Psychosis
 tb-2025-0446,cleaned,
@@ -1700,7 +1703,7 @@ tb-2025-0503,label,10.2 Care and support for people with TB/HIV treatment => Cha
 tb-2025-0518,cleaned,
 tb-2025-0518,label,10.6 Management of TB in children living with HIV > Footnotes => Chapter 10: TB and HIV Collaborative Activities > 10.6 TB in Children Living with HIV > Footnotes to Dosing Table
 tb-2025-0523,label,10.7 Management of TB in patients with advanced HIV disease > Table 50: TB/HIV Simplified Treatment Table => Chapter 10: TB and HIV Collaborative Activities > 10.7.2 Advanced HIV Assessment; 10.8 Advanced HIV Package of Care
-tb-2025-0530,label,10.8.4 Histoplasmosis > Table 52: Components of the package of care for people with advanced HIV disease => Chapter 10: TB and HIV Collaborative Activities > 10.8 Advanced HIV Package of Care (Table Notes)
+tb-2025-0530,emptied,
 tb-2025-0531,label,10.8.4 Histoplasmosis => Chapter 11: Tuberculosis Preventive Treatment > 11.1 Introduction
 tb-2025-0536,cleaned,
 tb-2025-0538,emptied,
@@ -1711,26 +1714,29 @@ tb-2025-0544,label,11.6 Ruling out active tuberculosis disease (TB/DR-TB) > Neit
 tb-2025-0545,label,"11.6 Ruling out active tuberculosis disease (TB/DR-TB) > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption => Chapter 11: Tuberculosis Preventive Treatment > 11.7 Preparation before TPT Initiation > Ineligibility for TPT"
 tb-2025-0548,cleaned,
 tb-2025-0548,label,11.8 TPT Regimens and Dosing => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing
-tb-2025-0553,label,11.8 TPT Regimens and Dosing => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Regimen Abbreviations
+tb-2025-0553,emptied,
 tb-2025-0556,label,"11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 55: TPT regimen and drug dosing => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Notes to Table 55"
 tb-2025-0561,label,"11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT for Contacts of DR-TB (Levofloxacin) > Notes"
 tb-2025-0563,label,"11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available => Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens > 3HP Exclusions; Which TPT Regimen to Give"
 tb-2025-0565,label,11.8 TPT Regimens and Dosing > Which TBI treatment regimen option to give? > Ineligibility for TPT => Chapter 11: Tuberculosis Preventive Treatment > 11.8 Which TPT Regimen to Give > Ineligibility for TPT
 tb-2025-0566,label,11.8 TPT Regimens and Dosing > Which TBI treatment regimen option to give? > Repeat Course of TPT => Chapter 11: Tuberculosis Preventive Treatment > 11.8 Which TPT Regimen to Give > Repeat Course of TPT
+tb-2025-0572,cleaned,
 tb-2025-0572,label,11.11 Monitoring and management of Adverse events > Table 59: Documented adverse events with drug used for TPT > Table 60: Management strategies for adverse events of TPT => Chapter 11: Tuberculosis Preventive Treatment > 11.11 Monitoring and Management of Adverse Events (Table 60)
 tb-2025-0577,label,11.11 Monitoring and management of Adverse events > Which TBI treatment regimen option to give? > How to manage TPT regimen if switched for severe AE => Chapter 11: Tuberculosis Preventive Treatment > 11.11 Adverse Events > How to Manage TPT Regimen if Switched for Severe AE
 tb-2025-0581,label,11.13 TPT completion and management of TBI treatment interruption > Table 61: Minimum requirement of TPT completion (doses) and extended duration => Chapter 11: Tuberculosis Preventive Treatment > 11.13 TPT Completion and Management of Treatment Interruption
 tb-2025-0594,emptied,
 tb-2025-0603,cleaned,
+tb-2025-0605,emptied,
 tb-2025-0610,cleaned,
 tb-2025-0614,cleaned,
 tb-2025-0619,label,12.2 TB infection prevention and control measures > 12.2.2 Environmental Control Measures > Surgical Masks => Chapter 12: TB Infection Prevention and Control > 12.3 Personal Respiratory Protection > Surgical Masks
 tb-2025-0620,label,12.2 TB infection prevention and control measures > 12.2.2 Environmental Control Measures > Surgical Masks => Chapter 12: TB Infection Prevention and Control > 12.4.1 TB IPC in Health Facilities
-tb-2025-0653,label,"13.3 Mental Health > Table 69: Provisional diagnosis and recommended action according to PHQ9 score => Chapter 13: Integrated Management of TB and Non-Communicable Diseases > 13.3 Mental Health > Depression (Suicidal Thoughts, PHQ-9 Actions)"
+tb-2025-0641,cleaned,
+tb-2025-0653,emptied,
 tb-2025-0665,cleaned,
-tb-2025-0674,label,"14.1 Zoonotic TB and MOTT > 14.1.5 Treatment > Table 72: Treatment of disease by M. bovis => Chapter 14: Zoonotic TB, Mycobacteria Other Than TB and Leprosy > 14.1.5.1 Treatment of M. bovis (Notes)"
+tb-2025-0674,emptied,
 tb-2025-0678,label,"14.1 Zoonotic TB and MOTT > Table 73: Treatment Regimens for MOTT Species => Chapter 14: Zoonotic TB, Mycobacteria Other Than TB and Leprosy > 14.2 Leprosy > 14.2.1 Transmission"
-tb-2025-0688,cleaned,
+tb-2025-0688,emptied,
 tb-2025-0691,label,14.2.10 Care for Prevention of impairments leading to disability > Tuberculosis Mortality Reviews => Chapter 15: Tuberculosis Mortality Reviews > Introduction
 tb-2025-0698,emptied,
 tb-2025-0701,cleaned,
@@ -1760,7 +1766,6 @@ tb-2025-0363,trailing heading dropped (next is a table/flowchart),## **Figure 22
 tb-2025-0163,merged into,tb-2025-0162
 tb-2025-0244,merged into,tb-2025-0243
 tb-2025-0281,merged into,tb-2025-0278
-tb-2025-0295,merged into,tb-2025-0294
 tb-2025-0320,merged into,tb-2025-0319
 tb-2025-0451,merged into,tb-2025-0450
 tb-2025-0486,merged into,tb-2025-0485
