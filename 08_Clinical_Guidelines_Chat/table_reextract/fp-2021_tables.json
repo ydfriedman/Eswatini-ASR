@@ -182,7 +182,8 @@
    "footnotes": [],
    "source_flags": [],
    "pages": [
-    32
+    32,
+    33
    ],
    "context_before": "When to Start"
   },
@@ -209,10 +210,10 @@
    "body": [
     [
      {
-      "t": "• Is universally available and free.<br/>• Helps protect against the risk of<br/>pregnancy<br/>• Encourages exclusive<br/>breastfeeding.<br/>• It does not interfere with the act<br/>of sexual intercourse.<br/>• No supplies or procedures<br/>needed and has no side effects.<br/>• Effective in all women<br/>regardless of body weight"
+      "t": "• Is universally available and free.<br/>• Helps protect against the risk of pregnancy<br/>• Encourages exclusive breastfeeding.<br/>• It does not interfere with the act of sexual intercourse.<br/>• No supplies or procedures needed and has no side effects.<br/>• Effective in all women regardless of body weight"
      },
      {
-      "t": "• Provides no protection against<br/>STI’s including HIV.<br/>• Effectiveness after exclusive<br/>breastfeeding period is not certain.<br/>• Frequent breastfeeding may<br/>be inconvenient or difficult for<br/>some women, especially working<br/>mothers.<br/>• If the mother is HIV positive there<br/>is a risk that the virus will be<br/>transmitted to the baby through the<br/>breast milk.<br/>• If woman develops severe medical<br/>breasts conditions, the method can<br/>be compromised."
+      "t": "• Provides no protection against STI’s including HIV.<br/>• Effectiveness after exclusive breastfeeding period is not certain.<br/>• Frequent breastfeeding may be inconvenient or difficult for some women, especially working mothers.<br/>• If the mother is HIV positive there is a risk that the virus will be transmitted to the baby through the breast milk.<br/>• If woman develops severe medical breasts conditions, the method can be compromised."
      }
     ]
    ],
@@ -395,12 +396,15 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed rotated across pp.29-30 of the guide (PDF pp.40-41); the four category columns continue on the second page."
+   ],
    "source_flags": [
-    "POP eligibility categories differ from the WHO MEC: elevated BP ≥160/100, history of DVT, stroke and ischaemic heart disease at initiation are WHO category 2 for POPs (here 3); acute DVT/PE, ischaemic heart disease or stroke while continuing, and SLE with antiphospholipid antibodies are WHO category 3 (here 4)."
+    "POP eligibility: acute DVT/pulmonary embolism is placed in category 3; the WHO MEC (2015) puts it in category 2 for progestin-only pills. Ritonavir-boosted protease inhibitors are category 3 here; WHO MEC 2015 lists them as category 2 for POPs (reduced effectiveness is less of a concern than for combined methods). Check against the current WHO MEC before relying on these two rows."
    ],
    "pages": [
-    40
+    40,
+    41
    ],
    "context_before": "Who can use POPs: MEC Nearly all women can use POPs safely and effectively, including women who:"
   },
@@ -508,25 +512,29 @@
    "body": [
     [
      {
-      "t": "Nearly all women can use COCs safely and effectively, including women who:<br/>• Have or have not had children<br/>• Are of any age, including adolescents and women over 40 years old<br/>• After childbirth and during breastfeeding, after a period of time • Have just had an abortion, miscarriage, or ectopic pregnancy<br/>• Smoke cigarettes, if under 35 years old<br/>• Have anemia now or had in the past<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
+      "t": "Nearly all women can use COCs safely and effectively, including women who:<br/>• Have or have not had children<br/>• Are of any age, including adolescents and women over 40 years old<br/>• After childbirth and during breastfeeding, after a period of time<br/>• Have just had an abortion, miscarriage, or ectopic pregnancy<br/>• Smoke cigarettes, if under 35 years old<br/>• Have anemia now or had in the past<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
      },
      {
-      "t": "• Age above 40 years<br/>• Breastfeeding more than 6 months after delivery<br/>• Non-breastfeeding women 21 – 42 days with no risk of venous thromboembolism<br/>• Smoking and age less than 35 years<br/>• Obesity<br/>• History of p high blood pressure during pregnancy<br/>• Family history of DVT/PE<br/>• Major surgery without prolonged immobilization<br/>• Superficial thrombophlebitis<br/>• Uncomplicated Valvular heart disease • Systemic lupus erythematous (associated with severe thrombocytopenia or are on Immunosuppressive treatment)<br/>• Non-migraine headache (mild or severe) in continuing clients<br/>• Migraine headache without aura at age less than 35 years for Initiating clients<br/>• Unexplained vaginal bleeding before evaluation<br/>• Cervical intraepithelial neoplasia or cervical cancer awaiting treatment<br/>• Undiagnosed breast mass<br/>• Insulin dependent Diabetes Mellitus<br/>• Asymptomatic gall bladder disease<br/>• HIV treatment with NNRTIs and PIs"
+      "t": "• Age above 40 years<br/>• Breastfeeding more than 6 months after delivery<br/>• Non-breastfeeding women 21 – 42 days with no risk of venous thromboembolism<br/>• Smoking and age less than 35 years<br/>• Obesity<br/>• History of p high blood pressure during pregnancy<br/>• Family history of DVT/PE<br/>• Major surgery without prolonged immobilization<br/>• Superficial thrombophlebitis<br/>• Uncomplicated Valvular heart disease<br/>• Systemic lupus erythematous (associated with severe thrombocytopenia or are on Immunosuppressive treatment)<br/>• Non-migraine headache (mild or severe) in continuing clients<br/>• Migraine headache without aura at age less than 35 years for Initiating clients<br/>• Unexplained vaginal bleeding before evaluation<br/>• Cervical intraepithelial neoplasia or cervical cancer awaiting treatment<br/>• Undiagnosed breast mass<br/>• Insulin dependent Diabetes Mellitus<br/>• Asymptomatic gall bladder disease<br/>• HIV treatment with NNRTIs and PIs"
      },
      {
       "t": "• Breastfeeding 6 weeks to 6 months after delivery<br/>• Acute Viral hepatitis<br/>• TB patients on Rifampicin or Rifabutin therapy<br/>• Anticonvulsant therapy (phenytoin, carbamazepine, barbiturates)"
      },
      {
-      "t": "• Breastfeeding less than 6 weeks postpartum<br/>• Smoking and age more than 35 year (smoking more than 15 cigarettes/day)<br/>• Non-breastfeeding less than 21 days after delivery with or without risk of venous thromboembolism<br/>• Symptomatic gall bladder disease (medically treated and current)<br/>• Severe hypertension (systolic >160 or diastolic >100 mm Hg) and hypertension with vascular complications<br/>• Hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension) • History of DVT/PE or current DVT/PE or DVT/PE on anticoagulant therapy<br/>• Major surgery with prolonged immobilization<br/>• History of stroke<br/>• History of or current ischaemic heart disease<br/>• Complicated Valvular heart disease<br/>• Systemic Lupus Erythematosus with positive antiphospholipid antibodies<br/>• Migraine headache with aura at any age<br/>• Severe liver cirrhosis (decompensated)<br/>• Current breast cancer<br/>• Liver Cancer<br/>• Known thrombogenic mutation<br/>• Benign liver tumours"
+      "t": "• Breastfeeding less than 6 weeks postpartum<br/>• Smoking and age more than 35 year (smoking more than 15 cigarettes/day)<br/>• Non-breastfeeding less than 21 days after delivery with or without risk of venous thromboembolism<br/>• Symptomatic gall bladder disease (medically treated and current)<br/>• Severe hypertension (systolic >160 or diastolic >100 mm Hg) and hypertension with vascular complications<br/>• Hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)<br/>• History of DVT/PE or current DVT/PE or DVT/PE on anticoagulant therapy<br/>• Major surgery with prolonged immobilization<br/>• History of stroke<br/>• History of or current ischaemic heart disease<br/>• Complicated Valvular heart disease<br/>• Systemic Lupus Erythematosus with positive antiphospholipid antibodies<br/>• Migraine headache with aura at any age<br/>• Severe liver cirrhosis (decompensated)<br/>• Current breast cancer<br/>• Liver Cancer<br/>• Known thrombogenic mutation<br/>• Benign liver tumours"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed rotated across pp.40-41 of the guide (PDF pp.51-52); each column continues on the second page."
+   ],
    "source_flags": [
-    "COCs category 4 includes 'hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)'; in the WHO MEC adequately controlled hypertension and BP 140-159/90-99 are category 3, and only BP ≥160/≥100 or vascular disease is category 4."
+    "COCs category 4 includes 'hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)'; in the WHO MEC adequately controlled hypertension and BP 140-159/90-99 are category 3, and only BP ≥160/≥100 or vascular disease is category 4.",
+    "'Smoking, if under 35 years old' is listed under MEC category 1 and 'Smoking and age less than 35 years' under category 2; the WHO MEC puts smoking at age <35 in category 2."
    ],
    "pages": [
-    51
+    51,
+    52
    ],
    "context_before": "Who can use COCs:"
   },
@@ -598,51 +606,28 @@
    "body": [
     [
      {
-      "t": "• Women of any parity<br/>• Are of any age, including adolescents and women over 40 years old<br/>• Have just had an abortion or miscarriage<br/>• Smoke any number of cigarettes daily and are under 35 years old"
+      "t": "• Women of any parity<br/>• Are of any age, including adolescents and women over 40 years old<br/>• Have just had an abortion or miscarriage<br/>• Smoke any number of cigarettes daily and are under 35 years old<br/>• Smoke fewer than 15 cigarettes daily and are over 35 years old<br/>• Have anaemia or history of anaemia<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
      },
      {
-      "t": "• Age above 40 years<br/>• Breastfeeding more than 6 months after delivery<br/>• Non-breastfeeding women 21 – 42 day with no risk of venous thromboembolism<br/>• Smoking and age less than 35 years<br/>• Obesity<br/>• History of high blood pressure during pregnancy where blood pressure is measured and is normal<br/>• Family history of DVT/PE<br/>• Major surgery without prolonged immobilization<br/>• Superficial thrombosis<br/>• Uncomplicated Valvular heart disease"
+      "t": "• Age above 40 years<br/>• Breastfeeding more than 6 months after delivery<br/>• Non-breastfeeding women 21 – 42 day with no risk of venous thromboembolism<br/>• Smoking and age less than 35 years<br/>• Obesity<br/>• History of high blood pressure during pregnancy where blood pressure is measured and is normal<br/>• Family history of DVT/PE<br/>• Major surgery without prolonged immobilization<br/>• Superficial thrombosis<br/>• Uncomplicated Valvular heart disease<br/>• Systemic lupus erythematous (associated with severe thrombocytopenia or are on Immunosuppressive treatment)<br/>• Non-migraine headache (mild or severe)<br/>• Migraine headache without aura at age less than 35 years for Initiating clients<br/>• Unexplained vaginal bleeding before evaluation<br/>• Cervical intraepithelial neoplasia or cervical cancer awaiting treatment<br/>• Undiagnosed breast mass<br/>• Uncomplicated Diabetes Mellitus<br/>• Asymptomatic gall bladder disease<br/>• HIV treatment with NNRTIs and PIs"
      },
      {
-      "t": "• Breastfeeding 6 weeks to 6 months after delivery<br/>• Non-breastfeeding less than 21 days after delivery with or without risk of venous thromboembolism<br/>• Smoking and age more than 35 years"
+      "t": "• Breastfeeding 6 weeks to 6 months after delivery<br/>• Non-breastfeeding less than 21 days after delivery with or without risk of venous thromboembolism<br/>• Smoking and age more than 35 years<br/>• Hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)<br/>• Migraine headache without aura at age less than 35 years for continuing clients<br/>• Symptomatic gall bladder disease<br/>• Acute Viral hepatitis"
      },
      {
-      "t": "• Breastfeeding less than 6 weeks postpartum<br/>• Severe hypertension (systolic >160 or diastolic >100 mm Hg) and hypertension with vascular complications<br/>• History of DVT/PE or current DVT/PE or DVT/PE on anticoagulant therapy<br/>• Major surgery with prolonged immobilization<br/>• History of stroke<br/>• History of or current ischaemic heart disease<br/>• Complicated Valvular heart disease<br/>• Complicated Diabetes Mellitus (vascular complications e.g. nephropathy, retinopathy)"
-     }
-    ],
-    [
-     {
-      "t": "• Smoke fewer than 15 cigarettes daily and are over 35 years old<br/>• Have anaemia or history of anaemia<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
-     },
-     {
-      "t": "• Systemic lupus erythematous (associated with severe thrombocytopenia or are on Immunosuppressive treatment)<br/>• Non-migraine headache (mild or severe)<br/>• Migraine headache without aura at age less than 35 years for Initiating clients<br/>• Unexplained vaginal bleeding before evaluation<br/>• Cervical intraepithelial neoplasia or cervical cancer awaiting treatment<br/>• Undiagnosed breast mass<br/>• Uncomplicated Diabetes Mellitus<br/>• Asymptomatic gall bladder disease<br/>• HIV treatment with NNRTIs and PIs"
-     },
-     {
-      "t": "• Hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)<br/>• Migraine headache without aura at age less than 35 years for continuing clients<br/>• Symptomatic gall bladder disease<br/>• Acute Viral hepatitis"
-     },
-     {
-      "t": "• HIV/AIDS on treatment<br/>Ritonavir boosted PIs<br/>• TB patients on Rifampicin or Rifabutin therapy<br/>• Systemic Lupus Erythematosus with positive antiphospholipid antibodies<br/>• Migraine headache without aura at age more than 35 years for continuing clients<br/>• Migraine headache with aura at any age<br/>• Severe liver cirrhosis (decompensated)<br/>• Current breast cancer<br/>• Liver Cancer<br/>• Anticonvulsant therapy (phenytoin, carbamazepine, barbiturates)"
-     }
-    ],
-    [
-     {
-      "t": "• Smoke fewer than 15 cigarettes daily and are over 35 years old<br/>• Have anaemia or history of anaemia<br/>• Have varicose veins<br/>• Are living with HIV, whether or not on antiretroviral therapy"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "• Multiple risk factors for arterial cardiovascular disease (such as older age, smoking, diabetes and hypertension"
+      "t": "• Breastfeeding less than 6 weeks postpartum<br/>• Severe hypertension (systolic >160 or diastolic >100 mm Hg) and hypertension with vascular complications<br/>• History of DVT/PE or current DVT/PE or DVT/PE on anticoagulant therapy<br/>• Major surgery with prolonged immobilization<br/>• History of stroke<br/>• History of or current ischaemic heart disease<br/>• Complicated Valvular heart disease<br/>• Complicated Diabetes Mellitus (vascular complications e.g. nephropathy, retinopathy)<br/>• HIV/AIDS on treatment Ritonavir boosted PIs<br/>• TB patients on Rifampicin or Rifabutin therapy<br/>• Systemic Lupus Erythematosus with positive antiphospholipid antibodies<br/>• Migraine headache without aura at age more than 35 years for continuing clients<br/>• Migraine headache with aura at any age<br/>• Severe liver cirrhosis (decompensated)<br/>• Current breast cancer<br/>• Liver Cancer<br/>• Anticonvulsant therapy (phenytoin, carbamazepine, barbiturates)<br/>• Multiple risk factors for arterial cardiovascular disease (such as older age, smoking, diabetes and hypertension)"
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "Printed rotated across pp.46-47 of the guide (PDF pp.57-58); each column continues on the second page. An empty bullet in the category 2 column on p.47 is omitted."
+   ],
+   "source_flags": [
+    "CIC eligibility differs from the WHO MEC (2015) in several rows: smoking <15 cigarettes/day at age ≥35 is category 1 here (WHO 2); ritonavir-boosted protease inhibitors, rifampicin/rifabutin and enzyme-inducing anticonvulsants are category 4 here (WHO 2 for combined injectables); migraine without aura at age ≥35 in continuing users is category 4 here (WHO 3). Check against the current WHO MEC."
+   ],
    "pages": [
-    57
+    57,
+    58
    ],
    "context_before": "Who can use CICs"
   },
@@ -669,10 +654,10 @@
    "body": [
     [
      {
-      "t": "• Provide long-term pregnancy protection.<br/>• Do not require the user to do anything once<br/>they are inserted<br/>• Are both long-lasting and reversible<br/>• Do not interfere with sex<br/>• Very effective for 3 to 5 years, depending on<br/>the type of implant used.<br/>• Immediately reversible.<br/>• Avoids user errors and problems with<br/>resupply<br/>• Helps protect against symptomatic pelvic<br/>inflammatory disease (PID)<br/>• Reduces risk of ectopic pregnancies<br/>• Cut down menstrual pains"
+      "t": "• Provide long-term pregnancy protection.<br/>• Do not require the user to do anything once they are inserted<br/>• Are both long-lasting and reversible<br/>• Do not interfere with sex<br/>• Very effective for 3 to 5 years, depending on the type of implant used.<br/>• Immediately reversible.<br/>• Avoids user errors and problems with resupply<br/>• Helps protect against symptomatic pelvic inflammatory disease (PID)<br/>• Reduces risk of ectopic pregnancies<br/>• Cut down menstrual pains"
      },
      {
-      "t": "• Does not protect<br/>against STIs and HIV/<br/>AIDS<br/>• Require specifically<br/>trained provider to<br/>insert and remove.<br/>• A woman cannot start<br/>or stop implants on her<br/>own."
+      "t": "• Does not protect against STIs and HIV/ AIDS<br/>• Require specifically trained provider to insert and remove.<br/>• A woman cannot start or stop implants on her own."
      }
     ]
    ],
