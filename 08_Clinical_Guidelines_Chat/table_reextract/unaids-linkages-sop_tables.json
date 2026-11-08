@@ -224,7 +224,7 @@
    "page": 22,
    "image_only": false,
    "heading_path": "5 Linkage to Treatment and Care > 5.4 Summary of Linkage case management services > Guiding Principles for Linkage Case Management",
-   "caption": "Guiding Principles for Linkage Case Management (1., LCM is voluntary; all eligible patients are free to enroll or discontinue services.)",
+   "caption": "Guiding Principles for Linkage Case Management",
    "replaces_chunks": [
     "unaids-linkages-sop-0025"
    ],
@@ -232,14 +232,22 @@
    "header": [
     [
      {
+      "t": "No."
+     },
+     {
+      "t": "Principle"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
       "t": "1."
      },
      {
       "t": "LCM is voluntary; all eligible patients are free to enroll or discontinue services."
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "2."
@@ -273,7 +281,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "A numbered list printed in a box; no header row in the source (headings added here)."
+   ],
    "source_flags": [],
    "pages": [
     22
@@ -285,7 +295,7 @@
    "page": 26,
    "image_only": false,
    "heading_path": "9 Intra-Facility Linkage Case Management > 9.2.1 The EC will provide the following",
-   "caption": "9.2.1 The EC will provide the following (Facilitate Screening for TB and NCDs.)",
+   "caption": "9.2.1 The EC will provide the following",
    "replaces_chunks": [
     "unaids-linkages-sop-0033"
    ],
@@ -293,11 +303,16 @@
    "header": [
     [
      {
-      "t": "Facilitate Screening for TB and NCDs."
+      "t": "The EC will provide the following"
      }
     ]
    ],
    "body": [
+    [
+     {
+      "t": "Facilitate Screening for TB and NCDs."
+     }
+    ],
     [
      {
       "t": "Conduct ART Readiness assessment."
@@ -334,7 +349,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed as a column of boxes; no header row in the source (heading added here)."
+   ],
    "source_flags": [],
    "pages": [
     26
@@ -495,7 +512,9 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "The box heading 'Client on arrival at co-located ART clinic' is printed as in 9.3, although this section is about the inpatient department."
+   ],
    "source_flags": [],
    "pages": [
     27
@@ -506,22 +525,18 @@
    "page": 28,
    "image_only": false,
    "heading_path": "9 Intra-Facility Linkage Case Management > 9.5 Initiating ART at the community (Annex 1)",
-   "caption": "9.5 Initiating ART at the community (Annex 1) (Client referred after initiation)",
+   "caption": "9.5 Initiating ART at the community (Annex 1): client referred after initiation",
    "replaces_chunks": [
     "unaids-linkages-sop-0039"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "Client referred after initiation"
-     },
-     {
-      "t": ""
+      "t": "Client referred after initiation",
+      "cs": 2
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "On Arrival at clinic"
@@ -529,7 +544,9 @@
      {
       "t": "The health care worker"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "∞ The client submits referral form to health care worker and thus should be fast tracked into the adherence room."
@@ -582,7 +599,7 @@
    "page": 32,
    "image_only": false,
    "heading_path": "12.3 Day Zero responsibilities > Clients Initiating ART",
-   "caption": "Clients Initiating ART (HTS Provider, Linkage's facilitator, Nurse/Doctor, Client)",
+   "caption": "12.3 Day Zero responsibilities: clients initiating ART and clients delaying ART initiation",
    "replaces_chunks": [
     "unaids-linkages-sop-0046",
     "unaids-linkages-sop-0047",
@@ -591,7 +608,7 @@
     "unaids-linkages-sop-0053",
     "unaids-linkages-sop-0055"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
@@ -609,78 +626,44 @@
     ]
    ],
    "body": [
+    {
+     "section": "Clients initiating ART"
+    },
     [
      {
-      "t": "- Verify in CMIS client details and background.<br/>- Assess coping with HIV diagnosis, and explain importance of linkage to ART.<br/>- Document detailed client contact information both cell phone number and physical address in the Chronic Care Files or CMIS.<br/>- Provide motivational counseling and information including the benefits of early ART initiation."
+      "t": "- Verify in CMIS client details and background.<br/>- Assess coping with HIV diagnosis, and explain importance of linkage to ART.<br/>- Document detailed client contact information both cell phone number and physical address in the Chronic Care Files or CMIS.<br/>- Provide motivational counseling and information including the benefits of early ART initiation.<br/>- Provide counseling on disclosure and testing of Partner, Family and Associates (PFAs).<br/>- Ask about and list all PFAs that are available and who would benefit from testing (i.e., live within the catchment area of the facility or will visit the area before case closure)<br/>- Offer partner notification services for testing as per HTS guidelines.<br/>- Document the client in the linkage logbook/CMIS.<br/>- Introduce clients to the ECs/ MM/ Nurse.<br/>- Follow up with the client's outcome and document ART number in the HTS register and linkages logbook/ CMIS.<br/>- For clients delaying initiation, the HTS provider will initiate escalated referral for higher level intervention.<br/>- Escort client to ART clinic and facilitate registration for ART care"
      },
      {
-      "t": "- Escort clients to ART clinics and facilitate registration for ART care.<br/>- Provide face-to-face counseling sessions on the benefits of early enrollment in care and ART, disclosure, and testing of PFAs/index testing.<br/>- Conduct ART readiness assessment using the standardized tool and document.<br/>- Screen for NCDs"
+      "t": "- Escort clients to ART clinics and facilitate registration for ART care.<br/>- Provide face-to-face counseling sessions on the benefits of early enrollment in care and ART, disclosure, and testing of PFAs/index testing.<br/>- Conduct ART readiness assessment using the standardized tool and document.<br/>- Screen for NCDs<br/>- Provide motivational and informational counseling, including personal testimonials.<br/>- Open chronic care file and document adherence session provided to client assist clients to navigate across services (e.g. triage, clinical consultation, laboratory, etc.).<br/>- Document the assigned case in the linkage's management logbook.<br/>- Assess and resolve real and perceived barriers to care.<br/>- Provide counseling on disclosure.<br/>- Facilitate testing of partners, family members, and associates (PFAs).<br/>- Inform clients that there will be on going face to face sessions for the next 6 months.<br/>- Complete appropriate sections of LCM register/ CMIS<br/>- Appoint the client in the ART appointment register/ CMIS.<br/>- For clients delaying initiation, the EC/ Mentor Mother/ adherence officer will initiate escalated referral for higher level intervention.<br/>- Give facility contacts to clients so that clients can call if experiencing challenges.<br/>- Document facility's contact details on client health card upon initiation<br/>- For children and adolescents, educate caregiver(s) on treatment plan.<br/>- Provide IEC materials to the patient to assist with further understanding.<br/>- Refer to community- facility Linkage section.<br/>For clients returning to care<br/>- Welcome the client back to care.<br/>- Enhanced adherence counselling"
      },
      {
-      "t": "- Conduct HIV retesting for verification according to the national guidelines.<br/>- Review for ART initiation barriers (psychosocial /clinical barriers)<br/>- Emphasize the importance of maintaining a healthy lifestyle.<br/>- Explain treatment to patient."
+      "t": "- Conduct HIV retesting for verification according to the national guidelines.<br/>- Review for ART initiation barriers (psychosocial /clinical barriers)<br/>- Emphasize the importance of maintaining a healthy lifestyle.<br/>- Explain treatment to patient.<br/>- Document client in ART register/enter client in CMIS/APMR.<br/>- Assign and introduce Linkage facilitator for all clients.<br/>- Inform clients that if they experience any side effects, they should report to the facility.<br/>- Screen for NCD<br/>- Screen and initiate TPT<br/>- Inform the patient about tracing system.<br/>- Discuss with client on the next appointment as recommended per guidelines."
      },
      {
-      "t": "- To ensure s/he understands whole process.<br/>- Client should present their concerns, if any (maybe medical or social)<br/>- Take the decision to start treatment.<br/>- Elaborate an adherence plan with the HCW and to identify the best time for taking treatment, reminders, and place to store medication."
+      "t": "- To ensure s/he understands whole process.<br/>- Client should present their concerns, if any (maybe medical or social)<br/>- Take the decision to start treatment.<br/>- Elaborate an adherence plan with the HCW and to identify the best time for taking treatment, reminders, and place to store medication.<br/>- Return for follow-up/ management.<br/>- Call the facility if they will not be able to attend the scheduled appointment for rescheduling.<br/>- Contact the health care provider right away if they experience or observe unfamiliar symptoms.<br/>- Identifying a support System."
      }
     ],
+    {
+     "section": "Client delaying ART initiation (for clients delaying ART initiation, the goal is to initiate within 14 days)"
+    },
     [
      {
-      "t": "• Provide counseling on disclosure and testing of Partner, Family and Associates (PFAs).<br/>• Ask about and list all PFAs that are available and who would benefit from testing (i.e., live within the catchment area of the facility or will visit the area before case closure)<br/>• Offer partner notification services for testing as per HTS guidelines.<br/>• Document the client in the linkage logbook/CMIS."
+      "t": "- Verify in CMIS client details and background.<br/>- Document detailed client contact information both cell phone number and detailed physical address in the Chronic Care Files/ CMIS<br/>- Verify contact details provided by client.<br/>- Document the client in the linkage register / CMIS.<br/>- Refer clients delaying ART initiation using facility escalation counseling plan.<br/>- Elicitation of PFA<br/>- Clients refusing to be escorted should be given clear directions and complete the intra facility referral form."
      },
      {
-      "t": "• Provide motivational and informational counseling, including personal testimonials.<br/>• Open chronic care file and document adherence session provided to client assist clients to navigate across services (e.g., triage, clinical consultation, laboratory, etc.).<br/>• Document the assigned case in the linkage's management logbook.<br/>• Assess and resolve real and perceived barriers to care."
+      "t": "- Document detailed client contact information both cell phone number and physical address in the Chronic Care Files/ CMIS/LCM register<br/>- Provide motivational counseling and information including the benefits of early ART initiation.<br/>- Prepare client for Pretreatment viral load.<br/>- Document the client in the linkage register/CMIS.<br/>- Screen for NCDs<br/>- Refer clients delaying ART initiation using facility escalation counseling plan.<br/>- Refer client to be reviewed by nurse or doctor and provide intensified counselling.<br/>- Appoint client in the appointment register for follow up calls and further counselling sessions.<br/>- For children and adolescents, educate caregiver(s) on treatment plan.<br/>- Inform client of follow up contacts to be conducted by facility"
      },
      {
-      "t": "• Document client in ART register/enter client in CMIS/APMR.<br/>• Assign and introduce Linkage facilitator for all clients.<br/>• Inform clients that if they experience any side effects, they should report to the facility.<br/>• Screen for NCD"
+      "t": "- Review and resolve identified ART initiation barriers reported by expert client.<br/>- Emphasize on the benefits of ART and early enrolment to treatment.<br/>- For children and adolescents, inform caregivers on disease progression.<br/>- Discuss and agree with the client t for the next appointment date.<br/>- Adolescent Delaying ART must be referred to peer supporters for further counselling.<br/>- Children denied care by parents/guardian, refer client to social worker.<br/>- If client is still hesitant the client must be booked for another session of further counselling<br/>- Refer clients delaying ART initiation using facility escalation counseling plan.<br/>- Screen for NCDs<br/>- Screen and initiate TPT"
      },
      {
-      "t": "• Return for follow-up/ management.<br/>• Call the facility if they will not be able to attend the scheduled appointment for rescheduling.<br/>• Contact the health care provider right away if they experience or observe unfamiliar symptoms.<br/>• Identifying a support System."
-     }
-    ],
-    [
-     {
-      "t": "- Introduce clients to the ECs/ MM/ Nurse. - Follow up with the client's outcome and document ART number in the HTS register and linkages logbook/ CMIS. - For clients delaying initiation, the HTS provider will initiate escalated referral for higher level intervention. - Escort client to ART clinic and facilitate registration for ART care"
-     },
-     {
-      "t": "- Provide counseling on disclosure. - Facilitate testing of partners, family members, and associates (PFAs). - Inform clients that there will be on going face to face sessions for the next 6 months. - Complete appropriate sections of LCM register/ CMIS<br/>- ○ Appoint the client in the ART appointment register/ CMIS. - ○ For clients delaying initiation, the EC/ Mentor Mother/ adherence officer will initiate escalated referral for higher level intervention. - ○ Give facility contacts to clients so that clients can call if experiencing challenges. - ○ Document facility's contact details on client health card upon initiation o For children and adolescents, educate caregiver(s) on treatment plan. o Provide IEC materials to the patient to assist with further understanding. o Refer to community- facility Linkage section. For clients returning to care o Welcome the client back to care. o Enhanced adherence counselling<br/>- ○ Appoint the client in the ART appointment register/ CMIS. - ○ For clients delaying initiation, the EC/ Mentor Mother/ adherence officer will initiate escalated referral for higher level intervention. - ○ Give facility contacts to clients so that clients can call if experiencing challenges. - ○ Document facility's contact details on client health card upon initiation o For children and adolescents, educate caregiver(s) on treatment plan. o Provide IEC materials to the patient to assist with further understanding. o Refer to community- facility Linkage section. For clients returning to care o Welcome the client back to care. o Enhanced adherence counselling"
-     },
-     {
-      "t": "- Screen and initiate TPT - Inform the patient about tracing system. - Discuss with client on the next appointment as recommended per guidelines."
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "- Verify in CMIS client details and background. - Document detailed client contact information both cell phone number and detailed physical address in the Chronic Care Files/ CMIS - Verify contact details provided by client. - Document the client in the linkage register / CMIS."
-     },
-     {
-      "t": "- Document detailed client contact information both cell phone number and physical address in the Chronic Care Files/ CMIS/LCM register - Provide motivational counseling and information including the benefits of early ART initiation. - Prepare client for Pretreatment viral load. - Document the client in the linkage register/CMIS. - Screen for NCDs - Refer clients delaying ART initiation using facility escalation counseling plan."
-     },
-     {
-      "t": "- Review and resolve identified ART initiation barriers reported by expert client. - Emphasize on the benefits of ART and early enrolment to treatment. - For children and adolescents, inform caregivers on disease progression. - Discuss and agree with the client t for the next appointment date. - Adolescent Delaying ART must be referred to peer supporters for further counselling."
-     },
-     {
-      "t": "- To ensure s/he understands whole process. - Client should present their concerns, if any (maybe medical or social) - Return for follow-up/ management."
-     }
-    ],
-    [
-     {
-      "t": "- Refer clients delaying ART initiation using facility escalation counseling plan. - Elicitation of PFA - Clients refusing to be escorted should be given clear directions and complete the intra facility referral form."
-     },
-     {
-      "t": "- Refer client to be reviewed by nurse or doctor and provide intensified counselling. - Appoint client in the appointment register for follow up calls and further counselling sessions. - For children and adolescents, educate caregiver(s) on treatment plan. - Inform client of follow up contacts to be conducted by facility"
-     },
-     {
-      "t": "- Children denied care by parents/guardian, refer client to social worker. - If client is still hesitant the client must be booked for another session of further counselling - Refer clients delaying ART initiation using facility escalation counseling plan. - Screen for NCDs - Screen and initiate TPT"
-     },
-     {
-      "t": "- Contact the health care provider right away if they experience or observe unfamiliar symptoms. - Client should present their concerns, if any (maybe medical or social) - Take the decision to start treatment."
+      "t": "- To ensure s/he understands whole process.<br/>- Client should present their concerns, if any (maybe medical or social)<br/>- Return for follow- up/ management.<br/>- Contact the health care provider right away if they experience or observe unfamiliar symptoms.<br/>- Client should present their concerns, if any (maybe medical or social)<br/>- Take the decision to start treatment."
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Two tables printed rotated across pp.17-23 of the SOP, each one row of four role columns that continues over several pages; each column is given here as one list. The 14-day goal for clients delaying initiation is a callout above the second table."
+   ],
    "source_flags": [],
    "pages": [
     32,
@@ -698,22 +681,18 @@
    "page": 40,
    "image_only": false,
    "heading_path": "12.5 During telephone call",
-   "caption": "12.5 During telephone call (Linkages Facilitator ( EC/Adherence officer/Counselor))",
+   "caption": "12.5 During telephone call",
    "replaces_chunks": [
     "unaids-linkages-sop-0057"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "Linkages Facilitator ( EC/Adherence officer/Counselor)"
-     },
-     {
-      "t": ""
+      "t": "Linkages Facilitator ( EC/Adherence officer/Counselor)",
+      "cs": 2
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "Clients initiated on ART"
@@ -721,7 +700,9 @@
      {
       "t": "Clients delaying ART initiation"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
       "t": "- Introduce yourself and facility, ascertain if it is the right client. - Ascertain convenience of having call, if no, find out appropriate time - Establish rapport. - Assess coping with treatment. - Ask if they have any challenges they are experiencing with regards to treatment and assist them if possible - Ask if the client is having someone providing support. - Remind the client of the next call. - Record the call in the call log as needed and update in the chronic Care fil and the LCM register/CCF"
@@ -780,11 +761,11 @@
    "page": 42,
    "image_only": false,
    "heading_path": "12.7 DAY 14: FIRST CLINIC VISIT (1st ARV REFILL) > Objective of the visit",
-   "caption": "Objective of the visit (For clients who have not missed appointment, For Clients who missed appointment)",
+   "caption": "12.7 Day 14: first clinic visit (1st ARV refill) – clients who have and have not missed the appointment",
    "replaces_chunks": [
     "unaids-linkages-sop-0062"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
@@ -798,22 +779,16 @@
    "body": [
     [
      {
-      "t": "∞ Congratulate and appreciate client for honoring appointment."
+      "t": "∞ Congratulate and appreciate client for honoring appointment.<br/>∞ Fast track client in the facility for the first refill and inform the client that during other visits they will join the queue."
      },
      {
-      "t": "∞ Follow guidance on the management of missed appointment as stipulated in the appointment register (add steps)"
-     }
-    ],
-    [
-     {
-      "t": "∞ Fast track client in the facility for the first refill and inform the client that during other visits they will join the queue."
-     },
-     {
-      "t": "∞ Upon return, congratulate the client for coming back and discuss the importance of honoring appointments and providing intensified counselling.<br/>∞ Assess challenges they are experiencing and assist them to resolve them"
+      "t": "∞ Follow guidance on the management of missed appointment as stipulated in the appointment register (add steps)<br/>∞ Upon return, congratulate the client for coming back and discuss the importance of honoring appointments and providing intensified counselling.<br/>∞ Assess challenges they are experiencing and assist them to resolve them"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Two independent lists (the items side by side are not paired)."
+   ],
    "source_flags": [
     "Missed first refill visit: 'Follow guidance on the management of missed appointment as stipulated in the appointment register (add steps)' – an unfinished drafting placeholder; the steps are not given."
    ],
@@ -869,11 +844,11 @@
    "page": 44,
    "image_only": false,
    "heading_path": "12.9 Clients delaying initiation on ART",
-   "caption": "12.9 Clients delaying initiation on ART (Linkage's facilitator, Doctor/Nurse)",
+   "caption": "12.9 Clients delaying initiation on ART",
    "replaces_chunks": [
     "unaids-linkages-sop-0065"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
@@ -887,10 +862,10 @@
    "body": [
     [
      {
-      "t": "* Before the call, check ART barriers from the LCM from the LCM register and CCF."
+      "t": "- Before the call, check ART barriers from the LCM from the LCM register and CCF.<br/>- Call client: introduce yourself and facility, ascertain if it is the right client.<br/>- Ascertain convenience of having call, if no, find out appropriate time<br/>- Establish rapport.<br/>- Tailor-make conversation based on barriers ascertained.<br/>- Assess if the client is coping with HIV diagnosis.<br/>- Reassure client on available support for treatment and explore readiness for initiation.<br/>- Continue to conduct ART readiness assessment.<br/>- Refer client to be reviewed by nurse or doctor and provide intensified counselling.<br/>- Update contacts for patients both physical and cellphone number.<br/>- Update documentation in the linkages case management register.<br/>- Appoint client in the appointment register for follow up calls and further counselling sessions."
      },
      {
-      "t": ""
+      "t": "- Conduct client’s readiness assessment.<br/>- Address client’s immediate concerns and questions<br/>- Review and resolve previously identified barriers.<br/>- Provide the Pre-ART service package for clients delaying ART initiation.<br/>- Discuss and explain HIV disease progression with the client.<br/>- Agree with the client on the next appointment date.<br/>- Clients still refusing ART initiation, should be referred to the next level of escalation counselling according to the facility plan.<br/>- In case of adolescents refer for peer to peer counselling where possible"
      }
     ]
    ],
@@ -906,28 +881,34 @@
    "page": 45,
    "image_only": false,
    "heading_path": "12.11 During telephone call",
-   "caption": "12.11 During telephone call (Linkages Facilitator)",
+   "caption": "12.11 During telephone call (Day 21-29: third telephonic call)",
    "replaces_chunks": [
     "unaids-linkages-sop-0069"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "Linkages Facilitator"
-     },
-     {
-      "t": ""
+      "t": "Linkages Facilitator",
+      "cs": 2
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "Clients initiated on ART"
      },
      {
       "t": "Clients delaying ART initiation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- Introduce yourself and facility, ascertain if it is the right client.<br/>- Ascertain convenience of having call, if no, find out appropriate time<br/>- Assess how client is coping with ART treatment, check if there are any challenges.<br/>- Remind client of the next appointment date.<br/>- Check if clients have questions and give relevant responses.<br/>- Record the call in the call log as needed and update in the chronic care file."
+     },
+     {
+      "t": "- Before the call, check ART barriers from the LCM from LCM register and CCF.<br/>- Call client: introduce yourself and facility, ascertain if it is the right client.<br/>- Ascertain convenience of having call, if no, find out appropriate time.<br/>- Tailor-make conversation based on barriers ascertained.<br/>- Assess how the client is coping with HIV diagnosis.<br/>- Reassure client on available sup- port for treatment and explore readiness for initiation.<br/>- Record the call in the call log as needed and update in the chronic care file."
      }
     ]
    ],
@@ -1021,28 +1002,34 @@
    "page": 49,
    "image_only": false,
    "heading_path": "12.15 Day 44 - 60: Fourth Telephonic Call > During telephone call",
-   "caption": "During telephone call (Linkage Facilitator)",
+   "caption": "During telephone call (before the Day 60-90 third clinic visit)",
    "replaces_chunks": [
     "unaids-linkages-sop-0076"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "Linkage Facilitator"
-     },
-     {
-      "t": ""
+      "t": "Linkage Facilitator",
+      "cs": 2
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "Clients initiated on ART"
      },
      {
       "t": "Clients delaying ART initiation"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "- Assess coping with ART treatment.<br/>- Review disclosure plans and assess progress.<br/>- Troubleshoot immediate concerns regarding disclosure.<br/>- Review testing of plans and schedule for index partner testing<br/>- Provide motivational and informational counseling, including personal testimonials.<br/>- Assess coping and adherence, assess disclosure plans/outcomes, and elicit new index contacts; troubleshoot concerns and barriers to care.<br/>Record the call in the call log as needed and update in the chronic care file."
+     },
+     {
+      "t": "- Assess coping with the HIV diagnosis.<br/>- Reassure client on available support for coping with diagnosis and treatment.<br/>- Check if client has been visited by a community health volunteer on behalf of the facility.<br/>- Troubleshoot concerns and barriers to care.<br/>- Provide motivational and informational counseling, including personal testimonials on importance of early ART initiation.<br/>Record the call in the call log as needed and update the chronic care file."
      }
     ]
    ],
@@ -1138,33 +1125,41 @@
    "page": 53,
    "image_only": false,
    "heading_path": "12.18 DAY 150: FIFTH CLINIC VISIT (5th ARV REFILL) > Objective of the visit",
-   "caption": "Objective of the visit (Linkage Facilitator<br/>Clients initiated on ART, Linkage Facilitator<br/>Clients delaying ART initiation)",
+   "caption": "12.18 Day 150: fifth clinic visit (5th ARV refill)",
    "replaces_chunks": [
     "unaids-linkages-sop-0084"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "Linkage Facilitator<br/>Clients initiated on ART"
+      "t": "Linkage Facilitator",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Clients initiated on ART"
      },
      {
-      "t": "Linkage Facilitator<br/>Clients delaying ART initiation"
+      "t": "Clients delaying ART initiation"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "* Check any pending issues in the client chronic care file"
+      "t": "- Check any pending issues in the client chronic care file<br/>- Check if they have managed to disclose<br/>- Check if their contacts have been tested<br/>- Ask client if they have any challenges with treatment and assist with treatment.<br/>- Inform client about availability of DSD options if their viral load is undetectable<br/>- Remind the client of the next clinical visit."
      },
      {
-      "t": ""
+      "t": "- Inform client of the available support should they change their mind<br/>- Check if escalation counselling was done<br/>- Inform client that there is no need to test again, should they decide that they want to be initiated on ART<br/>- Discharge client from the LCM and document outcome"
      }
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "At the day-150 visit, clients still delaying ART are discharged from linkage case management; the table gives no further follow-up (e.g. community tracing or later re-contact) for people living with HIV who have not started treatment."
+   ],
    "pages": [
     53
    ]
@@ -1250,25 +1245,18 @@
    "page": 58,
    "image_only": false,
    "heading_path": "12.23 Responsibility Of Referring Facility",
-   "caption": "12.23 Responsibility Of Referring Facility (For clients referred after the first clinical visit)",
+   "caption": "12.23 Responsibility Of Referring Facility (for clients referred after the first clinical visit)",
    "replaces_chunks": [
     "unaids-linkages-sop-0094"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "For clients referred after the first clinical visit"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "For clients referred after the first clinical visit",
+      "cs": 3
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "Linkage's facilitator (Nurse/Expect Client/ Mentor Mother)"
@@ -1279,56 +1267,28 @@
      {
       "t": "Patient"
      }
-    ],
+    ]
+   ],
+   "body": [
     [
      {
-      "t": "- Make a follow up call to the client 3 days prior to the agreed date for visiting the preferred facility to remind client of the appointment."
+      "t": "- Conduct ART readiness assessment and highlight identified gaps that must be addressed during next visit<br/>- Assess and troubleshoot barriers to care.<br/>- Assess disclosure and testing of index contacts.<br/>- Follow up on eliciting index contacts<br/>- Provide motivational and informational counseling.<br/>- Update contacts for patients both physical and cellphone number<br/>- Discuss with their client their preferred facility for transfer and agree on a date the patient will visit the preferred facility.<br/>- Make a follow up call to the client 3 days prior to the agreed date for visiting the preferred facility to remind client of the appointment.<br/>- Call the preferred facility a day after the agreed date to ensure the client honored the appointment and document outcome in the linkage's logbook and update in the chronic care file.<br/>- Give the client the contact number of the facility they are referred too<br/>- Make follow up call to confirm linkages with the facility and call the client to get feedback"
      },
      {
-      "t": ""
+      "t": "- Collect physical history and conduct physical assessment.<br/>- Review pending laboratory results Assess for side effects and adherence.<br/>- Document all findings in the CCF / CMIS.<br/>- Initiate client on ART for client<br/>- Fill out referral form with detailed information and set up an appointment"
      },
      {
-      "t": "- Inform client that if they are not linked, clients will be referred to community health care worker."
-     }
-    ],
-    [
-     {
-      "t": "- Call the preferred facility a day after the agreed date to ensure the client honored the appointment and document outcome in the linkage's logbook and update in the chronic care file."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "- Give the client the contact number of the facility they are referred too"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "- Make follow up call to confirm linkages with the facility and call the client to get feedback"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "- To ensure s/he understand the process of referral and linkages<br/>- Client should Facility if they will not be able to honor their appointment.<br/>- Client must understand that it is their responsibility to ensure they are linked for treatment<br/>- Inform client that if they are not linked, clients will be referred to community health care worker."
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed rotated over two pages; each column is one list here. 'Client should Facility if...' is as printed (call the facility)."
+   ],
    "source_flags": [],
    "pages": [
-    58
+    58,
+    59
    ]
   },
   {
@@ -1372,12 +1332,12 @@
    "page": 64,
    "image_only": false,
    "heading_path": "12.27 Day Zero; Referral of HIV Positive Client > Responsibilities at community Linkages",
-   "caption": "Responsibilities at community Linkages (Community Linkages facilitator / health care worker, Client, Receiving health facility)",
+   "caption": "Responsibilities at community Linkages",
    "replaces_chunks": [
     "unaids-linkages-sop-0103",
     "unaids-linkages-sop-0105"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
@@ -1394,94 +1354,19 @@
    "body": [
     [
      {
-      "t": "○ Conduct ART readiness assessment and highlight identified gaps in the CCF and in the referral form"
+      "t": "○ Conduct ART readiness assessment and highlight identified gaps in the CCF and in the referral form<br/>○ Must be aware of available referral services (both clinical services and community resources) at the preferred facility.<br/>○ Must understand the services needed by the client.<br/>○ Initiate client on ART, give client two weeks supply<br/>○ Document referral form which include detailed physical address date client tested and HIV status or the services the client is being referred for.<br/>○ Agree on the appointment date and the client's preferred facility.<br/>○ Call the facility the client is being referred to make an appointment.<br/>- Complete the referral form comprehensively and ensure the client is booked at the referred facility - Escort or meet clients at facilities and provide treatment navigation services for at least the first facility visit as per the need of the client. - Do follow up with receiving facility to confirm linkage of referred client. - Conduct at least one follow-up support calls before ART initiation (if not on the day of diagnosis), and two follow-up support call. - For Community partners implementing Community ART, clients must be initiated before being referred out. - Discuss with the client the importance of index testing and disclosure."
      },
      {
-      "t": "○ Client to link to care on the same day or within 7 days if same day initiation is not possible."
+      "t": "○ Client to link to care on the same day or within 7 days if same day initiation is not possible.<br/>○ Provide the list for all sexual/ injecting partners, biological children below 15 years and associates.<br/>○ Client should disclose to significant others, family, and partner when appropriate.<br/>○ Client to honor appointments and adhere to treatment if initiated on ART"
      },
      {
-      "t": "○ Health care worker who receives the client and verifies information in CMIS if the facility is on CMIS."
-     }
-    ],
-    [
-     {
-      "t": "○ Must be aware of available referral services (both clinical services and community resources) at the preferred facility."
-     },
-     {
-      "t": "○ Provide the list for all sexual/ injecting partners, biological children below 15 years and associates."
-     },
-     {
-      "t": "○ If not already on ART conduct retesting for verification."
-     }
-    ],
-    [
-     {
-      "t": "○ Must understand the services needed by the client."
-     },
-     {
-      "t": "○ Client should disclose to significant others, family, and partner when appropriate."
-     },
-     {
-      "t": "○ The facility must call the community health care worker (if client was not escorted) to update on client referral."
-     }
-    ],
-    [
-     {
-      "t": "○ Initiate client on ART, give client two weeks supply"
-     },
-     {
-      "t": "○ Client to honor appointments and adhere to treatment if initiated on ART"
-     },
-     {
-      "t": "○ Document update in the referral form and file the referral slip."
-     }
-    ],
-    [
-     {
-      "t": "○ Document referral form which include detailed physical address date client tested and HIV status or the services the client is being referred for."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "○ Complete and return bottom referral slip to client to give to community health care workers."
-     }
-    ],
-    [
-     {
-      "t": "○ Agree on the appointment date and the client's preferred facility."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "○ Call the facility the client is being referred to make an appointment."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "- Complete the referral form comprehensively and ensure the client is booked at the referred facility - Escort or meet clients at facilities and provide treatment navigation services for at least the first facility visit as per the need of the client. - Do follow up with receiving facility to confirm linkage of referred client. - Conduct at least one follow-up support calls before ART initiation (if not on the day of diagnosis), and two follow-up support call. - For Community partners implementing Community ART, clients must be initiated before being referred out. - Discuss with the client the importance of index testing and disclosure."
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
+      "t": "○ Health care worker who receives the client and verifies information in CMIS if the facility is on CMIS.<br/>○ If not already on ART conduct retesting for verification.<br/>○ The facility must call the community health care worker (if client was not escorted) to update on client referral.<br/>○ Document update in the referral form and file the referral slip.<br/>○ Complete and return bottom referral slip to client to give to community health care workers."
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed rotated over two pages; each column is an independent list (items side by side are not paired)."
+   ],
    "source_flags": [
     "Community initiation: 'give client two weeks supply' – consistent with the Day-14 first refill, but no instruction is given if the client does not link within the 7-day window while holding ART."
    ],
@@ -1496,28 +1381,34 @@
    "page": 67,
    "image_only": false,
    "heading_path": "12.28 Strategy 1: Community outreach HIV testing (not ART initiation) > Responsibilities for HIV testing and not initiating ART at Community level",
-   "caption": "Responsibilities for HIV testing and not initiating ART at Community level (Facilitator<br/>Clients willing to initiate ART, Facilitator<br/>Clients not willing to initiate ART)",
+   "caption": "Responsibilities for HIV testing and not initiating ART at Community level",
    "replaces_chunks": [
     "unaids-linkages-sop-0107"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
-      "t": "Facilitator<br/>Clients willing to initiate ART"
+      "t": "Facilitator",
+      "cs": 2
+     }
+    ],
+    [
+     {
+      "t": "Clients willing to initiate ART"
      },
      {
-      "t": "Facilitator<br/>Clients not willing to initiate ART"
+      "t": "Clients not willing to initiate ART"
      }
     ]
    ],
    "body": [
     [
      {
-      "t": "* Must be aware of available referral services (both clinical services and community resources)"
+      "t": "- Must be aware of available referral services (both clinical services and community resources)<br/>- Conduct ART readiness assessment and document in the referral form<br/>- Document a detailed referral form which include date client tested and HIV status, regimen client was initiated on or any other services the client was provided. Agree on appointment date and the client preferred facility.<br/>- Call the facility you are referring to make an appointment for a client.<br/>- Escort or meet clients at facilities and assist with treatment navigation services for at least the first facility visit.<br/>- Document referral and transport pink form to the facility to ensure the client is booked.<br/>- Conduct one follow-up face-to-face counseling session or through phone call once the client has been linked to the facility.<br/>- For Community partners implementing Community ART, clients must be initiated before being referred out.<br/>- Discuss with client about importance of index testing and disclosure"
      },
      {
-      "t": ""
+      "t": "- Highlight the barriers that cause the client not to initiate<br/>- Emphasize on the benefits of ART and early enrolment to treatment.<br/>- All clients refusing to be initiated on ART must be referred according to the counselling escalation plan.<br/>- Assign and introduce a Linkages facilitator.<br/>- Obtain contacts both cellphone and physical address<br/>- Make follow up calls as per the facility LCM SOP to find out how the client is coping with the diagnosis.<br/>- Inform client of the available support.<br/>- Appoint client in the appointment register for follow up calls and further counselling sessions.<br/>- Client is followed up through community health care workers and outcome must be documented in the call log systems"
      }
     ]
    ],
@@ -1533,12 +1424,12 @@
    "page": 69,
    "image_only": false,
    "heading_path": "12.30 Responsibilities for HIV testing and initiating ART at Community level",
-   "caption": "12.30 Responsibilities for HIV testing and initiating ART at Community level (Linkage facilitator, Nurse)",
+   "caption": "12.30 Responsibilities for HIV testing and initiating ART at Community level",
    "replaces_chunks": [
     "unaids-linkages-sop-0110",
     "unaids-linkages-sop-0112"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
@@ -1550,32 +1441,32 @@
     ]
    ],
    "body": [
+    {
+     "section": "Clients initiating ART"
+    },
     [
      {
-      "t": "* Client is introduced by HTS Counselor to the expert client or outreach/ mobile nurse."
+      "t": "- Client is introduced by HTS Counselor to the expert client or outreach/ mobile nurse.<br/>- Assess client readiness for ART.<br/>- Client receives counselling and benefits of early ART.<br/>- Open chronic care file and complete psychosocial information<br/>- Enroll client in the LCM register/CMIS.<br/>- Document next appointment date on appointment register.<br/>- Call client or visit (Expert client, peer, peer navigation to find out how the client is coping with treatment as per LCM SOP<br/>- Assist and support with disclosure.<br/>- Discuss index testing with client"
      },
      {
-      "t": ""
+      "t": "- Conduct retesting for verification by the outreach nurse.<br/>- Outreach nurse will assess client readiness for ART Initiation.<br/>- Initiate client on ART<br/>- Assign linkages facilitator<br/>- Inform the client that it is their responsibility to ensure they are linked within the agreed upon time<br/>- Inform client that if they experience any unfamiliar symptoms, they should contact the linkages facilitator<br/>- Document the number for the facility where the client has been referred and the linkages facilitator"
      }
     ],
+    {
+     "section": "Clients not initiating ART"
+    },
     [
      {
-      "t": "Clients not initiating ART<br/>Linkage facilitator"
+      "t": "- Assess coping with the HIV diagnosis.<br/>- Review and resolve identified barriers for ART initiation.<br/>- Emphasize on the benefits of early ART enrollment to treatment.<br/>- Reassure client on available support for coping with diagnosis and treatment.<br/>- Provide motivational and informational counseling, including personal testimonials on importance of early ART initiation.<br/>- All clients refusing to be initiated on ART must be referred according to the escalation counselling plan.<br/>- Client is followed up through community health care workers if client has consented, and document outcome in the call log systems.<br/>- Appoint client in the appointment register for follow up calls and further counselling sessions"
      },
      {
-      "t": "Clients not initiating ART<br/>Nurse"
-     }
-    ],
-    [
-     {
-      "t": "* Assess coping with the HIV diagnosis."
-     },
-     {
-      "t": ""
+      "t": "- Review and resolve identified barriers for ART initiation and address client’s immediate concerns and questions.<br/>- Emphasize on the benefits of ART and early enrollment to treatment.<br/>- Discuss and explain HIV disease progression with the client.<br/>- Provide the Pre-ART service package for package for clients delaying ART initiation.<br/>- Assign and introduce a linkages facilitator for all clients.<br/>- Clients still refusing ART initiation, should be referred to the next level of escalation counselling according to the facility plan.<br/>- In case of adolescents refer for peer to peer counselling where possible"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "The 'Clients not initiating ART' part is printed as a second table on p.55 of the SOP (PDF p.70)."
+   ],
    "source_flags": [],
    "pages": [
     69,
@@ -1588,14 +1479,14 @@
    "page": 73,
    "image_only": false,
    "heading_path": "3 Men",
-   "caption": "3 Men (Children, Adolescents, Key populations, Men)",
+   "caption": "12.31 Differentiated Service Delivery for Priority Populations Linkages: children, adolescents, key populations and men",
    "replaces_chunks": [
     "unaids-linkages-sop-0118",
     "unaids-linkages-sop-0120",
     "unaids-linkages-sop-0121",
     "unaids-linkages-sop-0123"
    ],
-   "row_header_cols": 1,
+   "row_header_cols": 0,
    "header": [
     [
      {
@@ -1615,48 +1506,22 @@
    "body": [
     [
      {
-      "t": "○ For children below 5 years provide ART using family approach<br/>○ For all children, the primary caregiver/ guardian is fully responsible for ensuring linkage and retention of the child.<br/>○ Children depend on their parent's/ caregiver for linkages hence the importance and benefits of ART should be continuously. Emphasized on the parent/caregiver."
+      "t": "○ For children below 5 years provide ART using family approach<br/>○ For all children, the primary caregiver/ guardian is fully responsible for ensuring linkage and retention of the child.<br/>○ Children depend on their parent's/ caregiver for linkages hence the importance and benefits of ART should be continuously. Emphasized on the parent/caregiver.<br/>- In situations where the child is denied care by the parent or caregiver the involvement of social workers is obligatory. - Educate parents/caregivers on the importance of age-appropriate disclosure - Use age-appropriate language in line with education and emotional readiness. - Use images or drawings to help children understand the explanations during counselling sessions. - Be honest. If you do not know the answer to the child's questions, say so.<br/>o Anticipate the impact of the disclosure on other family members, friends, the<br/>o school and the community and plan for this."
      },
      {
-      "t": "○ Establishing or reestablishing a peer support network (teen clubs) to provide physical and emotional care.<br/>○ Above 12 years they can link to all health care services with the help of parents, caregiver, or treatment supporter of their own choice.<br/>○ Emphasize on the importance and benefits of disclosure.<br/>○ Provide Psychosocial support as per the need of the adolescent."
+      "t": "○ Establishing or reestablishing a peer support network (teen clubs) to provide physical and emotional care.<br/>○ Above 12 years they can link to all health care services with the help of parents, caregiver, or treatment supporter of their own choice.<br/>○ Emphasize on the importance and benefits of disclosure.<br/>○ Provide Psychosocial support as per the need of the adolescent.<br/>- Provision of youth friendly service package (fast tracking adolescents in uniform, extension of hours, school holidays consideration and provision of comprehensive services) - Assess ART readiness and address barriers to ART initiation, and discuss benefits of ART, adherence, and retention. - Discuss importance of family planning for adolescents that are sexually active. - Discuss safer sex and risk reduction.<br/>o Promote the correct and consistent use of condoms among those who are sexually active and increase the uptake of STI screening and family planning services.<br/>o Maintain privacy and confidentiality to reduce stigma and discrimination.<br/>o Utilization of peer-to-peer counselling to share their personal experiences with anxiety, guilt, fear, shame, rejection, depression, and feelings of hopelessness for newly diagnosed adolescents.<br/>o STI screening at every visit and provide treatment in necessary.<br/>- Provision family planning to prevent unintended pregnancy. - Screen for breast and cervical cancer and link accordingly - For adolescent who have economic challenges refer them to community partners that can assist with economic empowerment"
      },
      {
-      "t": "○ Provide outreach services that offer comprehensive HIV services.<br/>○ Refer clients who are delaying ART initiation, missed appointment and those who disengaged from treatment to peer navigators to build social cohesion and participation.<br/>○ Implementing index testing for sexual and/or drug injecting partners."
+      "t": "○ Provide outreach services that offer comprehensive HIV services.<br/>○ Refer clients who are delaying ART initiation, missed appointment and those who disengaged from treatment to peer navigators to build social cohesion and participation.<br/>○ Implementing index testing for sexual and/or drug injecting partners.<br/>- If the HIV-positive client agrees, offer HIVST for \\`secondary distribution. - Educate client on consistent use of condoms and lubricants with sexual partners. - Refer clients not ready to initiate according to the escalation plan."
      },
      {
-      "t": "○ Provide IEC material on the benefits of early ART initiation.<br/>○ Provide outreach services to male dominated industries that offer comprehensive HIV services.<br/>○ If possible, assign male linkages facilitator who will provide empathetic guidance and support based on personnel experience as men diagnosed with HIV feels they alone."
-     }
-    ],
-    [
-     {
-      "t": "- In situations where the child is denied care by the parent or caregiver the involvement of social workers is obligatory. - Educate parents/caregivers on the importance of age-appropriate disclosure - Use age-appropriate language in line with education and emotional readiness. - Use images or drawings to help children understand the explanations during counselling sessions. - Be honest. If you do not know the answer to the child's questions, say so."
-     },
-     {
-      "t": "- Provision of youth friendly service package (fast tracking adolescents in uniform, extension of hours, school holidays consideration and provision of comprehensive services) - Assess ART readiness and address barriers to ART initiation, and discuss benefits of ART, adherence, and retention. - Discuss importance of family planning for adolescents that are sexually active. - Discuss safer sex and risk reduction."
-     },
-     {
-      "t": "- If the HIV-positive client agrees, offer HIVST for \\`secondary distribution. - Educate client on consistent use of condoms and lubricants with sexual partners. - Refer clients not ready to initiate according to the escalation plan."
-     },
-     {
-      "t": "- Provide men health days/ male friendly clinics (Provide extended hours or weekends for ART initiation, allowing clients to select preferred facility if there are issues of stigma.<br/>- Enroll men into adherence club for men to support each other - STI screening at every visit and provide treatment if needed.<br/>- Offer VMMC if client is eligible.<br/>- Routine NCD screening - Assessment of risk factors for erectile dysfunction and premature ejaculation.<br/>- Diabetes and anti-hypertensive drug refills"
-     }
-    ],
-    [
-     {
-      "t": "o Anticipate the impact of the disclosure on other family members, friends, the<br/>o school and the community and plan for this."
-     },
-     {
-      "t": "o Promote the correct and consistent use of condoms among those who are sexually active and increase the uptake of STI screening and family planning services.<br/>o Maintain privacy and confidentiality to reduce stigma and discrimination.<br/>o Utilization of peer-to-peer counselling to share their personal experiences with anxiety, guilt, fear, shame, rejection, depression, and feelings of hopelessness for newly diagnosed adolescents.<br/>o STI screening at every visit and provide treatment in necessary.<br/>- Provision family planning to prevent unintended pregnancy. - Screen for breast and cervical cancer and link accordingly - For adolescent who have economic challenges refer them to community partners that can assist with economic empowerment"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": "o Provision of curative services<br/>o Discuss with the client what to do in case of travelling"
+      "t": "○ Provide IEC material on the benefits of early ART initiation.<br/>○ Provide outreach services to male dominated industries that offer comprehensive HIV services.<br/>○ If possible, assign male linkages facilitator who will provide empathetic guidance and support based on personnel experience as men diagnosed with HIV feels they alone.<br/>- Provide men health days/ male friendly clinics (Provide extended hours or weekends for ART initiation, allowing clients to select preferred facility if there are issues of stigma.<br/>- Enroll men into adherence club for men to support each other - STI screening at every visit and provide treatment if needed.<br/>- Offer VMMC if client is eligible.<br/>- Routine NCD screening - Assessment of risk factors for erectile dysfunction and premature ejaculation.<br/>- Diabetes and anti-hypertensive drug refills<br/>o Provision of curative services<br/>o Discuss with the client what to do in case of travelling"
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed rotated over pp.58-61 of the SOP; each column is one list here (the page breaks had been split into separate rows)."
+   ],
    "source_flags": [],
    "pages": [
     73,
@@ -1694,13 +1559,13 @@
    "body": [
     [
      {
-      "t": "Appointment<br/>register"
+      "t": "Appointment register"
      },
      {
-      "t": "Captures all next<br/>appointments/ visit for<br/>all PLHIV"
+      "t": "Captures all next appointments/ visit for all PLHIV"
      },
      {
-      "t": "Linkage<br/>Facilitator"
+      "t": "Linkage Facilitator"
      },
      {
       "t": "Daily"
@@ -1711,10 +1576,10 @@
       "t": "LCM register"
      },
      {
-      "t": "Captures all newly<br/>identified HIV positives<br/>and return to care<br/>clients for a period of 3<br/>to 6 months to monitor<br/>linkage and adherence."
+      "t": "Captures all newly identified HIV positives and return to care clients for a period of 3 to 6 months to monitor linkage and adherence."
      },
      {
-      "t": "Linkage<br/>Facilitators"
+      "t": "Linkage Facilitators"
      },
      {
       "t": "Daily"
@@ -1722,13 +1587,13 @@
     ],
     [
      {
-      "t": "LCM monthly<br/>summary"
+      "t": "LCM monthly summary"
      },
      {
-      "t": "Collates all verified LCM<br/>activities for the months,<br/>the source being the LCM<br/>register."
+      "t": "Collates all verified LCM activities for the months, the source being the LCM register."
      },
      {
-      "t": "Linkage<br/>Facilitator and<br/>Nurse"
+      "t": "Linkage Facilitator and Nurse"
      },
      {
       "t": "Monthly"
@@ -1838,13 +1703,29 @@
    "page": 88,
    "image_only": false,
    "heading_path": "13.9 List of LCM Reporting Indicators > Enhanced Linkages Case Management",
-   "caption": "Enhanced Linkages Case Management (Number of HIV positive clients linked for ART initiation, Total HIV positive clients that were initiated on ART during the reporting period., n/a, LCM)",
+   "caption": "13.9 List of LCM Reporting Indicators (continued)",
    "replaces_chunks": [
     "unaids-linkages-sop-0140",
     "unaids-linkages-sop-0141"
    ],
    "row_header_cols": 1,
    "header": [
+    [
+     {
+      "t": "Indicator"
+     },
+     {
+      "t": "Description"
+     },
+     {
+      "t": "Calculation"
+     },
+     {
+      "t": "Data Collection tools"
+     }
+    ]
+   ],
+   "body": [
     [
      {
       "t": "Number of HIV positive clients linked for ART initiation"
@@ -1858,9 +1739,7 @@
      {
       "t": "LCM register<br/>LCM summary<br/>CMIS HIV module<br/>Chronic Care File"
      }
-    ]
-   ],
-   "body": [
+    ],
     [
      {
       "t": "Number of clients transferred out after initiation."
@@ -1988,14 +1867,17 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Continuation of the indicator table on p.87; printed rotated, without repeating the header row (header added here)."
+   ],
    "source_flags": [
     "'Proportion of LCM clients retained and virally suppressed at 6 months' uses as denominator only clients who had a VL taken, so it does not measure retention.",
     "'Proportion of clients with a LCM outcome by type': the denominator is also labelled 'Numerator' in the source."
    ],
    "pages": [
     88,
-    89
+    89,
+    90
    ],
    "context_before": "ENHANCED LINKAGES CASE MANAGEMENT ENHANCED LINKAGES CASE MANAGEMENT"
   },
