@@ -23,20 +23,21 @@ Rows are sorted by document, then PDF page, so you can work through each PDF onc
 
 When you are done, your "Merged" verdicts go into `VERIFIED_HV` in `chunks_v2/scripts/fix_tables.py`, and any Major issues become fixes in the build.
 
-## v3 sample (re-extracted chunks, eight guidelines)
+## v3 sample (re-extracted chunks, all ten guidelines)
 
-`build_validation_v3.py` → `chunk_validation_v3.xlsx` + `chunk_viewer_v3.html`: 50 items (core 25 + next 25), chosen from a pool of 200 from `chunks_v3`
-(HIV Amendment 2024, NCDIMH, PrEP 2025, ANC, Linkages SOP, TB 2025, FP 2021, Mental Health desk guide).
+`build_validation_v3.py` → `chunk_validation_v3.xlsx` + `chunk_viewer_v3.html`: 50 items (core 25 + next 25) from `chunks_v3`, regenerated on 8 Nov 2026 after the image second pass
+(HIV 2022, HIV Amendment 2024, NCDIMH, PrEP 2025, ANC, STI/VH draft, Linkages SOP, TB 2025, FP 2021, Mental Health desk guide). At most 7 items per document; every document has at least one.
 One row per re-extracted table/flowchart (embedding parts collapsed), plus text chunks.
 
-| Priority | Why picked |
+| Core-set category | Items |
 |---|---|
-| A | Tables rebuilt from old chunks with doses/criteria (cell placement not auto-checked); dosing tables transcribed from page images; items carrying clinically significant source flags |
-| B | Flowcharts kept from the old parse; other rebuilt tables; safety-critical text chunks |
-| C | Random baseline per document (2 items + 2 text chunks) |
+| Items carrying a clinically significant source flag (is the guideline problem real?) | 6 |
+| Dosing tables transcribed from page images | 5 |
+| Rebuilt tables the second pass left unchanged (most compared with the image, some only by text) | 4 |
+| Rebuilt tables corrected in the second pass | 3 |
+| Flowcharts kept from the old parse | 3 |
+| Safety-critical text chunks | 2 |
+| Random baseline | 2 |
 
-"How produced" is derived from the batch files in `table_reextract/batches`; the Summary sheet counts Major issues per method.
-
-The set leaves out tables that the automatic completeness audit (`table_reextract/audit_cell_positions.py`, `classify_missing.py`)
-found incomplete; those are listed in `table_reextract/audit/REPAIR_WORKLIST.md` and repaired from page images. Core 25: 9 items with
-source flags, 5 hand-transcribed dosing tables, 4 audit-clean rebuilt tables (to test the audit), 3 old-parse flowcharts, 4 text chunks.
+"How produced" is derived from the batch files in `table_reextract/batches` (second-pass batches: tb_b10, mh_b05, fp_b04-b05, lk_b04); the Summary sheet counts Major issues per method.
+Tables known not to have been compared with the page image in the second pass: Mental Health Table 25 (p.72); Linkages role tables pp.43-60 not changed (judged by content length); FP advantages/disadvantages tables pp.46-94 (checked by text).

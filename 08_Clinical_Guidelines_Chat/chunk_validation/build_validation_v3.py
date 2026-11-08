@@ -1,7 +1,7 @@
-"""Build a validation sample from chunks_v3 for the eight re-extracted guidelines.
+"""Build a validation sample from chunks_v3 for all ten re-extracted guidelines.
 
 Weighted toward the places most likely to be wrong after re-extraction:
-  - tables rebuilt from the old chunks (cell placement is not verified automatically),
+  - tables rebuilt from the old chunks, both those the image second pass corrected and those it left unchanged,
   - hand-transcribed dosing tables (to double-check the transcription),
   - flowcharts kept from the old parse,
   - items carrying source flags (guideline problems to confirm or reject),
@@ -22,10 +22,10 @@ from openpyxl.worksheet.datavalidation import DataValidation
 HERE = os.path.dirname(os.path.abspath(__file__))
 BASE = os.path.dirname(HERE)
 TR = os.path.join(BASE, 'table_reextract')
-random.seed(20261106)
+random.seed(20261108)
 
-DOCS = ['hiv-amendment-2024', 'ncdimh', 'prep-2025', 'anc', 'unaids-linkages-sop', 'tb-2025', 'fp-2021', 'mental-health-deskguide']
-SHORT = {'hiv-amendment-2024': 'HIV Amendment 2024', 'ncdimh': 'NCDIMH', 'prep-2025': 'PrEP 2025', 'anc': 'ANC',
+DOCS = ['hiv-2022', 'hiv-amendment-2024', 'ncdimh', 'prep-2025', 'anc', 'sti-vh-draft-2026', 'unaids-linkages-sop', 'tb-2025', 'fp-2021', 'mental-health-deskguide']
+SHORT = {'hiv-2022': 'HIV 2022', 'sti-vh-draft-2026': 'STI/VH draft', 'hiv-amendment-2024': 'HIV Amendment 2024', 'ncdimh': 'NCDIMH', 'prep-2025': 'PrEP 2025', 'anc': 'ANC',
          'unaids-linkages-sop': 'Linkages SOP', 'tb-2025': 'TB 2025', 'fp-2021': 'FP 2021', 'mental-health-deskguide': 'Mental Health desk guide'}
 K = [json.loads(l) for l in open(os.path.join(BASE, 'chunks_v3', 'chunks.jsonl'))]
 K = [k for k in K if k['doc_id'] in DOCS]
@@ -39,20 +39,23 @@ for k in K:
 
 # ---------- how each item was produced ----------
 GENERATED = re.compile(r'-tbl-p\d+-\d{4}$')
-HAND_BATCHES = ['tb_b02.py', 'tb_b04.py', 'tb_b08.py', 'mh_b03.py', 'lk_b02.py', 'lk_b03.py']
+HAND_BATCHES = ['tb_b02.py', 'tb_b04.py', 'tb_b08.py', 'tb_b09.py', 'mh_b03.py', 'mh_b04.py', 'fp_b03.py', 'lk_b02.py', 'lk_b03.py']
 CHECKED_KEPT = ['tb_b06.py']
+SECOND_PASS = ['tb_b10.py', 'mh_b05.py', 'fp_b04.py', 'fp_b05.py', 'lk_b04.py']  # tables re-checked against page images
+REBUILT_DOCS = {'tb-2025', 'mental-health-deskguide', 'fp-2021', 'unaids-linkages-sop'}
 
 
 def batch_ids(name):
     ids = set()
     src = open(os.path.join(TR, 'batches', name)).read()
-    for m in re.finditer(r'''(?:T|D|B|X)\(\s*["']([a-z0-9-]+)["']''', src):
+    for m in re.finditer(r'''(?:T|D|B|X|HB)\(\s*["']([a-z0-9-]+)["']''', src):
         ids.add(m.group(1))
     return ids
 
 
 hand_ids = set().union(*(batch_ids(b) for b in HAND_BATCHES))
 checked_kept = set().union(*(batch_ids(b) for b in CHECKED_KEPT))
+second_ids = set().union(*(batch_ids(b) for b in SECOND_PASS))
 
 
 def how(u):
@@ -60,12 +63,16 @@ def how(u):
     if not tid:
         return 'Kept from old parse' if u['type'] in ('diagram', 'table') else 'Text (labels checked)'
     short = tid[len(u['doc_id']) + 1:]
+    if short.startswith('txt-'):
+        return 'Text rebuilt from PDF text layer'
+    if short in second_ids:
+        return 'Rebuilt, then corrected from page image (second pass)'
     if short in checked_kept:
         return 'Old flowchart text, checked against image'
     if tid.endswith('annex4-counselling-messages'):
         return 'Rebuilt from old chunks (word-checked)'
-    if GENERATED.search(tid) and short not in hand_ids:
-        return 'Rebuilt from old chunks (word-checked)'
+    if u['doc_id'] in REBUILT_DOCS and GENERATED.search(tid) and short not in hand_ids:
+        return 'Rebuilt from old chunks; not changed in the second pass'
     return 'Transcribed from page image'
 
 
@@ -108,14 +115,18 @@ U = list(units.values())
 H = {id(u): how(u) for u in U}
 
 # A1. rebuilt tables with safety content: cell placement is the main unverified risk
-rebuilt = sorted((u for u in U if H[id(u)].startswith('Rebuilt')), key=lambda u: -safety(u))
-for u in capped(rebuilt, 45, 10):
-    pick(u['table_id'], 'A', 'Rebuilt from old chunks; safety content (doses / criteria)',
-         'Every value sits in the right row and column (compare cell by cell); nothing from the PDF table is missing.')
+rebuilt = sorted((u for u in U if H[id(u)] == 'Rebuilt from old chunks; not changed in the second pass'), key=lambda u: -safety(u))
+for u in capped(rebuilt, 30, 6):
+    pick(u['table_id'], 'A', 'Rebuilt from old chunks; not changed in the second pass (safety content)',
+         'The second pass left this table as it was (most were compared with the page image, some only by text): is every value in the right row and column, and is nothing missing?')
+corrected = sorted((u for u in U if H[id(u)].startswith('Rebuilt, then corrected')), key=lambda u: -safety(u))
+for u in capped(corrected, 30, 6):
+    pick(u['table_id'], 'A', 'Rebuilt table corrected in the second pass',
+         'Compare with the PDF: is the corrected table now complete and right, row by row (including any rows that had been missing)?')
 # A2. hand-transcribed dosing tables
 hand_dose = sorted((u for u in U if H[id(u)] == 'Transcribed from page image' and u['type'] == 'table' and len(DOSE.findall(u['text'])) >= 4),
                    key=lambda u: -safety(u))
-for u in capped(hand_dose, 30, 6):
+for u in capped(hand_dose, 30, 4):
     pick(u['table_id'], 'A', 'Dosing table transcribed from the page image',
          'Every dose, unit, frequency and weight band matches the PDF exactly.')
 # A3. items with clinically significant source flags
@@ -134,7 +145,7 @@ for u in capped(kept, 20, 6):
 other_rebuilt = [u for u in rebuilt if u['table_id'] not in picked]
 random.shuffle(other_rebuilt)
 for u in capped(other_rebuilt, 20, 5):
-    pick(u['table_id'], 'B', 'Rebuilt from old chunks',
+    pick(u['table_id'], 'B', 'Rebuilt from old chunks; not changed in the second pass',
          'Rows and columns line up with the PDF; no values shifted, merged with another table, or lost.')
 # B3. safety-critical text chunks (doses outside tables) and their labels
 texts = sorted((u for u in U if u['type'] == 'text'), key=lambda u: -safety(u))
@@ -151,30 +162,38 @@ for doc in DOCS:
         pick(u['chunk_id'], 'C', 'Random baseline (text chunk)', 'Text is complete and readable; the section label is right.')
 
 # ---------- reduce to 50: core 25 + next 25 ----------
-# Tables the automatic completeness audit already caught are being repaired, so they are left out.
-# What remains is what a script cannot judge, plus audit-clean rebuilt tables to test the audit itself.
-AUD = json.load(open(os.path.join(TR, 'audit', 'cell_audit.json')))
-REPAIR = set(json.load(open(os.path.join(TR, 'audit', 'repair_ids.json'))))
-for k in list(picked):
-    if k in REPAIR:
-        del picked[k]
-clean = [u for u in rebuilt if u['table_id'] in AUD and AUD[u['table_id']].get('pdf_words_in_table') and not AUD[u['table_id']]['issues']
-         and not AUD[u['table_id']]['lost'] and not AUD[u['table_id']]['elsewhere'] and u['table_id'] not in REPAIR]
-for u in capped(clean, 10, 3):
-    picked[u['table_id']] = ('A', 'Rebuilt table that passed the automatic completeness audit',
-                             'Tests the audit: is every value in the right row and column, and is anything missing? An error here means the audit misses things.')
-CATS = [('source flag', 9), ('transcribed from the page image', 5), ('passed the automatic', 4), ('Flowchart', 3),
-        ('Safety-critical text', 2), ('Random baseline (text', 2)]
+# The automatic-audit repairs and the image second pass are done, so nothing is excluded.
+CATS = [('source flag', 6), ('transcribed from the page image', 5), ('not changed in the second pass', 4), ('corrected in the second pass', 3),
+        ('Flowchart', 3), ('Safety-critical text', 2), ('Random baseline', 2)]
+DOC_CAP = 7  # at most this many items per document across the 50, so every guideline is represented
 core, nxt = [], []
+tot = collections.Counter()
 for key_, n in CATS:
     cand = [k for k, v in picked.items() if key_.lower() in v[1].lower()]
     cnt = collections.Counter()
     for k in cand:  # spread across documents: at most 2 per document per category in the core set
         d = units[k]['doc_id']
-        if len([c for c in core if c[1] == key_]) < n and cnt[d] < 2:
-            core.append((k, key_)); cnt[d] += 1
-    rest = [k for k in cand if k not in [c[0] for c in core]]
-    nxt += [(k, key_) for k in rest[:n]]
+        if len([c for c in core if c[1] == key_]) < n and cnt[d] < 2 and tot[d] < DOC_CAP:
+            core.append((k, key_)); cnt[d] += 1; tot[d] += 1
+for key_, n in CATS:
+    cand = [k for k, v in picked.items() if key_.lower() in v[1].lower()]
+    m = 0
+    for k in cand:
+        d = units[k]['doc_id']
+        if m < n and k not in [c[0] for c in core] and k not in [c[0] for c in nxt] and tot[d] < DOC_CAP:
+            nxt.append((k, key_)); m += 1; tot[d] += 1
+# every document gets at least one item: fill from its random-baseline picks if it has none
+for d in DOCS:
+    if tot[d] == 0:
+        for k, v in picked.items():
+            if units[k]['doc_id'] == d and k not in [c[0] for c in core + nxt]:
+                nxt.append((k, 'Random baseline')); tot[d] += 1
+                break
+# keep the sample at 50: drop next-set items from the best-represented documents
+while len(core) + len(nxt) > 50:
+    i = max(range(len(nxt)), key=lambda i: (tot[units[nxt[i][0]]['doc_id']], i))
+    tot[units[nxt[i][0]]['doc_id']] -= 1
+    nxt.pop(i)
 picked = collections.OrderedDict([(k, ('A',) + picked[k][1:]) for k, _ in core] + [(k, ('B',) + picked[k][1:]) for k, _ in nxt])
 rows = sorted(picked.items(), key=lambda kv: (kv[1][0], DOCS.index(units[kv[0]]['doc_id']), units[kv[0]]['page_start'], kv[0]))
 print('sample size', len(rows), collections.Counter(v[0] for _, v in rows),
@@ -186,19 +205,22 @@ ins = wb.active
 ins.title = 'How to validate'
 lines = [
     ('Chunk validation sample (v3: re-extracted chunks)', True),
-    (f'{len(rows)} items from chunks_v3 across eight guidelines, weighted toward where errors are most likely after re-extraction.', False),
+    (f'{len(rows)} items from chunks_v3 across all ten guidelines, weighted toward where errors are most likely after re-extraction.', False),
     ('', False),
     ('How to work through it', True),
     ('1. Open chunk_viewer_v3.html in a browser next to the PDF. Tables are drawn with their merged cells; source flags are shown under each item.', False),
     ('2. Rows 1-25 are the core set, rows 26-50 the next set; within each, sorted by document then PDF page.', False),
-    ('   "PDF page" is the page in the full original PDF (TB, FP, NCDIMH and Mental Health were uploaded in parts; use the full document page).', False),
+    ('   "PDF page" is the page in the full original PDF (TB, FP, NCDIMH, Mental Health, HIV 2022 and STI were uploaded in parts; use the full document page). For the Linkages SOP the item page is the original document page (the uploaded PDF starts at page 5)..', False),
     ('3. Read "What to check", compare with the PDF, and pick a value in each yellow column.', False),
-    ('4. Do the core 25 first. Tables the automatic audit found incomplete are not here: they are being repaired separately (table_reextract/audit/REPAIR_WORKLIST.md).', False),
+    ('4. Do the core 25 first.', False),
     ('5. Only write a note when something is wrong: say what the PDF has, e.g. "PDF says 10 mg, chunk says 1 mg", or "this value belongs in the 16-24 kg column".', False),
     ('', False),
     ('"How produced" (the main risk signal)', True),
     ('Transcribed from page image: typed from the page image, every number checked against the PDF text. Main risk: a cell misread or misplaced.', False),
-    ('Rebuilt from old chunks (word-checked): the old parse was repaired automatically (split rows joined, pieces merged); every word is in the PDF, but cell positions were NOT checked. Main risk: a value in the wrong row/column, or two tables joined.', False),
+    ('Rebuilt from old chunks; not changed in the second pass: rebuilt automatically from the old parse (every word is in the PDF) and left unchanged by the second pass; most were compared with the page image, but some were judged only from their text. Main risk: a misplaced value or missing rows the second pass did not catch.', False),
+    ('Rebuilt from old chunks (word-checked): PrEP Annex 4 only; rebuilt from the old parse with every word checked against the PDF, not compared with the page image.', False),
+    ('Rebuilt, then corrected from page image (second pass): the rebuilt table was wrong and was re-transcribed or restructured from the page image. Main risk: a slip in the correction.', False),
+    ('Text rebuilt from PDF text layer (HIV 2022, STI/VH): running text re-extracted from the PDF text, split by section. Main risk: a wrong section label or text cut at a page break.', False),
     ('Kept from old parse / old flowchart text: not re-extracted. Main risk: wrong or missing branches.', False),
     ('Text (labels checked): an ordinary text chunk; its section label was fixed by rule or by hand.', False),
     ('', False),
@@ -274,7 +296,7 @@ items = [('Rows reviewed (Overall filled)', f'=COUNTA({R})', None),
          ('Label wrong', f'=COUNTIF(Review!O2:O{last},"Wrong")', 1),
          ('Source flags confirmed', f'=COUNTIF(Review!P2:P{last},"Correct")', None),
          ('Source flags wrong (extraction error)', f'=COUNTIF(Review!P2:P{last},"Wrong (extraction error)")', None)]
-for how_label in ['Transcribed from page image', 'Rebuilt from old chunks (word-checked)', 'Kept from old parse',
+for how_label in ['Transcribed from page image', 'Rebuilt from old chunks; not changed in the second pass', 'Rebuilt, then corrected from page image (second pass)', 'Rebuilt from old chunks (word-checked)', 'Text rebuilt from PDF text layer', 'Kept from old parse',
                   'Old flowchart text, checked against image', 'Text (labels checked)']:
     items.append((f'Major – {how_label}', f'=COUNTIFS(Review!G2:G{last},"{how_label}",{R},"Major")', None))
     items.append((f'Reviewed – {how_label}', f'=COUNTIFS(Review!G2:G{last},"{how_label}",{R},"<>")', None))
