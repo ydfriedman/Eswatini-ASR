@@ -2049,49 +2049,61 @@ mental-health-deskguide-0269,replaced,mental-health-deskguide-tbl-p113-0269
 mental-health-deskguide-0271,replaced,mental-health-deskguide-tbl-p114-0271
 mental-health-deskguide-0274,replaced,mental-health-deskguide-tbl-p115-0274
 mental-health-deskguide-0278,replaced,mental-health-deskguide-tbl-p118-0278
+mental-health-deskguide-0279,replaced,mental-health-deskguide-tbl-p118-0278
 mental-health-deskguide-0023,cleaned,
 mental-health-deskguide-0025,cleaned,
-mental-health-deskguide-0026,cleaned,
-mental-health-deskguide-0038,cleaned,
-mental-health-deskguide-0047,cleaned,
-mental-health-deskguide-0048,cleaned,
+mental-health-deskguide-0026,emptied,
+mental-health-deskguide-0043,cleaned,
+mental-health-deskguide-0045,emptied,
+mental-health-deskguide-0047,emptied,
+mental-health-deskguide-0053,emptied,
+mental-health-deskguide-0055,cleaned,
+mental-health-deskguide-0057,cleaned,
 mental-health-deskguide-0059,cleaned,
+mental-health-deskguide-0062,cleaned,
+mental-health-deskguide-0063,cleaned,
 mental-health-deskguide-0067,cleaned,
 mental-health-deskguide-0073,cleaned,
-mental-health-deskguide-0080,cleaned,
+mental-health-deskguide-0075,emptied,
+mental-health-deskguide-0077,emptied,
+mental-health-deskguide-0079,cleaned,
+mental-health-deskguide-0086,emptied,
 mental-health-deskguide-0098,cleaned,
 mental-health-deskguide-0100,cleaned,
 mental-health-deskguide-0102,cleaned,
-mental-health-deskguide-0103,cleaned,
-mental-health-deskguide-0111,cleaned,
+mental-health-deskguide-0128,emptied,
+mental-health-deskguide-0130,emptied,
+mental-health-deskguide-0132,emptied,
+mental-health-deskguide-0134,emptied,
 mental-health-deskguide-0136,cleaned,
 mental-health-deskguide-0150,cleaned,
 mental-health-deskguide-0157,cleaned,
 mental-health-deskguide-0183,cleaned,
-mental-health-deskguide-0199,cleaned,
+mental-health-deskguide-0193,emptied,
+mental-health-deskguide-0199,emptied,
 mental-health-deskguide-0203,cleaned,
+mental-health-deskguide-0206,cleaned,
 mental-health-deskguide-0207,cleaned,
-mental-health-deskguide-0209,cleaned,
-mental-health-deskguide-0211,cleaned,
-mental-health-deskguide-0215,cleaned,
-mental-health-deskguide-0217,cleaned,
+mental-health-deskguide-0209,emptied,
+mental-health-deskguide-0211,emptied,
+mental-health-deskguide-0213,emptied,
+mental-health-deskguide-0215,emptied,
+mental-health-deskguide-0217,emptied,
 mental-health-deskguide-0219,cleaned,
 mental-health-deskguide-0221,cleaned,
 mental-health-deskguide-0223,cleaned,
-mental-health-deskguide-0026,merged into,mental-health-deskguide-0025
-mental-health-deskguide-0047,merged into,mental-health-deskguide-0045
-mental-health-deskguide-0048,merged into,mental-health-deskguide-0045
+mental-health-deskguide-0225,emptied,
+mental-health-deskguide-0227,emptied,
+mental-health-deskguide-0231,emptied,
+mental-health-deskguide-0207,trailing heading dropped (next is a table/flowchart),## **IF THE PATIENT PRESENT WITH AGGRESSION/UNCONTROLLED BEHAVIOR**
+mental-health-deskguide-0048,merged into,mental-health-deskguide-0043
 mental-health-deskguide-0057,merged into,mental-health-deskguide-0055
 mental-health-deskguide-0059,merged into,mental-health-deskguide-0055
 mental-health-deskguide-0062,merged into,mental-health-deskguide-0061
-mental-health-deskguide-0077,merged into,mental-health-deskguide-0075
-mental-health-deskguide-0079,merged into,mental-health-deskguide-0075
-mental-health-deskguide-0080,merged into,mental-health-deskguide-0075
-mental-health-deskguide-0088,merged into,mental-health-deskguide-0086
+mental-health-deskguide-0080,merged into,mental-health-deskguide-0079
 mental-health-deskguide-0100,merged into,mental-health-deskguide-0098
 mental-health-deskguide-0102,merged into,mental-health-deskguide-0098
 mental-health-deskguide-0103,merged into,mental-health-deskguide-0098
-mental-health-deskguide-0134,merged into,mental-health-deskguide-0132
 mental-health-deskguide-0136,merged into,mental-health-deskguide-0135
 mental-health-deskguide-0153,merged into,mental-health-deskguide-0150
 mental-health-deskguide-0158,merged into,mental-health-deskguide-0157
@@ -2100,14 +2112,11 @@ mental-health-deskguide-0177,merged into,mental-health-deskguide-0175
 mental-health-deskguide-0179,merged into,mental-health-deskguide-0175
 mental-health-deskguide-0183,merged into,mental-health-deskguide-0182
 mental-health-deskguide-0188,merged into,mental-health-deskguide-0187
-mental-health-deskguide-0193,merged into,mental-health-deskguide-0192
 mental-health-deskguide-0197,merged into,mental-health-deskguide-0196
-mental-health-deskguide-0199,merged into,mental-health-deskguide-0198
-mental-health-deskguide-0227,merged into,mental-health-deskguide-0225
+mental-health-deskguide-0207,merged into,mental-health-deskguide-0206
 mental-health-deskguide-0250,merged into,mental-health-deskguide-0249
 mental-health-deskguide-0251,merged into,mental-health-deskguide-0249
 mental-health-deskguide-0255,merged into,mental-health-deskguide-0254
-mental-health-deskguide-0053,merged into,mental-health-deskguide-0055
 mental-health-deskguide-0162,merged into,mental-health-deskguide-0164
 mental-health-deskguide-0185,merged into,mental-health-deskguide-0187
 mental-health-deskguide-0245,merged into,mental-health-deskguide-0246
