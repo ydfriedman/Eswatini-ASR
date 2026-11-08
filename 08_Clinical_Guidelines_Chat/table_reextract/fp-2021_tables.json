@@ -973,7 +973,7 @@
    "page": 96,
    "image_only": false,
    "heading_path": "14 Appendices > 14.1 Appendix 1: Summary of Recommendation - Medical Eligibility Criteria",
-   "caption": "14.1 Appendix 1: Summary of Recommendation - Medical Eligibility Criteria (TOPIC, MEC RECOMMENDATION, GRADE ASSESSMENT OF QUALITY OF EVIDENCE)",
+   "caption": "14.1 Appendix 1: Summary of Recommendation - Medical Eligibility Criteria (sections 1-10)",
    "replaces_chunks": [
     "fp-2021-0188",
     "fp-2021-0189",
@@ -997,17 +997,9 @@
     ]
    ],
    "body": [
-    [
-     {
-      "t": "1. Recommendations for combined hormonal contraceptive (CHC) use by age group<br/><br/>(CHCs include combined oral contraceptives, combined injectable contraceptives, combined patch and combined vaginal ring)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "1. Recommendations for combined hormonal contraceptive (CHC) use by age group  (CHCs include combined oral contraceptives, combined injectable contraceptives, combined patch and combined vaginal ring)"
+    },
     [
      {
       "t": "< 40 years"
@@ -1030,17 +1022,9 @@
       "t": ""
      }
     ],
-    [
-     {
-      "t": "2. Recommendations for CHC use among breastfeeding women"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "2. Recommendations for CHC use among breastfeeding women"
+    },
     [
      {
       "t": "< 6 weeks postpartum"
@@ -1074,23 +1058,15 @@
       "t": ""
      }
     ],
+    {
+     "section": "3. Recommendations for CHC use among postpartum women"
+    },
     [
      {
-      "t": "3. Recommendations for CHC use among postpartum women"
+      "t": "< 21 days postpartum without other risk factors for venous thromboembolism (VTE)"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "< 21 days<br/>postpartum<br/>without other risk<br/>factors for venous<br/>thromboembolism<br/>(VTE)"
-     },
-     {
-      "t": "Women who are < 21 days postpartum and do not<br/>have other risk factors for VTE generally should not<br/>use CHCs (MEC Category 3)."
+      "t": "Women who are < 21 days postpartum and do not have other risk factors for VTE generally should not use CHCs (MEC Category 3)."
      },
      {
       "t": "Range: Low to very low"
@@ -1098,21 +1074,10 @@
     ],
     [
      {
-      "t": "< 21 days<br/>postpartum with<br/>other risk factors<br/>for VTE"
+      "t": "< 21 days postpartum with other risk factors for VTE"
      },
      {
-      "t": "Women who are < 21 days postpartum with other risk<br/>factors for VTE should not use CHCs (MEC Category<br/>4)."
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "≥ 21 days to 42<br/>days postpartum<br/>without other risk<br/>factors for VTE"
-     },
-     {
-      "t": "Women who are ≥ 21 days to 42 days postpartum<br/>without other risk factors for VTE can generally use<br/>CHCs (MEC Category 2)."
+      "t": "Women who are < 21 days postpartum with other risk factors for VTE should not use CHCs (MEC Category 4)."
      },
      {
       "t": ""
@@ -1120,21 +1085,10 @@
     ],
     [
      {
-      "t": "≥ 21 days to 42 days<br/>postpartum with<br/>other risk factors for<br/>VTE"
+      "t": "≥ 21 days to 42 days postpartum without other risk factors for VTE"
      },
      {
-      "t": "Women who are ≥ 21 days to 42 days postpartum with<br/>other risk factors for VTE generally should not use<br/>CHCs (MEC Category 3)."
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "> 42 days<br/>postpartum"
-     },
-     {
-      "t": "Women who are > 42 days postpartum can use CHCs<br/>without restriction (MEC Category 1)."
+      "t": "Women who are ≥ 21 days to 42 days postpartum without other risk factors for VTE can generally use CHCs (MEC Category 2)."
      },
      {
       "t": ""
@@ -1142,15 +1096,29 @@
     ],
     [
      {
-      "t": "4. Recommendations for CHC use among women with superficial venous disorders"
+      "t": "≥ 21 days to 42 days postpartum with other risk factors for VTE"
      },
      {
-      "t": ""
+      "t": "Women who are ≥ 21 days to 42 days postpartum with other risk factors for VTE generally should not use CHCs (MEC Category 3)."
      },
      {
       "t": ""
      }
     ],
+    [
+     {
+      "t": "> 42 days postpartum"
+     },
+     {
+      "t": "Women who are > 42 days postpartum can use CHCs without restriction (MEC Category 1)."
+     },
+     {
+      "t": ""
+     }
+    ],
+    {
+     "section": "4. Recommendations for CHC use among women with superficial venous disorders"
+    },
     [
      {
       "t": "Varicose veins"
@@ -1173,17 +1141,9 @@
       "t": ""
      }
     ],
-    [
-     {
-      "t": "5. Recommendations for CHC use among women with known dyslipidaemias"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "5. Recommendations for CHC use among women with known dyslipidaemias"
+    },
     [
      {
       "t": "Known dyslipidaemias without other known cardiovascular risk factors"
@@ -1195,34 +1155,18 @@
       "t": "Very low; reviewed for clarity as requested by the GRC"
      }
     ],
-    [
-     {
-      "t": "6. Recommendations for progestogen-only contraceptive (POC) and levonorgestrel-releasing intrauterine device (LNG-IUD) use among breastfeeding women"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "6a. POC use among breastfeeding women (POCs include progestogen-only pills, implants and injectables)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "6. Recommendations for progestogen-only contraceptive (POC) and levonorgestrel-releasing intrauterine device (LNG-IUD) use among breastfeeding women"
+    },
+    {
+     "section": "6a. POC use among breastfeeding women (POCs include progestogen-only pills, implants and injectables)"
+    },
     [
      {
       "t": "< 6 weeks postpartum"
      },
      {
-      "t": "Breastfeeding women who are < 6 weeks postpartum can generally use progestogen-only pills (POPs) and levonorgestrel (LNG) and etonogestrel (ETG) implants (MEC Category 2).<br/><br/>Breastfeeding women who are < 6 weeks postpartum generally should not use progestogen-only injectables (POIs) (DMPA or NET-EN) (MEC Category 3)."
+      "t": "Breastfeeding women who are < 6 weeks postpartum can generally use progestogen-only pills (POPs) and levonorgestrel (LNG) and etonogestrel (ETG) implants (MEC Category 2).  Breastfeeding women who are < 6 weeks postpartum generally should not use progestogen-only injectables (POIs) (DMPA or NET-EN) (MEC Category 3)."
      },
      {
       "t": "Range: Low to very low"
@@ -1250,34 +1194,15 @@
       "t": ""
      }
     ],
+    {
+     "section": "6b. LNG-IUD use among breastfeeding women"
+    },
     [
      {
-      "t": "6b. LNG-IUD use among breastfeeding women"
+      "t": "< 48 hours postpartum"
      },
      {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "5. Recommendations for CHC use among women with known dyslipidaemias"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "< 48 hours<br/>postpartum"
-     },
-     {
-      "t": "Breastfeeding women who are < 48 hours postpartum<br/>can generally use LNG-IUDs (MEC Category 2)."
+      "t": "Breastfeeding women who are < 48 hours postpartum can generally use LNG-IUDs (MEC Category 2)."
      },
      {
       "t": "Very low"
@@ -1285,10 +1210,10 @@
     ],
     [
      {
-      "t": "≥ 48 hours to < 4<br/>weeks postpartum"
+      "t": "≥ 48 hours to < 4 weeks postpartum"
      },
      {
-      "t": "Breastfeeding women who are ≥ 48 hours to < 4<br/>weeks postpartum generally should not have an LNG-IUD inserted (MEC Category 3)."
+      "t": "Breastfeeding women who are ≥ 48 hours to < 4 weeks postpartum generally should not have an LNG-IUD inserted (MEC Category 3)."
      },
      {
       "t": ""
@@ -1296,10 +1221,10 @@
     ],
     [
      {
-      "t": "≥ 4 weeks<br/>postpartum"
+      "t": "≥ 4 weeks postpartum"
      },
      {
-      "t": "Breastfeeding women who are ≥ 4 weeks postpartum<br/>can use an LNG-IUD without restriction (MEC<br/>Category 1)."
+      "t": "Breastfeeding women who are ≥ 4 weeks postpartum can use an LNG-IUD without restriction (MEC Category 1)."
      },
      {
       "t": ""
@@ -1310,78 +1235,43 @@
       "t": "Puerperal sepsis"
      },
      {
-      "t": "Breastfeeding (and non-breastfeeding) women with<br/>puerperal sepsis should not have an LNG-IUD inserted<br/>(MEC Category 4)."
+      "t": "Breastfeeding (and non-breastfeeding) women with puerperal sepsis should not have an LNG-IUD inserted (MEC Category 4)."
      },
      {
       "t": ""
      }
     ],
-    [
-     {
-      "t": "7. Recommendations for use of subcutaneously-administered depot medroxyprogesterone<br/>acetate (DMPA-SC) – new method added to the guideline"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "7. Recommendations for use of subcutaneously-administered depot medroxyprogesterone acetate (DMPA-SC) – new method added to the guideline"
+    },
     [
      {
       "t": "All recommendations"
      },
      {
-      "t": "Recommendations for DMPA-SC will follow the current<br/>recommendations for DMPA-IM (intramuscular)."
+      "t": "Recommendations for DMPA-SC will follow the current recommendations for DMPA-IM (intramuscular)."
      },
      {
       "t": "Very low"
      }
     ],
-    [
-     {
-      "t": "8. Recommendations for Sino-implant (II) – new method added to the guideline"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "8. Recommendations for Sino-implant (II) – new method added to the guideline"
+    },
     [
      {
       "t": "All recommendations"
      },
      {
-      "t": "Recommendations for Sino-implant (II) will follow the<br/>current recommendations for LNG implants."
+      "t": "Recommendations for Sino-implant (II) will follow the current recommendations for LNG implants."
      },
      {
-      "t": "Range: Moderate to<br/>very low"
+      "t": "Range: Moderate to very low"
      }
     ],
-    [
-     {
-      "t": "9. Recommendations for emergency contraceptive pills (ECPs) – ulipristal acetate (UPA) as a new method added to the guideline and obesity as a new condition for ECP use"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "5. Recommendations for CHC use among women with known dyslipidaemias"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "9. Recommendations for emergency contraceptive pills (ECPs) – ulipristal acetate (UPA) as a new method added to the guideline and obesity as a new condition for ECP use"
+    },
     [
      {
       "t": "Pregnancy"
@@ -1398,7 +1288,7 @@
       "t": "Breastfeeding"
      },
      {
-      "t": "Breastfeeding women can use combined oral contraceptive pills (COCs) or LNG for ECPs without restriction (MEC Category 1).<br/><br/>Women who are breastfeeding can generally use UPA for ECPs (MEC Category 2)."
+      "t": "Breastfeeding women can use combined oral contraceptive pills (COCs) or LNG for ECPs without restriction (MEC Category 1).  Women who are breastfeeding can generally use UPA for ECPs (MEC Category 2)."
      },
      {
       "t": ""
@@ -1483,17 +1373,6 @@
     ],
     [
      {
-      "t": "5. Recommendations for CHC use among women with known dyslipidaemias"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
       "t": "Obesity"
      },
      {
@@ -1503,17 +1382,9 @@
       "t": "Moderate"
      }
     ],
-    [
-     {
-      "t": "10. Intrauterine device (IUD) use for women with increased risk of sexually transmitted infections (STIs)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "10. Intrauterine device (IUD) use for women with increased risk of sexually transmitted infections (STIs)"
+    },
     [
      {
       "t": "IUD initiation"
@@ -1537,12 +1408,18 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Printed rotated over several pages. The GRADE evidence rating is printed once per group of rows (a merged cell) and applies to the rows below it until the next rating. Section 11 onwards is in the next item."
+   ],
    "source_flags": [],
    "pages": [
     96,
     97,
-    98
+    98,
+    99,
+    100,
+    101,
+    102
    ],
    "context_before": "14.1 APPENDIX 1: SUMMARY OF RECOMMENDATION - MEDICAL ELIGIBILITY CRITERIA"
   },
@@ -1551,7 +1428,7 @@
    "page": 103,
    "image_only": false,
    "heading_path": "14 Appendices > 14.1 Appendix 1: Summary of Recommendation - Medical Eligibility Criteria",
-   "caption": "14.1 Appendix 1: Summary of Recommendation - Medical Eligibility Criteria (11. Recommendations for use of progesterone-releasing vaginal ring – new method added to the guideline)",
+   "caption": "14.1 Appendix 1: Summary of Recommendation - Medical Eligibility Criteria (sections 11-12)",
    "replaces_chunks": [
     "fp-2021-0195",
     "fp-2021-0196"
@@ -1560,17 +1437,20 @@
    "header": [
     [
      {
-      "t": "11. Recommendations for use of progesterone-releasing vaginal ring – new method added to the guideline"
+      "t": "TOPIC"
      },
      {
-      "t": ""
+      "t": "MEC RECOMMENDATION"
      },
      {
-      "t": ""
+      "t": "GRADE ASSESSMENT OF QUALITY OF EVIDENCE"
      }
     ]
    ],
    "body": [
+    {
+     "section": "11. Recommendations for use of progesterone-releasing vaginal ring – new method added to the guideline"
+    },
     [
      {
       "t": "Breastfeeding and ≥ 4 weeks postpartum"
@@ -1582,23 +1462,15 @@
       "t": "Low"
      }
     ],
-    [
-     {
-      "t": "12. Recommendations for use of hormonal contraception for women at high risk of HIV infection, women living with HIV, and women living with HIV using antiretroviral therapy (ART)"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
+    {
+     "section": "12. Recommendations for use of hormonal contraception for women at high risk of HIV infection, women living with HIV, and women living with HIV using antiretroviral therapy (ART)"
+    },
     [
      {
       "t": "12a. Women at high risk of HIV infection"
      },
      {
-      "t": "Women at high risk of acquiring HIV can use the following hormonal contraceptive methods without restriction: COCs, combined injectable contraceptives (CICs), combined contraceptive patches and rings, POPs, POIs (DMPA and NET-EN), and LNG and ETG implants (MEC Category 1).<br/><br/>Women at high risk of acquiring HIV can generally use LNG-IUDs (MEC Category 2)."
+      "t": "Women at high risk of acquiring HIV can use the following hormonal contraceptive methods without restriction: COCs, combined injectable contraceptives (CICs), combined contraceptive patches and rings, POPs, POIs (DMPA and NET-EN), and LNG and ETG implants (MEC Category 1).  Women at high risk of acquiring HIV can generally use LNG-IUDs (MEC Category 2)."
      },
      {
       "t": "Range: Moderate to very low"
@@ -1620,14 +1492,16 @@
       "t": "12c. Women living with severe or advanced HIV clinical disease (WHO stage 3 or 4)"
      },
      {
-      "t": "Women living with severe or advanced HIV clinical disease (WHO stage 3 or 4) can use the following hormonal contraceptive methods without restriction: COCs, CICs, combined contraceptive patches and rings, POPs, POIs (DMPA and NET-EN), and LNG and ETG implants (MEC Category 1).<br/><br/>Women living with severe or advanced HIV clinical disease (WHO stage 3 or 4) generally should not initiate use of the LNG-IUD (MEC Category 3) until their illness has improved to asymptomatic or mild HIV clinical disease (WHO stage 1 or 2).<br/><br/>Women who already have an LNG-IUD inserted and who develop severe or advanced HIV clinical disease need not have their IUD removed (MEC Category 2 for continuation)."
+      "t": "Women living with severe or advanced HIV clinical disease (WHO stage 3 or 4) can use the following hormonal contraceptive methods without restriction: COCs, CICs, combined contraceptive patches and rings, POPs, POIs (DMPA and NET-EN), and LNG and ETG implants (MEC Category 1).  Women living with severe or advanced HIV clinical disease (WHO stage 3 or 4) generally should not initiate use of the LNG-IUD (MEC Category 3) until their illness has improved to asymptomatic or mild HIV clinical disease (WHO stage 1 or 2).  Women who already have an LNG-IUD inserted and who develop severe or advanced HIV clinical disease need not have their IUD removed (MEC Category 2 for continuation)."
      },
      {
       "t": ""
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "Continuation of Appendix 1. The GRADE rating is printed once per group of rows and applies to the rows below it."
+   ],
    "source_flags": [],
    "pages": [
     103
@@ -1686,15 +1560,15 @@
       "t": "Condom"
      },
      {
-      "t": "May result from allergy to latex though this<br/>is very rare<br/><br/>Advice the couple to use a non-latex brand<br/>of condoms<br/><br/>Screen for presence of infection and treat,<br/>if present"
+      "t": "May result from allergy to latex though this is very rare<br/>Advice the couple to use a non-latex brand of condoms<br/>Screen for presence of infection and treat, if present"
      }
     ],
     [
      {
-      "t": "Spillage or<br/>breakage of<br/>Condom"
+      "t": "Spillage or breakage of Condom"
      },
      {
-      "t": ""
+      "t": "Condom"
      },
      {
       "t": "Offer comprehensive PEP."
@@ -1716,7 +1590,7 @@
       "t": "Spotting"
      },
      {
-      "t": "POIs"
+      "t": "POIs, COCs, CICs, Implants, IUCD"
      },
      {
       "t": "Spotting or light bleeding is common during use of these contraceptives, particularly during the first few months of use. It is not harmful. Reassure the client If the bleeding is persistent assess for gynaecological problems and treat accordingly If there is no gynaecological problem treat with non-steroidal anti-in inflammatory drugs (NSAIDs) e.g. Ibuprofen or give a cycle of COCs"
@@ -1724,90 +1598,13 @@
     ],
     [
      {
-      "t": "Spotting"
+      "t": "Heavy or prolonged bleeding"
      },
      {
-      "t": "COCs"
+      "t": "POPs, POIs, CICs, Implants"
      },
      {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Spotting"
-     },
-     {
-      "t": "CICs"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Spotting"
-     },
-     {
-      "t": "Implants"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "IUCD"
-     },
-     {
-      "t": ""
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Heavy or<br/>prolonged<br/>bleeding"
-     },
-     {
-      "t": "POPs"
-     },
-     {
-      "t": "Assess for underlying gynaecological<br/>problems and manage accordingly. If<br/>there are no underlying gynaecological<br/>problems;<br/><br/>Give Non – Steriods Anti-in amatory<br/>Drugs(NSAIDS) (Ibuprofen 400mg<br/>tds) and COCs<br/><br/>If bleeding persists and becomes a<br/>threat to her life, discontinue clients from<br/>method and help her choose another<br/>method."
-     }
-    ],
-    [
-     {
-      "t": "Heavy or<br/>prolonged<br/>bleeding"
-     },
-     {
-      "t": "POIs"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Heavy or<br/>prolonged<br/>bleeding"
-     },
-     {
-      "t": "CICs"
-     },
-     {
-      "t": ""
-     }
-    ],
-    [
-     {
-      "t": "Heavy or<br/>prolonged<br/>bleeding"
-     },
-     {
-      "t": "Implants"
-     },
-     {
-      "t": ""
+      "t": "Assess for underlying gynaecological problems and manage accordingly. If there are no underlying gynaecological problems;<br/>Give Non – Steriods Anti-in amatory Drugs(NSAIDS) (Ibuprofen 400mg tds) and COCs<br/>If bleeding persists and becomes a threat to her life, discontinue clients from method and help her choose another method."
      }
     ],
     [
@@ -1818,7 +1615,7 @@
       "t": "POPs"
      },
      {
-      "t": "If client is breastfeeding, reassure her<br/>that it<br/>is normal not to have monthly bleedings<br/>while breastfeeding, If not, reassure her<br/>that<br/>some woman stops having monthly<br/>bleeding<br/>while taking"
+      "t": "If client is breastfeeding, reassure her that it is normal not to have monthly bleedings while breastfeeding, If not, reassure her that some woman stops having monthly bleeding while taking"
      }
     ],
     [
@@ -1829,7 +1626,7 @@
       "t": "POIs"
      },
      {
-      "t": "Counselling and reassurance are<br/>sufficient. If in doubt, assess for<br/>pregnancy, and manage accordingly.<br/>If client is bothered by lack of menses<br/>despite reassurance, discontinue<br/>injectable, and help her choose another<br/>method."
+      "t": "Counselling and reassurance are sufficient. If in doubt, assess for pregnancy, and manage accordingly. If client is bothered by lack of menses despite reassurance, discontinue injectable, and help her choose another method."
      }
     ],
     [
@@ -1837,10 +1634,10 @@
       "t": "Amenorrhea"
      },
      {
-      "t": "CICs<br/><br/>Implants"
+      "t": "CICs<br/>Implants"
      },
      {
-      "t": "Assess for pregnancy; If not pregnant<br/>- counsel and reassure, no treatment is<br/>required<br/>If pregnant, stop injections and refer for<br/>ANC"
+      "t": "Assess for pregnancy; If not pregnant - counsel and reassure, no treatment is required If pregnant, stop injections and refer for ANC"
      }
     ],
     [
@@ -1851,95 +1648,95 @@
       "t": "COCs"
      },
      {
-      "t": "If the client is taking COCs correctly,<br/>reassure. If she has not been taking the<br/>pills correctly assess for pregnancy, If<br/>not pregnant advise her to take the pills<br/>correctly<br/>If pregnant, discontinue COCs and refer<br/>for ANC"
+      "t": "If the client is taking COCs correctly, reassure. If she has not been taking the pills correctly assess for pregnancy, If not pregnant advise her to take the pills correctly If pregnant, discontinue COCs and refer for ANC"
      }
     ],
     [
      {
-      "t": "Headache or<br/>dizziness"
+      "t": "Headache or dizziness"
      },
      {
       "t": "POPs"
      },
      {
-      "t": "If headaches worsen while using POPs<br/>(e.g. she develops migraines with aura),<br/>discontinue POPs and help client select<br/>alternative method. Refer if need be."
+      "t": "If headaches worsen while using POPs (e.g. she develops migraines with aura), discontinue POPs and help client select alternative method. Refer if need be."
      }
     ],
     [
      {
-      "t": "Headache or<br/>dizziness"
+      "t": "Headache or dizziness"
      },
      {
       "t": "POIs"
      },
      {
-      "t": "Assess for other causes including raised<br/>blood pressure.<br/>Reassure client if symptoms are mild.<br/>If severe, discontinue injectable and refer<br/>for evaluation. Help client choose another<br/>method."
+      "t": "Assess for other causes including raised blood pressure. Reassure client if symptoms are mild. If severe, discontinue injectable and refer for evaluation. Help client choose another method."
      }
     ],
     [
      {
-      "t": "Headache or<br/>dizziness"
+      "t": "Headache or dizziness"
      },
      {
-      "t": "COCs<br/><br/>CICs<br/><br/>IUCD"
+      "t": "COCs<br/>CICs<br/>IUCD"
      },
      {
-      "t": "If headaches are mild, treat with analgesics<br/>and reassure.<br/>If headaches persist or are associated with<br/>blurring of vision, discontinue commodity<br/>and help the client to choose another<br/>method"
+      "t": "If headaches are mild, treat with analgesics and reassure. If headaches persist or are associated with blurring of vision, discontinue commodity and help the client to choose another method"
      }
     ],
     [
      {
-      "t": "Breast<br/>fullness or<br/>tenderness"
+      "t": "Breast fullness or tenderness"
      },
      {
-      "t": "POPs<br/><br/>POIs<br/><br/>COCs<br/><br/>CICs<br/><br/>Implants"
+      "t": "POPs<br/>POIs<br/>COCs<br/>CICs<br/>Implants"
      },
      {
-      "t": "Assess for pregnancy. If pregnant,<br/>advise to stop POPs / POIs<br/>If not pregnant, reassure and give<br/>analgesics<br/>If physical examination shows signs of<br/>sepsis, treat with antibiotics and analgesics<br/>Assess for breast cancer; If she has breast<br/>lump or other suspicious lesions, refer for<br/>further management."
+      "t": "Assess for pregnancy. If pregnant, advise to stop POPs / POIs If not pregnant, reassure and give analgesics If physical examination shows signs of sepsis, treat with antibiotics and analgesics Assess for breast cancer; If she has breast lump or other suspicious lesions, refer for further management."
      }
     ],
     [
      {
-      "t": "Mood<br/>changes or<br/>nervousness"
+      "t": "Mood changes or nervousness"
      },
      {
       "t": "POPs"
      },
      {
-      "t": "Counsel the clients<br/>If the condition worsens, advise client to<br/>stop and help her to select an alternative<br/>method"
+      "t": "Counsel the clients If the condition worsens, advise client to stop and help her to select an alternative method"
      }
     ],
     [
      {
-      "t": "Nausea,<br/>dizziness,<br/>vomiting"
+      "t": "Nausea, dizziness, vomiting"
      },
      {
       "t": "COCs"
      },
      {
-      "t": "Advice the client that this is a common side<br/>effect in COCs users in the 1st few months<br/>Advise client to take pill with evening meal<br/>or before bedtime. If symptoms persist,<br/>assess for pregnancy<br/>If pregnant manage appropriately<br/>If not pregnant, reassure tenderness"
+      "t": "Advice the client that this is a common side effect in COCs users in the 1st few months Advise client to take pill with evening meal or before bedtime. If symptoms persist, assess for pregnancy If pregnant manage appropriately If not pregnant, reassure tenderness"
      }
     ],
     [
      {
-      "t": "Nausea,<br/>dizziness,<br/>vomiting"
+      "t": "Nausea, dizziness, vomiting"
      },
      {
-      "t": "CICs<br/><br/>IUCD"
+      "t": "CICs<br/>IUCD"
      },
      {
-      "t": "Assess for pregnancy If not pregnant,<br/>counsel client that it may decrease after 3<br/>months If problem is intolerable don’t give<br/>the next injection and assist client to select<br/>another method<br/>If pregnant refer for ANC"
+      "t": "Assess for pregnancy If not pregnant, counsel client that it may decrease after 3 months If problem is intolerable don’t give the next injection and assist client to select another method If pregnant refer for ANC"
      }
     ],
     [
      {
-      "t": "Abdominal<br/>cramping<br/>and pain"
+      "t": "Abdominal cramping and pain"
      },
      {
       "t": "IUCD"
      },
      {
-      "t": "Inform client that some abdominal<br/>cramping<br/>may occur in the 1st 24-48 hours. If<br/>cramping<br/>continues give analgesics (Ibuprofen<br/>200mg-<br/>400mg, Paracetamol 325mg – 1000mg)<br/>If pain and cramping is severe evaluate for<br/>underlying conditions including signs of<br/>partial<br/>IUCD expulsion, PID or ectopic pregnancy<br/>and<br/>treat accordingly.<br/>If pain and cramping persists and no cause<br/>is found, remove IUCD, counsel client to<br/>select another method"
+      "t": "Inform client that some abdominal cramping may occur in the 1st 24-48 hours. If cramping continues give analgesics (Ibuprofen 200mg- 400mg, Paracetamol 325mg – 1000mg) If pain and cramping is severe evaluate for underlying conditions including signs of partial IUCD expulsion, PID or ectopic pregnancy and treat accordingly. If pain and cramping persists and no cause is found, remove IUCD, counsel client to select another method"
      }
     ],
     [
@@ -1958,7 +1755,7 @@
       "t": "Abscess"
      },
      {
-      "t": ""
+      "t": "BTL"
      },
      {
       "t": "Clean the area with antiseptic; Give oral antibiotics; Refer for Incision and drainage"
@@ -1969,7 +1766,7 @@
       "t": "Haematoma"
      },
      {
-      "t": ""
+      "t": "BTL"
      },
      {
       "t": "This usually will resolve overtime but may require drainage if extensive."
@@ -1994,14 +1791,24 @@
       "t": "Vasectomy"
      },
      {
-      "t": "Reassure him that minor blee<br/>blood clots usually go away without treatment within a couple of weeks<br/>Large blood clots may need to surgically drained<br/>Infected blood clots require antibiotics and hospitalization"
+      "t": "Reassure him that minor blee blood clots usually go away without treatment within a couple of weeks Large blood clots may need to surgically drained Infected blood clots require antibiotics and hospitalization"
      }
     ]
    ],
-   "footnotes": [],
-   "source_flags": [],
+   "footnotes": [
+    "Where several methods (commodities) share one management cell in the source, they are listed together in one row. 'BTL' (bilateral tubal ligation) covers wound infection, abscess and haematoma; 'Pain at incision' has no commodity printed."
+   ],
+   "source_flags": [
+    "Condom spillage or breakage: the only action given is 'Offer comprehensive PEP'; emergency contraception (within 120 hours) should also be offered, and PEP applies only where HIV exposure is possible."
+   ],
    "pages": [
-    107
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113
    ],
    "context_before": "14.3 APPENDIX 3: MANAGING SIDE EFFECTS"
   },
@@ -2010,7 +1817,7 @@
    "page": 114,
    "image_only": false,
    "heading_path": "14 Appendices > 14.4 Appendix 4: Pregnancy Checklist",
-   "caption": "14.4 Appendix 4: Pregnancy Checklist (NO, YES)",
+   "caption": "14.4 Appendix 4: Pregnancy Checklist",
    "replaces_chunks": [
     "fp-2021-0206"
    ],
@@ -2021,7 +1828,7 @@
       "t": "NO"
      },
      {
-      "t": ""
+      "t": "Question"
      },
      {
       "t": "YES"
@@ -2034,14 +1841,73 @@
       "t": ""
      },
      {
-      "t": "1. Did you have a baby less than 6 months ago, are you exclusive breastfeeding, and had amenorrhea since then?<br/>2. Have you abstained from sexual intercourse since your last monthly bleeding or delivery?<br/>3. Have you had a baby in the last 4 weeks?<br/>4. Did your last monthly bleeding start within the past 7 days (or within the past 12 days if the client is planning to use an IUD)?<br/>5. Have you had a miscarriage or abortion in the last 7 days (or within the past 12 days if the client is planning to use an IUD)?<br/>6. Have you been using a reliable contraceptive method consistently and correctly?"
+      "t": "1. Did you have a baby less than 6 months ago, are you exclusive breastfeeding, and had amenorrhea since then?"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "2. Have you abstained from sexual intercourse since your last monthly bleeding or delivery?"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "3. Have you had a baby in the last 4 weeks?"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "4. Did your last monthly bleeding start within the past 7 days (or within the past 12 days if the client is planning to use an IUD)?"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "5. Have you had a miscarriage or abortion in the last 7 days (or within the past 12 days if the client is planning to use an IUD)?"
+     },
+     {
+      "t": ""
+     }
+    ],
+    [
+     {
+      "t": ""
+     },
+     {
+      "t": "6. Have you been using a reliable contraceptive method consistently and correctly?"
      },
      {
       "t": ""
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "NO and YES are tick-box columns either side of each question.",
+    "If the client answered “yes” to at least one of the questions, and she has no signs or symptoms of pregnancy, you can give her the method she has chosen.",
+    "If the client answered “no” to all questions, pregnancy cannot be ruled out. The client should wait for her next monthly bleeding or use a pregnancy test."
+   ],
    "source_flags": [],
    "pages": [
     114
@@ -2121,7 +1987,9 @@
     ]
    ],
    "footnotes": [],
-   "source_flags": [],
+   "source_flags": [
+    "Appendix 6 covers efavirenz, nevirapine and protease inhibitors but not dolutegravir, now the preferred first-line ARV in Eswatini; dolutegravir has no clinically significant interaction with hormonal contraceptives, and efavirenz with implants (the main concern listed) applies only to clients still on EFV-based regimens."
+   ],
    "pages": [
     116,
     117,
