@@ -899,10 +899,13 @@
    "image_only": false,
    "heading_path": "Chapter 2: Prevention of HIV > 2.5.1 Oral PrEP > Additional guidance for event-driven PrEP > Figure 2.3",
    "caption": "Figure 2.3 How to take Event-Driven PrEP",
-   "replaces_chunks": [],
+   "replaces_chunks": [
+    "hiv-2022-0069"
+   ],
    "content": "Three examples of ED-PrEP (2+1+1) dosing:\n1. Sex one time or in one day: sex Friday 11 PM. Take 2 tablets Friday 9 AM, 1 tablet Saturday 9 AM, 1 tablet Sunday 9 AM.\n2. Sex on multiple consecutive days: sex Friday 11 PM, Saturday 10 PM and Sunday 4 AM. Take 2 tablets Friday 9 AM, then 1 tablet daily at 9 AM on Saturday, Sunday, Monday and Tuesday (continue daily until two days after the last sex).\n3. Sex on multiple non-consecutive days: sex Friday and Sunday. Take 2 tablets Friday 9 AM, then 1 tablet daily at 9 AM on Saturday, Sunday, Monday and Tuesday.",
    "footnotes": [],
-   "source_flags": []
+   "source_flags": [],
+   "context_before": "Clients AMAB who are not using oestradiol-based exogenous hormones may benefit from providers walking through some scenarios to support their effective use of ED-PrEP, See Figure 2.3 below ."
   },
   {
    "kind": "section",
@@ -913,20 +916,6 @@
    "caption": "Recommended ARV Regimen for event-driven oral Pre-exposure Prophylaxis (continued)",
    "replaces_chunks": [],
    "content": "Key message: PrEP does NOT eliminate the risk of HIV infection, and it does not prevent STIs or unintended pregnancies. It should, therefore, be offered as part of a combination HIV prevention package that includes condoms. .",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p39-19",
-   "page": 39,
-   "image_only": false,
-   "heading_path": "Chapter 2: Prevention of HIV > 2.5.1 Oral PrEP > Additional guidance for event-driven PrEP",
-   "caption": "Additional guidance for event-driven PrEP",
-   "replaces_chunks": [
-    "hiv-2022-0069"
-   ],
-   "content": "Clients AMAB who are not using oestradiol-based exogenous hormones may benefit from providers walking through some scenarios to support their effective use of ED-PrEP, See Figure 2.3 below .",
    "footnotes": [],
    "source_flags": []
   },
@@ -1198,7 +1187,8 @@
    "heading_path": "Chapter 2: Prevention of HIV > 2.5 Pre-exposure Prophylaxis > Follow-up appointments for PrEP users > Table 2.5 Assessing and Monitoring Renal Function for Oral PrEP users",
    "caption": "Table 2.5 Assessing and Monitoring Renal Function for Oral PrEP users",
    "replaces_chunks": [
-    "hiv-2022-0083"
+    "hiv-2022-0083",
+    "hiv-2022-0082"
    ],
    "row_header_cols": 1,
    "header": [
@@ -1275,21 +1265,7 @@
    "source_flags": [
     "Superseded in part by the 2025 PrEP implementation guidelines (Table 17): creatinine once at or within three months of initiation and follow-up every 6-12 months for age 30-49 with CrCl 60-89, age 50+ and comorbidities; stop oral PrEP if CrCl <60 ml/min."
    ],
-   "context_before": "The first follow-up appointment should be 1 month after PrEP initiation. HIV testing should be performed at every follow-up visit. Creatinine testing should be done for some clients at the one-month follow-up appointment as specified in Table 2.5. Subsequent follow-up visits should be aligned with other services, with a maximum duration of three months."
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p43-30",
-   "page": 43,
-   "image_only": false,
-   "heading_path": "Chapter 2: Prevention of HIV > 2.5 Pre-exposure Prophylaxis > Follow-up appointments for PrEP users.",
-   "caption": "Follow-up appointments for PrEP users.",
-   "replaces_chunks": [
-    "hiv-2022-0082"
-   ],
-   "content": "- The first follow-up appointment should be 1 month after PrEP initiation. This appointment is important to discuss experiences, possible side effects, effective use and to early identify any missed acute HIV infection upon initiation.\n- Creatinine testing should be done for some clients at the one-month follow-up appointment and as specified in Table 2.5 below.\n- Subsequent follow-up visits should be aligned with any other services provided to the client (e.g., family planning service, antenatal care, etc) or with a maximum duration of three months.",
-   "footnotes": [],
-   "source_flags": []
+   "context_before": "The first follow-up appointment should be 1 month after PrEP initiation. HIV testing should be performed at every follow-up visit. Creatinine testing should be done for some clients at the one-month follow-up appointment as specified in Table 2.5. Subsequent follow-up visits should be aligned with other services, with a maximum duration of three months.\n\n- The first follow-up appointment should be 1 month after PrEP initiation. This appointment is important to discuss experiences, possible side effects, effective use and to early identify any missed acute HIV infection upon initiation.\n- Creatinine testing should be done for some clients at the one-month follow-up appointment and as specified in Table 2.5 below.\n- Subsequent follow-up visits should be aligned with any other services provided to the client (e.g., family planning service, antenatal care, etc) or with a maximum duration of three months."
   },
   {
    "kind": "section",
@@ -2446,20 +2422,6 @@
    "source_flags": []
   },
   {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p64-61",
-   "page": 64,
-   "image_only": false,
-   "heading_path": "Chapter 3: HIV Testing Services > 3.9.1 HIV testing in Infants and Children Less Than 18 Months",
-   "caption": "3.9.1 HIV testing in Infants and Children Less Than 18 Months",
-   "replaces_chunks": [
-    "hiv-2022-0145"
-   ],
-   "content": "Virological testing should be used to diagnose HIV among all exposed infants less than 18 months. Diagnosis should be done at the earliest opportunity to offer optimal care and treatment of HIV-infected infants and the timing of the HIV test should be aligned with childhood immunization schedules (see PMTCT immunization schedule). A summary of the HIV testing algorithm for infants from birth is in Figure 3.8 below",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
    "kind": "diagram",
    "table_id": "hiv-2022-fig-3.8-infant-testing-algorithm",
    "page": 65,
@@ -2467,14 +2429,16 @@
    "heading_path": "Chapter 3: HIV Testing Services > 3.9 HIV Testing Algorithm > 3.9.1 HIV testing in Infants and Children Less Than 18 Months > Figure 3.8",
    "caption": "Figure 3.8 HIV testing algorithm for Infants and Children Less Than 18 Months",
    "replaces_chunks": [
-    "hiv-2022-0146"
+    "hiv-2022-0146",
+    "hiv-2022-0145"
    ],
    "content": "HIV-exposed newborn (0-3 days): conduct NAT (RNA and/or DNA PCR).\n- Positive: infant is infected. Immediately start ART; repeat NAT (RNA and/or DNA PCR) using a new sample to confirm infection.\n- Indeterminate: repeat NAT.\n    - Indeterminate again: do not report as positive or initiate ART but maintain prophylaxis in accordance with national guidelines. Request a new sample and repeat NAT (RNA and/or DNA PCR) after 2 weeks. Further review by multidisciplinary team.\n- Negative: HIV infection not detected, but if infant/child is breastfed the risk of acquiring HIV remains high until cessation of breastfeeding. Regular clinical monitoring; conduct NAT at 6-8 weeks, at 9 months and at 12 months.\n    - Positive: infant is infected. Immediately start ART; repeat NAT (RNA and/or DNA PCR) using a new sample to confirm infection.\n    - Negative: HIV infection not detected, but if infant/child is breastfed the risk of acquiring HIV remains high until cessation of breastfeeding. Conduct antibody testing at 18 months of age OR at 2 months after cessation of breastfeeding, whichever comes first.",
    "footnotes": [],
    "source_flags": [
     "Final antibody test 'at 18 months of age OR at 2 months after cessation of breastfeeding, whichever comes first': a test before breastfeeding has stopped cannot exclude infection; WHO gives the final diagnosis at 18 months or 3 months after cessation of breastfeeding, whichever is LATER. Figure 3.9 says RDT 3 months after cessation of breastfeeding (not 2).",
     "The first box reads 'Infected is infected' (infant is infected)."
-   ]
+   ],
+   "context_before": "Virological testing should be used to diagnose HIV among all exposed infants less than 18 months. Diagnosis should be done at the earliest opportunity to offer optimal care and treatment of HIV-infected infants and the timing of the HIV test should be aligned with childhood immunization schedules (see PMTCT immunization schedule). A summary of the HIV testing algorithm for infants from birth is in Figure 3.8 below"
   },
   {
    "table_id": "hiv-2022-tbl-3.7-eid-indeterminate-ct",
@@ -2483,7 +2447,8 @@
    "heading_path": "Chapter 3: HIV Testing Services > 3.9.1 HIV testing in Infants and Children Less Than 18 Months > Indeterminate Test Results > Table 3.7",
    "caption": "Table 3.7 Indeterminate range cycle threshold equivalents of current nucleic acid infant diagnosis assays",
    "replaces_chunks": [
-    "hiv-2022-0148"
+    "hiv-2022-0148",
+    "hiv-2022-0147"
    ],
    "row_header_cols": 1,
    "header": [
@@ -2528,39 +2493,7 @@
     "Clinical monitoring and further testing based on the national infant testing schedule need to be done until a definitive HIV status is established."
    ],
    "source_flags": [],
-   "context_before": "An indeterminate range** of viral copy equivalents should be used to improve the accuracy of all nucleic acid-based early infant diagnosis assays. **Indeterminate range refers to a range of viral copy equivalents that would be too low to be accurately diagnosed as HIV-infected."
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p65-62",
-   "page": 65,
-   "image_only": false,
-   "heading_path": "Chapter 3: HIV Testing Services > 3.9.1 HIV testing in Infants and Children Less Than 18 Months > Indeterminate Test Results",
-   "caption": "Indeterminate Test Results",
-   "replaces_chunks": [
-    "hiv-2022-0147"
-   ],
-   "content": "Declining mother-to-child transmission rates globally and nationally have led to concerns about false-positive and indeterminate test results. However, an indeterminate range** of viral copy equivalents should be used to improve the accuracy of all nucleic acid-based early infant diagnosis assays as shown in Table 3.7 below. **Indeterminate range refers to a range of viral copy equivalents that would be too low to be accurately diagnosed as HIV-infected.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p65-63",
-   "page": 65,
-   "image_only": false,
-   "heading_path": "Chapter 3: HIV Testing Services > 3.9.1 HIV testing in Infants and Children Less Than 18 Months > Indeterminate Test Results (continued)",
-   "caption": "Indeterminate Test Results (continued)",
-   "replaces_chunks": [
-    "hiv-2022-0150"
-   ],
-   "content": "- Infants with a positive result should receive a confirmatory test and be initiated on ART immediately while awaiting the result of the confirmatory test. NAT (RNA and/or DNA PCR) must be repeated using a new sample to confirm infection.\n- If the second (confirmatory test) NAT is negative, a third NAT (RNA and/or DNA PCR) should be performed before considering interrupting ART. Figure 3.9 below shows the confirmatory testing of HIV-positive infants.",
-   "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    65,
-    66
-   ]
+   "context_before": "An indeterminate range** of viral copy equivalents should be used to improve the accuracy of all nucleic acid-based early infant diagnosis assays. **Indeterminate range refers to a range of viral copy equivalents that would be too low to be accurately diagnosed as HIV-infected.\n\nDeclining mother-to-child transmission rates globally and nationally have led to concerns about false-positive and indeterminate test results. However, an indeterminate range** of viral copy equivalents should be used to improve the accuracy of all nucleic acid-based early infant diagnosis assays as shown in Table 3.7 below. **Indeterminate range refers to a range of viral copy equivalents that would be too low to be accurately diagnosed as HIV-infected."
   },
   {
    "kind": "diagram",
@@ -2570,13 +2503,15 @@
    "heading_path": "Chapter 3: HIV Testing Services > 3.9.1 > Confirmatory testing of positive test results and managing discordant results > Figure 3.9",
    "caption": "Figure 3.9 Confirmatory HIV testing algorithm for Infants and Children Less Than 18 Months",
    "replaces_chunks": [
-    "hiv-2022-0151"
+    "hiv-2022-0151",
+    "hiv-2022-0150"
    ],
    "content": "1. NAT (first EID test) positive: repeat NAT using a new sample to confirm infection. Do not delay ART initiation.\n2. Second NAT positive: continue ART.\n   Second NAT negative: stay on ART; repeat NAT (a third) using a new sample to confirm infection.\n3. Third NAT positive: continue ART.\n   Third NAT negative: stop ART, then follow-up testing after treatment interruption:\n   - If infant is breastfeeding: conduct NAT at 4 weeks, at 4 months and at 8 months after treatment interruption. Conduct RDT 3 months after cessation of breastfeeding.\n   - If infant is not breastfeeding or stops before completion of follow-up: conduct NAT at 4 weeks, at 4 months and at 8 months after treatment interruption.\nBefore interrupting ART after discordant results (positive then negative) followed by a third negative test: the infant should have no clinical signs or symptoms suggesting HIV infection; a follow-up plan should be agreed with the family, caregiver(s) and healthcare staff; tracking information (phone, address, etc.) of the family and caregiver(s) should be collected and confirmed.",
    "footnotes": [],
    "source_flags": [
     "The branches in the figure are not labelled positive/negative; read from the layout and the text above the figure (second negative NAT -> third NAT before considering interruption)."
-   ]
+   ],
+   "context_before": "- Infants with a positive result should receive a confirmatory test and be initiated on ART immediately while awaiting the result of the confirmatory test. NAT (RNA and/or DNA PCR) must be repeated using a new sample to confirm infection.\n- If the second (confirmatory test) NAT is negative, a third NAT (RNA and/or DNA PCR) should be performed before considering interrupting ART. Figure 3.9 below shows the confirmatory testing of HIV-positive infants."
   },
   {
    "kind": "section",
@@ -9980,11 +9915,14 @@
    "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.11 Stepped Up Adherence Counselling (SUAC) > Figure 7.5",
    "caption": "Figure 7.5 Structure of the Stepped-Up Adherence Counselling Session",
    "replaces_chunks": [
-    "hiv-2022-0437"
+    "hiv-2022-0437",
+    "hiv-2022-0436",
+    "hiv-2022-0438"
    ],
    "content": "Each SUAC session follows 7 steps: 1. Prepare for the session; 2. Assess understanding; 3. Review adherence; 4. Assess barriers; 5. Establish goals; 6. Reduce risk; 7. End the session.\nThe goal of SUAC is to improve adherence and lower a client's VL to an undetectable level, and to determine whether adherence is or is not the cause of the client's high VL. The SUAC toolkit details the steps.",
    "footnotes": [],
-   "source_flags": []
+   "source_flags": [],
+   "context_before": "The goal of SUAC is to improve adherence and to lower a client’s VL to an undetectable level. SUAC is also used to determine whether adherence is or is not the cause of the client’s high VL and to accurately recommend an appropriate treatment option. The SUAC toolkit details the structure and steps to be undertaken when conducting SUAC sessions. In general, each session consists of the 7 steps highlighted in Figure 7.5 below.\nFor effective SUAC, all areas of psychosocial care have to be addressed as highlighted in the table below."
   },
   {
    "table_id": "hiv-2022-tbl-7.9-suac-content",
@@ -10044,21 +9982,6 @@
     165,
     166
    ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p165-t0335",
-   "page": 165,
-   "image_only": false,
-   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.11 Stepped Up Adherence Counselling (SUAC)",
-   "caption": "7.11 Stepped Up Adherence Counselling (SUAC)",
-   "replaces_chunks": [
-    "hiv-2022-0436",
-    "hiv-2022-0438"
-   ],
-   "content": "The goal of SUAC is to improve adherence and to lower a client’s VL to an undetectable level. SUAC is also used to determine whether adherence is or is not the cause of the client’s high VL and to accurately recommend an appropriate treatment option. The SUAC toolkit details the structure and steps to be undertaken when conducting SUAC sessions. In general, each session consists of the 7 steps highlighted in Figure 7.5 below.\nFor effective SUAC, all areas of psychosocial care have to be addressed as highlighted in the table below.",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "kind": "section",
@@ -12807,7 +12730,8 @@
     "hiv-2022-0561",
     "hiv-2022-0563",
     "hiv-2022-0565",
-    "hiv-2022-0566"
+    "hiv-2022-0566",
+    "hiv-2022-0562"
    ],
    "content": "Figure 9.2 Elements of STOP strategy: Screen, Treat, Optimize and Prevent AIDS (STOP AIDS) - the package of care for children and adolescents with advanced HIV disease.\nIdentify and treat opportunistic infections BEFORE initiating ART. Client with active TB (other than TB meningitis): initiate ART as soon as possible (within 2 weeks) following initiation of anti-TB treatment. Client with cryptococcal infection or meningitis: ART initiation should be delayed for 6-8 weeks after starting treatment for meningitis.\nSCREEN\nScreen for TB:\n- Use a clinical algorithm (see Figure 6.1) followed by an X-ray when indicated and if available\n- Use recommended diagnostic tests to confirm TB as applicable:\n   1. Rapid molecular diagnostic (Xpert® MTB/RIF or Ultra) on (induced) sputum, stool, gastric aspirate or nasopharyngeal aspirate or other extra-pulmonary samples if relevant\n   2. Lateral flow urine lipoarabinomannan (LF-LAM) assay\nIndications for LF-LAM use in the diagnosis of active TB among CALHIV:\n- Inpatient settings: with signs and symptoms of TB (pulmonary and/or extrapulmonary); with advanced HIV disease or who are seriously ill regardless of signs and symptoms of TB and with a CD4 count <200 cells/mm³\n- Outpatient settings: with signs and symptoms of TB (pulmonary and/or extrapulmonary); seriously ill regardless of signs and symptoms of TB and with a CD4 cell count <100 cells/mm³\nLF-LAM should not be used to assist in diagnosing active TB among children and adolescents in the following situations: A. without assessing TB symptoms; B. without TB symptoms and unknown CD4 cell count or without TB symptoms and the CD4 cell count ≥200 cells/mm³; C. without TB symptoms and with a CD4 cell count of 100–200 cells/mm³\nScreen for cryptococcal infection among adolescents: serum or plasma or blood cryptococcal antigen screening followed by lumbar puncture if positive or symptomatic\nScreen for malnutrition: weight-for-height (Wt/Ht); height-for-age (Ht/Age); mid-upper arm circumference (MUAC) among children 2–5 years old; weight for age (Wt/Age)\nTREAT\nTreat opportunistic infections: this includes TB, severe pneumonia, severe bacterial infections, gastroenteritis, cryptococcal meningitis and severe acute malnutrition\nOPTIMIZE\n- Rapid antiretroviral therapy initiation with optimal regimens (within 7 days)\n- Antiretroviral therapy counselling\n- Intensified adherence support interventions\nPREVENT\n- Bacterial infections and Pneumocystis pneumonia: co-trimoxazole prophylaxis\n- TB: TB preventive treatment\n- Cryptococcal meningitis among adolescents: fluconazole pre-emptive therapy\n- Vaccination (see National vaccination schedule Annex 11.33): pneumococcal vaccine, HPV (adolescents), measles, BCG",
    "footnotes": [],
@@ -12817,21 +12741,8 @@
    "pages": [
     206,
     207
-   ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p206-t0409",
-   "page": 206,
-   "image_only": false,
-   "heading_path": "Chapter 9: ART for Children and Adolescents > 9.4 Advanced HIV Disease (AHD) in children and adolescents (continued)",
-   "caption": "9.4 Advanced HIV Disease (AHD) in children and adolescents (continued)",
-   "replaces_chunks": [
-    "hiv-2022-0562"
    ],
-   "content": "The elements for the implementation of the STOP strategy are outlined in Table 9.3 below.",
-   "footnotes": [],
-   "source_flags": []
+   "context_before": "The elements for the implementation of the STOP strategy are outlined in Table 9.3 below."
   },
   {
    "table_id": "hiv-2022-tbl-9.4-first-line-children",
@@ -12840,7 +12751,8 @@
    "heading_path": "Chapter 9: ART for Children and Adolescents > 9.5 What to Start: ART for Children and Adolescents > Table 9.4",
    "caption": "Table 9.4 Recommended First-Line ART Regimens for Children and Adolescents",
    "replaces_chunks": [
-    "hiv-2022-0569"
+    "hiv-2022-0569",
+    "hiv-2022-0568"
    ],
    "row_header_cols": 1,
    "header": [
@@ -12892,7 +12804,7 @@
     "Neonatal cut-off: '<3.0 kg' here vs '≤3kg' in Table 9.5, so a 3.0 kg infant falls in different bands.",
     "Superseded by the 2024 Amendment: paediatric ABC/3TC/DTG 60/30/5 mg dispersible fixed-dose tablet (pALD) is added for children 6-24.9 kg; separate ABC/3TC + pDTG remain for children 3-5.9 kg, children on rifampicin-based TB treatment, and 2nd/3rd-line clients not previously on DTG. Use the updated paediatric dosing chart (Amendment 9.2, Annex 11.17)."
    ],
-   "context_before": "Children and adolescents are a priority population. In the absence of severe opportunistic infections like meningitis, initiate ART on the same day and when not possible as soon as the caregiver/child/adolescent is ready, preferably within 7 days (Test and Start), regardless of the availability of baseline results. Before initiating ART, conduct a comprehensive clinical and psychosocial assessment including adherence counselling."
+   "context_before": "Children and adolescents are a priority population. In the absence of severe opportunistic infections like meningitis, initiate ART on the same day and when not possible as soon as the caregiver/child/adolescent is ready, preferably within 7 days (Test and Start), regardless of the availability of baseline results. Before initiating ART, conduct a comprehensive clinical and psychosocial assessment including adherence counselling.\n\nBefore initiating ART, conduct a comprehensive clinical and psychosocial assessment including adherence counselling. Initiate ART as outlined in Table 9.4 below."
   },
   {
    "kind": "section",
@@ -12905,20 +12817,6 @@
     "hiv-2022-0567"
    ],
    "content": "Children and adolescents are a priority population. In the absence of severe opportunistic infections like meningitis, initiate ART on the same day initiation and when not possible, as soon as the caregiver/child/adolescent is ready, preferably within 7 days (Test and Start) regardless of the availability of baseline results at the time of initiation.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p208-t0411",
-   "page": 208,
-   "image_only": false,
-   "heading_path": "Chapter 9: ART for Children and Adolescents > 9.5 What to Start: ART for Children and Adolescents > Recommended First-Line ART for Children and Adolescents",
-   "caption": "Recommended First-Line ART for Children and Adolescents",
-   "replaces_chunks": [
-    "hiv-2022-0568"
-   ],
-   "content": "Before initiating ART, conduct a comprehensive clinical and psychosocial assessment including adherence counselling. Initiate ART as outlined in Table 9.4 below.",
    "footnotes": [],
    "source_flags": []
   },
@@ -14009,27 +13907,15 @@
    "heading_path": "Chapter 9: ART for Children and Adolescents > 9.12 > Steps for Management of Treatment Failure in Children > Figure 9.7",
    "caption": "Figure 9.7 Steps for Management of Treatment Failure",
    "replaces_chunks": [
-    "hiv-2022-0611"
+    "hiv-2022-0611",
+    "hiv-2022-0610"
    ],
    "content": "1. Identify causes of treatment failure: poor adherence (disclosure, recent changes in caregivers, drug fatigue, depression, timing of ARVs); suboptimal ARVs from underdosing, malabsorption, drug to drug interaction; identify prior exposure to ARVs (PMTCT, PrEP, PEP or previous ART).\n2. Provide appropriate intervention: intensify adherence interventions (SUAC); correct medication doses, minimise DDIs and simplify regimens where possible; screen and treat OIs; perform lab tests (CD4, VL) as per recommendations.\n3. Assessment by MDT meeting: involve different members of your team in the management of the patients (doctor, nurse, social worker, counsellor); involve relevant members of the child's family; involve the child in their own care with age adapted messages.\n4. Retain on 1st line or switch to 2nd line: within the MDT, decide if there is need to extend use of the 1st line or switch to 2nd line.\nBefore switching regimens: take a thorough ARV history to help determine the appropriate second-line regimen; optimize adherence; ensure client and caregiver have completed SUAC; treat all inter-current opportunistic infections until they have resolved.",
    "footnotes": [],
    "source_flags": [
     "Superseded by the 2024 Amendment: all DTG and PI treatment failures need a genotype-guided switch: refer to the National HIVDR Clinical Expert Committee and switch to 2nd line only if the resistance test shows DTG (or PI) resistance, with the regimen set by the genotype; LPV/r can be changed to ATV/r once ≥40 kg regardless of VL; DRV/r only for confirmed INSTI resistance (Amendment 9.7, updated second-line table)."
-   ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p222-t0430",
-   "page": 222,
-   "image_only": false,
-   "heading_path": "Chapter 9: ART for Children and Adolescents > 9.12 Managing Treatment Failure in Children and Adolescents > Steps for Management of Treatment Failure in Children",
-   "caption": "Steps for Management of Treatment Failure in Children",
-   "replaces_chunks": [
-    "hiv-2022-0610"
    ],
-   "content": "All providers should consider the steps in Figure 9.7 below when managing treatment failure in children/adolescents. Before switching regimens: Take a thorough ARV history to help determine the appropriate second-line regimen. Optimize adherence. Ensure client and caregiver have completed SUAC. Treat all inter-current opportunistic infections until they have resolved",
-   "footnotes": [],
-   "source_flags": []
+   "context_before": "All providers should consider the steps in Figure 9.7 below when managing treatment failure in children/adolescents. Before switching regimens: Take a thorough ARV history to help determine the appropriate second-line regimen. Optimize adherence. Ensure client and caregiver have completed SUAC. Treat all inter-current opportunistic infections until they have resolved"
   },
   {
    "table_id": "hiv-2022-tbl-9.14-failure-evaluation-children",

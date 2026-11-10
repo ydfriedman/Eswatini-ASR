@@ -110,6 +110,10 @@ def render_html(t, ncols):
     if t.get('table_note'):
         out.append(f'<tr><td colspan={ncols} class="note">{H.escape(t["table_note"])}</td></tr>')
     out.append('</tbody></table>')
+    if t.get('context_before'):   # intro text printed above the table
+        out.insert(0, f'<p class="context">{H.escape(t["context_before"])}</p>')
+    if t.get('footnotes'):        # notes printed under the table (also in the text version)
+        out.append('<div class="footnotes">' + ''.join(f'<p>{H.escape(f)}</p>' for f in t['footnotes']) + '</div>')
     return '\n'.join(out)
 
 
@@ -243,16 +247,26 @@ def main(spec_path, pdf_dir, chunks_path, out_dir):
     results = []
     for t in spec['tables']:
         if t.get('kind') == 'diagram':
-            html_s = f'<pre class="diagram" data-table-id="{t["table_id"]}">{H.escape(t["content"])}</pre>'
-            text_s = f'### {t["caption"]}\n\n{t["content"]}'
+            cb, fn = t.get('context_before', ''), t.get('footnotes', [])
+            html_s = ((f'<p class="context">{H.escape(cb)}</p>' if cb else '')
+                      + f'<pre class="diagram" data-table-id="{t["table_id"]}">{H.escape(t["content"])}</pre>'
+                      + ('<div class="footnotes">' + ''.join(f'<p>{H.escape(f)}</p>' for f in fn) + '</div>' if fn else ''))
+            text_s = '\n\n'.join([f'### {t["caption"]}'] + ([cb] if cb else []) + [t['content']] + (['\n'.join(fn)] if fn else []))
             embed_s = embed_parts([f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})', '', t['caption'] + '.']
-                                  + [p for p in t['content'].split('\n\n')])
+                                  + ([cb] if cb else []) + [p for p in t['content'].split('\n\n')] + fn)
         elif t.get('kind') == 'box':
             html_s = (f'<div class="box" data-table-id="{t["table_id"]}"><b>{H.escape(t["caption"])}</b>'
                       + ''.join(f'<p>{H.escape(l)}</p>' for l in t['content'].split('\n')) + '</div>')
             text_s = f'> **{t["caption"]}**\n>\n' + '\n'.join('> ' + l for l in t['content'].split('\n'))
+            cb, fn = t.get('context_before', ''), t.get('footnotes', [])
+            if cb:
+                text_s = cb + '\n\n' + text_s
+                html_s = f'<p class="context">{H.escape(cb)}</p>' + html_s
+            if fn:
+                text_s += '\n\n' + '\n'.join(fn)
+                html_s += '<div class="footnotes">' + ''.join(f'<p>{H.escape(f)}</p>' for f in fn) + '</div>'
             embed_s = embed_parts([f'{spec["doc_title"]} | {t["heading_path"]} (page {t["page"]})', '', t['caption'] + '.']
-                                  + [p for p in t['content'].split('\n\n')])
+                                  + ([cb] if cb else []) + [p for p in t['content'].split('\n\n')] + fn)
         elif t.get('kind') == 'section':   # running text rebuilt from the PDF text layer (headings + paragraphs/bullets)
             html_s = (f'<div class="section" data-table-id="{t["table_id"]}"><h4>{H.escape(t["caption"])}</h4>'
                       + ''.join(f'<p>{H.escape(l)}</p>' for l in t['content'].split('\n')) + '</div>')

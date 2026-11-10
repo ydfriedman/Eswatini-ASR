@@ -6572,6 +6572,20 @@
    ]
   },
   {
+   "kind": "diagram",
+   "table_id": "tb-2025-fig-anaemia-thrombocytopenia",
+   "page": 190,
+   "image_only": false,
+   "heading_path": "Chapter 9: Pharmacovigilance and Adverse Event Management > 9.9 Algorithms for Management of Adverse Events with Second-line Anti-TB Drugs > Figure 32: Management of Anaemia/ Thrombocytopenia",
+   "caption": "Figure 32: Management of Anaemia/ Thrombocytopenia (linezolid, AZT, CTX): severity grades and linezolid action",
+   "replaces_chunks": [
+    "tb-2025-0481"
+   ],
+   "content": "- Causative Medications: LZD, AZT, CTX -> Anaemia / Thrombocytopenia\n- Monitor elevated Anaemia / Thrombocytopenia checking baseline and monthly FBC and anytime if there are symptoms -> Anaemia / Thrombocytopenia\n- Anaemia / Thrombocytopenia: Anaemia: Signs and symptoms include bruising, pallor, SOB, Fatigue, palpitations, dizziness. Thrombocytopenia: Easy bruising, bleeding tendencies -> Assess for other causes\n- Assess for other causes. For anaemia, there multiple other causes, including TB itself, HIV, malignancy, iron deficiency, alcohol use, pregnancy, bleeding. For thrombocytopenia, some viruses may lead to prolonged or excessive bleeding -> Assess severity and manage\n- Assess severity and manage -> Mild/Grade 1: Hb: 9.5 - 10.5g/dl; Plt: 75,000 - 99,000/mm3. Continue linezolid. Monitor closely; 2 weekly FBC (If HB continues to decline reduce to 300 mg)\n- Assess severity and manage -> Moderate/Grade 2: Hb: 8.0 - 9.4g/dl; Plt: 50,000 - 74,999mm3. Reduce linezolid dose to 300 mg. 2 weekly FBC. Monitor closely\n- Assess severity and manage -> Severe/Grade 3: HB: 6.5-7.9g/dl; Plt: 20,000 - 49,999/mm3. Stop linezolid. Consider transfusion. Weekly FBC. Reinitiate 300mg/day if myelosuppression recovers within first 2 months of treatment\n- Assess severity and manage -> Life-threatening/Grade 4: Hb: < 6.5g/dl; Plt: < 20,000. Stop linezolid. Consider transfusion. Weekly FBC. Reinitiate 300mg/day if myelosuppression recovers within first 2 months of treatment\nNote (box below the chart): Patient with baseline anaemia of all grades can be treated with LZD. They should have more frequent FBC monitoring (i.e. every 2 weeks). This is true even of patients with Grade 3 or Grade 4 anemia, provided they are started on therapy as inpatients and that they have weekly FBC checked.",
+   "footnotes": [],
+   "source_flags": []
+  },
+  {
    "table_id": "tb-2025-tbl-p194-0492",
    "page": 194,
    "image_only": false,
@@ -7845,7 +7859,7 @@
    "table_id": "tb-2025-tbl-p214-0554",
    "page": 214,
    "image_only": false,
-   "heading_path": "11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 55: TPT regimen and drug dosing",
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Table 55: TPT regimen and drug dosing",
    "caption": "Table 55: TPT regimen and drug dosing (TPT regimens and drug formulations, No. of tablets or quantity of solution by body weight band)",
    "replaces_chunks": [
     "tb-2025-0554",
@@ -8362,7 +8376,7 @@
    ],
    "source_flags": [
     "1HP row lists 'Rifapentine 30 mg tab' (2 tablets); the 1HP rifapentine dose is 600 mg daily, i.e. 2 × 300 mg tablets.",
-    "The last weight column is printed '< 50 kg' after 45-49.9 kg (presumably ≥50 kg); the first two columns are '3-5.9 kg (> 3 months)' and '3-5.9 kg (≥ 3 months)', so the under-3-months band is missing.",
+    "The first two weight columns are printed '3-5.9 kg (> 3 months)' and '3-5.9 kg (≥ 3 months)'; the first should read '< 3 months' (as in the 6-9.9 kg pair, '< 6 months' / '≥ 6 months'). The last weight column is printed '< 50 kg' after 45-49.9 kg; it should read '≥ 50 kg'.",
     "1HP footnote reads 'for individuals aged < 13 years'; 1HP is recommended for people aged ≥13 years (Table 58 says ≥12 years).",
     "Lfx 250 mg tab has no dose for 20-24.9 kg ('–') although the bands either side are covered.",
     "Footnote d (rifapentine 15 mg/mL solution) is attached to the levofloxacin 250 mg suspension volumes."
@@ -8375,7 +8389,7 @@
    "table_id": "tb-2025-tbl-p215-0557",
    "page": 215,
    "image_only": false,
-   "heading_path": "11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 56: TPT dosing by body size",
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Table 56: TPT dosing by body size",
    "caption": "Table 56: TPT dosing by body size (TPT regimens and drug formulations, No. of tablets or quantity of solution by body weight band)",
    "replaces_chunks": [
     "tb-2025-0557"
@@ -8703,7 +8717,7 @@
    "table_id": "tb-2025-tbl-p216-0559",
    "page": 216,
    "image_only": false,
-   "heading_path": "11.8 TPT Regimens and Dosing > Ineligibility to TPT include acute or chronic hepatitis, peripheral neuropathy (if isoniazid used), and regular and heavy alcohol consumption > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules of Isoniazid and Rifapentine are not available",
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.8 TPT Regimens and Dosing > Table 57: Dosing of DS-TB TPT regimens for HIV not infected when Rifapentine 150 mg or individual molecules are not available",
    "caption": "Table 57: Dosing of TPT regimens for people without HIV when rifapentine 150 mg or individual isoniazid and rifapentine are not available: 3HR (50/75) for children <25 kg, 3HP (300/300) for >25 kg, levofloxacin (100 mg dt, 250 mg, 500 mg) by weight",
    "replaces_chunks": [
     "tb-2025-0559",
@@ -8989,7 +9003,7 @@
     "*250 mg Lfx tablet is to be used when the child-friendly 100 mg dt formulation is not available; the 250 mg tablet is crushed and the powder dissolved in 10 ml of clean water."
    ],
    "source_flags": [
-    "The second 3-5.9 kg row is labelled '<3 months old' twice (presumably ≥3 months) in both levofloxacin sub-tables.",
+    "In both levofloxacin sub-tables the two 3-5.9 kg rows are both printed '<3 months old'; the second should read '≥3 months old'. The 6-9.9 kg pair is printed '<6 months' / '>6 months' (presumably '≥6 months').",
     "Weight bands leave 25 kg itself uncovered (<25 kg and >25 kg)."
    ],
    "pages": [
@@ -9143,7 +9157,7 @@
    "table_id": "tb-2025-tbl-p221-0573",
    "page": 221,
    "image_only": false,
-   "heading_path": "11.11 Monitoring and management of Adverse events > Table 59: Documented adverse events with drug used for TPT",
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.11 Monitoring and management of Adverse events > Table 60: Management strategies for adverse events of TPT",
    "caption": "Table 60: Management strategies for adverse events of TPT",
    "replaces_chunks": [
     "tb-2025-0573",
@@ -9572,7 +9586,7 @@
    "table_id": "tb-2025-tbl-p227-0589",
    "page": 227,
    "image_only": false,
-   "heading_path": "11.16 Community-based care and support for people taking TPT > Which TBI treatment regimen option to give? > Table 64: The checklist for monitoring adverse events and TB signs and symptoms",
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.16 Community-based care and support for people taking TPT > Table 64: The checklist for monitoring adverse events and TB signs and symptoms",
    "caption": "Table 64: The checklist for monitoring adverse events and TB signs and symptoms",
    "replaces_chunks": [
     "tb-2025-0589"
@@ -9689,7 +9703,7 @@
    "table_id": "tb-2025-tbl-p227-0591",
    "page": 227,
    "image_only": false,
-   "heading_path": "11.17 Recording, reporting and monitoring of TPT implementation > Which TBI treatment regimen option to give? > Table 65: TPT cascade for regular review and timely action",
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.17 Recording, reporting and monitoring of TPT implementation > Table 65: TPT cascade for regular review and timely action",
    "caption": "Table 65: TPT cascade for regular review and timely action (Parameter, No)",
    "replaces_chunks": [
     "tb-2025-0591"
@@ -9809,7 +9823,7 @@
    "table_id": "tb-2025-tbl-p230-0597",
    "page": 230,
    "image_only": false,
-   "heading_path": "11.18 Performing TB Infection Tests > Which TBI treatment regimen option to give? > Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus)",
+   "heading_path": "Chapter 11: Tuberculosis Preventive Treatment > 11.18 Performing TB Infection Tests > Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus)",
    "caption": "Table 66: Interpretation of IGRA results (QuantiFERON GlodPlus)",
    "replaces_chunks": [
     "tb-2025-0597"
@@ -10349,7 +10363,7 @@
       "t": "none"
      },
      {
-      "t": "↑ CAUTION"
+      "t": "↑ CAUTION (metformin level increased)"
      },
      {
       "t": "none"
@@ -10378,22 +10392,22 @@
       "t": "none"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
       "t": "none"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      }
     ],
     [
@@ -10413,7 +10427,7 @@
       "t": "none"
      },
      {
-      "t": "↑ potential"
+      "t": "↑ potential (antidiabetic level increased)"
      },
      {
       "t": "none"
@@ -10422,13 +10436,13 @@
       "t": "none"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      }
     ],
     [
@@ -10448,7 +10462,7 @@
       "t": "none"
      },
      {
-      "t": "↑ potential"
+      "t": "↑ potential (antidiabetic level increased)"
      },
      {
       "t": "none"
@@ -10457,13 +10471,13 @@
       "t": "none"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      }
     ],
     [
@@ -10483,7 +10497,7 @@
       "t": "none"
      },
      {
-      "t": "↑ potential"
+      "t": "↑ potential (antidiabetic level increased)"
      },
      {
       "t": "none"
@@ -10492,13 +10506,13 @@
       "t": "none"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      }
     ],
     [
@@ -10518,7 +10532,7 @@
       "t": "none"
      },
      {
-      "t": "↑ potential"
+      "t": "↑ potential (antidiabetic level increased)"
      },
      {
       "t": "none"
@@ -10527,13 +10541,13 @@
       "t": "none"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      },
      {
-      "t": "↓ potential"
+      "t": "↓ potential (antidiabetic level decreased)"
      }
     ]
    ],

@@ -5053,22 +5053,22 @@
       "t": "No interaction"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
       "t": "No interaction"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      }
     ],
     [
@@ -5088,7 +5088,7 @@
       "t": "No interaction"
      },
      {
-      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↑ antidiabetic level increased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
       "t": "No interaction"
@@ -5097,13 +5097,13 @@
       "t": "No interaction"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      }
     ],
     [
@@ -5123,7 +5123,7 @@
       "t": "No interaction"
      },
      {
-      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↑ antidiabetic level increased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
       "t": "No interaction"
@@ -5132,13 +5132,13 @@
       "t": "No interaction"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      }
     ],
     [
@@ -5158,7 +5158,7 @@
       "t": "No interaction"
      },
      {
-      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↑ antidiabetic level increased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
       "t": "No interaction"
@@ -5167,13 +5167,13 @@
       "t": "No interaction"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      }
     ],
     [
@@ -5193,7 +5193,7 @@
       "t": "No interaction"
      },
      {
-      "t": "↑ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↑ antidiabetic level increased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
       "t": "No interaction"
@@ -5202,19 +5202,20 @@
       "t": "No interaction"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      },
      {
-      "t": "↓ potential interaction: may need sulfonylurea dose adjustment"
+      "t": "↓ antidiabetic level decreased – potential interaction: may need sulfonylurea dose adjustment"
      }
     ]
    ],
    "footnotes": [
     "Key: no interaction. Potential interaction with increased (↑) or decreased (↓) levels of the sulfonylurea, which may require dose adjustment: monitor blood glucose and adjust the sulfonylurea dosage as needed. CAUTION when co-administering metformin with DTG: metformin levels are increased and dose reduction of metformin should be considered. The US prescribing information recommends limiting the total daily dose of metformin to 1,000 mg when co-administered with DTG. Renal monitoring is recommended, as PLHIV with renal impairment are at increased risk of lactic acidosis due to increased metformin levels in the presence of DTG.",
-    "*Essential medicines list included atenolol, metoprolol, carvedilol as alternatives (as printed under the table). Refer to National HIV Management Guidelines."
+    "*Essential medicines list included atenolol, metoprolol, carvedilol as alternatives (as printed under the table). Refer to National HIV Management Guidelines.",
+    "↑ = increase in antidiabetic agent level; ↓ = decrease in antidiabetic agent level (arrow legend printed under the table)."
    ],
    "source_flags": [
     "Interaction category is shown only by cell colour in the PDF (green = none, purple = potential sulfonylurea interaction, red = caution); written out in each cell.",
@@ -16531,7 +16532,7 @@
    ],
    "footnotes": [],
    "source_flags": [
-    "Naloxone is printed 'PO'; naloxone is given IV/IM/IN (oral naloxone is not effective for overdose). Clinician to confirm.",
+    "The antidote cell for opioids is printed 'Naloxone 0.4–2mg PO depending on opioid amount; repeat in 2–3 min if needed' (p.189 of the guideline). Naloxone is given IV, IM or intranasally; oral naloxone is not effective for overdose, so 'PO' is probably an error in the guideline.",
     "Isoniazid antidote 'pyridoxine 10–25 mg PO q8hr' is a prophylaxis dose; isoniazid poisoning is usually treated with IV pyridoxine gram-for-gram (about 5 g). Similar low pyridoxine dosing is given for ethylene glycol.",
     "Folic/folinic acid is usually given for methanol, not ethylene glycol; the methanol row does not mention it.",
     "Snakebite antivenom volumes here differ from the venom-specific starting doses on p.182.",

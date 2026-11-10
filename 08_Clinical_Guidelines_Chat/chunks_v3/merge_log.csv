@@ -1035,6 +1035,10 @@ ncdimh-0395,trailing heading dropped (next is a table/flowchart),## **Algorithm 
 ncdimh-0716,trailing heading dropped (next is a table/flowchart),## Status Epilepticus ## Treatment Algorithm for Status Epilepticus
 ncdimh-0859,trailing heading dropped (next is a table/flowchart),## **Key Steps in Diabetic Foot Ulcer (DFU) Management**
 ncdimh-0875,trailing heading dropped (next is a table/flowchart),## **Treatment of Neuropathic Pain in Diabetic Foot**
+ncdimh-0690,dropped,
+ncdimh-0721,dropped,
+ncdimh-0842,dropped,
+ncdimh-1033,dropped,
 ncdimh-0042,merged into,ncdimh-0041
 ncdimh-0236,merged into,ncdimh-0235
 ncdimh-0237,merged into,ncdimh-0235
@@ -1075,12 +1079,8 @@ ncdimh-0932,merged into,ncdimh-0931
 ncdimh-0975,merged into,ncdimh-0974
 ncdimh-0995,merged into,ncdimh-0994
 ncdimh-1018,merged into,ncdimh-1017
-ncdimh-1033,merged into,ncdimh-1017
 ncdimh-0729,merged into,ncdimh-0730
 ncdimh-0904,merged into,ncdimh-0905
-ncdimh-0690,dropped,heading-only fragment
-ncdimh-0721,dropped,heading-only fragment
-ncdimh-0842,dropped,heading-only fragment
 ncdimh-0319,merged into,ncdimh-0317
 ncdimh-0388,merged into,ncdimh-0387
 ncdimh-0395,merged into,ncdimh-0391
@@ -1269,6 +1269,9 @@ prep-2025-0158,emptied,
 prep-2025-0194,cleaned,
 prep-2025-0202,cleaned,
 prep-2025-0202,label,6 Annexes > Annex 7: Management of PrEP adverse reactions => 6 Annexes > Annex 7: Management of PrEP Adverse Reactions
+prep-2025-0102,dropped,
+prep-2025-0103,dropped,
+prep-2025-0194,dropped,
 prep-2025-0014,merged into,prep-2025-0013
 prep-2025-0064,merged into,prep-2025-0063
 prep-2025-0065,merged into,prep-2025-0063
@@ -1276,9 +1279,6 @@ prep-2025-0086,merged into,prep-2025-0085
 prep-2025-0097,merged into,prep-2025-0096
 prep-2025-0115,merged into,prep-2025-0114
 prep-2025-0140,merged into,prep-2025-0139
-prep-2025-0102,dropped,heading-only fragment
-prep-2025-0103,dropped,heading-only fragment
-prep-2025-0194,dropped,heading-only fragment
 prep-2025-0112,merged into,prep-2025-0114
 anc-0010,replaced,anc-tbl-mnch-indicators
 anc-0011,replaced,anc-tbl-mnch-indicators
@@ -1336,6 +1336,7 @@ unaids-linkages-sop-0009,replaced,unaids-linkages-sop-tbl-p13-0009
 unaids-linkages-sop-0010,replaced,unaids-linkages-sop-tbl-p13-0009
 unaids-linkages-sop-0011,replaced,unaids-linkages-sop-tbl-p13-0009
 unaids-linkages-sop-0012,replaced,unaids-linkages-sop-tbl-p13-0009
+unaids-linkages-sop-0023,replaced,unaids-linkages-sop-tbl-lcm-timeline
 unaids-linkages-sop-0025,replaced,unaids-linkages-sop-tbl-p22-0025
 unaids-linkages-sop-0033,replaced,unaids-linkages-sop-tbl-p26-0033
 unaids-linkages-sop-0036,replaced,unaids-linkages-sop-tbl-p27-0036
@@ -1425,9 +1426,9 @@ unaids-linkages-sop-0137,label,"13.8 Linkages Case Management Data Flow and Repo
 unaids-linkages-sop-0169,emptied,
 unaids-linkages-sop-0171,emptied,
 unaids-linkages-sop-0173,emptied,
+unaids-linkages-sop-0088,dropped,
+unaids-linkages-sop-0119,dropped,
 unaids-linkages-sop-0083,merged into,unaids-linkages-sop-0082
-unaids-linkages-sop-0088,dropped,heading-only fragment
-unaids-linkages-sop-0119,dropped,heading-only fragment
 tb-2025-0021,replaced,tb-2025-tbl-p23-0021
 tb-2025-0022,replaced,tb-2025-tbl-p23-0021
 tb-2025-0023,replaced,tb-2025-tbl-p23-0021
@@ -1545,6 +1546,7 @@ tb-2025-0470,replaced,tb-2025-fig-qtc-management
 tb-2025-0471,replaced,tb-2025-fig-qtc-management
 tb-2025-0478,replaced,tb-2025-fig-liver-management
 tb-2025-0479,replaced,tb-2025-fig-liver-management
+tb-2025-0481,replaced,tb-2025-fig-anaemia-thrombocytopenia
 tb-2025-0492,replaced,tb-2025-tbl-p194-0492
 tb-2025-0493,replaced,tb-2025-tbl-p194-0493
 tb-2025-0495,replaced,tb-2025-tbl-p194-0493
@@ -1674,7 +1676,7 @@ tb-2025-0358,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment >
 tb-2025-0361,emptied,
 tb-2025-0363,cleaned,
 tb-2025-0363,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3 Diagnosis of Childhood TB > Table 32: Procedures of respiratory sample and stool sample collection > Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.3.4 Clinical Diagnosis > Figure 22 (Decision Tree without CXR)"
-tb-2025-0369,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > Table 34: DS-TB treatment algorithm in Children and Adolescents (0-19 years old) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.1 Recommended Regimens > Notes to Table 34"
+tb-2025-0369,emptied,
 tb-2025-0370,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity of TB Disease in Children"
 tb-2025-0371,cleaned,
 tb-2025-0371,label,"Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4 Treatment of TB disease in children > 8.4.1 Treatment of drug-susceptible TB in children > 8.4.1.2 Assessing the severity of TB disease in children and adolescents (3 months-<16 years old) > Mild TB symptoms that do not require hospitalization are => Chapter 8: Childhood TB Screening, Diagnosis and Treatment > 8.4.1.2 Assessing Severity > Mild (Non-severe) TB"
@@ -1766,6 +1768,7 @@ tb-2025-0733,label,"17.2 Monitoring of TB Case Detection and Treatment Activitie
 tb-2025-0734,label,"17.2 Monitoring of TB Case Detection and Treatment Activities => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.4 Planning (Five-year Plan and Annual Operational Plan)"
 tb-2025-0002,heading moved to,tb-2025-0012
 tb-2025-0363,trailing heading dropped (next is a table/flowchart),## **Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available)**
+tb-2025-0739,dropped,
 tb-2025-0163,merged into,tb-2025-0162
 tb-2025-0244,merged into,tb-2025-0243
 tb-2025-0281,merged into,tb-2025-0278
@@ -1776,7 +1779,7 @@ tb-2025-0645,merged into,tb-2025-0644
 tb-2025-0657,merged into,tb-2025-0656
 tb-2025-0561,merged into,tb-2025-0563
 tb-2025-0628,merged into,tb-2025-0629
-tb-2025-0739,dropped,heading-only fragment
+fp-2021-0030,replaced,fp-2021-fig-counselling-process
 fp-2021-0037,replaced,fp-2021-tbl-p29-0037
 fp-2021-0043,replaced,fp-2021-tbl-p31-0043
 fp-2021-0044,replaced,fp-2021-tbl-p32-0044
@@ -1810,8 +1813,8 @@ fp-2021-0190,replaced,fp-2021-tbl-p96-0188
 fp-2021-0191,replaced,fp-2021-tbl-p96-0188
 fp-2021-0192,replaced,fp-2021-tbl-p96-0188
 fp-2021-0193,replaced,fp-2021-tbl-p96-0188
-fp-2021-0195,replaced,fp-2021-tbl-p103-0195
-fp-2021-0196,replaced,fp-2021-tbl-p103-0195
+fp-2021-0195,replaced,fp-2021-tbl-p96-0188
+fp-2021-0196,replaced,fp-2021-tbl-p96-0188
 fp-2021-0198,replaced,fp-2021-fig-mec-wheel
 fp-2021-0199,replaced,fp-2021-fig-mec-wheel
 fp-2021-0201,replaced,fp-2021-tbl-p107-0201
@@ -1820,6 +1823,7 @@ fp-2021-0203,replaced,fp-2021-tbl-p107-0201
 fp-2021-0204,replaced,fp-2021-tbl-p107-0201
 fp-2021-0205,replaced,fp-2021-tbl-p107-0201
 fp-2021-0206,replaced,fp-2021-tbl-p114-0206
+fp-2021-0209,replaced,fp-2021-fig-iud-insertion
 fp-2021-0210,replaced,fp-2021-tbl-p116-0210
 fp-2021-0211,replaced,fp-2021-tbl-p116-0210
 fp-2021-0212,replaced,fp-2021-tbl-p116-0210
@@ -1899,6 +1903,7 @@ fp-2021-0200,label,14 Appendices > WHO > Risk of Vte by Clinical Category => 14 
 fp-2021-0207,cleaned,
 fp-2021-0208,emptied,
 fp-2021-0001,heading moved to,fp-2021-0012
+fp-2021-0194,dropped,
 fp-2021-0036,merged into,fp-2021-0035
 fp-2021-0041,merged into,fp-2021-0040
 fp-2021-0042,merged into,fp-2021-0040
@@ -2087,6 +2092,7 @@ mental-health-deskguide-0193,emptied,
 mental-health-deskguide-0199,emptied,
 mental-health-deskguide-0203,cleaned,
 mental-health-deskguide-0206,cleaned,
+mental-health-deskguide-0206,label,Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Client Presents with => Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Seizures: caution with anticonvulsants
 mental-health-deskguide-0207,cleaned,
 mental-health-deskguide-0209,emptied,
 mental-health-deskguide-0211,emptied,
@@ -2098,7 +2104,14 @@ mental-health-deskguide-0221,cleaned,
 mental-health-deskguide-0223,cleaned,
 mental-health-deskguide-0225,emptied,
 mental-health-deskguide-0227,emptied,
+mental-health-deskguide-0229,label,Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Short term management > Table 53: Summary of Medications for Short Term Management of Alcohol Withdraw => Chapter 4: Job Aids for Different Psychiatric Conditions > Alcohol Withdraw > Short term management
 mental-health-deskguide-0231,emptied,
+mental-health-deskguide-0256,label,Chapter 5: Non Pharmacological Intervetions > Developmental Disorders Job Aid > Assess for => Chapter 5: Non Pharmacological Intervetions > Developmental Disorders Job Aid > Assessment
+mental-health-deskguide-0272,label,Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Patient Health Questionnaire (PHQ-9) => Appendices > Appendix II: Depression Screening Form PHQ-9 > Patient Health Questionnaire (PHQ-9)
+mental-health-deskguide-0273,label,Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Total Score => Appendices > Appendix II: Depression Screening Form PHQ-9 > Total Score: how to score the PHQ-9
+mental-health-deskguide-0275,label,Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Functional Health Assessment => Appendices > Appendix II: Depression Screening Form PHQ-9 > Functional Health Assessment
+mental-health-deskguide-0276,label,Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Pychiatric History Taking Sheet => Appendices > Psychiatric History Taking Sheet
+mental-health-deskguide-0277,label,Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Pychiatric History Taking Sheet => Appendices > Psychiatric History Taking Sheet
 mental-health-deskguide-0207,trailing heading dropped (next is a table/flowchart),## **IF THE PATIENT PRESENT WITH AGGRESSION/UNCONTROLLED BEHAVIOR**
 mental-health-deskguide-0048,merged into,mental-health-deskguide-0043
 mental-health-deskguide-0057,merged into,mental-health-deskguide-0055
@@ -2179,7 +2192,7 @@ hiv-2022-0065,replaced,hiv-2022-txt-p37-14
 hiv-2022-0066,replaced,hiv-2022-tbl-2.3-start-stop-oral-prep
 hiv-2022-0067,replaced,hiv-2022-tbl-2.3-start-stop-oral-prep
 hiv-2022-0068,replaced,hiv-2022-txt-p38-15
-hiv-2022-0069,replaced,hiv-2022-txt-p39-19
+hiv-2022-0069,replaced,hiv-2022-fig-2.3-ed-prep-examples
 hiv-2022-0070,replaced,hiv-2022-txt-p40-20
 hiv-2022-0071,replaced,hiv-2022-txt-p40-21
 hiv-2022-0072,replaced,hiv-2022-txt-p40-22
@@ -2192,7 +2205,7 @@ hiv-2022-0078,replaced,hiv-2022-txt-p41-28
 hiv-2022-0079,replaced,hiv-2022-txt-p41-29
 hiv-2022-0080,replaced,hiv-2022-tbl-2.4-prep-initiation-visit
 hiv-2022-0081,replaced,hiv-2022-tbl-2.4-prep-initiation-visit
-hiv-2022-0082,replaced,hiv-2022-txt-p43-30
+hiv-2022-0082,replaced,hiv-2022-tbl-2.5-renal-monitoring-oral-prep
 hiv-2022-0083,replaced,hiv-2022-tbl-2.5-renal-monitoring-oral-prep
 hiv-2022-0084,replaced,hiv-2022-txt-p43-31
 hiv-2022-0085,replaced,hiv-2022-txt-p43-31
@@ -2252,12 +2265,12 @@ hiv-2022-0141,replaced,hiv-2022-txt-p63-58
 hiv-2022-0142,replaced,hiv-2022-txt-p63-58
 hiv-2022-0143,replaced,hiv-2022-txt-p64-59
 hiv-2022-0144,replaced,hiv-2022-txt-p64-60
-hiv-2022-0145,replaced,hiv-2022-txt-p64-61
+hiv-2022-0145,replaced,hiv-2022-fig-3.8-infant-testing-algorithm
 hiv-2022-0146,replaced,hiv-2022-fig-3.8-infant-testing-algorithm
-hiv-2022-0147,replaced,hiv-2022-txt-p65-62
+hiv-2022-0147,replaced,hiv-2022-tbl-3.7-eid-indeterminate-ct
 hiv-2022-0148,replaced,hiv-2022-tbl-3.7-eid-indeterminate-ct
 hiv-2022-0149,replaced,hiv-2022-txt-p66-64
-hiv-2022-0150,replaced,hiv-2022-txt-p65-63
+hiv-2022-0150,replaced,hiv-2022-fig-3.9-infant-confirmatory-testing
 hiv-2022-0151,replaced,hiv-2022-fig-3.9-infant-confirmatory-testing
 hiv-2022-0152,replaced,hiv-2022-txt-p66-64
 hiv-2022-0153,replaced,hiv-2022-tbl-3.8-serial-testing-steps
@@ -2537,9 +2550,9 @@ hiv-2022-0432,replaced,hiv-2022-tbl-7.8-vl-interpretation
 hiv-2022-0433,replaced,hiv-2022-txt-p164-t0334
 hiv-2022-0434,replaced,hiv-2022-fig-7.4-high-vl-management
 hiv-2022-0435,replaced,hiv-2022-txt-p164-t0334
-hiv-2022-0436,replaced,hiv-2022-txt-p165-t0335
+hiv-2022-0436,replaced,hiv-2022-fig-7.5-suac-session
 hiv-2022-0437,replaced,hiv-2022-fig-7.5-suac-session
-hiv-2022-0438,replaced,hiv-2022-txt-p165-t0335
+hiv-2022-0438,replaced,hiv-2022-fig-7.5-suac-session
 hiv-2022-0439,replaced,hiv-2022-tbl-7.9-suac-content
 hiv-2022-0440,replaced,hiv-2022-tbl-7.9-suac-content
 hiv-2022-0441,replaced,hiv-2022-tbl-7.9-suac-content
@@ -2661,12 +2674,12 @@ hiv-2022-0557,replaced,hiv-2022-tbl-9.2-ahd-definitions-children
 hiv-2022-0558,replaced,hiv-2022-txt-p205-t0408
 hiv-2022-0559,replaced,hiv-2022-tbl-9.3-stop-aids
 hiv-2022-0561,replaced,hiv-2022-tbl-9.3-stop-aids
-hiv-2022-0562,replaced,hiv-2022-txt-p206-t0409
+hiv-2022-0562,replaced,hiv-2022-tbl-9.3-stop-aids
 hiv-2022-0563,replaced,hiv-2022-tbl-9.3-stop-aids
 hiv-2022-0565,replaced,hiv-2022-tbl-9.3-stop-aids
 hiv-2022-0566,replaced,hiv-2022-tbl-9.3-stop-aids
 hiv-2022-0567,replaced,hiv-2022-txt-p208-t0410
-hiv-2022-0568,replaced,hiv-2022-txt-p208-t0411
+hiv-2022-0568,replaced,hiv-2022-tbl-9.4-first-line-children
 hiv-2022-0569,replaced,hiv-2022-tbl-9.4-first-line-children
 hiv-2022-0570,replaced,hiv-2022-txt-p208-t0413
 hiv-2022-0571,replaced,hiv-2022-tbl-9.5-alternative-first-line-children
@@ -2707,7 +2720,7 @@ hiv-2022-0606,replaced,hiv-2022-tbl-9.13-prevent-failure-children
 hiv-2022-0607,replaced,hiv-2022-tbl-9.13-prevent-failure-children
 hiv-2022-0608,replaced,hiv-2022-txt-p221-t0429
 hiv-2022-0609,replaced,hiv-2022-fig-9.6-adherence-barriers
-hiv-2022-0610,replaced,hiv-2022-txt-p222-t0430
+hiv-2022-0610,replaced,hiv-2022-fig-9.7-treatment-failure-steps
 hiv-2022-0611,replaced,hiv-2022-fig-9.7-treatment-failure-steps
 hiv-2022-0612,replaced,hiv-2022-txt-p223-t0431
 hiv-2022-0613,replaced,hiv-2022-tbl-9.14-failure-evaluation-children

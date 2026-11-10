@@ -220,6 +220,170 @@
    "context_before": "Key Definitions"
   },
   {
+   "table_id": "unaids-linkages-sop-tbl-lcm-timeline",
+   "page": 21,
+   "image_only": false,
+   "heading_path": "5 Linkage to Treatment and Care > 5.4 Summary of Linkage case management services",
+   "caption": "5.4 Summary of Linkage case management services: timeline of clinic visits and telephone calls (Day 0 to Day 180)",
+   "replaces_chunks": [
+    "unaids-linkages-sop-0023"
+   ],
+   "row_header_cols": 1,
+   "header": [
+    [
+     {
+      "t": "Day"
+     },
+     {
+      "t": "Contact"
+     },
+     {
+      "t": "Purpose"
+     }
+    ]
+   ],
+   "body": [
+    [
+     {
+      "t": "Day Zero"
+     },
+     {
+      "t": "Clinic visit"
+     },
+     {
+      "t": "Diagnosis & ART Initiation; LCM Enrolment"
+     }
+    ],
+    [
+     {
+      "t": "Day 3-5"
+     },
+     {
+      "t": "1st Call"
+     },
+     {
+      "t": "Explore challenges in regard to treatment"
+     }
+    ],
+    [
+     {
+      "t": "Day 10-12"
+     },
+     {
+      "t": "2nd Call"
+     },
+     {
+      "t": "Remind about next appointment date"
+     }
+    ],
+    [
+     {
+      "t": "Day 14"
+     },
+     {
+      "t": "First Clinic/ART Refill"
+     },
+     {
+      "t": "Follow up on index testing and assess barriers"
+     }
+    ],
+    [
+     {
+      "t": "Day 21-29"
+     },
+     {
+      "t": "3rd Call"
+     },
+     {
+      "t": "Explore challenges in regard to treatment & remind about next appointment"
+     }
+    ],
+    [
+     {
+      "t": "Day 30-45"
+     },
+     {
+      "t": "Second Clinic/ART refill"
+     },
+     {
+      "t": "Follow up on Index testing and assess barriers"
+     }
+    ],
+    [
+     {
+      "t": "Day 44-60"
+     },
+     {
+      "t": "4th Call"
+     },
+     {
+      "t": "Remind about next appointment date"
+     }
+    ],
+    [
+     {
+      "t": "Day 60-90"
+     },
+     {
+      "t": "Third Clinic/ART Refill"
+     },
+     {
+      "t": "Follow up on index testing and assess barriers"
+     }
+    ],
+    [
+     {
+      "t": "Day 120-125"
+     },
+     {
+      "t": "5th Call"
+     },
+     {
+      "t": "Explore challenges in regard to treatment"
+     }
+    ],
+    [
+     {
+      "t": "Day 150"
+     },
+     {
+      "t": "Fourth Clinic/ART refill"
+     },
+     {
+      "t": "Continue index testing. Prepare Client for recharge, inform about ART available DSD options"
+     }
+    ],
+    [
+     {
+      "t": "Day 170-175"
+     },
+     {
+      "t": "6th Call"
+     },
+     {
+      "t": "Remind about next appointment date"
+     }
+    ],
+    [
+     {
+      "t": "Day 180"
+     },
+     {
+      "t": "Fifth Clinic/ART refill"
+     },
+     {
+      "t": "Refill outstanding/pending issues. Discharge client. Refer to preferred DSD model"
+     }
+    ]
+   ],
+   "footnotes": [
+    "Printed as a timeline with clinic visits above the arrow and telephone calls below; listed here in day order. 'Follow upon' is printed for 'follow up on'."
+   ],
+   "source_flags": [
+    "The timeline calls Day 150 the 'Fourth' and Day 180 the 'Fifth' clinic visit, but sections 12.18 and 12.20 call them the fifth (5th ARV refill) and sixth (6th ARV refill) visits."
+   ]
+  },
+  {
    "table_id": "unaids-linkages-sop-tbl-p22-0025",
    "page": 22,
    "image_only": false,
@@ -567,7 +731,7 @@
    "table_id": "unaids-linkages-sop-tbl-p28-0040",
    "page": 28,
    "image_only": false,
-   "heading_path": "9 Intra-Facility Linkage Case Management > 9.5 Initiating ART at the community (Annex 1) > 10 Client referred without ART initiation.",
+   "heading_path": "10 Client referred without ART initiation",
    "caption": "10 Client referred without ART initiation. (The health care worker)",
    "replaces_chunks": [
     "unaids-linkages-sop-0040"
@@ -1168,7 +1332,7 @@
    "table_id": "unaids-linkages-sop-tbl-p54-0087",
    "page": 54,
    "image_only": false,
-   "heading_path": "12.19 Day 170-175: Sixth Telephonic Call > 💡 During the phone call first ascertain if it is the right client and convenient time, if yes proceed and if no reschedule",
+   "heading_path": "12.19 Day 170-175: Sixth Telephonic Call > During telephone call",
    "caption": "💡 During the phone call first ascertain if it is the right client and convenient time, if yes proceed and if no reschedule (Clients initiated on ART, Clients delaying ART initiation)",
    "replaces_chunks": [
     "unaids-linkages-sop-0087"
@@ -1478,7 +1642,7 @@
    "table_id": "unaids-linkages-sop-tbl-p73-0118",
    "page": 73,
    "image_only": false,
-   "heading_path": "3 Men",
+   "heading_path": "12 Linkage Case Management for Special Populations > 12.31 Differentiated Service Delivery for Priority Populations Linkages",
    "caption": "12.31 Differentiated Service Delivery for Priority Populations Linkages: children, adolescents, key populations and men",
    "replaces_chunks": [
     "unaids-linkages-sop-0118",
@@ -1702,7 +1866,7 @@
    "table_id": "unaids-linkages-sop-tbl-p88-0140",
    "page": 88,
    "image_only": false,
-   "heading_path": "13.9 List of LCM Reporting Indicators > Enhanced Linkages Case Management",
+   "heading_path": "13.9 List of LCM Reporting Indicators",
    "caption": "13.9 List of LCM Reporting Indicators (continued)",
    "replaces_chunks": [
     "unaids-linkages-sop-0140",

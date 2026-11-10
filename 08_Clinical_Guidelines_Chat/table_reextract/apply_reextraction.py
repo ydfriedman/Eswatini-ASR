@@ -190,7 +190,12 @@ def main(src, out, pairs):
                     log.append((c['chunk_id'], 'heading moved to', nxt['chunk_id']))
                 else:
                     log.append((c['chunk_id'], 'trailing heading dropped (next is a table/flowchart)', ' '.join(tail)))
-        # 4. merge small text chunks of this document
+        # 4. merge small text chunks of this document (chunks listed in text_drop are dropped first, never merged)
+        pre_drop = set(spec.get('text_drop', []))
+        for c in [c for c in chunks if c['chunk_id'] in pre_drop]:
+            removed.append(dict(c, drop_reason='heading-only fragment (text_drop)'))
+            log.append((c['chunk_id'], 'dropped', ''))
+        chunks = [c for c in chunks if c['chunk_id'] not in pre_drop]
         merged = []
         for c in chunks:
             small = (c['doc_id'] == doc and c['type'] == 'text' and not c.get('table_id')

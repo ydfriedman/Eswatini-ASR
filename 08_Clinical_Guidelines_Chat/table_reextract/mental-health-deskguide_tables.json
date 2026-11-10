@@ -307,7 +307,7 @@
    "table_id": "mental-health-deskguide-tbl-p17-0027",
    "page": 17,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Major Depressive Disorder > 2. Conduct physical examination and Mental Status Evaluation (MSE)",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Major Depressive Disorder > Table 1: Summary of Classification and Management of Depressive Disorders",
    "caption": "TABLE 1: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF DEPRESSIVE DISORDERS",
    "replaces_chunks": [
     "mental-health-deskguide-0027",
@@ -514,7 +514,7 @@
    "table_id": "mental-health-deskguide-tbl-p24-0036",
    "page": 24,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Major Depressive Disorder > 2. Conduct physical examination and Mental Status Evaluation (MSE)",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Major Depressive Disorder > Table 2: Stepwise Management of Major Depressive Disorders",
    "caption": "TABLE 2: STEPWISE MANAGEMENT OF MAJOR DEPRESSIVE DISORDERS",
    "replaces_chunks": [
     "mental-health-deskguide-0036",
@@ -633,7 +633,7 @@
    "table_id": "mental-health-deskguide-tbl-p25-0040",
    "page": 27,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Generalized Anxiety Disorder (GAD) and Panic Disorder",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Generalized Anxiety Disorder (GAD) and Panic Disorder > Table 4: Stepwise Management of GAD and Panic Disorder",
    "caption": "TABLE 4: STEPWISE MANAGEMENT OF GAD AND PANIC DISORDER",
    "replaces_chunks": [
     "mental-health-deskguide-0040",
@@ -765,7 +765,7 @@
    "table_id": "mental-health-deskguide-tbl-p28-0050",
    "page": 31,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Trauma and Stressor Related Disorders",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Trauma and Stressor Related Disorders > Table 6: Stepwise Management of Trauma and Stressor Related Disorders",
    "caption": "TABLE 6: STEPWISE MANAGEMENT OF TRAUMA AND STRESSOR RELATED DISORDERS",
    "replaces_chunks": [
     "mental-health-deskguide-0050",
@@ -830,7 +830,7 @@
    "table_id": "mental-health-deskguide-tbl-p34-0064",
    "page": 34,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Suicide and Self-Harm > Management",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Suicide and Self-Harm > Table 7: Stepwise Management of Suicide and Self Harm",
    "caption": "TABLE 7: STEPWISE MANAGEMENT OF SUICIDE and SELF HARM",
    "replaces_chunks": [
     "mental-health-deskguide-0064"
@@ -1004,7 +1004,7 @@
    "table_id": "mental-health-deskguide-tbl-p39-0074",
    "page": 39,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Sexual Assault and Psychiatry > Management",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Sexual Assault and Psychiatry > Table 10: Stepwise Management of Sexual Assault in Psychiatry",
    "caption": "TABLE 10: STEPWISE MANAGEMENT OF SEXUAL ASSAULT IN PSYCHIATRY",
    "replaces_chunks": [
     "mental-health-deskguide-0074",
@@ -1114,7 +1114,7 @@
    "table_id": "mental-health-deskguide-tbl-p40-0082",
    "page": 41,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Bipolar and Related Disorders",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Bipolar and Related Disorders > Table 11 (continued): Bipolar I hypomanic and major depressive episodes, Bipolar II disorder",
    "caption": "TABLE 11 (continued): Bipolar I hypomanic and major depressive episodes, and Bipolar II disorder",
    "replaces_chunks": [
     "mental-health-deskguide-0082",
@@ -1186,7 +1186,7 @@
    "table_id": "mental-health-deskguide-tbl-p43-0085",
    "page": 44,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Bipolar and Related Disorders",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Bipolar and Related Disorders > Table 12: Stepwise Management of Bipolar I and II Disorders",
    "caption": "TABLE 12: STEPWISE MANAGEMENT OF BIPOLAR I AND II DISORDERS",
    "replaces_chunks": [
     "mental-health-deskguide-0085",
@@ -1528,7 +1528,7 @@
    "table_id": "mental-health-deskguide-tbl-p49-0105",
    "page": 51,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Neurocognitive Disorders (dementia)",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Neurocognitive Disorders (dementia) > Table 16: Stepwise Management of Dementia (Neurocognitive Disorders)",
    "caption": "TABLE 16: STEPWISE MANAGEMENT OF DEMENTIA (NEUROCOGNITIVE DISORDERS)",
    "replaces_chunks": [
     "mental-health-deskguide-0105",
@@ -1781,7 +1781,7 @@
    "table_id": "mental-health-deskguide-tbl-p60-0129",
    "page": 60,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders > Cannabis Use Disorders",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Substance-Related and Addictive Disorders > Table 18: Stepwise Management of Substance-Related and Addictive Disorders",
    "caption": "TABLE 18: STEPWISE MANAGEMENT OF SUBSTANCE-RELATED AND ADDICTIVE DISORDERS",
    "replaces_chunks": [
     "mental-health-deskguide-0129",
@@ -1844,7 +1844,7 @@
    "table_id": "mental-health-deskguide-tbl-p62-0137",
    "page": 62,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > Table 19: Summary of Classification and Management of Childhood Psychiatric Conditions",
    "caption": "TABLE 19: SUMMARY OF CLASSIFICATION AND MANAGEMENT OF CHILDHOOD PSYCHIATRIC CONDITIONS",
    "replaces_chunks": [
     "mental-health-deskguide-0137",
@@ -1951,7 +1951,7 @@
    "table_id": "mental-health-deskguide-tbl-p66-0143",
    "page": 66,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > Table 19 (continued): Enuresis, Encopresis, Oppositional Defiant and Conduct Disorders",
    "caption": "TABLE 19 (continued): enuresis, encopresis, oppositional defiant disorder and conduct disorder",
    "replaces_chunks": [
     "mental-health-deskguide-0143",
@@ -2030,7 +2030,7 @@
    "table_id": "mental-health-deskguide-tbl-p69-0147",
    "page": 69,
    "image_only": false,
-   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > C. Disruptive, Impulse Control, and Conduct Disorders > Table 20: Stepwise Management for Childhood Psychiatric Conditions",
+   "heading_path": "Chapter 3: Overview of Different Psychiatric Conditions > Common Childhood Psychiatric Conditions > Table 20: Stepwise Management for Childhood Psychiatric Conditions",
    "caption": "TABLE 20: STEPWISE MANAGEMENT FOR CHILDHOOD PSYCHIATRIC CONDITIONS",
    "replaces_chunks": [
     "mental-health-deskguide-0147"
@@ -3861,7 +3861,7 @@
    "table_id": "mental-health-deskguide-tbl-p85-0204",
    "page": 85,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Client Presents with",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Seizures: Table 41 Anticonvulsants",
    "caption": "TABLE 41: SUMMARY OF ANTICONVULSANTS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST (autism spectrum disorder with seizures)",
    "replaces_chunks": [
     "mental-health-deskguide-0204",
@@ -4076,7 +4076,7 @@
    "table_id": "mental-health-deskguide-tbl-p86-0208",
    "page": 86,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Patient Present with Aggression/uncontrolled Behavior",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Aggression/Uncontrolled Behaviour: Table 42 Antipsychotics",
    "caption": "TABLE 42: SUMMARY OF ANTIPSYCHOTICS FOR THE MANAGEMENT OF AGGRESSION OR UNCONTROLLED BEHAVIOR TO PATIENTS WITH AUTISM SPECTRUM DISORDER AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST",
    "replaces_chunks": [
     "mental-health-deskguide-0208"
@@ -4173,7 +4173,7 @@
    "table_id": "mental-health-deskguide-tbl-p87-0210",
    "page": 87,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Patient Present with Aggression/uncontrolled Behavior > If the Patient Present with Major Depressive Disorder and Is 12 Years or Above",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Major Depressive Disorder (12 years or above): Table 43 Antidepressants",
    "caption": "TABLE 43: SUMMARY OF ANTIDEPRESSANTS FOR THE MANAGEMENT OF MAJOR DEPRESSIVE DISORDERS TO PATIENTS WITH AUTISM SPECTRUM DISORDER AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST (12 years or above)",
    "replaces_chunks": [
     "mental-health-deskguide-0210"
@@ -4274,7 +4274,7 @@
    "table_id": "mental-health-deskguide-tbl-p87-0212",
    "page": 87,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the Patient Present with Anxiety Disorder",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Anxiety Disorder: Table 44",
    "caption": "TABLE 44: SUMMARY OF MEDICINES FORT MANAGEMENT OF ANXIETY DISORDERS TO PATIENTS WITH AUTISM SPECTRUM DISORDER AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST",
    "replaces_chunks": [
     "mental-health-deskguide-0212"
@@ -4371,7 +4371,7 @@
    "table_id": "mental-health-deskguide-tbl-p87-0214",
    "page": 87,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Neurocognitive Disorders",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Neurocognitive Disorders > Table 45: Medications for Neurocognitive Disorders (donepezil)",
    "caption": "TABLE 45: SUMMARY OF MEDICATIONS FOR MANAGEMENT OF NEUROCOGNITIVE DISORDERS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST",
    "replaces_chunks": [
     "mental-health-deskguide-0214"
@@ -4439,7 +4439,7 @@
    "table_id": "mental-health-deskguide-tbl-p88-0216",
    "page": 88,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Neurocognitive Disorders > If the patient present with severe agitation or psychotic symptoms; consider",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Neurocognitive Disorders > Severe agitation or psychotic symptoms: Table 46 Antipsychotics",
    "caption": "TABLE 46: SUMMARY OF ANTIPSYCHOTICS FOR MANAGEMENT OF NEUROCOGNITIVE DISORDERS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST",
    "replaces_chunks": [
     "mental-health-deskguide-0216"
@@ -4568,7 +4568,7 @@
    "table_id": "mental-health-deskguide-tbl-p88-0218",
    "page": 88,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > If the patient present with Major Depressive Disorder",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Neurocognitive Disorders > Major Depressive Disorder: Table 47 Antidepressants",
    "caption": "TABLE 47: SUMMARY OF ANTIDEPRESSANTS FOR MANAGEMENT OF NEUROCOGNITIVE DISORDERS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST",
    "replaces_chunks": [
     "mental-health-deskguide-0218"
@@ -4668,7 +4668,7 @@
    "table_id": "mental-health-deskguide-tbl-p89-0220",
    "page": 89,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable with Mild Side Effects",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable with Mild Side Effects: Table 48",
    "caption": "TABLE 48: SUMMARY OF ANTIMUSCARINICS FOR MANAGING MILD SIDE EFFECTS OF PSYCHIATRIC MEDICATIONS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST",
    "replaces_chunks": [
     "mental-health-deskguide-0220"
@@ -4766,7 +4766,7 @@
    "table_id": "mental-health-deskguide-tbl-p90-0222",
    "page": 90,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable with Moderate Side Effects",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable with Moderate Side Effects: Table 49",
    "caption": "TABLE 49: SUMMARY OF ANTIMUSCARINICS FOR MANAGING MODERATE SIDE EFFECTS OF PSYCHIATRIC MEDICATIONS AS PER ESWATINI TREATMENT GUIDELINES AND ESSENTIAL MEDICINES LIST",
    "replaces_chunks": [
     "mental-health-deskguide-0222"
@@ -4863,7 +4863,7 @@
    "table_id": "mental-health-deskguide-tbl-p90-0224",
    "page": 90,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable/unstable with Severe Side Effects",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Mentally Stable/Unstable with Severe Side Effects: Tables 50-51",
    "caption": "Tables 50-51: Severe side effects of psychiatric medicines – stat IM biperiden with or without IV diazepam, then oral antimuscarinics",
    "replaces_chunks": [
     "mental-health-deskguide-0224",
@@ -5019,7 +5019,7 @@
    "table_id": "mental-health-deskguide-tbl-p91-0228",
    "page": 91,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Alcohol Intoxication",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Alcohol Intoxication > Table 52: Thiamine for Thiamine Deficiency Secondary to Alcohol",
    "caption": "TABLE 52: SUMMARY OF MEDICATIONS FOR MANAGING THIAMINE DEFICIENCY SECONDARY TO ALCOHOL INTOXICATION",
    "replaces_chunks": [
     "mental-health-deskguide-0228"
@@ -5071,7 +5071,7 @@
    "table_id": "mental-health-deskguide-tbl-p91-0230",
    "page": 91,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Short term management",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Alcohol Withdraw > Short term management: Table 53",
    "caption": "TABLE 53: SUMMARY OF MEDICATIONS FOR SHORT TERM MANAGEMENT OF ALCOHOL WITHDRAW",
    "replaces_chunks": [
     "mental-health-deskguide-0230"
@@ -5141,7 +5141,7 @@
    "table_id": "mental-health-deskguide-tbl-p92-0232",
    "page": 92,
    "image_only": false,
-   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Managing Side Effects of Psychiatric Medicines > Long term management",
+   "heading_path": "Chapter 4: Job Aids for Different Psychiatric Conditions > Alcohol Withdraw > Long term management: Table 54",
    "caption": "TABLE 54: SUMMARY OF MEDICATIONS FOR LONG TERM MANAGEMENT OF ALCOHOL WITHDRAW",
    "replaces_chunks": [
     "mental-health-deskguide-0232"
@@ -5187,7 +5187,7 @@
    "table_id": "mental-health-deskguide-tbl-p111-0266",
    "page": 111,
    "image_only": false,
-   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Appendix I > SUICIDE RISK ASSESSMENT FORM (Adapted from Becks Suicidal Intent Scale)",
+   "heading_path": "Appendices > Appendix I: Suicide Risk Assessment Form (Adapted from Becks Suicidal Intent Scale)",
    "caption": "SUICIDE RISK ASSESSMENT FORM (Adapted from Becks Suicidal Intent Scale)",
    "replaces_chunks": [
     "mental-health-deskguide-0266",
@@ -5616,7 +5616,7 @@
    "table_id": "mental-health-deskguide-tbl-p112-0268",
    "page": 112,
    "image_only": false,
-   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Appendix I > Recommendations",
+   "heading_path": "Appendices > Appendix I: Suicide Risk Assessment Form > Recommendations (scoring and risk)",
    "caption": "Suicide risk assessment form: recommendations by total score",
    "replaces_chunks": [
     "mental-health-deskguide-0268"
@@ -5681,7 +5681,7 @@
    "table_id": "mental-health-deskguide-tbl-p113-0269",
    "page": 113,
    "image_only": false,
-   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Appendix I > ACTION TAKEN: (Tick box applicable)",
+   "heading_path": "Appendices > Appendix I: Suicide Risk Assessment Form > Action Taken",
    "caption": "ACTION TAKEN: (Tick box applicable) – suicide risk assessment form",
    "replaces_chunks": [
     "mental-health-deskguide-0269"
@@ -5791,7 +5791,7 @@
    "table_id": "mental-health-deskguide-tbl-p114-0271",
    "page": 114,
    "image_only": false,
-   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Patient Health Questionnaire (PHQ-9)",
+   "heading_path": "Appendices > Appendix II: Depression Screening Form PHQ-9 > Patient Health Questionnaire (PHQ-9)",
    "caption": "DEPRESSION SCREENING FORM PHQ 9 – Patient Health Questionnaire (PHQ-9)",
    "replaces_chunks": [
     "mental-health-deskguide-0271"
@@ -5983,7 +5983,7 @@
    "table_id": "mental-health-deskguide-tbl-p115-0274",
    "page": 115,
    "image_only": false,
-   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Guide for Interpreting PHQ-9 Scores",
+   "heading_path": "Appendices > Appendix II: Depression Screening Form PHQ-9 > Guide for Interpreting PHQ-9 Scores",
    "caption": "Guide for Interpreting PHQ-9 Scores (Score, Recommended Actions)",
    "replaces_chunks": [
     "mental-health-deskguide-0274"
@@ -6052,7 +6052,7 @@
    "table_id": "mental-health-deskguide-tbl-p118-0278",
    "page": 118,
    "image_only": false,
-   "heading_path": "Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Mental Status Evaluation",
+   "heading_path": "Appendices > Psychiatric History Taking Sheet > Mental Status Evaluation",
    "caption": "MENTAL STATUS EVALUATION (assessment form)",
    "replaces_chunks": [
     "mental-health-deskguide-0278",
@@ -6420,7 +6420,16 @@
    "context_before": "MENTAL STATUS EVALUATION"
   }
  ],
- "text_labels": {},
+ "text_labels": {
+  "mental-health-deskguide-0206": "Chapter 4: Job Aids for Different Psychiatric Conditions > Pharmacological Management of Autism Spectrum Disorder > Seizures: caution with anticonvulsants",
+  "mental-health-deskguide-0229": "Chapter 4: Job Aids for Different Psychiatric Conditions > Alcohol Withdraw > Short term management",
+  "mental-health-deskguide-0272": "Appendices > Appendix II: Depression Screening Form PHQ-9 > Patient Health Questionnaire (PHQ-9)",
+  "mental-health-deskguide-0273": "Appendices > Appendix II: Depression Screening Form PHQ-9 > Total Score: how to score the PHQ-9",
+  "mental-health-deskguide-0275": "Appendices > Appendix II: Depression Screening Form PHQ-9 > Functional Health Assessment",
+  "mental-health-deskguide-0276": "Appendices > Psychiatric History Taking Sheet",
+  "mental-health-deskguide-0277": "Appendices > Psychiatric History Taking Sheet",
+  "mental-health-deskguide-0256": "Chapter 5: Non Pharmacological Intervetions > Developmental Disorders Job Aid > Assessment"
+ },
  "text_merge": {},
  "text_drop": [],
  "text_fix_pages": [
