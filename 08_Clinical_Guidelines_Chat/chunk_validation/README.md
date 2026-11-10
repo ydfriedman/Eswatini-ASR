@@ -40,4 +40,4 @@ One row per re-extracted table/flowchart (embedding parts collapsed), plus text 
 | Random baseline | 2 |
 
 "How produced" is derived from the batch files in `table_reextract/batches` (second-pass batches: tb_b10, mh_b05, fp_b04-b05, lk_b04); the Summary sheet counts Major issues per method.
-Tables known not to have been compared with the page image in the second pass: Mental Health Table 25 (p.72); Linkages role tables pp.43-60 not changed (judged by content length); FP advantages/disadvantages tables pp.46-94 (checked by text).
+Tables the second pass had judged only by text or length (Mental Health Table 25; Linkages role tables pp.43-60; FP advantages/disadvantages tables pp.46-94) were compared with the page images on 10 Nov 2026: content matched in every case (cosmetic fixes only, batches mh_b06 and lk_b06).
