@@ -335,6 +335,8 @@ def main(src, out, pairs):
             lines = [l for l in c['text'].split('\n') if l.strip() not in furniture]
             txt = re.sub(r'<circle>\s*\d+\s*</circle>|^\s*\d{1,3}\s*$', '', '\n'.join(lines), flags=re.M)
             txt = re.sub(r'\n{3,}', '\n\n', txt).strip()
+            txt = re.sub(r'(?<=[a-z,])\n\n(?=[a-z])(?!(?:image|photo|drawing|flow_?chart|diagram|icon)\b)(?![a-z][.)]\s)',   # sentence broken
+                         lambda m: '\n\n' if txt[:m.start()].rsplit('\n', 1)[-1].lstrip().startswith('#') else ' ', txt)  # at a page break
             if txt != c['text']:
                 c['text'] = txt; c['_changed'] = True
         for i, c in enumerate(chunks[:-1]):
@@ -356,7 +358,8 @@ def main(src, out, pairs):
             for c in chunks:
                 if c['chunk_id'] == cid:
                     if isinstance(txt, dict):          # {text, page_end}: a passage joined across a page break
-                        c['page_end'] = max(c['page_end'], txt.get('page_end', c['page_end'])); txt = txt['text']
+                        c['page_end'] = max(c['page_end'], txt.get('page_end') or c['page_end'])
+                        c['heading_path'] = txt.get('heading_path') or c['heading_path']; txt = txt['text']
                     c['text'] = txt; c['_changed'] = True
                     log.append((cid, 'text rewritten from page', ''))
         for cid, subs in spec.get('text_strip', {}).items():     # decorative image captions etc. cut out of a chunk

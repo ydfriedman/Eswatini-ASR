@@ -22825,5 +22825,14 @@
   315
  ],
  "text_merge": [],
- "text_drop": []
+ "text_drop": [
+  "hiv-2022-0122-rest",
+  "hiv-2022-0360-rest-a",
+  "hiv-2022-0360-rest",
+  "hiv-2022-0503-rest",
+  "hiv-2022-0770-rest"
+ ],
+ "text_add": [],
+ "text_replace": {},
+ "text_strip": {}
 }
