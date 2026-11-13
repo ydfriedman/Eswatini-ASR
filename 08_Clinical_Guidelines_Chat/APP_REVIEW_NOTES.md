@@ -33,3 +33,19 @@ Context: `guideline_chat/app.py` + `chat.py` were shared for review (not in this
 
 ## Waiting on from the user
 - guideline_rag_system_prompt.md; the failing questions with `--sources` output.
+
+## Prompt review (guideline_rag_system_prompt.md, draft v1) — findings
+The .md and the app's appended "response contract" contradict each other; the model gets both:
+- Output shape: .md section 6 + examples A-D use {type, inputs, matched_row, quote, source, answer...}; the app forces
+  {kind, blocks[{text,type,citations}], calculations} via the Ollama schema. Examples are in the shape it cannot use.
+- Citations: .md says write document name and page; contract says never write them, cite ids only.
+- Conflicts: .md says "if two excerpts disagree, show both ... do not silently pick one" (+ Example D "the documents
+  give different intervals") vs precedence notes "follow the 2024 Amendment". Likely cause of bug 1 (source-by-source).
+- Clarifying: .md section 3 says ask first and give no regimen for any dose / TPT / VL / PrEP / retesting question;
+  contract + classifier say answer every group, clarify only with no clinical subject.
+- Quotes: .md says quote the matching row word for word; contract says quote only when deciding, under 25 words.
+- Example D still has unfilled "[quote from document 1]" placeholders in the live prompt.
+- .md: "if a table looks garbled ... say so instead of interpreting" may push the model to refuse table answers
+  (possible factor in bug 2, cervical screening is mostly in tables/algorithm).
+Plan: one prompt (~600-800 words) written for the blocks schema, contract merged in, examples rewritten in that schema,
+precedence replaces "show both", numeric-row steps kept as a short checklist inside the text.
