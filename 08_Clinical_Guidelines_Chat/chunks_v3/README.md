@@ -2,13 +2,33 @@
 
 `chunks_v2` plus the re-extracted tables, boxes and flowcharts (see `../table_reextract/`). **Use this set for indexing.** It has the same fields as v2, plus a few new ones for re-extracted items.
 
-**Status:** HIV Amendment 2024 (complete) and NCDIMH pp.1-326 (Ch.1-13, through psychiatry) are re-extracted. Everything else is passed through from v2, apart from small cleanups in NCDIMH text chunks. NCDIMH text chunks on pp.1-326 have also been fixed (below). This file is regenerated each time another part is finished.
+**Status:** all ten guidelines are re-extracted (tables, boxes and flowcharts checked against the page images) and every text chunk has been through the quality sweep below. This file is regenerated each time the set changes; git history keeps earlier versions.
 
-| | |
+| Guideline | Chunks |
 |---|---|
-| Chunks | 3,572 |
-| HIV Amendment 2024 | 70 chunks: 36 re-extracted items (44 records) + 26 text chunks |
-| NCDIMH | 768 chunks: 289 re-extracted items (401 records) for pp.1-326; the rest still from v2 |
+| ncdimh | 782 |
+| hiv-2022 | 707 |
+| tb-2025 | 664 |
+| sti-vh-draft-2026 | 250 |
+| mental-health-deskguide | 176 |
+| prep-2025 | 175 |
+| fp-2021 | 158 |
+| unaids-linkages-sop | 126 |
+| anc | 92 |
+| hiv-amendment-2024 | 70 |
+| **Total** | **3,200** |
+
+## Quality sweep (chunk by chunk, against the page images)
+
+Every document was compared with its PDF text layer (`../table_reextract/audit/full_sweep.py`, `audit/missing_paragraphs.py`) and each flagged page was checked against the page image. Repairs are in `../table_reextract/fixes/sweep_fixes.py` (one line per repair, with the page and the reason) and in `apply_reextraction.py`:
+
+- **Text lost beside items:** where a table or flowchart item replaced an old chunk, the headings, intros and notes in that chunk that no other chunk holds are kept as `<chunk>-rest` / `-rest-a` chunks (each one checked).
+- **Paragraphs missing from every chunk** were put back in place (`text_insert` / `text_add`), e.g. TB severe-hepatopathy referral, ITR switch, leprosy definition; ANC foreword; Amendment ch.3 introduction.
+- **Lost sub-headings that change meaning** were restored, e.g. FP "Not breastfeeding" / "Mixed feeding" / "Exclusive breastfeeding" in the POP, COC, CIC, implant and IUCD start rules; POI and implant side-effect timing.
+- **Flowcharts kept as garbled arrows** were rewritten from the page images with their footnotes (TB screening, diagnostic, trace-result, DR-TB selection and paediatric decision trees; neuropathy management; Linkages LCM models).
+- **Duplicates:** text chunks that only repeat an item (captions, table bodies, footnotes) were dropped; the item is kept.
+- **Splits and noise:** sentences cut at a page break are re-joined; tiny section chunks (<40 words) join their neighbour; running headers/footers, page numbers and decorative image captions are removed; text chunks over the 512-token embedding limit are split at a paragraph boundary; a chunk that landed between two parts of a split item is moved after it.
+- **Left as printed:** sentences that are cut or inconsistent in the source PDF itself (e.g. NCDIMH colorectal "right sided once may present"), front matter (acknowledgements, contributor lists, tables of contents) and reference lists.
 
 ## New fields (re-extracted items only)
 

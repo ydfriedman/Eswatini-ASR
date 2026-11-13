@@ -89,6 +89,7 @@ hiv-amendment-2024-0102,label,"Chapter 5: Basic Care Package for HIV-Positive In
 hiv-amendment-2024-0103,label,Chapter 10: Hiv/ncds & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment => Chapter 10: HIV/NCDs & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment
 hiv-amendment-2024-0104,label,Chapter 5: Basic Care Package for HIV-Positive Individuals > Check If Client Has => Chapter 10: HIV/NCDs & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment > Check If Client Has
 hiv-amendment-2024-0054-rest,dropped,
+hiv-amendment-2024-0056-rest-a,dropped,
 hiv-amendment-2024-0066-rest,dropped,
 hiv-amendment-2024-0013,text rewritten from page,
 hiv-amendment-2024-0061,text stripped, icon: X mark in a circle
@@ -1087,9 +1088,15 @@ ncdimh-0716,trailing heading dropped (next is a table/flowchart),## Status Epile
 ncdimh-0859,trailing heading dropped (next is a table/flowchart),## **Key Steps in Diabetic Foot Ulcer (DFU) Management**
 ncdimh-0875,trailing heading dropped (next is a table/flowchart),## **Treatment of Neuropathic Pain in Diabetic Foot**
 ncdimh-0981-rest-a,trailing heading dropped (next is a table/flowchart),## **MANAGEMENT OF COPD: NONPHARMACOLOGICAL APPROACHES**
+ncdimh-0002,dropped,
+ncdimh-0043-rest,dropped,
+ncdimh-0187-rest,dropped,
+ncdimh-0377-rest-a,dropped,
+ncdimh-0377-rest,dropped,
 ncdimh-0690,dropped,
 ncdimh-0721,dropped,
 ncdimh-0842,dropped,
+ncdimh-0850-rest-a,dropped,
 ncdimh-1033,dropped,
 ncdimh-0042,merged into,ncdimh-0041
 ncdimh-0236,merged into,ncdimh-0235
@@ -1152,7 +1159,22 @@ ncdimh-0525,merged into,ncdimh-0527
 ncdimh-0538,merged into,ncdimh-0542
 ncdimh-0564,merged into,ncdimh-0562
 ncdimh-0875,merged into,ncdimh-0873
+ncdimh-0408-rest,text rewritten from page,
+ncdimh-0462-rest,text rewritten from page,
+ncdimh-0984-rest,paragraph restored from page,"**For Patients with Predominant Asthma Characteristics:**
+* "
+ncdimh-0508,text stripped, Primary Brain Injury
 ncdimh-0387,long chunk split into,ncdimh-0387-s1
+ncdimh-0103-rest,moved after the last part of,ncdimh-tbl-insulin-regimens-t1dm
+ncdimh-0145-rest,moved after the last part of,ncdimh-tbl-cbg-correction-scale
+ncdimh-0408-rest,moved after the last part of,ncdimh-fig-chd-acyanotic-cyanotic
+ncdimh-0462-rest,moved after the last part of,ncdimh-tbl-h-pylori-eradication
+ncdimh-0615-rest,moved after the last part of,ncdimh-tbl-kdigo-referral-heatmap
+ncdimh-0705-rest,moved after the last part of,ncdimh-tbl-antiepileptic-drugs
+ncdimh-0814-rest,moved after the last part of,ncdimh-tbl-glaucoma-drugs
+ncdimh-0952-rest,moved after the last part of,ncdimh-tbl-asthma-steps-6-11
+ncdimh-0956-rest,moved after the last part of,ncdimh-tbl-asthma-steps-under-5
+ncdimh-0972-rest,moved after the last part of,ncdimh-fig-acute-asthma-hospital
 prep-2025-0010,replaced,prep-2025-tbl-terminology
 prep-2025-0021,replaced,prep-2025-tbl-oral-prep-drug-interactions
 prep-2025-0024,replaced,prep-2025-tbl-oral-prep-start-stop
@@ -1515,6 +1537,7 @@ unaids-linkages-sop-0031,dropped,
 unaids-linkages-sop-0088,dropped,
 unaids-linkages-sop-0119,dropped,
 unaids-linkages-sop-0142,dropped,
+unaids-linkages-sop-0143-rest-a,dropped,
 unaids-linkages-sop-0143-rest,dropped,
 unaids-linkages-sop-0083,merged into,unaids-linkages-sop-0082
 unaids-linkages-sop-0030,merged into,unaids-linkages-sop-0032

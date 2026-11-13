@@ -357,3 +357,16 @@ replace('tb-2025', '0476', """Figure 30: Management of Optic Neuropathy
 - (A box printed beside this figure reads: monitor for anaemia/thrombocytopenia by checking baseline and monthly FBC and any time there are symptoms.)
 - Assess by an ophthalmologist if possible. Other causes are rare but could include presbyopia, trauma, temporal arteritis. Then assess severity and manage:
   - Mild / Grade 1 (asymptomatic; clinical observations or findings only), Moderate / Grade 2 (limiting vision of the affected eye), Severe / Grade 3 (severely limiting vision of the affected eye) and Life-threatening / Grade 4 (blindness in the affected eye): at every grade, stop LZD and EMB immediately if optic neuritis is suspected; only restart if an ophthalmologic exam is done and is normal; substitute LZD with DLM.""")   # p188 checked against the page
+
+# ---------------- NCDIMH ----------------
+drop('ncdimh', '0187-rest')                  # p68 vertigo test text placed under osteoporosis p66; tbl-osteoporosis-assessment-checklist has it
+drop('ncdimh', '0377-rest', '0377-rest-a')   # p138 column headers + numbered items, inside tbl-stroke-acute-contraindications-secondary
+drop('ncdimh', '0043-rest', '0850-rest-a')   # one-line lead-ins to items that carry their own titles (5 A's table, diabetic foot algorithm)
+insert('ncdimh', '0984-rest', '', """**For Patients with Predominant Asthma Characteristics:**
+* **Corticosteroids:** Prescribe inhaled corticosteroids (ICS) to manage inflammation. It is important to note that long-acting bronchodilators should not be used as monotherapy in these cases.""")   # p344 paragraph was missing
+replace('ncdimh', '0408-rest', '### **Atopic Dermatitis AD (Eczema)**\nChronic, pruritic inflammatory skin condition that occurs most frequently in children but may also affect adults. It follows a relapsing course. AD is often associated with elevated serum immunoglobulin levels and a family history of Type 1 allergies such as Allergic Rhinitis and Asthma.', heading_path='Chapter 4: Dermatology > Atopic Dermatitis (Eczema)')   # eczema intro was labelled with the CHD flowchart section
+replace('ncdimh', '0462-rest', '## Gastritis\n\nThis is an inflammatory mucosal response to injury from variety of agents and mechanisms including infections, drugs, alcohol, acute stress, radiation, allergy, acid and bile, ischemia or direct trauma. The inflammation may involve the entire stomach (pangastritis) or a region of the stomach (antral gastritis) while the severity of inflammation may be erosive or non-erosive.', heading_path='Chapter 5: Gastroenterology and Hepatology > Gastritis')   # p168 'Gastritis' heading was lost
+drop('hiv-amendment-2024', '0056-rest-a')        # p29 question, inside fig-7.2 (resurfaced after 0054-rest was dropped)
+drop('unaids-linkages-sop', '0143-rest-a')       # p91 stray line, inside tbl-p91-0143 (resurfaced after 0142 was dropped)
+drop('ncdimh', '0002')                       # p2 title-page text only
+strip('ncdimh', '0508', ' Primary Brain Injury')   # p183 trailing heading of the next item (tbl-tbi-primary-secondary)

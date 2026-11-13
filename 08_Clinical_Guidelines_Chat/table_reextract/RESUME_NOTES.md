@@ -75,3 +75,8 @@ Table second pass is complete for all four documents that had chunk-rebuilt tabl
 - Page images/text: `pdftotext -layout` and `pdftoppm -r 110` per page, named by document page (part page + offset).
 - `pdftohtml -xml` of NCD_2 dropped the '-BoldMT' from bold font names; patch the family names (GCOESG/FQGDEI+Arial → +Arial-BoldMT) before `pdf_headings.py`. Its proposals were poor for part 2, so labels were written by hand.
 - Source problems in text sections go in the 'Text sections' table of `../SOURCE_ISSUES.md`; item flags are collected by `make_source_issues.py`.
+
+## Quality sweep (done)
+- `fixes/sweep_fixes.py` holds every hand-checked repair (writes `text_drop`, `text_merge`, `text_replace`, `text_insert`, `text_strip`, `text_add` into the specs; it rebuilds its own keys on each run). Run it, then rerun `apply_reextraction.py` for all specs.
+- `audit/full_sweep.py` and `audit/missing_paragraphs.py` need the per-page text files (`pN.txt`, from `pdftotext -layout`) of each guideline; paths are at the top of each script.
+- Remaining audit hits are front matter, reference lists, figure text laid out differently from the PDF text layer, FP pages (the text layer has an acronym list overprinted on every page, so FP was checked from the images only), and duplicate sentences that the guidelines themselves repeat.

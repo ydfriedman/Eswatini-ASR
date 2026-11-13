@@ -28599,6 +28599,38 @@
   "ncdimh-0721",
   "ncdimh-0842",
   "ncdimh-0971",
-  "ncdimh-1033"
- ]
+  "ncdimh-1033",
+  "ncdimh-0187-rest",
+  "ncdimh-0377-rest",
+  "ncdimh-0377-rest-a",
+  "ncdimh-0043-rest",
+  "ncdimh-0850-rest-a",
+  "ncdimh-0002"
+ ],
+ "text_add": [],
+ "text_replace": {
+  "ncdimh-0408-rest": {
+   "text": "### **Atopic Dermatitis AD (Eczema)**\nChronic, pruritic inflammatory skin condition that occurs most frequently in children but may also affect adults. It follows a relapsing course. AD is often associated with elevated serum immunoglobulin levels and a family history of Type 1 allergies such as Allergic Rhinitis and Asthma.",
+   "page_end": null,
+   "heading_path": "Chapter 4: Dermatology > Atopic Dermatitis (Eczema)"
+  },
+  "ncdimh-0462-rest": {
+   "text": "## Gastritis\n\nThis is an inflammatory mucosal response to injury from variety of agents and mechanisms including infections, drugs, alcohol, acute stress, radiation, allergy, acid and bile, ischemia or direct trauma. The inflammation may involve the entire stomach (pangastritis) or a region of the stomach (antral gastritis) while the severity of inflammation may be erosive or non-erosive.",
+   "page_end": null,
+   "heading_path": "Chapter 5: Gastroenterology and Hepatology > Gastritis"
+  }
+ },
+ "text_strip": {
+  "ncdimh-0508": [
+   " Primary Brain Injury"
+  ]
+ },
+ "text_insert": {
+  "ncdimh-0984-rest": [
+   [
+    "",
+    "**For Patients with Predominant Asthma Characteristics:**\n* **Corticosteroids:** Prescribe inhaled corticosteroids (ICS) to manage inflammation. It is important to note that long-acting bronchodilators should not be used as monotherapy in these cases."
+   ]
+  ]
+ }
 }

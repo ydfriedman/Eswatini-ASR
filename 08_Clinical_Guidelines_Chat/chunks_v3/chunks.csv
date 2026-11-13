@@ -9584,7 +9584,7 @@ Chapter 7 adult ART: summary of changes in viral load thresholds and testing, 20
 (no 2022 guidance): 2024 Guidance: All clients on 3rd line ART should have routine VL testing done every 6 months.
 Suppressed VL: VL <1000 copies/mL. Low level viraemia: VL 50 – 999 copies/mL.: 2024 Guidance: Suppressed VL: VL <200 copies/mL. Low-level viraemia: VL 200 – 999 copies/mL.
 SUAC for all clients with a VL >1000 copies/mL.: 2024 Guidance: Adherence Counselling for all clients with a VL > 200 copies/mL."
-hiv-amendment-2024-fig-7.1-vl-thresholds,hiv-amendment-2024,hiv-amendment-2024,diagram,hiv-amendment-2024-fig-7.1-vl-thresholds,1/1,Chapter 7: Adult Antiretroviral Therapy > Summary of Changes > Updated viral load thresholds,28,28,hiv-amendment-2024:61e4a4d772,hiv-amendment-2024:c3b54c157a,hiv-amendment-2024-tbl-7-summary-of-changes,hiv-amendment-2024-0056-rest-a,195,"### Figure 7.1 Updated viral load thresholds
+hiv-amendment-2024-fig-7.1-vl-thresholds,hiv-amendment-2024,hiv-amendment-2024,diagram,hiv-amendment-2024-fig-7.1-vl-thresholds,1/1,Chapter 7: Adult Antiretroviral Therapy > Summary of Changes > Updated viral load thresholds,28,28,hiv-amendment-2024:61e4a4d772,hiv-amendment-2024:c3b54c157a,hiv-amendment-2024-tbl-7-summary-of-changes,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule,195,"### Figure 7.1 Updated viral load thresholds
 
 Following ART initiation, a VL decline of at least 0.5 log10 copies/mL (3-fold) is considered significant. The goal for people on ART is an undetectable VL (VL <50 copies/mL). To keep community transmission to a minimum, the threshold for viral suppression has been decreased to VL <200 copies/mL.
 
@@ -9606,10 +9606,7 @@ Viral load categories:
 - High viral load: VL >1000 copies/mL
 Undetectable and suppressed: U = U (undetectable = untransmittable). Low-level viraemia and high viral load: high predictor of HIV drug resistance (HIVDR).
 PTVL as part of baseline laboratory tests should not be done for clients re-engaging into care."
-hiv-amendment-2024-0056-rest-a,hiv-amendment-2024,Amendment to the Eswatini Integrated HIV Management Guidelines (2024),text,,,Chapter 7: Adult Antiretroviral Therapy,28,29,hiv-amendment-2024:e459372ff2,hiv-amendment-2024:e459372ff2,hiv-amendment-2024-fig-7.1-vl-thresholds,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule,12,How frequently should routine VL testing be done?,"Amendment to the Eswatini Integrated HIV Management Guidelines (2024) | Chapter 7: Adult Antiretroviral Therapy (pages 28-29)
-
-How frequently should routine VL testing be done?"
-hiv-amendment-2024-fig-7.2-vl-monitoring-schedule,hiv-amendment-2024,hiv-amendment-2024,diagram,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule,1/1,Chapter 7: Adult Antiretroviral Therapy > 7.1 Routine VL Monitoring > Updated viral load monitoring schedule,29,29,hiv-amendment-2024:3c5ceb1594,hiv-amendment-2024:30c855c87a,hiv-amendment-2024-0056-rest-a,hiv-amendment-2024-fig-7.3-vl-testing-algorithm,153,"### Figure 7.2 Updated viral load monitoring schedule
+hiv-amendment-2024-fig-7.2-vl-monitoring-schedule,hiv-amendment-2024,hiv-amendment-2024,diagram,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule,1/1,Chapter 7: Adult Antiretroviral Therapy > 7.1 Routine VL Monitoring > Updated viral load monitoring schedule,29,29,hiv-amendment-2024:3c5ceb1594,hiv-amendment-2024:30c855c87a,hiv-amendment-2024-fig-7.1-vl-thresholds,hiv-amendment-2024-fig-7.3-vl-testing-algorithm,153,"### Figure 7.2 Updated viral load monitoring schedule
 
 All clients initiating or reinitiating ART should receive their first routine VL three months after (re)initiating ART and at 9 months thereafter. After two consecutive undetectable VL results, routine VL testing is done as below.
 
@@ -12008,14 +12005,7 @@ Research, including operations research is encouraged to generate evidence for i
 ## 9.4 Research
 
 Research, including operations research is encouraged to generate evidence for improved service delivery. Secondary data analysis will be encouraged to unearth new evidence that will be used to improve service delivery."
-ncdimh-0002,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",2,2,ncdimh:8537eaeddd,ncdimh:8537eaeddd,,ncdimh-0013,60,"## **CLINICAL GUIDELINES FOR THE MANAGEMENT OF COMMON NON-COMMUNICABLE, INJURIES AND MENTAL HEALTH CONDITIONS**
-
-b  Clinical Guidelines for the Management of Common Non-Communicable, Injuries and Mental Health Conditions - Ministry of Health","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) (page 2)
-
-## CLINICAL GUIDELINES FOR THE MANAGEMENT OF COMMON NON-COMMUNICABLE, INJURIES AND MENTAL HEALTH CONDITIONS
-
-b Clinical Guidelines for the Management of Common Non-Communicable, Injuries and Mental Health Conditions - Ministry of Health"
-ncdimh-0013,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Introduction",11,11,ncdimh:fa80f3a5b4,ncdimh:2922e9a3f0,ncdimh-0002,ncdimh-tbl-ncd-risk-factors,165,"## **CHAPTER 1**
+ncdimh-0013,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Introduction",11,11,ncdimh:fa80f3a5b4,ncdimh:2922e9a3f0,,ncdimh-tbl-ncd-risk-factors,165,"## **CHAPTER 1**
 
 ## **PREVENTION, HEALTH EDUCATION AND ROUTINE HEALTH EXAMINATIONS**
 
@@ -12597,7 +12587,7 @@ The AUDIT-C consists of the first 3 questions from the full AUDIT. It is quick a
 
 AUDIT-C (Recommended for Busy Settings)
 The AUDIT-C consists of the first 3 questions from the full AUDIT. It is quick and effective for identifying unhealthy alcohol use."
-ncdimh-tbl-audit-c,ncdimh,ncdimh,table,ncdimh-tbl-audit-c,1/1,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Screening tools > AUDIT-C",21,21,ncdimh:3ebecbf283,ncdimh:b2b1730442,ncdimh-0041,ncdimh-0043-rest,211,"### AUDIT-C alcohol screening questionnaire: questions, scoring and interpretation
+ncdimh-tbl-audit-c,ncdimh,ncdimh,table,ncdimh-tbl-audit-c,1/1,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Screening tools > AUDIT-C",21,21,ncdimh:3ebecbf283,ncdimh:b2b1730442,ncdimh-0041,ncdimh-tbl-alcohol-5as,211,"### AUDIT-C alcohol screening questionnaire: questions, scoring and interpretation
 
 | Question | Answer scoring | Points |
 | --- | --- | --- |
@@ -12612,10 +12602,7 @@ AUDIT-C alcohol screening questionnaire: questions, scoring and interpretation.
 2. How many drinks containing alcohol do you have on a typical day when drinking?: Answer scoring: 1 or 2 (0); 3 or 4 (1); 5 or 6 (2); 7-9 (3); 10+ (4); Points: 0-4.
 3. How often do you have 5 or more drinks on one occasion?: Answer scoring: Never (0); less than monthly (1); monthly (2); weekly (3); daily/almost daily (4); Points: 0-4.
 AUDIT-C interpretation: men: score ≥4 = unhealthy alcohol use: provide brief intervention. Women: score ≥3 = unhealthy alcohol use: provide brief intervention. Score ≥8: possible alcohol use disorder: consider full AUDIT and referral."
-ncdimh-0043-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for Alcohol Use > Screening Tools",21,21,ncdimh:afebfbc128,ncdimh:f522233da6,ncdimh-tbl-audit-c,ncdimh-tbl-alcohol-5as,22,"*For patients identified as drinking alcohol, use this evidence-based counseling approach:*","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 1: Prevention, Health Education and Routine Health Examinations > Screening for Alcohol Use > Screening Tools (page 21)
-
-*For patients identified as drinking alcohol, use this evidence-based counseling approach:*"
-ncdimh-tbl-alcohol-5as,ncdimh,ncdimh,table,ncdimh-tbl-alcohol-5as,1/1,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Brief intervention: the 5 A's",21,21,ncdimh:47082018f3,ncdimh:1ed515b25c,ncdimh-0043-rest,ncdimh-0046,239,"### Brief intervention for alcohol use: the 5 A's (ask, advise, assess, assist, arrange)
+ncdimh-tbl-alcohol-5as,ncdimh,ncdimh,table,ncdimh-tbl-alcohol-5as,1/1,"Chapter 1: Prevention, Health Education and Routine Health Examinations > Alcohol Use > Brief intervention: the 5 A's",21,21,ncdimh:47082018f3,ncdimh:1ed515b25c,ncdimh-tbl-audit-c,ncdimh-0046,239,"### Brief intervention for alcohol use: the 5 A's (ask, advise, assess, assist, arrange)
 
 | Step | Action |
 | --- | --- |
@@ -13913,10 +13900,7 @@ Option 1: basal-bolus regimen (preferred regimen) > At night (± 21h00): Insulin
 Option 2 (OR) > Breakfast: Insulin: Short acting insulin (30% of morning dose) + intermediate acting (70% of morning dose); Share of dose: 2/3 of total daily dose.
 Option 2 (OR) > Lunch: Insulin: Short acting insulin (1/3 of evening dose); Share of dose: 1/3 of total daily dose.
 Option 2 (OR) > At night (± 21h00): Insulin: Intermediate acting (2/3 of evening dose); Share of dose: 1/3 of total daily dose."
-ncdimh-0103-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 2: Endocrinology > Insulin Regimens > Basal-bolus regimen (PREFERRED REGIMEN),41,41,ncdimh:79d599483d,ncdimh:fdc72182f9,ncdimh-tbl-insulin-regimens-t1dm-p1,ncdimh-tbl-insulin-regimens-t1dm-p2,36,* The morning or evening dose is then again split between the intermediate-acting and the short-acting insulin in a 70:30 ratio which is pre-mixed.,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 2: Endocrinology > Insulin Regimens > Basal-bolus regimen (PREFERRED REGIMEN) (page 41)
-
-* The morning or evening dose is then again split between the intermediate-acting and the short-acting insulin in a 70:30 ratio which is pre-mixed."
-ncdimh-tbl-insulin-regimens-t1dm-p2,ncdimh,ncdimh,table,ncdimh-tbl-insulin-regimens-t1dm,2/2,Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin regimens > Insulin dosage regimens,41,41,ncdimh:2591dc7364,ncdimh:2dfe25b48a,ncdimh-0103-rest,ncdimh-tbl-insulin-dose-adjustment-t1dm,583,"### Insulin dosage regimens for type 1 diabetes: share of total daily dose by meal (basal-bolus, split-mixed, three and two injections)
+ncdimh-tbl-insulin-regimens-t1dm-p2,ncdimh,ncdimh,table,ncdimh-tbl-insulin-regimens-t1dm,2/2,Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin regimens > Insulin dosage regimens,41,41,ncdimh:2591dc7364,ncdimh:2dfe25b48a,ncdimh-0102,ncdimh-0103-rest,583,"### Insulin dosage regimens for type 1 diabetes: share of total daily dose by meal (basal-bolus, split-mixed, three and two injections)
 
 Basal-bolus regimen (preferred regimen): short acting insulin 15-30 minutes before a meal, or rapid acting insulin with main meals (e.g. breakfast, lunch and main evening meal); intermediate acting insulin before bed. Normally 30-40% of the total daily dose is given at bedtime as intermediate acting insulin; the remaining insulin is given before breakfast, lunch and the evening meal as short acting insulin. Short acting insulin is indicated in the child (especially <5 years of age) with erratic eating habits despite adequate education.
 
@@ -13941,7 +13925,10 @@ Basal-bolus regimen (preferred regimen): short acting insulin 15-30 minutes befo
 
 Insulin dosage regimens for type 1 diabetes: share of total daily dose by meal (basal-bolus, split-mixed, three and two injections) (part 2 of 2).
 OR three injections daily: a mixture of short and intermediate acting (premixed 70:30) insulin before breakfast; short acting insulin alone before an afternoon snack or main evening meal; intermediate acting insulin before bed (or variations). This requires that the caregiver is aware of three different insulin preparations and can differentiate between them. OR two injections daily: a mixture (premixed combination) of short and intermediate acting insulins before breakfast and the main evening meal. The total daily dose is divided so that 2/3 is given in the morning and 1/3 in the evening; each dose is split between intermediate-acting and short-acting insulin in a 70:30 ratio (pre-mixed). This regimen is less flexible, but easier to give administration instructions for."
-ncdimh-tbl-insulin-dose-adjustment-t1dm,ncdimh,ncdimh,table,ncdimh-tbl-insulin-dose-adjustment-t1dm,1/1,Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin regimens > Insulin dose adjustment by timing of unsatisfactory glucose,42,42,ncdimh:c5cc7b58da,ncdimh:2dfe25b48a,ncdimh-tbl-insulin-regimens-t1dm-p2,ncdimh-tbl-insulin-types-action,347,"### Which insulin dose to adjust, by timing of the unsatisfactory blood glucose level (premixed and basal-bolus regimens)
+ncdimh-0103-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 2: Endocrinology > Insulin Regimens > Basal-bolus regimen (PREFERRED REGIMEN),41,41,ncdimh:79d599483d,ncdimh:fdc72182f9,ncdimh-tbl-insulin-regimens-t1dm-p2,ncdimh-tbl-insulin-dose-adjustment-t1dm,36,* The morning or evening dose is then again split between the intermediate-acting and the short-acting insulin in a 70:30 ratio which is pre-mixed.,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 2: Endocrinology > Insulin Regimens > Basal-bolus regimen (PREFERRED REGIMEN) (page 41)
+
+* The morning or evening dose is then again split between the intermediate-acting and the short-acting insulin in a 70:30 ratio which is pre-mixed."
+ncdimh-tbl-insulin-dose-adjustment-t1dm,ncdimh,ncdimh,table,ncdimh-tbl-insulin-dose-adjustment-t1dm,1/1,Chapter 2: Endocrinology > Insulin Therapy for Type 1 Diabetes > Insulin regimens > Insulin dose adjustment by timing of unsatisfactory glucose,42,42,ncdimh:c5cc7b58da,ncdimh:2dfe25b48a,ncdimh-0103-rest,ncdimh-tbl-insulin-types-action,347,"### Which insulin dose to adjust, by timing of the unsatisfactory blood glucose level (premixed and basal-bolus regimens)
 
 **Two injections daily (premixed)**
 
@@ -14480,10 +14467,7 @@ Capillary blood glucose (CBG) insulin correction dose scale: units to add by CBG
 11.2 - 13.9 mmol/L: Pre-meal dose: sensitive (BMI <25 or TDI <50 units/d): 2 units; Pre-meal dose: average (BMI 25-30 or TDI 50-90 units/d): 4 units; Pre-meal dose: resistant (BMI >30 or TDI >90 units/d): 6 units; Bedtime dose (eating patients only): 1 unit.
 14.0 - 16.7 mmol/L: Pre-meal dose: sensitive (BMI <25 or TDI <50 units/d): 3 units; Pre-meal dose: average (BMI 25-30 or TDI 50-90 units/d): 6 units; Pre-meal dose: resistant (BMI >30 or TDI >90 units/d): 9 units; Bedtime dose (eating patients only): 2 units.
 16.8 - 19.4 mmol/L: Pre-meal dose: sensitive (BMI <25 or TDI <50 units/d): 4 units; Pre-meal dose: average (BMI 25-30 or TDI 50-90 units/d): 8 units; Pre-meal dose: resistant (BMI >30 or TDI >90 units/d): 12 units; Bedtime dose (eating patients only): 3 units."
-ncdimh-0145-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Total Daily Insulin (TDI) Starting Dose by Patient Type,53,53,ncdimh:23cc1fefb1,ncdimh:072fd87e1c,ncdimh-tbl-cbg-correction-scale-p1,ncdimh-tbl-cbg-correction-scale-p2,24,"* If patient develops hypoglycaemia, step DOWN one scale level (Resistant → Standard → Sensitive).","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Total Daily Insulin (TDI) Starting Dose by Patient Type (page 53)
-
-* If patient develops hypoglycaemia, step DOWN one scale level (Resistant → Standard → Sensitive)."
-ncdimh-tbl-cbg-correction-scale-p2,ncdimh,ncdimh,table,ncdimh-tbl-cbg-correction-scale,2/2,Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Capillary blood glucose (CBG) insulin correction dose scale,53,53,ncdimh:c99a23a492,ncdimh:072fd87e1c,ncdimh-0145-rest,ncdimh-0150,521,"### Capillary blood glucose (CBG) insulin correction dose scale: units to add by CBG reading and insulin sensitivity
+ncdimh-tbl-cbg-correction-scale-p2,ncdimh,ncdimh,table,ncdimh-tbl-cbg-correction-scale,2/2,Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Capillary blood glucose (CBG) insulin correction dose scale,53,53,ncdimh:c99a23a492,ncdimh:072fd87e1c,ncdimh-tbl-tdi-starting-dose,ncdimh-0145-rest,521,"### Capillary blood glucose (CBG) insulin correction dose scale: units to add by CBG reading and insulin sensitivity
 
 | CBG reading | Pre-meal dose: sensitive (BMI <25 or TDI <50 units/d) | Pre-meal dose: average (BMI 25-30 or TDI 50-90 units/d) | Pre-meal dose: resistant (BMI >30 or TDI >90 units/d) | Bedtime dose (eating patients only) |
 | --- | --- | --- | --- | --- |
@@ -14502,7 +14486,10 @@ Capillary blood glucose (CBG) insulin correction dose scale: units to add by CBG
 19.5 - 22.2 mmol/L: Pre-meal dose: sensitive (BMI <25 or TDI <50 units/d): 5 units + CALL; Pre-meal dose: average (BMI 25-30 or TDI 50-90 units/d): 10 units + CALL; Pre-meal dose: resistant (BMI >30 or TDI >90 units/d): 15 units + CALL; Bedtime dose (eating patients only): 3 units + CALL.
 > 22.2 mmol/L: Pre-meal dose: sensitive (BMI <25 or TDI <50 units/d): 6 units + CALL; Pre-meal dose: average (BMI 25-30 or TDI 50-90 units/d): 12 units + CALL; Pre-meal dose: resistant (BMI >30 or TDI >90 units/d): 18 units + CALL; Bedtime dose (eating patients only): 3 units + CALL.
 Key notes: correction doses are based on fasting or pre-meal BG readings only. The correction dose is ADDED to the scheduled (basal-bolus) insulin dose. Bedtime correction doses apply to eating patients only; omit for NPO patients; bedtime correction doses should be REDUCED by 50%. '+ CALL' = notify the prescriber immediately for clinical review. NPO patients: consider IV fluids and TPN; consult endocrinologist; administer SC insulin only as directed; reduce bolus insulin and use the level 1 correction scale; reassess TDI daily. If hypoglycaemia occurs or is recurrent, step DOWN one sensitivity level (resistant to average to sensitive). Reassess TDI and correction scale level daily based on glucose trends and clinical status. Adapted from Umpierrez et al. & Magaji et al. TDI = total daily insulin; NPO = nil per os; SC = subcutaneous; TPN = total parenteral nutrition."
-ncdimh-0150,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocol > Correction/Sliding Scale: Selection of Low, Medium or High Insulin Dose",54,54,ncdimh:e38c40f9a5,ncdimh:5e5a705dab,ncdimh-tbl-cbg-correction-scale-p2,ncdimh-tbl-sc-insulin-order-protocol-p1,261,"## **Correction /sliding scale – selection of low, medium or high insulin dose**
+ncdimh-0145-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Total Daily Insulin (TDI) Starting Dose by Patient Type,53,53,ncdimh:23cc1fefb1,ncdimh:072fd87e1c,ncdimh-tbl-cbg-correction-scale-p2,ncdimh-0150,24,"* If patient develops hypoglycaemia, step DOWN one scale level (Resistant → Standard → Sensitive).","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocols > Total Daily Insulin (TDI) Starting Dose by Patient Type (page 53)
+
+* If patient develops hypoglycaemia, step DOWN one scale level (Resistant → Standard → Sensitive)."
+ncdimh-0150,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Chapter 2: Endocrinology > Glycemic Control in Non-Critical Hospitalized Adult Patients Protocol > Correction/Sliding Scale: Selection of Low, Medium or High Insulin Dose",54,54,ncdimh:e38c40f9a5,ncdimh:5e5a705dab,ncdimh-0145-rest,ncdimh-tbl-sc-insulin-order-protocol-p1,261,"## **Correction /sliding scale – selection of low, medium or high insulin dose**
 
 * The sliding scale insulin is designed to be given occasionally in addition to the scheduled bolus dose to correct for unexpected hyperglycemia; it should not be given routinely **OR BY ITSELF**
 * Add up all insulin over 24 hours from all components of pre-admission regimen and choose the appropriate dose scale according to the 24 hour insulin use. Consider starting at low dose for patients at high risk of hypoglycaemia such as patients with renal dysfunction, or hypoglycaemia unawareness, insulin naive patients and the elderly.
@@ -15146,7 +15133,7 @@ The diagnosis of osteoporosis typically involves a combination of clinical asses
 ## Patient Assessment
 
 A detailed general and dietary history, full physical examination and appropriate laboratory assessment are required in all patients prior to the initiation of treatment for osteoporosis."
-ncdimh-tbl-osteoporosis-assessment-checklist-p1,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,1/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0186,ncdimh-0187-rest,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
+ncdimh-tbl-osteoporosis-assessment-checklist-p1,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,1/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0186,ncdimh-fig-osteoporosis-assessment,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
 
 **History**
 
@@ -15280,10 +15267,7 @@ Physical examination > Height: Initial: x; Annually: x.
 Physical examination > BMI (kg/m2): Initial to Annually: x.
 Physical examination > Waist circumference (cm): Initial to Annually: x.
 Physical examination > Blood pressure: Initial to Annually: x."
-ncdimh-0187-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 2: Endocrinology > Diagnosis of Osteoporosis > Clinical and Laboratory Assessment,66,66,ncdimh:85563c29d7,ncdimh:8a2a6937ce,ncdimh-tbl-osteoporosis-assessment-checklist-p1,ncdimh-tbl-osteoporosis-assessment-checklist-p2,82,2. **Orthostatic blood pressure testing:** A drop in the systolic blood pressure by more than 20 mm/Hg from a lying down to standing position is significant for a postural drop. This is seen in patients who are dehydrated or who present with autonomic dysfunction. Autonomic dysfunction can occur acutely and be driven by vertigo.,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 2: Endocrinology > Diagnosis of Osteoporosis > Clinical and Laboratory Assessment (page 66)
-
-2. Orthostatic blood pressure testing: A drop in the systolic blood pressure by more than 20 mm/Hg from a lying down to standing position is significant for a postural drop. This is seen in patients who are dehydrated or who present with autonomic dysfunction. Autonomic dysfunction can occur acutely and be driven by vertigo."
-ncdimh-tbl-osteoporosis-assessment-checklist-p2,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,2/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0187-rest,ncdimh-fig-osteoporosis-assessment,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
+ncdimh-tbl-osteoporosis-assessment-checklist-p2,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,2/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0186,ncdimh-fig-osteoporosis-assessment,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
 
 **History**
 
@@ -15412,7 +15396,7 @@ Investigations: blood > Serum creatinine, urea and calculation of eGFR: .
 Investigations: urine dipstix > Protein: Initial: x; Annually: x.
 Investigations: urine dipstix > Urine calcium and creatinine (preferably a 24-hour collection): Initial: x; Annually: x.
 Investigations: urine dipstix > Glucose & ketones: Initial: x; Annually: x."
-ncdimh-tbl-osteoporosis-assessment-checklist-p3,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,3/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0187-rest,ncdimh-fig-osteoporosis-assessment,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
+ncdimh-tbl-osteoporosis-assessment-checklist-p3,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,3/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0186,ncdimh-fig-osteoporosis-assessment,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
 
 **History**
 
@@ -15528,7 +15512,7 @@ Investigations: ECG and imaging > ECG: .
 Investigations: ECG and imaging > Vertebral fracture assessment: standard X-rays or DXA-VFA: Initial: x; Annually: x (every two years).
 Investigations: ECG and imaging > Bone mass measurement: spine and hip (distal radius if spine and hip data invalid): Initial: x; Annually: x (every two years).
 x = do at this visit; blank = not routinely (some items, e.g. 25OHD, nystagmus, eGFR and ECG, have no marks in the PDF)."
-ncdimh-tbl-osteoporosis-assessment-checklist-p4,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,4/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0187-rest,ncdimh-fig-osteoporosis-assessment,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
+ncdimh-tbl-osteoporosis-assessment-checklist-p4,ncdimh,ncdimh,table,ncdimh-tbl-osteoporosis-assessment-checklist,4/4,Chapter 2: Endocrinology > Management of Osteoporosis and Fragility Fractures > Diagnosis of osteoporosis > Clinical and laboratory assessment,66,69,ncdimh:635cef241b,ncdimh:2efd0a6473,ncdimh-0186,ncdimh-fig-osteoporosis-assessment,1189,"### Osteoporosis clinical and laboratory assessment checklist: history, examination and investigations at initial, 3-6 monthly and annual visits
 
 **History**
 
@@ -18875,7 +18859,7 @@ Key time targets: door-to-CT < 25 minutes; door-to-needle (tPA) < 60 minutes; do
    - No hemorrhage: probable or confirmed acute ischemic stroke. Repeat brain CT/MRI if the first CT brain was negative:
      - Ischemic changes: confirmed ischemic stroke.
      - No ischemic changes: consider other plausible diagnoses."
-ncdimh-tbl-rtpa-eligibility,ncdimh,ncdimh,table,ncdimh-tbl-rtpa-eligibility,1/1,Chapter 3: Cardiology > Stroke Management > Emergency Management of Stroke > Is the patient a candidate for thrombolytic therapy > rtPA eligibility criteria,137,137,ncdimh:46c4af71b2,ncdimh:e25e8509a0,ncdimh-fig-stroke-facility-flowchart,ncdimh-0377-rest-a,249,"### rtPA (alteplase) eligibility criteria in acute ischaemic stroke: inclusion (all must be met) and exclusion (any = contraindicated)
+ncdimh-tbl-rtpa-eligibility,ncdimh,ncdimh,table,ncdimh-tbl-rtpa-eligibility,1/1,Chapter 3: Cardiology > Stroke Management > Emergency Management of Stroke > Is the patient a candidate for thrombolytic therapy > rtPA eligibility criteria,137,137,ncdimh:46c4af71b2,ncdimh:e25e8509a0,ncdimh-fig-stroke-facility-flowchart,ncdimh-tbl-stroke-acute-contraindications-secondary-p1,249,"### rtPA (alteplase) eligibility criteria in acute ischaemic stroke: inclusion (all must be met) and exclusion (any = contraindicated)
 
 | INCLUSION — All must be met | EXCLUSION — Any = contraindicated |
 | --- | --- |
@@ -18883,12 +18867,7 @@ ncdimh-tbl-rtpa-eligibility,ncdimh,ncdimh,table,ncdimh-tbl-rtpa-eligibility,1/1,
 
 rtPA (alteplase) eligibility criteria in acute ischaemic stroke: inclusion (all must be met) and exclusion (any = contraindicated).
 - Ischemic stroke diagnosed<br/>- Onset < 4.5 hours<br/>- Age 18–80 years old: EXCLUSION — Any = contraindicated: - Acute/severe head trauma within 3 months<br/>- Ischemic stroke within 3 months<br/>- Previous ICH<br/>- Suspected SAH<br/>- Intracerebral tumor<br/>- Intracranial/intraspinal surgery within 3 months<br/>- Active internal bleeding<br/>- GI malignancy or serious GI bleed within 3 months<br/>- Extensive hypoattenuation or hemorrhage on CT<br/>- Known bleeding diathesis<br/>- Aortic dissection<br/>- Infective endocarditis<br/>- Recent myocardial infarction<br/>- Heparin within 48h (APTT prolonged) or LMWH within 24h<br/>- Direct thrombin or factor Xa inhibitor within 48h<br/>- NIHSS < 6 or > 25<br/>- BP > 185/110 mmHg<br/>- Platelets < 100,000/mm³<br/>- Glucose > 22.2 mmol/L or < 2.7 mmol/L."
-ncdimh-0377-rest-a,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 3: Cardiology > Emergency Management of Stroke > Is the Patient a candidate for thrombolytic therapy?,138,138,ncdimh:02cf319163,ncdimh:669c44c276,ncdimh-tbl-rtpa-eligibility,ncdimh-tbl-stroke-acute-contraindications-secondary-p1,37,"## Is the Patient a candidate for thrombolytic therapy?
-**Acute Stroke Management** **Thrombolytic Contra-indications** **Secondary Stroke Prevention**","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 3: Cardiology > Emergency Management of Stroke > Is the Patient a candidate for thrombolytic therapy? (page 138)
-
-## Is the Patient a candidate for thrombolytic therapy?
-Acute Stroke Management Thrombolytic Contra-indications Secondary Stroke Prevention"
-ncdimh-tbl-stroke-acute-contraindications-secondary-p1,ncdimh,ncdimh,table,ncdimh-tbl-stroke-acute-contraindications-secondary,1/2,"Chapter 3: Cardiology > Stroke Management > Emergency Management of Stroke > Is the patient a candidate for thrombolytic therapy > Acute management, contraindications and secondary prevention",138,138,ncdimh:f7899bb351,ncdimh:e25e8509a0,ncdimh-0377-rest-a,ncdimh-0377-rest,523,"### Acute ischaemic stroke: acute management (alteplase, labetalol, thrombectomy, cerebral oedema), thrombolysis contraindications (absolute and relative), and secondary stroke prevention
+ncdimh-tbl-stroke-acute-contraindications-secondary-p1,ncdimh,ncdimh,table,ncdimh-tbl-stroke-acute-contraindications-secondary,1/2,"Chapter 3: Cardiology > Stroke Management > Emergency Management of Stroke > Is the patient a candidate for thrombolytic therapy > Acute management, contraindications and secondary prevention",138,138,ncdimh:f7899bb351,ncdimh:e25e8509a0,ncdimh-tbl-rtpa-eligibility,ncdimh-tbl-stroke-pharmacological-p1,523,"### Acute ischaemic stroke: acute management (alteplase, labetalol, thrombectomy, cerebral oedema), thrombolysis contraindications (absolute and relative), and secondary stroke prevention
 
 | Acute Stroke Management | Thrombolytic Contraindications Absolute | Thrombolytic Contraindications Relative | Secondary Stroke Prevention |
 | --- | --- | --- | --- |
@@ -18896,16 +18875,7 @@ ncdimh-tbl-stroke-acute-contraindications-secondary-p1,ncdimh,ncdimh,table,ncdim
 
 Acute ischaemic stroke: acute management (alteplase, labetalol, thrombectomy, cerebral oedema), thrombolysis contraindications (absolute and relative), and secondary stroke prevention (part 1 of 2).
 1. IV Alteplase (0.9 mg/kg: 10% bolus in 1 min, rest over 1 hour) given if 3-4.5 hours from stroke symptom onset. No anticoagulation or antiplatelets within 24h of lysis.<br/>2. IV labetalol if SBP > 220 mmHg or DBP > 120 mmHg, or active ischemic coronary heart disease, heart failure, aortic dissection, hypertensive encephalopathy, pre-eclampsia/eclampsia: 15% lowering during the first 24 h; if lysis, keep BP < 180/105 mmHg.<br/>3. Endovascular thrombectomy.<br/>4. Cerebral edema: HOB > 30°, IV mannitol, or hemicraniectomy.: Thrombolytic Contraindications Absolute: 1. Any prior ICH<br/>2. Intracranial neoplasm, aneurysm, AVM<br/>3. Ischemic stroke within 3 months, 2 months' head/spine surgery<br/>4. Bleeding diathesis<br/>5. Suspected aortic dissection<br/>6. Severe uncontrolled HTN; Thrombolytic Contraindications Relative: 1. Severe HTN SBP > 180 or DBP > 110 mmHg<br/>2. Ischemic stroke > 3 months<br/>3. CPR > 10 min, trauma/major surgery within 3 weeks<br/>4. Internal bleed within 2-4 weeks, active PUD<br/>5. Pregnancy<br/>6. Non-compressible vascular punctures<br/>7. Platelets < 100k, INR [>] 1.7, PTT > 40, glycemia < 50 mg/dl; Secondary Stroke Prevention: 1. Antiplatelets: ASA 100 mg OD<br/>2. Anticoagulants: consider in AF (CHA2DS2-VASc score),"
-ncdimh-0377-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 3: Cardiology > Emergency Management of Stroke > Is the Patient a candidate for thrombolytic therapy?,138,138,ncdimh:02cf319163,ncdimh:669c44c276,ncdimh-tbl-stroke-acute-contraindications-secondary-p1,ncdimh-tbl-stroke-acute-contraindications-secondary-p2,45,"03. **Endovascular thrombectomy**
-04. **Cerebral edema**: HOB> 30o Iv Mannitol, or Hemi-craniectomy.
-05. **Carotid re-vascularization**
-06. **DST prophylaxis**: S/c Lovenox 40 mg od","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 3: Cardiology > Emergency Management of Stroke > Is the Patient a candidate for thrombolytic therapy? (page 138)
-
-03. Endovascular thrombectomy
-04. Cerebral edema: HOB> 30o Iv Mannitol, or Hemi-craniectomy.
-05. Carotid re-vascularization
-06. DST prophylaxis: S/c Lovenox 40 mg od"
-ncdimh-tbl-stroke-acute-contraindications-secondary-p2,ncdimh,ncdimh,table,ncdimh-tbl-stroke-acute-contraindications-secondary,2/2,"Chapter 3: Cardiology > Stroke Management > Emergency Management of Stroke > Is the patient a candidate for thrombolytic therapy > Acute management, contraindications and secondary prevention",138,138,ncdimh:f7899bb351,ncdimh:e25e8509a0,ncdimh-0377-rest,ncdimh-tbl-stroke-pharmacological-p1,523,"### Acute ischaemic stroke: acute management (alteplase, labetalol, thrombectomy, cerebral oedema), thrombolysis contraindications (absolute and relative), and secondary stroke prevention
+ncdimh-tbl-stroke-acute-contraindications-secondary-p2,ncdimh,ncdimh,table,ncdimh-tbl-stroke-acute-contraindications-secondary,2/2,"Chapter 3: Cardiology > Stroke Management > Emergency Management of Stroke > Is the patient a candidate for thrombolytic therapy > Acute management, contraindications and secondary prevention",138,138,ncdimh:f7899bb351,ncdimh:e25e8509a0,ncdimh-tbl-rtpa-eligibility,ncdimh-tbl-stroke-pharmacological-p1,523,"### Acute ischaemic stroke: acute management (alteplase, labetalol, thrombectomy, cerebral oedema), thrombolysis contraindications (absolute and relative), and secondary stroke prevention
 
 | Acute Stroke Management | Thrombolytic Contraindications Absolute | Thrombolytic Contraindications Relative | Secondary Stroke Prevention |
 | --- | --- | --- | --- |
@@ -19365,12 +19335,7 @@ B. Volume overload (clinical manifestations depend on the severity of the left-t
 - ASD: asymptomatic; can present with recurrent chest infections and poor weight gain. Physical findings: no respiratory distress, ejection murmur (most of the time absent) at the pulmonary area, fixed split S2.
 - VSD/AVSD: symptoms appear in the first weeks of life: diaphoresis, poor weight gain, poor feeding, tachypnoea, tachycardia. Physical findings: chest retraction, holosystolic murmur at the LLSB, hepatomegaly, Harrison sulcus.
 - PDA/AOW: symptoms appear in the first weeks of life: diaphoresis, poor weight gain, poor feeding, tachypnoea, tachycardia. Physical findings: chest retraction, continuous murmur at the left infraclavicular area, hepatomegaly."
-ncdimh-0408-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 3: Cardiology > Congenital Heart Disease > Approach to suspected congenital heart disease > Acyanotic and Cyanotic CHD flowchart,150,150,ncdimh:4358444fb5,ncdimh:10f1fad47d,ncdimh-fig-chd-acyanotic-cyanotic-p1,ncdimh-fig-chd-acyanotic-cyanotic-p2,81,"### **Atopic Dermatitis AD (Eczema)**
-Chronic, pruritic inflammatory skin condition that occurs most frequently in children but may also affect adults. It follows a relapsing course. AD is often associated with elevated serum immunoglobulin levels and a family history of Type 1 allergies such as Allergic Rhinitis and Asthma.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 3: Cardiology > Congenital Heart Disease > Approach to suspected congenital heart disease > Acyanotic and Cyanotic CHD flowchart (page 150)
-
-### Atopic Dermatitis AD (Eczema)
-Chronic, pruritic inflammatory skin condition that occurs most frequently in children but may also affect adults. It follows a relapsing course. AD is often associated with elevated serum immunoglobulin levels and a family history of Type 1 allergies such as Allergic Rhinitis and Asthma."
-ncdimh-fig-chd-acyanotic-cyanotic-p2,ncdimh,ncdimh,diagram,ncdimh-fig-chd-acyanotic-cyanotic,2/3,Chapter 3: Cardiology > Congenital Heart Disease > Acyanotic and cyanotic congenital heart disease,150,150,ncdimh:ad358a42a2,ncdimh:4208966d03,ncdimh-0408-rest,ncdimh-0410,1059,"### Acyanotic and cyanotic congenital heart disease: types, clinical features, imaging and management (pressure vs volume overload; decreased vs increased pulmonary blood flow)
+ncdimh-fig-chd-acyanotic-cyanotic-p2,ncdimh,ncdimh,diagram,ncdimh-fig-chd-acyanotic-cyanotic,2/3,Chapter 3: Cardiology > Congenital Heart Disease > Acyanotic and cyanotic congenital heart disease,150,150,ncdimh:ad358a42a2,ncdimh:4208966d03,ncdimh-0407,ncdimh-0408-rest,1059,"### Acyanotic and cyanotic congenital heart disease: types, clinical features, imaging and management (pressure vs volume overload; decreased vs increased pulmonary blood flow)
 
 ACYANOTIC CHD
 A. Pressure overload (clinical manifestations depend on the severity of the obstruction):
@@ -19404,7 +19369,7 @@ A. Decreased pulmonary blood flow:
 - Tricuspid valve diseases: types: tricuspid atresia, tricuspid stenosis, Ebstein anomaly. Management: a paediatric cardiologist assesses the associated anomalies and recommends medical and surgical management.
 - Pulmonary valve atresia: severe form of TOF; ductal dependent and/or with MAPCAs; early presentation, marked central cyanosis, single loud S2, continuous murmur radiating to the back and axillae; very challenging surgical management and poor outcome.
 B. Increased pulmonary blood flow:"
-ncdimh-fig-chd-acyanotic-cyanotic-p3,ncdimh,ncdimh,diagram,ncdimh-fig-chd-acyanotic-cyanotic,3/3,Chapter 3: Cardiology > Congenital Heart Disease > Acyanotic and cyanotic congenital heart disease,150,150,ncdimh:ad358a42a2,ncdimh:4208966d03,ncdimh-0408-rest,ncdimh-0410,1059,"### Acyanotic and cyanotic congenital heart disease: types, clinical features, imaging and management (pressure vs volume overload; decreased vs increased pulmonary blood flow)
+ncdimh-fig-chd-acyanotic-cyanotic-p3,ncdimh,ncdimh,diagram,ncdimh-fig-chd-acyanotic-cyanotic,3/3,Chapter 3: Cardiology > Congenital Heart Disease > Acyanotic and cyanotic congenital heart disease,150,150,ncdimh:ad358a42a2,ncdimh:4208966d03,ncdimh-0407,ncdimh-0408-rest,1059,"### Acyanotic and cyanotic congenital heart disease: types, clinical features, imaging and management (pressure vs volume overload; decreased vs increased pulmonary blood flow)
 
 ACYANOTIC CHD
 A. Pressure overload (clinical manifestations depend on the severity of the obstruction):
@@ -19436,7 +19401,12 @@ Acyanotic and cyanotic congenital heart disease: types, clinical features, imagi
 - TAPVR: early presentation if obstructed, with severe respiratory distress, marked cyanosis and shock. If unobstructed: right HF symptoms and signs, fixed split S2, SEM at the ULSB, hepatomegaly. Treat as in the HF algorithm. Surgical repair when the patient is stable.
 C. Others: HLHS, interrupted aortic arch, complex CHD; variable associated cardiac anomalies; symptoms depend on the pulmonary blood flow. If in HF, treat as in the HF algorithm. A paediatric cardiologist decides the indication and timing of cardiac surgery.
 All suspected cases of CHD should be referred to a tertiary centre after proper counselling."
-ncdimh-0410,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 4: Dermatology > Atopic Dermatitis (Eczema) > Definition and Classification of AD,151,151,ncdimh:b525eeb4cb,ncdimh:8cfadcb5ce,ncdimh-fig-chd-acyanotic-cyanotic-p3,ncdimh-tbl-ad-stages,79,"#### **Classification of AD**
+ncdimh-0408-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 4: Dermatology > Atopic Dermatitis (Eczema),150,150,ncdimh:8cfadcb5ce,ncdimh:65b0160b23,ncdimh-fig-chd-acyanotic-cyanotic-p3,ncdimh-0410,81,"### **Atopic Dermatitis AD (Eczema)**
+Chronic, pruritic inflammatory skin condition that occurs most frequently in children but may also affect adults. It follows a relapsing course. AD is often associated with elevated serum immunoglobulin levels and a family history of Type 1 allergies such as Allergic Rhinitis and Asthma.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 4: Dermatology > Atopic Dermatitis (Eczema) (page 150)
+
+### Atopic Dermatitis AD (Eczema)
+Chronic, pruritic inflammatory skin condition that occurs most frequently in children but may also affect adults. It follows a relapsing course. AD is often associated with elevated serum immunoglobulin levels and a family history of Type 1 allergies such as Allergic Rhinitis and Asthma."
+ncdimh-0410,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 4: Dermatology > Atopic Dermatitis (Eczema) > Definition and Classification of AD,151,151,ncdimh:b525eeb4cb,ncdimh:8cfadcb5ce,ncdimh-0408-rest,ncdimh-tbl-ad-stages,79,"#### **Classification of AD**
 
 i. Acute
 ii. Chronic
@@ -20428,10 +20398,7 @@ Concomitant Therapy: Drug & Dose: Metronidazole 400 mg PO; Frequency: 12 hourly;
 Concomitant Therapy: Drug & Dose: Clarithromycin 500 mg PO; Frequency: 12 hourly; Duration: 7 days; Notes: —.
 Bismuth-Based Therapy (treatment failure): Drug & Dose: Pantoprazole 40 mg PO OR Esomeprazole 40 mg PO; Frequency: 12 hourly; Duration: 10–14 days; Notes: —.
 Bismuth-Based Therapy (treatment failure): Drug & Dose: Bismuth subsalicylate 525 mg PO; Frequency: 6 hourly; Duration: 10–14 days; Notes: —."
-ncdimh-0462-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 5: Gastroenterology and Hepatology > Gastroduodenal Ulcers (PUD) > Helicobacter Pylori Related Peptic Ulcer Disease > Pharmacological Treatment,168,168,ncdimh:b88d1355d3,ncdimh:d291425542,ncdimh-tbl-h-pylori-eradication-p1,ncdimh-tbl-h-pylori-eradication-p2,94,"This is an inflammatory mucosal response to injury from variety of agents and mechanisms including infections, drugs, alcohol, acute stress, radiation, allergy, acid and bile, ischemia or direct trauma. The inflammation may involve the entire stomach (pangastritis) or a region of the stomach (antral gastritis) while the severity of inflammation may be erosive or non-erosive.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 5: Gastroenterology and Hepatology > Gastroduodenal Ulcers (PUD) > Helicobacter Pylori Related Peptic Ulcer Disease > Pharmacological Treatment (page 168)
-
-This is an inflammatory mucosal response to injury from variety of agents and mechanisms including infections, drugs, alcohol, acute stress, radiation, allergy, acid and bile, ischemia or direct trauma. The inflammation may involve the entire stomach (pangastritis) or a region of the stomach (antral gastritis) while the severity of inflammation may be erosive or non-erosive."
-ncdimh-tbl-h-pylori-eradication-p2,ncdimh,ncdimh,table,ncdimh-tbl-h-pylori-eradication,2/2,Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Helicobacter Pylori Related Peptic Ulcer Disease > Pharmacological Treatment,168,168,ncdimh:8d3c335a35,ncdimh:5fbc4118d8,ncdimh-0462-rest,ncdimh-0464,499,"### H. pylori eradication regimens: triple, alternative triple, concomitant and bismuth-based therapy: drug, dose, frequency and duration
+ncdimh-tbl-h-pylori-eradication-p2,ncdimh,ncdimh,table,ncdimh-tbl-h-pylori-eradication,2/2,Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Helicobacter Pylori Related Peptic Ulcer Disease > Pharmacological Treatment,168,168,ncdimh:8d3c335a35,ncdimh:5fbc4118d8,ncdimh-0461,ncdimh-0462-rest,499,"### H. pylori eradication regimens: triple, alternative triple, concomitant and bismuth-based therapy: drug, dose, frequency and duration
 
 Triple therapy is indicated for complete eradication of the organism. Diagnosis: positive stool antigen test (stop PPI 2 weeks before testing), positive urease breath test, positive urease test on endoscopic biopsy, or identification by histopathology.
 
@@ -20458,7 +20425,14 @@ H. pylori eradication regimens: triple, alternative triple, concomitant and bism
 Bismuth-Based Therapy (treatment failure): Drug & Dose: Metronidazole 250 mg PO (6 hourly) OR 500 mg PO (8 hourly); Frequency: —; Duration: 10–14 days; Notes: —.
 Bismuth-Based Therapy (treatment failure): Drug & Dose: Tetracycline 500 mg PO; Frequency: 6 hourly; Duration: 10–14 days; Notes: —.
 Note: H. pylori diagnostic tests should be repeated 5 weeks after the last dose of eradication therapy, and the PPI should be stopped 2 weeks before the H. pylori stool antigen test to confirm eradication."
-ncdimh-0464,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Gastritis > Clinical Presentation and Treatment,169,169,ncdimh:cf8a7315fa,ncdimh:8fc79e86b8,ncdimh-tbl-h-pylori-eradication-p2,ncdimh-0467,126,"# **Clinical Presentation**
+ncdimh-0462-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 5: Gastroenterology and Hepatology > Gastritis,168,168,ncdimh:c2a1e6bcb8,ncdimh:7c6d5e289a,ncdimh-tbl-h-pylori-eradication-p2,ncdimh-0464,97,"## Gastritis
+
+This is an inflammatory mucosal response to injury from variety of agents and mechanisms including infections, drugs, alcohol, acute stress, radiation, allergy, acid and bile, ischemia or direct trauma. The inflammation may involve the entire stomach (pangastritis) or a region of the stomach (antral gastritis) while the severity of inflammation may be erosive or non-erosive.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 5: Gastroenterology and Hepatology > Gastritis (page 168)
+
+## Gastritis
+
+This is an inflammatory mucosal response to injury from variety of agents and mechanisms including infections, drugs, alcohol, acute stress, radiation, allergy, acid and bile, ischemia or direct trauma. The inflammation may involve the entire stomach (pangastritis) or a region of the stomach (antral gastritis) while the severity of inflammation may be erosive or non-erosive."
+ncdimh-0464,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 5: Gastroenterology and Hepatology > Peptic Ulcer Disease > Gastritis > Clinical Presentation and Treatment,169,169,ncdimh:cf8a7315fa,ncdimh:8fc79e86b8,ncdimh-0462-rest,ncdimh-0467,126,"# **Clinical Presentation**
 
 - Nausea, vomiting, loss of appetite, belching, and bloating
 - Acute abdominal pain or abdominal discomfort
@@ -21308,7 +21282,7 @@ Traumatic brain injury is an insult to the brain from an external mechanical for
 * A foreign body penetrating the brain
 * The force from a blast or explosion
 * Other forces yet to be defined"
-ncdimh-0508,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis of Traumatic Brain Injury > History, Clinical (GCS) and Imaging",183,184,ncdimh:e94116653e,ncdimh:a05619ddfe,ncdimh-0507,ncdimh-tbl-gcs-all-ages,188,"#### **1. History**
+ncdimh-0508,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,"Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis of Traumatic Brain Injury > History, Clinical (GCS) and Imaging",183,184,ncdimh:e94116653e,ncdimh:a05619ddfe,ncdimh-0507,ncdimh-tbl-gcs-all-ages,183,"#### **1. History**
 
 An accurate history should be obtained. (height of fall, impact surface condition, damage sustained to vehicle, air bag deployment, seat belt use, history of ejection from the vehicle, or report of fatalities at the scene). Premorbid medical history, medications (especially anticoagulants, beta blockers), drug use, and/or alcohol intoxication are also important. The presence of a focal neurologic deficit, seizures, emesis, or depressed level of consciousness increases concern for underlying brain injury.
 
@@ -21318,7 +21292,7 @@ TBI is classified by severity as per the Glasgow Coma Scale (GCS) as follows:
 
 ## **3. Imaging**
 
-CT scan is the investigation of choice for head injury and cervical spine injury. Primary Brain Injury","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis of Traumatic Brain Injury > History, Clinical (GCS) and Imaging (pages 183-184)
+CT scan is the investigation of choice for head injury and cervical spine injury.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis of Traumatic Brain Injury > History, Clinical (GCS) and Imaging (pages 183-184)
 
 #### 1. History
 
@@ -21330,7 +21304,7 @@ TBI is classified by severity as per the Glasgow Coma Scale (GCS) as follows:
 
 ## 3. Imaging
 
-CT scan is the investigation of choice for head injury and cervical spine injury. Primary Brain Injury"
+CT scan is the investigation of choice for head injury and cervical spine injury."
 ncdimh-tbl-gcs-all-ages,ncdimh,ncdimh,table,ncdimh-tbl-gcs-all-ages,1/1,Chapter 6: Injuries and Trauma > Traumatic Brain Injury > Diagnosis of Traumatic Brain Injury > Glasgow Coma Scale for All Age Groups,183,184,ncdimh:bae0a83b23,ncdimh:a05619ddfe,ncdimh-0508,ncdimh-tbl-tbi-primary-secondary-p1,385,"### Glasgow Coma Scale for all age groups (4 years to adult, child under 4, infant): eye, verbal and motor scores; TBI severity by GCS
 
 **Eye Opening**
@@ -23200,20 +23174,7 @@ G2: Description: Mildly decreased; Range (ml/min per 1.73 m2): 60-89; A1: normal
 G3a: Description: Mildly to moderately decreased; Range (ml/min per 1.73 m2): 45-59; A1: normal to mildly increased (<30 mg/g; <3 mg/mmol): Monitor (moderately increased risk); A2: moderately increased (30-300 mg/g; 3-30 mg/mmol): Monitor (high risk); A3: severely increased (>300 mg/g; >30 mg/mmol): Refer (very high risk).
 G3b: Description: Moderately to severely decreased; Range (ml/min per 1.73 m2): 30-44; A1: normal to mildly increased (<30 mg/g; <3 mg/mmol): Monitor (high risk); A2: moderately increased (30-300 mg/g; 3-30 mg/mmol): Monitor (very high risk); A3: severely increased (>300 mg/g; >30 mg/mmol): Refer (very high risk).
 G4: Description: Severely decreased; Range (ml/min per 1.73 m2): 15-29; A1: normal to mildly increased (<30 mg/g; <3 mg/mmol) / A2: moderately increased (30-300 mg/g; 3-30 mg/mmol): Refer* (very high risk); A3: severely increased (>300 mg/g; >30 mg/mmol): Refer (very high risk)."
-ncdimh-0615-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 7: Nephrology > KDIGO Heart Map,216,216,ncdimh:2ea74cef03,ncdimh:3760bf2852,ncdimh-tbl-kdigo-referral-heatmap-p1,ncdimh-tbl-kdigo-referral-heatmap-p2,222,"The KDIGO Map is a useful tool in assessing the risk kidney disease in individuals. It uses basic results such as the estimated glomerular filtration rate (eGFR) and albuminuria (measured by albumin-to-creatinine ratio [ACR]) obtained from screening to evaluate the risk of kidney disease progression and kidney failure.
-### **Clinical Signs of CKD – always look for clues to the underlying cause**
-* **CKD G1,2:** early - asymptomatic, normal acid-base and fluid balance - due to adaptive increase in function in the remaining nephrons
-* **CKD G3a-b:** usually asymptomatic, low erythropoietin, low calcitriol, secondary hyperparathyroidism
-* **CKD G4:** pallor (anaemia), metabolic acidosis, hypocalcaemia, hyperphosphatemia, hyperkalaemia
-* **CKD G5:** uremic fetor, uremic pericarditis, fluid overload, hypertension, anorexia, nausea, dyspepsia, pruritus, may or may not have oliguria","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 7: Nephrology > KDIGO Heart Map (page 216)
-
-The KDIGO Map is a useful tool in assessing the risk kidney disease in individuals. It uses basic results such as the estimated glomerular filtration rate (eGFR) and albuminuria (measured by albumin-to-creatinine ratio [ACR]) obtained from screening to evaluate the risk of kidney disease progression and kidney failure.
-### Clinical Signs of CKD – always look for clues to the underlying cause
-* CKD G1,2: early - asymptomatic, normal acid-base and fluid balance - due to adaptive increase in function in the remaining nephrons
-* CKD G3a-b: usually asymptomatic, low erythropoietin, low calcitriol, secondary hyperparathyroidism
-* CKD G4: pallor (anaemia), metabolic acidosis, hypocalcaemia, hyperphosphatemia, hyperkalaemia
-* CKD G5: uremic fetor, uremic pericarditis, fluid overload, hypertension, anorexia, nausea, dyspepsia, pruritus, may or may not have oliguria"
-ncdimh-tbl-kdigo-referral-heatmap-p2,ncdimh,ncdimh,table,ncdimh-tbl-kdigo-referral-heatmap,2/2,Chapter 7: Nephrology > Chronic Kidney Disease > KDIGO Heat Map > Monitor or refer,216,216,ncdimh:70ffe53a81,ncdimh:2ea68bc8d5,ncdimh-0615-rest,ncdimh-0618,376,"### KDIGO heat map for CKD: monitor or refer to nephrology by GFR category (G1-G5) and albuminuria category (A1-A3), with risk colours
+ncdimh-tbl-kdigo-referral-heatmap-p2,ncdimh,ncdimh,table,ncdimh-tbl-kdigo-referral-heatmap,2/2,Chapter 7: Nephrology > Chronic Kidney Disease > KDIGO Heat Map > Monitor or refer,216,216,ncdimh:70ffe53a81,ncdimh:2ea68bc8d5,ncdimh-fig-ckd-risk-management-algorithm-p3,ncdimh-0615-rest,376,"### KDIGO heat map for CKD: monitor or refer to nephrology by GFR category (G1-G5) and albuminuria category (A1-A3), with risk colours
 
 The KDIGO heat map uses the eGFR and albuminuria (albumin-to-creatinine ratio, ACR) from screening to assess the risk of CKD progression and kidney failure.
 
@@ -23233,7 +23194,20 @@ KDIGO heat map for CKD: monitor or refer to nephrology by GFR category (G1-G5) a
 G5: Description: Kidney failure; Range (ml/min per 1.73 m2): <15; A1: normal to mildly increased (<30 mg/g; <3 mg/mmol) to A3: severely increased (>300 mg/g; >30 mg/mmol): Refer (very high risk).
 *Referring clinicians may wish to discuss with their nephrology service depending on local arrangements regarding monitoring or referring.
 Colours: low risk (if no other markers of kidney disease, no CKD); moderately increased risk; high risk; very high risk."
-ncdimh-0618,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 7: Nephrology > Chronic Kidney Disease > Non-Pharmacological Management of Chronic Kidney Disease,217,217,ncdimh:88617bdfad,ncdimh:0f1b52a231,ncdimh-tbl-kdigo-referral-heatmap-p2,ncdimh-fig-ckd-interventions-by-stage-p1,214,"### **Non-Pharmacological Management of Chronic Kidney Disease**
+ncdimh-0615-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 7: Nephrology > KDIGO Heart Map,216,216,ncdimh:2ea74cef03,ncdimh:3760bf2852,ncdimh-tbl-kdigo-referral-heatmap-p2,ncdimh-0618,222,"The KDIGO Map is a useful tool in assessing the risk kidney disease in individuals. It uses basic results such as the estimated glomerular filtration rate (eGFR) and albuminuria (measured by albumin-to-creatinine ratio [ACR]) obtained from screening to evaluate the risk of kidney disease progression and kidney failure.
+### **Clinical Signs of CKD – always look for clues to the underlying cause**
+* **CKD G1,2:** early - asymptomatic, normal acid-base and fluid balance - due to adaptive increase in function in the remaining nephrons
+* **CKD G3a-b:** usually asymptomatic, low erythropoietin, low calcitriol, secondary hyperparathyroidism
+* **CKD G4:** pallor (anaemia), metabolic acidosis, hypocalcaemia, hyperphosphatemia, hyperkalaemia
+* **CKD G5:** uremic fetor, uremic pericarditis, fluid overload, hypertension, anorexia, nausea, dyspepsia, pruritus, may or may not have oliguria","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 7: Nephrology > KDIGO Heart Map (page 216)
+
+The KDIGO Map is a useful tool in assessing the risk kidney disease in individuals. It uses basic results such as the estimated glomerular filtration rate (eGFR) and albuminuria (measured by albumin-to-creatinine ratio [ACR]) obtained from screening to evaluate the risk of kidney disease progression and kidney failure.
+### Clinical Signs of CKD – always look for clues to the underlying cause
+* CKD G1,2: early - asymptomatic, normal acid-base and fluid balance - due to adaptive increase in function in the remaining nephrons
+* CKD G3a-b: usually asymptomatic, low erythropoietin, low calcitriol, secondary hyperparathyroidism
+* CKD G4: pallor (anaemia), metabolic acidosis, hypocalcaemia, hyperphosphatemia, hyperkalaemia
+* CKD G5: uremic fetor, uremic pericarditis, fluid overload, hypertension, anorexia, nausea, dyspepsia, pruritus, may or may not have oliguria"
+ncdimh-0618,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 7: Nephrology > Chronic Kidney Disease > Non-Pharmacological Management of Chronic Kidney Disease,217,217,ncdimh:88617bdfad,ncdimh:0f1b52a231,ncdimh-0615-rest,ncdimh-fig-ckd-interventions-by-stage-p1,214,"### **Non-Pharmacological Management of Chronic Kidney Disease**
 
 1. Smoking cessation
 2. Physical exercise 150min/week
@@ -24856,16 +24830,7 @@ Antiepileptic medicines: sodium valproate, carbamazepine, phenytoin, phenobarbit
 Anticonvulsant: Drug: Sodium valproate; Dosage and Frequency: Adults: 200 mg TDS PO; maintenance 400-1800 mg/day divided into 3 doses. Children: 10-15 mg/kg/day PO divided into 2 doses; maintenance <20 kg: 20-40 mg/kg/day; >20 kg: 20-30 mg/kg/day; Contraindications: Hepatic impairment; von Willebrand disease; Side Effects: Tremor, dizziness, weight gain, alopecia, diuresis, thrombocytopenia, impaired hepatic function.
 Anticonvulsant: Drug: Carbamazepine; Dosage and Frequency: Adults: 200 mg BD PO; maintenance 800-1200 mg/day divided into 2 doses. Children: 10-20 mg/kg/day PO divided into 2 doses; maintenance 20-30 mg/kg/day; Contraindications: Absence and myoclonic seizures; bone marrow suppression; hypersensitivity to tricyclic antidepressants; Side Effects: Blurred/double vision, nystagmus, ataxia, drowsiness, hyponatremia, rash, cytopenia, liver dysfunction, Stevens-Johnson syndrome, toxic epidermal necrolysis.
 Anticonvulsant: Drug: Phenytoin; Dosage and Frequency: Adults: 100 mg TDS PO; maintenance 300-900 mg/day divided into 3 doses. Children: 5-8 mg/kg/day divided into 2 doses; Contraindications: Absence and myoclonic seizures; febrile convulsions; Side Effects: Gingival hypertrophy, rash, confusion, fever, slurred speech, double vision, ataxia, bone marrow depression, hepatitis."
-ncdimh-0705-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 8: Neurology > Diagnosis of Epilepsy > Epilepsy Management — Pharmacological Treatment,246,247,ncdimh:240e8635c7,ncdimh:5f0f295ec9,ncdimh-tbl-antiepileptic-drugs-p1,ncdimh-tbl-antiepileptic-drugs-p2,174,"4.  If the first add-on AED is ineffective, or produces undesirable side effects, withdraw it slowly, and simultaneously replace it with a second add-on AED from the remaining choices. This process can be repeated for other possible add-on AEDs.
-5. If the seizures are still not adequately controlled on two AEDs, some patients may benefit from an additional third AED.
-6. AED from a different mode of action is preferred for add-on therapy to possibly increase the chance of seizure control but importantly to avoid added side effects by using the AED of similar mode of action.
-7. Review the diagnosis if seizures continue despite the above logical approach, and a period of 2-3 years has elapsed.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 8: Neurology > Diagnosis of Epilepsy > Epilepsy Management — Pharmacological Treatment (pages 246-247)
-
-4. If the first add-on AED is ineffective, or produces undesirable side effects, withdraw it slowly, and simultaneously replace it with a second add-on AED from the remaining choices. This process can be repeated for other possible add-on AEDs.
-5. If the seizures are still not adequately controlled on two AEDs, some patients may benefit from an additional third AED.
-6. AED from a different mode of action is preferred for add-on therapy to possibly increase the chance of seizure control but importantly to avoid added side effects by using the AED of similar mode of action.
-7. Review the diagnosis if seizures continue despite the above logical approach, and a period of 2-3 years has elapsed."
-ncdimh-tbl-antiepileptic-drugs-p2,ncdimh,ncdimh,table,ncdimh-tbl-antiepileptic-drugs,2/2,Chapter 8: Neurology > Epilepsy > Epilepsy Management — Pharmacological Treatment,246,248,ncdimh:a846737ba2,ncdimh:15a7bdf0ac,ncdimh-0705-rest,ncdimh-box-epilepsy-psychoeducation-cautions,799,"### Antiepileptic medicines: sodium valproate, carbamazepine, phenytoin, phenobarbital, lamotrigine: adult and child doses, contraindications, side effects; principles of AED treatment
+ncdimh-tbl-antiepileptic-drugs-p2,ncdimh,ncdimh,table,ncdimh-tbl-antiepileptic-drugs,2/2,Chapter 8: Neurology > Epilepsy > Epilepsy Management — Pharmacological Treatment,246,248,ncdimh:a846737ba2,ncdimh:15a7bdf0ac,ncdimh-0705-rest-a,ncdimh-0705-rest,799,"### Antiepileptic medicines: sodium valproate, carbamazepine, phenytoin, phenobarbital, lamotrigine: adult and child doses, contraindications, side effects; principles of AED treatment
 
 Antiepileptic medications: start one medication at the lowest dose and increase slowly until seizures are controlled. 1. Start low and go slow with a single AED as monotherapy, chosen by seizure type and epilepsy syndrome; titrate to the maximal dose. 2. If the first AED is ineffective at the maximum tolerated dose, introduce an alternative AED slowly without tapering the first. 3. If there is a good response to the second AED, consider withdrawing the original gradually. 4. If the first add-on AED is ineffective or has undesirable side effects, withdraw it slowly and replace it with another add-on AED. 5. If seizures are not controlled on two AEDs, some patients may benefit from a third. 6. Prefer an add-on AED with a different mode of action. 7. Review the diagnosis if seizures continue despite this approach and 2-3 years have elapsed.
 
@@ -24880,7 +24845,16 @@ Antiepileptic medications: start one medication at the lowest dose and increase 
 Antiepileptic medicines: sodium valproate, carbamazepine, phenytoin, phenobarbital, lamotrigine: adult and child doses, contraindications, side effects; principles of AED treatment (part 2 of 2).
 Barbiturate: Drug: Phenobarbital; Dosage and Frequency: Adults: 30 mg NOCTE PO; maintenance 30-120 mg/day divided into 2 doses. Children: 3-5 mg/kg/day divided into 2 doses; Contraindications: Airway obstruction; dyspnea; marked hepatic impairment; Side Effects: Nausea, rash, sedation, lethargy, dependence, alteration of sleep cycle, hyperactivity, ataxia, liver dysfunction.
 Anticonvulsant: Drug: Lamotrigine; Dosage and Frequency: Adults: 25 mg every other day [with valproate], 25 mg OD [without valproate]; maintenance 100-200 mg/day [with valproate], 100-400 mg/day [without valproate]. Children: 0.15 mg/kg/day [with valproate], 0.3 mg/kg/day [without valproate]; maintenance 1-3 mg/kg/day [with valproate], 4.5-7.5 mg/kg/day [without valproate]; Contraindications: Hypersensitivity to the drug or its ingredients. Be cautious and titrate slowly if used with sodium valproate; Side Effects: Drowsiness, dizziness, diplopia, rash, cytopenia, liver injury, Stevens-Johnson syndrome, toxic epidermal necrolysis."
-ncdimh-box-epilepsy-psychoeducation-cautions,ncdimh,ncdimh,text,ncdimh-box-epilepsy-psychoeducation-cautions,1/1,"Chapter 8: Neurology > Epilepsy > Psychoeducation, cautions and follow-up",248,249,ncdimh:41b023c721,ncdimh:15a7bdf0ac,ncdimh-tbl-antiepileptic-drugs-p2,ncdimh-fig-epilepsy-long-term-treatment,424,"> **Epilepsy psychoeducation and psychosocial interventions, cautions and special populations (drug interactions, pregnancy, children, PLHIV), and follow-up**
+ncdimh-0705-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 8: Neurology > Diagnosis of Epilepsy > Epilepsy Management — Pharmacological Treatment,246,247,ncdimh:240e8635c7,ncdimh:5f0f295ec9,ncdimh-tbl-antiepileptic-drugs-p2,ncdimh-box-epilepsy-psychoeducation-cautions,174,"4.  If the first add-on AED is ineffective, or produces undesirable side effects, withdraw it slowly, and simultaneously replace it with a second add-on AED from the remaining choices. This process can be repeated for other possible add-on AEDs.
+5. If the seizures are still not adequately controlled on two AEDs, some patients may benefit from an additional third AED.
+6. AED from a different mode of action is preferred for add-on therapy to possibly increase the chance of seizure control but importantly to avoid added side effects by using the AED of similar mode of action.
+7. Review the diagnosis if seizures continue despite the above logical approach, and a period of 2-3 years has elapsed.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 8: Neurology > Diagnosis of Epilepsy > Epilepsy Management — Pharmacological Treatment (pages 246-247)
+
+4. If the first add-on AED is ineffective, or produces undesirable side effects, withdraw it slowly, and simultaneously replace it with a second add-on AED from the remaining choices. This process can be repeated for other possible add-on AEDs.
+5. If the seizures are still not adequately controlled on two AEDs, some patients may benefit from an additional third AED.
+6. AED from a different mode of action is preferred for add-on therapy to possibly increase the chance of seizure control but importantly to avoid added side effects by using the AED of similar mode of action.
+7. Review the diagnosis if seizures continue despite the above logical approach, and a period of 2-3 years has elapsed."
+ncdimh-box-epilepsy-psychoeducation-cautions,ncdimh,ncdimh,text,ncdimh-box-epilepsy-psychoeducation-cautions,1/1,"Chapter 8: Neurology > Epilepsy > Psychoeducation, cautions and follow-up",248,249,ncdimh:41b023c721,ncdimh:15a7bdf0ac,ncdimh-0705-rest,ncdimh-fig-epilepsy-long-term-treatment,424,"> **Epilepsy psychoeducation and psychosocial interventions, cautions and special populations (drug interactions, pregnancy, children, PLHIV), and follow-up**
 >
 > Psychoeducation & psychosocial interventions:
 > - Epilepsy is caused by abnormal electrical brain activity, NOT spirits or witchcraft.
@@ -25463,7 +25437,7 @@ Identify any visible abnormalities or asymmetry or nipple retraction
 2. Patient sitting up, hands on either side of hips and pushing into hips down.
 3. The patient has to raise her arms and press her hands together over her head.
 4. Pay attention to the size, form, symmetry of the breast tissue, color and changes on the skin, condition of the nipple and nipple discharge."
-ncdimh-0744,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Steps 2-3: Nodal Examination and Palpation,258,258,ncdimh:97eacae28a,ncdimh:f01841e285,ncdimh-0743,ncdimh-box-cbe-what-to-look-for,86,"## **Step 2: Nodal Examination (while sitting):**
+ncdimh-0744,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Steps 2-3: Nodal Examination and Palpation,258,258,ncdimh:97eacae28a,ncdimh:f01841e285,ncdimh-0743,ncdimh-box-cbe-what-to-look-for,83,"## **Step 2: Nodal Examination (while sitting):**
 
 Identify any enlarged lymph nodes
 1. Cervical nodes
@@ -25472,9 +25446,7 @@ Identify any enlarged lymph nodes
 
 ## **Step 3: Breast Palpation**
 
-Identify any abnormal masses, tenderness, or nipple discharge
-
-flow_chart","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Steps 2-3: Nodal Examination and Palpation (page 258)
+Identify any abnormal masses, tenderness, or nipple discharge","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination (CBE) > Steps 2-3: Nodal Examination and Palpation (page 258)
 
 ## Step 2: Nodal Examination (while sitting):
 
@@ -25485,9 +25457,7 @@ Identify any enlarged lymph nodes
 
 ## Step 3: Breast Palpation
 
-Identify any abnormal masses, tenderness, or nipple discharge
-
-flow_chart"
+Identify any abnormal masses, tenderness, or nipple discharge"
 ncdimh-box-cbe-what-to-look-for,ncdimh,ncdimh,text,ncdimh-box-cbe-what-to-look-for,1/1,Chapter 9: Oncology > Breast Cancer > Clinical Breast Examination > What to look out for and palpation sequence,258,258,ncdimh:999800ae7e,ncdimh:b2b48c1e62,ncdimh-0744,ncdimh-fig-breast-early-referral,128,"> **Clinical breast examination: what to look out for (lump, pulled-in nipple, dimpling, skin changes, redness/rash, discharge) and the palpation sequence**
 >
 > What to look out for during CBE (illustration): lump; pulled-in nipple; dimpling; skin changes; redness/rash; dripping (nipple discharge).
@@ -26964,14 +26934,7 @@ Chronic glaucoma > If adherent with no good response, add (or first line if beta
 Chronic glaucoma > Or: Medicine: Prostamide bimatoprost 0.03% eye drops; Dose: Instil 1 drop in the eyes; Frequency: Twice daily (as printed); Duration: Long term.
 Chronic glaucoma > If intolerant of or not responding to prostaglandin analogue: Medicine: Brimonidine 0.15-0.2% eye drops; Dose: Instil 1 drop in the eyes; Frequency: Twice daily; Duration: Long term.
 Chronic glaucoma > Failure to respond (consult a specialist first): Medicine: Pilocarpine hydrochloride 2% or 4% eye drops; Dose: Instil 1 drop in the eyes; Frequency: Four times daily; Duration: Review."
-ncdimh-0814-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > Pharmacological Management of Glaucoma Acute glaucoma,284,284,ncdimh:9c6ea69209,ncdimh:a795ad4ddb,ncdimh-tbl-glaucoma-drugs-p1,ncdimh-tbl-glaucoma-drugs-p2,89,"* Also treat patients for associated pain and nausea/ vomiting
-**Note:** β-blockers are contraindicated to people who are known to have overt asthma as this group of medication may cause an acute asthmatic attack within a short time following instillation into the eye.
-**In patients who are intolerant to prostaglandin analogue or are not responding give:**","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > Pharmacological Management of Glaucoma Acute glaucoma (page 284)
-
-* Also treat patients for associated pain and nausea/ vomiting
-Note: β-blockers are contraindicated to people who are known to have overt asthma as this group of medication may cause an acute asthmatic attack within a short time following instillation into the eye.
-In patients who are intolerant to prostaglandin analogue or are not responding give:"
-ncdimh-tbl-glaucoma-drugs-p2,ncdimh,ncdimh,table,ncdimh-tbl-glaucoma-drugs,2/2,Chapter 10: Ophthalmology > Glaucoma > Pharmacological Management of Glaucoma,284,285,ncdimh:84183cbc46,ncdimh:c46da8bf13,ncdimh-0814-rest,ncdimh-0824,549,"### Glaucoma medicines: acute glaucoma (acetazolamide, glycerol, timolol) and chronic glaucoma stepwise (timolol/betaxolol, latanoprost/bimatoprost, brimonidine, pilocarpine, acetazolamide): dose, frequency, duration
+ncdimh-tbl-glaucoma-drugs-p2,ncdimh,ncdimh,table,ncdimh-tbl-glaucoma-drugs,2/2,Chapter 10: Ophthalmology > Glaucoma > Pharmacological Management of Glaucoma,284,285,ncdimh:84183cbc46,ncdimh:c46da8bf13,ncdimh-0813,ncdimh-0814-rest,549,"### Glaucoma medicines: acute glaucoma (acetazolamide, glycerol, timolol) and chronic glaucoma stepwise (timolol/betaxolol, latanoprost/bimatoprost, brimonidine, pilocarpine, acetazolamide): dose, frequency, duration
 
 **Acute glaucoma (refer to ophthalmologist immediately)**
 
@@ -26998,7 +26961,14 @@ ncdimh-tbl-glaucoma-drugs-p2,ncdimh,ncdimh,table,ncdimh-tbl-glaucoma-drugs,2/2,C
 Glaucoma medicines: acute glaucoma (acetazolamide, glycerol, timolol) and chronic glaucoma stepwise (timolol/betaxolol, latanoprost/bimatoprost, brimonidine, pilocarpine, acetazolamide): dose, frequency, duration (part 2 of 2).
 Chronic glaucoma > Severe cases or while waiting for surgery: Medicine: Acetazolamide PO; Dose: 250 mg; Frequency: Four times daily; Duration: Review.
 Acute glaucoma: also treat pain and nausea/vomiting. Acetazolamide contains sulphur: do not use in patients allergic to sulphur. Glycerol is a concentrated sugar solution: do not give to diabetic patients. Prostaglandin analogues may be first line when beta-blockers are contraindicated, or second line on beta-blockers if the target IOP reduction is not reached. Beta-blockers are contraindicated in overt asthma (may cause an acute asthma attack soon after instillation). Pilocarpine causes long-standing pupil constriction; use only when the patient is prepared for glaucoma surgery, or as an alternative when timolol is contraindicated."
-ncdimh-0824,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 10: Ophthalmology > Glaucoma > Complications of Glaucoma; Chapter 11 Palliation: definition,285,286,ncdimh:16d7ee65e9,ncdimh:c46da8bf13,ncdimh-tbl-glaucoma-drugs-p2,ncdimh-0825,155,"## **Complications of Glaucoma**
+ncdimh-0814-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > Pharmacological Management of Glaucoma Acute glaucoma,284,284,ncdimh:9c6ea69209,ncdimh:a795ad4ddb,ncdimh-tbl-glaucoma-drugs-p2,ncdimh-0824,89,"* Also treat patients for associated pain and nausea/ vomiting
+**Note:** β-blockers are contraindicated to people who are known to have overt asthma as this group of medication may cause an acute asthmatic attack within a short time following instillation into the eye.
+**In patients who are intolerant to prostaglandin analogue or are not responding give:**","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 10: Ophthalmology > Clinical Guidelines Diagnosis and Management of Glaucoma > Pharmacological Management of Glaucoma Acute glaucoma (page 284)
+
+* Also treat patients for associated pain and nausea/ vomiting
+Note: β-blockers are contraindicated to people who are known to have overt asthma as this group of medication may cause an acute asthmatic attack within a short time following instillation into the eye.
+In patients who are intolerant to prostaglandin analogue or are not responding give:"
+ncdimh-0824,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 10: Ophthalmology > Glaucoma > Complications of Glaucoma; Chapter 11 Palliation: definition,285,286,ncdimh:16d7ee65e9,ncdimh:c46da8bf13,ncdimh-0814-rest,ncdimh-0825,155,"## **Complications of Glaucoma**
 
 * Irreversible blindness
 
@@ -27356,7 +27326,7 @@ Diabetic foot ulcer classification (Wagner grades 0-5): description and category
 3: Description: Deep ulcer with abscess, osteomyelitis, or joint sepsis (confirmed clinically or by X-ray); Category: Non-gangrenous ulcer.
 4: Description: Localized gangrene (e.g. toe, heel, forefoot); Category: Gangrenous ulcer.
 5: Description: Extensive gangrene involving the whole foot; Category: Gangrenous ulcer."
-ncdimh-tbl-ut-classification,ncdimh,ncdimh,table,ncdimh-tbl-ut-classification,1/1,Chapter 12: Podiatry > Diabetic Foot > Classification > University of Texas classification,294,294,ncdimh:6a4d3fc951,ncdimh:a83c50bc9f,ncdimh-tbl-wagner-classification,ncdimh-0850-rest-a,217,"### University of Texas (UT) diabetic foot wound classification: grade 0-III by depth and stage A-D by infection and ischaemia
+ncdimh-tbl-ut-classification,ncdimh,ncdimh,table,ncdimh-tbl-ut-classification,1/1,Chapter 12: Podiatry > Diabetic Foot > Classification > University of Texas classification,294,294,ncdimh:6a4d3fc951,ncdimh:a83c50bc9f,ncdimh-tbl-wagner-classification,ncdimh-fig-diabetic-foot-algorithm-a,217,"### University of Texas (UT) diabetic foot wound classification: grade 0-III by depth and stage A-D by infection and ischaemia
 
 | Stage | Grade 0 | Grade I | Grade II | Grade III |
 | --- | --- | --- | --- | --- |
@@ -27373,10 +27343,7 @@ Stage B: Grade 0 to Grade III: With infection.
 Stage C: Grade 0 to Grade III: With ischaemia.
 Stage D: Grade 0 to Grade III: With infection and ischaemia.
 All patients with diabetes should be assessed for diabetic foot at risk: screened, diagnosed, investigated, classified and risk-stratified."
-ncdimh-0850-rest-a,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 12: Podiatry > Diabetic Foot > Algorithm a > Algorithm A flowchart for diabetic foot assessment,295,295,ncdimh:d086d39416,ncdimh:9b877a83e8,ncdimh-tbl-ut-classification,ncdimh-fig-diabetic-foot-algorithm-a,14,**Active foot problems (presence of any of the below):**,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 12: Podiatry > Diabetic Foot > Algorithm a > Algorithm A flowchart for diabetic foot assessment (page 295)
-
-Active foot problems (presence of any of the below):"
-ncdimh-fig-diabetic-foot-algorithm-a,ncdimh,ncdimh,diagram,ncdimh-fig-diabetic-foot-algorithm-a,1/1,Chapter 12: Podiatry > Diabetic Foot > Algorithm A: foot assessment and risk,295,295,ncdimh:94c69e17c8,ncdimh:72aafe8f92,ncdimh-0850-rest-a,ncdimh-fig-diabetic-foot-algorithm-b,254,"### Diabetic foot algorithm A: foot assessment in all patients with diabetes, active foot problems, and risk stratification (high, moderate, low) with actions
+ncdimh-fig-diabetic-foot-algorithm-a,ncdimh,ncdimh,diagram,ncdimh-fig-diabetic-foot-algorithm-a,1/1,Chapter 12: Podiatry > Diabetic Foot > Algorithm A: foot assessment and risk,295,295,ncdimh:94c69e17c8,ncdimh:72aafe8f92,ncdimh-tbl-ut-classification,ncdimh-fig-diabetic-foot-algorithm-b,254,"### Diabetic foot algorithm A: foot assessment in all patients with diabetes, active foot problems, and risk stratification (high, moderate, low) with actions
 
 All patients with diabetes → foot assessment: skin; neurological; vascular; musculoskeletal.
 1. Active foot problem? (any of: ulceration; spreading infection; critical limb ischaemia; gangrene; suspicion of acute Charcot neuroarthropathy or an unexplained hot, red, swollen foot with or without pain)
@@ -29406,14 +29373,7 @@ ICS dose ranges, children 6-11 years (mcg/day): low / medium / high > Budesonide
 ICS dose ranges, children 6-11 years (mcg/day): low / medium / high > Fluticasone propionate DPI/MDI: Preferred Controller: Low 50–100; medium 101–200; Reliever: High >200.
 ICS dose ranges, children 6-11 years (mcg/day): low / medium / high > Beclometasone dipropionate MDI: Preferred Controller: Low 100–200; medium 201–400; Reliever: High >400.
 ICS dose ranges, children 6-11 years (mcg/day): low / medium / high > Ciclesonide MDI: Preferred Controller: Low 80–160; medium 161–320; Reliever: High >320."
-ncdimh-0952-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children 6-11 Years,332,332,ncdimh:dc7fe823cc,ncdimh:d784dc4c26,ncdimh-tbl-asthma-steps-6-11-p1,ncdimh-tbl-asthma-steps-6-11-p2,81,"* Preferred inhaler device: MDI + spacer for all ages; DPI suitable from ~7 yrs with good technique
-* ICS-LABA approved from age 6 years; use fixed-dose combination where available
-* LTRA (montelukast) is an alternative/add-on especially in allergic rhinitis co-morbidity; note FDA black box warning for neuropsychiatric events","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children 6-11 Years (page 332)
-
-* Preferred inhaler device: MDI + spacer for all ages; DPI suitable from ~7 yrs with good technique
-* ICS-LABA approved from age 6 years; use fixed-dose combination where available
-* LTRA (montelukast) is an alternative/add-on especially in allergic rhinitis co-morbidity; note FDA black box warning for neuropsychiatric events"
-ncdimh-tbl-asthma-steps-6-11-p2,ncdimh,ncdimh,table,ncdimh-tbl-asthma-steps-6-11,2/2,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children 6-11 Years,332,333,ncdimh:679eef652e,ncdimh:d784dc4c26,ncdimh-0952-rest,ncdimh-tbl-asthma-steps-under-5-p1,484,"### Asthma treatment steps for children 6-11 years: controller and reliever for steps 1-5, ICS dose ranges, key points
+ncdimh-tbl-asthma-steps-6-11-p2,ncdimh,ncdimh,table,ncdimh-tbl-asthma-steps-6-11,2/2,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children 6-11 Years,332,333,ncdimh:679eef652e,ncdimh:d784dc4c26,ncdimh-tbl-asthma-step-up-down,ncdimh-0952-rest,484,"### Asthma treatment steps for children 6-11 years: controller and reliever for steps 1-5, ICS dose ranges, key points
 
 Children aged 6–11 years can perform spirometry reliably. Management follows a step-based approach similar to adults but with important differences in drug doses and preferred options.
 
@@ -29438,7 +29398,14 @@ Children aged 6–11 years can perform spirometry reliably. Management follows a
 
 Asthma treatment steps for children 6-11 years: controller and reliever for steps 1-5, ICS dose ranges, key points (part 2 of 2).
 Key points for 6–11 years: confirm the diagnosis with spirometry (FEV1/FVC <0.80 abnormal in children). Preferred device: MDI + spacer for all ages; DPI from about 7 years with good technique. ICS-LABA approved from age 6; use fixed-dose combinations where available. LABA should never be used without ICS in children. LTRA (montelukast) is an alternative/add-on, especially with allergic rhinitis; note the FDA boxed warning for neuropsychiatric events. Tiotropium (LAMA) mist inhaler is licensed as add-on from age 6 (steps 4–5)."
-ncdimh-tbl-asthma-steps-under-5-p1,ncdimh,ncdimh,table,ncdimh-tbl-asthma-steps-under-5,1/2,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children < 5 Years,333,334,ncdimh:b830d8dacc,ncdimh:d784dc4c26,ncdimh-tbl-asthma-steps-6-11-p2,ncdimh-0956-rest,492,"### Asthma treatment steps for children under 5: controller and reliever by pattern, ICS doses, and under-5 considerations
+ncdimh-0952-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children 6-11 Years,332,332,ncdimh:dc7fe823cc,ncdimh:d784dc4c26,ncdimh-tbl-asthma-steps-6-11-p2,ncdimh-tbl-asthma-steps-under-5-p1,81,"* Preferred inhaler device: MDI + spacer for all ages; DPI suitable from ~7 yrs with good technique
+* ICS-LABA approved from age 6 years; use fixed-dose combination where available
+* LTRA (montelukast) is an alternative/add-on especially in allergic rhinitis co-morbidity; note FDA black box warning for neuropsychiatric events","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children 6-11 Years (page 332)
+
+* Preferred inhaler device: MDI + spacer for all ages; DPI suitable from ~7 yrs with good technique
+* ICS-LABA approved from age 6 years; use fixed-dose combination where available
+* LTRA (montelukast) is an alternative/add-on especially in allergic rhinitis co-morbidity; note FDA black box warning for neuropsychiatric events"
+ncdimh-tbl-asthma-steps-under-5-p1,ncdimh,ncdimh,table,ncdimh-tbl-asthma-steps-under-5,1/2,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children < 5 Years,333,334,ncdimh:b830d8dacc,ncdimh:d784dc4c26,ncdimh-0952-rest,ncdimh-0956-rest,492,"### Asthma treatment steps for children under 5: controller and reliever by pattern, ICS doses, and under-5 considerations
 
 Under-5 asthma: the evidence base is more limited; balance benefit against the burden of daily treatment. Preferred delivery: pressurised MDI with valved spacer and face mask (<3 yrs) or mouthpiece (3–5 yrs). Reassess the diagnosis every 3–6 months; many children outgrow symptoms.
 
@@ -29469,10 +29436,7 @@ ICS doses, under 5 years (mcg/day): low / medium > Budesonide nebulised: Preferr
 ICS doses, under 5 years (mcg/day): low / medium > Budesonide MDI + spacer: Preferred Controller: Low 100–200; Reliever: Medium 201–400.
 ICS doses, under 5 years (mcg/day): low / medium > Fluticasone propionate MDI: Preferred Controller: Low 50–100; Reliever: Medium 101–200.
 ICS doses, under 5 years (mcg/day): low / medium > Beclometasone MDI: Preferred Controller: Low 100–200; Reliever: Medium 201–400."
-ncdimh-0956-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children Under 5 Years > Important Note: Under-5 Asthma Management,333,333,ncdimh:ac3eba2dd4,ncdimh:859a820407,ncdimh-tbl-asthma-steps-under-5-p1,ncdimh-tbl-asthma-steps-under-5-p2,17,* LABA are NOT recommended as a drug class in children under 5 years,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children Under 5 Years > Important Note: Under-5 Asthma Management (page 333)
-
-* LABA are NOT recommended as a drug class in children under 5 years"
-ncdimh-tbl-asthma-steps-under-5-p2,ncdimh,ncdimh,table,ncdimh-tbl-asthma-steps-under-5,2/2,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children < 5 Years,333,334,ncdimh:b830d8dacc,ncdimh:d784dc4c26,ncdimh-0956-rest,ncdimh-tbl-asthma-exacerbation-severity,492,"### Asthma treatment steps for children under 5: controller and reliever by pattern, ICS doses, and under-5 considerations
+ncdimh-tbl-asthma-steps-under-5-p2,ncdimh,ncdimh,table,ncdimh-tbl-asthma-steps-under-5,2/2,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Treatment Steps – Children < 5 Years,333,334,ncdimh:b830d8dacc,ncdimh:d784dc4c26,ncdimh-0952-rest,ncdimh-0956-rest,492,"### Asthma treatment steps for children under 5: controller and reliever by pattern, ICS doses, and under-5 considerations
 
 Under-5 asthma: the evidence base is more limited; balance benefit against the burden of daily treatment. Preferred delivery: pressurised MDI with valved spacer and face mask (<3 yrs) or mouthpiece (3–5 yrs). Reassess the diagnosis every 3–6 months; many children outgrow symptoms.
 
@@ -29496,7 +29460,10 @@ Under-5 asthma: the evidence base is more limited; balance benefit against the b
 
 Asthma treatment steps for children under 5: controller and reliever by pattern, ICS doses, and under-5 considerations (part 2 of 2).
 Additional under-5 considerations: LABA are NOT recommended under 5 years; LAMAs are not approved in this age group; allergen immunotherapy not routinely recommended under 5; montelukast 4 mg granules/chewable for 2–5 yrs may help allergic or exercise-induced symptoms (weaker evidence than ICS); intermittent high-dose ICS during viral triggers may be considered in pure viral-triggered wheeze as an alternative to daily ICS at steps 1–2; monitor height and weight at every visit (systemic ICS effects with high doses)."
-ncdimh-tbl-asthma-exacerbation-severity,ncdimh,ncdimh,table,ncdimh-tbl-asthma-exacerbation-severity,1/1,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Severity Assessment,334,334,ncdimh:8d31a9ba85,ncdimh:ce63cba17a,ncdimh-tbl-asthma-steps-under-5-p2,ncdimh-tbl-asthma-nonpharm,144,"### Acute asthma exacerbation severity: SpO2, speech, respiratory rate, heart rate, PEF and mental state for mild, moderate, severe and life-threatening
+ncdimh-0956-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children Under 5 Years > Important Note: Under-5 Asthma Management,333,333,ncdimh:ac3eba2dd4,ncdimh:859a820407,ncdimh-tbl-asthma-steps-under-5-p2,ncdimh-tbl-asthma-exacerbation-severity,17,* LABA are NOT recommended as a drug class in children under 5 years,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 14: Pulmonology > Asthma Severity & Control Assessment > Stepwise Management – Children Under 5 Years > Important Note: Under-5 Asthma Management (page 333)
+
+* LABA are NOT recommended as a drug class in children under 5 years"
+ncdimh-tbl-asthma-exacerbation-severity,ncdimh,ncdimh,table,ncdimh-tbl-asthma-exacerbation-severity,1/1,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Severity Assessment,334,334,ncdimh:8d31a9ba85,ncdimh:ce63cba17a,ncdimh-0956-rest,ncdimh-tbl-asthma-nonpharm,144,"### Acute asthma exacerbation severity: SpO2, speech, respiratory rate, heart rate, PEF and mental state for mild, moderate, severe and life-threatening
 
 | Feature | Mild | Moderate | Severe | Life-Threatening |
 | --- | --- | --- | --- | --- |
@@ -29725,24 +29692,7 @@ Management of acute asthma exacerbations in adults, adolescents and children 6-1
 3. Assess clinical progress frequently; measure lung function in all patients one hour after initial treatment:
    - FEV1 or PEF 60-80% of predicted or personal best and symptoms improved (moderate): consider discharge.
    - FEV1 or PEF <60% of predicted or personal best, or lack of clinical response (severe): continue treatment as above and reassess frequently."
-ncdimh-0972-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of Acute Asthma Exacerbations flowchart,339,339,ncdimh:f2ea7c740e,ncdimh:ce63cba17a,ncdimh-fig-acute-asthma-hospital-p1,ncdimh-fig-acute-asthma-hospital-p2,270,"**In patients with severe attacks, there is very limited evidence that IV beta 2-agonists reduce recovery time or improve pulmonary function.**
-The rationale to support IV salbutamol is that inhaled drugs may have a limited effect in patients with nearly complete airway obstruction and have practical limitations in ventilated patients.  
-Cardiac responses, such as arrhythmia and tachycardia, increased lactate and anxiety are significant side effects, which may increase respiratory workload and exacerbate respiratory failure.
-Patients receiving IV salbutamol should be in a ICU setting.
-**Most guidelines do not recommend use of IV aminophylline because of its low efficacy and safety profiles.**  
-It improves diaphragmatic contractility.
-If used, this bronchodilator should be reserved solely for clients with a **severe asthma exacerbation**, who have failed to improve despite maximal therapy (continuous inhaled beta 2-agonists, IV corticosteroids, IV magnesium sulfate) and generally in a high care/ICU setting.
-The risk-benefit balance of IV aminophylline is unfavorable.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of Acute Asthma Exacerbations flowchart (page 339)
-
-In patients with severe attacks, there is very limited evidence that IV beta 2-agonists reduce recovery time or improve pulmonary function.
-The rationale to support IV salbutamol is that inhaled drugs may have a limited effect in patients with nearly complete airway obstruction and have practical limitations in ventilated patients. 
-Cardiac responses, such as arrhythmia and tachycardia, increased lactate and anxiety are significant side effects, which may increase respiratory workload and exacerbate respiratory failure.
-Patients receiving IV salbutamol should be in a ICU setting.
-Most guidelines do not recommend use of IV aminophylline because of its low efficacy and safety profiles. 
-It improves diaphragmatic contractility.
-If used, this bronchodilator should be reserved solely for clients with a severe asthma exacerbation, who have failed to improve despite maximal therapy (continuous inhaled beta 2-agonists, IV corticosteroids, IV magnesium sulfate) and generally in a high care/ICU setting.
-The risk-benefit balance of IV aminophylline is unfavorable."
-ncdimh-fig-acute-asthma-hospital-p2,ncdimh,ncdimh,diagram,ncdimh-fig-acute-asthma-hospital,2/2,"Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of Acute Asthma Exacerbations (adults, adolescents, children 6-11)",339,339,ncdimh:142fe0b762,ncdimh:ce63cba17a,ncdimh-0972-rest,ncdimh-0974,589,"### Management of acute asthma exacerbations in adults, adolescents and children 6-11 (flowchart): triage by worst feature, treatment, reassessment at 1 hour; IV salbutamol and aminophylline
+ncdimh-fig-acute-asthma-hospital-p2,ncdimh,ncdimh,diagram,ncdimh-fig-acute-asthma-hospital,2/2,"Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of Acute Asthma Exacerbations (adults, adolescents, children 6-11)",339,339,ncdimh:142fe0b762,ncdimh:ce63cba17a,ncdimh-fig-acute-asthma-primary-care-p2,ncdimh-0972-rest,589,"### Management of acute asthma exacerbations in adults, adolescents and children 6-11 (flowchart): triage by worst feature, treatment, reassessment at 1 hour; IV salbutamol and aminophylline
 
 1. Initial assessment: A airway, B breathing, C circulation. Any of drowsiness, confusion, silent chest? → consult ICU, start SABA and O2, and prepare the patient for intubation.
 2. Further triage by clinical status, according to the worst feature:
@@ -29759,7 +29709,24 @@ Most guidelines do not recommend IV aminophylline (low efficacy and safety). If 
 Management of acute asthma exacerbations in adults, adolescents and children 6-11 (flowchart): triage by worst feature, treatment, reassessment at 1 hour; IV salbutamol and aminophylline (part 2 of 2).
 IV salbutamol can be used in severe asthma failing other treatments, mainly to prevent intubation; evidence that IV beta2-agonists shorten recovery or improve lung function is very limited. Inhaled drugs may have limited effect with near-complete obstruction and in ventilated patients. Side effects: arrhythmia, tachycardia, raised lactate and anxiety (may increase respiratory workload). Patients on IV salbutamol should be in an ICU setting.
 Most guidelines do not recommend IV aminophylline (low efficacy and safety). If used, reserve it for severe exacerbations failing maximal therapy (continuous inhaled beta2-agonists, IV corticosteroids, IV magnesium sulfate), generally in high care/ICU. Its risk-benefit balance is unfavourable."
-ncdimh-0974,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Definition and Types,340,340,ncdimh:38f8064b28,ncdimh:2e4ab3031e,ncdimh-fig-acute-asthma-hospital-p2,ncdimh-tbl-copd-symptoms-signs,199,"## <u>Chronic Obstructive Pulmonary Disease</u>
+ncdimh-0972-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of Acute Asthma Exacerbations flowchart,339,339,ncdimh:f2ea7c740e,ncdimh:ce63cba17a,ncdimh-fig-acute-asthma-hospital-p2,ncdimh-0974,270,"**In patients with severe attacks, there is very limited evidence that IV beta 2-agonists reduce recovery time or improve pulmonary function.**
+The rationale to support IV salbutamol is that inhaled drugs may have a limited effect in patients with nearly complete airway obstruction and have practical limitations in ventilated patients.  
+Cardiac responses, such as arrhythmia and tachycardia, increased lactate and anxiety are significant side effects, which may increase respiratory workload and exacerbate respiratory failure.
+Patients receiving IV salbutamol should be in a ICU setting.
+**Most guidelines do not recommend use of IV aminophylline because of its low efficacy and safety profiles.**  
+It improves diaphragmatic contractility.
+If used, this bronchodilator should be reserved solely for clients with a **severe asthma exacerbation**, who have failed to improve despite maximal therapy (continuous inhaled beta 2-agonists, IV corticosteroids, IV magnesium sulfate) and generally in a high care/ICU setting.
+The risk-benefit balance of IV aminophylline is unfavorable.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Management of Acute Asthma Exacerbations flowchart (page 339)
+
+In patients with severe attacks, there is very limited evidence that IV beta 2-agonists reduce recovery time or improve pulmonary function.
+The rationale to support IV salbutamol is that inhaled drugs may have a limited effect in patients with nearly complete airway obstruction and have practical limitations in ventilated patients. 
+Cardiac responses, such as arrhythmia and tachycardia, increased lactate and anxiety are significant side effects, which may increase respiratory workload and exacerbate respiratory failure.
+Patients receiving IV salbutamol should be in a ICU setting.
+Most guidelines do not recommend use of IV aminophylline because of its low efficacy and safety profiles. 
+It improves diaphragmatic contractility.
+If used, this bronchodilator should be reserved solely for clients with a severe asthma exacerbation, who have failed to improve despite maximal therapy (continuous inhaled beta 2-agonists, IV corticosteroids, IV magnesium sulfate) and generally in a high care/ICU setting.
+The risk-benefit balance of IV aminophylline is unfavorable."
+ncdimh-0974,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Chronic Obstructive Pulmonary Disease > Definition and Types,340,340,ncdimh:38f8064b28,ncdimh:2e4ab3031e,ncdimh-0972-rest,ncdimh-tbl-copd-symptoms-signs,199,"## <u>Chronic Obstructive Pulmonary Disease</u>
 
 Chronic obstructive pulmonary disease (COPD) is a slowly progressive group of disorders characterized by airway inflammation and airflow limitation that is not fully reversible.
 
@@ -30014,7 +29981,10 @@ Non-pharmacological: smoking cessation and/or nicotine replacement therapy.
 4. Poor symptom control → consider combining a long-acting bronchodilator and an inhaled corticosteroid, e.g. beclomethasone 200 mcg, with a short-acting bronchodilator. Discontinue corticosteroids after 4 weeks if no benefit.
 5. Poor symptom control → consider adding SR theophylline 250-500 mg BD; monitor plasma levels and interactions.
 Asthma-COPD overlap, initial treatment: predominant asthma features → inhaled corticosteroids (long-acting bronchodilators should not be used as monotherapy). Predominant COPD features → appropriate long-acting bronchodilators; consider ICS + long-acting bronchodilator combination; ICS should not be used as monotherapy for COPD."
-ncdimh-0984-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Spirometry > Step-Wise Management for COPD: Pharmacological Interventions,344,345,ncdimh:b89b428fc7,ncdimh:58603bfbf8,ncdimh-fig-copd-stepwise,ncdimh-tbl-bronchiectasis-p1,189,"**For Patients with Predominant COPD Symptoms:**
+ncdimh-0984-rest,ncdimh,"Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH)",text,,,Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Spirometry > Step-Wise Management for COPD: Pharmacological Interventions,344,345,ncdimh:b89b428fc7,ncdimh:58603bfbf8,ncdimh-fig-copd-stepwise,ncdimh-tbl-bronchiectasis-p1,253,"**For Patients with Predominant Asthma Characteristics:**
+* **Corticosteroids:** Prescribe inhaled corticosteroids (ICS) to manage inflammation. It is important to note that long-acting bronchodilators should not be used as monotherapy in these cases.
+
+**For Patients with Predominant COPD Symptoms:**
 * **Bronchodilators:** Initiate treatment with appropriate long-acting bronchodilators to relieve symptoms.
 * **Combination Therapy:** Consider a combination of ICS and long-acting bronchodilators for enhanced therapeutic effect. However, ICS should not be prescribed as monotherapy for COPD management.
 These recommendations aim to optimize clinical efficacy and safety, ensuring that treatment is aligned with the patient’s specific clinical presentation.
@@ -30022,6 +29992,9 @@ These recommendations aim to optimize clinical efficacy and safety, ensuring tha
 ## **Bronchiectasis**
 
 Is dilation of the bronchi when their wall becomes inflamed, thickened and irreversibly damaged, usually following obstruction followed by infection. The left lower lobe and lingula are the commonest sites for localized disease.","Clinical Guidelines for the Management of Common NCDs, Injuries and Mental Health Conditions (NCDIMH) | Chapter 14: Pulmonology > Management of Acute Asthma Exacerbations > Spirometry > Step-Wise Management for COPD: Pharmacological Interventions (pages 344-345)
+
+For Patients with Predominant Asthma Characteristics:
+* Corticosteroids: Prescribe inhaled corticosteroids (ICS) to manage inflammation. It is important to note that long-acting bronchodilators should not be used as monotherapy in these cases.
 
 For Patients with Predominant COPD Symptoms:
 * Bronchodilators: Initiate treatment with appropriate long-acting bronchodilators to relieve symptoms.
@@ -51013,13 +50986,9 @@ tb-2025-0398,tb-2025,National Integrated Tuberculosis Management Guidelines (202
 (k) Rechallenge: the voluntary or inadvertent re-administration of a medicine suspected of causing an adverse drug reaction.
 
 (l) Dechallenge: the withdrawal of a drug from a patient; the point at which the continuation, reduction or disappearance of adverse reaction may be observed."
-tb-2025-0399,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,9.3 Types of Pharmacovigilance > Figure 25: Type of Pharmacovigilance,159,159,tb-2025:3a5d54bc32,tb-2025:17b8f5c9db,tb-2025-0398,tb-2025-0400,14,"### **Figure 25: Type of Pharmacovigilance**
+tb-2025-0399,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),text,,,9.3 Types of Pharmacovigilance > Figure 25: Type of Pharmacovigilance,159,159,tb-2025:3a5d54bc32,tb-2025:17b8f5c9db,tb-2025-0398,tb-2025-0400,11,### **Figure 25: Type of Pharmacovigilance**,"National Integrated Tuberculosis Management Guidelines (2025) | 9.3 Types of Pharmacovigilance > Figure 25: Type of Pharmacovigilance (page 159)
 
-flow_chart","National Integrated Tuberculosis Management Guidelines (2025) | 9.3 Types of Pharmacovigilance > Figure 25: Type of Pharmacovigilance (page 159)
-
-### Figure 25: Type of Pharmacovigilance
-
-flow_chart"
+### Figure 25: Type of Pharmacovigilance"
 tb-2025-0400,tb-2025,National Integrated Tuberculosis Management Guidelines (2025),diagram,,,9.3 Types of Pharmacovigilance > Figure 25: Type of Pharmacovigilance,159,159,tb-2025:3a5d54bc32,tb-2025:17b8f5c9db,tb-2025-0399,tb-2025-0401,95,"Diagram (section: Figure 25: Type of Pharmacovigilance)
 Sections: Passive PV; Active PV
 Items: Spontaneous reporting; Targeted spontaneous reporting (TSR); Cornerstone and Voluntary; Reported by HCW or patients; Cohort Event Monitoring (CEM); Active TB Drug safety monitoring and management (aDSM); Prospectively monitors adverse events; Reported by HCW; Time and labour intensive","National Integrated Tuberculosis Management Guidelines (2025) | 9.3 Types of Pharmacovigilance > Figure 25: Type of Pharmacovigilance (page 159)
@@ -57422,11 +57391,9 @@ Linkages that happen within different departments in the same facility. A client
 ## 9 Intra-Facility Linkage Case Management
 
 Linkages that happen within different departments in the same facility. A client testing positive in any testing entry point should be enrolled into facility-based Linkage Case Management and a client testing HIV negative should be actively referred for HIV prevention services. There are different scenarios for ART initiation and health facilities should choose what is relevant to their situation depending on the availability of the different cadres in the facility. These different scenarios are as follows:"
-unaids-linkages-sop-0032,unaids-linkages-sop,UNAIDS Enhanced HIV Linkages Case Management SOP,text,,,9 Intra-Facility Linkage Case Management,25,26,unaids-linkages-sop:63d4f551ae,unaids-linkages-sop:63d4f551ae,unaids-linkages-sop-0029,unaids-linkages-sop-tbl-p26-0033,189,"### **9.1 Initiating ART on client testing positive HIV diagnosis (Annex 2)**
+unaids-linkages-sop-0032,unaids-linkages-sop,UNAIDS Enhanced HIV Linkages Case Management SOP,text,,,9 Intra-Facility Linkage Case Management,25,26,unaids-linkages-sop:63d4f551ae,unaids-linkages-sop:63d4f551ae,unaids-linkages-sop-0029,unaids-linkages-sop-tbl-p26-0033,186,"### **9.1 Initiating ART on client testing positive HIV diagnosis (Annex 2)**
 
 HIV testing is done by clinicians, the client testing HIV positive shall be provided with the following by the clinician.
-
-flow_chart
 
 > In health facilities with multiple HTS entry points, ART initiation is to be done by the Clinicians in the respective units.
 
@@ -57441,8 +57408,6 @@ flow_chart
 ### 9.1 Initiating ART on client testing positive HIV diagnosis (Annex 2)
 
 HIV testing is done by clinicians, the client testing HIV positive shall be provided with the following by the clinician.
-
-flow_chart
 
 > In health facilities with multiple HTS entry points, ART initiation is to be done by the Clinicians in the respective units.
 
@@ -58980,7 +58945,7 @@ Proportion of PLHIV enrolled onto LCM: Description: Percentage of adults and chi
 Number of clients identified as HIV positive: Description: Total number of clients that had a HIV positive result during the reporting period; Calculation: n/a; Data Collection tools: HTS register<br/>HTS summary<br/>Index testing register<br/>HIVST register<br/>CMIS.
 Number of clients enrolled on LCM.: Description: Indicator measures the HIV positive clients the consented to enrolled onto LCM; Calculation: n/a; Data Collection tools: LCM register<br/>LCM summary.
 Number of clients transferred in from community and other facilities: Description: Total number of transfer-ins; Calculation: n/a; Data Collection tools: LCM register."
-unaids-linkages-sop-tbl-p88-0140-p1,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p88-0140,1/2,13.9 List of LCM Reporting Indicators,88,90,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop-tbl-p87-0139,unaids-linkages-sop-0143-rest-a,690,"### 13.9 List of LCM Reporting Indicators (continued)
+unaids-linkages-sop-tbl-p88-0140-p1,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p88-0140,1/2,13.9 List of LCM Reporting Indicators,88,90,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop-tbl-p87-0139,unaids-linkages-sop-tbl-p91-0143-p1,690,"### 13.9 List of LCM Reporting Indicators (continued)
 
 ENHANCED LINKAGES CASE MANAGEMENT ENHANCED LINKAGES CASE MANAGEMENT
 
@@ -59007,7 +58972,7 @@ Number of clients who received the second call.: Description: Clients that were 
 Number of clients who came for 14-day visit.: Description: Clients that attended their 14 days clinical visit; Calculation: n/a; Data Collection tools: LCM register<br/>LCM summary<br/>Appointment register<br/>CMIS appointments.
 Number of index cases with contact tested for HIV.: Description: Total index cases wit contacts that were tested for HIV; Calculation: n/a; Data Collection tools: LCM register<br/>Index register<br/>CMIS.
 Number of clients who have disclosed HIV status to at least one person: Description: Total clients enrolled on LCM that have disclosed their HIV status; Calculation: n/a; Data Collection tools: LCM register."
-unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p88-0140,2/2,13.9 List of LCM Reporting Indicators,88,90,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop-tbl-p87-0139,unaids-linkages-sop-0143-rest-a,690,"### 13.9 List of LCM Reporting Indicators (continued)
+unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p88-0140,2/2,13.9 List of LCM Reporting Indicators,88,90,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop:8c1ca6f842,unaids-linkages-sop-tbl-p87-0139,unaids-linkages-sop-tbl-p91-0143-p1,690,"### 13.9 List of LCM Reporting Indicators (continued)
 
 ENHANCED LINKAGES CASE MANAGEMENT ENHANCED LINKAGES CASE MANAGEMENT
 
@@ -59031,10 +58996,7 @@ Proportion of clients enrolled on LCM initiated on ART: Description: Percentage 
 Proportion of LCM clients retained and virally suppressed in care at 6 months.: Description: Percentage of clients enrolled on LCM with a virally suppressed 6 months after initiation (cohort indicator); Calculation: Numerator: Total number of LCM clients on ART that were virally suppressed.<br/>Denominator: Total number of eligible clients enrolled on LCM that has VL taken; Data Collection tools: LCM register<br/>LIS<br/>CMIS<br/>APMR.
 Proportion of clients with a LCM outcome by type: Description: Percentage of clients enrolled on LCM that reported an outcome after completion at 6 months (cohort indicator); Calculation: Numerator: Total number of clients that had an outcome (completed, transferred out, LTFU, died or did not imitate) after completionNumerator: Total number of clients enrolled on LCM that were eligible for completion; Data Collection tools: LCM register.
 Continuation of the indicator table on p.87; printed rotated, without repeating the header row (header added here)."
-unaids-linkages-sop-0143-rest-a,unaids-linkages-sop,UNAIDS Enhanced HIV Linkages Case Management SOP,text,,,14 Annex > Objective,91,91,unaids-linkages-sop:0dbe0e5bf8,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-tbl-p91-0143-p1,16,* Clinician Explain HIV progression using Pretreatment viral load.,"UNAIDS Enhanced HIV Linkages Case Management SOP | 14 Annex > Objective (page 91)
-
-* Clinician Explain HIV progression using Pretreatment viral load."
-unaids-linkages-sop-tbl-p91-0143-p1,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,1/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p1,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,1/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 
@@ -59074,7 +59036,7 @@ Assess and resolve (if applicable) enrolment barriers for all clients, and befor
 
 Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance) (part 1 of 8).
 Individual factors > 1. Feeling healthy/well (some men are unaware that early treatment can mean a longer and healthier life; some know but find it too …): Client's perception for not starting treatment: Client does not believe he/she needs to start treatment because of perceived good health. Patient argues that with a high CD4 count there is no need to start ART; Possible intervention: - Explain that the earlier an individual starts ART, the longer they can live without acquiring AIDS.<br/>- Explain the goal of ART is to improve quality of life.<br/>- Refer client to clinician for escalated counselling according to the facility-adapted plan.<br/>- Clinician explains HIV progression using pre-treatment viral load.<br/>- Inform client that treatment guidelines have changed and now nearly all clients can start ART on the day of diagnosis; explain the previous thresholds for starting ART (200-350-500)."
-unaids-linkages-sop-tbl-p91-0143-p2,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,2/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p2,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,2/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 
@@ -59115,7 +59077,7 @@ Assess and resolve (if applicable) enrolment barriers for all clients, and befor
 Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance) (part 2 of 8).
 Individual factors > 2. No time; too busy with work, school or other responsibilities: Client's perception for not starting treatment: Client believes he/she does not have time to initiate or come for refills; Possible intervention: - Enrol client on LCM.<br/>- Explore the client's time commitments and underlying reasons.<br/>- Provide motivational counselling.<br/>- Develop a treatment plan that adjusts refill dates and times to suit the client.<br/>- Appoint client for a counselling session at the agreed time and date.<br/>- Inform client about DSD models once on treatment with an undetectable viral load.<br/>- Refer client to clinician for escalated counselling.
 Individual factors > 3. Denies being HIV infected: Client's perception for not starting treatment: Client believes he/she is not infected with HIV; Possible intervention: - Inform client that before ART initiation they will be retested for verification by another health care worker.<br/>- Clinician explains HIV progression using pre-treatment viral load.<br/>- Provide motivational counselling.<br/>- Enrol client on LCM."
-unaids-linkages-sop-tbl-p91-0143-p3,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,3/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p3,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,3/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 
@@ -59157,7 +59119,7 @@ Barriers to ART initiation and possible interventions: individual factors (feeli
 Individual factors > 4. Loss of confidentiality and stigma: Client's perception for not starting treatment: Client does not want others to know and fears stigmatisation if identified at the ART clinic; Possible intervention: - Explore why the client does not want others to know.<br/>- Share benefits of disclosure and implications of not disclosing.<br/>- Be cautious and explore the potential of partner violence.<br/>- Explain the disclosure process.<br/>- Inform client that ART services are now integrated into service points.
 Individual factors > 5. Substance abuse: Client's perception for not starting treatment: Client has been drinking too much and/or using other drugs; Possible intervention: - Explain effects of substance abuse on adherence and possible interactions.<br/>- Refer client to clinician.
 Individual factors > 6. Denial that client has HIV; wants confirmation in another facility: Client's perception for not starting treatment: Client wants a second opinion; Possible intervention: - Clinician to refer client to psychologist / mental health nurse.<br/>- Complete referral form and empower client to produce it at the site wherever he/she tests.<br/>- Inform client that before ART initiation they will be retested for verification by another health care worker, within or in another facility of his/her choosing."
-unaids-linkages-sop-tbl-p91-0143-p4,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,4/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p4,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,4/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 
@@ -59198,7 +59160,7 @@ Assess and resolve (if applicable) enrolment barriers for all clients, and befor
 Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance) (part 4 of 8).
 Individual factors > 7. Concerned about lifelong commitment: Client's perception for not starting treatment: Client is worried that he/she might not be able to adhere to treatment; Possible intervention: - Demystify ART (explain what it is, how it works and potential side effects).<br/>- Enrol client on LCM.<br/>- Yes, ART is lifelong treatment, and it is not the only one: there are other conditions that need treatment for life, e.g. diabetes, hypertension.
 Individual factors > 8. Fear of side effects: Client's perception for not starting treatment: Client is concerned about side effects; Possible intervention: - Inform the client that there are simpler, less toxic combinations.<br/>- Inform clients about possible side effects and advise them to report to a nurse or doctor as soon as possible.<br/>- Encourage treatment ownership and reporting of new or unfamiliar symptoms at each visit.<br/>- Explain the continuous monitoring of side effects by the clinician during refills, which has scaled up early identification of side effects."
-unaids-linkages-sop-tbl-p91-0143-p5,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,5/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p5,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,5/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 
@@ -59239,7 +59201,7 @@ Assess and resolve (if applicable) enrolment barriers for all clients, and befor
 Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance) (part 5 of 8).
 Interpersonal factors > 1. Fears lack of support, violence, or separation from spouse/partner, or partner's disapproval: Client's perception for not starting treatment: Client fears they might not get support from close family members, partner(s), peers and associates; Possible intervention: - Educate client on the disclosure process (who, why, when and how).<br/>- Explain benefits of disclosing status.<br/>- Refer client to social worker for further counselling and support.<br/>- Encourage client to join a support group for peer support.
 Interpersonal factors > 2. Wants to disclose to partner first: Client's perception for not starting treatment: Fears the partner's reaction if they start treatment; perceived lack of support from spouse if he/she starts ART; lacks skills to disclose; Possible intervention: - Educate client on the disclosure process (who, why, when and how).<br/>- Explore the reasons why the client wants to disclose to the partner before initiation.<br/>- Refer client to social worker / mental health nurse / psychologist for further counselling and support.<br/>- Refer to the 101 counselling job aid."
-unaids-linkages-sop-tbl-p91-0143-p6,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,6/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p6,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,6/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 
@@ -59281,7 +59243,7 @@ Barriers to ART initiation and possible interventions: individual factors (feeli
 Interpersonal factors > 3. Believes in traditional medicine: Client's perception for not starting treatment: Client believes that traditional medicine cures HIV or AIDS; Possible intervention: - Explain the basic facts about HIV.<br/>- Inform client of possible drug interactions with traditional medicine.<br/>- Refer for further counselling as per escalation plan.
 Interpersonal factors > 4. Has strong religious beliefs: Client's perception for not starting treatment: Client believes that prayer will cure HIV or AIDS; Possible intervention: - Explain the basic facts about HIV.<br/>- Refer for further counselling as per escalation plan.
 Health system factors > 1. Quality or delivery of HIV care is poor: Client's perception for not starting treatment: Client believes treatment offered is sub-standard; Possible intervention: - Ascertain why the client thinks services offered are sub-standard.<br/>- Inform clients that there are standard trainings for all HCWs in the country.<br/>- Document referral to the preferred site and set an appointment.<br/>- Enrol into LCM for follow-up."
-unaids-linkages-sop-tbl-p91-0143-p7,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,7/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p7,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,7/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 
@@ -59324,7 +59286,7 @@ Health system factors > 2. Operational hours not conducive to clients: Client's 
 Health system factors > 3. Vertical ART services: Client's perception for not starting treatment: Clients feel vertical ART services will lead to incidental disclosure; Possible intervention: Inform client that ART services are now integrated into service points.
 Health system factors > 4. Health care worker's attitude towards clients: Client's perception for not starting treatment: Clients feel they have been mistreated; Possible intervention: - Inform clients of the procedure for reporting mistreatment.<br/>- Assure the client that the facility will support them and has the best intention for all clients.<br/>- Explain that the earlier an individual starts ART, the longer they can live without acquiring AIDS.
 Health system factors > 5. Use of unique identifier: Client's perception for not starting treatment: Clients perceive that there would be a breach of confidentiality; Possible intervention: Explain why it is necessary to use a unique identifier."
-unaids-linkages-sop-tbl-p91-0143-p8,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,8/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-0143-rest-a,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
+unaids-linkages-sop-tbl-p91-0143-p8,unaids-linkages-sop,unaids-linkages-sop,table,unaids-linkages-sop-tbl-p91-0143,8/8,14 Annex > Barriers to ART Initiation,91,98,unaids-linkages-sop:174142d555,unaids-linkages-sop:6c92cf1d11,unaids-linkages-sop-tbl-p88-0140-p2,unaids-linkages-sop-fig-annex1-positive-facility,2015,"### Barriers to ART initiation and possible interventions: individual factors (feeling well, no time, denial, stigma, substance use, lifelong commitment, side effects), interpersonal factors (lack of support, disclosure, traditional medicine, religion), health system factors (quality, hours, vertical services, staff attitude, unique identifier, queues, distance)
 
 Assess and resolve (if applicable) enrolment barriers for all clients, and before case closure be sure all barriers have been resolved; if not, refer according to the facility escalation plan. Objective: to help clients overcome ART initiation barriers and retain them in care using the LCM strategy.
 

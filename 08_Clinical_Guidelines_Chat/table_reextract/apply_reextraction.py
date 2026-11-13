@@ -333,7 +333,7 @@ def main(src, out, pairs):
             if n_f >= 4: furniture |= lines_f
         for c in T:
             lines = [l for l in c['text'].split('\n') if l.strip() not in furniture]
-            txt = re.sub(r'<circle>\s*\d+\s*</circle>|^\s*\d{1,3}\s*$', '', '\n'.join(lines), flags=re.M)
+            txt = re.sub(r'<circle>\s*\d+\s*</circle>|^\s*\d{1,3}\s*$|^\s*flow_?chart\s*$', '', '\n'.join(lines), flags=re.M)
             txt = re.sub(r'\n{3,}', '\n\n', txt).strip()
             txt = re.sub(r'(?<=[a-z,])\n\n(?=[a-z])(?!(?:image|photo|drawing|flow_?chart|diagram|icon)\b)(?![a-z][.)]\s)',   # sentence broken
                          lambda m: '\n\n' if txt[:m.start()].rsplit('\n', 1)[-1].lstrip().startswith('#') else ' ', txt)  # at a page break
@@ -447,6 +447,23 @@ def main(src, out, pairs):
         for c in chunks:
             out4 += split_long(c)
         chunks = out4
+
+        # 4h. a chunk that ended up between two parts of one split item moves to just after the item's last part
+        moved = True
+        while moved:
+            moved = False
+            for i in range(1, len(chunks) - 1):
+                tid = chunks[i - 1].get('table_id')
+                if tid and chunks[i].get('table_id') != tid:
+                    j = next((j for j in range(i + 1, min(i + 6, len(chunks))) if chunks[j].get('table_id') == tid), None)
+                    if j is not None:
+                        while j + 1 < len(chunks) and chunks[j + 1].get('table_id') == tid:
+                            j += 1
+                        stray = chunks[i:i + 1]
+                        log.append((stray[0]['chunk_id'], 'moved after the last part of', tid))
+                        chunks = chunks[:i] + chunks[i + 1:j + 1] + stray + chunks[j + 1:]
+                        moved = True
+                        break
 
     # 5. ids, neighbours, sizes, embed text
     groups = []          # consecutive records of one table_id form a group

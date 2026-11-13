@@ -10,9 +10,9 @@ Page headers/footers are ignored: lines that recur on >= 15% of a document's pag
 
 Usage: python3 audit/full_sweep.py CHUNKS OUT_JSON   (run from table_reextract/; page text dirs in RAW below)
 """
-import collections, json, re, sys
+import os, collections, json, re, sys
 
-S = '/tmp/claude-0/-home-user-Eswatini-ASR/b17a5174-f3cc-5b8b-8e76-60220ba4e212/scratchpad/'
+S = os.environ.get('PAGE_TEXT_ROOT', 'page_text') + '/'   # folder holding one sub-folder of pN.txt files per guideline (RAW below)
 RAW = {'hiv-2022': 'hiv_raw', 'hiv-amendment-2024': 'amd_work', 'ncdimh': 'ncd_work', 'prep-2025': 'prep_work',
        'anc': 'anc_work', 'sti-vh-draft-2026': 'sti_raw', 'unaids-linkages-sop': 'lk_work4', 'tb-2025': 'tb_raw',
        'fp-2021': 'fp_raw', 'mental-health-deskguide': 'mh_raw'}
