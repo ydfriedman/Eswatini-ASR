@@ -26,7 +26,10 @@
   151
  ],
  "text_merge": [],
- "text_drop": [],
+ "text_drop": [
+  "sti-vh-draft-2026-0086-rest-a",
+  "sti-vh-draft-2026-txt-p78-t0209"
+ ],
  "tables": [
   {
    "kind": "section",
@@ -6111,5 +6114,15 @@
     148
    ]
   }
- ]
+ ],
+ "text_add": [],
+ "text_replace": {
+  "sti-vh-draft-2026-txt-p34-t0129": "## Common etiological STIs (POC testing):\n\n### Bacterial STIs:\n\n- Gonorrhoea\n- Chlamydia\n- Syphillis\n- Chanchoid\n- Bacterial vaginosis\n- Mycoplasma genitalium\n- Pelvic inflammatory desease (PID)",
+  "sti-vh-draft-2026-txt-p36-t0140": "## 5.1.1 See chart 2 for syndromic treatment for genital ulcer syndrome.\n\nThe following table shows the causative organisms with their signs and symptoms, treatment and options.",
+  "sti-vh-draft-2026-txt-p78-t0208": {
+   "text": "## 7.1.2 Syphilis in pregnancy\n\nThe clinical symptoms of syphilis are not altered by pregnancy. Since asymptomatic adult syphilis infection is common, all pregnant women should be screened for syphilis. This can reduce the complications of congenital syphilis. A rapid plasma reagent (RPR) test should be routinely done on pregnant mothers at first contact with the health care provider and treatment should be instituted if the RPR result is reactive and the partner should be treated as well. If RPR test is negative repeat after 3 months.",
+   "page_end": 79
+  }
+ },
+ "text_strip": {}
 }

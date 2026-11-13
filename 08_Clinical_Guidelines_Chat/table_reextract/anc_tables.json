@@ -1563,5 +1563,37 @@
   48
  ],
  "text_merge": {},
- "text_drop": []
+ "text_drop": [
+  "anc-0090",
+  "anc-0091-rest",
+  "anc-0062",
+  "anc-0026-rest"
+ ],
+ "text_replace": {
+  "anc-0061": {
+   "text": "### 3.7.4 Birth preparedness\n\nEducate pregnant women about birth preparedness and jointly with the pregnant woman develop a birth preparedness plan including the following:\n- Advise the woman to identify transport, and allocate money that will be required for travel and other expenses.\n- Explain when she needs to go to the facility (Signs of true labour or if she has any complications).\n- Advise on what to bring to the facility for herself and the baby such as: her maternal ANC record /card, clean cloths, towel for drying and wrapping the baby, nappies/diapers, baby blankets, Clean clothes for both the mother and the baby; toiletries including sanitary pads, toothbrush and paste, food and other supplies), carry a travel bag; Birth registration items (National ID card; copy of marriage certificate if married and the copy of father's ID), ultrasound scans, and any medication that she is taking.\n- Review and update the Birth and Emergency Plan at each ANC contact",
+   "page_end": 29
+  }
+ },
+ "text_add": [
+  {
+   "after": "anc-0007",
+   "page": 1,
+   "heading_path": "Foreword",
+   "text": "## Foreword\n\nThe Global Strategy for Women's, Children's and Adolescent Health 2016 – 2030 prioritizes provision of quality health services to women, newborns, children and adolescents and acknowledges that investing more in their health contributes to the realization of their right to health. The Kingdom of Eswatini aligns itself with this global health and human rights commitment. The Kingdom's efforts in attaining the targets of the Sustainable Development Goals is operationalized through the Eswatini National Sustainable Development Strategy and the Health Sector Strategic plan. The Government of Eswatini has made significant progress in the provision of maternal, newborn and adolescent health. This is evident in the high ANC coverage (at least once at 98%), and institutional deliveries (87.7 %), skilled birth attendance (88%) MICS 2014 and postnatal Care coverage of 71% (SRH Annual report). However, there is a clinical gap in the provision of quality of care evidenced by an unacceptably high Maternal Mortality Ratio (MMR) at 593/100,000 live births (Intercensus Demographic Housing Survey, 2012) and Neonatal Mortality Ratio (NMR) at 20 per 1000 live births MICS 2014. In an effort to respond to the challenges, the MOH has developed the first national ANC guidelines which will improve provision of quality of health services, and implementation of the guidelines will contribute to the well-being of women and families and will further contribute to positive perinatal and maternal outcomes. The benefits of the guidelines are as follows:"
+  },
+  {
+   "after": "anc-add-p1-0",
+   "page": 1,
+   "heading_path": "Foreword",
+   "text": "## Foreword\n\n- It is a platform to ensure timely and consistent health promotion, screening, diagnosis, disease prevention and management of complications in the context of respectful care.\n- It also serves as a standard for quality health services.\n- Through ANC activity (prevention, screening, diagnosis, management), this guideline will contribute to reducing MMR and incidence of still birth in the country.\n\nThese guidelines are in line with the new WHO ANC recommendations 2016 and are designed for use by all health care providers in the sector (Government, Private, NGOs) both at health facility and community levels. In this regard, all health workers providing ANC services are expected to adhere to these new guidelines. All partners and training institutions involved in-service and pre-service teaching should adjust their training to reflect this new guidance. The Ministry of Health is committed to ensure that the requisite resources are made available for the effective implementation of the guidelines."
+  },
+  {
+   "after": "anc-tbl-anc-essential-package",
+   "page": 23,
+   "heading_path": "3.0 Providing ANC Services",
+   "text": "## 3.0 Providing ANC Services\n\nANC services can start as soon as the woman misses a period and suspects that she is pregnant. The ANC services that are provided must be in line with the ANC service package outlined in this guideline."
+  }
+ ],
+ "text_strip": {}
 }

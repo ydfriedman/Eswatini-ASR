@@ -3308,6 +3308,27 @@
  "text_drop": [
   "prep-2025-0102",
   "prep-2025-0103",
-  "prep-2025-0194"
- ]
+  "prep-2025-0194",
+  "prep-2025-0026",
+  "prep-2025-0077"
+ ],
+ "text_add": [
+  {
+   "after": "prep-2025-0054",
+   "page": 25,
+   "heading_path": "2 Overview of PrEP Products > 2.3 CAB-LA Injectable PrEP > Stopping CAB-LA > Tail Period (Figure 7)",
+   "text": "### Figure 7. CAB-LA \"tail period\" (line chart, read from the page)\n\nThe chart plots the CAB PrEP blood level over 12 months against a horizontal line marking the blood level needed to prevent HIV. Dose #1 is given at month 1, dose #2 at month 2 and dose #3 at month 4; each injection raises the level well above the line. At month 6 the client is due for dose #4 but decides to stop CAB PrEP. From then on the level falls slowly below the line through month 12: this is the \"tail period\" – after injections are stopped, CAB PrEP is still present in the body, but not enough to prevent HIV. When the level drops below the line it is possible to acquire a kind of HIV that could be resistant to the best HIV treatment regimen. (Adapted from Columbia University Irving Medical Center and the Blueprint Project.)"
+  }
+ ],
+ "text_replace": {},
+ "text_strip": {
+  "prep-2025-0054": [
+   "## **Figure 7. CAB-LA “tail period”**",
+   "image: A line chart showing CAB PrEP blood levels over 12 months, with annotations for dosing schedule and the 'tail period'."
+  ],
+  "prep-2025-0069": [
+   "## **Figure 8. LEN dosing schedule**",
+   "image: LEN dosing schedule diagram"
+  ]
+ }
 }

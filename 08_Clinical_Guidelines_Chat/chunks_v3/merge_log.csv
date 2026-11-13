@@ -20,8 +20,10 @@ hiv-amendment-2024-0048,replaced,hiv-amendment-2024-tbl-6-summary-of-changes
 hiv-amendment-2024-0050,replaced,hiv-amendment-2024-tbl-6.1.2-tpt-options
 hiv-amendment-2024-0052,replaced,hiv-amendment-2024-tbl-6.2-ahd-package
 hiv-amendment-2024-0053,replaced,hiv-amendment-2024-tbl-7-summary-of-changes
+hiv-amendment-2024-0054,text kept beside item,hiv-amendment-2024-fig-7.1-vl-thresholds
 hiv-amendment-2024-0054,replaced,hiv-amendment-2024-fig-7.1-vl-thresholds
 hiv-amendment-2024-0055,replaced,hiv-amendment-2024-fig-7.1-vl-thresholds
+hiv-amendment-2024-0056,text kept beside item,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule
 hiv-amendment-2024-0056,replaced,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule
 hiv-amendment-2024-0057,replaced,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule
 hiv-amendment-2024-0058,replaced,hiv-amendment-2024-fig-7.2-vl-monitoring-schedule
@@ -31,6 +33,7 @@ hiv-amendment-2024-0062,replaced,hiv-amendment-2024-tbl-8-summary-of-changes
 hiv-amendment-2024-0063,replaced,hiv-amendment-2024-fig-8.1-viraemia-pregnant
 hiv-amendment-2024-0064,replaced,hiv-amendment-2024-fig-8.1-viraemia-pregnant
 hiv-amendment-2024-0065,replaced,hiv-amendment-2024-fig-8.1-viraemia-pregnant
+hiv-amendment-2024-0066,text kept beside item,hiv-amendment-2024-fig-8.2-viraemia-breastfeeding
 hiv-amendment-2024-0066,replaced,hiv-amendment-2024-fig-8.2-viraemia-breastfeeding
 hiv-amendment-2024-0067,replaced,hiv-amendment-2024-fig-8.2-viraemia-breastfeeding
 hiv-amendment-2024-0068,replaced,hiv-amendment-2024-fig-8.2-viraemia-breastfeeding
@@ -77,6 +80,7 @@ hiv-amendment-2024-0049,label,Chapter 6: TB HIV Collaborative Activities & Advan
 hiv-amendment-2024-0051,cleaned,
 hiv-amendment-2024-0051,label,Chapter 6: TB HIV Collaborative Activities & Advanced HIV Disease > 6.2 Advanced HIV Disease => Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.2 Advanced HIV Disease
 hiv-amendment-2024-0061,label,Chapter 5: Basic Care Package for HIV-Positive Individuals > Management of Low-Level Viremia => Chapter 7: Adult Antiretroviral Therapy > 7.1 Routine VL Monitoring > Management of Low-Level Viremia
+hiv-amendment-2024-0066-rest,label,Chapter 5: Basic Care Package for HIV-Positive Individuals > Same Day Management of Viremia in Breastfeeding Women => Chapter 8: Prevention of Mother-to-Child Transmission of HIV > Same Day Management of Viremia in Breastfeeding Women
 hiv-amendment-2024-0072,label,Chapter 5: Basic Care Package for HIV-Positive Individuals > A Presumptive Diagnosis of Severe HIV Disease Should Be Made ONLY If => Chapter 9: ART for Children & Adolescents > 9.1 When to Start ART for Children & Adolescents > A Presumptive Diagnosis of Severe HIV Disease Should Be Made ONLY If
 hiv-amendment-2024-0091,cleaned,
 hiv-amendment-2024-0091,label,"Chapter 5: Basic Care Package for HIV-Positive Individuals > Refer to Annex 11.19 for the paediatrics dosing chart. => Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support for Children, Adolescents, and Adults"
@@ -84,6 +88,11 @@ hiv-amendment-2024-0102,cleaned,
 hiv-amendment-2024-0102,label,"Chapter 5: Basic Care Package for HIV-Positive Individuals => Chapter 10: HIV/NCDs & Mental Health > 10.1 Psychological Care & Support for Children, Adolescents, and Adults"
 hiv-amendment-2024-0103,label,Chapter 10: Hiv/ncds & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment => Chapter 10: HIV/NCDs & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment
 hiv-amendment-2024-0104,label,Chapter 5: Basic Care Package for HIV-Positive Individuals > Check If Client Has => Chapter 10: HIV/NCDs & Mental Health > 10.2 Provision of Psychological Support to Clients Failing Treatment > Check If Client Has
+hiv-amendment-2024-0054-rest,dropped,
+hiv-amendment-2024-0066-rest,dropped,
+hiv-amendment-2024-0013,text rewritten from page,
+hiv-amendment-2024-0061,text stripped, icon: X mark in a circle
+hiv-amendment-2024-0104,text stripped,"image: abstract background with red, blue, and yellow graphic elements"
 ncdimh-0014,replaced,ncdimh-tbl-ncd-risk-factors
 ncdimh-0017,replaced,ncdimh-tbl-risk-factor-screening-protocol
 ncdimh-0018,replaced,ncdimh-tbl-bp-screening-algorithm
@@ -96,6 +105,7 @@ ncdimh-0032,replaced,ncdimh-tbl-physical-activity-5as
 ncdimh-0035,replaced,ncdimh-fig-smoking-cessation
 ncdimh-0036,replaced,ncdimh-fig-smoking-cessation
 ncdimh-0038,replaced,ncdimh-fig-smoking-cessation
+ncdimh-0043,text kept beside item,ncdimh-tbl-audit-c
 ncdimh-0043,replaced,ncdimh-tbl-audit-c
 ncdimh-0044,replaced,ncdimh-tbl-audit-c
 ncdimh-0045,replaced,ncdimh-tbl-alcohol-5as
@@ -142,6 +152,7 @@ ncdimh-0097,replaced,ncdimh-tbl-premixed-insulin-adjustment
 ncdimh-0098,replaced,ncdimh-tbl-t1dm-signs-symptoms
 ncdimh-0099,replaced,ncdimh-fig-t1dm-diagnosis
 ncdimh-0100,replaced,ncdimh-fig-t1dm-diagnosis
+ncdimh-0103,text kept beside item,ncdimh-tbl-insulin-regimens-t1dm
 ncdimh-0103,replaced,ncdimh-tbl-insulin-regimens-t1dm
 ncdimh-0104,replaced,ncdimh-tbl-insulin-regimens-t1dm
 ncdimh-0105,replaced,ncdimh-tbl-insulin-regimens-t1dm
@@ -179,6 +190,7 @@ ncdimh-0139,replaced,ncdimh-fig-dka-algorithm
 ncdimh-0141,replaced,ncdimh-tbl-hypoglycaemia-symptoms
 ncdimh-0142,replaced,ncdimh-tbl-hypoglycaemia-management
 ncdimh-0144,replaced,ncdimh-tbl-tdi-starting-dose
+ncdimh-0145,text kept beside item,ncdimh-tbl-cbg-correction-scale
 ncdimh-0145,replaced,ncdimh-tbl-cbg-correction-scale
 ncdimh-0146,replaced,ncdimh-tbl-cbg-correction-scale
 ncdimh-0148,replaced,ncdimh-tbl-cbg-correction-scale
@@ -205,11 +217,13 @@ ncdimh-0181,replaced,ncdimh-tbl-osteoporosis-risk-factors
 ncdimh-0182,replaced,ncdimh-tbl-osteoporosis-risk-factors
 ncdimh-0183,replaced,ncdimh-tbl-osteoporosis-drugs
 ncdimh-0185,replaced,ncdimh-tbl-osteoporosis-classification
+ncdimh-0187,text kept beside item,ncdimh-tbl-osteoporosis-assessment-checklist
 ncdimh-0187,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
 ncdimh-0188,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
 ncdimh-0189,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
 ncdimh-0190,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
 ncdimh-0191,replaced,ncdimh-tbl-osteoporosis-assessment-checklist
+ncdimh-0192,text kept beside item,ncdimh-fig-osteoporosis-assessment
 ncdimh-0192,replaced,ncdimh-fig-osteoporosis-assessment
 ncdimh-0193,replaced,ncdimh-fig-osteoporosis-assessment
 ncdimh-0195,replaced,ncdimh-tbl-osteoporosis-pharmacological
@@ -313,11 +327,14 @@ ncdimh-0373,replaced,ncdimh-fig-stroke-facility-flowchart
 ncdimh-0374,replaced,ncdimh-fig-stroke-facility-flowchart
 ncdimh-0375,replaced,ncdimh-fig-stroke-facility-flowchart
 ncdimh-0376,replaced,ncdimh-tbl-rtpa-eligibility
+ncdimh-0377,text kept beside item,ncdimh-tbl-stroke-acute-contraindications-secondary
+ncdimh-0377,text kept beside item,ncdimh-tbl-stroke-acute-contraindications-secondary
 ncdimh-0377,replaced,ncdimh-tbl-stroke-acute-contraindications-secondary
 ncdimh-0378,replaced,ncdimh-tbl-stroke-acute-contraindications-secondary
 ncdimh-0379,replaced,ncdimh-tbl-stroke-acute-contraindications-secondary
 ncdimh-0380,replaced,ncdimh-tbl-stroke-pharmacological
 ncdimh-0381,replaced,ncdimh-tbl-stroke-pharmacological
+ncdimh-0389,text kept beside item,ncdimh-fig-arf-jones-criteria
 ncdimh-0389,replaced,ncdimh-fig-arf-jones-criteria
 ncdimh-0390,replaced,ncdimh-fig-arf-jones-criteria
 ncdimh-0394,replaced,ncdimh-tbl-rhd-cxr-ecg-findings
@@ -327,6 +344,7 @@ ncdimh-0401,replaced,ncdimh-fig-rhd-secondary-care
 ncdimh-0404,replaced,ncdimh-fig-chd-pulse-oximetry-screening
 ncdimh-0405,replaced,ncdimh-fig-chd-suspected-approach
 ncdimh-0406,replaced,ncdimh-fig-chd-suspected-approach
+ncdimh-0408,text kept beside item,ncdimh-fig-chd-acyanotic-cyanotic
 ncdimh-0408,replaced,ncdimh-fig-chd-acyanotic-cyanotic
 ncdimh-0409,replaced,ncdimh-fig-chd-acyanotic-cyanotic
 ncdimh-0411,replaced,ncdimh-tbl-ad-stages
@@ -359,6 +377,7 @@ ncdimh-0451,replaced,ncdimh-fig-hepatic-encephalopathy-west-haven
 ncdimh-0452,replaced,ncdimh-fig-hepatic-encephalopathy-west-haven
 ncdimh-0453,replaced,ncdimh-tbl-cld-drugs
 ncdimh-0457,replaced,ncdimh-tbl-gerd-treatment
+ncdimh-0462,text kept beside item,ncdimh-tbl-h-pylori-eradication
 ncdimh-0462,replaced,ncdimh-tbl-h-pylori-eradication
 ncdimh-0463,replaced,ncdimh-tbl-h-pylori-eradication
 ncdimh-0470,replaced,ncdimh-tbl-ugib-differential
@@ -403,6 +422,7 @@ ncdimh-0537,replaced,ncdimh-tbl-tbi-drugs
 ncdimh-0539,replaced,ncdimh-tbl-tbi-drugs
 ncdimh-0541,replaced,ncdimh-tbl-tbi-inhospital
 ncdimh-0543,replaced,ncdimh-tbl-tbi-surgical-evacuation
+ncdimh-0546,text kept beside item,ncdimh-box-paeds-tbi-manifestations
 ncdimh-0546,replaced,ncdimh-box-paeds-tbi-manifestations
 ncdimh-0547,replaced,ncdimh-box-paeds-tbi-manifestations
 ncdimh-0549,replaced,ncdimh-tbl-catch-rule
@@ -427,6 +447,7 @@ ncdimh-0577,replaced,ncdimh-fig-aki-fluids-electrolytes
 ncdimh-0578,replaced,ncdimh-tbl-aki-ckd-akd-definitions
 ncdimh-0579,replaced,ncdimh-tbl-aki-ckd-akd-definitions
 ncdimh-0580,replaced,ncdimh-tbl-aki-screening-by-level
+ncdimh-0581,text kept beside item,ncdimh-fig-aki-akd-follow-up
 ncdimh-0581,replaced,ncdimh-fig-aki-akd-follow-up
 ncdimh-0582,replaced,ncdimh-fig-aki-akd-follow-up
 ncdimh-0583,replaced,ncdimh-fig-aki-akd-follow-up
@@ -452,11 +473,14 @@ ncdimh-0606,replaced,ncdimh-tbl-ckd-prognosis-heatmap
 ncdimh-0607,replaced,ncdimh-tbl-kidney-function-measures
 ncdimh-0608,replaced,ncdimh-tbl-kidney-function-measures
 ncdimh-0611,replaced,ncdimh-fig-ckd-screening-algorithm
+ncdimh-0613,text kept beside item,ncdimh-fig-ckd-risk-management-algorithm
 ncdimh-0613,replaced,ncdimh-fig-ckd-risk-management-algorithm
 ncdimh-0614,replaced,ncdimh-fig-ckd-risk-management-algorithm
+ncdimh-0615,text kept beside item,ncdimh-tbl-kdigo-referral-heatmap
 ncdimh-0615,replaced,ncdimh-tbl-kdigo-referral-heatmap
 ncdimh-0616,replaced,ncdimh-tbl-kdigo-referral-heatmap
 ncdimh-0617,replaced,ncdimh-tbl-kdigo-referral-heatmap
+ncdimh-0620,text kept beside item,ncdimh-fig-ckd-interventions-by-stage
 ncdimh-0620,replaced,ncdimh-fig-ckd-interventions-by-stage
 ncdimh-0621,replaced,ncdimh-fig-ckd-interventions-by-stage
 ncdimh-0622,replaced,ncdimh-tbl-ckd-management-principles
@@ -475,16 +499,19 @@ ncdimh-0643,replaced,ncdimh-fig-gn-classification
 ncdimh-0644,replaced,ncdimh-tbl-nephrotic-vs-nephritic
 ncdimh-0647,replaced,ncdimh-tbl-gn-investigations-ddx
 ncdimh-0648,replaced,ncdimh-tbl-gn-investigations-ddx
+ncdimh-0649,text kept beside item,ncdimh-tbl-gn-investigations-by-level
 ncdimh-0649,replaced,ncdimh-tbl-gn-investigations-by-level
 ncdimh-0650,replaced,ncdimh-tbl-gn-investigations-by-level
 ncdimh-0651,replaced,ncdimh-tbl-nephrotic-proteinuria-definitions
 ncdimh-0652,replaced,ncdimh-tbl-nephrotic-key-terms
 ncdimh-0653,replaced,ncdimh-tbl-nephrotic-key-terms
 ncdimh-0655,replaced,ncdimh-fig-nephrotic-syndrome-treatment
+ncdimh-0657,text kept beside item,ncdimh-fig-ns-new-child-algorithm
 ncdimh-0657,replaced,ncdimh-fig-ns-new-child-algorithm
 ncdimh-0658,replaced,ncdimh-fig-ns-new-child-algorithm
 ncdimh-0659,replaced,ncdimh-box-kidney-biopsy-decision
 ncdimh-0660,replaced,ncdimh-box-kidney-biopsy-decision
+ncdimh-0661,text kept beside item,ncdimh-tbl-gn-histology-treatment
 ncdimh-0661,replaced,ncdimh-tbl-gn-histology-treatment
 ncdimh-0662,replaced,ncdimh-tbl-gn-histology-treatment
 ncdimh-0663,replaced,ncdimh-tbl-gn-histology-treatment
@@ -494,6 +521,7 @@ ncdimh-0666,replaced,ncdimh-tbl-gn-histology-treatment
 ncdimh-0668,replaced,ncdimh-tbl-gn-pregnancy-care
 ncdimh-0669,replaced,ncdimh-tbl-gn-pregnancy-care
 ncdimh-0670,replaced,ncdimh-tbl-gn-pregnancy-care
+ncdimh-0671,text kept beside item,ncdimh-tbl-gn-contraception
 ncdimh-0671,replaced,ncdimh-tbl-gn-contraception
 ncdimh-0672,replaced,ncdimh-tbl-gn-contraception
 ncdimh-0677,replaced,ncdimh-tbl-adhd-patient-assessment
@@ -509,6 +537,8 @@ ncdimh-0701,replaced,ncdimh-box-epilepsy-algorithm
 ncdimh-0702,replaced,ncdimh-box-epilepsy-algorithm
 ncdimh-0703,replaced,ncdimh-box-epilepsy-algorithm
 ncdimh-0704,replaced,ncdimh-box-epilepsy-algorithm
+ncdimh-0705,text kept beside item,ncdimh-tbl-antiepileptic-drugs
+ncdimh-0705,text kept beside item,ncdimh-tbl-antiepileptic-drugs
 ncdimh-0705,replaced,ncdimh-tbl-antiepileptic-drugs
 ncdimh-0706,replaced,ncdimh-tbl-antiepileptic-drugs
 ncdimh-0707,replaced,ncdimh-tbl-antiepileptic-drugs
@@ -545,6 +575,7 @@ ncdimh-0756,replaced,ncdimh-tbl-childhood-cancer-suspicious-features
 ncdimh-0757,replaced,ncdimh-tbl-childhood-cancer-suspicious-features
 ncdimh-0758,replaced,ncdimh-fig-childhood-cancer-referral
 ncdimh-0760,replaced,ncdimh-tbl-crc-risk-factors
+ncdimh-0776,text kept beside item,ncdimh-fig-oral-lesion-algorithm
 ncdimh-0776,replaced,ncdimh-fig-oral-lesion-algorithm
 ncdimh-0777,replaced,ncdimh-fig-oral-lesion-algorithm
 ncdimh-0780,replaced,ncdimh-tbl-psa-risk-stratification
@@ -552,16 +583,22 @@ ncdimh-0781,replaced,ncdimh-tbl-psa-risk-stratification
 ncdimh-0782,replaced,ncdimh-tbl-psa-risk-stratification
 ncdimh-0784,replaced,ncdimh-tbl-prostate-diagnostics
 ncdimh-0788,replaced,ncdimh-tbl-prostate-management-by-risk
+ncdimh-0796,text kept beside item,ncdimh-fig-cataract-workflow
 ncdimh-0796,replaced,ncdimh-fig-cataract-workflow
 ncdimh-0797,replaced,ncdimh-fig-cataract-workflow
+ncdimh-0800,text kept beside item,ncdimh-tbl-dr-classification
 ncdimh-0800,replaced,ncdimh-tbl-dr-classification
 ncdimh-0801,replaced,ncdimh-tbl-dr-classification
+ncdimh-0802,text kept beside item,ncdimh-tbl-dr-screening-schedule
 ncdimh-0802,replaced,ncdimh-tbl-dr-screening-schedule
 ncdimh-0803,replaced,ncdimh-tbl-dr-screening-schedule
 ncdimh-0804,replaced,ncdimh-fig-dr-screening-flowchart
 ncdimh-0805,replaced,ncdimh-fig-dr-screening-flowchart
+ncdimh-0810,text kept beside item,ncdimh-tbl-glaucoma-acute-vs-chronic
 ncdimh-0810,replaced,ncdimh-tbl-glaucoma-acute-vs-chronic
 ncdimh-0811,replaced,ncdimh-tbl-glaucoma-acute-vs-chronic
+ncdimh-0814,text kept beside item,ncdimh-tbl-glaucoma-drugs
+ncdimh-0814,text kept beside item,ncdimh-tbl-glaucoma-drugs
 ncdimh-0814,replaced,ncdimh-tbl-glaucoma-drugs
 ncdimh-0815,replaced,ncdimh-tbl-glaucoma-drugs
 ncdimh-0816,replaced,ncdimh-tbl-glaucoma-drugs
@@ -578,6 +615,7 @@ ncdimh-0833,replaced,ncdimh-tbl-analgesic-doses
 ncdimh-0834,replaced,ncdimh-tbl-analgesic-doses
 ncdimh-0835,replaced,ncdimh-tbl-opioid-equianalgesic
 ncdimh-0836,replaced,ncdimh-tbl-opioids-in-ckd
+ncdimh-0838,text kept beside item,ncdimh-fig-palliative-care-trajectory-levels
 ncdimh-0838,replaced,ncdimh-fig-palliative-care-trajectory-levels
 ncdimh-0840,replaced,ncdimh-fig-palliative-care-trajectory-levels
 ncdimh-0841,replaced,ncdimh-fig-palliative-care-trajectory-levels
@@ -586,6 +624,7 @@ ncdimh-0845,replaced,ncdimh-tbl-adjuvant-analgesics
 ncdimh-0846,replaced,ncdimh-tbl-wagner-classification
 ncdimh-0847,replaced,ncdimh-tbl-ut-classification
 ncdimh-0848,replaced,ncdimh-tbl-ut-classification
+ncdimh-0850,text kept beside item,ncdimh-fig-diabetic-foot-algorithm-a
 ncdimh-0850,replaced,ncdimh-fig-diabetic-foot-algorithm-a
 ncdimh-0851,replaced,ncdimh-fig-diabetic-foot-algorithm-a
 ncdimh-0852,replaced,ncdimh-fig-diabetic-foot-algorithm-b
@@ -607,9 +646,12 @@ ncdimh-0887,replaced,ncdimh-tbl-antidepressants-summary
 ncdimh-0888,replaced,ncdimh-tbl-antidepressants-summary
 ncdimh-0889,replaced,ncdimh-tbl-antidepressants-summary
 ncdimh-0890,replaced,ncdimh-tbl-antidepressants-summary
+ncdimh-0891,text kept beside item,ncdimh-box-suicide-risk-depression-follow-up
+ncdimh-0891,text kept beside item,ncdimh-box-suicide-risk-depression-follow-up
 ncdimh-0891,replaced,ncdimh-box-suicide-risk-depression-follow-up
 ncdimh-0892,replaced,ncdimh-box-suicide-risk-depression-follow-up
 ncdimh-0893,replaced,ncdimh-box-suicide-risk-depression-follow-up
+ncdimh-0894,text kept beside item,ncdimh-tbl-mdd-pharmacological
 ncdimh-0894,replaced,ncdimh-tbl-mdd-pharmacological
 ncdimh-0895,replaced,ncdimh-tbl-mdd-pharmacological
 ncdimh-0896,replaced,ncdimh-tbl-mdd-pharmacological
@@ -621,9 +663,11 @@ ncdimh-0910,replaced,ncdimh-tbl-alcohol-withdrawal-sedative
 ncdimh-0912,replaced,ncdimh-tbl-alcohol-dependence-drugs
 ncdimh-0913,replaced,ncdimh-tbl-alcohol-dependence-drugs
 ncdimh-0914,replaced,ncdimh-tbl-alcohol-dependence-drugs
+ncdimh-0922,text kept beside item,ncdimh-tbl-gad-drugs
 ncdimh-0922,replaced,ncdimh-tbl-gad-drugs
 ncdimh-0923,replaced,ncdimh-tbl-gad-drugs
 ncdimh-0924,replaced,ncdimh-tbl-gad-drugs
+ncdimh-0927,text kept beside item,ncdimh-box-suicide-warning-signs
 ncdimh-0927,replaced,ncdimh-box-suicide-warning-signs
 ncdimh-0929,replaced,ncdimh-box-suicidal-behaviour-diagnostic-features
 ncdimh-0938,replaced,ncdimh-tbl-asthma-diagnosis-checklist
@@ -633,17 +677,21 @@ ncdimh-0941,replaced,ncdimh-tbl-asthma-diagnostic-tests
 ncdimh-0942,replaced,ncdimh-tbl-asthma-diagnostic-tests
 ncdimh-0943,replaced,ncdimh-tbl-asthma-ddx-children
 ncdimh-0944,replaced,ncdimh-tbl-asthma-ddx-adults
+ncdimh-0945,text kept beside item,ncdimh-tbl-asthma-control
 ncdimh-0945,replaced,ncdimh-tbl-asthma-control
 ncdimh-0946,replaced,ncdimh-tbl-asthma-control
+ncdimh-0947,text kept beside item,ncdimh-tbl-asthma-severity-steps
 ncdimh-0947,replaced,ncdimh-tbl-asthma-severity-steps
 ncdimh-0948,replaced,ncdimh-tbl-asthma-severity-steps
 ncdimh-0949,replaced,ncdimh-tbl-asthma-steps-adults
 ncdimh-0950,replaced,ncdimh-tbl-asthma-biologics
 ncdimh-0951,replaced,ncdimh-tbl-asthma-step-up-down
+ncdimh-0952,text kept beside item,ncdimh-tbl-asthma-steps-6-11
 ncdimh-0952,replaced,ncdimh-tbl-asthma-steps-6-11
 ncdimh-0953,replaced,ncdimh-tbl-asthma-steps-6-11
 ncdimh-0954,replaced,ncdimh-tbl-asthma-steps-6-11
 ncdimh-0955,replaced,ncdimh-tbl-asthma-steps-6-11
+ncdimh-0956,text kept beside item,ncdimh-tbl-asthma-steps-under-5
 ncdimh-0956,replaced,ncdimh-tbl-asthma-steps-under-5
 ncdimh-0957,replaced,ncdimh-tbl-asthma-steps-under-5
 ncdimh-0958,replaced,ncdimh-tbl-asthma-steps-under-5
@@ -657,15 +705,18 @@ ncdimh-0967,replaced,ncdimh-tbl-asthma-long-term-older-format
 ncdimh-0968,replaced,ncdimh-box-acute-asthma-immediate
 ncdimh-0969,replaced,ncdimh-box-acute-asthma-immediate
 ncdimh-0970,replaced,ncdimh-fig-acute-asthma-primary-care
+ncdimh-0972,text kept beside item,ncdimh-fig-acute-asthma-hospital
 ncdimh-0972,replaced,ncdimh-fig-acute-asthma-hospital
 ncdimh-0973,replaced,ncdimh-fig-acute-asthma-hospital
 ncdimh-0976,replaced,ncdimh-tbl-copd-symptoms-signs
 ncdimh-0978,replaced,ncdimh-tbl-copd-bronchitis-vs-emphysema-ddx
 ncdimh-0979,replaced,ncdimh-tbl-copd-bronchitis-vs-emphysema-ddx
 ncdimh-0980,replaced,ncdimh-tbl-copd-bronchitis-vs-emphysema-ddx
+ncdimh-0981,text kept beside item,ncdimh-tbl-copd-severity
 ncdimh-0981,replaced,ncdimh-tbl-copd-severity
 ncdimh-0982,replaced,ncdimh-tbl-copd-severity
 ncdimh-0983,replaced,ncdimh-tbl-copd-severity
+ncdimh-0984,text kept beside item,ncdimh-fig-copd-stepwise
 ncdimh-0984,replaced,ncdimh-fig-copd-stepwise
 ncdimh-0985,replaced,ncdimh-fig-copd-stepwise
 ncdimh-0987,replaced,ncdimh-tbl-bronchiectasis
@@ -1035,6 +1086,7 @@ ncdimh-0395,trailing heading dropped (next is a table/flowchart),## **Algorithm 
 ncdimh-0716,trailing heading dropped (next is a table/flowchart),## Status Epilepticus ## Treatment Algorithm for Status Epilepticus
 ncdimh-0859,trailing heading dropped (next is a table/flowchart),## **Key Steps in Diabetic Foot Ulcer (DFU) Management**
 ncdimh-0875,trailing heading dropped (next is a table/flowchart),## **Treatment of Neuropathic Pain in Diabetic Foot**
+ncdimh-0981-rest-a,trailing heading dropped (next is a table/flowchart),## **MANAGEMENT OF COPD: NONPHARMACOLOGICAL APPROACHES**
 ncdimh-0690,dropped,
 ncdimh-0721,dropped,
 ncdimh-0842,dropped,
@@ -1049,6 +1101,7 @@ ncdimh-0256,merged into,ncdimh-0255
 ncdimh-0273,merged into,ncdimh-0272
 ncdimh-0300,merged into,ncdimh-0299
 ncdimh-0307,merged into,ncdimh-0306
+ncdimh-0389-rest-a,merged into,ncdimh-0388
 ncdimh-0423,merged into,ncdimh-0422
 ncdimh-0429,merged into,ncdimh-0428
 ncdimh-0439,merged into,ncdimh-0438
@@ -1063,23 +1116,32 @@ ncdimh-0532,merged into,ncdimh-0527
 ncdimh-0534,merged into,ncdimh-0527
 ncdimh-0536,merged into,ncdimh-0527
 ncdimh-0540,merged into,ncdimh-0538
+ncdimh-0546-rest-a,merged into,ncdimh-0545
 ncdimh-0619,merged into,ncdimh-0618
+ncdimh-0620-rest-a,merged into,ncdimh-0618
 ncdimh-0632,merged into,ncdimh-0631
 ncdimh-0641,merged into,ncdimh-0640
 ncdimh-0684,merged into,ncdimh-0683
 ncdimh-0716,merged into,ncdimh-0715
 ncdimh-0751,merged into,ncdimh-0750
 ncdimh-0779,merged into,ncdimh-0778
+ncdimh-0800-rest-a,merged into,ncdimh-0799
 ncdimh-0809,merged into,ncdimh-0808
+ncdimh-0810-rest-a,merged into,ncdimh-0808
+ncdimh-0814-rest-a,merged into,ncdimh-0813
 ncdimh-0830,merged into,ncdimh-0829
 ncdimh-0854,merged into,ncdimh-0853
 ncdimh-0859,merged into,ncdimh-0858
 ncdimh-0882,merged into,ncdimh-0881
+ncdimh-0894-rest-a,merged into,ncdimh-0891-rest
 ncdimh-0932,merged into,ncdimh-0931
 ncdimh-0975,merged into,ncdimh-0974
+ncdimh-0986,merged into,ncdimh-0984-rest
 ncdimh-0995,merged into,ncdimh-0994
 ncdimh-1018,merged into,ncdimh-1017
+ncdimh-0192-rest,merged into,ncdimh-0194
 ncdimh-0729,merged into,ncdimh-0730
+ncdimh-0796-rest,merged into,ncdimh-0798
 ncdimh-0904,merged into,ncdimh-0905
 ncdimh-0319,merged into,ncdimh-0317
 ncdimh-0388,merged into,ncdimh-0387
@@ -1110,6 +1172,7 @@ prep-2025-0081,replaced,prep-2025-tbl-community-prep-services
 prep-2025-0084,replaced,prep-2025-tbl-hiv-testing-initiation
 prep-2025-0087,replaced,prep-2025-box-ahi-signs-suspicion
 prep-2025-0089,replaced,prep-2025-box-ahi-signs-suspicion
+prep-2025-0090,text kept beside item,prep-2025-fig-initiation-exposure-ahi
 prep-2025-0090,replaced,prep-2025-fig-initiation-exposure-ahi
 prep-2025-0091,replaced,prep-2025-fig-initiation-exposure-ahi
 prep-2025-0092,replaced,prep-2025-fig-initiation-exposure-ahi
@@ -1137,6 +1200,7 @@ prep-2025-0129,replaced,prep-2025-fig-oral-ring-dispensing-schedule
 prep-2025-0133,replaced,prep-2025-tbl-restarting-prep
 prep-2025-0135,replaced,prep-2025-tbl-product-switch
 prep-2025-0136,replaced,prep-2025-tbl-product-switch
+prep-2025-0138,text kept beside item,prep-2025-box-creatinine-clearance-apri
 prep-2025-0138,replaced,prep-2025-box-creatinine-clearance-apri
 prep-2025-0144,replaced,prep-2025-fig-seroconverters
 prep-2025-0145,replaced,prep-2025-fig-seroconverters
@@ -1269,6 +1333,8 @@ prep-2025-0158,emptied,
 prep-2025-0194,cleaned,
 prep-2025-0202,cleaned,
 prep-2025-0202,label,6 Annexes > Annex 7: Management of PrEP adverse reactions => 6 Annexes > Annex 7: Management of PrEP Adverse Reactions
+prep-2025-0026,dropped,
+prep-2025-0077,dropped,
 prep-2025-0102,dropped,
 prep-2025-0103,dropped,
 prep-2025-0194,dropped,
@@ -1276,14 +1342,20 @@ prep-2025-0014,merged into,prep-2025-0013
 prep-2025-0064,merged into,prep-2025-0063
 prep-2025-0065,merged into,prep-2025-0063
 prep-2025-0086,merged into,prep-2025-0085
+prep-2025-0090-rest-a,merged into,prep-2025-0088
 prep-2025-0097,merged into,prep-2025-0096
 prep-2025-0115,merged into,prep-2025-0114
 prep-2025-0140,merged into,prep-2025-0139
+prep-2025-0138-rest,merged into,prep-2025-0139
 prep-2025-0112,merged into,prep-2025-0114
+prep-2025-0054,text stripped,## **Figure 7. CAB-LA “tail period”**; image: A line chart showing CAB PrEP bloo
+prep-2025-0069,text stripped,## **Figure 8. LEN dosing schedule**; image: LEN dosing schedule diagram
+prep-2025-add-p25-0,added from page,prep-2025-0054
 anc-0010,replaced,anc-tbl-mnch-indicators
 anc-0011,replaced,anc-tbl-mnch-indicators
 anc-0012,replaced,anc-tbl-mnch-indicators
 anc-0024,replaced,anc-tbl-anc-contact-schedule
+anc-0026,text kept beside item,anc-tbl-anc-essential-package
 anc-0026,replaced,anc-tbl-anc-essential-package
 anc-0027,replaced,anc-tbl-anc-essential-package
 anc-0028,replaced,anc-tbl-anc-essential-package
@@ -1310,6 +1382,7 @@ anc-0083,replaced,anc-tbl-ectopic-pregnancy
 anc-0086,replaced,anc-tbl-aph-diagnosis
 anc-0087,replaced,anc-tbl-aph-diagnosis
 anc-0089,replaced,anc-tbl-pre-eclampsia
+anc-0091,text kept beside item,anc-tbl-eclampsia
 anc-0091,replaced,anc-tbl-eclampsia
 anc-0092,replaced,anc-tbl-eclampsia
 anc-0093,replaced,anc-tbl-prom
@@ -1331,7 +1404,15 @@ anc-0097,label,7.1 Anemia during pregnancy => 7.0 Managing Common Conditions in 
 anc-0103,label,7.3 Syphilis => 7.4 Hepatitis B; 8.0 Community Involvement > 8.1 Community Awareness and Engagement for ANC
 anc-0105,label,8.1.1 Key messages => 8.1.1 Key Messages > 8.1.1.2 The Eight Contacts; 8.1.1.3 Alcohol and Drug Abuse
 anc-0107,label,8.1.1 Key messages > 8.1.1.4 Ultrasound => 8.1.1 Key Messages > 8.1.1.5 Adherence to Medication; 8.2 Community Engagement Platforms
+anc-0026-rest,dropped,
+anc-0062,dropped,
+anc-0090,dropped,
+anc-0091-rest,dropped,
 anc-0016,merged into,anc-0017
+anc-0061,text rewritten from page,
+anc-add-p1-0,added from page,anc-0007
+anc-add-p1-1,added from page,anc-add-p1-0
+anc-add-p23-2,added from page,anc-tbl-anc-essential-package
 unaids-linkages-sop-0009,replaced,unaids-linkages-sop-tbl-p13-0009
 unaids-linkages-sop-0010,replaced,unaids-linkages-sop-tbl-p13-0009
 unaids-linkages-sop-0011,replaced,unaids-linkages-sop-tbl-p13-0009
@@ -1378,6 +1459,8 @@ unaids-linkages-sop-0136,replaced,unaids-linkages-sop-tbl-p85-0136
 unaids-linkages-sop-0139,replaced,unaids-linkages-sop-tbl-p87-0139
 unaids-linkages-sop-0140,replaced,unaids-linkages-sop-tbl-p88-0140
 unaids-linkages-sop-0141,replaced,unaids-linkages-sop-tbl-p88-0140
+unaids-linkages-sop-0143,text kept beside item,unaids-linkages-sop-tbl-p91-0143
+unaids-linkages-sop-0143,text kept beside item,unaids-linkages-sop-tbl-p91-0143
 unaids-linkages-sop-0143,replaced,unaids-linkages-sop-tbl-p91-0143
 unaids-linkages-sop-0144,replaced,unaids-linkages-sop-tbl-p91-0143
 unaids-linkages-sop-0145,replaced,unaids-linkages-sop-tbl-p91-0143
@@ -1427,9 +1510,19 @@ unaids-linkages-sop-0137,label,"13.8 Linkages Case Management Data Flow and Repo
 unaids-linkages-sop-0169,emptied,
 unaids-linkages-sop-0171,emptied,
 unaids-linkages-sop-0173,emptied,
+unaids-linkages-sop-0031,dropped,
 unaids-linkages-sop-0088,dropped,
 unaids-linkages-sop-0119,dropped,
+unaids-linkages-sop-0142,dropped,
+unaids-linkages-sop-0143-rest,dropped,
 unaids-linkages-sop-0083,merged into,unaids-linkages-sop-0082
+unaids-linkages-sop-0030,merged into,unaids-linkages-sop-0032
+unaids-linkages-sop-0020,text rewritten from page,
+unaids-linkages-sop-0043,text rewritten from page,
+unaids-linkages-sop-0100,text rewritten from page,
+unaids-linkages-sop-0172,text rewritten from page,
+unaids-linkages-sop-0093,text rewritten from page,
+unaids-linkages-sop-0126,text rewritten from page,
 tb-2025-0021,replaced,tb-2025-tbl-p23-0021
 tb-2025-0022,replaced,tb-2025-tbl-p23-0021
 tb-2025-0023,replaced,tb-2025-tbl-p23-0021
@@ -1459,6 +1552,7 @@ tb-2025-0115,replaced,tb-2025-tbl-p56-0115
 tb-2025-0119,replaced,tb-2025-tbl-p57-0119
 tb-2025-0120,replaced,tb-2025-tbl-p57-0120
 tb-2025-0124,replaced,tb-2025-tbl-p57-0120
+tb-2025-0128,text kept beside item,tb-2025-fig-screen-plhiv-cxr
 tb-2025-0128,replaced,tb-2025-fig-screen-plhiv-cxr
 tb-2025-0129,replaced,tb-2025-fig-screen-plhiv-cxr
 tb-2025-0130,replaced,tb-2025-fig-screen-plhiv-cxr
@@ -1585,6 +1679,7 @@ tb-2025-0587,replaced,tb-2025-tbl-p226-0587
 tb-2025-0589,replaced,tb-2025-tbl-p227-0589
 tb-2025-0591,replaced,tb-2025-tbl-p227-0591
 tb-2025-0597,replaced,tb-2025-tbl-p230-0597
+tb-2025-0599,text kept beside item,tb-2025-fig-growth-curve-example
 tb-2025-0599,replaced,tb-2025-fig-growth-curve-example
 tb-2025-0600,replaced,tb-2025-fig-growth-curve-example
 tb-2025-0601,replaced,tb-2025-fig-growth-curve-example
@@ -1946,6 +2041,7 @@ fp-2021-0170,merged into,fp-2021-0168
 fp-2021-0171,merged into,fp-2021-0168
 fp-2021-0014,merged into,fp-2021-0015
 fp-2021-0038,merged into,fp-2021-0039
+fp-2021-0020,page-break sentence re-joined from,fp-2021-0021
 mental-health-deskguide-0009,replaced,mental-health-deskguide-tbl-p09-0009
 mental-health-deskguide-0010,replaced,mental-health-deskguide-tbl-p09-0009
 mental-health-deskguide-0021,replaced,mental-health-deskguide-tbl-p14-0021
@@ -2114,6 +2210,9 @@ mental-health-deskguide-0275,label,Chapter 5: Non Pharmacological Intervetions >
 mental-health-deskguide-0276,label,Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Pychiatric History Taking Sheet => Appendices > Psychiatric History Taking Sheet
 mental-health-deskguide-0277,label,Chapter 5: Non Pharmacological Intervetions > Home Visits and Community Integration Job Aid > Pychiatric History Taking Sheet => Appendices > Psychiatric History Taking Sheet
 mental-health-deskguide-0207,trailing heading dropped (next is a table/flowchart),## **IF THE PATIENT PRESENT WITH AGGRESSION/UNCONTROLLED BEHAVIOR**
+mental-health-deskguide-0035,dropped,
+mental-health-deskguide-0063,dropped,
+mental-health-deskguide-0229,dropped,
 mental-health-deskguide-0048,merged into,mental-health-deskguide-0043
 mental-health-deskguide-0057,merged into,mental-health-deskguide-0055
 mental-health-deskguide-0059,merged into,mental-health-deskguide-0055
@@ -2138,6 +2237,8 @@ mental-health-deskguide-0255,merged into,mental-health-deskguide-0254
 mental-health-deskguide-0162,merged into,mental-health-deskguide-0164
 mental-health-deskguide-0185,merged into,mental-health-deskguide-0187
 mental-health-deskguide-0245,merged into,mental-health-deskguide-0246
+mental-health-deskguide-0239,text rewritten from page,
+mental-health-deskguide-0240,text rewritten from page,
 hiv-2022-0006,replaced,hiv-2022-txt-p4-acknowledgements
 hiv-2022-0007,replaced,hiv-2022-txt-p4-acknowledgements
 hiv-2022-0014,replaced,hiv-2022-txt-p19-00
@@ -2244,6 +2345,7 @@ hiv-2022-0118,replaced,hiv-2022-txt-p54-48
 hiv-2022-0119,replaced,hiv-2022-txt-p55-49
 hiv-2022-0120,replaced,hiv-2022-txt-p55-50
 hiv-2022-0121,replaced,hiv-2022-txt-p55-50
+hiv-2022-0122,text kept beside item,hiv-2022-txt-p56-51
 hiv-2022-0122,replaced,hiv-2022-txt-p56-51
 hiv-2022-0123,replaced,hiv-2022-txt-p56-53
 hiv-2022-0124,replaced,hiv-2022-txt-p56-54
@@ -2475,6 +2577,8 @@ hiv-2022-0356,replaced,hiv-2022-tbl-6.19-ccm-management
 hiv-2022-0357,replaced,hiv-2022-tbl-6.19-ccm-management
 hiv-2022-0358,replaced,hiv-2022-tbl-6.19-ccm-management
 hiv-2022-0359,replaced,hiv-2022-tbl-6.19-ccm-management
+hiv-2022-0360,text kept beside item,hiv-2022-txt-p138-t0284
+hiv-2022-0360,text kept beside item,hiv-2022-txt-p138-t0284
 hiv-2022-0360,replaced,hiv-2022-txt-p138-t0284
 hiv-2022-0361,replaced,hiv-2022-txt-p138-t0285
 hiv-2022-0362,replaced,hiv-2022-txt-p138-t0284
@@ -2618,6 +2722,7 @@ hiv-2022-0499,replaced,hiv-2022-txt-p184-t0362
 hiv-2022-0500,replaced,hiv-2022-tbl-8.8-follow-up-pregnant-lactating
 hiv-2022-0501,replaced,hiv-2022-tbl-8.8-follow-up-pregnant-lactating
 hiv-2022-0502,replaced,hiv-2022-tbl-8.8-follow-up-pregnant-lactating
+hiv-2022-0503,text kept beside item,hiv-2022-txt-p186-t0363
 hiv-2022-0503,replaced,hiv-2022-txt-p186-t0363
 hiv-2022-0504,replaced,hiv-2022-txt-p186-t0363
 hiv-2022-0505,replaced,hiv-2022-fig-8.1-vl-cd4-pregnant-lactating
@@ -2875,6 +2980,7 @@ hiv-2022-0766,replaced,hiv-2022-fig-11.10-hbv-treatment-algorithm
 hiv-2022-0767,replaced,hiv-2022-fig-11.10-hbv-treatment-algorithm
 hiv-2022-0768,replaced,hiv-2022-fig-11.10-hbv-treatment-algorithm
 hiv-2022-0769,replaced,hiv-2022-tbl-11.11-hbv-test-interpretation
+hiv-2022-0770,text kept beside item,hiv-2022-fig-11.11-hbv-jaundice-diagnosis
 hiv-2022-0770,replaced,hiv-2022-fig-11.11-hbv-jaundice-diagnosis
 hiv-2022-0771,replaced,hiv-2022-fig-11.11-hbv-jaundice-diagnosis
 hiv-2022-0772,replaced,hiv-2022-tbl-11.12-hbv-treatment
@@ -2937,6 +3043,38 @@ hiv-2022-0830,replaced,hiv-2022-tbl-11.31-bmi-for-age-boys
 hiv-2022-0832,replaced,hiv-2022-tbl-11.31-bmi-for-age-girls
 hiv-2022-0834,replaced,hiv-2022-tbl-11.32-cough-respiratory-distress-ddx
 hiv-2022-0836,replaced,hiv-2022-tbl-11.33-immunization-schedule
+hiv-2022-txt-p32-02,small section merged into,hiv-2022-txt-p32-01
+hiv-2022-txt-p33-06,small section merged into,hiv-2022-txt-p33-05
+hiv-2022-txt-p50-40,small section merged into,hiv-2022-txt-p50-39
+hiv-2022-txt-p56-53,small section merged into,hiv-2022-txt-p56-52
+hiv-2022-txt-p81-t0205,small section merged into,hiv-2022-txt-p81-t0204
+hiv-2022-txt-p91-t0218,small section merged into,hiv-2022-txt-p91-t0216
+hiv-2022-txt-p91-t0219,small section merged into,hiv-2022-txt-p91-t0216
+hiv-2022-txt-p92-t0221,small section merged into,hiv-2022-txt-p92-t0220
+hiv-2022-txt-p93-t0223,small section merged into,hiv-2022-txt-p93-t0222
+hiv-2022-txt-p100-t0231,small section merged into,hiv-2022-txt-p100-t0230
+hiv-2022-txt-p119-t0263,small section merged into,hiv-2022-txt-p119-t0262
+hiv-2022-txt-p120-t0267,small section merged into,hiv-2022-txt-p120-t0266
+hiv-2022-txt-p140-t0287,small section merged into,hiv-2022-txt-p140-t0286
+hiv-2022-txt-p140-t0288,small section merged into,hiv-2022-txt-p140-t0286
+hiv-2022-txt-p142-t0292,small section merged into,hiv-2022-txt-p141-t0291
+hiv-2022-txt-p146-t0304,small section merged into,hiv-2022-txt-p146-t0303
+hiv-2022-txt-p148-t0310,small section merged into,hiv-2022-txt-p148-t0309
+hiv-2022-txt-p148-t0311,small section merged into,hiv-2022-txt-p148-t0309
+hiv-2022-txt-p154-t0325,small section merged into,hiv-2022-txt-p154-t0324
+hiv-2022-txt-p168-t0339,small section merged into,hiv-2022-txt-p168-t0338
+hiv-2022-txt-p190-t0366,small section merged into,hiv-2022-txt-p189-t0365
+hiv-2022-txt-p191-t0369,small section merged into,hiv-2022-txt-p191-t0368
+hiv-2022-txt-p198-t0374,small section merged into,hiv-2022-txt-p198-t0373
+hiv-2022-txt-p200-t0401,small section merged into,hiv-2022-txt-p200-t0400
+hiv-2022-txt-p205-t0408,small section merged into,hiv-2022-txt-p204-t0405
+hiv-2022-txt-p231-t0443,small section merged into,hiv-2022-txt-p230-t0442
+hiv-2022-txt-p241-t0456,small section merged into,hiv-2022-txt-p241-t0455
+hiv-2022-txt-p250-t0469,small section merged into,hiv-2022-txt-p250-t0468
+hiv-2022-txt-p256-t0475,small section merged into,hiv-2022-txt-p256-t0474
+hiv-2022-txt-p256-t0477,small section merged into,hiv-2022-txt-p256-t0476
+hiv-2022-txt-p257-t0481,small section merged into,hiv-2022-txt-p257-t0480
+hiv-2022-txt-p258-t0483,small section merged into,hiv-2022-txt-p258-t0482
 sti-vh-draft-2026-0004,replaced,sti-vh-draft-2026-txt-p2-t0101
 sti-vh-draft-2026-0005,replaced,sti-vh-draft-2026-txt-p2-t0101
 sti-vh-draft-2026-0006,replaced,sti-vh-draft-2026-txt-p2-t0101
@@ -2998,6 +3136,7 @@ sti-vh-draft-2026-0082,replaced,sti-vh-draft-2026-tbl-3-gus-organisms
 sti-vh-draft-2026-0083,replaced,sti-vh-draft-2026-tbl-3-gus-organisms
 sti-vh-draft-2026-0084,replaced,sti-vh-draft-2026-tbl-3-gus-organisms
 sti-vh-draft-2026-0085,replaced,sti-vh-draft-2026-txt-p40-t0141
+sti-vh-draft-2026-0086,text kept beside item,sti-vh-draft-2026-txt-p40-t0145
 sti-vh-draft-2026-0086,replaced,sti-vh-draft-2026-txt-p40-t0145
 sti-vh-draft-2026-0087,replaced,sti-vh-draft-2026-txt-p40-t0145
 sti-vh-draft-2026-0088,replaced,sti-vh-draft-2026-fig-1-chart-3-male-urethral-syndrome
@@ -3267,3 +3406,60 @@ sti-vh-draft-2026-0354,replaced,sti-vh-draft-2026-tbl-19-paediatric-syndromic-do
 sti-vh-draft-2026-0355,replaced,sti-vh-draft-2026-tbl-19-paediatric-syndromic-dosages
 sti-vh-draft-2026-0356,replaced,sti-vh-draft-2026-tbl-19-paediatric-syndromic-dosages
 sti-vh-draft-2026-0357,replaced,sti-vh-draft-2026-tbl-19-paediatric-syndromic-dosages
+sti-vh-draft-2026-0086-rest-a,dropped,
+sti-vh-draft-2026-txt-p78-t0209,dropped,
+sti-vh-draft-2026-txt-p34-t0129,text rewritten from page,
+sti-vh-draft-2026-txt-p36-t0140,text rewritten from page,
+sti-vh-draft-2026-txt-p78-t0208,text rewritten from page,
+sti-vh-draft-2026-txt-p24-t0112,small section merged into,sti-vh-draft-2026-txt-p24-t0111
+sti-vh-draft-2026-txt-p31-t0123,small section merged into,sti-vh-draft-2026-txt-p30-t0122
+sti-vh-draft-2026-txt-p34-t0129,small section merged into,sti-vh-draft-2026-txt-p34-t0128
+sti-vh-draft-2026-txt-p34-t0130,small section merged into,sti-vh-draft-2026-txt-p34-t0128
+sti-vh-draft-2026-txt-p34-t0131,small section merged into,sti-vh-draft-2026-txt-p34-t0128
+sti-vh-draft-2026-txt-p35-t0133,small section merged into,sti-vh-draft-2026-txt-p35-t0132
+sti-vh-draft-2026-txt-p35-t0134,small section merged into,sti-vh-draft-2026-txt-p35-t0132
+sti-vh-draft-2026-txt-p35-t0135,small section merged into,sti-vh-draft-2026-txt-p35-t0132
+sti-vh-draft-2026-txt-p36-t0140,small section merged into,sti-vh-draft-2026-txt-p36-t0139
+sti-vh-draft-2026-txt-p40-t0142,small section merged into,sti-vh-draft-2026-txt-p40-t0141
+sti-vh-draft-2026-txt-p40-t0143,small section merged into,sti-vh-draft-2026-txt-p40-t0141
+sti-vh-draft-2026-txt-p40-t0144,small section merged into,sti-vh-draft-2026-txt-p40-t0141
+sti-vh-draft-2026-txt-p44-t0147,small section merged into,sti-vh-draft-2026-txt-p44-t0146
+sti-vh-draft-2026-txt-p48-t0150,small section merged into,sti-vh-draft-2026-txt-p48-t0149
+sti-vh-draft-2026-txt-p48-t0151,small section merged into,sti-vh-draft-2026-txt-p48-t0149
+sti-vh-draft-2026-txt-p53-t0156,small section merged into,sti-vh-draft-2026-txt-p53-t0155
+sti-vh-draft-2026-txt-p53-t0157,small section merged into,sti-vh-draft-2026-txt-p53-t0155
+sti-vh-draft-2026-txt-p56-t0161,small section merged into,sti-vh-draft-2026-txt-p55-t0160
+sti-vh-draft-2026-txt-p56-t0162,small section merged into,sti-vh-draft-2026-txt-p55-t0160
+sti-vh-draft-2026-txt-p56-t0164,small section merged into,sti-vh-draft-2026-txt-p56-t0163
+sti-vh-draft-2026-txt-p61-t0167,small section merged into,sti-vh-draft-2026-txt-p60-t0166
+sti-vh-draft-2026-txt-p61-t0170,small section merged into,sti-vh-draft-2026-txt-p61-t0169
+sti-vh-draft-2026-txt-p62-t0171,small section merged into,sti-vh-draft-2026-txt-p61-t0169
+sti-vh-draft-2026-txt-p62-t0172,small section merged into,sti-vh-draft-2026-txt-p61-t0169
+sti-vh-draft-2026-txt-p68-t0181,small section merged into,sti-vh-draft-2026-txt-p68-t0180
+sti-vh-draft-2026-txt-p68-t0182,small section merged into,sti-vh-draft-2026-txt-p68-t0180
+sti-vh-draft-2026-txt-p69-t0184,small section merged into,sti-vh-draft-2026-txt-p68-t0183
+sti-vh-draft-2026-txt-p69-t0185,small section merged into,sti-vh-draft-2026-txt-p68-t0183
+sti-vh-draft-2026-txt-p73-t0203,small section merged into,sti-vh-draft-2026-txt-p73-t0202
+sti-vh-draft-2026-txt-p81-t0212,small section merged into,sti-vh-draft-2026-txt-p81-t0211
+sti-vh-draft-2026-txt-p85-t0217,small section merged into,sti-vh-draft-2026-txt-p85-t0216
+sti-vh-draft-2026-txt-p86-t0219,small section merged into,sti-vh-draft-2026-txt-p85-t0218
+sti-vh-draft-2026-txt-p86-t0220,small section merged into,sti-vh-draft-2026-txt-p85-t0218
+sti-vh-draft-2026-txt-p89-t0222,small section merged into,sti-vh-draft-2026-txt-p89-t0221
+sti-vh-draft-2026-txt-p89-t0223,small section merged into,sti-vh-draft-2026-txt-p89-t0221
+sti-vh-draft-2026-txt-p90-t0225,small section merged into,sti-vh-draft-2026-txt-p89-t0224
+sti-vh-draft-2026-txt-p91-t0229,small section merged into,sti-vh-draft-2026-txt-p91-t0228
+sti-vh-draft-2026-txt-p94-t0232,small section merged into,sti-vh-draft-2026-txt-p94-t0231
+sti-vh-draft-2026-txt-p94-t0233,small section merged into,sti-vh-draft-2026-txt-p94-t0231
+sti-vh-draft-2026-txt-p95-t0237,small section merged into,sti-vh-draft-2026-txt-p95-t0235
+sti-vh-draft-2026-txt-p96-t0238,small section merged into,sti-vh-draft-2026-txt-p95-t0235
+sti-vh-draft-2026-txt-p97-t0242,small section merged into,sti-vh-draft-2026-txt-p97-t0241
+sti-vh-draft-2026-txt-p95-t0236,small section merged into,sti-vh-draft-2026-txt-p97-t0241
+sti-vh-draft-2026-txt-p110-t0270,small section merged into,sti-vh-draft-2026-txt-p110-t0269
+sti-vh-draft-2026-txt-p114-t0277,small section merged into,sti-vh-draft-2026-txt-p114-t0276
+sti-vh-draft-2026-txt-p125-t0296,small section merged into,sti-vh-draft-2026-txt-p124-t0295
+sti-vh-draft-2026-txt-p127-t02101,small section merged into,sti-vh-draft-2026-txt-p127-t02100
+sti-vh-draft-2026-txt-p127-t02102,small section merged into,sti-vh-draft-2026-txt-p127-t02100
+sti-vh-draft-2026-txt-p128-t02104,small section merged into,sti-vh-draft-2026-txt-p128-t02103
+sti-vh-draft-2026-txt-p133-t02120,small section merged into,sti-vh-draft-2026-txt-p133-t02119
+sti-vh-draft-2026-txt-p134-t02121,small section merged into,sti-vh-draft-2026-txt-p133-t02119
+sti-vh-draft-2026-txt-p135-t02122,small section merged into,sti-vh-draft-2026-txt-p133-t02119

@@ -31,6 +31,17 @@ BAD_PART = re.compile(r'^(Flowchart:|Figure\s+\d|Diagram:|Refer to\b)', re.I)
 
 
 TINY_TOKENS = 60
+# lines of a replaced chunk that are never kept as leftover text: parser placeholders and figure labels
+REST_SKIP = re.compile(r'^[\s*_>#-]*(image:|photo:|drawing:|flow_?chart\b|diagram:|flowchart:|figure\s+\d|table\s+\d|sections:|items:|<)|\s->\s', re.I)
+
+
+def tok(s):
+    return re.findall(r'[a-z]+|[0-9]+', re.sub(r'</?[a-z][^>]*>', ' ', (s or '').lower()))
+
+
+def grams(s):
+    t = tok(s)
+    return {tuple(t[i:i + 3]) for i in range(len(t) - 2)}
 
 
 def in_fix_range(spec, c):
@@ -85,10 +96,49 @@ def main(src, out, pairs):
             pos = min(found) if found else last
             last = pos
             anchor.setdefault(pos, []).append(r)
+        # 1a. text a replaced chunk held besides the item (the heading above a table, an intro sentence, a note under
+        # it) must not be lost: lines of the replaced chunk that no record and no other chunk of the document contains
+        # are kept as a '<chunk>-rest' text chunk next to the item (before it if they came before the item's content)
+        doc_grams = set()
+        for r in recs:
+            doc_grams |= grams(r['text'])
+        for c in chunks:
+            if c['doc_id'] == doc and c['chunk_id'] not in replaced:
+                doc_grams |= grams(c['text'])
+        rest = {}
+        for c in chunks:
+            if c['chunk_id'] not in replaced or c['chunk_id'] in spec.get('text_drop', []) or c['type'] != 'text':
+                continue   # an old flowchart/table chunk was replaced on purpose: its leftovers are its own garbled text
+            before, after, seen_cov = [], [], False
+            for ln in c['text'].split('\n'):
+                s = ln.strip()
+                if not s or s.startswith('|') or REST_SKIP.match(s):
+                    continue
+                g = grams(s)
+                if not g or sum(x in doc_grams for x in g) / len(g) >= 0.5:
+                    if g: seen_cov = True
+                    continue
+                (after if seen_cov else before).append(ln)
+            def keep(ls):   # at least 8 words of prose besides headings
+                return ls if len(tok(' '.join(l for l in ls if not l.lstrip().startswith('#')))) >= 8 else []
+            before, after = keep(before), keep(after)
+            if before or after:
+                rest[c['chunk_id']] = (before, after)
         new = []
         for i, c in enumerate(chunks):
             for r in anchor.get(i, []):
+                b = [x for cid in r['replaces_chunks'] for x in rest.get(cid, ([], []))[0]]
+                a = [x for cid in r['replaces_chunks'] for x in rest.get(cid, ([], []))[1]]
+                src = next((chunks[first_pos[cid]] for cid in r['replaces_chunks'] if cid in first_pos), None)
+                if b and src:
+                    new.append(dict(src, chunk_id=src['chunk_id'] + '-rest-a', text='\n'.join(b), type='text', _changed=True))
+                    log.append((src['chunk_id'], 'text kept beside item', r['table_id']))
                 new.append(r)
+                if a and src:
+                    new.append(dict(src, chunk_id=src['chunk_id'] + '-rest', text='\n'.join(a), type='text', _changed=True))
+                    log.append((src['chunk_id'], 'text kept beside item', r['table_id']))
+                for cid in r['replaces_chunks']:
+                    rest.pop(cid, None)
             if c['chunk_id'] in replaced:
                 by = next(r['table_id'] for r in recs if c['chunk_id'] in r['replaces_chunks'])
                 removed.append(dict(c, drop_reason=f'replaced by {by}'))
@@ -258,6 +308,106 @@ def main(src, out, pairs):
                 removed.append(dict(s_c, drop_reason=f'merged into {d_id}'))
                 log.append((s_id, 'merged into', d_id))
             chunks = [c for c in chunks if c['chunk_id'] not in tm or c['chunk_id'] not in by_id or by_id.get(tm[c['chunk_id']]) is None]
+        # 4e. page furniture and page-break splits (quality sweep): running-header lines that recur in >= 4% of the
+        # document's text chunks and page-number tags are removed; a sentence cut at a page break (chunk ends without
+        # closing punctuation, next text chunk starts in lower case) is re-joined into the first chunk
+        T = [c for c in chunks if c['doc_id'] == doc and c['type'] == 'text' and not c.get('table_id')]
+        hc = {}
+        for c in T:
+            for ln in set(l.strip() for l in c['text'].split('\n')):
+                bare = ln.lstrip('#').strip(' *_')
+                if re.match(r'^# [^#]', ln) and len(tok(ln)) <= 8 and bare == bare.upper():   # top-level ALL-CAPS line only
+                    hc[ln] = hc.get(ln, 0) + 1
+        furniture = {l for l, n in hc.items() if n >= max(4, 0.04 * len(T)) and not re.search(r'\d+\.\d+', l)}
+        foot = {}        # page footers: a short ALL-CAPS non-heading line, page number aside, recurring in >= 4 chunks
+        for c in T:
+            seen_f = set()
+            for ln in set(l.strip() for l in c['text'].split('\n')):
+                pl_ = re.sub(r'<[^>]+>', '', ln)
+                w = [t for t in tok(ln) if not t.isdigit()]
+                if ln and not ln.startswith(('#', '|')) and 2 <= len(w) <= 6 and pl_ == pl_.upper():
+                    fk = ' '.join(w)
+                    e = foot.setdefault(fk, [set(), 0]); e[0].add(ln)
+                    if fk not in seen_f: e[1] += 1; seen_f.add(fk)
+        for lines_f, n_f in foot.values():
+            if n_f >= 4: furniture |= lines_f
+        for c in T:
+            lines = [l for l in c['text'].split('\n') if l.strip() not in furniture]
+            txt = re.sub(r'<circle>\s*\d+\s*</circle>|^\s*\d{1,3}\s*$', '', '\n'.join(lines), flags=re.M)
+            txt = re.sub(r'\n{3,}', '\n\n', txt).strip()
+            if txt != c['text']:
+                c['text'] = txt; c['_changed'] = True
+        for i, c in enumerate(chunks[:-1]):
+            nx = chunks[i + 1]
+            if c not in T or nx not in T or not c['text'] or not nx['text']:
+                continue
+            last = c['text'].rstrip().split('\n')[-1].rstrip(' *_')
+            m = re.match(r'([a-z][^\n]*?[.;:!?])(\s|$)', nx['text'].lstrip())
+            if last and not re.search(r'[.!?:;)\]|]$', last) and not last.lstrip().startswith(('#', '|')) and m:
+                frag = m.group(1)
+                c['text'] = c['text'].rstrip() + ' ' + frag
+                nx['text'] = nx['text'].lstrip()[len(frag):].lstrip()
+                c['_changed'] = nx['_changed'] = True
+                log.append((c['chunk_id'], 'page-break sentence re-joined from', nx['chunk_id']))
+        # 4d. hand-checked repairs from the page images (quality sweep):
+        #   'text_replace' {chunk_id: text}   - the chunk's text rewritten from the PDF text layer (skipped lines restored)
+        #   'text_add' [{after, page, heading_path, text}] - a passage missing from every chunk, inserted after chunk/item `after`
+        for cid, txt in spec.get('text_replace', {}).items():
+            for c in chunks:
+                if c['chunk_id'] == cid:
+                    if isinstance(txt, dict):          # {text, page_end}: a passage joined across a page break
+                        c['page_end'] = max(c['page_end'], txt.get('page_end', c['page_end'])); txt = txt['text']
+                    c['text'] = txt; c['_changed'] = True
+                    log.append((cid, 'text rewritten from page', ''))
+        for cid, subs in spec.get('text_strip', {}).items():     # decorative image captions etc. cut out of a chunk
+            for c in chunks:
+                if c['chunk_id'] == cid:
+                    t0 = c['text']
+                    for sub in subs:
+                        c['text'] = c['text'].replace(sub, '')
+                    c['text'] = re.sub(r'\n{3,}', '\n\n', c['text']).strip()
+                    if c['text'] != t0:
+                        c['_changed'] = True; log.append((cid, 'text stripped', '; '.join(subs)[:80]))
+                    else:
+                        log.append((cid, 'text_strip no match', '; '.join(subs)[:80]))
+        for n, a in enumerate(spec.get('text_add', [])):
+            pos = next((i for i, c in enumerate(chunks) if c['chunk_id'] == a['after'] or c.get('table_id') == a['after']), None)
+            if pos is None:
+                log.append((a['after'], 'text_add anchor missing', a['text'][:60])); continue
+            while pos + 1 < len(chunks) and chunks[pos + 1].get('table_id') and chunks[pos + 1].get('table_id') == chunks[pos].get('table_id'):
+                pos += 1     # after the last part of a split item
+            base = chunks[pos]
+            nc = {k: base[k] for k in ('doc_id', 'doc_title') if k in base}
+            nc.update(chunk_id=f"{doc}-add-p{a['page']}-{n}", type='text', heading_path=a['heading_path'], page_start=a['page'],
+                      page_end=a.get('page_end', a['page']), text=a['text'], _changed=True)
+            chunks.insert(pos + 1, nc)
+            log.append((nc['chunk_id'], 'added from page', a['after']))
+
+        # 4f. section items rebuilt from the PDF text layer ('txt-*', one record each) that hold under 40 words (a bare
+        # list of organisms, a one-line note) join the neighbouring section item of the same chapter, up to
+        # MERGED_MAX_TOKENS; the merged record keeps the first item's id and heading path
+        nrec = {}
+        for c in chunks:
+            if c.get('table_id'): nrec[c['table_id']] = nrec.get(c['table_id'], 0) + 1
+        def sec1(c):
+            return (c['doc_id'] == doc and c['type'] == 'text' and '-txt-' in (c.get('table_id') or '')
+                    and nrec.get(c['table_id']) == 1)
+        out3 = []
+        for c in chunks:
+            prev = out3[-1] if out3 else None
+            if (prev is not None and sec1(c) and sec1(prev)
+                    and prev['heading_path'].split(' > ')[0] == c['heading_path'].split(' > ')[0]
+                    and (len(tok(prev['text'])) < 40 or len(tok(c['text'])) < 40)
+                    and (len(prev['text']) + len(c['text'])) // 4 <= MERGED_MAX_TOKENS):
+                prev['text'] = prev['text'].rstrip() + '\n\n' + c['text']
+                prev['page_end'] = max(prev['page_end'], c['page_end'])
+                prev['absorbed_chunk_ids'] = prev.get('absorbed_chunk_ids', []) + [c['chunk_id']]
+                prev['_changed'] = True
+                removed.append(dict(c, drop_reason=f'merged into {prev["chunk_id"]}'))
+                log.append((c['chunk_id'], 'small section merged into', prev['chunk_id']))
+                continue
+            out3.append(c)
+        chunks = out3
 
     # 5. ids, neighbours, sizes, embed text
     groups = []          # consecutive records of one table_id form a group
