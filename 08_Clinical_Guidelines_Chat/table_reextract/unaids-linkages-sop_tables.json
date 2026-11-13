@@ -2419,5 +2419,6 @@
   "unaids-linkages-sop-0126": "(Process to identify clients that have disengaged from care, continued)\n\nc) Document demographic information (name, surname, CMIS number, date reported LTFU etc.) of clients that missed scheduled visits from the appointment register\n\nd) Verify LTFU using patient charts, CMIS /APMR, pharmacy records\n\ne) Contact confirmed LTFU using phone contacts\n\nf) If unable to contact the client on 3 different phone attempts on different days (or times) refer clients to community ECs\n\ng) If unable to track the client through home visits or Community partners for follow up home visits"
  },
  "text_add": [],
- "text_strip": {}
+ "text_strip": {},
+ "text_insert": {}
 }

@@ -1152,6 +1152,7 @@ ncdimh-0525,merged into,ncdimh-0527
 ncdimh-0538,merged into,ncdimh-0542
 ncdimh-0564,merged into,ncdimh-0562
 ncdimh-0875,merged into,ncdimh-0873
+ncdimh-0387,long chunk split into,ncdimh-0387-s1
 prep-2025-0010,replaced,prep-2025-tbl-terminology
 prep-2025-0021,replaced,prep-2025-tbl-oral-prep-drug-interactions
 prep-2025-0024,replaced,prep-2025-tbl-oral-prep-start-stop
@@ -1864,6 +1865,7 @@ tb-2025-0733,label,"17.2 Monitoring of TB Case Detection and Treatment Activitie
 tb-2025-0734,label,"17.2 Monitoring of TB Case Detection and Treatment Activities => Chapter 17: Monitoring, Evaluation and Supportive Supervision > 17.4 Planning (Five-year Plan and Annual Operational Plan)"
 tb-2025-0002,heading moved to,tb-2025-0012
 tb-2025-0363,trailing heading dropped (next is a table/flowchart),## **Figure 22: Decision tree for TB treatment in children <10 years old (for settings where CXR is not available)**
+tb-2025-0128-rest,dropped,
 tb-2025-0599-rest,dropped,
 tb-2025-0739,dropped,
 tb-2025-0163,merged into,tb-2025-0162
@@ -1876,6 +1878,48 @@ tb-2025-0645,merged into,tb-2025-0644
 tb-2025-0657,merged into,tb-2025-0656
 tb-2025-0561,merged into,tb-2025-0563
 tb-2025-0628,merged into,tb-2025-0629
+tb-2025-0107,text rewritten from page,
+tb-2025-0063,text rewritten from page,
+tb-2025-0126,text rewritten from page,
+tb-2025-0135,text rewritten from page,
+tb-2025-0138,text rewritten from page,
+tb-2025-0141,text rewritten from page,
+tb-2025-0164,text rewritten from page,
+tb-2025-0169,text rewritten from page,
+tb-2025-0291,text rewritten from page,
+tb-2025-0362,text rewritten from page,
+tb-2025-0364,text rewritten from page,
+tb-2025-0473,text rewritten from page,
+tb-2025-0476,text rewritten from page,
+tb-2025-0012,paragraph restored from page,Patient-Initiated Care: refers to a patient-initiated pathwa
+tb-2025-0014,paragraph restored from page,TB Case: refers to the occurrence of TB disease in a person.
+tb-2025-0058,paragraph restored from page,(d) Traditional Media: Though communication has evolved over
+tb-2025-0078,paragraph restored from page,"## 2.7 Risk Communication
+
+Risk communication refers to the "
+tb-2025-0092,paragraph restored from page,These active case-finding models may be implemented through 
+tb-2025-0213,paragraph restored from page,Ensure that the microscopy laboratories and health facilitie
+tb-2025-0223,paragraph restored from page,"## 5.4.3 Expired/ damaged laboratory and drug commodities
+
+A"
+tb-2025-0251,paragraph restored from page,Since some of the drugs recommended in the options above may
+tb-2025-0299,paragraph restored from page,(c) Switch to ITR shall be considered earlier in patients wi
+tb-2025-0324,paragraph restored from page,The community treatment supporters responsible for the super
+tb-2025-0467,paragraph restored from page,## 9.8 Structure and coordination of active pharmacovigilanc
+tb-2025-0502,paragraph restored from page,"Health workers (skilled, lay and support staff), offenders a"
+tb-2025-0717,paragraph restored from page,"Surveillance is the systematic collection, analysis, and rep"
+tb-2025-0725,paragraph restored from page,DR-TB Patient File (TB 08) Information relevant to the start
+tb-2025-0733,paragraph restored from page,Supervision will be carried out at all levels of the health 
+tb-2025-0678,paragraph restored from page,Leprosy is a chronic infectious disease caused by the mycoba
+tb-2025-0319,paragraph restored from page,The need for support should be assessed and the process of p
+tb-2025-0012,long chunk split into,tb-2025-0012-s1
+tb-2025-0014,long chunk split into,tb-2025-0014-s1
+tb-2025-0107,long chunk split into,tb-2025-0107-s1
+tb-2025-0251,long chunk split into,tb-2025-0251-s1
+tb-2025-0319,long chunk split into,tb-2025-0319-s1
+tb-2025-0324,long chunk split into,tb-2025-0324-s1
+tb-2025-0502,long chunk split into,tb-2025-0502-s1
+tb-2025-0733,long chunk split into,tb-2025-0733-s1
 fp-2021-0030,replaced,fp-2021-fig-counselling-process
 fp-2021-0037,replaced,fp-2021-tbl-p29-0037
 fp-2021-0043,replaced,fp-2021-tbl-p31-0043
@@ -2064,6 +2108,7 @@ fp-2021-0135,text rewritten from page,
 fp-2021-0067,text rewritten from page,
 fp-2021-0070,text rewritten from page,
 fp-2021-0166,text stripped,"image: header banner showing illustrations of Condom, Female condom, Oral contra"
+fp-2021-0020,long chunk split into,fp-2021-0020-s1
 mental-health-deskguide-0009,replaced,mental-health-deskguide-tbl-p09-0009
 mental-health-deskguide-0010,replaced,mental-health-deskguide-tbl-p09-0009
 mental-health-deskguide-0021,replaced,mental-health-deskguide-tbl-p14-0021

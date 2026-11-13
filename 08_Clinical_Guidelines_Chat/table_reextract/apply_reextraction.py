@@ -362,6 +362,19 @@ def main(src, out, pairs):
                         c['heading_path'] = txt.get('heading_path') or c['heading_path']; txt = txt['text']
                     c['text'] = txt; c['_changed'] = True
                     log.append((cid, 'text rewritten from page', ''))
+        for cid, ins in spec.get('text_insert', {}).items():     # [anchor, text]: a skipped paragraph put back after the anchor
+            for c in chunks:                                     # line (anchor '' = at the start of the chunk)
+                if c['chunk_id'] == cid:
+                    for anchor, add_t in ins:
+                        if anchor == '':
+                            c['text'] = add_t + '\n\n' + c['text']
+                        elif anchor in c['text']:
+                            i = c['text'].index(anchor) + len(anchor)
+                            j = c['text'].find('\n', i); j = len(c['text']) if j < 0 else j
+                            c['text'] = c['text'][:j] + '\n\n' + add_t + c['text'][j:]
+                        else:
+                            log.append((cid, 'text_insert anchor missing', anchor[:60])); continue
+                        c['_changed'] = True; log.append((cid, 'paragraph restored from page', add_t[:60]))
         for cid, subs in spec.get('text_strip', {}).items():     # decorative image captions etc. cut out of a chunk
             for c in chunks:
                 if c['chunk_id'] == cid:
@@ -411,6 +424,29 @@ def main(src, out, pairs):
                 continue
             out3.append(c)
         chunks = out3
+
+        # 4g. a plain text chunk grown past ~470 tokens (restored paragraphs) is split at the paragraph boundary nearest
+        # its middle, so each embedding part stays under the 512-token limit; the second part repeats the section name
+        def split_long(c, depth=0):
+            t = c['text']
+            if (depth > 3 or c['doc_id'] != doc or c['type'] != 'text' or c.get('table_id') or (len(t) + len(c.get('doc_title', '')) + len(c['heading_path']) + 30) // 4 <= 505):   # embed_text = title | path + text
+                return [c]
+            cuts = [m.start() for m in re.finditer(r'\n\n', t) if 0.25 * len(t) <= m.start() <= 0.75 * len(t)]
+            if not cuts:
+                cuts = [m.start() for m in re.finditer(r'\n(?=[-*•] |\d+\. )', t) if 0.25 * len(t) <= m.start() <= 0.75 * len(t)]
+            if not cuts:
+                return [c]
+            cut = min(cuts, key=lambda x: abs(x - len(t) // 2))
+            name = c['heading_path'].split(' > ')[-1]
+            a = dict(c, text=t[:cut].rstrip(), _changed=True)
+            b = dict(c, text=f'## {name} (continued)\n\n' + t[cut:].strip(), _changed=True,
+                     chunk_id=f"{c['chunk_id']}-s{depth + 1}", absorbed_chunk_ids=[])
+            log.append((c['chunk_id'], 'long chunk split into', b['chunk_id']))
+            return split_long(a, depth + 1) + split_long(b, depth + 1)
+        out4 = []
+        for c in chunks:
+            out4 += split_long(c)
+        chunks = out4
 
     # 5. ids, neighbours, sizes, embed text
     groups = []          # consecutive records of one table_id form a group
