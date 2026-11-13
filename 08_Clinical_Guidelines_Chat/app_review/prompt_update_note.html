@@ -1,0 +1,126 @@
+<title>Guideline Chat Prompt Update</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+/* Layout: single reading column, memo style, tables scroll in their own containers */
+:root{
+  --bg:#f7f8f7; --surface:#ffffff; --fg:#1d2420; --muted:#5a655f; --rule:#d9dfdb;
+  --accent:#1f6f5c; --accent-soft:#e3f0ec; --warn:#9a5b12; --warn-soft:#f8eddc;
+  --display:"Source Serif 4", Georgia, serif; --body:Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141917; --surface:#1b211e; --fg:#e4ebe7; --muted:#a2aea8; --rule:#2e3833;
+  --accent:#6fc2a9; --accent-soft:#1e3330; --warn:#e2b26b; --warn-soft:#3a2d1a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141917; --surface:#1b211e; --fg:#e4ebe7; --muted:#a2aea8; --rule:#2e3833;
+  --accent:#6fc2a9; --accent-soft:#1e3330; --warn:#e2b26b; --warn-soft:#3a2d1a; color-scheme:dark}
+body{background:var(--bg); color:var(--fg); font:16px/1.6 var(--body);
+  padding-left:max(16px, env(safe-area-inset-left,0px)); padding-right:max(16px, env(safe-area-inset-right,0px)); padding-block:40px 64px}
+main{max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:32px}
+header{display:flex; flex-direction:column; gap:8px; border-bottom:1px solid var(--rule); padding-bottom:20px}
+.eyebrow{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); font-weight:600}
+h1{font-family:var(--display); font-size:clamp(28px,5vw,38px); line-height:1.15; margin:0; text-wrap:balance}
+h2{font-family:var(--display); font-size:23px; margin:0 0 4px; text-wrap:balance}
+h3{font-size:15px; margin:16px 0 4px}
+p{margin:0}
+section{display:flex; flex-direction:column; gap:12px}
+.lede{font-size:18px; color:var(--muted)}
+.callout{background:var(--accent-soft); border-left:3px solid var(--accent); padding:14px 16px; border-radius:4px}
+.callout.warn{background:var(--warn-soft); border-left-color:var(--warn)}
+ol,ul{margin:0; padding-left:22px; display:flex; flex-direction:column; gap:6px}
+.table-wrap{overflow-x:auto; border:1px solid var(--rule); border-radius:6px; background:var(--surface)}
+table{border-collapse:collapse; width:100%; min-width:560px; font-size:14.5px}
+th,td{text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--rule)}
+th{font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:600}
+tr:last-child td{border-bottom:none}
+code{font-family:var(--mono); font-size:.88em; background:var(--accent-soft); padding:1px 5px; border-radius:3px}
+.pill{display:inline-block; font-size:12px; font-weight:600; padding:1px 8px; border-radius:999px; background:var(--accent-soft); color:var(--accent); white-space:nowrap}
+.pill.no{background:var(--warn-soft); color:var(--warn)}
+.small{font-size:14px; color:var(--muted)}
+</style>
+
+<main>
+<header>
+  <div class="eyebrow">Eswatini guideline chat · proposal</div>
+  <h1>Why we should update the answer prompt and a few app settings</h1>
+  <p class="lede">The chat often lists sources instead of answering, sometimes ignores the right passage, and occasionally repeats itself. Most of this traces to two instruction sets that contradict each other, plus default settings that suit a larger model. The fixes are small and need no new hardware.</p>
+</header>
+
+<section>
+  <h2>What we have been seeing</h2>
+  <ol>
+    <li><strong>Source-by-source answers.</strong> "One guideline says X, the other says Y" instead of one answer to the question.</li>
+    <li><strong>Right passage retrieved, then ignored.</strong> Asked who should be screened for cervical cancer, the search found the right NCDIMH and HIV 2022 passages, but the answer did not use them.</li>
+    <li><strong>Repeated lines.</strong> The same sentence written over and over in one answer.</li>
+  </ol>
+  <p class="small">The chunks behind these answers were checked against the PDFs page by page in a separate quality pass; the cervical screening passages, for example, are complete and correct. So the problem is in how the model is instructed and run, not in the documents.</p>
+</section>
+
+<section>
+  <h2>Main cause: the model gets two rulebooks that disagree</h2>
+  <p>Each answer is generated from the prompt file <code>guideline_rag_system_prompt.md</code> plus a "response contract" that <code>app.py</code> appends after it. The two were written at different times and conflict on basic points. A small model (Llama 3.1 8B) cannot reconcile them and follows whichever rule it happens to weight.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Topic</th><th>Prompt file says</th><th>App contract says</th></tr></thead>
+    <tbody>
+      <tr><td>Answer format</td><td>JSON with <code>type</code>, <code>matched_row</code>, <code>quote</code>… and all 4 examples use it</td><td><code>kind</code> + <code>blocks</code>, which the app enforces; the examples' format can never be returned</td></tr>
+      <tr><td>Citations</td><td>Write document name and page</td><td>Never write them; cite source numbers only</td></tr>
+      <tr><td>2022 vs 2024 HIV guidance</td><td>"Show both… do not pick one"</td><td>Follow the precedence note: the 2024 Amendment wins</td></tr>
+      <tr><td>Missing patient details</td><td>Ask first; give no regimen</td><td>Answer for each group, ask only if no subject at all</td></tr>
+      <tr><td>Tables</td><td>"If a table looks garbled, say so instead of interpreting"</td><td>Answer from any excerpt that contains the answer</td></tr>
+    </tbody>
+  </table></div>
+  <p>How this maps to the bugs: the "show both" rule and its example teach exactly the source-by-source pattern (bug 1). The "ask first" and "garbled table" rules push the model away from answering from tables and flowcharts, which is where the cervical screening criteria are (likely bug 2). The prompt also still contains unfilled placeholders such as "[quote from document 1]".</p>
+</section>
+
+<section>
+  <h2>Contributing causes in the settings</h2>
+  <ul>
+    <li><strong>Repetition (bug 3):</strong> the app runs the model at temperature 0 with forced JSON output. That combination is known to send 8B models into loops. A small temperature with a fixed seed keeps answers repeatable and largely stops the loops; a code check can reject any answer that repeats a sentence and retry.</li>
+    <li><strong>Possible context overflow:</strong> the context is 16,384 tokens, but one request can carry the prompt, 16 history messages, and 8 retrieved passages expanded to whole sections. When it overflows, Ollama silently drops the beginning, which is the system prompt. We are not logging the size, so we cannot yet tell how often this happens.</li>
+    <li><strong>Terminal and web differ:</strong> the terminal chat sends 8 passages to the model, the web app sends 5, so a bug seen in one may not reproduce in the other.</li>
+    <li><strong>STI 2026 draft flag:</strong> the document is registered as not-a-draft, so the "approval unconfirmed" notice never appears.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What I propose</h2>
+  <ol>
+    <li><strong>Replace the prompt</strong> with one consistent version (draft ready): about a third of the length, written for the format the app enforces. It keeps the useful parts (numeric checklist, safety, scope) and adds an explicit rule to answer by topic, not by source, plus two worked examples checked against the guidelines.</li>
+    <li><strong>Shorten the app's response contract</strong> to the format and calculation rules only, so the two no longer overlap.</li>
+    <li><strong>Change the generation settings</strong> (temperature 0.2, fixed seed) and add the repeated-sentence check.</li>
+    <li><strong>Log the prompt size</strong> and warn near the limit; trim history and passages if it fires.</li>
+    <li><strong>Pin the retrieval settings</strong> in <code>.env</code> (5-6 passages) so terminal and web behave the same; fix the STI draft flag.</li>
+  </ol>
+  <div class="callout"><p>All of these are text and settings changes in two files. Nothing is changed in the running app until we agree. The draft prompt and the code snippets are on the project branch in <code>08_Clinical_Guidelines_Chat/app_review/</code>.</p></div>
+</section>
+
+<section>
+  <h2>Should we change the model?</h2>
+  <p>Combining several sources into one answer is the specific skill where 8B models are weakest, so a better model would likely help more than any prompt. Our g4dn.2xlarge has one NVIDIA T4 with 16 GB of GPU memory. Llama 3.1 8B uses about 5 GB of it, so there is room for a stronger model without new hardware.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Model (Ollama)</th><th>Fits on the T4?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><code>qwen2.5:14b</code></td><td><span class="pill">Yes, ~13 GB at 16k context</span></td><td>Best candidate. Strong at instruction-following, structured JSON and multi-source answers. Slower than 8B.</td></tr>
+      <tr><td><code>phi4</code> (14B)</td><td><span class="pill">Yes, ~13 GB</span></td><td>Good reasoning and instruction-following; context limit is 16k, which matches our setting exactly.</td></tr>
+      <tr><td><code>qwen2.5:7b</code></td><td><span class="pill">Easily</span></td><td>Same speed as now; usually better than Llama 3.1 8B at JSON and synthesis. Lowest-risk swap.</td></tr>
+      <tr><td><code>mistral-nemo</code> (12B)</td><td><span class="pill">Yes</span></td><td>Long context; a reasonable alternative to test.</td></tr>
+      <tr><td><code>gemma2:9b</code></td><td><span class="pill no">Fits, but 8k context</span></td><td>Too short a context for our prompts.</td></tr>
+      <tr><td>27B models and larger</td><td><span class="pill no">No</span></td><td>Do not fit in 16 GB with our context.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Switching needs no code change: <code>ollama pull qwen2.5:14b</code>, set <code>LLM_MODEL</code> in <code>.env</code>, and rerun the problem questions. <code>ollama ps</code> confirms it runs fully on the GPU. If memory is tight, Ollama's 8-bit context cache (<code>OLLAMA_FLASH_ATTENTION=1</code> and <code>OLLAMA_KV_CACHE_TYPE=q8_0</code> on the server) roughly halves the context memory.</p>
+  <div class="callout warn"><p>A hosted model (for example through AWS Bedrock, since we are already on AWS) would be stronger still, but questions would leave our server. The app already strips patient identifiers, but this needs a data-governance decision before we consider it.</p></div>
+</section>
+
+<section>
+  <h2>How we would test it</h2>
+  <ol>
+    <li>Collect 30-50 real questions with known answers, including the three failures above, the earlier ANC p.180 and HIV p.190 cases, and dose/threshold questions.</li>
+    <li>Run them on the current setup with <code>--sources</code> to record what was retrieved and answered.</li>
+    <li>Apply the prompt and settings changes; rerun. Then try <code>qwen2.5:14b</code>; rerun.</li>
+    <li>Compare: correct answer, right group, cited correctly, no source-by-source listing, no repetition, response time.</li>
+  </ol>
+  <p class="small">Recommended order: prompt and settings first (cheap, no hardware change), then the model swap, judged on the same questions.</p>
+</section>
+</main>

@@ -49,3 +49,9 @@ The .md and the app's appended "response contract" contradict each other; the mo
   (possible factor in bug 2, cervical screening is mostly in tables/algorithm).
 Plan: one prompt (~600-800 words) written for the blocks schema, contract merged in, examples rewritten in that schema,
 precedence replaces "show both", numeric-row steps kept as a short checklist inside the text.
+
+## Drafted (in app_review/)
+- `guideline_rag_system_prompt.md` (v2): one consistent prompt for the blocks format; examples checked against chunks.
+- `app_py_changes.md`: shorter contract, generation settings + repetition check, prompt-size logging, .env pins, draft flag.
+- `prompt_update_note.html`: note for the colleague (also published as a private artifact).
+- Model options on the T4: qwen2.5:14b (best candidate), phi4, qwen2.5:7b (lowest-risk swap), mistral-nemo; not gemma2:9b (8k ctx).
