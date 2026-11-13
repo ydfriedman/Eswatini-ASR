@@ -509,18 +509,6 @@
   },
   {
    "kind": "section",
-   "table_id": "hiv-2022-txt-p33-04",
-   "page": 33,
-   "image_only": false,
-   "heading_path": "Chapter 2: Prevention of HIV > 2.2 Condoms (continued)",
-   "caption": "2.2 Condoms (continued)",
-   "replaces_chunks": [],
-   "content": "Key message: At every visit, assess knowledge and skill of condom use in all population (sexually active or not) to ensure correct and consistent condom use.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
    "table_id": "hiv-2022-txt-p33-05",
    "page": 33,
    "image_only": false,
@@ -1289,7 +1277,9 @@
    "image_only": false,
    "heading_path": "Chapter 2: Prevention of HIV > 2.6 Post-Exposure Prophylaxis > Recommended ARV Regimen for Post-Exposure Prophylaxis",
    "caption": "Recommended ARV regimens for post-exposure prophylaxis (PEP)",
-   "replaces_chunks": [],
+   "replaces_chunks": [
+    "hiv-2022-0086"
+   ],
    "content": "Adults/Adolescents ≥30kg:\n- Tenofovir (TDF)* + Lamivudine (3TC) + Dolutegravir (DTG)\n- If DTG is not available or contra-indicated, (ATV/r), DRV/r, LPV/r and RAL may be considered as an alternative 3rd drug option for PEP.\nChildren 10 years and younger or <30kg:\n- Zidovudine (AZT) + 3TC is recommended as the preferred backbone regimen for PEP.\n- ABC + 3TC or TDF + 3TC can be considered as alternative regimens.\n- DTG is the preferred third drug for PEP in children as per approved dosing schedule.\n- If DTG is not available or contraindicated, (ATV/r), DRV/r, LPV/r and RAL may be considered as an alternative 3rd drug option for PEP.\nAll HIV-negative individuals exposed to HIV are eligible for PEP as prescribed by any registered nurse or doctor; access PEP as early as 1 hour and within 72 hours; a three-drug regimen is preferred.\nIn the event of clients presenting after sexual assault, PEP to be initiated by HCW at first contact with client even without police form (RSP88) in all health care facilities or at a community service delivery point.",
    "footnotes": [],
    "source_flags": [
@@ -1391,20 +1381,6 @@
     45,
     46
    ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p44-32",
-   "page": 44,
-   "image_only": false,
-   "heading_path": "Chapter 2: Prevention of HIV > 2.6 Post-Exposure Prophylaxis > Considerations for Post-Exposure Prophylaxis",
-   "caption": "Considerations for Post-Exposure Prophylaxis",
-   "replaces_chunks": [
-    "hiv-2022-0086"
-   ],
-   "content": "Key message: In the event of clients presenting after sexual assault, PEP to be initiated by HCW at first contact with client even without police form (RSP88) in all health care facilities or at a community service delivery point.",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "kind": "box",
@@ -2172,18 +2148,6 @@
     "hiv-2022-0136"
    ],
    "content": "HTS testing point:\n1. Client presents for HTS.\n2. Intensive data system search (surname, name, ID number, DOB, phone details).\n3. Verify client using CMIS or AMPR list of prior HTS.\n   - Client found: HTS not provided; link to ART department.\n   - Client not found: HTS provided.\n       - HIV+: linked to ART department.\n       - HIV-: follow-up per guidelines.\nART unit:\n4. Linked to ART department: verify client in CMIS and AMPR list prior to ART initiation (intensive search: surname, name, ID number, DOB, phone details).\n   - Client found: no verification testing. Determine reason for retesting, offer disclosure and adherence counselling or facilitate care transfer as needed.\n   - Client not found: provide verification testing per guidelines.\n       - HIV+: initiate on ART.\n       - HIV-: follow re-testing guidance.\nClients who are identified at ART points as not new will be removed from the HTS entry point as new, and reclassified accordingly on the same day.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p61-57",
-   "page": 61,
-   "image_only": false,
-   "heading_path": "Chapter 3: HIV Testing Services > 3.7 Pre-Test Information",
-   "caption": "3.7 Pre-Test Information",
-   "replaces_chunks": [],
-   "content": "Informed Consent\nKey message: Obtain informed verbal consent in line with the 5 Cs of HTS.",
    "footnotes": [],
    "source_flags": []
   },
@@ -3274,20 +3238,6 @@
    ]
   },
   {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p82-t0208",
-   "page": 82,
-   "image_only": false,
-   "heading_path": "Chapter 4: Referral and Linkages > 4.10 Summary of enhanced Linkages Case Management",
-   "caption": "4.10 Summary of enhanced Linkages Case Management",
-   "replaces_chunks": [
-    "hiv-2022-0196"
-   ],
-   "content": "Patient literacy and ART readiness assessment are integral interventions to retain clients in care and should be done at each clinical visit.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
    "kind": "diagram",
    "table_id": "hiv-2022-fig-4.3-elcm-outline",
    "page": 83,
@@ -3295,7 +3245,8 @@
    "heading_path": "Chapter 4: Referral and Linkages > 4.10 Summary of enhanced Linkages Case Management > Figure 4.3",
    "caption": "Figure 4.3 Enhanced LCM outline (clinic visits and telephone calls over 180 days)",
    "replaces_chunks": [
-    "hiv-2022-0197"
+    "hiv-2022-0197",
+    "hiv-2022-0196"
    ],
    "content": "Clinic visits:\n- Day 0: diagnosis & ART initiation; LCM enrolment\n- Day 14: first clinic/ART refill; follow up on index testing and assess barriers\n- Day 30-45: second clinic/ART refill; follow up on index testing and assess barriers\n- Day 60-90: third clinic/ART refill; follow up on index testing and assess barriers\n- Day 150: fourth clinic/ART refill; continue index testing; prepare client for recharge, inform about ART available DSD options\n- Day 180: fifth clinic/ART refill; refill outstanding/pending issues; discharge client; refer to preferred DSD model\nTelephone calls:\n- Day 3-5 (1st call): explore challenges in regard to treatment\n- Day 10-12 (2nd call): remind about next appointment date\n- Day 21-29 (3rd call): explore challenges in regard to treatment & remind about next appointment\n- Day 44-60 (4th call): remind about next appointment date\n- Day 120-125 (5th call): explore challenges in regard to treatment\n- Day 170-175 (6th call): remind about next appointment date\nPatient literacy and ART readiness assessment are integral interventions to retain clients in care and should be done at each clinical visit.",
    "footnotes": [],
@@ -3586,7 +3537,8 @@
    "heading_path": "Chapter 5: Basic Care Package for HIV-Positive Individuals > 5.4 Co-trimoxazole Preventive Therapy (CPT) > Cotrimoxazole Dosing > Table 5.3",
    "caption": "Table 5.3 Co-trimoxazole Prophylaxis Dosing for Adults, Adolescents and Children",
    "replaces_chunks": [
-    "hiv-2022-0219"
+    "hiv-2022-0219",
+    "hiv-2022-0218"
    ],
    "row_header_cols": 2,
    "header": [
@@ -3781,20 +3733,6 @@
    "caption": "When to start CPT",
    "replaces_chunks": [],
    "content": "CPT should be started at enrolment into HIV chronic care. Clients with active TB — adults, adolescents and children — should continue to receive CPT regardless of CD4 count, until completion of TB treatment. After TB treatment is completed, they can be assessed to determine if CPT can be stopped.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p91-t0217",
-   "page": 91,
-   "image_only": false,
-   "heading_path": "Chapter 5: Basic Care Package for HIV-Positive Individuals > 5.4 Co-trimoxazole Preventive Therapy (CPT) > Cotrimoxazole Dosing",
-   "caption": "Cotrimoxazole Dosing",
-   "replaces_chunks": [
-    "hiv-2022-0218"
-   ],
-   "content": "Key message: Clients with a history of severe allergy to sulphur should not be given CPT. In such cases, dapsone is a safer alternative.",
    "footnotes": [],
    "source_flags": []
   },
@@ -4875,23 +4813,10 @@
    "heading_path": "Chapter 5: Basic Care Package for HIV-Positive Individuals > 5.9 > Cycle of events leading to clinical deterioration and growth retardation in persistent diarrhoea > Figure 5.2",
    "caption": "Figure 5.2 Cycle of events following chronic diarrhoea",
    "replaces_chunks": [
-    "hiv-2022-0265"
-   ],
-   "content": "Cycle around HIV at the centre: immune deficiency -> enteric infection -> malabsorption -> malnutrition -> immune deficiency (HIV feeds each step).\nAssess for dehydration and ensure good hydration in all cases. Children with persistent or chronic diarrhoea should be managed as inpatients and treatment depends on the specific cause of diarrhoea (see Standard treatment guidelines).",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p105-t0238",
-   "page": 105,
-   "image_only": false,
-   "heading_path": "Chapter 5: Basic Care Package for HIV-Positive Individuals > 5.9 Basic package of care for children and adolescents living with HIV > Cycle of events leading to clinical deterioration and growth retardation in persistent diarrhoea",
-   "caption": "Cycle of events leading to clinical deterioration and growth retardation in persistent diarrhoea",
-   "replaces_chunks": [
+    "hiv-2022-0265",
     "hiv-2022-0264"
    ],
-   "content": "Assess for dehydration and ensure good hydration in all cases. Children with persistent or chronic diarrhoea should be managed as inpatients and treatment depends on the specific cause of diarrhoea ( see Standard treatment guidelines )",
+   "content": "Cycle around HIV at the centre: immune deficiency -> enteric infection -> malabsorption -> malnutrition -> immune deficiency (HIV feeds each step).\nAssess for dehydration and ensure good hydration in all cases. Children with persistent or chronic diarrhoea should be managed as inpatients and treatment depends on the specific cause of diarrhoea (see Standard treatment guidelines).",
    "footnotes": [],
    "source_flags": []
   },
@@ -6476,7 +6401,9 @@
    "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 TB Prevention > Table 6.3 Recommended TPT Options",
    "caption": "Table 6.3 Recommended TPT Options",
    "replaces_chunks": [
-    "hiv-2022-0314"
+    "hiv-2022-0314",
+    "hiv-2022-0315",
+    "hiv-2022-0316"
    ],
    "row_header_cols": 1,
    "header": [
@@ -6549,21 +6476,6 @@
     "The 2025 National Integrated TB Management Guidelines (Chapter 11, Tables 55-58) give current TPT regimens and weight-band dosing (including 3HR, 3HP and 6Lfx with child-friendly formulations); check them for current practice.",
     "Superseded by the 2024 Amendment: INH/CTX/Vit B6 FDC is phased out as a TPT option; 3HP is for children and adolescents >14 years and ≥30 kg (was >12 years and 25 kg); TPT for MDR/INH-mono/PDR contacts is levofloxacin alone (no ethambutol) (Amendment Chapter 6)."
    ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p122-t0269",
-   "page": 122,
-   "image_only": false,
-   "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 TB Prevention > Timing for TPT initiation",
-   "caption": "Timing for TPT initiation",
-   "replaces_chunks": [
-    "hiv-2022-0315",
-    "hiv-2022-0316"
-   ],
-   "content": "Key message: TPT should be initiated 4 weeks after ART initiation . However, TPT initiation on the day of ART initiation may be considered, especially among stable clients without Advanced HIV Disease.",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "table_id": "hiv-2022-tbl-6.4-tpt-timing",
@@ -6938,7 +6850,9 @@
    "image_only": false,
    "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 TB Prevention > Monitoring of TPT clients",
    "caption": "Monitoring of TPT clients",
-   "replaces_chunks": [],
+   "replaces_chunks": [
+    "hiv-2022-0324"
+   ],
    "content": "Clients on TPT should be routinely monitored for adherence, adverse events and TB screening at all visits.\n- Stable patients should be reviewed at their standard HIV care visits and ART patients on DSD models should have their TPT refills and other appointments synchronized.\n- Additional follow-up strategies should be put in place to follow up patients on TPT with multi-month dispensing/scripting (MMD)\n- At each review, assess for:\n   - Adherence to therapy\n   - Toxicity (hepatitis, neuropathy, rash, etc.)\n   - TB symptoms.\n- Hold TPT and refer to the medical officer (MO) if there are major side effects e.g.,\n   - Symptoms of acute hepatitis and elevation of ALT three times ULN or\n   - When ALT increases 5 times or more the ULN\nTPT refill dates must be synchronized with ART refill or clinic visits.",
    "footnotes": [],
    "source_flags": []
@@ -7071,20 +6985,6 @@
     125,
     126
    ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p125-t0272",
-   "page": 125,
-   "image_only": false,
-   "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 TB Prevention > Monitoring of TPT clients",
-   "caption": "Monitoring of TPT clients",
-   "replaces_chunks": [
-    "hiv-2022-0324"
-   ],
-   "content": "Key message: TPT refill dates must be synchronized with ART refill or clinic visits",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "kind": "section",
@@ -7367,7 +7267,8 @@
    "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 TB Prevention > TPT Outcomes > Table 6.14",
    "caption": "Table 6.14 TPT patient outcomes",
    "replaces_chunks": [
-    "hiv-2022-0337"
+    "hiv-2022-0337",
+    "hiv-2022-0336"
    ],
    "row_header_cols": 1,
    "header": [
@@ -7436,20 +7337,6 @@
     "The 2025 National Integrated TB Management Guidelines (Chapter 11) give current TPT completion, interruption and outcome rules; check them for current practice."
    ],
    "context_before": "TPT outcomes should be documented in the patient records: electronic or paper-based. Transferred out is no longer considered an outcome as it does not show the definitive outcome of a TPT initiation. It is the responsibility of the initiating facility to follow-up on all patients transferred out to document the outcome at the end of the TPT course."
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p129-t0276",
-   "page": 129,
-   "image_only": false,
-   "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 TB Prevention > TPT Outcomes",
-   "caption": "TPT Outcomes",
-   "replaces_chunks": [
-    "hiv-2022-0336"
-   ],
-   "content": "Key message: Transferred out is no longer considered an outcome as it does not show the definitive outcome of a TPT initiation. It is the responsibility of the initiating facility to follow-up on all patients transferred out to document the outcome at the end of the TPT course.",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "kind": "section",
@@ -7562,24 +7449,6 @@
    ]
   },
   {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p130-t0278",
-   "page": 130,
-   "image_only": false,
-   "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 TB Prevention > ART for TB patients (continued)",
-   "caption": "ART for TB patients (continued)",
-   "replaces_chunks": [
-    "hiv-2022-0344"
-   ],
-   "content": "Key message: ART should be started as soon as TB treatment is tolerated, preferably within 2 weeks of initiating tuberculosis treatment, except for clients with TB meningitis",
-   "footnotes": [],
-   "source_flags": [],
-   "pages": [
-    130,
-    131
-   ]
-  },
-  {
    "kind": "box",
    "table_id": "hiv-2022-box-6.2-ahd-definition",
    "page": 131,
@@ -7603,7 +7472,8 @@
    "heading_path": "Chapter 6: TB/HIV Collaborative Activities & Advanced HIV Disease > 6.1.5 > ART for TB patients > Table 6.16",
    "caption": "Table 6.16 TB Treatment Drug Interactions",
    "replaces_chunks": [
-    "hiv-2022-0343"
+    "hiv-2022-0343",
+    "hiv-2022-0344"
    ],
    "row_header_cols": 1,
    "header": [
@@ -9145,7 +9015,8 @@
    "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.7.5 > Recommended First-Line ART for Clients Coinfected with Hepatitis B Virus > Table 7.5",
    "caption": "Table 7.5 Recommended TDF and 3TC doses in HBV clients with renal failure",
    "replaces_chunks": [
-    "hiv-2022-0408"
+    "hiv-2022-0408",
+    "hiv-2022-0409"
    ],
    "row_header_cols": 0,
    "header": [
@@ -9242,20 +9113,6 @@
     "hiv-2022-0407"
    ],
    "content": "- TDF and 3TC are preferred in hepatitis B coinfected clients for long‐term treatment of HBV as they lead to sustained HBV viral suppression, reversal of cirrhosis and fibrosis as well as a reduction in HBV‐related mortality.\n- If a client’s ART regimen needs to be changed due to HIV drug resistance, both TDF and 3TC shoul d be continued as part of the new second or third-line regimen to prevent hepatitis B viral load increase, ALT flares and hepatic decompensation.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p153-t0323",
-   "page": 153,
-   "image_only": false,
-   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.7.5 Clients with Viral Hepatitis Coinfection > Recommended First-Line ART for Clients Coinfected with Hepatitis B Virus (continued)",
-   "caption": "Recommended First-Line ART for Clients Coinfected with Hepatitis B Virus (continued)",
-   "replaces_chunks": [
-    "hiv-2022-0409"
-   ],
-   "content": "Key message: On Dialysis days, the client should take the ARV dose after the haemodialysis session",
    "footnotes": [],
    "source_flags": []
   },
@@ -9933,7 +9790,8 @@
    "replaces_chunks": [
     "hiv-2022-0439",
     "hiv-2022-0440",
-    "hiv-2022-0441"
+    "hiv-2022-0441",
+    "hiv-2022-0442"
    ],
    "row_header_cols": 1,
    "header": [
@@ -9982,20 +9840,6 @@
     165,
     166
    ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p166-t0336",
-   "page": 166,
-   "image_only": false,
-   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.11 Stepped Up Adherence Counselling (SUAC) (continued)",
-   "caption": "7.11 Stepped Up Adherence Counselling (SUAC) (continued)",
-   "replaces_chunks": [
-    "hiv-2022-0442"
-   ],
-   "content": "Key message: Special clinic days for clients whose treatment is suspected to be failing is recommended",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "kind": "section",
@@ -10194,7 +10038,8 @@
    "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.12.1 Second-Line ART for Adults and Adolescents > Table 7.11",
    "caption": "Table 7.11 Recommended Sequence of Second-line NRTI Options",
    "replaces_chunks": [
-    "hiv-2022-0453"
+    "hiv-2022-0453",
+    "hiv-2022-0457"
    ],
    "row_header_cols": 1,
    "header": [
@@ -10366,20 +10211,6 @@
     "hiv-2022-0456"
    ],
    "content": "Clients coinfected with HIV and HBV whose first-line regimen contained TDF + 3TC should be continued on TDF + 3TC in the second-line regimen for the anti-HBV activity to reduce the risk of hepatic flares.",
-   "footnotes": [],
-   "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p171-t0346",
-   "page": 171,
-   "image_only": false,
-   "heading_path": "Chapter 7: Adult Antiretroviral Therapy > 7.12.1 Second-Line ART for Adults and Adolescents > Recommended Second-Line ART for Hepatitis B Virus Infection",
-   "caption": "Recommended Second-Line ART for Hepatitis B Virus Infection",
-   "replaces_chunks": [
-    "hiv-2022-0457"
-   ],
-   "content": "Key message: If the failing regimen was TDF based, maintain TDF+3TC and add AZT to the NRTI backbone If the failing regimen was AZT based, switch to TDF+3TC in the NRTI backbone",
    "footnotes": [],
    "source_flags": []
   },
@@ -10876,7 +10707,8 @@
    "heading_path": "Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.3 Antenatal Care for Pregnant Women to Prevent Mother to Child Transmission > Table 8.5",
    "caption": "Table 8.5 Retesting schedule for Pregnant Women in Antenatal Care",
    "replaces_chunks": [
-    "hiv-2022-0489"
+    "hiv-2022-0489",
+    "hiv-2022-0488"
    ],
    "row_header_cols": 1,
    "header": [
@@ -10904,20 +10736,6 @@
     "Column headings added (none in the PDF)."
    ],
    "context_before": "The first antenatal care (ANC) visit should occur as soon as the woman realizes she is pregnant, preferably within the first trimester (0-12 weeks of gestation)."
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p180-t0359",
-   "page": 180,
-   "image_only": false,
-   "heading_path": "Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.3 Antenatal Care for Pregnant Women to Prevent Mother to Child Transmission",
-   "caption": "8.3 Antenatal Care for Pregnant Women to Prevent Mother to Child Transmission",
-   "replaces_chunks": [
-    "hiv-2022-0488"
-   ],
-   "content": "Services for Pregnant Women in Antenatal Care The first antenatal care (ANC) visit should occur as soon as the woman realizes she is pregnant, preferably within the first trimester (0-12 weeks of gestation).",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "table_id": "hiv-2022-tbl-8.6-anc-key-services",
@@ -11569,10 +11387,13 @@
      }
     ]
    ],
-   "footnotes": [],
+   "footnotes": [
+    "All lactating mothers who are HIV-negative should be re-tested every 2 months (aligned with the mother-baby postpartum care visits) until the end of breastfeeding."
+   ],
    "source_flags": [
     "The text calls this schedule 'Figure 6.2' and then 'Figure 8.2'.",
-    "The schedule has no birth-test or 6-8 week infant test entries (Table 8.13 tests at birth and 6-8 weeks)."
+    "The schedule has no birth-test or 6-8 week infant test entries (Table 8.13 tests at birth and 6-8 weeks).",
+    "Retesting interval for HIV-negative lactating women conflicts within section 8.7: the sentence under this figure says every 2 months until the end of breastfeeding; Table 8.11 gives 6 and 14 weeks, then every 3 months to 18 months (6, 9, 12, 15, 18 months); Table 8.12 says every 8 weeks for a mother whose status was unknown."
    ],
    "context_before": "Mothers and their babies should be seen as a pair from delivery; mother-baby pair visits are aligned to the child immunization schedule and ART appointments for mother and baby are linked to them."
   },
@@ -11606,13 +11427,10 @@
      }
     ]
    ],
-   "footnotes": [
-    "All lactating mothers who are HIV-negative should be re-tested every 2 months (aligned with the mother-baby postpartum care visits) until the end of breastfeeding."
-   ],
+   "footnotes": [],
    "source_flags": [
     "Column headings added. Retesting frequency differs within the section: the table gives fixed points (6, 14 weeks, 6, 9, 12, 15, 18 months), the text below says every 2 months until the end of breastfeeding."
-   ],
-   "context_before": "Caesarean section: a routine caesarean section is not recommended for PMTCT purposes. Newly diagnosed HIV-positive women must be initiated on ART at least 2 hours before an elective caesarean section for obstetric indications and continue ART post-operatively (even during the 'nil per os' period)."
+   ]
   },
   {
    "kind": "section",
@@ -11633,15 +11451,15 @@
    "table_id": "hiv-2022-txt-p190-t0367",
    "page": 190,
    "image_only": false,
-   "heading_path": "Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.7 Services for Lactating Women and their Children > Retesting schedule for Lactating Women in Postnatal Care (continued)",
-   "caption": "Retesting schedule for Lactating Women in Postnatal Care (continued)",
+   "heading_path": "Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.7 Services for Lactating Women and their Children > Follow-Up of Mother-Baby Pairs After Delivery",
+   "caption": "Follow-Up of Mother-Baby Pairs After Delivery",
    "replaces_chunks": [
     "hiv-2022-0510",
     "hiv-2022-0514",
     "hiv-2022-0516",
     "hiv-2022-0518"
    ],
-   "content": "Follow-Up of Mother-Baby Pairs After Delivery Mothers and their babies should be seen as a pair as much as possible from delivery. The mother-baby pair visits are aligned to the child immunization schedules. Figure 6.2 shows the timeline for the schedules of lactating mothers and their babies during the postpartum period. Mothers and their children should receive the mother-baby pair package of services outlined in Figure 8.2 . ART care appointments for the mother and their babies should also be linked to the mother-baby pair visit schedules.",
+   "content": "Mothers and their babies should be seen as a pair as much as possible from delivery. The mother-baby pair visits are aligned to the child immunization schedules. Figure 6.2 shows the timeline for the schedules of lactating mothers and their babies during the postpartum period. Mothers and their children should receive the mother-baby pair package of services outlined in Figure 8.2 . ART care appointments for the mother and their babies should also be linked to the mother-baby pair visit schedules.",
    "footnotes": [],
    "source_flags": []
   },
@@ -11948,7 +11766,8 @@
     "hiv-2022-0528",
     "hiv-2022-0529",
     "hiv-2022-0530",
-    "hiv-2022-0531"
+    "hiv-2022-0531",
+    "hiv-2022-0532"
    ],
    "row_header_cols": 1,
    "header": [
@@ -12051,20 +11870,6 @@
     194,
     195
    ]
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p195-t0370",
-   "page": 195,
-   "image_only": false,
-   "heading_path": "Chapter 8: Prevention of Mother to Child Transmission of HIV > 8.10 Infant Diagnosis > Steps to Successful Early Infant Diagnosis and Treatment",
-   "caption": "Steps to Successful Early Infant Diagnosis and Treatment",
-   "replaces_chunks": [
-    "hiv-2022-0532"
-   ],
-   "content": "Record contact information of mother (cell phone or physical/ residential address). Reinforce the importance of returning for test results. Encourage woman to bring partner to discuss test results. Emphasize that for all HIV-positive children, ART will be initiated urgently to keep the child alive and healthy. Ensure that counselling and support are available to the family.",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "kind": "section",
@@ -12520,7 +12325,8 @@
    "caption": "Table 9.1 Timing of ART initiation (after HIV verification/confirmation and clinical assessment)",
    "replaces_chunks": [
     "hiv-2022-0553",
-    "hiv-2022-0554"
+    "hiv-2022-0554",
+    "hiv-2022-0552"
    ],
    "row_header_cols": 1,
    "header": [
@@ -12611,22 +12417,6 @@
    "content": "See Table 5.11",
    "footnotes": [],
    "source_flags": []
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p204-t0406",
-   "page": 204,
-   "image_only": false,
-   "heading_path": "Chapter 9: ART for Children and Adolescents > 9.3 When to Start ART for Children and Adolescents",
-   "caption": "9.3 When to Start ART for Children and Adolescents",
-   "replaces_chunks": [
-    "hiv-2022-0552"
-   ],
-   "content": "Key message: All HIV-infected children and adolescents are eligible to start ART regardless of CD4 count or WHO clinical stage . It is imperative to confirm all presumptively diagnosed children with DNA PCR.\nKey message: Assess the client’s and caregiver’s readiness and address barriers to ART initiation. Initiate ART as soon after diagnosis as possible (preferably 0 – 14 days).",
-   "footnotes": [],
-   "source_flags": [
-    "Superseded by the 2024 Amendment: any ill-appearing HIV-exposed child <5 years is at risk of advanced HIV disease: if same-day HIV diagnostics are exhausted, start ART presumptively while awaiting PCR results, sending two DNA PCR samples before initiation (no need to await results); the Amendment lists the criteria for a presumptive diagnosis of severe HIV disease (Amendment 9.1)."
-   ]
   },
   {
    "table_id": "hiv-2022-tbl-9.2-ahd-definitions-children",
@@ -15345,18 +15135,6 @@
     "Daily alcohol limits differ between the two tables: Table 10.2 says no more than 30 ml ethanol/day for men and 15 ml/day for women (roughly 2 and 1 standard drinks), while this table allows 4 and 3 drinks/day."
    ],
    "context_before": "There are no safe alcohol drinking limits, as even the drinking limits listed below may cause adverse health outcomes in certain individuals particularly if one consumes alcohol too quickly, if they have other health problems, if they are pregnant and if they are above the age of 65. Consumption of alcohol while pregnant is strongly condemned."
-  },
-  {
-   "kind": "section",
-   "table_id": "hiv-2022-txt-p242-t0458",
-   "page": 242,
-   "image_only": false,
-   "heading_path": "Chapter 10: Management of Non-Communicable Diseases > 10.2 Care and Management of Hypertension and HIV for patients 18 years and older > Non-pharmacological management of hypertension (continued)",
-   "caption": "Non-pharmacological management of hypertension (continued)",
-   "replaces_chunks": [],
-   "content": "When ≥2 of the above lifestyle modifications are maintained, BP is lowered, and cardiovascular disease risk is decreased",
-   "footnotes": [],
-   "source_flags": []
   },
   {
    "kind": "box",

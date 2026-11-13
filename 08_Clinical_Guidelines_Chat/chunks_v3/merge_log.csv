@@ -2210,7 +2210,7 @@ hiv-2022-0082,replaced,hiv-2022-tbl-2.5-renal-monitoring-oral-prep
 hiv-2022-0083,replaced,hiv-2022-tbl-2.5-renal-monitoring-oral-prep
 hiv-2022-0084,replaced,hiv-2022-txt-p43-31
 hiv-2022-0085,replaced,hiv-2022-txt-p43-31
-hiv-2022-0086,replaced,hiv-2022-txt-p44-32
+hiv-2022-0086,replaced,hiv-2022-box-2.6-pep-regimens
 hiv-2022-0087,replaced,hiv-2022-tbl-2.6-pep-recommendations
 hiv-2022-0088,replaced,hiv-2022-tbl-2.6-pep-recommendations
 hiv-2022-0089,replaced,hiv-2022-tbl-2.6-pep-recommendations
@@ -2313,7 +2313,7 @@ hiv-2022-0192,replaced,hiv-2022-txt-p81-t0207
 hiv-2022-0193,replaced,hiv-2022-tbl-4.2-linkage-types
 hiv-2022-0194,replaced,hiv-2022-tbl-4.2-linkage-types
 hiv-2022-0195,replaced,hiv-2022-tbl-4.2-linkage-types
-hiv-2022-0196,replaced,hiv-2022-txt-p82-t0208
+hiv-2022-0196,replaced,hiv-2022-fig-4.3-elcm-outline
 hiv-2022-0197,replaced,hiv-2022-fig-4.3-elcm-outline
 hiv-2022-0199,replaced,hiv-2022-txt-p83-t0209
 hiv-2022-0200,replaced,hiv-2022-fig-4.4-stages-of-care
@@ -2334,7 +2334,7 @@ hiv-2022-0214,replaced,hiv-2022-tbl-5.2-baseline-labs
 hiv-2022-0215,replaced,hiv-2022-txt-p90-t0213
 hiv-2022-0216,replaced,hiv-2022-txt-p90-t0214
 hiv-2022-0217,replaced,hiv-2022-txt-p90-t0213
-hiv-2022-0218,replaced,hiv-2022-txt-p91-t0217
+hiv-2022-0218,replaced,hiv-2022-tbl-5.3-ctx-dosing
 hiv-2022-0219,replaced,hiv-2022-tbl-5.3-ctx-dosing
 hiv-2022-0220,replaced,hiv-2022-tbl-5.4-ctx-toxicity-grading
 hiv-2022-0221,replaced,hiv-2022-txt-p92-t0220
@@ -2379,7 +2379,7 @@ hiv-2022-0260,replaced,hiv-2022-txt-p104-t0236
 hiv-2022-0261,replaced,hiv-2022-tbl-5.12-cdc-immunologic-classification
 hiv-2022-0262,replaced,hiv-2022-txt-p104-t0236
 hiv-2022-0263,replaced,hiv-2022-txt-p104-t0237
-hiv-2022-0264,replaced,hiv-2022-txt-p105-t0238
+hiv-2022-0264,replaced,hiv-2022-fig-5.2-diarrhoea-cycle
 hiv-2022-0265,replaced,hiv-2022-fig-5.2-diarrhoea-cycle
 hiv-2022-0266,replaced,hiv-2022-txt-p105-t0239
 hiv-2022-0267,replaced,hiv-2022-txt-p105-t0240
@@ -2430,8 +2430,8 @@ hiv-2022-0311,replaced,hiv-2022-fig-6.2-tb-evaluation-plhiv
 hiv-2022-0312,replaced,hiv-2022-txt-p120-t0265
 hiv-2022-0313,replaced,hiv-2022-txt-p121-t0268
 hiv-2022-0314,replaced,hiv-2022-tbl-6.3-tpt-options
-hiv-2022-0315,replaced,hiv-2022-txt-p122-t0269
-hiv-2022-0316,replaced,hiv-2022-txt-p122-t0269
+hiv-2022-0315,replaced,hiv-2022-tbl-6.3-tpt-options
+hiv-2022-0316,replaced,hiv-2022-tbl-6.3-tpt-options
 hiv-2022-0317,replaced,hiv-2022-tbl-6.4-tpt-timing
 hiv-2022-0318,replaced,hiv-2022-txt-p123-t0270
 hiv-2022-0319,replaced,hiv-2022-tbl-6.5-tpt-dosing
@@ -2439,7 +2439,7 @@ hiv-2022-0320,replaced,hiv-2022-tbl-6.5-tpt-dosing
 hiv-2022-0321,replaced,hiv-2022-txt-p124-t0271
 hiv-2022-0322,replaced,hiv-2022-tbl-6.7-drtb-contact-risk
 hiv-2022-0323,replaced,hiv-2022-tbl-6.8-drtb-contact-pt
-hiv-2022-0324,replaced,hiv-2022-txt-p125-t0272
+hiv-2022-0324,replaced,hiv-2022-box-6.1.5-tpt-monitoring
 hiv-2022-0325,replaced,hiv-2022-txt-p125-t0273
 hiv-2022-0326,replaced,hiv-2022-tbl-6.9-tpt-adr-management
 hiv-2022-0327,replaced,hiv-2022-tbl-6.9-tpt-adr-management
@@ -2451,7 +2451,7 @@ hiv-2022-0332,replaced,hiv-2022-tbl-6.12-tpt-interruptions
 hiv-2022-0333,replaced,hiv-2022-tbl-6.12-tpt-interruptions
 hiv-2022-0334,replaced,hiv-2022-txt-p128-t0275
 hiv-2022-0335,replaced,hiv-2022-txt-p128-t0275
-hiv-2022-0336,replaced,hiv-2022-txt-p129-t0276
+hiv-2022-0336,replaced,hiv-2022-tbl-6.14-tpt-outcomes
 hiv-2022-0337,replaced,hiv-2022-tbl-6.14-tpt-outcomes
 hiv-2022-0338,replaced,hiv-2022-txt-p129-t0277
 hiv-2022-0339,replaced,hiv-2022-tbl-6.15-art-for-tb-hiv
@@ -2459,7 +2459,7 @@ hiv-2022-0340,replaced,hiv-2022-tbl-6.15-art-for-tb-hiv
 hiv-2022-0341,replaced,hiv-2022-tbl-6.15-art-for-tb-hiv
 hiv-2022-0342,replaced,hiv-2022-txt-p129-t0277
 hiv-2022-0343,replaced,hiv-2022-tbl-6.16-tb-drug-interactions
-hiv-2022-0344,replaced,hiv-2022-txt-p130-t0278
+hiv-2022-0344,replaced,hiv-2022-tbl-6.16-tb-drug-interactions
 hiv-2022-0345,replaced,hiv-2022-txt-p132-t0279
 hiv-2022-0346,replaced,hiv-2022-txt-p132-t0280
 hiv-2022-0347,replaced,hiv-2022-tbl-6.17-ahd-package
@@ -2524,7 +2524,7 @@ hiv-2022-0405,replaced,hiv-2022-txt-p152-t0321
 hiv-2022-0406,replaced,hiv-2022-box-7.7.5-apri-fib4
 hiv-2022-0407,replaced,hiv-2022-txt-p153-t0322
 hiv-2022-0408,replaced,hiv-2022-tbl-7.5-hbv-renal-doses
-hiv-2022-0409,replaced,hiv-2022-txt-p153-t0323
+hiv-2022-0409,replaced,hiv-2022-tbl-7.5-hbv-renal-doses
 hiv-2022-0410,replaced,hiv-2022-txt-p154-t0324
 hiv-2022-0411,replaced,hiv-2022-txt-p154-t0325
 hiv-2022-0412,replaced,hiv-2022-txt-p154-t0326
@@ -2557,7 +2557,7 @@ hiv-2022-0438,replaced,hiv-2022-fig-7.5-suac-session
 hiv-2022-0439,replaced,hiv-2022-tbl-7.9-suac-content
 hiv-2022-0440,replaced,hiv-2022-tbl-7.9-suac-content
 hiv-2022-0441,replaced,hiv-2022-tbl-7.9-suac-content
-hiv-2022-0442,replaced,hiv-2022-txt-p166-t0336
+hiv-2022-0442,replaced,hiv-2022-tbl-7.9-suac-content
 hiv-2022-0443,replaced,hiv-2022-txt-p167-t0337
 hiv-2022-0444,replaced,hiv-2022-txt-p167-t0337
 hiv-2022-0445,replaced,hiv-2022-txt-p167-t0337
@@ -2572,7 +2572,7 @@ hiv-2022-0453,replaced,hiv-2022-tbl-7.11-second-line-sequence
 hiv-2022-0454,replaced,hiv-2022-txt-p170-t0344
 hiv-2022-0455,replaced,hiv-2022-tbl-7.12-tb-second-line
 hiv-2022-0456,replaced,hiv-2022-txt-p171-t0345
-hiv-2022-0457,replaced,hiv-2022-txt-p171-t0346
+hiv-2022-0457,replaced,hiv-2022-tbl-7.11-second-line-sequence
 hiv-2022-0458,replaced,hiv-2022-txt-p171-t0347
 hiv-2022-0459,replaced,hiv-2022-txt-p172-t0348
 hiv-2022-0460,replaced,hiv-2022-txt-p172-t0349
@@ -2603,7 +2603,7 @@ hiv-2022-0484,replaced,hiv-2022-tbl-8.3-unintended-pregnancy
 hiv-2022-0485,replaced,hiv-2022-txt-p179-t0358
 hiv-2022-0486,replaced,hiv-2022-tbl-8.4-conception-advice
 hiv-2022-0487,replaced,hiv-2022-tbl-8.4-conception-advice
-hiv-2022-0488,replaced,hiv-2022-txt-p180-t0359
+hiv-2022-0488,replaced,hiv-2022-tbl-8.5-retesting-pregnant
 hiv-2022-0489,replaced,hiv-2022-tbl-8.5-retesting-pregnant
 hiv-2022-0490,replaced,hiv-2022-tbl-8.6-anc-key-services
 hiv-2022-0491,replaced,hiv-2022-tbl-8.6-anc-key-services
@@ -2647,7 +2647,7 @@ hiv-2022-0528,replaced,hiv-2022-tbl-8.14-exposed-infant-package
 hiv-2022-0529,replaced,hiv-2022-tbl-8.14-exposed-infant-package
 hiv-2022-0530,replaced,hiv-2022-tbl-8.14-exposed-infant-package
 hiv-2022-0531,replaced,hiv-2022-tbl-8.14-exposed-infant-package
-hiv-2022-0532,replaced,hiv-2022-txt-p195-t0370
+hiv-2022-0532,replaced,hiv-2022-tbl-8.14-exposed-infant-package
 hiv-2022-0533,replaced,hiv-2022-txt-p195-t0371
 hiv-2022-0534,replaced,hiv-2022-tbl-8.15-eip-special-cases
 hiv-2022-0536,replaced,hiv-2022-txt-p196-t0372
@@ -2666,7 +2666,7 @@ hiv-2022-0548,replaced,hiv-2022-txt-p201-t0403
 hiv-2022-0549,replaced,hiv-2022-txt-p201-t0404
 hiv-2022-0550,replaced,hiv-2022-txt-p201-t0404
 hiv-2022-0551,replaced,hiv-2022-txt-p201-t0404
-hiv-2022-0552,replaced,hiv-2022-txt-p204-t0406
+hiv-2022-0552,replaced,hiv-2022-tbl-9.1-art-timing-children
 hiv-2022-0553,replaced,hiv-2022-tbl-9.1-art-timing-children
 hiv-2022-0554,replaced,hiv-2022-tbl-9.1-art-timing-children
 hiv-2022-0555,replaced,hiv-2022-txt-p205-t0408
