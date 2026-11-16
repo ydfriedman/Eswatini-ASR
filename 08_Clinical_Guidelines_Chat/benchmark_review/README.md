@@ -17,7 +17,11 @@ or a normal web server, not inside a preview pane that blocks downloads). Work i
 **Download CSV** exports every question (one row each) and is how the review comes back; **Load saved CSV**
 restores a review on another computer.
 
-CSV columns: id, reviewer, document, safety_critical, original_question, proposed_question, question_decision
+Questions are grouped by disease area in the sidebar (collapsible, with a reviewed count per area), and the
+"All disease areas" menu narrows the list to one area, so a reviewer can take just their specialty. Areas are
+assigned in `build_review_data.py` (`AREAS`).
+
+CSV columns: id, area, reviewer, document, safety_critical, original_question, proposed_question, question_decision
 (keep / rewrite), suggested_question, proposed_reference_answer, reference_decision (approve / edit / reject),
 final_reference_answer, must_include, must_not_include (items separated by " ; "), comments, reviewed_at.
 

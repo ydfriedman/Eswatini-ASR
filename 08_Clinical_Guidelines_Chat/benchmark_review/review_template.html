@@ -42,8 +42,18 @@ textarea{width:100%; background:var(--surface); border:1px solid var(--rule); bo
 .wrap{display:grid; grid-template-columns:230px minmax(0,1fr); gap:0; min-height:calc(100vh - 60px)}
 nav.list{border-right:1px solid var(--rule); background:var(--surface); overflow-y:auto; max-height:calc(100vh - 60px); position:sticky; top:60px}
 nav.list .tools{padding:10px; display:flex; flex-direction:column; gap:8px; border-bottom:1px solid var(--rule)}
-nav.list ul{list-style:none; margin:0; padding:4px 0}
-nav.list li button{width:100%; text-align:left; border:0; background:none; padding:6px 12px; cursor:pointer; display:flex; gap:8px; align-items:baseline}
+nav.list ul{list-style:none; margin:0; padding:0 0 4px}
+nav.list details.group{border-bottom:1px solid var(--rule)}
+nav.list details.group > summary{list-style:none; cursor:pointer; padding:9px 12px; display:flex; gap:8px; align-items:baseline; font-size:14px; font-weight:600; color:var(--fg)}
+nav.list details.group > summary::-webkit-details-marker{display:none}
+nav.list details.group > summary::before{content:"▸"; color:var(--muted); width:10px; flex:none}
+nav.list details.group[open] > summary::before{content:"▾"}
+nav.list details.group > summary:hover{background:var(--surface-2)}
+nav.list .gname{flex:1; min-width:0}
+nav.list .gcount{font-size:12px; font-weight:400; color:var(--muted); font-variant-numeric:tabular-nums; white-space:nowrap}
+nav.list .gcount.all{color:var(--ok)}
+nav.list .empty{padding:12px; font-size:13px; color:var(--muted)}
+nav.list li button{width:100%; text-align:left; border:0; background:none; padding:6px 12px 6px 22px; cursor:pointer; display:flex; gap:8px; align-items:baseline}
 nav.list li button:hover{background:var(--surface-2)}
 nav.list li button[aria-current=true]{background:var(--accent-soft)}
 nav.list .qid{font-family:var(--mono); font-size:13px; flex:none}
@@ -116,11 +126,12 @@ details summary{cursor:pointer; color:var(--muted); font-size:13px}
         <option value="done">Reviewed</option>
         <option value="safety">Safety-critical</option>
         <option value="flag">Flagged by source check</option>
-        <option value="edge">Edge cases (Q109+)</option>
+        <option value="edge">Edge cases</option>
       </select>
+      <select id="areaFilter" aria-label="Disease area"><option value="">All disease areas</option></select>
       <input type="text" id="search" placeholder="Search questions" aria-label="Search questions">
     </div>
-    <ul id="qlist"></ul>
+    <div id="qlist"></div>
   </nav>
   <main>
     <div class="row mobile-pick" style="margin-bottom:12px">
@@ -195,23 +206,34 @@ function renderProgress() {
   document.getElementById('progress').textContent = `${n} of ${DATA.length} reviewed`;
 }
 function visible() {
-  const f = document.getElementById('filter').value, t = document.getElementById('search').value.toLowerCase();
+  const f = document.getElementById('filter').value, t = document.getElementById('search').value.toLowerCase(), area = document.getElementById('areaFilter').value;
   return DATA.filter(q => {
     if (f === 'todo' && status(q.id) === 'done') return false;
     if (f === 'done' && status(q.id) !== 'done') return false;
     if (f === 'safety' && q.safety !== 'yes') return false;
     if (f === 'flag' && !flagged(q)) return false;
-    if (f === 'edge' && q.id < 'Q109') return false;
+    if (f === 'edge' && q.category === 'standard') return false;
+    if (area && q.area !== area) return false;
     if (t && !(q.id.toLowerCase().includes(t) || q.question.toLowerCase().includes(t) || q.original_question.toLowerCase().includes(t))) return false;
     return true;
   });
 }
+const AREAS = [...new Set(DATA.map(q => q.area))];
+const openAreas = new Set([byId[current].area]);
 function renderList() {
   const v = visible();
-  document.getElementById('qlist').innerHTML = v.map(q =>
-    `<li><button type="button" data-id="${q.id}" aria-current="${q.id === current}"><span class="dot ${status(q.id)}"></span><span class="qid">${q.id}</span><span class="qtxt">${esc(q.question)}</span></button></li>`).join('');
-  document.getElementById('mobilePick').innerHTML = v.map(q =>
-    `<option value="${q.id}" ${q.id === current ? 'selected' : ''}>${q.id} ${status(q.id) === 'done' ? '✓' : ''} — ${esc(q.question.slice(0, 60))}</option>`).join('');
+  const narrowed = document.getElementById('filter').value !== 'all' || document.getElementById('search').value || document.getElementById('areaFilter').value;
+  const groups = AREAS.map(a => [a, v.filter(q => q.area === a)]).filter(([, qs]) => qs.length);
+  document.getElementById('qlist').innerHTML = groups.map(([a, qs]) => {
+    const all = DATA.filter(q => q.area === a), done = all.filter(q => status(q.id) === 'done').length;
+    const open = narrowed || openAreas.has(a);
+    return `<details class="group" data-area="${esc(a)}" ${open ? 'open' : ''}><summary><span class="gname">${esc(a)}</span>` +
+      `<span class="gcount ${done === all.length ? 'all' : ''}">${done}/${all.length}</span></summary><ul>` +
+      qs.map(q => `<li><button type="button" data-id="${q.id}" aria-current="${q.id === current}"><span class="dot ${status(q.id)}"></span><span class="qid">${q.id}</span><span class="qtxt">${esc(q.question)}</span></button></li>`).join('') +
+      '</ul></details>';
+  }).join('') || '<div class="empty">No questions match.</div>';
+  document.getElementById('mobilePick').innerHTML = groups.map(([a, qs]) => `<optgroup label="${esc(a)}">` + qs.map(q =>
+    `<option value="${q.id}" ${q.id === current ? 'selected' : ''}>${q.id} ${status(q.id) === 'done' ? '✓' : ''} — ${esc(q.question.slice(0, 60))}</option>`).join('') + '</optgroup>').join('');
 }
 function itemList(kind, items) {
   return `<ul class="items ${kind === 'must_include' ? 'must' : 'mustnot'}">` + items.map((x, k) =>
@@ -221,7 +243,7 @@ function itemList(kind, items) {
 function renderCard() {
   const q = byId[current], a = ans(current);
   const idx = DATA.findIndex(x => x.id === current);
-  const badges = [`<span class="badge">${esc(q.document || '—')}</span>`, `<span class="badge">${esc(q.type)}${q.category !== 'standard' ? ' · ' + esc(q.category) : ''}</span>`];
+  const badges = [`<span class="badge">${esc(q.area)}</span>`, `<span class="badge">${esc(q.document || '—')}</span>`, `<span class="badge">${esc(q.type)}${q.category !== 'standard' ? ' · ' + esc(q.category) : ''}</span>`];
   if (q.safety === 'yes') badges.push('<span class="badge safety">Safety-critical</span>');
   if (flagged(q)) badges.push('<span class="badge flag">Needs a clinical decision</span>');
   document.getElementById('card').innerHTML = `
@@ -284,7 +306,7 @@ function renderCard() {
       <button class="btn primary" type="button" id="nextBtn">${idx === DATA.length - 1 ? 'Save' : 'Save and next →'}</button>
     </div>`;
 }
-function go(id) { current = id; renderCard(); renderList(); save(); window.scrollTo(0, 0); }
+function go(id) { current = id; openAreas.add(byId[id].area); renderCard(); renderList(); save(); window.scrollTo(0, 0); }
 function touch() { ans(current).reviewed_at = new Date().toISOString(); save(); }
 
 document.getElementById('card').addEventListener('change', e => {
@@ -315,6 +337,9 @@ document.getElementById('card').addEventListener('click', e => {
   }
 });
 document.getElementById('qlist').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go(b.dataset.id); });
+document.getElementById('qlist').addEventListener('toggle', e => { const d = e.target; if (d.dataset && d.dataset.area) { d.open ? openAreas.add(d.dataset.area) : openAreas.delete(d.dataset.area); } }, true);
+document.getElementById('areaFilter').innerHTML += AREAS.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join('');
+document.getElementById('areaFilter').addEventListener('change', renderList);
 document.getElementById('mobilePick').addEventListener('change', e => go(e.target.value));
 document.getElementById('filter').addEventListener('change', renderList);
 document.getElementById('search').addEventListener('input', renderList);
@@ -325,7 +350,7 @@ let toastTimer;
 function toast(msg) { const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2600); }
 
 // CSV export / import
-const COLS = ['id', 'reviewer', 'document', 'safety_critical', 'original_question', 'proposed_question', 'question_decision', 'suggested_question',
+const COLS = ['id', 'area', 'reviewer', 'document', 'safety_critical', 'original_question', 'proposed_question', 'question_decision', 'suggested_question',
   'proposed_reference_answer', 'reference_decision', 'final_reference_answer', 'must_include', 'must_not_include', 'comments', 'reviewed_at'];
 const csvCell = v => { v = v == null ? '' : String(v); return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
 function toCsv() {
@@ -334,7 +359,7 @@ function toCsv() {
     const a = state.answers[q.id] || {};
     const finalRef = a.reference_decision === 'edit' ? a.reference_edit : (a.reference_decision === 'approve' ? q.reference : '');
     const inc = (a.must_include || q.must_include).filter(x => x.trim()), exc = (a.must_not_include || q.must_not_include).filter(x => x.trim());
-    rows.push([q.id, state.reviewer, q.document, q.safety, q.original_question, q.question, a.question_decision || '',
+    rows.push([q.id, q.area, state.reviewer, q.document, q.safety, q.original_question, q.question, a.question_decision || '',
       a.question_decision === 'rewrite' ? a.question_suggestion : '', q.reference, a.reference_decision || '', finalRef,
       inc.join(' ; '), exc.join(' ; '), a.comments || '', a.reviewed_at || ''].map(csvCell).join(','));
   });
