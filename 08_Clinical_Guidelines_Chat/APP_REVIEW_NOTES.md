@@ -1,4 +1,4 @@
-# Guideline chat app: review notes (paused, nothing patched yet)
+# Guideline chat app: review notes
 
 Context: `guideline_chat/app.py` + `chat.py` were shared for review (not in this repo). Server: AWS g4dn.2xlarge
 (1x NVIDIA T4, 16 GB VRAM; 8 vCPU; 32 GB RAM). Ollama with llama3.1:8b (answers) and bge-m3 (embeddings).
@@ -55,3 +55,21 @@ precedence replaces "show both", numeric-row steps kept as a short checklist ins
 - `app_py_changes.md`: shorter contract, generation settings + repetition check, prompt-size logging, .env pins, draft flag.
 - `prompt_update_note.html`: note for the colleague (also published as a private artifact).
 - Model options on the T4: qwen2.5:14b (best candidate), phi4, qwen2.5:7b (lowest-risk swap), mistral-nemo; not gemma2:9b (8k ctx).
+
+## Applied by the user (Nov 2026)
+Prompt v2, shorter response contract, generation settings (temperature 0.2, seed, top_p, repeat_penalty), repeated-
+sentence check, source-talk check (`_SOURCE_TALK`), per-call token logging. The cervical worked example was replaced
+by two cotrimoxazole examples (the model copied its closing question onto cervical questions).
+
+## Test results on llama3.1:8b with prompt v2
+- Tokens per call: retrieval_queries ~460 in / ~40 out; guideline_answer ~3,500 in / ~250 out. The system prompt is
+  roughly 1,700-2,000 of the 3,500, so only ~1,200-1,500 tokens of guideline text reach the model (3-4 passages).
+  Room to raise RETRIEVAL_TOP_K; LLM_NUM_CTX 8192 is enough for a 14B test.
+- No retries triggered; no looping seen.
+- Cervical questions: content right for VIA-positive cases (ablation if eligible; LEEP + 6 months if lesion >=75%),
+  but: "who should be screened" copied the special-populations table row by row and missed start/stop ages and HPV;
+  "HIV-negative, no HPV testing" said every 5 years (HPV interval) instead of VIA every 2 years (safety error);
+  every answer ended with a clarification even when the question stated HIV status.
+- Response: prompt no longer asks for a closing clarification and app.py strips any (app_py_changes.md).
+- Next: get the --sources list for the "no HPV testing" question (retrieval vs model); test qwen2.5:14b with the
+  same prompt and questions (LLM_NUM_CTX=8192; check `ollama ps` shows 100% GPU).

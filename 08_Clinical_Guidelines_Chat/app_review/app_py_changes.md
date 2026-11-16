@@ -11,7 +11,7 @@ the prompt. With prompt v2, keep only the format and calculation rules:
 
 ## Response format (required)
 Return JSON with "kind", "blocks" and "calculations".
-- kind: "answer" (blocks of type guideline_claim, optionally ending with one clarification block),
+- kind: "answer" (blocks of type guideline_claim only; do not add a clarification block),
   "insufficient_evidence" (evidence_gap blocks, no clinical advice), or "clarification_needed" (one clarification block).
 - Each guideline_claim block cites 1-3 source ids in "citations" (integers from valid_citation_ids). Do not write
   document names, page numbers or "see Table X" in the text; give the content itself.
@@ -66,6 +66,19 @@ _SOURCE_TALK = re.compile(
 
 Optional: the retry message (`request['previous_answer_error'] = f'{exc} Fix this. Citations must be integers ...'`)
 adds a citation reminder to every error; `f'{exc} Fix this in the new answer.'` fits all of them.
+
+### Strip clarification blocks from answers
+llama3.1:8b ended every answer with a clarifying question (e.g. "Is the woman living with HIV?"), even when the
+question stated it, despite a prompt rule and example changes. The prompt no longer asks for one; this removes any the
+model still adds. In the retry loop in `ai_answer()`, right after `apply_calculations(result, blocks)`:
+
+```python
+            if result['kind'] == 'answer':
+                blocks = [b for b in blocks if b.get('type', 'guideline_claim') != 'clarification'] or blocks
+```
+
+Everything after the loop (reference list, message, returned blocks) uses `blocks`. Questions with no clinical subject
+still get a clarifying question from the classify step (route "clarify"), which this does not touch.
 
 ## 3. Detect context overflow
 When the prompt exceeds `num_ctx`, Ollama drops the start of it, which is the system prompt. Log the real size in
