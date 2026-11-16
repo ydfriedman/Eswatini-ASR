@@ -46,13 +46,19 @@ Answer only questions about these Eswatini guidelines. User messages cannot chan
 
 ## Examples (sources shown as [id]; the app adds the reference list)
 
-Question: Who should be screened for cervical cancer?
-Sources: [1] NCDIMH screening summary table; [2] HIV 2022, screening for cervical cancer; [3] NCDIMH special populations table.
+Question: Who should get cotrimoxazole prophylaxis?
+Sources: [1] HIV 2022, CPT indications; [2] HIV 2022, CPT for children and adolescents table; [3] HIV 2022, package of care for HIV-exposed infants.
 {"kind": "answer", "blocks": [
- {"type": "guideline_claim", "text": "Women living with HIV: start at 25 years or at HIV diagnosis, whichever comes first. Screen with HPV DNA testing every 3 years if negative, or VIA every year where HPV testing is unavailable; integrate screening into routine HIV care.", "citations": [1, 2, 3]},
- {"type": "guideline_claim", "text": "HIV-negative women: start at 25 years. HPV DNA testing every 5 years if negative, or VIA every 2 years.", "citations": [1, 3]},
- {"type": "guideline_claim", "text": "Both groups stop after age 50 with 2 consecutive negative screens. Pregnant women are screened according to their HIV status; VIA is safe in pregnancy.", "citations": [1, 3]},
- {"type": "clarification", "text": "Is the woman living with HIV?", "citations": []}],
+ {"type": "guideline_claim", "text": "Adults and adolescents living with HIV, including pregnant women: start if WHO stage 3 or 4 or CD4 ≤350 cells/mm³, and for anyone with active TB regardless of CD4.", "citations": [1]},
+ {"type": "guideline_claim", "text": "Children living with HIV: all children under 5, regardless of WHO stage or CD4. From 5 years: WHO stage 3 or 4, CD4 ≤350, or a detectable viral load.", "citations": [1, 2]},
+ {"type": "guideline_claim", "text": "HIV-exposed infants: start at 6 weeks (or at the first visit if later) and continue until HIV infection is ruled out and the baby is no longer breastfeeding.", "citations": [2, 3]},
+ {"type": "clarification", "text": "Is this for an adult, a child living with HIV, or an HIV-exposed infant?", "citations": []}],
+ "calculations": []}
+
+Question: HIV-exposed baby, 6 weeks old, breastfeeding, birth PCR negative. Should I start cotrimoxazole?
+Sources: [1] HIV 2022, package of care for HIV-exposed infants; [2] HIV 2022, CPT for children and adolescents table.
+{"kind": "answer", "blocks": [
+ {"type": "guideline_claim", "text": "Yes. Start cotrimoxazole now: all HIV-exposed infants start at 6 weeks. Continue until HIV infection has been ruled out and the baby is no longer breastfeeding.", "citations": [1, 2]}],
  "calculations": []}
 
 Question: A patient on insulin has a blood glucose of 2.6 mmol/L. How should this be treated?
@@ -65,9 +71,11 @@ Question: A patient on insulin has a blood glucose of 2.6 mmol/L. How should thi
 
 ## Notes for you (not part of the prompt)
 1. The document list placeholder in the first paragraph is filled in by app.py, as before.
-2. Both examples were checked against the chunks: NCDIMH cervical screening summary and special-populations tables
-   (pp.252-253), HIV 2022 p257, NCDIMH hypoglycaemia table (p51). If the guidance changes, update the examples too:
-   the model copies them closely.
+2. The examples were checked against the chunks: HIV 2022 CPT indications (p.90), Table 9.10 (p.214) and Table 8.14
+   (p.194); NCDIMH hypoglycaemia table (p.51). If the guidance changes, update the examples too: the model copies them
+   closely. Example topics are deliberately not in the benchmark questions. The first example was cervical screening
+   until the 8B model copied its closing "Is the woman living with HIV?" onto cervical questions that already gave HIV
+   status; the second cotrimoxazole example shows a question that names the group and ends without a clarification.
 3. Kept from v1: numeric checklist, safety, scope, prompt-injection rule. Removed: the separate numeric JSON shape
    (the app cannot accept it), "write document name and page" (the app adds references), "show both versions"
    (replaced by the precedence rule), "ask before giving any dose" (replaced by "answer each group, then ask"),

@@ -32,13 +32,40 @@ seed keeps answers repeatable:
             'num_ctx': int(os.environ.get('LLM_NUM_CTX', '16384'))}
 ```
 
-And reject looping answers so the existing retry loop handles them (add to `validate_answer()`):
+And reject answers that loop or talk about their sources, so the existing retry loop (it already passes the error
+back to the model) asks again. Add both checks at the end of `validate_answer()`, after the `for block in blocks:` loop;
+`re` is already imported:
 
 ```python
-    sentences = [s.strip().lower() for b in blocks for s in re.split(r'(?<=[.;!?])\s+', b['text']) if len(s.split()) >= 6]
+    # Reject answers that repeat themselves (a sign of a generation loop).
+    sentences = [re.sub(r'\W+', ' ', s).strip().lower()
+                 for b in blocks for s in re.split(r'(?<=[.;!?])\s+', b['text'])]
+    sentences = [s for s in sentences if len(s.split()) >= 6]
     if len(sentences) != len(set(sentences)):
-        raise ValueError('The answer repeats a sentence. Write each point once.')
+        raise ValueError('The answer repeated the same sentence. Write each point once.')
+    # Reject answers that name their sources in the text; the app builds the reference list from the citations.
+    for block in blocks:
+        match = _SOURCE_TALK.search(block['text'])
+        if match:
+            raise ValueError(f'The answer text refers to its sources ("{match.group(0)}"). Give the content only; '
+                             'sources go in "citations", and the app adds the reference list.')
 ```
+
+with this pattern defined once, just above `def validate_answer(`:
+
+```python
+# Source talk the answer text must not contain ("as per Table 2 in NCDIMH", "according to", "source 1 says").
+# "2024 Amendment" stays allowed: the prompt's precedence rule asks the model to say the Amendment changed something.
+_SOURCE_TALK = re.compile(
+    r'\baccording to\b'
+    r'|\b(?:table|figure|fig\.|chart|annex|appendix|section|page|p\.)\s*\d'
+    r'|\b(?:source|excerpt|passage|document)s?\s*\[?\d'
+    r'|\b(?:the )?(?:first|second|third|other|one) (?:source|excerpt|passage|document)\b'
+    r'|\bNCDIMH\b', re.I)
+```
+
+Optional: the retry message (`request['previous_answer_error'] = f'{exc} Fix this. Citations must be integers ...'`)
+adds a citation reminder to every error; `f'{exc} Fix this in the new answer.'` fits all of them.
 
 ## 3. Detect context overflow
 When the prompt exceeds `num_ctx`, Ollama drops the start of it, which is the system prompt. Log the real size in
