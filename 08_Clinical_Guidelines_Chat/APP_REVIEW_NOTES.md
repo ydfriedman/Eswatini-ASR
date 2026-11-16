@@ -73,3 +73,13 @@ by two cotrimoxazole examples (the model copied its closing question onto cervic
 - Response: prompt no longer asks for a closing clarification and app.py strips any (app_py_changes.md).
 - Next: get the --sources list for the "no HPV testing" question (retrieval vs model); test qwen2.5:14b with the
   same prompt and questions (LLM_NUM_CTX=8192; check `ollama ps` shows 100% GPU).
+
+## qwen2.5:14b, same prompt and questions (LLM_NUM_CTX 8192)
+- Q1 who to screen: by group, both tests per group, pregnancy rule derived correctly; missing stop rule and "start at
+  HIV diagnosis" because the NCDIMH summary table was not retrieved (2 of 5 slots went to Amendment HIV-testing text).
+- Q2 HIV-negative, no HPV: VIA every 2 years (8B said 5 years). Q3 eligible VIA+: ablation + 12-month VIA (complete).
+- Q4 lesion ~80%: LEEP, correct; missed the 6-month follow-up. Q5 CD4 280 cotrimoxazole: yes, no clarification.
+- Verdict: clearly better at reading tables and combining rows; remaining gaps are mostly retrieval. Pending: response
+  time and `ollama ps` (GPU fit).
+- Retrieval fixes proposed (app_py_changes.md 7-8): relevance check on the extra Amendment search; one slot per table.
+

@@ -139,3 +139,25 @@ The 0.08 margin is a starting guess: bge-m3 similarities depend on the corpus. T
 Amendment hit's score for a few questions where the Amendment matters (HIV self-test consent age, CrAg threshold,
 viral load thresholds) and a few where it does not (cervical screening), and pick a margin that keeps the first and
 drops the second.
+
+## 8. Keep one copy of a table when several search queries return different parts of it
+Each part of a split re-extracted table (`...-p1`, `...-p2`) carries the whole table. `search()` already keeps only
+one part per search (`seen_tables`), but `ai_answer()` fuses the results of up to 4 queries by `chunk_id`, so two
+queries returning different parts give two slots with identical text. Seen with qwen2.5:14b: "Adult living with HIV,
+CD4 280. Does he need cotrimoxazole?" listed the 2024 Amendment AHD package table (`hiv-amendment-2024-tbl-6.2-ahd-
+package-p1` and `-p2`) as sources 1 and 3. Two small changes:
+
+In `search()`, add the table id to each result (the dict built around line 867):
+
+```python
+            'approx_tokens': approx_tokens, 'document_order': document_order, 'table_id': table_id or '',
+```
+
+In `ai_answer()`'s `add_ranked()`, key the fused results on the table id when there is one (line 518):
+
+```python
+            marker = source.get('table_id') or source.get('chunk_id', (source['document']['id'], source['page']))
+```
+
+The parts' scores then add up in one entry, which also ranks a table found by several queries higher.
+
