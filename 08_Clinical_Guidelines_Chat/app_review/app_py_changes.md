@@ -54,13 +54,14 @@ back to the model) asks again. Add both checks at the end of `validate_answer()`
 with this pattern defined once, just above `def validate_answer(`:
 
 ```python
-# Source talk the answer text must not contain ("as per Table 2 in NCDIMH", "according to", "source 1 says").
+# Source talk the answer text must not contain ("as per Table 2 in NCDIMH", "according to", "source 1 says",
+# "this source does not apply"). "the source of infection" stays allowed.
 # "2024 Amendment" stays allowed: the prompt's precedence rule asks the model to say the Amendment changed something.
 _SOURCE_TALK = re.compile(
     r'\baccording to\b'
     r'|\b(?:table|figure|fig\.|chart|annex|appendix|section|page|p\.)\s*\d'
     r'|\b(?:source|excerpt|passage|document)s?\s*\[?\d'
-    r'|\b(?:the )?(?:first|second|third|other|one) (?:source|excerpt|passage|document)\b'
+    r'|\b(?:this|that|these|those|the|first|second|third|other|one) (?:source|excerpt|passage|document)s?\b(?!\s+of\b)'
     r'|\bNCDIMH\b', re.I)
 ```
 
