@@ -161,3 +161,25 @@ In `ai_answer()`'s `add_ranked()`, key the fused results on the table id when th
 
 The parts' scores then add up in one entry, which also ranks a table found by several queries higher.
 
+## 9. Run the embedding model on the CPU so the answer model stays loaded
+With qwen2.5:14b (10 GB, 100% GPU, 8192 context) on the T4, Ollama kept only one model loaded (`loaded runners
+count=1`, with OLLAMA_MAX_LOADED_MODELS=2): each question unloaded qwen to embed the search queries with bge-m3 and
+then reloaded it (~4 s per question, plus losing the prompt cache, so the ~2,000-token system prompt was reprocessed
+every call at ~512 tokens/s). The queries are 8-13 tokens, so embedding them on the CPU costs milliseconds. In
+`embedding_request()` (around line 139), send `num_gpu` (layers offloaded to the GPU; 0 = CPU only):
+
+```python
+    # 0 = run the embedding model on the CPU, so it never pushes the answer model off the GPU.
+    num_gpu = int(os.environ.get('EMBEDDING_NUM_GPU', '0'))
+    request = urllib.request.Request(
+        base + '/api/embed',
+        data=json.dumps({'model': model, 'input': texts, 'options': {'num_gpu': num_gpu}},
+                        ensure_ascii=False).encode(),
+        headers={'Content-Type': 'application/json'})
+```
+
+No index rebuild is needed (CPU and GPU vectors are practically identical; the index fingerprint is the chunk file and
+model name). A full rebuild on the CPU is slower (minutes for ~3,200 chunks). Check with `ollama ps` during a
+question: qwen2.5:14b 100% GPU and bge-m3 100% CPU, both staying listed. Set EMBEDDING_NUM_GPU=999 to put it back on
+the GPU on a larger server.
+
