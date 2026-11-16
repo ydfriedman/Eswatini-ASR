@@ -4,8 +4,8 @@ Last updated 16 Nov 2026. Code for each change is in `app_review/app_py_changes.
 background and test results are in `APP_REVIEW_NOTES.md`.
 
 ## Where things stand
-- Running qwen2.5:14b (10 GB, 100% GPU, context 8192) with bge-m3 on the CPU; both stay loaded. About 20 s per
-  answer, accepted in favour of accuracy.
+- Running qwen2.5:14b (10 GB, 100% GPU, context 8192) with bge-m3 on the CPU; both stay loaded. Measured 13-21 s per
+  answer after the CPU-embedding fix, accepted in favour of accuracy.
 - In place: prompt v2 with the cotrimoxazole examples, shorter response contract, generation settings, repeated-
   sentence check, source-talk check, clarification blocks stripped from answers, token logging, embeddings on CPU.
 - qwen2.5:14b fixed the 8B safety error (VIA every 2 years, not 5) and reads tables far better. The remaining gaps are
