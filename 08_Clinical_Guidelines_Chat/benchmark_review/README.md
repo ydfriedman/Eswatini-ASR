@@ -1,10 +1,16 @@
 # Benchmark review for clinicians
 
 The benchmark questions packaged for clinician review: the original 152, revised and re-checked against chunks_v3
-(Q001-Q152), plus 26 new questions (Q153-Q178). The new ones cover NCD guideline chapters that had no questions
-(cervical and breast cancer, stroke, heart failure, CKD, COPD, epilepsy, injuries, poisoning and others) and add 7
-questions whose answer has to be combined from two or more sources. New questions have no original; their metadata
-is stored in `revised_questions.jsonl` under `meta`, and the page marks them "New question".
+(Q001-Q152), plus 36 added questions (Q153-Q188) covering NCD guideline chapters that had none, paediatric NCD
+content, and questions whose answer must be combined from two or more sources.
+
+The page is written for clinicians: it shows the question, reference answer, must-include / must-not-include lists and
+the guideline text, but not the original wording or change history (those stay in `revised_questions.jsonl`:
+`change`, and `meta` for added questions). Two notes guide reviewers:
+- a green note under questions that are unusual on purpose (vague, misspelled, wrong premise, emergencies...), from
+  `HOW_TO_READ` in `build_review_data.py`, so reviewers judge the answer instead of rewriting the question;
+- a "Please decide" note where the guidelines disagree, are unclear, or the answer goes beyond them
+  (`needs_decision` in `revised_questions.jsonl`; 23 questions).
 
 | File | What it is |
 |---|---|
@@ -25,9 +31,8 @@ Questions are grouped by disease area in the sidebar (collapsible, with a review
 "All disease areas" menu narrows the list to one area, so a reviewer can take just their specialty. Areas are
 assigned in `build_review_data.py` (`AREAS`).
 
-CSV columns: id, area, reviewer, document, safety_critical, original_question, proposed_question, question_decision
-(keep / rewrite), suggested_question, proposed_reference_answer, reference_decision (approve / edit / reject),
-final_reference_answer, must_include, must_not_include (items separated by " ; "), comments, reviewed_at.
+CSV columns: id, area, reviewer, safety_critical, needs_decision, question, question_decision (keep / rewrite),
+suggested_question, reference_answer, reference_decision (approve / edit / reject), final_reference_answer, must_include, must_not_include (items separated by " ; "), comments, reviewed_at.
 
 ## Rebuild
 From `08_Clinical_Guidelines_Chat/`:

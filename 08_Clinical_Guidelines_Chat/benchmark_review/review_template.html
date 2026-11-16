@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Benchmark Answer Review</title>
+<title>Guideline Answer Review</title>
 <style>
 /* Layout: question list on the left, one question at a time on the right; list collapses to a dropdown on phones */
 :root{
@@ -68,7 +68,6 @@ main{padding:20px max(16px, env(safe-area-inset-right,0px)) 60px 24px; min-width
 .head .id{font-family:var(--mono); font-size:15px; font-weight:600}
 .badge{font-size:12px; padding:2px 8px; border-radius:999px; background:var(--surface-2); color:var(--muted); white-space:nowrap}
 .badge.safety{background:var(--bad-soft); color:var(--bad)}
-.badge.new{background:var(--accent-soft); color:var(--accent)}
 .badge.flag{background:var(--warn-soft); color:var(--warn)}
 section.block{background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:14px 16px; display:flex; flex-direction:column; gap:10px}
 section.block h2{font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:0; font-weight:600}
@@ -77,6 +76,7 @@ section.block h2{font-size:13px; text-transform:uppercase; letter-spacing:.06em;
 .check{font-size:13px; padding:8px 10px; border-radius:6px; background:var(--surface-2)}
 .check.flag{background:var(--warn-soft); color:var(--fg); border-left:3px solid var(--warn)}
 .reference{white-space:pre-wrap}
+.howto{font-size:14px; padding:8px 10px; border-radius:6px; background:var(--accent-soft); border-left:3px solid var(--accent)}
 .choices{display:flex; flex-wrap:wrap; gap:6px 18px}
 .choices label{display:flex; gap:6px; align-items:center; cursor:pointer}
 details summary{cursor:pointer; color:var(--muted); font-size:13px}
@@ -110,7 +110,7 @@ details summary{cursor:pointer; color:var(--muted); font-size:13px}
 </head>
 <body>
 <header class="top">
-  <h1>Benchmark answer review</h1>
+  <h1>Guideline answer review</h1>
   <div class="field"><label for="reviewer">Your name</label><input type="text" id="reviewer" placeholder="Name and role" size="18"></div>
   <span class="progress" id="progress"></span>
   <button class="btn" id="helpBtn" type="button">How to review</button>
@@ -126,12 +126,11 @@ details summary{cursor:pointer; color:var(--muted); font-size:13px}
         <option value="todo">Not yet reviewed</option>
         <option value="done">Reviewed</option>
         <option value="safety">Safety-critical</option>
-        <option value="flag">Flagged by source check</option>
-        <option value="edge">Edge cases</option>
-        <option value="new">New questions</option>
+        <option value="flag">Needs a clinical decision</option>
+        <option value="edge">Unusual questions (vague, misleading, emergencies...)</option>
       </select>
       <select id="areaFilter" aria-label="Disease area"><option value="">All disease areas</option></select>
-      <input type="text" id="search" placeholder="Search questions" aria-label="Search questions">
+      <input type="text" id="search" placeholder="Search questions and answers" aria-label="Search questions and answers">
     </div>
     <div id="qlist"></div>
   </nav>
@@ -172,7 +171,7 @@ function status(id) {
   if (a.question_decision || a.reference_decision || a.comments) return 'part';
   return '';
 }
-const flagged = q => /CONFLICT|corrected|clinician to/i.test(q.check);
+const flagged = q => q.needs_decision;
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 // Minimal markdown for source text: tables, headings, bold, lists, and a few inline tags.
@@ -215,9 +214,8 @@ function visible() {
     if (f === 'safety' && q.safety !== 'yes') return false;
     if (f === 'flag' && !flagged(q)) return false;
     if (f === 'edge' && q.category === 'standard') return false;
-    if (f === 'new' && q.original_question) return false;
     if (area && q.area !== area) return false;
-    if (t && !(q.id.toLowerCase().includes(t) || q.question.toLowerCase().includes(t) || q.original_question.toLowerCase().includes(t))) return false;
+    if (t && !(q.id.toLowerCase().includes(t) || q.question.toLowerCase().includes(t) || q.reference.toLowerCase().includes(t))) return false;
     return true;
   });
 }
@@ -248,8 +246,7 @@ function itemList(kind, items) {
 function renderCard() {
   const q = byId[current], a = ans(current);
   const idx = DATA.findIndex(x => x.id === current);
-  const badges = [`<span class="badge">${esc(q.area)}</span>`, `<span class="badge">${esc(q.document || '—')}</span>`, `<span class="badge">${esc(q.type)}${q.category !== 'standard' ? ' · ' + esc(q.category) : ''}</span>`];
-  if (!q.original_question) badges.push('<span class="badge new">New question</span>');
+  const badges = [`<span class="badge">${esc(q.area)}</span>`];
   if (q.safety === 'yes') badges.push('<span class="badge safety">Safety-critical</span>');
   if (flagged(q)) badges.push('<span class="badge flag">Needs a clinical decision</span>');
   document.getElementById('card').innerHTML = `
@@ -258,8 +255,7 @@ function renderCard() {
     <section class="block">
       <h2>1. Question</h2>
       <div class="question">${esc(q.question)}</div>
-      ${q.change ? `<div class="note">${q.original_question ? 'What changed' : 'Why it was added'}: ${esc(q.change.replace(/^New question: /, ''))}</div>` : ''}
-      ${q.original_question ? `<details><summary>Original question</summary><p>${esc(q.original_question)}</p></details>` : ''}
+      ${q.how_to_read ? `<div class="howto">${esc(q.how_to_read)}</div>` : ''}
       <div class="choices" role="radiogroup" aria-label="Question decision">
         <label><input type="radio" name="qd" id="qd-ok" value="keep" ${a.question_decision === 'keep' ? 'checked' : ''}> Question is fine</label>
         <label><input type="radio" name="qd" id="qd-rw" value="rewrite" ${a.question_decision === 'rewrite' ? 'checked' : ''}> Suggest a rewrite</label>
@@ -273,7 +269,7 @@ function renderCard() {
     <section class="block">
       <h2>2. Reference answer</h2>
       <div class="reference">${esc(q.reference)}</div>
-      <div class="check ${flagged(q) ? 'flag' : ''}"><b>Source check:</b> ${esc(q.check)}</div>
+      ${checkNote(q)}
       <div class="choices" role="radiogroup" aria-label="Reference decision">
         <label><input type="radio" name="rd" id="rd-ok" value="approve" ${a.reference_decision === 'approve' ? 'checked' : ''}> Approve</label>
         <label><input type="radio" name="rd" id="rd-ed" value="edit" ${a.reference_decision === 'edit' ? 'checked' : ''}> Edit and approve</label>
@@ -297,9 +293,9 @@ function renderCard() {
     </section>
 
     <section class="block">
-      <h2>Supporting sources (${q.sources.length})</h2>
+      <h2>Guideline text (${q.sources.length})</h2>
       ${q.sources.map((s, k) => `<div class="source"><div class="meta"><b>${esc(s.doc)}</b>, page ${esc(s.pages)} · ${esc(s.heading.split(' > ').slice(-2).join(' › '))}</div>
-        <details ${k === 0 ? 'open' : ''}><summary>Show source text</summary><div class="srctext">${md(s.text)}</div></details></div>`).join('') || '<div class="note">None (behaviour test).</div>'}
+        <details ${k === 0 ? 'open' : ''}><summary>Show source text</summary><div class="srctext">${md(s.text)}</div></details></div>`).join('') || '<div class="note">None: not a clinical question.</div>'}
     </section>
 
     <section class="block">
@@ -311,6 +307,12 @@ function renderCard() {
       <button class="btn" type="button" id="prevBtn" ${idx === 0 ? 'disabled' : ''}>← Previous</button>
       <button class="btn primary" type="button" id="nextBtn">${idx === DATA.length - 1 ? 'Save' : 'Save and next →'}</button>
     </div>`;
+}
+function checkNote(q) {
+  if (!q.sources.length) return '<div class="check">No guideline source: this question checks how the assistant responds, not a clinical fact.</div>';
+  const where = q.documents.length ? ' (' + q.documents.map(esc).join('; ') + ')' : '';
+  if (q.needs_decision) return `<div class="check flag"><b>Please decide:</b> ${esc(q.check)}</div>`;
+  return `<div class="check"><b>Checked against the guideline text below${where}.</b>${q.check ? ' ' + esc(q.check) : ''}</div>`;
 }
 function go(id) { current = id; openAreas.add(byId[id].area); renderCard(); renderList(); save(); window.scrollTo(0, 0); }
 function touch() { ans(current).reviewed_at = new Date().toISOString(); save(); }
@@ -356,8 +358,8 @@ let toastTimer;
 function toast(msg) { const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2600); }
 
 // CSV export / import
-const COLS = ['id', 'area', 'reviewer', 'document', 'safety_critical', 'original_question', 'proposed_question', 'question_decision', 'suggested_question',
-  'proposed_reference_answer', 'reference_decision', 'final_reference_answer', 'must_include', 'must_not_include', 'comments', 'reviewed_at'];
+const COLS = ['id', 'area', 'reviewer', 'safety_critical', 'needs_decision', 'question', 'question_decision', 'suggested_question',
+  'reference_answer', 'reference_decision', 'final_reference_answer', 'must_include', 'must_not_include', 'comments', 'reviewed_at'];
 const csvCell = v => { v = v == null ? '' : String(v); return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
 function toCsv() {
   const rows = [COLS.join(',')];
@@ -365,7 +367,7 @@ function toCsv() {
     const a = state.answers[q.id] || {};
     const finalRef = a.reference_decision === 'edit' ? a.reference_edit : (a.reference_decision === 'approve' ? q.reference : '');
     const inc = (a.must_include || q.must_include).filter(x => x.trim()), exc = (a.must_not_include || q.must_not_include).filter(x => x.trim());
-    rows.push([q.id, q.area, state.reviewer, q.document, q.safety, q.original_question, q.question, a.question_decision || '',
+    rows.push([q.id, q.area, state.reviewer, q.safety, q.needs_decision ? 'yes' : 'no', q.question, a.question_decision || '',
       a.question_decision === 'rewrite' ? a.question_suggestion : '', q.reference, a.reference_decision || '', finalRef,
       inc.join(' ; '), exc.join(' ; '), a.comments || '', a.reviewed_at || ''].map(csvCell).join(','));
   });
@@ -375,7 +377,7 @@ document.getElementById('downloadBtn').addEventListener('click', () => {
   const name = (state.reviewer || 'reviewer').replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '') || 'reviewer';
   const blob = new Blob([toCsv()], {type: 'text/csv;charset=utf-8'});
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
-  a.download = `benchmark_review_${name}_${new Date().toISOString().slice(0, 10)}.csv`;
+  a.download = `guideline_answer_review_${name}_${new Date().toISOString().slice(0, 10)}.csv`;
   document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
   toast('CSV downloaded');
 });
@@ -420,12 +422,13 @@ document.getElementById('importFile').addEventListener('change', e => {
 
 document.getElementById('helpBtn').addEventListener('click', () => {
   document.getElementById('card').innerHTML = `<section class="block help"><h2>How to review</h2>
+    <p>These questions will be used to test a chat assistant that answers health workers' questions from the Eswatini national guidelines. Each reference answer is what a correct reply should say <b>according to the guidelines</b>, and the guideline text it was checked against is shown under it. If your practice differs from the guideline, please say so in the comments rather than changing the answer.</p>
     <ol>
       <li>Enter your name at the top.</li>
-      <li>For each question: say whether the question reads like something a clinician would ask, or suggest a rewrite.</li>
+      <li>For each question: say whether it reads like something a health worker would ask, or suggest a rewrite. Some questions are vague, misspelled or contain a wrong assumption on purpose; a green note under the question says so. Please keep those as they are.</li>
       <li>Check the reference answer against the source text shown below it. Approve it, edit it and approve, or mark it as not approvable and say why in the comments.</li>
       <li>Check the two lists: what a correct answer must include, and what it must not include. Edit, add or remove items.</li>
-      <li>Questions marked <b>Needs a clinical decision</b> have a conflict or correction in the source check; please read that note.</li>
+      <li>Questions marked <b>Needs a clinical decision</b> are where the guidelines disagree with each other, are unclear, or the answer goes beyond what they state. The <b>Please decide</b> note explains what to decide; record your decision by editing the answer or in the comments.</li>
     </ol>
     <p>Your work is saved in this browser as you go. Use <b>Download CSV</b> to send your review back, and to keep a copy: the browser copy can be lost if the browser's data is cleared. To continue on another computer, use <b>Load saved CSV</b>.</p>
     <div class="row"><button class="btn primary" type="button" id="backBtn">Back to the questions</button></div></section>`;
