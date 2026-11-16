@@ -92,3 +92,22 @@ hold qwen (GPU) and bge-m3 (CPU) together. Fix: embedding requests send `options
 section 9); after restarting the app both stay loaded during questions. The first run after the edit still swapped,
 probably because the running app had not picked up the change.
 Still to measure: answer time before vs after.
+
+## Roadmap (Nov 2026; quality over latency, ~20 s per answer accepted)
+Now, in one go (app_py_changes.md):
+1. Amendment relevance check (section 7); tune AMENDMENT_SCORE_MARGIN on Amendment vs non-Amendment questions.
+2. One retrieval slot per split table (section 8).
+3. Confirm the widened source-talk pattern ("this source", "the sources") is in app.py.
+4. .env: LLM_MODEL=qwen2.5:14b, LLM_NUM_CTX=8192, LLM_NUM_PREDICT=1200, EMBEDDING_NUM_GPU=0, and pin RETRIEVAL_TOP_K
+   (try 6-8: answer calls use ~3,500 of 8,192 tokens).
+5. Send only the last ~6 history messages.
+6. Rerun the five cervical/CPT questions; Q1 should regain the stop rule and "start at HIV diagnosis".
+Smaller / optional: retry message wording; STI draft flag (check what `drafts` the web app and chat.py pass first, or
+the STI guideline drops out of search); per-document/per-page caps; short follow-ups also searching the previous
+question; log prompt_eval_duration / eval_duration.
+Going forward:
+- Benchmark: clinicians review the 188 questions; then run all of them and score each change against that baseline.
+- Guideline issues for the authors: SOURCE_ISSUES.md (cervical algorithm vs tables, PrEP row, pyridoxine doses, ...).
+- More sources: 2021 Standard Treatment Guidelines and Essential Medicines List (adult, paediatric), Neonatal Care
+  Clinical Guidelines 2018; same chunking pipeline and checks.
+- Later: streaming answers (perceived speed); retest models only if quality plateaus.
