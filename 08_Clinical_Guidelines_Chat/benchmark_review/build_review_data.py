@@ -19,13 +19,13 @@ def ids(spec):
         out += [f'Q{n:03d}' for n in range(int(a), int(b or a) + 1)]
     return out
 AREAS = [
-    ('HIV testing, treatment and PMTCT', ids('1-3 5 7-11 19-20 23-24 84-91 100-101 118 120 129 132 137')),
+    ('HIV testing, treatment and PMTCT', ids('1-3 5 7-11 19-20 23-24 84-91 100-101 118 120 129 132 137 173')),
     ('HIV prevention: PrEP and PEP', ids('4 37-48 81-83 102 116 121 124 127 130 136 140 144-145 149')),
-    ('TB and TB/HIV', ids('6 69-80 104 117 123 125 133 135 148')),
-    ('STIs and viral hepatitis', ids('58-68 126 152')),
-    ('Pregnancy and antenatal care', ids('12-18 103 122 146')),
+    ('TB and TB/HIV', ids('6 69-80 104 117 123 125 133 135 148 174 178')),
+    ('STIs and viral hepatitis', ids('58-68 126 152 176')),
+    ('Pregnancy and antenatal care', ids('12-18 103 122 146 172')),
     ('Family planning', ids('26-36 134')),
-    ('NCDs and emergencies', ids('21-22 25 92-98 128 131 139 141 150')),
+    ('NCDs and emergencies', ids('21-22 25 92-98 128 131 139 141 150 153-171 175 177')),
     ('Mental health and substance use', ids('49-57 99 105 138 142')),
     ('Assistant behaviour (non-clinical tests)', ids('106-115 119 143 147 151')),
 ]
@@ -46,7 +46,8 @@ def source(s):
 
 out = []
 for r in R:
-    q = Q[r['id']]
+    # Q153+ are new questions with no original; their metadata is stored in the revised record.
+    q = Q.get(r['id']) or dict(r['meta'], question='', reference_answer='')
     out.append(dict(id=r['id'], area=AREA[r['id']], document=q['document'], topic=q['topic'], type=q['question_type'],
                     category=q['edge_case_category'], expected=q['expected_behavior'], safety=q['safety_critical'],
                     original_question=q['question'], original_reference=q['reference_answer'],

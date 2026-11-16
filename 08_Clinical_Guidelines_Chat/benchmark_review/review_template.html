@@ -68,6 +68,7 @@ main{padding:20px max(16px, env(safe-area-inset-right,0px)) 60px 24px; min-width
 .head .id{font-family:var(--mono); font-size:15px; font-weight:600}
 .badge{font-size:12px; padding:2px 8px; border-radius:999px; background:var(--surface-2); color:var(--muted); white-space:nowrap}
 .badge.safety{background:var(--bad-soft); color:var(--bad)}
+.badge.new{background:var(--accent-soft); color:var(--accent)}
 .badge.flag{background:var(--warn-soft); color:var(--warn)}
 section.block{background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:14px 16px; display:flex; flex-direction:column; gap:10px}
 section.block h2{font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:0; font-weight:600}
@@ -127,6 +128,7 @@ details summary{cursor:pointer; color:var(--muted); font-size:13px}
         <option value="safety">Safety-critical</option>
         <option value="flag">Flagged by source check</option>
         <option value="edge">Edge cases</option>
+        <option value="new">New questions</option>
       </select>
       <select id="areaFilter" aria-label="Disease area"><option value="">All disease areas</option></select>
       <input type="text" id="search" placeholder="Search questions" aria-label="Search questions">
@@ -213,16 +215,19 @@ function visible() {
     if (f === 'safety' && q.safety !== 'yes') return false;
     if (f === 'flag' && !flagged(q)) return false;
     if (f === 'edge' && q.category === 'standard') return false;
+    if (f === 'new' && q.original_question) return false;
     if (area && q.area !== area) return false;
     if (t && !(q.id.toLowerCase().includes(t) || q.question.toLowerCase().includes(t) || q.original_question.toLowerCase().includes(t))) return false;
     return true;
   });
 }
 const AREAS = [...new Set(DATA.map(q => q.area))];
+// While a filter or search is active every matching group is shown open; that should not change which groups stay open afterwards.
+const isNarrowed = () => document.getElementById('filter').value !== 'all' || !!document.getElementById('search').value || !!document.getElementById('areaFilter').value;
 const openAreas = new Set([byId[current].area]);
 function renderList() {
   const v = visible();
-  const narrowed = document.getElementById('filter').value !== 'all' || document.getElementById('search').value || document.getElementById('areaFilter').value;
+  const narrowed = isNarrowed();
   const groups = AREAS.map(a => [a, v.filter(q => q.area === a)]).filter(([, qs]) => qs.length);
   document.getElementById('qlist').innerHTML = groups.map(([a, qs]) => {
     const all = DATA.filter(q => q.area === a), done = all.filter(q => status(q.id) === 'done').length;
@@ -244,6 +249,7 @@ function renderCard() {
   const q = byId[current], a = ans(current);
   const idx = DATA.findIndex(x => x.id === current);
   const badges = [`<span class="badge">${esc(q.area)}</span>`, `<span class="badge">${esc(q.document || '—')}</span>`, `<span class="badge">${esc(q.type)}${q.category !== 'standard' ? ' · ' + esc(q.category) : ''}</span>`];
+  if (!q.original_question) badges.push('<span class="badge new">New question</span>');
   if (q.safety === 'yes') badges.push('<span class="badge safety">Safety-critical</span>');
   if (flagged(q)) badges.push('<span class="badge flag">Needs a clinical decision</span>');
   document.getElementById('card').innerHTML = `
@@ -252,8 +258,8 @@ function renderCard() {
     <section class="block">
       <h2>1. Question</h2>
       <div class="question">${esc(q.question)}</div>
-      ${q.change ? `<div class="note">What changed: ${esc(q.change)}</div>` : ''}
-      <details><summary>Original question</summary><p>${esc(q.original_question)}</p></details>
+      ${q.change ? `<div class="note">${q.original_question ? 'What changed' : 'Why it was added'}: ${esc(q.change.replace(/^New question: /, ''))}</div>` : ''}
+      ${q.original_question ? `<details><summary>Original question</summary><p>${esc(q.original_question)}</p></details>` : ''}
       <div class="choices" role="radiogroup" aria-label="Question decision">
         <label><input type="radio" name="qd" id="qd-ok" value="keep" ${a.question_decision === 'keep' ? 'checked' : ''}> Question is fine</label>
         <label><input type="radio" name="qd" id="qd-rw" value="rewrite" ${a.question_decision === 'rewrite' ? 'checked' : ''}> Suggest a rewrite</label>
@@ -337,7 +343,7 @@ document.getElementById('card').addEventListener('click', e => {
   }
 });
 document.getElementById('qlist').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go(b.dataset.id); });
-document.getElementById('qlist').addEventListener('toggle', e => { const d = e.target; if (d.dataset && d.dataset.area) { d.open ? openAreas.add(d.dataset.area) : openAreas.delete(d.dataset.area); } }, true);
+document.getElementById('qlist').addEventListener('toggle', e => { const d = e.target; if (d.dataset && d.dataset.area && !isNarrowed()) { d.open ? openAreas.add(d.dataset.area) : openAreas.delete(d.dataset.area); } }, true);
 document.getElementById('areaFilter').innerHTML += AREAS.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join('');
 document.getElementById('areaFilter').addEventListener('change', renderList);
 document.getElementById('mobilePick').addEventListener('change', e => go(e.target.value));

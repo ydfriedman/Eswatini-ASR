@@ -1,6 +1,10 @@
 # Benchmark review for clinicians
 
-The 152 benchmark questions, revised and re-checked against chunks_v3, packaged for clinician review.
+The benchmark questions packaged for clinician review: the original 152, revised and re-checked against chunks_v3
+(Q001-Q152), plus 26 new questions (Q153-Q178). The new ones cover NCD guideline chapters that had no questions
+(cervical and breast cancer, stroke, heart failure, CKD, COPD, epilepsy, injuries, poisoning and others) and add 7
+questions whose answer has to be combined from two or more sources. New questions have no original; their metadata
+is stored in `revised_questions.jsonl` under `meta`, and the page marks them "New question".
 
 | File | What it is |
 |---|---|
