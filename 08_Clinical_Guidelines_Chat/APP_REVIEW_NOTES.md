@@ -83,3 +83,12 @@ by two cotrimoxazole examples (the model copied its closing question onto cervic
   time and `ollama ps` (GPU fit).
 - Retrieval fixes proposed (app_py_changes.md 7-8): relevance check on the extra Amendment search; one slot per table.
 
+
+## Model swapping on the T4 (resolved)
+With qwen2.5:14b (10 GB, 100% GPU, ctx 8192) and bge-m3 both on the GPU, Ollama kept one model loaded and swapped them
+on every question (`ollama ps` went blank mid-answer; the log showed qwen reloading, ~4 s, `loaded runners count=1`),
+even with OLLAMA_MAX_LOADED_MODELS=2, OLLAMA_KEEP_ALIVE=24h, OLLAMA_NUM_PARALLEL=1. A direct test showed Ollama can
+hold qwen (GPU) and bge-m3 (CPU) together. Fix: embedding requests send `options: {num_gpu: 0}` (app_py_changes.md
+section 9); after restarting the app both stay loaded during questions. The first run after the edit still swapped,
+probably because the running app had not picked up the change.
+Still to measure: answer time before vs after.
