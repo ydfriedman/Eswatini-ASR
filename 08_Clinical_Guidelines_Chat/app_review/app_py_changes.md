@@ -115,3 +115,27 @@ Try 5-6 first: fewer, better passages help an 8B model synthesize, and expansion
   whole answer. Worth testing 4-5 per document.
 - Short follow-ups (12 words or fewer) also search the previous question; this can pull an old topic into a new short
   question.
+
+## 7. Only add 2024 Amendment passages that are relevant
+`ai_answer()` runs an extra Amendment search whenever any HIV 2022 passage is retrieved (around line 532) and adds the
+top 2 Amendment hits per query with no relevance check. For "Who should be screened for cervical cancer?" (qwen2.5:14b)
+two of the five source slots went to Amendment HIV-testing passages, and the NCDIMH summary table (stop rule, HPV
+intervals) was not retrieved. Keep the Amendment search, but only add hits whose cosine similarity is close to the
+best hit of the main search:
+
+```python
+    # Retrieve topic-relevant amendment passages whenever the HIV base is retrieved.
+    if any(item['source']['document']['id'] == '0' for item in fused.values()):
+        best = max((item['source'].get('score') or 0) for item in fused.values())
+        margin = float(os.environ.get('AMENDMENT_SCORE_MARGIN', '0.08'))
+        for query in queries[:3]:
+            amendment_results = search(query[:300], 'HIV', drafts, doc_ids=['1'])
+            # Expanded context has no score; it is only used if its own hit is kept, so it can stay.
+            relevant = [s for s in amendment_results if s.get('score') is None or s['score'] >= best - margin]
+            add_ranked(relevant, only_doc_id='1', limit=2)
+```
+
+The 0.08 margin is a starting guess: bge-m3 similarities depend on the corpus. To tune it, print `best` and each
+Amendment hit's score for a few questions where the Amendment matters (HIV self-test consent age, CrAg threshold,
+viral load thresholds) and a few where it does not (cervical screening), and pick a margin that keeps the first and
+drops the second.
