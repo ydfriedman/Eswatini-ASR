@@ -18,7 +18,7 @@ the guideline text, but not the original wording or change history (those stay i
 | `revised_questions.jsonl` | Revised questions: question, reference answer, must_include, must_not_include, source chunk ids, source-check note. |
 | `review_data.json` | Revised questions joined with the original questions and the source chunk text (generated). |
 | `build_review_data.py`, `build_review_html.py`, `review_template.html` | Rebuild the page (both the offline file and the hosted version). |
-| `hf_space/` | The hosted version: a Hugging Face Space (Docker, FastAPI) that serves the page and saves each answer to a private dataset. |
+| `hf_space/` | The hosted version: a Hugging Face Space (Docker, FastAPI) that serves the page and saves answers to a private dataset (one file per reviewer, one line per question). |
 | `export_responses.py` | Exports the saved answers from the dataset to one CSV (latest answer per reviewer and question). |
 
 `../sample_questions.jsonl` (the original set) is unchanged.
@@ -44,8 +44,10 @@ python3 benchmark_review/build_review_html.py
 ```
 
 ## Hosted version (Hugging Face Space)
-`hf_space/` serves the same page; answers are saved to a private Hugging Face dataset as reviewers work (the
-browser copy and **Download CSV** stay as backups). Reviewers continue on any device by entering the same name.
+`hf_space/` serves the same page; answers are saved to a private Hugging Face dataset (the browser copy and
+**Download CSV** stay as backups). A question is saved when the reviewer clicks **Save and next** or moves to another
+question, and when the tab is closed or hidden. The dataset holds one file per reviewer
+(`responses/<name>-<id>.jsonl`) with one line per question answered; saving a question again replaces its line. Reviewers continue on any device by entering the same name.
 An optional access code keeps strangers out of a public Space.
 
 **Live:** Space https://huggingface.co/spaces/YoniFriedman/guideline-answer-review (page:

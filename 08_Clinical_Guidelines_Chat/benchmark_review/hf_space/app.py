@@ -1,7 +1,9 @@
 """Clinician review of the guideline-chat benchmark, hosted as a Hugging Face Space.
 
-Serves the review page and stores each reviewer's answers in a private Hugging Face dataset repo.
-Every save is appended to a JSONL file; CommitScheduler pushes new lines to the dataset about once a minute.
+Serves the review page and stores each reviewer's answers in a private Hugging Face dataset repo: one file per
+reviewer (responses/<name>-<id>.jsonl) with one line per question, holding that reviewer's latest answer. The page
+saves a question when the reviewer clicks Save and next or moves on; each save rewrites the reviewer's file, and
+CommitScheduler pushes changed files to the dataset about once a minute.
 The dataset is the record: on start-up the Space reads it back, so reviewers can continue after a restart or on
 another device by entering the same name.
 
@@ -11,12 +13,12 @@ Space settings (Settings -> Variables and secrets):
   REVIEW_ACCESS_CODE  secret, optional; if set, reviewers must enter it before anything is read or saved
 Without DATASET_REPO the app runs locally and only writes to DATA_DIR (for testing).
 """
+import hashlib
 import hmac
 import json
 import os
 import re
 import threading
-import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -29,8 +31,8 @@ TOKEN = os.environ.get('HF_TOKEN') or None
 ACCESS_CODE = os.environ.get('REVIEW_ACCESS_CODE', '').strip()
 DATA_DIR = Path(os.environ.get('DATA_DIR', '/tmp/review_data'))
 OUTBOX = DATA_DIR / 'outbox'                     # folder CommitScheduler mirrors into the dataset
-OUT_FILE = OUTBOX / 'responses' / f'{datetime.now(timezone.utc):%Y%m%dT%H%M%S}-{uuid.uuid4().hex[:8]}.jsonl'
-QIDS = set(json.loads((HERE / 'qids.json').read_text()))
+QORDER = {qid: i for i, qid in enumerate(json.loads((HERE / 'qids.json').read_text()))}
+QIDS = set(QORDER)
 
 DECISIONS = {'question_decision': {'', 'keep', 'rewrite'}, 'reference_decision': {'', 'approve', 'edit', 'reject'}}
 TEXT_LIMITS = {'question_suggestion': 3000, 'reference_edit': 8000, 'comments': 8000, 'reviewed_at': 40}
@@ -69,6 +71,21 @@ def scoped_api(token):
 
 def reviewer_key(name):
     return re.sub(r'\s+', ' ', name).strip().lower()
+
+
+def reviewer_file(key):
+    """responses/<readable name>-<short hash>.jsonl: readable in the dataset, and unique per reviewer."""
+    slug = re.sub(r'[^a-z0-9]+', '-', key).strip('-')[:40] or 'reviewer'
+    return OUTBOX / 'responses' / f'{slug}-{hashlib.sha1(key.encode()).hexdigest()[:6]}.jsonl'
+
+
+def write_reviewer(key):
+    """Rewrite one reviewer's file: one line per question they have answered (latest answer), in question order."""
+    recs = sorted((r for (k, _), r in latest.items() if k == key), key=lambda r: QORDER.get(r['question_id'], 9999))
+    path = reviewer_file(key)
+    tmp = path.with_suffix('.tmp')
+    tmp.write_text(''.join(json.dumps(r, ensure_ascii=False) + '\n' for r in recs), encoding='utf-8')
+    tmp.replace(path)
 
 
 def remember(rec):
@@ -113,7 +130,7 @@ def describe_token():
 
 def start():
     global scheduler, setup_error
-    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    (OUTBOX / 'responses').mkdir(parents=True, exist_ok=True)
     load_existing()
     if DATASET_REPO and not TOKEN:
         setup_error = 'HF_TOKEN secret is not set'
@@ -138,12 +155,13 @@ pretty_name: Eswatini guideline-chat benchmark reviews
 ---
 # Clinician reviews of the guideline-chat benchmark
 
-Written by the review Space. Each line of `responses/*.jsonl` is one saved answer:
+Written by the review Space. Each reviewer has one file, `responses/<name>-<id>.jsonl`, with one line per question
+they have answered (their latest answer; saving a question again replaces its line):
 `saved_at` (server time), `reviewer`, `reviewer_key` (lower-case name used to match a reviewer across devices),
 `question_id`, `question_decision` (keep / rewrite), `question_suggestion`, `reference_decision` (approve / edit /
 reject), `reference_edit`, `must_include`, `must_not_include`, `comments`, `reviewed_at` (reviewer's clock).
-A reviewer may save the same question many times; the latest line per reviewer and question is the current answer
-(`export_responses.py` in the benchmark folder builds the CSV). Contains reviewer names: keep this dataset private.
+`export_responses.py` in the benchmark folder combines all reviewers into one CSV. Contains reviewer names: keep
+this dataset private.
 '''
 
 app = FastAPI(title='Guideline answer review', docs_url=None, redoc_url=None, openapi_url=None)
@@ -225,17 +243,15 @@ async def post_responses(request: Request):
             raise HTTPException(400, f'Unknown question {qid}')
         recs.append({'saved_at': now, 'reviewer': name.strip(), 'reviewer_key': reviewer_key(name),
                      'question_id': qid, **clean_answer(a)})
-    lines = ''.join(json.dumps(r, ensure_ascii=False) + '\n' for r in recs)
+    key = reviewer_key(name)
     with lock:
-        if scheduler is not None:
-            with scheduler.lock:                 # do not write while a commit is being prepared
-                with OUT_FILE.open('a', encoding='utf-8') as f:
-                    f.write(lines)
-        else:
-            with OUT_FILE.open('a', encoding='utf-8') as f:
-                f.write(lines)
         for r in recs:
             remember(r)
+        if scheduler is not None:
+            with scheduler.lock:                 # do not write while a commit is being prepared
+                write_reviewer(key)
+        else:
+            write_reviewer(key)
     return JSONResponse({'saved': len(recs)})
 
 

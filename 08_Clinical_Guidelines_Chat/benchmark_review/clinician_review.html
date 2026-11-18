@@ -321,8 +321,9 @@ function checkNote(q) {
   if (q.needs_decision) return `<div class="check flag"><b>Please decide:</b> ${esc(q.check)}</div>`;
   return `<div class="check"><b>Checked against the guideline text below${where}.</b>${q.check ? ' ' + esc(q.check) : ''}</div>`;
 }
-function go(id) { current = id; openAreas.add(byId[id].area); renderCard(); renderList(); save(); window.scrollTo(0, 0); }
-function touch() { ans(current).reviewed_at = new Date().toISOString(); save(); queueSync(current); }
+function go(id) { if (id !== current) queueSync(current);   // leaving a question saves it
+  current = id; openAreas.add(byId[id].area); renderCard(); renderList(); save(); window.scrollTo(0, 0); }
+function touch() { ans(current).reviewed_at = new Date().toISOString(); save(); markChanged(current); }
 
 document.getElementById('card').addEventListener('change', e => {
   const a = ans(current), t = e.target;
@@ -348,7 +349,7 @@ document.getElementById('card').addEventListener('click', e => {
     const st = status(current);
     if (st !== 'done') toast('Saved. Choose a question decision and a reference decision to mark this one reviewed.');
     else toast('Saved');
-    const i = DATA.findIndex(x => x.id === current); if (i < DATA.length - 1) go(DATA[i + 1].id); else save();
+    const i = DATA.findIndex(x => x.id === current); if (i < DATA.length - 1) go(DATA[i + 1].id); else { save(); queueSync(current); }
   }
 });
 document.getElementById('qlist').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go(b.dataset.id); });
@@ -371,21 +372,29 @@ const content = a => JSON.stringify(Object.assign({}, a, {reviewed_at: ''}));
 let syncTimer = null;
 const who = () => (state.reviewer || '').trim();
 function setSync(msg, cls) { const el = document.getElementById('sync'); el.textContent = msg; el.className = 'sync ' + (cls || ''); }
-function queueSync(id) {
+// A question is saved when the reviewer finishes it (Save and next, or moving to another question), and as a
+// safety net when the tab is hidden or closed. Edits in between stay in this browser.
+function markChanged(id) {
   if (!SERVER) return;
-  pending.add(id);
-  clearTimeout(syncTimer);
-  syncTimer = setTimeout(flush, 1000);
-  setSync('Saving…');
+  if (content(state.answers[id]) !== lastSent[id]) setSync('Not saved yet: click Save and next', 'warn');
 }
-async function flush() {
+function queueSync(id) {
+  if (!SERVER || !state.answers[id] || !state.answers[id].reviewed_at) return;   // only questions the reviewer changed
+  pending.add(id);
+  flush();
+}
+['visibilitychange', 'pagehide'].forEach(ev => window.addEventListener(ev, () => {
+  if (SERVER && document.visibilityState === 'hidden') { queueSync(current); flush(true); }
+}));
+async function flush(leaving) {
   if (!SERVER || !pending.size) return;
   if (!who()) { setSync('Enter your name to save your review', 'warn'); return; }
   const ids = [...pending].filter(i => content(state.answers[i]) !== lastSent[i]);   // skip saves that change nothing
   pending.clear();
   if (!ids.length) { setSync('Saved ✓', 'ok'); return; }
+  setSync('Saving…');
   try {
-    const r = await fetch('api/responses', {method: 'POST', headers: {'Content-Type': 'application/json'},
+    const r = await fetch('api/responses', {method: 'POST', headers: {'Content-Type': 'application/json'}, keepalive: !!leaving,
       body: JSON.stringify({reviewer: who(), code: accessCode, answers: Object.fromEntries(ids.map(i => [i, state.answers[i]]))})});
     if (r.status === 401) { ids.forEach(i => pending.add(i)); needCode(); return; }
     if (!r.ok) throw new Error(r.status);
@@ -515,7 +524,7 @@ document.getElementById('helpBtn').addEventListener('click', () => {
       <li>Check the two lists: what a correct answer must include, and what it must not include. Edit, add or remove items.</li>
       <li>Questions marked <b>Needs a clinical decision</b> are where the guidelines disagree with each other, are unclear, or the answer goes beyond what they state. The <b>Please decide</b> note explains what to decide; record your decision by editing the answer or in the comments.</li>
     </ol>
-    ${SERVER ? `<p>Your answers are saved to the review server as you go (the status next to the progress count shows <b>Saved ✓</b>). To continue on another computer or phone, open the same link and enter <b>exactly the same name</b>. <b>Download CSV</b> gives you your own copy.</p>`
+    ${SERVER ? `<p>Each question is saved to the review server when you click <b>Save and next</b> or move to another question (the status next to the progress count shows <b>Saved ✓</b>). To continue on another computer or phone, open the same link and enter <b>exactly the same name</b>. <b>Download CSV</b> gives you your own copy.</p>`
       : `<p>Your work is saved in this browser as you go. Use <b>Download CSV</b> to send your review back, and to keep a copy: the browser copy can be lost if the browser's data is cleared. To continue on another computer, use <b>Load saved CSV</b>.</p>`}
     <div class="row"><button class="btn primary" type="button" id="backBtn">Back to the questions</button></div></section>`;
   document.getElementById('backBtn').addEventListener('click', renderCard);
