@@ -48,8 +48,9 @@ background and test results are in `APP_REVIEW_NOTES.md`.
 ## Going forward
 - [ ] Benchmark: clinicians review the 188 questions (`benchmark_review/clinician_review.html`); then run all of them
       for a baseline score and re-run after every change (runner script still to write).
-- [ ] Send `SOURCE_ISSUES.md` to the guideline authors (cervical algorithm vs tables, PrEP row, three pyridoxine doses
-      and others that make the chat give conflicting answers).
+- [ ] Clinical review of the guideline errors: start with `source_issues_review/PRIORITY_REVIEW.md` (Tier 1A, 66
+      issues that could harm a patient if followed as printed; then Tier 1B, 46 where the guidelines disagree on a
+      decision); record decisions in `source_issues_tiered.csv`, then send agreed corrections to the guideline authors.
 - [ ] Add sources: 2021 Standard Treatment Guidelines and Essential Medicines List (adult and paediatric) and the 2018
       Neonatal Care Clinical Guidelines, through the same chunking pipeline and checks.
 - [ ] Later: stream answers as they are written; retest other models only if quality plateaus.
