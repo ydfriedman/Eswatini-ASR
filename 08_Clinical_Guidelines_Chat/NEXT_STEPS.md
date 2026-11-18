@@ -46,7 +46,8 @@ background and test results are in `APP_REVIEW_NOTES.md`.
 - [ ] Log `prompt_eval_duration` / `eval_duration` per call for a real timing breakdown.
 
 ## Going forward
-- [ ] Benchmark: clinicians review the 188 questions (`benchmark_review/clinician_review.html`); then run all of them
+- [ ] Benchmark: clinicians review the 188 questions on the Space (https://huggingface.co/spaces/YoniFriedman/guideline-answer-review;
+      add the HF_TOKEN and REVIEW_ACCESS_CODE secrets first, see `benchmark_review/README.md`); then run all of them
       for a baseline score and re-run after every change (runner script still to write).
 - [ ] Clinical review of the guideline errors: start with `source_issues_review/PRIORITY_REVIEW.md` (Tier 1A, 66
       issues that could harm a patient if followed as printed; then Tier 1B, 46 where the guidelines disagree on a

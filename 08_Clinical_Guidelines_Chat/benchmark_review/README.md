@@ -48,14 +48,22 @@ python3 benchmark_review/build_review_html.py
 browser copy and **Download CSV** stay as backups). Reviewers continue on any device by entering the same name.
 An optional access code keeps strangers out of a public Space.
 
-Deploy: create a Docker Space and upload the contents of `hf_space/`; in the Space settings set the variable
+**Live:** Space https://huggingface.co/spaces/YoniFriedman/guideline-answer-review (page:
+https://yonifriedman-guideline-answer-review.hf.space), answers in the private dataset
+`YoniFriedman/eswatini-benchmark-reviews`. The free CPU Space sleeps after 48 hours without visits and takes
+about a minute to wake; saved answers are read back from the dataset when it starts.
+
+To redeploy after changing the questions: rebuild with `build_review_html.py`, then upload `hf_space/` to the Space
+(e.g. `hf upload YoniFriedman/guideline-answer-review benchmark_review/hf_space . --repo-type space`).
+
+Deploy from scratch: create a Docker Space and upload the contents of `hf_space/`; in the Space settings set the variable
 `DATASET_REPO` (e.g. `your-org/eswatini-benchmark-reviews`, created private on first save), the secret `HF_TOKEN`
 (write access to that dataset) and optionally the secret `REVIEW_ACCESS_CODE`. Rebuild `hf_space/static/index.html`
 with `build_review_html.py` after changing the questions, and upload it again.
 
 Collect the answers:
 ```
-python3 benchmark_review/export_responses.py --dataset your-org/eswatini-benchmark-reviews --out reviews.csv
+python3 benchmark_review/export_responses.py --dataset YoniFriedman/eswatini-benchmark-reviews --out reviews.csv
 ```
 Test locally without a dataset: `cd benchmark_review/hf_space && DATA_DIR=/tmp/review REVIEW_ACCESS_CODE=test uvicorn app:app --port 7860`.
 

@@ -74,6 +74,9 @@ def start():
     global scheduler
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     load_existing()
+    if DATASET_REPO and not TOKEN:
+        print('DATASET_REPO is set but HF_TOKEN is not: saving is disabled until the secret is added', flush=True)
+        return
     if DATASET_REPO:
         from huggingface_hub import CommitScheduler
         card = OUTBOX / 'README.md'
@@ -160,6 +163,8 @@ async def post_responses(request: Request):
     except ValueError:
         raise HTTPException(400, 'Bad JSON')
     check_code(body.get('code'))
+    if DATASET_REPO and scheduler is None:
+        raise HTTPException(503, 'Saving is not set up yet')
     name = body.get('reviewer')
     if not isinstance(name, str) or not reviewer_key(name) or len(name) > 120:
         raise HTTPException(400, 'Reviewer name required')
@@ -189,4 +194,5 @@ async def post_responses(request: Request):
 
 @app.get('/healthz')
 def healthz():
-    return {'ok': True, 'answers': len(latest), 'dataset': bool(DATASET_REPO)}
+    return {'ok': True, 'answers': len(latest), 'saving': scheduler is not None or not DATASET_REPO,
+            'access_code': bool(ACCESS_CODE)}
