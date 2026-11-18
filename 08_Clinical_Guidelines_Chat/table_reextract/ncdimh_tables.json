@@ -20692,7 +20692,8 @@
    "footnotes": [],
    "source_flags": [
     "In both panels the chart draws VIA as a routine screen after a negative HPV test (as well as a triage test after a positive one), and the HIV panel has a second 'Negative' box reading 'Refer for LEEP / Year'. The intended pathway is unclear; summarised here. Clinician to confirm.",
-    "Stopping screening at 50 in women living with HIV differs from usual WHO advice (continue screening); the age range for the general population is printed '25-50'."
+    "Stopping screening at 50 in women living with HIV differs from usual WHO advice (continue screening); the age range for the general population is printed '25-50'.",
+    "For both HIV-negative women and women living with HIV, the algorithm sends every positive VIA to LEEP/colposcopy (LEEP/oncology if HIV-positive), while the summary table and the VIA management table (p.252) give same-day cryotherapy/thermal ablation when eligible and LEEP only when not. Clinician to confirm; probably needs correcting in the guideline."
    ]
   },
   {
@@ -21017,7 +21018,8 @@
    ],
    "footnotes": [],
    "source_flags": [
-    "The PDF text layer for this page is overprinted with a second copy of the table; transcribed from the page image. 'On ART / PrEP' screening applies annual VIA screening to people on PrEP (HIV-negative), as printed."
+    "The PDF text layer for this page is overprinted with a second copy of the table; transcribed from the page image. 'On ART / PrEP' screening applies annual VIA screening to people on PrEP (HIV-negative), as printed.",
+    "The row 'On ART / PrEP: Annual VIA screening' groups PrEP users (who are HIV-negative) with women on ART, contradicting the HIV-negative row on the same table (every 2 years) and the summary table (p.252). Clinician to confirm; probably meant 'On ART'."
    ],
    "context_before": "Because HIV significantly increases the risk of cervical cancer, screening must be integrated into routine care."
   },

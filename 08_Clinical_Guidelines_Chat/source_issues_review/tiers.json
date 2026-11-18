@@ -1,0 +1,3402 @@
+[
+{
+"issue": "Criterion (d) is printed 'Client is not pregnant or breastfeeding or has any comorbidities'; the intended meaning is presumably 'not pregnant or breastfeeding and has no comorbidities'. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The PDF captions this diagram 'Figure 3.2 The HIV eligibility screening process flow', which is the title of Figure 3.1 (p.10). The caption is wrong in the source; the diagram is the status-neutral prevention and care model.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The itraconazole row has an empty 'Area of package' cell in the PDF (its own cell, not merged); it probably belongs to 'Prophylaxis and pre-emptive treatment'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Figure 7.1 on the same page gives low-level viraemia as VL 50 - 999 copies/mL, while this table gives 200 - 999 copies/mL for 2024. Inconsistency in the source: clinician to confirm.",
+"tier": "1B",
+"group": 1
+},
+{
+"issue": "Low-level viraemia is 'VL 50-999' in this figure, '200-999' in the Chapter 7 summary table and footnote (a) of Figure 7.3, and '51-999' in the LLV section text. Inconsistent in the source; clinician to confirm.",
+"tier": "1B",
+"group": 1
+},
+{
+"issue": "The figure marks some boxes with '*' while the notes below are lettered (a)-(c); which note each '*' refers to is not shown.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The '*' on 'DRV/r 2 tabs od*' and '*if available' are printed as is; it is not clear whether 'if available' qualifies DRV/r or ATV/r.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The PDF prints 'Continue EIP (AT/NVP)'; AT is presumably AZT.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The PDF prints 'TLD1 and TLD2 DTG <18/12' and 'TLD1 and TLD2 on DTG > 18/12 or unknown'. The meaning of 'TLD1 and TLD2' is unclear (possibly a typo); clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The PDF prints the 3HP drug column as 'Isoniazid + Rifampicin x 3mo', but the dosing column (and the 3HP regimen) uses rifapentine. Possible error in the source: clinician to confirm.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "In the ≥30 kg / TDF+3TC+EFV row the PDF itself cuts off the alternative regimen at '(ATV/r* or LPV'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The chart sends social issues to the psychologist, while the rule below sends questions 11-15 to the clinical social worker. Possible inconsistency in the source; clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Score bands overlap at 20 ('11-20' and '20-30') as printed; clinician to confirm which band a score of 20 falls in.",
+"tier": "1B",
+"group": 17
+},
+{
+"issue": "Blood glucose frequency 'Age ≥18 years: every visit; high risk: annually' is printed as is (the more frequent schedule is for the lower-risk group).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "These categories follow the ACC/AHA scheme (stage 1 from 130/80); the hypertension section on p.25 defines hypertension as ≥140/90 (ESC/ESH).",
+"tier": "1B",
+"group": 2
+},
+{
+"issue": "The 'very high' dependence row prints '>5 min' to first cigarette; it presumably means <5 min (shorter time = higher dependence). Clinician to confirm.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'Clean water' panel is sub-headed 'Starchy foods' in the PDF (copy error); omitted.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "These ESC/ESH categories differ from the blood pressure screening table on p.13 (ACC/AHA style: stage 1 from 130/80).",
+"tier": "1B",
+"group": 2
+},
+{
+"issue": "The left disease-risk sub-column has no heading in the PDF; 'Men ≤ 102 cm and women ≤ 88 cm' is inferred from the right one.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The pre-diabetes HbA1c band is printed '5.6-6.4%' while the normal band is '<5.7%' (overlap at 5.6); the screening table on p.13 uses 5.7-6.4%.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Thresholds here are in mg/dl, unlike the mmol/L tables elsewhere.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The 'two eGFRs <60 over 3 months' window is implied by the 3-month repeat; the PDF box reads 'If minimum of two eGFRs <60mL/min.1.73m2'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "CV risk categories leave a gap between 19% and 20%, as printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "A2 range is printed 'uACR 3.0-3.0 mg/mmol' and A3 is headed 'Microalbuminuria (A3)'; written as 3.0-30 and macroalbuminuria.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "G1-G2 with A3 are red here; KDIGO uses orange for these cells.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Risk is shown only by cell colour in the PDF, with no legend; colours are written out with the usual KDIGO meaning (green low, yellow moderately increased, orange high, red very high). Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "HbA1c bands are printed '<7%', '<7%-8%', '<8%-9.9%', '>10%'; read as <7, 7-8, 8-9.9, >10 (10.0 itself is not covered).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The diagnosis criteria here (FPG > 7.0, two positive tests) differ slightly from the diagnosis box on p.22 (FPG ≥ 7.0, HbA1c ≥ 6.5%).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Sitagliptin has no minimum dose printed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The last row is printed 'Triple Therapy' a second time; its guidance is about starting premix insulin.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The PDF prints 'HbA1c still despite previous attempts'; a word is missing ('[above target]' added).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'INSULIN' cells are printed under the fasting and evening columns without saying which dose; '[Breakfast]' and '[Evening]' are inferred from their text. Clinician to confirm.",
+"tier": "1B",
+"group": 3
+},
+{
+"issue": "The high-evening cell says increase the previous evening's insulin, while the low-evening cell says decrease breakfast insulin. Possible inconsistency in the source.",
+"tier": "1B",
+"group": 3
+},
+{
+"issue": "The low-fasting cell ends at 'by 2 units or' in the PDF.",
+"tier": "1B",
+"group": 3
+},
+{
+"issue": "Basal-bolus 40% at night here vs '30-40%' in the text above.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Option 2 rows: 'Lunch: short acting insulin (1/3 of evening dose)' is printed as is; with 2/3 of the total in the morning the remaining 1/3 is the evening dose. Clinician to confirm the intended timing.",
+"tier": "1B",
+"group": 4
+},
+{
+"issue": "A stray '**Timing of the unsatisfactory blood glucose level' is printed inside the before-breakfast cell; omitted.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Several thresholds are garbled in the source: DKA 'low HCO3- :<10 ≤ 15 mEq/L', HHS 'BG:>600>1000 mg/dl 33.3mmol/L', and the HHS resolution 'BG <' has no value. Kept as printed.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "This box uses mg/dL thresholds (e.g. 'BG <250 mg/dL'), while the algorithm tables on pp.35-36 use mmol/L.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "DKA glucose threshold is >11 mmol/L here but BG >13.9 mmol/L in the management box on p.34.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The table note says correct the HHS deficit over 48-72 hours; the 4-12 hr row says over 48 hrs.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The >5.5 row gives 'No KCl' but a rate of '10-20 mmol/hr', as printed.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Resolution criteria here (BG <14 mmol/L, pH >7.3, HCO3- >15, all required) differ from the management box on p.34 (BG <15 mmol/L + 2 or more criteria). Clinician to confirm which applies.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "Fluid volumes here (10 ml/kg over 1 h; 10-20 ml/kg boluses) are weight-based, unlike the adult DKA fluid table on p.36 (1 L over 30-60 min). The algorithm does not say whether it is for children; clinician to confirm.",
+"tier": "1B",
+"group": 5
+},
+{
+"issue": "Insulin infusion here is 0.05-0.1 unit/kg/hour starting 1 hour after fluids; the adult protocol on p.37 gives a 0.1 unit/kg bolus then 0.1 unit/kg/hr.",
+"tier": "1B",
+"group": 5
+},
+{
+"issue": "'Bedtime correction doses should be REDUCED by 50%' appears alongside a bedtime column that already lists reduced doses; clinician to confirm whether a further 50% reduction applies.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "TDI per kg here (0.25-≥0.6) differs from the TDI starting-dose table on pp.42-43 (0.15-1.0 by patient type).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The second top-level box is printed 'Preexisting Diabetes' a second time; from its branches it is hyperglycaemia first detected in pregnancy. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "In the PDF the diabetes-in-pregnancy diagnostic criteria run into the 'Management focus' row (the OGTT and random glucose criteria are printed there), leaving no management text for that column. Moved to the diagnostic row; clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The 'Postpartum follow-up' text for diabetes in pregnancy describes care before and during pregnancy.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'Pharmacotherapy' column under 'Management of GDM' is empty in the PDF; the dosing schedule on p.61 covers it.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The footnote about atenolol/metoprolol/carvedilol does not relate to antidiabetic drugs; possibly misplaced in the source.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Bicarbonate threshold here is pH <7.0; the bicarbonate table on p.48 uses pH <6.9.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The table is headed 'Diabetes in Special Populations' but its content is about managing DKA/HHS in these groups.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The '*' (may also cause osteomalacia) is not attached to a drug in the PDF; it is presumably anticonvulsants.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The PDF note refers to sections 6.2.1 and 6.3, which do not exist in this guideline.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Several items (symptoms of underlying disease, 25OHD, nystagmus, eGFR, ECG) have no marks in any column in the PDF.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Superscripts a, b, c on 'prior osteoporotic fracture', 'Yes' and 'Measure BMD' have no footnotes printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The '> 60 years' branch is drawn into the individualised assessment box; the age bands overlap (>60, 65-75, >75).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The middle T-score band is printed '< -10 to > -2.5'; read as -1.0 to -2.5.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Calcitonin is listed under the HRT heading in the PDF (it has no class heading of its own).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Propranolol is 'every 4 hours' here but 'q6h' / '6-h' in the thyroid storm table and flowchart (pp.82-83). Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Asterisks in the flowchart have no footnote printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "This flowchart covers hypo- and hyperthyroidism but sits under 'Treatment targets of hyperthyroidism' in the source.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Step 4 is titled 'Block thyroid hormone synthesis' but describes iodine, which the table on p.83 places under 'Block hormone release'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The second row is labelled 'Alcohol' in the PDF but is about smoking; labelled Smoking here.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'Mechanism of Action' column for ACE inhibitors repeats the benefits text; no mechanism is given.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The ARB 'Important Notes' cell only says 'ACE Inhibitors (ACE-I)'; the note appears incomplete.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The thiazide 'Important Notes' cell is cut off at 'potassium supplements/sparing'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Labetalol bolus is printed '0-20 mg IV'; probably 10-20 mg. Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Women aged 30-34 have no points printed (blank cell).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Chart in the PDF: 'Give a statin' is one bar across all risk levels, so it is not clear whether a statin is meant for every risk level or only the higher ones. The 'Treat HTN' cells are placed by position. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The flowchart does not cover a 10-year risk of exactly 10% (<10% and >10%).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Height 110 cm appears twice with different values (the first row is probably 100 cm).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The values in brackets for 160-180 cm are not explained (possibly the values for girls).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The final box reads 'RAASi + BB + MRA + SGL T2i±'; the position of '±' is ambiguous.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The comorbidity list ends 'Afib, CAD, HTN, and' (incomplete in the PDF).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Cardiogenic shock (SBP <80 mmHg) is described with 'warm extremities, not confused, good urine output' and managed 'as above' (including vasodilators if SBP >180) with ward admission; this looks copied from the row above. Inotropes are recommended for cardiogenic shock on p.117/119. Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Carvedilol paediatric: 'gradually increase dose QID 2-3 weeks' printed; read as every 2-3 weeks.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Spironolactone has no target dose printed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Dobutamine/dopamine are 5-10 mcg/kg/min here but 10-20 mcg/kg/min in the inotrope note on p.119.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "The BMI target <22.9 kg/m² and waist <90/<80 cm differ from the cut-offs used elsewhere in the guideline (BMI 18.5-24.9; waist 102/88 cm).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "GRACE 109-140 is not assigned to either risk group.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Several items run together in the PDF and were split: 'within the preceding 3 weeks suspected aortic dissection'; 'GI bleeding within the past month non-compressible punctures in' (cut off; '[the past 24 hours]' added from the usual ESC wording); 'the higher the INH, the higher risk of advanced liver disease' (read as INR, and advanced liver disease as its own item). Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Glucose thresholds here are in mg/dL, while the stroke-unit glucose targets (Step 4) are in mmol/L.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Aspirin dose is 325 mg in the acute phase (p.133) and 81 mg here for secondary prevention.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'NIHSS < 6 or > 25' as an exclusion conflicts with the tPA contraindications on p.133 (only NIHSS = 0 or rapidly improving) and with the DAPT advice for minor stroke (NIHSS ≤3). The age limit 18-80 is also not in the p.133 list. Clinician to confirm.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "Absolute contraindication '2 months' head/spine surgery' differs from 3 months on pp.133 and 137.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Alteplase is said to be 'given if 3-4.5 hours from stroke symptom onset'; elsewhere the window is 0-4.5 h.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "The BP goal is printed '< 130/< 180'; probably <130/80.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Antiplatelet doses differ across the stroke section: aspirin 150 mg maintenance here vs ASA 81 mg (p.134) and ASA 100 mg (p.138); aspirin loading 300 mg here vs 325 mg (p.133); TIA dual therapy '× 3 weeks' matches the 21 days on p.133.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Warfarin is given for AF here, while p.134 prefers DOACs over warfarin for AF-related stroke.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Subcutaneous nodules are a major manifestation in the text above (item 4) but are missing from the major list in this chart.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Minor criteria here (ESR 60 mm, CRP 3.0 mg/dL; 'arthralgia') differ from the Jones chart on p.142 (ESR ≥30 mm/hour, CRP ≥3.0 mg/dl, monoarthralgia).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Secondary prophylaxis weight bands are misprinted: the ARF box gives '>27 kg' for both 600,000 IU and 1.2M IU, and the mitral column gives 'If <27 kg: 1.2M IU'. The aortic and tricuspid columns give <27 kg = 600,000 IU, >27 kg = 1.2M IU. Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "An EF of exactly 60% is not covered (EF <60% / EF >60%).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Secondary prophylaxis here is oral penicillin V 250 mg BID, while the children's algorithm (p.145) uses IM Extencilline every 28 days.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Screening passed' is also followed by 'Pediatric cardiologist consult' in the PDF, probably copied from 'Screening failed'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The third-round box is garbled ('2 Sat between 90-94% in right any foot = Abnormal difference between right hand and any foot = Indefinite'); read as abnormal on the third reading, the usual protocol. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Aortic stenosis is described with an 'ejection murmur over the pulmonary area', copied from the pulmonary stenosis box.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The branch to flare treatment is labelled 'Well or febrile' in the PDF, while the other branch is 'Unwell or febrile'; read as 'Well'. 'Moisturisese', 'atleast' printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The '*' and '†' markers have no footnotes printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The severe row is cut off at 'severe degradation of the patient's' at the bottom of p.158.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The boxes printed 'Invalid' presumably mean 'ineffective' (treatment failure). The 'Moderate-severe' psoriasis vulgaris box has no arrow onward; from the systemic-agents text above it would go to phototherapy and systemic agents. 'NSAIS', 'druys', 'impletentation' printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The text list (grade 0 'minimal, normal exam'; grade 1 'mild confusion') and the chart (grade 0-1 combined as minimal/covert HE) grade the lower levels differently. 'cover hepatic encephalopathy', 'dyspraxis' printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "(A), (S), (C) after drug names are not explained here; they appear to be the medicine level codes used in the PUD section.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Several rows in this lower-GI table are upper-GI sources (Dieulafoy lesion, Cameron lesion, hemobilia, hemosuccus pancreaticus); they are causes of bleeding that can present lower.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The age table is a low-resolution image; fractions were read at high zoom and agree with the standard Lund and Browder chart except the adult value for C (printed 3; the standard chart gives 3½). The old chunk had 2¼ and 4¼ for B and 2¼ for C (5-9). Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The palm rule here (palm including fingers = 1%) differs from the fluid section on p.176 (palm excluding fingers ≈ 1%).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Dosing instructions conflict: the chart gives starting doses of 20-200 ml diluted in 200 ml saline over 30 min, while the box below says first dose 10 ml IV at 1-2 ml/min, then no more than 20 ml per 500 ml bag. Clinician to confirm.",
+"tier": "1A",
+"group": 6
+},
+{
+"issue": "The mixed-venom column lists drowsiness, nausea, vertigo, pyrexia as signs of severe envenomation, unlike the usual cytotoxic/neurotoxic signs.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The third column is headed 'B. Syndrome Haemotoxic Veno' (same as the fourth) but lists mambas and non-spitting cobras with neurotoxic signs; labelled neurotoxic here.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Head injury section (p.173) says 'Do not give narcotic analgesics to head injury patients. Use paracetamol', while this section says the analgesia of choice in TBI is morphine.",
+"tier": "1A",
+"group": 7
+},
+{
+"issue": "Hb > 7 g/dL here vs haemoglobin ≥ 8 g/dL in the goal-directed targets (p.187); PaCO2 32-37 here vs 35-45 mmHg in the targets.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Severe TBI is 'GCS < 8' here but GCS 3-8 in the GCS table and flowchart (p.184, 187).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "SDH: 'GCS <8 with rapid decline or ICP <20 mmHg' printed; presumably ICP >20 mmHg. 'Refractory ICH' presumably means refractory intracranial hypertension (ICP), not haemorrhage. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Cholinergic vitals list both tachypnea and bradypnea, and hypotension twice.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The opioid row lists 'Phencyclidine, MDMA, MDE' as examples, copied from the hallucinogenic row; opioids (morphine, heroin, codeine, tramadol etc.) are not listed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Adrenaline for bronchospasm is printed 'SC/IM 25–50 mg or IV 5–25 mg'; doses in mg are about 1000 times too high (probably mcg, or 0.25–0.5 mg). Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Inducing vomiting 'if charcoal not available' conflicts with current advice and with 'Do NOT induce vomiting' for some agents in the same cell.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Pulmonary oedema is managed with 'bronchodilators, steroids', copied from the row above.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "The notes below this table are headed 'Psychosocial Intervention' but are about investigations; no psychosocial content is given.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Folic/folinic acid is usually given for methanol, not ethylene glycol; the methanol row does not mention it.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Isoniazid antidote 'pyridoxine 10–25 mg PO q8hr' is a prophylaxis dose; isoniazid poisoning is usually treated with IV pyridoxine gram-for-gram (about 5 g). Similar low pyridoxine dosing is given for ethylene glycol.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Snakebite antivenom volumes here differ from the venom-specific starting doses on p.182.",
+"tier": "1A",
+"group": 6
+},
+{
+"issue": "The antidote cell for opioids is printed 'Naloxone 0.4–2mg PO depending on opioid amount; repeat in 2–3 min if needed' (p.189 of the guideline). Naloxone is given IV, IM or intranasally; oral naloxone is not effective for overdose, so 'PO' is probably an error in the guideline.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Stage 1 is printed '(1.5-to 1-fold)' and stage 3 '(<3-fold)'; written as 1.5- to 2-fold and >3-fold (KDIGO). Stage 3 is printed 'Step 3'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The AKI flowchart on the same page gives stage 3 as creatinine '> 356 mmol/l' and urine output <0.5 ml/kg/h for 24 hours, unlike this table (≥354 umol/l; <0.3 ml/kg/h for 24 h).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The third branch is labelled 'Hypovolemia' and 'Pre-renal' but lists obstructive (post-renal) causes; it should presumably read post-renal.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Several doses are misprinted: hyperkalaemia threshold '605mmol/L' (6.5); glucose '25-5 mls of D10W'; hypocalcaemia '0.1 mg/kg (0.5ml/kg)' (mg and ml do not match); protein '1.5-21 g/kg'; albumin 'over 30 to 60' with no unit. Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "These doses are weight-based (paediatric) but the section is titled for adults and children; adult doses are not given.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The CKD and AKD rows appear misaligned: CKD should be GFR <60 for >3 months or kidney damage >3 months, and AKD kidney damage for <3 months (KDIGO). As printed, CKD reads '< 3 mo' with no structural criterion and AKD has 'Kidney damage > 3 mo' twice. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The health centre column text spans the health centre, regional and referral hospital columns in the PDF.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Children: Kayexalate is contraindicated here ('DO NOT GIVE'), while the paediatric AKI chart on p.203 gives calcium resonium (kayexalate) 1 g/kg 4-hourly. Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "In the PDF the bullets in each block are not matched to individual sub-contexts (e.g. which reason belongs to sepsis vs ARDS); kept as one row per block.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "ACR is printed '> 30 mg/mg'; written as mg/g (KDIGO).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The Cockcroft-Gault formula is printed with '9' in place of '(' ('(140-age) 9WT[kg]) x 0.85, if female/serum creatinine 9mg/dl) x 72'); written out correctly. '125 lothalamate', 'Tc-DRPA', 'Lohexol' printed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Misprints: G3a range '45-49' (KDIGO 45-59); A1 '<300 mg/g' (KDIGO <30 mg/g); G3b 'Mildly to severely decreased' (moderately to severely); axis label 'GDF categories'. The colour legend is cut off after 'orange'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "This heat map matches KDIGO (G1-G2 with A3 orange), unlike the CKD screening heat map in Chapter 1 (p.30), which shows those cells red.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The CKD threshold is printed 'ACR > 30mg/mmol'; elsewhere (pp.211, 215) albuminuria is ACR >30 mg/g or >3 mg/mmol. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "G3a is missing from the eGFR category list; the caption prints the cystatin C range as 'eGFR cr 45-49' (KDIGO 45-59). 'CKD = CKD risk' printed (CKD = CVD risk). 'Urinary albumin-creatine ratio' printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The systolic BP target <120 mm Hg here differs from the hypertension chapter (target 130-139, 'not <120'; CKD 'target to <140 to 130').",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Note (b) is printed 'stains should be initiated for those beginning dialysis therapy'; the KDIGO source says statins should NOT be initiated in patients starting dialysis. Clinician to confirm.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "α-glucosidase inhibitors have no glucose-lowering efficacy printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'steroid dependence' definition describes steroid resistance (persistent proteinuria despite 4 weeks of high-dose prednisone); steroid dependence is usually relapse during or soon after tapering. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The PDF draws the 'glucocorticoids' arrow from the '≥12 years, syndromic features' box and the 'biopsy/genetic testing' arrow from the '≤12 years, no syndromic features' box; the source algorithm (KDIGO 2021) has these the other way round, as written here. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'0.9% sodium chloride' appears after 'Relapsing Steroid Sensitive' with no context.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "IgA nephropathy prednisolone is printed '1mg/day' (presumably 1 mg/kg/day); proteinuria threshold printed '1g/d' (presumably >1 g/d).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Membranous nephropathy 'Do not use serum creatinine >309' does not say what not to use (presumably cyclophosphamide/alkylating therapy).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Extended-release methylphenidate is given 'OD or BD (morning and lunchtime)' as for immediate release; ER preparations are normally once daily in the morning.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The adult rows repeat 'Not for children < 6 years old' as the contraindication; 'mood stabilizers first' is printed as is. The PDF prints separate tables for children and adults.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Risperidone 'side effects' include 'comatose status, circulatory collapse', which are usually listed as contraindications; doses are not given by age or weight for children.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Lamotrigine children's dose without valproate is printed '0.3mg/kg' (no '/day'). Table spans pp.247-248.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The barbiturate row is printed 'Phenytoin'; the doses (30 mg nocte; 3-5 mg/kg/day) are phenobarbital doses. Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Valproate is 'contraindicated' in pregnancy here, while it is listed without a pregnancy warning in the drug table. The follow-up box continues on p.249.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The footnotes (a) and (b) are not printed. 'sydrome' printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Glucose threshold is in mg/dl (60 mg/dl ≈ 3.3 mmol/L) while the rest of the guideline uses mmol/L. 'Diazepan', 'bogus' (bolus), 'stablization' printed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Several doses are misprinted: diazepam '0.5 - 0.2 mg/kg/dose' (usually 0.15-0.2 mg/kg); phenytoin maintenance '1.5 mg every 8hr' (no per-kg unit); thiopental infusion '3-3 mg/kg/hr'; lorazepam has no maximum. Propofol 5-10 mg/kg/hr is high for a 24 h infusion. Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "In both panels the chart draws VIA as a routine screen after a negative HPV test (as well as a triage test after a positive one), and the HIV panel has a second 'Negative' box reading 'Refer for LEEP / Year'. The intended pathway is unclear; summarised here. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Stopping screening at 50 in women living with HIV differs from usual WHO advice (continue screening); the age range for the general population is printed '25-50'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Ablation eligibility is '≤75%' and ineligibility '≥75%' (both include 75%); WHO uses <75% / ≥75%.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The row 'On ART / PrEP: Annual VIA screening' groups PrEP users (who are HIV-negative) with women on ART, contradicting the HIV-negative row on the same table (every 2 years) and the summary table (p.252). Clinician to confirm; probably meant 'On ART'.",
+"tier": "2",
+"group": 21
+},
+{
+"issue": "For both HIV-negative women and women living with HIV, the algorithm sends every positive VIA to LEEP/colposcopy (LEEP/oncology if HIV-positive), while the summary table and the VIA management table (p.252) give same-day cryotherapy/thermal ablation when eligible and LEEP only when not. Clinician to confirm; probably needs correcting in the guideline.",
+"tier": "1B",
+"group": 21
+},
+{
+"issue": "'No family history' is listed under 'Above Average Risk'; presumably this level is average/near-population risk.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The chart expands SILUAN as 'Significant, Unexplained, Rapid onset, Ongoing, Night sweats', which does not match the SILUAN mnemonic on p.260. 'Night sweets', 'surgeology' printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Screening is said to be every two years from 50 'with any of the following risk factors' but the list that follows gives discussion ages, not risk factors; elsewhere PSA is annual.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The age bands (<40 and 41-60) leave age 40 uncovered; the definitions 'PSA >1' / 'PSA >2' leave PSA exactly 1 or 2 uncovered.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The table has no intermediate-risk row (very low, low and high risk only). The first column is headed 'Stage' but lists risk categories.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Latanoprost and bimatoprost are printed 'twice daily'; both are normally once daily (evening). Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Functional pain sits under 'Neurogenic' in the PDF's first column (row span), as printed. FM is not expanded (fibromyalgia).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Tramadol maximum is printed '240mg daily'; the usual maximum is 400 mg/day. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Methadone 'about 1 mg' = 10 mg oral morphine is printed without noting that the ratio varies widely with dose; tramadol 50 mg ≈ morphine 10 mg is lower than usual (about 100 mg). Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "The mild-moderate column is headed '(eGFR >60 mL/min)' although it includes stage 3 (eGFR 30-59).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Grade 2 is described as 'extending into tendon, bone, or joint capsule, but without bony involvement' (self-contradictory; Wagner grade 2 is a deep ulcer to tendon or capsule without abscess or osteomyelitis).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The footnote is cut off at 'sepsis or diabetic'; 'Without ulcer (UT' is also cut off.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Amitriptyline is listed under a second 'Anticonvulsants' heading in the PDF; it is a tricyclic antidepressant.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Gabapentin 'usual' 1,200 mg/day and amitriptyline max 150 mg differ from the palliative adjuvant table on p.293 (gabapentin max 2,400 mg/day; amitriptyline 10-75 mg).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "This table makes fluoxetine first line; the MDD table on p.310 lists amitriptyline as '1st line' alongside SSRIs. Sertraline is 'preferred in elderly' here.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Week 4-6: if no response increase dose or switch' conflicts with the prescribing rule on the same page ('consider second line after maximum dose for at least 8 weeks').",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Aripiprazole 'contraindications' list depression, although it is listed here for depression with psychosis. 'Absolutely contraindicated' for risperidone/olanzapine in all elderly, hypertensive, diabetic or obese patients is stronger than usual guidance.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Duloxetine contraindications 'Urolithiasis, AGE, cognitive dysfunction' are printed as is (AGE unexplained); sertraline/fluoxetine 'contraindications' list type 1 or 2 diabetes.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Flunarizine (a calcium-channel blocker used for migraine/vertigo) is listed as 3rd-line treatment for depression, while its own contraindication column lists 'Depression'; flunarizine can cause depression. Sodium valproate is also not an antidepressant. Clinician to confirm.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "Fluoxetine is given 'nocte' here but 'mane' on p.309; amitriptyline is 1st line here but fluoxetine is first line on p.309.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Carbamazepine is a CYP3A4 inducer and usually DEcreases PI/NNRTI levels; 'increases' is printed. Pregnancy/breastfeeding advice here ('avoid') differs from p.309 (fluoxetine and sertraline safer in breastfeeding).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The only benzodiazepine regimen given for alcohol withdrawal is the insomnia regimen 'lorazepam 1-2 mg nocte for 7 days', which is not a withdrawal regimen (usually symptom-triggered or fixed-schedule dosing, e.g. diazepam or chlordiazepoxide). Clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Fluoxetine and sertraline are given 'nocte'; SSRIs are usually given in the morning (fluoxetine is 'mane' on p.309).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Reversibility is '>12% (or ≥200 mL)' in the first table but '≥12% AND ≥200 mL' in the GINA 2024 criteria; children's PEF variability is >12% in one table and >13% in the other. The GINA 2024 criteria are a separate table in the PDF.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The table mixes two scoring methods: the GINA yes/no count (0, 1–2, 3–4) and per-question frequency bands; the first row's cells ('None of those / 1–2 of those / 3–4 of those') are the yes/no totals, not daytime symptom frequencies.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The heart failure row is labelled only 'Heart' in the PDF.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The ICS dose ranges are a separate table in the PDF; added here as a section. The key-points box is headed '3 key points' but lists six.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Step 2 example 'fluticasone 50 mcg BD' (100 mcg/day) is at the top of the low-dose range; the ICS doses table is a separate table in the PDF, added as a section.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "PEF 70% exactly is not covered (>70% mild, 40–69% moderate).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 12+ option A step 1 and 2 symptom rows are identical ('less than 4–5 days a week'). Words run together throughout ('twicea', 'asthmaoncea'). The option B label is not printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "These step tables (from the older GINA 2023 format) are printed after, and differ from, the treatment-step tables on pp.331-333 (e.g. children 6-11 step 1: 'low dose ICS taken whenever SABA taken' here vs 'no daily controller, as-needed SABA' there; step 4: medium ICS-LABA here vs medium-to-high ICS-LABA + LTRA there). Clinician to confirm which applies.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The oxygen target is printed '94–98% (adults/adolescents) or 94–98% (children)' (same range twice); the primary-care flowchart on p.338 targets 93–95% in adults. Children's magnesium '25–75 mg/kg' is printed (usually 25–50 mg/kg, max 2 g).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Severity thresholds here (SpO2 90-95% mild/moderate, <90% severe; PEF 50%) differ from the severity table on p.334 (SpO2 92-94% moderate, <92% severe; PEF 40-69% moderate, <40% severe). 'Life threating', 'Ipratroplum', 'on aur' printed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Mild/moderate pulse rate is printed '100-200 bpm' (100-120 on p.338). IV terbutaline/aminophylline are listed in the severe treatment box although the text below says aminophylline is generally not recommended.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Three separate tables in the PDF are combined here with sections. 'Blue boater' printed. The bronchitis age band '40-45' is printed as is.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "FEV1 ≥80% is not covered (GOLD grades: mild ≥80%, moderate 50-79%, severe 30-49%, very severe <30%); the bands here differ from GOLD.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "A heading 'Etiological Classification of Hematuria' is printed on p.348 with no content under it.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The RBC rows are garbled as printed: row 3 reads '3–10 RBC/HPF / 11–25 / RBC/HPF' (the high-risk value is missing; bracketed values inferred), and row 4 repeats '3–10 RBC/HPF'. In the AUA 2020 system, low risk is 3–10 RBC/HPF, intermediate 11–25 RBC/HPF, high >25 RBC/HPF; clinician to confirm and correct the table.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The red-flag criteria themselves are not listed on the algorithm.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "5-alpha reductase inhibitors are named in the algorithm (p.351) and investigations table (p.350) but have no dosing row in this treatment table.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "This table has no title and is printed between the BPH treatment table and the 'Erectile Function Disorders' heading; its content is the classification of erectile dysfunction.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Printed 'IF NORMAL WITH N EVIDENCE OF CHD' (read as 'no evidence'), 'Tadalifil', 'In hibitors', 'Princetown' (Princeton), 'SHOULD REFERRED'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Figures 1-6 are pictures (day strips with pill and sex icons); described here in words. In Figure 4 the Saturday and Sunday 9 AM labels are printed without tablets; whether to continue after a loading dose when sex does not happen is not stated in the text.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The injection-site diagram labels the distance from the navel as 'at least 2 inches', the text as 'at least 5 cm'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The figure is a pharmacokinetic curve with no numeric values to transcribe; the earlier chunk listed week-by-week concentrations that are not in the PDF.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Rifabutin is listed under 'LEN should not be co-administered', while the dose-adjustment row covers only rifampicin; supplemental dosing for rifabutin or rifapentine is not addressed.",
+"tier": "1B",
+"group": 20
+},
+{
+"issue": "LEN's contraindications in this table omit the drug interactions listed in Table 7 (rifamycins, carbamazepine, phenobarbital, phenytoin, ketamine), while CAB-LA's include them.",
+"tier": "1B",
+"group": 20
+},
+{
+"issue": "The ≥30 kg weight cell appears to span oral PrEP and the PrEP ring; the PrEP ring is for people assigned female at birth only, which is not repeated here.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Testing (oral PrEP users for hepatitis B' – a bracket is opened and not closed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The kidney row points to 'Section 4.1, box 11' for the creatinine clearance formula; Box 11 is the AHI signs box (p.37) and the formula is elsewhere.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The mental health row refers to 'Appendix 4' for screening tools; the tools are in Annex 5.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Two tables are numbered 'Table 14' (timing of follow-up visits, p.46, and HIV testing services, p.47).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The footnote says 'See Table 6' (CAB-LA drug interactions); the adherence definitions are in Table 16.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Oral PrEP for people assigned female at birth: '≤2 doses missed' counts as adherent while '2+ doses missed' counts as non-adherent, so exactly 2 missed doses falls in both.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The text above the table says monitoring is after one month and every six months; the table says once within three months of initiation and then every 6–12 months (or six-monthly for under-30s with CrCl <90).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Ring row printed 'To restart the PrEP ring within 24 hours to reach maximum protection before sexual encounter' (incomplete sentence).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The LEN row refers to 'Annex 5' (mental health screening tools); LEN missed-injection guidance is Annex 3.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Box 14 says 'Table 9 below provides general guidance' for switching; the switching table is Table 19.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The PrEP ring section (p.22) refers to 'table 19, page 55, section 3.7'; the table is on printed page 56.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Evaluate for additional causes of creatinine elevations (see Box 12)' – Box 12 is about AHI; the causes are in Box 16.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The creatinine clearance and APRI formulas are printed as images only (no text layer).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Section 4.3 says genotyping should be done for all PrEP seroconverters and anyone exposed to CAB-LA in the last 12 months; the note under Figure 14 limits it to seroconversion during the CAB-LA or LEN tail period.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The text introducing the indicators refers to 'Table 11'; the indicators are Tables 21 and 22.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Headache' is listed twice in the symptom checklist.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Exactly 2 months (initiation injection 2) and exactly 3 months (follow-up) are not covered by '<' and '>'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The footnote mentions oral cabotegravir as a bridging option, which is not available in the guideline's product list.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'schedule the subsequent follow-up injection for 26 later' – the unit (weeks) is missing.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Section 2.4 says LEN bridging should not exceed three months and is for exceptional circumstances; the annex offers it routinely for postponements of 7 days or more.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The 90-day limit for bridging is justified by quarterly retesting 'for those using oral PrEP', copied from the CAB-LA annex.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Section 3.2 (Box 13) and section 3.3 refer to 'Annex 3' for counselling messages; they are in Annex 4.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 5 is titled 'Mental Health and Alcohol Abuse Screening Tools' but only the PHQ-9 is printed; there is no alcohol or substance use screening tool.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "PHQ-9 item 9 (thoughts of death or self-harm) has no instruction for what to do with a positive answer regardless of total score.",
+"tier": "1B",
+"group": 16
+},
+{
+"issue": "Section 4.5 refers to 'annex 7 and 8' for side effects and adverse reactions; they are Annexes 6 and 7, and the annexes cover oral PrEP and LEN as well as CAB-LA.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 2007 column cites the 'Swaziland Demographic and Health survey, 2017'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Units are not given (percentages, counts, per 100,000 / per 1,000).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Calcium and IFA are listed at every contact but doses are not given in this table.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Several cells are printed twice (contact 3, 4 and 5 preventive measures, clinical practices, management and 'Others'), and on contact 5 text from the maternal-assessment and counselling cells overflows into the preventive-measures and clinical-practices cells. Cleaned up here; the order of the overflow text was inferred.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The 'Cadres' row on p.22 has six columns in the first block and five in the second; mapped to the 11 columns in printed order, so the mapping should be checked.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The PDF prints each contact as a rotated landscape table with no text layer; cells were transcribed from the page images.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Calcium: the assessment column says all women are at risk and 'dispense 1500 mg', but the treatment text limits calcium to women 'at risk of developing pre-eclampsia' (multiple pregnancy, obesity, family history, diabetes) from 20 weeks; the contact schedule lists calcium at every contact from contact 1.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Missed abortion and molar pregnancy rows give only 'ultrasound at health centre or hospital' – no instruction to refer or on vital signs/IV access, unlike the other rows.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The abortion definition reads 'before 20 weeks' gestation or with a fetus born weighing 500 g' (presumably 'less than 500 g').",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Ruptured uterus sign printed 'Abdominal uterine contour' (abnormal uterine contour).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The general management is printed against abruptio placentae only; it is read here as applying to all three diagnoses.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Same magnesium sulphate '4 g IM' pre-referral dose as for severe pre-eclampsia (see above).",
+"tier": "1A",
+"group": 8
+},
+{
+"issue": "'Mild' pre-eclampsia still uses the older '30/15 mmHg rise' criterion, which is no longer used to define hypertension in pregnancy.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Pre-referral magnesium sulphate is given as '4 g IM'. The WHO IM regimen is 4 g IV plus 10 g IM (5 g in each buttock), or 10 g IM where IV is not possible; 4 g IM alone is below standard loading doses. Clinician to confirm.",
+"tier": "1A",
+"group": 8
+},
+{
+"issue": "'Ultrasound at least twice a day' for PPROM is implausible (probably vital signs or fetal heart rate twice a day).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Betamethasone '12 mg every 12 hours for 24 hours' – the usual regimen is 12 mg IM every 24 hours for 2 doses; the dexamethasone dose is not given.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Erythromycin dose is not given; '500 mg PO 6-hourly' appears to apply to amoxicillin only.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "PPROM before 28 weeks: 'initiate process of evacuation by stimulation' – clinician to confirm intent.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The >34-week row says 'give steroids before 37 weeks', which conflicts with steroids being limited to 28–33 weeks above.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "'Double dose of daily iron' is not given in mg.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The table uses >11 g/dl for no anaemia, while the definition above uses <10.5 g/dl in the 2nd trimester; Hb 10.5–11 in the 2nd trimester falls in 'moderate anaemia' here.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Acute cystitis diagnosis reads '>100,000 bacteria/mL with less than 20 white cells and 2 or more organisms' – mixed growth with few white cells usually indicates contamination, not cystitis. Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The timeline calls Day 150 the 'Fourth' and Day 180 the 'Fifth' clinic visit, but sections 12.18 and 12.20 call them the fifth (5th ARV refill) and sixth (6th ARV refill) visits.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Missed first refill visit: 'Follow guidance on the management of missed appointment as stipulated in the appointment register (add steps)' – an unfinished drafting placeholder; the steps are not given.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Day 60-90 visit: 'Graduate client from linkages case management if not at high risk for defaulting and 100% adherent', but the SOP schedules LCM contacts to Day 180 ('this is the last visit') and the LCM register follows clients for 3-6 months; graduation criteria are inconsistent.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "At the day-150 visit, clients still delaying ART are discharged from linkage case management; the table gives no further follow-up (e.g. community tracing or later re-contact) for people living with HIV who have not started treatment.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Day 180: 'If the V/L is undetectable they will be enrolled into more intense DSD model. If the second one is still undetectable, they will then be transitioned into less intensive model' – an undetectable viral load leading to a MORE intensive model looks reversed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "For clients still not on ART at Day 180: 'Inform client that there is no need to test again, should they decide that they want to be initiated on ART' – conflicts with retesting for verification before ART initiation required elsewhere in the SOP (sections 9.3-9.5, 12.24, Annexure 1).",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "Community initiation: 'give client two weeks supply' – consistent with the Day-14 first refill, but no instruction is given if the client does not link within the 7-day window while holding ART.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Proportion of LCM clients retained and virally suppressed at 6 months' uses as denominator only clients who had a VL taken, so it does not measure retention.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Proportion of clients with a LCM outcome by type': the denominator is also labelled 'Numerator' in the source.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Health-system factor 4 (staff attitude) includes 'explain that the earlier an individual starts ART the longer they can live', which seems misplaced from factor 1.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Individual factor 1 asks the clinician to explain the old CD4 thresholds for starting ART (200-350-500); this may confuse clients now that treatment starts at diagnosis.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Individual factor 1: the barrier cell ends mid-sentence ('Some know but find it too').",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The flowchart prints 'CMIS.APMAR'; elsewhere the system is 'APMR'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Early interrupters are defined by time 'post initiation' and late interrupters by time 'on ART'; the categories overlap for someone who interrupted more than 6 months after starting ART.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "For clients on ART who missed an appointment (<28 days), the chart says 'offer relevant prevention services according to client's preferences' rather than resuming ART/adherence support; probably copied from the HIV-negative pathway.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The charts carry no printed values; the year-by-year numbers in the earlier chunks were estimated from the graphs and have been removed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The charts carry no printed values; the earlier chunks listed bar and line values read off the graphs (e.g. an incidence of 537/100,000 in 2010, which contradicts the 1590/100,000 in the text). They have been removed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The figure has four state labels over five columns; the second column (TB infection, no treatment) is labelled here as early infection by inference.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The symptomatic referral chart attributes weight loss, night sweats and fever to TB only, and wheezing to asthma only; other causes (e.g. HIV, malignancy, heart failure) are not listed for those symptoms.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The 'No' (no CXR in past 12 months) box has no arrow drawn to 'X-ray screen with CAD'; the link is implied.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'CXR screening done in the past 12 months: Yes' has no next step drawn (in Figure 11 it leads to further clinical evaluation and TPT).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "A CAD-positive X-ray has no next step drawn – presumably sputum collection for Xpert, as in Figures 10 and 11. The earlier chunk wrongly sent it to 'further clinical evaluation'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Smear grading: the 'Negative' row reads 'Number of AFB per 100 oil immersion fields' – it should read 'No AFB in 100 oil immersion fields'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Seriously ill' uses >30/min, >120/min, >39°C here but ≥30, ≥120, ≥39°C in the Figure 16 footnote.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "AHD footnote for children is incomplete ('For children <5 years and have not been on treatment for at least 12 months'); WHO defines all children under 5 as having AHD, except those already stable on ART for over 12 months.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "CRP threshold printed as '>5m/L' (mg/L).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "For AHD with a negative LAM, the chart goes straight to the AHD package without Xpert, even though LAM sensitivity is limited; clinician to confirm intent (Xpert is done if symptomatic via the first branch).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Chest x-rays are contra-indicated in pregnancy especially during the first trimester' – CXR with abdominal shielding is acceptable in pregnancy when indicated, and WHO allows CXR for TB screening in pregnant women; 'LED-shield' should be 'lead shield'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "TB meningitis: 'Kerning's sign' (Kernig's sign).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Adult weight bands start at 25 kg; no dosing is given for adults under 25 kg (the paediatric tables cover <25 kg).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The note refers TB meningitis to 'section 6.7' (adjuvant steroids); TBM treatment is section 6.6.3.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 18 gives 'Lost to follow up' for interruptions over 7 weeks, while Table 19 defines loss to follow-up as treatment interrupted for 2 or more consecutive months (about 8.7 weeks).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Treatment failure is defined as 'sputum culture positive at 2 months, or smear positive at 5 months or later'. In the WHO definitions failure is a positive smear/culture at month 5 or later (or treatment change); a positive culture at month 2 is not treatment failure.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "'Imaging CXR' has no examination or indication entries.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Blood gas thresholds read 'PaO2, 80 mmHg/10.6 kPa and/or PaCO2.45 mmHg/6.0 kPa' – the comparison signs are missing (presumably PaO2 < 80 mmHg, PaCO2 > 45 mmHg).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The title says 'pulmonary resuscitation'; the content is pulmonary rehabilitation (also Table 21). 'Sings of repository distress' should read 'signs of respiratory distress'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Malnutrition threshold reads 'body mass index ,16 kg/m2 or ... ,17 kg/m2' – presumably '<16' and '<17'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The resting-hypoxaemia criterion is cut off ('... polycythaemia (haematocrit > 55%) or pulmonary').",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The table has no column headings in the PDF; 'Problem' / 'Management strategy' were added here.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Longer regimen row: 'military TB' should be 'miliary TB'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 25 rates clofazimine CSF penetration as 'Good'; clofazimine's CNS penetration is generally considered uncertain or poor.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Isoniazid, rifampicin and the newer drugs (bedaquiline, pretomanid, linezolid, delamanid, clofazimine) are not listed; the table does not say that they need no adjustment.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 27 still schedules injectable-related monitoring (serum creatinine, electrolytes, audiometry) although the DR-TB regimens in Table 24 are all-oral; HIV viral load timing (3, 6, 12 months then annually) differs from the 2024 HIV Amendment schedule.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Linezolid alternative: '300 mg daily provided that 9 consecutive weeks of treatment is completed' is ambiguous; in the WHO BPaLM guidance linezolid 600 mg daily may be reduced to 300 mg daily after the first 9 weeks (or for toxicity); a three-times-weekly 600 mg schedule is not part of the WHO recommendation.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The total bedaquiline course (weeks 3-24/26 at 200 mg three times weekly) and the BPaLM duration (6 months) are not stated in the table.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Group A weight bands overlap ('46-56 kg' and '56-69 kg'); Groups B/C use 46-55 kg.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Imipenem-cilastatin has no paediatric doses in the table (cells blank).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Meropenem adult dose printed '1 vials (1 g + 1 g) bd'; the WHO table gives meropenem 1 g three times daily (or 2 g twice daily) with clavulanate.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Babies <4 kg: for 2.9 kg the intensive-phase dose is ½ tablet but the instruction says 'give 5 ml (1/2)' (half of the 20 ml solution is 10 ml); the continuation-phase cell says ¼ but the instruction gives 10 ml (1/2).",
+"tier": "1A",
+"group": 19
+},
+{
+"issue": "Continuation phase for 2 kg and 2.9 kg tells the carer to dissolve an RHZ tablet; the continuation phase uses RH (as in the 3-3.9 kg row).",
+"tier": "1A",
+"group": 19
+},
+{
+"issue": "Vitamin B6 is 1-2 mg/kg/day in Tables 36-37 but section 8.7 says 2.5 mg/kg (5-10 mg/kg in some situations).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Weight bands are printed as '2 kg', '2.9 kg', '3-3.9 kg', leaving gaps (e.g. 2.1-2.8 kg).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The boxed 'Recommended TBM regimen for children: 2HRZE+Lfx/10RH' contradicts the sentence just above it (not yet recommended by WHO) and the WHO-recommended 6RHZEto shown in the table.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The text says the 2HRZE/10HR doses are 'the same as in the dosing table 28'; the paediatric dosing tables are Tables 36-37.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "MUAC <22.5 cm is given as the cut-off for all children >5 years; MUAC thresholds vary with age (5–9 vs 10–14 years), and BMI-for-age is usually used over 5.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The CXR result 'positive' is not drawn as a box; an arrow from 'CXR read by human reader' leads to specimen collection.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The symptom screen is defined for '>10-15 y.o' and '<10 y.o'; age 10 itself is not covered.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "A positive CXR screen has no next step drawn (presumably specimen collection, as in Figure 23); the earlier chunk omitted the branch.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Children with HIV, not on ART, symptom-negative and aged 10 or under have no screening step (CRP is 'for >10 years only').",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The figure title says 'PLHIV <15 years' but the chart covers children with and without HIV.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "On the continuation page (p.162) Table 39 repeats the 'Major' band heading over peripheral neuropathy, drowsiness, orange urine and flu-like syndrome, which are minor side effects (WHO lists them as minor).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'When to stop anti-TB drugs' lists only pyrazinamide for hepatitis; isoniazid and rifampicin are also hepatotoxic and Table 39 lists all three.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Table 42 lists 'mild skin rash' and peripheral neuropathy for isoniazid under both moderate-to-severe and mild events, and puts a drug-interaction warning (linezolid with serotonergic agents) in the 'mild adverse events' column.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "K+ 2.4-2.6: '60 mmol IV and 6000 mg orally every 6 hours for 24 hours' would be 320 mEq oral plus IV per day if read literally; the 'every 6 hours' appears to belong to the monitoring column (as in the next row). The 'when to do the next control' cell is blank for this row.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "'CTcF' typo in the drug-stopping note.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Grade 1 is printed as '45 - 480 msec' (presumably 451-480 msec); grade 4 as '> 501 msec or 60 msec change' (usually >500 msec or >60 msec increase from baseline).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Grade 3 reads '> 5 to 10 ULN or any asymptomatic elevations' – probably 'symptomatic' (drug-induced liver injury is usually ALT >3×ULN with symptoms or >5×ULN without).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Rifampicin and the oral contraceptive pill: 'receive a pill containing a higher dose of oestrogen (50 μg)' – current guidance (WHO MEC) is to use another method (e.g. DMPA, IUD) rather than a higher-dose pill.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The 'DTG and all TB treatments' row says the preference is to keep clients on TDF+3TC+EFV during TB treatment, which conflicts with Table 46 (increase DTG to 50 mg twice daily during rifampicin-based treatment, the current WHO approach).",
+"tier": "1B",
+"group": 9
+},
+{
+"issue": "Footnote 1 refers to 'Dosing Table ****' (unfinished cross-reference); footnote 5 runs into footnote 6 in the PDF.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The table predates paediatric DTG for children <20 kg: current WHO guidance prefers DTG (twice daily with rifampicin) for children ≥4 weeks and ≥3 kg; the table still recommends LPV/r, NVP or EFV for <20 kg.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Weight units are not printed (presumably kg); bands overlap at 5, 15 and 30.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "CD4 thresholds are printed as 'cells/ml' in several cells; the unit is cells/mm³ (cells/µL).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The LF-LAM inpatient criterion is cut off in the printed cell ('Inpatient setting: CD4'); WHO recommends LF-LAM for inpatients with CD4 ≤200 cells/mm³ (and for all symptomatic inpatients).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "An indeterminate TB infection test leads to 'No TPT'; an indeterminate IGRA is usually repeated or the decision made clinically.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Footnote (c) on 'Safe for use' (pregnant women) is not printed with Table 54.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "1HP footnote reads 'for individuals aged < 13 years'; 1HP is recommended for people aged ≥13 years (Table 58 says ≥12 years).",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "1HP row lists 'Rifapentine 30 mg tab' (2 tablets); the 1HP rifapentine dose is 600 mg daily, i.e. 2 × 300 mg tablets.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Footnote d (rifapentine 15 mg/mL solution) is attached to the levofloxacin 250 mg suspension volumes.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Lfx 250 mg tab has no dose for 20-24.9 kg ('–') although the bands either side are covered.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The first two weight columns are printed '3-5.9 kg (> 3 months)' and '3-5.9 kg (≥ 3 months)'; the first should read '< 3 months' (as in the 6-9.9 kg pair, '< 6 months' / '≥ 6 months'). The last weight column is printed '< 50 kg' after 45-49.9 kg; it should read '≥ 50 kg'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Isoniazid 100 mg dt for 4-7.9 kg is printed '0.5 (0.5 mL)'; half a tablet in 10 mL is 5 mL.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "≥65 kg: isoniazid 300 mg × 1.25 tablets (375 mg) and rifampicin 300 mg × 2.5 capsules (750 mg) exceed the usual maximum daily doses (isoniazid 300 mg, rifampicin 600 mg for TPT); clinician to confirm.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "In both levofloxacin sub-tables the two 3-5.9 kg rows are both printed '<3 months old'; the second should read '≥3 months old'. The 6-9.9 kg pair is printed '<6 months' / '>6 months' (presumably '≥6 months').",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Weight bands leave 25 kg itself uncovered (<25 kg and >25 kg).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "3HP row: '3 tablets weekly plus 25 or 50 mg plus Vitamin B6 weekly' is garbled.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 58 allows 3HP/1HP in children ≥2 years only with a child-friendly formula, while Table 55 gives 3HP doses from 3 kg; the age limits for 3HP (≥2 years) and 1HP (≥13 years) are not consistent across the tables.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The text above Table 61 says 3HP requires at least 90% of doses, but the table gives 10 of 12 doses (83%); Table 62 uses 'at least 9 doses' (75%) for 3HP. WHO's 3HP completion threshold is 11 of 12 doses (90%) within 16 weeks.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "1HP 'More than 7 doses missed' row says 'If < 7 consecutive doses were missed, consider restarting'; the intended rule (WHO) is to restart if more than 7 consecutive doses are missed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The Negative and Indeterminate rows print '≥0.35 and ≥25% of Nil', which is the positive criterion. The manufacturer's (QuantiFERON-TB Gold Plus) criteria are: Negative = Mitogen minus Nil ≥0.5 and TB1 and TB2 minus Nil <0.35, or ≥0.35 and <25% of Nil; Indeterminate (Nil ≤8.0) = TB1 and TB2 negative with Mitogen minus Nil <0.5. As printed, a negative result also requires Mitogen <0.5, which is the indeterminate criterion.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The chart annotation says a 2-year-old girl weighing 14 kg is at -2 Z score; on the WHO girls' weight-for-age standard 14 kg at 24 months is above +1 SD (the -2 SD line is about 9 kg). The example appears wrong.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The earlier chunk listed z-score weights by age that are not printed in the PDF (and are not the WHO values, e.g. a median birth weight of 2.4 kg); they have been removed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The note '*Essential medicines list included atenolol, metoprolol, and carvedilol as alternatives' refers to beta-blockers and has no asterisk in this table; it appears to belong to an antihypertensive table.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Score bands leave gaps: 0-4 is not listed and a score of exactly 20 falls in no band ('>20'). The standard PHQ-9 bands are 0-4 none, 5-9 mild, 10-14 moderate, 15-19 moderately severe, 20-27 severe; the labels here also differ (10-14 'minor to mild', 15-19 'major').",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Fluoxetine and sertraline are advised 'at bedtime'; SSRIs are usually taken in the morning because they can cause insomnia.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Linezolid (used in DR-TB regimens) interacts with SSRIs and amitriptyline (serotonin syndrome risk); see the drug-interaction note below this table.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Lorazepam is listed as a second-line antidepressant; it is a benzodiazepine (anxiolytic/sedative), not an antidepressant.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "M. kansasii: ethambutol is printed as 300 mg; the usual adult dose is 15 mg/kg (about 800-1,200 mg). 'Pyridoxide' is pyridoxine.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Eyes grade 1 reads 'vision not severely affected (6/6 or better)'; the WHO grading uses 6/60 or better (grade 2 = worse than 6/60).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The figure is printed rotated and its bottom edge is cropped in the PDF: a line of small text below the Method Tabs strip is cut off and cannot be read.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Missed progestin-only pills: the instructions ('take 2 pills as soon as she can and another 2 the next day'; for 3 missed pills 'do not attempt to replace') are combined-pill style. For POPs, WHO advises taking one pill as soon as possible whenever a pill is more than 3 hours late (27 hours for desogestrel), continuing daily, and using a backup method for the next 2 days.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "POP eligibility: acute DVT/pulmonary embolism is placed in category 3; the WHO MEC (2015) puts it in category 2 for progestin-only pills. Ritonavir-boosted protease inhibitors are category 3 here; WHO MEC 2015 lists them as category 2 for POPs (reduced effectiveness is less of a concern than for combined methods). Check against the current WHO MEC before relying on these two rows.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Smoking, if under 35 years old' is listed under MEC category 1 and 'Smoking and age less than 35 years' under category 2; the WHO MEC puts smoking at age <35 in category 2.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "COCs category 4 includes 'hypertension (history of hypertension, hypertension controlled on treatment, moderate hypertension)'; in the WHO MEC adequately controlled hypertension and BP 140-159/90-99 are category 3, and only BP ≥160/≥100 or vascular disease is category 4.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "CIC eligibility differs from the WHO MEC (2015) in several rows: smoking <15 cigarettes/day at age ≥35 is category 1 here (WHO 2); ritonavir-boosted protease inhibitors, rifampicin/rifabutin and enzyme-inducing anticonvulsants are category 4 here (WHO 2 for combined injectables); migraine without aura at age ≥35 in continuing users is category 4 here (WHO 3). Check against the current WHO MEC.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Clients on rifampicin, enzyme-inducing anticonvulsants or efavirenz are listed as suitable without a note that these reduce levonorgestrel ECP efficacy (WHO: double the LNG dose to 3 mg, or prefer a copper IUD).",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "Phenytoin, phenobarbital and carbamazepine are listed as 'anti-psychotic treatment'; they are anticonvulsants.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Reduced effectiveness is tied to weight >70 kg; WHO uses BMI ≥30 kg/m² for reduced LNG/UPA efficacy.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The MEC wheel is an image; the earlier chunk was an empty grid with no categories. Its values are not available as text.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Condom spillage or breakage: the only action given is 'Offer comprehensive PEP'; emergency contraception (within 120 hours) should also be offered, and PEP applies only where HIV exposure is possible.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Appendix 6 covers efavirenz, nevirapine and protease inhibitors but not dolutegravir, now the preferred first-line ARV in Eswatini; dolutegravir has no clinically significant interaction with hormonal contraceptives, and efavirenz with implants (the main concern listed) applies only to clients still on EFV-based regimens.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The first question box (depressive disorders) repeats the anxiety questions ('excessive fear or worry'); the depression screening questions ('Feel sad most of the time and/or has loss of interest?') appear only at the end of the child chart on the next page.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Premenstrual dysphoric disorder lists 'Hallucinations' among the core symptoms; the DSM-5 core symptoms are marked affective lability, irritability or anger, depressed mood/hopelessness, and anxiety or tension (hallucinations are not a PMDD criterion).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'12 moths' (months). The first symptom list says 'at least one of the following' – DSM-5 persistent complex bereavement disorder requires at least one of these four and at least six of the twelve that follow, as the table states.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Step 2 says 'Prescribe medications' without naming which; no grief-specific medication guidance is given.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Step 1 (sexual assault without psychiatric symptoms) lists only vital signs, examination, counselling and referral; time-critical post-assault care (HIV PEP within 72 hours, emergency contraception, STI prophylaxis, forensic documentation) is not mentioned in this table.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "A hypomanic episode is classified as 'BIPOLAR I DISORDER HYPMANIC EPISODE'; hypomania without a manic episode defines bipolar II (with a major depressive episode). 'Hypmanic' typo.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The carbamazepine note mentions only NNRTIs and PIs; carbamazepine also lowers dolutegravir levels (DTG is in first-line ART) and should be avoided or the DTG dose adjusted.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The NB in the schizophrenia row says symptoms for less than six months mean schizophreniform disorder, but brief psychotic disorder (one day to under one month) is also under six months; the schizophreniform row correctly says one to six months.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Step 2 and Step 3 lists name 'Psychotic Disorder Due To A General Medical Condition' and 'Schizophrenia' run together, and Step 2 lists the general-medical-condition disorder twice; Table 13 says this disorder should not be referred to the NPRH, yet Step 3 includes it.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Delirium: 'a sedative preferably lorazepam 0.5-1 mg nocte for seven days' – benzodiazepines can worsen delirium (except in alcohol or benzodiazepine withdrawal) and are generally avoided; low-dose antipsychotic only if distressing symptoms is the usual approach.",
+"tier": "1A",
+"group": 10
+},
+{
+"issue": "Delirium: a benzodiazepine (lorazepam) is advised for insomnia; benzodiazepines can cause or worsen delirium and are generally avoided except in alcohol or sedative withdrawal.",
+"tier": "1A",
+"group": 10
+},
+{
+"issue": "Alcohol withdrawal management lists investigations and 'Prescribe medications' but not thiamine; thiamine appears only under alcohol intoxication (p.53) and in the job aid. WHO mhGAP recommends thiamine for all patients with alcohol withdrawal.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Withdrawal management does not name the medication (benzodiazepine, e.g. the chlordiazepoxide regimen on p.91).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Intellectual disability: 'onset ... within the first 2 years of life' – the DSM-5 criterion is onset during the developmental period (childhood or adolescence), not the first 2 years.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Olanzapine maximum is given as 25 mg/day here and in Table 31; the usual maximum is 20 mg/day.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Risperidone titration is printed 'by 50-200mg' (Table 24); risperidone is titrated in 0.5-1 mg steps (max 6 mg/day). The 50-200 mg figure appears copied from sulpiride/chlorpromazine.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Lorazepam maximum 10 mg/day for anxiety is high (usual maximum about 4-6 mg/day in divided doses).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Alprazolam: initial dose 0.5 mg and maximum 10 mg/day here, but 0.25-0.5 mg and 4 mg/day in Table 27; 10 mg/day is far above usual maximum doses.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Chlorpromazine 100-150 mg IM stat is a high intramuscular dose (usual 25-50 mg IM, risk of hypotension).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "The caution says not to prescribe olanzapine/risperidone to people with obesity, diabetes, hypertension or the elderly, while p.66 says to prescribe them 'cautiously' in the same groups.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'All depot antipsychotic injections must be prescribed together with an anti-cholinergic' conflicts with p.66 ('do not provide anticholinergic to every patient'); routine prophylactic anticholinergics are not recommended by WHO mhGAP.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Long-acting risperidone is a microsphere injection, not a 'decanoate'; it is usually given every 2 weeks (25-50 mg).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Lorazepam for insomnia (Table 37): maximum printed as 15 mg/day for a 0.5-1 mg bedtime dose – likely an error (elsewhere 2 mg); the same page also says to avoid benzodiazepines in psychosis due to a medical condition.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Mood Stabilizerers' heading; lithium, the reference mood stabiliser, is not listed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Lamotrigine titration (25-50 mg daily for 7 days, then 50 mg 12-hourly, increasing every 7-14 days) is faster than the usual schedule (25 mg daily for 2 weeks, 50 mg daily for 2 weeks, then 100 mg); fast titration raises the risk of Stevens-Johnson syndrome, and doses must be halved with valproate. The maximum for bipolar disorder is usually 200-400 mg/day.",
+"tier": "1A",
+"group": 11
+},
+{
+"issue": "Lamotrigine: '25-50 mg daily for the first 7 days then 50 mg 12-hourly' is faster than the recommended titration (25 mg daily for 2 weeks, then 50 mg daily for 2 weeks, then increase), which raises the risk of Stevens-Johnson syndrome.",
+"tier": "1A",
+"group": 11
+},
+{
+"issue": "Sodium valproate is recommended without a caution about women and girls of childbearing potential (teratogenicity); lithium is not listed.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "Methylphenidate extended release is given 'morning to morning & lunchtime'; extended-release formulations are taken once daily in the morning.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Donepezil is given 'once to twice' daily up to 23 mg/day; it is a once-daily (bedtime) medicine, usually 5-10 mg, and 23 mg exists only as a once-daily extended-release tablet.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Antipsychotics in people with dementia increase the risk of stroke and death; doses here (aripiprazole starting at 10 mg, up to 30 mg; sulpiride up to 400 mg) are adult psychosis doses rather than the lowest effective doses advised in older people, and the table carries no such warning. Lorazepam in dementia increases falls and confusion.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 50 gives IV diazepam 10-20 mg as a stat dose (max 20 mg/day) without advice to give it slowly or to monitor breathing; IV diazepam can cause respiratory depression.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Naltrexone is contraindicated in people using opioids (including methadone for pain or opioid dependence); the table does not say so.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The form has no item 4 (numbering goes from 3 to 5), so it has 14 items and a maximum score of 28, but the risk bands in the Recommendations table run to 30 (high risk 21-30). Beck's Suicidal Intent Scale has 15 items; the missing item is probably 'Acts to get help during/after the attempt'.",
+"tier": "1B",
+"group": 17
+},
+{
+"issue": "Thought withdrawal, insertion and broadcasting are listed under 'Perception'; they are disorders of thought possession (thought content), and 'Perception' appears twice.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The Summary of Major Changes is printed twice in the PDF (printed pp.7-9, then pp.10-12 restart partway through Chapter 7). The second printing differs slightly: it says VL monitoring can move to annual 'after 2 consecutive suppressed VL results 6 months apart' where the first says 'taken at least 6 months apart', and it fixes a broken cross-reference ('Error! Reference source not found' -> Table 7.4).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The Summary of Major Changes is printed twice in the PDF (printed pp.7-9, then pp.10-12 restart partway through Chapter 7). The second printing differs slightly: it says VL monitoring can move to annual 'after 2 consecutive suppressed VL results 6 months apart' where the first says 'taken at least 6 months apart', and it fixes a broken cross-reference ('Error! Reference source not found' -> Table 7.4).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The Summary of Major Changes is printed twice in the PDF (printed pp.7-9, then pp.10-12 restart partway through Chapter 7). The second printing differs slightly: it says VL monitoring can move to annual 'after 2 consecutive suppressed VL results 6 months apart' where the first says 'taken at least 6 months apart', and it fixes a broken cross-reference ('Error! Reference source not found' -> Table 7.4).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The Summary of Major Changes is printed twice in the PDF (printed pp.7-9, then pp.10-12 restart partway through Chapter 7). The second printing differs slightly: it says VL monitoring can move to annual 'after 2 consecutive suppressed VL results 6 months apart' where the first says 'taken at least 6 months apart', and it fixes a broken cross-reference ('Error! Reference source not found' -> Table 7.4).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Column headings added (the PDF table has none). 'No recent exposure within 72 hours to HIV indicates the need for PEP' reads as a garbled criterion: the intended meaning is no exposure in the past 72 hours (an exposure within 72 hours indicates PEP).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The flowchart key defines PrEP as 'Post exposure prophylaxis' (should be pre-exposure prophylaxis).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Creatinine clearance <60 mL/min is listed under 'Any PrEP method', but it is a contraindication to TDF (oral PrEP) only, not to the dapivirine ring.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Title reads 'Contradictions' (contraindications). Column headings added.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Column headings added (none in the PDF). The asterisks on several components are not explained on the page.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Children: '10 years and younger or <30kg' leaves children over 10 years but under 30 kg covered only by the weight criterion.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The asterisk on TDF* is not explained on the page.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Emergency contraception: 'Oral contraceptive pills 4 tablets taken 12hrs apart' does not say that two doses of 4 tablets are needed (Yuzpe regimen: 4 tablets of a 30 µg EE/150 µg LNG pill, repeated after 12 hours); it is also set as a main bullet rather than under the emergency-contraception options.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Hepatitis B: immunoglobulin 'within 7 days post-exposure' and vaccination at day 0, 1 month and 2 months; most guidance gives HBIG as soon as possible (ideally within 24 hours) and an accelerated schedule needs a 12-month booster.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'A verbal assent by a legal guardian' for a minor's paediatric oral-fluid HIVST: a guardian gives consent; assent is the child's agreement.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Faith-best settings' (faith-based). The secondary-distribution row repeats one sentence.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'NO' branch says DO NOT offer provider referral, and the 'YES' branch suggests provider referral; this looks reversed. Section 3.2.3 says people at risk of IPV should NOT be offered provider referral, so provider referral belongs to the not-at-risk ('NO') branch.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The text before the figure refers to 'Figure 3.5 and Error! Reference source not found.' (a broken cross-reference, presumably Figure 3.6).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Key populations: 'Retest every 8 weeks' is more frequent than WHO guidance (every 3-12 months by risk).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The table repeats its 'General population' and 'Couples and Partners' rows at the end; the repeat says sero-different couples are retested 'based on HIV testing and screening tool' where the first says 'based on the ongoing risk of exposure'. The screening tools (Figures 3.5-3.6) are not meant for index contacts and partners.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The heading 'Pre-test information included in both CIHTS and PIHTS' appears twice, over two separate lists (probably the second was meant to be a different heading).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Final antibody test 'at 18 months of age OR at 2 months after cessation of breastfeeding, whichever comes first': a test before breastfeeding has stopped cannot exclude infection; WHO gives the final diagnosis at 18 months or 3 months after cessation of breastfeeding, whichever is LATER. Figure 3.9 says RDT 3 months after cessation of breastfeeding (not 2).",
+"tier": "1B",
+"group": 12
+},
+{
+"issue": "The first box reads 'Infected is infected' (infant is infected).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The branches in the figure are not labelled positive/negative; read from the layout and the text above the figure (second negative NAT -> third NAT before considering interruption).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The text refers to the algorithm as 'Table 3.8 and Table 3.9'; the algorithm is Figure 3.10 (Table 3.9 is the post-test counselling summary).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Timing of ART start differs within the chapter: 'same day or within 7 days' here, 'today or within 2 weeks of diagnosis' in Table 3.5.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The second RITA box hangs from the RTRI-recent node only; the figure does not show what happens to RTRI-inconclusive or invalid results (the text records inconclusive as HIV positive with inconclusive recency status).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The text calls the recency algorithm 'Figure 2'; it is Figure 3.13.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Conduct quarterly supportive supervisions at least once a year' is contradictory.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Recency QA (p.73): monthly QC with HIV-positive and negative plasma and proficiency testing with dried tube specimens bi-annually; the HTS Program row says proficiency testing is quarterly.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "In the figure, 'immediate interruption' points at disengagement after a positive test (before initiation), while the text defines immediate interrupters as '<28-day post-initiation'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Age bands: '6 weeks' (presumably 6 weeks to <6 months) and '6 months to 5 years' leave no explicit band for 6 weeks-6 months; weight bands are continuous.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Double-strength tablet given as '800mg SMZ + 100mg TMP'; a double-strength co-trimoxazole tablet is 800 mg SMZ + 160 mg TMP (Table 5.5 also says 160 mg).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The footnote prints 'TMZ' for TMP.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Section 5.7.3 says clients on ART for at least 6 months with an undetectable VL are eligible for up to 3MMD, while the table gives up to 6MMD for adults, key populations and children/adolescents 5-19 years; 6MMD applies only to clients established on ART (at least 12 months, section 5.7.5), which the table does not say.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Children 5 years and older ... CD4 count less than 25%': WHO defines advanced disease in children 5 years and older by CD4 <200 cells/mm³; the CD4 percentage criterion is not standard for this age.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The advanced HIV disease column refers to 'same as adults' but the adult definition (CD4 <200 cells/mm³ or WHO stage 3 or 4, section 5.6) is not stated in the table.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Broken cross-references: 'Section Error! Reference source not found.' (basic care package) and, for advanced disease, 'see Section 4.6 on when to stop' CTX (CPT stopping is section 5.4) and 'TPT from one-month post-ART initiation see' (reference missing).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Column headings added. 'Babby clubs' (baby clubs). The referenced 'Annex 0' for Tanner stages is a broken cross-reference.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Confirmatory DNA PCR for infants '<24 months' and re-testing for children '>24 months': elsewhere the antibody/NAT cut-off is 18 months (Table 3.6, section 3.9).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "6-12 years: moderate '200-400' leaves 401-499 cells/mm³ unclassified (CDC uses 200-499); 'No evidence' is ≥500. Absolute counts are given only for 6-12 years (CDC also gives counts for <12 months and 1-5 years).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Under 12 months the cells read '25%' and '15%' without ≥ / < signs (presumably ≥25% and <15%).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Cipro floxacillin' (ciprofloxacin). The chancroid entry gives no dose or duration.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Provide CPT and TPT' for all clinically well clients: CPT is indicated at CD4 ≤350 cells/mm³ or WHO stage 3-4 (section 5.4), not for all.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Mild/moderate is defined as CD4 >200 and advanced as CD4 <200; a CD4 of exactly 200 falls in neither.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Cervical cancer appears both under sexual and reproductive health (screening, marked for all) and under OI screening (children/adolescents: sexually active only).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Family planning counselling is not marked for children/adolescents with advanced disease (it is marked for clinically well children/adolescents).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The RBS (random blood sugar) row has no marks in any column, although Table 5.2 recommends RBS for clients at risk of diabetes and those starting DTG- or PI-based ART.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The arrows from CXR/CRP to 'presumptive' and 'not presumptive' are unlabelled in the figure; read as abnormal/positive vs normal/negative. The figure does not show where a W4SS-positive client goes (shown here as presumptive TB).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The text before it (section 6.1.3) refers to this algorithm as 'Figure 6.1' (Figure 6.1 is the screening algorithm). Table 5.11 refers to 'Figure 6.2' for CrAg screening (the CrAg algorithm is Figure 6.3).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Pregnant and lactating women: 'within 1 month on ART' here but 'after 1 month on ART' for other adults; the two lines in the cell are not explained.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "3HP row: the dosing for 'Children <12 years or Weight <25kg' is 6 months of isoniazid (6H), not 3HP, and its range reads '10-20mg' (presumably 10-20 mg/kg; WHO gives 10 mg/kg, range 7-15 mg/kg). The 'Weight / Isoniazid / Rifapentine' sub-header has no weight-band values under it.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "3RH weight bands give tablet counts without naming the tablet (presumably the child-friendly RH 75/50 mg dispersible tablet); '>25 kg' leaves 24-25 kg uncovered.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The continuation page is captioned 'Table 6.6 Table TPT Dosing (continued)', so the following tables are numbered one higher than in the list of tables.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Question 10 has no Yes/No response boxes.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'Maximum dose' column gives daily dose ranges per kg, not maximum doses.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "3HP: 11 of 12 doses is about 90%, not 80% (80% would be 10); WHO completion for 3HP is 11 of 12 doses.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "4R: 'Expected number of doses' is printed as 1201 (presumably 120; 96 is 80% of 120).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "6H: '80% of recommended doses' is printed as 46; 80% of 182 doses is 146.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "1HP: 'within a maximum of 6 weeks' (fewer than a week missed) and 'a maximum of 8 weeks' (more than a week) differ from Table 6.11, where the extended time for 1HP is 38 days.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Completion definitions conflict with Table 6.11: 1HP '30 doses' here vs 28 expected doses; 4R '90 doses' within 4 months here vs 120 expected doses; 3RH has no completion definition.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Children under 5: 'not on treatment for at least 12 months' here, while Table 5.7 and Figure 6.2 say all children under 5 years are managed as having advanced disease.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The AHD threshold is 'CD4 ≤200' here but 'CD4 <200' in Tables 5.7, 5.8 and Figure 6.2.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'DTG and all TB treatments' says the preference is to keep clients on TDF+3TC+EFV during TB treatment, which conflicts with Table 6.15 (TDF/3TC/DTG with an extra DTG 50 mg dose for clients on TB treatment) and with DTG as preferred first line. 'DTG and all TB treatments' is also inaccurate: the DTG interaction is with rifampicin.",
+"tier": "1B",
+"group": 9
+},
+{
+"issue": "'Defer ART initiation if signs and symptoms of TB ...': elsewhere (section 5.6, Table 6.16) ART is deferred only for TB meningitis and cryptococcal meningitis; TB in general is not a reason to defer ART.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "CD4 units printed as 'cells/ml' (cells/mm³ or cells/µL).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Histoplasma antigen test for 'All PLHIV' conflicts with section 6.2.3 (PLHIV with advanced disease or with symptoms).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Both CD4 branches of the figure read 'CD4 > 100cells/mm³'; the branch leading to reflex CrAg testing must be CD4 ≤100 (Table 6.17, Table 5.2).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Pre-emptive consolidation: 400 mg x 14 days (Consolidation I) then 6 weeks of 400 mg (Consolidation II) here, while Table 6.19 gives fluconazole 400 mg for 8 weeks for antigenaemia consolidation; the totals match (8 weeks) but the figure shows ART starting at 4 weeks.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The figure is captioned 'Figure 6.2' (the same number as the TB evaluation algorithm); the text and Table 5.2 call it Figure 6.3, and Table 6.19 calls it 'figure 6.5'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Magnesium 'trisilicate' (an antacid) is named as the magnesium supplement; WHO recommends magnesium chloride or other absorbable magnesium salts.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Pregnancy is listed as a contraindication to fluconazole, while the footnote says the benefit of treating cryptococcal meningitis outweighs the risk; the contraindication should apply to pre-emptive/maintenance use, not to treatment of meningitis.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "The continuation pages are captioned 'Table 6.15' (Table 6.15 is the TB/HIV ART table); the cross-reference 'figure 6.5' for the screening algorithm should be the CrAg algorithm (printed Figure 6.2).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Dose interval has no units (hours). The bullet '<50 ml/min: reduce subsequent doses by 50%' conflicts with the table, which keeps the full 25 mg/kg dose at CrCl >40 ml/min.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Columns 2 and 4 have the same heading ('Amphotericin B + Fluconazole' and 'Amphotericin B & Fluconazole').",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Mild to moderate disease: induction is 'three times daily for three days' with no continuation; WHO gives itraconazole 200 mg three times daily for 3 days then 200 mg twice daily for 12 months (the maintenance line), consistent. The cryptococcal meningitis steroid sentence is misplaced in a histoplasmosis table.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Cryptococcal meningitis: '2-6 weeks' here, while Table 6.17 and the CrAg algorithm say ART is started 6 weeks after antifungal treatment (4 weeks for asymptomatic antigenaemia).",
+"tier": "1A",
+"group": 13
+},
+{
+"issue": "Section 7.4 heading says first line for adults and adolescents weighing '>20 kgs'; section 7.8 applies optimisation to those ≥30 kg.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The table lists AZT+3TC+EFV although the text just above says to avoid combining AZT with EFV (rapid AZT resistance given high pre-treatment NNRTI resistance).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Tier 2 is marked * but the asterisk is not explained.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "3TC 150 mg once daily at CrCl 30-50 and the 3TC liquid doses (100/50/25 mg) follow the usual labelling, which also gives a first dose (150 mg stat) that Table 7.5 includes and Table 7.4 does not.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Section 7.7.4 says not to use TDF when CrCl <50 mL/min (ABC-based regimen preferred), but Table 7.4 gives TDF 300 mg every 48 hours for CrCl 30-50.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'FIB-4 >1.45: a low predictor of fibrosis' is garbled: FIB-4 <1.45 makes advanced fibrosis unlikely; 1.45-3.25 is indeterminate; >3.25 suggests advanced fibrosis.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "APRI thresholds: '≤0.5 completely free of fibrosis' and '≥1.5 likely some cirrhosis' differ from WHO (APRI >2 suggests cirrhosis, >1.5 significant fibrosis); the text itself uses >2 for treatment.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "3TC: 'Full dose' at CrCl >30 here, while Table 7.4 reduces 3TC to 150 mg once daily at CrCl 30-50.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "TDF 10-29: '300 mg twice weekly' here vs 'avoid unless on haemodialysis' in Table 7.4.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The table has a 6-week review that the text does not mention (the text gives reviews at 2 weeks, 4 weeks for advanced disease, then monthly for the first 3 months)",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The viral load asterisk is not explained. 'If second VL ≥1000 see Figure 7.3' though the high-VL algorithm is printed as Figure 7.3/7.4 (see p.164).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The text before the figure refers to the high-VL algorithm as 'Figure 7.3 and Error! Reference source not found.' (presumably Figure 7.4).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The text before the figure says 'If VL ≥50 - 1000 copies/mL, start SUAC and follow protocol for the management of high viral load' (low-level viraemia handled as high VL).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Thresholds overlap: undetectable '≤50' and low-level '50-1000' both include 50; high VL is '>1000' in the figure but '≥1000' in Table 7.8 and the treatment failure definition.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'If on and NNRTI based regimen' (an).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Low-level viraemia (50-1000) is classed as 'Suppressed' while the same row says to switch an NNRTI regimen immediately; children and adolescents are referred for SUAC only at >400 copies/mL, a threshold not used elsewhere.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "After the repeat VL, low-level viraemia is managed with 'repeat VL after 6 months' and a 3-month refill here, while Figure 7.3 says continue SUAC and repeat VL after 3 months.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Section 7.12.1 (p.169) says clients failing a DTG-based first line should have resistance testing before a switch, and the table says to switch to a boosted PI only if DTG resistance is shown; what to do when no DTG resistance is found (continue DTG with adherence support) is not stated.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Annex 111.16' (Annex 11.16).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Rifampicin is associated with hyperglycaemia' is placed under DTG; the monthly RBS advice is not explained.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Patient follow-up should begin on the same day an appointment is missed (section 7.15), while the figure starts facility follow-up at 3 days.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Prong 2 cross-reference reads 'Section 0' (broken; the section is 8.2).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Harmful habits is marked * but the asterisk is not explained.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Already on ART: the first sub-bullet says to switch to a DTG-based 2nd line at once if VL >50 on DTG first line, the next says to do expedited SUAC and repeat VL in 6-8 weeks ('Do not wait 3 months'); Table 7.11 requires resistance testing before leaving DTG and switching only to a boosted PI.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The newly-initiating PNC cell repeats one bullet (first VL 3 months after ART initiation, then every 6 months).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The figure refers to Table 8.10 for infant testing; Table 8.10 is infant NVP/AZT dosing (infant testing is Tables 8.12-8.13).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Plan for a repeat maternal VL in 1/12' (1 month).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Refer to table 6.10 and chapter 7' for infant ART regimens; infant regimens are in Chapter 9 (Tables 9.4-9.6), as section 8.6 says.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "NVP for 6-9 months and 9-24 months is given in mL only (3 mL = 30 mg, 5 mL = 50 mg of 10 mg/mL syrup); WHO infant NVP prophylaxis is 30 mg daily at 6-9 months and 40 mg daily from 9 months, so 50 mg is above the WHO dose.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "No AZT or NVP dosing is given for birth weight <2000 g (refer); the table does not say how long NVP continues beyond 14 weeks except via Table 8.9 (until the mother is undetectable).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The schedule has no birth-test or 6-8 week infant test entries (Table 8.13 tests at birth and 6-8 weeks).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The text calls this schedule 'Figure 6.2' and then 'Figure 8.2'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Column headings added. Retesting frequency differs within the section: the table gives fixed points (6, 14 weeks, 6, 9, 12, 15, 18 months), the text below says every 2 months until the end of breastfeeding.",
+"tier": "2",
+"group": 22
+},
+{
+"issue": "Final infant test 'at 18 months' only; WHO also requires a test 3 months after cessation of breastfeeding (Table 8.13 uses 2 months).",
+"tier": "1B",
+"group": 12
+},
+{
+"issue": "Mother HIV-negative: repeat her rapid test 'every 8 weeks until the end of breastfeeding' here vs fixed time points in Table 8.11.",
+"tier": "2",
+"group": 22
+},
+{
+"issue": "Never-breastfed infants: eIP is 'stop at 14 weeks' here, while Table 8.16 gives AZT and NVP for 6 weeks only for infants on replacement feeding.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Re-test '2 months after stopping breastfeeding' and 'whichever comes first' differ from WHO (final test at 18 months or 3 months after cessation of breastfeeding, whichever is later); see also the flag on Figure 3.8.",
+"tier": "1B",
+"group": 12
+},
+{
+"issue": "Acute seroconversion: 'If < 6 weeks, start AZT/NVP. If > 14 weeks, start only NVP' leaves infants aged 6-14 weeks without guidance.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The note says NVP 'may continue for longer until the mother has a detectable VL'; it should read until the mother has an UNDETECTABLE VL (section 8.11 and Table 8.9).",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "Infants on replacement feeding: AZT and NVP 'from birth up to 6 weeks' here, but the replacement-feeding text (p.198) says continue NVP until 14 weeks.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Cryptococcal meningitis: ART 4-6 weeks after antifungal treatment here, '6-8 weeks' in the STOP AIDS box (p.206), 6 weeks in Chapter 6 and 2-6 weeks in Chapter 7 (Table 7.1 notes).",
+"tier": "1A",
+"group": 13
+},
+{
+"issue": "'Children above 2 years ... on ART for at least one year may not be considered as having AHD' conflicts with 'all children younger than 5 years' in the same paragraph and in Table 9.2.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The high-risk (very severe) threshold for children uses the same 'less than 25%' CD4 percentage as the advanced threshold, so the two categories cannot be told apart by CD4%.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Neonatal cut-off: '<3.0 kg' here vs '≤3kg' in Table 9.5, so a 3.0 kg infant falls in different bands.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Premature neonates: '<35 weeks gestation' here but '<37 weeks' in Table 9.5.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Age/weight cut-offs mix 'AND' and 'OR' (≥3 years OR ≥10 kg for EFV) while Table 9.5 says EFV is not used under 3 years OR ≤10 kg.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The footnote explains * as DRV/r, but * is also printed on DTG and EFV in the LPV/r side-effect rows.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'LPV/r 125mg tablets' as the heat-stable example; the paediatric LPV/r tablet is 100/25 mg (section 9.6.1).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Undetectable <200' conflicts with Table 7.8 (undetectable <50).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Row 2 reads '>200 - 1000 copies/mL (detectable and ≤400 copies/mL)': two contradictory ranges in one cell.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "pDTG and DTG 50 mg film-coated tablets are not interchangeable (section 9.6.1); DTG 50 mg FCT is for children ≥20 kg ('>20kg' in the figure).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The continuation page is captioned 'Table 9.12' (Table 9.10 continued), so later Chapter 9 tables have duplicate numbers (two Table 9.12s).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Weight bands '<30Kg' and '>30Kg' leave exactly 30 kg uncovered (Table 9.4 uses ≥30 kg).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Up to 6-month refills for children ≥5 years here vs 'Children and Adolescents 5-19 years: up to 6MMD' in Table 5.6 - consistent; but Table 9.11 offers DSD/MMD to children >2 years on ART >1 year.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Thresholds here (<50 undetectable, 50-1000 low-level) differ from Table 9.8 (<200 undetectable, >200-1000) in the same chapter.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "≥1000 on DTG: the table says consider switching to second line, while Chapter 7 requires a genotype before leaving a DTG-based regimen.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Plasma viral load above 1000' here vs 'threshold of ≥1000' just above.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Immunological failure 5-10 years 'below 100 cells/mm3' and 10-19 years: WHO uses <200 (age 2-4) and <100 (≥5 years); '<200 or <10%' for under-5s follows WHO.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'See Annex 0 for the PHQ-9 screening tool' (broken cross-reference).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Assess potential sub-optimal ARV levels ... using therapeutic drug monitoring': therapeutic drug monitoring is not offered in Eswatini (section 6.2.2, Table 6.20 notes).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "ATV/r 'only if ≥40 kg' (footnote) vs 'children or adolescents >40 kg' (callout) - 40 kg exactly is ambiguous.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Children (0-10 years)' and 'Adolescents (10-19 years)' overlap at 10 years; DRV/r options for children 0-10 conflict with the footnote (not below 3 years).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The text before the figure refers to the readiness criteria with a broken cross-reference ('see Error! Reference source not found.'); the criteria are in Table 9.17.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The age bands of the three stages overlap as printed (2-14, 10-24 and 15+ years).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 10.1 Stage 3 is printed as >180 / >110 mmHg, so readings of exactly 180 mmHg systolic or 110 mmHg diastolic fall in no category; usual practice is ≥180 / ≥110.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Daily alcohol limits differ between the two tables: Table 10.2 says no more than 30 ml ethanol/day for men and 15 ml/day for women (roughly 2 and 1 standard drinks), while this table allows 4 and 3 drinks/day.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The text above refers to 'Table 10.2 Non-pharmacological management' as showing high-risk features for patients with elevated BP; the high-risk features are in Table 10.3.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The aspirin box lists type 2 diabetes and diabetic nephropathy as examples of a 'previous cardiovascular event'; check current national NCD guidance on aspirin for primary prevention.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Figure 10.1 gives metformin 500-1000 mg without a frequency; with DTG the text limits metformin to 1000 mg daily (500 mg twice daily).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 10.5 Step 1 says check blood glucose every 3 months for pre-diabetes, while the text above it says DTG clients should be checked at baseline, weeks 2 and 6 and 6-monthly thereafter.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 10.5 recommends metformin + sulphonylurea at Steps 4 and 5, but the text on p.246 says 'Do not use sulphonylureas (e.g., glibenclamide) because of drug interaction with protease inhibitors that may result in profound hypoglycaemia; efavirenz may also cause uncertain interactions with sulphonylureas'. Table 10.5 also brings in metformin only at Step 3, while Figure 10.1 starts metformin as soon as diabetes is confirmed.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Table 10.5 treats FBS 7-10 mmol/l as acceptable on DTG/PI regimens (Step 2), while the text above defines controlled diabetes as FBS<7 / RBS<10 mmol; check against the national NCD guidelines and 2024 Amendment.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The referral criteria refer to 'maximal doses of metformin and sulfonylurea', but p.246 says not to use sulphonylureas with PIs/EFV, and metformin is capped at 1000 mg/day with DTG.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Figure 10.2 pairs LDL 100 mg/dL with 2 mmol/L; 100 mg/dL is about 2.6 mmol/L (2 mmol/L is about 77 mg/dL).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The last box of Figure 10.2 repeats the diabetes monitoring targets of Figure 10.1 (blood glucose, HbA1c) rather than lipid monitoring.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 10.6 lists simvastatin (on the Essential Medicines List) and lovastatin without a warning, but the box above says simvastatin and lovastatin should not be used with protease inhibitors (rhabdomyolysis).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Lists 'Hodgkin's lymphoma (AIDS-related primary CNS lymphoma)' among non-AIDS-defining cancers; primary CNS lymphoma is a non-Hodgkin lymphoma and is AIDS-defining.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Carbamazepine is an enzyme inducer: it lowers (not increases) levels of PIs, NNRTIs and DTG; the stated reason for the contraindication is reversed.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Valproate starting dose printed as '50mg–600mg twice daily'; check the intended starting dose (the Mental Health guidelines give the reference dosing).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 10.9 maximum doses are high: risperidone 16 mg/day (the absolute upper limit; usual maintenance is at most 6-8 mg/day) and olanzapine 25 mg/day (usual maximum 20 mg/day); check against the Eswatini Mental Health guidelines.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Figure 10.3 gives the extensive stage as 'Stage II/IV' (printed 'Stgae'), overlapping the early stage 'Stage I/II'; likely Stage III/IV.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Figure 10.3 labels both branches 'Endemic or sporadic type'; the second branch (staged by T/I/S, managed with ART) is AIDS-related KS.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Premedication list gives no oral diphenhydramine dose (only '50 mg IV just before administration') and does not say which chemotherapy it is for (the dexamethasone/H2-blocker/antihistamine pattern is the paclitaxel hypersensitivity premedication).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Says 'both screening methods' after listing three tests (HPV DNA, VIA, Pap smear), and gives yearly screening for HIV-positive women; check against the national cervical cancer screening guidelines (WHO now recommends HPV DNA testing every 3-5 years for women living with HIV).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Cervical cancer staging: stage 2 is printed as 'Tumour has spread to the cervix'; FIGO stage II is spread beyond the uterus/cervix to the upper vagina or parametrium, not reaching the pelvic wall or lower third of the vagina.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Figure 10.4 labels the whole 7-10 band 'worst possible pain'; the usual banding is 7-10 severe pain, with 10 the worst possible pain.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 10.15 recommends carbamazepine for neuropathic pain in young children without mentioning that carbamazepine lowers DTG levels (most children are on DTG); the text on p.263 notes the DTG/EFV interaction for adults.",
+"tier": "1B",
+"group": null
+},
+{
+"issue": "The mucositis mouthwash for children includes '15–30 mg morphine' with no volume or concentration; verify before use.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 10.16 still advises changing stavudine or didanosine to TDF; neither drug is in current Eswatini regimens.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Amitriptyline for adults is given as '10–75 mg or 0.5–2 mg/kg at night'; 0.5–2 mg/kg is a paediatric-style dose (35–140 mg for a 70 kg adult).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Anti-emetic duration is inconsistent: 'for 7–10 days' in the lead sentence, '5–7 days' for each drug.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.1 gives dolutegravir paediatric formulation as '40 mg tabs' and adult formulations '10 mg, 25 mg, and 50 mg'; the paediatric formulation used in Eswatini is pDTG 10 mg dispersible (Chapter 9), and there is no 40 mg DTG tablet.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.1 lists ABC/3TC 300 mg + 150 mg as '1 tablet every 24 hours' (half the adult daily dose) and omits the paediatric ABC/3TC 120/60 mg dispersible tablet that Chapter 9 makes the preferred formulation.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Annex 11.1 still lists the efavirenz standard adult dose as 400 mg at night and ritonavir 100-200 mg every 12 or 24 hours; check against current dosing (Annex 11.17 and the 2024 Amendment paediatric dosing chart).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.3 lists rifampicin with DTG under 'potential interaction' ('double dose of DTG') and lists the TDF + 3TC + didanosine combinations although didanosine is no longer used.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.5 rates implants with efavirenz as 'usually not recommended' (orange); WHO Medical Eligibility Criteria (2015 onwards) rate implants with EFV as category 2 (generally use), consistent with the FP 2021 guidelines; check which applies.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.6 lists rifapentine as an anti-TB agent to avoid with DTG and EFV is listed with none, yet the 2024 Amendment and Chapter 6 recommend 3HP (rifapentine) TPT for clients on DTG or EFV; and LPV/r is listed with rifampicin to avoid although super-boosted LPV/r is the recommended option for children on rifampicin.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.7 advises substituting DTG with EFV or boosted PIs after hypersensitivity, and NVP for EFV gynaecomastia; NVP is no longer used in Eswatini adult regimens.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.7 gives AZT leucopoenia as '< 750/mL' (units/threshold unclear; neutropenia grading uses cells/mm³), and still refers to d4T and ddI.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.8 haematology bands share their end points (e.g. haemoglobin 7.5-8.5 and 8.5-10.0 g/dl; neutrophils 250-500 and <250/mm³; ALT 2.5-5.0 in Grades 1 and 2), so a value at a boundary fits two grades.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.8 nausea Grades 2 and 3 have identical text ('Symptomatic AND hospitalisation not indicated'); in the DAIDS table Grade 3 is persistent nausea with minimal oral intake >48 h or rehydration indicated.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.8 neuromuscular weakness Grade 3 repeats the neurosensory Grade 2 text ('Sensory alteration or paraesthesia causing greater than minimal interference'); DAIDS Grade 3 is muscle weakness causing inability to perform usual activities.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.8 platelets Grade 4 is '<25,000/mm³' but '<35 x 10⁹/L' (should be <25 x 10⁹/L); Grade 1 lower bound printed '100,00'.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.9 calls B1 a United States FDA pregnancy category; B1 is an Australian (TGA) category - the US FDA letter categories (A/B/C/D/X) do not include B1 and were replaced in 2015.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.9 says DTG can be used in adults and children 12 years and older weighing more than 40 kg; Chapter 9 and the 2024 Amendment use DTG (pDTG 10 mg, pALD) from 4 weeks of age and 3 kg.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.11 last row ('False positive; less commonly, infection in remote past') shows HBsAg -ve; the pattern usually described this way is isolated anti-HBc positive.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The figure label reads 'IgM anto HBc' (for IgM anti-HBc).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.12 entecavir dose for 10–11 kg is printed as 2 (mL = 0.1 mg); the WHO weight-band dose is 3 mL (0.15 mg), and every other band rises by 1 mL. The dose column also has no units ('10 or 0.5 mg' for >30-35 kg mixes mL and mg).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Annex 11.13 expands ECG as 'echocardiogram'; ECG is an electrocardiogram (an echocardiogram is a different test).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.15 keeps infants on ABC + 3TC + LPV/r up to 36 months; Chapter 9 and the 2024 Amendment move children to DTG (pDTG or pALD) from 4 weeks of age and 3 kg.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.16 says 'If VL is undetectable, conduct SUAC and consider genotyping' (Alternative 1, children <3 years); SUAC and genotyping apply to a detectable VL.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.16 tells adolescents on TDF-3TC-DTG starting TB treatment to substitute DTG with EFV (back to DTG if VL <100 copies); Chapter 9, the adult TB/HIV guidance and the 2024 Amendment (9.4) instead give DTG twice daily during rifampicin-based TB treatment and for 2 weeks after.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.17 heads the DRV section '≥3 yrs & 10 kg' but marks DRV 'not recommended' below 14 kg; the LPV/r 100/25 mg row is blank for >40 kg.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Annex 11.18 Tanner stage 2 gives testicular volume '<3ml' (same as stage 1); stage 2 is usually testicular volume ≥4 ml (>3 ml).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The readiness form defines an unsuppressed viral load as >1000 copies/ml; the 2024 Amendment sets suppression at <200 copies/mL.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.23 refers to assessment sections I-XVI, but the readiness form in Annex 11.22 has no numbered sections, and no scoring is given, so the 'low scores' cannot be mapped.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The PHQ-9 score bands leave out 0-4 and a score of exactly 20 (5-9, 10-14, 15-19, >20), and nothing is said about a positive answer to item 9 (thoughts of death or self-harm), which needs same-day suicide risk assessment (see the 2024 Amendment Chapter 10 suicide screening).",
+"tier": "1B",
+"group": 16
+},
+{
+"issue": "Annex 11.31 boys 17.0 years: overweight printed '22.4 -28.6', overlapping the normal band (16.9-24.3); likely 24.4. Boys 15.6 years: moderate '14.9-16.3' and normal '16.3-23.1' share 16.3.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 11.33 lists Td as 1 dose given at '5, 9 years' (two ages); check the current EPI schedule (HPV vaccine for girls is not listed).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The Foreword gives 357 million new curable STIs a year (a 2012 WHO estimate); the Background gives 374 million in 2020.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The medical history list ends with a truncated item ('Any known allergi').",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Section numbering jumps from 3.3 to 3.8 in the Health Promotion Package chapter.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The 'bacterial STIs' list includes pelvic inflammatory disease (a syndrome, not an organism) and bacterial vaginosis (not an STI in the strict sense, as Table 2 notes).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 3 gives erythromycin as the pregnancy alternative for penicillin-allergic women with syphilis; erythromycin does not reliably treat the fetus (WHO recommends penicillin desensitisation or ceftriaxone, and treating the newborn).",
+"tier": "1A",
+"group": 14
+},
+{
+"issue": "Table 3 gives primary genital herpes as acyclovir for 10 days, while the text above it (p.36) gives 'First episode: Acyclovir, 400mg orally TDS for 7 days' and recurrent episodes 'Acyclovir, 800mg orally TDS for 3days' (Table 3: 800 mg three times a day for 2 days).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 3 is printed in a different font from the rest of the draft, and the chancroid pregnancy cell reads 'Not specified in source' - an editing placeholder left in the draft; ciprofloxacin (the chancroid substitute) is avoided in pregnancy.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The male urethral syndrome Description is incomplete: 'should be examined for evidence of.' (the object is missing).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Chart 3 adds metronidazole 2 g to ceftriaxone + azithromycin for male urethral syndrome, while the syndromic regimen in the text above (p.40) is ceftriaxone 1 g + azithromycin 1 g only (metronidazole is listed separately for trichomonas).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 4 lists the gonorrhoea first-line substitutes as cefixime, gentamicin or kanamycin; the text above lists the second-line options as spectinomycin or gentamicin.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 4 makes azithromycin 1 g the first-line chlamydia treatment and doxycycline a substitute, while the text above says doxycycline is preferred for ano-rectal infection, and current WHO guidance (2021) prefers doxycycline 100 mg twice daily for 7 days for chlamydia.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The anorectal discharge chart gives ceftriaxone 250 mg IM (every other regimen in the draft uses 1 g) and doxycycline for 14 days (Table 5: 7 days, or 21 days for LGV).",
+"tier": "1B",
+"group": 18
+},
+{
+"issue": "Chart 4 treats every confirmed vaginal discharge with ceftriaxone + azithromycin + metronidazole, while the text (p.48) says to do a risk assessment first and, if negative, cover only bacterial vaginosis and candidiasis (metronidazole + clotrimazole). The 'Condom promoted and' box text is cut off in the source.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 6 gives M. genitalium azithromycin as '500 gram' on day 1 (should be 500 mg).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 6 makes doxycycline first-line and azithromycin a substitute for chlamydia, the reverse of Table 4 (male urethral syndrome).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The cervical infection syndromic treatment repeats the vaginal discharge regimen, including metronidazole and clotrimazole for vulval candidiasis, which do not treat cervical gonorrhoea or chlamydia (Table 7 has no metronidazole).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 7 gives cefixime 800 mg as the gonorrhoea substitute (Tables 4-6 and the text use cefixime 400 mg).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 7 gives moxifloxacin 500 mg for 7 days for M. genitalium (the usual dose is 400 mg once daily) and an azithromycin course of 1 g then 500 mg x 3 days (first-line) vs 1 g then 500 mg days 2-5 (pregnancy column) vs 500 mg then 250 mg days 2-5 (Tables 4 and 6).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The first treatment option reads 'Ceftriaxone, 1g I.M STAT, Gentamycin 240mg IM Stat and Spectinmycin 2 grams IM PLUS', which can be read as giving all three injectables together; they are alternatives.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Chart 5 gives azithromycin 1 g weekly for 2 weeks and metronidazole 400 mg twice daily for 7-14 days for lower abdominal pain, while Table 8 gives doxycycline 100 mg twice daily for 14 days and metronidazole 500 mg twice daily for 14 days.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The scrotal swelling Etiology text starts mid-sentence ('responsible micro-organism: E. coli, Klebsiella, and P. Aeruginosa...'); the sexually transmitted causes (N. gonorrhoeae, C. trachomatis) and the sentence introducing the enteric organisms are missing from the draft.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The scrotal swelling chart puts the emergency-referral conditions (torsion, trauma, incarcerated hernia) and the epididymitis signs in one decision box, so 'YES' leads to antibiotics; torsion needs immediate surgical referral, not treatment. The chart is labelled 'chart 5' (the same number as the lower abdominal pain chart), and its health promotion package includes cervical cancer screening for a male patient.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "The inguinal bubo chart gives ceftriaxone 500 mg IM, while the treatment options on p.66 give ceftriaxone 1 g IM (chancroid) and, for LGV, doxycycline 100 mg twice daily for 14 days (the chart has no doxycycline). The text says to refer fluctuant buboes for aspiration; the chart says aspiration is vital.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The neonatal conjunctivitis chart's health promotion package (for the parents) repeats the adult items, including voluntary medical male circumcision; it does not mention treating the mother and her partner(s).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 9 adds metronidazole 2 g to urethral discharge combinations (UDS + SSS, UDS + balanitis, UDS + GUS), as in chart 3, although the male urethral syndromic regimen in the text has no metronidazole; LAP combinations use metronidazole 400 mg BID for 7-14 days while Table 8 gives 500 mg BID for 14 days.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Reactive syphilis tests are treated with benzathine penicillin weekly for 3 weeks 'after testing for sensitivity' for everyone; a single dose is the treatment for early syphilis (Table 3), and routine penicillin skin testing is not recommended (see Annex 5 flag).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "On p.78 an older syphilis testing chart (serum → RPR/VDRL → RDT/Tp → confirmed syphilis, treat) is printed on top of the opening lines of section 7.1.2 Syphilis in pregnancy, hiding part of the text - a layout error in the draft.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Syphilis in pregnancy: erythromycin for the mother does not prevent congenital syphilis (the newborn must be treated), and the neonatal procaine penicillin dose ('150 000 IU/kg IM, 12 hourly for 14 days') does not match standard dosing (procaine penicillin 50 000 IU/kg once daily for 10 days). Ceftriaxone 1 g daily for 8-10 days is listed without saying it is the penicillin-allergy alternative.",
+"tier": "1A",
+"group": 14
+},
+{
+"issue": "The syphilis-in-pregnancy chart treats every positive mother with benzathine penicillin weekly for 3 weeks (the regimen for late latent or unknown-duration syphilis; early syphilis needs a single dose), and gives the newborn 'Procaine Penicillin G 150 000 IU/kg IM, 12 hourly for 14 days' - procaine penicillin is 50 000 IU/kg once daily for 10 days (12-hourly dosing is for aqueous benzyl penicillin); erythromycin for 30 days does not treat congenital syphilis.",
+"tier": "1A",
+"group": 14
+},
+{
+"issue": "Balanitis etiology lists only 'Candida albicans or lactobacilli'; lactobacilli are normal flora, not a cause of balanitis (anaerobes, streptococci and T. vaginalis are usual non-candidal causes).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The balanitis chart has two YES arrows from 'Erythema or erosions confirmed?' (one to 'Treat according to appropriate flow chart', one to the clotrimazole regimen), and asks 'No glycosuria on urinalysis?' where the intent is presumably to check for diabetes (glycosuria) in recurrent candidal balanitis. Its caption ('Figure 10: Flowchart for syndromic treatment of balanitis...') is printed two pages later under a different figure.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Table 10 gives ceftriaxone 250 mg for pregnant women (1 g for everyone else) and azithromycin '500 gram' for M. genitalium; the section has no text explaining what an 'upper vaginal infection' is (it sits between balanitis and genital warts).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "The genital warts description calls HPV 'Herpes Papiloma Virus' (human papillomavirus) and lists syphilis among the causes of warts (condylomata lata are a different lesion).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Figure 10's caption says 'Flowchart for syndromic treatment of balanitis and balanoposthitis', but the picture is a slide on oral (buccal) STI problems with no section text around it; it appears to have been pasted from another document (slide number 5 is visible).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 11 recommends imiquimod in pregnancy (not recommended: safety not established) and its NB about syphilis ('Treatment does not protect future infections of the syphilis...') belongs to another section; trichloroacetic acid is not washed off (it is applied and allowed to dry).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "In the genital warts chart, intra-vaginal, cervical, ano-rectal or large (>10 mm) warts lead to podophyllin treatment, whereas Table 11 says cervical, meatal and urethral warts should be managed by an expert (podophyllin is not used on internal or cervical warts).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "On p.88 the 'Treatment options for pelvic inflammatory disease' heading and table are printed on top of the lower part of the genital warts chart and its health promotion box - a layout error in the draft.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Table 12 gives 'Azithromycin 1g IMI STAT' (azithromycin is oral) and ceftriaxone 1 g, while Figure 11 on the next page gives ceftriaxone 250 mg; the text's emergency contraception (4 combined pills, Yuzpe method) differs from Figure 11 (levonorgestrel 1.5 mg, ulipristal or copper IUD).",
+"tier": "1B",
+"group": 18
+},
+{
+"issue": "Figure 11 still carries editing tags ('UPDATED PER WHO 2021', 'ADDED', 'UPDATED WINDOW') and the note 'Verify all regimens against Eswatini national formulary and guidelines before implementation' - draft review material left in the figure.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Figure 16 heads the column 'Sofosbuvir/ledipasvir' but the doses are written in ledipasvir/sofosbuvir order (90/400 mg = ledipasvir 90 mg + sofosbuvir 400 mg); read with care.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Proctitis treatment in the text gives ceftriaxone 250 mg IM, while the MSM ano-rectal chart on p.112 gives 500 mg and the section 5 anorectal chart gives 250 mg; the draft's adult gonorrhoea dose elsewhere is 1 g.",
+"tier": "2",
+"group": 18
+},
+{
+"issue": "This chart repeats the anorectal discharge chart of section 5 but with ceftriaxone 500 mg (the section 5 chart says 250 mg; elsewhere 1 g); doxycycline for 14 days vs 7 days (21 for LGV) in Table 5.",
+"tier": "2",
+"group": 18
+},
+{
+"issue": "Chapter 11 numbering skips 11.2 (11.1 Congenital syphilis is followed by 11.3 Neonatal Herpes).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Annex 4 (Table 17) differs from the chapter 5 regimens: scrotal swelling 'Spectinomycin 250mg IM' (the dose elsewhere is 2 g) with doxycycline 7 days (chapter 5: azithromycin weekly x 2 or doxycycline 14 days); neonatal conjunctivitis uses spectinomycin 25 mg/kg for the neonate (chapter 5 chart: ceftriaxone 50 mg/kg, max 125 mg); vaginal discharge lists clotrimazole for six days and 'Cotrimazole' pessary 500 mg; the urethral discharge regimen includes metronidazole.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Annex 5 advises an intradermal penicillin test dose when the allergy history is unknown; intradermal testing with undiluted penicillin is not a validated allergy test and can itself cause anaphylaxis (WHO and national programmes advise giving benzathine penicillin with anaphylaxis preparedness rather than routine skin testing).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "Annex 6 (Table 18) doses lack per-kg units ('Ceftriaxone 20-50mgs IM', 'Tinidazole 50-75mgs'; presumably mg/kg), gives azithromycin 12-hourly for 7 days (azithromycin is a once-daily or single-dose drug), recommends interferon for hepatitis B in children (tenofovir/entecavir are now first-line, see Figure 13) and 1% gamma benzene hexachloride (lindane) for children (neurotoxic; avoided in children). The Ureaplasma row is empty.",
+"tier": "1A",
+"group": 15
+},
+{
+"issue": "Annex 6.1 (Table 19) lists ceftriaxone as the alternative for chlamydia (ceftriaxone does not treat chlamydia), gives ceftriaxone 250 mg for gonorrhoea in children over 45 kg (adults in this draft get 1 g), tinidazole '50-75 mg' (mg/kg intended) and trichloroacetic acid 50-70% for warts (Table 11: 80-90%); it disagrees with Table 18 on several doses (e.g. metronidazole 15 mg/kg TDS vs 7 mg/kg 8-hourly; fluconazole 200 vs 150 mg).",
+"tier": "1A",
+"group": 15
+},
+{
+"issue": "\"ABOLUTE RECOMMENDATION: Complete abstinence during pregnancy and when planning pregnancy\" is printed as a top-level heading and misspelt; it reads as a recommendation, not a section title.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "\"HbA1c still despite previous attempts\" is missing a word (presumably \"above target\").",
+"tier": "3",
+"group": null
+},
+{
+"issue": "The sentence starts \"Breakfast and one-third before the evening meal\"; the first part (presumably \"two-thirds before breakfast\") is missing.",
+"tier": "1B",
+"group": 4
+},
+{
+"issue": "The note refers to sections 6.2.1 and 6.3, which do not exist in this guideline.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'The ideal weight should be maintained at ≥ 25 kg/m²' and 'Goal: weight reduction to achieve BMI > 25'; presumably <25 (the guideline elsewhere gives 18.5-24.9).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Office BP should be lowered to a SBP in the 140 to 150 mmHg range and to a DBP.' The DBP target is missing.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Paediatric stage 1 hypertension printed as '>95th–99th percentile plus 12 mmHg' and stage 2 as '>99th percentile plus 5 mmHg'; these do not match the AAP 2017 definitions (stage 1 ≥95th percentile to <95th + 12 mmHg; stage 2 ≥95th + 12 mmHg). Clinician to confirm.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "nifedipine 0.25-0.5 mg/kg sublingual is recommended, while the adult urgency section says 'AVOID NIFEDIPINE SUBLINGUAL' (unpredictable BP drops).",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "NYHA Class I is 'no symptoms and no limitation in ordinary physical activity, e.g. shortness of breath when walking, climbing stairs'; the example describes a symptom, which contradicts the definition.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "HFrEF ≤40%, HFmrEF 41-49%, HFpEF >50%; an EF of exactly 50% is not covered (usually HFpEF is ≥50%).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'For children above the age of 10 years: 0.005 mg/kg/d'; doses for term infants and children up to 10 years are not given.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "<6 mild, 6-24 moderate to severe, >25 severe; a score of 25 is not covered. 'Arrange brain CT <1 hour of arrival' differs from 'door-to-CT <25 min' in Step 3 on the same page.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "diabetes target HbA1c <6.5 here vs <7% in the stroke Step 5 table (p.135) and ACS sections; AF risk stratified with CHADS2 here vs CHA2DS2-VASc on p.138; aspirin 150 mg for lower-risk AF.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "acyanotic is SpO2 >94% and cyanotic SpO2 <93% at room air; 93-94% is not covered.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "the 'Clinical Presentation' list (heartburn and regurgitation as cardinal symptoms, chronic cough, laryngitis, dental decay) is copied from the GERD section.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "gastritis pantoprazole IV 40 mg 6-hourly (p.169); bleeding PUD pantoprazole IV 80 mg stat then 40 mg 12-hourly (p.167); bleeding peptic ulcer pantoprazole IV 40 mg 12-hourly (p.171).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Do not give narcotic analgesics to head injury patients. Use paracetamol', while the TBI section (p.190) says the analgesia of choice in TBI is morphine.",
+"tier": "1A",
+"group": 7
+},
+{
+"issue": "the palm 'excluding the fingers' is approximately 1% here, while the TBSA box on p.174 says the palm including fingers is 1%.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Maintain adequate urine output, more than 50ml/kg/hr, but raise to more than 2ml/kg/hr'; 50 ml/kg/hr is impossible (probably 0.5 ml/kg/hr). The general burns section targets 1-2 ml/kg/hr.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'the three main envenomation syndromes seen in Eswatini. Africa: cytotoxic, neurotoxic and hemotoxic', while the table that follows has four venom types (cytotoxic, neurotoxic, mixed, haemotoxic).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Finerenone is printed 'Fineronone' (and 'Finerone' in headings); the indication says 'Type 2 diabetes with eGFR ≥25' but no dose is given.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "'Inflammatory bowel syndrome' (presumably inflammatory bowel disease).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'right sided ones may present' – the sentence is cut off.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Treatment for breast cancer is stage dependent…' (copied from the breast cancer section).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'elderly people's overall health and p should be considered… personal p' – words are cut off.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'relies on a combination of chemotherapy, and radiation' – surgery and hormone therapy are not mentioned.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "a heading reads 'Non-Pharmacological Management of Hypertension' (should be glaucoma); patients 'over the age of 35' should have eye pressure tested, while screening elsewhere starts at 40.",
+"tier": "2",
+"group": null
+},
+{
+"issue": "the worked example converts oral 4-hourly morphine to 'morphine PR … 30mg twice daily' (PR = per rectum?) – presumably slow-release oral (MR) morphine. Paediatric morphine '0.2 to 0.3 mg/kg (10-15mg) initial dose' – the mg range is an adult dose.",
+"tier": "1A",
+"group": null
+},
+{
+"issue": "B/S codes; ceftriaxone + metronidazole IV for 7-10 days for all ulcers, with no oral option for mild infection (Algorithm B on p.296 gives oral antibiotics for superficial infected ulcers).",
+"tier": "2",
+"group": null
+},
+{
+"issue": "Printed in the middle of the acute-exacerbation material, away from the long-term asthma steps.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Alfa antitrypsin deficiency' (alpha-1 antitrypsin deficiency).",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Common Urogical Conditions'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Says irritative and obstructive symptoms are 'shown in the figure below', but no figure is printed.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "'Persistent Ejaculations (PE)' where premature ejaculation is meant. The paragraph on IPSS non-response and 3–6-monthly BPH follow-up is printed after the ED classification table, under a repeated heading 'Standard Classification of Benign Prostatic Uropathy'.",
+"tier": "3",
+"group": null
+},
+{
+"issue": "Retesting interval for HIV-negative lactating women conflicts within section 8.7: the sentence under this figure says every 2 months until the end of breastfeeding; Table 8.11 gives 6 and 14 weeks, then every 3 months to 18 months (6, 9, 12, 15, 18 months); Table 8.12 says every 8 weeks for a mother whose status was unknown.",
+"tier": "2",
+"group": 22
+}
+]

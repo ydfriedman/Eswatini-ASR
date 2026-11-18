@@ -16,6 +16,9 @@ DROP = re.compile(r"^(Image in the PDF|Flowchart is an image|This table is an im
                   r"The codeine row is split|The lymphoma text on|The summary box spells)", re.I)
 TYPO = re.compile(r"(^'[^']+'.*printed|printed; correct|printed; written|; corrected\.?$|written as MTB|duplicated words removed|"
                   r"Interaction category is shown only)", re.I)
+# Notes that need no clinical review (how a table was extracted, or 2022 HIV text replaced by the 2024 Amendment or the
+# 2025 PrEP guidelines) stay in the table data but are left out of SOURCE_ISSUES.md; see source_issues_review/.
+NO_REVIEW = set(json.load(open('../source_issues_review/no_review_flags.json')))
 src = open('../SOURCE_ISSUES.md').read()
 head = src.split('## HIV Amendment 2024')[0]
 tail = '## Text sections' + src.split('## Text sections')[1]
@@ -23,7 +26,8 @@ out = [head.rstrip(), '']
 n = 0
 for path, title in (('hiv-amendment-2024_tables.json', 'HIV Amendment 2024'), ('ncdimh_tables.json', 'NCDIMH (pages 1-356, complete)'), ('prep-2025_tables.json', 'PrEP Implementation Guidelines 2025'), ('anc_tables.json', 'ANC Guidelines'), ('unaids-linkages-sop_tables.json', 'UNAIDS Linkages SOP'), ('tb-2025_tables.json', 'TB Guidelines 2025 (pages 1-286, complete)'), ('fp-2021_tables.json', 'Family Planning Guidelines 2021 (pages 1-118, complete)'), ('mental-health-deskguide_tables.json', 'Mental Health Desk Guide (pages 1-120, complete)'), ('hiv-2022_tables.json', 'HIV Integrated Management Guidelines 2022 (pages 1-315, complete)'), ('sti-vh-draft-2026_tables.json', 'STI and Viral Hepatitis Guidelines (draft) (pages 1-151, complete)')):
     rows = sorted((t['page'], t['caption'], t['table_id'], f) for t in json.load(open(path))['tables']
-                  for f in t.get('source_flags', []) if not DROP.match(f.strip()) and not TYPO.search(f))
+                  for f in t.get('source_flags', []) if not DROP.match(f.strip()) and not TYPO.search(f)
+                  and f.replace('|', '/') not in NO_REVIEW)
     out += [f'## {title}', '', '| Page | Item | Issue |', '|---|---|---|']
     out += [f'| {p} | {c} (`{i}`) | {f.replace("|", "/")} |' for p, c, i, f in rows] + ['']
     n += len(rows)
