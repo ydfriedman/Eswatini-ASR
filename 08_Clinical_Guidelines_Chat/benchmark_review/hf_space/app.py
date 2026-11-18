@@ -39,6 +39,32 @@ MAX_ITEMS, MAX_ITEM_LEN, MAX_BODY = 40, 1000, 2_000_000
 lock = threading.Lock()
 latest = {}                                      # (reviewer key, question id) -> record
 scheduler = None
+setup_error = ''                                 # why saving is off, shown on /healthz
+
+
+def scoped_api(token):
+    """HfApi whose create_repo accepts an existing repo when the token may not create repos.
+
+    CommitScheduler always calls create_repo(exist_ok=True). A fine-grained token limited to the responses dataset
+    (the safest choice for this Space) is refused that call with 403 even though the dataset exists, so on 403 we
+    check the dataset is reachable and use it as is. The dataset itself is created once by its owner.
+    """
+    from huggingface_hub import HfApi
+    from huggingface_hub.errors import HfHubHTTPError
+    from huggingface_hub.hf_api import RepoUrl
+
+    class Api(HfApi):
+        def create_repo(self, repo_id, *, repo_type=None, **kwargs):
+            try:
+                return super().create_repo(repo_id, repo_type=repo_type, **kwargs)
+            except HfHubHTTPError as exc:
+                if getattr(exc.response, 'status_code', None) != 403:
+                    raise
+                self.repo_info(repo_id, repo_type=repo_type)      # raises if the token cannot reach it
+                prefix = 'datasets/' if repo_type == 'dataset' else 'spaces/' if repo_type == 'space' else ''
+                return RepoUrl(f'{self.endpoint}/{prefix}{repo_id}', endpoint=self.endpoint)
+
+    return Api(token=token)
 
 
 def reviewer_key(name):
@@ -71,10 +97,11 @@ def load_existing():
 
 
 def start():
-    global scheduler
+    global scheduler, setup_error
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     load_existing()
     if DATASET_REPO and not TOKEN:
+        setup_error = 'HF_TOKEN secret is not set'
         print('DATASET_REPO is set but HF_TOKEN is not: saving is disabled until the secret is added', flush=True)
         return
     if DATASET_REPO:
@@ -82,8 +109,12 @@ def start():
         card = OUTBOX / 'README.md'
         if not card.exists():
             card.write_text(DATASET_CARD, encoding='utf-8')
-        scheduler = CommitScheduler(repo_id=DATASET_REPO, repo_type='dataset', folder_path=OUTBOX, every=1,
-                                    private=True, token=TOKEN)
+        try:
+            scheduler = CommitScheduler(repo_id=DATASET_REPO, repo_type='dataset', folder_path=OUTBOX, every=1,
+                                        private=True, token=TOKEN, hf_api=scoped_api(TOKEN))
+        except Exception as exc:                 # keep serving the page; saving stays off (503) until fixed
+            setup_error = f'{type(exc).__name__}: {str(exc).splitlines()[-1][:200]}'
+            print(f'Saving disabled: could not connect to {DATASET_REPO}: {exc}', flush=True)
 
 
 DATASET_CARD = '''---
@@ -195,4 +226,4 @@ async def post_responses(request: Request):
 @app.get('/healthz')
 def healthz():
     return {'ok': True, 'answers': len(latest), 'saving': scheduler is not None or not DATASET_REPO,
-            'access_code': bool(ACCESS_CODE)}
+            'access_code': bool(ACCESS_CODE), 'problem': setup_error}
