@@ -4,6 +4,8 @@ Problems found **in the guidelines themselves** while re-extracting tables and f
 
 Pages are PDF pages. "Item" is the `table_id` in the chunk set.
 
+**For clinical review, start with `source_issues_review/PRIORITY_REVIEW.md`:** the 825 issues are sorted into tiers by how much they could matter to a patient (Tier 1A: could harm if followed as printed; 1B: guidelines disagree on a clinical decision; 2: clarify; 3: editorial; 0: no review needed), with a spreadsheet for recording decisions.
+
 ## HIV Amendment 2024
 
 | Page | Item | Issue |
