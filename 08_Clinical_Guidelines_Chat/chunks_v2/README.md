@@ -1,5 +1,7 @@
 # Chunks v2: cleaned chunk set
 
+> **Superseded for indexing by `../chunks_v3`.** Kept because `../table_reextract/apply_reextraction.py` builds chunks_v3 from this set (and the scripts here are imported by it).
+
 This is a cleaned version of the `chunks.jsonl` used in the k=8 run. It contains 4,061 input chunks: **3,810 are kept, 251 are dropped**, and 17 acronym lists move to a glossary. It has the same fields as v1, plus a few new ones. `embed_text` is rebuilt, so **re-embed everything**.
 
 There is one thing v2 cannot fix: **the STI guideline must be added to the index.** Its 330 kept chunks are in this file. After indexing, check the vector count for `doc_id = sti-vh-draft-2026`.
