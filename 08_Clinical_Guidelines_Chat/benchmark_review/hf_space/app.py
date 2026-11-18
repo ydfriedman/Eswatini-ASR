@@ -96,6 +96,21 @@ def load_existing():
     print(f'Loaded {len(latest)} saved answers from {len(files)} files', flush=True)
 
 
+def describe_token():
+    """Log what HF_TOKEN may do (name, role, repo scopes; never its value) to diagnose permission problems."""
+    from huggingface_hub import HfApi
+    try:
+        who = HfApi(token=TOKEN).whoami()
+        tok = (who.get('auth') or {}).get('accessToken') or {}
+        fg = tok.get('fineGrained') or {}
+        scopes = [(s.get('entity', {}).get('type'), s.get('entity', {}).get('name'), s.get('permissions'))
+                  for s in fg.get('scoped', [])]
+        print(f"HF_TOKEN: account {who.get('name')}, token '{tok.get('displayName')}', role {tok.get('role')}, "
+              f"scopes {scopes}, global {fg.get('global')}", flush=True)
+    except Exception as exc:
+        print(f'HF_TOKEN is not accepted by Hugging Face: {type(exc).__name__}', flush=True)
+
+
 def start():
     global scheduler, setup_error
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -105,6 +120,7 @@ def start():
         print('DATASET_REPO is set but HF_TOKEN is not: saving is disabled until the secret is added', flush=True)
         return
     if DATASET_REPO:
+        describe_token()
         from huggingface_hub import CommitScheduler
         card = OUTBOX / 'README.md'
         if not card.exists():
