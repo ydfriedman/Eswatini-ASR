@@ -12,9 +12,15 @@ background and test results are in `APP_REVIEW_NOTES.md`.
   mostly retrieval: the cervical summary table was missed while unrelated 2024 Amendment passages took slots.
 
 ## Next session: apply together, then retest
-- [ ] Only add relevant 2024 Amendment passages (section 7). Tune `AMENDMENT_SCORE_MARGIN` by printing the scores
-      for questions where the Amendment matters (HIVST consent age, CrAg threshold, viral load) and where it doesn't
-      (cervical screening).
+- [ ] Add a relevance check to the extra 2024 Amendment search (section 7). Code change only: no chunks are deleted,
+      and the Amendment is still searched like every other document.
+      Today, whenever any HIV 2022 passage is retrieved, `ai_answer()` runs a second search of the Amendment alone
+      and adds its top 2 hits per query, however unrelated (this is so newer guidance sits beside the 2022 text it
+      replaces). For "Who should be screened for cervical cancer?" that put two HIV-testing passages into the 5
+      source slots and pushed out the cervical summary table. The change keeps that extra search but only adds an
+      Amendment passage if its similarity score is close to the best passage the main search found
+      (`AMENDMENT_SCORE_MARGIN`, default 0.08). Tune the margin by printing the scores for questions where the
+      Amendment matters (HIVST consent age, CrAg threshold, viral load) and where it doesn't (cervical screening).
 - [ ] One retrieval slot per split table (section 8).
 - [ ] Check `app.py` has the wider source-talk pattern (catches "this source", "the sources").
 - [ ] Pin in `.env`: `LLM_MODEL=qwen2.5:14b`, `LLM_NUM_CTX=8192`, `LLM_NUM_PREDICT=1200`, `EMBEDDING_NUM_GPU=0`,
