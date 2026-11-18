@@ -39,6 +39,10 @@ textarea{width:100%; background:var(--surface); border:1px solid var(--rule); bo
 .btn.small{padding:2px 8px; font-size:13px}
 :focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 .progress{font-size:13px; color:var(--muted); font-variant-numeric:tabular-nums}
+.field[hidden]{display:none}
+.sync{font-size:13px; color:var(--muted)}
+.sync.ok{color:var(--ok)}
+.sync.warn{color:var(--warn)}
 .wrap{display:grid; grid-template-columns:230px minmax(0,1fr); gap:0; min-height:calc(100vh - 60px)}
 nav.list{border-right:1px solid var(--rule); background:var(--surface); overflow-y:auto; max-height:calc(100vh - 60px); position:sticky; top:60px}
 nav.list .tools{padding:10px; display:flex; flex-direction:column; gap:8px; border-bottom:1px solid var(--rule)}
@@ -112,7 +116,9 @@ details summary{cursor:pointer; color:var(--muted); font-size:13px}
 <header class="top">
   <h1>Guideline answer review</h1>
   <div class="field"><label for="reviewer">Your name</label><input type="text" id="reviewer" placeholder="Name and role" size="18"></div>
+  <div class="field" id="codeField" hidden><label for="code">Access code</label><input type="password" id="code" size="10" autocomplete="off"></div>
   <span class="progress" id="progress"></span>
+  <span class="sync" id="sync" role="status" aria-live="polite"></span>
   <button class="btn" id="helpBtn" type="button">How to review</button>
   <button class="btn" id="importBtn" type="button">Load saved CSV</button>
   <input type="file" id="importFile" accept=".csv,text/csv" hidden>
@@ -146,6 +152,7 @@ details summary{cursor:pointer; color:var(--muted); font-size:13px}
 <script>
 const DATA = /*__DATA__*/[];
 const KEY = 'eswatini-benchmark-review-v1';
+const SERVER = /*__SERVER__*/false;  // true in the hosted (Hugging Face Space) build
 const byId = Object.fromEntries(DATA.map(q => [q.id, q]));
 let state = {reviewer: '', answers: {}};
 try { const s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s && s.answers) state = s; } catch (e) {}
@@ -315,7 +322,7 @@ function checkNote(q) {
   return `<div class="check"><b>Checked against the guideline text below${where}.</b>${q.check ? ' ' + esc(q.check) : ''}</div>`;
 }
 function go(id) { current = id; openAreas.add(byId[id].area); renderCard(); renderList(); save(); window.scrollTo(0, 0); }
-function touch() { ans(current).reviewed_at = new Date().toISOString(); save(); }
+function touch() { ans(current).reviewed_at = new Date().toISOString(); save(); queueSync(current); }
 
 document.getElementById('card').addEventListener('change', e => {
   const a = ans(current), t = e.target;
@@ -353,6 +360,77 @@ document.getElementById('filter').addEventListener('change', renderList);
 document.getElementById('search').addEventListener('input', renderList);
 const rv = document.getElementById('reviewer'); rv.value = state.reviewer || '';
 rv.addEventListener('input', () => { state.reviewer = rv.value; save(); });
+rv.addEventListener('change', () => { pull(); });
+
+// ---- Saving to the review server (hosted build only). The browser copy above stays as a backup. ----
+let accessCode = '';
+try { accessCode = localStorage.getItem(KEY + '-code') || ''; } catch (e) {}
+const pending = new Set();
+let syncTimer = null;
+const who = () => (state.reviewer || '').trim();
+function setSync(msg, cls) { const el = document.getElementById('sync'); el.textContent = msg; el.className = 'sync ' + (cls || ''); }
+function queueSync(id) {
+  if (!SERVER) return;
+  pending.add(id);
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(flush, 1000);
+  setSync('Saving…');
+}
+async function flush() {
+  if (!SERVER || !pending.size) return;
+  if (!who()) { setSync('Enter your name to save your review', 'warn'); return; }
+  const ids = [...pending]; pending.clear();
+  try {
+    const r = await fetch('api/responses', {method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({reviewer: who(), code: accessCode, answers: Object.fromEntries(ids.map(i => [i, state.answers[i]]))})});
+    if (r.status === 401) { ids.forEach(i => pending.add(i)); needCode(); return; }
+    if (!r.ok) throw new Error(r.status);
+    setSync('Saved ✓', 'ok');
+  } catch (e) {
+    ids.forEach(i => pending.add(i));
+    setSync('Not saved to the server yet (kept in this browser); retrying', 'warn');
+    clearTimeout(syncTimer); syncTimer = setTimeout(flush, 15000);
+  }
+}
+async function pull() {
+  if (!SERVER || !who()) return;
+  try {
+    const r = await fetch('api/responses?' + new URLSearchParams({reviewer: who(), code: accessCode}));
+    if (r.status === 401) { needCode(); return; }
+    if (!r.ok) throw new Error(r.status);
+    const saved = (await r.json()).answers || {};
+    let n = 0;
+    for (const [id, a] of Object.entries(saved)) {
+      const mine = state.answers[id];
+      if (byId[id] && (!mine || (a.reviewed_at || '') > (mine.reviewed_at || ''))) { state.answers[id] = a; n++; }
+    }
+    for (const [id, a] of Object.entries(state.answers)) {   // answers made in this browser but not on the server
+      if (a.reviewed_at && (!saved[id] || a.reviewed_at > (saved[id].reviewed_at || ''))) pending.add(id);
+    }
+    document.getElementById('codeField').hidden = true;   // code accepted (or none needed)
+    save(); renderCard();
+    if (n) toast(`Loaded ${n} saved answer${n === 1 ? '' : 's'}`);
+    setSync(pending.size ? 'Saving…' : 'Saved ✓', pending.size ? '' : 'ok');
+    flush();
+  } catch (e) { setSync('Server not reachable; your work is kept in this browser', 'warn'); }
+}
+function needCode() {
+  document.getElementById('codeField').hidden = false;
+  setSync('Enter the access code you were given', 'warn');
+  document.getElementById('code').focus();
+}
+document.getElementById('code').addEventListener('change', e => {
+  accessCode = e.target.value.trim();
+  try { localStorage.setItem(KEY + '-code', accessCode); } catch (err) {}
+  pull();
+});
+if (SERVER) {
+  fetch('api/config').then(r => r.json()).then(c => {
+    if (c.code_required && !accessCode) needCode();
+    else if (who()) pull();
+    else setSync('Enter your name to start', 'warn');
+  }).catch(() => setSync('Server not reachable; your work is kept in this browser', 'warn'));
+}
 
 let toastTimer;
 function toast(msg) { const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2600); }
@@ -414,6 +492,7 @@ document.getElementById('importFile').addEventListener('change', e => {
       });
       const rcol = ix('reviewer'); if (rcol >= 0 && rows[0] && rows[0][rcol]) { state.reviewer = rows[0][rcol]; rv.value = state.reviewer; }
       save(); renderCard(); toast(`Loaded ${n} questions from the CSV`);
+      Object.keys(state.answers).forEach(id => { if (state.answers[id].reviewed_at) queueSync(id); });
     } catch (err) { toast('Could not read that file. Choose a CSV downloaded from this page.'); }
     e.target.value = '';
   };
@@ -430,7 +509,8 @@ document.getElementById('helpBtn').addEventListener('click', () => {
       <li>Check the two lists: what a correct answer must include, and what it must not include. Edit, add or remove items.</li>
       <li>Questions marked <b>Needs a clinical decision</b> are where the guidelines disagree with each other, are unclear, or the answer goes beyond what they state. The <b>Please decide</b> note explains what to decide; record your decision by editing the answer or in the comments.</li>
     </ol>
-    <p>Your work is saved in this browser as you go. Use <b>Download CSV</b> to send your review back, and to keep a copy: the browser copy can be lost if the browser's data is cleared. To continue on another computer, use <b>Load saved CSV</b>.</p>
+    ${SERVER ? `<p>Your answers are saved to the review server as you go (the status next to the progress count shows <b>Saved ✓</b>). To continue on another computer or phone, open the same link and enter <b>exactly the same name</b>. <b>Download CSV</b> gives you your own copy.</p>`
+      : `<p>Your work is saved in this browser as you go. Use <b>Download CSV</b> to send your review back, and to keep a copy: the browser copy can be lost if the browser's data is cleared. To continue on another computer, use <b>Load saved CSV</b>.</p>`}
     <div class="row"><button class="btn primary" type="button" id="backBtn">Back to the questions</button></div></section>`;
   document.getElementById('backBtn').addEventListener('click', renderCard);
 });

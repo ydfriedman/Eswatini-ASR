@@ -17,7 +17,9 @@ the guideline text, but not the original wording or change history (those stay i
 | `clinician_review.html` | The review page. Send this one file to reviewers; it works offline. |
 | `revised_questions.jsonl` | Revised questions: question, reference answer, must_include, must_not_include, source chunk ids, source-check note. |
 | `review_data.json` | Revised questions joined with the original questions and the source chunk text (generated). |
-| `build_review_data.py`, `build_review_html.py`, `review_template.html` | Rebuild the page. |
+| `build_review_data.py`, `build_review_html.py`, `review_template.html` | Rebuild the page (both the offline file and the hosted version). |
+| `hf_space/` | The hosted version: a Hugging Face Space (Docker, FastAPI) that serves the page and saves each answer to a private dataset. |
+| `export_responses.py` | Exports the saved answers from the dataset to one CSV (latest answer per reviewer and question). |
 
 `../sample_questions.jsonl` (the original set) is unchanged.
 
@@ -40,3 +42,20 @@ From `08_Clinical_Guidelines_Chat/`:
 python3 benchmark_review/build_review_data.py
 python3 benchmark_review/build_review_html.py
 ```
+
+## Hosted version (Hugging Face Space)
+`hf_space/` serves the same page; answers are saved to a private Hugging Face dataset as reviewers work (the
+browser copy and **Download CSV** stay as backups). Reviewers continue on any device by entering the same name.
+An optional access code keeps strangers out of a public Space.
+
+Deploy: create a Docker Space and upload the contents of `hf_space/`; in the Space settings set the variable
+`DATASET_REPO` (e.g. `your-org/eswatini-benchmark-reviews`, created private on first save), the secret `HF_TOKEN`
+(write access to that dataset) and optionally the secret `REVIEW_ACCESS_CODE`. Rebuild `hf_space/static/index.html`
+with `build_review_html.py` after changing the questions, and upload it again.
+
+Collect the answers:
+```
+python3 benchmark_review/export_responses.py --dataset your-org/eswatini-benchmark-reviews --out reviews.csv
+```
+Test locally without a dataset: `cd benchmark_review/hf_space && DATA_DIR=/tmp/review REVIEW_ACCESS_CODE=test uvicorn app:app --port 7860`.
+
