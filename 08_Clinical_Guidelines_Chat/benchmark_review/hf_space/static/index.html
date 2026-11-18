@@ -366,6 +366,8 @@ rv.addEventListener('change', () => { pull(); });
 let accessCode = '';
 try { accessCode = localStorage.getItem(KEY + '-code') || ''; } catch (e) {}
 const pending = new Set();
+const lastSent = {};   // question id -> answer as last saved on the server (ignoring the timestamp)
+const content = a => JSON.stringify(Object.assign({}, a, {reviewed_at: ''}));
 let syncTimer = null;
 const who = () => (state.reviewer || '').trim();
 function setSync(msg, cls) { const el = document.getElementById('sync'); el.textContent = msg; el.className = 'sync ' + (cls || ''); }
@@ -379,12 +381,15 @@ function queueSync(id) {
 async function flush() {
   if (!SERVER || !pending.size) return;
   if (!who()) { setSync('Enter your name to save your review', 'warn'); return; }
-  const ids = [...pending]; pending.clear();
+  const ids = [...pending].filter(i => content(state.answers[i]) !== lastSent[i]);   // skip saves that change nothing
+  pending.clear();
+  if (!ids.length) { setSync('Saved ✓', 'ok'); return; }
   try {
     const r = await fetch('api/responses', {method: 'POST', headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({reviewer: who(), code: accessCode, answers: Object.fromEntries(ids.map(i => [i, state.answers[i]]))})});
     if (r.status === 401) { ids.forEach(i => pending.add(i)); needCode(); return; }
     if (!r.ok) throw new Error(r.status);
+    ids.forEach(i => { lastSent[i] = content(state.answers[i]); });
     setSync('Saved ✓', 'ok');
   } catch (e) {
     ids.forEach(i => pending.add(i));
@@ -399,6 +404,7 @@ async function pull() {
     if (r.status === 401) { needCode(); return; }
     if (!r.ok) throw new Error(r.status);
     const saved = (await r.json()).answers || {};
+    for (const [id, a] of Object.entries(saved)) lastSent[id] = content(a);
     let n = 0;
     for (const [id, a] of Object.entries(saved)) {
       const mine = state.answers[id];
