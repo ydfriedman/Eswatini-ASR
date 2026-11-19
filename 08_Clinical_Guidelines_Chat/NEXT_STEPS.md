@@ -1,6 +1,6 @@
 # Guideline chat: next steps
 
-Last updated 16 Nov 2026. Code for each change is in `app_review/app_py_changes.md` (section numbers below);
+Last updated 19 Nov 2026. Code for each change is in `app_review/app_py_changes.md` (section numbers below);
 background and test results are in `APP_REVIEW_NOTES.md`.
 
 ## Where things stand
@@ -46,9 +46,9 @@ background and test results are in `APP_REVIEW_NOTES.md`.
 - [ ] Log `prompt_eval_duration` / `eval_duration` per call for a real timing breakdown.
 
 ## Going forward
-- [ ] Benchmark: clinicians review the 188 questions on the Space (https://huggingface.co/spaces/YoniFriedman/guideline-answer-review;
-      add the HF_TOKEN and REVIEW_ACCESS_CODE secrets first, see `benchmark_review/README.md`); then run all of them
-      for a baseline score and re-run after every change (runner script still to write).
+- [ ] Benchmark: clinicians review the 188 questions through the Google Sheet web app (set up the Apps Script
+      deployment and share its URL, see `benchmark_review/README.md`; Hugging Face is blocked on their machines);
+      then run all of them for a baseline score and re-run after every change (runner script still to write).
 - [ ] Clinical review of the guideline errors: start with `source_issues_review/PRIORITY_REVIEW.md` (Tier 1A, 66
       issues that could harm a patient if followed as printed; then Tier 1B, 46 where the guidelines disagree on a
       decision); record decisions in `source_issues_tiered.csv`, then send agreed corrections to the guideline authors.

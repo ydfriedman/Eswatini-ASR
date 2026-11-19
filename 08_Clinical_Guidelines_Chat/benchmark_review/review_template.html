@@ -152,7 +152,28 @@ details summary{cursor:pointer; color:var(--muted); font-size:13px}
 <script>
 const DATA = /*__DATA__*/[];
 const KEY = 'eswatini-benchmark-review-v1';
-const SERVER = /*__SERVER__*/false;  // true in the hosted (Hugging Face Space) build
+const SERVER = /*__SERVER__*/false;  // false: offline file; 'http': Hugging Face Space; 'gas': Google Apps Script
+// The two hosted backends answer the same three calls: config(), load(reviewer, code) -> {status, answers},
+// save(body, leaving) -> {status}. status is 200 when it worked, 401 for a missing or wrong access code.
+function gas(fn, ...args) {
+  return new Promise((resolve, reject) => google.script.run.withSuccessHandler(resolve).withFailureHandler(reject)[fn](...args));
+}
+const backend = SERVER === 'gas' ? {
+  config: () => gas('getConfig'),
+  load: (reviewer, code) => gas('getAnswers', reviewer, code),
+  save: body => gas('saveAnswers', body),
+} : {
+  config: () => fetch('api/config').then(r => r.json()),
+  load: async (reviewer, code) => {
+    const r = await fetch('api/responses?' + new URLSearchParams({reviewer, code}));
+    return r.ok ? Object.assign({status: 200}, await r.json()) : {status: r.status};
+  },
+  save: async (body, leaving) => {
+    const r = await fetch('api/responses', {method: 'POST', headers: {'Content-Type': 'application/json'},
+      keepalive: !!leaving, body: JSON.stringify(body)});
+    return {status: r.status};
+  },
+};
 const byId = Object.fromEntries(DATA.map(q => [q.id, q]));
 let state = {reviewer: '', answers: {}};
 try { const s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s && s.answers) state = s; } catch (e) {}
@@ -394,10 +415,10 @@ async function flush(leaving) {
   if (!ids.length) { setSync('Saved ✓', 'ok'); return; }
   setSync('Saving…');
   try {
-    const r = await fetch('api/responses', {method: 'POST', headers: {'Content-Type': 'application/json'}, keepalive: !!leaving,
-      body: JSON.stringify({reviewer: who(), code: accessCode, answers: Object.fromEntries(ids.map(i => [i, state.answers[i]]))})});
-    if (r.status === 401) { ids.forEach(i => pending.add(i)); needCode(); return; }
-    if (!r.ok) throw new Error(r.status);
+    const res = await backend.save({reviewer: who(), code: accessCode,
+      answers: Object.fromEntries(ids.map(i => [i, state.answers[i]]))}, leaving);
+    if (res.status === 401) { ids.forEach(i => pending.add(i)); needCode(); return; }
+    if (res.status !== 200) throw new Error(res.status);
     ids.forEach(i => { lastSent[i] = content(state.answers[i]); });
     setSync('Saved ✓', 'ok');
   } catch (e) {
@@ -409,10 +430,10 @@ async function flush(leaving) {
 async function pull() {
   if (!SERVER || !who()) return;
   try {
-    const r = await fetch('api/responses?' + new URLSearchParams({reviewer: who(), code: accessCode}));
-    if (r.status === 401) { needCode(); return; }
-    if (!r.ok) throw new Error(r.status);
-    const saved = (await r.json()).answers || {};
+    const res = await backend.load(who(), accessCode);
+    if (res.status === 401) { needCode(); return; }
+    if (res.status !== 200) throw new Error(res.status);
+    const saved = res.answers || {};
     for (const [id, a] of Object.entries(saved)) lastSent[id] = content(a);
     let n = 0;
     for (const [id, a] of Object.entries(saved)) {
@@ -440,7 +461,7 @@ document.getElementById('code').addEventListener('change', e => {
   pull();
 });
 if (SERVER) {
-  fetch('api/config').then(r => r.json()).then(c => {
+  backend.config().then(c => {
     if (c.code_required && !accessCode) needCode();
     else if (who()) pull();
     else setSync('Enter your name to start', 'warn');

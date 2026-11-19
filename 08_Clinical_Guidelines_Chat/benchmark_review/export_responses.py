@@ -1,9 +1,11 @@
-"""Export clinician reviews saved by the Hugging Face Space to one CSV (latest answer per reviewer and question).
+"""Export clinician reviews to one CSV (latest answer per reviewer and question), joined with the question text.
 
 Usage, from 08_Clinical_Guidelines_Chat/:
-    python3 benchmark_review/export_responses.py --dataset your-org/eswatini-benchmark-reviews  [--out reviews.csv]
+    python3 benchmark_review/export_responses.py --sheet responses.csv     [--out reviews.csv]
+        Google Sheet version: open the "responses" tab, File > Download > Comma-separated values.
+    python3 benchmark_review/export_responses.py --dataset your-org/eswatini-benchmark-reviews
+        Hugging Face Space version (reading a private dataset needs `hf auth login` or HF_TOKEN).
     python3 benchmark_review/export_responses.py --local path/to/folder_with_responses           (for testing)
-Reading a private dataset needs a Hugging Face token (`hf auth login` or HF_TOKEN).
 Columns match the review page's own CSV download, so both can be analysed the same way.
 """
 import argparse
@@ -17,28 +19,44 @@ COLS = ['id', 'area', 'reviewer', 'safety_critical', 'needs_decision', 'question
         'must_not_include', 'comments', 'reviewed_at', 'saved_at']
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    src = ap.add_mutually_exclusive_group(required=True)
-    src.add_argument('--dataset', help='Hugging Face dataset repo id')
-    src.add_argument('--local', help='folder containing responses/*.jsonl')
-    ap.add_argument('--out', default='benchmark_reviews.csv')
-    args = ap.parse_args()
+def read_jsonl(args):
     if args.dataset:
         from huggingface_hub import snapshot_download
         folder = Path(snapshot_download(args.dataset, repo_type='dataset', allow_patterns='responses/*.jsonl'))
     else:
         folder = Path(args.local)
-    latest, names = {}, {}
     for f in sorted(folder.glob('responses/*.jsonl')):
         for line in f.read_text(encoding='utf-8').splitlines():
-            if not line.strip():
+            if line.strip():
+                yield json.loads(line)
+
+
+def read_sheet(path):
+    """Rows of the Sheet's responses tab; list cells hold one item per line."""
+    with open(path, newline='', encoding='utf-8-sig') as fh:
+        for row in csv.DictReader(fh):
+            r = {k: (v[1:] if v.startswith("'") else v) for k, v in row.items()}
+            if not r.get('question_id'):
                 continue
-            r = json.loads(line)
-            names.setdefault(r['reviewer_key'], r['reviewer'])   # first spelling used for this reviewer
-            k = (r['reviewer_key'], r['question_id'])
-            if k not in latest or (r.get('reviewed_at') or '', r['saved_at']) >= (latest[k].get('reviewed_at') or '', latest[k]['saved_at']):
-                latest[k] = r
+            for k in ('must_include', 'must_not_include'):
+                r[k] = r[k].split('\n') if r[k] else []
+            yield r
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    src = ap.add_mutually_exclusive_group(required=True)
+    src.add_argument('--sheet', help='CSV download of the Google Sheet\'s "responses" tab')
+    src.add_argument('--dataset', help='Hugging Face dataset repo id')
+    src.add_argument('--local', help='folder containing responses/*.jsonl')
+    ap.add_argument('--out', default='benchmark_reviews.csv')
+    args = ap.parse_args()
+    latest, names = {}, {}
+    for r in read_sheet(args.sheet) if args.sheet else read_jsonl(args):
+        names.setdefault(r['reviewer_key'], r['reviewer'])   # first spelling used for this reviewer
+        k = (r['reviewer_key'], r['question_id'])
+        if k not in latest or (r.get('reviewed_at') or '', r['saved_at']) >= (latest[k].get('reviewed_at') or '', latest[k]['saved_at']):
+            latest[k] = r
     questions = {q['id']: q for q in json.loads((HERE / 'review_data.json').read_text(encoding='utf-8'))}
     order = {qid: i for i, qid in enumerate(questions)}
     with open(args.out, 'w', newline='', encoding='utf-8-sig') as fh:
