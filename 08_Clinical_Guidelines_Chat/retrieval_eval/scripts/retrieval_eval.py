@@ -13,7 +13,8 @@ from array import array
 ap = argparse.ArgumentParser()
 ap.add_argument('app_dir'); ap.add_argument('revised'); ap.add_argument('review_data'); ap.add_argument('out')
 ap.add_argument('--label', default='')
-ap.add_argument('--queries', help='JSON {qid: [query, ...]} from a planner run; default: the question only')
+ap.add_argument('--queries', help='planner output: planner_run.py JSON ({qid: {calls: [...]}}, replayed exactly, '
+                'routing included) or {qid: [query, ...]}; default: the question as the only query')
 args = ap.parse_args()
 sys.path.insert(0, args.app_dir)
 import app  # noqa: E402
@@ -39,7 +40,12 @@ class Captured(Exception):
 
 def fake_llm(instructions, content, schema, name):
     if name == 'retrieval_queries':
-        qs = planner_queries.get(current['id'], [current['question']])
+        rec = planner_queries.get(current['id'])
+        if isinstance(rec, dict):                      # replay the recorded planner calls in order
+            n = current.setdefault('planner_call', 0); current['planner_call'] = n + 1
+            calls = rec.get('calls') or [{'route': 'answer', 'clarifying_question': '', 'queries': []}]
+            return calls[min(n, len(calls) - 1)]
+        qs = rec if isinstance(rec, list) else [current['question']]
         return {'route': 'answer', 'clarifying_question': '', 'queries': qs}
     if name == 'guideline_answer':
         current['sources'] = content['sources']
