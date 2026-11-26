@@ -69,11 +69,6 @@ class RetrievalTests(unittest.TestCase):
         with patch.dict(app.os.environ, {}, clear=True):
             self.assertEqual(app.answer_source_limit(), 6)
 
-    def test_hivst_exclusion_query_is_detected(self):
-        question = ('Which clients should NOT be screened with an HIV self-test and should instead '
-                    'receive routine testing with the National HIV Testing Algorithm?')
-        self.assertTrue(app.hivst_exclusion_query(question))
-
     def test_prep_retrieves_implementation_guideline(self):
         sources = app.search('PrEP follow-up requirements', 'PrEP')
         self.assertTrue(sources)
@@ -333,16 +328,35 @@ class RetrievalTests(unittest.TestCase):
         self.assertEqual(result['kind'], 'answer')
         self.assertTrue(any('Verify doses' in notice for notice in result['notices']))
 
-    def test_exact_high_risk_structured_evidence_can_be_answered(self):
+    def test_high_risk_answer_always_gets_verification_notice(self):
+        source = {
+            'document': {'id': '5', 'title': 'NCD Guidelines', 'version': '2025', 'draft': False},
+            'page': 12,
+            'heading_path': 'Acute stroke > alteplase',
+            'text': 'Alteplase eligibility depends on the treatment window and blood pressure.',
+            'type': 'diagram',
+            'url': '/documents/5#page=12',
+        }
+        outputs = [
+            {'route': 'answer', 'clarifying_question': '', 'queries': ['acute stroke alteplase']},
+            {'kind': 'answer', 'blocks': [{'text': 'Check the eligibility criteria.', 'citations': [1]}]},
+        ]
+        with patch.object(app, 'llm_json', side_effect=outputs), patch.object(
+                app, 'search', return_value=[source]):
+            result = app.ai_answer('Can I give alteplase for this stroke?', [], 'NCDs', False)
+        self.assertEqual(result['kind'], 'answer')
+        self.assertTrue(any('Verify doses' in notice for notice in result['notices']))
+
+    def test_high_risk_evidence_matching_strips_punctuation(self):
         self.assertFalse(app.evidence_is_ambiguous(
-            'What is the insulin dose?',
+            'How should status epilepticus be managed?',
             [{
                 'document': {'id': '5'},
-                'type': 'table',
-                'heading_path': 'Insulin dosing',
-                'text': 'Insulin dose by weight.',
+                'type': 'diagram',
+                'heading_path': 'Status-epilepticus',
+                'text': 'Give immediate anticonvulsant treatment.',
             }],
-            ['Insulin dose by weight'],
+            ['Status epilepticus'],
         ))
 
     def test_out_of_scope_route_skips_retrieval_and_answer_model(self):
@@ -498,12 +512,44 @@ class RetrievalTests(unittest.TestCase):
                   {'text': 'Which product?', 'type': 'clarification', 'citations': []}]
         app.validate_answer({'kind': 'answer', 'blocks': blocks}, blocks, 1)
 
-    def test_source_talk_validation_catches_plural_and_demonstrative_references(self):
-        for phrase in ('This source says the dose is 300 mg.', 'The sources recommend yearly screening.',
-                       'Those passages support the schedule.', 'These excerpts show the threshold.'):
+    def test_source_talk_validation_allows_clinical_source_and_document_words(self):
+        for phrase in (
+            'PEP is not needed when the source is HIV-negative.',
+            'The guidelines differ: the amendment uses the newer threshold.',
+            'The documents differ: the amendment replaces the old threshold.',
+            'Section 2.1 of the PrEP guideline contains the eligibility criteria.',
+        ):
             blocks = [{'text': phrase, 'type': 'guideline_claim', 'citations': [1]}]
-            with self.assertRaises(ValueError):
+            app.validate_answer({'kind': 'answer', 'blocks': blocks}, blocks, 1)
+
+    def test_source_talk_validation_still_rejects_source_references(self):
+        for phrase in (
+            'According to Table 4, start treatment now.',
+            'See Figure 2 for the dose.',
+            'The first source gives the schedule.',
+            'Source [3] gives the schedule.',
+        ):
+            blocks = [{'text': phrase, 'type': 'guideline_claim', 'citations': [1]}]
+            with self.assertRaises(app.SourceTalkError):
                 app.validate_answer({'kind': 'answer', 'blocks': blocks}, blocks, 1)
+
+    def test_final_source_talk_failure_returns_answer_with_warning_log(self):
+        outputs = [
+            {'queries': ['PrEP follow-up']},
+            {'kind': 'answer', 'blocks': [
+                {'text': 'According to Table 4, return in three months.', 'citations': [1]}]},
+            {'kind': 'answer', 'blocks': [
+                {'text': 'According to Table 4, return in three months.', 'citations': [1]}]},
+            {'kind': 'answer', 'blocks': [
+                {'text': 'According to Table 4, return in three months.', 'citations': [1]}]},
+        ]
+        source = app.search('follow-up', 'PrEP')[0]
+        with patch.object(app, 'llm_json', side_effect=outputs), patch.object(
+                app, 'search', return_value=[source]), patch('builtins.print') as log:
+            result = app.ai_answer('PrEP follow-up', [], 'PrEP', False)
+        self.assertEqual(result['kind'], 'answer')
+        self.assertIn('Table 4, return in three months.', result['message'])
+        self.assertTrue(any('Allowing final-attempt answer' in str(call) for call in log.call_args_list))
 
     def test_numeric_below_comparison_is_validated(self):
         blocks = [{
@@ -514,7 +560,7 @@ class RetrievalTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'numeric comparison is incorrect'):
             app.validate_answer({'kind': 'answer', 'blocks': blocks}, blocks, 1)
 
-    def test_llama_answer_cleans_attribution_and_reinforces_checklists(self):
+    def test_llama_answer_cleans_attribution_and_reinforces_numeric_accuracy(self):
         outputs = [
             {'route': 'answer', 'clarifying_question': '', 'queries': ['syphilis pregnancy RPR']},
             {'kind': 'answer', 'blocks': [
@@ -532,8 +578,8 @@ class RetrievalTests(unittest.TestCase):
         self.assertEqual(result['blocks'][0]['text'], 'Retest every 8 weeks.')
         answer_instructions = model.call_args_list[1].args[0]
         self.assertIn('Numerical accuracy', answer_instructions)
-        self.assertIn('repeat interval', answer_instructions)
-        self.assertIn('partner action', answer_instructions)
+        self.assertNotIn('follow-up laboratory testing', answer_instructions)
+        self.assertNotIn('genotyping or specialist-review threshold', answer_instructions)
 
     def test_llama_cleanup_handles_internal_attribution_and_document_name(self):
         result = {'blocks': [{
@@ -694,7 +740,7 @@ class RetrievalTests(unittest.TestCase):
                    {'kind': 'answer', 'blocks': [{'text': 'Claim', 'citations': [1]}]}]
         with patch.object(app, 'llm_json', side_effect=outputs), patch.object(app, 'search', return_value=[source]):
             result = app.ai_answer('syphilis treatment options', [], 'STI / Hepatitis', True)
-        self.assertTrue(any('unconfirmed' in n for n in result['notices']))
+        self.assertTrue(any('marked as draft' in n for n in result['notices']))
 
     def test_hiv_sources_carry_precedence_notes(self):
         base = dict(app.search('follow-up', 'PrEP')[0])

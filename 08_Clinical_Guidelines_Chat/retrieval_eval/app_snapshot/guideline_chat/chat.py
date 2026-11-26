@@ -42,7 +42,6 @@ def main():
     parser = argparse.ArgumentParser(description='Chat with your facility guidelines in the terminal.')
     parser.add_argument('--program', default='All programs', choices=['All programs'] + sorted({p for d in app.DOCS for p in d['programs']}))
     parser.add_argument('--question', help='Ask one question and exit.')
-    parser.add_argument('--exclude-drafts', action='store_true', help='Leave out the unconfirmed 2026 STI draft (included by default here).')
     parser.add_argument('--top-k', type=int, default=6, help='Retrieval limit (default 6).')
     parser.add_argument('--no-expand', action='store_true', help='Turn off section expansion.')
     parser.add_argument('--sources', action='store_true', help='List every retrieved chunk after each answer.')
@@ -76,8 +75,7 @@ def main():
                 continue
             print('Searching guidelines…', flush=True)
             started = time.time()
-            result = app.answer({'question': question, 'program': args.program, 'history': history[-6:],
-                                 'include_drafts': not args.exclude_drafts})
+            result = app.answer({'question': question, 'program': args.program, 'history': history[-6:]})
             display(result, args.sources, time.time() - started)
             history.extend([{'role': 'user', 'content': question}, {'role': 'assistant', 'content': '\n\n'.join(b['text'] for b in result.get('blocks', [])) or result['message'][:8000]}])
             history = history[-6:]

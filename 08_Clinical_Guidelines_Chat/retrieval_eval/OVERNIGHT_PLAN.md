@@ -24,11 +24,10 @@ make reasonable decisions, note them in the report, and keep going. If something
 3. Ollama: check `ollama --version` / that the server answers on `http://localhost:11434/api/version`. If missing,
    install (`brew install ollama` or the macOS app) and start it. Then `ollama pull llama3.1:8b` and
    `ollama pull bge-m3:latest`. Note the chip and memory (`sysctl -n machdep.cpu.brand_string`, `sysctl hw.memsize`).
-4. App code. The user updated the app (the review directive: narrower source-talk check, high-risk gate counts
-   diagrams, benchmark-specific prompt/code removed). Look for their current `guideline_chat/app.py` on this Mac
-   (e.g. `mdfind -name app.py | grep guideline_chat`, or search the home folder; pick the most recently modified,
-   and check it contains `def ai_answer`). Copy that folder to `retrieval_eval/work/guideline_chat`. If not found,
-   copy `retrieval_eval/app_snapshot/guideline_chat` (25 Nov version, before the directive) and say so in the report.
+4. App code: copy `retrieval_eval/app_snapshot/guideline_chat` (the user's current app, received 26 Nov 2026 01:59,
+   with the review directive applied: narrower source-talk check, high-risk gate only blocks when nothing relevant
+   was retrieved, benchmark-specific prompt/code removed, STI draft checkbox removed; its 78 tests pass) to
+   `retrieval_eval/work/guideline_chat`. Use this copy, not any other copy on the Mac.
    Do not copy any `.env` with secrets; write `work/guideline_chat/.env` with the deployed settings:
    ```
    LLM_BASE_URL=http://localhost:11434

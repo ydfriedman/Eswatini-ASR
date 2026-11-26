@@ -491,7 +491,7 @@ _CLINICAL_SUBJECT = re.compile(
 _ATTRIBUTION_PHRASE = re.compile(
     r'\b(?:based on|according to)\s+(?:the\s+)?'
     r'(?:2024\s+(?:hiv\s+)?amendment|guideline|guidelines|amendment|source(?:s)?|'
-    r'excerpt(?:s)?|figure\s+[\w.]+|table\s+[\w.]+)\s*[:,]?\s*',
+    r'excerpt(?:s)?)\s*[:,]?\s*',
     re.I,
 )
 _INCORRECT_BELOW = re.compile(
@@ -508,7 +508,7 @@ _HIGH_RISK_QUESTION = re.compile(
     re.I,
 )
 _REQUIRES_VERIFY_WARNING = re.compile(
-    r'\b(?:pregnan|breastfeed|newborn|infant|child|paediatric|pediatric|'
+    r'\b(?:pregnan\w*|breastfeed\w*|newborn\w*|infant\w*|child\w*|paediatric\w*|pediatric\w*|'
     r'drug interaction|contraindicat|regimen|treatment start|switch|viral load|'
     r'threshold|borderline|boundary|dose|dosing|emergency)\b',
     re.I,
@@ -524,38 +524,18 @@ VERIFY_NOTICE = (
 
 
 def planner_instructions(question, instructions):
-    """Reinforce terms that the smaller planner must preserve."""
-    lower = question.lower()
-    additions = []
-    if any(term in lower for term in ('threshold', 'count', 'copies/ml', 'mg/dl', 'mmol/l',
-                                      'dose', 'age', 'how often')):
-        additions.append(
-            'Preserve every numerical value, comparator, unit, age, dose, schedule, and repeat interval.')
-    if 'newly seroconverted' in lower or ('seroconvert' in lower and 'infant' in lower):
-        additions.append(
-            'Search explicitly for a newly seroconverted breastfeeding mother and infant prophylaxis/PEP.')
-    if 'pregnan' in lower and any(term in lower for term in ('syphilis', 'rpr', 'testing')):
-        additions.append(
-            'Search separately for pregnancy testing intervals, treatment, follow-up, and partner management.')
-    return instructions + ('\nAdditional requirements: ' + ' '.join(additions) if additions else '')
+    """Reinforce exact clinical details that the planner must preserve."""
+    return instructions + (
+        '\nAdditional requirement: Preserve every number, comparator, unit, age, dose, '
+        'schedule, and interval from the question.')
 
 
 def answer_instructions(question, instructions):
     """Add concise checklist instructions for smaller answer models."""
-    lower = question.lower()
-    additions = '''
+    return instructions + '''
 Numerical accuracy: compare values using ordinary arithmetic. Do not call a value below, above, equal to,
 included in, or excluded from a threshold unless the comparison is mathematically correct. Answer every
 requested part, including repeat intervals, follow-up, partner management, and special high-risk guidance.'''
-    if 'syphilis' in lower or 'rpr' in lower:
-        additions += '''
-For a testing-and-treatment schedule, explicitly list initial testing, repeat interval, treatment dose and
-number/timing of doses, follow-up laboratory testing, partner action, and the allergy alternative.'''
-    if 'viral load' in lower:
-        additions += '''
-For viral-load management, classify the result and include assessment and counselling, repeat-test interval,
-when regimen change is or is not indicated, and any genotyping or specialist-review threshold.'''
-    return instructions + additions
 
 
 def clean_source_attribution(result):
@@ -593,27 +573,20 @@ def evidence_is_ambiguous(question, sources, search_queries):
         if len(term) >= 4 and term not in KEYWORD_STOPWORDS
     }
     if terms:
-        strongest = max(
-            sum(term in ' '.join((
+        source_words = [
+            set(re.findall(r'[a-z0-9]+', ' '.join((
                 source.get('heading_path', ''),
                 source.get('text', ''),
                 source.get('caption', ''),
-            )).lower().split() for term in terms)
+            )).lower()))
             for source in sources
+        ]
+        strongest = max(
+            len(terms & words)
+            for words in source_words
         )
         if strongest == 0:
             return 'The retrieved passages do not share decision terms with the question.'
-    if len(sources) > 2:
-        documents = {
-            source.get('document', {}).get('id')
-            for source in sources
-        }
-        if len(documents) >= 5:
-            return 'The evidence is dispersed across too many documents.'
-    if (high_risk_question(question)
-            and not any(source.get('type') in ('table', 'flowchart', 'list', 'box')
-                       for source in sources)):
-        return 'No structured decision passage was found for this high-risk question.'
     return ''
 
 
@@ -761,17 +734,6 @@ For "answer" put 1-3 concise standalone natural-language search queries in queri
                           'kept' if source in relevant else 'filtered') for source in amendment_results[:2]],
                     ),
                     flush=True)
-    if hivst_exclusion_query(question):
-        for item in fused.values():
-            source = item['source']
-            text = source.get('text', '').lower()
-            if source['document']['id'] == '1' and (
-                    'priority groups' in text
-                    or 'routine testing' in text
-                    or 'eligible for routine testing' in text):
-                item['score'] += 2.0
-            if 'known hiv' in text or 'known positive' in text:
-                item['score'] += 1.0
     ranked_items = sorted(fused.values(), key=lambda item: item['score'], reverse=True)
     if expand_retrieval():
         # The limit applies to retrieved hits; their expanded context is kept whole.
@@ -860,6 +822,11 @@ For "answer" put 1-3 concise standalone natural-language search queries in queri
                 continue
             break
         except ValueError as exc:
+            if attempt == 2 and isinstance(exc, SourceTalkError):
+                print(
+                    f'[Answer validation] Allowing final-attempt answer after source-talk warning: {exc}',
+                    flush=True)
+                break
             if attempt == 2:
                 raise RuntimeError(str(exc)) from None
             request['previous_answer_error'] = (
@@ -870,8 +837,8 @@ For "answer" put 1-3 concise standalone natural-language search queries in queri
     if had_identifiers:
         notices.append('Patient identifiers were removed from your question. Please do not enter identifiable patient data.')
     if any(s['document']['draft'] for s in sources):
-        notices.append('This answer uses the 2026 STI / viral hepatitis document, whose approval status is unconfirmed.')
-    if needs_verify_notice(question) or ambiguity:
+        notices.append('This answer uses a document marked as draft; confirm its approval status before acting.')
+    if high_risk_question(question) or needs_verify_notice(question) or ambiguity:
         notices.append(VERIFY_NOTICE)
     message = '\n\n'.join(b['text'] for b in blocks)
     if references:
@@ -883,12 +850,13 @@ For "answer" put 1-3 concise standalone natural-language search queries in queri
 # "2024 Amendment" stays allowed: the prompt's precedence rule asks the model to say the Amendment changed something.
 _SOURCE_TALK = re.compile(
     r'^\s*(?:based on\b|according to\b|here are\b|the key points\b)'
-    r'|\baccording to\b'
-    r'|\b(?:table|figure|fig\.|chart|annex|appendix|section|page|p\.)\s*\d'
-    r'|\b(?:source|excerpt|passage|document)s?\s*\[?\d'
-    r'|\b(?:this|the|these|those)\s+(?:source|excerpt|passage|document)s?\b'
-    r'|\b(?:the )?(?:first|second|third|other|one) (?:source|excerpt|passage|document)\b'
+    r'|\b(?:table|figure|fig\.|chart|annex|appendix|page|p\.)\s*\d'
+    r'|\b(?:source|excerpt|passage)s?\s*\[?\d'
+    r'|\b(?:the )?(?:first|second|other) (?:source|excerpt|passage)\b'
     r'|\bNCDIMH\b', re.I)
+
+class SourceTalkError(ValueError):
+    """The answer text uses source-oriented wording."""
 
 def validate_answer(result, blocks, source_count):
     """Raise ValueError with a model-readable reason when the answer breaks citation rules."""
@@ -918,8 +886,9 @@ def validate_answer(result, blocks, source_count):
     for block in blocks:
         match = _SOURCE_TALK.search(block['text'])
         if match:
-            raise ValueError(f'The answer text refers to its sources ("{match.group(0)}"). Give the content only; '
-                             'sources go in "citations", and the app adds the reference list.')
+            raise SourceTalkError(
+                f'The answer text refers to its sources ("{match.group(0)}"). Give the content only; '
+                'sources go in "citations", and the app adds the reference list.')
 
 # ---- 6. Index building ----
 
@@ -1045,17 +1014,6 @@ def expansion_hit_limit():
         return min(5, max(3, int(os.environ.get('RETRIEVAL_EXPANSION_HITS', '5'))))
     except ValueError:
         return 5
-
-def hivst_exclusion_query(question):
-    """Whether the question is specifically about people who must not use HIVST."""
-    text = question.lower()
-    return ('hiv self' in text or 'hivst' in text) and (
-        'not be screened' in text
-        or 'should not' in text
-        or 'must not' in text
-        or 'routine testing' in text
-        or 'national hiv testing algorithm' in text
-    )
 
 def keyword_terms(text):
     terms = []
@@ -1279,7 +1237,7 @@ def answer(payload):
         if any('Mental health' in s['document']['programs'] for s in sources):
             notices.append('Mental health guidance overlaps between the 2022 desk guide and the 2025 consolidated guideline. Source precedence needs program-lead confirmation.')
         if any(s['document']['draft'] for s in sources):
-            notices.append('These results include the 2026 STI / viral hepatitis document whose approval status is unconfirmed.')
+            notices.append('These results include a document marked as draft; confirm its approval status before acting.')
         return {'mode':'excerpts','message':'I found these relevant guideline passages. Read the linked page for the full table, algorithm, and surrounding conditions.' if sources else 'I could not find sufficiently matching passages in the selected guidelines. Try a specific clinical term or another program. The library may not cover this question.', 'sources':sources,'notices':notices}
     finally:
         print(f'[Latency] turn: {time.perf_counter() - started:.3f}s', flush=True)
