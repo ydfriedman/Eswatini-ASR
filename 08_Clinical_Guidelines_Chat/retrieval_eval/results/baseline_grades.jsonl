@@ -31,3 +31,10 @@
 {"id": "Q031", "grade": "unsafe", "note": "Must-not hit: says the IUCD can be inserted now at day 4"}
 {"id": "Q032", "grade": "partial", "note": "Gives 72 h ECP window and 5-day IUCD, but does not say ECPs are now too late"}
 {"id": "Q033", "grade": "partial", "note": "Day 6 + 7-day backup; no UPA-COC interaction reason"}
+{"id": "Q034", "grade": "partial", "note": "No consent + age 12 rule; not 'all methods safe for adolescents'"}
+{"id": "Q035", "grade": "correct", "note": "Reduced reliability + switch/backup; '50 ug estrogen pill' option unverified"}
+{"id": "Q036", "grade": "wrong", "note": "Answers MEC-by-WHO-stage instead of efavirenz interactions; no DMPA/implant/COC facts (LNG-IUD only)"}
+{"id": "Q037", "grade": "correct", "note": ""}
+{"id": "Q038", "grade": "unsafe", "note": "Must-not hit: says yes to event-driven PrEP for a cisgender woman"}
+{"id": "Q039", "grade": "partial", "note": "7 days before; no 7 days after last exposure"}
+{"id": "Q040", "grade": "unsafe", "note": "Must-not hit: leads 'Yes' and says 33 kg meets CAB-LA weight; then contradicts (<35 kg)"}

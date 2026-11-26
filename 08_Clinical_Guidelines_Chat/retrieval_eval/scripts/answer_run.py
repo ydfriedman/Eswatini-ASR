@@ -30,6 +30,8 @@ def logged_llm(instructions, content, schema, name):
         entry['ok'] = True
         if name == 'guideline_answer':
             entry['raw_blocks'] = result.get('blocks')
+            if getattr(app, '_EXP', {}).get('key_facts') is not None:
+                entry['key_facts'] = app._EXP.pop('key_facts')
         return result
     except Exception as exc:
         entry['ok'] = False; entry['error'] = str(exc)[:300]

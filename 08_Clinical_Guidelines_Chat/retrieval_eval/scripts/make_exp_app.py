@@ -108,7 +108,23 @@ def llm_json(instructions, content, schema, name):
         if os.environ.get('EXP_QUESTION_LAST') == '1':
             question = content.pop('question')
             content['question'] = question
+        if os.environ.get('EXP_REASON_FIRST') == '1':
+            # The JSON schema's property order is the generation order: facts first, then the answer.
+            schema = dict(schema, properties={'key_facts': {'type': 'array', 'items': {'type': 'string'}},
+                                              **schema['properties']},
+                          required=['key_facts'] + list(schema['required']))
+            instructions = instructions + REASON_FIRST_RULE
+            result = _orig_llm_json(instructions, content, schema, name)
+            if isinstance(result, dict):
+                _EXP['key_facts'] = result.pop('key_facts', None)
+            return result
     return _orig_llm_json(instructions, content, schema, name)
+
+REASON_FIRST_RULE = \'\'\'
+- Before "kind" and "blocks", fill "key_facts": 1-4 short facts copied from the sources that decide the answer,
+  each with the group or condition it applies to and the source id, e.g. "[2] Children under 5: cotrimoxazole regardless of CD4".
+  Compare the patient's details with these facts, then write blocks that agree with them. key_facts is not shown
+  to the user.\'\'\'
 '''
 
 code += '''
