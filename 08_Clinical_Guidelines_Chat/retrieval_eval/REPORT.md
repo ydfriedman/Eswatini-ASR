@@ -77,6 +77,17 @@ under `LLM_NUM_CTX=16384` minus the 1,200 output tokens, about 15,000.
 | expansion off | 149 (84%) | 31 | 80 (45%) | 5,364 / 7,871 |
 | expansion off, top-k 8 | 159 (89%) | 33 | 87 (49%) | 6,191 / 9,213 |
 | semantic only | 144 (81%) | 32 | 88 (49%) | 6,812 / 12,225 |
+| per-document cap 6 | 157 (88%) | 33 | 100 (56%) | 6,877 / 12,526 |
+| no document or page caps | 157 (88%) | 33 | 98 (55%) | 6,843 / 12,526 |
+| per-page cap 1 / 3 | 154 / 156 | 33 / 33 | 92 / 93 | about the same |
+| Amendment margin 0.04 / 0.15 | 155 / 151 | 33 / 31 | 93 / 90 | about the same |
+| keyword list 200 / 1000 (default 40) | 156 / 155 | 33 / 33 | 94 / 93 | about the same |
+| keyword weight 0.5 / fusion constant 20 | 155 / 158 | 33 / 32 | 93 / 95 | about the same |
+| planner queries only (no raw question) | 145 (81%) | 33 | 85 (48%) | 6,791 / 11,914 |
+| raw question + 1 planner query | 148 (83%) | 31 | 84 (47%) | 6,706 / 12,415 |
+| 1 planner query only | 132 (74%) | 26 | 63 (35%) | 6,554 / 9,841 |
+| doc cap 4 + 3 seeds | 155 (87%) | 32 | 98 (55%) | 6,572 / 10,636 |
+| **doc cap 4 + top-k 8 + 3 seeds** | 159 (89%) | 33 | 106 (60%) | 7,499 / 13,390 |
 
 - Keep hybrid search and expansion. `RETRIEVAL_EXPANSION_HITS=3` is free (same coverage, less text).
 - Per-document cap 4 gets more of the passages a multi-part answer needs (all gold 52% -> 55%) at no context cost.

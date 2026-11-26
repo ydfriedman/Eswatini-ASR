@@ -1,0 +1,46 @@
+--- a/guideline_chat/app.py	2026-11-25 21:31:11
++++ b/guideline_chat/app.py	2026-11-26 09:15:03
+@@ -498,6 +498,13 @@
+     r'(?P<value>\d+(?:\.\d+)?)\s*(?P<unit>copies/mL|cells/(?:mm³|ml)|mmol/L|mg/dL|%)'
+     r'\s*,?\s*(?:which\s+)?(?:is|falls?)\s+below\s+(?:the\s+)?'
+     r'(?P<threshold>\d+(?:\.\d+)?)\s*(?P=unit)',
++    re.I,
++)
++# The mirror case: "55 mL/min, which is above 60 mL/min" (the 8B model also misreads 'above').
++_INCORRECT_ABOVE = re.compile(
++    r'(?P<value>\d+(?:\.\d+)?)\s*(?P<unit>copies/mL|cells/(?:mm³|ml)|mmol/L|mg/dL|mL/min|kg|mmHg|%)'
++    r'\s*,?\s*(?:which\s+)?(?:is|falls?)\s+(?:above|over|greater than|higher than|more than)\s+(?:the\s+)?'
++    r'(?:threshold\s+(?:of\s+)?)?(?P<threshold>\d+(?:\.\d+)?)\s*(?P=unit)',
+     re.I,
+ )
+ _HIGH_RISK_QUESTION = re.compile(
+@@ -879,6 +886,11 @@
+                 raise ValueError(
+                     f'The numeric comparison is incorrect: {match.group("value")} is not below '
+                     f'{match.group("threshold")} {match.group("unit")}. Correct the comparison.')
++        for match in _INCORRECT_ABOVE.finditer(block['text']):
++            if float(match.group('value')) <= float(match.group('threshold')):
++                raise ValueError(
++                    f'The numeric comparison is incorrect: {match.group("value")} is not above '
++                    f'{match.group("threshold")} {match.group("unit")}. Correct the comparison.')
+     sentences = [s.strip().lower() for b in blocks for s in re.split(r'(?<=[.;!?])\s+', b['text']) if len(s.split()) >= 6]
+     if len(sentences) != len(set(sentences)):
+         raise ValueError('The answer repeats a sentence. Write each point once.')
+--- a/guideline_chat/test_app.py	2026-11-25 21:31:11
++++ b/guideline_chat/test_app.py	2026-11-26 09:15:03
+@@ -359,6 +359,15 @@
+             ['Status epilepticus'],
+         ))
+ 
++    def test_incorrect_above_comparison_is_rejected(self):
++        result = {'kind': 'answer'}
++        bad = [{'text': 'Continue: 55 mL/min, which is above 60 mL/min.', 'type': 'guideline_claim', 'citations': [1]}]
++        good = [{'text': 'Stop: 55 mL/min is below 60 mL/min; 75 mL/min would be above 60 mL/min.',
++                 'type': 'guideline_claim', 'citations': [1]}]
++        with self.assertRaises(ValueError):
++            app.validate_answer(result, bad, 1)
++        app.validate_answer(result, good, 1)
++
+     def test_out_of_scope_route_skips_retrieval_and_answer_model(self):
+         outputs = [{'route': 'out_of_scope', 'clarifying_question': '', 'queries': []}]
+         with patch.object(app, 'llm_json', side_effect=outputs) as model, patch.object(app, 'search') as search:

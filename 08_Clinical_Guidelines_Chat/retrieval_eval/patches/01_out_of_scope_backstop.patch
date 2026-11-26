@@ -1,0 +1,63 @@
+--- a/guideline_chat/app.py	2026-11-25 21:31:11
++++ b/guideline_chat/app.py	2026-11-26 09:11:19
+@@ -552,6 +552,16 @@
+         text = re.sub(r'\bNCDIMH\b', 'the national guideline', text, flags=re.I)
+         block['text'] = text[:1].upper() + text[1:] if text else text
+     return result
++
++
++# A question whose best passage matches this well is about the guidelines even if the planner called it out of
++# scope (measured: off-topic questions score at most 0.54, clinical ones the planner refused 0.66-0.70).
++OUT_OF_SCOPE_MIN_SCORE = 0.60
++
++
++def guideline_match_score(question, drafts=False):
++    """Best embedding similarity between the question and any retrieved guideline passage."""
++    return max((s.get('score') or 0.0 for s in search(question[:300], 'All programs', drafts)), default=0.0)
+ 
+ 
+ def high_risk_question(question):
+@@ -646,7 +656,7 @@
+                        'queries': {'type': 'array', 'items': {'type': 'string'}}}), 'retrieval_queries')
+     route = plan.get('route', 'answer')
+     if route == 'out_of_scope':
+-        if _CLINICAL_SUBJECT.search(question):
++        if _CLINICAL_SUBJECT.search(question) or guideline_match_score(question, drafts) >= OUT_OF_SCOPE_MIN_SCORE:
+             route = 'answer'
+             plan = {'route': 'answer', 'clarifying_question': '', 'queries': [question]}
+         else:
+--- a/guideline_chat/test_app.py	2026-11-25 21:31:11
++++ b/guideline_chat/test_app.py	2026-11-26 09:14:47
+@@ -359,15 +359,29 @@
+             ['Status epilepticus'],
+         ))
+ 
+-    def test_out_of_scope_route_skips_retrieval_and_answer_model(self):
++    def test_out_of_scope_route_skips_answer_model(self):
+         outputs = [{'route': 'out_of_scope', 'clarifying_question': '', 'queries': []}]
+-        with patch.object(app, 'llm_json', side_effect=outputs) as model, patch.object(app, 'search') as search:
++        weak = [{'score': 0.46, 'document': {'id': '0'}}]
++        with patch.object(app, 'llm_json', side_effect=outputs) as model, \
++                patch.object(app, 'search', return_value=weak) as search:
+             result = app.ai_answer('Can you write me a cover letter for a nursing job?', [], 'All programs', False)
+         self.assertEqual(result['kind'], 'out_of_scope')
+         self.assertEqual(result['sources'], [])
+         self.assertIn('outside what I can help with', result['message'])
+-        search.assert_not_called()
++        self.assertEqual(search.call_count, 1)   # one search only, to check how well the guidelines match
+         self.assertEqual(model.call_count, 1)
++
++    def test_strong_guideline_match_overrides_out_of_scope_route(self):
++        outputs = [{'route': 'out_of_scope', 'clarifying_question': '', 'queries': []},
++                   {'kind': 'answer', 'blocks': [{'text': 'Screen all adults annually.', 'citations': [1]}],
++                    'calculations': []}]
++        with patch.object(app, 'llm_json', side_effect=outputs), \
++                patch.object(app, 'guideline_match_score', return_value=0.70), \
++                patch.object(app, 'search', return_value=[{
++                    'chunk_id': 'c1', 'document': app.DOCS[5], 'page': 1, 'text': 'Screen all adults for diabetes.',
++                    'heading_path': 'Diabetes screening', 'score': 0.70}]):
++            result = app.ai_answer('Who should be screened for diabetes?', [], 'All programs', False)
++        self.assertEqual(result['kind'], 'answer')
+ 
+     def test_clinical_question_overrides_out_of_scope_route(self):
+         outputs = [
