@@ -1,0 +1,496 @@
+[
+ {
+  "variant": "append_on",
+  "q1": "How is syphilis treated in pregnancy?",
+  "q2": "What if she is allergic to penicillin?",
+  "outcome": "answer_call",
+  "queries": [
+   "What if she is allergic to penicillin?",
+   "Syphilis treatment in pregnancy with penicillin allergy",
+   "Penicillin allergy and syphilis treatment during pregnancy",
+   "Syphilis management in pregnant women with penicillin hypersensitivity",
+   "How is syphilis treated in pregnancy?"
+  ],
+  "found": [
+   "sti-vh-draft-2026-txt-p79-t0210"
+  ],
+  "gold": [
+   "sti-vh-draft-2026-txt-p79-t0210",
+   "sti-vh-draft-2026-chart-syphilis-in-pregnancy"
+  ],
+  "ids": [
+   "sti-vh-draft-2026-txt-p79-t0210",
+   "anc-0102",
+   "anc-0047",
+   "anc-0049",
+   "sti-vh-draft-2026-box-annex-5-penicillin-precautions-p1",
+   "anc-0008",
+   "sti-vh-draft-2026-txt-p116-t0280"
+  ]
+ },
+ {
+  "variant": "append_on",
+  "q1": "What TB preventive treatment do household contacts get?",
+  "q2": "And for children under 5?",
+  "outcome": "answer_call",
+  "queries": [
+   "And for children under 5?",
+   "TB preventive treatment in children under 5 years old",
+   "TB preventive treatment dosage for pediatric patients",
+   "TB preventive treatment duration for children",
+   "What TB preventive treatment do household contacts get?"
+  ],
+  "found": [],
+  "gold": [
+   "tb-2025-0390"
+  ],
+  "ids": [
+   "hiv-amendment-2024-tbl-6.1.2-tpt-options",
+   "hiv-2022-txt-p215-t0418-p1",
+   "hiv-amendment-2024-tbl-9-summary-of-changes",
+   "hiv-amendment-2024-0071",
+   "hiv-amendment-2024-0072",
+   "tb-2025-0366",
+   "tb-2025-tbl-p148-0368",
+   "hiv-2022-tbl-11.15-infant-lpv-r-initiation",
+   "hiv-2022-tbl-11.16-paediatric-art-on-tb-treatment-p3",
+   "hiv-2022-tbl-11.17-paediatric-arv-dosing-p1",
+   "tb-2025-0367"
+  ]
+ },
+ {
+  "variant": "append_on",
+  "q1": "What is the first-line drug treatment for hypertension in adults?",
+  "q2": "What if she is pregnant?",
+  "outcome": "answer_call",
+  "queries": [
+   "What if she is pregnant?",
+   "hypertension treatment in pregnancy",
+   "first line antihypertensive medication during pregnancy",
+   "pregnancy and blood pressure management",
+   "What is the first-line drug treatment for hypertension in adults?"
+  ],
+  "found": [
+   "ncdimh-0298",
+   "ncdimh-0299"
+  ],
+  "gold": [
+   "ncdimh-0298",
+   "ncdimh-0299"
+  ],
+  "ids": [
+   "ncdimh-0299",
+   "tb-2025-0647",
+   "ncdimh-0298",
+   "anc-0060",
+   "anc-0061",
+   "anc-0063",
+   "ncdimh-0255",
+   "fp-2021-0155",
+   "fp-2021-0157",
+   "fp-2021-0159",
+   "fp-2021-0162"
+  ]
+ },
+ {
+  "variant": "append_on",
+  "q1": "Which PrEP products are available in Eswatini?",
+  "q2": "Can a breastfeeding woman use them?",
+  "outcome": "answer_call",
+  "queries": [
+   "Can a breastfeeding woman use them?",
+   "PrEP use in breastfeeding women",
+   "breastfeeding and pre-exposure prophylaxis guidelines",
+   "pregnancy and breastfeeding considerations for PrEP",
+   "Which PrEP products are available in Eswatini?"
+  ],
+  "found": [
+   "prep-2025-0015"
+  ],
+  "gold": [
+   "prep-2025-tbl-product-eligibility",
+   "prep-2025-tbl-ring-pbfw-contraindications",
+   "prep-2025-0046",
+   "prep-2025-0015"
+  ],
+  "ids": [
+   "prep-2025-0146",
+   "prep-2025-0147",
+   "prep-2025-box-pbfw-opt-out",
+   "prep-2025-0149",
+   "tb-2025-0246",
+   "tb-2025-0247",
+   "tb-2025-0248",
+   "anc-0068",
+   "anc-0069",
+   "anc-0070",
+   "anc-0071",
+   "anc-0072",
+   "prep-2025-0012",
+   "prep-2025-0013",
+   "prep-2025-0015",
+   "fp-2021-0116",
+   "fp-2021-0117",
+   "fp-2021-0118",
+   "fp-2021-0119",
+   "fp-2021-0120",
+   "fp-2021-0121",
+   "fp-2021-0122",
+   "fp-2021-0124",
+   "fp-2021-0126"
+  ]
+ },
+ {
+  "variant": "append_on",
+  "q1": "When is viral load monitored after starting ART?",
+  "q2": "What if it is above 1000?",
+  "outcome": "answer_call",
+  "queries": [
+   "What if it is above 1000?",
+   "viral load monitoring after starting ART",
+   "ART initiation timing for viral load monitoring",
+   "timing of viral load monitoring in HIV treatment",
+   "When is viral load monitored after starting ART?"
+  ],
+  "found": [],
+  "gold": [
+   "hiv-2022-fig-7.4-high-vl-management"
+  ],
+  "ids": [
+   "hiv-amendment-2024-0039",
+   "hiv-amendment-2024-tbl-5-summary-of-changes",
+   "hiv-amendment-2024-0041",
+   "hiv-amendment-2024-0042",
+   "hiv-amendment-2024-0043",
+   "hiv-2022-txt-p159-t0330",
+   "hiv-2022-txt-p160-t0331",
+   "hiv-2022-txt-p160-t0332-p1",
+   "hiv-amendment-2024-fig-7.3-vl-testing-algorithm",
+   "hiv-amendment-2024-fig-7.2-vl-monitoring-schedule",
+   "hiv-amendment-2024-0061",
+   "hiv-2022-fig-7.2-vl-cd4-schedule",
+   "hiv-2022-fig-8.1-vl-cd4-pregnant-lactating"
+  ]
+ },
+ {
+  "variant": "append_on",
+  "q1": "When can a woman start the injectable contraceptive after delivery?",
+  "q2": "She is breastfeeding.",
+  "outcome": "answer_call",
+  "queries": [
+   "She is breastfeeding.",
+   "breastfeeding and postpartum contraception guidelines",
+   "injectable contraceptive timing after delivery in lactating women",
+   "contraception options for breastfeeding mothers",
+   "When can a woman start the injectable contraceptive after delivery?"
+  ],
+  "found": [],
+  "gold": [
+   "fp-2021-0079"
+  ],
+  "ids": [
+   "fp-2021-0103",
+   "fp-2021-0106",
+   "fp-2021-0107",
+   "fp-2021-0104",
+   "fp-2021-0105",
+   "fp-2021-0089",
+   "fp-2021-0090",
+   "tb-2025-0246",
+   "tb-2025-0247",
+   "tb-2025-0248",
+   "fp-2021-0116",
+   "fp-2021-0117",
+   "fp-2021-0118",
+   "fp-2021-0119",
+   "fp-2021-0120",
+   "fp-2021-0121",
+   "fp-2021-0122",
+   "fp-2021-0124",
+   "fp-2021-0126"
+  ]
+ },
+ {
+  "variant": "append_on",
+  "q1": "What is the first-line ART regimen for adults?",
+  "q2": "What about pregnant women?",
+  "outcome": "answer_call",
+  "queries": [
+   "What about pregnant women?",
+   "first line antiretroviral therapy in pregnancy",
+   "pregnant women antiretroviral treatment guidelines",
+   "ART regimen for pregnant adults",
+   "What is the first-line ART regimen for adults?"
+  ],
+  "found": [
+   "hiv-2022-txt-p184-t0360"
+  ],
+  "gold": [
+   "hiv-2022-txt-p184-t0360"
+  ],
+  "ids": [
+   "hiv-2022-txt-p146-t0303",
+   "hiv-2022-txt-p147-t0305",
+   "hiv-2022-txt-p147-t0306",
+   "tb-2025-0243",
+   "tb-2025-0245",
+   "tb-2025-0246",
+   "hiv-2022-tbl-7.2-alternative-first-line",
+   "hiv-2022-tbl-8.7-hiv-positive-anc-p4",
+   "hiv-2022-txt-p184-t0360",
+   "hiv-2022-txt-p184-t0361",
+   "tb-2025-tbl-p125-0309",
+   "tb-2025-0310",
+   "tb-2025-0311",
+   "ncdimh-0046",
+   "ncdimh-0047",
+   "ncdimh-0048",
+   "ncdimh-0049"
+  ]
+ },
+ {
+  "variant": "append_off",
+  "q1": "How is syphilis treated in pregnancy?",
+  "q2": "What if she is allergic to penicillin?",
+  "outcome": "answer_call",
+  "queries": [
+   "What if she is allergic to penicillin?",
+   "Syphilis treatment in pregnancy with penicillin allergy",
+   "Penicillin allergy and syphilis treatment during pregnancy",
+   "Syphilis management in pregnant women with penicillin hypersensitivity"
+  ],
+  "found": [
+   "sti-vh-draft-2026-txt-p79-t0210"
+  ],
+  "gold": [
+   "sti-vh-draft-2026-txt-p79-t0210",
+   "sti-vh-draft-2026-chart-syphilis-in-pregnancy"
+  ],
+  "ids": [
+   "sti-vh-draft-2026-txt-p79-t0210",
+   "anc-0102",
+   "anc-0047",
+   "anc-0049",
+   "sti-vh-draft-2026-box-annex-5-penicillin-precautions-p1",
+   "sti-vh-draft-2026-txt-p116-t0280",
+   "anc-0008"
+  ]
+ },
+ {
+  "variant": "append_off",
+  "q1": "What TB preventive treatment do household contacts get?",
+  "q2": "And for children under 5?",
+  "outcome": "answer_call",
+  "queries": [
+   "And for children under 5?",
+   "TB preventive treatment in children under 5 years old",
+   "TB preventive treatment dosage for pediatric patients",
+   "TB preventive treatment duration for children"
+  ],
+  "found": [],
+  "gold": [
+   "tb-2025-0390"
+  ],
+  "ids": [
+   "hiv-amendment-2024-tbl-6.1.2-tpt-options",
+   "hiv-amendment-2024-tbl-9-summary-of-changes",
+   "hiv-amendment-2024-0071",
+   "hiv-amendment-2024-0072",
+   "tb-2025-0366",
+   "tb-2025-tbl-p148-0368",
+   "hiv-2022-tbl-11.15-infant-lpv-r-initiation",
+   "hiv-2022-tbl-11.16-paediatric-art-on-tb-treatment-p3",
+   "hiv-2022-tbl-11.17-paediatric-arv-dosing-p1",
+   "tb-2025-0367",
+   "hiv-2022-txt-p204-t0405",
+   "hiv-2022-txt-p205-t0407",
+   "hiv-2022-tbl-9.2-ahd-definitions-children"
+  ]
+ },
+ {
+  "variant": "append_off",
+  "q1": "What is the first-line drug treatment for hypertension in adults?",
+  "q2": "What if she is pregnant?",
+  "outcome": "answer_call",
+  "queries": [
+   "What if she is pregnant?",
+   "hypertension treatment in pregnancy",
+   "first line antihypertensive medication during pregnancy",
+   "pregnancy and blood pressure management"
+  ],
+  "found": [
+   "ncdimh-0298",
+   "ncdimh-0299"
+  ],
+  "gold": [
+   "ncdimh-0298",
+   "ncdimh-0299"
+  ],
+  "ids": [
+   "ncdimh-0299",
+   "anc-0060",
+   "anc-0061",
+   "anc-0063",
+   "ncdimh-0298",
+   "tb-2025-0647",
+   "hiv-amendment-2024-tbl-9.4-initiating-art-on-tb",
+   "fp-2021-0155",
+   "fp-2021-0157",
+   "fp-2021-0159",
+   "fp-2021-0162"
+  ]
+ },
+ {
+  "variant": "append_off",
+  "q1": "Which PrEP products are available in Eswatini?",
+  "q2": "Can a breastfeeding woman use them?",
+  "outcome": "answer_call",
+  "queries": [
+   "Can a breastfeeding woman use them?",
+   "PrEP use in breastfeeding women",
+   "breastfeeding and pre-exposure prophylaxis guidelines",
+   "pregnancy and breastfeeding considerations for PrEP"
+  ],
+  "found": [],
+  "gold": [
+   "prep-2025-tbl-product-eligibility",
+   "prep-2025-tbl-ring-pbfw-contraindications",
+   "prep-2025-0046",
+   "prep-2025-0015"
+  ],
+  "ids": [
+   "prep-2025-0146",
+   "prep-2025-0147",
+   "prep-2025-box-pbfw-opt-out",
+   "prep-2025-0149",
+   "tb-2025-0246",
+   "tb-2025-0247",
+   "tb-2025-0248",
+   "anc-0068",
+   "anc-0069",
+   "anc-0070",
+   "anc-0071",
+   "anc-0072",
+   "fp-2021-0116",
+   "fp-2021-0117",
+   "fp-2021-0118",
+   "fp-2021-0119",
+   "fp-2021-0120",
+   "fp-2021-0121",
+   "fp-2021-0122",
+   "fp-2021-0124",
+   "fp-2021-0126",
+   "hiv-2022-txt-p34-08-p3",
+   "hiv-2022-txt-p35-09",
+   "hiv-2022-txt-p35-10"
+  ]
+ },
+ {
+  "variant": "append_off",
+  "q1": "When is viral load monitored after starting ART?",
+  "q2": "What if it is above 1000?",
+  "outcome": "answer_call",
+  "queries": [
+   "What if it is above 1000?",
+   "viral load monitoring after starting ART",
+   "ART initiation timing for viral load monitoring",
+   "timing of viral load monitoring in HIV treatment"
+  ],
+  "found": [],
+  "gold": [
+   "hiv-2022-fig-7.4-high-vl-management"
+  ],
+  "ids": [
+   "hiv-amendment-2024-0039",
+   "hiv-amendment-2024-tbl-5-summary-of-changes",
+   "hiv-amendment-2024-0041",
+   "hiv-amendment-2024-0042",
+   "hiv-amendment-2024-0043",
+   "hiv-2022-txt-p159-t0330",
+   "hiv-2022-txt-p160-t0331",
+   "hiv-2022-txt-p160-t0332-p1",
+   "hiv-amendment-2024-fig-7.3-vl-testing-algorithm",
+   "hiv-amendment-2024-fig-7.2-vl-monitoring-schedule",
+   "hiv-amendment-2024-0061",
+   "hiv-2022-fig-7.2-vl-cd4-schedule",
+   "hiv-2022-fig-8.1-vl-cd4-pregnant-lactating"
+  ]
+ },
+ {
+  "variant": "append_off",
+  "q1": "When can a woman start the injectable contraceptive after delivery?",
+  "q2": "She is breastfeeding.",
+  "outcome": "answer_call",
+  "queries": [
+   "She is breastfeeding.",
+   "breastfeeding and postpartum contraception guidelines",
+   "injectable contraceptive timing after delivery in lactating women",
+   "contraception options for breastfeeding mothers"
+  ],
+  "found": [],
+  "gold": [
+   "fp-2021-0079"
+  ],
+  "ids": [
+   "fp-2021-0103",
+   "fp-2021-0106",
+   "fp-2021-0107",
+   "fp-2021-0089",
+   "fp-2021-0090",
+   "tb-2025-0246",
+   "tb-2025-0247",
+   "tb-2025-0248",
+   "fp-2021-0104",
+   "fp-2021-0105",
+   "fp-2021-0116",
+   "fp-2021-0117",
+   "fp-2021-0118",
+   "fp-2021-0119",
+   "fp-2021-0120",
+   "fp-2021-0121",
+   "fp-2021-0122",
+   "fp-2021-0124",
+   "fp-2021-0126",
+   "fp-2021-0187",
+   "fp-2021-tbl-p96-0188-p1",
+   "fp-2021-0197"
+  ]
+ },
+ {
+  "variant": "append_off",
+  "q1": "What is the first-line ART regimen for adults?",
+  "q2": "What about pregnant women?",
+  "outcome": "answer_call",
+  "queries": [
+   "What about pregnant women?",
+   "first line antiretroviral therapy in pregnancy",
+   "pregnant women antiretroviral treatment guidelines",
+   "ART regimen for pregnant adults"
+  ],
+  "found": [
+   "hiv-2022-txt-p184-t0360"
+  ],
+  "gold": [
+   "hiv-2022-txt-p184-t0360"
+  ],
+  "ids": [
+   "tb-2025-0243",
+   "tb-2025-0245",
+   "tb-2025-0246",
+   "hiv-2022-tbl-8.7-hiv-positive-anc-p4",
+   "hiv-2022-txt-p184-t0360",
+   "hiv-2022-txt-p184-t0361",
+   "hiv-2022-txt-p146-t0303",
+   "hiv-2022-txt-p147-t0305",
+   "hiv-2022-txt-p147-t0306",
+   "tb-2025-tbl-p125-0309",
+   "tb-2025-0310",
+   "tb-2025-0311",
+   "ncdimh-0046",
+   "ncdimh-0047",
+   "ncdimh-0048",
+   "ncdimh-0049",
+   "hiv-2022-tbl-7.2-alternative-first-line"
+  ]
+ }
+]

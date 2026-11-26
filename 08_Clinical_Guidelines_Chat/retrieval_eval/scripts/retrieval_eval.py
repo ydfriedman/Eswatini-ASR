@@ -24,13 +24,27 @@ os.environ['LLM_MODEL'] = 'llama3.1:8b'     # the deployed model name (switches 
 # Query embeddings are cached so repeated runs only embed each search query once.
 _real_embed = app.embedding_request
 _cache = {}
+# Optional on-disk cache (EMBED_CACHE=path.pkl) shared across runs; keyed by model and text.
+_cache_path = os.environ.get('EMBED_CACHE')
+if _cache_path and os.path.exists(_cache_path):
+    import pickle
+    _cache.update(pickle.load(open(_cache_path, 'rb')).get(app.embedding_model(), {}))
+_cache_new = [0]
 def cached_embed(texts):
     if len(texts) == 1:
         if texts[0] not in _cache:
             _cache[texts[0]] = _real_embed(texts)[0]
+            _cache_new[0] += 1
         return [_cache[texts[0]]]
     return _real_embed(texts)
 app.embedding_request = cached_embed
+
+def save_cache():
+    if _cache_path and _cache_new[0]:
+        import pickle
+        allc = pickle.load(open(_cache_path, 'rb')) if os.path.exists(_cache_path) else {}
+        allc.setdefault(app.embedding_model(), {}).update(_cache)
+        pickle.dump(allc, open(_cache_path + '.tmp', 'wb')); os.replace(_cache_path + '.tmp', _cache_path)
 
 planner_queries = json.load(open(args.queries)) if args.queries else {}
 current = {}
@@ -89,7 +103,12 @@ for r in rev:
     results.append({'id': r['id'], 'area': area.get(r['id'], ''), 'gold': gold, 'outcome': outcome,
                     'ambiguity': current.get('ambiguity', ''), 'queries': current.get('queries', []),
                     'sources': sources, 'passage_chars': prompt_chars})
+save_cache()
 print(f'{len(results)} questions in {time.time() - t0:.0f}s', file=sys.stderr)
+if hasattr(app, 'RERANK_SECONDS') and app.RERANK_SECONDS[1]:
+    print(f'reranker: {app.RERANK_SECONDS[1]} calls, {app.RERANK_SECONDS[0]:.0f}s total, '
+          f'{app.RERANK_SECONDS[0] / max(1, sum(1 for r in results if r["outcome"] == "answer_call")):.2f}s per answered question',
+          file=sys.stderr)
 json.dump({'label': args.label, 'env': {k: os.environ.get(k) for k in
            ('RETRIEVAL_TOP_K', 'RETRIEVAL_EXPANSION', 'RETRIEVAL_MODE', 'AMENDMENT_SCORE_MARGIN', 'RETRIEVAL_EXPANSION_HITS')},
            'results': results}, open(args.out, 'w'), indent=1)

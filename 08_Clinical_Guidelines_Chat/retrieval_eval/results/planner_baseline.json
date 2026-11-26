@@ -1,0 +1,2783 @@
+{
+ "Q001": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV self-testing minors consent",
+     "minors consent to HIV testing",
+     "can minors consent to HIV self-testing"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 9.2
+ },
+ "Q002": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": null,
+  "seconds": 2.0
+ },
+ "Q003": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV reactive self-test initiation of antiretroviral therapy guidelines",
+     "ART initiation after rapid HIV test results",
+     "starting antiretroviral treatment with presumptive positive HIV diagnosis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q004": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "injectable cabotegravir PrEP guidelines",
+     "HIV self-testing for PrEP initiation",
+     "cabotegravir PrEP eligibility criteria"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.8
+ },
+ "Q005": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV diagnosis in adults",
+     "serum CrAg testing in HIV patients with CD4 count 180",
+     "urine TB-LAM testing in HIV patients with CD4 count 180"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.4
+ },
+ "Q006": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PLHIV TB diagnosis LF-LAM vs Xpert",
+     "TB treatment for PLHIV",
+     "TPT for household contacts of PLHIV with TB"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.1
+ },
+ "Q007": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Adult management of HIV on TLD for 2 years with viral load 450 copies/mL",
+     "HIV treatment guidelines for adults on tenofovir-lamivudine combination therapy with low viral load",
+     "Management of HIV in adults on long-term antiretroviral therapy with detectable viral load"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.8
+ },
+ "Q008": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Routine viral load monitoring in breastfeeding women on antiretroviral therapy with undetectable viral load",
+     "Viral load testing frequency for mother on effective ART while breastfeeding",
+     "Guidelines for viral load monitoring in lactating women on stable ART"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.0
+ },
+ "Q009": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "childhood HIV treatment guidelines",
+     "first-line antiretroviral therapy for children under 10kg",
+     "pALD dispersible tablet dosing in pediatric patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q010": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV transmission risk breastfeeding",
+     "post-exposure prophylaxis infant HIV exposure",
+     "breastfeeding HIV positive mother infant care"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.7
+ },
+ "Q011": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "ART adherence after 8 month interruption",
+     "registering HIV clients without transfer letters",
+     "new client registration in ART program"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.8
+ },
+ "Q012": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Fetal heart rate at 30 weeks gestation",
+     "Normal fetal heart rate range",
+     "Fetal tachycardia in pregnancy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q013": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "RPR positive pregnant woman treatment guidelines",
+     "Syphilis treatment in pregnancy first trimester",
+     "Penicillin dosage for syphilis in pregnancy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q014": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "pregnancy weight gain guidelines for women with pre-pregnancy BMI 27",
+     "recommended weight gain in pregnancy for obese women",
+     "weight management in pregnant women with high BMI"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q015": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Daily supplements for pregnant women",
+     "Prenatal vitamins dosage",
+     "Recommended prenatal supplements"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.3
+ },
+ "Q016": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "vaginal bleeding in pregnancy management guidelines",
+     "antenatal care for women with vaginal bleeding at 34 weeks",
+     "management of antepartum hemorrhage at 34 weeks gestation"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.4
+ },
+ "Q017": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "hypertension management in pregnancy guidelines",
+     "transfer of patient with severe hypertension",
+     "preparation for emergency transfer in pregnant women"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.7
+ },
+ "Q018": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "ANC contact recommendations",
+     "gestational age for ANC visits",
+     "number of antenatal care contacts"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.3
+ },
+ "Q019": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV patient eligibility for Linkage Case Management",
+     "eligibility criteria for Linkage Case Management in patients with undiagnosed or untreated HIV",
+     "Linkage Case Management for patients lost to follow-up after HIV diagnosis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.8
+ },
+ "Q020": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "discharge criteria for clients on ART and adherent to HIV treatment",
+     "LCM discharge guidelines for clients with high adherence and viral suppression",
+     "criteria for discontinuing linkage to care services"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.5
+ },
+ "Q021": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Emergency treatment for acute kidney injury (AKI) in adults",
+     "Potassium management guidelines for AKI patients",
+     "Dosing of emergency treatments for hyperkalemia"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q022": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "adult severe asthma treatment guidelines",
+     "immediate treatment for asthma exacerbation",
+     "asthma treatment doses"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.6
+ },
+ "Q023": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV positive patient ART initiation follow-up visit timing",
+     "ART start community based care clinic visit schedule",
+     "community ART initiation follow-up appointment timing"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q024": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "tracing steps for clients on antiretroviral therapy (ART) who are >28 days late and cannot be contacted by phone",
+     "late ART client tracing protocol",
+     "contacting non-responsive ART clients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.9
+ },
+ "Q025": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "oral morphine dose conversion to twice daily",
+     "co-prescription for palliative patients on morphine",
+     "morphine dose adjustment in chronic pain management"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q026": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Lactational amenorrhea method effectiveness in women 4 months postpartum",
+     "Contraceptive efficacy of LAM in breastfeeding women with irregular periods",
+     "Can a woman relying on LAM for contraception have her periods not yet returned?"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.3
+ },
+ "Q027": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Progestin-only pill regimen after missing 2 doses",
+     "Missed pill instructions for Microval",
+     "Emergency contraception with progestin-only pills"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.1
+ },
+ "Q028": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "combined hormonal contraception contraindications smoking",
+     "contraception options for smokers",
+     "smoking and hormonal birth control"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q029": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "monthly injectable contraception in exclusively breastfeeding mothers",
+     "Mesigyna eligibility in lactating women",
+     "contraception options for breastfeeding mothers at 2 months postpartum"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.7
+ },
+ "Q030": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Jadelle implant duration vs Implanon NXT",
+     "Comparison of Jadelle and Implanon NXT implant lifespan",
+     "Duration of Jadelle versus Implanon NXT"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.5
+ },
+ "Q031": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "When can an IUD be inserted after delivery?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "Copper IUD insertion timing postpartum",
+     "IUCD placement after vaginal delivery",
+     "Post-delivery IUD insertion guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 7.9
+ },
+ "Q032": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "emergency contraception timing after unprotected sex",
+     "timing of emergency contraception post-exposure",
+     "can emergency contraception still be used at 96 hours"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q033": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "ulipristal emergency contraception timing for starting combined oral contraceptives",
+     "combined pill initiation after ulipristal use",
+     "starting hormonal contraception after emergency contraception with ulipristal"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.9
+ },
+ "Q034": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "Do I need a parent's consent for an implant in a 15-year-old?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "minor consent for implants",
+     "parental consent for adolescent implant placement",
+     "consent requirements for minors seeking dental implants"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.9
+ },
+ "Q035": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What do you mean by 'her contraception'?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "contraception advice for woman on rifampicin",
+     "combined pill effectiveness during TB treatment",
+     "interaction between rifampicin and hormonal contraceptives"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.8
+ },
+ "Q036": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Hormonal contraception in women living with HIV on efavirenz-based antiretroviral therapy",
+     "Efavirenz interaction with hormonal contraceptives",
+     "ART and hormonal contraceptive compatibility"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.8
+ },
+ "Q037": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "CAB-LA PrEP injection frequency",
+     "lenacapavir PrEP injection dosing",
+     "PrEP injection administration schedule"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q038": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "event-driven oral PrEP guidelines",
+     "PrEP dosing 2+1+1",
+     "occasional sexual activity and PrEP eligibility"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.2
+ },
+ "Q039": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP protection onset time",
+     "PrEP duration post-exposure",
+     "oral Pre-Exposure Prophylaxis initiation and continuation guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.1
+ },
+ "Q040": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP eligibility criteria for minors",
+     "CAB-LA PrEP weight limit",
+     "Pediatric PrEP guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q041": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP initiation after condomless sex with partner of unknown HIV status",
+     "HIV pre-exposure prophylaxis guidelines for high-risk exposure",
+     "PrEP eligibility criteria for recent high-risk exposure"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.7
+ },
+ "Q042": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP initiation in patients with symptoms of acute HIV infection",
+     "starting PrEP in individuals with recent condomless sex and positive STI symptoms",
+     "PrEP guidelines for individuals with recent exposure to HIV and negative HIV test result"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.9
+ },
+ "Q043": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Injectable PrEP initiation in patients on rifampicin-based tuberculosis treatment",
+     "CAB-LA vs lenacapavir for PrEP in patients on rifampicin-based TB treatment",
+     "PrEP dosing in patients taking rifampicin"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.3
+ },
+ "Q044": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "lenacapavir PrEP dosing regimen",
+     "PrEP maintenance injections schedule",
+     "PrEP adherence guidelines for injectable products"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q045": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "Can she use two types of rings at once?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "Contraceptive vaginal ring use with dapivirine PrEP ring",
+     "Simultaneous use of hormonal contraception and dapivirine PrEP ring",
+     "Dapivirine PrEP ring compatibility with other contraceptives"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 7.2
+ },
+ "Q046": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What do I do?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "PrEP dosing in renal impairment",
+     "oral PrEP and kidney function",
+     "PrEP guidelines for patients with reduced creatinine clearance"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 5.7
+ },
+ "Q047": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "CAB-LA PrEP discontinuation in HIV positive patients",
+     "next steps for HIV positive clients on PrEP",
+     "PrEP to ART transition guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.8
+ },
+ "Q048": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP eligibility HBsAg positive",
+     "starting PrEP with hepatitis B surface antigen positive",
+     "HBV co-infection PrEP guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q049": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "What are the diagnostic criteria for major depressive disorder in adults?",
+     "How to diagnose depression in a 28-year-old male with symptoms of low mood, loss of interest, poor sleep, poor appetite, tiredness, and poor concentration lasting 3 weeks.",
+     "MDD diagnosis in young adult presenting with depressive symptoms"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.8
+ },
+ "Q050": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Amitriptyline vs SSRIs for depression in adults",
+     "Starting dose of antidepressants in patients with suicidal thoughts",
+     "Treatment guidelines for major depressive disorder with suicidal ideation"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.4
+ },
+ "Q051": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Antidepressants for children aged 10 with depression",
+     "Starting antidepressants in pediatric depression",
+     "Depression treatment options for 10-year-olds"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.8
+ },
+ "Q052": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Suicide Risk Assessment Form score 22 risk level",
+     "Suicide Risk Assessment Form score 22 management guidelines",
+     "Suicide Risk Assessment Form score 22 treatment protocol"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.2
+ },
+ "Q053": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PHQ-9 score interpretation in adults",
+     "treatment of depression with PHQ-9 score 16",
+     "guidelines for managing adult patients with PHQ-9 score 16"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.5
+ },
+ "Q054": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "efavirenz and carbamazepine interaction",
+     "carbamazepine with efavirenz in bipolar disorder treatment",
+     "concomitant use of efavirenz and carbamazepine"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.7
+ },
+ "Q055": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What do you mean by 'on its own'?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "Bipolar depression treatment guidelines",
+     "Fluoxetine monotherapy for bipolar depression",
+     "Depressive episode management in bipolar patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.0
+ },
+ "Q056": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "adult alcohol withdrawal treatment guidelines",
+     "mild alcohol withdrawal symptoms management",
+     "benzodiazepine prescription for adult alcohol withdrawal"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.6
+ },
+ "Q057": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "rapid tranquillisation in acute psychosis",
+     "medicines for agitation with dosing guidelines",
+     "daily maximum doses for rapid tranquillisation"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q058": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Syndromic treatment for male urethral discharge",
+     "Male urethritis treatment guidelines",
+     "Urethral discharge management in males"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.4
+ },
+ "Q059": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "genital ulcer treatment in pregnancy",
+     "penicillin allergy treatment guidelines",
+     "syphilis treatment options"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.4
+ },
+ "Q060": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "STI treatment guidelines for non-pregnant women",
+     "vaginal discharge treatment in non-pregnant females",
+     "sexually transmitted infection treatment protocols"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q061": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Pregnancy PID treatment guidelines",
+     "Outpatient management of pelvic inflammatory disease in early pregnancy",
+     "Suspected PID in a 10-week pregnant woman"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q062": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Syphilis treatment failure criteria",
+     "TPHA vs FTA-ABS in monitoring syphilis treatment",
+     "Monitoring syphilis serology after treatment"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q063": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Syphilis treatment newborns",
+     "Newborn syphilis prevention after maternal treatment",
+     "Congenital syphilis management"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q064": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Treatment of conjunctivitis in a 5-day-old infant",
+     "Management of neonatal conjunctivitis and maternal treatment for breastfeeding",
+     "Conjunctivitis treatment in newborns and breastfeeding mothers"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.8
+ },
+ "Q065": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Hepatitis B treatment guidelines for patients with high viral load",
+     "Antiviral therapy indications in chronic hepatitis B",
+     "HBV DNA thresholds for antiviral treatment initiation"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.4
+ },
+ "Q066": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HBV prevention in pregnant women with HBsAg positive and no HBV DNA testing",
+     "Preventing mother-to-child transmission of HBV without HBV DNA testing",
+     "HBV management in pregnancy with HBsAg positive and no viral load"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.5
+ },
+ "Q067": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Hepatitis C diagnosis in adults",
+     "Confirmatory HCV testing post-treatment",
+     "HCV cure definition"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q068": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "presumptive STI treatment for sexual assault victims",
+     "sexual assault victim care protocol",
+     "emergency STI management guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q069": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "adult presumptive tuberculosis diagnosis outpatient department",
+     "cough duration 4 days presumptive tb",
+     "presumptive tb criteria adult"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q070": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB testing in PLHIV with CD4 150",
+     "TB screening for HIV patients with normal CD4 count",
+     "TB diagnostic tests for individuals living with HIV"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.1
+ },
+ "Q071": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Xpert Ultra MTB trace detected treatment guidelines",
+     "TB diagnosis in HIV negative adults",
+     "MTB trace detected management protocol"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.7
+ },
+ "Q072": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Adult TB treatment regimen for drug-susceptible pulmonary TB",
+     "TB treatment dosage for adults weighing 60 kg",
+     "Number of tablets in standard TB treatment regimen"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q073": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "sputum smear follow-up in drug-susceptible pulmonary tuberculosis",
+     "Xpert monitoring for treatment response in pulmonary TB",
+     "TB treatment follow-up sputum smear frequency"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.2
+ },
+ "Q074": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Treatment outcome for adult with drug-susceptible TB who remains smear-positive at month 5",
+     "Management of adult with persistent smear-positivity on drug-susceptible TB treatment at month 5",
+     "TB treatment guidelines for adults with ongoing positivity at month 5"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.3
+ },
+ "Q075": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Pulmonary tuberculosis treatment in children under 5 years old",
+     "TB treatment regimen for non-severe disease without cavitation",
+     "Xpert MTB/RIF results interpretation for pediatric patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q076": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV treatment initiation timing with concurrent pulmonary tuberculosis",
+     "Antiretroviral therapy regimen for newly diagnosed HIV patients on TB treatment",
+     "ART initiation in HIV patients with TB co-infection"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q077": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB treatment failure symptoms",
+     "management of immune reconstitution inflammatory syndrome (IRIS) in HIV patients on ART",
+     "fever and lymphadenopathy in HIV patient on antiretroviral therapy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.4
+ },
+ "Q078": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "BPaLM in pregnancy",
+     "BPaLM for rifampicin-resistant pulmonary TB",
+     "BPaLM eligibility criteria"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.7
+ },
+ "Q079": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB treatment in newborns",
+     "exposure prophylaxis for infant born to mother on TB treatment",
+     "management of infant exposed to maternal TB treatment"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q080": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB preventive treatment for HIV-negative adults exposed to MDR-TB",
+     "TB prevention in close contacts of MDR-TB patients",
+     "Isoniazid prophylaxis for HIV-negative individuals exposed to multi-drug resistant tuberculosis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.7
+ },
+ "Q081": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PEP regimen after needlestick injury",
+     "Post-exposure prophylaxis duration",
+     "HIV PEP treatment guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.8
+ },
+ "Q082": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PEP for exposure to non-blood HIV transmission",
+     "post-exposure prophylaxis after urine splash from HIV positive patient",
+     "HIV PEP guidelines for health workers exposed to body fluids"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q083": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PEP initiation in sexual assault victims",
+     "post-exposure prophylaxis guidelines for sexual assault survivors",
+     "emergency contraception and STI screening in sexual assault cases"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.1
+ },
+ "Q084": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV testing in infants under 12 months",
+     "HIV diagnosis in breastfed infants",
+     "HIV screening for exposed infants"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.8
+ },
+ "Q085": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV retesting frequency in pregnancy",
+     "HIV negative pregnant women retesting guidelines",
+     "PrEP non-users HIV retesting recommendations"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.8
+ },
+ "Q086": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "viral load schedule for pregnant women on antiretroviral therapy during breastfeeding",
+     "ART adherence in lactating mothers",
+     "pregnant HIV positive women viral load monitoring guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.2
+ },
+ "Q087": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV exposed newborn first HIV test timing",
+     "HIV testing in neonates",
+     "Initial HIV screening in infants"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q088": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Adult treatment with TLD for 18 months: VLs of 2500 and then 3100 copies/mL, 3 months apart, after adherence support",
+     "TLD treatment guidelines for adults with VLs of 2500 and then 3100 copies/mL",
+     "Treatment options for adult patients on TLD with VLs of 2500 and then 3100 copies/mL"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.0
+ },
+ "Q089": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TDF/3TC/EFV regimen adjustment for stable clients with undetectable viral load",
+     "Antiretroviral therapy (ART) management for long-term virological suppression",
+     "Treatment optimization for HIV patients on stable regimens"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.9
+ },
+ "Q090": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV treatment guidelines for adolescents",
+     "first-line antiretroviral therapy for children",
+     "initiation of ART in pediatric HIV"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q091": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TDF/3TC/LPV/r second-line antiretroviral therapy precautions",
+     "amlodipine plus hydrochlorothiazide in patients with hypertension precautions",
+     "antihypertensive medication use in HIV-positive individuals on antiretroviral therapy precautions"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.3
+ },
+ "Q092": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Diagnosis of asymptomatic diabetes in adults with fasting glucose 7.4 mmol/L",
+     "Fasting blood glucose criteria for diagnosing diabetes in asymptomatic patients",
+     "Screening for diabetes in asymptomatic individuals with fasting glucose 7.4 mmol/L"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.1
+ },
+ "Q093": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 1.3
+ },
+ "Q094": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "metformin in type 2 diabetes with renal impairment",
+     "metformin initiation in patients with HbA1c 7.6% and eGFR 40 mL/min",
+     "renal safety of metformin in patients with type 2 diabetes"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.1
+ },
+ "Q095": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "What are the diagnostic criteria for diabetic ketoacidosis (DKA) in adults?",
+     "How do you classify the severity of DKA based on laboratory values such as glucose, venous pH, bicarbonate, and blood ketones?"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.9
+ },
+ "Q096": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "hypoglycemia treatment in patient on insulin",
+     "management of hypoglycemia with capillary glucose 2.8 mmol/L",
+     "insulin overdose symptoms and treatment"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q097": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "diagnosis confirmation criteria for hypertension",
+     "hypertension diagnostic criteria",
+     "confirming hypertension diagnosis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.3
+ },
+ "Q098": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "hypertension treatment guidelines for 60 year old black male",
+     "initial antihypertensive medication recommendations",
+     "starting therapy for newly diagnosed hypertension in elderly patient"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.6
+ },
+ "Q099": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "occasional glass of wine for pregnant woman",
+    "queries": []
+   },
+   {
+    "queries": [
+     "alcohol consumption during pregnancy",
+     "safe amount of alcohol for pregnant women",
+     "advice on drinking wine while pregnant"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.1
+ },
+ "Q100": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What is the current age of consent for HIV self-testing?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "HIV self-testing age of consent update",
+     "current age of consent for HIV self-testing",
+     "adolescent access to HIV self-testing guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 5.9
+ },
+ "Q101": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Serum cryptococcal antigen screening for PLHIV with CD4 count 150",
+     "Cryptococcal antigen testing in HIV patients with CD4 150",
+     "Screening for cryptococcal antigen in HIV individuals with CD4 150"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.0
+ },
+ "Q102": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP refill policy for clients who miss their scheduled refill date",
+     "oral PrEP medication adherence and refills",
+     "refilling PrEP medication beyond scheduled dates"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.2
+ },
+ "Q103": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Syphilis screening in pregnancy guidelines",
+     "Retest timing for syphilis in pregnant women with initial negative RPR",
+     "Syphilis retesting protocol for pregnant women at 16 weeks gestation"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.7
+ },
+ "Q104": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB preventive therapy for a 34-year-old man on TLD weighing 70 kg with no history of TPT and active TB exclusion",
+     "TB preventive treatment guidelines for adults on TLD without prior TPT and normal weight",
+     "TB prophylaxis recommendations for a 34-year-old male patient on TLD with no previous TPT and a body mass index of 24 kg/m\u00b2"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 5.9
+ },
+ "Q105": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What do you mean by 'what do I do'?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "PHQ-9 score of 12 in patient on antiretroviral therapy",
+     "management of depression in HIV patients on ART",
+     "screening for depression in patients on antiretroviral therapy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 7.3
+ },
+ "Q106": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Malaria prophylaxis in pregnancy",
+     "Travel malaria prevention for pregnant women",
+     "Antimalarial medication for pregnant travelers"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.5
+ },
+ "Q107": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "semaglutide dose for weight loss in non-diabetic adults",
+     "starting dose of semaglutide for obesity treatment",
+     "semaglutide initiation guidelines for weight management"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.4
+ },
+ "Q108": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Antiviral treatment for COVID-19 in patients on TB treatment",
+     "COVID-19 management in immunocompromised patients",
+     "TB treatment guidelines for co-infection with COVID-19"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.5
+ },
+ "Q109": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 1.3
+ },
+ "Q110": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 1.3
+ },
+ "Q111": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 1.3
+ },
+ "Q112": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 1.3
+ },
+ "Q113": {
+  "calls": [
+   {
+    "route": "greeting",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "greeting",
+  "seconds": 1.2
+ },
+ "Q114": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 1.3
+ },
+ "Q115": {
+  "calls": [],
+  "routed": "clarification_needed",
+  "seconds": 0.0
+ },
+ "Q116": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP client follow-up frequency",
+     "Pre-exposure prophylaxis adherence monitoring schedule",
+     "Prep client return visit intervals"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.5
+ },
+ "Q117": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB preventive therapy for children",
+     "childhood tuberculosis prophylaxis guidelines",
+     "pediatric TB prevention treatment"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.4
+ },
+ "Q118": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "what do you mean by high viral load?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "viral load management",
+     "high viral load treatment options",
+     "antiretroviral therapy for HIV"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 5.2
+ },
+ "Q119": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": null,
+  "seconds": 1.6
+ },
+ "Q120": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV retesting frequency guidelines",
+     "how often to retake HIV test",
+     "recommended HIV testing intervals"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.2
+ },
+ "Q121": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What is the dose of PrEP injection Cabotegravir?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "cabotegravir preparatory injection dose",
+     "cabotegravir dosing guidelines",
+     "pre-exposure prophylaxis (PrEP) cabotegravir dosage"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.3
+ },
+ "Q122": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Pregnancy complications at 30 weeks",
+     "Vaginal bleeding in pregnancy management",
+     "Antepartum hemorrhage treatment protocols"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.6
+ },
+ "Q123": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "rhze dosage for a 48kg patient",
+     "how many tablets of rhze to give a 48kg patient",
+     "rhze treatment guidelines for patients weighing 48kg"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.2
+ },
+ "Q124": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "PrEP safety in pregnancy",
+    "queries": []
+   },
+   {
+    "queries": [
+     "PrEP alternatives for pregnant clients",
+     "switching from PrEP to other HIV prevention methods during pregnancy",
+     "HIV prophylaxis options for pregnant women"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.1
+ },
+ "Q125": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "INH cotrimoxazole B6 treatment preference in adults with HIV",
+     "Tuberculosis prophylaxis guidelines for adults living with HIV",
+     "Preferred regimen for TB prevention in HIV positive adults"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q126": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "breastfeeding contraindication hepatitis B infant formula recommendation",
+     "formula for infants of mothers with hepatitis B",
+     "hepatitis B positive mother infant nutrition guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.3
+ },
+ "Q127": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 1.5
+ },
+ "Q128": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Parkland formula for burn patients",
+     "fluid resuscitation in severe burns",
+     "burns management guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.5
+ },
+ "Q129": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What does a viral load of 1000 copies/mL indicate?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "viral load 1000 copies/mL",
+     "low level viraemia vs high viral load",
+     "interpretation of viral load 1000 copies/mL"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.6
+ },
+ "Q130": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "lenacapavir dosing schedule",
+     "lenacapavir administration frequency",
+     "lenacapavir restart criteria"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.4
+ },
+ "Q131": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "paracetamol overdose treatment in adults",
+     "adult paracetamol poisoning antidote",
+     "paracetamol overdose management 60kg patient"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q132": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV exposed newborn prophylaxis guidelines",
+     "post exposure prophylaxis for HIV exposed infants",
+     "PEP in HIV exposed newborns dosage and duration"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q133": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV treatment initiation in patients with TB meningitis",
+     "Antiretroviral therapy regimen for HIV patients with TB meningitis",
+     "Dolutegravir dosage adjustment in patients with TB meningitis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.5
+ },
+ "Q134": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "contraception options in an 18-year-old on rifampicin",
+     "HIV prevention methods for an 18-year-old on rifampicin",
+     "contraception and HIV prevention options for a young woman on antitubercular therapy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.9
+ },
+ "Q135": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Medicines interacting with rifampicin",
+     "Rifampicin drug interactions",
+     "Guideline medications interacting with rifampicin"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.6
+ },
+ "Q136": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "ED-PrEP guidelines exclusion criteria women",
+     "ED PrEP eligibility gender restrictions",
+     "ED PrEP recommendations by sex"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.5
+ },
+ "Q137": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "viral load at 6 months in 2022 guidelines",
+    "queries": []
+   },
+   {
+    "queries": [
+     "viral load measurement timing HIV 2022 guidelines",
+     "HIV management recommendations update"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.9
+ },
+ "Q138": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": null,
+  "seconds": 1.9
+ },
+ "Q139": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "hypertension management guidelines",
+     "amlodipine monotherapy for hypertension",
+     "diagnosis and treatment of hypertensive emergencies"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.5
+ },
+ "Q140": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PrEP adherence guidelines",
+     "PrEP discontinuation and risk behavior",
+     "PrEP restart after non-adherence"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.5
+ },
+ "Q141": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What do you mean by 'poorly controlled' asthma?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "salmeterol monotherapy asthma",
+     "salmeterol as initial treatment for uncontrolled asthma",
+     "asthma guidelines salmeterol use alone"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 9.8
+ },
+ "Q142": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": null,
+  "seconds": 1.5
+ },
+ "Q143": {
+  "calls": [],
+  "routed": "out_of_scope",
+  "seconds": 0.0
+ },
+ "Q144": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "CAB-LA dosing frequency update",
+     "CAB-LA administration interval change",
+     "latest CAB-LA treatment guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 16.1
+ },
+ "Q145": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What do you mean by 'better'?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "cabotegravir long-acting vs lenacapavir",
+     "CAB-LA vs lenacapavir efficacy comparison",
+     "lenacapavir vs cabotegravir LA treatment outcomes"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 23.9
+ },
+ "Q146": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What do you mean by 'wrong'?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "(ANC OR STI) AND (syphilis retesting OR repeat testing) AND (disagreement OR conflicting recommendations)",
+     "(ANC OR STI) AND syphilis AND (retest OR retesting) AND (guideline disagreement OR conflicting guideline recommendations)"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 31.0
+ },
+ "Q147": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": "out_of_scope",
+  "seconds": 5.4
+ },
+ "Q148": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Treatment duration for child with non-severe pulmonary tuberculosis",
+     "TB treatment length in children under 5 years",
+     "Pulmonary TB treatment course for pediatric patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 16.3
+ },
+ "Q149": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What if she's on phenytoin?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "CABG in patients on phenytoin",
+     "pharmacokinetic interactions between phenytoin and anticoagulants used in CABG",
+     "anticoagulation management in patients on phenytoin undergoing CABG"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 27.3
+ },
+ "Q150": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "acute gout treatment",
+     "gout flare management",
+     "nonsteroidal anti-inflammatory drug (NSAID) for gout"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.0
+ },
+ "Q151": {
+  "calls": [],
+  "routed": "privacy_notice",
+  "seconds": 0.0
+ },
+ "Q152": {
+  "calls": [],
+  "routed": "clarification_needed",
+  "seconds": 0.0
+ },
+ "Q153": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "VIA positive treatment guidelines for HIV negative women",
+     "cervical lesions covering 80% of ectocervix management",
+     "same day treatment options for VIA positive patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 14.3
+ },
+ "Q154": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "adult status epilepticus treatment guidelines",
+     "status epilepticus management algorithm",
+     "what to give for status epilepticus"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 14.6
+ },
+ "Q155": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "stroke treatment in elderly patients with hypertension",
+     "alteplase administration guidelines for acute ischemic stroke",
+     "contraindications to alteplase in hypertensive patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 15.0
+ },
+ "Q156": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Diabetes management in patients with chronic kidney disease",
+     "Kidney function monitoring in diabetic patients with low eGFR",
+     "Referral criteria for diabetic patients with renal impairment"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 17.3
+ },
+ "Q157": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "COPD management guidelines for patients on salbutamol",
+     "next steps in COPD treatment algorithm",
+     "salbutamol ineffective in COPD patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 15.5
+ },
+ "Q158": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Puff adder bite treatment",
+     "Snakebite management guidelines",
+     "Emergency treatment for venomous snake bites"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 12.3
+ },
+ "Q159": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "What is the indication for a CT head scan in an asymptomatic patient with a GCS of 15 after a minor head injury?",
+     "Head injury guidelines for patients over 65 years old",
+     "CT head scan indications in elderly patients with minor head trauma"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 22.9
+ },
+ "Q160": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "foot risk assessment in diabetic patients with neuropathy",
+     "management of foot ulcers in diabetes",
+     "diabetic foot care guidelines"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.5
+ },
+ "Q161": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "retinal exam timing for newly diagnosed type 2 diabetes patients",
+     "diabetic retinopathy screening guidelines",
+     "first retinal examination after type 2 diabetes diagnosis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 16.3
+ },
+ "Q162": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TSH recheck timing after increasing levothyroxine in hypothyroidism",
+     "Levothyroxine dosage adjustment guidelines for hypothyroidism",
+     "When to recheck TSH levels after thyroid hormone replacement therapy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 16.1
+ },
+ "Q163": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "H pylori eradication regimen",
+     "confirming H pylori eradication",
+     "H pylori treatment outcomes"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 10.8
+ },
+ "Q164": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Immediate management of hematemesis in a patient with peptic ulcer disease",
+     "Hematemesis treatment guidelines",
+     "Management of upper GI bleed with tachycardia and hypotension"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 16.1
+ },
+ "Q165": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "breast lump referral guidelines for 45-year-old women",
+     "referral criteria for suspicious breast lumps with axillary lymphadenopathy",
+     "breast cancer referral pathway for patients with hard fixed irregular lumps"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 9.8
+ },
+ "Q166": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "PSA screening guidelines for men aged 58",
+     "next steps in prostate cancer screening with PSA 6 ng/mL",
+     "prostate examination recommendations after normal DRE"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 14.2
+ },
+ "Q167": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "sildenafil overdose treatment",
+     "acute coronary syndrome management in emergency setting",
+     "crushing chest pain treatment protocol"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 6.3
+ },
+ "Q168": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Treatment of atrial fibrillation with rapid ventricular response in stable patients",
+     "Management of chronic atrial fibrillation with tachycardia",
+     "Approach to treating AF with rapid heart rate"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.0
+ },
+ "Q169": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "suspected heart failure treatment in primary care",
+     "management of acute heart failure in community setting",
+     "hypoxia management in patients with suspected heart failure"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.5
+ },
+ "Q170": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Asthma treatment in children",
+     "Step up therapy for uncontrolled asthma",
+     "Low-dose ICS failure management"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 12.9
+ },
+ "Q171": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "organophosphate poisoning treatment",
+     "antidotes for organophosphate exposure",
+     "management of organophosphate poisoning in farm workers"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.1
+ },
+ "Q172": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Asthma treatment in pregnancy",
+     "Budesonide safety during pregnancy",
+     "Stopping asthma medication in pregnancy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 8.0
+ },
+ "Q173": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "metformin dose in type 2 diabetes",
+     "monitoring parameters for patients on metformin with new diagnosis of type 2 diabetes"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.8
+ },
+ "Q174": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB treatment in patients with type 2 diabetes",
+     "TB treatment in patients who drink alcohol",
+     "TB treatment in patients with comorbidities"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 14.6
+ },
+ "Q175": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "VIA positive CIN 1 management in HIV positive women",
+     "Cervical screening guidelines for HIV patients",
+     "HPV positive treatment options for HIV infected individuals"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 16.0
+ },
+ "Q176": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV treatment initiation guidelines",
+     "ART regimen for HIV patients with normal CD4 count",
+     "HBV-HIV coinfection management"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 11.3
+ },
+ "Q177": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "antiepileptic medication for pregnancy in women with epilepsy",
+     "pregnancy planning in patients with epilepsy",
+     " safest antiepileptic drugs during pregnancy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.8
+ },
+ "Q178": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "diagnosing chronic cough in 62-year-old smoker without spirometry",
+     "workup for worsening breathlessness in patient with chronic cough",
+     "evaluation of respiratory symptoms in smoker without pulmonary function tests"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 19.3
+ },
+ "Q179": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "newborn pulse oximetry results interpretation",
+     "normal pulse oximetry values in newborns",
+     "heart screening criteria for newborns"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 14.7
+ },
+ "Q180": {
+  "calls": [
+   {
+    "route": "clarify",
+    "clarifying_question": "What does she mean by 'one eye looks white'?",
+    "queries": []
+   },
+   {
+    "queries": [
+     "White reflex in 2 year old child",
+     "Photoblepharoscopy in pediatric patients",
+     "Leukocoria diagnosis and management"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 21.3
+ },
+ "Q181": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB treatment in children with unconfirmed diagnosis",
+     "considerations for TB treatment failure in pediatric patients",
+     "management of persistent lymphadenopathy in TB treatment"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 15.1
+ },
+ "Q182": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "methylphenidate for ADHD in children",
+     "starting methylphenidate in pediatric ADHD",
+     "methylphenidate dosage for 7 year old with ADHD"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 13.3
+ },
+ "Q183": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "What screening tools are recommended for developmental delays in 20-month-olds?",
+     "Screening tools for autism spectrum disorder in toddlers",
+     "Developmental delay screening tools for children under 2"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 14.1
+ },
+ "Q184": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "What are the guidelines for head CT in children after minor head injury?",
+     "CT scan indications in pediatric patients with normal GCS and isolated scalp hematoma",
+     "Do children with normal GCS and isolated scalp hematoma require head CT?"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 9.6
+ },
+ "Q185": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Childhood asthma management guidelines",
+     "Daily controller medication for wheezy child",
+     "Asthma treatment in preschoolers"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 2.9
+ },
+ "Q186": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "migratory polyarthritis in children diagnosis",
+     "diagnosing acute rheumatic fever",
+     "ESR 45 and raised ASO titre significance"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 3.0
+ },
+ "Q187": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Basal bolus insulin regimen for children with type 1 diabetes",
+     "Splitting basal and bolus insulin doses in pediatric patients",
+     "Insulin dosing guidelines for adolescents with type 1 diabetes"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.0
+ },
+ "Q188": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "congenital hypothyroidism treatment in newborns",
+     "levothyroxine dosage for infants with high TSH and low free T4",
+     "congenital hypothyroidism management in neonates weighing 3.5 kg"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 4.0
+ }
+}
