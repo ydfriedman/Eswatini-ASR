@@ -83,9 +83,29 @@ def _exp_len(text):
 
 if os.environ.get('EXP_LENGTH'):
     MAX_ANSWER_WORDS = int(os.environ['EXP_LENGTH'].split(':')[1])
+def _exp_verdict(text):
+    """EXP_VERDICT_LAST=1: rule and comparison first, then the yes/no (the prompt otherwise leads with the verdict)."""
+    if os.environ.get('EXP_VERDICT_LAST') != '1':
+        return text
+    swaps = [
+        ('3. Lead with the direct answer. Keep it short:',
+         '3. Do not begin with "Yes" or "No". For a yes/no, eligibility or threshold question, first state the rule '
+         'that decides it and compare the patient\\'s details with it (the value against the threshold, the group '
+         'against the group the rule names), then give the verdict in the same sentence: "..., so yes, ..." or '
+         '"..., so no, ...". Keep it short:'),
+        ('- Lead with the direct answer. Use at most',
+         '- Put the deciding rule and the comparison first, then the verdict; do not begin with "Yes" or "No". Use at most'),
+        ('"Yes. Start cotrimoxazole now: all HIV-exposed infants start at 6 weeks.',
+         '"All HIV-exposed infants start at 6 weeks and this baby is 6 weeks old, so yes: start cotrimoxazole now.'),
+    ]
+    for old, new in swaps:
+        assert old in text, old
+        text = text.replace(old, new)
+    return text
+
 _orig_prompt = guideline_rag_system_prompt
 def guideline_rag_system_prompt():
-    return _exp_len(_orig_prompt())
+    return _exp_verdict(_exp_len(_orig_prompt()))
 
 _HTML_BY_TEXT = {}
 def _exp_html():
