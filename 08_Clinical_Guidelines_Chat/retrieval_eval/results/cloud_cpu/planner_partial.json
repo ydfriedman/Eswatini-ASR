@@ -1,0 +1,388 @@
+{
+ "Q001": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV self-testing minors consent",
+     "minors consent to HIV testing",
+     "can minors consent to HIV self-testing"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 9.1
+ },
+ "Q002": {
+  "calls": [
+   {
+    "route": "out_of_scope",
+    "clarifying_question": "",
+    "queries": []
+   }
+  ],
+  "routed": null,
+  "seconds": 13.5
+ },
+ "Q003": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV reactive self-test initiation of antiretroviral therapy guidelines",
+     "ART initiation after rapid HIV test results",
+     "starting antiretroviral treatment with presumptive positive HIV diagnosis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 185.0
+ },
+ "Q004": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "injectable cabotegravir PrEP initiation guidelines",
+     "HIV self-testing for PrEP eligibility",
+     "cabotegravir PrEP and HIV screening recommendations"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 168.6
+ },
+ "Q005": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV diagnosis in adults",
+     "serum CrAg testing in HIV patients with CD4 count 180",
+     "urine TB-LAM testing in HIV patients with CD4 count 180"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 185.1
+ },
+ "Q006": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TB diagnosis in PLHIV using LF-LAM vs Xpert",
+     "TPT for household contacts of PLHIV with TB",
+     "classification of TB in PLHIV with discordant results between LF-LAM and Xpert"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 208.7
+ },
+ "Q007": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "TLD management in adults with viral load 450 copies/mL",
+     "Viral suppression strategies for HIV patients on TLD",
+     "Long-term treatment outcomes of adult patients on TLD with suboptimal viral control"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 197.2
+ },
+ "Q008": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Routine viral load monitoring in breastfeeding women on antiretroviral therapy with undetectable viral load",
+     "Viral load testing frequency for mother on effective ART while breastfeeding",
+     "Guidelines for viral load monitoring in lactating women on stable ART"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 213.8
+ },
+ "Q009": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "childhood HIV treatment guidelines",
+     "first-line antiretroviral therapy for children under 10kg",
+     "pALD dispersible tablet dosing in pediatric patients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 170.3
+ },
+ "Q010": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV transmission risk breastfeeding",
+     "post-exposure prophylaxis infant HIV exposure",
+     "breastfeeding HIV positive mother infant care"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 147.2
+ },
+ "Q011": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "ART adherence after 8 month interruption",
+     "registering HIV clients without transfer letters",
+     "new client registration in HIV care"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 136.0
+ },
+ "Q012": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Fetal heart rate at 30 weeks gestation",
+     "Normal fetal heart rate range",
+     "Fetal tachycardia in pregnancy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 151.6
+ },
+ "Q013": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "RPR positive pregnant woman treatment guidelines",
+     "Syphilis treatment in pregnancy first trimester",
+     "Penicillin dosage for syphilis in pregnancy"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 158.9
+ },
+ "Q014": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "pregnancy weight gain guidelines for women with pre-pregnancy BMI 27",
+     "recommended weight gain in pregnancy for obese women",
+     "weight management during pregnancy for women with high BMI"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 181.1
+ },
+ "Q015": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Daily supplements for pregnant women at first ANC visit",
+     "Prenatal vitamins for 24-year-old patient",
+     "Recommended daily supplements for healthy pregnant woman"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 158.3
+ },
+ "Q016": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "vaginal bleeding in pregnancy management guidelines",
+     "pregnancy complications at 34 weeks",
+     "management of antepartum hemorrhage"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 148.6
+ },
+ "Q017": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "hypertension management in pregnancy guidelines",
+     "transfer of pregnant patient with hypertension protocol",
+     "pre- and intra-transfer care for pregnant woman with severe headache"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 159.8
+ },
+ "Q018": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "ANC contact recommendations",
+     "gestational age for ANC visits",
+     "number of antenatal care contacts"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 125.4
+ },
+ "Q019": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV patient eligibility for Linkage Case Management",
+     "eligibility criteria for Linkage Case Management in patients with undiagnosed or untreated HIV",
+     "Linkage Case Management for patients lost to follow-up after HIV diagnosis"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 208.3
+ },
+ "Q020": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "discharge criteria for clients on antiretroviral therapy (ART) and viral load suppression",
+     "LCM discharge guidelines for clients with high adherence and disclosure status",
+     "criteria for discontinuing linkage to care services for stable clients on ART"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 212.1
+ },
+ "Q021": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Emergency treatment for acute kidney injury (AKI) in adults",
+     "Potassium management guidelines for AKI patients",
+     "Dose of emergency medication for hyperkalemia in adults"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 173.6
+ },
+ "Q022": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "adult severe asthma treatment guidelines",
+     "immediate treatment for asthma exacerbation",
+     "asthma management in adults with low oxygen saturation"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 137.4
+ },
+ "Q023": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "HIV positive patient ART initiation follow-up visit timing",
+     "ART start community based care clinic visit schedule",
+     "community ART initiation follow-up appointment timing"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 152.7
+ },
+ "Q024": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "tracing steps for clients on antiretroviral therapy (ART) who are >28 days late and cannot be contacted by phone",
+     "late ART client tracing protocol",
+     "contacting non-responsive ART clients"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 192.1
+ },
+ "Q025": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "oral morphine dose conversion to twice daily",
+     "co-prescription for palliative patients on morphine",
+     "morphine dose adjustment in chronic pain management"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 162.2
+ },
+ "Q026": {
+  "calls": [
+   {
+    "route": "answer",
+    "clarifying_question": "",
+    "queries": [
+     "Lactational Amenorrhea Method (LAM) effectiveness in women 4 months postpartum",
+     "Contraception options for breastfeeding women with irregular periods",
+     "Postpartum contraception guidelines for exclusive breastfeeding"
+    ]
+   }
+  ],
+  "routed": null,
+  "seconds": 199.2
+ }
+}

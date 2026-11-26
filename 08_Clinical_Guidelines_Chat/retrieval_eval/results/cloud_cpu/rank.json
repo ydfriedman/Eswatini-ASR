@@ -1,0 +1,1070 @@
+[
+ {
+  "id": "Q001",
+  "semantic": 4,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q002",
+  "semantic": 4,
+  "keyword": 7,
+  "hybrid": 2
+ },
+ {
+  "id": "Q003",
+  "semantic": 203,
+  "keyword": 2,
+  "hybrid": 4
+ },
+ {
+  "id": "Q004",
+  "semantic": 4,
+  "keyword": 14,
+  "hybrid": 5
+ },
+ {
+  "id": "Q005",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q006",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q007",
+  "semantic": 7,
+  "keyword": 5,
+  "hybrid": 7
+ },
+ {
+  "id": "Q008",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q009",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q010",
+  "semantic": 9,
+  "keyword": 13,
+  "hybrid": 8
+ },
+ {
+  "id": "Q011",
+  "semantic": 8,
+  "keyword": 3,
+  "hybrid": 1
+ },
+ {
+  "id": "Q012",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q013",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q014",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q015",
+  "semantic": 1,
+  "keyword": 6,
+  "hybrid": 1
+ },
+ {
+  "id": "Q016",
+  "semantic": 4,
+  "keyword": 1,
+  "hybrid": 3
+ },
+ {
+  "id": "Q017",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q018",
+  "semantic": 1,
+  "keyword": 14,
+  "hybrid": 4
+ },
+ {
+  "id": "Q019",
+  "semantic": 11,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q020",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q021",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q022",
+  "semantic": 2,
+  "keyword": 2,
+  "hybrid": 2
+ },
+ {
+  "id": "Q023",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q024",
+  "semantic": 23,
+  "keyword": 3,
+  "hybrid": 4
+ },
+ {
+  "id": "Q025",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q026",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q027",
+  "semantic": 1,
+  "keyword": 7,
+  "hybrid": 3
+ },
+ {
+  "id": "Q028",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q029",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q030",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q031",
+  "semantic": 2,
+  "keyword": 12,
+  "hybrid": 3
+ },
+ {
+  "id": "Q032",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q033",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 2
+ },
+ {
+  "id": "Q034",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q035",
+  "semantic": 38,
+  "keyword": 5,
+  "hybrid": 4
+ },
+ {
+  "id": "Q036",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q037",
+  "semantic": 2,
+  "keyword": 14,
+  "hybrid": 15
+ },
+ {
+  "id": "Q038",
+  "semantic": 3,
+  "keyword": 5,
+  "hybrid": 2
+ },
+ {
+  "id": "Q039",
+  "semantic": 2,
+  "keyword": 4,
+  "hybrid": 3
+ },
+ {
+  "id": "Q040",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q041",
+  "semantic": 1,
+  "keyword": 6,
+  "hybrid": 1
+ },
+ {
+  "id": "Q042",
+  "semantic": 6,
+  "keyword": 3,
+  "hybrid": 4
+ },
+ {
+  "id": "Q043",
+  "semantic": 1,
+  "keyword": 8,
+  "hybrid": 1
+ },
+ {
+  "id": "Q044",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q045",
+  "semantic": 6,
+  "keyword": 5,
+  "hybrid": 4
+ },
+ {
+  "id": "Q046",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q047",
+  "semantic": 1,
+  "keyword": 7,
+  "hybrid": 1
+ },
+ {
+  "id": "Q048",
+  "semantic": 4,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q049",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q050",
+  "semantic": 3,
+  "keyword": 3,
+  "hybrid": 3
+ },
+ {
+  "id": "Q051",
+  "semantic": 1,
+  "keyword": 5,
+  "hybrid": 3
+ },
+ {
+  "id": "Q052",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q053",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q054",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q055",
+  "semantic": 14,
+  "keyword": 9,
+  "hybrid": 9
+ },
+ {
+  "id": "Q056",
+  "semantic": 4,
+  "keyword": 6,
+  "hybrid": 3
+ },
+ {
+  "id": "Q057",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q058",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q059",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q060",
+  "semantic": 24,
+  "keyword": 2,
+  "hybrid": 8
+ },
+ {
+  "id": "Q061",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q062",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q063",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q064",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q065",
+  "semantic": 3,
+  "keyword": 6,
+  "hybrid": 2
+ },
+ {
+  "id": "Q066",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q067",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q068",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q069",
+  "semantic": 7,
+  "keyword": 3,
+  "hybrid": 3
+ },
+ {
+  "id": "Q070",
+  "semantic": 1,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q071",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q072",
+  "semantic": 1,
+  "keyword": 8,
+  "hybrid": 1
+ },
+ {
+  "id": "Q073",
+  "semantic": 3,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q074",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 3
+ },
+ {
+  "id": "Q075",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q076",
+  "semantic": 3,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q077",
+  "semantic": 9,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q078",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q079",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q080",
+  "semantic": 95,
+  "keyword": 30,
+  "hybrid": 19
+ },
+ {
+  "id": "Q081",
+  "semantic": 1,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q082",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q083",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q084",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q085",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q086",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q087",
+  "semantic": 1,
+  "keyword": 4,
+  "hybrid": 1
+ },
+ {
+  "id": "Q088",
+  "semantic": 2,
+  "keyword": 3,
+  "hybrid": 1
+ },
+ {
+  "id": "Q089",
+  "semantic": 50,
+  "keyword": 30,
+  "hybrid": 19
+ },
+ {
+  "id": "Q090",
+  "semantic": 4,
+  "keyword": 23,
+  "hybrid": 6
+ },
+ {
+  "id": "Q091",
+  "semantic": 144,
+  "keyword": 6,
+  "hybrid": 18
+ },
+ {
+  "id": "Q092",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 2
+ },
+ {
+  "id": "Q093",
+  "semantic": 1,
+  "keyword": 3,
+  "hybrid": 1
+ },
+ {
+  "id": "Q094",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q095",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q096",
+  "semantic": 21,
+  "keyword": 8,
+  "hybrid": 10
+ },
+ {
+  "id": "Q097",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q098",
+  "semantic": 1,
+  "keyword": 7,
+  "hybrid": 1
+ },
+ {
+  "id": "Q099",
+  "semantic": 1,
+  "keyword": 166,
+  "hybrid": 26
+ },
+ {
+  "id": "Q100",
+  "semantic": 2,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q101",
+  "semantic": 3,
+  "keyword": 5,
+  "hybrid": 3
+ },
+ {
+  "id": "Q102",
+  "semantic": 1,
+  "keyword": 4,
+  "hybrid": 1
+ },
+ {
+  "id": "Q103",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q104",
+  "semantic": 16,
+  "keyword": 15,
+  "hybrid": 27
+ },
+ {
+  "id": "Q105",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 2
+ },
+ {
+  "id": "Q106",
+  "semantic": 3,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q107",
+  "semantic": 45,
+  "keyword": 62,
+  "hybrid": 81
+ },
+ {
+  "id": "Q108",
+  "semantic": 1,
+  "keyword": 3,
+  "hybrid": 1
+ },
+ {
+  "id": "Q116",
+  "semantic": 8,
+  "keyword": 42,
+  "hybrid": 34
+ },
+ {
+  "id": "Q117",
+  "semantic": 22,
+  "keyword": 278,
+  "hybrid": 52
+ },
+ {
+  "id": "Q118",
+  "semantic": 1,
+  "keyword": 32,
+  "hybrid": 12
+ },
+ {
+  "id": "Q119",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q120",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q121",
+  "semantic": 2,
+  "keyword": 169,
+  "hybrid": 24
+ },
+ {
+  "id": "Q122",
+  "semantic": 1,
+  "keyword": 8,
+  "hybrid": 1
+ },
+ {
+  "id": "Q123",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q124",
+  "semantic": 63,
+  "keyword": 6,
+  "hybrid": 16
+ },
+ {
+  "id": "Q125",
+  "semantic": 4,
+  "keyword": 10,
+  "hybrid": 4
+ },
+ {
+  "id": "Q126",
+  "semantic": 4,
+  "keyword": 3,
+  "hybrid": 3
+ },
+ {
+  "id": "Q127",
+  "semantic": 3,
+  "keyword": 6,
+  "hybrid": 3
+ },
+ {
+  "id": "Q128",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q129",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q130",
+  "semantic": 4,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q131",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q132",
+  "semantic": 9,
+  "keyword": 5,
+  "hybrid": 3
+ },
+ {
+  "id": "Q133",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q134",
+  "semantic": 33,
+  "keyword": 18,
+  "hybrid": 4
+ },
+ {
+  "id": "Q135",
+  "semantic": 3,
+  "keyword": 4,
+  "hybrid": 1
+ },
+ {
+  "id": "Q136",
+  "semantic": 6,
+  "keyword": 7,
+  "hybrid": 6
+ },
+ {
+  "id": "Q137",
+  "semantic": 2,
+  "keyword": 20,
+  "hybrid": 12
+ },
+ {
+  "id": "Q138",
+  "semantic": 1364,
+  "keyword": 179,
+  "hybrid": 1371
+ },
+ {
+  "id": "Q139",
+  "semantic": 119,
+  "keyword": 203,
+  "hybrid": 153
+ },
+ {
+  "id": "Q140",
+  "semantic": 23,
+  "keyword": 76,
+  "hybrid": 49
+ },
+ {
+  "id": "Q141",
+  "semantic": 4,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q142",
+  "semantic": 70,
+  "keyword": 1,
+  "hybrid": 8
+ },
+ {
+  "id": "Q144",
+  "semantic": 3,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q145",
+  "semantic": 5,
+  "keyword": 5,
+  "hybrid": 5
+ },
+ {
+  "id": "Q146",
+  "semantic": 5,
+  "keyword": 1,
+  "hybrid": 2
+ },
+ {
+  "id": "Q148",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q149",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q150",
+  "semantic": 302,
+  "keyword": 13,
+  "hybrid": 16
+ },
+ {
+  "id": "Q152",
+  "semantic": 21,
+  "keyword": 19,
+  "hybrid": 17
+ },
+ {
+  "id": "Q153",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q154",
+  "semantic": 1,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q155",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q156",
+  "semantic": 35,
+  "keyword": 4,
+  "hybrid": 9
+ },
+ {
+  "id": "Q157",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q158",
+  "semantic": 7,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q159",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q160",
+  "semantic": 1,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q161",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q162",
+  "semantic": 2,
+  "keyword": 5,
+  "hybrid": 3
+ },
+ {
+  "id": "Q163",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q164",
+  "semantic": 2,
+  "keyword": 40,
+  "hybrid": 10
+ },
+ {
+  "id": "Q165",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q166",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q167",
+  "semantic": 31,
+  "keyword": 1,
+  "hybrid": 3
+ },
+ {
+  "id": "Q168",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q169",
+  "semantic": 1,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q170",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q171",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q172",
+  "semantic": 1,
+  "keyword": 2,
+  "hybrid": 1
+ },
+ {
+  "id": "Q173",
+  "semantic": 6,
+  "keyword": 6,
+  "hybrid": 3
+ },
+ {
+  "id": "Q174",
+  "semantic": 9,
+  "keyword": 360,
+  "hybrid": 34
+ },
+ {
+  "id": "Q175",
+  "semantic": 2,
+  "keyword": 1,
+  "hybrid": 2
+ },
+ {
+  "id": "Q176",
+  "semantic": 6,
+  "keyword": 19,
+  "hybrid": 23
+ },
+ {
+  "id": "Q177",
+  "semantic": 1,
+  "keyword": 4,
+  "hybrid": 2
+ },
+ {
+  "id": "Q178",
+  "semantic": 1,
+  "keyword": 5,
+  "hybrid": 1
+ },
+ {
+  "id": "Q179",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q180",
+  "semantic": 8,
+  "keyword": 7,
+  "hybrid": 4
+ },
+ {
+  "id": "Q181",
+  "semantic": 1,
+  "keyword": 26,
+  "hybrid": 5
+ },
+ {
+  "id": "Q182",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q183",
+  "semantic": 5,
+  "keyword": 226,
+  "hybrid": 29
+ },
+ {
+  "id": "Q184",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q185",
+  "semantic": 4,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q186",
+  "semantic": 3,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q187",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ },
+ {
+  "id": "Q188",
+  "semantic": 1,
+  "keyword": 1,
+  "hybrid": 1
+ }
+]
