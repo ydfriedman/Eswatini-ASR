@@ -1,0 +1,37 @@
+--- a/guideline_chat/app.py	2026-11-25 21:31:11
++++ b/guideline_chat/app.py	2026-11-26 09:59:49
+@@ -809,6 +809,14 @@
+             return {'mode': 'llm', 'kind': 'insufficient_evidence',
+                     'blocks': [{'text': message, 'type': 'evidence_gap', 'citations': []}],
+                     'message': message, 'sources': sources, 'notices': []}
++        if attempt == 2:
++            # Last attempt: drop claim blocks that still cite nothing, rather than fail the whole answer.
++            cited = [b for b in blocks if not isinstance(b, dict) or b.get('citations')
++                     or b.get('type', 'guideline_claim') != 'guideline_claim']
++            if cited and len(cited) < len(blocks):
++                print(f'[Answer validation] Dropped {len(blocks) - len(cited)} uncited block(s) on the final attempt.',
++                      flush=True)
++                blocks = cited
+         try:
+             validate_answer(result, blocks, len(sources))
+             apply_calculations(result, blocks)
+--- a/guideline_chat/test_app.py	2026-11-25 21:31:11
++++ b/guideline_chat/test_app.py	2026-11-26 09:59:49
+@@ -359,6 +359,17 @@
+             ['Status epilepticus'],
+         ))
+ 
++    def test_final_attempt_drops_uncited_block(self):
++        source = {'chunk_id': 'c1', 'document': app.DOCS[5], 'page': 1, 'text': 'Step up to low-dose ICS-LABA.',
++                  'heading_path': 'Asthma', 'score': 0.8}
++        uncited = {'kind': 'answer', 'calculations': [], 'blocks': [
++            {'text': 'Step up to low-dose ICS-LABA.', 'type': 'guideline_claim', 'citations': [1]},
++            {'text': 'Review in 2-3 months.', 'type': 'guideline_claim', 'citations': []}]}
++        outputs = [{'route': 'answer', 'clarifying_question': '', 'queries': ['asthma step up']}] + [uncited] * 3
++        with patch.object(app, 'llm_json', side_effect=outputs), patch.object(app, 'search', return_value=[source]):
++            result = app.ai_answer('Asthma child on low-dose ICS still symptomatic, next step?', [], 'All programs', False)
++        self.assertEqual([b['text'] for b in result['blocks']], ['Step up to low-dose ICS-LABA.'])
++
+     def test_out_of_scope_route_skips_retrieval_and_answer_model(self):
+         outputs = [{'route': 'out_of_scope', 'clarifying_question': '', 'queries': []}]
+         with patch.object(app, 'llm_json', side_effect=outputs) as model, patch.object(app, 'search') as search:

@@ -122,7 +122,7 @@ def llm_json(instructions, content, schema, name):
 
 REASON_FIRST_RULE = \'\'\'
 - Before "kind" and "blocks", fill "key_facts": 1-4 short facts copied from the sources that decide the answer,
-  each with the group or condition it applies to and the source id, e.g. "[2] Children under 5: cotrimoxazole regardless of CD4".
+  each with the group or condition it applies to and the source id, in the form "[source id] <group or condition>: <rule, number or dose as written>".
   Compare the patient's details with these facts, then write blocks that agree with them. key_facts is not shown
   to the user.\'\'\'
 '''
