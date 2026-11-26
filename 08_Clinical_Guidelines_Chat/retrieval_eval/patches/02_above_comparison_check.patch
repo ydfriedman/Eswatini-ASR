@@ -27,10 +27,10 @@
      if len(sentences) != len(set(sentences)):
          raise ValueError('The answer repeats a sentence. Write each point once.')
 --- a/guideline_chat/test_app.py	2026-11-25 21:31:11
-+++ b/guideline_chat/test_app.py	2026-11-26 09:15:03
-@@ -359,6 +359,15 @@
-             ['Status epilepticus'],
-         ))
++++ b/guideline_chat/test_app.py	2026-11-26 15:58:22
+@@ -65,6 +65,15 @@
+         self.assertIn('about 80 words', prompt)
+         self.assertIn('Lead with the direct answer', prompt)
  
 +    def test_incorrect_above_comparison_is_rejected(self):
 +        result = {'kind': 'answer'}
@@ -41,6 +41,6 @@
 +            app.validate_answer(result, bad, 1)
 +        app.validate_answer(result, good, 1)
 +
-     def test_out_of_scope_route_skips_retrieval_and_answer_model(self):
-         outputs = [{'route': 'out_of_scope', 'clarifying_question': '', 'queries': []}]
-         with patch.object(app, 'llm_json', side_effect=outputs) as model, patch.object(app, 'search') as search:
+     def test_answer_source_limit_defaults_to_six(self):
+         with patch.dict(app.os.environ, {}, clear=True):
+             self.assertEqual(app.answer_source_limit(), 6)

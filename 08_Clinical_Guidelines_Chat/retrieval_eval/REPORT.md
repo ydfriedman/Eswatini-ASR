@@ -5,7 +5,19 @@ are held out** and reported separately.
 
 ## Summary
 
-__SUMMARY__
+- **Baseline (production settings), 188 questions:** 37 correct (20%), 79 partial (42%), 21 wrong, **38 unsafe (20%)**,
+  4 no answer, 9 appropriate refusals. Held out Q153-Q188: 5 correct, 18 partial, 7 wrong, 5 unsafe, 1 no answer.
+- **Retrieval is mostly fine:** a gold passage reaches the model for 156 of 178 (88%; 33 of 36 held out). For 33 of the
+  38 unsafe answers the right passage was there; the 8B model misused it. The commonest unsafe pattern is a Yes/No
+  verdict that its own next sentence contradicts (11), then misreading the rule (16), inventing content the guidelines
+  do not cover or accepting a false premise (7), and following superseded 2022 rules (3).
+- **Best measured change:** asking for the rule and comparison before the verdict (patch 04) cut unsafe answers 38 → 25
+  on an 84-question subset without making any good answer unsafe. It still needs a full 188-question confirmation.
+- **Cheap fixes with tests:** out-of-scope backstop (Q093, Q127 no longer refused), a numeric "above" check and
+  dropping an uncited block on the last retry (patches 01-03).
+- **Reranker:** 156 → 162-163 gold-in-context at the same context size; worthwhile but secondary.
+- The night was cut short: the Mac went down at 23:05 and the work resumed at 07:35, so the full confirmation run
+  of the recommended changes was not done.
 
 ## 1. Machine, app and settings
 
@@ -124,15 +136,89 @@ own vector and the table's heading and caption, and search keeps each table's be
 of 3,200 chunks have text outside their embedding, mostly stripped noise.
 
 ### Answer step
-__ANSWER_STEP__
+A full answer run takes ~2.8 hours here, so answer-step variants ran on a fixed **84-question subset**: all 59
+baseline unsafe or wrong answers, plus 13 correct and 12 partial picked at random (seed 20261126) to measure
+regressions (`results/subset_ids.txt`; 19 of the 84 are held out). Retrieval is the production setting in every
+variant, so only the answer step changes. Each variant was graded with the same rules as the baseline, without
+showing the baseline answer next to it. Because most of the subset was chosen *for* failing, any prompt change will
+"fix" some of them by chance; the 25 good questions are the check on that.
+
+| Variant (84 questions) | Correct | Partial | Wrong | Unsafe | No answer | Better / worse than baseline |
+|---|---|---|---|---|---|---|
+| Baseline | 13 | 12 | 21 | 38 | 0 | |
+| **Facts first** (`key_facts` field generated before the answer blocks) | 11 | 26 | 13 | 31 | 3 | 20 / 10 |
+| of which: the 59 baseline failures | 2 | 15 | 13 | 28 | 1 | 19 / 4 |
+| of which: the 25 baseline-good | 9 | 11 | 0 | **3** | 2 | 1 / **6** |
+| of which: held out (19) | 4 | 8 | 5 | 2 | 0 | 6 / 1 |
+| **Verdict after the rule** (patch 04: prompt asks for rule + comparison first, no leading Yes/No) | 14 | 30 | 14 | **25** | 1 | 24 / 10 |
+| of which: the 59 baseline failures | 3 | 19 | 12 | 25 | 0 | 23 / 4 |
+| of which: the 25 baseline-good | 11 | 11 | 2 | **0** | 1 | 1 / 6 (mild) |
+| of which: held out (19) | 3 | 9 | 4 | 2 | 1 | 7 / 3 |
+
+**Facts first: not recommended.** It fixes 10 of the 38 unsafe answers (Q016 now "major haemorrhage", Q026 LAM,
+Q043, Q046, Q056, Q167, Q184, Q185), but breaks about 1 in 4 good answers (Q012 now "104 is within the normal range of
+110-160"; Q086 skips the first-ANC viral load; Q139/Q141 become "insufficient evidence"). Over all 188 the losses on
+the ~130 good answers would roughly cancel the gains. It also copies the system prompt's cotrimoxazole example into
+`key_facts` (Q005), showing how strongly the 8B model imitates examples.
+
+**Verdict after the rule: recommended, after a full 188-question confirmation.** It removes 13 of the 38 unsafe
+answers on the subset, mostly the flipped-verdict type (Q040, Q041, Q067, Q184, Q185 now state the rule and the
+comparison instead of a wrong opening Yes/No), plus Q106/Q108 (no longer invent malaria or COVID drugs) and Q126
+(corrects the false premise). None of the 25 good answers became unsafe; its regressions are milder (Q009, Q139, Q186
+correct → partial because the final verdict is left unstated; Q155 → "insufficient evidence"). It does not fix the
+misread-rule errors (Q016 "minor haemorrhage", Q031, Q038, Q131, Q138, Q174) or stale 2022 rules (Q010, Q080). The
+8B model copies the rewritten example's phrasing ("..., so yes: start metformin now", Q094), so examples must stay
+general. Expected effect over all 188 (not yet measured): roughly 38 → 25-28 unsafe, with a few correct answers
+becoming partial.
+
+Not tested for lack of time: a longer length limit (5 blocks / 150 words) for the partial answers, tables as HTML,
+question placed after the sources, temperature and `LLM_NUM_CTX` (the switches are in `make_exp_app.py`).
 
 ## 4. Recommendations (priority order)
 
-__RECOMMENDATIONS__
+1. **Prompt: verdict after the rule** (`patches/04_verdict_after_rule.patch`: 2 lines of the prompt, 1 line of the
+   response contract, 1 test). Biggest measured safety gain: unsafe 38 → 25 on the 84-question subset, no new unsafe
+   answers among the good ones. Risk: some yes/no answers no longer state the verdict outright (correct → partial).
+   Confirm on all 188 before deploying (below).
+2. **Out-of-scope backstop** (`patches/01_out_of_scope_backstop.patch`): when the planner says "out of scope" but the
+   best guideline passage scores ≥ 0.60, answer instead. Fixes Q093 and Q127; all 7 genuine refusals stay refused
+   (off-topic questions score ≤ 0.54, incl. 5 made-up ones). Cost: one extra search for refused questions. Risk: the
+   0.60 threshold was set on these same questions; check a few more off-topic questions on the server.
+3. **Small validation fixes** (`patches/02_above_comparison_check.patch`: rejects "55 mL/min, which is above 60 mL/min"
+   and retries, caught Q046 with no false alarms in 188 answers; `patches/03_drop_uncited_block_on_final_attempt.patch`:
+   on the last retry drop a claim block with no citation instead of failing the whole answer, fixes Q170's error).
+   Low risk; each has a test.
+4. **Reranker** (`BAAI/bge-reranker-v2-m3` over the fused candidates, each search returning 15 hits; code in
+   `scripts/make_exp_app.py`, `_exp_rerank_final`). Gold-in-context 156 → 162 (91%), held out 33 → 34, no extra
+   context; with `RETRIEVAL_TOP_K=8`, `RETRIEVAL_EXPANSION_HITS=3` and a per-document cap of 4: 163 (92%), held out
+   35/36, every gold passage 93 → 114. Cost: a second model on the server (torch + 2.3 GB, ~3 s per question on the
+   Mac GPU, less on a server GPU) and the top-k 8 inputs reach ~14,100 tokens (add a cap on total passage length).
+   Medium priority: retrieval was already finding the passage for 33 of the 38 unsafe answers.
+5. **Free retrieval settings** if the reranker is not deployed: `RETRIEVAL_EXPANSION_HITS=3` (same coverage, less
+   text). Keep hybrid search, expansion, the raw question as a query, 3 planner queries, the follow-up rule and the
+   0.08 Amendment margin (all tested: each alternative was worse or no better).
+6. **Not recommended:** facts-first `key_facts` field (breaks ~1 in 4 good answers); top-k 10 (overflows the context);
+   semantic-only search; a wider Amendment margin.
+7. **Content issues for the guideline team** (not code): the 2022-vs-2024 rules the model keeps using (CrAg threshold,
+   infant prophylaxis, MDR-TB contact TPT, viral-load bands) would be safer if the superseded 2022 passages carried an
+   explicit "replaced by the 2024 Amendment" note in the chunk text; one reference label shows the raw id "prep-2025"
+   instead of the document title (some chunks' `doc_title`).
 
 ## 5. To confirm on the production server
 
-__CONFIRM__
+On the production server, with the deployed `.env` and llama3.1:8b:
+1. Apply patches 01-04 to a copy of the app and run its tests (`python3 -m unittest test_app`, 81 tests with the
+   patches' additions).
+2. Full answer run on all 188 with the patched copy, then grade it the same way and compare with
+   `results/baseline_grades.jsonl` (overall, held out, unsafe count):
+   ```
+   python3 retrieval_eval/scripts/answer_run.py <patched app dir> benchmark_review/revised_questions.jsonl retrieval_eval/results/ans_patched.jsonl --label patched
+   python3 retrieval_eval/scripts/grade_sheet.py benchmark_review/revised_questions.jsonl retrieval_eval/results/ans_baseline.jsonl retrieval_eval/results/ans_patched.jsonl --blind 1 --key key.json
+   ```
+3. Retrieval check of the backstop on the server's own embeddings: `scripts/retrieval_eval.py` with
+   `--queries results/planner_baseline.json` should show Q093 and Q127 as `answer_call` and the 7 refusals unchanged.
+4. If the reranker is considered: run `scripts/sweep.sh rerank EXP_RERANK_FINAL=1 EXP_SEARCH_K=15` with `APP=` an
+   experiment copy (`scripts/make_exp_app.py`) to confirm 160+ gold-in-context and measure latency on server hardware.
 
 ## Files
 
@@ -144,3 +230,15 @@ __CONFIRM__
 - `patches/`: recommended code changes, each against `app_snapshot/guideline_chat` with its tests.
 - `scripts/`: the original scripts (`retrieval_eval.py` gained an optional embedding cache) plus `make_exp_app.py`,
   `sweep.sh`, `brief.py`, `grade_sheet.py`, `followup_eval.py`.
+
+## Run log
+
+| When (EST) | Run | Result file | Note |
+|---|---|---|---|
+| 25 Nov 21:55 | index build (CPU embeddings, 3,200 chunks) | `work/` (not committed) | 12 min |
+| 25 Nov 21:57-22:25 | rank_eval, question-only retrieval, planner on 188, production-path retrieval | `rank_eval.json`, `ret_question_only.json`, `planner_baseline.json`, `ret_planner_baseline.json` | |
+| 25 Nov 22:20-23:05 | baseline answers Q001-Q040; first 21 retrieval sweeps; follow-up test | `ans_baseline.jsonl`, `ret_*.json`, `followup_eval.json` | Mac went down at 23:05 |
+| 26 Nov 07:40-09:50 | baseline answers Q041-Q188 (Q041 re-run after the crash error); 8 more sweeps | `ans_baseline.jsonl` | graded: `baseline_grades.jsonl` |
+| 26 Nov 09:50-10:25 | reranker retrieval (3 variants, llama unloaded) | `ret_rerank_final_*.json` | 3.3 s/question |
+| 26 Nov 10:27-11:55 | facts-first, 84-question subset | `ans_reason_first.jsonl`, `reason_first_grades.jsonl` | first attempt with a leaking example discarded: `ans_reason_first_v0_example_leak.jsonl` |
+| 26 Nov 11:55-13:30 | verdict-after-rule, 84-question subset | `ans_verdict_last.jsonl`, `verdict_last_grades.jsonl` | |
