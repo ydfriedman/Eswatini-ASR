@@ -44,7 +44,7 @@ The first session stopped soon after its only commit (25 Nov, 22:52 EST): the Ma
 | unsafe | 6 |
 
 Median 54 s per answer on the M4 (max 93 s). Validation retries: 5 for "far too long", 1 for source talk; no errors.
-Retrieval is not the main problem for these: the gold passage reached the model for most of them. The unsafe answers fall into three types:
+Retrieval is not the main problem for these: at least one gold passage reached the model for all 33, and every gold passage for 19 (including 4 of the 6 unsafe ones). The unsafe answers fall into three types:
 - **Older guidance used where a newer one applies** (Q005 CrAg threshold, Q007 2022 viral-load bands, Q010 2022
   infant prophylaxis rule): the 2024 Amendment / TB 2025 passages are there or retrievable, but the model follows
   the 2022 text. Candidate fix: label each source with its guideline and year in the prompt and add one general rule
