@@ -20,6 +20,11 @@ are held out** and reported separately.
   while fixing 7. It also doubles response time.
 - **Cheap fixes with tests:** out-of-scope backstop (Q093, Q127 no longer refused), a numeric "above" check and
   dropping an uncited block on the last retry (patches 01-03).
+- **Unsafe answers cannot be singled out for review.** No text check, and no question type, separates them from good
+  ones. So patch 06 puts a review notice on every model answer, naming what to check. It opens the cited passages
+  beside the answer, and gives active suicide or self-harm intent a fixed reply built from the guideline (Q138
+  was missed-pill advice). Every one of the 38 unsafe baseline answers now carries specific review reasons or gets
+  the fixed reply, and so do most correct answers.
 - **Reranker:** 156 → 162-163 gold-in-context at the same context size; worthwhile but secondary.
 - **Bottom line:** with llama3.1:8b, about 1 in 5 answers is unsafe whatever the prompt; the targeted code fixes help
   a few questions each, and the reranker improves retrieval, but neither touches the main cause (the 8B model misusing
@@ -250,7 +255,84 @@ its second opinion mostly adds noise. A checker could still be worth testing wit
 (this plan keeps the answer model fixed). Sampling several answers and comparing their verdicts (self-consistency)
 was not tested.
 
+### Review flags and a fixed crisis reply (27 Nov; `patches/06_review_flags_and_crisis_route.patch`)
+
+**Can unsafe answers be picked out for review?** No. I tried 7 text checks on the 188 recorded baseline answers
+(`scripts/review_flags.py`, `flag_eval.py`), with no model call. Each one fires only a little more often on unsafe
+answers than on correct ones:
+
+| Check | Unsafe flagged | Correct flagged |
+|---|---|---|
+| answer opens with a bare "Yes"/"No" | 15/38 (39%) | 8/37 (22%) |
+| question gives a patient value (age, weight, result) | 22/38 | 15/37 |
+| a sentence's words are mostly not in the passage it cites | 19/38 | 17/37 |
+| any of the 7 checks | 35/38 | 25/37 |
+
+The existing generic "Verify doses…" notice is no better: it appears on 12/38 unsafe and 10/37 correct answers.
+Grouping by question type gives the same picture: questions with no yes/no, patient value, patient group or drug are
+the only low-risk group (3 unsafe out of 31). With this model, almost every clinical answer needs a clinician's
+check, so the useful thing a flag can do is **say what to check**.
+
+**What patch 06 does:**
+1. **Every model answer carries a review notice.** If the answer triggers any specific check, the notice reads
+   "Clinician review needed before acting. Check: (1) …; (2) …", with up to 4 reasons, most specific first:
+   - a number in the answer that is not in the cited passages (years in guideline names ignored);
+   - the answer cites the 2022 HIV guideline while a 2024 Amendment passage was retrieved but not cited;
+   - the answer opens with "Yes"/"No": "check that the yes/no follows from the guideline rule";
+   - a weak match between question and passages;
+   - a patient value: "check which band or threshold applies";
+   - a named patient group (pregnancy, breastfeeding, children, adolescents), adding "(the cited passages do not
+     mention it)" when that is true;
+   - suicide mentioned; an emergency or dose question; a drug or treatment question.
+
+   Otherwise the notice is a one-line "AI summary of the guidelines: confirm it against the cited passages before
+   acting." The response also has a `review` field (`level`: review/check, `reasons`) for the EMR, and a `[Review]`
+   log line for audit.
+2. **The UI opens the passages the answer cites** (it used to open passage 1, which is often not cited), so the check
+   is one glance away. This affects both the web page and the EMR component. It also fixes the EMR component's "AI is
+   not configured" notice, which wrongly appeared on passages-only replies.
+3. **Active suicide or self-harm intent gets a fixed reply, never a model answer.** The reply is three blocks of
+   guideline text, each cited:
+   - don't leave the person alone, remove the means;
+   - stabilise first, assess risk with the form, refer high risk;
+   - admit for 24 hours, supervise medication, involve family.
+
+   Sources: Mental Health Desk Guide Suicide Job Aid and p.32; NCDIMH management of suicide p.324 and the
+   risk-level box p.310. It carries a notice that it is fixed text, not AI-generated. The trigger needs active
+   intent ("wants to kill herself", "plans to take them all", "threatening to hang himself"). Questions about risk
+   scores, suicidal thoughts with a medication question, or a paracetamol overdose still go to the normal answer,
+   with the suicide review reason. Of the 188 questions only Q138 matches. Q138's baseline answer was missed-pill
+   contraception advice, because retrieval found family-planning "pill" passages. If the index lacks these
+   passages, the reply falls back to passages only.
+
+**Result on the 188 recorded answers** (`scripts/review_eval.py`; the answers themselves do not change, except
+Q138):
+
+| | Unsafe | Wrong | Partial | Correct |
+|---|---|---|---|---|
+| specific review reasons, Q001-Q152 | 32/33 | 10/13 | 49/57 | 24/32 |
+| specific review reasons, held out Q153-Q188 | 5/5 | 6/7 | 14/18 | 4/5 |
+
+Every unsafe answer now carries specific reasons (37/38) or is replaced by the fixed crisis reply (Q138). The
+cost is that most correct answers carry reasons too, which is honest for this model. Checked live on 5 questions
+(Q040, Q073, Q101, Q131, Q138); tests: 82 with patch 06 alone, 86 with patches 01-06. The trigger wording was
+written with Q138 in view. The other test phrasings are made up, and every other benchmark question was checked
+for false matches.
+
+**Not done, worth considering:**
+- Fixed, signed-off protocol cards for a short list of other emergencies (eclampsia, postpartum haemorrhage,
+  anaphylaxis, severe hypoglycaemia, status epilepticus), built the same way as the crisis reply. The clinical team
+  should approve the text first.
+- In the EMR, require the clinician to tick "checked against the source" before an answer can be copied into the
+  record.
+- A patient-facing version of the crisis reply, in case a patient types into the tool.
+
 ## 4. Recommendations (priority order)
+
+0. **Review notice on every answer, and the fixed crisis reply** (`patches/06_review_flags_and_crisis_route.patch`).
+   This does not make answers safer, but it makes sure no model answer reaches a clinician unmarked. The notice
+   names what to check, the cited passages are open beside the answer, and active self-harm intent never gets a
+   model answer. Low risk: it changes the answer only for active self-harm intent.
 
 1. **Out-of-scope backstop** (`patches/01_out_of_scope_backstop.patch`): when the planner says "out of scope" but the
    best guideline passage scores ≥ 0.60, answer instead. Fixes Q093 and Q127; all 7 genuine refusals stay refused
@@ -286,8 +368,9 @@ was not tested.
 ## 5. To confirm on the production server
 
 On the production server, with the deployed `.env` and llama3.1:8b:
-1. Apply patches 01, 02, 03 and 05 (and 04 only if wanted) to a copy of the app and run its tests
-   (`python3 -m unittest test_app`; 82 tests with all five).
+1. Apply patches 01, 02, 03, 05 and 06 (and 04 only if wanted) to a copy of the app and run its tests
+   (`python3 -m unittest test_app`; 86 tests with all six). Each patch uses `patch -p1` from the folder above
+   `guideline_chat/`.
 2. Optional: a full answer run on the server with the patched copy, graded the same way, to check the server gives
    the same picture as this Mac:
    ```
@@ -309,7 +392,8 @@ On the production server, with the deployed `.env` and llama3.1:8b:
 - `patches/`: recommended code changes, each against `app_snapshot/guideline_chat` with its tests.
 - `scripts/`: the original scripts (`retrieval_eval.py` gained an optional embedding cache) plus `make_exp_app.py`,
   `sweep.sh`, `brief.py`, `grade_sheet.py`, `followup_eval.py`, `exp_verify.py` (the checker pass) and
-  `verify_eval.py` (scores it).
+  `verify_eval.py` (scores it), `review_flags.py` + `flag_eval.py` (candidate review checks) and `review_eval.py`
+  (scores patch 06 on recorded answers).
 
 ## Run log
 
@@ -324,3 +408,4 @@ On the production server, with the deployed `.env` and llama3.1:8b:
 | 26 Nov 11:55-13:30 | verdict-after-rule, 84-question subset | `ans_verdict_last.jsonl`, `verdict_last_grades.jsonl` | |
 | 26 Nov 16:30-19:50 | full 188-question run with patches 01-04 | `ans_patched.jsonl`, `patched_grades.jsonl` | unsafe 38 -> 34; 34 better, 34 worse |
 | 26 Nov 22:25-27 Nov 04:32 | checker + rewrite (`EXP_VERIFY=1`), all 188 | `ans_verify.jsonl`, `verify_grades.jsonl` | unsafe 38 -> 40; re-check of failed checks: `verify_recheck.jsonl` (3 of 28, stopped) |
+| 27 Nov 08:00-09:30 | review flags scored on recorded answers; patch 06 built; 5 questions live with patches 01-03, 05, 06 | `patches/06_review_flags_and_crisis_route.patch` | no new graded run (answers unchanged except Q138) |

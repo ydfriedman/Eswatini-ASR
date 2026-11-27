@@ -1,0 +1,305 @@
+diff -ruN a/guideline_chat/app.py b/guideline_chat/app.py
+--- a/guideline_chat/app.py	2026-11-27 08:33:09
++++ b/guideline_chat/app.py	2026-11-27 08:33:09
+@@ -531,7 +531,164 @@
+     'against the cited guideline passages before acting.'
+ )
+ 
++REVIEW_NOTICE = 'Clinician review needed before acting. Check'
++CHECK_NOTICE = 'AI summary of the guidelines: confirm it against the cited passages before acting.'
++# Signals for the review notice. None of them detects a wrong answer reliably (on the benchmark the 8B model's
++# unsafe answers carry them only a little more often than its correct ones), so they say what to check, not
++# whether the answer is wrong.
++_VERDICT_LEAD = re.compile(r'^\s*(?:yes|no)\b', re.I)
++_PATIENT_VALUE = re.compile(
++    r'\b\d+(?:\.\d+)?\s*(?:-?\s*(?:year|yr|month|week|day)s?[- ]old|kg|g/dl|mmol/l|mg/dl|copies|cells|%|'
++    r'ml/min|mmhg|cm|weeks?|months?|years?|bpm|/min|u/l|iu/ml)\b'
++    r'|\b(?:bmi|gcs|phq-?9|score|muac|cd4|hb|vl|viral load|crcl|egfr|bp)\s*(?:of|is|was|:)?\s*\d', re.I)
++# (group, words in the question, words that show a passage covers that group)
++_PATIENT_GROUPS = (
++    ('pregnancy', r'\bpregnan', r'\bpregnan|\bantenatal|\banc\b|\bgestation'),
++    ('breastfeeding', r'\bbreast-?feed|\blactat', r'\bbreast-?feed|\blactat|\bbreast milk'),
++    ('children', r'\b(?:child|children|infant|baby|newborn|neonat|toddler)\b|\b(?:[1-9]|1[0-4])[- ]?(?:year|yr)s?[- ]old',
++     r'\bchild|\binfant|\bbaby|\bbabies|\bnewborn|\bneonat|\bpaediatric|\bpediatric|\bunder[- ](?:5|five|15)|\bkg\b'),
++    ('adolescents', r'\badolescen|\bteen', r'\badolescen|\byouth|\byoung people'),
++)
++_TREATMENT_QUESTION = re.compile(
++    r'\b(?:dose|dosing|dosage|mg|tablets?|regimen|prescribe|start|give|treat|treatment|drug|medicine|antibiotic|'
++    r'antiviral|antidote|switch|stop|inject\w*|insulin)\b', re.I)
++_SUICIDE_MENTION = re.compile(r'\bsuicid|\bself[- ]?harm', re.I)
++_NUMBER = re.compile(r'(?<![\w.])\d+(?:[.,]\d+)*(?![\w])')
+ 
++
++_UNIT_AFTER = re.compile(r'\s*(?:iu|u/|copies|cells|mg|mcg|ml|mmol|g\b|kg|%|units?)', re.I)
++
++
++def _numbers(text, skip_years=False):
++    found = set()
++    for match in _NUMBER.finditer(text or ''):
++        number = match.group(0).replace(',', '')
++        # "the 2025 PrEP guidelines" is a year, not a clinical value ("2000 IU/mL" is).
++        if skip_years and re.fullmatch(r'(?:19|20)\d\d', number) and not _UNIT_AFTER.match(text, match.end()):
++            continue
++        found.add(number.rstrip('0').rstrip('.') if '.' in number else number)
++    return found
++
++
++def review_reasons(question, blocks, sources, ambiguity=''):
++    """What a clinician should check in this answer, most specific first (at most 4)."""
++    claims = [b for b in blocks if b.get('type', 'guideline_claim') == 'guideline_claim']
++    if not claims:
++        return []
++    cited = [sources[n - 1] for b in claims for n in b['citations'] if 1 <= n <= len(sources)]
++    cited_text = ' '.join(' '.join(filter(None, (s.get('heading_path'), s.get('caption'), s.get('text'))))
++                          for s in cited)
++    answer_text = ' '.join(b['text'] for b in claims)
++    reasons = []
++    # Checks on the answer itself.
++    missing = sorted(_numbers(answer_text, skip_years=True) - _numbers(question) - _numbers(cited_text) - {'1', '2', '3'})
++    if missing:
++        reasons.append('the number(s) ' + ', '.join(missing[:4]) + ': not found in the cited passages')
++    if any(s['document']['id'] == '0' for s in cited) and any(
++            s['document']['id'] == '1' and s not in cited for s in sources):
++        reasons.append('whether the 2024 HIV Amendment changed this (the answer cites the 2022 guideline)')
++    if _VERDICT_LEAD.match(claims[0]['text']):
++        reasons.append('that the yes/no follows from the guideline rule it rests on')
++    if ambiguity:
++        reasons.append('that the passages answer this question (the match was weak)')
++    # Checks that follow from the kind of question.
++    if _PATIENT_VALUE.search(question):
++        reasons.append("which band or threshold the patient's value falls in")
++    for group, in_question, in_source in _PATIENT_GROUPS:
++        if re.search(in_question, question, re.I):
++            covered = re.search(in_source, cited_text, re.I)
++            reasons.append(f'that the rule is the one for {group}' + ('' if covered else
++                                                                      ' (the cited passages do not mention it)'))
++            break
++    if _SUICIDE_MENTION.search(question):
++        reasons.append('suicide risk: assess it and follow the risk-level actions')
++    if high_risk_question(question):
++        reasons.append('every step and dose against the passage (emergency or dose question)')
++    elif _TREATMENT_QUESTION.search(question):
++        reasons.append('the drug, dose and schedule against the passage')
++    return reasons[:4]
++
++
++def review_notice(reasons):
++    if not reasons:
++        return CHECK_NOTICE
++    return REVIEW_NOTICE + ': ' + '; '.join(f'({n}) {r}' for n, r in enumerate(reasons, 1)) + '.'
++
++
++# Active suicide or self-harm intent gets a fixed reply built from the guideline passages, never a model answer:
++# on the benchmark the model misread "plans to take them all tonight" as a missed-pill question.
++_SELF_HARM_CRISIS = re.compile(
++    r"\bkill(?:ing)?\s+(?:my|her|him|them|your)sel(?:f|ves)\b"
++    r"|\bend(?:ing)?\s+(?:my|her|his|their|your)\s+(?:own\s+)?life\b"
++    r"|\bwant(?:s|ed)?\s+to\s+die\b|\bsuicid(?:e|al)\s+(?:plan|note|attempt\s+(?:now|today|tonight))\b"
++    r"|\b(?:plan(?:s|ning)?|going|intend(?:s|ing)?|threaten(?:s|ing)?)\s+to\s+(?:kill|hang|poison|cut|hurt|harm)\b"
++    r"|\b(?:take|swallow)\s+(?:them|it|all\s+(?:of\s+)?(?:the|her|his|my|their))\s*(?:all\b|pills|tablets)"
++    r"|\b(?:pills?|tablets?|medicines?)\b[^.?!]{0,60}\b(?:take|swallow)\s+(?:them|all)\b",
++    re.I)
++CRISIS_BLOCKS = (
++    ('Treat this as a psychiatric emergency. Do not leave the person alone, and remove the means of self-harm '
++     '(pills, sharp objects, weapons).',
++     ('mental-health-deskguide-0258', 'ncdimh-0931', 'mental-health-deskguide-0060')),
++    ('If pills may already have been taken or the person is injured, stabilise them and manage that emergency first. '
++     'Then assess suicide risk with the suicide risk assessment form: high risk needs hospitalisation or urgent '
++     'referral, ideally to a psychiatrist and clinical psychologist.',
++     ('ncdimh-0931', 'ncdimh-box-suicide-risk-depression-follow-up', 'mental-health-deskguide-0060')),
++    ('Admit for at least 24 hours with close observation where possible, supervise all medication, and involve '
++     'family or a treatment supporter.',
++     ('ncdimh-0931', 'mental-health-deskguide-0258')),
++)
++CRISIS_NOTICE = ('Suicide or self-harm risk: this reply is fixed text from the mental health guidelines, '
++                 'not an AI-generated answer. Act on it now and refer urgently.')
++
++
++def self_harm_crisis(question):
++    return bool(_SELF_HARM_CRISIS.search(question))
++
++
++def chunk_sources(chunk_ids):
++    """Source records (as search() returns them) for the given chunk ids, in the given order."""
++    db = sqlite3.connect(INDEX)
++    try:
++        rows = {row[0]: row for row in db.execute(
++            'SELECT chunk_id,doc_id,title,heading_path,page_start,page_end,type,text,caption,version '
++            'FROM chunks WHERE chunk_id IN (' + ','.join('?' for _ in chunk_ids) + ')', list(chunk_ids))}
++    finally:
++        db.close()
++    sources = []
++    for chunk_id in chunk_ids:
++        if chunk_id not in rows or rows[chunk_id][1] not in CHUNK_DOCS:
++            continue
++        _, chunk_doc, title, heading, page, page_end, kind, text, caption, version = rows[chunk_id]
++        meta = DOCS_BY_ID[CHUNK_DOCS[chunk_doc]]
++        pdf = meta['filename'].lower().endswith('.pdf')
++        sources.append({'chunk_id': chunk_id, 'document': dict(meta, title=title, version=version),
++                        'page': page, 'page_end': page_end, 'heading_path': heading, 'type': kind,
++                        'text': text, 'caption': caption,
++                        'page_kind': 'PDF page' if pdf else 'Converted page',
++                        'url': '/documents/' + meta['id'] + ('#page=' + str(page) if page and pdf else '')})
++    return sources
++
++
++def crisis_response(question, program, drafts):
++    """Fixed, cited emergency actions for active self-harm intent; falls back to passages only."""
++    wanted = list(dict.fromkeys(i for _, ids in CRISIS_BLOCKS for i in ids))
++    sources = chunk_sources(wanted)
++    number = {s['chunk_id']: n for n, s in enumerate(sources, 1)}
++    blocks = [{'text': text, 'type': 'guideline_claim', 'citations': [number[i] for i in ids if i in number]}
++              for text, ids in CRISIS_BLOCKS]
++    if not all(b['citations'] for b in blocks):
++        # The guideline passages are not in this index: show the best passages without any generated text.
++        found = search('suicide risk: do not leave alone, remove means of self-harm, urgent referral',
++                       program, drafts)
++        return source_only_result(question, found, [CRISIS_NOTICE])
++    references = reference_list(blocks, sources)
++    message = '\n\n'.join(b['text'] for b in blocks) + '\n\nSources: ' + '; '.join(references)
++    print('[Review] crisis route: fixed self-harm reply', flush=True)
++    return {'mode': 'fixed', 'kind': 'answer', 'blocks': blocks, 'references': references, 'message': message,
++            'sources': sources, 'notices': [CRISIS_NOTICE],
++            'review': {'level': 'review', 'reasons': ['suicide or self-harm risk']}}
++
++
+ def planner_instructions(question, instructions):
+     """Reinforce exact clinical details that the planner must preserve."""
+     return instructions + (
+@@ -641,6 +798,8 @@
+         return routed_response('privacy_notice', PRIVACY_MESSAGE)
+     if _INSTRUCTION_PROBE.search(question):
+         return routed_response('out_of_scope', INSTRUCTIONS_MESSAGE)
++    if self_harm_crisis(question):
++        return crisis_response(question, program, drafts)
+     backstop = needs_clarification(question, history)
+     if backstop:
+         return routed_response('clarification_needed', backstop)
+@@ -865,13 +1024,20 @@
+         notices.append('Patient identifiers were removed from your question. Please do not enter identifiable patient data.')
+     if any(s['document']['draft'] for s in sources):
+         notices.append('This answer uses a document marked as draft; confirm its approval status before acting.')
+-    if high_risk_question(question) or needs_verify_notice(question) or ambiguity:
++    review = {'level': 'check', 'reasons': []}
++    if result['kind'] == 'answer':
++        # Every model answer asks for a check against the passages; specific reasons make it a review.
++        reasons = review_reasons(question, blocks, sources, ambiguity)
++        review = {'level': 'review' if reasons else 'check', 'reasons': reasons}
++        notices.append(review_notice(reasons))
++        print(f"[Review] {review['level']}: {reasons}", flush=True)
++    elif high_risk_question(question) or needs_verify_notice(question) or ambiguity:
+         notices.append(VERIFY_NOTICE)
+     message = '\n\n'.join(b['text'] for b in blocks)
+     if references:
+         message += '\n\nSources: ' + '; '.join(references)
+     return {'mode': 'llm', 'kind': result['kind'], 'blocks': blocks, 'references': references,
+-            'message': message, 'sources': sources, 'notices': notices}
++            'message': message, 'sources': sources, 'notices': notices, 'review': review}
+ 
+ # Source talk the answer text must not contain ("as per Table 2 in NCDIMH", "according to", "source 1 says").
+ # "2024 Amendment" stays allowed: the prompt's precedence rule asks the model to say the Amendment changed something.
+diff -ruN a/guideline_chat/static/app.js b/guideline_chat/static/app.js
+--- a/guideline_chat/static/app.js	2026-11-27 08:33:09
++++ b/guideline_chat/static/app.js	2026-11-27 08:33:09
+@@ -8,7 +8,7 @@
+ if(data.blocks){for(const block of data.blocks){const paragraph=node('p',block.text,'answerblock');for(const id of block.citations){const source=data.sources[id-1];const a=node('a',' ['+id+']','citation');a.href=source.url;a.target='_blank';a.rel='noopener';paragraph.append(a);}reply.append(paragraph);}}else{reply.append(node('p',data.message));}
+ history.push({role:'user',content:question},{role:'assistant',content:(data.blocks?.map(block=>block.text).join('\n\n')??data.message).slice(0,8000)});history=history.slice(-6);
+ if(data.mode==='excerpts')reply.append(node('div','AI is not configured. Set LLM_MODEL in guideline_chat/.env to use the ML server model.','notice'));
+-for(const notice of data.notices)reply.append(node('div',notice,'notice'));data.sources.forEach((s,i)=>{const card=node('details',null,'source');card.open=i===0;const summary=node('summary');const pages=s.page?(s.page_end&&s.page_end!==s.page?' · '+(s.page_kind||'PDF page')+'s '+s.page+'–'+s.page_end:' · '+(s.page_kind||'PDF page')+' '+s.page):' · Word document';summary.append(node('span',String(i+1),'number'),node('span',s.document.title+' · '+s.document.version+pages+(s.heading_path?' · '+s.heading_path:'')));card.append(summary,node('pre',s.text));const a=node('a',s.url.includes('#page=')?'Open source page ↗':'Open source document ↗');a.href=s.url;a.target='_blank';a.rel='noopener';card.append(a);reply.append(card);});}catch(e){reply.replaceChildren(node('div','Could not complete the answer','msglabel'),node('p',e.message));$('#question').value=question;}finally{busy=false;$('#send').disabled=false;reply.scrollIntoView({behavior:'smooth',block:'start'});}}
++for(const notice of data.notices)reply.append(node('div',notice,'notice'));data.sources.forEach((s,i)=>{const card=node('details',null,'source');const cites=(data.blocks||[]).flatMap(b=>b.citations||[]);card.open=cites.length?cites.includes(i+1):i===0;const summary=node('summary');const pages=s.page?(s.page_end&&s.page_end!==s.page?' · '+(s.page_kind||'PDF page')+'s '+s.page+'–'+s.page_end:' · '+(s.page_kind||'PDF page')+' '+s.page):' · Word document';summary.append(node('span',String(i+1),'number'),node('span',s.document.title+' · '+s.document.version+pages+(s.heading_path?' · '+s.heading_path:'')));card.append(summary,node('pre',s.text));const a=node('a',s.url.includes('#page=')?'Open source page ↗':'Open source document ↗');a.href=s.url;a.target='_blank';a.rel='noopener';card.append(a);reply.append(card);});}catch(e){reply.replaceChildren(node('div','Could not complete the answer','msglabel'),node('p',e.message));$('#question').value=question;}finally{busy=false;$('#send').disabled=false;reply.scrollIntoView({behavior:'smooth',block:'start'});}}
+ $('#chat').onsubmit=ask;$('#new').onclick=()=>{if(!busy)reset();};$('#question').onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();$('#chat').requestSubmit();}};bindSuggestions();
+ fetch('/api/library').then(r=>{if(!r.ok)throw Error('Library unavailable');return r.json();}).then(data=>{$('.status').textContent='? '+data.mode;$('#count').textContent=data.documents.length;data.programs.forEach(p=>$('#program').append(node('option',p)));data.documents.forEach(d=>{const a=node('a',null,'libraryitem');a.href='/documents/'+d.id;a.target='_blank';a.rel='noopener';a.append(node('span','▤','docicon'),node('span',d.title),node('small',d.version));$('#library').append(a);});}).catch(e=>{$('#library').textContent=e.message;});
+ 
+diff -ruN a/guideline_chat/static/copilot-component.js b/guideline_chat/static/copilot-component.js
+--- a/guideline_chat/static/copilot-component.js	2026-11-27 08:33:09
++++ b/guideline_chat/static/copilot-component.js	2026-11-27 08:33:09
+@@ -27,9 +27,9 @@
+       const r=await fetch(this.base()+'/api/chat',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({question,program:this.q('select').value,history:this.history.slice(-6)})});const data=await r.json();if(!r.ok)throw Error(data.error||'Could not answer');reply.querySelector('p').remove();
+       for(const b of data.blocks||[{text:data.message,citations:[]}]){const p=this.element('p',b.text);for(const id of b.citations)p.append(this.sourceLink(data.sources[id-1],' ['+id+']'));reply.append(p);}
+       this.history.push({role:'user',content:question},{role:'assistant',content:(data.blocks?.map(block=>block.text).join('\n\n')??data.message).slice(0,8000)});this.history=this.history.slice(-6);
+-      if(data.mode!=='llm')reply.append(this.element('div','AI is not configured. Showing guideline excerpts.','notice'));
++      if(data.mode==='excerpts')reply.append(this.element('div','AI is not configured. Showing guideline excerpts.','notice'));
+       for(const notice of data.notices||[])reply.append(this.element('div',notice,'notice'));
+-      const sources=this.element('div',null,'sources');(data.sources||[]).forEach((s,i)=>{const d=this.element('details');d.open=i===0;const pageKind=s.page_kind||'PDF page';const pages=s.page?(s.page_end&&s.page_end!==s.page?' · '+pageKind+'s '+s.page+'–'+s.page_end:' · '+pageKind+' '+s.page):'';d.append(this.element('summary',`[${i+1}] ${s.document.title} · ${s.document.version}${pages}${s.heading_path?' · '+s.heading_path:''}`),this.element('pre',s.text),this.sourceLink(s,s.url.includes('#page=')?'Open source page ↗':'Open source ↗'));sources.append(d);});reply.append(sources);
++      const sources=this.element('div',null,'sources');(data.sources||[]).forEach((s,i)=>{const d=this.element('details');const cites=(data.blocks||[]).flatMap(b=>b.citations||[]);d.open=cites.length?cites.includes(i+1):i===0;const pageKind=s.page_kind||'PDF page';const pages=s.page?(s.page_end&&s.page_end!==s.page?' · '+pageKind+'s '+s.page+'–'+s.page_end:' · '+pageKind+' '+s.page):'';d.append(this.element('summary',`[${i+1}] ${s.document.title} · ${s.document.version}${pages}${s.heading_path?' · '+s.heading_path:''}`),this.element('pre',s.text),this.sourceLink(s,s.url.includes('#page=')?'Open source page ↗':'Open source ↗'));sources.append(d);});reply.append(sources);
+     }catch(e){reply.replaceChildren(this.element('p',e.message));input.value=question;}finally{this.busy=false;send.disabled=false;this.q('section').scrollTop=this.q('section').scrollHeight;}}
+ }
+ if(!customElements.get('facility-copilot'))customElements.define('facility-copilot',FacilityCopilot);
+diff -ruN a/guideline_chat/test_app.py b/guideline_chat/test_app.py
+--- a/guideline_chat/test_app.py	2026-11-27 08:33:09
++++ b/guideline_chat/test_app.py	2026-11-27 08:33:09
+@@ -352,7 +352,9 @@
+                 'What follow-up is recommended during pregnancy?',
+                 [], 'PrEP', False)
+         self.assertEqual(result['kind'], 'answer')
+-        self.assertTrue(any('Verify doses' in notice for notice in result['notices']))
++        self.assertTrue(any('Clinician review needed' in notice and 'pregnancy' in notice
++                            for notice in result['notices']))
++        self.assertIn('the cited passages do not mention it', ' '.join(result['review']['reasons']))
+ 
+     def test_high_risk_answer_always_gets_verification_notice(self):
+         source = {
+@@ -371,7 +373,62 @@
+                 app, 'search', return_value=[source]):
+             result = app.ai_answer('Can I give alteplase for this stroke?', [], 'NCDs', False)
+         self.assertEqual(result['kind'], 'answer')
+-        self.assertTrue(any('Verify doses' in notice for notice in result['notices']))
++        self.assertEqual(result['review']['level'], 'review')
++        self.assertTrue(any('Clinician review needed' in notice and 'emergency or dose question' in notice
++                            for notice in result['notices']))
++
++    def test_review_reasons_point_at_what_to_check(self):
++        sources = [
++            {'document': {'id': '0'}, 'heading_path': 'CAB-LA', 'text': 'CAB-LA needs a weight of at least 35 kg.'},
++            {'document': {'id': '1'}, 'heading_path': 'Amendment', 'text': 'Eligibility for CAB-LA was revised.'},
++        ]
++        blocks = [{'text': 'Yes. She weighs 33 kg, which meets the 30 kg cut-off.', 'type': 'guideline_claim',
++                   'citations': [1]}]
++        reasons = app.review_reasons('16-year-old weighing 33 kg wants CAB-LA. Is she eligible?', blocks, sources)
++        self.assertEqual(len(reasons), 4)
++        self.assertIn('30: not found in the cited passages', reasons[0])
++        self.assertIn('2024 HIV Amendment', reasons[1])
++        self.assertIn('yes/no', reasons[2])
++        self.assertIn('band or threshold', reasons[3])
++        notice = app.review_notice(reasons)
++        self.assertTrue(notice.startswith('Clinician review needed before acting. Check: (1) the number(s) 30'))
++
++    def test_plain_answer_still_asks_for_a_check(self):
++        sources = [{'document': {'id': '5'}, 'heading_path': 'Follow-up', 'text': 'Review sputum at month 2.'}]
++        blocks = [{'text': 'Review sputum at month 2.', 'type': 'guideline_claim', 'citations': [1]}]
++        self.assertEqual(app.review_reasons('When is sputum reviewed in TB follow-up?', blocks, sources), [])
++        self.assertEqual(app.review_notice([]), app.CHECK_NOTICE)
++        blocks = [{'text': 'The 2025 guideline gives 2000 IU/mL.', 'type': 'guideline_claim', 'citations': [1]}]
++        self.assertIn('2000', app.review_reasons('HBV DNA threshold?', blocks, sources)[0])
++        self.assertNotIn('2025', app.review_reasons('HBV DNA threshold?', blocks, sources)[0])
++
++    def test_self_harm_intent_gets_fixed_guideline_reply_without_the_model(self):
++        db = sqlite3.connect(self.index_path)
++        for n, chunk_id in enumerate(('mental-health-deskguide-0258', 'ncdimh-0931',
++                                      'mental-health-deskguide-0060', 'ncdimh-box-suicide-risk-depression-follow-up')):
++            self.insert_chunk(db, chunk_id.rsplit('-', 1)[0] if chunk_id.startswith('mental') else 'ncdimh',
++                              chunk_id, 30 + n, [1.0, 0.0], title='Mental health', heading='Suicide')
++        db.commit(); db.close()
++        with patch.object(app, 'llm_json') as model:
++            result = app.ai_answer('My patient has pills saved up and plans to take them all tonight. What do I do?',
++                                   [], 'All programs', False)
++        model.assert_not_called()
++        self.assertEqual(result['mode'], 'fixed')
++        self.assertIn('Do not leave the person alone', result['blocks'][0]['text'])
++        self.assertTrue(all(block['citations'] for block in result['blocks']))
++        self.assertEqual(len(result['sources']), 4)
++        self.assertIn('not an AI-generated answer', result['notices'][0])
++
++    def test_self_harm_route_needs_active_intent(self):
++        for question in ('She wants to kill herself.', 'He is threatening to hang himself tonight.',
++                         'I want to end my life', 'Patient says she will take all her pills.'):
++            self.assertTrue(app.self_harm_crisis(question), question)
++        for question in ('Patient scores 22 on the Suicide Risk Assessment Form. What is the risk level?',
++                         'Woman with moderate depression and recent suicidal thoughts. Amitriptyline or an SSRI?',
++                         '60 kg adult took a paracetamol overdose. Which antidote?',
++                         'She missed 2 pills. Should she take them both?',
++                         'Can she take the pills with food?'):
++            self.assertFalse(app.self_harm_crisis(question), question)
+ 
+     def test_high_risk_evidence_matching_strips_punctuation(self):
+         self.assertFalse(app.evidence_is_ambiguous(
