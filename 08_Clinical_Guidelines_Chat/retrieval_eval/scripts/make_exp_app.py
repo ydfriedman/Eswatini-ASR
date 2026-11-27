@@ -9,6 +9,7 @@ source (checked by comparing retrieval runs). Switches:
   EXP_RAW_QUESTION (1)                       add the user's question as a search query
   EXP_MAX_QUERIES (3)                        planner queries used
   EXP_FOLLOWUP_APPEND (1)                    append the previous user question for short follow-ups
+  EXP_VERIFY (off), EXP_VERIFY_ACT (contradicted|any)   second call checks the answer; rewrite once (exp_verify.py)
 """
 import shutil, sys
 from pathlib import Path
@@ -211,5 +212,6 @@ def _exp_rerank(query, ranked):
     head = sorted(head, key=lambda item: _RERANK_CACHE[(query, item[1][0])], reverse=True)
     return head + tail
 '''
+code += '\n' + (Path(__file__).parent / 'exp_verify.py').read_text(encoding='utf-8')
 path.write_text(code, encoding='utf-8')
 print('wrote', path)

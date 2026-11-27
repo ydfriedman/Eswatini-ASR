@@ -15,6 +15,9 @@ are held out** and reported separately.
   84-question subset (unsafe 38 → 25), but the full 188-question run with patches 01-04 gives **34 unsafe vs 38**, with
   34 answers better and 34 worse. On the 104 questions that were not used to choose it, it made 9 new unsafe answers.
   The subset gain was mostly chance (the subset was picked for failing). Not recommended as a fix on its own.
+- **A second llama pass that checks the answer against its sources and rewrites it does not help:** unsafe 38 → 40.
+  The checker flags 45% of unsafe answers and 35% of correct ones, and its rewrites turned 9 safe answers unsafe
+  while fixing 7. It also doubles response time.
 - **Cheap fixes with tests:** out-of-scope backstop (Q093, Q127 no longer refused), a numeric "above" check and
   dropping an uncited block on the last retry (patches 01-03).
 - **Reranker:** 156 → 162-163 gold-in-context at the same context size; worthwhile but secondary.
@@ -200,6 +203,53 @@ questions the fixes were aimed at (Q093, Q127, Q046, Q170-type errors) improve r
 Not tested for lack of time: a longer length limit (5 blocks / 150 words) for the partial answers, tables as HTML,
 question placed after the sources, temperature and `LLM_NUM_CTX` (the switches are in `make_exp_app.py`).
 
+### Second pass: llama checks its own answer (26-27 Nov; `results/ans_verify.jsonl`, `verify_grades.jsonl`)
+
+**What it does** (`scripts/exp_verify.py`, switch `EXP_VERIFY=1`, added to the unpatched app):
+1. After the normal answer, a second llama3.1:8b call gets the question, the same passages and the numbered answer
+   blocks. It judges each block "supported", "contradicted" (wrong group, threshold or verdict) or "not in sources",
+   quoting the passage before it judges.
+2. If any block is contradicted, the answer is written again once, with the checker's reasons given as the retry
+   message. Everything else in the app is unchanged.
+
+The prompt is general and contains nothing from the benchmark. At temperature 0 the first answers are word for word
+the baseline answers (188/188). 62 answers were rewritten, 3 of them word for word the same as before. The 129
+answers identical to the baseline keep their grades, and Q170 fails with the same error as in the baseline. The other
+58 were graded fresh, without the baseline answer beside them; I knew they were rewrites.
+
+**Result: not recommended.** Unsafe went from 38 to 40.
+
+| Run | n | Correct | Partial | Wrong | Unsafe | No answer | Refusal | Better / worse |
+|---|---|---|---|---|---|---|---|---|
+| Baseline | 188 | 37 | 79 | 21 | 38 | 4 | 9 | |
+| **Checker + rewrite** | 188 | 41 | 78 | 16 | **40** | 4 | 9 | 16 / 14 |
+| Q001-Q152 | 152 | 34 (32) | 60 (61) | 10 (14) | 36 (33) | 3 (3) | 9 (9) | 13 / 14 |
+| held out Q153-Q188 | 36 | 7 (5) | 18 (18) | 6 (7) | 4 (5) | 1 (1) | 0 | 3 / 0 |
+
+(Baseline in brackets.)
+
+- **The checker barely tells good answers from bad.** It flagged 17 of the 38 unsafe answers (45%), 8 of 20 wrong
+  ones, and 13 of the 37 correct ones (35%). Counting "not in sources" as a flag too catches no more unsafe answers
+  and flags 19 of the 37 correct ones.
+- **It often fails to finish.** 28 of the 170 checks (16%) ran out of room, the model repeating itself until the
+  app's 1,200-token output limit. Those count as not flagged. Re-run with a 4,000-token limit, 2 of the first 3
+  finished ("all supported") and the third ran away again; the re-check was then stopped.
+- **The rewrite breaks as many answers as it fixes.**
+  - Unsafe fixed (7): Q001, Q026, Q031, Q040, Q108, Q125, Q184.
+  - Newly unsafe (9): Q007, Q009, Q033, Q045, Q054, Q062, Q072, Q098, Q102. Several of these were good answers that
+    the checker wrongly flagged: Q009 (correct) became "Yes, you can use pALD" at 5 kg, Q054 became "Yes, you can use
+    carbamazepine" with efavirenz, and Q045 became "Yes, both rings".
+  - Wrong answers improved (21 → 16) and correct answers rose (37 → 41), but the unsafe count is what matters here.
+- **Flagging instead of rewriting would not work either.** Re-checking the 62 rewritten answers flagged 11 of the 22
+  that were wrong or unsafe, and 21 of the 40 that were not. That is no better than chance, so a "check the guideline"
+  warning would appear almost at random.
+- **Cost:** response time roughly doubles (median 55 s → 123 s per answered question on this Mac).
+
+**Conclusion:** the 8B model is no better at checking an answer than at writing one. It misreads the same rules, so
+its second opinion mostly adds noise. A checker could still be worth testing with a stronger model as the checker
+(this plan keeps the answer model fixed). Sampling several answers and comparing their verdicts (self-consistency)
+was not tested.
+
 ## 4. Recommendations (priority order)
 
 1. **Out-of-scope backstop** (`patches/01_out_of_scope_backstop.patch`): when the planner says "out of scope" but the
@@ -222,7 +272,8 @@ question placed after the sources, temperature and `LLM_NUM_CTX` (the switches a
 5. **Prompt: verdict after the rule (patch 04): optional, not a fix.** Over all 188 it gives 34 unsafe instead of 38,
    but changes 68 answers (34 better, 34 worse) and makes 9 previously safe answers unsafe. Deploy it only if the
    clinical team prefers its kind of error; it should not be described as a safety improvement.
-6. **Not recommended:** facts-first `key_facts` field (breaks ~1 in 4 good answers); top-k 10 (overflows the context);
+6. **Not recommended:** a second llama pass that checks and rewrites the answer (unsafe 38 → 40, twice the response
+   time); facts-first `key_facts` field (breaks ~1 in 4 good answers); top-k 10 (overflows the context);
    semantic-only search; a wider Amendment margin.
 7. **What would actually move the numbers** (outside this plan's fixed-model rule): the answer model. With 33 of 38
    unsafe answers having the right passage in front of the model, a stronger answer model is the change most likely
@@ -257,7 +308,8 @@ On the production server, with the deployed `.env` and llama3.1:8b:
 - `results/ans_<variant>.jsonl` + `results/<variant>_grades.jsonl`: answer-step variants.
 - `patches/`: recommended code changes, each against `app_snapshot/guideline_chat` with its tests.
 - `scripts/`: the original scripts (`retrieval_eval.py` gained an optional embedding cache) plus `make_exp_app.py`,
-  `sweep.sh`, `brief.py`, `grade_sheet.py`, `followup_eval.py`.
+  `sweep.sh`, `brief.py`, `grade_sheet.py`, `followup_eval.py`, `exp_verify.py` (the checker pass) and
+  `verify_eval.py` (scores it).
 
 ## Run log
 
@@ -271,3 +323,4 @@ On the production server, with the deployed `.env` and llama3.1:8b:
 | 26 Nov 10:27-11:55 | facts-first, 84-question subset | `ans_reason_first.jsonl`, `reason_first_grades.jsonl` | first attempt with a leaking example discarded: `ans_reason_first_v0_example_leak.jsonl` |
 | 26 Nov 11:55-13:30 | verdict-after-rule, 84-question subset | `ans_verdict_last.jsonl`, `verdict_last_grades.jsonl` | |
 | 26 Nov 16:30-19:50 | full 188-question run with patches 01-04 | `ans_patched.jsonl`, `patched_grades.jsonl` | unsafe 38 -> 34; 34 better, 34 worse |
+| 26 Nov 22:25-27 Nov 04:32 | checker + rewrite (`EXP_VERIFY=1`), all 188 | `ans_verify.jsonl`, `verify_grades.jsonl` | unsafe 38 -> 40; re-check of failed checks: `verify_recheck.jsonl` (3 of 28, stopped) |

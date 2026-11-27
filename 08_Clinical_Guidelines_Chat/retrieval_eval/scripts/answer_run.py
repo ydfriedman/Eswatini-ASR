@@ -64,6 +64,8 @@ with open(args.out, 'a', encoding='utf-8') as fh:
                                  'tokens': s.get('approx_tokens')} for i, s in enumerate(res.get('sources', []), 1)])
         except Exception as exc:
             rec['error'] = f'{type(exc).__name__}: {exc}'[:500]
+        if getattr(app, '_EXP', {}).get('verify') is not None:
+            rec['verify'] = app._EXP.pop('verify')
         rec['seconds'] = round(time.time() - t, 1)
         rec['calls'] = list(calls)
         rec['tokens'] = list(tokens)
