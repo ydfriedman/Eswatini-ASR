@@ -11,13 +11,18 @@ are held out** and reported separately.
   38 unsafe answers the right passage was there; the 8B model misused it. The commonest unsafe pattern is a Yes/No
   verdict that its own next sentence contradicts (11), then misreading the rule (16), inventing content the guidelines
   do not cover or accepting a false premise (7), and following superseded 2022 rules (3).
-- **Best measured change:** asking for the rule and comparison before the verdict (patch 04) cut unsafe answers 38 → 25
-  on an 84-question subset without making any good answer unsafe. It still needs a full 188-question confirmation.
+- **Prompt changes mostly reshuffle the errors.** Asking for the rule before the verdict (patch 04) looked strong on an
+  84-question subset (unsafe 38 → 25), but the full 188-question run with patches 01-04 gives **34 unsafe vs 38**, with
+  34 answers better and 34 worse. On the 104 questions that were not used to choose it, it made 9 new unsafe answers.
+  The subset gain was mostly chance (the subset was picked for failing). Not recommended as a fix on its own.
 - **Cheap fixes with tests:** out-of-scope backstop (Q093, Q127 no longer refused), a numeric "above" check and
   dropping an uncited block on the last retry (patches 01-03).
 - **Reranker:** 156 → 162-163 gold-in-context at the same context size; worthwhile but secondary.
-- The night was cut short: the Mac went down at 23:05 and the work resumed at 07:35, so the full confirmation run
-  of the recommended changes was not done.
+- **Bottom line:** with llama3.1:8b, about 1 in 5 answers is unsafe whatever the prompt; the targeted code fixes help
+  a few questions each, and the reranker improves retrieval, but neither touches the main cause (the 8B model misusing
+  correct evidence). The plan keeps llama3.1:8b as the answer model, and that caps what these changes can do.
+- The night was cut short (the Mac went down at 23:05; work resumed at 07:35); the full confirmation run was done
+  afterwards, on 26 Nov evening.
 
 ## 1. Machine, app and settings
 
@@ -161,45 +166,68 @@ Q043, Q046, Q056, Q167, Q184, Q185), but breaks about 1 in 4 good answers (Q012 
 the ~130 good answers would roughly cancel the gains. It also copies the system prompt's cotrimoxazole example into
 `key_facts` (Q005), showing how strongly the 8B model imitates examples.
 
-**Verdict after the rule: recommended, after a full 188-question confirmation.** It removes 13 of the 38 unsafe
+**Verdict after the rule, on the subset:** it removes 13 of the 38 unsafe
 answers on the subset, mostly the flipped-verdict type (Q040, Q041, Q067, Q184, Q185 now state the rule and the
 comparison instead of a wrong opening Yes/No), plus Q106/Q108 (no longer invent malaria or COVID drugs) and Q126
 (corrects the false premise). None of the 25 good answers became unsafe; its regressions are milder (Q009, Q139, Q186
 correct → partial because the final verdict is left unstated; Q155 → "insufficient evidence"). It does not fix the
 misread-rule errors (Q016 "minor haemorrhage", Q031, Q038, Q131, Q138, Q174) or stale 2022 rules (Q010, Q080). The
 8B model copies the rewritten example's phrasing ("..., so yes: start metformin now", Q094), so examples must stay
-general. Expected effect over all 188 (not yet measured): roughly 38 → 25-28 unsafe, with a few correct answers
-becoming partial.
+general.
+
+**Full 188-question confirmation (patches 01-04 together; `results/ans_patched.jsonl`, `patched_grades.jsonl`).**
+The 84 subset answers came out word for word the same as in the verdict-last run (temperature 0), so their grades
+were reused; the other 104 were graded fresh, without the baseline answer beside them.
+
+| Full run | n | Correct | Partial | Wrong | Unsafe | No answer | Refusal | Better / worse |
+|---|---|---|---|---|---|---|---|---|
+| Baseline | 188 | 37 | 79 | 21 | 38 | 4 | 9 | |
+| **Patches 01-04** | 188 | 35 | 81 | 25 | **34** | 4 | 9 | 34 / 34 |
+| held out Q153-Q188 | 36 | 6 (5) | 19 (18) | 7 (7) | 3 (5) | 1 (1) | 0 | 7 / 6 |
+| the 84 subset | 84 | 14 (13) | 30 (12) | 14 (21) | 25 (38) | 1 | 0 | 24 / 10 |
+| **the other 104** | 104 | 21 (24) | 51 (67) | 11 (0) | **9 (0)** | 3 (4) | 9 (9) | 10 / **24** |
+
+(Baseline in brackets.) Unsafe fixed: Q001, Q005, Q040, Q041, Q046, Q067, Q073, Q082, Q106, Q108, Q126, Q148, Q150,
+Q159, Q167, Q184, Q185. Newly unsafe: Q003 (says start ART on the day of diagnosis without confirming a self-test),
+Q008 (annual VL for a breastfeeding woman), Q033, Q039, Q070 (outpatient LF-LAM only at CD4 ≤100), Q072, Q091, Q092,
+Q134, Q136, Q146 (declares a guideline "wrong"), Q153 (VIA positive sent back to routine screening), Q179. Q128 failed
+because the model wrote "4 x 30 x 70", which the calculator rejects (fixed by patch 05).
+
+**Conclusion:** the prompt change trades one set of errors for another. The 8B model's answers are sensitive to any
+prompt wording, so a gain measured on questions chosen because they failed mostly reflects that sensitivity. Only the
+questions the fixes were aimed at (Q093, Q127, Q046, Q170-type errors) improve reliably.
 
 Not tested for lack of time: a longer length limit (5 blocks / 150 words) for the partial answers, tables as HTML,
 question placed after the sources, temperature and `LLM_NUM_CTX` (the switches are in `make_exp_app.py`).
 
 ## 4. Recommendations (priority order)
 
-1. **Prompt: verdict after the rule** (`patches/04_verdict_after_rule.patch`: 2 lines of the prompt, 1 line of the
-   response contract, 1 test). Biggest measured safety gain: unsafe 38 → 25 on the 84-question subset, no new unsafe
-   answers among the good ones. Risk: some yes/no answers no longer state the verdict outright (correct → partial).
-   Confirm on all 188 before deploying (below).
-2. **Out-of-scope backstop** (`patches/01_out_of_scope_backstop.patch`): when the planner says "out of scope" but the
+1. **Out-of-scope backstop** (`patches/01_out_of_scope_backstop.patch`): when the planner says "out of scope" but the
    best guideline passage scores ≥ 0.60, answer instead. Fixes Q093 and Q127; all 7 genuine refusals stay refused
    (off-topic questions score ≤ 0.54, incl. 5 made-up ones). Cost: one extra search for refused questions. Risk: the
    0.60 threshold was set on these same questions; check a few more off-topic questions on the server.
-3. **Small validation fixes** (`patches/02_above_comparison_check.patch`: rejects "55 mL/min, which is above 60 mL/min"
+2. **Small validation fixes** (`patches/02_above_comparison_check.patch`: rejects "55 mL/min, which is above 60 mL/min"
    and retries, caught Q046 with no false alarms in 188 answers; `patches/03_drop_uncited_block_on_final_attempt.patch`:
    on the last retry drop a claim block with no citation instead of failing the whole answer, fixes Q170's error).
-   Low risk; each has a test.
-4. **Reranker** (`BAAI/bge-reranker-v2-m3` over the fused candidates, each search returning 15 hits; code in
+   `patches/05_letter_x_multiplication.patch`: accept "4 x 30 x 70" in a calculation (Q128). Low risk; each has a test.
+3. **Reranker** (`BAAI/bge-reranker-v2-m3` over the fused candidates, each search returning 15 hits; code in
    `scripts/make_exp_app.py`, `_exp_rerank_final`). Gold-in-context 156 → 162 (91%), held out 33 → 34, no extra
    context; with `RETRIEVAL_TOP_K=8`, `RETRIEVAL_EXPANSION_HITS=3` and a per-document cap of 4: 163 (92%), held out
    35/36, every gold passage 93 → 114. Cost: a second model on the server (torch + 2.3 GB, ~3 s per question on the
    Mac GPU, less on a server GPU) and the top-k 8 inputs reach ~14,100 tokens (add a cap on total passage length).
    Medium priority: retrieval was already finding the passage for 33 of the 38 unsafe answers.
-5. **Free retrieval settings** if the reranker is not deployed: `RETRIEVAL_EXPANSION_HITS=3` (same coverage, less
+4. **Free retrieval settings** if the reranker is not deployed: `RETRIEVAL_EXPANSION_HITS=3` (same coverage, less
    text). Keep hybrid search, expansion, the raw question as a query, 3 planner queries, the follow-up rule and the
    0.08 Amendment margin (all tested: each alternative was worse or no better).
+5. **Prompt: verdict after the rule (patch 04): optional, not a fix.** Over all 188 it gives 34 unsafe instead of 38,
+   but changes 68 answers (34 better, 34 worse) and makes 9 previously safe answers unsafe. Deploy it only if the
+   clinical team prefers its kind of error; it should not be described as a safety improvement.
 6. **Not recommended:** facts-first `key_facts` field (breaks ~1 in 4 good answers); top-k 10 (overflows the context);
    semantic-only search; a wider Amendment margin.
-7. **Content issues for the guideline team** (not code): the 2022-vs-2024 rules the model keeps using (CrAg threshold,
+7. **What would actually move the numbers** (outside this plan's fixed-model rule): the answer model. With 33 of 38
+   unsafe answers having the right passage in front of the model, a stronger answer model is the change most likely
+   to help; within llama3.1:8b, the safest use is to show the retrieved passages prominently with the answer.
+8. **Content issues for the guideline team** (not code): the 2022-vs-2024 rules the model keeps using (CrAg threshold,
    infant prophylaxis, MDR-TB contact TPT, viral-load bands) would be safer if the superseded 2022 passages carried an
    explicit "replaced by the 2024 Amendment" note in the chunk text; one reference label shows the raw id "prep-2025"
    instead of the document title (some chunks' `doc_title`).
@@ -207,10 +235,10 @@ question placed after the sources, temperature and `LLM_NUM_CTX` (the switches a
 ## 5. To confirm on the production server
 
 On the production server, with the deployed `.env` and llama3.1:8b:
-1. Apply patches 01-04 to a copy of the app and run its tests (`python3 -m unittest test_app`, 81 tests with the
-   patches' additions).
-2. Full answer run on all 188 with the patched copy, then grade it the same way and compare with
-   `results/baseline_grades.jsonl` (overall, held out, unsafe count):
+1. Apply patches 01, 02, 03 and 05 (and 04 only if wanted) to a copy of the app and run its tests
+   (`python3 -m unittest test_app`; 82 tests with all five).
+2. Optional: a full answer run on the server with the patched copy, graded the same way, to check the server gives
+   the same picture as this Mac:
    ```
    python3 retrieval_eval/scripts/answer_run.py <patched app dir> benchmark_review/revised_questions.jsonl retrieval_eval/results/ans_patched.jsonl --label patched
    python3 retrieval_eval/scripts/grade_sheet.py benchmark_review/revised_questions.jsonl retrieval_eval/results/ans_baseline.jsonl retrieval_eval/results/ans_patched.jsonl --blind 1 --key key.json
@@ -242,3 +270,4 @@ On the production server, with the deployed `.env` and llama3.1:8b:
 | 26 Nov 09:50-10:25 | reranker retrieval (3 variants, llama unloaded) | `ret_rerank_final_*.json` | 3.3 s/question |
 | 26 Nov 10:27-11:55 | facts-first, 84-question subset | `ans_reason_first.jsonl`, `reason_first_grades.jsonl` | first attempt with a leaking example discarded: `ans_reason_first_v0_example_leak.jsonl` |
 | 26 Nov 11:55-13:30 | verdict-after-rule, 84-question subset | `ans_verdict_last.jsonl`, `verdict_last_grades.jsonl` | |
+| 26 Nov 16:30-19:50 | full 188-question run with patches 01-04 | `ans_patched.jsonl`, `patched_grades.jsonl` | unsafe 38 -> 34; 34 better, 34 worse |

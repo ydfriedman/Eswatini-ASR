@@ -1,0 +1,26 @@
+--- a/guideline_chat/app.py	2026-11-25 21:31:11
++++ b/guideline_chat/app.py	2026-11-26 18:23:37
+@@ -389,6 +389,8 @@
+ def evaluate_expression(expression):
+     """Evaluate plain arithmetic (numbers, + - * / and parentheses) without running arbitrary code."""
+     cleaned = expression.replace('×', '*').replace('÷', '/').replace(',', '').strip()
++    # The model often writes "4 x 30 x 70": treat a letter x between numbers as multiplication.
++    cleaned = re.sub(r'(?<=[\d.)])\s*[xX]\s*(?=[\d.(])', '*', cleaned)
+     if not cleaned or len(cleaned) > 120:
+         raise ValueError(f'The calculation "{expression}" is empty or too long.')
+     try:
+--- a/guideline_chat/test_app.py	2026-11-25 21:31:11
++++ b/guideline_chat/test_app.py	2026-11-26 18:23:45
+@@ -68,6 +68,12 @@
+     def test_answer_source_limit_defaults_to_six(self):
+         with patch.dict(app.os.environ, {}, clear=True):
+             self.assertEqual(app.answer_source_limit(), 6)
++
++    def test_letter_x_is_multiplication(self):
++        self.assertEqual(app.evaluate_expression('4 x 30 x 70'), 8400)
++        self.assertEqual(app.evaluate_expression('(2.5x4)'), 10)
++        with self.assertRaises(ValueError):
++            app.evaluate_expression('x + 1')
+ 
+     def test_prep_retrieves_implementation_guideline(self):
+         sources = app.search('PrEP follow-up requirements', 'PrEP')
